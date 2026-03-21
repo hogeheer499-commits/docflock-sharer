@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DocFlock</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563EB">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Login -->
+  <div id="login-screen" class="screen">
+    <div class="login-box">
+      <h1>DocFlock</h1>
+      <p class="login-subtitle">Voer je PIN in</p>
+      <input type="password" id="pin-input" inputmode="numeric" placeholder="PIN" maxlength="10" autocomplete="off">
+      <button id="pin-submit">Unlock</button>
+      <p id="pin-error" class="error hidden"></p>
+    </div>
+  </div>
+
+  <!-- Main App -->
+  <div id="app-screen" class="screen hidden">
+    <div class="container">
+      <h1 class="app-title">DocFlock</h1>
+
+      <div class="player-section">
+        <!-- Video selector -->
+        <div class="select-group">
+          <label for="video-select">Video</label>
+          <select id="video-select">
+            <option value="">Selecteer een video...</option>
+          </select>
+        </div>
+
+        <!-- Language selector -->
+        <div id="lang-group" class="lang-group hidden">
+          <label>Subtitles</label>
+          <div id="lang-checkboxes" class="lang-checkboxes"></div>
+        </div>
+
+        <button id="play-btn" class="btn-primary btn-full" disabled>Afspelen</button>
+
+        <!-- Status card -->
+        <div id="status-card" class="status-card hidden">
+          <div class="status-title" id="status-title"></div>
+          <div class="status-meta">
+            <span class="status-state" id="status-state"></span>
+            <span class="status-langs" id="status-langs"></span>
+          </div>
+          <div class="progress-bar" id="progress-container">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+          <div class="progress-time" id="progress-time"></div>
+          <div class="controls">
+            <button id="pause-btn" class="btn-control" title="Pauzeren / Hervatten">
+              <svg id="pause-icon" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <rect x="6" y="4" width="4" height="16"/>
+                <rect x="14" y="4" width="4" height="16"/>
+              </svg>
+              <svg id="play-icon" viewBox="0 0 24 24" width="28" height="28" fill="currentColor" class="hidden">
+                <polygon points="5,3 19,12 5,21"/>
+              </svg>
+            </button>
+            <button id="stop-btn" class="btn-control btn-danger" title="Stoppen">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <rect x="4" y="4" width="16" height="16" rx="2"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div id="error-msg" class="error hidden"></div>
+      </div>
+
+      <button id="logout-btn" class="logout-btn" title="Uitloggen">Uitloggen</button>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

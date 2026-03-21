@@ -1,0 +1,8 @@
+name = "docflock-sharer"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "./public"
+
+# Set these as secrets via `wrangler pages secret put`:
+# - PIN_HASH (SHA-256 hash of the PIN)
+# - SESSION_SECRET (random string for HMAC signing)
+# - TUNNEL_URL (Cloudflare Tunnel URL to Beelink backend)

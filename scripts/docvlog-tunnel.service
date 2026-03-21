@@ -1,0 +1,14 @@
+[Unit]
+Description=DocVlog Cloudflared Tunnel
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__USER__
+ExecStart=/usr/bin/cloudflared tunnel run docvlog
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
