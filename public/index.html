@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
   <div id="login-screen" class="screen">
     <div class="login-box">
       <h1>DocFlock</h1>
-      <p class="login-subtitle">Voer je PIN in</p>
+      <p class="login-subtitle">Enter your PIN</p>
       <input type="password" id="pin-input" inputmode="numeric" placeholder="PIN" maxlength="10" autocomplete="off">
       <button id="pin-submit">Unlock</button>
       <p id="pin-error" class="error hidden"></p>
@@ -32,7 +32,7 @@
         <div class="select-group">
           <label for="video-select">Video</label>
           <select id="video-select">
-            <option value="">Selecteer een video...</option>
+            <option value="">Select a video...</option>
           </select>
         </div>
 
@@ -42,7 +42,7 @@
           <div id="lang-checkboxes" class="lang-checkboxes"></div>
         </div>
 
-        <button id="play-btn" class="btn-primary btn-full" disabled>Afspelen</button>
+        <button id="play-btn" class="btn-primary btn-full" disabled>Play</button>
 
         <!-- Status card -->
         <div id="status-card" class="status-card hidden">
@@ -56,7 +56,7 @@
           </div>
           <div class="progress-time" id="progress-time"></div>
           <div class="controls">
-            <button id="pause-btn" class="btn-control" title="Pauzeren / Hervatten">
+            <button id="pause-btn" class="btn-control" title="Pause / Resume">
               <svg id="pause-icon" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
                 <rect x="6" y="4" width="4" height="16"/>
                 <rect x="14" y="4" width="4" height="16"/>
@@ -65,7 +65,7 @@
                 <polygon points="5,3 19,12 5,21"/>
               </svg>
             </button>
-            <button id="stop-btn" class="btn-control btn-danger" title="Stoppen">
+            <button id="stop-btn" class="btn-control btn-danger" title="Stop">
               <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
                 <rect x="4" y="4" width="16" height="16" rx="2"/>
               </svg>
@@ -76,7 +76,7 @@
         <div id="error-msg" class="error hidden"></div>
       </div>
 
-      <button id="logout-btn" class="logout-btn" title="Uitloggen">Uitloggen</button>
+      <button id="logout-btn" class="logout-btn" title="Log out">Log out</button>
     </div>
   </div>
 

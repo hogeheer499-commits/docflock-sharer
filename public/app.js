@@ -75,7 +75,7 @@ async function doLogin() {
     });
     const data = await resp.json();
     if (!resp.ok) {
-      errorEl.textContent = data.error || "Login mislukt";
+      errorEl.textContent = data.error || "Login failed";
       errorEl.classList.remove("hidden");
       return;
     }
@@ -84,7 +84,7 @@ async function doLogin() {
     document.getElementById("pin-input").value = "";
     showApp();
   } catch {
-    errorEl.textContent = "Verbinding mislukt";
+    errorEl.textContent = "Connection failed";
     errorEl.classList.remove("hidden");
   }
 }
@@ -99,7 +99,7 @@ async function loadVideos() {
   try {
     const resp = await api("/api/videos");
     videosCache = await resp.json();
-    videoSelect.innerHTML = '<option value="">Selecteer een video...</option>';
+    videoSelect.innerHTML = '<option value="">Select a video...</option>';
     for (const v of videosCache) {
       const opt = document.createElement("option");
       opt.value = v.id;
@@ -163,7 +163,7 @@ async function playVideo() {
     });
     const data = await resp.json();
     if (!resp.ok) {
-      showError(data.error || "Afspelen mislukt");
+      showError(data.error || "Playback failed");
       return;
     }
     pollStatus();
@@ -225,13 +225,13 @@ function updateStatusUI(data) {
   }
 
   card.classList.remove("hidden");
-  titleEl.textContent = data.title || "Laden...";
+  titleEl.textContent = data.title || "Loading...";
 
   const stateLabels = {
-    playing: "Speelt af",
-    paused: "Gepauzeerd",
-    stopped: "Gestopt",
-    loading: "Laden...",
+    playing: "Playing",
+    paused: "Paused",
+    stopped: "Stopped",
+    loading: "Loading...",
   };
   stateEl.textContent = stateLabels[data.state] || data.state;
   stateEl.className = `status-state ${data.state}`;

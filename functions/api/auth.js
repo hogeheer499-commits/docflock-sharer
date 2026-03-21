@@ -4,7 +4,7 @@ export async function onRequestPost(context) {
   try {
     const { pin } = await context.request.json();
     if (!pin) {
-      return Response.json({ error: "PIN is vereist" }, { status: 400 });
+      return Response.json({ error: "PIN is required" }, { status: 400 });
     }
 
     const encoder = new TextEncoder();
@@ -16,7 +16,7 @@ export async function onRequestPost(context) {
       .join("");
 
     if (hashHex !== env.PIN_HASH) {
-      return Response.json({ error: "Ongeldige PIN" }, { status: 401 });
+      return Response.json({ error: "Invalid PIN" }, { status: 401 });
     }
 
     const expiry = Date.now() + 24 * 60 * 60 * 1000;

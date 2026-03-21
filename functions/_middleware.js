@@ -10,20 +10,20 @@ export async function onRequest(context) {
 
   const authHeader = request.headers.get("Authorization");
   if (!authHeader || !authHeader.startsWith("Bearer ")) {
-    return Response.json({ error: "Niet geautoriseerd" }, { status: 401 });
+    return Response.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   const token = authHeader.slice(7);
   const parts = token.split(".");
   if (parts.length !== 3) {
-    return Response.json({ error: "Ongeldig token" }, { status: 401 });
+    return Response.json({ error: "Invalid token" }, { status: 401 });
   }
 
   const [tokenData, expiryStr, sigHex] = parts;
   const expiry = parseInt(expiryStr, 10);
 
   if (Date.now() > expiry) {
-    return Response.json({ error: "Token verlopen" }, { status: 401 });
+    return Response.json({ error: "Token expired" }, { status: 401 });
   }
 
   try {
@@ -48,11 +48,11 @@ export async function onRequest(context) {
       encoder.encode(payload)
     );
     if (!valid) {
-      return Response.json({ error: "Ongeldig token" }, { status: 401 });
+      return Response.json({ error: "Invalid token" }, { status: 401 });
     }
   } catch {
     return Response.json(
-      { error: "Token verificatie mislukt" },
+      { error: "Token verification failed" },
       { status: 401 }
     );
   }

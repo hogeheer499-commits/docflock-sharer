@@ -159,8 +159,8 @@ class Player:
             # Video output → v4l2loopback
             cmd.extend(["-f", "v4l2", "-video_size", "1280x720", V4L2_DEVICE])
 
-            # Audio output → PulseAudio virtual sink
-            cmd.extend(["-f", "pulse", PULSE_SINK])
+            # Audio output → PulseAudio virtual sink (delay to match video processing)
+            cmd.extend(["-af", "adelay=300|300", "-f", "pulse", PULSE_SINK])
 
             # Overwrite without asking
             cmd.append("-y")
