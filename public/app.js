@@ -124,7 +124,6 @@ videoSelect.addEventListener("change", () => {
     return;
   }
 
-  // Show language checkboxes
   langCheckboxes.innerHTML = "";
   for (const lang of video.languages) {
     const label = document.createElement("label");
@@ -145,6 +144,23 @@ videoSelect.addEventListener("change", () => {
 playBtn.addEventListener("click", playVideo);
 document.getElementById("pause-btn").addEventListener("click", togglePause);
 document.getElementById("stop-btn").addEventListener("click", stopPlayback);
+document.getElementById("skip-back-30").addEventListener("click", () => skip(-30));
+document.getElementById("skip-back-10").addEventListener("click", () => skip(-10));
+document.getElementById("skip-fwd-10").addEventListener("click", () => skip(10));
+document.getElementById("skip-fwd-30").addEventListener("click", () => skip(30));
+
+// Seekable progress bar
+document.getElementById("progress-bar").addEventListener("click", (e) => {
+  const bar = e.currentTarget;
+  const rect = bar.getBoundingClientRect();
+  const pct = (e.clientX - rect.left) / rect.width;
+  const duration = lastStatus?.duration;
+  if (duration) {
+    seek(pct * duration);
+  }
+});
+
+let lastStatus = null;
 
 async function playVideo() {
   const videoId = videoSelect.value;
@@ -187,6 +203,24 @@ async function stopPlayback() {
   } catch {}
 }
 
+async function seek(position) {
+  try {
+    await api("/api/seek", {
+      method: "POST",
+      body: JSON.stringify({ position }),
+    });
+  } catch {}
+}
+
+async function skip(offset) {
+  try {
+    await api("/api/skip", {
+      method: "POST",
+      body: JSON.stringify({ offset }),
+    });
+  } catch {}
+}
+
 // --- Status polling ---
 function pollStatus() {
   stopPolling();
@@ -205,6 +239,7 @@ async function fetchStatus() {
   try {
     const resp = await api("/api/status");
     const data = await resp.json();
+    lastStatus = data;
     updateStatusUI(data);
   } catch {}
 }
@@ -215,7 +250,8 @@ function updateStatusUI(data) {
   const stateEl = document.getElementById("status-state");
   const langsEl = document.getElementById("status-langs");
   const progressFill = document.getElementById("progress-fill");
-  const progressTime = document.getElementById("progress-time");
+  const timeCurrent = document.getElementById("time-current");
+  const timeTotal = document.getElementById("time-total");
   const pauseIcon = document.getElementById("pause-icon");
   const playIcon = document.getElementById("play-icon");
 
@@ -236,7 +272,6 @@ function updateStatusUI(data) {
   stateEl.textContent = stateLabels[data.state] || data.state;
   stateEl.className = `status-state ${data.state}`;
 
-  // Show active languages
   if (data.languages && data.languages.length > 0) {
     langsEl.textContent = data.languages.map((l) => l.toUpperCase()).join(" + ");
   } else {
@@ -246,13 +281,12 @@ function updateStatusUI(data) {
   if (data.duration && data.current_time != null) {
     const pct = Math.min((data.current_time / data.duration) * 100, 100);
     progressFill.style.width = `${pct}%`;
-    progressTime.textContent = `${formatTime(data.current_time)} / ${formatTime(data.duration)}`;
-  } else if (data.current_time != null) {
-    progressFill.style.width = "0%";
-    progressTime.textContent = formatTime(data.current_time);
+    timeCurrent.textContent = formatTime(data.current_time);
+    timeTotal.textContent = formatTime(data.duration);
   } else {
     progressFill.style.width = "0%";
-    progressTime.textContent = "";
+    timeCurrent.textContent = formatTime(data.current_time);
+    timeTotal.textContent = formatTime(data.duration);
   }
 
   if (data.state === "paused") {
@@ -267,7 +301,7 @@ function updateStatusUI(data) {
 }
 
 function formatTime(seconds) {
-  if (seconds == null) return "--:--";
+  if (seconds == null) return "0:00";
   const h = Math.floor(seconds / 3600);
   const m = Math.floor((seconds % 3600) / 60);
   const s = Math.floor(seconds % 60);

@@ -38,11 +38,12 @@ class PlayerStatus:
         }
 
 
-# Alignment values for subtitle positioning (ASS standard)
-_POSITION_MAP = {
-    0: 2,  # First language: bottom center
-    1: 8,  # Second language: top center
-    2: 5,  # Third language: middle center
+# Subtitle style per position: (Alignment, MarginV, PrimaryColour)
+# All bottom-aligned, stacked with different margins and colors
+_STYLE_MAP = {
+    0: {"Alignment": 2, "MarginV": 50},   # Primary: white, bottom
+    1: {"Alignment": 2, "MarginV": 180, "PrimaryColour": "&H00FFCC66"},  # Secondary: light blue, above
+    2: {"Alignment": 2, "MarginV": 310, "PrimaryColour": "&H0066FFCC"},  # Tertiary: light green, above
 }
 
 
@@ -93,6 +94,20 @@ def get_video(video_id: str) -> dict | None:
     return None
 
 
+async def _get_duration(filepath: str) -> float | None:
+    """Get video duration using ffprobe."""
+    proc = await asyncio.create_subprocess_exec(
+        "ffprobe", "-v", "quiet", "-show_entries", "format=duration",
+        "-of", "default=noprint_wrappers=1:nokey=1", filepath,
+        stdout=asyncio.subprocess.PIPE,
+    )
+    stdout, _ = await proc.communicate()
+    try:
+        return float(stdout.decode().strip())
+    except ValueError:
+        return None
+
+
 def _build_subtitle_filter(video: dict, languages: list[str]) -> str:
     """Build FFmpeg subtitle filter string for selected languages."""
     subs_dir = Path(video["file"]).parent / "subs"
@@ -103,11 +118,14 @@ def _build_subtitle_filter(video: dict, languages: list[str]) -> str:
         if not ass_file.exists():
             continue
 
-        alignment = _POSITION_MAP.get(i, 2)
+        style = _STYLE_MAP.get(i, _STYLE_MAP[0])
+        style_parts = [f"{k}={v}" for k, v in style.items()]
+        force_style = ",".join(style_parts)
+
         # Escape path for FFmpeg filter (colons and backslashes)
         escaped_path = str(ass_file).replace("\\", "\\\\").replace(":", "\\:")
         filters.append(
-            f"subtitles={escaped_path}:force_style='Alignment={alignment}'"
+            f"subtitles={escaped_path}:force_style='{force_style}'"
         )
 
     return ",".join(filters)
@@ -118,8 +136,9 @@ class Player:
         self.status = PlayerStatus()
         self._ffmpeg_proc: asyncio.subprocess.Process | None = None
         self._progress_task: asyncio.Task | None = None
+        self._seek_offset: float = 0
 
-    async def play(self, video_id: str, languages: list[str] | None = None):
+    async def play(self, video_id: str, languages: list[str] | None = None, start_at: float = 0):
         """Start playback of a local video with optional subtitles."""
         await self.stop()
 
@@ -137,20 +156,37 @@ class Player:
             title=video["title"],
             languages=languages or [],
         )
+        self._seek_offset = start_at
+        self.status.duration = await _get_duration(video["file"])
 
         try:
-            cmd = [
-                "ffmpeg",
+            cmd = ["ffmpeg"]
+
+            # Seek to position (before input for fast seeking)
+            if start_at > 0:
+                cmd.extend(["-ss", str(start_at)])
+
+            cmd.extend([
                 "-re",  # Realtime playback
                 "-i", video["file"],
-            ]
+            ])
 
             # Build video filter with subtitles
             vf_parts = []
+
+            # When seeking: shift PTS to absolute so subtitle filter renders correctly
+            if start_at > 0:
+                vf_parts.append(f"setpts=PTS+{start_at}/TB")
+
             if languages:
                 sub_filter = _build_subtitle_filter(video, languages)
                 if sub_filter:
                     vf_parts.append(sub_filter)
+
+            # Shift PTS back to 0-based so -re flag works correctly
+            if start_at > 0:
+                vf_parts.append(f"setpts=PTS-{start_at}/TB")
+
             vf_parts.append("scale=1280:720:force_original_aspect_ratio=decrease")
             vf_parts.append("pad=1280:720:(ow-iw)/2:(oh-ih)/2")
             vf_parts.append("format=yuv420p")
@@ -162,13 +198,13 @@ class Player:
             # Audio output → PulseAudio virtual sink (delay to match video processing)
             cmd.extend(["-af", "adelay=300|300", "-f", "pulse", PULSE_SINK])
 
-            # Overwrite without asking
-            cmd.append("-y")
+            # Progress output + overwrite
+            cmd.extend(["-progress", "pipe:1", "-y"])
 
             self._ffmpeg_proc = await asyncio.create_subprocess_exec(
                 *cmd,
-                stdout=asyncio.subprocess.DEVNULL,
-                stderr=asyncio.subprocess.PIPE,
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.DEVNULL,
             )
 
             self.status.state = State.PLAYING
@@ -183,37 +219,29 @@ class Player:
             self.status.error = str(e)
 
     async def _track_progress(self):
-        """Parse FFmpeg stderr to track playback position and duration."""
-        # Regex for FFmpeg progress output: time=HH:MM:SS.cc
-        time_pattern = re.compile(r"time=(\d+):(\d+):(\d+)\.(\d+)")
-        # Regex for duration from stream info: Duration: HH:MM:SS.cc
-        dur_pattern = re.compile(r"Duration:\s*(\d+):(\d+):(\d+)\.(\d+)")
-
+        """Parse FFmpeg -progress pipe:1 output to track playback position."""
         try:
-            assert self._ffmpeg_proc and self._ffmpeg_proc.stderr
+            assert self._ffmpeg_proc and self._ffmpeg_proc.stdout
             while True:
-                line = await self._ffmpeg_proc.stderr.readline()
+                line = await self._ffmpeg_proc.stdout.readline()
                 if not line:
                     break
-                text = line.decode("utf-8", errors="replace")
+                text = line.decode("utf-8", errors="replace").strip()
 
-                # Parse duration (appears once at start)
-                dur_match = dur_pattern.search(text)
-                if dur_match:
-                    h, m, s, cs = (int(x) for x in dur_match.groups())
-                    self.status.duration = h * 3600 + m * 60 + s + cs / 100
+                # -progress format: key=value lines
+                if text.startswith("out_time_us="):
+                    try:
+                        us = int(text.split("=", 1)[1])
+                        self.status.current_time = self._seek_offset + us / 1_000_000
+                    except ValueError:
+                        pass
+                elif text == "progress=end":
+                    self.status.state = State.STOPPED
+                    if self.status.duration:
+                        self.status.current_time = self.status.duration
 
-                # Parse current time (appears in progress lines)
-                time_match = time_pattern.search(text)
-                if time_match:
-                    h, m, s, cs = (int(x) for x in time_match.groups())
-                    self.status.current_time = h * 3600 + m * 60 + s + cs / 100
-
-            # FFmpeg exited — check if it was a normal end or error
-            if self._ffmpeg_proc.returncode == 0:
-                self.status.state = State.STOPPED
-                self.status.current_time = self.status.duration
-            elif self.status.state == State.PLAYING:
+            # FFmpeg exited
+            if self.status.state == State.PLAYING:
                 self.status.state = State.STOPPED
 
         except asyncio.CancelledError:
@@ -257,19 +285,23 @@ class Player:
         self._ffmpeg_proc = None
         self.status = PlayerStatus()
 
-    async def change_languages(self, languages: list[str]):
-        """Change subtitle languages (restarts playback at current position)."""
+    async def seek(self, position: float):
+        """Seek to absolute position (seconds). Restarts FFmpeg with -ss."""
         if self.status.state not in (State.PLAYING, State.PAUSED):
             return
-
         video_id = self.status.video_id
-        current_time = self.status.current_time
+        languages = self.status.languages
         if not video_id:
             return
+        position = max(0, position)
+        if self.status.duration:
+            position = min(position, self.status.duration)
+        await self.play(video_id, languages, start_at=position)
 
-        # TODO: restart FFmpeg with -ss offset to resume at current position
-        # For now, restart from beginning with new languages
-        await self.play(video_id, languages)
+    async def skip(self, offset: float):
+        """Skip forward/backward by offset seconds."""
+        current = self.status.current_time or 0
+        await self.seek(current + offset)
 
     def get_status(self) -> dict:
         return self.status.to_dict()

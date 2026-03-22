@@ -32,8 +32,12 @@ class PlayRequest(BaseModel):
     languages: list[str] = []
 
 
-class LanguageRequest(BaseModel):
-    languages: list[str]
+class SeekRequest(BaseModel):
+    position: float
+
+
+class SkipRequest(BaseModel):
+    offset: float
 
 
 @app.get("/api/videos")
@@ -62,6 +66,18 @@ async def api_play(req: PlayRequest):
 @app.post("/api/pause")
 async def api_pause():
     await player.pause()
+    return {"status": player.status.state.value}
+
+
+@app.post("/api/seek")
+async def api_seek(req: SeekRequest):
+    await player.seek(req.position)
+    return {"status": player.status.state.value}
+
+
+@app.post("/api/skip")
+async def api_skip(req: SkipRequest):
+    await player.skip(req.offset)
     return {"status": player.status.state.value}
 
 

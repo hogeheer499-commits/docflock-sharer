@@ -222,52 +222,108 @@ body {
 .status-state.loading { color: var(--accent); }
 .status-state.paused { color: #F59E0B; }
 
-.progress-bar {
-  width: 100%;
-  height: 6px;
-  background: var(--surface2);
-  border-radius: 3px;
-  overflow: hidden;
-  margin-bottom: 8px;
+/* Progress row */
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
 }
+
+.time-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 40px;
+}
+
+.time-label:last-child { text-align: right; }
+
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  background: var(--surface2);
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.progress-bar:hover { height: 12px; }
 
 .progress-fill {
   height: 100%;
   background: var(--accent);
-  border-radius: 3px;
+  border-radius: 4px;
   width: 0%;
   transition: width 1s linear;
+  pointer-events: none;
 }
 
-.progress-time {
-  font-size: 13px;
-  color: var(--text-muted);
+/* Player controls */
+.player-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   margin-bottom: 16px;
 }
 
-.controls {
+.btn-skip {
   display: flex;
-  gap: 12px;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  border-radius: 8px;
+  transition: all 0.15s;
 }
 
-.btn-control {
-  width: 56px;
-  height: 56px;
+.btn-skip span {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.btn-skip:hover { background: var(--surface2); color: var(--text); }
+.btn-skip:active { transform: scale(0.95); }
+
+.btn-play-pause {
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
-  border: 1px solid var(--border);
+  border: 2px solid var(--accent);
   background: var(--surface);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text);
-  transition: all 0.2s;
+  color: var(--accent);
+  margin: 0 8px;
+  transition: all 0.15s;
 }
 
-.btn-control:hover { background: var(--surface2); }
-.btn-control.btn-danger { color: var(--danger); border-color: var(--danger); }
-.btn-control.btn-danger:hover { background: #FEE2E2; }
+.btn-play-pause:hover { background: rgba(37, 99, 235, 0.08); }
+.btn-play-pause:active { transform: scale(0.95); }
+
+/* Stop button (separate, less prominent) */
+.btn-stop {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: none;
+  color: var(--text-muted);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.btn-stop:hover { background: #FEE2E2; color: var(--danger); border-color: var(--danger); }
 
 /* Logout */
 .logout-btn {
