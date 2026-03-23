@@ -28,11 +28,19 @@
       <h1 class="app-title">DocFlock</h1>
 
       <div class="player-section">
-        <!-- Video selector -->
+        <!-- Lecture selector -->
         <div class="select-group">
-          <label for="video-select">Video</label>
+          <label for="video-select">Lectures</label>
           <select id="video-select">
-            <option value="">Select a video...</option>
+            <option value="">Select a lecture...</option>
+          </select>
+        </div>
+
+        <!-- Music selector -->
+        <div class="select-group">
+          <label for="music-select">Music</label>
+          <select id="music-select">
+            <option value="">Select a song...</option>
           </select>
         </div>
 
@@ -101,18 +109,27 @@
             </button>
           </div>
 
-          <!-- Audio sync buttons -->
-          <div class="sync-row">
-            <label>Audio sync</label>
-            <button class="btn-sync" id="sync-m50">-50</button>
-            <button class="btn-sync" id="sync-m10">-10</button>
-            <span id="delay-value" class="sync-value">0ms</span>
-            <button class="btn-sync" id="sync-p10">+10</button>
-            <button class="btn-sync" id="sync-p50">+50</button>
-          </div>
+          <!-- Advanced settings -->
+          <details class="advanced-section">
+            <summary>Advanced</summary>
+            <div class="sync-row">
+              <label>Audio sync</label>
+              <button class="btn-sync" id="sync-m50">-50</button>
+              <button class="btn-sync" id="sync-m10">-10</button>
+              <span id="delay-value" class="sync-value">0ms</span>
+              <button class="btn-sync" id="sync-p10">+10</button>
+              <button class="btn-sync" id="sync-p50">+50</button>
+            </div>
+          </details>
 
-          <!-- Stop button (separate, less prominent) -->
-          <button id="stop-btn" class="btn-stop" title="Stop playback">Stop lecture</button>
+          <!-- Autoplay + Stop -->
+          <div class="bottom-controls">
+            <label class="autoplay-toggle">
+              <input type="checkbox" id="autoplay-cb" checked>
+              <span>Autoplay next</span>
+            </label>
+            <button id="stop-btn" class="btn-stop" title="Stop playback">Stop</button>
+          </div>
         </div>
 
         <div id="error-msg" class="error hidden"></div>

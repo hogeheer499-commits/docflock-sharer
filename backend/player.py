@@ -127,11 +127,64 @@ def scan_videos() -> list[dict]:
     return videos
 
 
+def scan_music() -> list[dict]:
+    """Scan music directory for available music videos."""
+    music_dir = VIDEOS_DIR / "music"
+    music_json = VIDEOS_DIR / "music.json"
+    if not music_dir.is_dir() or not music_json.exists():
+        return []
+
+    import json as _json
+    tracks = _json.loads(music_json.read_text())
+    result = []
+    for track in tracks:
+        filepath = music_dir / track["file"]
+        if not filepath.exists():
+            continue
+        vid_id = "music/" + filepath.stem
+        result.append({
+            "id": vid_id,
+            "title": track["title"],
+            "series": "Music",
+            "file": str(filepath),
+            "languages": [],
+            "sort_key": vid_id,
+            "category": "music",
+        })
+    return result
+
+
+def _all_videos() -> list[dict]:
+    """All videos (lectures + music) combined."""
+    lectures = scan_videos()
+    for v in lectures:
+        v["category"] = "lecture"
+    return lectures + scan_music()
+
+
 def get_video(video_id: str) -> dict | None:
     """Get a specific video by ID."""
-    for v in scan_videos():
+    for v in _all_videos():
         if v["id"] == video_id:
             return v
+    return None
+
+
+def get_next_video(video_id: str) -> dict | None:
+    """Get the next video in the same category."""
+    all_vids = _all_videos()
+    for i, v in enumerate(all_vids):
+        if v["id"] == video_id:
+            # Find next in same category
+            for j in range(i + 1, len(all_vids)):
+                if all_vids[j]["category"] == v["category"]:
+                    return all_vids[j]
+            # Wrap around to first of same category for music
+            if v["category"] == "music":
+                for w in all_vids:
+                    if w["category"] == "music":
+                        return w
+            break
     return None
 
 
@@ -179,6 +232,7 @@ class Player:
         self._progress_task: asyncio.Task | None = None
         self._seek_offset: float = 0
         self.audio_delay_ms: int = 0  # Extra audio delay on top of buffer
+        self.autoplay: bool = True
 
     async def play(self, video_id: str, languages: list[str] | None = None, start_at: float = 0):
         """Start playback of a local video with optional subtitles."""
@@ -244,8 +298,8 @@ class Player:
                 shift_s = self.audio_delay_ms / 1000
                 cmd.extend(["-af", f"asetpts=PTS+{shift_s}/TB"])
 
-            # Audio output → PulseAudio virtual sink (low latency buffer)
-            cmd.extend(["-f", "pulse", "-buffer_duration", "50000", PULSE_SINK])
+            # Audio output → PulseAudio virtual sink (minimal buffer for sync)
+            cmd.extend(["-f", "pulse", "-buffer_duration", "0", PULSE_SINK])
 
 
             self._ffmpeg_proc = await asyncio.create_subprocess_exec(
@@ -289,6 +343,11 @@ class Player:
             # FFmpeg exited
             if self.status.state == State.PLAYING:
                 self.status.state = State.STOPPED
+                # Autoplay next video
+                if self.autoplay and self.status.video_id:
+                    next_vid = get_next_video(self.status.video_id)
+                    if next_vid:
+                        await self.play(next_vid["id"], self.status.languages)
 
         except asyncio.CancelledError:
             pass
@@ -356,7 +415,9 @@ class Player:
             await self.seek(self.status.current_time or 0)
 
     def get_status(self) -> dict:
-        return self.status.to_dict()
+        d = self.status.to_dict()
+        d["autoplay"] = self.autoplay
+        return d
 
 
 # Singleton

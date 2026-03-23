@@ -345,6 +345,25 @@ body {
 .btn-play-pause:hover { background: rgba(37, 99, 235, 0.08); }
 .btn-play-pause:active { transform: scale(0.95); }
 
+/* Advanced section */
+.advanced-section {
+  margin-bottom: 4px;
+}
+
+.advanced-section summary {
+  font-size: 12px;
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 0;
+}
+
+.advanced-section summary:hover { color: var(--text); }
+
+.advanced-section[open] summary {
+  margin-bottom: 8px;
+}
+
 /* Audio sync */
 .sync-row {
   display: flex;
@@ -412,10 +431,26 @@ body {
 
 .btn-preview:hover { background: var(--surface2); color: var(--text); }
 
-/* Stop button (separate, less prominent) */
+.bottom-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.autoplay-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-muted);
+  cursor: pointer;
+  flex: 1;
+}
+
+.autoplay-toggle input { accent-color: var(--accent); }
+
+/* Stop button */
 .btn-stop {
-  display: block;
-  width: 100%;
   padding: 10px;
   border: 1px solid var(--border);
   border-radius: 8px;

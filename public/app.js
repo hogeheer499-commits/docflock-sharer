@@ -102,17 +102,18 @@ async function doLogin() {
 
 // --- Video list ---
 const videoSelect = document.getElementById("video-select");
+const musicSelect = document.getElementById("music-select");
 const langGroup = document.getElementById("lang-group");
 const langCheckboxes = document.getElementById("lang-checkboxes");
 const playBtn = document.getElementById("play-btn");
+let musicCache = [];
 
 async function loadVideos() {
   try {
     const resp = await api("/api/videos");
     videosCache = await resp.json();
-    videoSelect.innerHTML = '<option value="">Select a video...</option>';
+    videoSelect.innerHTML = '<option value="">Select a lecture...</option>';
 
-    // Group by series
     let currentSeries = "";
     let optgroup = null;
     for (const v of videosCache) {
@@ -128,10 +129,37 @@ async function loadVideos() {
       (optgroup || videoSelect).appendChild(opt);
     }
   } catch {}
+
+  try {
+    const resp = await api("/api/music");
+    musicCache = await resp.json();
+    musicSelect.innerHTML = '<option value="">Select a song...</option>';
+    for (const m of musicCache) {
+      const opt = document.createElement("option");
+      opt.value = m.id;
+      opt.textContent = m.title;
+      musicSelect.appendChild(opt);
+    }
+  } catch {}
 }
 
+// Only one dropdown active at a time
 videoSelect.addEventListener("change", () => {
-  const videoId = videoSelect.value;
+  if (videoSelect.value) musicSelect.value = "";
+  onSelectionChange();
+});
+
+musicSelect.addEventListener("change", () => {
+  if (musicSelect.value) videoSelect.value = "";
+  onSelectionChange();
+});
+
+function getSelectedId() {
+  return videoSelect.value || musicSelect.value || "";
+}
+
+function onSelectionChange() {
+  const videoId = getSelectedId();
   if (!videoId) {
     langGroup.classList.add("hidden");
     playBtn.disabled = true;
@@ -139,32 +167,33 @@ videoSelect.addEventListener("change", () => {
   }
 
   const video = videosCache.find((v) => v.id === videoId);
-  if (!video || video.languages.length === 0) {
+  if (video && video.languages.length > 0) {
+    langCheckboxes.innerHTML = "";
+    for (const lang of video.languages) {
+      const label = document.createElement("label");
+      label.className = "lang-option";
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.value = lang;
+      cb.name = "lang";
+      label.appendChild(cb);
+      label.appendChild(document.createTextNode(lang.toUpperCase()));
+      langCheckboxes.appendChild(label);
+    }
+    langGroup.classList.remove("hidden");
+  } else {
     langGroup.classList.add("hidden");
-    playBtn.disabled = false;
-    return;
   }
-
-  langCheckboxes.innerHTML = "";
-  for (const lang of video.languages) {
-    const label = document.createElement("label");
-    label.className = "lang-option";
-    const cb = document.createElement("input");
-    cb.type = "checkbox";
-    cb.value = lang;
-    cb.name = "lang";
-    label.appendChild(cb);
-    label.appendChild(document.createTextNode(lang.toUpperCase()));
-    langCheckboxes.appendChild(label);
-  }
-  langGroup.classList.remove("hidden");
   playBtn.disabled = false;
-});
+}
 
 // --- Player ---
 playBtn.addEventListener("click", playVideo);
 document.getElementById("pause-btn").addEventListener("click", togglePause);
 document.getElementById("stop-btn").addEventListener("click", stopPlayback);
+document.getElementById("autoplay-cb").addEventListener("change", async () => {
+  try { await api("/api/autoplay", { method: "POST" }); } catch {}
+});
 
 // Audio sync buttons
 const delayValue = document.getElementById("delay-value");
@@ -204,7 +233,7 @@ document.getElementById("progress-bar").addEventListener("click", (e) => {
 let lastStatus = null;
 
 async function playVideo() {
-  const videoId = videoSelect.value;
+  const videoId = getSelectedId();
   if (!videoId) return;
 
   const selected = [...document.querySelectorAll('input[name="lang"]:checked')]
@@ -391,6 +420,10 @@ function updateStatusUI(data) {
   } else {
     pauseIcon.classList.remove("hidden");
     playIcon.classList.add("hidden");
+  }
+
+  if (data.autoplay !== undefined) {
+    document.getElementById("autoplay-cb").checked = data.autoplay;
   }
 
   if (data.error) showError(data.error);
