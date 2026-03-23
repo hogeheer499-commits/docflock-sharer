@@ -245,7 +245,6 @@ async def download_youtube(url: str) -> dict | None:
 
     # Already cached?
     if video_file.exists():
-        # Get title from info file
         info_file = folder / "title.txt"
         title = info_file.read_text().strip() if info_file.exists() else vid_id
         subs_dir = folder / "subs"
@@ -258,6 +257,7 @@ async def download_youtube(url: str) -> dict | None:
             "languages": languages,
             "sort_key": f"yt/{vid_id}",
             "category": "youtube",
+            "cached": True,
         }
 
     folder.mkdir(exist_ok=True)
@@ -267,48 +267,57 @@ async def download_youtube(url: str) -> dict | None:
     deno_path = Path.home() / ".deno" / "bin"
     env = {**os.environ, "PATH": f"{deno_path}:{os.environ.get('PATH', '')}"}
 
+    # Download video and get title in one call
+    # Download video + print title in one call
     proc = await asyncio.create_subprocess_exec(
         "yt-dlp", "--remote-components", "ejs:github",
         "-f", "bestvideo[height<=720]+bestaudio/best[height<=720]",
         "--merge-output-format", "mp4",
+        "--no-playlist",
         "-o", str(video_file),
-        "--print", "%(title)s",
-        url,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.DEVNULL,
-        env=env,
-    )
-    stdout, _ = await proc.communicate()
-    if proc.returncode != 0 or not video_file.exists():
-        return None
-
-    title = stdout.decode().strip().split("\n")[0] or vid_id
-    (folder / "title.txt").write_text(title)
-
-    # Try to download subtitles
-    sub_proc = await asyncio.create_subprocess_exec(
-        "yt-dlp", "--remote-components", "ejs:github",
-        "--write-auto-sub", "--sub-lang", "en",
-        "--sub-format", "json3", "--skip-download",
-        "-o", str(folder / "sub"),
+        "--print-to-file", "%(title)s", str(folder / "title.txt"),
         url,
         stdout=asyncio.subprocess.DEVNULL,
         stderr=asyncio.subprocess.DEVNULL,
         env=env,
     )
-    await sub_proc.communicate()
+    await proc.communicate()
 
-    # Convert json3 to ass
-    json3_file = folder / "sub.en.json3"
-    if json3_file.exists():
-        converter = Path(__file__).parent.parent / "scripts" / "json3_to_ass.py"
-        conv_proc = await asyncio.create_subprocess_exec(
-            "python3", str(converter), "--style", "plain",
-            str(json3_file), str(folder / "subs" / "en.ass"),
-            stdout=asyncio.subprocess.DEVNULL,
-            stderr=asyncio.subprocess.DEVNULL,
-        )
-        await conv_proc.communicate()
+    title_file = folder / "title.txt"
+    title = title_file.read_text().strip() if title_file.exists() else vid_id
+
+    if not video_file.exists():
+        return None
+    (folder / "title.txt").write_text(title)
+
+    # Download subtitles in background (don't block playback)
+    async def _download_subs():
+        try:
+            sub_proc = await asyncio.create_subprocess_exec(
+                "yt-dlp", "--remote-components", "ejs:github",
+                "--write-auto-sub", "--sub-lang", "en",
+                "--sub-format", "json3", "--skip-download",
+                "-o", str(folder / "sub"),
+                url,
+                stdout=asyncio.subprocess.DEVNULL,
+                stderr=asyncio.subprocess.DEVNULL,
+                env=env,
+            )
+            await sub_proc.communicate()
+            json3_file = folder / "sub.en.json3"
+            if json3_file.exists():
+                converter = Path(__file__).parent.parent / "scripts" / "json3_to_ass.py"
+                conv_proc = await asyncio.create_subprocess_exec(
+                    "python3", str(converter), "--style", "plain",
+                    str(json3_file), str(folder / "subs" / "en.ass"),
+                    stdout=asyncio.subprocess.DEVNULL,
+                    stderr=asyncio.subprocess.DEVNULL,
+                )
+                await conv_proc.communicate()
+        except Exception:
+            pass
+
+    asyncio.ensure_future(_download_subs())
 
     languages = sorted(p.stem for p in (folder / "subs").glob("*.ass"))
     return {

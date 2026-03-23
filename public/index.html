@@ -27,7 +27,7 @@
     <div class="container">
       <div class="top-bar">
         <button id="refresh-btn" class="btn-refresh" title="Refresh">&#x21bb;</button>
-        <h1 class="app-title">DocFlock</h1>
+        <h1 class="app-title">Doc Flock Remote</h1>
         <div class="top-spacer"></div>
       </div>
 
@@ -48,12 +48,20 @@
           </select>
         </div>
 
+        <!-- YouTube cached -->
+        <div id="yt-cache-group" class="select-group hidden">
+          <label for="yt-select">YouTube Downloads</label>
+          <select id="yt-select">
+            <option value="">Select a download...</option>
+          </select>
+        </div>
+
         <!-- YouTube URL -->
         <div class="url-group">
           <label>YouTube URL</label>
           <div class="url-row">
             <input type="url" id="yt-url" placeholder="Paste YouTube URL..." autocomplete="off">
-            <button id="yt-play-btn" class="btn-primary">Play</button>
+            <button id="yt-play-btn" class="btn-primary">Download</button>
           </div>
           <div id="yt-status" class="yt-status hidden"></div>
         </div>

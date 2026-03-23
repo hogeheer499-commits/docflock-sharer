@@ -1,5 +1,6 @@
 import asyncio
 from contextlib import asynccontextmanager
+from typing import Any
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -8,7 +9,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from config import HOST, PORT
-from player import player, scan_videos, scan_music, get_video, get_next_video, get_prev_video, download_youtube
+from player import player, scan_videos, scan_music, scan_youtube_cache, get_video, get_next_video, get_prev_video, download_youtube
 
 PUBLIC_DIR = Path(__file__).parent.parent / "public"
 
@@ -61,6 +62,11 @@ async def api_music():
     return scan_music()
 
 
+@app.get("/api/youtube")
+async def api_youtube():
+    return scan_youtube_cache()
+
+
 @app.get("/api/videos/{video_id}/languages")
 async def api_video_languages(video_id: str):
     video = get_video(video_id)
@@ -69,15 +75,37 @@ async def api_video_languages(video_id: str):
     return {"id": video_id, "languages": video["languages"]}
 
 
+_yt_download_task = None
+_yt_download_status = {"state": "idle"}
+
+
 @app.post("/api/play-url")
 async def api_play_url(req: PlayUrlRequest):
-    video = await download_youtube(req.url)
-    if not video:
-        raise HTTPException(400, "Could not download video")
-    await player.play(video["id"], req.languages)
-    if player.status.error:
-        raise HTTPException(500, player.status.error)
-    return {"status": player.status.state.value, "title": player.status.title}
+    global _yt_download_task, _yt_download_status
+
+    async def _download_and_play():
+        global _yt_download_status
+        try:
+            _yt_download_status = {"state": "downloading", "url": req.url, "title": "Fetching info..."}
+            video = await download_youtube(req.url)
+            if not video:
+                _yt_download_status = {"state": "error", "error": "Download failed"}
+                return
+            if video.get("cached"):
+                _yt_download_status = {"state": "already", "title": video["title"], "video_id": video["id"]}
+            else:
+                _yt_download_status = {"state": "done", "title": video["title"], "video_id": video["id"]}
+        except Exception as e:
+            _yt_download_status = {"state": "error", "error": str(e)}
+
+    _yt_download_status = {"state": "downloading", "url": req.url}
+    _yt_download_task = asyncio.ensure_future(_download_and_play())
+    return {"status": "downloading"}
+
+
+@app.get("/api/play-url/status")
+async def api_play_url_status():
+    return _yt_download_status
 
 
 @app.post("/api/play")

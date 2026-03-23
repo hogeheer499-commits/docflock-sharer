@@ -103,6 +103,8 @@ async function doLogin() {
 // --- Video list ---
 const videoSelect = document.getElementById("video-select");
 const musicSelect = document.getElementById("music-select");
+const ytSelect = document.getElementById("yt-select");
+let ytCache = [];
 const langGroup = document.getElementById("lang-group");
 const langCheckboxes = document.getElementById("lang-checkboxes");
 const playBtn = document.getElementById("play-btn");
@@ -141,21 +143,44 @@ async function loadVideos() {
       musicSelect.appendChild(opt);
     }
   } catch {}
+
+  try {
+    const resp = await api("/api/youtube");
+    ytCache = await resp.json();
+    const group = document.getElementById("yt-cache-group");
+    if (ytCache.length > 0) {
+      ytSelect.innerHTML = '<option value="">Select a download...</option>';
+      for (const v of ytCache) {
+        const opt = document.createElement("option");
+        opt.value = v.id;
+        opt.textContent = v.title;
+        ytSelect.appendChild(opt);
+      }
+      group.classList.remove("hidden");
+    } else {
+      group.classList.add("hidden");
+    }
+  } catch {}
 }
 
 // Only one dropdown active at a time
 videoSelect.addEventListener("change", () => {
-  if (videoSelect.value) musicSelect.value = "";
+  if (videoSelect.value) { musicSelect.value = ""; ytSelect.value = ""; }
   onSelectionChange();
 });
 
 musicSelect.addEventListener("change", () => {
-  if (musicSelect.value) videoSelect.value = "";
+  if (musicSelect.value) { videoSelect.value = ""; ytSelect.value = ""; }
+  onSelectionChange();
+});
+
+ytSelect.addEventListener("change", () => {
+  if (ytSelect.value) { videoSelect.value = ""; musicSelect.value = ""; }
   onSelectionChange();
 });
 
 function getSelectedId() {
-  return videoSelect.value || musicSelect.value || "";
+  return videoSelect.value || musicSelect.value || ytSelect.value || "";
 }
 
 function onSelectionChange() {
@@ -200,35 +225,59 @@ async function playYouTubeUrl() {
   if (!url) return;
 
   const btn = document.getElementById("yt-play-btn");
-  const status = document.getElementById("yt-status");
+  const statusEl = document.getElementById("yt-status");
   btn.disabled = true;
-  status.textContent = "Downloading...";
-  status.classList.remove("hidden");
+  statusEl.textContent = "Downloading...";
+  statusEl.classList.remove("hidden");
   hideError();
 
-  // Clear other selections
   videoSelect.value = "";
   musicSelect.value = "";
 
   try {
-    const resp = await api("/api/play-url", {
+    await api("/api/play-url", {
       method: "POST",
       body: JSON.stringify({ url }),
     });
-    const data = await resp.json();
-    if (!resp.ok) {
-      showError(data.detail || "Download failed");
-      status.classList.add("hidden");
-      return;
-    }
-    status.textContent = "Playing!";
-    setTimeout(() => status.classList.add("hidden"), 2000);
-    input.value = "";
-    pollStatus();
+
+    // Poll download status
+    const pollDl = setInterval(async () => {
+      try {
+        const resp = await api("/api/play-url/status");
+        const data = await resp.json();
+        if (data.state === "already" || data.state === "done") {
+          clearInterval(pollDl);
+          const msg = data.state === "already"
+            ? `"${data.title}" is already downloaded.`
+            : `Downloaded "${data.title}"!`;
+          statusEl.innerHTML = `${msg} <a href="#" id="yt-play-link">Click here to play it!</a>`;
+          document.getElementById("yt-play-link").addEventListener("click", async (e) => {
+            e.preventDefault();
+            try {
+              await api("/api/play", {
+                method: "POST",
+                body: JSON.stringify({ video_id: data.video_id, languages: ["en"] }),
+              });
+              statusEl.classList.add("hidden");
+              pollStatus();
+            } catch {}
+          });
+          input.value = "";
+          btn.disabled = false;
+          loadVideos();
+        } else if (data.state === "error") {
+          clearInterval(pollDl);
+          showError(data.error || "Download failed");
+          statusEl.classList.add("hidden");
+          btn.disabled = false;
+        } else {
+          statusEl.textContent = data.title ? `Downloading: ${data.title}` : "Downloading...";
+        }
+      } catch {}
+    }, 2000);
   } catch (e) {
     showError(e.message);
-    status.classList.add("hidden");
-  } finally {
+    statusEl.classList.add("hidden");
     btn.disabled = false;
   }
 }

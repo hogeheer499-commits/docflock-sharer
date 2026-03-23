@@ -195,6 +195,12 @@ body {
   margin-top: 6px;
 }
 
+.yt-status a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 .lang-checkboxes {
   display: flex;
   flex-wrap: wrap;
