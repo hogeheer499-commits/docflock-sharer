@@ -176,6 +176,7 @@ function onSelectionChange() {
       cb.type = "checkbox";
       cb.value = lang;
       cb.name = "lang";
+      if (lang === "en") cb.checked = true;
       label.appendChild(cb);
       label.appendChild(document.createTextNode(lang.toUpperCase()));
       langCheckboxes.appendChild(label);
@@ -274,6 +275,11 @@ async function stopPlayback() {
 }
 
 async function seek(position) {
+  // Instantly update UI
+  if (lastStatus) {
+    lastStatus.current_time = position;
+    updateStatusUI(lastStatus);
+  }
   try {
     await api("/api/seek", {
       method: "POST",
@@ -283,6 +289,11 @@ async function seek(position) {
 }
 
 async function skip(offset) {
+  // Instantly update UI
+  if (lastStatus && lastStatus.current_time != null) {
+    lastStatus.current_time = Math.max(0, lastStatus.current_time + offset);
+    updateStatusUI(lastStatus);
+  }
   try {
     await api("/api/skip", {
       method: "POST",
@@ -296,6 +307,27 @@ function pollStatus() {
   stopPolling();
   fetchStatus();
   statusInterval = setInterval(fetchStatus, 3000);
+  // Start local timer for smooth UI updates
+  startLocalTimer();
+}
+
+let localTimer = null;
+
+function startLocalTimer() {
+  stopLocalTimer();
+  localTimer = setInterval(() => {
+    if (lastStatus && lastStatus.state === "playing" && lastStatus.current_time != null) {
+      lastStatus.current_time += 1;
+      updateStatusUI(lastStatus);
+    }
+  }, 1000);
+}
+
+function stopLocalTimer() {
+  if (localTimer) {
+    clearInterval(localTimer);
+    localTimer = null;
+  }
 }
 
 function stopPolling() {
@@ -303,6 +335,7 @@ function stopPolling() {
     clearInterval(statusInterval);
     statusInterval = null;
   }
+  stopLocalTimer();
 }
 
 async function fetchStatus() {
@@ -449,6 +482,11 @@ function showError(msg) {
 function hideError() {
   document.getElementById("error-msg").classList.add("hidden");
 }
+
+// --- Refresh ---
+document.getElementById("refresh-btn").addEventListener("click", () => {
+  location.reload(true);
+});
 
 // --- Logout ---
 document.getElementById("logout-btn").addEventListener("click", () => {

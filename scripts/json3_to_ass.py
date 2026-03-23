@@ -222,7 +222,37 @@ def convert_buildup(lines: list[dict]) -> list[str]:
 
 # --- Main ---
 
-def convert(json3_path: str, output_path: str, style: str = "buildup") -> None:
+def convert_plain(lines: list[dict]) -> list[str]:
+    """Simple 2-line blocks. Full text appears at once, no animation."""
+    dialogues = []
+    i = 0
+    while i < len(lines):
+        block = [lines[i]]
+        if i + 1 < len(lines):
+            block.append(lines[i + 1])
+        block_start = block[0]["start_ms"]
+        next_block_start = i + len(block)
+        if next_block_start < len(lines):
+            block_end = lines[next_block_start]["start_ms"]
+        else:
+            block_end = block[-1]["end_ms"]
+        if block_end - block_start < 100:
+            i += len(block)
+            continue
+
+        text_parts = []
+        for line in block:
+            text_parts.append(" ".join(w["text"] for w in line["words"]))
+        text = "\\N".join(text_parts)
+
+        dialogues.append(
+            f"Dialogue: 0,{ms_to_ass_time(block_start)},{ms_to_ass_time(block_end)},Default,,0,0,0,,{text}"
+        )
+        i += len(block)
+    return dialogues
+
+
+def convert(json3_path: str, output_path: str, style: str = "plain") -> None:
     with open(json3_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -233,8 +263,10 @@ def convert(json3_path: str, output_path: str, style: str = "buildup") -> None:
 
     if style == "karaoke":
         dialogues = convert_karaoke(lines)
-    else:
+    elif style == "buildup":
         dialogues = convert_buildup(lines)
+    else:
+        dialogues = convert_plain(lines)
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(ASS_HEADER)

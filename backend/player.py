@@ -231,6 +231,7 @@ class Player:
         self._ffmpeg_proc: asyncio.subprocess.Process | None = None
         self._progress_task: asyncio.Task | None = None
         self._seek_offset: float = 0
+        self._target_position: float | None = None
         self.audio_delay_ms: int = 0  # Extra audio delay on top of buffer
         self.autoplay: bool = True
 
@@ -286,6 +287,22 @@ class Player:
                 vf_parts.append(f"setpts=PTS-{start_at}/TB")
 
             vf_parts.append("scale=1280:720:force_original_aspect_ratio=decrease")
+
+            # Title bar overlay at top (before padding, so it's on the video content)
+            safe_title = (video["title"]
+                .replace("\\", "\\\\")
+                .replace(":", "\\:")
+                .replace("'", "\u2019")
+                .replace(";", "\\;")
+            )
+            vf_parts.append(
+                f"drawbox=x=0:y=0:w=iw:h=30:color=black@0.7:t=fill,"
+                f"drawtext=text='{safe_title}':fontsize=16:fontcolor=white:"
+                f"x=(w-text_w)/2:y=8:fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf,"
+                f"drawtext=text='%{{eif\\:floor(t+{int(start_at)})/3600\\:d}}\\:%{{eif\\:mod(floor((t+{int(start_at)})/60)\\,60)\\:d\\:2}}\\:%{{eif\\:mod(floor(t+{int(start_at)})\\,60)\\:d\\:2}}':fontsize=14:fontcolor=white@0.8:"
+                f"x=w-text_w-10:y=9:fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+            )
+
             vf_parts.append("pad=1280:720:(ow-iw)/2:(oh-ih)/2")
             vf_parts.append("format=yuv420p")
             cmd.extend(["-vf", ",".join(vf_parts)])
@@ -299,7 +316,8 @@ class Player:
                 cmd.extend(["-af", f"asetpts=PTS+{shift_s}/TB"])
 
             # Audio output → PulseAudio virtual sink (minimal buffer for sync)
-            cmd.extend(["-f", "pulse", "-buffer_duration", "0", PULSE_SINK])
+            cmd.extend(["-acodec", "pcm_s16le", "-ar", "48000", "-ac", "2",
+                        "-f", "pulse", PULSE_SINK])
 
 
             self._ffmpeg_proc = await asyncio.create_subprocess_exec(
@@ -331,26 +349,33 @@ class Player:
                         if line.startswith("out_time_us="):
                             us = int(line.split("=", 1)[1])
                             self.status.current_time = self._seek_offset + us / 1_000_000
+                            self._target_position = None  # FFmpeg is running, use real position
                             break
                     if "progress=end" in text:
-                        self.status.state = State.STOPPED
                         if self.status.duration:
                             self.status.current_time = self.status.duration
                         break
                 except (OSError, ValueError):
                     pass
 
-            # FFmpeg exited
-            if self.status.state == State.PLAYING:
-                self.status.state = State.STOPPED
-                # Autoplay next video
+            # FFmpeg exited — autoplay or stop
+            if self.status.state in (State.PLAYING, State.LOADING):
                 if self.autoplay and self.status.video_id:
                     next_vid = get_next_video(self.status.video_id)
                     if next_vid:
-                        await self.play(next_vid["id"], self.status.languages)
+                        # Schedule autoplay outside this task to avoid self-cancellation
+                        asyncio.get_event_loop().create_task(
+                            self._autoplay_next(next_vid["id"], self.status.languages)
+                        )
+                        return
+                self.status.state = State.STOPPED
 
         except asyncio.CancelledError:
             pass
+
+    async def _autoplay_next(self, video_id: str, languages: list[str]):
+        """Start next video (called from a separate task to avoid self-cancellation)."""
+        await self.play(video_id, languages)
 
     async def pause(self):
         """Toggle pause/resume using SIGSTOP/SIGCONT."""
@@ -401,12 +426,15 @@ class Player:
         position = max(0, position)
         if self.status.duration:
             position = min(position, self.status.duration)
+        self._target_position = position
         await self.play(video_id, languages, start_at=position)
 
     async def skip(self, offset: float):
         """Skip forward/backward by offset seconds."""
-        current = self.status.current_time or 0
-        await self.seek(current + offset)
+        # Use target position if FFmpeg is restarting, otherwise use current_time
+        current = self._target_position if self._target_position is not None else (self.status.current_time or 0)
+        self._target_position = max(0, current + offset)
+        await self.seek(self._target_position)
 
     async def set_audio_delay(self, ms: int):
         """Set audio delay and restart at current position. Positive = delay audio, negative = delay video."""
