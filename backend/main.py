@@ -8,7 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from config import HOST, PORT
-from player import player, scan_videos, scan_music, get_video
+from player import player, scan_videos, scan_music, get_video, get_next_video, get_prev_video, download_youtube
 
 PUBLIC_DIR = Path(__file__).parent.parent / "public"
 
@@ -32,6 +32,11 @@ app.add_middleware(
 class PlayRequest(BaseModel):
     video_id: str
     languages: list[str] = []
+
+
+class PlayUrlRequest(BaseModel):
+    url: str
+    languages: list[str] = ["en"]
 
 
 class SeekRequest(BaseModel):
@@ -62,6 +67,17 @@ async def api_video_languages(video_id: str):
     if not video:
         raise HTTPException(404, "Video niet gevonden")
     return {"id": video_id, "languages": video["languages"]}
+
+
+@app.post("/api/play-url")
+async def api_play_url(req: PlayUrlRequest):
+    video = await download_youtube(req.url)
+    if not video:
+        raise HTTPException(400, "Could not download video")
+    await player.play(video["id"], req.languages)
+    if player.status.error:
+        raise HTTPException(500, player.status.error)
+    return {"status": player.status.state.value, "title": player.status.title}
 
 
 @app.post("/api/play")
@@ -107,6 +123,28 @@ async def api_get_delay():
 async def api_autoplay():
     player.autoplay = not player.autoplay
     return {"autoplay": player.autoplay}
+
+
+@app.post("/api/next")
+async def api_next():
+    if not player.status.video_id:
+        raise HTTPException(400, "Nothing playing")
+    nxt = get_next_video(player.status.video_id)
+    if not nxt:
+        raise HTTPException(404, "No next video")
+    await player.play(nxt["id"], player.status.languages)
+    return {"status": player.status.state.value, "title": player.status.title}
+
+
+@app.post("/api/prev")
+async def api_prev():
+    if not player.status.video_id:
+        raise HTTPException(400, "Nothing playing")
+    prv = get_prev_video(player.status.video_id)
+    if not prv:
+        raise HTTPException(404, "No previous video")
+    await player.play(prv["id"], player.status.languages)
+    return {"status": player.status.state.value, "title": player.status.title}
 
 
 @app.post("/api/stop")

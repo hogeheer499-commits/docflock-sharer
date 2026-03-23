@@ -188,10 +188,61 @@ function onSelectionChange() {
   playBtn.disabled = false;
 }
 
+// --- YouTube URL ---
+document.getElementById("yt-play-btn").addEventListener("click", playYouTubeUrl);
+document.getElementById("yt-url").addEventListener("keydown", (e) => {
+  if (e.key === "Enter") playYouTubeUrl();
+});
+
+async function playYouTubeUrl() {
+  const input = document.getElementById("yt-url");
+  const url = input.value.trim();
+  if (!url) return;
+
+  const btn = document.getElementById("yt-play-btn");
+  const status = document.getElementById("yt-status");
+  btn.disabled = true;
+  status.textContent = "Downloading...";
+  status.classList.remove("hidden");
+  hideError();
+
+  // Clear other selections
+  videoSelect.value = "";
+  musicSelect.value = "";
+
+  try {
+    const resp = await api("/api/play-url", {
+      method: "POST",
+      body: JSON.stringify({ url }),
+    });
+    const data = await resp.json();
+    if (!resp.ok) {
+      showError(data.detail || "Download failed");
+      status.classList.add("hidden");
+      return;
+    }
+    status.textContent = "Playing!";
+    setTimeout(() => status.classList.add("hidden"), 2000);
+    input.value = "";
+    pollStatus();
+  } catch (e) {
+    showError(e.message);
+    status.classList.add("hidden");
+  } finally {
+    btn.disabled = false;
+  }
+}
+
 // --- Player ---
 playBtn.addEventListener("click", playVideo);
 document.getElementById("pause-btn").addEventListener("click", togglePause);
 document.getElementById("stop-btn").addEventListener("click", stopPlayback);
+document.getElementById("prev-btn").addEventListener("click", async () => {
+  try { await api("/api/prev", { method: "POST" }); fetchStatus(); } catch {}
+});
+document.getElementById("next-btn").addEventListener("click", async () => {
+  try { await api("/api/next", { method: "POST" }); fetchStatus(); } catch {}
+});
 document.getElementById("autoplay-cb").addEventListener("change", async () => {
   try { await api("/api/autoplay", { method: "POST" }); } catch {}
 });

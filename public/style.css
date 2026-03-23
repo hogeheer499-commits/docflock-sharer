@@ -159,6 +159,42 @@ body {
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
+.url-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.url-row {
+  display: flex;
+  gap: 8px;
+}
+
+.url-row input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 14px;
+  background: var(--surface);
+}
+
+.url-row input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.yt-status {
+  font-size: 12px;
+  color: var(--accent);
+  margin-top: 6px;
+}
+
 .lang-checkboxes {
   display: flex;
   flex-wrap: wrap;
@@ -451,6 +487,26 @@ body {
 }
 
 .btn-preview:hover { background: var(--surface2); color: var(--text); }
+
+.track-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.btn-track {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.btn-track:hover { background: var(--surface2); color: var(--text); }
 
 .bottom-controls {
   display: flex;

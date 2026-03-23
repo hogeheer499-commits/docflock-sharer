@@ -48,6 +48,16 @@
           </select>
         </div>
 
+        <!-- YouTube URL -->
+        <div class="url-group">
+          <label>YouTube URL</label>
+          <div class="url-row">
+            <input type="url" id="yt-url" placeholder="Paste YouTube URL..." autocomplete="off">
+            <button id="yt-play-btn" class="btn-primary">Play</button>
+          </div>
+          <div id="yt-status" class="yt-status hidden"></div>
+        </div>
+
         <!-- Language selector -->
         <div id="lang-group" class="lang-group hidden">
           <label>Subtitles</label>
@@ -125,6 +135,12 @@
               <button class="btn-sync" id="sync-p50">+50</button>
             </div>
           </details>
+
+          <!-- Prev / Next -->
+          <div class="track-controls">
+            <button id="prev-btn" class="btn-track" title="Previous">&#x23EE; Previous</button>
+            <button id="next-btn" class="btn-track" title="Next">Next &#x23ED;</button>
+          </div>
 
           <!-- Autoplay + Stop -->
           <div class="bottom-controls">

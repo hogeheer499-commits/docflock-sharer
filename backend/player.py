@@ -154,12 +154,36 @@ def scan_music() -> list[dict]:
     return result
 
 
+def scan_youtube_cache() -> list[dict]:
+    """Scan cached YouTube downloads."""
+    if not CACHE_DIR.is_dir():
+        return []
+    result = []
+    for folder in sorted(CACHE_DIR.iterdir()):
+        if not folder.is_dir() or not (folder / "video.mp4").exists():
+            continue
+        info_file = folder / "title.txt"
+        title = info_file.read_text().strip() if info_file.exists() else folder.name
+        subs_dir = folder / "subs"
+        languages = sorted(p.stem for p in subs_dir.glob("*.ass")) if subs_dir.is_dir() else []
+        result.append({
+            "id": f"yt/{folder.name}",
+            "title": title,
+            "series": "YouTube",
+            "file": str(folder / "video.mp4"),
+            "languages": languages,
+            "sort_key": f"yt/{folder.name}",
+            "category": "youtube",
+        })
+    return result
+
+
 def _all_videos() -> list[dict]:
-    """All videos (lectures + music) combined."""
+    """All videos (lectures + music + youtube cache) combined."""
     lectures = scan_videos()
     for v in lectures:
         v["category"] = "lecture"
-    return lectures + scan_music()
+    return lectures + scan_music() + scan_youtube_cache()
 
 
 def get_video(video_id: str) -> dict | None:
@@ -175,17 +199,127 @@ def get_next_video(video_id: str) -> dict | None:
     all_vids = _all_videos()
     for i, v in enumerate(all_vids):
         if v["id"] == video_id:
-            # Find next in same category
             for j in range(i + 1, len(all_vids)):
                 if all_vids[j]["category"] == v["category"]:
                     return all_vids[j]
-            # Wrap around to first of same category for music
             if v["category"] == "music":
                 for w in all_vids:
                     if w["category"] == "music":
                         return w
             break
     return None
+
+
+def get_prev_video(video_id: str) -> dict | None:
+    """Get the previous video in the same category."""
+    all_vids = _all_videos()
+    for i, v in enumerate(all_vids):
+        if v["id"] == video_id:
+            for j in range(i - 1, -1, -1):
+                if all_vids[j]["category"] == v["category"]:
+                    return all_vids[j]
+            break
+    return None
+
+
+CACHE_DIR = VIDEOS_DIR / "youtube-cache"
+
+
+async def download_youtube(url: str) -> dict | None:
+    """Download a YouTube video to cache. Returns video dict or None."""
+    CACHE_DIR.mkdir(exist_ok=True)
+
+    # Extract video ID
+    import urllib.parse
+    parsed = urllib.parse.urlparse(url)
+    if "youtu.be" in parsed.hostname:
+        vid_id = parsed.path.strip("/")
+    else:
+        vid_id = urllib.parse.parse_qs(parsed.query).get("v", [""])[0]
+
+    if not vid_id:
+        return None
+
+    folder = CACHE_DIR / vid_id
+    video_file = folder / "video.mp4"
+
+    # Already cached?
+    if video_file.exists():
+        # Get title from info file
+        info_file = folder / "title.txt"
+        title = info_file.read_text().strip() if info_file.exists() else vid_id
+        subs_dir = folder / "subs"
+        languages = sorted(p.stem for p in subs_dir.glob("*.ass")) if subs_dir.is_dir() else []
+        return {
+            "id": f"yt/{vid_id}",
+            "title": title,
+            "series": "YouTube",
+            "file": str(video_file),
+            "languages": languages,
+            "sort_key": f"yt/{vid_id}",
+            "category": "youtube",
+        }
+
+    folder.mkdir(exist_ok=True)
+    (folder / "subs").mkdir(exist_ok=True)
+
+    # Download video
+    deno_path = Path.home() / ".deno" / "bin"
+    env = {**os.environ, "PATH": f"{deno_path}:{os.environ.get('PATH', '')}"}
+
+    proc = await asyncio.create_subprocess_exec(
+        "yt-dlp", "--remote-components", "ejs:github",
+        "-f", "bestvideo[height<=720]+bestaudio/best[height<=720]",
+        "--merge-output-format", "mp4",
+        "-o", str(video_file),
+        "--print", "%(title)s",
+        url,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.DEVNULL,
+        env=env,
+    )
+    stdout, _ = await proc.communicate()
+    if proc.returncode != 0 or not video_file.exists():
+        return None
+
+    title = stdout.decode().strip().split("\n")[0] or vid_id
+    (folder / "title.txt").write_text(title)
+
+    # Try to download subtitles
+    sub_proc = await asyncio.create_subprocess_exec(
+        "yt-dlp", "--remote-components", "ejs:github",
+        "--write-auto-sub", "--sub-lang", "en",
+        "--sub-format", "json3", "--skip-download",
+        "-o", str(folder / "sub"),
+        url,
+        stdout=asyncio.subprocess.DEVNULL,
+        stderr=asyncio.subprocess.DEVNULL,
+        env=env,
+    )
+    await sub_proc.communicate()
+
+    # Convert json3 to ass
+    json3_file = folder / "sub.en.json3"
+    if json3_file.exists():
+        converter = Path(__file__).parent.parent / "scripts" / "json3_to_ass.py"
+        conv_proc = await asyncio.create_subprocess_exec(
+            "python3", str(converter), "--style", "plain",
+            str(json3_file), str(folder / "subs" / "en.ass"),
+            stdout=asyncio.subprocess.DEVNULL,
+            stderr=asyncio.subprocess.DEVNULL,
+        )
+        await conv_proc.communicate()
+
+    languages = sorted(p.stem for p in (folder / "subs").glob("*.ass"))
+    return {
+        "id": f"yt/{vid_id}",
+        "title": title,
+        "series": "YouTube",
+        "file": str(video_file),
+        "languages": languages,
+        "sort_key": f"yt/{vid_id}",
+        "category": "youtube",
+    }
 
 
 async def _get_duration(filepath: str) -> float | None:
