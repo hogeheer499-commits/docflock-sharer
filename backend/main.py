@@ -1,7 +1,9 @@
+import asyncio
 from contextlib import asynccontextmanager
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -38,6 +40,10 @@ class SeekRequest(BaseModel):
 
 class SkipRequest(BaseModel):
     offset: float
+
+
+class DelayRequest(BaseModel):
+    ms: int
 
 
 @app.get("/api/videos")
@@ -81,6 +87,17 @@ async def api_skip(req: SkipRequest):
     return {"status": player.status.state.value}
 
 
+@app.post("/api/delay")
+async def api_delay(req: DelayRequest):
+    await player.set_audio_delay(req.ms)
+    return {"audio_delay_ms": player.audio_delay_ms}
+
+
+@app.get("/api/delay")
+async def api_get_delay():
+    return {"audio_delay_ms": player.audio_delay_ms}
+
+
 @app.post("/api/stop")
 async def api_stop():
     await player.stop()
@@ -90,6 +107,31 @@ async def api_stop():
 @app.get("/api/status")
 async def api_status():
     return player.get_status()
+
+
+@app.get("/api/preview")
+async def api_preview():
+    """Capture a frame from the source video at current position."""
+    status = player.get_status()
+    if status["state"] == "stopped" or not status["video_id"]:
+        raise HTTPException(404, "Nothing playing")
+
+    video = get_video(status["video_id"])
+    if not video:
+        raise HTTPException(404, "Video not found")
+
+    pos = status["current_time"] or 0
+    proc = await asyncio.create_subprocess_exec(
+        "ffmpeg", "-ss", str(pos), "-i", video["file"],
+        "-frames:v", "1", "-q:v", "5", "-f", "image2", "-vcodec", "mjpeg",
+        "pipe:1", "-y",
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.DEVNULL,
+    )
+    stdout, _ = await proc.communicate()
+    if not stdout:
+        raise HTTPException(500, "Failed to capture frame")
+    return Response(content=stdout, media_type="image/jpeg")
 
 
 # Serve frontend (local dev + direct access without Cloudflare)

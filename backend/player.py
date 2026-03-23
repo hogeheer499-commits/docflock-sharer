@@ -47,42 +47,83 @@ _STYLE_MAP = {
 }
 
 
+def _load_library() -> dict:
+    """Load library.json for lecture metadata."""
+    lib_file = VIDEOS_DIR / "library.json"
+    if not lib_file.exists():
+        return {}
+    import json
+    data = json.loads(lib_file.read_text())
+    # Build lookup: "YYYY-NN" -> {title, series, year, month, num}
+    lookup = {}
+    for series in data.get("series", []):
+        for lec in series.get("lectures", []):
+            key = f"{series['year']}-{lec['num']:02d}"
+            lookup[key] = {
+                "title": lec["title"],
+                "series": f"{series['year']}: {series['name']}",
+                "year": series["year"],
+                "month": lec.get("month", ""),
+                "num": lec["num"],
+                "parts": lec.get("parts", 3),
+            }
+    return lookup
+
+
 def scan_videos() -> list[dict]:
-    """Scan VIDEOS_DIR for available videos with their subtitle languages."""
-    videos = []
+    """Scan VIDEOS_DIR for available videos, grouped by lecture."""
     if not VIDEOS_DIR.is_dir():
-        return videos
+        return []
+
+    library = _load_library()
+    videos = []
 
     for entry in sorted(VIDEOS_DIR.iterdir()):
         if not entry.is_dir():
             continue
 
-        # Find video file (mp4, mkv, webm, avi)
+        # Find video file
         video_file = None
         for ext in ("*.mp4", "*.mkv", "*.webm", "*.avi"):
             found = list(entry.glob(ext))
             if found:
                 video_file = found[0]
                 break
-
         if not video_file:
             continue
 
-        # Find available subtitle languages
+        # Find subtitle languages
         subs_dir = entry / "subs"
-        languages = []
-        if subs_dir.is_dir():
-            languages = sorted(
-                p.stem for p in subs_dir.glob("*.ass")
-            )
+        languages = sorted(p.stem for p in subs_dir.glob("*.ass")) if subs_dir.is_dir() else []
+
+        # Look up metadata from library.json (folder format: YYYY-NN-P)
+        folder_id = entry.name
+        parts = folder_id.rsplit("-", 1)
+        if len(parts) == 2:
+            lecture_key = parts[0]  # "2002-01"
+            part_num = parts[1]     # "1"
+        else:
+            lecture_key = ""
+            part_num = ""
+
+        meta = library.get(lecture_key)
+        if meta:
+            title = f"{meta['title']} (Part {part_num})"
+            sort_key = f"{meta['year']}-{meta['num']:02d}-{part_num}"
+        else:
+            title = entry.name.replace("-", " ").replace("_", " ").title()
+            sort_key = folder_id
 
         videos.append({
-            "id": entry.name,
-            "title": entry.name.replace("-", " ").replace("_", " ").title(),
+            "id": folder_id,
+            "title": title,
+            "series": meta["series"] if meta else "",
             "file": str(video_file),
             "languages": languages,
+            "sort_key": sort_key,
         })
 
+    videos.sort(key=lambda v: v["sort_key"])
     return videos
 
 
@@ -137,6 +178,7 @@ class Player:
         self._ffmpeg_proc: asyncio.subprocess.Process | None = None
         self._progress_task: asyncio.Task | None = None
         self._seek_offset: float = 0
+        self.audio_delay_ms: int = 0  # Extra audio delay on top of buffer
 
     async def play(self, video_id: str, languages: list[str] | None = None, start_at: float = 0):
         """Start playback of a local video with optional subtitles."""
@@ -160,7 +202,9 @@ class Player:
         self.status.duration = await _get_duration(video["file"])
 
         try:
-            cmd = ["ffmpeg"]
+            self._progress_file = Path("/tmp/docflock-progress.txt")
+            self._progress_file.write_text("")
+            cmd = ["ffmpeg", "-y", "-progress", str(self._progress_file)]
 
             # Seek to position (before input for fast seeking)
             if start_at > 0:
@@ -195,15 +239,18 @@ class Player:
             # Video output → v4l2loopback
             cmd.extend(["-f", "v4l2", "-video_size", "1280x720", V4L2_DEVICE])
 
-            # Audio output → PulseAudio virtual sink (delay to match video processing)
-            cmd.extend(["-af", "adelay=300|300", "-f", "pulse", PULSE_SINK])
+            # Audio sync: positive = delay audio, negative = advance audio (via PTS shift)
+            if self.audio_delay_ms != 0:
+                shift_s = self.audio_delay_ms / 1000
+                cmd.extend(["-af", f"asetpts=PTS+{shift_s}/TB"])
 
-            # Progress output + overwrite
-            cmd.extend(["-progress", "pipe:1", "-y"])
+            # Audio output → PulseAudio virtual sink (low latency buffer)
+            cmd.extend(["-f", "pulse", "-buffer_duration", "50000", PULSE_SINK])
+
 
             self._ffmpeg_proc = await asyncio.create_subprocess_exec(
                 *cmd,
-                stdout=asyncio.subprocess.PIPE,
+                stdout=asyncio.subprocess.DEVNULL,
                 stderr=asyncio.subprocess.DEVNULL,
             )
 
@@ -219,26 +266,25 @@ class Player:
             self.status.error = str(e)
 
     async def _track_progress(self):
-        """Parse FFmpeg -progress pipe:1 output to track playback position."""
+        """Poll FFmpeg progress file to track playback position."""
         try:
-            assert self._ffmpeg_proc and self._ffmpeg_proc.stdout
-            while True:
-                line = await self._ffmpeg_proc.stdout.readline()
-                if not line:
-                    break
-                text = line.decode("utf-8", errors="replace").strip()
-
-                # -progress format: key=value lines
-                if text.startswith("out_time_us="):
-                    try:
-                        us = int(text.split("=", 1)[1])
-                        self.status.current_time = self._seek_offset + us / 1_000_000
-                    except ValueError:
-                        pass
-                elif text == "progress=end":
-                    self.status.state = State.STOPPED
-                    if self.status.duration:
-                        self.status.current_time = self.status.duration
+            while self._ffmpeg_proc and self._ffmpeg_proc.returncode is None:
+                await asyncio.sleep(2)
+                try:
+                    text = self._progress_file.read_text()
+                    # Find last out_time_us in the file
+                    for line in reversed(text.splitlines()):
+                        if line.startswith("out_time_us="):
+                            us = int(line.split("=", 1)[1])
+                            self.status.current_time = self._seek_offset + us / 1_000_000
+                            break
+                    if "progress=end" in text:
+                        self.status.state = State.STOPPED
+                        if self.status.duration:
+                            self.status.current_time = self.status.duration
+                        break
+                except (OSError, ValueError):
+                    pass
 
             # FFmpeg exited
             if self.status.state == State.PLAYING:
@@ -302,6 +348,12 @@ class Player:
         """Skip forward/backward by offset seconds."""
         current = self.status.current_time or 0
         await self.seek(current + offset)
+
+    async def set_audio_delay(self, ms: int):
+        """Set audio delay and restart at current position. Positive = delay audio, negative = delay video."""
+        self.audio_delay_ms = max(-500, min(ms, 500))
+        if self.status.state in (State.PLAYING, State.PAUSED):
+            await self.seek(self.status.current_time or 0)
 
     def get_status(self) -> dict:
         return self.status.to_dict()

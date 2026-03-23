@@ -52,7 +52,18 @@ function showApp() {
   loginScreen.classList.add("hidden");
   appScreen.classList.remove("hidden");
   loadVideos();
+  loadDelay();
   pollStatus();
+  showResumePrompt();
+}
+
+async function loadDelay() {
+  try {
+    const resp = await api("/api/delay");
+    const data = await resp.json();
+    currentDelay = data.audio_delay_ms;
+    delayValue.textContent = currentDelay + "ms";
+  } catch {}
 }
 
 // --- Login ---
@@ -100,11 +111,21 @@ async function loadVideos() {
     const resp = await api("/api/videos");
     videosCache = await resp.json();
     videoSelect.innerHTML = '<option value="">Select a video...</option>';
+
+    // Group by series
+    let currentSeries = "";
+    let optgroup = null;
     for (const v of videosCache) {
+      if (v.series && v.series !== currentSeries) {
+        currentSeries = v.series;
+        optgroup = document.createElement("optgroup");
+        optgroup.label = currentSeries;
+        videoSelect.appendChild(optgroup);
+      }
       const opt = document.createElement("option");
       opt.value = v.id;
       opt.textContent = v.title;
-      videoSelect.appendChild(opt);
+      (optgroup || videoSelect).appendChild(opt);
     }
   } catch {}
 }
@@ -144,6 +165,26 @@ videoSelect.addEventListener("change", () => {
 playBtn.addEventListener("click", playVideo);
 document.getElementById("pause-btn").addEventListener("click", togglePause);
 document.getElementById("stop-btn").addEventListener("click", stopPlayback);
+
+// Audio sync buttons
+const delayValue = document.getElementById("delay-value");
+let currentDelay = 0;
+
+async function adjustDelay(delta) {
+  currentDelay += delta;
+  delayValue.textContent = currentDelay + "ms";
+  try {
+    await api("/api/delay", {
+      method: "POST",
+      body: JSON.stringify({ ms: currentDelay }),
+    });
+  } catch {}
+}
+
+document.getElementById("sync-m50").addEventListener("click", () => adjustDelay(-50));
+document.getElementById("sync-m10").addEventListener("click", () => adjustDelay(-10));
+document.getElementById("sync-p10").addEventListener("click", () => adjustDelay(10));
+document.getElementById("sync-p50").addEventListener("click", () => adjustDelay(50));
 document.getElementById("skip-back-30").addEventListener("click", () => skip(-30));
 document.getElementById("skip-back-10").addEventListener("click", () => skip(-10));
 document.getElementById("skip-fwd-10").addEventListener("click", () => skip(10));
@@ -244,6 +285,61 @@ async function fetchStatus() {
   } catch {}
 }
 
+// --- Resume state ---
+const RESUME_KEY = "docflock_resume";
+
+function saveResumeState(data) {
+  if (data.state === "playing" || data.state === "paused") {
+    localStorage.setItem(RESUME_KEY, JSON.stringify({
+      video_id: data.video_id,
+      title: data.title,
+      current_time: data.current_time,
+      languages: data.languages || [],
+      saved_at: Date.now(),
+    }));
+  }
+}
+
+function showResumePrompt() {
+  const raw = localStorage.getItem(RESUME_KEY);
+  if (!raw) return;
+  try {
+    const resume = JSON.parse(raw);
+    // Only show if saved less than 7 days ago
+    if (Date.now() - resume.saved_at > 7 * 24 * 60 * 60 * 1000) return;
+    if (!resume.video_id || !resume.current_time) return;
+
+    const time = formatTime(resume.current_time);
+    const el = document.getElementById("resume-prompt");
+    const textEl = document.getElementById("resume-text");
+    textEl.textContent = `Continue "${resume.title}" from ${time}`;
+    el.classList.remove("hidden");
+
+    document.getElementById("resume-btn").onclick = async () => {
+      el.classList.add("hidden");
+      try {
+        await api("/api/play", {
+          method: "POST",
+          body: JSON.stringify({ video_id: resume.video_id, languages: resume.languages }),
+        });
+        // Wait for playback to start, then seek
+        setTimeout(async () => {
+          await api("/api/seek", {
+            method: "POST",
+            body: JSON.stringify({ position: resume.current_time }),
+          });
+        }, 2000);
+        pollStatus();
+      } catch {}
+    };
+
+    document.getElementById("resume-dismiss").onclick = () => {
+      el.classList.add("hidden");
+      localStorage.removeItem(RESUME_KEY);
+    };
+  } catch {}
+}
+
 function updateStatusUI(data) {
   const card = document.getElementById("status-card");
   const titleEl = document.getElementById("status-title");
@@ -298,6 +394,8 @@ function updateStatusUI(data) {
   }
 
   if (data.error) showError(data.error);
+
+  saveResumeState(data);
 }
 
 function formatTime(seconds) {
