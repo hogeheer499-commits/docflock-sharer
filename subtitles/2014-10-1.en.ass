@@ -1,0 +1,2047 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.79,0:00:14.33,Default,,0,0,0,,Hello, I'm Dr. David R. Hawkins. I'm a physician, psychiatrist, psychoanalyst, nutritionist.
+Dialogue: 0,0:00:15.71,0:00:20.97,Default,,0,0,0,,I've been doing research in the nature of consciousness itself and levels of awareness
+Dialogue: 0,0:00:20.97,0:00:28.00,Default,,0,0,0,,that the world calls spiritual. Out of this, plus my 35 years of clinical experience, as well as my
+Dialogue: 0,0:00:28.00,0:00:35.40,Default,,0,0,0,,own personal experience, we've derived knowledge that can be extremely useful in alleviating
+Dialogue: 0,0:00:35.40,0:00:40.46,Default,,0,0,0,,human suffering in all its forms, many of which I've lived through in my own personal life,
+Dialogue: 0,0:00:40.80,0:00:45.94,Default,,0,0,0,,and I've been forced to find answers that are outside the field of traditional medicine.
+Dialogue: 0,0:00:48.64,0:00:55.80,Default,,0,0,0,,We'll be talking about, in this particular workshop today, pain and suffering, the alleviation of pain
+Dialogue: 0,0:00:55.80,0:01:01.47,Default,,0,0,0,,and suffering. To begin with, that the world thinks that they are the same thing. To get off
+Dialogue: 0,0:01:01.47,0:01:06.53,Default,,0,0,0,,the idea and to show how to separate that suffering is one thing and pain is another.
+Dialogue: 0,0:01:07.99,0:01:08.29,Default,,0,0,0,,To look at the world as a whole, as a whole, as a whole, as a whole, as a whole, as a whole,
+Dialogue: 0,0:01:08.29,0:01:14.11,Default,,0,0,0,,to look into what it means, physical, mental, and spiritual. It is said that all diseases,
+Dialogue: 0,0:01:14.31,0:01:20.73,Default,,0,0,0,,all illnesses, all human problems are physical, mental, and spiritual. What does that actually
+Dialogue: 0,0:01:20.73,0:01:26.63,Default,,0,0,0,,mean? As a physician, I've learned all about the physical. As a psychiatrist, about the mental.
+Dialogue: 0,0:01:27.25,0:01:30.93,Default,,0,0,0,,And in consciousness and spiritual work, about the spiritual dimension.
+Dialogue: 0,0:01:31.33,0:01:38.13,Default,,0,0,0,,What is meant by spirit? Is this a fantasy? Is it something real? Is it something we can
+Dialogue: 0,0:01:38.13,0:01:44.95,Default,,0,0,0,,work with? Is it something that's only useful for religious people? What do we need to know
+Dialogue: 0,0:01:44.95,0:01:51.17,Default,,0,0,0,,about that, that we can experience the truth of for ourself? How can we utilize this knowledge
+Dialogue: 0,0:01:51.17,0:01:55.45,Default,,0,0,0,,for the alleviation of our own problems and of those that we love?
+Dialogue: 0,0:01:56.55,0:02:02.87,Default,,0,0,0,,So today we'll be talking about how to handle acute pain, how to handle chronic pain,
+Dialogue: 0,0:02:03.25,0:02:08.85,Default,,0,0,0,,how to handle the pain itself, and even more importantly, how to be with that pain.
+Dialogue: 0,0:02:08.93,0:02:16.05,Default,,0,0,0,,You see, we have two different things to address. One is the problem itself, the symptoms,
+Dialogue: 0,0:02:17.41,0:02:23.45,Default,,0,0,0,,how to handle them specifically. And there we'll also be looking at such things as
+Dialogue: 0,0:02:23.45,0:02:29.77,Default,,0,0,0,,the use of hypnosis and acupuncture, what part do they play in alleviation of pain.
+Dialogue: 0,0:02:30.63,0:02:37.61,Default,,0,0,0,,And we'll be looking at levels of consciousness. In other words, how to be with that experience,
+Dialogue: 0,0:02:37.61,0:02:39.43,Default,,0,0,0,,how to be with the experience.
+Dialogue: 0,0:02:39.51,0:02:44.33,Default,,0,0,0,,Of that problem, and the problem, of course, we're looking at today, is that of pain.
+Dialogue: 0,0:02:45.40,0:02:51.32,Default,,0,0,0,,And in going into that, we'll be utilizing a map of consciousness, which we have evolved
+Dialogue: 0,0:02:51.32,0:02:56.76,Default,,0,0,0,,as a composite of many fields of endeavor and joint study that I've done with others.
+Dialogue: 0,0:02:58.47,0:03:02.83,Default,,0,0,0,,And so you'll see on the blackboard, we have something that we'll be referring to that is
+Dialogue: 0,0:03:02.83,0:03:10.00,Default,,0,0,0,,extremely useful and we've found very helpful. And that is sort of a mathematical model
+Dialogue: 0,0:03:10.40,0:03:16.70,Default,,0,0,0,,of the levels of consciousness. They've been calibrated as to their relative power, the
+Dialogue: 0,0:03:16.70,0:03:23.16,Default,,0,0,0,,direction of their energy fields, what the emotional component is, what the process going
+Dialogue: 0,0:03:23.16,0:03:29.48,Default,,0,0,0,,on in consciousness is, how that influences our view of the world, and our view of a God
+Dialogue: 0,0:03:29.48,0:03:33.64,Default,,0,0,0,,if we have one. And if we don't have one, what does that come out of?
+Dialogue: 0,0:03:34.02,0:03:41.88,Default,,0,0,0,,So we'll be addressing clinical examples, things that I've experienced,
+Dialogue: 0,0:03:42.00,0:03:47.44,Default,,0,0,0,,through myself, even recently in my own personal life, so that I can attest to the fact that
+Dialogue: 0,0:03:47.44,0:03:48.44,Default,,0,0,0,,they work.
+Dialogue: 0,0:03:48.44,0:03:49.44,Default,,0,0,0,,They work.
+Dialogue: 0,0:03:49.44,0:03:50.44,Default,,0,0,0,,They've worked for me.
+Dialogue: 0,0:03:50.44,0:03:52.24,Default,,0,0,0,,They've worked for others who've tried it.
+Dialogue: 0,0:03:52.24,0:03:54.06,Default,,0,0,0,,They've worked clinically.
+Dialogue: 0,0:03:54.06,0:03:58.56,Default,,0,0,0,,And out of this experience we demonstrate certain principles of consciousness which
+Dialogue: 0,0:03:58.56,0:04:03.38,Default,,0,0,0,,have a benefit to our life as a whole, to our life as a whole.
+Dialogue: 0,0:04:03.38,0:04:10.28,Default,,0,0,0,,What we learn in studying one specific problem then generalizes to our life as a whole.
+Dialogue: 0,0:04:10.28,0:04:15.26,Default,,0,0,0,,So we'll be turning lemons into lemonade, how to turn something that the world considers
+Dialogue: 0,0:04:15.26,0:04:21.92,Default,,0,0,0,,to be awful, such as pain, how to derive benefit from that, how to have your life prosper as
+Dialogue: 0,0:04:21.92,0:04:29.23,Default,,0,0,0,,a result of what you've learned from this one specific incidence.
+Dialogue: 0,0:04:29.23,0:04:34.67,Default,,0,0,0,,We need to know something about what is the nature of consciousness itself, and from that
+Dialogue: 0,0:04:34.67,0:04:39.51,Default,,0,0,0,,we'll learn a lot that will help us in our life in general.
+Dialogue: 0,0:04:39.51,0:04:41.81,Default,,0,0,0,,What is the nature of human experience?
+Dialogue: 0,0:04:41.81,0:04:42.75,Default,,0,0,0,,Where is experience?
+Dialogue: 0,0:04:42.75,0:04:45.91,Default,,0,0,0,,What is experience experienced?
+Dialogue: 0,0:04:45.91,0:04:50.25,Default,,0,0,0,,So to begin with, we'll look at the relationship between body, mind, and spirit.
+Dialogue: 0,0:04:50.25,0:04:52.05,Default,,0,0,0,,What does this mean?
+Dialogue: 0,0:04:52.05,0:04:56.73,Default,,0,0,0,,What is it besides just a catchphrase?
+Dialogue: 0,0:04:56.73,0:04:58.99,Default,,0,0,0,,Everybody says body, mind, and spirit.
+Dialogue: 0,0:04:58.99,0:05:00.31,Default,,0,0,0,,What does that mean?
+Dialogue: 0,0:05:00.31,0:05:02.42,Default,,0,0,0,,What is it practically?
+Dialogue: 0,0:05:02.42,0:05:07.28,Default,,0,0,0,,I myself came, you know, as a scientist with a skeptical, pragmatic mind.
+Dialogue: 0,0:05:07.28,0:05:11.10,Default,,0,0,0,,I'm very impressed by what works.
+Dialogue: 0,0:05:11.10,0:05:13.14,Default,,0,0,0,,I'm very unimpressed by.
+Dialogue: 0,0:05:13.14,0:05:15.26,Default,,0,0,0,,The hypothetical and the theoretical.
+Dialogue: 0,0:05:15.26,0:05:20.26,Default,,0,0,0,,I'm very interested in what brings about results and what you can reduplicate through your
+Dialogue: 0,0:05:20.26,0:05:22.48,Default,,0,0,0,,own experience.
+Dialogue: 0,0:05:22.48,0:05:26.98,Default,,0,0,0,,So I'll be sharing my personal experience, my clinical experience, and the results of
+Dialogue: 0,0:05:26.98,0:05:29.92,Default,,0,0,0,,our research.
+Dialogue: 0,0:05:29.92,0:05:35.18,Default,,0,0,0,,So we'll look at the relationship between mind, body, and spirit, and how these are
+Dialogue: 0,0:05:35.18,0:05:36.46,Default,,0,0,0,,experienced.
+Dialogue: 0,0:05:36.46,0:05:41.62,Default,,0,0,0,,The first thing to realize is that the body has no capacity to experience itself.
+Dialogue: 0,0:05:41.62,0:05:43.28,Default,,0,0,0,,This is a surprising thought.
+Dialogue: 0,0:05:43.28,0:05:44.56,Default,,0,0,0,,Because we think we're experiencing our body.
+Dialogue: 0,0:05:44.56,0:05:47.94,Default,,0,0,0,,We all think we are our body.
+Dialogue: 0,0:05:47.94,0:05:49.94,Default,,0,0,0,,How does the body get experienced?
+Dialogue: 0,0:05:49.94,0:05:55.68,Default,,0,0,0,,Well, the arm, for instance, has no way of experiencing its armness.
+Dialogue: 0,0:05:55.68,0:05:59.58,Default,,0,0,0,,The leg cannot experience its own being a leg.
+Dialogue: 0,0:05:59.58,0:06:04.71,Default,,0,0,0,,It's because these parts are experienced through sensations.
+Dialogue: 0,0:06:04.71,0:06:08.57,Default,,0,0,0,,So sensations of the body is what we're experiencing.
+Dialogue: 0,0:06:08.57,0:06:09.87,Default,,0,0,0,,We're not experiencing the body.
+Dialogue: 0,0:06:09.87,0:06:13.74,Default,,0,0,0,,We're experiencing our sensations of the body.
+Dialogue: 0,0:06:13.74,0:06:14.82,Default,,0,0,0,,And where are these sensations of the body being?
+Dialogue: 0,0:06:14.82,0:06:15.54,Default,,0,0,0,,Where are they being?
+Dialogue: 0,0:06:15.54,0:06:18.55,Default,,0,0,0,,They're being experienced.
+Dialogue: 0,0:06:18.55,0:06:21.49,Default,,0,0,0,,They're being experienced in the mind.
+Dialogue: 0,0:06:21.49,0:06:25.51,Default,,0,0,0,,Without a mind, you cannot experience what is going on in the body, the sensations that
+Dialogue: 0,0:06:25.51,0:06:27.57,Default,,0,0,0,,are telling us about the body.
+Dialogue: 0,0:06:27.57,0:06:32.47,Default,,0,0,0,,And so experiences going on then of the body is occurring in the mind.
+Dialogue: 0,0:06:32.47,0:06:35.11,Default,,0,0,0,,Your experience of your body is not occurring in your body.
+Dialogue: 0,0:06:35.11,0:06:36.37,Default,,0,0,0,,It's occurring in your mind.
+Dialogue: 0,0:06:36.37,0:06:39.91,Default,,0,0,0,,That's the first surprising thought to get used to.
+Dialogue: 0,0:06:39.91,0:06:46.13,Default,,0,0,0,,The next surprising thought is that mind cannot experience itself.
+Dialogue: 0,0:06:46.13,0:06:48.03,Default,,0,0,0,,The next surprising thought is it not.
+Dialogue: 0,0:06:48.03,0:06:50.93,Default,,0,0,0,,A thought cannot experience its own thoughtness.
+Dialogue: 0,0:06:50.93,0:06:53.81,Default,,0,0,0,,A feeling cannot experience its own feelingness.
+Dialogue: 0,0:06:53.81,0:06:57.79,Default,,0,0,0,,A memory cannot experience its own memoryness.
+Dialogue: 0,0:06:57.79,0:07:03.95,Default,,0,0,0,,The mind itself has to be in something greater than itself in order to know what is going
+Dialogue: 0,0:07:03.95,0:07:04.95,Default,,0,0,0,,on in mind.
+Dialogue: 0,0:07:04.95,0:07:07.91,Default,,0,0,0,,How do you know what is going on in your mind?
+Dialogue: 0,0:07:07.91,0:07:12.19,Default,,0,0,0,,You know what's going on in your mind because of consciousness itself.
+Dialogue: 0,0:07:12.19,0:07:14.89,Default,,0,0,0,,So mind itself and the content of mind, what's going on in mind, is not going to be in the mind.
+Dialogue: 0,0:07:14.89,0:07:15.89,Default,,0,0,0,,It's going to be in the mind.
+Dialogue: 0,0:07:16.13,0:07:19.95,Default,,0,0,0,,is being known through consciousness
+Dialogue: 0,0:07:19.95,0:07:24.20,Default,,0,0,0,,so that all experience is occurring then in consciousness.
+Dialogue: 0,0:07:24.66,0:07:26.64,Default,,0,0,0,,Your awareness of what is happening
+Dialogue: 0,0:07:26.64,0:07:28.82,Default,,0,0,0,,is occurring within your consciousness.
+Dialogue: 0,0:07:29.96,0:07:34.26,Default,,0,0,0,,We know this if, for instance, you cut a part of the brain
+Dialogue: 0,0:07:34.26,0:07:37.80,Default,,0,0,0,,so that a part of the mind is no longer operative
+Dialogue: 0,0:07:37.80,0:07:39.68,Default,,0,0,0,,in the physical domain.
+Dialogue: 0,0:07:40.82,0:07:42.62,Default,,0,0,0,,If you cut part of the brain,
+Dialogue: 0,0:07:42.70,0:07:44.70,Default,,0,0,0,,then the opposite side of the body, let's say,
+Dialogue: 0,0:07:44.72,0:07:46.00,Default,,0,0,0,,is no longer experienced.
+Dialogue: 0,0:07:46.00,0:07:49.06,Default,,0,0,0,,So, body is experienced in mind,
+Dialogue: 0,0:07:49.22,0:07:50.86,Default,,0,0,0,,no mind, no experience of body.
+Dialogue: 0,0:07:52.49,0:07:55.99,Default,,0,0,0,,We know that if you eliminate consciousness,
+Dialogue: 0,0:07:56.41,0:07:58.97,Default,,0,0,0,,there is no awareness of what is going on in mind.
+Dialogue: 0,0:07:59.59,0:08:01.23,Default,,0,0,0,,That's the whole purpose of anesthesia.
+Dialogue: 0,0:08:01.81,0:08:03.47,Default,,0,0,0,,The purpose of anesthesia is
+Dialogue: 0,0:08:03.47,0:08:05.45,Default,,0,0,0,,when you cut out consciousness,
+Dialogue: 0,0:08:05.75,0:08:07.91,Default,,0,0,0,,there is no awareness of what is going on in mind.
+Dialogue: 0,0:08:10.82,0:08:13.06,Default,,0,0,0,,Interestingly, consciousness itself
+Dialogue: 0,0:08:13.06,0:08:16.00,Default,,0,0,0,,is experienced from an even greater domain.
+Dialogue: 0,0:08:16.42,0:08:18.12,Default,,0,0,0,,So, as this progresses,
+Dialogue: 0,0:08:18.28,0:08:20.68,Default,,0,0,0,,you get that the lesser is always experienced
+Dialogue: 0,0:08:20.68,0:08:21.98,Default,,0,0,0,,from that which is the greater.
+Dialogue: 0,0:08:22.40,0:08:24.06,Default,,0,0,0,,It is the greater that encompasses
+Dialogue: 0,0:08:24.06,0:08:26.70,Default,,0,0,0,,and allows the experience of the lesser.
+Dialogue: 0,0:08:27.48,0:08:29.78,Default,,0,0,0,,And consciousness itself is then experienced
+Dialogue: 0,0:08:29.78,0:08:32.12,Default,,0,0,0,,in the greatest domain,
+Dialogue: 0,0:08:32.22,0:08:34.62,Default,,0,0,0,,and that is the one without limit,
+Dialogue: 0,0:08:35.10,0:08:35.96,Default,,0,0,0,,called awareness.
+Dialogue: 0,0:08:36.68,0:08:38.32,Default,,0,0,0,,It is awareness itself.
+Dialogue: 0,0:08:38.32,0:08:40.02,Default,,0,0,0,,It is the nature of awareness,
+Dialogue: 0,0:08:40.96,0:08:42.10,Default,,0,0,0,,being itself,
+Dialogue: 0,0:08:42.86,0:08:43.40,Default,,0,0,0,,to know,
+Dialogue: 0,0:08:44.02,0:08:45.76,Default,,0,0,0,,to know what is going on in consciousness.
+Dialogue: 0,0:08:46.58,0:08:47.88,Default,,0,0,0,,It is the nature of consciousness
+Dialogue: 0,0:08:48.28,0:08:49.74,Default,,0,0,0,,to know what is going on in mind.
+Dialogue: 0,0:08:50.34,0:08:51.48,Default,,0,0,0,,It is the nature of mind
+Dialogue: 0,0:08:51.48,0:08:53.46,Default,,0,0,0,,to know what is going on with sensations.
+Dialogue: 0,0:08:54.08,0:08:55.50,Default,,0,0,0,,And the nature of sensations
+Dialogue: 0,0:08:55.50,0:08:58.30,Default,,0,0,0,,to know what is going on with the body.
+Dialogue: 0,0:08:59.56,0:09:00.94,Default,,0,0,0,,What is the importance of this?
+Dialogue: 0,0:09:01.38,0:09:03.08,Default,,0,0,0,,The importance of it is to know
+Dialogue: 0,0:09:03.08,0:09:04.90,Default,,0,0,0,,that all experience,
+Dialogue: 0,0:09:05.74,0:09:06.82,Default,,0,0,0,,ordinary experience,
+Dialogue: 0,0:09:07.12,0:09:09.60,Default,,0,0,0,,is going on in consciousness alone.
+Dialogue: 0,0:09:11.10,0:09:12.32,Default,,0,0,0,,Where is consciousness?
+Dialogue: 0,0:09:12.62,0:09:13.04,Default,,0,0,0,,When we say,
+Dialogue: 0,0:09:13.20,0:09:14.92,Default,,0,0,0,,when we experience something,
+Dialogue: 0,0:09:15.40,0:09:17.12,Default,,0,0,0,,where do we experience it?
+Dialogue: 0,0:09:18.64,0:09:19.82,Default,,0,0,0,,Is there a place?
+Dialogue: 0,0:09:20.32,0:09:22.40,Default,,0,0,0,,Where is consciousness located?
+Dialogue: 0,0:09:23.18,0:09:25.96,Default,,0,0,0,,Does it have a specific space?
+Dialogue: 0,0:09:26.24,0:09:27.02,Default,,0,0,0,,Is it someplace?
+Dialogue: 0,0:09:28.14,0:09:29.50,Default,,0,0,0,,It is important for us to know
+Dialogue: 0,0:09:29.50,0:09:31.92,Default,,0,0,0,,that consciousness has no space.
+Dialogue: 0,0:09:32.06,0:09:33.32,Default,,0,0,0,,It has no area.
+Dialogue: 0,0:09:33.62,0:09:34.74,Default,,0,0,0,,It has no limitation.
+Dialogue: 0,0:09:35.68,0:09:37.19,Default,,0,0,0,,The common fantasy is,
+Dialogue: 0,0:09:37.19,0:09:39.19,Default,,0,0,0,,well, I experience things in my head.
+Dialogue: 0,0:09:39.75,0:09:42.25,Default,,0,0,0,,Actually, you don't experience them in your head.
+Dialogue: 0,0:09:42.89,0:09:44.43,Default,,0,0,0,,Where do you experience a thought?
+Dialogue: 0,0:09:44.85,0:09:46.63,Default,,0,0,0,,You are experiencing a thought nowhere.
+Dialogue: 0,0:09:47.39,0:09:49.45,Default,,0,0,0,,There is no specific space
+Dialogue: 0,0:09:49.45,0:09:50.53,Default,,0,0,0,,in which you are experiencing,
+Dialogue: 0,0:09:50.55,0:09:51.37,Default,,0,0,0,,experiencing thought.
+Dialogue: 0,0:09:53.52,0:09:55.40,Default,,0,0,0,,The nature of consciousness is
+Dialogue: 0,0:09:55.40,0:09:57.70,Default,,0,0,0,,that it has no particular form.
+Dialogue: 0,0:09:58.30,0:10:00.00,Default,,0,0,0,,Consciousness is without form.
+Dialogue: 0,0:10:00.10,0:10:01.84,Default,,0,0,0,,Its content is with form.
+Dialogue: 0,0:10:02.20,0:10:04.28,Default,,0,0,0,,But the field of consciousness itself
+Dialogue: 0,0:10:04.28,0:10:05.74,Default,,0,0,0,,is like space,
+Dialogue: 0,0:10:06.16,0:10:08.16,Default,,0,0,0,,having no particular locality.
+Dialogue: 0,0:10:09.39,0:10:11.29,Default,,0,0,0,,This will be important to us later today
+Dialogue: 0,0:10:11.29,0:10:12.23,Default,,0,0,0,,as we discuss
+Dialogue: 0,0:10:12.23,0:10:14.93,Default,,0,0,0,,one of the techniques of handling pain.
+Dialogue: 0,0:10:15.49,0:10:17.03,Default,,0,0,0,,Because pain can be handled
+Dialogue: 0,0:10:17.03,0:10:19.07,Default,,0,0,0,,both locally and generally.
+Dialogue: 0,0:10:19.99,0:10:21.27,Default,,0,0,0,,So we have several ways
+Dialogue: 0,0:10:21.27,0:10:22.23,Default,,0,0,0,,in which now we are going to
+Dialogue: 0,0:10:22.23,0:10:24.23,Default,,0,0,0,,be approaching the handling of pain.
+Dialogue: 0,0:10:24.93,0:10:27.13,Default,,0,0,0,,How to handle the specific sensation.
+Dialogue: 0,0:10:27.77,0:10:29.67,Default,,0,0,0,,How to handle the experience of it.
+Dialogue: 0,0:10:30.29,0:10:31.35,Default,,0,0,0,,And how to handle
+Dialogue: 0,0:10:32.35,0:10:34.19,Default,,0,0,0,,and be with that
+Dialogue: 0,0:10:35.01,0:10:36.87,Default,,0,0,0,,as you exist, as you are,
+Dialogue: 0,0:10:37.19,0:10:38.97,Default,,0,0,0,,the way you as a being are
+Dialogue: 0,0:10:38.97,0:10:41.01,Default,,0,0,0,,with that experience of that pain.
+Dialogue: 0,0:10:42.24,0:10:44.04,Default,,0,0,0,,And how you have evolved
+Dialogue: 0,0:10:44.04,0:10:45.28,Default,,0,0,0,,in your own consciousness
+Dialogue: 0,0:10:45.80,0:10:47.80,Default,,0,0,0,,will determine whether the pain
+Dialogue: 0,0:10:47.80,0:10:49.52,Default,,0,0,0,,involves suffering or not.
+Dialogue: 0,0:10:50.66,0:10:51.92,Default,,0,0,0,,Isn't that a surprising thought?
+Dialogue: 0,0:10:52.08,0:10:52.78,Default,,0,0,0,,That pain is one thing,
+Dialogue: 0,0:10:52.78,0:10:54.78,Default,,0,0,0,,and suffering is another.
+Dialogue: 0,0:10:55.64,0:10:56.94,Default,,0,0,0,,So the first thing we want to
+Dialogue: 0,0:10:56.94,0:10:58.94,Default,,0,0,0,,get rid of in our minds
+Dialogue: 0,0:10:58.94,0:11:00.94,Default,,0,0,0,,is the belief system
+Dialogue: 0,0:11:00.94,0:11:02.94,Default,,0,0,0,,that pain is therefore suffering.
+Dialogue: 0,0:11:02.94,0:11:04.94,Default,,0,0,0,,Because that sets up
+Dialogue: 0,0:11:04.94,0:11:06.94,Default,,0,0,0,,a whole series of programs
+Dialogue: 0,0:11:06.94,0:11:09.07,Default,,0,0,0,,which we are going to need to undo.
+Dialogue: 0,0:11:09.07,0:11:11.07,Default,,0,0,0,,Pain is one thing.
+Dialogue: 0,0:11:11.07,0:11:13.07,Default,,0,0,0,,It is quite possible to be with pain
+Dialogue: 0,0:11:13.07,0:11:15.07,Default,,0,0,0,,and be totally indifferent to it.
+Dialogue: 0,0:11:15.07,0:11:17.07,Default,,0,0,0,,It is possible for pain to exist in the body
+Dialogue: 0,0:11:17.07,0:11:19.07,Default,,0,0,0,,and to have relatively little or no experience
+Dialogue: 0,0:11:19.07,0:11:21.20,Default,,0,0,0,,of that pain.
+Dialogue: 0,0:11:21.20,0:11:23.84,Default,,0,0,0,,No suffering about it at all.
+Dialogue: 0,0:11:23.84,0:11:25.84,Default,,0,0,0,,Those of you who have ever had surgery,
+Dialogue: 0,0:11:25.84,0:11:27.84,Default,,0,0,0,,for instance, and have had anesthesia,
+Dialogue: 0,0:11:27.84,0:11:29.84,Default,,0,0,0,,have had analgesia,
+Dialogue: 0,0:11:29.84,0:11:31.84,Default,,0,0,0,,is the better term.
+Dialogue: 0,0:11:31.84,0:11:33.84,Default,,0,0,0,,You know, an injection of Demerol or something
+Dialogue: 0,0:11:33.84,0:11:35.84,Default,,0,0,0,,will know that
+Dialogue: 0,0:11:35.84,0:11:37.84,Default,,0,0,0,,you've had a gallbladder attack,
+Dialogue: 0,0:11:37.84,0:11:39.84,Default,,0,0,0,,let's say, or something,
+Dialogue: 0,0:11:39.84,0:11:41.84,Default,,0,0,0,,and you've had analgesic,
+Dialogue: 0,0:11:41.84,0:11:43.84,Default,,0,0,0,,will know that in that state
+Dialogue: 0,0:11:43.84,0:11:45.84,Default,,0,0,0,,the pain is still there.
+Dialogue: 0,0:11:45.84,0:11:47.84,Default,,0,0,0,,The pain exists on its own.
+Dialogue: 0,0:11:47.84,0:11:50.06,Default,,0,0,0,,And yet, you as a being are no longer
+Dialogue: 0,0:11:50.06,0:11:52.06,Default,,0,0,0,,suffering about that pain.
+Dialogue: 0,0:11:52.06,0:11:54.06,Default,,0,0,0,,It's as though the pain is there,
+Dialogue: 0,0:11:54.06,0:11:56.06,Default,,0,0,0,,and you are here,
+Dialogue: 0,0:11:56.06,0:11:58.06,Default,,0,0,0,,but you are not necessarily connected
+Dialogue: 0,0:11:58.06,0:12:00.06,Default,,0,0,0,,with that pain.
+Dialogue: 0,0:12:00.06,0:12:02.06,Default,,0,0,0,,The pain exists on its own,
+Dialogue: 0,0:12:02.06,0:12:04.06,Default,,0,0,0,,but without you being at the effect of it.
+Dialogue: 0,0:12:04.06,0:12:06.06,Default,,0,0,0,,In other words, it's not necessary
+Dialogue: 0,0:12:06.06,0:12:08.06,Default,,0,0,0,,to be the victim of the pain.
+Dialogue: 0,0:12:08.06,0:12:10.06,Default,,0,0,0,,One can be with it in such a way
+Dialogue: 0,0:12:10.06,0:12:12.06,Default,,0,0,0,,that the pain is there,
+Dialogue: 0,0:12:12.06,0:12:14.06,Default,,0,0,0,,and I am with that pain
+Dialogue: 0,0:12:14.06,0:12:16.06,Default,,0,0,0,,in a way that does not involve suffering,
+Dialogue: 0,0:12:16.06,0:12:18.06,Default,,0,0,0,,does not involve
+Dialogue: 0,0:12:18.06,0:12:20.64,Default,,0,0,0,,any kind of agony.
+Dialogue: 0,0:12:20.64,0:12:22.64,Default,,0,0,0,,To realize that that is possible
+Dialogue: 0,0:12:22.64,0:12:24.64,Default,,0,0,0,,is the first step
+Dialogue: 0,0:12:24.64,0:12:26.64,Default,,0,0,0,,that leads us out of it.
+Dialogue: 0,0:12:26.64,0:12:28.64,Default,,0,0,0,,Letting go of the belief
+Dialogue: 0,0:12:28.64,0:12:30.80,Default,,0,0,0,,that pain and suffering are the same thing.
+Dialogue: 0,0:12:30.80,0:12:32.80,Default,,0,0,0,,And today in this we'll talk about
+Dialogue: 0,0:12:32.80,0:12:34.80,Default,,0,0,0,,the fact is,
+Dialogue: 0,0:12:34.80,0:12:36.80,Default,,0,0,0,,is going to the dentist necessarily painful?
+Dialogue: 0,0:12:36.80,0:12:38.80,Default,,0,0,0,,Frankly, no.
+Dialogue: 0,0:12:38.80,0:12:40.86,Default,,0,0,0,,At one time in my life
+Dialogue: 0,0:12:40.86,0:12:42.86,Default,,0,0,0,,going to the dentist was agonizing.
+Dialogue: 0,0:12:42.86,0:12:44.86,Default,,0,0,0,,It took a handful of pills
+Dialogue: 0,0:12:44.86,0:12:46.86,Default,,0,0,0,,and tranquilizers,
+Dialogue: 0,0:12:46.86,0:12:48.86,Default,,0,0,0,,and this is many, many years ago.
+Dialogue: 0,0:12:48.86,0:12:51.22,Default,,0,0,0,,But I remember I would
+Dialogue: 0,0:12:51.22,0:12:53.22,Default,,0,0,0,,put off going because
+Dialogue: 0,0:12:53.22,0:12:55.22,Default,,0,0,0,,my pain threshold was so low
+Dialogue: 0,0:12:55.22,0:12:57.22,Default,,0,0,0,,I literally had to have analgesia
+Dialogue: 0,0:12:57.22,0:12:59.22,Default,,0,0,0,,to get my teeth cleaned.
+Dialogue: 0,0:12:59.22,0:13:01.38,Default,,0,0,0,,And my pain threshold was so low
+Dialogue: 0,0:13:01.38,0:13:03.38,Default,,0,0,0,,that I was pain prone.
+Dialogue: 0,0:13:03.38,0:13:05.38,Default,,0,0,0,,So we'll be talking today
+Dialogue: 0,0:13:05.38,0:13:07.38,Default,,0,0,0,,about pain proneness.
+Dialogue: 0,0:13:07.38,0:13:09.38,Default,,0,0,0,,What is it that sets our pain threshold?
+Dialogue: 0,0:13:09.38,0:13:11.38,Default,,0,0,0,,What is it that sets our readiness
+Dialogue: 0,0:13:11.38,0:13:13.38,Default,,0,0,0,,to experience pain?
+Dialogue: 0,0:13:13.38,0:13:15.44,Default,,0,0,0,,And as the years went by
+Dialogue: 0,0:13:15.44,0:13:17.44,Default,,0,0,0,,and I learned these various
+Dialogue: 0,0:13:17.44,0:13:19.44,Default,,0,0,0,,spiritual techniques
+Dialogue: 0,0:13:19.44,0:13:21.44,Default,,0,0,0,,and consciousness techniques
+Dialogue: 0,0:13:21.44,0:13:23.44,Default,,0,0,0,,and began to apply them,
+Dialogue: 0,0:13:23.44,0:13:25.44,Default,,0,0,0,,the experience of pain began to diminish.
+Dialogue: 0,0:13:25.44,0:13:27.44,Default,,0,0,0,,Much to my surprise,
+Dialogue: 0,0:13:27.44,0:13:29.44,Default,,0,0,0,,I could go to the dentist
+Dialogue: 0,0:13:29.44,0:13:31.44,Default,,0,0,0,,and experience moderate pain
+Dialogue: 0,0:13:31.44,0:13:33.44,Default,,0,0,0,,instead of agony.
+Dialogue: 0,0:13:33.44,0:13:35.44,Default,,0,0,0,,And then the pain became mild.
+Dialogue: 0,0:13:35.44,0:13:37.44,Default,,0,0,0,,Then it only became a discomfort.
+Dialogue: 0,0:13:37.44,0:13:39.44,Default,,0,0,0,,And when I go to the dentist now
+Dialogue: 0,0:13:39.44,0:13:41.44,Default,,0,0,0,,I don't even notice any discomfort.
+Dialogue: 0,0:13:41.44,0:13:43.44,Default,,0,0,0,,It's like I'm in the chair for a minute
+Dialogue: 0,0:13:43.44,0:13:45.44,Default,,0,0,0,,and I'm out and I say,
+Dialogue: 0,0:13:45.44,0:13:48.40,Default,,0,0,0,,are you done already?
+Dialogue: 0,0:13:48.40,0:13:50.40,Default,,0,0,0,,I can hardly believe you're done already.
+Dialogue: 0,0:13:50.40,0:13:52.40,Default,,0,0,0,,So when we get to near the end of the tape
+Dialogue: 0,0:13:52.40,0:13:54.40,Default,,0,0,0,,we'll discuss some perhaps
+Dialogue: 0,0:13:54.40,0:13:56.40,Default,,0,0,0,,self-hypnotic techniques
+Dialogue: 0,0:13:56.40,0:13:58.40,Default,,0,0,0,,to reinforce what we've learned.
+Dialogue: 0,0:13:58.40,0:14:00.40,Default,,0,0,0,,We'll be utilizing that
+Dialogue: 0,0:14:00.40,0:14:02.40,Default,,0,0,0,,sort of auto-suggestion
+Dialogue: 0,0:14:02.40,0:14:04.40,Default,,0,0,0,,and how to reinforce what we've learned.
+Dialogue: 0,0:14:04.40,0:14:06.40,Default,,0,0,0,,How to utilize a somewhat
+Dialogue: 0,0:14:06.40,0:14:08.40,Default,,0,0,0,,altered state of consciousness
+Dialogue: 0,0:14:08.40,0:14:10.40,Default,,0,0,0,,in your own behalf.
+Dialogue: 0,0:14:10.40,0:14:12.40,Default,,0,0,0,,How to come from a suggestible space
+Dialogue: 0,0:14:12.40,0:14:14.40,Default,,0,0,0,,to learn more quickly.
+Dialogue: 0,0:14:14.40,0:14:16.40,Default,,0,0,0,,Not to relieve pain.
+Dialogue: 0,0:14:16.40,0:14:18.40,Default,,0,0,0,,We'll be talking about it
+Dialogue: 0,0:14:18.40,0:14:20.40,Default,,0,0,0,,as a means of quickly
+Dialogue: 0,0:14:20.40,0:14:22.40,Default,,0,0,0,,educating yourself.
+Dialogue: 0,0:14:22.40,0:14:24.40,Default,,0,0,0,,When you've got to go to the dentist next week
+Dialogue: 0,0:14:24.40,0:14:26.40,Default,,0,0,0,,you don't have much time
+Dialogue: 0,0:14:26.40,0:14:28.40,Default,,0,0,0,,to learn the techniques.
+Dialogue: 0,0:14:28.40,0:14:31.62,Default,,0,0,0,,And we'll learn some ways
+Dialogue: 0,0:14:31.62,0:14:33.62,Default,,0,0,0,,to speed them up.
+Dialogue: 0,0:14:33.62,0:14:35.62,Default,,0,0,0,,First thing we want to address ourselves to
+Dialogue: 0,0:14:35.62,0:14:37.90,Default,,0,0,0,,is the handling of acute pain.
+Dialogue: 0,0:14:37.90,0:14:39.90,Default,,0,0,0,,You're walking along
+Dialogue: 0,0:14:39.90,0:14:41.90,Default,,0,0,0,,and suddenly you sprain your ankle
+Dialogue: 0,0:14:41.90,0:14:43.90,Default,,0,0,0,,and the pain is agonizing
+Dialogue: 0,0:14:43.90,0:14:45.90,Default,,0,0,0,,or you break your leg
+Dialogue: 0,0:14:45.90,0:14:47.90,Default,,0,0,0,,or you suddenly have a gallbladder attack
+Dialogue: 0,0:14:47.90,0:14:49.90,Default,,0,0,0,,or renal colic
+Dialogue: 0,0:14:49.90,0:14:51.90,Default,,0,0,0,,or a coronary
+Dialogue: 0,0:14:51.90,0:14:53.90,Default,,0,0,0,,or just an ordinary accident
+Dialogue: 0,0:14:53.90,0:14:55.90,Default,,0,0,0,,or you bark your shin
+Dialogue: 0,0:14:55.90,0:14:58.29,Default,,0,0,0,,you hit your head on something.
+Dialogue: 0,0:14:58.29,0:15:00.29,Default,,0,0,0,,How to handle that acute situation
+Dialogue: 0,0:15:00.29,0:15:02.29,Default,,0,0,0,,will reveal to us a technique
+Dialogue: 0,0:15:02.29,0:15:04.29,Default,,0,0,0,,that we'll be utilizing
+Dialogue: 0,0:15:04.29,0:15:06.29,Default,,0,0,0,,throughout the series
+Dialogue: 0,0:15:06.29,0:15:08.29,Default,,0,0,0,,in healing a variety of illnesses
+Dialogue: 0,0:15:08.29,0:15:10.29,Default,,0,0,0,,and a way of utilizing it
+Dialogue: 0,0:15:10.29,0:15:12.64,Default,,0,0,0,,in healing both acute and chronic pain.
+Dialogue: 0,0:15:12.64,0:15:14.64,Default,,0,0,0,,So let's start with acute pain.
+Dialogue: 0,0:15:14.64,0:15:16.64,Default,,0,0,0,,The sudden shock
+Dialogue: 0,0:15:16.64,0:15:18.64,Default,,0,0,0,,of suddenly finding yourself
+Dialogue: 0,0:15:18.64,0:15:20.64,Default,,0,0,0,,you've had an accident.
+Dialogue: 0,0:15:20.64,0:15:22.64,Default,,0,0,0,,You've scalded yourself.
+Dialogue: 0,0:15:22.64,0:15:24.64,Default,,0,0,0,,You've poured hot water on your hand
+Dialogue: 0,0:15:24.64,0:15:27.28,Default,,0,0,0,,and you've burned yourself
+Dialogue: 0,0:15:27.28,0:15:29.28,Default,,0,0,0,,on the sink or the stove.
+Dialogue: 0,0:15:29.28,0:15:31.28,Default,,0,0,0,,This is a technique
+Dialogue: 0,0:15:31.28,0:15:33.28,Default,,0,0,0,,that we're going to get a lot of mileage out of
+Dialogue: 0,0:15:33.28,0:15:35.28,Default,,0,0,0,,and that is the whole concept
+Dialogue: 0,0:15:35.28,0:15:37.28,Default,,0,0,0,,of letting go resistance.
+Dialogue: 0,0:15:37.28,0:15:39.28,Default,,0,0,0,,We want to look at
+Dialogue: 0,0:15:39.28,0:15:41.28,Default,,0,0,0,,what is the benefit in letting go resistance
+Dialogue: 0,0:15:41.28,0:15:43.28,Default,,0,0,0,,and compare it to what mind ordinarily does.
+Dialogue: 0,0:15:43.28,0:15:45.60,Default,,0,0,0,,What mind ordinarily does
+Dialogue: 0,0:15:45.60,0:15:47.60,Default,,0,0,0,,is resist an experience.
+Dialogue: 0,0:15:47.60,0:15:49.60,Default,,0,0,0,,It resists it
+Dialogue: 0,0:15:49.60,0:15:51.60,Default,,0,0,0,,out of the expectation of suffering.
+Dialogue: 0,0:15:51.60,0:15:53.60,Default,,0,0,0,,It has a program already set up.
+Dialogue: 0,0:15:53.60,0:15:55.60,Default,,0,0,0,,Pain means suffering
+Dialogue: 0,0:15:55.60,0:15:57.60,Default,,0,0,0,,and I'm going to resist this.
+Dialogue: 0,0:15:57.60,0:15:59.60,Default,,0,0,0,,And the fantasy is
+Dialogue: 0,0:15:59.60,0:16:01.60,Default,,0,0,0,,that if I resist it
+Dialogue: 0,0:16:01.60,0:16:03.95,Default,,0,0,0,,I will eliminate it.
+Dialogue: 0,0:16:03.95,0:16:05.95,Default,,0,0,0,,So the first thing we have to know
+Dialogue: 0,0:16:05.95,0:16:07.95,Default,,0,0,0,,is that the relief of pain and suffering
+Dialogue: 0,0:16:07.95,0:16:09.95,Default,,0,0,0,,comes rapidly
+Dialogue: 0,0:16:09.95,0:16:11.95,Default,,0,0,0,,by going 180 degrees
+Dialogue: 0,0:16:11.95,0:16:13.95,Default,,0,0,0,,in the opposite direction
+Dialogue: 0,0:16:13.95,0:16:15.95,Default,,0,0,0,,and that is by letting go resisting the pain
+Dialogue: 0,0:16:15.95,0:16:18.53,Default,,0,0,0,,and we'll talk about exactly how to do that.
+Dialogue: 0,0:16:18.53,0:16:20.53,Default,,0,0,0,,And we'll use some clinical examples
+Dialogue: 0,0:16:20.53,0:16:22.53,Default,,0,0,0,,of rapid healing
+Dialogue: 0,0:16:22.53,0:16:24.53,Default,,0,0,0,,that come about
+Dialogue: 0,0:16:24.53,0:16:26.53,Default,,0,0,0,,through a completely different technique
+Dialogue: 0,0:16:26.53,0:16:28.53,Default,,0,0,0,,than is used by the mind
+Dialogue: 0,0:16:28.53,0:16:30.53,Default,,0,0,0,,in an average situation.
+Dialogue: 0,0:16:30.53,0:16:32.53,Default,,0,0,0,,Letting go resistance
+Dialogue: 0,0:16:32.53,0:16:36.64,Default,,0,0,0,,is a process
+Dialogue: 0,0:16:36.64,0:16:38.74,Default,,0,0,0,,that takes place
+Dialogue: 0,0:16:38.74,0:16:40.74,Default,,0,0,0,,in everyday life.
+Dialogue: 0,0:16:40.74,0:16:42.80,Default,,0,0,0,,To let go resistance means
+Dialogue: 0,0:16:42.80,0:16:44.80,Default,,0,0,0,,to be with the thing
+Dialogue: 0,0:16:44.80,0:16:46.80,Default,,0,0,0,,and totally surrender
+Dialogue: 0,0:16:46.80,0:16:49.12,Default,,0,0,0,,to the sensation.
+Dialogue: 0,0:16:49.12,0:16:51.12,Default,,0,0,0,,It means to ignore the thoughts
+Dialogue: 0,0:16:51.12,0:16:53.12,Default,,0,0,0,,that you may be having about it.
+Dialogue: 0,0:16:53.12,0:16:55.22,Default,,0,0,0,,Instead of thinking about it
+Dialogue: 0,0:16:55.22,0:16:57.60,Default,,0,0,0,,you go right into the direct experience
+Dialogue: 0,0:16:57.60,0:16:59.60,Default,,0,0,0,,of the sensation
+Dialogue: 0,0:16:59.60,0:17:01.82,Default,,0,0,0,,and you totally let go resisting it.
+Dialogue: 0,0:17:01.82,0:17:03.82,Default,,0,0,0,,Let's say you burn yourself by accident.
+Dialogue: 0,0:17:03.82,0:17:05.82,Default,,0,0,0,,At first it will be like an overwhelm.
+Dialogue: 0,0:17:05.82,0:17:08.08,Default,,0,0,0,,It's like
+Dialogue: 0,0:17:08.08,0:17:10.08,Default,,0,0,0,,you ask for more of it.
+Dialogue: 0,0:17:10.08,0:17:12.08,Default,,0,0,0,,You let the doors open
+Dialogue: 0,0:17:12.08,0:17:14.08,Default,,0,0,0,,and the pain rushes in
+Dialogue: 0,0:17:14.08,0:17:16.08,Default,,0,0,0,,and you totally surrender to it
+Dialogue: 0,0:17:16.08,0:17:19.17,Default,,0,0,0,,and let go resisting to it.
+Dialogue: 0,0:17:19.17,0:17:21.17,Default,,0,0,0,,In fact the way to do this
+Dialogue: 0,0:17:21.17,0:17:23.55,Default,,0,0,0,,is to say more, more, more, more.
+Dialogue: 0,0:17:23.55,0:17:25.55,Default,,0,0,0,,And the way to hold this in mind
+Dialogue: 0,0:17:25.55,0:17:27.55,Default,,0,0,0,,so that this is acceptable to you
+Dialogue: 0,0:17:27.55,0:17:29.55,Default,,0,0,0,,is to know that there is only so much pain
+Dialogue: 0,0:17:29.55,0:17:32.10,Default,,0,0,0,,in any experience.
+Dialogue: 0,0:17:32.10,0:17:34.10,Default,,0,0,0,,It would be like let's say
+Dialogue: 0,0:17:34.10,0:17:36.26,Default,,0,0,0,,it's a 50 pound pain experience.
+Dialogue: 0,0:17:36.26,0:17:38.26,Default,,0,0,0,,You open the door to it
+Dialogue: 0,0:17:38.26,0:17:40.26,Default,,0,0,0,,and you let the whole 49 pounds of it
+Dialogue: 0,0:17:40.26,0:17:42.26,Default,,0,0,0,,run out rapidly.
+Dialogue: 0,0:17:42.26,0:17:44.32,Default,,0,0,0,,So I let go resisting
+Dialogue: 0,0:17:44.32,0:17:46.54,Default,,0,0,0,,this experience.
+Dialogue: 0,0:17:46.54,0:17:48.54,Default,,0,0,0,,I let go resisting
+Dialogue: 0,0:17:48.54,0:17:51.18,Default,,0,0,0,,being with it.
+Dialogue: 0,0:17:51.18,0:17:53.18,Default,,0,0,0,,I ignore the thoughts
+Dialogue: 0,0:17:53.18,0:17:55.18,Default,,0,0,0,,because the thoughts are not going to be useful.
+Dialogue: 0,0:17:55.18,0:17:57.18,Default,,0,0,0,,Instead I totally surrender
+Dialogue: 0,0:17:57.18,0:18:00.11,Default,,0,0,0,,and I allow myself
+Dialogue: 0,0:18:00.11,0:18:02.40,Default,,0,0,0,,to experience it totally.
+Dialogue: 0,0:18:02.40,0:18:04.40,Default,,0,0,0,,What happens then
+Dialogue: 0,0:18:04.40,0:18:06.40,Default,,0,0,0,,is it's like the door is open
+Dialogue: 0,0:18:06.40,0:18:08.40,Default,,0,0,0,,and there's a rush.
+Dialogue: 0,0:18:08.40,0:18:10.40,Default,,0,0,0,,It's like I'm going to be experienced out
+Dialogue: 0,0:18:10.40,0:18:13.78,Default,,0,0,0,,in a very rapid few minutes.
+Dialogue: 0,0:18:13.78,0:18:15.78,Default,,0,0,0,,I remember twisting my ankle
+Dialogue: 0,0:18:15.78,0:18:17.97,Default,,0,0,0,,in San Francisco
+Dialogue: 0,0:18:17.97,0:18:19.97,Default,,0,0,0,,and it was a severe twist
+Dialogue: 0,0:18:19.97,0:18:21.97,Default,,0,0,0,,that ordinarily would have put you
+Dialogue: 0,0:18:21.97,0:18:23.97,Default,,0,0,0,,you would have ended up
+Dialogue: 0,0:18:23.97,0:18:25.97,Default,,0,0,0,,seeing the orthopedist
+Dialogue: 0,0:18:25.97,0:18:28.03,Default,,0,0,0,,and getting your ankle taped
+Dialogue: 0,0:18:28.03,0:18:30.03,Default,,0,0,0,,or maybe even a cast put on
+Dialogue: 0,0:18:30.03,0:18:32.93,Default,,0,0,0,,for say six weeks or so.
+Dialogue: 0,0:18:32.93,0:18:34.93,Default,,0,0,0,,Instead what I did
+Dialogue: 0,0:18:34.93,0:18:36.93,Default,,0,0,0,,is I sat down on the park bench
+Dialogue: 0,0:18:36.93,0:18:38.93,Default,,0,0,0,,and I just closed my eyes
+Dialogue: 0,0:18:38.93,0:18:40.93,Default,,0,0,0,,and I surrendered to it.
+Dialogue: 0,0:18:40.93,0:18:42.93,Default,,0,0,0,,I was in waves of excruciating pain.
+Dialogue: 0,0:18:42.93,0:18:47.17,Default,,0,0,0,,If I had resisted it
+Dialogue: 0,0:18:47.17,0:18:49.17,Default,,0,0,0,,I would have ended up in a cast.
+Dialogue: 0,0:18:49.17,0:18:51.17,Default,,0,0,0,,In other words it turns an acute
+Dialogue: 0,0:18:51.17,0:18:53.17,Default,,0,0,0,,into a chronic condition
+Dialogue: 0,0:18:53.17,0:18:55.36,Default,,0,0,0,,if you resist it.
+Dialogue: 0,0:18:55.36,0:18:57.36,Default,,0,0,0,,So what happens is I sat down on the park bench
+Dialogue: 0,0:18:57.36,0:18:59.42,Default,,0,0,0,,and I just let it
+Dialogue: 0,0:18:59.42,0:19:01.42,Default,,0,0,0,,swamp over me.
+Dialogue: 0,0:19:01.42,0:19:03.42,Default,,0,0,0,,I just surrendered to it
+Dialogue: 0,0:19:03.42,0:19:05.42,Default,,0,0,0,,and waves of pain came over me
+Dialogue: 0,0:19:05.42,0:19:07.42,Default,,0,0,0,,and yet curiously enough
+Dialogue: 0,0:19:07.42,0:19:09.42,Default,,0,0,0,,it's devoid of suffering.
+Dialogue: 0,0:19:09.42,0:19:11.42,Default,,0,0,0,,Why is that?
+Dialogue: 0,0:19:11.42,0:19:13.42,Default,,0,0,0,,Because I was choosing to experience the experience.
+Dialogue: 0,0:19:13.42,0:19:15.42,Default,,0,0,0,,And in doing that
+Dialogue: 0,0:19:15.42,0:19:17.42,Default,,0,0,0,,I'm the master of the experience.
+Dialogue: 0,0:19:17.42,0:19:19.42,Default,,0,0,0,,I'm no longer the victim.
+Dialogue: 0,0:19:19.42,0:19:21.42,Default,,0,0,0,,I'm the one that is saying
+Dialogue: 0,0:19:21.42,0:19:24.22,Default,,0,0,0,,I choose to experience it
+Dialogue: 0,0:19:24.22,0:19:26.22,Default,,0,0,0,,give me more of it.
+Dialogue: 0,0:19:26.22,0:19:28.22,Default,,0,0,0,,Because of that
+Dialogue: 0,0:19:28.22,0:19:30.22,Default,,0,0,0,,the amount of suffering involved
+Dialogue: 0,0:19:30.22,0:19:32.77,Default,,0,0,0,,as you look at it
+Dialogue: 0,0:19:32.77,0:19:34.77,Default,,0,0,0,,is really minimal.
+Dialogue: 0,0:19:34.77,0:19:36.77,Default,,0,0,0,,The alleviation of the pain is very rapid.
+Dialogue: 0,0:19:36.77,0:19:38.77,Default,,0,0,0,,And I would say within
+Dialogue: 0,0:19:38.77,0:19:40.77,Default,,0,0,0,,three to four minutes
+Dialogue: 0,0:19:40.77,0:19:42.77,Default,,0,0,0,,I was up again and walking.
+Dialogue: 0,0:19:42.77,0:19:44.77,Default,,0,0,0,,And now the pain had gone down
+Dialogue: 0,0:19:44.77,0:19:46.77,Default,,0,0,0,,I kept letting go
+Dialogue: 0,0:19:46.77,0:19:49.31,Default,,0,0,0,,resisting that pain.
+Dialogue: 0,0:19:49.31,0:19:51.31,Default,,0,0,0,,When I broke my left foot
+Dialogue: 0,0:19:51.31,0:19:53.34,Default,,0,0,0,,I did the same thing.
+Dialogue: 0,0:19:53.34,0:19:55.34,Default,,0,0,0,,I broke my left foot
+Dialogue: 0,0:19:55.34,0:19:57.34,Default,,0,0,0,,chopping wood and a huge
+Dialogue: 0,0:19:57.34,0:19:59.98,Default,,0,0,0,,oak log fell on it
+Dialogue: 0,0:19:59.98,0:20:01.98,Default,,0,0,0,,and crushed all the bones across the front of the foot.
+Dialogue: 0,0:20:01.98,0:20:03.98,Default,,0,0,0,,And you know by Christmas
+Dialogue: 0,0:20:03.98,0:20:05.98,Default,,0,0,0,,I was dancing.
+Dialogue: 0,0:20:05.98,0:20:07.98,Default,,0,0,0,,By Christmas I was back in the ballroom dancing.
+Dialogue: 0,0:20:07.98,0:20:09.98,Default,,0,0,0,,Never had a cast
+Dialogue: 0,0:20:09.98,0:20:11.98,Default,,0,0,0,,did nothing about it except
+Dialogue: 0,0:20:11.98,0:20:14.18,Default,,0,0,0,,consciously choose
+Dialogue: 0,0:20:14.18,0:20:16.18,Default,,0,0,0,,to let go resisting that experience.
+Dialogue: 0,0:20:16.18,0:20:18.18,Default,,0,0,0,,There was an accidental amputation.
+Dialogue: 0,0:20:18.18,0:20:20.27,Default,,0,0,0,,And again the same thing
+Dialogue: 0,0:20:20.27,0:20:22.27,Default,,0,0,0,,the shock of the experience
+Dialogue: 0,0:20:22.27,0:20:24.27,Default,,0,0,0,,and then knowing now
+Dialogue: 0,0:20:24.27,0:20:26.27,Default,,0,0,0,,how to handle it
+Dialogue: 0,0:20:26.27,0:20:28.27,Default,,0,0,0,,the letting go of resisting
+Dialogue: 0,0:20:28.27,0:20:30.27,Default,,0,0,0,,this experience
+Dialogue: 0,0:20:30.27,0:20:32.27,Default,,0,0,0,,the constantly letting go of the sensations
+Dialogue: 0,0:20:32.27,0:20:34.27,Default,,0,0,0,,letting go resisting these sensations.
+Dialogue: 0,0:20:34.27,0:20:36.27,Default,,0,0,0,,And as you do that
+Dialogue: 0,0:20:36.27,0:20:38.27,Default,,0,0,0,,what the world would call miraculous
+Dialogue: 0,0:20:38.27,0:20:40.27,Default,,0,0,0,,happens right before your eyes.
+Dialogue: 0,0:20:40.27,0:20:42.27,Default,,0,0,0,,As I let go resisting
+Dialogue: 0,0:20:42.27,0:20:44.27,Default,,0,0,0,,because I cut this thumb off
+Dialogue: 0,0:20:44.27,0:20:46.78,Default,,0,0,0,,with a saw, a circular saw
+Dialogue: 0,0:20:46.78,0:20:48.78,Default,,0,0,0,,the first thing I did is
+Dialogue: 0,0:20:48.78,0:20:50.78,Default,,0,0,0,,I instantly stopped resisting the experience.
+Dialogue: 0,0:20:50.78,0:20:52.78,Default,,0,0,0,,I just stood still
+Dialogue: 0,0:20:52.78,0:20:54.78,Default,,0,0,0,,and allowed it to sweep in over me.
+Dialogue: 0,0:20:54.78,0:20:56.78,Default,,0,0,0,,And as I did that
+Dialogue: 0,0:20:56.78,0:20:58.78,Default,,0,0,0,,within seconds the bleeding stopped.
+Dialogue: 0,0:20:58.78,0:21:00.78,Default,,0,0,0,,I literally
+Dialogue: 0,0:21:00.78,0:21:02.82,Default,,0,0,0,,I have the visa board in which this happened.
+Dialogue: 0,0:21:02.82,0:21:04.82,Default,,0,0,0,,There is eight drops of blood.
+Dialogue: 0,0:21:04.82,0:21:06.82,Default,,0,0,0,,There are eight drops of blood.
+Dialogue: 0,0:21:06.82,0:21:08.82,Default,,0,0,0,,By letting go resisting the experience
+Dialogue: 0,0:21:08.82,0:21:10.82,Default,,0,0,0,,the digital artery which had been cut across
+Dialogue: 0,0:21:10.82,0:21:12.82,Default,,0,0,0,,and should have pulsated
+Dialogue: 0,0:21:12.82,0:21:15.14,Default,,0,0,0,,in a grotesque kind of fashion
+Dialogue: 0,0:21:15.14,0:21:17.78,Default,,0,0,0,,no such thing happened.
+Dialogue: 0,0:21:17.78,0:21:19.78,Default,,0,0,0,,Ross with whom I have done
+Dialogue: 0,0:21:19.78,0:21:21.78,Default,,0,0,0,,a great deal of this research
+Dialogue: 0,0:21:21.78,0:21:23.78,Default,,0,0,0,,had burned herself severely in the kitchen.
+Dialogue: 0,0:21:23.78,0:21:25.78,Default,,0,0,0,,And she just stood there
+Dialogue: 0,0:21:25.78,0:21:27.78,Default,,0,0,0,,and consciously released letting go resisting
+Dialogue: 0,0:21:27.78,0:21:29.78,Default,,0,0,0,,that burn
+Dialogue: 0,0:21:29.78,0:21:31.78,Default,,0,0,0,,and the pain of the burn was gone
+Dialogue: 0,0:21:31.78,0:21:33.78,Default,,0,0,0,,in a matter of a minute or two
+Dialogue: 0,0:21:33.78,0:21:35.78,Default,,0,0,0,,and later there wasn't even a blister there.
+Dialogue: 0,0:21:35.78,0:21:37.78,Default,,0,0,0,,It should have by rights swollen up
+Dialogue: 0,0:21:37.78,0:21:39.78,Default,,0,0,0,,to a big water blister
+Dialogue: 0,0:21:39.78,0:21:41.78,Default,,0,0,0,,and taken months to heal.
+Dialogue: 0,0:21:41.78,0:21:43.78,Default,,0,0,0,,And the only thing that happened
+Dialogue: 0,0:21:43.78,0:21:46.13,Default,,0,0,0,,was a discoloration.
+Dialogue: 0,0:21:46.13,0:21:48.13,Default,,0,0,0,,A member of my class did the same
+Dialogue: 0,0:21:48.13,0:21:50.13,Default,,0,0,0,,thing. He burned both of his hands.
+Dialogue: 0,0:21:50.13,0:21:52.13,Default,,0,0,0,,He is a woodworker,
+Dialogue: 0,0:21:52.13,0:21:54.19,Default,,0,0,0,,a cabinet maker.
+Dialogue: 0,0:21:54.19,0:21:56.19,Default,,0,0,0,,He burned both his hands
+Dialogue: 0,0:21:56.19,0:21:58.19,Default,,0,0,0,,and he followed the same technique.
+Dialogue: 0,0:21:58.19,0:22:00.19,Default,,0,0,0,,Instantly let go resisting that
+Dialogue: 0,0:22:00.19,0:22:02.19,Default,,0,0,0,,and instead of two hands
+Dialogue: 0,0:22:02.19,0:22:04.19,Default,,0,0,0,,he should have had two hands
+Dialogue: 0,0:22:04.19,0:22:06.19,Default,,0,0,0,,by rights two hands swollen up
+Dialogue: 0,0:22:06.19,0:22:08.19,Default,,0,0,0,,like this full of blisters
+Dialogue: 0,0:22:08.19,0:22:10.19,Default,,0,0,0,,and should have had his hand in bandages
+Dialogue: 0,0:22:10.19,0:22:12.19,Default,,0,0,0,,for weeks.
+Dialogue: 0,0:22:12.19,0:22:14.19,Default,,0,0,0,,Instead in a matter of he said
+Dialogue: 0,0:22:14.19,0:22:16.19,Default,,0,0,0,,three or four minutes
+Dialogue: 0,0:22:16.19,0:22:18.19,Default,,0,0,0,,the pain was gone
+Dialogue: 0,0:22:18.19,0:22:20.29,Default,,0,0,0,,and there was no formation.
+Dialogue: 0,0:22:20.29,0:22:22.29,Default,,0,0,0,,So we see an instant healing.
+Dialogue: 0,0:22:22.29,0:22:24.29,Default,,0,0,0,,The body knows how to heal itself
+Dialogue: 0,0:22:24.29,0:22:26.29,Default,,0,0,0,,the minute we let go of resistance.
+Dialogue: 0,0:22:26.29,0:22:28.29,Default,,0,0,0,,Now let's look a little bit
+Dialogue: 0,0:22:28.29,0:22:30.29,Default,,0,0,0,,at why this should be so.
+Dialogue: 0,0:22:30.29,0:22:32.29,Default,,0,0,0,,There is no magic involved.
+Dialogue: 0,0:22:32.29,0:22:34.29,Default,,0,0,0,,Anybody can experience
+Dialogue: 0,0:22:34.29,0:22:36.29,Default,,0,0,0,,the truth of this.
+Dialogue: 0,0:22:36.29,0:22:38.29,Default,,0,0,0,,This has been a common teaching
+Dialogue: 0,0:22:38.29,0:22:40.29,Default,,0,0,0,,for thousands of years.
+Dialogue: 0,0:22:40.29,0:22:42.29,Default,,0,0,0,,Those of you who have ever
+Dialogue: 0,0:22:42.29,0:22:44.29,Default,,0,0,0,,tried Zen meditation
+Dialogue: 0,0:22:44.29,0:22:46.29,Default,,0,0,0,,will know that the first thing
+Dialogue: 0,0:22:46.29,0:22:48.29,Default,,0,0,0,,they teach you is the handling
+Dialogue: 0,0:22:48.29,0:22:50.29,Default,,0,0,0,,of the physical body
+Dialogue: 0,0:22:50.29,0:22:52.29,Default,,0,0,0,,is to go into that
+Dialogue: 0,0:22:52.29,0:22:54.29,Default,,0,0,0,,and let go of the resisting
+Dialogue: 0,0:22:54.29,0:22:56.29,Default,,0,0,0,,of the experience
+Dialogue: 0,0:22:56.29,0:22:58.29,Default,,0,0,0,,and to cancel out thoughts about that
+Dialogue: 0,0:22:58.29,0:23:00.38,Default,,0,0,0,,to become one with it
+Dialogue: 0,0:23:00.38,0:23:02.38,Default,,0,0,0,,and thereby disappear it.
+Dialogue: 0,0:23:02.38,0:23:04.38,Default,,0,0,0,,So we are doing what in consciousness
+Dialogue: 0,0:23:04.38,0:23:06.38,Default,,0,0,0,,work is called disappearing.
+Dialogue: 0,0:23:06.38,0:23:08.38,Default,,0,0,0,,By totally letting go of the resistance
+Dialogue: 0,0:23:08.38,0:23:10.38,Default,,0,0,0,,of a thing we disappear it.
+Dialogue: 0,0:23:10.38,0:23:12.38,Default,,0,0,0,,We disappear it out of our experience.
+Dialogue: 0,0:23:12.38,0:23:14.38,Default,,0,0,0,,So you see experience is prolonged
+Dialogue: 0,0:23:14.38,0:23:16.38,Default,,0,0,0,,by resistance.
+Dialogue: 0,0:23:16.38,0:23:18.38,Default,,0,0,0,,So long as I resist the thing
+Dialogue: 0,0:23:18.38,0:23:20.38,Default,,0,0,0,,that gives its existence
+Dialogue: 0,0:23:20.38,0:23:22.38,Default,,0,0,0,,my resistance is what gives it
+Dialogue: 0,0:23:22.38,0:23:24.38,Default,,0,0,0,,the power over me
+Dialogue: 0,0:23:24.38,0:23:26.38,Default,,0,0,0,,and I now become the victim of that.
+Dialogue: 0,0:23:26.38,0:23:28.38,Default,,0,0,0,,I am at the effect of that
+Dialogue: 0,0:23:28.38,0:23:30.38,Default,,0,0,0,,which I resist.
+Dialogue: 0,0:23:30.38,0:23:32.38,Default,,0,0,0,,The minute I let go of my resistance
+Dialogue: 0,0:23:32.38,0:23:34.77,Default,,0,0,0,,become one with it
+Dialogue: 0,0:23:34.77,0:23:36.77,Default,,0,0,0,,I disappear it.
+Dialogue: 0,0:23:36.77,0:23:38.77,Default,,0,0,0,,Now we will see the reasons for it.
+Dialogue: 0,0:23:38.77,0:23:40.77,Default,,0,0,0,,I have always been a very left brain person.
+Dialogue: 0,0:23:40.77,0:23:42.77,Default,,0,0,0,,I have learned to enlarge
+Dialogue: 0,0:23:42.77,0:23:44.77,Default,,0,0,0,,my right brain capacities.
+Dialogue: 0,0:23:44.77,0:23:46.77,Default,,0,0,0,,But for most of us
+Dialogue: 0,0:23:46.77,0:23:48.77,Default,,0,0,0,,all of these things make more sense
+Dialogue: 0,0:23:48.77,0:23:50.77,Default,,0,0,0,,so we will go over to the blackboard
+Dialogue: 0,0:23:50.77,0:23:53.06,Default,,0,0,0,,where we have this map of consciousness
+Dialogue: 0,0:23:53.06,0:23:55.06,Default,,0,0,0,,that we referred to before.
+Dialogue: 0,0:23:55.06,0:23:57.06,Default,,0,0,0,,And we will look at some energy fields.
+Dialogue: 0,0:23:57.06,0:23:59.06,Default,,0,0,0,,Here in this particular box
+Dialogue: 0,0:23:59.06,0:24:01.06,Default,,0,0,0,,a lot of people
+Dialogue: 0,0:24:01.06,0:24:03.06,Default,,0,0,0,,who followed our work here
+Dialogue: 0,0:24:03.06,0:24:05.06,Default,,0,0,0,,call this the box.
+Dialogue: 0,0:24:05.06,0:24:07.06,Default,,0,0,0,,What is in the box
+Dialogue: 0,0:24:07.06,0:24:09.06,Default,,0,0,0,,are levels of consciousness.
+Dialogue: 0,0:24:09.06,0:24:11.06,Default,,0,0,0,,And these levels of consciousness
+Dialogue: 0,0:24:11.06,0:24:13.06,Default,,0,0,0,,are labeled according to common
+Dialogue: 0,0:24:13.06,0:24:15.06,Default,,0,0,0,,human experience so that they are understandable.
+Dialogue: 0,0:24:15.06,0:24:17.54,Default,,0,0,0,,Each of these levels
+Dialogue: 0,0:24:17.54,0:24:19.54,Default,,0,0,0,,of consciousness
+Dialogue: 0,0:24:19.54,0:24:21.54,Default,,0,0,0,,has also been calibrated mathematically
+Dialogue: 0,0:24:21.54,0:24:23.54,Default,,0,0,0,,so that we can see
+Dialogue: 0,0:24:23.54,0:24:25.54,Default,,0,0,0,,what its relative power is.
+Dialogue: 0,0:24:25.54,0:24:27.54,Default,,0,0,0,,We also have
+Dialogue: 0,0:24:27.54,0:24:29.54,Default,,0,0,0,,been able to discern
+Dialogue: 0,0:24:29.54,0:24:31.54,Default,,0,0,0,,what is the direction of the energy
+Dialogue: 0,0:24:31.54,0:24:33.54,Default,,0,0,0,,of that field.
+Dialogue: 0,0:24:33.54,0:24:35.54,Default,,0,0,0,,What is the direction?
+Dialogue: 0,0:24:35.54,0:24:37.54,Default,,0,0,0,,And so these arrows indicate
+Dialogue: 0,0:24:37.54,0:24:39.54,Default,,0,0,0,,whether the direction of the field
+Dialogue: 0,0:24:39.54,0:24:41.54,Default,,0,0,0,,is in a negative direction
+Dialogue: 0,0:24:41.54,0:24:43.54,Default,,0,0,0,,or a positive direction.
+Dialogue: 0,0:24:43.54,0:24:45.54,Default,,0,0,0,,And this of course is extremely important
+Dialogue: 0,0:24:45.54,0:24:47.54,Default,,0,0,0,,in the way that we experience things.
+Dialogue: 0,0:24:47.54,0:24:49.54,Default,,0,0,0,,These things in a negative direction
+Dialogue: 0,0:24:49.54,0:24:51.54,Default,,0,0,0,,are experienced as painful,
+Dialogue: 0,0:24:51.54,0:24:53.54,Default,,0,0,0,,experienced as suffering.
+Dialogue: 0,0:24:53.54,0:24:55.54,Default,,0,0,0,,They bring about detriment
+Dialogue: 0,0:24:55.54,0:24:57.54,Default,,0,0,0,,and destruction
+Dialogue: 0,0:24:57.54,0:24:59.95,Default,,0,0,0,,in our lives.
+Dialogue: 0,0:24:59.95,0:25:01.95,Default,,0,0,0,,So at the bottom for instance
+Dialogue: 0,0:25:01.95,0:25:03.95,Default,,0,0,0,,we have death calibrated at zero.
+Dialogue: 0,0:25:03.95,0:25:05.95,Default,,0,0,0,,And you will see that guilt
+Dialogue: 0,0:25:05.95,0:25:07.95,Default,,0,0,0,,is at 30,
+Dialogue: 0,0:25:07.95,0:25:09.95,Default,,0,0,0,,apathy at 50,
+Dialogue: 0,0:25:09.95,0:25:11.95,Default,,0,0,0,,grief at 75,
+Dialogue: 0,0:25:11.95,0:25:13.95,Default,,0,0,0,,fear at 100,
+Dialogue: 0,0:25:13.95,0:25:15.95,Default,,0,0,0,,desire, wantingness 125,
+Dialogue: 0,0:25:15.95,0:25:17.95,Default,,0,0,0,,anger is 150,
+Dialogue: 0,0:25:17.95,0:25:19.95,Default,,0,0,0,,pride is 175.
+Dialogue: 0,0:25:19.95,0:25:21.95,Default,,0,0,0,,What is amazing happens here
+Dialogue: 0,0:25:21.95,0:25:23.95,Default,,0,0,0,,at the level of courage
+Dialogue: 0,0:25:23.95,0:25:25.95,Default,,0,0,0,,the field which was in a negative direction
+Dialogue: 0,0:25:25.95,0:25:27.95,Default,,0,0,0,,now goes neutral actually
+Dialogue: 0,0:25:27.95,0:25:29.95,Default,,0,0,0,,at an energy level we calibrate at 200.
+Dialogue: 0,0:25:29.95,0:25:32.18,Default,,0,0,0,,When we move up to 250
+Dialogue: 0,0:25:32.18,0:25:34.18,Default,,0,0,0,,the level called neutral
+Dialogue: 0,0:25:34.18,0:25:36.18,Default,,0,0,0,,the field is now
+Dialogue: 0,0:25:36.18,0:25:38.18,Default,,0,0,0,,in a positive direction.
+Dialogue: 0,0:25:38.18,0:25:40.18,Default,,0,0,0,,We then move up to willingness
+Dialogue: 0,0:25:40.18,0:25:42.18,Default,,0,0,0,,which calibrates at 310,
+Dialogue: 0,0:25:42.18,0:25:44.18,Default,,0,0,0,,acceptance at 380,
+Dialogue: 0,0:25:44.18,0:25:46.18,Default,,0,0,0,,love at 500,
+Dialogue: 0,0:25:46.18,0:25:48.18,Default,,0,0,0,,joy at 540,
+Dialogue: 0,0:25:48.18,0:25:50.18,Default,,0,0,0,,ecstasy at 560,
+Dialogue: 0,0:25:50.18,0:25:52.18,Default,,0,0,0,,the state of infinite serenity and peace
+Dialogue: 0,0:25:52.18,0:25:54.18,Default,,0,0,0,,and the emotion there
+Dialogue: 0,0:25:54.18,0:25:57.10,Default,,0,0,0,,is commonly called bliss.
+Dialogue: 0,0:25:57.10,0:25:59.10,Default,,0,0,0,,These energy fields influence
+Dialogue: 0,0:25:59.10,0:26:01.10,Default,,0,0,0,,our emotions.
+Dialogue: 0,0:26:01.10,0:26:03.10,Default,,0,0,0,,They are indicators
+Dialogue: 0,0:26:03.10,0:26:05.10,Default,,0,0,0,,of a process going on
+Dialogue: 0,0:26:05.10,0:26:07.10,Default,,0,0,0,,in consciousness.
+Dialogue: 0,0:26:07.10,0:26:09.10,Default,,0,0,0,,They influence how we see
+Dialogue: 0,0:26:09.10,0:26:11.10,Default,,0,0,0,,and experience the world
+Dialogue: 0,0:26:11.10,0:26:13.10,Default,,0,0,0,,and how we experience our relationship
+Dialogue: 0,0:26:13.10,0:26:15.10,Default,,0,0,0,,to something that is greater
+Dialogue: 0,0:26:15.10,0:26:17.10,Default,,0,0,0,,than our personal self
+Dialogue: 0,0:26:17.10,0:26:19.10,Default,,0,0,0,,which the world calls a deity.
+Dialogue: 0,0:26:19.10,0:26:21.10,Default,,0,0,0,,Or for those of you who are not
+Dialogue: 0,0:26:21.10,0:26:23.10,Default,,0,0,0,,aware,
+Dialogue: 0,0:26:23.10,0:26:25.10,Default,,0,0,0,,a deity is a person
+Dialogue: 0,0:26:25.10,0:26:27.10,Default,,0,0,0,,who is in a higher level
+Dialogue: 0,0:26:27.10,0:26:29.10,Default,,0,0,0,,to a greater field of consciousness
+Dialogue: 0,0:26:29.10,0:26:32.54,Default,,0,0,0,,the powerful fields
+Dialogue: 0,0:26:32.54,0:26:34.54,Default,,0,0,0,,which come about on these higher levels.
+Dialogue: 0,0:26:34.54,0:26:36.54,Default,,0,0,0,,The only reason to review this
+Dialogue: 0,0:26:36.54,0:26:38.54,Default,,0,0,0,,is so now we can understand
+Dialogue: 0,0:26:38.54,0:26:40.67,Default,,0,0,0,,what happens in our handling
+Dialogue: 0,0:26:40.67,0:26:42.67,Default,,0,0,0,,our technique there of handling
+Dialogue: 0,0:26:42.67,0:26:44.67,Default,,0,0,0,,acute pain.
+Dialogue: 0,0:26:44.67,0:26:46.67,Default,,0,0,0,,We found that resistance to pain
+Dialogue: 0,0:26:46.67,0:26:48.67,Default,,0,0,0,,resistance to pain
+Dialogue: 0,0:26:48.67,0:26:50.67,Default,,0,0,0,,is a negative energy field
+Dialogue: 0,0:26:50.67,0:26:52.67,Default,,0,0,0,,and if you can use your will power
+Dialogue: 0,0:26:52.67,0:26:54.67,Default,,0,0,0,,against it and resist it
+Dialogue: 0,0:26:54.67,0:26:56.67,Default,,0,0,0,,what you are bringing forth
+Dialogue: 0,0:26:56.67,0:26:58.67,Default,,0,0,0,,within yourself
+Dialogue: 0,0:26:58.67,0:27:00.67,Default,,0,0,0,,is a negative energy field
+Dialogue: 0,0:27:00.67,0:27:02.67,Default,,0,0,0,,that calibrates about 150.
+Dialogue: 0,0:27:02.67,0:27:04.67,Default,,0,0,0,,This would be about the same level
+Dialogue: 0,0:27:04.67,0:27:06.67,Default,,0,0,0,,as the emotions of resentment
+Dialogue: 0,0:27:06.67,0:27:08.67,Default,,0,0,0,,or grievance.
+Dialogue: 0,0:27:08.67,0:27:10.67,Default,,0,0,0,,Emotions of grievance
+Dialogue: 0,0:27:10.67,0:27:12.67,Default,,0,0,0,,we resent the pain
+Dialogue: 0,0:27:12.67,0:27:14.67,Default,,0,0,0,,and you see
+Dialogue: 0,0:27:14.67,0:27:17.63,Default,,0,0,0,,we are angry about the pain.
+Dialogue: 0,0:27:17.63,0:27:19.63,Default,,0,0,0,,If we move up to letting go resistance
+Dialogue: 0,0:27:19.63,0:27:21.63,Default,,0,0,0,,if we have the courage
+Dialogue: 0,0:27:21.63,0:27:23.63,Default,,0,0,0,,if we have the courage
+Dialogue: 0,0:27:23.63,0:27:25.63,Default,,0,0,0,,to use this technique
+Dialogue: 0,0:27:25.63,0:27:27.63,Default,,0,0,0,,out of our faith and trust
+Dialogue: 0,0:27:27.63,0:27:29.63,Default,,0,0,0,,in what the doctor is telling you
+Dialogue: 0,0:27:29.63,0:27:31.63,Default,,0,0,0,,about his own personal experience
+Dialogue: 0,0:27:31.63,0:27:33.63,Default,,0,0,0,,and what he has learned
+Dialogue: 0,0:27:33.63,0:27:35.82,Default,,0,0,0,,if we have enough faith in that
+Dialogue: 0,0:27:35.82,0:27:37.82,Default,,0,0,0,,and we are willing to try it
+Dialogue: 0,0:27:37.82,0:27:39.82,Default,,0,0,0,,the first thing we can move up to
+Dialogue: 0,0:27:39.82,0:27:41.82,Default,,0,0,0,,is this level here
+Dialogue: 0,0:27:41.82,0:27:43.82,Default,,0,0,0,,at an energy field of 250
+Dialogue: 0,0:27:43.82,0:27:45.82,Default,,0,0,0,,called detached.
+Dialogue: 0,0:27:45.82,0:27:47.82,Default,,0,0,0,,Moving into neutral means
+Dialogue: 0,0:27:47.82,0:27:49.82,Default,,0,0,0,,now we are into a positive energy field
+Dialogue: 0,0:27:49.82,0:27:51.82,Default,,0,0,0,,that means
+Dialogue: 0,0:27:51.82,0:27:53.82,Default,,0,0,0,,I am willing to experience this thing out.
+Dialogue: 0,0:27:53.82,0:27:55.82,Default,,0,0,0,,Willingness moves us up
+Dialogue: 0,0:27:55.82,0:27:57.82,Default,,0,0,0,,to an energy field of 310
+Dialogue: 0,0:27:57.82,0:27:59.82,Default,,0,0,0,,where we say yes
+Dialogue: 0,0:27:59.82,0:28:01.82,Default,,0,0,0,,to life and its experiences
+Dialogue: 0,0:28:01.82,0:28:03.82,Default,,0,0,0,,where we join with it
+Dialogue: 0,0:28:03.82,0:28:05.82,Default,,0,0,0,,where we agree with it
+Dialogue: 0,0:28:05.82,0:28:07.82,Default,,0,0,0,,where we align with it
+Dialogue: 0,0:28:07.82,0:28:09.82,Default,,0,0,0,,and where our will expresses itself
+Dialogue: 0,0:28:09.82,0:28:12.27,Default,,0,0,0,,as a positive intention.
+Dialogue: 0,0:28:12.27,0:28:14.27,Default,,0,0,0,,Instead of resisting life then
+Dialogue: 0,0:28:14.27,0:28:16.27,Default,,0,0,0,,I go with life
+Dialogue: 0,0:28:16.27,0:28:18.27,Default,,0,0,0,,that is the wisdom of the Tao
+Dialogue: 0,0:28:18.27,0:28:20.27,Default,,0,0,0,,spelled T-A-O
+Dialogue: 0,0:28:20.27,0:28:22.27,Default,,0,0,0,,the wisdom of the Tao
+Dialogue: 0,0:28:22.27,0:28:24.27,Default,,0,0,0,,that the willow tree
+Dialogue: 0,0:28:24.27,0:28:26.27,Default,,0,0,0,,bends with the wind
+Dialogue: 0,0:28:26.27,0:28:28.27,Default,,0,0,0,,the oak tree which resists it
+Dialogue: 0,0:28:28.27,0:28:30.27,Default,,0,0,0,,breaks.
+Dialogue: 0,0:28:30.27,0:28:32.27,Default,,0,0,0,,So instead of resisting
+Dialogue: 0,0:28:32.27,0:28:34.27,Default,,0,0,0,,what has occurred
+Dialogue: 0,0:28:34.27,0:28:36.27,Default,,0,0,0,,once you have barked your shin
+Dialogue: 0,0:28:36.27,0:28:38.27,Default,,0,0,0,,all you can do is be the willow tree now
+Dialogue: 0,0:28:38.27,0:28:40.27,Default,,0,0,0,,and go with that
+Dialogue: 0,0:28:40.27,0:28:42.27,Default,,0,0,0,,let go resisting it
+Dialogue: 0,0:28:42.27,0:28:44.27,Default,,0,0,0,,allow that experience to flow through you
+Dialogue: 0,0:28:44.27,0:28:46.27,Default,,0,0,0,,and by doing that
+Dialogue: 0,0:28:46.27,0:28:48.27,Default,,0,0,0,,you move yourself out of
+Dialogue: 0,0:28:48.27,0:28:50.27,Default,,0,0,0,,a negative painful energy field
+Dialogue: 0,0:28:50.27,0:28:52.27,Default,,0,0,0,,full of resentment and anger and fear
+Dialogue: 0,0:28:52.27,0:28:54.27,Default,,0,0,0,,which is only a negative field of 100
+Dialogue: 0,0:28:54.27,0:28:56.27,Default,,0,0,0,,these are low energy fields
+Dialogue: 0,0:28:56.27,0:28:58.27,Default,,0,0,0,,they are a long way from joy
+Dialogue: 0,0:28:58.27,0:29:00.27,Default,,0,0,0,,you see the higher the number
+Dialogue: 0,0:29:00.27,0:29:02.27,Default,,0,0,0,,the greater the feeling of happiness
+Dialogue: 0,0:29:02.27,0:29:04.27,Default,,0,0,0,,you can actually choose then
+Dialogue: 0,0:29:04.27,0:29:06.27,Default,,0,0,0,,and be willing
+Dialogue: 0,0:29:06.27,0:29:08.27,Default,,0,0,0,,and you can even accept
+Dialogue: 0,0:29:08.27,0:29:10.27,Default,,0,0,0,,that that is what is necessary
+Dialogue: 0,0:29:10.27,0:29:12.27,Default,,0,0,0,,to handle this
+Dialogue: 0,0:29:12.27,0:29:15.17,Default,,0,0,0,,which moves you all the way up to 380
+Dialogue: 0,0:29:15.17,0:29:17.17,Default,,0,0,0,,that is a very high energy field
+Dialogue: 0,0:29:17.17,0:29:19.17,Default,,0,0,0,,so when I choose to go with life
+Dialogue: 0,0:29:19.17,0:29:21.17,Default,,0,0,0,,whether it is running across
+Dialogue: 0,0:29:21.17,0:29:23.17,Default,,0,0,0,,a rattlesnake or whatever
+Dialogue: 0,0:29:23.17,0:29:25.17,Default,,0,0,0,,I do
+Dialogue: 0,0:29:25.17,0:29:27.17,Default,,0,0,0,,when I surrender to that experience
+Dialogue: 0,0:29:27.17,0:29:29.52,Default,,0,0,0,,then I invite
+Dialogue: 0,0:29:29.52,0:29:31.52,Default,,0,0,0,,I bring forth within myself
+Dialogue: 0,0:29:31.52,0:29:33.52,Default,,0,0,0,,a greater power
+Dialogue: 0,0:29:33.52,0:29:35.52,Default,,0,0,0,,a higher energy
+Dialogue: 0,0:29:35.52,0:29:37.52,Default,,0,0,0,,those people who are experiencing this technique
+Dialogue: 0,0:29:37.52,0:29:39.52,Default,,0,0,0,,therefore end up calling it
+Dialogue: 0,0:29:39.52,0:29:41.52,Default,,0,0,0,,a higher power
+Dialogue: 0,0:29:41.52,0:29:43.52,Default,,0,0,0,,and you will hear people say
+Dialogue: 0,0:29:43.52,0:29:45.52,Default,,0,0,0,,I called upon my higher power
+Dialogue: 0,0:29:45.52,0:29:47.52,Default,,0,0,0,,those of us who haven't heard that experience
+Dialogue: 0,0:29:47.52,0:29:49.52,Default,,0,0,0,,consider that maybe flaky or far out
+Dialogue: 0,0:29:49.52,0:29:51.52,Default,,0,0,0,,because it is not real to us
+Dialogue: 0,0:29:51.52,0:29:53.52,Default,,0,0,0,,so how can we make these experiences real
+Dialogue: 0,0:29:53.52,0:29:55.52,Default,,0,0,0,,by doing them
+Dialogue: 0,0:29:55.52,0:29:57.52,Default,,0,0,0,,by doing them
+Dialogue: 0,0:29:57.52,0:29:59.52,Default,,0,0,0,,it is actually through the doingness of it
+Dialogue: 0,0:29:59.52,0:30:01.87,Default,,0,0,0,,that these things become real
+Dialogue: 0,0:30:01.87,0:30:03.87,Default,,0,0,0,,by the doing of this exercise then
+Dialogue: 0,0:30:03.87,0:30:05.87,Default,,0,0,0,,you begin to experience
+Dialogue: 0,0:30:05.87,0:30:07.87,Default,,0,0,0,,that something other than your personal self
+Dialogue: 0,0:30:07.87,0:30:09.87,Default,,0,0,0,,is handling this experience
+Dialogue: 0,0:30:09.87,0:30:11.87,Default,,0,0,0,,and within moments
+Dialogue: 0,0:30:11.87,0:30:13.87,Default,,0,0,0,,what was agonizing
+Dialogue: 0,0:30:13.87,0:30:15.87,Default,,0,0,0,,is now very bearable
+Dialogue: 0,0:30:15.87,0:30:17.87,Default,,0,0,0,,you are out of the fear and the suffering
+Dialogue: 0,0:30:17.87,0:30:19.87,Default,,0,0,0,,and the resistance
+Dialogue: 0,0:30:19.87,0:30:21.87,Default,,0,0,0,,so we want to avoid
+Dialogue: 0,0:30:21.87,0:30:23.87,Default,,0,0,0,,we want to bypass a negative energy field
+Dialogue: 0,0:30:23.87,0:30:25.87,Default,,0,0,0,,a low energy power
+Dialogue: 0,0:30:25.87,0:30:27.87,Default,,0,0,0,,and we want to move up higher
+Dialogue: 0,0:30:27.87,0:30:29.87,Default,,0,0,0,,why because as we move up to higher energies
+Dialogue: 0,0:30:29.87,0:30:31.87,Default,,0,0,0,,love for instance
+Dialogue: 0,0:30:31.87,0:30:33.87,Default,,0,0,0,,unconditional love
+Dialogue: 0,0:30:33.87,0:30:35.87,Default,,0,0,0,,is an energy field of 500
+Dialogue: 0,0:30:35.87,0:30:38.22,Default,,0,0,0,,when we move into lovingness
+Dialogue: 0,0:30:38.22,0:30:40.22,Default,,0,0,0,,which is an energy field
+Dialogue: 0,0:30:40.22,0:30:42.22,Default,,0,0,0,,of about 540
+Dialogue: 0,0:30:42.22,0:30:44.45,Default,,0,0,0,,the energy field of 540
+Dialogue: 0,0:30:44.45,0:30:46.45,Default,,0,0,0,,has the capacity to heal
+Dialogue: 0,0:30:46.45,0:30:48.58,Default,,0,0,0,,those
+Dialogue: 0,0:30:48.58,0:30:50.58,Default,,0,0,0,,who are healers
+Dialogue: 0,0:30:50.58,0:30:52.58,Default,,0,0,0,,when we calibrate
+Dialogue: 0,0:30:52.58,0:30:54.58,Default,,0,0,0,,what is the field that they generate
+Dialogue: 0,0:30:54.58,0:30:56.58,Default,,0,0,0,,it is an energy field of 540 and up
+Dialogue: 0,0:30:56.58,0:30:58.58,Default,,0,0,0,,it is an immensely loving
+Dialogue: 0,0:30:58.58,0:31:00.58,Default,,0,0,0,,it is experienced as lovingness
+Dialogue: 0,0:31:00.58,0:31:02.58,Default,,0,0,0,,the emotion
+Dialogue: 0,0:31:02.58,0:31:04.58,Default,,0,0,0,,is experienced as lovingness
+Dialogue: 0,0:31:04.58,0:31:06.58,Default,,0,0,0,,it is that desire
+Dialogue: 0,0:31:06.58,0:31:08.58,Default,,0,0,0,,to be with life
+Dialogue: 0,0:31:08.58,0:31:10.58,Default,,0,0,0,,to say yes with it
+Dialogue: 0,0:31:10.58,0:31:12.58,Default,,0,0,0,,to let go resisting
+Dialogue: 0,0:31:12.58,0:31:14.58,Default,,0,0,0,,so acute pain then
+Dialogue: 0,0:31:14.58,0:31:16.58,Default,,0,0,0,,and the healing
+Dialogue: 0,0:31:16.58,0:31:18.58,Default,,0,0,0,,that comes about automatically
+Dialogue: 0,0:31:18.58,0:31:20.58,Default,,0,0,0,,from this technique
+Dialogue: 0,0:31:20.58,0:31:22.58,Default,,0,0,0,,can be experienced by anyone
+Dialogue: 0,0:31:22.58,0:31:24.58,Default,,0,0,0,,I have done it over and over again
+Dialogue: 0,0:31:24.58,0:31:26.58,Default,,0,0,0,,and everyone that I have told about it
+Dialogue: 0,0:31:26.58,0:31:28.58,Default,,0,0,0,,who has tried it
+Dialogue: 0,0:31:28.58,0:31:30.58,Default,,0,0,0,,and many people have had the opportunity
+Dialogue: 0,0:31:30.58,0:31:32.58,Default,,0,0,0,,I remember a class on a Sunday night
+Dialogue: 0,0:31:32.58,0:31:34.58,Default,,0,0,0,,in which I described the technique
+Dialogue: 0,0:31:34.58,0:31:36.58,Default,,0,0,0,,and during that week
+Dialogue: 0,0:31:36.58,0:31:38.58,Default,,0,0,0,,several members of the class
+Dialogue: 0,0:31:38.58,0:31:40.58,Default,,0,0,0,,had acute injuries
+Dialogue: 0,0:31:40.58,0:31:43.18,Default,,0,0,0,,where this was life saving to them
+Dialogue: 0,0:31:43.18,0:31:45.18,Default,,0,0,0,,literally able to carry them through
+Dialogue: 0,0:31:45.18,0:31:47.86,Default,,0,0,0,,a terrible experience
+Dialogue: 0,0:31:47.86,0:31:49.86,Default,,0,0,0,,how can we then utilize this
+Dialogue: 0,0:31:49.86,0:31:51.86,Default,,0,0,0,,in our handling of chronic pain
+Dialogue: 0,0:31:51.86,0:31:54.08,Default,,0,0,0,,chronic pain
+Dialogue: 0,0:31:54.08,0:31:56.08,Default,,0,0,0,,is a somewhat different
+Dialogue: 0,0:31:56.08,0:31:58.46,Default,,0,0,0,,experience isn't it
+Dialogue: 0,0:31:58.46,0:32:00.46,Default,,0,0,0,,and yet one of the aspects
+Dialogue: 0,0:32:00.46,0:32:02.46,Default,,0,0,0,,of handling it
+Dialogue: 0,0:32:02.46,0:32:05.42,Default,,0,0,0,,is the same as we did
+Dialogue: 0,0:32:05.42,0:32:07.42,Default,,0,0,0,,with the acute pain
+Dialogue: 0,0:32:07.42,0:32:09.42,Default,,0,0,0,,we are going to be doing it
+Dialogue: 0,0:32:09.42,0:32:11.81,Default,,0,0,0,,with the chronic pain
+Dialogue: 0,0:32:11.81,0:32:13.81,Default,,0,0,0,,in a somewhat different way however
+Dialogue: 0,0:32:13.81,0:32:15.90,Default,,0,0,0,,as we said
+Dialogue: 0,0:32:15.90,0:32:17.90,Default,,0,0,0,,all experience is being experienced
+Dialogue: 0,0:32:17.90,0:32:19.90,Default,,0,0,0,,in consciousness
+Dialogue: 0,0:32:19.90,0:32:22.00,Default,,0,0,0,,if you look to see
+Dialogue: 0,0:32:22.00,0:32:24.00,Default,,0,0,0,,where is the pain being experienced
+Dialogue: 0,0:32:24.00,0:32:26.00,Default,,0,0,0,,so let's take this thumb
+Dialogue: 0,0:32:26.00,0:32:28.00,Default,,0,0,0,,you know just happens to be handy
+Dialogue: 0,0:32:28.00,0:32:30.19,Default,,0,0,0,,where is the pain
+Dialogue: 0,0:32:30.19,0:32:32.19,Default,,0,0,0,,of it being experienced
+Dialogue: 0,0:32:32.19,0:32:34.77,Default,,0,0,0,,we can say number one
+Dialogue: 0,0:32:34.77,0:32:36.77,Default,,0,0,0,,the pain seems to be coming
+Dialogue: 0,0:32:36.77,0:32:40.37,Default,,0,0,0,,from right here
+Dialogue: 0,0:32:40.37,0:32:42.37,Default,,0,0,0,,the mind would say well the pain is in
+Dialogue: 0,0:32:42.37,0:32:44.91,Default,,0,0,0,,the thumb
+Dialogue: 0,0:32:44.91,0:32:46.91,Default,,0,0,0,,actually where is the pain being experienced
+Dialogue: 0,0:32:46.91,0:32:48.91,Default,,0,0,0,,if I go away from the thumb
+Dialogue: 0,0:32:48.91,0:32:50.91,Default,,0,0,0,,and let's say I move into
+Dialogue: 0,0:32:50.91,0:32:52.91,Default,,0,0,0,,the top of my head
+Dialogue: 0,0:32:52.91,0:32:54.91,Default,,0,0,0,,let's say I focus on the top of my head
+Dialogue: 0,0:32:54.91,0:32:56.91,Default,,0,0,0,,and now from the top of my head
+Dialogue: 0,0:32:56.91,0:32:58.91,Default,,0,0,0,,I look at
+Dialogue: 0,0:32:58.91,0:33:00.91,Default,,0,0,0,,from that space I now experience
+Dialogue: 0,0:33:00.91,0:33:02.91,Default,,0,0,0,,the painfulness of the thumb
+Dialogue: 0,0:33:02.91,0:33:04.91,Default,,0,0,0,,where is the painfulness of the thumb
+Dialogue: 0,0:33:04.91,0:33:07.33,Default,,0,0,0,,happening
+Dialogue: 0,0:33:07.33,0:33:09.33,Default,,0,0,0,,if I do that I begin to notice
+Dialogue: 0,0:33:09.33,0:33:11.33,Default,,0,0,0,,that the painfulness
+Dialogue: 0,0:33:11.33,0:33:13.68,Default,,0,0,0,,is being experienced everywhere
+Dialogue: 0,0:33:13.68,0:33:15.68,Default,,0,0,0,,the painfulness is being experienced
+Dialogue: 0,0:33:15.68,0:33:17.68,Default,,0,0,0,,when you first try this technique
+Dialogue: 0,0:33:17.68,0:33:19.68,Default,,0,0,0,,you'll see that the painfulness
+Dialogue: 0,0:33:19.68,0:33:21.68,Default,,0,0,0,,is being experienced
+Dialogue: 0,0:33:21.68,0:33:23.68,Default,,0,0,0,,like all around your body
+Dialogue: 0,0:33:23.68,0:33:25.68,Default,,0,0,0,,all around the energy fields of your body
+Dialogue: 0,0:33:25.68,0:33:27.68,Default,,0,0,0,,that it's really going on
+Dialogue: 0,0:33:27.68,0:33:29.68,Default,,0,0,0,,sort of everywhere
+Dialogue: 0,0:33:29.68,0:33:31.68,Default,,0,0,0,,you all have the experience of pain
+Dialogue: 0,0:33:31.68,0:33:33.68,Default,,0,0,0,,you're sick to your stomach
+Dialogue: 0,0:33:33.68,0:33:35.68,Default,,0,0,0,,and flip floppy and weak in the knees
+Dialogue: 0,0:33:35.68,0:33:38.80,Default,,0,0,0,,it's being experienced everywhere
+Dialogue: 0,0:33:38.80,0:33:40.80,Default,,0,0,0,,so if I go into the top of my head
+Dialogue: 0,0:33:40.80,0:33:42.80,Default,,0,0,0,,this is just an exercise
+Dialogue: 0,0:33:42.80,0:33:44.80,Default,,0,0,0,,that you do you see
+Dialogue: 0,0:33:44.80,0:33:46.80,Default,,0,0,0,,and from there I begin to experience
+Dialogue: 0,0:33:46.80,0:33:48.80,Default,,0,0,0,,the pain
+Dialogue: 0,0:33:48.80,0:33:50.90,Default,,0,0,0,,I then notice that this pain is everywhere
+Dialogue: 0,0:33:50.90,0:33:52.90,Default,,0,0,0,,and now I use the same technique
+Dialogue: 0,0:33:52.90,0:33:55.86,Default,,0,0,0,,that I used
+Dialogue: 0,0:33:55.86,0:33:58.11,Default,,0,0,0,,in handling the acute pain
+Dialogue: 0,0:33:58.11,0:34:00.11,Default,,0,0,0,,I let go resisting
+Dialogue: 0,0:34:00.11,0:34:02.11,Default,,0,0,0,,what is being experienced
+Dialogue: 0,0:34:02.11,0:34:04.27,Default,,0,0,0,,everywhere
+Dialogue: 0,0:34:04.27,0:34:06.27,Default,,0,0,0,,it's in no place
+Dialogue: 0,0:34:06.27,0:34:08.27,Default,,0,0,0,,that this is going on
+Dialogue: 0,0:34:08.27,0:34:11.94,Default,,0,0,0,,and I let go resisting it
+Dialogue: 0,0:34:11.94,0:34:13.94,Default,,0,0,0,,I want to review again this technique
+Dialogue: 0,0:34:13.94,0:34:15.94,Default,,0,0,0,,of letting go resistance
+Dialogue: 0,0:34:15.94,0:34:17.94,Default,,0,0,0,,to clearly differentiate
+Dialogue: 0,0:34:17.94,0:34:19.94,Default,,0,0,0,,that which is the feeling
+Dialogue: 0,0:34:19.94,0:34:21.94,Default,,0,0,0,,the sensation, the experience
+Dialogue: 0,0:34:21.94,0:34:25.02,Default,,0,0,0,,and that which are the thoughts
+Dialogue: 0,0:34:25.02,0:34:27.02,Default,,0,0,0,,we're going to be doing this
+Dialogue: 0,0:34:27.02,0:34:29.02,Default,,0,0,0,,with all of life's problems
+Dialogue: 0,0:34:29.02,0:34:31.12,Default,,0,0,0,,and especially with physical illnesses
+Dialogue: 0,0:34:31.12,0:34:33.18,Default,,0,0,0,,that there is
+Dialogue: 0,0:34:33.18,0:34:35.18,Default,,0,0,0,,an absolute sensation
+Dialogue: 0,0:34:35.18,0:34:37.18,Default,,0,0,0,,coming in
+Dialogue: 0,0:34:37.18,0:34:39.18,Default,,0,0,0,,to what is being experienced
+Dialogue: 0,0:34:39.18,0:34:41.18,Default,,0,0,0,,and what the mind then does
+Dialogue: 0,0:34:41.18,0:34:43.18,Default,,0,0,0,,is elaborate
+Dialogue: 0,0:34:43.18,0:34:45.18,Default,,0,0,0,,about that experience
+Dialogue: 0,0:34:45.18,0:34:47.18,Default,,0,0,0,,conceptualize about it
+Dialogue: 0,0:34:47.18,0:34:49.18,Default,,0,0,0,,label it
+Dialogue: 0,0:34:49.18,0:34:51.41,Default,,0,0,0,,and put concepts on it
+Dialogue: 0,0:34:51.41,0:34:53.41,Default,,0,0,0,,for instance you cannot experience
+Dialogue: 0,0:34:53.41,0:34:55.41,Default,,0,0,0,,an ulcer
+Dialogue: 0,0:34:55.41,0:34:57.41,Default,,0,0,0,,you cannot experience diabetes
+Dialogue: 0,0:34:57.41,0:34:59.44,Default,,0,0,0,,you see those are labels
+Dialogue: 0,0:34:59.44,0:35:01.44,Default,,0,0,0,,those are concepts
+Dialogue: 0,0:35:01.44,0:35:03.44,Default,,0,0,0,,those are diagnoses
+Dialogue: 0,0:35:03.44,0:35:05.44,Default,,0,0,0,,what are you actually experiencing
+Dialogue: 0,0:35:05.44,0:35:07.44,Default,,0,0,0,,what you're actually experiencing
+Dialogue: 0,0:35:07.44,0:35:09.44,Default,,0,0,0,,let's say
+Dialogue: 0,0:35:09.44,0:35:11.44,Default,,0,0,0,,what the world calls an ulcer
+Dialogue: 0,0:35:11.44,0:35:14.11,Default,,0,0,0,,is a sensation right here
+Dialogue: 0,0:35:14.11,0:35:16.11,Default,,0,0,0,,then your mind says
+Dialogue: 0,0:35:16.11,0:35:18.11,Default,,0,0,0,,well if I can't call it ulcer
+Dialogue: 0,0:35:18.11,0:35:21.07,Default,,0,0,0,,I'm going to say it's burning
+Dialogue: 0,0:35:21.07,0:35:23.07,Default,,0,0,0,,that again is a concept
+Dialogue: 0,0:35:23.07,0:35:25.07,Default,,0,0,0,,we've learned what that means
+Dialogue: 0,0:35:25.07,0:35:27.07,Default,,0,0,0,,that's a thought form
+Dialogue: 0,0:35:27.07,0:35:29.07,Default,,0,0,0,,which we have learned in our learning
+Dialogue: 0,0:35:29.07,0:35:31.07,Default,,0,0,0,,actually you're not experiencing a burning
+Dialogue: 0,0:35:31.07,0:35:33.07,Default,,0,0,0,,you're going inside now
+Dialogue: 0,0:35:33.07,0:35:35.07,Default,,0,0,0,,to an experiencing of the experience
+Dialogue: 0,0:35:35.07,0:35:37.07,Default,,0,0,0,,which has no words
+Dialogue: 0,0:35:37.07,0:35:39.07,Default,,0,0,0,,to the experiencing of the experience
+Dialogue: 0,0:35:39.07,0:35:41.07,Default,,0,0,0,,which has no words
+Dialogue: 0,0:35:41.07,0:35:43.26,Default,,0,0,0,,when the animal experiences it
+Dialogue: 0,0:35:43.26,0:35:45.26,Default,,0,0,0,,it has no words about that
+Dialogue: 0,0:35:45.26,0:35:47.26,Default,,0,0,0,,it just is with what's going on
+Dialogue: 0,0:35:47.26,0:35:49.52,Default,,0,0,0,,so we sort of call up
+Dialogue: 0,0:35:49.52,0:35:51.52,Default,,0,0,0,,our animal nature
+Dialogue: 0,0:35:51.52,0:35:53.52,Default,,0,0,0,,and just be with
+Dialogue: 0,0:35:53.52,0:35:55.52,Default,,0,0,0,,what's being experienced
+Dialogue: 0,0:35:55.52,0:35:57.52,Default,,0,0,0,,without saying anything about it
+Dialogue: 0,0:35:57.52,0:35:59.52,Default,,0,0,0,,without elaborating
+Dialogue: 0,0:35:59.52,0:36:01.52,Default,,0,0,0,,why?
+Dialogue: 0,0:36:01.52,0:36:03.52,Default,,0,0,0,,because these thoughts
+Dialogue: 0,0:36:03.52,0:36:05.52,Default,,0,0,0,,all bring in programs
+Dialogue: 0,0:36:05.52,0:36:07.52,Default,,0,0,0,,complicated programs
+Dialogue: 0,0:36:07.52,0:36:09.87,Default,,0,0,0,,and we then become
+Dialogue: 0,0:36:09.87,0:36:11.87,Default,,0,0,0,,at the effect of these thoughts
+Dialogue: 0,0:36:11.87,0:36:13.87,Default,,0,0,0,,if I say to myself
+Dialogue: 0,0:36:13.87,0:36:15.87,Default,,0,0,0,,that I have an ulcer
+Dialogue: 0,0:36:15.87,0:36:17.87,Default,,0,0,0,,then I've got a whole bunch of programs
+Dialogue: 0,0:36:17.87,0:36:19.87,Default,,0,0,0,,that go with ulcer
+Dialogue: 0,0:36:19.87,0:36:21.87,Default,,0,0,0,,and because of the nature of mind
+Dialogue: 0,0:36:21.87,0:36:23.87,Default,,0,0,0,,I begin to experience all of that
+Dialogue: 0,0:36:23.87,0:36:25.87,Default,,0,0,0,,because of the power of mind
+Dialogue: 0,0:36:25.87,0:36:28.13,Default,,0,0,0,,and one that
+Dialogue: 0,0:36:28.13,0:36:30.13,Default,,0,0,0,,people find most difficult to
+Dialogue: 0,0:36:30.13,0:36:32.13,Default,,0,0,0,,really grasp when they
+Dialogue: 0,0:36:32.13,0:36:34.13,Default,,0,0,0,,enter research and
+Dialogue: 0,0:36:34.13,0:36:36.13,Default,,0,0,0,,work in the field of consciousness itself
+Dialogue: 0,0:36:36.13,0:36:38.74,Default,,0,0,0,,and that is the realization
+Dialogue: 0,0:36:38.74,0:36:40.74,Default,,0,0,0,,of the power of mind
+Dialogue: 0,0:36:40.74,0:36:42.74,Default,,0,0,0,,how powerful it is
+Dialogue: 0,0:36:42.74,0:36:44.96,Default,,0,0,0,,we just cannot be careless
+Dialogue: 0,0:36:44.96,0:36:46.96,Default,,0,0,0,,about our thoughts
+Dialogue: 0,0:36:46.96,0:36:48.96,Default,,0,0,0,,once we understand
+Dialogue: 0,0:36:48.96,0:36:50.96,Default,,0,0,0,,the power of mind and the nature of thought
+Dialogue: 0,0:36:50.96,0:36:53.18,Default,,0,0,0,,we begin to realize that
+Dialogue: 0,0:36:53.18,0:36:55.95,Default,,0,0,0,,one of the principles
+Dialogue: 0,0:36:55.95,0:36:57.95,Default,,0,0,0,,of consciousness
+Dialogue: 0,0:36:57.95,0:36:59.95,Default,,0,0,0,,is that we are only subject
+Dialogue: 0,0:36:59.95,0:37:01.95,Default,,0,0,0,,to what we hold in mind
+Dialogue: 0,0:37:01.95,0:37:04.14,Default,,0,0,0,,in this one sentence
+Dialogue: 0,0:37:04.14,0:37:06.56,Default,,0,0,0,,is
+Dialogue: 0,0:37:06.56,0:37:08.56,Default,,0,0,0,,the key to the healing
+Dialogue: 0,0:37:08.56,0:37:10.56,Default,,0,0,0,,of all illness, pain and suffering
+Dialogue: 0,0:37:10.56,0:37:13.07,Default,,0,0,0,,we are only subject
+Dialogue: 0,0:37:13.07,0:37:15.07,Default,,0,0,0,,to what we hold in mind
+Dialogue: 0,0:37:15.07,0:37:17.07,Default,,0,0,0,,the mind is extraordinarily
+Dialogue: 0,0:37:17.07,0:37:19.07,Default,,0,0,0,,powerful
+Dialogue: 0,0:37:19.07,0:37:21.07,Default,,0,0,0,,the great difficulty
+Dialogue: 0,0:37:21.07,0:37:23.07,Default,,0,0,0,,that people have in getting
+Dialogue: 0,0:37:23.07,0:37:25.65,Default,,0,0,0,,is how powerful the mind is
+Dialogue: 0,0:37:25.65,0:37:27.65,Default,,0,0,0,,and therefore in dealing with pain
+Dialogue: 0,0:37:27.65,0:37:30.42,Default,,0,0,0,,or with suffering of any kind
+Dialogue: 0,0:37:30.42,0:37:32.42,Default,,0,0,0,,the first thing we have to do
+Dialogue: 0,0:37:32.42,0:37:34.42,Default,,0,0,0,,is discontinue
+Dialogue: 0,0:37:34.42,0:37:36.42,Default,,0,0,0,,let go of and cancel
+Dialogue: 0,0:37:36.42,0:37:38.42,Default,,0,0,0,,all of our belief systems
+Dialogue: 0,0:37:38.42,0:37:40.42,Default,,0,0,0,,about that
+Dialogue: 0,0:37:40.42,0:37:42.42,Default,,0,0,0,,it is
+Dialogue: 0,0:37:42.42,0:37:44.42,Default,,0,0,0,,as the research has shown
+Dialogue: 0,0:37:44.42,0:37:46.42,Default,,0,0,0,,the belief system itself
+Dialogue: 0,0:37:46.42,0:37:48.67,Default,,0,0,0,,that literally creates
+Dialogue: 0,0:37:48.67,0:37:50.67,Default,,0,0,0,,the experience
+Dialogue: 0,0:37:50.67,0:37:52.67,Default,,0,0,0,,the incident is an expression
+Dialogue: 0,0:37:52.67,0:37:54.67,Default,,0,0,0,,of that belief system
+Dialogue: 0,0:37:54.67,0:37:56.67,Default,,0,0,0,,it is like the mind justifying
+Dialogue: 0,0:37:56.67,0:37:59.89,Default,,0,0,0,,that what it believes is true
+Dialogue: 0,0:37:59.89,0:38:01.89,Default,,0,0,0,,we can find out whether
+Dialogue: 0,0:38:01.89,0:38:03.89,Default,,0,0,0,,this is so or not our self
+Dialogue: 0,0:38:03.89,0:38:05.89,Default,,0,0,0,,by beginning to cancel it
+Dialogue: 0,0:38:05.89,0:38:07.89,Default,,0,0,0,,to cancel as we said
+Dialogue: 0,0:38:07.89,0:38:09.89,Default,,0,0,0,,at the beginning of this film
+Dialogue: 0,0:38:09.89,0:38:11.89,Default,,0,0,0,,the belief that pain and suffering
+Dialogue: 0,0:38:12.72,0:38:14.72,Default,,0,0,0,,are the same thing
+Dialogue: 0,0:38:14.72,0:38:16.72,Default,,0,0,0,,we have to cancel
+Dialogue: 0,0:38:16.72,0:38:18.72,Default,,0,0,0,,all thoughts
+Dialogue: 0,0:38:18.72,0:38:20.72,Default,,0,0,0,,and all thoughts
+Dialogue: 0,0:38:20.72,0:38:22.72,Default,,0,0,0,,are really belief systems
+Dialogue: 0,0:38:22.72,0:38:24.72,Default,,0,0,0,,and instead we have to go
+Dialogue: 0,0:38:24.72,0:38:26.72,Default,,0,0,0,,for radical truth
+Dialogue: 0,0:38:26.72,0:38:28.72,Default,,0,0,0,,radical in that we drop off
+Dialogue: 0,0:38:28.72,0:38:30.72,Default,,0,0,0,,everything except
+Dialogue: 0,0:38:30.72,0:38:32.72,Default,,0,0,0,,the experiencing
+Dialogue: 0,0:38:32.72,0:38:35.01,Default,,0,0,0,,of what is literally
+Dialogue: 0,0:38:35.01,0:38:37.01,Default,,0,0,0,,being experienced
+Dialogue: 0,0:38:37.01,0:38:39.42,Default,,0,0,0,,and letting go the resistance
+Dialogue: 0,0:38:39.42,0:38:41.42,Default,,0,0,0,,to that
+Dialogue: 0,0:38:41.42,0:38:43.42,Default,,0,0,0,,when we do
+Dialogue: 0,0:38:43.42,0:38:45.42,Default,,0,0,0,,we will experience a relief
+Dialogue: 0,0:38:45.42,0:38:47.65,Default,,0,0,0,,of the suffering
+Dialogue: 0,0:38:47.65,0:38:49.65,Default,,0,0,0,,and curiously enough
+Dialogue: 0,0:38:49.65,0:38:51.65,Default,,0,0,0,,we will reach a point
+Dialogue: 0,0:38:51.65,0:38:54.45,Default,,0,0,0,,where we don't care
+Dialogue: 0,0:38:54.45,0:38:56.45,Default,,0,0,0,,whether the pain is there or not
+Dialogue: 0,0:38:56.45,0:38:58.64,Default,,0,0,0,,that may be a difficult thing
+Dialogue: 0,0:38:58.64,0:39:00.64,Default,,0,0,0,,to conceive of in the beginning
+Dialogue: 0,0:39:00.64,0:39:03.06,Default,,0,0,0,,because the mind wants to be
+Dialogue: 0,0:39:03.06,0:39:05.06,Default,,0,0,0,,rid of the pain
+Dialogue: 0,0:39:05.06,0:39:07.31,Default,,0,0,0,,our whole approach instead
+Dialogue: 0,0:39:07.31,0:39:09.31,Default,,0,0,0,,is to accept it
+Dialogue: 0,0:39:09.31,0:39:11.31,Default,,0,0,0,,to accept it
+Dialogue: 0,0:39:11.31,0:39:13.31,Default,,0,0,0,,to let the pain be there
+Dialogue: 0,0:39:13.31,0:39:15.31,Default,,0,0,0,,but to move away from it
+Dialogue: 0,0:39:15.31,0:39:17.31,Default,,0,0,0,,in other words it is like the pain is here
+Dialogue: 0,0:39:17.31,0:39:19.31,Default,,0,0,0,,and then you experience the morphine
+Dialogue: 0,0:39:19.31,0:39:21.31,Default,,0,0,0,,the pain of the broken ankle
+Dialogue: 0,0:39:21.31,0:39:23.31,Default,,0,0,0,,let's say is there
+Dialogue: 0,0:39:23.31,0:39:25.31,Default,,0,0,0,,and then you begin to feel yourself
+Dialogue: 0,0:39:25.31,0:39:27.31,Default,,0,0,0,,move away from that pain
+Dialogue: 0,0:39:27.31,0:39:29.31,Default,,0,0,0,,it's no longer you
+Dialogue: 0,0:39:29.31,0:39:31.31,Default,,0,0,0,,it's no longer yours
+Dialogue: 0,0:39:31.31,0:39:33.31,Default,,0,0,0,,in this case the narcotic does
+Dialogue: 0,0:39:33.31,0:39:35.31,Default,,0,0,0,,what we are explaining
+Dialogue: 0,0:39:35.31,0:39:37.31,Default,,0,0,0,,can be done by consciousness
+Dialogue: 0,0:39:37.31,0:39:39.31,Default,,0,0,0,,actually the narcotic
+Dialogue: 0,0:39:39.31,0:39:41.31,Default,,0,0,0,,actually doesn't do it
+Dialogue: 0,0:39:41.31,0:39:43.44,Default,,0,0,0,,the narcotic enables
+Dialogue: 0,0:39:43.44,0:39:45.44,Default,,0,0,0,,our consciousness
+Dialogue: 0,0:39:45.44,0:39:47.44,Default,,0,0,0,,to make this very move
+Dialogue: 0,0:39:47.44,0:39:49.44,Default,,0,0,0,,and we can learn to make
+Dialogue: 0,0:39:49.44,0:39:51.44,Default,,0,0,0,,this very move
+Dialogue: 0,0:39:51.44,0:39:53.44,Default,,0,0,0,,without being triggered
+Dialogue: 0,0:39:53.44,0:39:55.44,Default,,0,0,0,,by a narcotic
+Dialogue: 0,0:39:55.44,0:39:57.44,Default,,0,0,0,,I have had to do that
+Dialogue: 0,0:39:57.44,0:39:59.44,Default,,0,0,0,,I myself have been allergic
+Dialogue: 0,0:39:59.44,0:40:01.89,Default,,0,0,0,,severely allergic
+Dialogue: 0,0:40:01.89,0:40:03.89,Default,,0,0,0,,to any kind of analgesic
+Dialogue: 0,0:40:03.89,0:40:05.89,Default,,0,0,0,,or narcotic or anesthetic
+Dialogue: 0,0:40:05.89,0:40:07.89,Default,,0,0,0,,for well over 20 years
+Dialogue: 0,0:40:07.89,0:40:09.89,Default,,0,0,0,,and over those 22 years
+Dialogue: 0,0:40:09.89,0:40:11.89,Default,,0,0,0,,I have had all kinds of
+Dialogue: 0,0:40:11.89,0:40:13.89,Default,,0,0,0,,severe illnesses
+Dialogue: 0,0:40:13.89,0:40:15.89,Default,,0,0,0,,and accidents etc
+Dialogue: 0,0:40:15.89,0:40:17.89,Default,,0,0,0,,and so of necessity
+Dialogue: 0,0:40:17.89,0:40:19.89,Default,,0,0,0,,the usual measures
+Dialogue: 0,0:40:19.89,0:40:21.89,Default,,0,0,0,,I have had to investigate
+Dialogue: 0,0:40:21.89,0:40:23.89,Default,,0,0,0,,what is the capacity
+Dialogue: 0,0:40:23.89,0:40:25.89,Default,,0,0,0,,what is the power of consciousness itself
+Dialogue: 0,0:40:25.89,0:40:27.89,Default,,0,0,0,,and I saw that all
+Dialogue: 0,0:40:27.89,0:40:29.89,Default,,0,0,0,,that the analgesic did
+Dialogue: 0,0:40:29.89,0:40:31.89,Default,,0,0,0,,was allow consciousness
+Dialogue: 0,0:40:31.89,0:40:33.89,Default,,0,0,0,,to exercise its own power
+Dialogue: 0,0:40:33.89,0:40:35.89,Default,,0,0,0,,therefore we can own
+Dialogue: 0,0:40:35.89,0:40:37.89,Default,,0,0,0,,that we have that power
+Dialogue: 0,0:40:37.89,0:40:39.89,Default,,0,0,0,,within our own consciousness
+Dialogue: 0,0:40:39.89,0:40:42.59,Default,,0,0,0,,to achieve the same result
+Dialogue: 0,0:40:42.59,0:40:44.59,Default,,0,0,0,,without the analgesic
+Dialogue: 0,0:40:44.59,0:40:46.59,Default,,0,0,0,,we begin to move away from it
+Dialogue: 0,0:40:46.59,0:40:48.59,Default,,0,0,0,,by letting go resisting it
+Dialogue: 0,0:40:48.59,0:40:50.59,Default,,0,0,0,,let the pain be there
+Dialogue: 0,0:40:50.59,0:40:52.59,Default,,0,0,0,,and what we are going to do
+Dialogue: 0,0:40:52.59,0:40:54.59,Default,,0,0,0,,is shift our way of being
+Dialogue: 0,0:40:54.59,0:40:56.59,Default,,0,0,0,,with that pain
+Dialogue: 0,0:40:56.59,0:40:58.59,Default,,0,0,0,,we are going to shift our way
+Dialogue: 0,0:40:58.59,0:41:00.59,Default,,0,0,0,,of being with it
+Dialogue: 0,0:41:00.59,0:41:02.59,Default,,0,0,0,,to the point that we don't care
+Dialogue: 0,0:41:02.59,0:41:04.59,Default,,0,0,0,,whether it is there or not
+Dialogue: 0,0:41:04.59,0:41:06.66,Default,,0,0,0,,does that sound amazing
+Dialogue: 0,0:41:06.66,0:41:08.66,Default,,0,0,0,,that you don't even care
+Dialogue: 0,0:41:08.66,0:41:10.66,Default,,0,0,0,,whether it is there or not
+Dialogue: 0,0:41:10.66,0:41:12.66,Default,,0,0,0,,it is very simple
+Dialogue: 0,0:41:12.66,0:41:14.66,Default,,0,0,0,,many things in your life
+Dialogue: 0,0:41:14.66,0:41:16.66,Default,,0,0,0,,you have been upset over
+Dialogue: 0,0:41:16.66,0:41:19.55,Default,,0,0,0,,you know what I mean
+Dialogue: 0,0:41:19.55,0:41:21.55,Default,,0,0,0,,some place in your backyard
+Dialogue: 0,0:41:21.55,0:41:23.55,Default,,0,0,0,,that was driving you crazy
+Dialogue: 0,0:41:23.55,0:41:25.55,Default,,0,0,0,,and one day you say
+Dialogue: 0,0:41:25.55,0:41:27.55,Default,,0,0,0,,oh the heck with it
+Dialogue: 0,0:41:27.55,0:41:30.06,Default,,0,0,0,,suddenly you move right
+Dialogue: 0,0:41:30.06,0:41:32.06,Default,,0,0,0,,you see on this field
+Dialogue: 0,0:41:32.06,0:41:34.06,Default,,0,0,0,,you move here from
+Dialogue: 0,0:41:34.06,0:41:36.06,Default,,0,0,0,,trying to do something about it
+Dialogue: 0,0:41:36.06,0:41:38.10,Default,,0,0,0,,and control it
+Dialogue: 0,0:41:38.10,0:41:40.10,Default,,0,0,0,,and change it
+Dialogue: 0,0:41:40.10,0:41:42.10,Default,,0,0,0,,and exert your will
+Dialogue: 0,0:41:42.10,0:41:44.10,Default,,0,0,0,,see when you try to change others
+Dialogue: 0,0:41:44.10,0:41:46.10,Default,,0,0,0,,or you try to change people
+Dialogue: 0,0:41:46.10,0:41:48.10,Default,,0,0,0,,places and circumstances
+Dialogue: 0,0:41:48.10,0:41:50.10,Default,,0,0,0,,the minute you let it be there
+Dialogue: 0,0:41:50.10,0:41:52.10,Default,,0,0,0,,you like disappear your experience of it
+Dialogue: 0,0:41:52.10,0:41:54.10,Default,,0,0,0,,you move all the way up to here
+Dialogue: 0,0:41:54.10,0:41:56.10,Default,,0,0,0,,and we are going to show you
+Dialogue: 0,0:41:56.10,0:41:58.10,Default,,0,0,0,,by the time we end the film
+Dialogue: 0,0:41:58.10,0:42:00.10,Default,,0,0,0,,how to move all the way up
+Dialogue: 0,0:42:00.10,0:42:02.10,Default,,0,0,0,,to a state of painlessness
+Dialogue: 0,0:42:02.10,0:42:04.10,Default,,0,0,0,,a state of painlessness
+Dialogue: 0,0:42:04.10,0:42:08.91,Default,,0,0,0,,in the presence of pain
+Dialogue: 0,0:42:08.91,0:42:10.91,Default,,0,0,0,,the experience of that
+Dialogue: 0,0:42:10.91,0:42:13.01,Default,,0,0,0,,the sensations
+Dialogue: 0,0:42:13.01,0:42:15.01,Default,,0,0,0,,coming from
+Dialogue: 0,0:42:15.01,0:42:17.20,Default,,0,0,0,,let's say a painful injury
+Dialogue: 0,0:42:17.20,0:42:19.46,Default,,0,0,0,,are going on
+Dialogue: 0,0:42:19.46,0:42:21.97,Default,,0,0,0,,and who cares about it
+Dialogue: 0,0:42:21.97,0:42:23.97,Default,,0,0,0,,the sensations from this amputation
+Dialogue: 0,0:42:23.97,0:42:25.97,Default,,0,0,0,,which I only did a few months ago
+Dialogue: 0,0:42:25.97,0:42:28.99,Default,,0,0,0,,are going on
+Dialogue: 0,0:42:28.99,0:42:30.99,Default,,0,0,0,,but I don't care about it
+Dialogue: 0,0:42:30.99,0:42:32.99,Default,,0,0,0,,it makes no difference
+Dialogue: 0,0:42:32.99,0:42:35.66,Default,,0,0,0,,if they are there, they are there
+Dialogue: 0,0:42:35.66,0:42:37.66,Default,,0,0,0,,and if they are not, they are not
+Dialogue: 0,0:42:37.66,0:42:39.66,Default,,0,0,0,,that all comes about
+Dialogue: 0,0:42:39.66,0:42:41.66,Default,,0,0,0,,through that very simple practice
+Dialogue: 0,0:42:41.66,0:42:43.66,Default,,0,0,0,,very simple practice
+Dialogue: 0,0:42:43.66,0:42:45.66,Default,,0,0,0,,in which you are totally indifferent
+Dialogue: 0,0:42:45.66,0:42:47.66,Default,,0,0,0,,most of the time
+Dialogue: 0,0:42:47.66,0:42:49.66,Default,,0,0,0,,the pain that I have experienced in my own life
+Dialogue: 0,0:42:49.66,0:42:51.95,Default,,0,0,0,,and other people who have used this technique
+Dialogue: 0,0:42:51.95,0:42:53.95,Default,,0,0,0,,eventually the pain disappears of its own
+Dialogue: 0,0:42:53.95,0:42:55.95,Default,,0,0,0,,minutes in the case of an acute injury
+Dialogue: 0,0:42:55.95,0:42:57.95,Default,,0,0,0,,or it may take months
+Dialogue: 0,0:42:57.95,0:43:00.66,Default,,0,0,0,,I had one illness that took
+Dialogue: 0,0:43:00.66,0:43:02.66,Default,,0,0,0,,well over a year
+Dialogue: 0,0:43:02.66,0:43:04.66,Default,,0,0,0,,of constantly letting go
+Dialogue: 0,0:43:04.66,0:43:06.66,Default,,0,0,0,,constantly releasing, constantly surrendering
+Dialogue: 0,0:43:06.66,0:43:08.66,Default,,0,0,0,,before it finally disappeared
+Dialogue: 0,0:43:08.66,0:43:10.66,Default,,0,0,0,,so I know that the sensations
+Dialogue: 0,0:43:10.66,0:43:12.66,Default,,0,0,0,,will eventually die out
+Dialogue: 0,0:43:12.66,0:43:14.66,Default,,0,0,0,,but I am not doing it
+Dialogue: 0,0:43:14.66,0:43:16.66,Default,,0,0,0,,to try to achieve that
+Dialogue: 0,0:43:16.66,0:43:18.66,Default,,0,0,0,,you see that would be trying to change it
+Dialogue: 0,0:43:18.66,0:43:20.78,Default,,0,0,0,,and trying to get rid of it
+Dialogue: 0,0:43:20.78,0:43:22.78,Default,,0,0,0,,but I do know as a matter of clinical observation
+Dialogue: 0,0:43:22.78,0:43:24.78,Default,,0,0,0,,that as you let go resisting it
+Dialogue: 0,0:43:24.78,0:43:26.78,Default,,0,0,0,,you come to a point
+Dialogue: 0,0:43:26.78,0:43:28.78,Default,,0,0,0,,where you don't care whether it is there or not
+Dialogue: 0,0:43:28.78,0:43:30.78,Default,,0,0,0,,and then suddenly one morning
+Dialogue: 0,0:43:30.78,0:43:33.23,Default,,0,0,0,,you wake up and it is gone
+Dialogue: 0,0:43:33.23,0:43:35.23,Default,,0,0,0,,but we don't let go resisting it
+Dialogue: 0,0:43:35.23,0:43:37.23,Default,,0,0,0,,in order to get rid of the pain
+Dialogue: 0,0:43:37.23,0:43:39.23,Default,,0,0,0,,that is a happy side effect
+Dialogue: 0,0:43:39.23,0:43:41.23,Default,,0,0,0,,when you reach the point
+Dialogue: 0,0:43:41.23,0:43:43.23,Default,,0,0,0,,where you don't care whether it is there or not
+Dialogue: 0,0:43:43.23,0:43:45.23,Default,,0,0,0,,then what difference does it make
+Dialogue: 0,0:43:45.23,0:43:47.23,Default,,0,0,0,,whether it continues it or not
+Dialogue: 0,0:43:47.23,0:43:50.16,Default,,0,0,0,,because at that point
+Dialogue: 0,0:43:50.16,0:43:52.16,Default,,0,0,0,,you are like immune to the pain
+Dialogue: 0,0:43:52.16,0:43:54.16,Default,,0,0,0,,this is a very good thing to know
+Dialogue: 0,0:43:54.16,0:43:56.16,Default,,0,0,0,,that your mind has this power
+Dialogue: 0,0:43:56.16,0:43:58.16,Default,,0,0,0,,and all you need is somebody
+Dialogue: 0,0:43:58.16,0:44:00.16,Default,,0,0,0,,to point it out to you
+Dialogue: 0,0:44:00.16,0:44:02.16,Default,,0,0,0,,and encourage you to try it
+Dialogue: 0,0:44:02.16,0:44:04.16,Default,,0,0,0,,and you will see that it works
+Dialogue: 0,0:44:04.16,0:44:06.16,Default,,0,0,0,,there is no need to be
+Dialogue: 0,0:44:06.16,0:44:08.16,Default,,0,0,0,,in a state of suffering
+Dialogue: 0,0:44:08.16,0:44:10.16,Default,,0,0,0,,over pain of any kind
+Dialogue: 0,0:44:10.54,0:44:12.54,Default,,0,0,0,,pain is one thing
+Dialogue: 0,0:44:12.54,0:44:14.58,Default,,0,0,0,,suffering is another
+Dialogue: 0,0:44:14.58,0:44:16.58,Default,,0,0,0,,you have to say that over and over
+Dialogue: 0,0:44:16.58,0:44:18.58,Default,,0,0,0,,to yourself
+Dialogue: 0,0:44:18.58,0:44:20.58,Default,,0,0,0,,and begin to utilize these techniques
+Dialogue: 0,0:44:20.58,0:44:22.58,Default,,0,0,0,,and then you will experience a separation
+Dialogue: 0,0:44:22.58,0:44:24.58,Default,,0,0,0,,where there is you
+Dialogue: 0,0:44:24.58,0:44:26.58,Default,,0,0,0,,and then there is the pain
+Dialogue: 0,0:44:26.58,0:44:28.58,Default,,0,0,0,,you are not connected with it anymore
+Dialogue: 0,0:44:28.58,0:44:30.58,Default,,0,0,0,,you are something over greater
+Dialogue: 0,0:44:30.58,0:44:32.58,Default,,0,0,0,,than and beyond
+Dialogue: 0,0:44:32.58,0:44:34.58,Default,,0,0,0,,that which is painful
+Dialogue: 0,0:44:34.58,0:44:36.58,Default,,0,0,0,,and no longer suffering
+Dialogue: 0,0:44:36.58,0:44:41.20,Default,,0,0,0,,how to handle the acute situation
+Dialogue: 0,0:44:41.20,0:44:43.20,Default,,0,0,0,,how to handle the chronic situation
+Dialogue: 0,0:44:43.20,0:44:45.20,Default,,0,0,0,,that leads us into the subject
+Dialogue: 0,0:44:45.20,0:44:47.20,Default,,0,0,0,,of how to be with it
+Dialogue: 0,0:44:47.20,0:44:49.20,Default,,0,0,0,,how to be with it
+Dialogue: 0,0:44:49.20,0:44:51.78,Default,,0,0,0,,life's experiences
+Dialogue: 0,0:44:51.78,0:44:53.78,Default,,0,0,0,,what is the meaning of them
+Dialogue: 0,0:44:53.78,0:44:55.78,Default,,0,0,0,,what is the meaning of them
+Dialogue: 0,0:44:55.78,0:44:57.78,Default,,0,0,0,,is how you experience them
+Dialogue: 0,0:44:57.78,0:44:59.78,Default,,0,0,0,,how you feel about them
+Dialogue: 0,0:44:59.78,0:45:01.87,Default,,0,0,0,,it doesn't make any difference at all
+Dialogue: 0,0:45:01.87,0:45:03.87,Default,,0,0,0,,what happens in the world
+Dialogue: 0,0:45:03.87,0:45:05.87,Default,,0,0,0,,if you can be with it
+Dialogue: 0,0:45:05.87,0:45:07.87,Default,,0,0,0,,in a certain way
+Dialogue: 0,0:45:07.87,0:45:09.87,Default,,0,0,0,,so it isn't what's happening out there
+Dialogue: 0,0:45:09.87,0:45:11.87,Default,,0,0,0,,it's how you are with it
+Dialogue: 0,0:45:11.87,0:45:13.87,Default,,0,0,0,,people who are quite evolved
+Dialogue: 0,0:45:13.87,0:45:15.87,Default,,0,0,0,,can be with
+Dialogue: 0,0:45:15.87,0:45:17.87,Default,,0,0,0,,situations that look
+Dialogue: 0,0:45:17.87,0:45:19.87,Default,,0,0,0,,dramatically tragic
+Dialogue: 0,0:45:19.87,0:45:21.87,Default,,0,0,0,,and be unaffected by them
+Dialogue: 0,0:45:21.87,0:45:23.90,Default,,0,0,0,,and how is that so
+Dialogue: 0,0:45:23.90,0:45:25.90,Default,,0,0,0,,because they begin to become aware
+Dialogue: 0,0:45:25.90,0:45:27.90,Default,,0,0,0,,of who they are
+Dialogue: 0,0:45:27.90,0:45:29.90,Default,,0,0,0,,and so
+Dialogue: 0,0:45:29.90,0:45:31.90,Default,,0,0,0,,one of the things that we can do
+Dialogue: 0,0:45:31.90,0:45:33.90,Default,,0,0,0,,about pain
+Dialogue: 0,0:45:33.90,0:45:35.90,Default,,0,0,0,,is consciously progress
+Dialogue: 0,0:45:35.90,0:45:37.90,Default,,0,0,0,,in the movement and growth
+Dialogue: 0,0:45:37.90,0:45:40.80,Default,,0,0,0,,of our own consciousness
+Dialogue: 0,0:45:40.80,0:45:42.80,Default,,0,0,0,,pain proneness comes about
+Dialogue: 0,0:45:42.80,0:45:44.80,Default,,0,0,0,,as a result of holding
+Dialogue: 0,0:45:44.80,0:45:46.80,Default,,0,0,0,,a lot of negative kinds of thoughts
+Dialogue: 0,0:45:46.80,0:45:49.09,Default,,0,0,0,,and feelings within us
+Dialogue: 0,0:45:49.09,0:45:51.09,Default,,0,0,0,,so that general spiritual work
+Dialogue: 0,0:45:51.09,0:45:53.12,Default,,0,0,0,,general work in consciousness
+Dialogue: 0,0:45:53.12,0:45:55.12,Default,,0,0,0,,then has an overall value
+Dialogue: 0,0:45:55.12,0:45:57.79,Default,,0,0,0,,the more
+Dialogue: 0,0:45:57.79,0:45:59.79,Default,,0,0,0,,for instance
+Dialogue: 0,0:45:59.79,0:46:01.79,Default,,0,0,0,,we forgive ourselves and others
+Dialogue: 0,0:46:01.79,0:46:03.79,Default,,0,0,0,,we have a process
+Dialogue: 0,0:46:03.79,0:46:05.79,Default,,0,0,0,,of forgiveness
+Dialogue: 0,0:46:05.79,0:46:07.79,Default,,0,0,0,,which was not really heard about much
+Dialogue: 0,0:46:07.79,0:46:09.79,Default,,0,0,0,,except in religion
+Dialogue: 0,0:46:09.79,0:46:11.86,Default,,0,0,0,,and has now become
+Dialogue: 0,0:46:11.86,0:46:13.86,Default,,0,0,0,,almost a social phenomena
+Dialogue: 0,0:46:13.86,0:46:15.86,Default,,0,0,0,,now when you go about in your social life
+Dialogue: 0,0:46:15.86,0:46:17.86,Default,,0,0,0,,and somebody brings up a resentment
+Dialogue: 0,0:46:17.86,0:46:19.86,Default,,0,0,0,,the other people will look at them
+Dialogue: 0,0:46:19.86,0:46:21.86,Default,,0,0,0,,because they know the next step
+Dialogue: 0,0:46:21.86,0:46:23.86,Default,,0,0,0,,is this person has to learn
+Dialogue: 0,0:46:23.86,0:46:25.86,Default,,0,0,0,,how to forgive that
+Dialogue: 0,0:46:25.86,0:46:28.53,Default,,0,0,0,,or they are going to be at the painful effect of that
+Dialogue: 0,0:46:28.53,0:46:30.53,Default,,0,0,0,,so we find that all pain and suffering
+Dialogue: 0,0:46:30.53,0:46:32.53,Default,,0,0,0,,comes about
+Dialogue: 0,0:46:32.53,0:46:34.53,Default,,0,0,0,,that which we are already holding in mind
+Dialogue: 0,0:46:34.53,0:46:36.53,Default,,0,0,0,,why are some people
+Dialogue: 0,0:46:36.53,0:46:38.53,Default,,0,0,0,,so susceptible
+Dialogue: 0,0:46:38.53,0:46:40.53,Default,,0,0,0,,to pain and suffering
+Dialogue: 0,0:46:40.53,0:46:42.53,Default,,0,0,0,,and other people it is very transitory
+Dialogue: 0,0:46:42.53,0:46:44.53,Default,,0,0,0,,the pain and the suffering goes
+Dialogue: 0,0:46:44.53,0:46:46.53,Default,,0,0,0,,through the surface of them
+Dialogue: 0,0:46:46.53,0:46:48.53,Default,,0,0,0,,but not into the core of them
+Dialogue: 0,0:46:48.53,0:46:50.59,Default,,0,0,0,,so that you can get extremely upset
+Dialogue: 0,0:46:50.59,0:46:52.59,Default,,0,0,0,,over something
+Dialogue: 0,0:46:52.59,0:46:54.59,Default,,0,0,0,,but that who you are within
+Dialogue: 0,0:46:54.59,0:46:56.59,Default,,0,0,0,,remains unruffled
+Dialogue: 0,0:46:56.59,0:46:58.59,Default,,0,0,0,,somehow there has been a differentiation
+Dialogue: 0,0:46:58.59,0:47:00.59,Default,,0,0,0,,of who I am
+Dialogue: 0,0:47:00.59,0:47:02.59,Default,,0,0,0,,from the experience
+Dialogue: 0,0:47:02.59,0:47:04.59,Default,,0,0,0,,the pain is totally unruffled
+Dialogue: 0,0:47:04.59,0:47:06.59,Default,,0,0,0,,and allows the experience
+Dialogue: 0,0:47:06.59,0:47:08.72,Default,,0,0,0,,to flow through me
+Dialogue: 0,0:47:08.72,0:47:11.52,Default,,0,0,0,,and upset
+Dialogue: 0,0:47:11.52,0:47:13.52,Default,,0,0,0,,the upset lasts for hours
+Dialogue: 0,0:47:13.52,0:47:15.52,Default,,0,0,0,,the emotional conflict
+Dialogue: 0,0:47:15.52,0:47:17.52,Default,,0,0,0,,whatever it happens to be
+Dialogue: 0,0:47:17.52,0:47:19.52,Default,,0,0,0,,but that which is within
+Dialogue: 0,0:47:19.52,0:47:21.62,Default,,0,0,0,,that which is myself
+Dialogue: 0,0:47:21.62,0:47:23.62,Default,,0,0,0,,does not even participate in that
+Dialogue: 0,0:47:23.62,0:47:25.62,Default,,0,0,0,,that beginning differentiation
+Dialogue: 0,0:47:25.62,0:47:27.62,Default,,0,0,0,,of what is my real self
+Dialogue: 0,0:47:27.62,0:47:29.62,Default,,0,0,0,,from what is experience
+Dialogue: 0,0:47:29.62,0:47:31.62,Default,,0,0,0,,letting go of the habit
+Dialogue: 0,0:47:31.62,0:47:33.62,Default,,0,0,0,,of identifying that I am experience
+Dialogue: 0,0:47:33.62,0:47:35.62,Default,,0,0,0,,that something is happening
+Dialogue: 0,0:47:35.62,0:47:37.84,Default,,0,0,0,,but I am not the experience
+Dialogue: 0,0:47:37.84,0:47:39.84,Default,,0,0,0,,how can we bring about
+Dialogue: 0,0:47:39.84,0:47:41.84,Default,,0,0,0,,this evolution and this growth in our self
+Dialogue: 0,0:47:41.84,0:47:43.90,Default,,0,0,0,,that takes us back
+Dialogue: 0,0:47:43.90,0:47:45.90,Default,,0,0,0,,to the scale of consciousness
+Dialogue: 0,0:47:45.90,0:47:47.90,Default,,0,0,0,,that we have here
+Dialogue: 0,0:47:47.90,0:47:49.90,Default,,0,0,0,,and as we look at it
+Dialogue: 0,0:47:49.90,0:47:51.90,Default,,0,0,0,,we will see how to be with chronic pain
+Dialogue: 0,0:47:51.90,0:47:53.90,Default,,0,0,0,,so that we can transcend it
+Dialogue: 0,0:47:53.90,0:47:55.90,Default,,0,0,0,,and no longer be
+Dialogue: 0,0:47:55.90,0:47:57.90,Default,,0,0,0,,in a state of suffering
+Dialogue: 0,0:47:57.90,0:48:01.22,Default,,0,0,0,,about it
+Dialogue: 0,0:48:01.22,0:48:03.22,Default,,0,0,0,,you remember at the bottom of the chart
+Dialogue: 0,0:48:03.22,0:48:05.22,Default,,0,0,0,,we said guilt has a negative energy field
+Dialogue: 0,0:48:05.22,0:48:07.22,Default,,0,0,0,,which we calibrate at 30
+Dialogue: 0,0:48:07.22,0:48:09.22,Default,,0,0,0,,death is zero
+Dialogue: 0,0:48:09.22,0:48:11.22,Default,,0,0,0,,so prolonged and excessive guilt
+Dialogue: 0,0:48:11.22,0:48:13.22,Default,,0,0,0,,for instance
+Dialogue: 0,0:48:13.22,0:48:15.22,Default,,0,0,0,,makes us prone to sickness
+Dialogue: 0,0:48:15.22,0:48:17.22,Default,,0,0,0,,accident, injury, pain and suffering
+Dialogue: 0,0:48:17.22,0:48:19.22,Default,,0,0,0,,we see that the view of the world
+Dialogue: 0,0:48:19.22,0:48:21.22,Default,,0,0,0,,the view of the world
+Dialogue: 0,0:48:21.22,0:48:23.22,Default,,0,0,0,,that comes out of this guiltiness
+Dialogue: 0,0:48:23.22,0:48:25.22,Default,,0,0,0,,which is a constant habit
+Dialogue: 0,0:48:25.22,0:48:27.22,Default,,0,0,0,,is one of sin and suffering
+Dialogue: 0,0:48:27.22,0:48:29.22,Default,,0,0,0,,we see that it brings about
+Dialogue: 0,0:48:29.22,0:48:31.22,Default,,0,0,0,,self-hatred
+Dialogue: 0,0:48:31.22,0:48:33.22,Default,,0,0,0,,and we see that the process
+Dialogue: 0,0:48:33.22,0:48:35.22,Default,,0,0,0,,in consciousness is one of
+Dialogue: 0,0:48:35.22,0:48:37.22,Default,,0,0,0,,destruction
+Dialogue: 0,0:48:37.22,0:48:39.22,Default,,0,0,0,,self-destruction out of this self-hatredness
+Dialogue: 0,0:48:39.22,0:48:41.31,Default,,0,0,0,,so one of the belief systems
+Dialogue: 0,0:48:41.31,0:48:43.31,Default,,0,0,0,,we have to give up
+Dialogue: 0,0:48:43.31,0:48:45.31,Default,,0,0,0,,is that
+Dialogue: 0,0:48:45.31,0:48:47.31,Default,,0,0,0,,guilt and suffering
+Dialogue: 0,0:48:47.31,0:48:49.31,Default,,0,0,0,,have any particular value
+Dialogue: 0,0:48:49.31,0:48:51.38,Default,,0,0,0,,as we look at this
+Dialogue: 0,0:48:51.38,0:48:53.38,Default,,0,0,0,,where we see
+Dialogue: 0,0:48:53.38,0:48:55.38,Default,,0,0,0,,as we go up the energy fields
+Dialogue: 0,0:48:55.38,0:48:57.38,Default,,0,0,0,,where we see
+Dialogue: 0,0:48:57.38,0:48:59.38,Default,,0,0,0,,that those who are approaching
+Dialogue: 0,0:48:59.38,0:49:01.38,Default,,0,0,0,,the energy fields of the saints
+Dialogue: 0,0:49:01.38,0:49:03.38,Default,,0,0,0,,and the great beings
+Dialogue: 0,0:49:03.38,0:49:05.38,Default,,0,0,0,,the closer you get to God
+Dialogue: 0,0:49:05.38,0:49:08.34,Default,,0,0,0,,and suffering
+Dialogue: 0,0:49:08.34,0:49:10.34,Default,,0,0,0,,as you experience the ultimate reality
+Dialogue: 0,0:49:10.34,0:49:12.34,Default,,0,0,0,,you go through the doors
+Dialogue: 0,0:49:12.34,0:49:14.34,Default,,0,0,0,,of a progressive lovingness
+Dialogue: 0,0:49:14.34,0:49:16.34,Default,,0,0,0,,because love increases and expands
+Dialogue: 0,0:49:16.34,0:49:18.34,Default,,0,0,0,,as you go up
+Dialogue: 0,0:49:18.34,0:49:20.34,Default,,0,0,0,,through joy, through ecstasy
+Dialogue: 0,0:49:20.34,0:49:22.34,Default,,0,0,0,,to a state of infinite peace
+Dialogue: 0,0:49:22.34,0:49:24.34,Default,,0,0,0,,the Buddha or the Christ
+Dialogue: 0,0:49:24.34,0:49:26.34,Default,,0,0,0,,or the great saints
+Dialogue: 0,0:49:26.34,0:49:28.53,Default,,0,0,0,,or the enlightened beings of the planet
+Dialogue: 0,0:49:28.53,0:49:30.53,Default,,0,0,0,,do not get there through guilt and pain and suffering
+Dialogue: 0,0:49:30.53,0:49:32.91,Default,,0,0,0,,they go there through joy
+Dialogue: 0,0:49:32.91,0:49:34.91,Default,,0,0,0,,so we have to give up worshipping
+Dialogue: 0,0:49:34.91,0:49:36.91,Default,,0,0,0,,the God of suffering
+Dialogue: 0,0:49:36.91,0:49:38.91,Default,,0,0,0,,we have to give up worshipping
+Dialogue: 0,0:49:38.91,0:49:40.91,Default,,0,0,0,,for those of you who are Christians
+Dialogue: 0,0:49:40.91,0:49:42.91,Default,,0,0,0,,we have to give up worshipping
+Dialogue: 0,0:49:42.91,0:49:44.91,Default,,0,0,0,,the God of the crucifixion
+Dialogue: 0,0:49:44.91,0:49:46.91,Default,,0,0,0,,the Christ of the crucifixion
+Dialogue: 0,0:49:46.91,0:49:48.91,Default,,0,0,0,,and move on to the Christ
+Dialogue: 0,0:49:48.91,0:49:50.91,Default,,0,0,0,,of the resurrection
+Dialogue: 0,0:49:50.91,0:49:52.91,Default,,0,0,0,,the message was not that of death
+Dialogue: 0,0:49:52.91,0:49:54.91,Default,,0,0,0,,and sin and suffering
+Dialogue: 0,0:49:54.91,0:49:56.91,Default,,0,0,0,,people who identify themselves as a body
+Dialogue: 0,0:49:56.91,0:49:58.91,Default,,0,0,0,,the strict materialist
+Dialogue: 0,0:49:58.91,0:50:00.91,Default,,0,0,0,,looked at the Christ on the cross
+Dialogue: 0,0:50:00.91,0:50:02.91,Default,,0,0,0,,as a body
+Dialogue: 0,0:50:02.91,0:50:04.91,Default,,0,0,0,,and came out with pain, sin
+Dialogue: 0,0:50:04.91,0:50:07.10,Default,,0,0,0,,guilt and suffering
+Dialogue: 0,0:50:07.10,0:50:09.10,Default,,0,0,0,,was that the message?
+Dialogue: 0,0:50:09.10,0:50:11.10,Default,,0,0,0,,is that what Christ died for
+Dialogue: 0,0:50:11.10,0:50:13.10,Default,,0,0,0,,to teach everybody
+Dialogue: 0,0:50:13.10,0:50:15.23,Default,,0,0,0,,that we are a physical body
+Dialogue: 0,0:50:15.23,0:50:17.23,Default,,0,0,0,,or was his message the direct opposite
+Dialogue: 0,0:50:17.23,0:50:19.23,Default,,0,0,0,,his message was the direct opposite
+Dialogue: 0,0:50:19.23,0:50:21.23,Default,,0,0,0,,that we are not limited
+Dialogue: 0,0:50:21.23,0:50:23.23,Default,,0,0,0,,that we are not that
+Dialogue: 0,0:50:23.23,0:50:25.23,Default,,0,0,0,,and so we have to substitute
+Dialogue: 0,0:50:25.23,0:50:27.23,Default,,0,0,0,,our confused ideas
+Dialogue: 0,0:50:27.23,0:50:29.23,Default,,0,0,0,,and begin to look at
+Dialogue: 0,0:50:29.23,0:50:31.23,Default,,0,0,0,,moving towards
+Dialogue: 0,0:50:31.23,0:50:33.23,Default,,0,0,0,,a lovingness
+Dialogue: 0,0:50:33.23,0:50:35.23,Default,,0,0,0,,to a higher state of consciousness
+Dialogue: 0,0:50:35.23,0:50:37.55,Default,,0,0,0,,to get what the message was
+Dialogue: 0,0:50:37.55,0:50:40.00,Default,,0,0,0,,the Christ of the resurrection
+Dialogue: 0,0:50:40.00,0:50:42.00,Default,,0,0,0,,so we have to give up
+Dialogue: 0,0:50:42.00,0:50:44.00,Default,,0,0,0,,that penance, guilt and sin
+Dialogue: 0,0:50:44.00,0:50:46.00,Default,,0,0,0,,and suffering
+Dialogue: 0,0:50:46.00,0:50:48.00,Default,,0,0,0,,are somehow of enormous spiritual benefit
+Dialogue: 0,0:50:48.00,0:50:50.00,Default,,0,0,0,,frankly
+Dialogue: 0,0:50:50.00,0:50:52.00,Default,,0,0,0,,all the hundreds and thousands of people
+Dialogue: 0,0:50:52.00,0:50:54.00,Default,,0,0,0,,that I've clinically treated
+Dialogue: 0,0:50:54.00,0:50:56.00,Default,,0,0,0,,over 35 years
+Dialogue: 0,0:50:56.00,0:50:58.00,Default,,0,0,0,,who had chronic pain, guilt
+Dialogue: 0,0:50:58.00,0:51:00.45,Default,,0,0,0,,sin and suffering
+Dialogue: 0,0:51:00.45,0:51:02.45,Default,,0,0,0,,were the most selfish and self-centered persons
+Dialogue: 0,0:51:02.45,0:51:05.02,Default,,0,0,0,,I had ever met
+Dialogue: 0,0:51:05.02,0:51:07.02,Default,,0,0,0,,chronic pain and suffering
+Dialogue: 0,0:51:07.02,0:51:09.02,Default,,0,0,0,,does not make you an enlightened loving being
+Dialogue: 0,0:51:09.02,0:51:11.02,Default,,0,0,0,,it makes you usually cranky
+Dialogue: 0,0:51:11.02,0:51:13.09,Default,,0,0,0,,horrible
+Dialogue: 0,0:51:13.09,0:51:15.09,Default,,0,0,0,,selfish, self-centered
+Dialogue: 0,0:51:15.09,0:51:17.09,Default,,0,0,0,,and brings you up to the next level
+Dialogue: 0,0:51:17.09,0:51:19.09,Default,,0,0,0,,of
+Dialogue: 0,0:51:19.09,0:51:21.09,Default,,0,0,0,,self-pity
+Dialogue: 0,0:51:21.09,0:51:23.09,Default,,0,0,0,,most people with chronic pain
+Dialogue: 0,0:51:23.09,0:51:25.09,Default,,0,0,0,,are into self-pity
+Dialogue: 0,0:51:25.09,0:51:27.09,Default,,0,0,0,,they are into grief
+Dialogue: 0,0:51:27.09,0:51:29.09,Default,,0,0,0,,they are into poor me
+Dialogue: 0,0:51:29.09,0:51:31.09,Default,,0,0,0,,they are into the endless fear
+Dialogue: 0,0:51:31.09,0:51:33.09,Default,,0,0,0,,of the continuation of their state
+Dialogue: 0,0:51:33.09,0:51:35.09,Default,,0,0,0,,and whether it's going to get worse
+Dialogue: 0,0:51:35.09,0:51:37.09,Default,,0,0,0,,they're constantly resisting it
+Dialogue: 0,0:51:37.09,0:51:39.09,Default,,0,0,0,,the desire to get away from it
+Dialogue: 0,0:51:39.09,0:51:41.09,Default,,0,0,0,,these are all negative energy fields
+Dialogue: 0,0:51:41.09,0:51:43.09,Default,,0,0,0,,they are very very angry
+Dialogue: 0,0:51:43.09,0:51:45.09,Default,,0,0,0,,the anger of the person
+Dialogue: 0,0:51:45.09,0:51:47.09,Default,,0,0,0,,in chronic pain is enormous
+Dialogue: 0,0:51:47.09,0:51:49.09,Default,,0,0,0,,they are stuck in it
+Dialogue: 0,0:51:49.09,0:51:51.09,Default,,0,0,0,,and they are very proud of the fact
+Dialogue: 0,0:51:51.09,0:51:53.09,Default,,0,0,0,,that nobody has been able
+Dialogue: 0,0:51:53.09,0:51:55.09,Default,,0,0,0,,to help them with this
+Dialogue: 0,0:51:55.09,0:51:57.09,Default,,0,0,0,,and they will tell you
+Dialogue: 0,0:51:57.09,0:51:59.09,Default,,0,0,0,,of all the doctors they went to
+Dialogue: 0,0:51:59.09,0:52:01.09,Default,,0,0,0,,and all the treatments they had
+Dialogue: 0,0:52:01.09,0:52:04.18,Default,,0,0,0,,and how all of those things didn't work
+Dialogue: 0,0:52:04.18,0:52:06.18,Default,,0,0,0,,we want to move up to the
+Dialogue: 0,0:52:06.18,0:52:08.18,Default,,0,0,0,,courage, the capacity
+Dialogue: 0,0:52:08.18,0:52:10.18,Default,,0,0,0,,the fact that something can be done
+Dialogue: 0,0:52:10.18,0:52:12.18,Default,,0,0,0,,about the way we can be
+Dialogue: 0,0:52:12.18,0:52:14.24,Default,,0,0,0,,with this pain
+Dialogue: 0,0:52:14.24,0:52:16.24,Default,,0,0,0,,the way that we can be with it
+Dialogue: 0,0:52:16.24,0:52:18.24,Default,,0,0,0,,by using our simple
+Dialogue: 0,0:52:18.24,0:52:20.24,Default,,0,0,0,,letting go resisting
+Dialogue: 0,0:52:20.24,0:52:22.24,Default,,0,0,0,,technique
+Dialogue: 0,0:52:22.24,0:52:24.24,Default,,0,0,0,,our willingness to do that
+Dialogue: 0,0:52:24.24,0:52:26.24,Default,,0,0,0,,are we willing to try something
+Dialogue: 0,0:52:26.24,0:52:28.24,Default,,0,0,0,,do we have the courage to try it
+Dialogue: 0,0:52:28.24,0:52:30.24,Default,,0,0,0,,to let go resisting it
+Dialogue: 0,0:52:30.24,0:52:32.24,Default,,0,0,0,,and end up at least detached
+Dialogue: 0,0:52:32.24,0:52:34.24,Default,,0,0,0,,to at least move out of this
+Dialogue: 0,0:52:34.24,0:52:36.24,Default,,0,0,0,,state of suffering
+Dialogue: 0,0:52:36.24,0:52:38.24,Default,,0,0,0,,you see these energy fields are negative
+Dialogue: 0,0:52:38.24,0:52:40.37,Default,,0,0,0,,we move up to an energy field
+Dialogue: 0,0:52:40.37,0:52:42.37,Default,,0,0,0,,up around here you see
+Dialogue: 0,0:52:42.37,0:52:44.37,Default,,0,0,0,,that the needle swings to the right
+Dialogue: 0,0:52:44.37,0:52:46.37,Default,,0,0,0,,it means these are states of less and less
+Dialogue: 0,0:52:46.37,0:52:48.37,Default,,0,0,0,,suffering as we move up into joy
+Dialogue: 0,0:52:48.37,0:52:50.37,Default,,0,0,0,,so how can I be
+Dialogue: 0,0:52:50.37,0:52:52.37,Default,,0,0,0,,with that chronic condition
+Dialogue: 0,0:52:52.37,0:52:54.37,Default,,0,0,0,,can I be willing to be with that
+Dialogue: 0,0:52:54.37,0:52:56.37,Default,,0,0,0,,can I let go resisting it
+Dialogue: 0,0:52:56.37,0:52:58.37,Default,,0,0,0,,can I begin to differentiate
+Dialogue: 0,0:52:58.37,0:53:00.37,Default,,0,0,0,,that I am that which is with it
+Dialogue: 0,0:53:00.37,0:53:02.37,Default,,0,0,0,,how to be with that
+Dialogue: 0,0:53:02.37,0:53:04.37,Default,,0,0,0,,can I accept that
+Dialogue: 0,0:53:04.37,0:53:06.50,Default,,0,0,0,,can I accept
+Dialogue: 0,0:53:06.50,0:53:09.20,Default,,0,0,0,,my capacity to be with it
+Dialogue: 0,0:53:09.20,0:53:11.20,Default,,0,0,0,,in a state of
+Dialogue: 0,0:53:11.20,0:53:17.23,Default,,0,0,0,,non suffering
+Dialogue: 0,0:53:17.23,0:53:19.23,Default,,0,0,0,,we see that the
+Dialogue: 0,0:53:19.23,0:53:21.23,Default,,0,0,0,,we look at the emotions that go with these
+Dialogue: 0,0:53:21.23,0:53:23.23,Default,,0,0,0,,particular energy fields
+Dialogue: 0,0:53:23.23,0:53:25.23,Default,,0,0,0,,and we see the emotions
+Dialogue: 0,0:53:25.23,0:53:27.42,Default,,0,0,0,,that go with chronic pain
+Dialogue: 0,0:53:27.42,0:53:29.42,Default,,0,0,0,,we see self hatred
+Dialogue: 0,0:53:29.42,0:53:31.42,Default,,0,0,0,,the feeling that one is
+Dialogue: 0,0:53:31.42,0:53:33.42,Default,,0,0,0,,a victim
+Dialogue: 0,0:53:33.42,0:53:35.42,Default,,0,0,0,,the self hatred of the victim
+Dialogue: 0,0:53:35.42,0:53:37.42,Default,,0,0,0,,we see the process going on in consciousness
+Dialogue: 0,0:53:37.42,0:53:39.42,Default,,0,0,0,,there is a destructive one
+Dialogue: 0,0:53:39.42,0:53:41.42,Default,,0,0,0,,we see the hopelessness
+Dialogue: 0,0:53:41.42,0:53:43.42,Default,,0,0,0,,nothing can be done about my condition
+Dialogue: 0,0:53:43.42,0:53:45.94,Default,,0,0,0,,what we said about
+Dialogue: 0,0:53:45.94,0:53:47.94,Default,,0,0,0,,the nature of the power of mind is
+Dialogue: 0,0:53:47.94,0:53:49.94,Default,,0,0,0,,that if you hold that in mind
+Dialogue: 0,0:53:49.94,0:53:51.94,Default,,0,0,0,,you literally create that as your experience
+Dialogue: 0,0:53:51.94,0:53:53.94,Default,,0,0,0,,the person who
+Dialogue: 0,0:53:53.94,0:53:55.94,Default,,0,0,0,,says my condition
+Dialogue: 0,0:53:55.94,0:53:57.94,Default,,0,0,0,,is hopeless
+Dialogue: 0,0:53:57.94,0:53:59.94,Default,,0,0,0,,then creates for themself
+Dialogue: 0,0:53:59.94,0:54:01.94,Default,,0,0,0,,a condition which is hopeless
+Dialogue: 0,0:54:01.94,0:54:04.22,Default,,0,0,0,,and resistive to treatment
+Dialogue: 0,0:54:04.22,0:54:06.22,Default,,0,0,0,,we see the
+Dialogue: 0,0:54:06.22,0:54:08.22,Default,,0,0,0,,person in grief
+Dialogue: 0,0:54:08.22,0:54:10.22,Default,,0,0,0,,we move them up into apathy into grief
+Dialogue: 0,0:54:10.22,0:54:12.22,Default,,0,0,0,,that they are in a constant state of regret
+Dialogue: 0,0:54:12.22,0:54:14.22,Default,,0,0,0,,a feeling of loss
+Dialogue: 0,0:54:14.22,0:54:16.26,Default,,0,0,0,,a feeling of despondency
+Dialogue: 0,0:54:16.26,0:54:18.26,Default,,0,0,0,,these are feelings which are only human
+Dialogue: 0,0:54:18.26,0:54:20.26,Default,,0,0,0,,these are not feelings
+Dialogue: 0,0:54:20.26,0:54:22.26,Default,,0,0,0,,that we want to feel guilty about
+Dialogue: 0,0:54:22.26,0:54:24.26,Default,,0,0,0,,these are feelings we want to understand
+Dialogue: 0,0:54:24.26,0:54:26.26,Default,,0,0,0,,through understanding
+Dialogue: 0,0:54:26.26,0:54:29.02,Default,,0,0,0,,they become resolved
+Dialogue: 0,0:54:29.02,0:54:31.02,Default,,0,0,0,,when I recently cut this thumb off
+Dialogue: 0,0:54:31.02,0:54:33.02,Default,,0,0,0,,I went through all of these
+Dialogue: 0,0:54:33.02,0:54:35.02,Default,,0,0,0,,first the feeling I was being punished somehow
+Dialogue: 0,0:54:35.02,0:54:37.02,Default,,0,0,0,,attacked by the forces of
+Dialogue: 0,0:54:37.02,0:54:39.22,Default,,0,0,0,,retribution or something
+Dialogue: 0,0:54:39.22,0:54:41.22,Default,,0,0,0,,the pain was acute
+Dialogue: 0,0:54:41.22,0:54:43.22,Default,,0,0,0,,and I looked at it and I felt hopeless
+Dialogue: 0,0:54:43.22,0:54:45.22,Default,,0,0,0,,into despair
+Dialogue: 0,0:54:45.22,0:54:47.22,Default,,0,0,0,,and replaced etc
+Dialogue: 0,0:54:47.22,0:54:49.22,Default,,0,0,0,,and I went into grief
+Dialogue: 0,0:54:49.22,0:54:51.22,Default,,0,0,0,,and mourning
+Dialogue: 0,0:54:51.22,0:54:53.22,Default,,0,0,0,,you know grieving and mourning
+Dialogue: 0,0:54:53.22,0:54:55.22,Default,,0,0,0,,as though you had lost a loved one
+Dialogue: 0,0:54:55.22,0:54:57.44,Default,,0,0,0,,a fear of the consequences
+Dialogue: 0,0:54:57.44,0:54:59.44,Default,,0,0,0,,a fear that this pain and suffering
+Dialogue: 0,0:54:59.44,0:55:01.44,Default,,0,0,0,,was going to continue and go on
+Dialogue: 0,0:55:01.44,0:55:03.44,Default,,0,0,0,,and I felt myself resisting
+Dialogue: 0,0:55:03.44,0:55:05.44,Default,,0,0,0,,the desire to get away from
+Dialogue: 0,0:55:05.44,0:55:07.44,Default,,0,0,0,,the injury the disability
+Dialogue: 0,0:55:07.44,0:55:09.44,Default,,0,0,0,,the pain the suffering the surgery whatever
+Dialogue: 0,0:55:09.44,0:55:11.44,Default,,0,0,0,,and feeling angry
+Dialogue: 0,0:55:11.44,0:55:13.44,Default,,0,0,0,,angry at life angry at fate
+Dialogue: 0,0:55:13.44,0:55:15.44,Default,,0,0,0,,angry at myself
+Dialogue: 0,0:55:15.44,0:55:17.44,Default,,0,0,0,,I felt I was only very human
+Dialogue: 0,0:55:17.44,0:55:19.44,Default,,0,0,0,,and then moving into pride
+Dialogue: 0,0:55:19.44,0:55:21.44,Default,,0,0,0,,that I was going to do something about it
+Dialogue: 0,0:55:21.44,0:55:23.44,Default,,0,0,0,,and the courage to begin to look at
+Dialogue: 0,0:55:23.44,0:55:25.44,Default,,0,0,0,,what are the techniques that I know work
+Dialogue: 0,0:55:25.44,0:55:27.44,Default,,0,0,0,,in this kind of a circumstance
+Dialogue: 0,0:55:27.44,0:55:29.44,Default,,0,0,0,,and the willingness to begin utilizing them
+Dialogue: 0,0:55:29.44,0:55:31.44,Default,,0,0,0,,and begin letting go
+Dialogue: 0,0:55:31.44,0:55:33.44,Default,,0,0,0,,resisting and using that technique
+Dialogue: 0,0:55:33.44,0:55:35.44,Default,,0,0,0,,and eventually moving up
+Dialogue: 0,0:55:35.44,0:55:37.44,Default,,0,0,0,,into the acceptance of it
+Dialogue: 0,0:55:37.44,0:55:39.44,Default,,0,0,0,,so that if it's there
+Dialogue: 0,0:55:39.44,0:55:41.44,Default,,0,0,0,,it's ok if it's there
+Dialogue: 0,0:55:41.44,0:55:43.44,Default,,0,0,0,,and if it's not there
+Dialogue: 0,0:55:43.44,0:55:45.44,Default,,0,0,0,,it's ok if it's not there
+Dialogue: 0,0:55:45.44,0:55:47.54,Default,,0,0,0,,that's the field here
+Dialogue: 0,0:55:47.54,0:55:49.54,Default,,0,0,0,,there's one in which we say
+Dialogue: 0,0:55:49.54,0:55:51.60,Default,,0,0,0,,yes it's ok either way
+Dialogue: 0,0:55:51.60,0:55:53.60,Default,,0,0,0,,it's ok
+Dialogue: 0,0:55:53.60,0:55:55.60,Default,,0,0,0,,when we're totally released
+Dialogue: 0,0:55:55.60,0:55:57.60,Default,,0,0,0,,from our resistance to the pain
+Dialogue: 0,0:55:57.60,0:55:59.60,Default,,0,0,0,,we don't care if it's there
+Dialogue: 0,0:55:59.60,0:56:01.60,Default,,0,0,0,,if it's there it's fine
+Dialogue: 0,0:56:01.60,0:56:03.60,Default,,0,0,0,,and if it's not there that's fine too
+Dialogue: 0,0:56:03.60,0:56:05.60,Default,,0,0,0,,the willingness to be forgiving
+Dialogue: 0,0:56:05.60,0:56:07.60,Default,,0,0,0,,and we want to move eventually
+Dialogue: 0,0:56:07.60,0:56:09.60,Default,,0,0,0,,into compassion
+Dialogue: 0,0:56:09.60,0:56:11.60,Default,,0,0,0,,that acceptance of the human condition
+Dialogue: 0,0:56:11.60,0:56:13.60,Default,,0,0,0,,and of the human experience
+Dialogue: 0,0:56:13.60,0:56:15.60,Default,,0,0,0,,without being resentful about it
+Dialogue: 0,0:56:15.60,0:56:17.60,Default,,0,0,0,,without feeling pity
+Dialogue: 0,0:56:17.60,0:56:19.60,Default,,0,0,0,,without being angry
+Dialogue: 0,0:56:19.60,0:56:21.60,Default,,0,0,0,,without being prideful
+Dialogue: 0,0:56:21.60,0:56:23.60,Default,,0,0,0,,and going into a make wrong
+Dialogue: 0,0:56:23.60,0:56:26.40,Default,,0,0,0,,without attacking ourself
+Dialogue: 0,0:56:26.40,0:56:28.40,Default,,0,0,0,,how can we move up to an energy field
+Dialogue: 0,0:56:28.40,0:56:30.66,Default,,0,0,0,,called love or even joy
+Dialogue: 0,0:56:30.66,0:56:32.66,Default,,0,0,0,,in that I can only go back to my own experience
+Dialogue: 0,0:56:32.66,0:56:34.66,Default,,0,0,0,,my own personal experience
+Dialogue: 0,0:56:34.66,0:56:36.66,Default,,0,0,0,,of what is possible
+Dialogue: 0,0:56:36.66,0:56:38.66,Default,,0,0,0,,what is possible
+Dialogue: 0,0:56:38.66,0:56:40.66,Default,,0,0,0,,when somebody shares with us their experience
+Dialogue: 0,0:56:40.66,0:56:42.69,Default,,0,0,0,,then we learn what is possible
+Dialogue: 0,0:56:42.69,0:56:44.69,Default,,0,0,0,,in human consciousness
+Dialogue: 0,0:56:44.69,0:56:47.49,Default,,0,0,0,,as I move through this experience
+Dialogue: 0,0:56:47.49,0:56:49.49,Default,,0,0,0,,what happened was
+Dialogue: 0,0:56:49.49,0:56:51.49,Default,,0,0,0,,I began to call on
+Dialogue: 0,0:56:51.49,0:56:53.49,Default,,0,0,0,,some power greater than myself
+Dialogue: 0,0:56:53.49,0:56:55.49,Default,,0,0,0,,I kept surrendering it
+Dialogue: 0,0:56:55.49,0:56:57.49,Default,,0,0,0,,turning it over
+Dialogue: 0,0:56:57.49,0:56:59.49,Default,,0,0,0,,I remember I went to the emergency room
+Dialogue: 0,0:56:59.49,0:57:01.49,Default,,0,0,0,,I had to inform them
+Dialogue: 0,0:57:01.49,0:57:03.49,Default,,0,0,0,,I couldn't take anesthesia
+Dialogue: 0,0:57:03.49,0:57:05.49,Default,,0,0,0,,or analgesia of any kind
+Dialogue: 0,0:57:05.49,0:57:07.62,Default,,0,0,0,,and so the surgeon was
+Dialogue: 0,0:57:07.62,0:57:09.62,Default,,0,0,0,,somewhat perplexed about
+Dialogue: 0,0:57:09.62,0:57:11.74,Default,,0,0,0,,how this was going to be handled
+Dialogue: 0,0:57:11.74,0:57:13.74,Default,,0,0,0,,and I said I have my own ways
+Dialogue: 0,0:57:13.74,0:57:15.84,Default,,0,0,0,,I have my own ways
+Dialogue: 0,0:57:15.84,0:57:17.84,Default,,0,0,0,,and to make him feel better
+Dialogue: 0,0:57:17.84,0:57:19.84,Default,,0,0,0,,I had a self hypnotic technique
+Dialogue: 0,0:57:19.84,0:57:21.84,Default,,0,0,0,,and this would make
+Dialogue: 0,0:57:21.84,0:57:23.84,Default,,0,0,0,,so anyway he relaxed
+Dialogue: 0,0:57:23.84,0:57:26.45,Default,,0,0,0,,feeling that it was being handled
+Dialogue: 0,0:57:26.45,0:57:28.45,Default,,0,0,0,,and what I did then was
+Dialogue: 0,0:57:28.45,0:57:30.70,Default,,0,0,0,,I went in with inside myself
+Dialogue: 0,0:57:30.70,0:57:32.70,Default,,0,0,0,,and I released and let go
+Dialogue: 0,0:57:32.70,0:57:34.70,Default,,0,0,0,,and let go resisting
+Dialogue: 0,0:57:34.70,0:57:36.74,Default,,0,0,0,,and I called upon
+Dialogue: 0,0:57:36.74,0:57:38.74,Default,,0,0,0,,the God of my own understanding
+Dialogue: 0,0:57:40.99,0:57:42.99,Default,,0,0,0,,that aspect of one's greater self
+Dialogue: 0,0:57:42.99,0:57:44.99,Default,,0,0,0,,we don't need to believe in God
+Dialogue: 0,0:57:44.99,0:57:46.99,Default,,0,0,0,,but we can believe
+Dialogue: 0,0:57:46.99,0:57:48.99,Default,,0,0,0,,that there is some energy field
+Dialogue: 0,0:57:48.99,0:57:50.99,Default,,0,0,0,,greater than our personal self
+Dialogue: 0,0:57:50.99,0:57:52.99,Default,,0,0,0,,which has unlimited power
+Dialogue: 0,0:57:52.99,0:57:55.41,Default,,0,0,0,,and so what I did
+Dialogue: 0,0:57:55.41,0:57:57.41,Default,,0,0,0,,is by constantly surrendering
+Dialogue: 0,0:57:57.41,0:57:59.41,Default,,0,0,0,,and let's face it
+Dialogue: 0,0:57:59.41,0:58:01.41,Default,,0,0,0,,when you're in a situation like that
+Dialogue: 0,0:58:01.41,0:58:03.41,Default,,0,0,0,,overwhelmed by excruciating pain
+Dialogue: 0,0:58:03.41,0:58:05.41,Default,,0,0,0,,and suffering
+Dialogue: 0,0:58:05.41,0:58:07.41,Default,,0,0,0,,all the props are pulled out
+Dialogue: 0,0:58:07.41,0:58:09.41,Default,,0,0,0,,I mean this is when you really come up
+Dialogue: 0,0:58:09.41,0:58:11.41,Default,,0,0,0,,with what you really believe in
+Dialogue: 0,0:58:11.41,0:58:13.86,Default,,0,0,0,,and it is a great opportunity
+Dialogue: 0,0:58:13.86,0:58:15.86,Default,,0,0,0,,and so as I let go
+Dialogue: 0,0:58:15.86,0:58:17.86,Default,,0,0,0,,surrendering
+Dialogue: 0,0:58:17.86,0:58:19.86,Default,,0,0,0,,and let go resisting
+Dialogue: 0,0:58:19.86,0:58:21.86,Default,,0,0,0,,suddenly it was as though
+Dialogue: 0,0:58:21.86,0:58:23.86,Default,,0,0,0,,I was lifted out of my body
+Dialogue: 0,0:58:23.86,0:58:25.86,Default,,0,0,0,,I came into a state of profound inner peace
+Dialogue: 0,0:58:25.86,0:58:27.86,Default,,0,0,0,,an incredible state
+Dialogue: 0,0:58:27.86,0:58:29.86,Default,,0,0,0,,of stillness
+Dialogue: 0,0:58:29.86,0:58:31.86,Default,,0,0,0,,exquisite inner serenity
+Dialogue: 0,0:58:31.86,0:58:34.27,Default,,0,0,0,,and joy
+Dialogue: 0,0:58:34.27,0:58:36.27,Default,,0,0,0,,and I realized that something
+Dialogue: 0,0:58:36.27,0:58:38.27,Default,,0,0,0,,other than my personal self
+Dialogue: 0,0:58:38.27,0:58:40.27,Default,,0,0,0,,was handling this experience
+Dialogue: 0,0:58:40.27,0:58:42.27,Default,,0,0,0,,something other than the personal David
+Dialogue: 0,0:58:42.27,0:58:44.27,Default,,0,0,0,,was handling the pain
+Dialogue: 0,0:58:44.27,0:58:46.56,Default,,0,0,0,,and so this is something
+Dialogue: 0,0:58:46.56,0:58:48.56,Default,,0,0,0,,we've learned to do
+Dialogue: 0,0:58:48.56,0:58:50.56,Default,,0,0,0,,with chronic pain
+Dialogue: 0,0:58:50.56,0:58:52.56,Default,,0,0,0,,to surrender it
+Dialogue: 0,0:58:52.56,0:58:54.56,Default,,0,0,0,,to one's personal God
+Dialogue: 0,0:58:54.56,0:58:56.56,Default,,0,0,0,,to whatever one believes in
+Dialogue: 0,0:58:56.56,0:58:58.56,Default,,0,0,0,,to handle the pain for us
+Dialogue: 0,0:58:58.56,0:59:00.98,Default,,0,0,0,,what happens when we do this
+Dialogue: 0,0:59:00.98,0:59:02.98,Default,,0,0,0,,is the experience of
+Dialogue: 0,0:59:02.98,0:59:04.98,Default,,0,0,0,,something greater than
+Dialogue: 0,0:59:04.98,0:59:06.98,Default,,0,0,0,,one's personal self
+Dialogue: 0,0:59:06.98,0:59:10.06,Default,,0,0,0,,handles that pain
+Dialogue: 0,0:59:10.06,0:59:12.06,Default,,0,0,0,,that was my personal experience
+Dialogue: 0,0:59:12.06,0:59:14.06,Default,,0,0,0,,that some great energy
+Dialogue: 0,0:59:14.06,0:59:16.06,Default,,0,0,0,,came in
+Dialogue: 0,0:59:16.06,0:59:18.06,Default,,0,0,0,,and that great energy
+Dialogue: 0,0:59:18.06,0:59:20.06,Default,,0,0,0,,you can call it a great energy
+Dialogue: 0,0:59:20.06,0:59:22.06,Default,,0,0,0,,because you can verify the existence
+Dialogue: 0,0:59:22.06,0:59:24.06,Default,,0,0,0,,of that great energy
+Dialogue: 0,0:59:24.06,0:59:26.06,Default,,0,0,0,,this great energy
+Dialogue: 0,0:59:26.06,0:59:28.42,Default,,0,0,0,,handled it for me
+Dialogue: 0,0:59:28.42,0:59:30.42,Default,,0,0,0,,it's like I said
+Dialogue: 0,0:59:30.42,0:59:32.45,Default,,0,0,0,,God I can't do it
+Dialogue: 0,0:59:32.45,0:59:34.45,Default,,0,0,0,,you do it for me
+Dialogue: 0,0:59:34.45,0:59:36.45,Default,,0,0,0,,and so I turned my burden over
+Dialogue: 0,0:59:36.45,0:59:38.45,Default,,0,0,0,,and allowed that
+Dialogue: 0,0:59:38.45,0:59:41.31,Default,,0,0,0,,which is in the universe
+Dialogue: 0,0:59:41.31,0:59:43.31,Default,,0,0,0,,to handle it for me
+Dialogue: 0,0:59:43.31,0:59:45.31,Default,,0,0,0,,for those of you
+Dialogue: 0,0:59:45.31,0:59:47.31,Default,,0,0,0,,to whom this seems like
+Dialogue: 0,0:59:47.31,0:59:49.60,Default,,0,0,0,,perhaps an outlandish experience
+Dialogue: 0,0:59:49.60,0:59:51.60,Default,,0,0,0,,let's look at it then
+Dialogue: 0,0:59:51.60,0:59:53.60,Default,,0,0,0,,from a level that would be understandable
+Dialogue: 0,0:59:53.60,0:59:55.60,Default,,0,0,0,,if you're in a state of
+Dialogue: 0,0:59:55.60,0:59:57.60,Default,,0,0,0,,550 where healing begins to take place
+Dialogue: 0,0:59:57.60,0:59:59.70,Default,,0,0,0,,within the brain
+Dialogue: 0,0:59:59.70,1:00:01.70,Default,,0,0,0,,there is the release of endorphins
+Dialogue: 0,1:00:01.70,1:00:03.70,Default,,0,0,0,,in other words
+Dialogue: 0,1:00:03.70,1:00:05.70,Default,,0,0,0,,the brain within itself
+Dialogue: 0,1:00:05.70,1:00:07.70,Default,,0,0,0,,from this energy field
+Dialogue: 0,1:00:07.70,1:00:09.70,Default,,0,0,0,,begins to release endorphins
+Dialogue: 0,1:00:09.70,1:00:12.24,Default,,0,0,0,,endorphins are those
+Dialogue: 0,1:00:12.24,1:00:14.24,Default,,0,0,0,,things released by narcotics
+Dialogue: 0,1:00:14.24,1:00:16.24,Default,,0,0,0,,it isn't the narcotic at all
+Dialogue: 0,1:00:16.24,1:00:18.24,Default,,0,0,0,,that has the effect on the brain
+Dialogue: 0,1:00:18.24,1:00:20.24,Default,,0,0,0,,but the fact that the narcotic releases
+Dialogue: 0,1:00:20.24,1:00:22.24,Default,,0,0,0,,these so called opioids
+Dialogue: 0,1:00:22.24,1:00:24.24,Default,,0,0,0,,that are released
+Dialogue: 0,1:00:24.24,1:00:26.24,Default,,0,0,0,,the endorphins within the brain
+Dialogue: 0,1:00:26.24,1:00:28.85,Default,,0,0,0,,and so therefore
+Dialogue: 0,1:00:28.85,1:00:30.85,Default,,0,0,0,,subsequent to the experience
+Dialogue: 0,1:00:30.85,1:00:32.85,Default,,0,0,0,,I was aware that within me
+Dialogue: 0,1:00:32.85,1:00:34.85,Default,,0,0,0,,there was something
+Dialogue: 0,1:00:34.85,1:00:36.85,Default,,0,0,0,,that was handling the pain for me
+Dialogue: 0,1:00:36.85,1:00:38.88,Default,,0,0,0,,automatically
+Dialogue: 0,1:00:38.88,1:00:40.88,Default,,0,0,0,,it didn't involve my personal self at all
+Dialogue: 0,1:00:40.88,1:00:42.88,Default,,0,0,0,,and as the
+Dialogue: 0,1:00:42.88,1:00:44.88,Default,,0,0,0,,intensity of the pain would increase
+Dialogue: 0,1:00:44.88,1:00:46.88,Default,,0,0,0,,that within me
+Dialogue: 0,1:00:46.88,1:00:48.88,Default,,0,0,0,,that energy field
+Dialogue: 0,1:00:48.88,1:00:50.88,Default,,0,0,0,,which expresses itself
+Dialogue: 0,1:00:50.88,1:00:52.88,Default,,0,0,0,,on the physical plane
+Dialogue: 0,1:00:52.88,1:00:54.88,Default,,0,0,0,,through the release of these endorphins
+Dialogue: 0,1:00:54.88,1:00:56.88,Default,,0,0,0,,automatically handling the pain
+Dialogue: 0,1:00:56.88,1:00:59.81,Default,,0,0,0,,when we calibrated
+Dialogue: 0,1:00:59.81,1:01:01.81,Default,,0,0,0,,the energy field
+Dialogue: 0,1:01:01.81,1:01:03.81,Default,,0,0,0,,of that power
+Dialogue: 0,1:01:03.81,1:01:05.81,Default,,0,0,0,,within our self
+Dialogue: 0,1:01:05.81,1:01:07.81,Default,,0,0,0,,which is automatically handling the pain
+Dialogue: 0,1:01:07.81,1:01:09.81,Default,,0,0,0,,we calibrated
+Dialogue: 0,1:01:09.81,1:01:11.81,Default,,0,0,0,,an energy field at 750
+Dialogue: 0,1:01:11.81,1:01:14.22,Default,,0,0,0,,within us
+Dialogue: 0,1:01:14.22,1:01:16.29,Default,,0,0,0,,is the capacity
+Dialogue: 0,1:01:16.29,1:01:18.29,Default,,0,0,0,,of letting go our smallness
+Dialogue: 0,1:01:18.29,1:01:20.29,Default,,0,0,0,,you might say this is all our smallness
+Dialogue: 0,1:01:20.29,1:01:22.32,Default,,0,0,0,,and summoning forth
+Dialogue: 0,1:01:22.32,1:01:24.32,Default,,0,0,0,,that which is already
+Dialogue: 0,1:01:24.32,1:01:26.32,Default,,0,0,0,,present and within us
+Dialogue: 0,1:01:26.32,1:01:28.32,Default,,0,0,0,,a powerful energy field
+Dialogue: 0,1:01:28.32,1:01:30.45,Default,,0,0,0,,of a plus 750
+Dialogue: 0,1:01:30.45,1:01:32.45,Default,,0,0,0,,that energy field has the power
+Dialogue: 0,1:01:32.45,1:01:34.45,Default,,0,0,0,,to handle the pain
+Dialogue: 0,1:01:34.45,1:01:36.96,Default,,0,0,0,,the pain and the suffering
+Dialogue: 0,1:01:36.96,1:01:38.96,Default,,0,0,0,,was completely and totally relieved
+Dialogue: 0,1:01:38.96,1:01:40.96,Default,,0,0,0,,and there was instead
+Dialogue: 0,1:01:40.96,1:01:42.96,Default,,0,0,0,,a state of infinite inner serenity
+Dialogue: 0,1:01:42.96,1:01:45.06,Default,,0,0,0,,and peace
+Dialogue: 0,1:01:45.06,1:01:47.06,Default,,0,0,0,,that inner serenity and peace
+Dialogue: 0,1:01:47.06,1:01:49.06,Default,,0,0,0,,stays within
+Dialogue: 0,1:01:49.06,1:01:51.06,Default,,0,0,0,,in a permanent kind of a basis
+Dialogue: 0,1:01:51.06,1:01:53.54,Default,,0,0,0,,those are ways
+Dialogue: 0,1:01:53.54,1:01:55.54,Default,,0,0,0,,to be with that
+Dialogue: 0,1:01:55.54,1:01:58.43,Default,,0,0,0,,ways to be with that
+Dialogue: 0,1:01:58.43,1:02:00.43,Default,,0,0,0,,and how can we
+Dialogue: 0,1:02:00.43,1:02:02.43,Default,,0,0,0,,augment our
+Dialogue: 0,1:02:02.43,1:02:04.43,Default,,0,0,0,,endeavors in these directions
+Dialogue: 0,1:02:04.43,1:02:06.43,Default,,0,0,0,,because certainly
+Dialogue: 0,1:02:06.43,1:02:08.43,Default,,0,0,0,,spiritual work
+Dialogue: 0,1:02:08.43,1:02:10.43,Default,,0,0,0,,work in consciousness
+Dialogue: 0,1:02:10.43,1:02:12.43,Default,,0,0,0,,we can do it acutely
+Dialogue: 0,1:02:12.43,1:02:14.43,Default,,0,0,0,,but those processes
+Dialogue: 0,1:02:14.43,1:02:16.43,Default,,0,0,0,,such as forgiveness and all
+Dialogue: 0,1:02:16.43,1:02:19.55,Default,,0,0,0,,take a period of time
+Dialogue: 0,1:02:19.55,1:02:21.55,Default,,0,0,0,,in the meantime
+Dialogue: 0,1:02:21.55,1:02:23.55,Default,,0,0,0,,what can we do
+Dialogue: 0,1:02:23.55,1:02:25.55,Default,,0,0,0,,what about such
+Dialogue: 0,1:02:25.55,1:02:27.55,Default,,0,0,0,,ancillary procedures
+Dialogue: 0,1:02:27.55,1:02:29.55,Default,,0,0,0,,as acupuncture and hypnosis
+Dialogue: 0,1:02:29.55,1:02:32.54,Default,,0,0,0,,we know that acupuncture
+Dialogue: 0,1:02:32.54,1:02:34.54,Default,,0,0,0,,can be extremely effective
+Dialogue: 0,1:02:34.54,1:02:36.54,Default,,0,0,0,,there is certainly nothing wrong
+Dialogue: 0,1:02:36.54,1:02:38.54,Default,,0,0,0,,we said that all illnesses
+Dialogue: 0,1:02:38.54,1:02:40.54,Default,,0,0,0,,all pain suffering forms
+Dialogue: 0,1:02:40.54,1:02:42.54,Default,,0,0,0,,are physical mental and spiritual
+Dialogue: 0,1:02:42.54,1:02:44.80,Default,,0,0,0,,and so I just described to you
+Dialogue: 0,1:02:44.80,1:02:46.80,Default,,0,0,0,,how it's handled from the spiritual
+Dialogue: 0,1:02:46.80,1:02:48.80,Default,,0,0,0,,before that we described
+Dialogue: 0,1:02:48.80,1:02:50.80,Default,,0,0,0,,how it is handled on the level of
+Dialogue: 0,1:02:50.80,1:02:53.22,Default,,0,0,0,,consciousness itself
+Dialogue: 0,1:02:53.22,1:02:55.22,Default,,0,0,0,,through the mind
+Dialogue: 0,1:02:55.22,1:02:57.22,Default,,0,0,0,,and certainly at the same time
+Dialogue: 0,1:02:57.22,1:02:59.41,Default,,0,0,0,,we want to do what we can physically
+Dialogue: 0,1:02:59.41,1:03:01.41,Default,,0,0,0,,acupuncture in my own experience
+Dialogue: 0,1:03:01.41,1:03:03.41,Default,,0,0,0,,extremely effective
+Dialogue: 0,1:03:03.41,1:03:05.41,Default,,0,0,0,,I myself had an ulcer
+Dialogue: 0,1:03:05.41,1:03:07.41,Default,,0,0,0,,for some 20 or 25 years
+Dialogue: 0,1:03:07.41,1:03:09.41,Default,,0,0,0,,it was intractable and incurable
+Dialogue: 0,1:03:09.41,1:03:11.41,Default,,0,0,0,,I had every treatment
+Dialogue: 0,1:03:11.41,1:03:13.41,Default,,0,0,0,,known to medical science
+Dialogue: 0,1:03:13.41,1:03:15.41,Default,,0,0,0,,it was only a matter of time
+Dialogue: 0,1:03:15.41,1:03:17.41,Default,,0,0,0,,before we would have to have
+Dialogue: 0,1:03:17.41,1:03:19.41,Default,,0,0,0,,a subtotal gastrectomy
+Dialogue: 0,1:03:19.41,1:03:21.41,Default,,0,0,0,,and reparative gastrointestinal surgery
+Dialogue: 0,1:03:21.41,1:03:23.41,Default,,0,0,0,,which is a major procedure
+Dialogue: 0,1:03:23.41,1:03:25.70,Default,,0,0,0,,let me tell you
+Dialogue: 0,1:03:25.70,1:03:27.70,Default,,0,0,0,,and so I tried acupuncture
+Dialogue: 0,1:03:27.70,1:03:29.70,Default,,0,0,0,,and frankly by the third treatment
+Dialogue: 0,1:03:29.70,1:03:31.70,Default,,0,0,0,,the pain and suffering left
+Dialogue: 0,1:03:31.70,1:03:33.70,Default,,0,0,0,,so I know myself that these
+Dialogue: 0,1:03:33.70,1:03:35.70,Default,,0,0,0,,are very very effective
+Dialogue: 0,1:03:35.70,1:03:37.70,Default,,0,0,0,,and I would certainly add acupuncture
+Dialogue: 0,1:03:37.70,1:03:39.70,Default,,0,0,0,,for chronic intractable pain
+Dialogue: 0,1:03:39.70,1:03:41.70,Default,,0,0,0,,it certainly is one of the things
+Dialogue: 0,1:03:41.70,1:03:43.70,Default,,0,0,0,,that we want to try
+Dialogue: 0,1:03:43.70,1:03:45.95,Default,,0,0,0,,we know that the reliance on analgesics
+Dialogue: 0,1:03:45.95,1:03:47.95,Default,,0,0,0,,has two negative effects
+Dialogue: 0,1:03:47.95,1:03:49.95,Default,,0,0,0,,one is because it is such a
+Dialogue: 0,1:03:49.95,1:03:51.95,Default,,0,0,0,,magical short term solution
+Dialogue: 0,1:03:51.95,1:03:53.95,Default,,0,0,0,,you never grow in consciousness
+Dialogue: 0,1:03:53.95,1:03:55.95,Default,,0,0,0,,you feel that the power
+Dialogue: 0,1:03:55.95,1:03:57.95,Default,,0,0,0,,you give away your power to this pill
+Dialogue: 0,1:03:57.95,1:03:59.95,Default,,0,0,0,,the power which is really
+Dialogue: 0,1:03:59.95,1:04:01.95,Default,,0,0,0,,that of your own consciousness
+Dialogue: 0,1:04:01.95,1:04:03.95,Default,,0,0,0,,you give it to the pill
+Dialogue: 0,1:04:03.95,1:04:05.95,Default,,0,0,0,,and you stop your own growth
+Dialogue: 0,1:04:05.95,1:04:07.95,Default,,0,0,0,,so that's one negative effect
+Dialogue: 0,1:04:07.95,1:04:09.95,Default,,0,0,0,,the other of course is the progressive dependency
+Dialogue: 0,1:04:09.95,1:04:11.95,Default,,0,0,0,,on the analgesics and the narcotics
+Dialogue: 0,1:04:11.95,1:04:13.95,Default,,0,0,0,,which create and compounds
+Dialogue: 0,1:04:13.95,1:04:15.95,Default,,0,0,0,,the whole problem now
+Dialogue: 0,1:04:15.95,1:04:17.95,Default,,0,0,0,,with a problem that may be more severe
+Dialogue: 0,1:04:17.95,1:04:20.62,Default,,0,0,0,,than the one you started with
+Dialogue: 0,1:04:20.62,1:04:22.62,Default,,0,0,0,,so what other techniques are available to us
+Dialogue: 0,1:04:22.62,1:04:24.62,Default,,0,0,0,,let's talk a little bit about hypnosis
+Dialogue: 0,1:04:24.62,1:04:26.62,Default,,0,0,0,,certainly a great deal
+Dialogue: 0,1:04:26.62,1:04:28.62,Default,,0,0,0,,is known about hypnosis now
+Dialogue: 0,1:04:28.62,1:04:30.62,Default,,0,0,0,,it once was a subject
+Dialogue: 0,1:04:30.62,1:04:32.62,Default,,0,0,0,,that medicine avoided
+Dialogue: 0,1:04:32.62,1:04:34.62,Default,,0,0,0,,but now medicine is very interested
+Dialogue: 0,1:04:34.62,1:04:36.62,Default,,0,0,0,,in acupuncture
+Dialogue: 0,1:04:36.62,1:04:38.62,Default,,0,0,0,,and hypnosis
+Dialogue: 0,1:04:38.62,1:04:40.62,Default,,0,0,0,,what kind of hypnotic techniques
+Dialogue: 0,1:04:40.62,1:04:42.62,Default,,0,0,0,,what is the place of these
+Dialogue: 0,1:04:42.62,1:04:45.68,Default,,0,0,0,,in the healing of chronic pain
+Dialogue: 0,1:04:45.68,1:04:47.68,Default,,0,0,0,,first thing we need to know
+Dialogue: 0,1:04:47.68,1:04:49.68,Default,,0,0,0,,is that the only form of hypnosis
+Dialogue: 0,1:04:49.68,1:04:51.68,Default,,0,0,0,,that is really acceptable
+Dialogue: 0,1:04:51.68,1:04:53.68,Default,,0,0,0,,is that of self hypnosis
+Dialogue: 0,1:04:53.68,1:04:55.68,Default,,0,0,0,,it is not advisable
+Dialogue: 0,1:04:55.68,1:04:57.68,Default,,0,0,0,,for reasons having to do with consciousness
+Dialogue: 0,1:04:57.68,1:04:59.68,Default,,0,0,0,,and for other reasons
+Dialogue: 0,1:04:59.68,1:05:01.68,Default,,0,0,0,,that we can't go into in this tape
+Dialogue: 0,1:05:01.68,1:05:03.68,Default,,0,0,0,,it is inadvisable
+Dialogue: 0,1:05:03.68,1:05:05.68,Default,,0,0,0,,to seek hypnosis from another
+Dialogue: 0,1:05:05.68,1:05:07.68,Default,,0,0,0,,but to learn it from yourself
+Dialogue: 0,1:05:07.68,1:05:09.97,Default,,0,0,0,,and what do you do once you learn it
+Dialogue: 0,1:05:09.97,1:05:11.97,Default,,0,0,0,,once you learn this technique
+Dialogue: 0,1:05:11.97,1:05:13.97,Default,,0,0,0,,and we will describe in the next few minutes
+Dialogue: 0,1:05:13.97,1:05:15.97,Default,,0,0,0,,exactly how to do it
+Dialogue: 0,1:05:15.97,1:05:18.86,Default,,0,0,0,,it is extremely simple
+Dialogue: 0,1:05:18.86,1:05:20.86,Default,,0,0,0,,you can use the hypnotic state
+Dialogue: 0,1:05:20.86,1:05:22.86,Default,,0,0,0,,which is really only a state
+Dialogue: 0,1:05:22.86,1:05:24.86,Default,,0,0,0,,of high suggestibility
+Dialogue: 0,1:05:24.86,1:05:26.86,Default,,0,0,0,,to learn the very things
+Dialogue: 0,1:05:26.86,1:05:28.86,Default,,0,0,0,,we have been talking about today
+Dialogue: 0,1:05:28.86,1:05:30.86,Default,,0,0,0,,if you put yourself in an extremely relaxed state
+Dialogue: 0,1:05:30.86,1:05:32.86,Default,,0,0,0,,and begin to experiment
+Dialogue: 0,1:05:32.86,1:05:34.86,Default,,0,0,0,,and experience out
+Dialogue: 0,1:05:34.86,1:05:36.86,Default,,0,0,0,,the truth of what we have been talking about today
+Dialogue: 0,1:05:36.86,1:05:38.86,Default,,0,0,0,,the learning is much faster
+Dialogue: 0,1:05:38.86,1:05:41.79,Default,,0,0,0,,what is the value of self hypnosis
+Dialogue: 0,1:05:41.79,1:05:43.79,Default,,0,0,0,,in my experience is
+Dialogue: 0,1:05:43.79,1:05:46.18,Default,,0,0,0,,that it enables you
+Dialogue: 0,1:05:46.18,1:05:48.18,Default,,0,0,0,,to reach a level of concentration
+Dialogue: 0,1:05:48.18,1:05:50.18,Default,,0,0,0,,that you wouldn't be able to reach otherwise
+Dialogue: 0,1:05:50.18,1:05:52.18,Default,,0,0,0,,that is really its value
+Dialogue: 0,1:05:52.18,1:05:54.50,Default,,0,0,0,,in that suggestible state
+Dialogue: 0,1:05:54.50,1:05:56.50,Default,,0,0,0,,you are capable of
+Dialogue: 0,1:05:56.50,1:05:58.50,Default,,0,0,0,,degrees of concentration
+Dialogue: 0,1:05:58.50,1:06:00.50,Default,,0,0,0,,that you aren't ordinarily capable of
+Dialogue: 0,1:06:00.50,1:06:02.50,Default,,0,0,0,,because you are too distracted
+Dialogue: 0,1:06:02.50,1:06:04.50,Default,,0,0,0,,by what is going on in consciousness
+Dialogue: 0,1:06:06.98,1:06:08.98,Default,,0,0,0,,so what is a very simple technique
+Dialogue: 0,1:06:08.98,1:06:10.98,Default,,0,0,0,,that you can utilize
+Dialogue: 0,1:06:10.98,1:06:12.98,Default,,0,0,0,,and I think anybody
+Dialogue: 0,1:06:12.98,1:06:14.98,Default,,0,0,0,,who has any chronic physical condition
+Dialogue: 0,1:06:14.98,1:06:17.62,Default,,0,0,0,,should really learn how to do this
+Dialogue: 0,1:06:17.62,1:06:19.62,Default,,0,0,0,,it is extremely simple
+Dialogue: 0,1:06:19.62,1:06:21.87,Default,,0,0,0,,you just sit down in a very relaxed state
+Dialogue: 0,1:06:21.87,1:06:23.87,Default,,0,0,0,,and what you are going to do now
+Dialogue: 0,1:06:23.87,1:06:25.87,Default,,0,0,0,,is progressively relax yourself
+Dialogue: 0,1:06:25.87,1:06:27.87,Default,,0,0,0,,so instead of the word hypnosis
+Dialogue: 0,1:06:27.87,1:06:29.87,Default,,0,0,0,,which has all kinds of stage
+Dialogue: 0,1:06:29.87,1:06:31.87,Default,,0,0,0,,stage meanings
+Dialogue: 0,1:06:31.87,1:06:33.87,Default,,0,0,0,,and occult meanings
+Dialogue: 0,1:06:33.87,1:06:35.87,Default,,0,0,0,,forget all that
+Dialogue: 0,1:06:35.87,1:06:37.87,Default,,0,0,0,,we are going to talk now
+Dialogue: 0,1:06:37.87,1:06:39.87,Default,,0,0,0,,about extreme relaxation
+Dialogue: 0,1:06:39.87,1:06:41.87,Default,,0,0,0,,and a state of heightened suggestibility
+Dialogue: 0,1:06:41.87,1:06:43.87,Default,,0,0,0,,and the capacity to concentrate
+Dialogue: 0,1:06:43.87,1:06:46.00,Default,,0,0,0,,and so we can do this
+Dialogue: 0,1:06:46.00,1:06:48.00,Default,,0,0,0,,with a very simple technique
+Dialogue: 0,1:06:48.00,1:06:50.35,Default,,0,0,0,,of counting from 1 to 10
+Dialogue: 0,1:06:50.35,1:06:52.35,Default,,0,0,0,,we sit down
+Dialogue: 0,1:06:52.35,1:06:54.45,Default,,0,0,0,,we lie down in a very comfortable position
+Dialogue: 0,1:06:54.45,1:06:56.45,Default,,0,0,0,,and we start out
+Dialogue: 0,1:06:56.45,1:06:58.70,Default,,0,0,0,,by saying to ourselves
+Dialogue: 0,1:06:58.70,1:07:00.70,Default,,0,0,0,,number 1
+Dialogue: 0,1:07:00.70,1:07:03.02,Default,,0,0,0,,that announces to us
+Dialogue: 0,1:07:03.02,1:07:05.02,Default,,0,0,0,,that we are about to do this procedure
+Dialogue: 0,1:07:05.02,1:07:07.02,Default,,0,0,0,,we then go into number 2
+Dialogue: 0,1:07:07.02,1:07:09.02,Default,,0,0,0,,you can picture yourself
+Dialogue: 0,1:07:09.02,1:07:11.02,Default,,0,0,0,,in 10 steps
+Dialogue: 0,1:07:11.02,1:07:13.06,Default,,0,0,0,,the first step
+Dialogue: 0,1:07:13.06,1:07:15.06,Default,,0,0,0,,you are initiating the experience
+Dialogue: 0,1:07:15.06,1:07:17.06,Default,,0,0,0,,in the next step
+Dialogue: 0,1:07:17.06,1:07:19.06,Default,,0,0,0,,what you do is
+Dialogue: 0,1:07:19.06,1:07:21.06,Default,,0,0,0,,you allow yourself some time
+Dialogue: 0,1:07:21.06,1:07:23.06,Default,,0,0,0,,to relax all the muscles in your head
+Dialogue: 0,1:07:23.06,1:07:25.06,Default,,0,0,0,,all the muscles
+Dialogue: 0,1:07:25.06,1:07:27.06,Default,,0,0,0,,and you notice as you do that
+Dialogue: 0,1:07:27.06,1:07:29.06,Default,,0,0,0,,the soreness in your face muscles
+Dialogue: 0,1:07:29.06,1:07:31.06,Default,,0,0,0,,and your jaw muscles
+Dialogue: 0,1:07:31.06,1:07:33.06,Default,,0,0,0,,the tension of the day
+Dialogue: 0,1:07:33.06,1:07:35.06,Default,,0,0,0,,your cheeks are actually sore
+Dialogue: 0,1:07:35.06,1:07:37.06,Default,,0,0,0,,just poke right here now
+Dialogue: 0,1:07:37.06,1:07:39.06,Default,,0,0,0,,as you watch me and you will see
+Dialogue: 0,1:07:39.06,1:07:41.86,Default,,0,0,0,,that you are in 10 all day long
+Dialogue: 0,1:07:41.86,1:07:43.86,Default,,0,0,0,,so you allow yourself several minutes
+Dialogue: 0,1:07:43.86,1:07:45.86,Default,,0,0,0,,to relax the head
+Dialogue: 0,1:07:45.86,1:07:47.86,Default,,0,0,0,,you move on to number 3
+Dialogue: 0,1:07:47.86,1:07:49.86,Default,,0,0,0,,where you relax your neck
+Dialogue: 0,1:07:49.86,1:07:51.86,Default,,0,0,0,,you relax all those tensions in your neck
+Dialogue: 0,1:07:51.86,1:07:53.98,Default,,0,0,0,,and your upper shoulders
+Dialogue: 0,1:07:53.98,1:07:55.98,Default,,0,0,0,,you move into number 4
+Dialogue: 0,1:07:55.98,1:07:58.05,Default,,0,0,0,,where you say to yourself
+Dialogue: 0,1:07:58.05,1:08:00.05,Default,,0,0,0,,focus 4
+Dialogue: 0,1:08:00.05,1:08:02.05,Default,,0,0,0,,you move and you relax your back
+Dialogue: 0,1:08:02.05,1:08:04.05,Default,,0,0,0,,and your chest muscles
+Dialogue: 0,1:08:04.05,1:08:06.05,Default,,0,0,0,,and number 5
+Dialogue: 0,1:08:06.05,1:08:08.05,Default,,0,0,0,,you just progressively relax
+Dialogue: 0,1:08:08.05,1:08:10.05,Default,,0,0,0,,starting with the biggest muscles
+Dialogue: 0,1:08:10.05,1:08:12.05,Default,,0,0,0,,the upper arms and the lower arms
+Dialogue: 0,1:08:12.05,1:08:14.27,Default,,0,0,0,,and the fingers and the hands
+Dialogue: 0,1:08:14.27,1:08:16.27,Default,,0,0,0,,number 6
+Dialogue: 0,1:08:16.27,1:08:18.27,Default,,0,0,0,,you allow your chest and your torso to relax
+Dialogue: 0,1:08:18.27,1:08:20.37,Default,,0,0,0,,number 7
+Dialogue: 0,1:08:20.37,1:08:22.37,Default,,0,0,0,,you move into the lower abdomen
+Dialogue: 0,1:08:22.37,1:08:24.82,Default,,0,0,0,,relaxing all the tensions
+Dialogue: 0,1:08:24.82,1:08:26.82,Default,,0,0,0,,that you have been holding in your belly
+Dialogue: 0,1:08:26.82,1:08:28.82,Default,,0,0,0,,and your guts
+Dialogue: 0,1:08:28.82,1:08:30.82,Default,,0,0,0,,number 8
+Dialogue: 0,1:08:30.82,1:08:32.82,Default,,0,0,0,,you move into the hips and the buttocks
+Dialogue: 0,1:08:32.82,1:08:34.82,Default,,0,0,0,,and the general regions
+Dialogue: 0,1:08:34.82,1:08:36.82,Default,,0,0,0,,and allow all those relaxations
+Dialogue: 0,1:08:36.82,1:08:38.82,Default,,0,0,0,,number 9
+Dialogue: 0,1:08:38.82,1:08:40.82,Default,,0,0,0,,you allow that to flow down your legs
+Dialogue: 0,1:08:40.82,1:08:42.82,Default,,0,0,0,,now you tell yourself
+Dialogue: 0,1:08:42.82,1:08:45.62,Default,,0,0,0,,I am in focus 10
+Dialogue: 0,1:08:45.62,1:08:47.62,Default,,0,0,0,,and you use that letting go resistance
+Dialogue: 0,1:08:47.62,1:08:49.62,Default,,0,0,0,,which we have been talking about
+Dialogue: 0,1:08:49.62,1:08:51.62,Default,,0,0,0,,throughout this
+Dialogue: 0,1:08:51.62,1:08:53.62,Default,,0,0,0,,visit today
+Dialogue: 0,1:08:53.62,1:08:55.62,Default,,0,0,0,,allowing yourself to let go
+Dialogue: 0,1:08:55.62,1:08:57.62,Default,,0,0,0,,all resistance to this profound
+Dialogue: 0,1:08:57.62,1:08:59.90,Default,,0,0,0,,state of relaxation
+Dialogue: 0,1:08:59.90,1:09:01.90,Default,,0,0,0,,and in this profound state of relaxation
+Dialogue: 0,1:09:01.90,1:09:03.90,Default,,0,0,0,,you now tell yourself
+Dialogue: 0,1:09:03.90,1:09:05.90,Default,,0,0,0,,the things you want to know
+Dialogue: 0,1:09:05.90,1:09:07.90,Default,,0,0,0,,and let go resisting them
+Dialogue: 0,1:09:07.90,1:09:09.90,Default,,0,0,0,,let go resisting the thought
+Dialogue: 0,1:09:09.90,1:09:11.90,Default,,0,0,0,,that pain
+Dialogue: 0,1:09:11.90,1:09:13.90,Default,,0,0,0,,is something
+Dialogue: 0,1:09:13.90,1:09:16.13,Default,,0,0,0,,and suffering is something else
+Dialogue: 0,1:09:16.13,1:09:18.13,Default,,0,0,0,,there is no such thing
+Dialogue: 0,1:09:18.13,1:09:20.13,Default,,0,0,0,,as suffering in pain
+Dialogue: 0,1:09:20.13,1:09:22.48,Default,,0,0,0,,when that pain is not resisted
+Dialogue: 0,1:09:22.48,1:09:24.48,Default,,0,0,0,,in that profoundly relaxed state
+Dialogue: 0,1:09:24.48,1:09:26.48,Default,,0,0,0,,now you let go resisting
+Dialogue: 0,1:09:26.48,1:09:29.63,Default,,0,0,0,,the pain
+Dialogue: 0,1:09:29.63,1:09:31.63,Default,,0,0,0,,because it is going to be used
+Dialogue: 0,1:09:31.63,1:09:33.63,Default,,0,0,0,,for a chronic pain condition
+Dialogue: 0,1:09:33.63,1:09:35.63,Default,,0,0,0,,you are going to go back to the things we said
+Dialogue: 0,1:09:35.63,1:09:37.63,Default,,0,0,0,,notice that the pain is everywhere
+Dialogue: 0,1:09:37.63,1:09:39.63,Default,,0,0,0,,notice that you can let go your resistance
+Dialogue: 0,1:09:39.63,1:09:42.05,Default,,0,0,0,,to that pain
+Dialogue: 0,1:09:42.05,1:09:44.56,Default,,0,0,0,,notice that you can like open the door
+Dialogue: 0,1:09:44.56,1:09:46.78,Default,,0,0,0,,that you can let it happen
+Dialogue: 0,1:09:46.78,1:09:48.78,Default,,0,0,0,,without it affecting
+Dialogue: 0,1:09:48.78,1:09:50.78,Default,,0,0,0,,that which you really are
+Dialogue: 0,1:09:50.78,1:09:52.82,Default,,0,0,0,,in it you can begin
+Dialogue: 0,1:09:52.82,1:09:54.82,Default,,0,0,0,,to move yourself up through these energy fields
+Dialogue: 0,1:09:54.82,1:09:56.82,Default,,0,0,0,,as we described before
+Dialogue: 0,1:09:56.82,1:09:58.82,Default,,0,0,0,,you can move yourself up
+Dialogue: 0,1:09:58.82,1:10:00.82,Default,,0,0,0,,to a lovingness for yourself
+Dialogue: 0,1:10:00.82,1:10:02.82,Default,,0,0,0,,a compassion
+Dialogue: 0,1:10:02.82,1:10:04.82,Default,,0,0,0,,for your beauty as a human being
+Dialogue: 0,1:10:04.82,1:10:07.58,Default,,0,0,0,,we said it about an energy
+Dialogue: 0,1:10:07.58,1:10:09.58,Default,,0,0,0,,field of 540 to 550
+Dialogue: 0,1:10:09.58,1:10:11.58,Default,,0,0,0,,this lovingness comes forth
+Dialogue: 0,1:10:11.58,1:10:13.87,Default,,0,0,0,,how do you know when that has happened
+Dialogue: 0,1:10:13.87,1:10:15.87,Default,,0,0,0,,it has happened when you can
+Dialogue: 0,1:10:15.87,1:10:17.87,Default,,0,0,0,,become light hearted about it
+Dialogue: 0,1:10:17.87,1:10:19.87,Default,,0,0,0,,when you can laugh at yourself
+Dialogue: 0,1:10:19.87,1:10:21.87,Default,,0,0,0,,you see I tell everybody
+Dialogue: 0,1:10:21.87,1:10:23.87,Default,,0,0,0,,they say you lost your thumb
+Dialogue: 0,1:10:23.87,1:10:25.87,Default,,0,0,0,,I say that is right I can only count up to 9
+Dialogue: 0,1:10:25.87,1:10:27.87,Default,,0,0,0,,you can only count up to 9 now
+Dialogue: 0,1:10:27.87,1:10:29.87,Default,,0,0,0,,so your capacity to laugh at yourself
+Dialogue: 0,1:10:29.87,1:10:31.87,Default,,0,0,0,,humor
+Dialogue: 0,1:10:31.87,1:10:33.87,Default,,0,0,0,,we got the energy field of humor
+Dialogue: 0,1:10:33.87,1:10:35.87,Default,,0,0,0,,is at about 550
+Dialogue: 0,1:10:35.87,1:10:38.00,Default,,0,0,0,,humor heals
+Dialogue: 0,1:10:38.00,1:10:40.00,Default,,0,0,0,,and certainly there has been books out recently
+Dialogue: 0,1:10:40.00,1:10:42.00,Default,,0,0,0,,by people who are celebrities
+Dialogue: 0,1:10:42.00,1:10:44.00,Default,,0,0,0,,who are well known
+Dialogue: 0,1:10:44.00,1:10:46.00,Default,,0,0,0,,who have healed physical illnesses
+Dialogue: 0,1:10:46.00,1:10:48.00,Default,,0,0,0,,the use of laughter
+Dialogue: 0,1:10:48.00,1:10:50.00,Default,,0,0,0,,and so laughter
+Dialogue: 0,1:10:50.00,1:10:52.00,Default,,0,0,0,,the choosing of laughter
+Dialogue: 0,1:10:52.00,1:10:54.00,Default,,0,0,0,,the choosing of humor
+Dialogue: 0,1:10:54.00,1:10:56.00,Default,,0,0,0,,putting yourself in a loving
+Dialogue: 0,1:10:56.00,1:10:58.00,Default,,0,0,0,,laughing energy field
+Dialogue: 0,1:10:58.00,1:11:00.00,Default,,0,0,0,,which tends to heal of its own nature
+Dialogue: 0,1:11:00.00,1:11:02.00,Default,,0,0,0,,we know that an energy field
+Dialogue: 0,1:11:02.00,1:11:04.00,Default,,0,0,0,,a positive energy field
+Dialogue: 0,1:11:04.00,1:11:06.06,Default,,0,0,0,,of 550
+Dialogue: 0,1:11:06.06,1:11:08.06,Default,,0,0,0,,the capacity now to laugh at that misfortune
+Dialogue: 0,1:11:08.06,1:11:10.06,Default,,0,0,0,,what does that do for you
+Dialogue: 0,1:11:10.06,1:11:12.06,Default,,0,0,0,,it means that
+Dialogue: 0,1:11:12.06,1:11:14.06,Default,,0,0,0,,the experience is one thing
+Dialogue: 0,1:11:14.06,1:11:16.06,Default,,0,0,0,,and that which I am in truth
+Dialogue: 0,1:11:16.06,1:11:18.06,Default,,0,0,0,,is something else
+Dialogue: 0,1:11:18.06,1:11:20.06,Default,,0,0,0,,I am not that experience
+Dialogue: 0,1:11:20.06,1:11:22.06,Default,,0,0,0,,you see I am not at the effect of that
+Dialogue: 0,1:11:22.06,1:11:24.06,Default,,0,0,0,,I am no longer victim
+Dialogue: 0,1:11:24.06,1:11:26.06,Default,,0,0,0,,I have stopped struggling with it
+Dialogue: 0,1:11:26.06,1:11:28.06,Default,,0,0,0,,I have stopped resisting
+Dialogue: 0,1:11:28.06,1:11:30.06,Default,,0,0,0,,you notice that as you go through
+Dialogue: 0,1:11:30.06,1:11:32.06,Default,,0,0,0,,acceptance and willingness
+Dialogue: 0,1:11:32.06,1:11:34.06,Default,,0,0,0,,and through neutral
+Dialogue: 0,1:11:34.06,1:11:36.26,Default,,0,0,0,,you become released from that
+Dialogue: 0,1:11:36.26,1:11:38.26,Default,,0,0,0,,and what does that mean
+Dialogue: 0,1:11:38.26,1:11:40.26,Default,,0,0,0,,you see when you are resisting it
+Dialogue: 0,1:11:40.26,1:11:42.26,Default,,0,0,0,,and trying to get away from it
+Dialogue: 0,1:11:42.26,1:11:44.26,Default,,0,0,0,,you are down here
+Dialogue: 0,1:11:44.26,1:11:46.26,Default,,0,0,0,,and you see the process is one of entrapment
+Dialogue: 0,1:11:46.26,1:11:48.26,Default,,0,0,0,,and suffering
+Dialogue: 0,1:11:48.26,1:11:50.26,Default,,0,0,0,,so long as I resist the pain
+Dialogue: 0,1:11:50.26,1:11:52.26,Default,,0,0,0,,so long as I am angry
+Dialogue: 0,1:11:52.26,1:11:54.26,Default,,0,0,0,,and grit my teeth
+Dialogue: 0,1:11:54.26,1:11:56.26,Default,,0,0,0,,and struggle against it
+Dialogue: 0,1:11:56.26,1:11:58.26,Default,,0,0,0,,and try to force my will
+Dialogue: 0,1:11:58.26,1:12:00.26,Default,,0,0,0,,I become further enmeshed
+Dialogue: 0,1:12:00.26,1:12:02.54,Default,,0,0,0,,it's like the quagmire
+Dialogue: 0,1:12:02.54,1:12:04.54,Default,,0,0,0,,the more I struggle
+Dialogue: 0,1:12:04.54,1:12:06.54,Default,,0,0,0,,the more entrapped I become
+Dialogue: 0,1:12:06.54,1:12:08.54,Default,,0,0,0,,the being let go of going free
+Dialogue: 0,1:12:08.54,1:12:10.61,Default,,0,0,0,,see this energy field over here
+Dialogue: 0,1:12:10.61,1:12:12.61,Default,,0,0,0,,is one of freedom
+Dialogue: 0,1:12:12.61,1:12:14.61,Default,,0,0,0,,as we go into freedom
+Dialogue: 0,1:12:14.61,1:12:16.61,Default,,0,0,0,,means to be released from that
+Dialogue: 0,1:12:16.61,1:12:18.61,Default,,0,0,0,,the courage to face this issue
+Dialogue: 0,1:12:18.61,1:12:20.61,Default,,0,0,0,,and do something about it
+Dialogue: 0,1:12:20.61,1:12:22.61,Default,,0,0,0,,empowers me
+Dialogue: 0,1:12:22.61,1:12:24.61,Default,,0,0,0,,my willingness moves me up
+Dialogue: 0,1:12:24.61,1:12:26.61,Default,,0,0,0,,through a transformation of consciousness
+Dialogue: 0,1:12:26.61,1:12:28.61,Default,,0,0,0,,into my willingness to be forgiving
+Dialogue: 0,1:12:28.61,1:12:30.61,Default,,0,0,0,,and loving and compassionate
+Dialogue: 0,1:12:30.61,1:12:32.61,Default,,0,0,0,,and through my own experience
+Dialogue: 0,1:12:32.61,1:12:34.61,Default,,0,0,0,,one can transcend it
+Dialogue: 0,1:12:34.61,1:12:36.61,Default,,0,0,0,,literally move beyond that
+Dialogue: 0,1:12:36.61,1:12:38.61,Default,,0,0,0,,identification with the body
+Dialogue: 0,1:12:38.61,1:12:40.61,Default,,0,0,0,,and what has happened to it
+Dialogue: 0,1:12:40.61,1:12:42.61,Default,,0,0,0,,into a conscious awareness
+Dialogue: 0,1:12:42.61,1:12:45.47,Default,,0,0,0,,that one is something other than the body
+Dialogue: 0,1:12:45.47,1:12:47.47,Default,,0,0,0,,when we talk about health
+Dialogue: 0,1:12:47.47,1:12:49.47,Default,,0,0,0,,one other visit that we'll have
+Dialogue: 0,1:12:49.47,1:12:51.47,Default,,0,0,0,,about this series
+Dialogue: 0,1:12:51.47,1:12:53.47,Default,,0,0,0,,we'll talk about the body being in such a state
+Dialogue: 0,1:12:53.47,1:12:55.47,Default,,0,0,0,,that one is hardly even aware
+Dialogue: 0,1:12:55.47,1:12:57.50,Default,,0,0,0,,of its existence
+Dialogue: 0,1:12:57.50,1:12:59.50,Default,,0,0,0,,that everything is so harmonious
+Dialogue: 0,1:12:59.50,1:13:01.50,Default,,0,0,0,,the letting go of resistance
+Dialogue: 0,1:13:01.50,1:13:03.50,Default,,0,0,0,,has been so complete
+Dialogue: 0,1:13:03.50,1:13:05.50,Default,,0,0,0,,that there is hardly any awareness
+Dialogue: 0,1:13:05.50,1:13:07.50,Default,,0,0,0,,that the body is even there
+Dialogue: 0,1:13:07.50,1:13:09.54,Default,,0,0,0,,this also happens with pain
+Dialogue: 0,1:13:09.54,1:13:11.54,Default,,0,0,0,,in which the thought
+Dialogue: 0,1:13:11.54,1:13:13.54,Default,,0,0,0,,the memory
+Dialogue: 0,1:13:13.54,1:13:15.54,Default,,0,0,0,,the awareness
+Dialogue: 0,1:13:15.54,1:13:17.54,Default,,0,0,0,,that there is some pain there
+Dialogue: 0,1:13:17.54,1:13:19.54,Default,,0,0,0,,only happens for a few fleeting seconds
+Dialogue: 0,1:13:19.54,1:13:21.82,Default,,0,0,0,,during the day
+Dialogue: 0,1:13:21.82,1:13:23.82,Default,,0,0,0,,although this happened a few months ago
+Dialogue: 0,1:13:23.82,1:13:25.82,Default,,0,0,0,,I use this example of the thumb
+Dialogue: 0,1:13:25.82,1:13:27.82,Default,,0,0,0,,only as an example of the realness
+Dialogue: 0,1:13:27.82,1:13:29.92,Default,,0,0,0,,of what I'm talking about
+Dialogue: 0,1:13:29.92,1:13:31.92,Default,,0,0,0,,it only comes to me a couple seconds
+Dialogue: 0,1:13:31.92,1:13:33.92,Default,,0,0,0,,throughout the day now
+Dialogue: 0,1:13:33.92,1:13:35.92,Default,,0,0,0,,that there is pain still there
+Dialogue: 0,1:13:35.92,1:13:37.92,Default,,0,0,0,,after I'm up about an hour
+Dialogue: 0,1:13:37.92,1:13:39.92,Default,,0,0,0,,suddenly I'll notice the thumb
+Dialogue: 0,1:13:39.92,1:13:41.92,Default,,0,0,0,,and I'll say, oh
+Dialogue: 0,1:13:41.92,1:13:44.50,Default,,0,0,0,,it's like I'm not even aware of its presence
+Dialogue: 0,1:13:44.50,1:13:46.50,Default,,0,0,0,,maybe a few other times
+Dialogue: 0,1:13:46.50,1:13:48.50,Default,,0,0,0,,in the daytime
+Dialogue: 0,1:13:48.50,1:13:50.50,Default,,0,0,0,,that I experience in a 24 hour period
+Dialogue: 0,1:13:50.50,1:13:52.50,Default,,0,0,0,,now
+Dialogue: 0,1:13:52.50,1:13:54.50,Default,,0,0,0,,with this which is still
+Dialogue: 0,1:13:54.50,1:13:56.50,Default,,0,0,0,,as the world would say, painful
+Dialogue: 0,1:13:56.50,1:13:58.50,Default,,0,0,0,,is literally amounts to
+Dialogue: 0,1:13:58.50,1:14:00.88,Default,,0,0,0,,probably a few seconds
+Dialogue: 0,1:14:00.88,1:14:02.88,Default,,0,0,0,,maybe 5 or 10 seconds in the morning
+Dialogue: 0,1:14:02.88,1:14:04.88,Default,,0,0,0,,maybe a few seconds in the afternoon
+Dialogue: 0,1:14:04.88,1:14:06.88,Default,,0,0,0,,the totality of suffering
+Dialogue: 0,1:14:06.88,1:14:08.88,Default,,0,0,0,,coming out of this experience
+Dialogue: 0,1:14:08.88,1:14:10.88,Default,,0,0,0,,which is only a couple months old
+Dialogue: 0,1:14:10.88,1:14:12.88,Default,,0,0,0,,and for an amputation that's not a long period of time
+Dialogue: 0,1:14:12.88,1:14:14.88,Default,,0,0,0,,amounts to probably less than 30 seconds
+Dialogue: 0,1:14:14.88,1:14:16.88,Default,,0,0,0,,can all do it
+Dialogue: 0,1:14:16.88,1:14:18.88,Default,,0,0,0,,because through doing it we realize
+Dialogue: 0,1:14:18.88,1:14:20.88,Default,,0,0,0,,who we really are

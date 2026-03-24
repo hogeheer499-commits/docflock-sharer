@@ -1,0 +1,744 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.07,0:00:07.25,Default,,0,0,0,,So today we're going to discuss how to live your life like a prayer.
+Dialogue: 0,0:00:08.18,0:00:15.36,Default,,0,0,0,,We have done one lecture about it, but there are some things that we're missing and I wanted
+Dialogue: 0,0:00:15.36,0:00:23.92,Default,,0,0,0,,to touch on certain characteristics of prayer.
+Dialogue: 0,0:00:24.53,0:00:36.34,Default,,0,0,0,,So my first question is, when you say live your life like a prayer, what is your interpretation
+Dialogue: 0,0:00:36.34,0:00:37.02,Default,,0,0,0,,of that?
+Dialogue: 0,0:00:37.57,0:00:47.09,Default,,0,0,0,,It means to dedicate your life to lovingness and the acknowledgement of the divinity of
+Dialogue: 0,0:00:47.09,0:00:57.53,Default,,0,0,0,,our creator, and to love your fellow man as yourself, and to be willing to forgive any
+Dialogue: 0,0:00:57.53,0:01:03.42,Default,,0,0,0,,seeming shortcomings, and to forgive the past especially.
+Dialogue: 0,0:01:04.70,0:01:09.09,Default,,0,0,0,,Because if you think of it, every resentment that you have, or anger,
+Dialogue: 0,0:01:09.42,0:01:14.45,Default,,0,0,0,,or dismay, or something, is always about the past.
+Dialogue: 0,0:01:17.31,0:01:18.45,Default,,0,0,0,,People never realize it.
+Dialogue: 0,0:01:19.09,0:01:21.96,Default,,0,0,0,,Every negative feeling you have is about the past.
+Dialogue: 0,0:01:23.03,0:01:26.46,Default,,0,0,0,,Whatever you're upset about happened already and it's over.
+Dialogue: 0,0:01:27.67,0:01:31.73,Default,,0,0,0,,So the big news is, get over it.
+Dialogue: 0,0:01:35.67,0:01:40.48,Default,,0,0,0,,And even if somebody shot your foot off, that was just a few seconds ago.
+Dialogue: 0,0:01:42.04,0:01:42.90,Default,,0,0,0,,It's not now.
+Dialogue: 0,0:01:43.32,0:01:44.12,Default,,0,0,0,,It was already there.
+Dialogue: 0,0:01:44.15,0:01:45.15,Default,,0,0,0,,It was already in the past.
+Dialogue: 0,0:01:45.15,0:01:56.07,Default,,0,0,0,,So stop clinging to the past allows us a much greater freedom to be who we really are and
+Dialogue: 0,0:01:56.07,0:02:02.31,Default,,0,0,0,,to discover the presence of God as lovingness within us.
+Dialogue: 0,0:02:02.31,0:02:12.58,Default,,0,0,0,,So by letting go of the past, we give dominion to the lovingness which prevails in the present,
+Dialogue: 0,0:02:12.58,0:02:15.75,Default,,0,0,0,,which is the characteristic of the presence of God.
+Dialogue: 0,0:02:15.75,0:02:17.50,Default,,0,0,0,,So we acknowledge God's presence.
+Dialogue: 0,0:02:17.50,0:02:25.43,Default,,0,0,0,,We acknowledge God's presence by our willingness to let go of the past and to be loving and receptive in the present.
+Dialogue: 0,0:02:26.90,0:02:29.34,Default,,0,0,0,,So should we live in the present?
+Dialogue: 0,0:02:29.84,0:02:31.25,Default,,0,0,0,,You don't have any choice.
+Dialogue: 0,0:02:33.25,0:02:35.25,Default,,0,0,0,,You live in the present whether you like it or not.
+Dialogue: 0,0:02:36.88,0:02:40.53,Default,,0,0,0,,You know, as far as the reality of the physicality goes.
+Dialogue: 0,0:02:41.27,0:02:44.75,Default,,0,0,0,,Psychologically, many people cling to the past.
+Dialogue: 0,0:02:45.96,0:02:47.96,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:47.96,0:02:48.46,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:48.46,0:02:48.96,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:48.96,0:02:49.46,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:49.46,0:02:49.96,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:49.96,0:02:50.46,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:50.46,0:02:50.96,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:50.96,0:02:51.46,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:51.46,0:02:51.96,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:51.96,0:02:52.46,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:52.46,0:02:52.96,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:52.96,0:02:53.46,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:53.46,0:02:53.96,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:53.96,0:02:54.46,Default,,0,0,0,,I know lots of people that haven't grown up since they were maybe 20 years old.
+Dialogue: 0,0:02:54.46,0:03:02.50,Default,,0,0,0,,Well, the new book that we have written is about letting go of resentments
+Dialogue: 0,0:03:02.50,0:03:14.40,Default,,0,0,0,,and different positionalities that we have about who we are and what we are.
+Dialogue: 0,0:03:15.09,0:03:17.49,Default,,0,0,0,,Yes, those are all remnants of the past.
+Dialogue: 0,0:03:18.03,0:03:24.65,Default,,0,0,0,,Our definition of ourself and our emotional opinions about everything
+Dialogue: 0,0:03:24.65,0:03:30.93,Default,,0,0,0,,up to a couple of seconds ago all belong to the past.
+Dialogue: 0,0:03:32.56,0:03:34.86,Default,,0,0,0,,What I just said is already in the past.
+Dialogue: 0,0:03:35.03,0:03:36.25,Default,,0,0,0,,I don't even care about it now.
+Dialogue: 0,0:03:38.74,0:03:45.28,Default,,0,0,0,,So when you pray, how should you pray?
+Dialogue: 0,0:03:46.59,0:03:48.90,Default,,0,0,0,,Well, you can't tell people how to pray.
+Dialogue: 0,0:03:50.00,0:03:51.21,Default,,0,0,0,,It's an attitude.
+Dialogue: 0,0:03:52.12,0:03:54.93,Default,,0,0,0,,Prayer to me is a reverential attitude.
+Dialogue: 0,0:03:56.56,0:03:57.08,Default,,0,0,0,,And...
+Dialogue: 0,0:03:57.08,0:04:02.87,Default,,0,0,0,,Because it's an attitude, it can prevail anywhere, anytime, anyplace.
+Dialogue: 0,0:04:03.88,0:04:07.72,Default,,0,0,0,,In an airplane, in Alaska, or wherever it may be,
+Dialogue: 0,0:04:08.75,0:04:10.69,Default,,0,0,0,,the same reverence for life,
+Dialogue: 0,0:04:12.96,0:04:16.69,Default,,0,0,0,,the awareness that divinity is the source of this life,
+Dialogue: 0,0:04:18.04,0:04:22.00,Default,,0,0,0,,and the reverence for that divinity prevails over all else.
+Dialogue: 0,0:04:23.37,0:04:25.08,Default,,0,0,0,,What I said is already in the past.
+Dialogue: 0,0:04:29.95,0:04:31.66,Default,,0,0,0,,For instance,
+Dialogue: 0,0:04:31.72,0:04:35.56,Default,,0,0,0,,when you pray, you have often said,
+Dialogue: 0,0:04:35.81,0:04:37.06,Default,,0,0,0,,do not outline.
+Dialogue: 0,0:04:37.45,0:04:37.69,Default,,0,0,0,,Yes.
+Dialogue: 0,0:04:37.86,0:04:40.50,Default,,0,0,0,,So what do you mean, outline?
+Dialogue: 0,0:04:41.07,0:04:45.48,Default,,0,0,0,,What that means is not to tell God how to do a thing,
+Dialogue: 0,0:04:45.69,0:04:46.98,Default,,0,0,0,,what his business is.
+Dialogue: 0,0:04:49.36,0:04:54.01,Default,,0,0,0,,People try to tell God what they need, when they need it,
+Dialogue: 0,0:04:54.07,0:04:56.13,Default,,0,0,0,,with whom, and under what circumstances.
+Dialogue: 0,0:04:57.67,0:05:01.76,Default,,0,0,0,,And that, of course, limits everything.
+Dialogue: 0,0:05:01.76,0:05:02.52,Default,,0,0,0,,That limits everything.
+Dialogue: 0,0:05:03.76,0:05:07.58,Default,,0,0,0,,So when we say, I ask God for knowledge of his will for me,
+Dialogue: 0,0:05:07.58,0:05:09.18,Default,,0,0,0,,and the power to carry that out,
+Dialogue: 0,0:05:09.18,0:05:11.86,Default,,0,0,0,,that's a very common prayer.
+Dialogue: 0,0:05:11.86,0:05:15.86,Default,,0,0,0,,I ask for God's will for me, and the power to carry that out.
+Dialogue: 0,0:05:15.86,0:05:20.43,Default,,0,0,0,,And you do that one day at a time, every morning.
+Dialogue: 0,0:05:20.43,0:05:23.73,Default,,0,0,0,,I pray for knowledge of your will for me, this Lord,
+Dialogue: 0,0:05:23.73,0:05:28.14,Default,,0,0,0,,this day, this Lord, and I ask for the power to carry it out.
+Dialogue: 0,0:05:28.14,0:05:31.92,Default,,0,0,0,,And that's a very common prayer.
+Dialogue: 0,0:05:31.92,0:05:35.33,Default,,0,0,0,,It's common to all the 12-step groups.
+Dialogue: 0,0:05:35.33,0:05:39.66,Default,,0,0,0,,They all follow the same 12 steps, I guess, mm-hmm.
+Dialogue: 0,0:05:39.66,0:05:41.31,Default,,0,0,0,,Okay.
+Dialogue: 0,0:05:41.31,0:05:46.06,Default,,0,0,0,,I'm trying to think of an example.
+Dialogue: 0,0:05:46.69,0:05:51.10,Default,,0,0,0,,When you pray and you say, well, let's just do this.
+Dialogue: 0,0:05:51.10,0:05:53.81,Default,,0,0,0,,All right, I want to win the lottery.
+Dialogue: 0,0:05:53.98,0:05:56.86,Default,,0,0,0,,Now, you know as well as I do that a lot of people
+Dialogue: 0,0:05:56.86,0:05:58.66,Default,,0,0,0,,that win the lottery are miserable.
+Dialogue: 0,0:05:58.66,0:06:03.36,Default,,0,0,0,,But, you know, a lot of people think that money is going
+Dialogue: 0,0:06:03.36,0:06:05.57,Default,,0,0,0,,to solve all their problems.
+Dialogue: 0,0:06:05.98,0:06:07.25,Default,,0,0,0,,That's just expressing it.
+Dialogue: 0,0:06:07.25,0:06:09.25,Default,,0,0,0,,And I wish that's not really prayer.
+Dialogue: 0,0:06:09.25,0:06:10.25,Default,,0,0,0,,Okay.
+Dialogue: 0,0:06:10.25,0:06:11.55,Default,,0,0,0,,Okay?
+Dialogue: 0,0:06:11.55,0:06:16.31,Default,,0,0,0,,Prayer would be where you ask God to make sure that you win the lottery,
+Dialogue: 0,0:06:16.31,0:06:21.30,Default,,0,0,0,,asking God to vote in your favor.
+Dialogue: 0,0:06:21.30,0:06:25.75,Default,,0,0,0,,So that's a different kind of an opinion to have about God
+Dialogue: 0,0:06:25.75,0:06:32.06,Default,,0,0,0,,and your expectations of divinity.
+Dialogue: 0,0:06:32.06,0:06:38.75,Default,,0,0,0,,I was brought up to surrender everything to God as surrendering everything to God's will.
+Dialogue: 0,0:06:39.50,0:06:44.62,Default,,0,0,0,,Express your wishes and then surrender them to God's will, mm-hmm.
+Dialogue: 0,0:06:44.62,0:06:48.26,Default,,0,0,0,,And if you were meant to be rich and famous, you will be.
+Dialogue: 0,0:06:48.26,0:06:51.02,Default,,0,0,0,,And if you weren't, you won't.
+Dialogue: 0,0:06:51.02,0:06:55.52,Default,,0,0,0,,So it's sort of an implication of karmic propensities in a way,
+Dialogue: 0,0:06:55.52,0:07:01.69,Default,,0,0,0,,which is not a common notion in Christianity.
+Dialogue: 0,0:07:01.69,0:07:08.24,Default,,0,0,0,,Karma arises more in the Eastern religions.
+Dialogue: 0,0:07:08.24,0:07:10.43,Default,,0,0,0,,We don't speak about Christian karma.
+Dialogue: 0,0:07:10.43,0:07:11.47,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:11.47,0:07:12.47,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:12.47,0:07:13.75,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:13.75,0:07:14.75,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:14.75,0:07:16.07,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:16.07,0:07:17.07,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:17.07,0:07:18.58,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:18.58,0:07:19.58,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:07:19.58,0:07:20.58,Default,,0,0,0,,So when is prayer useful?
+Dialogue: 0,0:07:20.58,0:07:25.58,Default,,0,0,0,,They've done all kind of studies about people who are ill.
+Dialogue: 0,0:07:25.58,0:07:32.35,Default,,0,0,0,,And if they had a group of people praying for them, that they recovered quicker than
+Dialogue: 0,0:07:32.35,0:07:33.58,Default,,0,0,0,,other people who are not.
+Dialogue: 0,0:07:33.58,0:07:34.58,Default,,0,0,0,,Who do not have…
+Dialogue: 0,0:07:34.58,0:07:35.58,Default,,0,0,0,,Yes.
+Dialogue: 0,0:07:35.58,0:07:43.23,Default,,0,0,0,,There's been sort of a scientific documentation of the beneficial effects of prayer by oneself
+Dialogue: 0,0:07:43.23,0:07:44.23,Default,,0,0,0,,and others.
+Dialogue: 0,0:07:44.23,0:07:45.23,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:45.23,0:07:51.74,Default,,0,0,0,,oneself and others. So the prayer has been scientifically documented to be of
+Dialogue: 0,0:07:51.74,0:08:03.13,Default,,0,0,0,,benefit and what if it wasn't? And then you stop praying, right? So it's beneficial to have
+Dialogue: 0,0:08:03.13,0:08:09.42,Default,,0,0,0,,these prayer lists or pray for people that are going through times of
+Dialogue: 0,0:08:09.42,0:08:16.93,Default,,0,0,0,,challenges health-wise. I think so definitely because not only for their
+Dialogue: 0,0:08:16.93,0:08:22.25,Default,,0,0,0,,benefit but actually for your own. Even if their life doesn't improve, you've
+Dialogue: 0,0:08:22.25,0:08:30.37,Default,,0,0,0,,appealed to God to assist you in the human condition, so it certainly has
+Dialogue: 0,0:08:30.37,0:08:38.86,Default,,0,0,0,,affected your own life and then hopefully also the life of others.
+Dialogue: 0,0:08:38.86,0:08:40.84,Default,,0,0,0,,What about, for instance,
+Dialogue: 0,0:08:40.84,0:08:46.48,Default,,0,0,0,,we always bless our food before we consume it, so what is, can you give me a
+Dialogue: 0,0:08:46.48,0:08:53.55,Default,,0,0,0,,why we do that? Why do we bless our food before we eat it? Does it change it?
+Dialogue: 0,0:08:53.55,0:08:59.58,Default,,0,0,0,,Well we bless it because of thanks for one thing, that we have enough to eat.
+Dialogue: 0,0:08:59.58,0:09:05.14,Default,,0,0,0,,Many people in the world do not have enough to eat, so I give thanks to the
+Dialogue: 0,0:09:05.14,0:09:11.10,Default,,0,0,0,,Lord for this wonderful meal and it's an expression of God's love that my
+Dialogue: 0,0:09:11.10,0:09:12.62,Default,,0,0,0,,needs are provided for.
+Dialogue: 0,0:09:12.62,0:09:20.84,Default,,0,0,0,,So I express my gratitude, my thankfulness, and that completes this
+Dialogue: 0,0:09:20.84,0:09:21.84,Default,,0,0,0,,circle.
+Dialogue: 0,0:09:21.84,0:09:36.21,Default,,0,0,0,,What would you say would be a useful prayer? I mean, when would you use prayer in helping
+Dialogue: 0,0:09:36.21,0:09:37.21,Default,,0,0,0,,others?
+Dialogue: 0,0:09:37.21,0:09:49.05,Default,,0,0,0,,Well, I think in a way, prayer is useful all the time. There is an admonition,
+Dialogue: 0,0:09:49.05,0:09:55.34,Default,,0,0,0,,you pray constantly. So you pray for yourself, you pray for others, you pray for
+Dialogue: 0,0:09:55.34,0:10:03.15,Default,,0,0,0,,the human condition, you pray for little animals who depend on you for their life,
+Dialogue: 0,0:10:03.15,0:10:10.39,Default,,0,0,0,,you pray for the ones you love, and in the meantime you thank God for all of the
+Dialogue: 0,0:10:10.39,0:10:18.32,Default,,0,0,0,,above. So I thank God that you are sitting next to me and giving me these
+Dialogue: 0,0:10:18.32,0:10:21.67,Default,,0,0,0,,questions to puzzle with.
+Dialogue: 0,0:10:21.67,0:10:25.61,Default,,0,0,0,,Well, when we have obstacles, would it be appropriate to ask God to help us?
+Dialogue: 0,0:10:25.61,0:10:26.61,Default,,0,0,0,,Yes.
+Dialogue: 0,0:10:26.61,0:10:34.71,Default,,0,0,0,,Is it appropriate to either see the obstacles to pray, to see the obstacles differently,
+Dialogue: 0,0:10:34.71,0:10:38.61,Default,,0,0,0,,or do we pray to learn from those obstacles?
+Dialogue: 0,0:10:38.61,0:10:44.12,Default,,0,0,0,,Well, it depends on how sophisticated the person is who is praying.
+Dialogue: 0,0:10:44.12,0:10:49.27,Default,,0,0,0,,Well, we're trying to get better, that's why I want you to specify this. I mean, I'm trying
+Dialogue: 0,0:10:49.27,0:10:55.17,Default,,0,0,0,,to get better at my prayer. Because, you know, it's, I mean, more sophisticated.
+Dialogue: 0,0:10:55.17,0:10:56.17,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:10:56.17,0:11:06.21,Default,,0,0,0,,Uh-huh. Well, you can see that the prayer is a personal thing of yourself. It also implies
+Dialogue: 0,0:11:06.21,0:11:14.48,Default,,0,0,0,,that Divinity is listening and capable of responding. You include your environment and
+Dialogue: 0,0:11:14.48,0:11:24.47,Default,,0,0,0,,all the people that you love, and the well-being of the world and all of life within that world.
+Dialogue: 0,0:11:24.47,0:11:31.16,Default,,0,0,0,,Well, there's been research that says that it's not just the spiritual world that's
+Dialogue: 0,0:11:31.16,0:11:36.15,Default,,0,0,0,,says that, I think it's, is it the Japanese man
+Dialogue: 0,0:11:36.15,0:11:40.08,Default,,0,0,0,,that did that whole book study on the water
+Dialogue: 0,0:11:40.08,0:11:43.32,Default,,0,0,0,,and you pray over it and it changes the complex.
+Dialogue: 0,0:11:43.32,0:11:45.27,Default,,0,0,0,,Oh, it changes the surface tension, yes.
+Dialogue: 0,0:11:45.86,0:11:50.40,Default,,0,0,0,,It changes the actual structure of the water.
+Dialogue: 0,0:11:50.85,0:11:52.71,Default,,0,0,0,,Yes, well, I'm not familiar with that study,
+Dialogue: 0,0:11:52.83,0:11:55.38,Default,,0,0,0,,although I've heard of it, yes.
+Dialogue: 0,0:11:56.07,0:11:59.66,Default,,0,0,0,,And so prayer, obviously,
+Dialogue: 0,0:11:59.66,0:12:02.73,Default,,0,0,0,,is capable of doing marvelous things.
+Dialogue: 0,0:12:04.01,0:12:07.98,Default,,0,0,0,,Well, of course, the mind wants it to be proven.
+Dialogue: 0,0:12:08.83,0:12:09.19,Default,,0,0,0,,Right.
+Dialogue: 0,0:12:09.45,0:12:12.47,Default,,0,0,0,,And faith doesn't require that it be proven.
+Dialogue: 0,0:12:14.52,0:12:19.51,Default,,0,0,0,,Whether it can be proven that God responds to my prayers or not,
+Dialogue: 0,0:12:20.35,0:12:22.07,Default,,0,0,0,,you know, is irrelevant to me
+Dialogue: 0,0:12:22.07,0:12:28.67,Default,,0,0,0,,because I'm presenting my view of myself and divinity
+Dialogue: 0,0:12:28.67,0:12:30.36,Default,,0,0,0,,and my relationship to divinity
+Dialogue: 0,0:12:30.36,0:12:32.13,Default,,0,0,0,,and I'm not sure if I'm going to be able to do that.
+Dialogue: 0,0:12:32.13,0:12:32.15,Default,,0,0,0,,Okay.
+Dialogue: 0,0:12:32.15,0:12:35.03,Default,,0,0,0,,And I'm not responsible for the results.
+Dialogue: 0,0:12:36.65,0:12:39.94,Default,,0,0,0,,I'm only responsible for my own attitude.
+Dialogue: 0,0:12:41.40,0:12:43.64,Default,,0,0,0,,So I thank God for everything in advance
+Dialogue: 0,0:12:43.64,0:12:46.58,Default,,0,0,0,,and whether there's a response or not
+Dialogue: 0,0:12:46.58,0:12:49.39,Default,,0,0,0,,is actually quite irrelevant, you know.
+Dialogue: 0,0:12:49.48,0:12:49.62,Default,,0,0,0,,Okay.
+Dialogue: 0,0:12:55.13,0:12:58.58,Default,,0,0,0,,You know, you pray to get to school on time
+Dialogue: 0,0:12:58.58,0:13:02.26,Default,,0,0,0,,and then you, you know that old joke,
+Dialogue: 0,0:13:03.07,0:13:05.00,Default,,0,0,0,,the kid prays that he's late for school,
+Dialogue: 0,0:13:05.00,0:13:08.54,Default,,0,0,0,,you pray to God to help me get to school on time.
+Dialogue: 0,0:13:09.00,0:13:11.37,Default,,0,0,0,,And then he gets to the curb and he trips and he says,
+Dialogue: 0,0:13:11.71,0:13:13.04,Default,,0,0,0,,but I didn't ask you to push me.
+Dialogue: 0,0:13:18.32,0:13:19.59,Default,,0,0,0,,I hadn't heard that one.
+Dialogue: 0,0:13:19.73,0:13:20.02,Default,,0,0,0,,That's good.
+Dialogue: 0,0:13:20.02,0:13:20.23,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:13:24.71,0:13:26.07,Default,,0,0,0,,Didn't ask you to push me.
+Dialogue: 0,0:13:27.25,0:13:34.76,Default,,0,0,0,,When you pray, a lot of times,
+Dialogue: 0,0:13:35.49,0:13:37.97,Default,,0,0,0,,I mean, I find that my prayers are usually
+Dialogue: 0,0:13:37.97,0:13:40.42,Default,,0,0,0,,for other people a lot of the time.
+Dialogue: 0,0:13:40.76,0:13:41.42,Default,,0,0,0,,For the people.
+Dialogue: 0,0:13:41.71,0:13:42.49,Default,,0,0,0,,For other people.
+Dialogue: 0,0:13:42.64,0:13:42.97,Default,,0,0,0,,Yes.
+Dialogue: 0,0:13:42.97,0:13:43.14,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:13:44.19,0:13:45.16,Default,,0,0,0,,And so,
+Dialogue: 0,0:13:46.72,0:13:49.87,Default,,0,0,0,,is it appropriate to ask prayers for yourself?
+Dialogue: 0,0:13:51.69,0:13:53.50,Default,,0,0,0,,Well, I think so.
+Dialogue: 0,0:13:53.99,0:13:54.28,Default,,0,0,0,,Right.
+Dialogue: 0,0:13:54.88,0:13:56.92,Default,,0,0,0,,I mean, if you're all alone out in the woods,
+Dialogue: 0,0:13:57.00,0:13:58.23,Default,,0,0,0,,who else is going to pray for you?
+Dialogue: 0,0:14:00.20,0:14:02.70,Default,,0,0,0,,You can say, dear God, I'm lost in these woods.
+Dialogue: 0,0:14:04.13,0:14:05.25,Default,,0,0,0,,Don't know where I am.
+Dialogue: 0,0:14:05.39,0:14:06.46,Default,,0,0,0,,I've lost my compass
+Dialogue: 0,0:14:06.46,0:14:10.49,Default,,0,0,0,,and the animals have run off with my food.
+Dialogue: 0,0:14:12.75,0:14:13.99,Default,,0,0,0,,This is you and God.
+Dialogue: 0,0:14:16.13,0:14:18.67,Default,,0,0,0,,Well, could be God's way of telling you
+Dialogue: 0,0:14:18.67,0:14:20.29,Default,,0,0,0,,this is your last day on earth.
+Dialogue: 0,0:14:20.34,0:14:20.55,Default,,0,0,0,,See?
+Dialogue: 0,0:14:24.62,0:14:26.69,Default,,0,0,0,,So, when you outline,
+Dialogue: 0,0:14:27.33,0:14:27.66,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:14:28.12,0:14:31.35,Default,,0,0,0,,is that saying that you want this outcome
+Dialogue: 0,0:14:31.35,0:14:32.97,Default,,0,0,0,,because you're praying to God?
+Dialogue: 0,0:14:33.71,0:14:36.16,Default,,0,0,0,,To outline is, you know, like telling God his business.
+Dialogue: 0,0:14:37.42,0:14:41.63,Default,,0,0,0,,Like, you need so much money and you need it by Monday.
+Dialogue: 0,0:14:46.42,0:14:51.04,Default,,0,0,0,,Outlining is telling God how to provide for you
+Dialogue: 0,0:14:51.04,0:14:52.62,Default,,0,0,0,,according to your needs.
+Dialogue: 0,0:14:52.63,0:14:54.63,Default,,0,0,0,,So, you're asking for your will
+Dialogue: 0,0:14:54.63,0:14:58.69,Default,,0,0,0,,instead of asking for God's will.
+Dialogue: 0,0:14:58.69,0:15:00.69,Default,,0,0,0,,So, your will may be to get it
+Dialogue: 0,0:15:00.69,0:15:02.69,Default,,0,0,0,,and his will may be that you don't get it.
+Dialogue: 0,0:15:04.69,0:15:06.69,Default,,0,0,0,,Right.
+Dialogue: 0,0:15:06.69,0:15:08.69,Default,,0,0,0,,If you get more rich or more famous,
+Dialogue: 0,0:15:08.69,0:15:10.69,Default,,0,0,0,,you're going to be in worse shape than you are already.
+Dialogue: 0,0:15:10.69,0:15:13.16,Default,,0,0,0,,So,
+Dialogue: 0,0:15:13.16,0:15:18.91,Default,,0,0,0,,everybody wants to be rich and famous.
+Dialogue: 0,0:15:20.98,0:15:24.58,Default,,0,0,0,,Of course, it's deadly.
+Dialogue: 0,0:15:24.58,0:15:27.91,Default,,0,0,0,,The Daily News will tell you
+Dialogue: 0,0:15:27.91,0:15:32.61,Default,,0,0,0,,how much good it does you.
+Dialogue: 0,0:15:32.61,0:15:34.49,Default,,0,0,0,,But, again, that all depends on personal.
+Dialogue: 0,0:15:34.49,0:15:38.84,Default,,0,0,0,,Carmen, you can't say it's due to success and fame.
+Dialogue: 0,0:15:38.84,0:15:42.41,Default,,0,0,0,,Some people it benefits them tremendously
+Dialogue: 0,0:15:42.41,0:15:45.74,Default,,0,0,0,,and other people it sort of ends their life.
+Dialogue: 0,0:15:45.74,0:15:49.89,Default,,0,0,0,,Well, like, some people do good with what they have.
+Dialogue: 0,0:15:49.89,0:15:50.89,Default,,0,0,0,,They do, indeed.
+Dialogue: 0,0:15:50.89,0:15:51.89,Default,,0,0,0,,Accumulated.
+Dialogue: 0,0:15:51.89,0:15:52.89,Default,,0,0,0,,Yes.
+Dialogue: 0,0:15:52.89,0:15:53.89,Default,,0,0,0,,Accumulated.
+Dialogue: 0,0:15:53.89,0:15:56.89,Default,,0,0,0,,They do all types of wonderful things for people.
+Dialogue: 0,0:15:56.89,0:15:58.89,Default,,0,0,0,,They really do.
+Dialogue: 0,0:15:58.89,0:16:05.52,Default,,0,0,0,,And there's other people that would not do that if they had it.
+Dialogue: 0,0:16:05.52,0:16:06.52,Default,,0,0,0,,So, in some cases,
+Dialogue: 0,0:16:06.52,0:16:08.52,Default,,0,0,0,,it's beneficial.
+Dialogue: 0,0:16:08.52,0:16:09.52,Default,,0,0,0,,In other cases,
+Dialogue: 0,0:16:09.52,0:16:12.52,Default,,0,0,0,,it brings their life to an end almost.
+Dialogue: 0,0:16:14.52,0:16:16.52,Default,,0,0,0,,Get hooked up on fame and money.
+Dialogue: 0,0:16:19.54,0:16:22.54,Default,,0,0,0,,So, is the ego a little bit in there?
+Dialogue: 0,0:16:22.54,0:16:23.54,Default,,0,0,0,,You know, when you...
+Dialogue: 0,0:16:23.54,0:16:25.54,Default,,0,0,0,,More than a little bit.
+Dialogue: 0,0:16:25.54,0:16:26.54,Default,,0,0,0,,It's all there.
+Dialogue: 0,0:16:28.89,0:16:29.89,Default,,0,0,0,,Money and fame.
+Dialogue: 0,0:16:32.96,0:16:36.12,Default,,0,0,0,,I was trying to be nice.
+Dialogue: 0,0:16:36.12,0:16:45.12,Default,,0,0,0,,That's the old Zen in there, you know.
+Dialogue: 0,0:16:45.12,0:16:47.12,Default,,0,0,0,,Right?
+Dialogue: 0,0:16:47.12,0:16:49.12,Default,,0,0,0,,Just give me a little money and fame.
+Dialogue: 0,0:16:49.12,0:16:50.12,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:16:50.12,0:16:52.12,Default,,0,0,0,,Like a million or two.
+Dialogue: 0,0:16:52.12,0:16:53.12,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:16:53.12,0:16:54.98,Default,,0,0,0,,To a lot of people,
+Dialogue: 0,0:16:54.98,0:16:57.98,Default,,0,0,0,,a million or two would be a small change.
+Dialogue: 0,0:16:57.98,0:16:59.00,Default,,0,0,0,,Right.
+Dialogue: 0,0:16:59.00,0:17:01.00,Default,,0,0,0,,I knew people back in the East,
+Dialogue: 0,0:17:01.00,0:17:04.29,Default,,0,0,0,,they would consider that a small change.
+Dialogue: 0,0:17:04.29,0:17:08.54,Default,,0,0,0,,But, also, you know, I mean,
+Dialogue: 0,0:17:08.54,0:17:10.54,Default,,0,0,0,,you've also talked about karma
+Dialogue: 0,0:17:10.54,0:17:16.59,Default,,0,0,0,,and how karmically you have to earn that quality, too.
+Dialogue: 0,0:17:16.59,0:17:22.79,Default,,0,0,0,,That's not a familiar concept in the West of karma.
+Dialogue: 0,0:17:22.79,0:17:23.79,Default,,0,0,0,,Right.
+Dialogue: 0,0:17:23.79,0:17:26.79,Default,,0,0,0,,But karmically, you have to be able to handle it
+Dialogue: 0,0:17:26.79,0:17:27.79,Default,,0,0,0,,because a lot of people,
+Dialogue: 0,0:17:27.79,0:17:28.79,Default,,0,0,0,,when they hit the lottery,
+Dialogue: 0,0:17:28.79,0:17:30.79,Default,,0,0,0,,they just can't handle any of that.
+Dialogue: 0,0:17:30.79,0:17:31.79,Default,,0,0,0,,Yes.
+Dialogue: 0,0:17:31.79,0:17:32.79,Default,,0,0,0,,It routinely destroys people.
+Dialogue: 0,0:17:32.79,0:17:33.79,Default,,0,0,0,,Right.
+Dialogue: 0,0:17:33.79,0:17:37.29,Default,,0,0,0,,The unexpected.
+Dialogue: 0,0:17:37.29,0:17:43.34,Default,,0,0,0,,And they just go under very fast.
+Dialogue: 0,0:17:43.34,0:17:45.18,Default,,0,0,0,,Yes.
+Dialogue: 0,0:17:45.18,0:17:47.18,Default,,0,0,0,,I'm sure people who win the lottery,
+Dialogue: 0,0:17:47.18,0:17:50.75,Default,,0,0,0,,it's pretty grim.
+Dialogue: 0,0:17:50.75,0:17:55.35,Default,,0,0,0,,High divorce, high suicide, alcohol and drugs.
+Dialogue: 0,0:17:55.35,0:17:57.35,Default,,0,0,0,,Their family quit talking to them, you know.
+Dialogue: 0,0:17:57.35,0:18:00.35,Default,,0,0,0,,There's lots of, I mean, I know a few.
+Dialogue: 0,0:18:00.35,0:18:02.35,Default,,0,0,0,,There's lots of them that their family,
+Dialogue: 0,0:18:02.35,0:18:04.35,Default,,0,0,0,,you know, they no longer will talk to them.
+Dialogue: 0,0:18:04.35,0:18:05.35,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,0:18:05.35,0:18:08.35,Default,,0,0,0,,You know, because they want money from them.
+Dialogue: 0,0:18:08.35,0:18:09.35,Default,,0,0,0,,Yes, that's true.
+Dialogue: 0,0:18:09.35,0:18:11.35,Default,,0,0,0,,You know, you need to help all of us
+Dialogue: 0,0:18:11.35,0:18:13.35,Default,,0,0,0,,because we're family.
+Dialogue: 0,0:18:15.35,0:18:16.35,Default,,0,0,0,,So there's a lot of things
+Dialogue: 0,0:18:16.35,0:18:17.35,Default,,0,0,0,,that are attached to it.
+Dialogue: 0,0:18:17.35,0:18:19.35,Default,,0,0,0,,A little green-eyed monster comes in.
+Dialogue: 0,0:18:19.35,0:18:20.35,Default,,0,0,0,,Right.
+Dialogue: 0,0:18:20.35,0:18:21.35,Default,,0,0,0,,And I don't think other people realize that
+Dialogue: 0,0:18:21.35,0:18:23.86,Default,,0,0,0,,until they are there.
+Dialogue: 0,0:18:23.86,0:18:25.86,Default,,0,0,0,,The green-eyed monster.
+Dialogue: 0,0:18:25.86,0:18:26.86,Default,,0,0,0,,Right.
+Dialogue: 0,0:18:29.86,0:18:36.19,Default,,0,0,0,,So prayer is useful in our everyday lives.
+Dialogue: 0,0:18:36.19,0:18:42.69,Default,,0,0,0,,And in order to use it in our everyday lives,
+Dialogue: 0,0:18:42.69,0:18:47.69,Default,,0,0,0,,let's say that we're going to do a whole day in our life.
+Dialogue: 0,0:18:47.69,0:18:50.69,Default,,0,0,0,,So we start off with prayer in the morning,
+Dialogue: 0,0:18:50.69,0:18:53.69,Default,,0,0,0,,asking God to give us a wonderful day.
+Dialogue: 0,0:18:53.69,0:18:57.75,Default,,0,0,0,,Or what do we say when we start off in the morning?
+Dialogue: 0,0:18:57.75,0:19:01.95,Default,,0,0,0,,Well, we dedicate the day that I serve as the Lord
+Dialogue: 0,0:19:01.95,0:19:05.07,Default,,0,0,0,,and I ask how I can be beneficial
+Dialogue: 0,0:19:05.07,0:19:09.40,Default,,0,0,0,,to your intention for others.
+Dialogue: 0,0:19:09.40,0:19:15.39,Default,,0,0,0,,I try to serve God and I try to serve my fellow man.
+Dialogue: 0,0:19:15.39,0:19:18.48,Default,,0,0,0,,And by serving my fellow man, I serve God.
+Dialogue: 0,0:19:18.48,0:19:20.48,Default,,0,0,0,,God doesn't need my service,
+Dialogue: 0,0:19:20.48,0:19:26.55,Default,,0,0,0,,but I'm very cooperative with God.
+Dialogue: 0,0:19:26.55,0:19:29.55,Default,,0,0,0,,And then we pray over our food and bless it.
+Dialogue: 0,0:19:29.55,0:19:32.00,Default,,0,0,0,,Yeah, we acknowledge.
+Dialogue: 0,0:19:32.00,0:19:36.00,Default,,0,0,0,,We acknowledge the sovereignty of divinity.
+Dialogue: 0,0:19:36.00,0:19:40.02,Default,,0,0,0,,I mean, we don't have to make a big production over it.
+Dialogue: 0,0:19:40.02,0:19:42.02,Default,,0,0,0,,You can say it silently before you eat.
+Dialogue: 0,0:19:42.02,0:19:44.02,Default,,0,0,0,,That's what you can do, yes.
+Dialogue: 0,0:19:44.02,0:19:48.70,Default,,0,0,0,,You don't have to do a big production out of it.
+Dialogue: 0,0:19:48.70,0:19:52.24,Default,,0,0,0,,Yes, that's correct, yes.
+Dialogue: 0,0:19:52.24,0:19:54.24,Default,,0,0,0,,Especially in public places, you know.
+Dialogue: 0,0:19:54.24,0:19:57.24,Default,,0,0,0,,Well, I've always felt that prayer was more personal,
+Dialogue: 0,0:19:57.24,0:19:59.24,Default,,0,0,0,,on a personal level.
+Dialogue: 0,0:19:59.24,0:20:02.40,Default,,0,0,0,,That was my communication.
+Dialogue: 0,0:20:02.40,0:20:03.40,Default,,0,0,0,,Yes.
+Dialogue: 0,0:20:03.40,0:20:08.40,Default,,0,0,0,,You know, with a special higher being.
+Dialogue: 0,0:20:08.40,0:20:13.40,Default,,0,0,0,,So I always took it to more of a personal level than a public.
+Dialogue: 0,0:20:13.40,0:20:14.52,Default,,0,0,0,,Yes.
+Dialogue: 0,0:20:14.52,0:20:16.52,Default,,0,0,0,,Yes, it's sort of a family feeling to it.
+Dialogue: 0,0:20:16.52,0:20:17.52,Default,,0,0,0,,Right.
+Dialogue: 0,0:20:17.52,0:20:22.88,Default,,0,0,0,,As dinner is served, you all give thanks for this meal
+Dialogue: 0,0:20:22.88,0:20:23.88,Default,,0,0,0,,and bless it.
+Dialogue: 0,0:20:23.88,0:20:24.88,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:20:24.88,0:20:28.10,Default,,0,0,0,,In God's name, with gratitude.
+Dialogue: 0,0:20:28.10,0:20:29.10,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:20:29.10,0:20:30.49,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:20:30.49,0:20:33.75,Default,,0,0,0,,You know, you live life one day at a time,
+Dialogue: 0,0:20:33.75,0:20:36.16,Default,,0,0,0,,grateful for God's gifts
+Dialogue: 0,0:20:36.16,0:20:40.16,Default,,0,0,0,,and the benefits that your life can have in others.
+Dialogue: 0,0:20:40.16,0:20:41.16,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:20:41.16,0:20:42.16,Default,,0,0,0,,Well, what would you say to someone
+Dialogue: 0,0:20:42.16,0:20:46.54,Default,,0,0,0,,who doesn't believe in God or prayer?
+Dialogue: 0,0:20:46.54,0:20:52.19,Default,,0,0,0,,I would say not to worry about it.
+Dialogue: 0,0:20:52.19,0:20:54.19,Default,,0,0,0,,Okay.
+Dialogue: 0,0:20:54.19,0:20:56.19,Default,,0,0,0,,I mean, there's plenty of people out there
+Dialogue: 0,0:20:56.19,0:21:00.73,Default,,0,0,0,,in structured religions that would not agree with you, but...
+Dialogue: 0,0:21:00.73,0:21:07.00,Default,,0,0,0,,Well, the faster trail to God is theoretically through prayer
+Dialogue: 0,0:21:07.00,0:21:10.29,Default,,0,0,0,,and divine service.
+Dialogue: 0,0:21:10.29,0:21:11.29,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:21:11.29,0:21:15.29,Default,,0,0,0,,But also the miraculous occurs out of unexpectedness.
+Dialogue: 0,0:21:15.29,0:21:16.29,Default,,0,0,0,,Okay.
+Dialogue: 0,0:21:16.29,0:21:19.29,Default,,0,0,0,,And I've seen people go from an atheist
+Dialogue: 0,0:21:19.29,0:21:23.32,Default,,0,0,0,,to a profound believer in a matter of seconds.
+Dialogue: 0,0:21:23.32,0:21:26.25,Default,,0,0,0,,Wham!
+Dialogue: 0,0:21:26.25,0:21:28.25,Default,,0,0,0,,And all of a sudden you're hit by a bolt of lightning
+Dialogue: 0,0:21:28.25,0:21:35.27,Default,,0,0,0,,and during World War II, I remember that, for instance.
+Dialogue: 0,0:21:35.27,0:21:41.90,Default,,0,0,0,,The guy's an atheist, but as the kamikaze pilots came down
+Dialogue: 0,0:21:41.90,0:21:46.00,Default,,0,0,0,,and the bullets started flying, they suddenly found God.
+Dialogue: 0,0:21:46.00,0:21:50.38,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:21:50.38,0:21:53.38,Default,,0,0,0,,Well, you've often said that, you know,
+Dialogue: 0,0:21:53.38,0:22:03.77,Default,,0,0,0,,to go into the bullets knowing the outcome
+Dialogue: 0,0:22:03.77,0:22:05.06,Default,,0,0,0,,is a very...
+Dialogue: 0,0:22:05.06,0:22:08.06,Default,,0,0,0,,a very high state.
+Dialogue: 0,0:22:08.06,0:22:12.74,Default,,0,0,0,,That is a state of surrender.
+Dialogue: 0,0:22:12.74,0:22:17.79,Default,,0,0,0,,In that particular culture, the divinity includes
+Dialogue: 0,0:22:17.79,0:22:25.52,Default,,0,0,0,,what we would call more the governmental power structure.
+Dialogue: 0,0:22:25.52,0:22:32.60,Default,,0,0,0,,So in that particular society,
+Dialogue: 0,0:22:32.60,0:22:35.60,Default,,0,0,0,,I respected their devotion to God
+Dialogue: 0,0:22:35.60,0:22:37.60,Default,,0,0,0,,and their willingness to surrender their life
+Dialogue: 0,0:22:37.60,0:22:40.38,Default,,0,0,0,,to the good of their country.
+Dialogue: 0,0:22:40.38,0:22:43.38,Default,,0,0,0,,Which they understood to be the way to serve God.
+Dialogue: 0,0:22:43.38,0:22:47.68,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:22:47.68,0:22:49.68,Default,,0,0,0,,It also made them very dangerous.
+Dialogue: 0,0:22:49.68,0:22:54.56,Default,,0,0,0,,Because if they're doing it for God, you know,
+Dialogue: 0,0:22:54.56,0:22:58.73,Default,,0,0,0,,they're willing to take any risk, including taking your life with them.
+Dialogue: 0,0:22:58.73,0:22:59.73,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:22:59.73,0:23:00.73,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:23:00.73,0:23:05.11,Default,,0,0,0,,So I respected their devotion and their belief system.
+Dialogue: 0,0:23:05.11,0:23:11.11,Default,,0,0,0,,Is there any repercussion for taking another human being's life?
+Dialogue: 0,0:23:11.11,0:23:13.11,Default,,0,0,0,,I mean, can you answer that question?
+Dialogue: 0,0:23:13.11,0:23:16.11,Default,,0,0,0,,Or am I asking something that I shouldn't?
+Dialogue: 0,0:23:16.11,0:23:20.11,Default,,0,0,0,,Well, that could take the next hour to answer.
+Dialogue: 0,0:23:20.11,0:23:21.11,Default,,0,0,0,,That's what I thought.
+Dialogue: 0,0:23:21.11,0:23:23.11,Default,,0,0,0,,That's what I thought.
+Dialogue: 0,0:23:23.11,0:23:27.11,Default,,0,0,0,,I mean, what are the, you know, karma is in that.
+Dialogue: 0,0:23:27.11,0:23:31.11,Default,,0,0,0,,Well, you have the overall context.
+Dialogue: 0,0:23:31.11,0:23:32.11,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:23:32.11,0:23:34.11,Default,,0,0,0,,And then you have the intention.
+Dialogue: 0,0:23:34.11,0:23:38.40,Default,,0,0,0,,Then you have the person's capability for comprehension.
+Dialogue: 0,0:23:38.40,0:23:40.40,Default,,0,0,0,,And then you have the duty in there if you're doing that.
+Dialogue: 0,0:23:40.40,0:23:42.40,Default,,0,0,0,,And then if you're in the service, you've got a duty.
+Dialogue: 0,0:23:42.40,0:23:44.40,Default,,0,0,0,,That's right.
+Dialogue: 0,0:23:44.40,0:23:46.40,Default,,0,0,0,,So what are the complications of that?
+Dialogue: 0,0:23:46.40,0:23:49.40,Default,,0,0,0,,Obligation to your fellow man.
+Dialogue: 0,0:23:49.40,0:23:51.59,Default,,0,0,0,,So there's several.
+Dialogue: 0,0:23:51.59,0:23:53.59,Default,,0,0,0,,It's layered then.
+Dialogue: 0,0:23:53.59,0:23:55.59,Default,,0,0,0,,The complications are layered in that.
+Dialogue: 0,0:23:55.59,0:23:56.59,Default,,0,0,0,,Multiplicities.
+Dialogue: 0,0:23:56.59,0:23:57.59,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:23:57.59,0:24:00.00,Default,,0,0,0,,Layer upon layer.
+Dialogue: 0,0:24:00.00,0:24:02.00,Default,,0,0,0,,You do a thing out of devotion.
+Dialogue: 0,0:24:02.00,0:24:04.35,Default,,0,0,0,,That means you believe in God.
+Dialogue: 0,0:24:04.35,0:24:08.46,Default,,0,0,0,,And so that depends on your background.
+Dialogue: 0,0:24:08.46,0:24:12.46,Default,,0,0,0,,And your background may preclude such kind of attitudes.
+Dialogue: 0,0:24:12.46,0:24:13.75,Default,,0,0,0,,Or it may not.
+Dialogue: 0,0:24:13.75,0:24:15.75,Default,,0,0,0,,It may require it.
+Dialogue: 0,0:24:15.75,0:24:18.75,Default,,0,0,0,,So it depends on the culture in which you grow up.
+Dialogue: 0,0:24:18.75,0:24:19.75,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:24:19.75,0:24:22.71,Default,,0,0,0,,Depends on the culture.
+Dialogue: 0,0:24:22.71,0:24:30.05,Default,,0,0,0,,Because many times, you know, people say, well, you know, what kind of person would take another person's life?
+Dialogue: 0,0:24:30.05,0:24:33.05,Default,,0,0,0,,And it weighs very heavily on our servicemen.
+Dialogue: 0,0:24:33.05,0:24:35.05,Default,,0,0,0,,Indeed it does.
+Dialogue: 0,0:24:35.05,0:24:44.05,Default,,0,0,0,,That they, you know, because I hear so many times, you know, you being in the service, say, I'm so glad I did not have to kill someone.
+Dialogue: 0,0:24:44.05,0:24:45.05,Default,,0,0,0,,I was personally.
+Dialogue: 0,0:24:45.05,0:24:47.05,Default,,0,0,0,,You were on the ship.
+Dialogue: 0,0:24:47.05,0:24:49.05,Default,,0,0,0,,But you almost got blown up yourself.
+Dialogue: 0,0:24:49.05,0:24:55.05,Default,,0,0,0,,But, I mean, you often say, I'm so glad I did not have to take another person's life.
+Dialogue: 0,0:24:55.05,0:24:57.05,Default,,0,0,0,,Well, that way I wouldn't.
+Dialogue: 0,0:24:57.05,0:25:00.05,Default,,0,0,0,,Otherwise, I would spend the rest of my life thinking about that.
+Dialogue: 0,0:25:00.05,0:25:02.05,Default,,0,0,0,,What that person could have been like.
+Dialogue: 0,0:25:02.05,0:25:05.22,Default,,0,0,0,,Did I have the right to take their life?
+Dialogue: 0,0:25:05.22,0:25:13.22,Default,,0,0,0,,But out of duty, don't you think that that is forgiven because you were doing it out of what had to be done?
+Dialogue: 0,0:25:13.22,0:25:15.22,Default,,0,0,0,,What had to be done at that time?
+Dialogue: 0,0:25:15.22,0:25:18.25,Default,,0,0,0,,Well, it isn't just a matter of forgiveness.
+Dialogue: 0,0:25:18.25,0:25:20.25,Default,,0,0,0,,It's a matter of personal responsibility.
+Dialogue: 0,0:25:20.25,0:25:23.25,Default,,0,0,0,,You know, it's like you run over a pedestrian.
+Dialogue: 0,0:25:23.25,0:25:26.31,Default,,0,0,0,,You know, you weren't malicious.
+Dialogue: 0,0:25:26.31,0:25:28.70,Default,,0,0,0,,You didn't intend to kill them.
+Dialogue: 0,0:25:28.70,0:25:32.70,Default,,0,0,0,,But you ran over some little six-year-old in the intersection.
+Dialogue: 0,0:25:32.70,0:25:35.70,Default,,0,0,0,,And so that weighs heavily on you.
+Dialogue: 0,0:25:35.70,0:25:39.70,Default,,0,0,0,,That little child, that child could have been.
+Dialogue: 0,0:25:39.70,0:25:44.26,Default,,0,0,0,,And, of course, all of these occasions.
+Dialogue: 0,0:25:44.26,0:25:47.26,Default,,0,0,0,,Bring up, you know, the concept of karma.
+Dialogue: 0,0:25:47.26,0:25:50.26,Default,,0,0,0,,What was that little child's karmic background?
+Dialogue: 0,0:25:50.26,0:26:00.83,Default,,0,0,0,,And so self-forgiveness is difficult under certain circumstances in which you cannot see the innocence.
+Dialogue: 0,0:26:00.83,0:26:07.06,Default,,0,0,0,,You could say that in one respect, everyone is innocent all the time for everything.
+Dialogue: 0,0:26:07.06,0:26:13.21,Default,,0,0,0,,If you knew divine will, you wouldn't be doing what you're doing.
+Dialogue: 0,0:26:13.21,0:26:15.21,Default,,0,0,0,,But you don't know divine will.
+Dialogue: 0,0:26:15.21,0:26:17.27,Default,,0,0,0,,So to what degree are.
+Dialogue: 0,0:26:17.27,0:26:20.27,Default,,0,0,0,,Is anyone responsible for their behavior?
+Dialogue: 0,0:26:20.27,0:26:22.27,Default,,0,0,0,,And under what conditions?
+Dialogue: 0,0:26:22.27,0:26:26.65,Default,,0,0,0,,Under certain conditions, everybody's responsible for everything.
+Dialogue: 0,0:26:26.65,0:26:34.48,Default,,0,0,0,,And under others, they're not responsible for anything.
+Dialogue: 0,0:26:34.48,0:26:37.57,Default,,0,0,0,,So let's say you're driving down the street.
+Dialogue: 0,0:26:37.57,0:26:46.31,Default,,0,0,0,,And all of a sudden, you hit someone.
+Dialogue: 0,0:26:46.31,0:26:49.31,Default,,0,0,0,,And you killed them.
+Dialogue: 0,0:26:49.31,0:26:56.32,Default,,0,0,0,,So karmically, you were there at that time.
+Dialogue: 0,0:26:56.32,0:26:57.32,Default,,0,0,0,,The responsibility.
+Dialogue: 0,0:26:57.32,0:26:58.32,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:26:58.32,0:27:00.32,Default,,0,0,0,,But not necessarily the guilt.
+Dialogue: 0,0:27:00.32,0:27:01.32,Default,,0,0,0,,Okay.
+Dialogue: 0,0:27:01.32,0:27:03.32,Default,,0,0,0,,The average person would feel guilty, of course.
+Dialogue: 0,0:27:03.32,0:27:04.32,Default,,0,0,0,,Yes.
+Dialogue: 0,0:27:04.32,0:27:12.55,Default,,0,0,0,,Even if it was the pedestrian's fault, you would still feel guilty that it was your car that killed them.
+Dialogue: 0,0:27:12.55,0:27:17.76,Default,,0,0,0,,And, of course, death has grave consequences.
+Dialogue: 0,0:27:17.76,0:27:19.76,Default,,0,0,0,,But do you think that.
+Dialogue: 0,0:27:19.76,0:27:20.76,Default,,0,0,0,,But do you think that.
+Dialogue: 0,0:27:20.76,0:27:29.31,Default,,0,0,0,,Do you think that God or the higher awareness would know that you could handle that?
+Dialogue: 0,0:27:29.31,0:27:35.04,Default,,0,0,0,,I mean, do you think that God only gives us things that we can handle?
+Dialogue: 0,0:27:35.04,0:27:40.95,Default,,0,0,0,,I haven't spent any time thinking about.
+Dialogue: 0,0:27:40.95,0:27:41.95,Default,,0,0,0,,Okay.
+Dialogue: 0,0:27:41.95,0:27:48.51,Default,,0,0,0,,Whether God goes through that kind of a process with each and every one of us.
+Dialogue: 0,0:27:48.51,0:27:56.58,Default,,0,0,0,,And to me, it's more that God sets the setting in which things are matters of dominion.
+Dialogue: 0,0:27:56.58,0:28:00.75,Default,,0,0,0,,And then within that dominion, you have a certain degree of freedom.
+Dialogue: 0,0:28:00.75,0:28:05.48,Default,,0,0,0,,But it's only a matter of degree of freedom.
+Dialogue: 0,0:28:05.48,0:28:08.48,Default,,0,0,0,,None of us are totally free.
+Dialogue: 0,0:28:08.48,0:28:11.48,Default,,0,0,0,,You know, I can't decide to be six feet tall.
+Dialogue: 0,0:28:11.48,0:28:14.72,Default,,0,0,0,,I'm a few inches too short.
+Dialogue: 0,0:28:14.72,0:28:24.26,Default,,0,0,0,,When I went in the service, I was undersized and underweight, you know.
+Dialogue: 0,0:28:24.26,0:28:28.72,Default,,0,0,0,,So he says, he held me up there.
+Dialogue: 0,0:28:28.72,0:28:29.72,Default,,0,0,0,,He says, stand there.
+Dialogue: 0,0:28:29.72,0:28:31.72,Default,,0,0,0,,He says, shorty.
+Dialogue: 0,0:28:31.72,0:28:33.72,Default,,0,0,0,,I forget how tall I was.
+Dialogue: 0,0:28:33.72,0:28:35.88,Default,,0,0,0,,I don't know, five foot something, really.
+Dialogue: 0,0:28:35.88,0:28:38.88,Default,,0,0,0,,He says, you don't quite make it.
+Dialogue: 0,0:28:38.88,0:28:39.88,Default,,0,0,0,,Stand on your toes.
+Dialogue: 0,0:28:39.88,0:28:40.88,Default,,0,0,0,,He says, okay, now you make it.
+Dialogue: 0,0:28:40.88,0:28:44.06,Default,,0,0,0,,He says, you pass.
+Dialogue: 0,0:28:44.06,0:28:46.06,Default,,0,0,0,,Then he told me to get on the scale.
+Dialogue: 0,0:28:46.06,0:28:49.25,Default,,0,0,0,,And I didn't pass.
+Dialogue: 0,0:28:49.25,0:28:54.57,Default,,0,0,0,,So he said, I want you to go out and eat bananas and come back in a month.
+Dialogue: 0,0:28:54.57,0:29:00.57,Default,,0,0,0,,So I went out and I stuffed myself with bananas around the clock.
+Dialogue: 0,0:29:00.57,0:29:05.71,Default,,0,0,0,,And I came back and I stood on the scale.
+Dialogue: 0,0:29:05.71,0:29:13.05,Default,,0,0,0,,And he put his thumb on the scale and he says, oh, you just make it.
+Dialogue: 0,0:29:13.05,0:29:17.49,Default,,0,0,0,,I wasn't really tall enough.
+Dialogue: 0,0:29:17.49,0:29:19.80,Default,,0,0,0,,I didn't weigh enough.
+Dialogue: 0,0:29:19.80,0:29:25.09,Default,,0,0,0,,And I wasn't really quite physically strong enough either.
+Dialogue: 0,0:29:25.09,0:29:27.09,Default,,0,0,0,,But I wanted to be in the service.
+Dialogue: 0,0:29:27.09,0:29:29.79,Default,,0,0,0,,And so I was.
+Dialogue: 0,0:29:29.79,0:29:39.91,Default,,0,0,0,,And I am very grateful for the opportunity I had to serve the country and be with my shipmates.
+Dialogue: 0,0:29:39.91,0:29:47.16,Default,,0,0,0,,And we sent Christmas cards to each other after the world was over for many years, every year.
+Dialogue: 0,0:29:47.16,0:29:52.76,Default,,0,0,0,,But each year, the number of Christmas cards I got would diminish.
+Dialogue: 0,0:29:52.76,0:29:55.76,Default,,0,0,0,,Now I don't get any more Christmas cards.
+Dialogue: 0,0:29:55.76,0:30:01.33,Default,,0,0,0,,So I'm the last survivor from the ship.
+Dialogue: 0,0:30:01.33,0:30:03.50,Default,,0,0,0,,The last survivor.
+Dialogue: 0,0:30:03.50,0:30:06.50,Default,,0,0,0,,The YMS-46.
+Dialogue: 0,0:30:06.50,0:30:17.88,Default,,0,0,0,,Well, you often talk about how all of you that served together were, you had this certain camaraderie, you know, among you.
+Dialogue: 0,0:30:17.88,0:30:22.88,Default,,0,0,0,,And, I mean, this was years ago and you still were sending cards, you know, every Christmas.
+Dialogue: 0,0:30:22.88,0:30:23.88,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,0:30:23.88,0:30:24.88,Default,,0,0,0,,That's true.
+Dialogue: 0,0:30:24.88,0:30:26.88,Default,,0,0,0,,You never forgot that.
+Dialogue: 0,0:30:26.88,0:30:27.88,Default,,0,0,0,,No.
+Dialogue: 0,0:30:27.88,0:30:31.88,Default,,0,0,0,,Serving together in that wartime situation.
+Dialogue: 0,0:30:31.88,0:30:32.88,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:30:32.88,0:30:33.88,Default,,0,0,0,,We were bonded for a lifetime.
+Dialogue: 0,0:30:33.88,0:30:37.35,Default,,0,0,0,,We were bonded together for the rest of our lives.
+Dialogue: 0,0:30:37.35,0:30:43.59,Default,,0,0,0,,And I'm the last remaining member of the crew.
+Dialogue: 0,0:30:43.59,0:30:45.59,Default,,0,0,0,,Well, I think you were the youngest, weren't you?
+Dialogue: 0,0:30:45.59,0:30:46.82,Default,,0,0,0,,I don't remember.
+Dialogue: 0,0:30:46.82,0:30:47.82,Default,,0,0,0,,I was the smallest.
+Dialogue: 0,0:30:50.82,0:30:51.82,Default,,0,0,0,,The lightest.
+Dialogue: 0,0:30:51.82,0:30:53.82,Default,,0,0,0,,They called me Shorty.
+Dialogue: 0,0:30:53.82,0:30:56.44,Default,,0,0,0,,And, yeah.
+Dialogue: 0,0:30:56.44,0:31:01.92,Default,,0,0,0,,I was the smallest member of the crew.
+Dialogue: 0,0:31:01.92,0:31:04.55,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:31:04.55,0:31:19.27,Default,,0,0,0,,So prayer plays a, if we use it daily in our lives, do you think that betters our life?
+Dialogue: 0,0:31:19.27,0:31:24.30,Default,,0,0,0,,Well, the prayer is several different kinds of prayer.
+Dialogue: 0,0:31:24.30,0:31:27.30,Default,,0,0,0,,One is a prayer for the general welfare of others.
+Dialogue: 0,0:31:27.30,0:31:31.81,Default,,0,0,0,,Then there's specific prayers for specific events.
+Dialogue: 0,0:31:31.81,0:31:37.23,Default,,0,0,0,,Then there's prayers that are more personal for yourself and your family and your relatives.
+Dialogue: 0,0:31:37.23,0:31:44.71,Default,,0,0,0,,And, you know, your mother and your mother-in-law and your sister and your daughter and all.
+Dialogue: 0,0:31:44.71,0:31:51.19,Default,,0,0,0,,And then there's the more general prayer, which I consider to be reverence.
+Dialogue: 0,0:31:51.19,0:31:58.19,Default,,0,0,0,,To me, to be reverent is a style of praying in which your life becomes the prayer.
+Dialogue: 0,0:31:58.19,0:32:08.07,Default,,0,0,0,,Your whole life is one of acknowledgement of divinity as the source and value of life.
+Dialogue: 0,0:32:08.07,0:32:14.40,Default,,0,0,0,,It's not a matter of win or lose.
+Dialogue: 0,0:32:14.40,0:32:18.03,Default,,0,0,0,,You know, people think of praying as winning.
+Dialogue: 0,0:32:18.03,0:32:19.03,Default,,0,0,0,,You know, you win with God.
+Dialogue: 0,0:32:19.03,0:32:23.03,Default,,0,0,0,,If you can pray good enough, God will grant you the wish.
+Dialogue: 0,0:32:26.03,0:32:29.03,Default,,0,0,0,,That's sort of the way a child prays, you know.
+Dialogue: 0,0:32:29.03,0:32:32.51,Default,,0,0,0,,Dear Lord, please don't let me be late for class.
+Dialogue: 0,0:32:34.68,0:32:37.68,Default,,0,0,0,,And then the kid trips on the curb and he says, but I didn't ask you to push me.
+Dialogue: 0,0:32:37.68,0:32:38.68,Default,,0,0,0,,I love that joke.
+Dialogue: 0,0:32:38.68,0:32:39.68,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:32:40.68,0:32:42.68,Default,,0,0,0,,Well, sometimes, you know.
+Dialogue: 0,0:32:42.68,0:32:51.68,Default,,0,0,0,,I mean, I myself, I have prayed for things that I thought that I really needed or wanted or wanted to happen or whatever.
+Dialogue: 0,0:32:51.68,0:32:58.91,Default,,0,0,0,,And yet, when it didn't happen, I saw, it was a different picture.
+Dialogue: 0,0:32:58.91,0:33:04.03,Default,,0,0,0,,And it was the way, it was better that my prayer wasn't answered.
+Dialogue: 0,0:33:05.03,0:33:07.03,Default,,0,0,0,,You know, I've had that happen.
+Dialogue: 0,0:33:07.03,0:33:08.03,Default,,0,0,0,,Yes.
+Dialogue: 0,0:33:08.03,0:33:12.03,Default,,0,0,0,,To where you think, you know, oh, I really want this.
+Dialogue: 0,0:33:12.03,0:33:13.03,Default,,0,0,0,,This to happen.
+Dialogue: 0,0:33:13.03,0:33:15.03,Default,,0,0,0,,This has just got to happen for me.
+Dialogue: 0,0:33:15.03,0:33:22.06,Default,,0,0,0,,And yet, when that prayer isn't answered, it's much better the way it turned out.
+Dialogue: 0,0:33:23.06,0:33:26.25,Default,,0,0,0,,That's the way it reveals itself, the truth behind it.
+Dialogue: 0,0:33:26.25,0:33:27.25,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:33:27.25,0:33:30.83,Default,,0,0,0,,So, you know, it just amazes me.
+Dialogue: 0,0:33:30.83,0:33:44.29,Default,,0,0,0,,I think it's very nice that we have sufficient humility that we can acknowledge the gift, whether it's granted or not granted.
+Dialogue: 0,0:33:44.29,0:33:46.29,Default,,0,0,0,,Either way, there's a gift.
+Dialogue: 0,0:33:46.29,0:33:51.35,Default,,0,0,0,,For it not to be granted opens up certain doorways.
+Dialogue: 0,0:33:51.35,0:33:55.35,Default,,0,0,0,,And for it to be granted opens up other doorways.
+Dialogue: 0,0:33:55.35,0:33:59.35,Default,,0,0,0,,So, in a way, you might say, you always win with prayer.
+Dialogue: 0,0:33:59.35,0:34:00.35,Default,,0,0,0,,You either get it or you don't.
+Dialogue: 0,0:34:00.35,0:34:04.27,Default,,0,0,0,,And either way, it's beneficial.
+Dialogue: 0,0:34:04.27,0:34:06.27,Default,,0,0,0,,You pray for a million dollars and you don't get it.
+Dialogue: 0,0:34:06.27,0:34:11.51,Default,,0,0,0,,You say, well, God felt that that would have been harmful to my life.
+Dialogue: 0,0:34:11.51,0:34:16.67,Default,,0,0,0,,And you pray for a million dollars and you get it.
+Dialogue: 0,0:34:16.67,0:34:17.67,Default,,0,0,0,,You say, God had it.
+Dialogue: 0,0:34:17.67,0:34:22.71,Default,,0,0,0,,God had confidence in my ability to handle this for the good of others.
+Dialogue: 0,0:34:22.71,0:34:27.71,Default,,0,0,0,,Because now the million dollars gives you an obligation to be helpful to others with that million dollars.
+Dialogue: 0,0:34:27.71,0:34:28.71,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:34:28.71,0:34:29.71,Default,,0,0,0,,We talked about stewardship.
+Dialogue: 0,0:34:29.71,0:34:30.71,Default,,0,0,0,,Yes.
+Dialogue: 0,0:34:30.71,0:34:34.90,Default,,0,0,0,,The stewardship that is involved in serving others.
+Dialogue: 0,0:34:34.90,0:34:35.90,Default,,0,0,0,,That's right.
+Dialogue: 0,0:34:35.90,0:34:38.90,Default,,0,0,0,,You never really own anything or nothing is really used.
+Dialogue: 0,0:34:38.90,0:34:42.90,Default,,0,0,0,,You're only the steward of it for a certain period of time.
+Dialogue: 0,0:34:42.90,0:34:47.28,Default,,0,0,0,,And then it passes on to others.
+Dialogue: 0,0:34:47.28,0:34:49.65,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:34:49.65,0:34:53.84,Default,,0,0,0,,Well, I've always had that, you know, I like antiques.
+Dialogue: 0,0:34:53.84,0:34:55.84,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:34:55.84,0:35:04.55,Default,,0,0,0,,So, I've always had it in mind that I'm just a keeper of those for that time in my life.
+Dialogue: 0,0:35:04.55,0:35:05.55,Default,,0,0,0,,That's for sure.
+Dialogue: 0,0:35:05.55,0:35:06.55,Default,,0,0,0,,And then it passes on to someone else.
+Dialogue: 0,0:35:06.55,0:35:07.55,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:35:07.55,0:35:08.55,Default,,0,0,0,,Because some of the antiques are hundreds of years old.
+Dialogue: 0,0:35:08.55,0:35:09.55,Default,,0,0,0,,That's right.
+Dialogue: 0,0:35:09.55,0:35:12.55,Default,,0,0,0,,So, it just, you know, I enjoy it from that time in my life.
+Dialogue: 0,0:35:12.55,0:35:15.55,Default,,0,0,0,,And then it goes on to someone else who's going to enjoy it.
+Dialogue: 0,0:35:15.55,0:35:18.55,Default,,0,0,0,,Willing to share the beauty of it and the treasure of it.
+Dialogue: 0,0:35:18.55,0:35:19.55,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:35:19.55,0:35:21.09,Default,,0,0,0,,The value of it.
+Dialogue: 0,0:35:21.09,0:35:22.09,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:35:22.09,0:35:24.00,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:35:24.00,0:35:29.00,Default,,0,0,0,,So, you know, when you look at it from that point of view, it's the same with everything
+Dialogue: 0,0:35:29.00,0:35:35.05,Default,,0,0,0,,in your life, basically, that everything can be looked at like that.
+Dialogue: 0,0:35:35.05,0:35:38.05,Default,,0,0,0,,That's what makes your life, turns your life into a prayer.
+Dialogue: 0,0:35:38.05,0:35:39.05,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:35:39.05,0:35:45.53,Default,,0,0,0,,Where you see everything as a gift or a lesson, and you see the benefit that it brings to
+Dialogue: 0,0:35:45.53,0:35:51.03,Default,,0,0,0,,yourself and to others, and you pray to be helpful to the life of those you love.
+Dialogue: 0,0:35:51.03,0:35:52.03,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:35:52.03,0:35:56.21,Default,,0,0,0,,Okay.
+Dialogue: 0,0:35:56.21,0:36:04.28,Default,,0,0,0,,So, speaking that we're talking about lottery and everything, if we wanted to bring prosperity
+Dialogue: 0,0:36:04.28,0:36:14.07,Default,,0,0,0,,into our lives, I have found that the quickest way that happens to me is when I try and do
+Dialogue: 0,0:36:14.07,0:36:17.07,Default,,0,0,0,,good for others in their life.
+Dialogue: 0,0:36:17.07,0:36:18.07,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:36:18.07,0:36:23.07,Default,,0,0,0,,Then I'm rewarded not only for that, but for my own aspects.
+Dialogue: 0,0:36:23.07,0:36:25.07,Default,,0,0,0,,I mean, emotionally.
+Dialogue: 0,0:36:25.07,0:36:37.00,Default,,0,0,0,,Mentally, spiritually, it does so much more for me to give to others than it does to
+Dialogue: 0,0:36:37.00,0:36:38.00,Default,,0,0,0,,just want.
+Dialogue: 0,0:36:38.00,0:36:39.00,Default,,0,0,0,,That's right.
+Dialogue: 0,0:36:39.00,0:36:42.11,Default,,0,0,0,,To stand and want.
+Dialogue: 0,0:36:42.11,0:36:43.11,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:36:43.11,0:36:44.11,Default,,0,0,0,,So, we get by giving.
+Dialogue: 0,0:36:44.11,0:36:51.17,Default,,0,0,0,,Well, this day and age, everybody's, you know, financially, everybody's, you know, talking
+Dialogue: 0,0:36:51.17,0:36:52.17,Default,,0,0,0,,about this.
+Dialogue: 0,0:36:52.17,0:36:53.17,Default,,0,0,0,,So, that's why I'm bringing this up.
+Dialogue: 0,0:36:53.17,0:36:54.17,Default,,0,0,0,,They are?
+Dialogue: 0,0:36:54.17,0:36:55.17,Default,,0,0,0,,Financially?
+Dialogue: 0,0:36:55.17,0:36:56.17,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:36:56.17,0:36:57.17,Default,,0,0,0,,There's a lot of people.
+Dialogue: 0,0:36:57.17,0:36:58.30,Default,,0,0,0,,Who's talking about it?
+Dialogue: 0,0:36:58.30,0:36:59.30,Default,,0,0,0,,All the people on the television.
+Dialogue: 0,0:36:59.30,0:37:00.30,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:00.30,0:37:01.30,Default,,0,0,0,,Oh, I see.
+Dialogue: 0,0:37:01.30,0:37:02.30,Default,,0,0,0,,Well, there's...
+Dialogue: 0,0:37:02.30,0:37:03.30,Default,,0,0,0,,Well, that's because the holidays are...
+Dialogue: 0,0:37:03.30,0:37:04.30,Default,,0,0,0,,Right.
+Dialogue: 0,0:37:04.30,0:37:05.30,Default,,0,0,0,,...close by.
+Dialogue: 0,0:37:05.30,0:37:06.30,Default,,0,0,0,,And that always brings up the whole subject.
+Dialogue: 0,0:37:06.30,0:37:07.30,Default,,0,0,0,,Right.
+Dialogue: 0,0:37:07.30,0:37:08.30,Default,,0,0,0,,With greater intensity, prayer and devotion and church and religion and holiness, all
+Dialogue: 0,0:37:08.30,0:37:09.30,Default,,0,0,0,,these aspects come up for reinforcement and reexamination with every holiday.
+Dialogue: 0,0:37:09.30,0:37:10.30,Default,,0,0,0,,Well...
+Dialogue: 0,0:37:10.30,0:37:11.40,Default,,0,0,0,,Thanksgiving is coming up pretty shortly.
+Dialogue: 0,0:37:11.40,0:37:12.40,Default,,0,0,0,,Isn't that?
+Dialogue: 0,0:37:12.40,0:37:13.40,Default,,0,0,0,,Yes.
+Dialogue: 0,0:37:13.40,0:37:14.40,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:14.40,0:37:15.40,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:15.40,0:37:16.42,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:16.42,0:37:17.42,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:17.42,0:37:18.42,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:18.42,0:37:20.13,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:20.13,0:37:21.13,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:21.13,0:37:22.13,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:22.13,0:37:23.13,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:23.13,0:37:24.13,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:24.13,0:37:25.84,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:25.84,0:37:27.09,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:27.09,0:37:28.09,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:28.09,0:37:29.09,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:29.09,0:37:30.09,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:30.09,0:37:31.09,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:31.09,0:37:32.15,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:32.15,0:37:33.15,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:33.15,0:37:34.15,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:34.15,0:37:35.15,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:35.15,0:37:36.15,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:36.15,0:37:37.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:37.44,0:37:38.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:38.44,0:37:39.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:39.44,0:37:40.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:40.44,0:37:41.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:41.44,0:37:42.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:42.44,0:37:43.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:43.44,0:37:44.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:44.44,0:37:45.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:45.44,0:37:46.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:46.44,0:37:47.44,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:47.44,0:37:48.96,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:48.96,0:37:49.96,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:49.96,0:37:50.96,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:50.96,0:37:51.96,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:51.96,0:37:52.96,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:52.96,0:37:54.55,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:54.55,0:37:55.55,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:55.55,0:37:56.55,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:56.55,0:37:57.55,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:57.55,0:37:58.94,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:58.94,0:37:59.94,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:59.94,0:38:00.94,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:38:00.94,0:38:10.42,Default,,0,0,0,,If divinity is ever-present, this lovingness is the field in which we operate and thrive.
+Dialogue: 0,0:38:10.42,0:38:26.17,Default,,0,0,0,,So this lovingness, to me, God is lovingness. Lovingness and the propensity for love to go to love.
+Dialogue: 0,0:38:26.17,0:38:30.51,Default,,0,0,0,,The propensity is for love to go to love.
+Dialogue: 0,0:38:30.51,0:38:40.76,Default,,0,0,0,,We recently had a lecture on love, didn't we? It had to do with the propensity of love to go to love.
+Dialogue: 0,0:38:40.76,0:38:54.61,Default,,0,0,0,,So it's kind of weird that here we have this Thanksgiving holiday that involves bounty, because we celebrate.
+Dialogue: 0,0:38:54.61,0:39:00.61,Default,,0,0,0,,We have the harvest, basically, is how it all started.
+Dialogue: 0,0:39:00.61,0:39:05.19,Default,,0,0,0,,We're thankful for our family, friends.
+Dialogue: 0,0:39:05.19,0:39:06.53,Default,,0,0,0,,Yes.
+Dialogue: 0,0:39:06.53,0:39:10.55,Default,,0,0,0,,The food that we eat.
+Dialogue: 0,0:39:10.55,0:39:20.63,Default,,0,0,0,,So the Thanksgiving holiday is a chance to really be thankful for the gifts that have been granted us.
+Dialogue: 0,0:39:20.63,0:39:22.63,Default,,0,0,0,,We're surrounded by gifts.
+Dialogue: 0,0:39:22.63,0:39:24.98,Default,,0,0,0,,Yes.
+Dialogue: 0,0:39:24.98,0:39:26.98,Default,,0,0,0,,The fact that we are still alive.
+Dialogue: 0,0:39:26.98,0:39:30.30,Default,,0,0,0,,I say, well, thank you, God, that I'm still alive.
+Dialogue: 0,0:39:30.30,0:39:37.78,Default,,0,0,0,,And I devote my life to the usefulness to others.
+Dialogue: 0,0:39:37.78,0:39:40.67,Default,,0,0,0,,So that gives it some value.
+Dialogue: 0,0:39:40.67,0:39:46.69,Default,,0,0,0,,Because just having things doesn't increase value.
+Dialogue: 0,0:39:46.69,0:39:50.69,Default,,0,0,0,,It increases fun and pleasure, but it doesn't really increase value.
+Dialogue: 0,0:39:50.69,0:40:05.34,Default,,0,0,0,,And it could be that certain lifetimes you spend more lifetimes in service, would you say, to others, rather than...
+Dialogue: 0,0:40:05.34,0:40:12.38,Default,,0,0,0,,Yes, I think if you go into the historical background of many people, you'll find a certain pattern to their...
+Dialogue: 0,0:40:12.38,0:40:14.38,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:40:14.38,0:40:17.38,Default,,0,0,0,,...recurrent emergence into the human life.
+Dialogue: 0,0:40:17.38,0:40:18.67,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:40:18.67,0:40:24.36,Default,,0,0,0,,To be of service or to make up for having not been of service.
+Dialogue: 0,0:40:24.36,0:40:27.15,Default,,0,0,0,,Okay.
+Dialogue: 0,0:40:27.15,0:40:37.69,Default,,0,0,0,,So if you were to sum everything up as live your life like a prayer, what message would you give us?
+Dialogue: 0,0:40:37.69,0:40:41.69,Default,,0,0,0,,To be grateful for the opportunity for your own existence.
+Dialogue: 0,0:40:41.69,0:40:45.69,Default,,0,0,0,,I always say, dear God, I'm very grateful that I exist.
+Dialogue: 0,0:40:45.69,0:40:49.21,Default,,0,0,0,,And I consider this a gift which I treasure.
+Dialogue: 0,0:40:49.21,0:40:57.71,Default,,0,0,0,,And I will try to use this gift to the best of my ability to spread that love and gratitude to others, yes.
+Dialogue: 0,0:40:57.71,0:41:08.13,Default,,0,0,0,,So the way I express my gratitude to God is by being loving towards others to the greatest extent I can do so.
+Dialogue: 0,0:41:08.13,0:41:10.13,Default,,0,0,0,,Even when they pull out in front of you?
+Dialogue: 0,0:41:14.59,0:41:18.86,Default,,0,0,0,,Well, that's just a childish annoyance that somebody has gotten in your way.
+Dialogue: 0,0:41:18.86,0:41:19.86,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:41:19.86,0:41:20.86,Default,,0,0,0,,It's a little scary.
+Dialogue: 0,0:41:20.86,0:41:21.86,Default,,0,0,0,,That's right.
+Dialogue: 0,0:41:21.86,0:41:27.86,Default,,0,0,0,,As you're racing down the highway, suddenly a car pulls out from the side of the road right in front of you.
+Dialogue: 0,0:41:27.86,0:41:36.55,Default,,0,0,0,,But it's just very hard to take what you're saying and put it into every day.
+Dialogue: 0,0:41:36.55,0:41:38.55,Default,,0,0,0,,Well, it's an attitude.
+Dialogue: 0,0:41:38.55,0:41:43.55,Default,,0,0,0,,And because it's an attitude, it prevails and covers all the conditions.
+Dialogue: 0,0:41:43.55,0:41:50.96,Default,,0,0,0,,So if a car is going too slow, you have one kind of response.
+Dialogue: 0,0:41:50.96,0:41:51.96,Default,,0,0,0,,If the car is pulling out too fast, you have one kind of response.
+Dialogue: 0,0:41:51.96,0:42:03.51,Default,,0,0,0,,But all of them are being governed by your gratitude that you have the opportunity to save people's lives,
+Dialogue: 0,0:42:03.51,0:42:09.86,Default,,0,0,0,,to serve other people, and to be alive for the benefit of yourself and others.
+Dialogue: 0,0:42:09.86,0:42:16.96,Default,,0,0,0,,So live your life like a prayer every day and in every way.
+Dialogue: 0,0:42:16.96,0:42:24.26,Default,,0,0,0,,To be grateful for your own existence and to share your appreciation to God that you exist.
+Dialogue: 0,0:42:24.26,0:42:32.63,Default,,0,0,0,,And the opportunity to express your love towards others is a gift from God.
+Dialogue: 0,0:42:32.63,0:42:41.63,Default,,0,0,0,,And I give thanks to the old Lord for the gift of being able to be here with you right now and record this event.
+Dialogue: 0,0:42:41.63,0:42:45.73,Default,,0,0,0,,Thank you, dear Lord, for the chance to record this event.
+Dialogue: 0,0:42:45.73,0:42:53.15,Default,,0,0,0,,And after you and I are long gone, this recording will still be available if anybody's interested.
+Dialogue: 0,0:42:53.15,0:42:55.53,Default,,0,0,0,,Way back in the olden times.
+Dialogue: 0,0:42:55.53,0:42:58.53,Default,,0,0,0,,In the olden times.
+Dialogue: 0,0:42:58.53,0:43:04.53,Default,,0,0,0,,When old Doc Hoggins and old Susan Hoggins were still kicking around and alive, you know.
+Dialogue: 0,0:43:04.53,0:43:09.76,Default,,0,0,0,,Way, way back then.
+Dialogue: 0,0:43:09.76,0:43:23.09,Default,,0,0,0,,We'll be old, old, old folks before you know it, okay.
+Dialogue: 0,0:43:23.09,0:43:25.21,Default,,0,0,0,,All right, thank you.

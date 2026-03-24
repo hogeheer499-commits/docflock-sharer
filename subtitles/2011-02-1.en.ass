@@ -1,0 +1,896 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:45.35,0:01:00.53,Default,,0,0,0,,We have a little treat for you today.
+Dialogue: 0,0:01:01.17,0:01:05.51,Default,,0,0,0,,A friend of ours has prepared sort of a slide presentation
+Dialogue: 0,0:01:05.51,0:01:10.26,Default,,0,0,0,,of what our life is like on the ranch.
+Dialogue: 0,0:01:10.26,0:01:12.51,Default,,0,0,0,,So a lot of the pictures that you're going to see
+Dialogue: 0,0:01:12.51,0:01:15.62,Default,,0,0,0,,were taken of our personal life.
+Dialogue: 0,0:01:16.28,0:01:19.37,Default,,0,0,0,,And in the bookstore, if you purchase $100,
+Dialogue: 0,0:01:19.81,0:01:21.06,Default,,0,0,0,,you get this video free.
+Dialogue: 0,0:01:21.34,0:01:23.54,Default,,0,0,0,,So we wanted to give that to you.
+Dialogue: 0,0:01:23.54,0:01:27.98,Default,,0,0,0,,It's wonderful, and I think you're really going to enjoy it
+Dialogue: 0,0:01:27.98,0:01:29.81,Default,,0,0,0,,and get out the Kleenex.
+Dialogue: 0,0:01:30.29,0:20:26.35,Default,,0,0,0,,For all of you that aren't familiar with our work
+Dialogue: 0,0:20:26.35,0:20:28.85,Default,,0,0,0,,and our first-time comers, this is our ego.
+Dialogue: 0,0:20:31.23,0:20:34.17,Default,,0,0,0,,And we did a whole series on that in 2002.
+Dialogue: 0,0:20:34.80,0:20:37.91,Default,,0,0,0,,And this is our little ego that we carry around with.
+Dialogue: 0,0:20:38.61,0:20:39.88,Default,,0,0,0,,And we don't oppose it.
+Dialogue: 0,0:20:40.09,0:20:42.81,Default,,0,0,0,,We just embrace it and love it and know that it's there.
+Dialogue: 0,0:20:44.39,0:20:46.91,Default,,0,0,0,,So that is what the teddy bear represents.
+Dialogue: 0,0:20:46.91,0:20:48.69,Default,,0,0,0,,Ha, ha, ha, ha.
+Dialogue: 0,0:20:49.56,0:20:51.38,Default,,0,0,0,,Oh, good God.
+Dialogue: 0,0:20:51.61,0:20:52.46,Default,,0,0,0,,Where are we?
+Dialogue: 0,0:20:52.92,0:20:57.57,Default,,0,0,0,,There must be somebody out there.
+Dialogue: 0,0:21:00.78,0:21:01.02,Default,,0,0,0,,Hello?
+Dialogue: 0,0:21:01.54,0:21:26.54,Default,,0,0,0,,It's a sing-song kitty.
+Dialogue: 0,0:21:28.19,0:21:30.86,Default,,0,0,0,,Sing-song kitty, won't you kind me, oh, keen.
+Dialogue: 0,0:21:31.39,0:21:34.72,Default,,0,0,0,,I learned this from my father 80 years ago.
+Dialogue: 0,0:21:36.65,0:21:38.49,Default,,0,0,0,,Sing-song kitty, won't you kind me, oh.
+Dialogue: 0,0:21:38.69,0:21:41.75,Default,,0,0,0,,Keem, oh, kind, oh, dar, oh, ah, many, I, many, oh, many, rum,
+Dialogue: 0,0:21:41.80,0:21:44.39,Default,,0,0,0,,stum, fum, me, diddle, soup, peck, fetty, won't you lick them,
+Dialogue: 0,0:21:44.49,0:21:44.91,Default,,0,0,0,,mick them.
+Dialogue: 0,0:21:45.34,0:21:47.47,Default,,0,0,0,,Sing-song kitty, won't you kind me, oh.
+Dialogue: 0,0:21:47.47,0:21:53.69,Default,,0,0,0,,Ha, ha, ha.
+Dialogue: 0,0:21:54.36,0:21:55.82,Default,,0,0,0,,Sing-song kitty, won't you kind me, oh.
+Dialogue: 0,0:21:55.95,0:21:59.80,Default,,0,0,0,,Keem, oh, kind, oh, dar, oh, ah, many, I, many, oh, many, rum,
+Dialogue: 0,0:21:59.80,0:22:02.13,Default,,0,0,0,,stum, fum, me, diddle, soup, peck, fetty, won't you lick them,
+Dialogue: 0,0:22:02.13,0:22:02.63,Default,,0,0,0,,mick them.
+Dialogue: 0,0:22:02.63,0:22:04.23,Default,,0,0,0,,Sing-song kitty, won't you kind me, oh.
+Dialogue: 0,0:22:04.23,0:22:07.94,Default,,0,0,0,,Ha, ha, ha.
+Dialogue: 0,0:22:07.94,0:22:11.58,Default,,0,0,0,,That's the love I got from my father.
+Dialogue: 0,0:22:15.83,0:22:16.59,Default,,0,0,0,,He was that.
+Dialogue: 0,0:22:18.05,0:22:19.88,Default,,0,0,0,,And then I'd say, say it slow, Dad.
+Dialogue: 0,0:22:21.41,0:22:22.36,Default,,0,0,0,,And I memorized it.
+Dialogue: 0,0:22:22.76,0:22:23.91,Default,,0,0,0,,Ha, ha, ha.
+Dialogue: 0,0:22:26.70,0:22:29.81,Default,,0,0,0,,So that was love 80 years ago.
+Dialogue: 0,0:22:30.44,0:22:35.48,Default,,0,0,0,,Ha, ha, ha, ha, ha, ha.
+Dialogue: 0,0:22:38.31,0:22:38.59,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:22:38.90,0:22:39.70,Default,,0,0,0,,Thank you so much.
+Dialogue: 0,0:22:39.70,0:22:45.06,Default,,0,0,0,,Keem, oh, kind, oh, dar, oh, ah, many, I, many, oh, many,
+Dialogue: 0,0:22:45.06,0:22:47.15,Default,,0,0,0,,rum, stum, fum, me, diddle, soup, peck, fetty, won't you lick
+Dialogue: 0,0:22:47.15,0:22:47.73,Default,,0,0,0,,them, mick them.
+Dialogue: 0,0:22:47.73,0:22:49.15,Default,,0,0,0,,Sing-song kitty, won't you kind me, oh.
+Dialogue: 0,0:22:49.56,0:23:07.11,Default,,0,0,0,,The mind is willing, but the body is tired.
+Dialogue: 0,0:23:07.18,0:23:10.82,Default,,0,0,0,,So we have to say goodbye to all of you.
+Dialogue: 0,0:23:12.51,0:23:25.43,Default,,0,0,0,,We will carry you in our hearts and in our prayers and hope
+Dialogue: 0,0:23:25.43,0:23:27.95,Default,,0,0,0,,that we meet again in the hereafter.
+Dialogue: 0,0:23:38.88,0:23:41.72,Default,,0,0,0,,Um, we're going to start the lecture at this time.
+Dialogue: 0,0:23:42.05,0:23:43.88,Default,,0,0,0,,Fran will read the slides.
+Dialogue: 0,0:23:43.88,0:23:45.22,Default,,0,0,0,,Doctors, eyesight.
+Dialogue: 0,0:23:45.22,0:23:48.66,Default,,0,0,0,,Isn't very good anymore, and so he can no longer read the slides.
+Dialogue: 0,0:23:48.66,0:23:51.68,Default,,0,0,0,,So I've asked someone to read the slides for us.
+Dialogue: 0,0:23:52.70,0:23:59.09,Default,,0,0,0,,And, uh, we are going to go continue with the lecture and, um, bless you all
+Dialogue: 0,0:23:59.09,0:24:01.29,Default,,0,0,0,,for coming such a long way to see us.
+Dialogue: 0,0:24:21.33,0:24:21.81,Default,,0,0,0,,Take that.
+Dialogue: 0,0:24:21.81,0:24:22.77,Default,,0,0,0,,If you won't take snuff.
+Dialogue: 0,0:24:36.92,0:24:38.35,Default,,0,0,0,,Our love for you is eternal.
+Dialogue: 0,0:24:38.75,0:24:39.83,Default,,0,0,0,,Thank you for being here.
+Dialogue: 0,0:24:40.24,0:24:45.30,Default,,0,0,0,,I'm in the next honey.
+Dialogue: 0,0:24:45.54,0:24:46.69,Default,,0,0,0,,She's going to start the lecture.
+Dialogue: 0,0:24:46.69,0:24:48.60,Default,,0,0,0,,The map of consciousness.
+Dialogue: 0,0:24:50.00,0:24:50.95,Default,,0,0,0,,A logarithmic.
+Dialogue: 0,0:24:51.13,0:25:19.92,Default,,0,0,0,,Scale from one to 1000 where courage is the critical factor point of integrity at 200 below which all the energies are negative and above which all the energies are positive love calibrates 500 and over unconditional love.
+Dialogue: 0,0:25:19.92,0:25:21.25,Default,,0,0,0,,Calibrates.
+Dialogue: 0,0:25:21.25,0:25:23.48,Default,,0,0,0,,Calibrates at 540.
+Dialogue: 0,0:25:27.66,0:25:28.68,Default,,0,0,0,,Next slide, please.
+Dialogue: 0,0:25:30.28,0:25:31.30,Default,,0,0,0,,Oh, there's slides.
+Dialogue: 0,0:25:31.30,0:25:55.35,Default,,0,0,0,,Distribution of the levels of consciousness shown in a pyramid showing that 85% of the world's population calibrates below the level of integrity at 200 and at the top of the pyramid, 15% calibrate above 200, which is the level of courage.
+Dialogue: 0,0:25:55.79,0:25:56.83,Default,,0,0,0,,An integrity.
+Dialogue: 0,0:26:01.57,0:26:05.57,Default,,0,0,0,,Distribution of the levels of consciousness shown.
+Dialogue: 0,0:26:06.92,0:26:16.01,Default,,0,0,0,,And a fulcrum where the 15% of the world's population that calibrate in integrity over level 200.
+Dialogue: 0,0:26:16.64,0:26:28.75,Default,,0,0,0,,Counterbalance the 85% of the world's population that calibrate negatively or below level 200 of courage and integrity.
+Dialogue: 0,0:26:28.75,0:26:29.24,Default,,0,0,0,,And then 20% of the world's population that calibrate negatively or below level 200 of courage and integrity.
+Dialogue: 0,0:26:29.24,0:26:29.74,Default,,0,0,0,,Exaggerated.
+Dialogue: 0,0:26:29.74,0:26:49.32,Default,,0,0,0,,And we have the animal kingdom. I'll mention some of Doc's favorites. Bacteria 1. Octopus 20. The Komodo dragon at 40.
+Dialogue: 0,0:26:49.32,0:27:11.20,Default,,0,0,0,,And at level 200 in the animal kingdom, we reach the grazers, those who do not kill as a means to survive. So the zebra, the gazelle, the giraffe, the deer, the elk, and the family dog at 250.
+Dialogue: 0,0:27:11.20,0:27:21.03,Default,,0,0,0,,And we have certain exceptions, such as the kitty's purr at the level of love, 500.
+Dialogue: 0,0:27:21.33,0:27:30.20,Default,,0,0,0,,And the doggie's wagging tail at 500. The level of love.
+Dialogue: 0,0:27:30.20,0:27:53.89,Default,,0,0,0,,And we see from this next chart that as consciousness level moves up and rises in the map of consciousness, rate of unemployment decreases, rate of poverty decreases, happiness increases, and rate of criminality decreases.
+Dialogue: 0,0:27:53.89,0:27:59.23,Default,,0,0,0,,So for example, at the level of 50, which is apathy and below.
+Dialogue: 0,0:27:59.25,0:28:03.25,Default,,0,0,0,,97% of people are unemployed.
+Dialogue: 0,0:28:03.25,0:28:07.25,Default,,0,0,0,,65% are in poverty.
+Dialogue: 0,0:28:07.25,0:28:11.25,Default,,0,0,0,,0% are happy.
+Dialogue: 0,0:28:11.25,0:28:15.92,Default,,0,0,0,,And 98% criminality.
+Dialogue: 0,0:28:15.92,0:28:23.92,Default,,0,0,0,,However, by level 200, which is the critical point of integrity, where the valence of the energy shifts to positive.
+Dialogue: 0,0:28:23.92,0:28:27.92,Default,,0,0,0,,It's only 8% unemployment.
+Dialogue: 0,0:28:27.92,0:28:29.92,Default,,0,0,0,,1.5% poverty.
+Dialogue: 0,0:28:29.92,0:28:33.92,Default,,0,0,0,,40% happiness.
+Dialogue: 0,0:28:33.92,0:28:38.14,Default,,0,0,0,,And 9.0% criminality.
+Dialogue: 0,0:28:38.14,0:28:42.29,Default,,0,0,0,,At the level of love, 5 to 600.
+Dialogue: 0,0:28:42.29,0:28:44.29,Default,,0,0,0,,Unemployment is 0.
+Dialogue: 0,0:28:44.29,0:28:46.29,Default,,0,0,0,,Poverty 0.
+Dialogue: 0,0:28:46.29,0:28:57.54,Default,,0,0,0,,Happiness, 98%.
+Dialogue: 0,0:28:57.54,0:29:03.54,Default,,0,0,0,,Correlation of the levels of consciousness and the rate of happiness.
+Dialogue: 0,0:29:03.54,0:29:07.54,Default,,0,0,0,,At consciousness level shame, at the bottom of the map of consciousness, only 1% of people are happy.
+Dialogue: 0,0:29:07.54,0:29:15.54,Default,,0,0,0,,By the level courage, 255% of people are happy.
+Dialogue: 0,0:29:15.54,0:29:23.77,Default,,0,0,0,,At the level acceptance, which is logarithm 350, 71% of people are happy.
+Dialogue: 0,0:29:23.77,0:29:30.13,Default,,0,0,0,,At level 500, 89% are happy.
+Dialogue: 0,0:29:30.13,0:29:36.13,Default,,0,0,0,,And by the time of joy, which is 540 to 599, 99% of people are happy.
+Dialogue: 0,0:29:36.13,0:29:40.13,Default,,0,0,0,,99% of people are happy.
+Dialogue: 0,0:29:40.13,0:29:50.94,Default,,0,0,0,,And here we have one of the doctor's favorite slides.
+Dialogue: 0,0:29:50.94,0:29:55.77,Default,,0,0,0,,The wolf in sheep's clothing.
+Dialogue: 0,0:29:55.77,0:30:03.71,Default,,0,0,0,,Things are not always as they appear.
+Dialogue: 0,0:30:03.71,0:30:07.90,Default,,0,0,0,,Calibrations of the great avatars and spiritual teachers.
+Dialogue: 0,0:30:07.90,0:30:12.64,Default,,0,0,0,,Jesus Christ, 1,000.
+Dialogue: 0,0:30:12.64,0:30:17.22,Default,,0,0,0,,Buddha, 1,000.
+Dialogue: 0,0:30:17.22,0:30:23.53,Default,,0,0,0,,Zoroaster, 1,000.
+Dialogue: 0,0:30:23.53,0:30:27.53,Default,,0,0,0,,The 12 Christian apostles, 980.
+Dialogue: 0,0:30:27.53,0:30:33.73,Default,,0,0,0,,The name of God as Om, 975.
+Dialogue: 0,0:30:33.73,0:30:37.95,Default,,0,0,0,,John the Baptist, 930.
+Dialogue: 0,0:30:37.95,0:30:42.21,Default,,0,0,0,,Moses, 910.
+Dialogue: 0,0:30:42.21,0:30:46.55,Default,,0,0,0,,Abraham, 850.
+Dialogue: 0,0:30:46.55,0:30:48.55,Default,,0,0,0,,St. Paul, 740.
+Dialogue: 0,0:30:48.55,0:30:58.26,Default,,0,0,0,,Spiritual teachers in the 500s.
+Dialogue: 0,0:30:58.26,0:31:00.26,Default,,0,0,0,,The energy field of love.
+Dialogue: 0,0:31:00.26,0:31:04.29,Default,,0,0,0,,These are historical examples.
+Dialogue: 0,0:31:04.29,0:31:08.33,Default,,0,0,0,,Brother Lawrence, 575.
+Dialogue: 0,0:31:08.33,0:31:16.42,Default,,0,0,0,,Father Pio, 585.
+Dialogue: 0,0:31:16.42,0:31:22.04,Default,,0,0,0,,Confucius, 590.
+Dialogue: 0,0:31:22.04,0:31:27.20,Default,,0,0,0,,Rumi, 550.
+Dialogue: 0,0:31:27.20,0:31:29.25,Default,,0,0,0,,Jesus, 540.
+Dialogue: 0,0:31:29.25,0:31:35.90,Default,,0,0,0,,Dilgo Khyentse Rinpoche, 575.
+Dialogue: 0,0:31:35.90,0:31:40.31,Default,,0,0,0,,Swami Prabhavananda, 550.
+Dialogue: 0,0:31:40.31,0:31:44.81,Default,,0,0,0,,Love.
+Dialogue: 0,0:31:44.81,0:31:48.81,Default,,0,0,0,,Love is the ultimate law of the universe.
+Dialogue: 0,0:31:48.81,0:31:52.81,Default,,0,0,0,,This statement calibrates 750.
+Dialogue: 0,0:31:52.81,0:31:58.16,Default,,0,0,0,,Love God with all thy heart,
+Dialogue: 0,0:31:58.16,0:32:00.16,Default,,0,0,0,,all thy soul,
+Dialogue: 0,0:32:00.16,0:32:02.16,Default,,0,0,0,,and all thy mind.
+Dialogue: 0,0:32:02.16,0:32:04.16,Default,,0,0,0,,Love thy neighbor as thyself.
+Dialogue: 0,0:32:04.16,0:32:06.85,Default,,0,0,0,,Love makes the world go round.
+Dialogue: 0,0:32:06.85,0:32:08.85,Default,,0,0,0,,Love is a many-splendored thing.
+Dialogue: 0,0:32:08.85,0:32:10.85,Default,,0,0,0,,Love is a way of being in the world.
+Dialogue: 0,0:32:10.85,0:32:13.53,Default,,0,0,0,,Love is a way to God.
+Dialogue: 0,0:32:13.53,0:32:15.53,Default,,0,0,0,,Love facilitates healing.
+Dialogue: 0,0:32:15.53,0:32:17.92,Default,,0,0,0,,And the famous duck story.
+Dialogue: 0,0:32:17.92,0:32:19.92,Default,,0,0,0,,I wanted to ask a question.
+Dialogue: 0,0:32:19.92,0:32:21.92,Default,,0,0,0,,When you say,
+Dialogue: 0,0:32:21.92,0:32:23.92,Default,,0,0,0,,Love God with all your heart
+Dialogue: 0,0:32:23.92,0:32:26.18,Default,,0,0,0,,and all your soul,
+Dialogue: 0,0:32:26.18,0:32:28.91,Default,,0,0,0,,what does that mean to you?
+Dialogue: 0,0:32:28.91,0:32:30.91,Default,,0,0,0,,What does that mean to you?
+Dialogue: 0,0:32:30.91,0:32:32.91,Default,,0,0,0,,What does that mean to you?
+Dialogue: 0,0:32:32.91,0:32:34.91,Default,,0,0,0,,Love God with all your heart
+Dialogue: 0,0:32:34.91,0:32:36.91,Default,,0,0,0,,and all your soul
+Dialogue: 0,0:32:36.91,0:32:38.91,Default,,0,0,0,,and all your mind.
+Dialogue: 0,0:32:38.91,0:32:41.46,Default,,0,0,0,,How do we apply that to everyday living?
+Dialogue: 0,0:32:41.46,0:32:43.49,Default,,0,0,0,,You become that love.
+Dialogue: 0,0:32:43.49,0:32:46.53,Default,,0,0,0,,And then everything happens
+Dialogue: 0,0:32:46.53,0:32:48.53,Default,,0,0,0,,appropriately,
+Dialogue: 0,0:32:48.53,0:32:51.05,Default,,0,0,0,,automatically
+Dialogue: 0,0:32:51.05,0:32:54.29,Default,,0,0,0,,due to what you are.
+Dialogue: 0,0:32:54.29,0:32:58.22,Default,,0,0,0,,So if you approach a group of people
+Dialogue: 0,0:32:58.22,0:33:00.67,Default,,0,0,0,,and the love of God
+Dialogue: 0,0:33:00.67,0:33:02.67,Default,,0,0,0,,is what motivates you,
+Dialogue: 0,0:33:02.67,0:33:04.67,Default,,0,0,0,,all the people in the crowd go,
+Dialogue: 0,0:33:04.67,0:33:10.13,Default,,0,0,0,,How do they go, folks?
+Dialogue: 0,0:33:10.13,0:33:12.60,Default,,0,0,0,,Hey!
+Dialogue: 0,0:33:12.60,0:33:17.39,Default,,0,0,0,,That's telling them, buddy.
+Dialogue: 0,0:33:17.39,0:33:19.39,Default,,0,0,0,,That'll show the devil where the hell to go.
+Dialogue: 0,0:33:21.68,0:33:24.09,Default,,0,0,0,,Love God with all your heart
+Dialogue: 0,0:33:24.09,0:33:26.09,Default,,0,0,0,,and your mind
+Dialogue: 0,0:33:26.09,0:33:28.25,Default,,0,0,0,,and you will be wonderful
+Dialogue: 0,0:33:28.25,0:33:30.25,Default,,0,0,0,,to your fellow man.
+Dialogue: 0,0:33:30.25,0:33:33.18,Default,,0,0,0,,And love thy neighbor
+Dialogue: 0,0:33:33.18,0:33:35.47,Default,,0,0,0,,as thyself.
+Dialogue: 0,0:33:35.47,0:33:37.81,Default,,0,0,0,,How would you interpret that?
+Dialogue: 0,0:33:37.81,0:33:39.81,Default,,0,0,0,,You don't have to interpret it.
+Dialogue: 0,0:33:39.81,0:33:42.01,Default,,0,0,0,,You become that.
+Dialogue: 0,0:33:42.01,0:33:44.01,Default,,0,0,0,,As you become loving,
+Dialogue: 0,0:33:44.01,0:33:46.01,Default,,0,0,0,,it's your way of being.
+Dialogue: 0,0:33:46.01,0:33:48.01,Default,,0,0,0,,So lovingness to me
+Dialogue: 0,0:33:48.01,0:33:50.07,Default,,0,0,0,,is a way of being.
+Dialogue: 0,0:33:50.07,0:33:52.07,Default,,0,0,0,,It's not an emotion.
+Dialogue: 0,0:33:52.07,0:33:54.07,Default,,0,0,0,,It's a way of being in the world.
+Dialogue: 0,0:33:54.07,0:33:57.71,Default,,0,0,0,,It's like, how can I be
+Dialogue: 0,0:33:57.71,0:33:59.71,Default,,0,0,0,,of help to you?
+Dialogue: 0,0:33:59.71,0:34:01.71,Default,,0,0,0,,How can I comfort you?
+Dialogue: 0,0:34:01.71,0:34:03.71,Default,,0,0,0,,How can I loan you some money when you're broke?
+Dialogue: 0,0:34:03.71,0:34:05.86,Default,,0,0,0,,How can I help you find a job?
+Dialogue: 0,0:34:05.86,0:34:07.86,Default,,0,0,0,,How can I console you when you've
+Dialogue: 0,0:34:07.86,0:34:10.86,Default,,0,0,0,,suffered a major loss in your family?
+Dialogue: 0,0:34:10.86,0:34:12.86,Default,,0,0,0,,Lovingness is a way of being
+Dialogue: 0,0:34:12.86,0:34:14.86,Default,,0,0,0,,in the world.
+Dialogue: 0,0:34:14.86,0:34:20.80,Default,,0,0,0,,And that way you light up the world.
+Dialogue: 0,0:34:24.36,0:34:26.36,Default,,0,0,0,,Love is the way
+Dialogue: 0,0:34:26.36,0:34:29.51,Default,,0,0,0,,to God.
+Dialogue: 0,0:34:29.51,0:34:32.09,Default,,0,0,0,,That is true.
+Dialogue: 0,0:34:32.09,0:34:34.09,Default,,0,0,0,,How do we apply that to our everyday life?
+Dialogue: 0,0:34:34.09,0:34:36.82,Default,,0,0,0,,I don't.
+Dialogue: 0,0:34:36.82,0:34:38.82,Default,,0,0,0,,You don't?
+Dialogue: 0,0:34:38.82,0:34:40.82,Default,,0,0,0,,No.
+Dialogue: 0,0:34:40.82,0:34:42.82,Default,,0,0,0,,Is it because that's what you become?
+Dialogue: 0,0:34:42.82,0:34:44.82,Default,,0,0,0,,That's what you become.
+Dialogue: 0,0:34:44.82,0:34:47.09,Default,,0,0,0,,Because you become loving,
+Dialogue: 0,0:34:47.09,0:34:49.09,Default,,0,0,0,,you radiate the energy of God
+Dialogue: 0,0:34:49.09,0:34:55.57,Default,,0,0,0,,wherever you go.
+Dialogue: 0,0:34:55.57,0:34:57.57,Default,,0,0,0,,Some people are a blessing to be in the world
+Dialogue: 0,0:34:57.57,0:34:59.57,Default,,0,0,0,,and other people are like a curse.
+Dialogue: 0,0:35:03.30,0:35:05.57,Default,,0,0,0,,Yes?
+Dialogue: 0,0:35:05.57,0:35:09.30,Default,,0,0,0,,And love
+Dialogue: 0,0:35:09.30,0:35:11.30,Default,,0,0,0,,facilitates healing.
+Dialogue: 0,0:35:11.30,0:35:13.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:35:13.30,0:35:15.44,Default,,0,0,0,,Love facilitates healing.
+Dialogue: 0,0:35:15.44,0:35:17.44,Default,,0,0,0,,That is true.
+Dialogue: 0,0:35:17.44,0:35:19.50,Default,,0,0,0,,Love facilitates healing.
+Dialogue: 0,0:35:19.50,0:35:22.17,Default,,0,0,0,,The more loving you are,
+Dialogue: 0,0:35:22.17,0:35:24.17,Default,,0,0,0,,I used to love all my patients.
+Dialogue: 0,0:35:24.17,0:35:28.69,Default,,0,0,0,,I didn't tell them that.
+Dialogue: 0,0:35:28.69,0:35:33.03,Default,,0,0,0,,But I loved them all.
+Dialogue: 0,0:35:33.03,0:35:35.03,Default,,0,0,0,,And I used to have a patient,
+Dialogue: 0,0:35:35.03,0:35:37.03,Default,,0,0,0,,he had a picture of me
+Dialogue: 0,0:35:37.03,0:35:39.03,Default,,0,0,0,,and he would go home and he'd put my picture
+Dialogue: 0,0:35:39.03,0:35:41.03,Default,,0,0,0,,on the wall and he would say when he feels
+Dialogue: 0,0:35:41.03,0:35:43.03,Default,,0,0,0,,bad he looked at the picture and feels better.
+Dialogue: 0,0:35:43.03,0:35:45.03,Default,,0,0,0,,So that gave me the hint
+Dialogue: 0,0:35:45.03,0:35:47.03,Default,,0,0,0,,that love heals.
+Dialogue: 0,0:35:47.03,0:35:49.30,Default,,0,0,0,,And so as a physician
+Dialogue: 0,0:35:49.30,0:35:51.61,Default,,0,0,0,,I loved all my patients
+Dialogue: 0,0:35:51.61,0:35:54.90,Default,,0,0,0,,but I didn't tell them.
+Dialogue: 0,0:35:54.90,0:35:57.46,Default,,0,0,0,,Might make them nervous.
+Dialogue: 0,0:35:57.46,0:35:59.46,Default,,0,0,0,,So as a physician
+Dialogue: 0,0:35:59.46,0:36:01.46,Default,,0,0,0,,then you sent love
+Dialogue: 0,0:36:01.46,0:36:03.46,Default,,0,0,0,,to the patients you were treating.
+Dialogue: 0,0:36:03.46,0:36:05.46,Default,,0,0,0,,I loved all the patients that I treated.
+Dialogue: 0,0:36:05.46,0:36:07.46,Default,,0,0,0,,So that's why you were such a success
+Dialogue: 0,0:36:07.46,0:36:09.46,Default,,0,0,0,,as a psychiatrist
+Dialogue: 0,0:36:09.46,0:36:11.46,Default,,0,0,0,,because you were sending them love
+Dialogue: 0,0:36:11.46,0:36:13.92,Default,,0,0,0,,and thinking about them.
+Dialogue: 0,0:36:13.92,0:36:15.92,Default,,0,0,0,,I had the biggest psychiatric practice
+Dialogue: 0,0:36:15.92,0:36:17.92,Default,,0,0,0,,in the United States
+Dialogue: 0,0:36:17.92,0:36:20.07,Default,,0,0,0,,for 25 years or whatever.
+Dialogue: 0,0:36:20.07,0:36:22.07,Default,,0,0,0,,We treated a thousand patients
+Dialogue: 0,0:36:22.07,0:36:24.07,Default,,0,0,0,,a year. A thousand patients.
+Dialogue: 0,0:36:24.07,0:36:26.26,Default,,0,0,0,,And I loved them all.
+Dialogue: 0,0:36:26.26,0:36:28.26,Default,,0,0,0,,So if physicians
+Dialogue: 0,0:36:28.26,0:36:30.26,Default,,0,0,0,,would say a prayer for their patients
+Dialogue: 0,0:36:30.26,0:36:32.26,Default,,0,0,0,,to get better then that would help them
+Dialogue: 0,0:36:32.26,0:36:34.26,Default,,0,0,0,,recuperate
+Dialogue: 0,0:36:34.26,0:36:36.26,Default,,0,0,0,,most of the time.
+Dialogue: 0,0:36:36.26,0:36:38.26,Default,,0,0,0,,I prayed over all of them but I didn't tell them I was doing that.
+Dialogue: 0,0:36:38.26,0:36:40.69,Default,,0,0,0,,It might make them nervous.
+Dialogue: 0,0:36:42.94,0:36:44.94,Default,,0,0,0,,We have up here the duck story.
+Dialogue: 0,0:36:44.94,0:36:46.94,Default,,0,0,0,,Can you tell us the duck story?
+Dialogue: 0,0:36:46.94,0:36:48.94,Default,,0,0,0,,About the hunter who
+Dialogue: 0,0:36:48.94,0:36:50.94,Default,,0,0,0,,no longer would hunt?
+Dialogue: 0,0:36:50.94,0:36:52.94,Default,,0,0,0,,Oh it makes me cry to say it.
+Dialogue: 0,0:36:52.94,0:36:55.01,Default,,0,0,0,,I don't know if I can tell it or not.
+Dialogue: 0,0:36:55.01,0:36:57.01,Default,,0,0,0,,But anyway it's a relatively
+Dialogue: 0,0:36:57.01,0:36:59.01,Default,,0,0,0,,well known story now.
+Dialogue: 0,0:36:59.01,0:37:01.01,Default,,0,0,0,,This guy hunted ducks.
+Dialogue: 0,0:37:01.01,0:37:03.01,Default,,0,0,0,,He was a duck hunter.
+Dialogue: 0,0:37:03.01,0:37:05.80,Default,,0,0,0,,Just a normal everyday duck hunter.
+Dialogue: 0,0:37:07.80,0:37:09.80,Default,,0,0,0,,To me it seems like
+Dialogue: 0,0:37:09.80,0:37:11.80,Default,,0,0,0,,an abomination to say it.
+Dialogue: 0,0:37:13.80,0:37:15.80,Default,,0,0,0,,He went duck hunting.
+Dialogue: 0,0:37:15.80,0:37:17.80,Default,,0,0,0,,And he shot this duck
+Dialogue: 0,0:37:17.80,0:37:20.26,Default,,0,0,0,,and
+Dialogue: 0,0:37:20.26,0:37:22.28,Default,,0,0,0,,the duck wasn't killed.
+Dialogue: 0,0:37:22.28,0:37:24.28,Default,,0,0,0,,I mean it was
+Dialogue: 0,0:37:24.28,0:37:26.28,Default,,0,0,0,,badly injured and the duck
+Dialogue: 0,0:37:26.28,0:37:28.32,Default,,0,0,0,,fell to the ground.
+Dialogue: 0,0:37:28.32,0:37:30.73,Default,,0,0,0,,And after this duck fell
+Dialogue: 0,0:37:30.73,0:37:32.73,Default,,0,0,0,,to the ground it's mate
+Dialogue: 0,0:37:32.73,0:37:34.73,Default,,0,0,0,,it's female mate
+Dialogue: 0,0:37:34.73,0:37:37.17,Default,,0,0,0,,flew down on top
+Dialogue: 0,0:37:37.17,0:37:39.17,Default,,0,0,0,,of the injured duck and she put her
+Dialogue: 0,0:37:58.98,0:38:18.61,Default,,0,0,0,,she put her wings over him.
+Dialogue: 0,0:38:18.61,0:38:20.61,Default,,0,0,0,,After that he never killed
+Dialogue: 0,0:38:20.61,0:38:28.63,Default,,0,0,0,,another duck. Okay we'll go on.
+Dialogue: 0,0:38:28.63,0:38:32.82,Default,,0,0,0,,What happened to the hunter?
+Dialogue: 0,0:38:32.82,0:38:40.28,Default,,0,0,0,,Yeah his heart
+Dialogue: 0,0:38:40.28,0:38:43.63,Default,,0,0,0,,changed.
+Dialogue: 0,0:38:43.63,0:38:46.46,Default,,0,0,0,,He had a transformation
+Dialogue: 0,0:38:46.46,0:38:50.76,Default,,0,0,0,,within his own heart.
+Dialogue: 0,0:38:50.76,0:38:52.76,Default,,0,0,0,,And he gave up hunting
+Dialogue: 0,0:38:52.76,0:38:59.21,Default,,0,0,0,,as a sport.
+Dialogue: 0,0:38:59.21,0:39:02.69,Default,,0,0,0,,But the female duck
+Dialogue: 0,0:39:02.69,0:39:05.07,Default,,0,0,0,,fell on top of the male
+Dialogue: 0,0:39:05.07,0:39:07.09,Default,,0,0,0,,duck and she
+Dialogue: 0,0:39:07.09,0:39:10.80,Default,,0,0,0,,shelled her like this.
+Dialogue: 0,0:39:10.80,0:39:12.80,Default,,0,0,0,,And he never hunted again.
+Dialogue: 0,0:39:12.80,0:39:20.01,Default,,0,0,0,,So love has a
+Dialogue: 0,0:39:20.01,0:39:22.01,Default,,0,0,0,,transformative power.
+Dialogue: 0,0:39:22.01,0:39:26.61,Default,,0,0,0,,Once you become loving
+Dialogue: 0,0:39:26.61,0:39:28.86,Default,,0,0,0,,there are certain things
+Dialogue: 0,0:39:28.86,0:39:33.23,Default,,0,0,0,,you can never do again.
+Dialogue: 0,0:39:33.23,0:39:35.23,Default,,0,0,0,,But you can also perform the miraculous
+Dialogue: 0,0:39:35.23,0:39:37.67,Default,,0,0,0,,without labeling
+Dialogue: 0,0:39:37.67,0:39:41.28,Default,,0,0,0,,it miraculous.
+Dialogue: 0,0:39:41.28,0:39:43.28,Default,,0,0,0,,You can do things other people cannot do.
+Dialogue: 0,0:39:43.28,0:39:45.34,Default,,0,0,0,,And people will do things
+Dialogue: 0,0:39:45.34,0:39:47.34,Default,,0,0,0,,for you they would not do for others.
+Dialogue: 0,0:39:47.34,0:39:49.73,Default,,0,0,0,,So love has a very
+Dialogue: 0,0:39:49.73,0:39:51.73,Default,,0,0,0,,powerful transformative effect.
+Dialogue: 0,0:39:51.73,0:39:59.46,Default,,0,0,0,,It's best not to tell
+Dialogue: 0,0:39:59.46,0:40:01.46,Default,,0,0,0,,a lot of people that you love them
+Dialogue: 0,0:40:01.46,0:40:03.46,Default,,0,0,0,,because they'll get scared.
+Dialogue: 0,0:40:03.46,0:40:05.48,Default,,0,0,0,,They'll think you have
+Dialogue: 0,0:40:05.48,0:40:08.44,Default,,0,0,0,,designs on them.
+Dialogue: 0,0:40:08.44,0:40:10.44,Default,,0,0,0,,So loving this is a way
+Dialogue: 0,0:40:10.44,0:40:12.44,Default,,0,0,0,,of being. It's a way of being.
+Dialogue: 0,0:40:12.44,0:40:14.61,Default,,0,0,0,,And it transforms
+Dialogue: 0,0:40:14.61,0:40:17.01,Default,,0,0,0,,everything around you
+Dialogue: 0,0:40:17.01,0:40:19.01,Default,,0,0,0,,because of the radiation
+Dialogue: 0,0:40:19.01,0:40:23.71,Default,,0,0,0,,of that energy.
+Dialogue: 0,0:40:23.71,0:40:25.71,Default,,0,0,0,,People that are hateful
+Dialogue: 0,0:40:25.71,0:40:27.71,Default,,0,0,0,,in your presence will suddenly
+Dialogue: 0,0:40:27.71,0:40:30.03,Default,,0,0,0,,become willing to forgive others.
+Dialogue: 0,0:40:30.03,0:40:32.03,Default,,0,0,0,,And I'll say
+Dialogue: 0,0:40:32.03,0:40:34.03,Default,,0,0,0,,if you go back over that
+Dialogue: 0,0:40:34.03,0:40:36.03,Default,,0,0,0,,how would you do that?
+Dialogue: 0,0:40:36.03,0:40:38.13,Default,,0,0,0,,And you can see the person
+Dialogue: 0,0:40:38.13,0:40:40.13,Default,,0,0,0,,transform right in front of you.
+Dialogue: 0,0:40:40.13,0:40:42.13,Default,,0,0,0,,And they'd say well I wouldn't have been
+Dialogue: 0,0:40:42.13,0:40:44.28,Default,,0,0,0,,too young to know better.
+Dialogue: 0,0:40:44.28,0:40:46.28,Default,,0,0,0,,They would find an excuse
+Dialogue: 0,0:40:46.28,0:40:48.28,Default,,0,0,0,,to defend the person instead of attack them.
+Dialogue: 0,0:40:48.28,0:40:50.76,Default,,0,0,0,,So we become defenders
+Dialogue: 0,0:40:50.76,0:40:52.76,Default,,0,0,0,,of love and life.
+Dialogue: 0,0:40:52.76,0:40:54.76,Default,,0,0,0,,And we stop being
+Dialogue: 0,0:40:54.76,0:40:56.76,Default,,0,0,0,,attackers.
+Dialogue: 0,0:40:56.76,0:41:00.17,Default,,0,0,0,,Yes.
+Dialogue: 0,0:41:00.17,0:41:02.50,Default,,0,0,0,,I was glad during World War II
+Dialogue: 0,0:41:02.50,0:41:04.50,Default,,0,0,0,,I didn't have to kill anybody.
+Dialogue: 0,0:41:04.50,0:41:10.84,Default,,0,0,0,,I had to maintain this ship.
+Dialogue: 0,0:41:10.84,0:41:13.55,Default,,0,0,0,,I was a bosun's mate.
+Dialogue: 0,0:41:13.55,0:41:16.51,Default,,0,0,0,,And I brought the ship through
+Dialogue: 0,0:41:16.51,0:41:18.61,Default,,0,0,0,,all kinds of terrible
+Dialogue: 0,0:41:18.61,0:41:21.34,Default,,0,0,0,,storms.
+Dialogue: 0,0:41:21.34,0:41:23.34,Default,,0,0,0,,The ship went over 90 degrees.
+Dialogue: 0,0:41:23.34,0:41:25.34,Default,,0,0,0,,I was standing on the bulkhead
+Dialogue: 0,0:41:25.34,0:41:27.34,Default,,0,0,0,,with one foot
+Dialogue: 0,0:41:27.34,0:41:29.34,Default,,0,0,0,,on the bulkhead and the other
+Dialogue: 0,0:41:29.34,0:41:31.69,Default,,0,0,0,,at the wheel.
+Dialogue: 0,0:41:31.69,0:41:33.69,Default,,0,0,0,,And I stayed at the wheel for 12 hours non-stop
+Dialogue: 0,0:41:33.69,0:41:35.69,Default,,0,0,0,,because everybody else was sick.
+Dialogue: 0,0:41:35.69,0:41:37.78,Default,,0,0,0,,Everybody was terribly seasick
+Dialogue: 0,0:41:37.78,0:41:39.78,Default,,0,0,0,,and laying on the floor throwing up.
+Dialogue: 0,0:41:39.78,0:41:42.61,Default,,0,0,0,,And so I just stayed
+Dialogue: 0,0:41:42.61,0:41:44.84,Default,,0,0,0,,at the wheel
+Dialogue: 0,0:41:44.84,0:41:47.61,Default,,0,0,0,,I guess 12 or 20
+Dialogue: 0,0:41:47.61,0:41:49.61,Default,,0,0,0,,I don't know how many hours.
+Dialogue: 0,0:41:49.61,0:41:52.48,Default,,0,0,0,,It was a long couple of days.
+Dialogue: 0,0:41:52.48,0:41:54.48,Default,,0,0,0,,So love empowers us.
+Dialogue: 0,0:41:54.48,0:41:56.48,Default,,0,0,0,,It allows you to steer a ship for
+Dialogue: 0,0:41:56.48,0:41:58.51,Default,,0,0,0,,close to a whole day without food
+Dialogue: 0,0:41:58.51,0:42:00.73,Default,,0,0,0,,or drink or
+Dialogue: 0,0:42:00.73,0:42:02.73,Default,,0,0,0,,anything.
+Dialogue: 0,0:42:02.73,0:42:04.73,Default,,0,0,0,,It must have had water or something
+Dialogue: 0,0:42:04.73,0:42:08.34,Default,,0,0,0,,but I don't remember.
+Dialogue: 0,0:42:08.34,0:42:10.34,Default,,0,0,0,,So love empowers us.
+Dialogue: 0,0:42:10.34,0:42:13.84,Default,,0,0,0,,Forgiveness
+Dialogue: 0,0:42:13.84,0:42:16.03,Default,,0,0,0,,and love is
+Dialogue: 0,0:42:16.03,0:42:20.65,Default,,0,0,0,,transformative.
+Dialogue: 0,0:42:20.65,0:42:22.65,Default,,0,0,0,,And we also have to forgive ourself
+Dialogue: 0,0:42:22.65,0:42:24.65,Default,,0,0,0,,for our trespasses.
+Dialogue: 0,0:42:24.65,0:42:26.65,Default,,0,0,0,,I forgive myself for the errors
+Dialogue: 0,0:42:26.65,0:42:28.65,Default,,0,0,0,,I have made, oh Lord,
+Dialogue: 0,0:42:28.65,0:42:31.23,Default,,0,0,0,,when I was less evolved.
+Dialogue: 0,0:42:31.23,0:42:33.23,Default,,0,0,0,,Amen.
+Dialogue: 0,0:42:33.23,0:42:38.42,Default,,0,0,0,,Love calibrates
+Dialogue: 0,0:42:38.42,0:42:40.42,Default,,0,0,0,,500 and over
+Dialogue: 0,0:42:40.42,0:42:42.42,Default,,0,0,0,,on the map of consciousness.
+Dialogue: 0,0:42:42.42,0:42:44.42,Default,,0,0,0,,The heart chakra
+Dialogue: 0,0:42:44.42,0:42:46.42,Default,,0,0,0,,calibrates 505.
+Dialogue: 0,0:42:46.42,0:42:48.90,Default,,0,0,0,,Bagpipes
+Dialogue: 0,0:42:48.90,0:42:50.90,Default,,0,0,0,,are an example
+Dialogue: 0,0:42:50.90,0:42:52.90,Default,,0,0,0,,of the energy of the heart.
+Dialogue: 0,0:42:54.90,0:42:56.90,Default,,0,0,0,,There's love of pets.
+Dialogue: 0,0:42:56.90,0:42:58.90,Default,,0,0,0,,Love of freedom.
+Dialogue: 0,0:42:58.90,0:43:01.01,Default,,0,0,0,,Romantic love.
+Dialogue: 0,0:43:01.01,0:43:03.32,Default,,0,0,0,,Loveless
+Dialogue: 0,0:43:03.32,0:43:05.32,Default,,0,0,0,,equals flat.
+Dialogue: 0,0:43:05.32,0:43:07.73,Default,,0,0,0,,Love of purpose.
+Dialogue: 0,0:43:07.73,0:43:09.73,Default,,0,0,0,,The golden rule.
+Dialogue: 0,0:43:09.73,0:43:11.73,Default,,0,0,0,,Do unto others
+Dialogue: 0,0:43:11.73,0:43:13.73,Default,,0,0,0,,as you would have them
+Dialogue: 0,0:43:13.73,0:43:15.73,Default,,0,0,0,,do unto you.
+Dialogue: 0,0:43:15.73,0:43:19.65,Default,,0,0,0,,Love of attributes.
+Dialogue: 0,0:43:19.65,0:43:21.86,Default,,0,0,0,,Love increases
+Dialogue: 0,0:43:21.86,0:43:23.86,Default,,0,0,0,,perceived value.
+Dialogue: 0,0:43:23.86,0:43:25.86,Default,,0,0,0,,Love increases
+Dialogue: 0,0:43:25.86,0:43:28.30,Default,,0,0,0,,happiness.
+Dialogue: 0,0:43:28.30,0:43:31.46,Default,,0,0,0,,Love as
+Dialogue: 0,0:43:31.46,0:43:33.46,Default,,0,0,0,,agape,
+Dialogue: 0,0:43:33.46,0:43:35.46,Default,,0,0,0,,which is universal love,
+Dialogue: 0,0:43:35.46,0:43:37.46,Default,,0,0,0,,calibrates
+Dialogue: 0,0:43:37.46,0:43:39.46,Default,,0,0,0,,570.
+Dialogue: 0,0:43:39.46,0:43:41.67,Default,,0,0,0,,Love
+Dialogue: 0,0:43:41.67,0:43:43.71,Default,,0,0,0,,as virtue.
+Dialogue: 0,0:43:43.71,0:43:46.73,Default,,0,0,0,,Love as
+Dialogue: 0,0:43:46.73,0:43:48.73,Default,,0,0,0,,enthusiasm.
+Dialogue: 0,0:43:48.73,0:43:50.73,Default,,0,0,0,,I love doing this.
+Dialogue: 0,0:43:50.73,0:43:53.34,Default,,0,0,0,,Love as
+Dialogue: 0,0:43:53.34,0:43:55.63,Default,,0,0,0,,forgiveness.
+Dialogue: 0,0:43:55.63,0:43:57.63,Default,,0,0,0,,Love as
+Dialogue: 0,0:43:57.63,0:44:02.21,Default,,0,0,0,,acceptance.
+Dialogue: 0,0:44:02.21,0:44:04.21,Default,,0,0,0,,Okay, in this last
+Dialogue: 0,0:44:04.21,0:44:06.21,Default,,0,0,0,,slide, you have given
+Dialogue: 0,0:44:06.21,0:44:08.21,Default,,0,0,0,,several examples of love.
+Dialogue: 0,0:44:08.21,0:44:10.21,Default,,0,0,0,,You know, different types of love.
+Dialogue: 0,0:44:10.21,0:44:12.34,Default,,0,0,0,,Like
+Dialogue: 0,0:44:12.34,0:44:14.34,Default,,0,0,0,,enthusiasm,
+Dialogue: 0,0:44:14.34,0:44:16.34,Default,,0,0,0,,the forgiveness,
+Dialogue: 0,0:44:16.34,0:44:18.34,Default,,0,0,0,,the acceptance.
+Dialogue: 0,0:44:18.34,0:44:20.34,Default,,0,0,0,,So each one of these is an
+Dialogue: 0,0:44:20.34,0:44:22.34,Default,,0,0,0,,aspect of love, yet
+Dialogue: 0,0:44:22.34,0:44:25.59,Default,,0,0,0,,in a different form.
+Dialogue: 0,0:44:25.59,0:44:27.59,Default,,0,0,0,,Is that correct?
+Dialogue: 0,0:44:27.59,0:44:29.59,Default,,0,0,0,,What's the last thing I said?
+Dialogue: 0,0:44:29.59,0:44:31.59,Default,,0,0,0,,But in a different form.
+Dialogue: 0,0:44:31.59,0:44:33.59,Default,,0,0,0,,Different forms of love.
+Dialogue: 0,0:44:33.59,0:44:35.59,Default,,0,0,0,,These are all different forms of love.
+Dialogue: 0,0:44:35.59,0:44:37.59,Default,,0,0,0,,Well, you can encourage your
+Dialogue: 0,0:44:37.59,0:44:40.50,Default,,0,0,0,,fellow, you know, to make life better
+Dialogue: 0,0:44:40.50,0:44:42.78,Default,,0,0,0,,for everybody around you.
+Dialogue: 0,0:44:42.78,0:44:44.78,Default,,0,0,0,,That's always been my ambition.
+Dialogue: 0,0:44:44.78,0:44:47.03,Default,,0,0,0,,To make things go better,
+Dialogue: 0,0:44:47.03,0:44:49.09,Default,,0,0,0,,or the eggs got fried better,
+Dialogue: 0,0:44:49.09,0:44:51.09,Default,,0,0,0,,or the duckies got saved,
+Dialogue: 0,0:44:51.09,0:44:53.19,Default,,0,0,0,,or the kitty got fed this morning.
+Dialogue: 0,0:44:53.19,0:44:55.36,Default,,0,0,0,,Before we left the house
+Dialogue: 0,0:44:55.36,0:44:57.36,Default,,0,0,0,,this morning,
+Dialogue: 0,0:44:57.36,0:44:59.36,Default,,0,0,0,,it was very important to make sure the
+Dialogue: 0,0:44:59.36,0:45:01.51,Default,,0,0,0,,kitties had enough food.
+Dialogue: 0,0:45:01.51,0:45:03.51,Default,,0,0,0,,So we had three kitties all lined up,
+Dialogue: 0,0:45:03.51,0:45:05.51,Default,,0,0,0,,waiting for their breakfast.
+Dialogue: 0,0:45:05.51,0:45:09.94,Default,,0,0,0,,And before we left,
+Dialogue: 0,0:45:09.94,0:45:11.94,Default,,0,0,0,,we had to make sure the doggie
+Dialogue: 0,0:45:11.94,0:45:13.98,Default,,0,0,0,,had enough food and happiness.
+Dialogue: 0,0:45:13.98,0:45:15.98,Default,,0,0,0,,So to share your love with
+Dialogue: 0,0:45:15.98,0:45:17.98,Default,,0,0,0,,everything around you,
+Dialogue: 0,0:45:17.98,0:45:19.98,Default,,0,0,0,,kitties and doggies,
+Dialogue: 0,0:45:19.98,0:45:24.53,Default,,0,0,0,,and other people,
+Dialogue: 0,0:45:24.53,0:45:26.80,Default,,0,0,0,,and even villains.
+Dialogue: 0,0:45:26.80,0:45:28.80,Default,,0,0,0,,A captured villain,
+Dialogue: 0,0:45:28.80,0:45:31.09,Default,,0,0,0,,it's up to you
+Dialogue: 0,0:45:31.09,0:45:33.09,Default,,0,0,0,,to make his life tolerable.
+Dialogue: 0,0:45:33.09,0:45:35.09,Default,,0,0,0,,Say, I'm sorry that I have to
+Dialogue: 0,0:45:35.09,0:45:37.09,Default,,0,0,0,,hold a gun to your head,
+Dialogue: 0,0:45:37.09,0:45:39.17,Default,,0,0,0,,but that's my job.
+Dialogue: 0,0:45:39.17,0:45:41.17,Default,,0,0,0,,Don't make me pull the trigger.
+Dialogue: 0,0:45:41.17,0:45:44.50,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:45:48.76,0:45:50.76,Default,,0,0,0,,Love as motivator.
+Dialogue: 0,0:45:50.76,0:45:53.65,Default,,0,0,0,,Love
+Dialogue: 0,0:45:53.65,0:45:55.65,Default,,0,0,0,,of creation.
+Dialogue: 0,0:45:55.65,0:45:57.65,Default,,0,0,0,,Life.
+Dialogue: 0,0:45:57.65,0:46:00.01,Default,,0,0,0,,Existence.
+Dialogue: 0,0:46:00.01,0:46:02.01,Default,,0,0,0,,Love as appreciation.
+Dialogue: 0,0:46:02.01,0:46:04.75,Default,,0,0,0,,Love as
+Dialogue: 0,0:46:04.75,0:46:07.38,Default,,0,0,0,,kindness.
+Dialogue: 0,0:46:07.38,0:46:09.38,Default,,0,0,0,,Love as essence
+Dialogue: 0,0:46:09.38,0:46:12.21,Default,,0,0,0,,of relationship.
+Dialogue: 0,0:46:12.21,0:46:14.21,Default,,0,0,0,,Love as group
+Dialogue: 0,0:46:14.21,0:46:16.53,Default,,0,0,0,,energy.
+Dialogue: 0,0:46:16.53,0:46:18.69,Default,,0,0,0,,Example.
+Dialogue: 0,0:46:18.69,0:46:20.69,Default,,0,0,0,,Alcoholics Anonymous.
+Dialogue: 0,0:46:20.69,0:46:22.69,Default,,0,0,0,,540.
+Dialogue: 0,0:46:22.69,0:46:24.69,Default,,0,0,0,,The level of unconditional
+Dialogue: 0,0:46:24.69,0:46:26.69,Default,,0,0,0,,love.
+Dialogue: 0,0:46:26.69,0:46:30.13,Default,,0,0,0,,Now I want you to
+Dialogue: 0,0:46:30.13,0:46:32.13,Default,,0,0,0,,explain to everyone here
+Dialogue: 0,0:46:32.13,0:46:34.13,Default,,0,0,0,,what is the difference between
+Dialogue: 0,0:46:34.13,0:46:36.13,Default,,0,0,0,,love at 500
+Dialogue: 0,0:46:36.13,0:46:38.13,Default,,0,0,0,,and unconditional love
+Dialogue: 0,0:46:38.13,0:46:41.57,Default,,0,0,0,,at 540.
+Dialogue: 0,0:46:41.57,0:46:43.57,Default,,0,0,0,,I don't know that it's that easy
+Dialogue: 0,0:46:43.57,0:46:45.57,Default,,0,0,0,,to differentiate.
+Dialogue: 0,0:46:45.57,0:46:48.19,Default,,0,0,0,,At 540,
+Dialogue: 0,0:46:48.19,0:46:50.19,Default,,0,0,0,,you love everybody and everything.
+Dialogue: 0,0:46:50.19,0:46:52.53,Default,,0,0,0,,And
+Dialogue: 0,0:46:52.53,0:46:54.82,Default,,0,0,0,,even Adolf Hitler.
+Dialogue: 0,0:46:54.82,0:46:56.82,Default,,0,0,0,,You look at him as a person
+Dialogue: 0,0:46:56.82,0:46:58.96,Default,,0,0,0,,who was taken over
+Dialogue: 0,0:46:58.96,0:47:01.38,Default,,0,0,0,,by negative energies.
+Dialogue: 0,0:47:01.38,0:47:03.38,Default,,0,0,0,,And you're willing to
+Dialogue: 0,0:47:03.38,0:47:05.92,Default,,0,0,0,,forgive Adolf Hitler
+Dialogue: 0,0:47:05.92,0:47:07.92,Default,,0,0,0,,who couldn't help what happened
+Dialogue: 0,0:47:07.92,0:47:10.26,Default,,0,0,0,,to him. That he was
+Dialogue: 0,0:47:10.26,0:47:12.69,Default,,0,0,0,,overcome by evil.
+Dialogue: 0,0:47:12.69,0:47:14.69,Default,,0,0,0,,So instead of hating evil,
+Dialogue: 0,0:47:14.69,0:47:16.69,Default,,0,0,0,,you feel sorry that people have
+Dialogue: 0,0:47:16.69,0:47:18.69,Default,,0,0,0,,become overwhelmed by evil.
+Dialogue: 0,0:47:18.69,0:47:20.94,Default,,0,0,0,,And
+Dialogue: 0,0:47:20.94,0:47:22.94,Default,,0,0,0,,Adolf did what
+Dialogue: 0,0:47:22.94,0:47:24.94,Default,,0,0,0,,he thought he was required
+Dialogue: 0,0:47:24.94,0:47:26.94,Default,,0,0,0,,to do by honor
+Dialogue: 0,0:47:26.94,0:47:29.48,Default,,0,0,0,,and in its
+Dialogue: 0,0:47:29.48,0:47:31.48,Default,,0,0,0,,contextualization at the time.
+Dialogue: 0,0:47:33.90,0:47:35.90,Default,,0,0,0,,You can love even Adolf Hitler
+Dialogue: 0,0:47:35.90,0:47:38.32,Default,,0,0,0,,in unconditional love,
+Dialogue: 0,0:47:38.32,0:47:40.32,Default,,0,0,0,,you would be able to forgive him
+Dialogue: 0,0:47:40.32,0:47:42.34,Default,,0,0,0,,and accept him.
+Dialogue: 0,0:47:42.34,0:47:44.34,Default,,0,0,0,,You'd forgive even Hitler, yes.
+Dialogue: 0,0:47:44.34,0:47:46.34,Default,,0,0,0,,Because he was captured by certain
+Dialogue: 0,0:47:46.34,0:47:48.34,Default,,0,0,0,,ideals. Captured by
+Dialogue: 0,0:47:48.34,0:47:50.34,Default,,0,0,0,,the thinginess of the time.
+Dialogue: 0,0:47:50.34,0:47:53.34,Default,,0,0,0,,Okay.
+Dialogue: 0,0:47:53.34,0:47:55.34,Default,,0,0,0,,You can see that everybody
+Dialogue: 0,0:47:55.34,0:47:57.34,Default,,0,0,0,,who violates the law of love
+Dialogue: 0,0:47:57.34,0:47:59.34,Default,,0,0,0,,is really a victim of
+Dialogue: 0,0:47:59.34,0:48:01.46,Default,,0,0,0,,some other
+Dialogue: 0,0:48:01.46,0:48:03.46,Default,,0,0,0,,societal belief system
+Dialogue: 0,0:48:03.46,0:48:05.59,Default,,0,0,0,,or the pressures of the time.
+Dialogue: 0,0:48:05.59,0:48:08.07,Default,,0,0,0,,During the World War
+Dialogue: 0,0:48:08.07,0:48:10.07,Default,,0,0,0,,II, I didn't hate the Japanese.
+Dialogue: 0,0:48:10.07,0:48:12.13,Default,,0,0,0,,Even after
+Dialogue: 0,0:48:12.13,0:48:14.13,Default,,0,0,0,,Pearl Harbor, I didn't hate
+Dialogue: 0,0:48:14.13,0:48:16.50,Default,,0,0,0,,Hitler.
+Dialogue: 0,0:48:16.50,0:48:19.42,Default,,0,0,0,,I didn't hate anybody.
+Dialogue: 0,0:48:19.42,0:48:21.42,Default,,0,0,0,,So
+Dialogue: 0,0:48:21.42,0:48:23.57,Default,,0,0,0,,you still had to conduct yourself
+Dialogue: 0,0:48:23.57,0:48:26.00,Default,,0,0,0,,but without hate.
+Dialogue: 0,0:48:26.00,0:48:28.00,Default,,0,0,0,,You did it out of
+Dialogue: 0,0:48:28.00,0:48:30.00,Default,,0,0,0,,a sense of duty and
+Dialogue: 0,0:48:30.00,0:48:32.00,Default,,0,0,0,,loyalty to your fellow man.
+Dialogue: 0,0:48:32.00,0:48:35.76,Default,,0,0,0,,The people on the ship,
+Dialogue: 0,0:48:35.76,0:48:37.76,Default,,0,0,0,,the only way they got through the
+Dialogue: 0,0:48:37.76,0:48:39.76,Default,,0,0,0,,Okinawa Typhoon,
+Dialogue: 0,0:48:39.76,0:48:41.82,Default,,0,0,0,,turned over something like
+Dialogue: 0,0:48:41.82,0:48:43.82,Default,,0,0,0,,90 ships. 90 ships went down
+Dialogue: 0,0:48:43.82,0:48:48.05,Default,,0,0,0,,in the Okinawa Typhoon.
+Dialogue: 0,0:48:48.05,0:48:50.05,Default,,0,0,0,,And I was at the wheel the whole time.
+Dialogue: 0,0:48:50.05,0:48:52.73,Default,,0,0,0,,Yeah. I was just thankful
+Dialogue: 0,0:48:52.73,0:48:54.73,Default,,0,0,0,,that, Lord, I could
+Dialogue: 0,0:48:54.73,0:48:56.73,Default,,0,0,0,,sustain
+Dialogue: 0,0:48:56.73,0:48:58.73,Default,,0,0,0,,the life. Everybody was seasick.
+Dialogue: 0,0:48:58.73,0:49:00.73,Default,,0,0,0,,They were all laying on the deck. It was pathetic.
+Dialogue: 0,0:49:04.82,0:49:06.82,Default,,0,0,0,,Everybody laying on the deck throwing up
+Dialogue: 0,0:49:06.82,0:49:09.11,Default,,0,0,0,,for days. It was really something.
+Dialogue: 0,0:49:09.11,0:49:11.11,Default,,0,0,0,,And so steering the ship was up
+Dialogue: 0,0:49:11.11,0:49:13.11,Default,,0,0,0,,to me because I was
+Dialogue: 0,0:49:13.11,0:49:15.11,Default,,0,0,0,,the only one, apparently, that wasn't
+Dialogue: 0,0:49:15.11,0:49:17.11,Default,,0,0,0,,seasick.
+Dialogue: 0,0:49:17.11,0:49:19.59,Default,,0,0,0,,But we hit 90 degrees because
+Dialogue: 0,0:49:19.59,0:49:21.59,Default,,0,0,0,,I can remember I was standing on the bulkhead.
+Dialogue: 0,0:49:23.98,0:49:25.98,Default,,0,0,0,,Standing up straight on the bulkhead.
+Dialogue: 0,0:49:25.98,0:49:28.34,Default,,0,0,0,,So we were over 90 degrees.
+Dialogue: 0,0:49:28.34,0:49:30.34,Default,,0,0,0,,So we serve our fellow man
+Dialogue: 0,0:49:30.34,0:49:32.46,Default,,0,0,0,,out of a commitment
+Dialogue: 0,0:49:32.46,0:49:35.19,Default,,0,0,0,,and understanding
+Dialogue: 0,0:49:35.19,0:49:37.19,Default,,0,0,0,,our human nature
+Dialogue: 0,0:49:37.19,0:49:39.30,Default,,0,0,0,,as God would have us
+Dialogue: 0,0:49:39.30,0:49:42.63,Default,,0,0,0,,understand it. We thank Thee,
+Dialogue: 0,0:49:42.63,0:49:44.63,Default,,0,0,0,,O Lord, for our life and we dedicate
+Dialogue: 0,0:49:44.63,0:49:46.63,Default,,0,0,0,,it to Thy service. Amen.
+Dialogue: 0,0:49:46.63,0:49:50.90,Default,,0,0,0,,Laughter.
+Dialogue: 0,0:49:50.90,0:49:52.90,Default,,0,0,0,,Love as admiration.
+Dialogue: 0,0:49:52.90,0:49:55.32,Default,,0,0,0,,Love as respect
+Dialogue: 0,0:49:55.32,0:49:57.32,Default,,0,0,0,,as in love of
+Dialogue: 0,0:49:57.32,0:49:59.32,Default,,0,0,0,,country and countrymen
+Dialogue: 0,0:49:59.32,0:50:01.51,Default,,0,0,0,,in the military.
+Dialogue: 0,0:50:01.51,0:50:03.71,Default,,0,0,0,,Love as valor.
+Dialogue: 0,0:50:03.71,0:50:05.71,Default,,0,0,0,,Love of shipmates.
+Dialogue: 0,0:50:05.71,0:50:08.57,Default,,0,0,0,,Bonds
+Dialogue: 0,0:50:08.57,0:50:10.57,Default,,0,0,0,,of unity.
+Dialogue: 0,0:50:10.57,0:50:14.05,Default,,0,0,0,,Fraternal love
+Dialogue: 0,0:50:14.05,0:50:16.21,Default,,0,0,0,,as in buddies,
+Dialogue: 0,0:50:16.21,0:50:18.21,Default,,0,0,0,,classmates,
+Dialogue: 0,0:50:18.21,0:50:20.21,Default,,0,0,0,,teammates.
+Dialogue: 0,0:50:20.21,0:50:22.94,Default,,0,0,0,,Love as friendship
+Dialogue: 0,0:50:22.94,0:50:24.94,Default,,0,0,0,,and loyalty.
+Dialogue: 0,0:50:24.94,0:50:29.53,Default,,0,0,0,,Love is letting
+Dialogue: 0,0:50:29.53,0:50:31.53,Default,,0,0,0,,go of fear.
+Dialogue: 0,0:50:31.53,0:50:33.53,Default,,0,0,0,,Jerry Jempolski's book.
+Dialogue: 0,0:50:33.53,0:50:36.46,Default,,0,0,0,,Love as affection.
+Dialogue: 0,0:50:36.46,0:50:38.46,Default,,0,0,0,,Honey.
+Dialogue: 0,0:50:38.46,0:50:41.48,Default,,0,0,0,,Sweetheart.
+Dialogue: 0,0:50:41.48,0:50:44.32,Default,,0,0,0,,Love as cherishing.
+Dialogue: 0,0:50:44.32,0:50:46.32,Default,,0,0,0,,Maternal love.
+Dialogue: 0,0:50:46.32,0:50:48.34,Default,,0,0,0,,Self-sacrificing.
+Dialogue: 0,0:50:48.34,0:50:50.73,Default,,0,0,0,,Lovingness
+Dialogue: 0,0:50:50.73,0:50:52.73,Default,,0,0,0,,as an existential
+Dialogue: 0,0:50:52.73,0:50:55.86,Default,,0,0,0,,style.
+Dialogue: 0,0:50:55.86,0:50:57.86,Default,,0,0,0,,This lecture is the
+Dialogue: 0,0:50:57.86,0:50:59.86,Default,,0,0,0,,result of love
+Dialogue: 0,0:50:59.86,0:51:03.86,Default,,0,0,0,,and the miraculous.
+Dialogue: 0,0:51:03.86,0:51:05.90,Default,,0,0,0,,I was speaking to
+Dialogue: 0,0:51:05.90,0:51:07.90,Default,,0,0,0,,some ladies who were up front here
+Dialogue: 0,0:51:07.90,0:51:09.90,Default,,0,0,0,,before the lecture started
+Dialogue: 0,0:51:09.90,0:51:12.03,Default,,0,0,0,,and we were talking
+Dialogue: 0,0:51:12.03,0:51:14.05,Default,,0,0,0,,about what it is
+Dialogue: 0,0:51:14.05,0:51:16.05,Default,,0,0,0,,for us to be wives and mothers
+Dialogue: 0,0:51:16.05,0:51:18.05,Default,,0,0,0,,and how important it is
+Dialogue: 0,0:51:18.05,0:51:20.05,Default,,0,0,0,,to each one of us
+Dialogue: 0,0:51:20.05,0:51:22.05,Default,,0,0,0,,to hold that spiritual
+Dialogue: 0,0:51:22.05,0:51:24.05,Default,,0,0,0,,torch
+Dialogue: 0,0:51:24.05,0:51:26.05,Default,,0,0,0,,in our family
+Dialogue: 0,0:51:26.05,0:51:28.05,Default,,0,0,0,,and how it's up to us
+Dialogue: 0,0:51:28.05,0:51:30.05,Default,,0,0,0,,to keep that spirituality
+Dialogue: 0,0:51:30.05,0:51:32.05,Default,,0,0,0,,strong
+Dialogue: 0,0:51:32.05,0:51:34.05,Default,,0,0,0,,as women of the world
+Dialogue: 0,0:51:34.05,0:51:36.05,Default,,0,0,0,,should be.
+Dialogue: 0,0:51:36.05,0:51:38.05,Default,,0,0,0,,So I just wanted to
+Dialogue: 0,0:51:38.05,0:51:40.05,Default,,0,0,0,,pass that along to everybody
+Dialogue: 0,0:51:40.05,0:51:42.05,Default,,0,0,0,,that we as women
+Dialogue: 0,0:51:42.05,0:51:44.05,Default,,0,0,0,,as wives
+Dialogue: 0,0:51:44.05,0:51:46.05,Default,,0,0,0,,and mothers
+Dialogue: 0,0:51:46.05,0:51:48.13,Default,,0,0,0,,need to inspire
+Dialogue: 0,0:51:48.13,0:51:50.13,Default,,0,0,0,,our children and
+Dialogue: 0,0:51:50.13,0:51:52.13,Default,,0,0,0,,mates to
+Dialogue: 0,0:51:52.13,0:51:54.13,Default,,0,0,0,,take up that torch
+Dialogue: 0,0:51:54.13,0:51:56.44,Default,,0,0,0,,and follow God.
+Dialogue: 0,0:51:56.44,0:51:58.73,Default,,0,0,0,,I love you baby.
+Dialogue: 0,0:51:58.73,0:52:08.34,Default,,0,0,0,,Every morning
+Dialogue: 0,0:52:08.34,0:52:10.73,Default,,0,0,0,,I give thanks for your love.
+Dialogue: 0,0:52:10.73,0:52:15.07,Default,,0,0,0,,Every night
+Dialogue: 0,0:52:15.07,0:52:17.07,Default,,0,0,0,,I thank God for it.
+Dialogue: 0,0:52:17.07,0:52:33.30,Default,,0,0,0,,How animals
+Dialogue: 0,0:52:33.30,0:52:36.23,Default,,0,0,0,,affect your life.
+Dialogue: 0,0:52:36.23,0:52:38.23,Default,,0,0,0,,The songbird's song
+Dialogue: 0,0:52:38.23,0:52:40.23,Default,,0,0,0,,calibrates at 500
+Dialogue: 0,0:52:40.23,0:52:42.42,Default,,0,0,0,,the level of love.
+Dialogue: 0,0:52:42.42,0:52:44.42,Default,,0,0,0,,The kitty's purr
+Dialogue: 0,0:52:44.42,0:52:46.42,Default,,0,0,0,,calibrates at 500
+Dialogue: 0,0:52:46.42,0:52:48.42,Default,,0,0,0,,the level of love.
+Dialogue: 0,0:52:48.42,0:52:50.42,Default,,0,0,0,,The doggy's
+Dialogue: 0,0:52:50.42,0:52:52.42,Default,,0,0,0,,wagging tail
+Dialogue: 0,0:52:52.42,0:52:54.42,Default,,0,0,0,,calibrates at 500
+Dialogue: 0,0:52:54.42,0:52:56.42,Default,,0,0,0,,the level of love.
+Dialogue: 0,0:52:56.42,0:52:58.42,Default,,0,0,0,,The family cat
+Dialogue: 0,0:52:58.42,0:53:00.42,Default,,0,0,0,,calibrates at 245
+Dialogue: 0,0:53:00.42,0:53:02.61,Default,,0,0,0,,the family dog
+Dialogue: 0,0:53:02.61,0:53:04.61,Default,,0,0,0,,calibrates
+Dialogue: 0,0:53:04.61,0:53:06.61,Default,,0,0,0,,at 250
+Dialogue: 0,0:53:06.61,0:53:08.98,Default,,0,0,0,,and having
+Dialogue: 0,0:53:08.98,0:53:10.98,Default,,0,0,0,,a dog
+Dialogue: 0,0:53:10.98,0:53:12.98,Default,,0,0,0,,increases your lifespan
+Dialogue: 0,0:53:12.98,0:53:14.98,Default,,0,0,0,,by 10 years.
+Dialogue: 0,0:53:14.98,0:53:17.55,Default,,0,0,0,,You hear that?
+Dialogue: 0,0:53:17.55,0:53:20.09,Default,,0,0,0,,10 years.
+Dialogue: 0,0:53:20.09,0:53:22.26,Default,,0,0,0,,If you own a dog
+Dialogue: 0,0:53:22.26,0:53:24.26,Default,,0,0,0,,you will live 10 years
+Dialogue: 0,0:53:24.26,0:53:26.38,Default,,0,0,0,,longer.
+Dialogue: 0,0:53:26.38,0:53:28.38,Default,,0,0,0,,When you think of all the idiotic
+Dialogue: 0,0:53:28.38,0:53:30.38,Default,,0,0,0,,exercises, crazy diets
+Dialogue: 0,0:53:30.38,0:53:34.59,Default,,0,0,0,,people go through,
+Dialogue: 0,0:53:34.59,0:53:36.59,Default,,0,0,0,,why don't you just buy a dog
+Dialogue: 0,0:53:36.59,0:53:38.59,Default,,0,0,0,,and live 10 more years?
+Dialogue: 0,0:53:38.59,0:53:40.59,Default,,0,0,0,,Save yourself all those horrible
+Dialogue: 0,0:53:40.59,0:53:42.59,Default,,0,0,0,,low cholesterol diets and crap.
+Dialogue: 0,0:53:45.86,0:53:47.86,Default,,0,0,0,,You get to die of cholesterol
+Dialogue: 0,0:53:47.86,0:53:49.86,Default,,0,0,0,,poisoning when you're 90.
+Dialogue: 0,0:53:52.21,0:53:54.21,Default,,0,0,0,,I don't know, I'm over
+Dialogue: 0,0:53:54.21,0:53:56.21,Default,,0,0,0,,How old am I now? I forgot.
+Dialogue: 0,0:53:56.21,0:53:58.38,Default,,0,0,0,,Do you know how old I am?
+Dialogue: 0,0:53:58.38,0:54:00.38,Default,,0,0,0,,How old am I? 84.
+Dialogue: 0,0:54:00.38,0:54:02.38,Default,,0,0,0,,Is that so?
+Dialogue: 0,0:54:02.38,0:54:04.38,Default,,0,0,0,,Well without a dog I would have been
+Dialogue: 0,0:54:04.38,0:54:06.38,Default,,0,0,0,,dead already.
+Dialogue: 0,0:54:06.38,0:54:08.76,Default,,0,0,0,,So Kelsey my doggy at home
+Dialogue: 0,0:54:08.76,0:54:11.82,Default,,0,0,0,,who I love and adore.
+Dialogue: 0,0:54:11.82,0:54:18.36,Default,,0,0,0,,This is Kelsey.
+Dialogue: 0,0:54:18.36,0:54:21.13,Default,,0,0,0,,Where is Kelsey?
+Dialogue: 0,0:54:21.13,0:54:23.19,Default,,0,0,0,,She's on the screen.
+Dialogue: 0,0:54:23.19,0:54:25.19,Default,,0,0,0,,Is she on there?
+Dialogue: 0,0:54:25.19,0:54:27.19,Default,,0,0,0,,We went to the pound
+Dialogue: 0,0:54:27.19,0:54:29.19,Default,,0,0,0,,and adopted her.
+Dialogue: 0,0:54:29.19,0:54:31.19,Default,,0,0,0,,Dave went in and
+Dialogue: 0,0:54:31.19,0:54:33.19,Default,,0,0,0,,all these dogs are jumping around
+Dialogue: 0,0:54:33.19,0:54:35.19,Default,,0,0,0,,pick me, pick me
+Dialogue: 0,0:54:35.19,0:54:37.19,Default,,0,0,0,,and here she was just sitting in the corner
+Dialogue: 0,0:54:37.19,0:54:39.65,Default,,0,0,0,,and he says I want that one.
+Dialogue: 0,0:54:39.65,0:54:41.65,Default,,0,0,0,,And Gabe and I looked at each other like
+Dialogue: 0,0:54:41.65,0:54:43.65,Default,,0,0,0,,I don't know about her.
+Dialogue: 0,0:54:43.65,0:54:45.65,Default,,0,0,0,,She's not doing it.
+Dialogue: 0,0:54:45.65,0:54:47.65,Default,,0,0,0,,He goes no I want that dog.
+Dialogue: 0,0:54:47.65,0:54:49.94,Default,,0,0,0,,And we came home with her and she has been a joy.
+Dialogue: 0,0:54:49.94,0:54:51.94,Default,,0,0,0,,She herds the kitties.
+Dialogue: 0,0:54:51.94,0:54:53.94,Default,,0,0,0,,All the other dogs jumped around.
+Dialogue: 0,0:54:53.94,0:54:55.94,Default,,0,0,0,,And Kelsey just lay in the corner
+Dialogue: 0,0:54:55.94,0:54:58.09,Default,,0,0,0,,like this.
+Dialogue: 0,0:54:58.09,0:55:00.09,Default,,0,0,0,,Looking out like this.
+Dialogue: 0,0:55:00.09,0:55:02.15,Default,,0,0,0,,So she got me through the heart.
+Dialogue: 0,0:55:02.15,0:55:08.57,Default,,0,0,0,,Love me, love my dog.
+Dialogue: 0,0:55:12.63,0:55:14.63,Default,,0,0,0,,But the fact that owning a dog
+Dialogue: 0,0:55:14.63,0:55:16.63,Default,,0,0,0,,adds ten years to your life.
+Dialogue: 0,0:55:16.63,0:55:20.63,Default,,0,0,0,,I mean that's just a major issue.
+Dialogue: 0,0:55:20.63,0:55:22.63,Default,,0,0,0,,Ten years is quite a while.
+Dialogue: 0,0:55:22.63,0:55:25.30,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:55:25.30,0:55:28.01,Default,,0,0,0,,Okay.
+Dialogue: 0,0:55:28.01,0:55:30.01,Default,,0,0,0,,Kelsey asked me to bring that up.
+Dialogue: 0,0:55:30.01,0:55:32.21,Default,,0,0,0,,So I said
+Dialogue: 0,0:55:32.21,0:55:34.21,Default,,0,0,0,,I'll bring it up Kelsey.
+Dialogue: 0,0:55:34.21,0:55:36.21,Default,,0,0,0,,That was my promise to her.
+Dialogue: 0,0:55:36.21,0:55:39.17,Default,,0,0,0,,Calibrations
+Dialogue: 0,0:55:39.17,0:55:42.15,Default,,0,0,0,,in the level of love.
+Dialogue: 0,0:55:42.15,0:55:44.15,Default,,0,0,0,,The statement
+Dialogue: 0,0:55:44.15,0:55:46.15,Default,,0,0,0,,love is the ultimate law
+Dialogue: 0,0:55:46.15,0:55:48.15,Default,,0,0,0,,of the universe.
+Dialogue: 0,0:55:48.15,0:55:50.15,Default,,0,0,0,,Calibrates at
+Dialogue: 0,0:55:50.15,0:55:53.11,Default,,0,0,0,,750.
+Dialogue: 0,0:55:53.11,0:55:55.25,Default,,0,0,0,,Sat Chit Ananda
+Dialogue: 0,0:55:55.25,0:55:57.25,Default,,0,0,0,,Calibrates at 600.
+Dialogue: 0,0:55:57.25,0:56:00.34,Default,,0,0,0,,Agape
+Dialogue: 0,0:56:00.34,0:56:02.71,Default,,0,0,0,,taught by Jesus
+Dialogue: 0,0:56:02.71,0:56:04.71,Default,,0,0,0,,Calibrates
+Dialogue: 0,0:56:04.71,0:56:07.61,Default,,0,0,0,,570.
+Dialogue: 0,0:56:07.61,0:56:09.61,Default,,0,0,0,,Susan Boyle's
+Dialogue: 0,0:56:09.61,0:56:11.84,Default,,0,0,0,,voice
+Dialogue: 0,0:56:11.84,0:56:13.84,Default,,0,0,0,,Calibrates at 550.
+Dialogue: 0,0:56:13.84,0:56:16.98,Default,,0,0,0,,Unconditional love
+Dialogue: 0,0:56:16.98,0:56:18.98,Default,,0,0,0,,Calibrates
+Dialogue: 0,0:56:18.98,0:56:21.82,Default,,0,0,0,,540.
+Dialogue: 0,0:56:21.82,0:56:23.82,Default,,0,0,0,,The movie The Pacific
+Dialogue: 0,0:56:23.82,0:56:25.88,Default,,0,0,0,,Calibrates
+Dialogue: 0,0:56:25.88,0:56:28.82,Default,,0,0,0,,500.
+Dialogue: 0,0:56:28.82,0:56:30.82,Default,,0,0,0,,Wisdom
+Dialogue: 0,0:56:30.82,0:56:32.82,Default,,0,0,0,,Calibrates at 430.
+Dialogue: 0,0:56:32.82,0:56:35.07,Default,,0,0,0,,Mother's Day
+Dialogue: 0,0:56:35.07,0:56:37.07,Default,,0,0,0,,Calibrates
+Dialogue: 0,0:56:37.07,0:56:44.53,Default,,0,0,0,,300.
+Dialogue: 0,0:56:44.53,0:56:46.53,Default,,0,0,0,,Solar plexus versus
+Dialogue: 0,0:56:46.53,0:56:48.76,Default,,0,0,0,,love.
+Dialogue: 0,0:56:48.76,0:56:51.63,Default,,0,0,0,,Love is from the heart.
+Dialogue: 0,0:56:51.63,0:56:53.63,Default,,0,0,0,,Attachment and
+Dialogue: 0,0:56:53.63,0:56:55.63,Default,,0,0,0,,ambitious craving
+Dialogue: 0,0:56:55.63,0:56:57.73,Default,,0,0,0,,are from the solar plexus.
+Dialogue: 0,0:56:57.73,0:56:59.73,Default,,0,0,0,,Examples
+Dialogue: 0,0:56:59.73,0:57:01.78,Default,,0,0,0,,love of wealth.
+Dialogue: 0,0:57:01.78,0:57:03.78,Default,,0,0,0,,Love of fame.
+Dialogue: 0,0:57:03.78,0:57:05.78,Default,,0,0,0,,Love of power.
+Dialogue: 0,0:57:05.78,0:57:07.78,Default,,0,0,0,,Love of being right.
+Dialogue: 0,0:57:07.78,0:57:09.78,Default,,0,0,0,,Love of glamour.
+Dialogue: 0,0:57:09.78,0:57:11.78,Default,,0,0,0,,Publicity.
+Dialogue: 0,0:57:11.78,0:57:13.78,Default,,0,0,0,,Love of stardom.
+Dialogue: 0,0:57:13.78,0:57:15.78,Default,,0,0,0,,Love of public attention.
+Dialogue: 0,0:57:15.78,0:57:21.01,Default,,0,0,0,,Words that describe
+Dialogue: 0,0:57:21.01,0:57:23.01,Default,,0,0,0,,the level of 500.
+Dialogue: 0,0:57:23.01,0:57:25.01,Default,,0,0,0,,Love.
+Dialogue: 0,0:57:25.01,0:57:27.01,Default,,0,0,0,,Warmth.
+Dialogue: 0,0:57:27.01,0:57:29.01,Default,,0,0,0,,Heartfelt.
+Dialogue: 0,0:57:29.01,0:57:31.01,Default,,0,0,0,,Join.
+Dialogue: 0,0:57:31.01,0:57:33.01,Default,,0,0,0,,Appreciation.
+Dialogue: 0,0:57:33.01,0:57:35.01,Default,,0,0,0,,Nurturing.
+Dialogue: 0,0:57:35.01,0:57:37.01,Default,,0,0,0,,Sensual.
+Dialogue: 0,0:57:37.01,0:57:39.01,Default,,0,0,0,,Forgiving.
+Dialogue: 0,0:57:39.01,0:57:41.01,Default,,0,0,0,,Protective.
+Dialogue: 0,0:57:41.01,0:57:43.01,Default,,0,0,0,,Benign.
+Dialogue: 0,0:57:43.01,0:57:45.01,Default,,0,0,0,,Inclusive.
+Dialogue: 0,0:57:45.01,0:57:47.01,Default,,0,0,0,,Goodness.
+Dialogue: 0,0:57:47.01,0:57:49.01,Default,,0,0,0,,Alignment.
+Dialogue: 0,0:57:49.01,0:57:51.01,Default,,0,0,0,,Affectionate.
+Dialogue: 0,0:57:51.01,0:57:53.01,Default,,0,0,0,,Purity.
+Dialogue: 0,0:57:53.01,0:57:55.01,Default,,0,0,0,,Humble.
+Dialogue: 0,0:57:55.01,0:57:57.01,Default,,0,0,0,,Cordial.
+Dialogue: 0,0:57:57.01,0:57:59.01,Default,,0,0,0,,Giving.
+Dialogue: 0,0:57:59.01,0:58:01.01,Default,,0,0,0,,Satisfying.
+Dialogue: 0,0:58:01.01,0:58:03.01,Default,,0,0,0,,Gracious.
+Dialogue: 0,0:58:03.01,0:58:05.01,Default,,0,0,0,,Generous.
+Dialogue: 0,0:58:05.01,0:58:07.01,Default,,0,0,0,,Passion.
+Dialogue: 0,0:58:07.01,0:58:09.01,Default,,0,0,0,,Uplifting.
+Dialogue: 0,0:58:09.01,0:58:14.53,Default,,0,0,0,,Holistic.
+Dialogue: 0,0:58:14.53,0:58:16.53,Default,,0,0,0,,Sweetness.
+Dialogue: 0,0:58:16.53,0:58:19.57,Default,,0,0,0,,Love is a progressively
+Dialogue: 0,0:58:19.57,0:58:21.57,Default,,0,0,0,,unconditional energy field.
+Dialogue: 0,0:58:21.57,0:58:24.30,Default,,0,0,0,,Lovingness is a way of being
+Dialogue: 0,0:58:24.30,0:58:26.30,Default,,0,0,0,,in the world.
+Dialogue: 0,0:58:26.30,0:58:28.30,Default,,0,0,0,,Love is forgiving.
+Dialogue: 0,0:58:28.30,0:58:31.03,Default,,0,0,0,,Nurturing.
+Dialogue: 0,0:58:31.03,0:58:33.61,Default,,0,0,0,,And supportive.
+Dialogue: 0,0:58:33.61,0:58:35.61,Default,,0,0,0,,Love emanates from the heart.
+Dialogue: 0,0:58:35.61,0:58:37.61,Default,,0,0,0,,That first statement you said
+Dialogue: 0,0:58:37.61,0:58:39.61,Default,,0,0,0,,is that love is
+Dialogue: 0,0:58:39.61,0:58:41.61,Default,,0,0,0,,progressively
+Dialogue: 0,0:58:41.61,0:58:43.61,Default,,0,0,0,,unconditional.
+Dialogue: 0,0:58:43.61,0:58:45.61,Default,,0,0,0,,The more you love,
+Dialogue: 0,0:58:45.61,0:58:49.78,Default,,0,0,0,,the more you can love.
+Dialogue: 0,0:58:49.78,0:58:52.01,Default,,0,0,0,,That's one reason to have a dog.
+Dialogue: 0,0:58:52.01,0:58:54.01,Default,,0,0,0,,You live 10 years longer
+Dialogue: 0,0:58:54.01,0:58:56.01,Default,,0,0,0,,because it brings up
+Dialogue: 0,0:58:56.01,0:58:58.01,Default,,0,0,0,,the energy of love
+Dialogue: 0,0:58:58.01,0:59:00.01,Default,,0,0,0,,and the energy of love heals
+Dialogue: 0,0:59:00.01,0:59:04.00,Default,,0,0,0,,and prolongs life.
+Dialogue: 0,0:59:04.00,0:59:06.00,Default,,0,0,0,,And you're thankful for your life.
+Dialogue: 0,0:59:06.00,0:59:08.61,Default,,0,0,0,,You're thankful to God
+Dialogue: 0,0:59:08.61,0:59:10.61,Default,,0,0,0,,because of your life.
+Dialogue: 0,0:59:10.61,0:59:12.61,Default,,0,0,0,,And you say,
+Dialogue: 0,0:59:12.61,0:59:14.67,Default,,0,0,0,,I thank thee, O Lord, for my life
+Dialogue: 0,0:59:14.67,0:59:17.92,Default,,0,0,0,,and the miracles of this life.
+Dialogue: 0,0:59:17.92,0:59:19.92,Default,,0,0,0,,And I always thank God
+Dialogue: 0,0:59:19.92,0:59:21.92,Default,,0,0,0,,for our dog and our kitties.
+Dialogue: 0,0:59:21.92,0:59:23.92,Default,,0,0,0,,I said, I thank you for the dog
+Dialogue: 0,0:59:23.92,0:59:25.92,Default,,0,0,0,,and the kitties.
+Dialogue: 0,0:59:25.92,0:59:27.98,Default,,0,0,0,,Why? Because they represent love.
+Dialogue: 0,0:59:27.98,0:59:29.98,Default,,0,0,0,,The kitties purr, purr, purr, purr, purr, purr.
+Dialogue: 0,0:59:29.98,0:59:31.98,Default,,0,0,0,,I got a kitty that climbs on the bed
+Dialogue: 0,0:59:31.98,0:59:33.98,Default,,0,0,0,,as soon as we're in bed
+Dialogue: 0,0:59:33.98,0:59:35.98,Default,,0,0,0,,it starts to go purr, purr, purr, purr, purr, purr.
+Dialogue: 0,0:59:37.98,0:59:39.98,Default,,0,0,0,,So we surround
+Dialogue: 0,0:59:39.98,0:59:42.46,Default,,0,0,0,,ourselves with love.
+Dialogue: 0,0:59:42.46,0:59:45.03,Default,,0,0,0,,Yes?
+Dialogue: 0,0:59:45.03,0:59:47.03,Default,,0,0,0,,You're always saying lovingness
+Dialogue: 0,0:59:47.03,0:59:49.03,Default,,0,0,0,,is a way of being in the world.
+Dialogue: 0,0:59:49.03,0:59:51.09,Default,,0,0,0,,How do we apply that to our daily lives?
+Dialogue: 0,0:59:51.09,0:59:53.09,Default,,0,0,0,,You just become,
+Dialogue: 0,0:59:53.09,0:59:55.09,Default,,0,0,0,,you become that.
+Dialogue: 0,0:59:55.09,0:59:57.09,Default,,0,0,0,,Everything you do and say,
+Dialogue: 0,0:59:57.09,0:59:59.09,Default,,0,0,0,,every movement,
+Dialogue: 0,0:59:59.09,1:00:01.09,Default,,0,0,0,,then is energized by the lovingness
+Dialogue: 0,1:00:01.09,1:00:03.65,Default,,0,0,0,,which you own within yourself.
+Dialogue: 0,1:00:03.65,1:00:05.65,Default,,0,0,0,,Everything I say as I talk
+Dialogue: 0,1:00:05.65,1:00:07.65,Default,,0,0,0,,to this audience,
+Dialogue: 0,1:00:07.65,1:00:09.65,Default,,0,0,0,,I feel like an energy running out.
+Dialogue: 0,1:00:09.65,1:00:11.65,Default,,0,0,0,,I want to share
+Dialogue: 0,1:00:11.65,1:00:13.65,Default,,0,0,0,,what I hold in my heart
+Dialogue: 0,1:00:13.65,1:00:15.65,Default,,0,0,0,,as a knowingness
+Dialogue: 0,1:00:15.65,1:00:18.38,Default,,0,0,0,,experientially
+Dialogue: 0,1:00:18.38,1:00:20.38,Default,,0,0,0,,and I hold it in my heart
+Dialogue: 0,1:00:20.38,1:00:22.38,Default,,0,0,0,,for all of them
+Dialogue: 0,1:00:22.38,1:00:24.53,Default,,0,0,0,,that they should all be feeling it.
+Dialogue: 0,1:00:24.53,1:00:26.53,Default,,0,0,0,,I pray for the inner experience
+Dialogue: 0,1:00:26.53,1:00:28.53,Default,,0,0,0,,of divine love
+Dialogue: 0,1:00:28.53,1:00:30.53,Default,,0,0,0,,for everyone here present now.
+Dialogue: 0,1:00:30.53,1:00:37.65,Default,,0,0,0,,God bless you, in the name of the Lord,
+Dialogue: 0,1:00:37.65,1:00:39.65,Default,,0,0,0,,the Father, and the Son of God.
+Dialogue: 0,1:00:39.65,1:00:42.75,Default,,0,0,0,,And love is forgiving, nurturing,
+Dialogue: 0,1:00:42.75,1:00:44.75,Default,,0,0,0,,and supportive.
+Dialogue: 0,1:00:44.75,1:00:51.26,Default,,0,0,0,,Indeed, as a woman you know that.
+Dialogue: 0,1:00:51.26,1:00:53.26,Default,,0,0,0,,In our society we look to the woman
+Dialogue: 0,1:00:53.26,1:00:55.26,Default,,0,0,0,,as the representative
+Dialogue: 0,1:00:55.26,1:00:57.73,Default,,0,0,0,,of maternal love as the ideal.
+Dialogue: 0,1:00:57.73,1:01:05.01,Default,,0,0,0,,Yes.
+Dialogue: 0,1:01:05.01,1:01:07.01,Default,,0,0,0,,It emanates.
+Dialogue: 0,1:01:07.01,1:01:10.01,Default,,0,0,0,,What?
+Dialogue: 0,1:01:10.01,1:01:12.01,Default,,0,0,0,,It emanates from the heart.
+Dialogue: 0,1:01:12.01,1:01:14.01,Default,,0,0,0,,Love emanates from the heart.
+Dialogue: 0,1:01:14.01,1:01:16.01,Default,,0,0,0,,Oh my God, is it emanating someplace here?
+Dialogue: 0,1:01:16.01,1:01:18.01,Default,,0,0,0,,It's emanating.
+Dialogue: 0,1:01:18.01,1:01:20.01,Default,,0,0,0,,Folks help!
+Dialogue: 0,1:01:20.01,1:01:22.11,Default,,0,0,0,,Call the emanator squad.
+Dialogue: 0,1:01:22.11,1:01:24.11,Default,,0,0,0,,I can't say it.
+Dialogue: 0,1:01:24.11,1:01:26.11,Default,,0,0,0,,I couldn't say it.
+Dialogue: 0,1:01:26.11,1:01:28.11,Default,,0,0,0,,It emanates.
+Dialogue: 0,1:01:28.11,1:01:30.11,Default,,0,0,0,,It emanates.
+Dialogue: 0,1:01:30.11,1:01:35.25,Default,,0,0,0,,Alright.
+Dialogue: 0,1:01:35.25,1:01:37.86,Default,,0,0,0,,Go ahead.
+Dialogue: 0,1:01:37.86,1:01:40.65,Default,,0,0,0,,What?
+Dialogue: 0,1:01:40.65,1:01:42.65,Default,,0,0,0,,What are you asking me?
+Dialogue: 0,1:01:42.65,1:01:45.71,Default,,0,0,0,,Nothing, nothing.
+Dialogue: 0,1:01:45.71,1:01:48.38,Default,,0,0,0,,So what we're feeling up here
+Dialogue: 0,1:01:48.38,1:01:50.38,Default,,0,0,0,,between you and I,
+Dialogue: 0,1:01:50.38,1:01:53.86,Default,,0,0,0,,I know that everyone's picking up out there
+Dialogue: 0,1:01:53.86,1:01:55.86,Default,,0,0,0,,our love for each other
+Dialogue: 0,1:01:55.86,1:01:57.86,Default,,0,0,0,,and everyone is seeing and picking up out there
+Dialogue: 0,1:01:57.86,1:02:02.05,Default,,0,0,0,,that vibration.
+Dialogue: 0,1:02:02.05,1:02:04.09,Default,,0,0,0,,I share with everyone present
+Dialogue: 0,1:02:04.09,1:02:06.92,Default,,0,0,0,,that which I feel
+Dialogue: 0,1:02:06.92,1:02:10.53,Default,,0,0,0,,within my heart
+Dialogue: 0,1:02:10.53,1:02:12.71,Default,,0,0,0,,every night when I go to bed
+Dialogue: 0,1:02:12.71,1:02:14.71,Default,,0,0,0,,I thank God
+Dialogue: 0,1:02:14.71,1:02:17.46,Default,,0,0,0,,for Susan's love every night.
+Dialogue: 0,1:02:17.46,1:02:21.76,Default,,0,0,0,,Thank you oh Lord.
+Dialogue: 0,1:02:21.76,1:02:23.76,Default,,0,0,0,,And because of your presence
+Dialogue: 0,1:02:23.76,1:02:28.05,Default,,0,0,0,,I feel God loves me.
+Dialogue: 0,1:02:28.05,1:02:30.05,Default,,0,0,0,,So I'm surrounded by your love
+Dialogue: 0,1:02:30.05,1:02:32.05,Default,,0,0,0,,and the kitty's love
+Dialogue: 0,1:02:32.05,1:02:34.05,Default,,0,0,0,,and the doggy's love
+Dialogue: 0,1:02:34.05,1:02:36.05,Default,,0,0,0,,and the love of all our friends.
+Dialogue: 0,1:02:36.05,1:02:38.05,Default,,0,0,0,,The telephone rings all day long
+Dialogue: 0,1:02:38.05,1:02:41.63,Default,,0,0,0,,with friends.
+Dialogue: 0,1:02:41.63,1:02:43.69,Default,,0,0,0,,So she's on the phone with friends
+Dialogue: 0,1:02:43.69,1:02:45.69,Default,,0,0,0,,half the day.
+Dialogue: 0,1:02:45.69,1:02:49.01,Default,,0,0,0,,Yes.
+Dialogue: 0,1:02:49.01,1:02:51.71,Default,,0,0,0,,Alright.
+Dialogue: 0,1:02:51.71,1:02:54.28,Default,,0,0,0,,What's next?
+Dialogue: 0,1:02:54.28,1:02:56.28,Default,,0,0,0,,We're gonna take a real quick break here.
+Dialogue: 0,1:02:56.28,1:02:58.28,Default,,0,0,0,,It'll be about 15-20 minutes.
+Dialogue: 0,1:02:58.28,1:03:00.28,Default,,0,0,0,,And we'll be right back.
+Dialogue: 0,1:03:00.28,1:03:02.28,Default,,0,0,0,,I let it go a little longer
+Dialogue: 0,1:03:02.28,1:03:04.28,Default,,0,0,0,,because we're slow in getting started.
+Dialogue: 0,1:03:04.28,1:03:06.28,Default,,0,0,0,,But we'll take a quick break
+Dialogue: 0,1:03:06.28,1:03:08.28,Default,,0,0,0,,and we'll see you back here
+Dialogue: 0,1:03:08.28,1:03:10.28,Default,,0,0,0,,in about 15-20 minutes.

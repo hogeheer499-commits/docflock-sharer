@@ -1,0 +1,974 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.90,0:00:15.38,Default,,0,0,0,,I'm Dr. David Hawkins. I've been a psychiatrist for 35 years, worked in the fields of psychoanalysis, nutrition, and its relationship to brain chemistry.
+Dialogue: 0,0:00:16.96,0:00:25.02,Default,,0,0,0,,For the last 10 years, I've been doing research into the nature of consciousness itself and its relationship to that which the world calls spiritual.
+Dialogue: 0,0:00:25.02,0:00:38.44,Default,,0,0,0,,Our subject for today in today's talk is spiritual first aid, perhaps better, how to prevent the need for spiritual first aid.
+Dialogue: 0,0:00:38.90,0:00:45.64,Default,,0,0,0,,So we will be talking about various principles, things we've discovered through our own research,
+Dialogue: 0,0:00:46.58,0:00:55.96,Default,,0,0,0,,things that are perhaps not generally known and we feel should be of great importance to those who are involved in spiritual work,
+Dialogue: 0,0:00:55.96,0:00:56.89,Default,,0,0,0,,including the idea of spiritual first aid.
+Dialogue: 0,0:00:56.89,0:00:56.91,Default,,0,0,0,,So let's get started.
+Dialogue: 0,0:00:56.91,0:00:59.57,Default,,0,0,0,,The spiritual aspects of life.
+Dialogue: 0,0:01:00.53,0:01:05.35,Default,,0,0,0,,In this series, we've talked about the relationship between body, mind, and spirit,
+Dialogue: 0,0:01:05.79,0:01:09.89,Default,,0,0,0,,that the body reflects what the mind believes,
+Dialogue: 0,0:01:10.71,0:01:16.59,Default,,0,0,0,,and the mind in turn reflecting that which is held in spirit, that which is held in consciousness.
+Dialogue: 0,0:01:17.60,0:01:26.62,Default,,0,0,0,,And in this series, we've talked about handling man's problems directly within the area in which they are experienced,
+Dialogue: 0,0:01:26.62,0:01:28.04,Default,,0,0,0,,and that is within consciousness.
+Dialogue: 0,0:01:28.04,0:01:28.52,Default,,0,0,0,,In this series, we've talked about handling man's problems directly within the area in which they are experienced,
+Dialogue: 0,0:01:28.52,0:01:29.28,Default,,0,0,0,,and that is within consciousness itself.
+Dialogue: 0,0:01:29.28,0:01:33.18,Default,,0,0,0,,For as we have said, the body is experienced in mind.
+Dialogue: 0,0:01:34.10,0:01:36.54,Default,,0,0,0,,It has no way to experience itself.
+Dialogue: 0,0:01:37.51,0:01:43.25,Default,,0,0,0,,Mind itself does not experience itself, but is experienced in a greater energy field called consciousness.
+Dialogue: 0,0:01:44.74,0:01:50.80,Default,,0,0,0,,And so we will be looking at this directly today in talking about spiritual first aid.
+Dialogue: 0,0:01:50.80,0:01:59.49,Default,,0,0,0,,In this series, we'll be talking about how to create a safe context from which to approach one's spiritual first aid.
+Dialogue: 0,0:01:59.49,0:02:02.39,Default,,0,0,0,,We'll also be talking about psychological work, a concept that is not prevalent.
+Dialogue: 0,0:02:02.39,0:02:09.09,Default,,0,0,0,,And you'll notice for the last ten years, I said I've been doing research into the nature of consciousness itself,
+Dialogue: 0,0:02:09.81,0:02:12.99,Default,,0,0,0,,as director of the Institute for Spiritual Research.
+Dialogue: 0,0:02:13.69,0:02:16.47,Default,,0,0,0,,Spiritual research itself is not a common thought.
+Dialogue: 0,0:02:18.20,0:02:24.34,Default,,0,0,0,,And we've had to learn a great deal because much of what we'll be talking about, frankly,
+Dialogue: 0,0:02:24.48,0:02:27.30,Default,,0,0,0,,has not been written anywhere that I've run across.
+Dialogue: 0,0:02:27.78,0:02:29.46,Default,,0,0,0,,Some of it has been discovered.
+Dialogue: 0,0:02:29.46,0:02:30.26,Default,,0,0,0,,Some of it has been discovered.
+Dialogue: 0,0:02:30.26,0:02:30.30,Default,,0,0,0,,Some of it has been discovered.
+Dialogue: 0,0:02:30.30,0:02:30.34,Default,,0,0,0,,Some of it has been discovered.
+Dialogue: 0,0:02:30.36,0:02:38.13,Default,,0,0,0,,one place or another but what can the common man bring to this entire field how can he approach it
+Dialogue: 0,0:02:38.13,0:02:43.81,Default,,0,0,0,,how can he create a safe context for his own investigation of these matters which are of
+Dialogue: 0,0:02:43.81,0:02:51.44,Default,,0,0,0,,great importance and so to do this we'll be utilizing a map of consciousness which we have
+Dialogue: 0,0:02:51.44,0:02:59.84,Default,,0,0,0,,evolved through our own research it comprises the research of many individuals and groups over the
+Dialogue: 0,0:02:59.84,0:03:07.36,Default,,0,0,0,,years and what we've done is integrate it and bring it into a meaningful hole this is a
+Dialogue: 0,0:03:07.36,0:03:15.04,Default,,0,0,0,,mathematical model mathematical in that within the box here we have various levels of consciousness
+Dialogue: 0,0:03:15.04,0:03:23.11,Default,,0,0,0,,which man commonly experiences and we have them calibrated as to their relative the power of their
+Dialogue: 0,0:03:23.11,0:03:30.47,Default,,0,0,0,,energy fields so that for instance apathy has half the energy of fear fear has half the app
+Dialogue: 0,0:03:30.47,0:03:31.03,Default,,0,0,0,,at the energy of fire fear as half the energy of fear and dread as half the energy of fear fear
+Dialogue: 0,0:03:31.03,0:03:31.11,Default,,0,0,0,,and we have clawed into it and pushed out whatever market they used for that other process to build
+Dialogue: 0,0:03:31.11,0:03:31.15,Default,,0,0,0,,on the this to the very centre so that we the forest field we are going to form an opening of the garden
+Dialogue: 0,0:03:31.15,0:03:31.17,Default,,0,0,0,,as shown on the campaign farm as we're getting on the latin home paper we set up a meeting and then use a
+Dialogue: 0,0:03:31.17,0:03:31.19,Default,,0,0,0,,and the 알�an's strategy Suite number 17 so if you play straightforward and in the upslix and we'll executed
+Dialogue: 0,0:03:31.19,0:03:39.05,Default,,0,0,0,,energy of courage, and so on. These are calibrations which start with death at zero and end up,
+Dialogue: 0,0:03:39.05,0:03:44.95,Default,,0,0,0,,if you continue this, will end up with what the world calls enlightenment at an energy
+Dialogue: 0,0:03:44.95,0:03:51.79,Default,,0,0,0,,field which calibrates about 600. The exact way in which these fields were originally
+Dialogue: 0,0:03:51.79,0:03:57.35,Default,,0,0,0,,calibrated we won't go into because it is a whole field in itself, but we can say that
+Dialogue: 0,0:03:57.35,0:04:04.45,Default,,0,0,0,,anybody who wishes to can reconfirm these calibrations for themselves by a very simple
+Dialogue: 0,0:04:04.45,0:04:11.09,Default,,0,0,0,,method such as kinesiology. Many of you have watched kinesiology on television and you
+Dialogue: 0,0:04:11.09,0:04:17.49,Default,,0,0,0,,know it is a simple method of testing the strength of your arm. You hold out your arm
+Dialogue: 0,0:04:17.49,0:04:24.44,Default,,0,0,0,,and you press down. You'll notice that if you hold anything below this line of courage,
+Dialogue: 0,0:04:24.44,0:04:27.46,Default,,0,0,0,,which is the line of truth, above courage you get above strength.
+Dialogue: 0,0:04:27.46,0:04:33.90,Default,,0,0,0,,of courage by telling the truth. All that is below this level is the lie, in other words.
+Dialogue: 0,0:04:33.90,0:04:38.96,Default,,0,0,0,,If you hold anything below the level of courage, such as an angry thought, a fearful thought,
+Dialogue: 0,0:04:38.96,0:04:46.08,Default,,0,0,0,,a hateful thought, etc., you'll go weak, indicating non-integrity of the energy field. And it
+Dialogue: 0,0:04:46.08,0:04:50.36,Default,,0,0,0,,also indicates by going weak the direction of the energy field. So you'll notice all
+Dialogue: 0,0:04:50.36,0:04:57.26,Default,,0,0,0,,these arrows below this level of courage are going to the left indicating a negative, negative
+Dialogue: 0,0:04:57.26,0:05:03.35,Default,,0,0,0,,answer. If you hold that which is loving, that which is true, in mind, and you have
+Dialogue: 0,0:05:03.35,0:05:09.52,Default,,0,0,0,,someone test the strength of the arm, it will stay strong. So that's roughly a way in which
+Dialogue: 0,0:05:09.52,0:05:14.84,Default,,0,0,0,,you can confirm for yourself. You can have somebody test you, and you can say, is anger
+Dialogue: 0,0:05:14.84,0:05:21.44,Default,,0,0,0,,over 75, is it over 100, is it over 125, is it over 150? Is it 155 and then you'll go
+Dialogue: 0,0:05:21.44,0:05:27.54,Default,,0,0,0,,weak, indicating that it's roughly around 150. And you can also then ask, what is grief
+Dialogue: 0,0:05:27.54,0:05:27.74,Default,,0,0,0,,instead of grief? And which correctness or lack of conflict is there? Such that you
+Dialogue: 0,0:05:27.74,0:05:34.54,Default,,0,0,0,,up with 75 and you'll see that grief has therefore half the energy of anger and so these are very
+Dialogue: 0,0:05:34.54,0:05:40.78,Default,,0,0,0,,useful calibrations they tell us a great deal of great importance is the direction of the energy
+Dialogue: 0,0:05:40.78,0:05:46.06,Default,,0,0,0,,field so that these have a destructive or negative effect on our life on our consciousness on our
+Dialogue: 0,0:05:46.06,0:05:53.18,Default,,0,0,0,,capacity to comprehend and reflect truth these have a very positive effect and we will see that
+Dialogue: 0,0:05:53.18,0:05:58.30,Default,,0,0,0,,as you move up towards enlightenment towards christ consciousness which is way off the board
+Dialogue: 0,0:05:58.30,0:06:04.70,Default,,0,0,0,,up around 750 or some someplace around in there you'll see that one gets closer to god you might
+Dialogue: 0,0:06:04.70,0:06:10.94,Default,,0,0,0,,say closer to the truth and as we get to the bottom of the scale we get farther away from it
+Dialogue: 0,0:06:10.94,0:06:15.90,Default,,0,0,0,,farther into the lie farther into that which is not the truth so if you have somebody test you
+Dialogue: 0,0:06:15.90,0:06:21.32,Default,,0,0,0,,with kinesiology and you purposely tell a lie you'll see you go weak you can then have the
+Dialogue: 0,0:06:21.32,0:06:23.24,Default,,0,0,0,,person retest you and if you tell the truth you can then retest you and if you tell the truth
+Dialogue: 0,0:06:23.24,0:06:28.92,Default,,0,0,0,,you will see you instantly go strong so it's a very useful indicator something that's very handy
+Dialogue: 0,0:06:29.56,0:06:33.32,Default,,0,0,0,,and bill will be referring to it because it will give us an orientation then
+Dialogue: 0,0:06:33.96,0:06:41.10,Default,,0,0,0,,it's an orientation towards any field of knowledge towards any field of man's endeavor and therefore
+Dialogue: 0,0:06:41.66,0:06:48.06,Default,,0,0,0,,we can use it in working our way through the maze of what the world calls spiritual
+Dialogue: 0,0:06:49.50,0:06:52.94,Default,,0,0,0,,in the beginning of this research we were fortunate in that
+Dialogue: 0,0:06:54.14,0:06:59.90,Default,,0,0,0,,we ourselves were naive and therefore had the experience of the naive person
+Dialogue: 0,0:07:00.81,0:07:07.42,Default,,0,0,0,,let's say walking into the spiritual bookstore and looking over the thousands of volumes on the
+Dialogue: 0,0:07:07.42,0:07:13.98,Default,,0,0,0,,shelves where to start and how would one know where to start what would be valuable what would
+Dialogue: 0,0:07:13.98,0:07:20.94,Default,,0,0,0,,not be valuable we also assumed that anything labeled spiritual must of necessity by calling
+Dialogue: 0,0:07:20.94,0:07:24.06,Default,,0,0,0,,itself spiritual be of the highest truth and be valid into spirituality core thus scriptures talk
+Dialogue: 0,0:07:25.26,0:07:30.14,Default,,0,0,0,,be something that one can corroborate through one's own inner experience and we found that
+Dialogue: 0,0:07:30.14,0:07:36.78,Default,,0,0,0,,this was not necessarily the case that that which calls itself a spiritual teaching may range
+Dialogue: 0,0:07:36.78,0:07:43.98,Default,,0,0,0,,anywhere over this board you can pick up a book without looking at the author and ask what is the
+Dialogue: 0,0:07:43.98,0:07:48.94,Default,,0,0,0,,energy of that and you'll find that things that call themselves spiritual teachings range all
+Dialogue: 0,0:07:48.94,0:07:55.18,Default,,0,0,0,,the way from the bottom of the board and those who teach hate to the as the way to truth all
+Dialogue: 0,0:07:55.18,0:08:01.69,Default,,0,0,0,,the way to the most infinitely loving and so that gave us a whole different orientation
+Dialogue: 0,0:08:02.49,0:08:06.65,Default,,0,0,0,,not only why where the energy is different the level of the teaching different
+Dialogue: 0,0:08:07.29,0:08:12.73,Default,,0,0,0,,but of course we found that many of them the energy field was in a negative direction in other
+Dialogue: 0,0:08:12.73,0:08:19.93,Default,,0,0,0,,words you ended up in worse condition from getting involved in this particular field of learning
+Dialogue: 0,0:08:20.65,0:08:27.84,Default,,0,0,0,,farther away from the truth than you were to begin with and so we had to look at the value then
+Dialogue: 0,0:08:27.84,0:08:33.90,Default,,0,0,0,,the value of the research itself we looked at the field and we saw that there were no guidelines
+Dialogue: 0,0:08:33.90,0:08:38.70,Default,,0,0,0,,really there were really no guidelines for the person approaching spiritual work let's say for
+Dialogue: 0,0:08:38.70,0:08:44.14,Default,,0,0,0,,the first time or going back into it with a renewed interest later in life there were really
+Dialogue: 0,0:08:44.14,0:08:48.62,Default,,0,0,0,,no guidelines each one of them claimed each one of them claimed for themselves that they
+Dialogue: 0,0:08:48.62,0:08:50.62,Default,,0,0,0,,represented the truth so the self-claims
+Dialogue: 0,0:08:50.70,0:08:59.11,Default,,0,0,0,,were no indication of validity, and we found that the number of followers and the glamour
+Dialogue: 0,0:08:59.11,0:09:07.97,Default,,0,0,0,,and the richness or the riches of the teacher of a certain pathway had no correlation with
+Dialogue: 0,0:09:07.97,0:09:13.44,Default,,0,0,0,,validity either, that the number of followers really meant nothing.
+Dialogue: 0,0:09:14.30,0:09:20.30,Default,,0,0,0,,A person could have a great many followers, and yet we would find out that the energy
+Dialogue: 0,0:09:20.30,0:09:25.78,Default,,0,0,0,,field was in a negative direction, and the numbers, the actual energy put out by it was
+Dialogue: 0,0:09:25.78,0:09:26.36,Default,,0,0,0,,very low.
+Dialogue: 0,0:09:28.34,0:09:34.98,Default,,0,0,0,,We found that as we got closer to the truth, closer to the great enlightened beings, acknowledged
+Dialogue: 0,0:09:34.98,0:09:41.80,Default,,0,0,0,,by all of mankind, that their energies were always in a positive direction, and the calibration
+Dialogue: 0,0:09:41.80,0:09:50.00,Default,,0,0,0,,was always of an extremely high number, always over 600s and on up into the 700s as far as
+Dialogue: 0,0:09:50.00,0:09:50.56,Default,,0,0,0,,their energy.
+Dialogue: 0,0:09:50.56,0:09:51.50,Default,,0,0,0,,And therefore, we...
+Dialogue: 0,0:09:51.50,0:09:58.56,Default,,0,0,0,,We see how the great teachers, those that are called avatars, even in a few short years
+Dialogue: 0,0:09:58.56,0:10:03.30,Default,,0,0,0,,on the planet, totally changed the face of the world, totally changed the belief systems
+Dialogue: 0,0:10:03.30,0:10:11.12,Default,,0,0,0,,of mankind, broke new ground, created a whole new context, a whole new set of values in
+Dialogue: 0,0:10:11.12,0:10:12.66,Default,,0,0,0,,a very short period of time.
+Dialogue: 0,0:10:12.86,0:10:19.14,Default,,0,0,0,,It's because the power and the energy of their words were of such a caliber as to be able
+Dialogue: 0,0:10:19.14,0:10:21.42,Default,,0,0,0,,to accomplish this feat even in a short period of time.
+Dialogue: 0,0:10:21.50,0:10:27.72,Default,,0,0,0,,We'll be talking about crisis and conflict, the nature of an upset, ways of handling,
+Dialogue: 0,0:10:28.06,0:10:32.51,Default,,0,0,0,,transcending, and breaking through, practical measures for spiritual seekers.
+Dialogue: 0,0:10:33.17,0:10:38.14,Default,,0,0,0,,We'll be looking at the fact that all upsets are spiritual in origin and common sources,
+Dialogue: 0,0:10:38.46,0:10:44.13,Default,,0,0,0,,how to survive these inner trials, how to avoid disillusionment, despair, and self-hatred,
+Dialogue: 0,0:10:44.57,0:10:47.53,Default,,0,0,0,,false teachers and how to spot them, the failure of discernment.
+Dialogue: 0,0:10:47.87,0:10:52.36,Default,,0,0,0,,And we'll see that all spiritual pain and suffering is really due to an ignorance and
+Dialogue: 0,0:10:52.36,0:10:52.50,Default,,0,0,0,,how to avoid it.
+Dialogue: 0,0:10:52.52,0:10:57.60,Default,,0,0,0,,We'll see what is the answer and how to find it, the vulnerabilities that come from spiritual
+Dialogue: 0,0:10:57.60,0:11:04.55,Default,,0,0,0,,naivete, overcoming crisis utilizing the laws of consciousness, what we are hanging on to
+Dialogue: 0,0:11:04.55,0:11:05.33,Default,,0,0,0,,and how to let go.
+Dialogue: 0,0:11:06.48,0:11:11.64,Default,,0,0,0,,And so we'll be talking about spiritual ego, that unrecognized culprit that is behind so
+Dialogue: 0,0:11:11.64,0:11:14.04,Default,,0,0,0,,much of spiritual crisis and suffering.
+Dialogue: 0,0:11:14.40,0:11:20.88,Default,,0,0,0,,To make this understandable, because we find the spiritual world is one of great confusion,
+Dialogue: 0,0:11:20.88,0:11:22.88,Default,,0,0,0,,frankly, with conflicting...
+Dialogue: 0,0:11:23.48,0:11:31.45,Default,,0,0,0,,statements, conflicting positions, to give us some kind of a position from outside the field
+Dialogue: 0,0:11:31.95,0:11:33.05,Default,,0,0,0,,with which to approach it.
+Dialogue: 0,0:11:33.91,0:11:40.85,Default,,0,0,0,,We'll go back to this map of consciousness and discuss it a little bit so that we have a means
+Dialogue: 0,0:11:40.85,0:11:45.39,Default,,0,0,0,,of orientation to approach this field of knowledge as well as any.
+Dialogue: 0,0:11:46.99,0:11:53.31,Default,,0,0,0,,We said that the energy fields here are calibrated as to their relative energies, and you'll see they
+Dialogue: 0,0:11:53.31,0:11:54.57,Default,,0,0,0,,start with utilizing energy.
+Dialogue: 0,0:11:54.57,0:12:02.03,Default,,0,0,0,,They start with utilizing death as zero, and guilt at 30, apathy 50, 75 for grief, 100 for fear.
+Dialogue: 0,0:12:02.03,0:12:05.21,Default,,0,0,0,,You see it goes up, 100 for...125 for desire.
+Dialogue: 0,0:12:05.21,0:12:10.23,Default,,0,0,0,,We said we cross this crucial point of courage which calibrates at about 200.
+Dialogue: 0,0:12:10.23,0:12:12.81,Default,,0,0,0,,And there you see a very important thing.
+Dialogue: 0,0:12:12.81,0:12:18.71,Default,,0,0,0,,You see the arrows which have been in a negative direction now go neutral, and as we go beyond
+Dialogue: 0,0:12:18.71,0:12:24.45,Default,,0,0,0,,courage, a level that we cross by telling the truth about a thing, we still see that the arrow now swings to the negative direction.
+Dialogue: 0,0:12:24.45,0:12:33.65,Default,,0,0,0,,the right so that these attitudes these positions up here running from 250 310 for willingness 380
+Dialogue: 0,0:12:33.65,0:12:42.85,Default,,0,0,0,,for acceptance we see love at 500 a very very significant level for us joy joy at 540 healing
+Dialogue: 0,0:12:42.85,0:12:50.77,Default,,0,0,0,,comes in at 540 ecstasy at 560 we go into bliss and we pass beyond duality out of the world of
+Dialogue: 0,0:12:50.77,0:12:57.01,Default,,0,0,0,,duality at about 600 and we say that that is a level of enlightenment that is a level of
+Dialogue: 0,0:12:57.01,0:13:03.17,Default,,0,0,0,,enlightenment in which one begins to really realize the true nature of god true nature of
+Dialogue: 0,0:13:03.17,0:13:09.49,Default,,0,0,0,,god really beginning here as you begin to tell the truth and you move into willingness abundance
+Dialogue: 0,0:13:09.49,0:13:15.01,Default,,0,0,0,,acceptance and a progressive lovingness so that love actually expands in an infinite direction
+Dialogue: 0,0:13:16.13,0:13:23.73,Default,,0,0,0,,thusly each of these levels of consciousness is accompanied by certain
+Dialogue: 0,0:13:23.97,0:13:30.29,Default,,0,0,0,,emotions characterized by certain emotions and again the emotions go from the most negative the
+Dialogue: 0,0:13:30.29,0:13:36.85,Default,,0,0,0,,most destructive we see the process over here is a level called process the most destructive emotions
+Dialogue: 0,0:13:37.73,0:13:41.33,Default,,0,0,0,,those leading to suicide self-hatred etc are at the very bottom
+Dialogue: 0,0:13:41.89,0:13:46.53,Default,,0,0,0,,and we see the view of the world that comes out of that level of consciousness
+Dialogue: 0,0:13:46.53,0:13:53.09,Default,,0,0,0,,and the view of god that comes out the god of that kind of a world very important for us to know
+Dialogue: 0,0:13:54.58,0:13:58.82,Default,,0,0,0,,so at the bottom we see in coming out of guilt for instance self-hatred
+Dialogue: 0,0:13:59.46,0:14:05.94,Default,,0,0,0,,we see that the process is destruction we see that this view of the world is that the world
+Dialogue: 0,0:14:05.94,0:14:11.46,Default,,0,0,0,,is a place of sin and suffering and temptation and disaster and that the god of that world is
+Dialogue: 0,0:14:11.46,0:14:16.42,Default,,0,0,0,,therefore the ultimate destroyer who is really the ultimate enemy of mankind
+Dialogue: 0,0:14:17.06,0:14:24.82,Default,,0,0,0,,because he hates man and will throw him into hell forever the ultimate act of hatred above that we
+Dialogue: 0,0:14:25.38,0:14:33.70,Default,,0,0,0,,see in the level called apathy which calibrates at 50 in this level the emotion is that of a hopeless
+Dialogue: 0,0:14:33.70,0:14:42.69,Default,,0,0,0,,world of despair the process is the loss of the energy of life the world looks hopeless and the
+Dialogue: 0,0:14:42.69,0:14:47.81,Default,,0,0,0,,god of a hopeless world then is a god who is unloving who doesn't care for you who ignores you
+Dialogue: 0,0:14:47.81,0:14:54.67,Default,,0,0,0,,who views you as a sinful worm and in abject hopelessness god is really dead and so we have the
+Dialogue: 0,0:14:54.67,0:14:55.47,Default,,0,0,0,,existentialists
+Dialogue: 0,0:14:55.47,0:15:02.00,Default,,0,0,0,,who talk about the hopelessness of mankind and the death of god coming out of this level of
+Dialogue: 0,0:15:02.00,0:15:09.04,Default,,0,0,0,,consciousness the god of the level above that of grief is one of loss regret despondency
+Dialogue: 0,0:15:09.76,0:15:17.28,Default,,0,0,0,,loss of spirit it sees a world of sadness and again again a god who is uncaring and unloving
+Dialogue: 0,0:15:17.28,0:15:23.68,Default,,0,0,0,,having created a sad hopeless world the level above that is going to be very interesting for
+Dialogue: 0,0:15:23.68,0:15:30.80,Default,,0,0,0,,us because this is the energy field of fear you will see that the energy field is in a destructive
+Dialogue: 0,0:15:30.80,0:15:38.24,Default,,0,0,0,,direction and this is characterized by worry and anxiety and panic and terror there is a deflation
+Dialogue: 0,0:15:38.80,0:15:44.56,Default,,0,0,0,,the world looks like a frightening place and the creator and the god of this frightening
+Dialogue: 0,0:15:44.56,0:15:53.12,Default,,0,0,0,,world is therefore a punitive god who terrifies you by his unending threats the god of threat
+Dialogue: 0,0:15:54.32,0:15:58.56,Default,,0,0,0,,above that we have a level level called desire with which we're also very familiar
+Dialogue: 0,0:16:00.32,0:16:02.80,Default,,0,0,0,,the emotion of that being wanting and craving
+Dialogue: 0,0:16:04.37,0:16:10.85,Default,,0,0,0,,an energy field in which we are entrapped we're trapped by that which we desire and that creates
+Dialogue: 0,0:16:10.85,0:16:17.17,Default,,0,0,0,,for us the world view the of frustration and a god from whom we're separated because this god
+Dialogue: 0,0:16:17.17,0:16:24.14,Default,,0,0,0,,is always withholding from you that which you need to feel complete and whole above that we have
+Dialogue: 0,0:16:25.18,0:16:30.54,Default,,0,0,0,,an energy field which is of great importance that is anger we see the energy of anger is 150
+Dialogue: 0,0:16:30.54,0:16:35.34,Default,,0,0,0,,twice that of grief person in grief has very little energy but an angry person we're all
+Dialogue: 0,0:16:35.34,0:16:41.73,Default,,0,0,0,,aware has an enormous amount of energy the emotions coming out of that are of resentment
+Dialogue: 0,0:16:41.73,0:16:49.98,Default,,0,0,0,,and hatred and grievance what's happened in the process in consciousness is one of expansion
+Dialogue: 0,0:16:51.30,0:16:57.70,Default,,0,0,0,,out of anger we see a competitive world of war and conflict of
+Dialogue: 0,0:16:57.78,0:17:04.50,Default,,0,0,0,,world of enemies and therefore god becomes polarized and becomes a retaliatory god
+Dialogue: 0,0:17:05.22,0:17:12.90,Default,,0,0,0,,an angry god the great punisher we move up next to a level called pride of great interest to us
+Dialogue: 0,0:17:13.46,0:17:19.86,Default,,0,0,0,,in its application to spiritual work so-called spiritual pride we see its energy field is 175.
+Dialogue: 0,0:17:19.86,0:17:24.90,Default,,0,0,0,,you see as we move up in the scale there's more power and these fields begin to feel better
+Dialogue: 0,0:17:25.70,0:17:28.10,Default,,0,0,0,,but we see that pride is still a destructive
+Dialogue: 0,0:17:28.42,0:17:36.26,Default,,0,0,0,,emotion and of course all the spiritual literature says so also and it's characterized by an arrogance
+Dialogue: 0,0:17:36.26,0:17:42.10,Default,,0,0,0,,and a contempt and by a denial and we see that the process going on in consciousness is one of
+Dialogue: 0,0:17:42.10,0:17:48.77,Default,,0,0,0,,inflation so that a person who is into this attitude about their spiritual work is not going
+Dialogue: 0,0:17:48.77,0:17:53.73,Default,,0,0,0,,to be easy to discuss to talk over things with because of the arrogance and contempt
+Dialogue: 0,0:17:54.48,0:17:57.52,Default,,0,0,0,,and here there is an inner sense of status the person in pride
+Dialogue: 0,0:17:58.64,0:18:00.96,Default,,0,0,0,,is not going to be easy to discuss to talk over things with because of the arrogance and contempt
+Dialogue: 0,0:18:00.96,0:18:05.76,Default,,0,0,0,,and this lends to a view of god then that can be in one of two directions
+Dialogue: 0,0:18:06.32,0:18:13.60,Default,,0,0,0,,it can be the atheistic position coming out of intellectual arrogance which is saying that the
+Dialogue: 0,0:18:13.60,0:18:20.56,Default,,0,0,0,,left brain the intellect is the highest faculty of man and therefore reason will decide whether
+Dialogue: 0,0:18:20.56,0:18:26.99,Default,,0,0,0,,god exists or not or we can come out with the other side of the position and that is the zealot
+Dialogue: 0,0:18:26.99,0:18:28.35,Default,,0,0,0,,or the bigot who claims to be the most powerful and the most powerful person in the world and that is the zealot or the bigot who claims
+Dialogue: 0,0:18:28.99,0:18:35.31,Default,,0,0,0,,to have all knowledge of the subject all knowledge of the subject then in a prideful state
+Dialogue: 0,0:18:36.11,0:18:41.71,Default,,0,0,0,,arrogant and contemptuous of other positions is coming out of an inflated ego as we can see
+Dialogue: 0,0:18:43.82,0:18:47.98,Default,,0,0,0,,all these are below the line below the line in the integrity scale
+Dialogue: 0,0:18:47.98,0:18:52.62,Default,,0,0,0,,and what happens when we move up to the level of courage where we cross the line where with
+Dialogue: 0,0:18:52.62,0:18:59.66,Default,,0,0,0,,kinesiology the person now no longer goes weak we see that's an energy field of 200 twice that of fear
+Dialogue: 0,0:19:00.46,0:19:03.82,Default,,0,0,0,,and here the person is able to face begin to look at
+Dialogue: 0,0:19:04.70,0:19:12.22,Default,,0,0,0,,openly questions and we see that they're now empowered to do so actually empowered to do so
+Dialogue: 0,0:19:12.78,0:19:16.22,Default,,0,0,0,,the level of question is one of opportunity and open-mindedness
+Dialogue: 0,0:19:16.86,0:19:21.10,Default,,0,0,0,,and it's certainly the opening strata for anybody who is serious about spiritual work
+Dialogue: 0,0:19:21.81,0:19:27.97,Default,,0,0,0,,so the next energy field we'll notice it's called neutral and now we see here we had an open mind
+Dialogue: 0,0:19:27.97,0:19:28.53,Default,,0,0,0,,but here
+Dialogue: 0,0:19:30.24,0:19:34.64,Default,,0,0,0,,unattached and you'll see that the energy field now goes to the right in a positive direction
+Dialogue: 0,0:19:35.57,0:19:42.37,Default,,0,0,0,,the person is now released in other words free free to research free to find out for themselves
+Dialogue: 0,0:19:42.37,0:19:50.53,Default,,0,0,0,,free to investigate and to a person on that energy level things look the world looks okay and
+Dialogue: 0,0:19:50.53,0:20:01.01,Default,,0,0,0,,the god of that okay world then is a god of freedom a god who loves your innate capacity
+Dialogue: 0,0:20:01.57,0:20:09.28,Default,,0,0,0,,to want to find out the truth for yourself we move up higher we move up to willingness and here
+Dialogue: 0,0:20:09.28,0:20:14.24,Default,,0,0,0,,instead of being here we've let go of resistance and attachment but here
+Dialogue: 0,0:20:14.24,0:20:19.52,Default,,0,0,0,,we've actually begun to say yes so for the spiritual seeker then he is saying
+Dialogue: 0,0:20:19.52,0:20:20.16,Default,,0,0,0,,yes he is joining a green square devices and being able to reach uts like this mayana or
+Dialogue: 0,0:20:20.16,0:20:20.96,Default,,0,0,0,,yahoo pal Centuria more specifically excited or changing unfaithfulness or� hijack soul or
+Dialogue: 0,0:20:20.96,0:20:21.04,Default,,0,0,0,,provenance or 0adenhaji or frequency exhibitional development or something of the mirtha nationality and
+Dialogue: 0,0:20:21.04,0:20:25.50,Default,,0,0,0,,agreeing and aligning with the search for the truth, for his own inner experience of
+Dialogue: 0,0:20:25.50,0:20:31.04,Default,,0,0,0,,it, because he has now introduced his own positive intention.
+Dialogue: 0,0:20:31.04,0:20:37.42,Default,,0,0,0,,Therefore the world in which this is occurring appears friendly, and the future looks hopeful
+Dialogue: 0,0:20:37.42,0:20:38.42,Default,,0,0,0,,and promising.
+Dialogue: 0,0:20:38.42,0:20:46.42,Default,,0,0,0,,The view of God, the God of this kind of a world, is promising and hopeful, a very positive
+Dialogue: 0,0:20:46.42,0:20:47.42,Default,,0,0,0,,looking God.
+Dialogue: 0,0:20:47.42,0:20:52.66,Default,,0,0,0,,See, at the bottom of the scale we had a very negative looking God, more demonic, more of
+Dialogue: 0,0:20:52.66,0:20:57.14,Default,,0,0,0,,a threat, more the enemy, and here God becomes your friend.
+Dialogue: 0,0:20:57.14,0:20:59.90,Default,,0,0,0,,The friendly God, then, is one you can trust.
+Dialogue: 0,0:20:59.90,0:21:05.10,Default,,0,0,0,,So here's the beginning of the trust in a friendly, the beginning of a loving God.
+Dialogue: 0,0:21:05.10,0:21:10.02,Default,,0,0,0,,We haven't moved quite up to that level yet, but it's the opening, then, to be willing
+Dialogue: 0,0:21:10.02,0:21:15.56,Default,,0,0,0,,to perhaps see God as a positive aspect.
+Dialogue: 0,0:21:15.56,0:21:17.44,Default,,0,0,0,,And so we start moving up to acceptance.
+Dialogue: 0,0:21:17.44,0:21:20.06,Default,,0,0,0,,So the person now starts to feel a certain confidence.
+Dialogue: 0,0:21:20.06,0:21:27.71,Default,,0,0,0,,The transformation of consciousness is that the power to find out the truth resides within
+Dialogue: 0,0:21:27.71,0:21:29.49,Default,,0,0,0,,me.
+Dialogue: 0,0:21:29.49,0:21:33.89,Default,,0,0,0,,Down here we have the reliance that truth is outside of myself.
+Dialogue: 0,0:21:33.89,0:21:35.23,Default,,0,0,0,,Truth is outside of myself.
+Dialogue: 0,0:21:35.23,0:21:40.75,Default,,0,0,0,,It will have to be told to me by somebody, because my energy is so low, and the fact
+Dialogue: 0,0:21:40.75,0:21:44.71,Default,,0,0,0,,that my energy fields are all in a negative direction, that I would not be able to find
+Dialogue: 0,0:21:44.71,0:21:46.94,Default,,0,0,0,,out the truth for myself.
+Dialogue: 0,0:21:46.94,0:21:52.12,Default,,0,0,0,,There is the acceptance, the re-owning of the power within yourself, and therefore the
+Dialogue: 0,0:21:52.12,0:21:58.06,Default,,0,0,0,,world begins to be experienced, your search now starts to get harmonious, and the God
+Dialogue: 0,0:21:58.06,0:22:06.64,Default,,0,0,0,,of that energy field, then, would be a merciful God, merciful, who is accepting, and in that
+Dialogue: 0,0:22:06.64,0:22:13.06,Default,,0,0,0,,re-owning your own power, in other words, God is pleased, God would be viewed as having
+Dialogue: 0,0:22:13.06,0:22:16.94,Default,,0,0,0,,a positive attitude towards your spiritual search.
+Dialogue: 0,0:22:16.94,0:22:21.82,Default,,0,0,0,,From that you can move up to the field of lovingness itself, which calibrates at five
+Dialogue: 0,0:22:21.82,0:22:27.48,Default,,0,0,0,,hundred in a very, very positive direction, and that which is nurturing, and supporting,
+Dialogue: 0,0:22:27.48,0:22:28.48,Default,,0,0,0,,and forgiving.
+Dialogue: 0,0:22:28.48,0:22:34.92,Default,,0,0,0,,As we said, as you move into the desire to be a loving person, the inner healings begin
+Dialogue: 0,0:22:34.92,0:22:35.92,Default,,0,0,0,,to take place.
+Dialogue: 0,0:22:35.92,0:22:43.26,Default,,0,0,0,,You begin to experience life as loving, despite its emotional ups and downs, the process of
+Dialogue: 0,0:22:43.26,0:22:46.74,Default,,0,0,0,,life itself, the innate nature of what is going on.
+Dialogue: 0,0:22:46.74,0:22:53.86,Default,,0,0,0,,is loving and we move in then to a god of unconditional love unconditional lovingness
+Dialogue: 0,0:22:55.76,0:23:01.52,Default,,0,0,0,,the discovery of this is leading into an inner joyful state we begin to experience
+Dialogue: 0,0:23:01.52,0:23:08.16,Default,,0,0,0,,interstates periodically of serenity and our orientation becomes compassionate
+Dialogue: 0,0:23:08.16,0:23:14.16,Default,,0,0,0,,there's the beginning of a progressive shift in process and consciousness into seeing god as
+Dialogue: 0,0:23:14.16,0:23:23.20,Default,,0,0,0,,perfection and incredible beauty and we start moving into the capacity to seek on in from the
+Dialogue: 0,0:23:23.20,0:23:29.20,Default,,0,0,0,,viewpoint of oneness and unity as we move up towards 600 we're moving towards levels which
+Dialogue: 0,0:23:29.20,0:23:35.91,Default,,0,0,0,,the world calls enlightened we could say that that below that is called the small self the self with
+Dialogue: 0,0:23:35.91,0:23:43.99,Default,,0,0,0,,a small s and what the world calls ego what common consciousness refers to as i or me because it's
+Dialogue: 0,0:23:43.99,0:23:44.53,Default,,0,0,0,,identified as in the slower state of spiritual life or in the more modern state of consciousness
+Dialogue: 0,0:23:44.53,0:23:49.91,Default,,0,0,0,,identifying with these various energy fields and the kind of behavior that comes out of
+Dialogue: 0,0:23:49.91,0:23:51.35,Default,,0,0,0,,them.
+Dialogue: 0,0:23:51.35,0:23:57.19,Default,,0,0,0,,As that identification is let go of, as one's points of view become let go of and become
+Dialogue: 0,0:23:57.19,0:24:02.75,Default,,0,0,0,,further and more and more expansive in one's context of experience enlarges, one moves
+Dialogue: 0,0:24:02.75,0:24:09.55,Default,,0,0,0,,up towards the top of the box, which we said calibrates at about 600, to states of, which
+Dialogue: 0,0:24:09.55,0:24:14.93,Default,,0,0,0,,generically you might call bliss, states of infinite joyfulness, the experience of
+Dialogue: 0,0:24:14.93,0:24:21.83,Default,,0,0,0,,an infinite presence, the letting go of the identification with the small self, moving
+Dialogue: 0,0:24:21.83,0:24:29.85,Default,,0,0,0,,toward enlightenment, states of illumination, experiencing God and the world as oneness
+Dialogue: 0,0:24:29.85,0:24:33.75,Default,,0,0,0,,and God as beingness.
+Dialogue: 0,0:24:33.75,0:24:38.59,Default,,0,0,0,,Beyond that are the enlightened states, over 600.
+Dialogue: 0,0:24:38.59,0:24:40.13,Default,,0,0,0,,And there we find the great saints.
+Dialogue: 0,0:24:40.13,0:24:40.23,Default,,0,0,0,,The great saints.
+Dialogue: 0,0:24:40.23,0:24:40.33,Default,,0,0,0,,The great saints.
+Dialogue: 0,0:24:40.33,0:24:44.07,Default,,0,0,0,,The great teachers of mankind, the great enlightened beings.
+Dialogue: 0,0:24:45.65,0:24:53.51,Default,,0,0,0,,Starting around 750, we find the avatars, the great ones, and their energy fields become
+Dialogue: 0,0:24:53.51,0:24:56.95,Default,,0,0,0,,discernible at that level and then go all the way on to infinity.
+Dialogue: 0,0:24:58.76,0:25:02.96,Default,,0,0,0,,At least we have now an idea of which way is God.
+Dialogue: 0,0:25:05.14,0:25:09.64,Default,,0,0,0,,God is this way, and that which is not God is this way.
+Dialogue: 0,0:25:10.16,0:25:11.38,Default,,0,0,0,,I think it's rather clear.
+Dialogue: 0,0:25:11.38,0:25:16.27,Default,,0,0,0,,This may seem simple to us as we look at it, it's common sense, it's something that
+Dialogue: 0,0:25:16.27,0:25:22.35,Default,,0,0,0,,we all know within us, we intuitively all know this, and yet how much of the teaching
+Dialogue: 0,0:25:22.35,0:25:29.19,Default,,0,0,0,,of the world is contrary to what appears to be factual in our research on the nature of
+Dialogue: 0,0:25:29.19,0:25:31.50,Default,,0,0,0,,consciousness itself.
+Dialogue: 0,0:25:31.50,0:25:37.22,Default,,0,0,0,,And so we'll be coming back to this now that we have an orientation to the field.
+Dialogue: 0,0:25:37.22,0:25:42.06,Default,,0,0,0,,That which is truthful, then, carries greater power.
+Dialogue: 0,0:25:42.06,0:25:45.78,Default,,0,0,0,,It's at a higher number, it is a higher frequency.
+Dialogue: 0,0:25:45.78,0:25:51.14,Default,,0,0,0,,And in physics we know, the higher the frequency, the greater the power.
+Dialogue: 0,0:25:51.14,0:25:57.16,Default,,0,0,0,,Electrical power, for instance, is not transmitted across the countryside at 120 volts.
+Dialogue: 0,0:25:57.16,0:26:00.76,Default,,0,0,0,,It's transmitted at 30,000 volts or even higher.
+Dialogue: 0,0:26:00.76,0:26:03.92,Default,,0,0,0,,The higher the frequency, the greater the power.
+Dialogue: 0,0:26:03.92,0:26:11.16,Default,,0,0,0,,So we know now why the great teachers, their words have transformed mankind for thousands
+Dialogue: 0,0:26:11.16,0:26:12.04,Default,,0,0,0,,of years.
+Dialogue: 0,0:26:12.04,0:26:17.46,Default,,0,0,0,,Their words are still active, still transforming the consciousness of mankind, thousands of
+Dialogue: 0,0:26:17.46,0:26:21.77,Default,,0,0,0,,years after their body has left the planet.
+Dialogue: 0,0:26:21.77,0:26:26.25,Default,,0,0,0,,It's because of the power, then, we calibrate the energy fields of their words, and we see
+Dialogue: 0,0:26:26.25,0:26:28.37,Default,,0,0,0,,they are of enormous power.
+Dialogue: 0,0:26:28.37,0:26:33.13,Default,,0,0,0,,So it isn't what is said, it is the power of the being who states them.
+Dialogue: 0,0:26:33.13,0:26:40.29,Default,,0,0,0,,At least we have a field of reference with which to now begin our approach, because we
+Dialogue: 0,0:26:40.29,0:26:42.29,Default,,0,0,0,,discovered that there is really no...
+Dialogue: 0,0:26:42.33,0:26:49.57,Default,,0,0,0,,There is no safe context or orientation created for people approaching this field.
+Dialogue: 0,0:26:49.57,0:26:56.01,Default,,0,0,0,,The way to avoid spiritual crises and the need for spiritual first aid later is to back
+Dialogue: 0,0:26:56.01,0:27:01.60,Default,,0,0,0,,up perhaps a bit and do some individual research.
+Dialogue: 0,0:27:01.60,0:27:06.08,Default,,0,0,0,,The first question, then, that we ask about any teaching is, what is the level of the
+Dialogue: 0,0:27:06.08,0:27:07.38,Default,,0,0,0,,teaching?
+Dialogue: 0,0:27:07.38,0:27:09.92,Default,,0,0,0,,What is the level of the teaching?
+Dialogue: 0,0:27:09.92,0:27:13.22,Default,,0,0,0,,This is because the child within us continues to be naive.
+Dialogue: 0,0:27:13.22,0:27:15.52,Default,,0,0,0,,Naive and innocent.
+Dialogue: 0,0:27:15.52,0:27:21.76,Default,,0,0,0,,The innocence, on the other hand, is what leads us into error, because the innocent
+Dialogue: 0,0:27:21.76,0:27:25.44,Default,,0,0,0,,mind of the child has no means of discernment.
+Dialogue: 0,0:27:25.44,0:27:32.38,Default,,0,0,0,,And so we need some way of discernment, some way of finding our way into that which is
+Dialogue: 0,0:27:32.38,0:27:34.32,Default,,0,0,0,,going to be beneficial.
+Dialogue: 0,0:27:34.32,0:27:39.48,Default,,0,0,0,,So the first question we ask ourselves is, what is the level of the teaching that I'm
+Dialogue: 0,0:27:39.48,0:27:43.10,Default,,0,0,0,,about to embark on, or that I am already embarked on?
+Dialogue: 0,0:27:43.10,0:27:46.04,Default,,0,0,0,,Or that is in question?
+Dialogue: 0,0:27:46.04,0:27:53.82,Default,,0,0,0,,It is obvious that if we are involved in a teaching which itself has an energy field
+Dialogue: 0,0:27:53.82,0:28:00.24,Default,,0,0,0,,in this direction, that negative experiences are almost guaranteed.
+Dialogue: 0,0:28:00.24,0:28:01.24,Default,,0,0,0,,An energy...
+Dialogue: 0,0:28:01.24,0:28:07.70,Default,,0,0,0,,A teaching which has a positive energy field and calibrates of a high level then is going
+Dialogue: 0,0:28:07.70,0:28:15.80,Default,,0,0,0,,to bring us into a lovingness, which is the best insurance against spiritual catastrophe.
+Dialogue: 0,0:28:15.80,0:28:16.74,Default,,0,0,0,,So we can pick up...
+Dialogue: 0,0:28:16.74,0:28:22.64,Default,,0,0,0,,A teaching, the teacher of that teaching, the books of the teaching, whatever.
+Dialogue: 0,0:28:22.64,0:28:28.22,Default,,0,0,0,,And we can ask, is it coming out of this level here?
+Dialogue: 0,0:28:28.22,0:28:30.56,Default,,0,0,0,,We're not saying that it's right or wrong.
+Dialogue: 0,0:28:30.56,0:28:31.56,Default,,0,0,0,,We're just...
+Dialogue: 0,0:28:31.56,0:28:35.15,Default,,0,0,0,,We want to know where are we, you know, and what...
+Dialogue: 0,0:28:35.15,0:28:37.41,Default,,0,0,0,,What pew are we?
+Dialogue: 0,0:28:37.41,0:28:41.35,Default,,0,0,0,,If a teaching is coming out of this, then these are the emotional experiences that we
+Dialogue: 0,0:28:41.35,0:28:43.83,Default,,0,0,0,,can expect.
+Dialogue: 0,0:28:43.83,0:28:47.77,Default,,0,0,0,,We can expect that these are the emotional experiences coming out of a teaching.
+Dialogue: 0,0:28:47.77,0:28:52.68,Default,,0,0,0,,Based, let's say, on hatred.
+Dialogue: 0,0:28:52.68,0:28:54.56,Default,,0,0,0,,We find that there are...
+Dialogue: 0,0:28:54.56,0:29:00.30,Default,,0,0,0,,We find that there are teachings that God hates you, hates your behavior, hates your
+Dialogue: 0,0:29:00.30,0:29:03.48,Default,,0,0,0,,impulses, hates your humanness.
+Dialogue: 0,0:29:03.48,0:29:05.70,Default,,0,0,0,,And so we have the God of hatred.
+Dialogue: 0,0:29:05.70,0:29:11.44,Default,,0,0,0,,And when we calibrate it, we find that the energy field is in this direction.
+Dialogue: 0,0:29:11.44,0:29:16.16,Default,,0,0,0,,We find that the numbers are 30 and 40, around in there.
+Dialogue: 0,0:29:16.16,0:29:17.16,Default,,0,0,0,,Out of that we come...
+Dialogue: 0,0:29:17.16,0:29:18.16,Default,,0,0,0,,Then a God of hatred.
+Dialogue: 0,0:29:18.16,0:29:19.00,Default,,0,0,0,,Self-hatred.
+Dialogue: 0,0:29:19.00,0:29:23.22,Default,,0,0,0,,A God who hates and hates mankind.
+Dialogue: 0,0:29:23.22,0:29:26.12,Default,,0,0,0,,The view of the world that must come out of that.
+Dialogue: 0,0:29:26.12,0:29:28.52,Default,,0,0,0,,The self-hatred that will come out of that.
+Dialogue: 0,0:29:28.52,0:29:34.66,Default,,0,0,0,,And the inner feeling of being destroyed by this teaching.
+Dialogue: 0,0:29:34.66,0:29:40.58,Default,,0,0,0,,If you wish to get into the study of such a pathway, then you will see what is going
+Dialogue: 0,0:29:40.58,0:29:41.96,Default,,0,0,0,,to come up.
+Dialogue: 0,0:29:41.96,0:29:45.27,Default,,0,0,0,,And at least you're going in with your eyes open.
+Dialogue: 0,0:29:45.27,0:29:48.57,Default,,0,0,0,,We have the teachings, as we said, of existentialism, for instance.
+Dialogue: 0,0:29:48.57,0:29:49.57,Default,,0,0,0,,Which teach...
+Dialogue: 0,0:29:49.57,0:29:53.88,Default,,0,0,0,,Which teach of man's hopelessness.
+Dialogue: 0,0:29:53.88,0:29:58.98,Default,,0,0,0,,We have teachings then based on worshipping of the past.
+Dialogue: 0,0:29:58.98,0:30:04.24,Default,,0,0,0,,In which there is a great deal of grief and self-pity for what has befallen this group
+Dialogue: 0,0:30:04.24,0:30:06.90,Default,,0,0,0,,of people.
+Dialogue: 0,0:30:06.90,0:30:13.82,Default,,0,0,0,,We have teachings and teachers who are expressing and exploiting primarily this energy field
+Dialogue: 0,0:30:13.82,0:30:16.95,Default,,0,0,0,,called fear.
+Dialogue: 0,0:30:16.95,0:30:21.39,Default,,0,0,0,,In which case the person experiences then a fear of God.
+Dialogue: 0,0:30:21.39,0:30:25.60,Default,,0,0,0,,Which is a punitive God.
+Dialogue: 0,0:30:25.60,0:30:28.22,Default,,0,0,0,,So these teachings are accompanied by fear.
+Dialogue: 0,0:30:28.22,0:30:31.42,Default,,0,0,0,,We see that the energy field is in a negative direction.
+Dialogue: 0,0:30:31.42,0:30:34.56,Default,,0,0,0,,It will engender fear and further fear.
+Dialogue: 0,0:30:34.56,0:30:37.48,Default,,0,0,0,,And we see the exploitation of that.
+Dialogue: 0,0:30:37.48,0:30:42.00,Default,,0,0,0,,So all these fields also have those who are adept at...
+Dialogue: 0,0:30:42.00,0:30:46.46,Default,,0,0,0,,Can sound convincing as they talk about the truth of it.
+Dialogue: 0,0:30:46.46,0:30:50.34,Default,,0,0,0,,They are almost like politicians in the religious or spiritual world.
+Dialogue: 0,0:30:50.34,0:30:52.06,Default,,0,0,0,,Very adept at...
+Dialogue: 0,0:30:52.06,0:30:54.14,Default,,0,0,0,,At their convincingness.
+Dialogue: 0,0:30:54.14,0:30:57.56,Default,,0,0,0,,And yet when we ask, you know, what is their energy?
+Dialogue: 0,0:30:57.56,0:30:59.20,Default,,0,0,0,,What is the direction of this?
+Dialogue: 0,0:30:59.20,0:31:04.22,Default,,0,0,0,,We find that the teaching of fear is negative and destructive.
+Dialogue: 0,0:31:04.22,0:31:05.62,Default,,0,0,0,,And we watch them on television.
+Dialogue: 0,0:31:05.62,0:31:07.60,Default,,0,0,0,,We turn off the sound.
+Dialogue: 0,0:31:07.60,0:31:09.74,Default,,0,0,0,,We turn off the sound.
+Dialogue: 0,0:31:09.74,0:31:14.88,Default,,0,0,0,,And we look at the face and we see what the face is revealing when it's been disconnected
+Dialogue: 0,0:31:14.88,0:31:16.60,Default,,0,0,0,,from the words.
+Dialogue: 0,0:31:16.60,0:31:20.94,Default,,0,0,0,,And if we test it with kinesiology we'll see that people go weak.
+Dialogue: 0,0:31:20.94,0:31:22.10,Default,,0,0,0,,This indicating...
+Dialogue: 0,0:31:22.10,0:31:24.66,Default,,0,0,0,,This is being taught is not the truth.
+Dialogue: 0,0:31:24.66,0:31:29.14,Default,,0,0,0,,It would seem from our research that God is not at the bottom of the box.
+Dialogue: 0,0:31:29.14,0:31:36.90,Default,,0,0,0,,In fact all the teachings that come out of the bottom of the box all indicate the reverse.
+Dialogue: 0,0:31:36.90,0:31:46.18,Default,,0,0,0,,As we move up into angriness then we will see those positions which promote anger, conflict,
+Dialogue: 0,0:31:46.18,0:31:51.12,Default,,0,0,0,,hatred and religious wars because they are competitive positions.
+Dialogue: 0,0:31:51.12,0:31:52.12,Default,,0,0,0,,And...
+Dialogue: 0,0:31:52.12,0:31:56.24,Default,,0,0,0,,And God is usually championed then as a God of retaliation.
+Dialogue: 0,0:31:56.24,0:32:01.88,Default,,0,0,0,,And because it's a polarized position of us being right and you being wrong, it's always
+Dialogue: 0,0:32:01.88,0:32:05.40,Default,,0,0,0,,viewed that God will punish the non-believers.
+Dialogue: 0,0:32:05.40,0:32:13.00,Default,,0,0,0,,And so the punishment of the non-believers is usually one of the traditional teachings.
+Dialogue: 0,0:32:13.00,0:32:16.84,Default,,0,0,0,,The reason we want to know this is we want to know where we are.
+Dialogue: 0,0:32:16.84,0:32:18.78,Default,,0,0,0,,We want to know where we are.
+Dialogue: 0,0:32:18.78,0:32:21.28,Default,,0,0,0,,We're not saying that it's right or wrong.
+Dialogue: 0,0:32:21.28,0:32:23.28,Default,,0,0,0,,But we do know where we are then.
+Dialogue: 0,0:32:23.28,0:32:26.72,Default,,0,0,0,,We know that we are in the energy fields of consciousness.
+Dialogue: 0,0:32:26.72,0:32:28.76,Default,,0,0,0,,We know we do know how it...
+Dialogue: 0,0:32:28.76,0:32:35.38,Default,,0,0,0,,We know we calibrate and how it correlates then with those things when which we can verify
+Dialogue: 0,0:32:35.38,0:32:36.46,Default,,0,0,0,,are truthful.
+Dialogue: 0,0:32:36.46,0:32:42.18,Default,,0,0,0,,The purpose of all this then is to create a safe context, a safe orientation, a safe
+Dialogue: 0,0:32:42.18,0:32:48.10,Default,,0,0,0,,space in which to do our spiritual work because in the spiritual work we're going to be committing
+Dialogue: 0,0:32:48.10,0:32:52.02,Default,,0,0,0,,our self to certain goals, certain purposes.
+Dialogue: 0,0:32:52.02,0:32:53.02,Default,,0,0,0,,And...
+Dialogue: 0,0:32:53.02,0:32:59.47,Default,,0,0,0,,going to be bringing up certain things in that process. And very often one cause of
+Dialogue: 0,0:32:59.47,0:33:05.81,Default,,0,0,0,,spiritual crises is that the person forgets that they have, through their own intention,
+Dialogue: 0,0:33:05.81,0:33:12.73,Default,,0,0,0,,initiated a process and that what they're experiencing now is a result of their having
+Dialogue: 0,0:33:12.73,0:33:16.87,Default,,0,0,0,,asked the question, their having made the commitment, their having aligned themselves
+Dialogue: 0,0:33:16.87,0:33:23.04,Default,,0,0,0,,with the search for the truth, their having defined themselves in a certain way and has
+Dialogue: 0,0:33:23.04,0:33:27.58,Default,,0,0,0,,great power. And when we look at the power of mind, we see how powerful it is. It has
+Dialogue: 0,0:33:27.58,0:33:33.27,Default,,0,0,0,,then the power to bring up within your life the very thing you've asked for. So often
+Dialogue: 0,0:33:33.27,0:33:38.11,Default,,0,0,0,,in the middle of a crisis, what has happened is that the person has forgotten this, that
+Dialogue: 0,0:33:38.11,0:33:44.87,Default,,0,0,0,,the person has really asked to bring up that which needs to be healed. And therefore, what
+Dialogue: 0,0:33:44.87,0:33:51.57,Default,,0,0,0,,is occurring in their life is not a mistake. It's not an error. It's exactly what needs
+Dialogue: 0,0:33:51.57,0:33:53.63,Default,,0,0,0,,to be brought up to be looked at, to be understood.
+Dialogue: 0,0:33:53.65,0:34:02.05,Default,,0,0,0,,To be surrendered, to be re-contextualized, to be healed, to be forgiven. And therefore,
+Dialogue: 0,0:34:02.05,0:34:07.15,Default,,0,0,0,,we need to come from a compassionate view. How can we heal that which comes up in our
+Dialogue: 0,0:34:07.15,0:34:13.25,Default,,0,0,0,,life, if we ask for it to come up in our life, unless we're coming from a healing position?
+Dialogue: 0,0:34:13.25,0:34:18.23,Default,,0,0,0,,And therefore, now you see how critically important it is to know what is the energy
+Dialogue: 0,0:34:18.23,0:34:21.82,Default,,0,0,0,,field of a given teaching?
+Dialogue: 0,0:34:21.82,0:34:24.46,Default,,0,0,0,,If it requires forgiveness…
+Dialogue: 0,0:34:24.64,0:34:32.24,Default,,0,0,0,,teachings of the Christ based on forgiveness, if it requires compassion and understanding,
+Dialogue: 0,0:34:32.24,0:34:37.00,Default,,0,0,0,,then the teaching will have to be in a positive direction, and it will certainly have to be
+Dialogue: 0,0:34:37.00,0:34:43.64,Default,,0,0,0,,500 and over, because we know that healing begins at 540. That which the world calls
+Dialogue: 0,0:34:43.64,0:34:50.69,Default,,0,0,0,,sin is obviously something that requires to be healed, is it not? So we'll need some teaching
+Dialogue: 0,0:34:50.69,0:34:58.57,Default,,0,0,0,,then that is in a positive direction and is at least an energy field of 540. To ask
+Dialogue: 0,0:34:58.57,0:35:04.81,Default,,0,0,0,,people to bring up from within themselves into a negative energy field is to bring about
+Dialogue: 0,0:35:04.81,0:35:12.63,Default,,0,0,0,,what? The destruction. And therefore, it is unsafe to go into any spiritual teaching whatsoever
+Dialogue: 0,0:35:12.63,0:35:20.14,Default,,0,0,0,,that suggests introspection and soul searching and purification, unless the energy field
+Dialogue: 0,0:35:21.20,0:35:28.20,Default,,0,0,0,,of that teaching itself is positive and at least to 540, that the teacher, the guru,
+Dialogue: 0,0:35:28.88,0:35:33.36,Default,,0,0,0,,the pathway, whatever. You can see how dangerous it would be. It would be like putting yourself
+Dialogue: 0,0:35:33.36,0:35:40.20,Default,,0,0,0,,on the operating table and letting your abdomen be opened up by a surgeon who doesn't have
+Dialogue: 0,0:35:40.20,0:35:44.88,Default,,0,0,0,,the skill to handle what he's going to discover when he gets there. So we don't allow a second-year
+Dialogue: 0,0:35:44.88,0:35:50.30,Default,,0,0,0,,medical student to open up the abdomens on the operating table. We have to have someone
+Dialogue: 0,0:35:50.30,0:35:51.18,Default,,0,0,0,,who has the power.
+Dialogue: 0,0:35:51.18,0:35:58.18,Default,,0,0,0,,So these energy fields are of power. It requires a great deal of power and knowledge to open
+Dialogue: 0,0:35:58.36,0:36:04.42,Default,,0,0,0,,up one's insides and begin to investigate them. So we don't advise introspection and
+Dialogue: 0,0:36:04.42,0:36:11.42,Default,,0,0,0,,the beginning of that inner process of purification until you know that the teacher and the teaching
+Dialogue: 0,0:36:11.84,0:36:18.84,Default,,0,0,0,,and those around you are in this energy field of at least 540, which you see is nurturing,
+Dialogue: 0,0:36:18.86,0:36:20.86,Default,,0,0,0,,supporting, forgiving.
+Dialogue: 0,0:36:20.86,0:36:27.81,Default,,0,0,0,,It's purpose is understanding and to heal through understanding and through compassion.
+Dialogue: 0,0:36:27.81,0:36:33.49,Default,,0,0,0,,The god of that kind of an energy field would therefore be a god who loves you because healing
+Dialogue: 0,0:36:33.49,0:36:40.14,Default,,0,0,0,,only comes about through loving and his love would be unconditional. If we understand the
+Dialogue: 0,0:36:40.14,0:36:47.14,Default,,0,0,0,,nature of God at all, we realize that that which is godly is unconditional. That which
+Dialogue: 0,0:36:47.60,0:36:51.56,Default,,0,0,0,,is conditional and is therefore limited by definition. It could have always been godly
+Dialogue: 0,0:36:51.56,0:36:51.82,Default,,0,0,0,,or unconditional. It could have always been godly or unconditional. There is a lot of
+Dialogue: 0,0:36:51.82,0:36:59.26,Default,,0,0,0,,it could hardly be godly. That which is God is beyond all conditions, infinite. So its
+Dialogue: 0,0:36:59.26,0:37:04.92,Default,,0,0,0,,love is therefore infinite lovingness and therefore infinitely capable of a healing.
+Dialogue: 0,0:37:04.92,0:37:12.50,Default,,0,0,0,,To create a safe context and a safe space for ourself then, it is necessary to know
+Dialogue: 0,0:37:12.50,0:37:19.04,Default,,0,0,0,,that we are in a safe space, that the teacher and the teaching is positive in direction,
+Dialogue: 0,0:37:19.04,0:37:28.09,Default,,0,0,0,,that its energy fuel is at least 540, that it holds compassion and forgiveness in a very
+Dialogue: 0,0:37:28.09,0:37:33.91,Default,,0,0,0,,high place within the teaching, otherwise it will be unable to heal that which is brought
+Dialogue: 0,0:37:33.91,0:37:35.30,Default,,0,0,0,,forth.
+Dialogue: 0,0:37:35.30,0:37:43.70,Default,,0,0,0,,The work that I did with my coworker, Glorian Ross, we checked out and calibrated literally
+Dialogue: 0,0:37:43.70,0:37:50.92,Default,,0,0,0,,thousands, in fact tens of thousands of factors in various teachings and various pathways.
+Dialogue: 0,0:37:50.92,0:37:51.52,Default,,0,0,0,,We found out
+Dialogue: 0,0:37:51.60,0:38:00.14,Default,,0,0,0,,consistently that those which calibrated the highest and had the highest ratings and
+Dialogue: 0,0:38:00.14,0:38:09.04,Default,,0,0,0,,were in a positive direction were all characterized by the absence of teachings of hatred or condemnation
+Dialogue: 0,0:38:09.04,0:38:16.02,Default,,0,0,0,,in any way. We found that what characterized the great teachers and the great teachings,
+Dialogue: 0,0:38:16.02,0:38:21.88,Default,,0,0,0,,those that calibrated at over 600 in a positive direction,
+Dialogue: 0,0:38:21.88,0:38:31.46,Default,,0,0,0,,was a great compassion. Coming from an infinite compassion and forgivingness towards one's
+Dialogue: 0,0:38:31.46,0:38:41.02,Default,,0,0,0,,humanness. Viewing it as something that needed to be healed. We saw a lack of concern with
+Dialogue: 0,0:38:41.02,0:38:48.78,Default,,0,0,0,,a person's money or status. We saw that there was no desire to control the person's personal
+Dialogue: 0,0:38:48.78,0:38:50.12,Default,,0,0,0,,life.
+Dialogue: 0,0:38:50.12,0:38:51.44,Default,,0,0,0,,There was no make wrong
+Dialogue: 0,0:38:51.44,0:38:55.04,Default,,0,0,0,,or invalidation of life in any of its aspects.
+Dialogue: 0,0:38:56.32,0:38:57.62,Default,,0,0,0,,And how is this so?
+Dialogue: 0,0:38:57.96,0:39:00.64,Default,,0,0,0,,Because it isn't, for instance, money itself,
+Dialogue: 0,0:39:01.34,0:39:02.96,Default,,0,0,0,,but the way that it's held,
+Dialogue: 0,0:39:03.26,0:39:04.74,Default,,0,0,0,,not the events of life,
+Dialogue: 0,0:39:05.16,0:39:06.92,Default,,0,0,0,,but one's position about them.
+Dialogue: 0,0:39:07.58,0:39:08.86,Default,,0,0,0,,And so the great teachings,
+Dialogue: 0,0:39:09.06,0:39:10.92,Default,,0,0,0,,which are in a very positive direction,
+Dialogue: 0,0:39:11.56,0:39:13.84,Default,,0,0,0,,have to do with basic principles,
+Dialogue: 0,0:39:14.50,0:39:16.24,Default,,0,0,0,,have to do with principles
+Dialogue: 0,0:39:16.24,0:39:20.70,Default,,0,0,0,,which one can experience the truth of within oneself.
+Dialogue: 0,0:39:20.70,0:39:23.78,Default,,0,0,0,,Through one's own inner spiritual work.
+Dialogue: 0,0:39:24.78,0:39:26.72,Default,,0,0,0,,The creation of a safe space, then,
+Dialogue: 0,0:39:27.38,0:39:32.46,Default,,0,0,0,,is coming out of teachers who have no ways to exploit,
+Dialogue: 0,0:39:32.94,0:39:34.18,Default,,0,0,0,,who have no ways to invalidate,
+Dialogue: 0,0:39:35.96,0:39:41.40,Default,,0,0,0,,who are therefore themselves examples of their own principles.
+Dialogue: 0,0:39:41.92,0:39:46.76,Default,,0,0,0,,Exploitation of the followers for the sake of the movement or the cause.
+Dialogue: 0,0:39:47.42,0:39:50.30,Default,,0,0,0,,In other words, there is the avoidance of that polarization
+Dialogue: 0,0:39:50.30,0:39:51.16,Default,,0,0,0,,of us and the others.
+Dialogue: 0,0:39:51.50,0:39:53.98,Default,,0,0,0,,And there is a need for us against them.
+Dialogue: 0,0:39:55.38,0:40:00.12,Default,,0,0,0,,There is a necessity to keep clear the difference between the phenomenal world,
+Dialogue: 0,0:40:00.12,0:40:02.12,Default,,0,0,0,,the phenomenological phenomena,
+Dialogue: 0,0:40:02.40,0:40:04.40,Default,,0,0,0,,and that which is spiritual.
+Dialogue: 0,0:40:04.80,0:40:08.80,Default,,0,0,0,,So we notice that there is no preoccupation
+Dialogue: 0,0:40:09.28,0:40:12.48,Default,,0,0,0,,with things in form in the unseen world,
+Dialogue: 0,0:40:13.04,0:40:16.80,Default,,0,0,0,,but actually basic principles,
+Dialogue: 0,0:40:17.36,0:40:20.96,Default,,0,0,0,,which then express through all the levels of reality,
+Dialogue: 0,0:40:20.96,0:40:22.32,Default,,0,0,0,,if we may use that term.
+Dialogue: 0,0:40:22.56,0:40:27.44,Default,,0,0,0,,And so the great teachers have no interest in influencing your money
+Dialogue: 0,0:40:27.44,0:40:30.00,Default,,0,0,0,,or your life decisions, your personal life.
+Dialogue: 0,0:40:30.56,0:40:35.28,Default,,0,0,0,,Many of them actually refuse to answer questions on that level.
+Dialogue: 0,0:40:35.28,0:40:40.72,Default,,0,0,0,,Instead, what they exemplify and speak of is the teaching of a principle.
+Dialogue: 0,0:40:40.72,0:40:43.92,Default,,0,0,0,,It is then left up to the student or the follower
+Dialogue: 0,0:40:43.92,0:40:48.16,Default,,0,0,0,,to discern how to apply that principle in the given situation.
+Dialogue: 0,0:40:48.64,0:40:50.72,Default,,0,0,0,,And so there are no make-wrongs.
+Dialogue: 0,0:40:51.12,0:40:52.52,Default,,0,0,0,,There are no make-wrongs.
+Dialogue: 0,0:40:52.96,0:40:58.64,Default,,0,0,0,,There is only the teaching of a greater context
+Dialogue: 0,0:40:59.68,0:41:02.64,Default,,0,0,0,,from which to hold that life experience.
+Dialogue: 0,0:41:03.45,0:41:06.17,Default,,0,0,0,,And so we can get a better understanding of this
+Dialogue: 0,0:41:06.17,0:41:08.17,Default,,0,0,0,,if we go back to the board
+Dialogue: 0,0:41:08.17,0:41:11.69,Default,,0,0,0,,and look at how these various things can be held.
+Dialogue: 0,0:41:12.89,0:41:14.89,Default,,0,0,0,,We take an event in the world, you see,
+Dialogue: 0,0:41:15.29,0:41:18.89,Default,,0,0,0,,and the event in itself is of no particular significance.
+Dialogue: 0,0:41:18.89,0:41:21.05,Default,,0,0,0,,It's how we hold it.
+Dialogue: 0,0:41:21.05,0:41:23.05,Default,,0,0,0,,It's the meaning that we project to it.
+Dialogue: 0,0:41:23.37,0:41:25.53,Default,,0,0,0,,It's the significance that we give it.
+Dialogue: 0,0:41:25.93,0:41:28.09,Default,,0,0,0,,In and of itself, it really has no meaning.
+Dialogue: 0,0:41:28.09,0:41:32.05,Default,,0,0,0,,So meaning is projected onto it by ourself.
+Dialogue: 0,0:41:32.49,0:41:37.05,Default,,0,0,0,,Now, what that meaning will be will depend on our own level of consciousness,
+Dialogue: 0,0:41:37.05,0:41:39.61,Default,,0,0,0,,the level of consciousness of the teaching.
+Dialogue: 0,0:41:40.41,0:41:42.65,Default,,0,0,0,,And so let us take money, for instance,
+Dialogue: 0,0:41:43.13,0:41:47.85,Default,,0,0,0,,because it is such a source of conflict amongst spiritual seekers,
+Dialogue: 0,0:41:47.85,0:41:48.97,Default,,0,0,0,,at least in the beginning.
+Dialogue: 0,0:41:50.08,0:41:51.92,Default,,0,0,0,,How would money be looked at, then?
+Dialogue: 0,0:41:51.92,0:41:52.84,Default,,0,0,0,,How would money be looked at, then?
+Dialogue: 0,0:41:52.84,0:41:58.82,Default,,0,0,0,,be looked at depending on the energy field of the teaching or the teacher. It could be
+Dialogue: 0,0:41:58.82,0:42:03.84,Default,,0,0,0,,something that you would feel guilty about. It would be something that it is sinful to
+Dialogue: 0,0:42:03.84,0:42:09.28,Default,,0,0,0,,have and God will destroy you if you have money and you can hate yourself for having
+Dialogue: 0,0:42:09.28,0:42:14.36,Default,,0,0,0,,it and the whole process, of course, is a destructive one because it is a negative energy
+Dialogue: 0,0:42:14.36,0:42:20.88,Default,,0,0,0,,field with a very low calibration as far as truth. You might say that these numbers indicate
+Dialogue: 0,0:42:20.88,0:42:27.50,Default,,0,0,0,,the degree of truth, 600 and over being, moving into what is called absolute truth, the numbers
+Dialogue: 0,0:42:27.50,0:42:33.92,Default,,0,0,0,,at the bottom having the least truth. We could then move up the energy field and we might
+Dialogue: 0,0:42:33.92,0:42:40.36,Default,,0,0,0,,move into this of fear in which having money then would be a frightening thing, worry and
+Dialogue: 0,0:42:40.36,0:42:46.26,Default,,0,0,0,,anxiety and panic coming out of it. It would be viewed as unspiritual and as we said before,
+Dialogue: 0,0:42:46.26,0:42:51.48,Default,,0,0,0,,God will punish you about this or it might be the source of hatred and resentment and
+Dialogue: 0,0:42:51.48,0:42:58.60,Default,,0,0,0,,grievance and the money then being used by the spiritual group in a competitive way,
+Dialogue: 0,0:42:58.60,0:43:05.30,Default,,0,0,0,,retaliatory towards others, leading to anger and religious war or money might be then held
+Dialogue: 0,0:43:05.30,0:43:11.40,Default,,0,0,0,,from pride in which it is status, so that your money would be a status symbol that God
+Dialogue: 0,0:43:11.40,0:43:16.04,Default,,0,0,0,,has given you, you see. The more God loves you, the more money he gives you and this
+Dialogue: 0,0:43:16.04,0:43:21.49,Default,,0,0,0,,is coming from an inflated process. We might move up to a higher energy field and we
+Dialogue: 0,0:43:21.49,0:43:27.27,Default,,0,0,0,,we might say that the person here now becomes unattached to the money. He is released. It
+Dialogue: 0,0:43:27.27,0:43:34.05,Default,,0,0,0,,doesn't run him anymore. It now becomes okay to have money because the God of that energy
+Dialogue: 0,0:43:34.05,0:43:38.93,Default,,0,0,0,,field you see is a God of freedom. Whether you have money or not is not something God
+Dialogue: 0,0:43:38.93,0:43:45.25,Default,,0,0,0,,is concerned about at all. As we move up, you might even be willing to now see this
+Dialogue: 0,0:43:45.25,0:43:51.64,Default,,0,0,0,,differently and move into acceptance. As you move on up into the energy fields of love,
+Dialogue: 0,0:43:51.64,0:43:58.97,Default,,0,0,0,,gratitude is about 540. One might now view this money totally differently. One might
+Dialogue: 0,0:43:58.97,0:44:05.01,Default,,0,0,0,,view it as a gift from God about which one is grateful, that the money would then be
+Dialogue: 0,0:44:05.01,0:44:11.01,Default,,0,0,0,,a way, a tool, a way of expressing your compassion and your unconditional lovingness towards
+Dialogue: 0,0:44:11.01,0:44:17.75,Default,,0,0,0,,the suffering of the world because the energy field of love nurtures and supports love,
+Dialogue: 0,0:44:17.75,0:44:21.15,Default,,0,0,0,,life in all of its reflections.
+Dialogue: 0,0:44:21.15,0:44:21.71,Default,,0,0,0,,The beginning of
+Dialogue: 0,0:44:21.71,0:44:21.81,Default,,0,0,0,,The beginning of
+Dialogue: 0,0:44:21.81,0:44:21.83,Default,,0,0,0,,The beginning of
+Dialogue: 0,0:44:21.83,0:44:21.85,Default,,0,0,0,,The beginning of
+Dialogue: 0,0:44:21.85,0:44:27.37,Default,,0,0,0,,Revelation, because there is the release, as we said, in the brain of endorphins, the
+Dialogue: 0,0:44:27.37,0:44:34.81,Default,,0,0,0,,seeing of it as loving then, it might be seen then as a loving thing, that money is a way
+Dialogue: 0,0:44:34.81,0:44:40.65,Default,,0,0,0,,now to support others. And therefore you see the intention behind it, the way that it is
+Dialogue: 0,0:44:40.65,0:44:48.01,Default,,0,0,0,,held would now view this money as a blessing, as a responsibility, as a way of helping others,
+Dialogue: 0,0:44:48.01,0:44:52.03,Default,,0,0,0,,a way of supporting others. So the money then would be used for the benefit
+Dialogue: 0,0:44:52.03,0:44:58.69,Default,,0,0,0,,of mankind, not as an egotistical gesture where you get your name on a brass plate that
+Dialogue: 0,0:44:58.69,0:45:06.25,Default,,0,0,0,,so and so gave this to that organization. But to use that then as a gift, acknowledge
+Dialogue: 0,0:45:06.25,0:45:13.23,Default,,0,0,0,,the source, to acknowledge the source as the love of God and to view it as an expression.
+Dialogue: 0,0:45:13.23,0:45:19.23,Default,,0,0,0,,You see, as you move towards the top of the field into oneness and perfection, you see
+Dialogue: 0,0:45:19.23,0:45:22.25,Default,,0,0,0,,all things are aspects of God.
+Dialogue: 0,0:45:22.25,0:45:28.64,Default,,0,0,0,,God being all that is, you begin to see the divinity within all things. And this would
+Dialogue: 0,0:45:28.64,0:45:33.34,Default,,0,0,0,,then apply to everything in your life. So money, instead of being sinful now, would
+Dialogue: 0,0:45:33.34,0:45:40.14,Default,,0,0,0,,be a tool that God has given you so that you can express your lovingness in a greater field
+Dialogue: 0,0:45:40.14,0:45:44.53,Default,,0,0,0,,and help large numbers of mankind.
+Dialogue: 0,0:45:44.53,0:45:52.31,Default,,0,0,0,,It could then be held from joy in which one would feel an inner gladness that one has
+Dialogue: 0,0:45:52.31,0:45:52.59,Default,,0,0,0,,been given.
+Dialogue: 0,0:45:52.59,0:46:01.23,Default,,0,0,0,,Given the power, money here being an expression of God's power on earth to bring about the
+Dialogue: 0,0:46:01.23,0:46:07.65,Default,,0,0,0,,healing of the inner pain and suffering of mankind. The expression and nurturing of love
+Dialogue: 0,0:46:07.65,0:46:15.17,Default,,0,0,0,,then is the desire, coming out of compassion, for the relief of suffering. And so the money
+Dialogue: 0,0:46:15.17,0:46:21.85,Default,,0,0,0,,would then become a tool in which you could help relieve the suffering of the world and
+Dialogue: 0,0:46:21.85,0:46:22.43,Default,,0,0,0,,certainly
+Dialogue: 0,0:46:22.43,0:46:29.11,Default,,0,0,0,,the great beings have done that. Whatever assets they had were held as gifts from God.
+Dialogue: 0,0:46:29.11,0:46:36.18,Default,,0,0,0,,And the gift was then utilized to bring about the increasing knowledge of man and the relief
+Dialogue: 0,0:46:36.18,0:46:41.18,Default,,0,0,0,,of suffering that comes about through the progressive increase of man's knowledge of
+Dialogue: 0,0:46:41.18,0:46:42.70,Default,,0,0,0,,that which is true.
+Dialogue: 0,0:46:42.70,0:46:44.98,Default,,0,0,0,,The next one is always sex, isn't it?
+Dialogue: 0,0:46:44.98,0:46:51.18,Default,,0,0,0,,So let's take a look at sex and how sex and the conflicts arising around that are held
+Dialogue: 0,0:46:51.18,0:46:52.78,Default,,0,0,0,,depending upon the energy.
+Dialogue: 0,0:46:52.78,0:47:01.64,Default,,0,0,0,,We'll see that sex, an event in human life, part of humanness, can be held from the bottom
+Dialogue: 0,0:47:01.64,0:47:03.24,Default,,0,0,0,,of the box.
+Dialogue: 0,0:47:03.24,0:47:07.22,Default,,0,0,0,,The energy field, the teaching coming out of this energy field, would then view it as
+Dialogue: 0,0:47:07.22,0:47:13.14,Default,,0,0,0,,negative as associated with sin and suffering for which God, the God of that level, is the
+Dialogue: 0,0:47:13.14,0:47:15.18,Default,,0,0,0,,great destroyer.
+Dialogue: 0,0:47:15.18,0:47:23.14,Default,,0,0,0,,And the whole process is one of destruction and self-hatred, self-pity, self-blame, etc.
+Dialogue: 0,0:47:23.14,0:47:24.08,Default,,0,0,0,,The next one would be that sex and the conflicts arising around that are held depending upon
+Dialogue: 0,0:47:24.08,0:47:24.32,Default,,0,0,0,,the energy field, regardless of what that is.
+Dialogue: 0,0:47:24.32,0:47:25.42,Default,,0,0,0,,It's a hopeless condition.
+Dialogue: 0,0:47:25.42,0:47:33.45,Default,,0,0,0,,Man's sexuality is hopeless and his whole condition is one of despair and loss of energy.
+Dialogue: 0,0:47:33.45,0:47:35.01,Default,,0,0,0,,And what do we mean by that?
+Dialogue: 0,0:47:35.01,0:47:38.98,Default,,0,0,0,,We mean aliveness, the capacity to experience the aliveness.
+Dialogue: 0,0:47:38.98,0:47:45.30,Default,,0,0,0,,Here we might view it as sad and regretful that man is an animal, let's say, that which
+Dialogue: 0,0:47:45.30,0:47:52.34,Default,,0,0,0,,views it, views man as a body because at the bottom here we're viewing man, you see,
+Dialogue: 0,0:47:52.34,0:47:53.34,Default,,0,0,0,,as a body.
+Dialogue: 0,0:47:53.34,0:47:54.34,Default,,0,0,0,,Subsequently, the body as a contact with the body.
+Dialogue: 0,0:47:54.34,0:47:54.44,Default,,0,0,0,,Subsequently, the body as an link with the body.
+Dialogue: 0,0:47:54.44,0:47:54.56,Default,,0,0,0,,Subsequently, the body as an link with the body.
+Dialogue: 0,0:47:54.56,0:48:00.08,Default,,0,0,0,,the line of the truth he is less and less viewed as a body and progressively realizes that he is
+Dialogue: 0,0:48:00.08,0:48:07.46,Default,,0,0,0,,spirit but that which views man his body then would condemn it how sad it is that man is such
+Dialogue: 0,0:48:07.46,0:48:15.70,Default,,0,0,0,,an animal those who are coming out of fear would view sexuality then with worry anxiety and panic
+Dialogue: 0,0:48:15.70,0:48:20.10,Default,,0,0,0,,the whole subject is frightening best to deny and just ignore it altogether because the god of that
+Dialogue: 0,0:48:20.10,0:48:26.64,Default,,0,0,0,,level is punitive and would punish you for any sexuality we can move on up now you can see the
+Dialogue: 0,0:48:26.64,0:48:31.68,Default,,0,0,0,,various ways the angriness with which it can be held the people people who hate themselves for
+Dialogue: 0,0:48:31.68,0:48:39.84,Default,,0,0,0,,their own sexuality etc and then those who exploit seduction etc the perversions of religion the
+Dialogue: 0,0:48:39.84,0:48:47.14,Default,,0,0,0,,occult demon what do we call them satanic societies etc in which the sexuality and the seduction
+Dialogue: 0,0:48:47.14,0:48:49.46,Default,,0,0,0,,now is reversed and it's
+Dialogue: 0,0:48:50.42,0:48:58.59,Default,,0,0,0,,expression then becomes an inflated one in which its importance is inflated out of proportion
+Dialogue: 0,0:48:59.87,0:49:05.87,Default,,0,0,0,,how would sexuality then be held once we get up to the level of truth these are all negative energy
+Dialogue: 0,0:49:05.87,0:49:11.71,Default,,0,0,0,,fields from the level of truth to begin to face and cope and handle what is sexuality
+Dialogue: 0,0:49:11.71,0:49:15.23,Default,,0,0,0,,you know in from the whole viewpoint of spirituality
+Dialogue: 0,0:49:15.23,0:49:20.59,Default,,0,0,0,,to become empowered now to take the opportunity because the god here is one of an open mind
+Dialogue: 0,0:49:21.15,0:49:26.91,Default,,0,0,0,,and one of freedom the freedom it's okay to explore this because this says here we're not
+Dialogue: 0,0:49:26.91,0:49:33.20,Default,,0,0,0,,attached to any position about it what we're coming from now is the humility you see this
+Dialogue: 0,0:49:33.20,0:49:38.88,Default,,0,0,0,,is the beginning of humility meaning i really don't know the answer to this one i really don't
+Dialogue: 0,0:49:38.88,0:49:45.76,Default,,0,0,0,,and i'm willing however to begin to look at it now the willingness because it's a positive energy
+Dialogue: 0,0:49:45.76,0:49:50.48,Default,,0,0,0,,field says this is a friendly promising and hopeful subject we can look into
+Dialogue: 0,0:49:52.22,0:49:57.18,Default,,0,0,0,,um we've added our own intention now to clear up the subject and we start feeling a certain
+Dialogue: 0,0:49:57.18,0:50:02.94,Default,,0,0,0,,confidence that we have the capacity in a harmonious world with a merciful god now to
+Dialogue: 0,0:50:02.94,0:50:09.73,Default,,0,0,0,,explore it without being thrown into hellfire we move on up into an energy field of 500 and over
+Dialogue: 0,0:50:10.29,0:50:13.97,Default,,0,0,0,,and now it's held from the viewpoint of lovingness and gratitude
+Dialogue: 0,0:50:14.80,0:50:20.80,Default,,0,0,0,,it is seen now as an expression of nurturance nurturance and support and healingness
+Dialogue: 0,0:50:22.64,0:50:29.92,Default,,0,0,0,,making love in itself is a healing forgiving act people who have argued and fought etc in the
+Dialogue: 0,0:50:29.92,0:50:35.84,Default,,0,0,0,,embrace forgive each other nurture and heal each other re reaffirm each other's worth and value
+Dialogue: 0,0:50:36.64,0:50:43.76,Default,,0,0,0,,and so now sexuality becomes an expression of love it eventually becomes an expression
+Dialogue: 0,0:50:43.76,0:50:51.68,Default,,0,0,0,,of unconditional love it becomes an expression of the joy and the celebration of one's own alive and
+Dialogue: 0,0:50:52.40,0:50:59.84,Default,,0,0,0,,existence a gratitude to god for the joy of existence the beginning of transfiguration and
+Dialogue: 0,0:50:59.84,0:51:06.16,Default,,0,0,0,,revelation the moving on to bliss and those who then move on to high states of consciousness
+Dialogue: 0,0:51:06.80,0:51:14.05,Default,,0,0,0,,see it as an expression of oneness an expression of oneness a way of being
+Dialogue: 0,0:51:14.69,0:51:20.93,Default,,0,0,0,,it's a way of being and a way of joining those two great energies the masculine and the feminine in
+Dialogue: 0,0:51:20.93,0:51:21.65,Default,,0,0,0,,the in the world
+Dialogue: 0,0:51:22.05,0:51:31.57,Default,,0,0,0,,And so you see sexuality then, or money, any of these things, the view about them now is
+Dialogue: 0,0:51:31.57,0:51:34.02,Default,,0,0,0,,only a view, is it not?
+Dialogue: 0,0:51:34.02,0:51:38.96,Default,,0,0,0,,In none of these instances can we say what is the thing in and of itself.
+Dialogue: 0,0:51:38.96,0:51:46.56,Default,,0,0,0,,We cannot take it out of the field of understanding which is coming out of this level of consciousness.
+Dialogue: 0,0:51:46.56,0:51:53.08,Default,,0,0,0,,So when a person or a teaching expresses their attitudes, their beliefs, their opinions,
+Dialogue: 0,0:51:53.08,0:51:57.54,Default,,0,0,0,,many of these things we will find out are merely opinions about a thing, they are not
+Dialogue: 0,0:51:57.54,0:52:01.90,Default,,0,0,0,,talking about the thing itself, they are talking about how they hold it.
+Dialogue: 0,0:52:01.90,0:52:07.26,Default,,0,0,0,,And how they hold it then is an expression of their level of consciousness, their degree
+Dialogue: 0,0:52:07.26,0:52:10.32,Default,,0,0,0,,of awareness of truth.
+Dialogue: 0,0:52:10.32,0:52:17.11,Default,,0,0,0,,The lower their view, the more negative they will look at any human behavior.
+Dialogue: 0,0:52:17.11,0:52:23.33,Default,,0,0,0,,And all things can be held from a make-wrong, because the bottom of the box is an endless
+Dialogue: 0,0:52:23.33,0:52:27.73,Default,,0,0,0,,make-wrong, the invalidation of life in all of its expressions.
+Dialogue: 0,0:52:27.73,0:52:33.87,Default,,0,0,0,,And so that work can be viewed as a make-wrong, all man's intentions, all man's impulses,
+Dialogue: 0,0:52:33.87,0:52:40.23,Default,,0,0,0,,his biology, his psychology, even his spiritual ambitions, you see?
+Dialogue: 0,0:52:40.23,0:52:44.53,Default,,0,0,0,,Even your desire to be a spiritual seeker can be invalidated, because there is sure
+Dialogue: 0,0:52:44.53,0:52:47.91,Default,,0,0,0,,to be somebody that says, well, you are just coming from a spiritual ego, you are just
+Dialogue: 0,0:52:47.91,0:52:48.91,Default,,0,0,0,,selfish.
+Dialogue: 0,0:52:48.91,0:52:53.15,Default,,0,0,0,,I mean, you just want to realize the truth for your own sake.
+Dialogue: 0,0:52:53.15,0:52:57.41,Default,,0,0,0,,And so even your spiritual work itself can become invalidated.
+Dialogue: 0,0:52:57.41,0:53:02.25,Default,,0,0,0,,And so these are ways of using the truth against the truth.
+Dialogue: 0,0:53:02.25,0:53:03.69,Default,,0,0,0,,How can we move out of that?
+Dialogue: 0,0:53:03.69,0:53:09.23,Default,,0,0,0,,We can move out of it by seeing clearly what we just said, that there is the event in the
+Dialogue: 0,0:53:09.23,0:53:18.39,Default,,0,0,0,,world, there is life itself, there is human nature, and that is what it is.
+Dialogue: 0,0:53:18.39,0:53:18.89,Default,,0,0,0,,And then there is...
+Dialogue: 0,0:53:19.09,0:53:24.59,Default,,0,0,0,,There is a way of being with that, a way of viewing it, how you hold it.
+Dialogue: 0,0:53:24.59,0:53:26.83,Default,,0,0,0,,That is expressing a level of consciousness.
+Dialogue: 0,0:53:26.83,0:53:30.43,Default,,0,0,0,,It is still not saying anything about that out there.
+Dialogue: 0,0:53:30.43,0:53:37.51,Default,,0,0,0,,So what we find is being talked about is one's own level of awareness.
+Dialogue: 0,0:53:37.51,0:53:41.13,Default,,0,0,0,,There is nothing really being said about the world, you see?
+Dialogue: 0,0:53:41.13,0:53:47.22,Default,,0,0,0,,Because those who are at the very top, the enlightened beings, all say that all is God,
+Dialogue: 0,0:53:47.22,0:53:48.64,Default,,0,0,0,,that a thing is what it is.
+Dialogue: 0,0:53:48.64,0:53:49.64,Default,,0,0,0,,That all is God.
+Dialogue: 0,0:53:49.64,0:53:53.53,Default,,0,0,0,,They place no construction on it.
+Dialogue: 0,0:53:53.53,0:53:57.03,Default,,0,0,0,,They give no valuation of right or wrong to it.
+Dialogue: 0,0:53:57.03,0:54:04.15,Default,,0,0,0,,They see the sacredness of all of existence, and therefore there is no invalidation.
+Dialogue: 0,0:54:04.15,0:54:10.21,Default,,0,0,0,,If all is God, then to invalidate any part of it would be invalidating God.
+Dialogue: 0,0:54:10.21,0:54:16.62,Default,,0,0,0,,Man being God's creation, the least of all to invalidate man and his various expressions.
+Dialogue: 0,0:54:16.62,0:54:19.12,Default,,0,0,0,,Instead, what is taught is a principle.
+Dialogue: 0,0:54:19.12,0:54:27.18,Default,,0,0,0,,And the principle would lead you to understand that coming out of this just doesn't work.
+Dialogue: 0,0:54:27.18,0:54:31.54,Default,,0,0,0,,So you find the highest teachers will tell you that if you follow this course, such and
+Dialogue: 0,0:54:31.54,0:54:33.06,Default,,0,0,0,,such will happen.
+Dialogue: 0,0:54:33.06,0:54:34.36,Default,,0,0,0,,And they leave it up to you.
+Dialogue: 0,0:54:34.36,0:54:39.65,Default,,0,0,0,,You know, a very good example in our society of such pure teaching is that of Alcoholics
+Dialogue: 0,0:54:39.65,0:54:40.65,Default,,0,0,0,,Anonymous, for instance.
+Dialogue: 0,0:54:40.65,0:54:43.55,Default,,0,0,0,,It takes no position about whether you drink or not.
+Dialogue: 0,0:54:43.55,0:54:46.31,Default,,0,0,0,,It doesn't try to close up the liquor industry.
+Dialogue: 0,0:54:46.31,0:54:48.45,Default,,0,0,0,,It doesn't try to convince you that you should stop drinking.
+Dialogue: 0,0:54:48.45,0:54:54.69,Default,,0,0,0,,But it says, for those who had a problem, this is what we did, and these were the results.
+Dialogue: 0,0:54:54.69,0:54:58.61,Default,,0,0,0,,And if you continue on drinking, these will be the results.
+Dialogue: 0,0:54:58.61,0:54:59.71,Default,,0,0,0,,But there's no make wrong.
+Dialogue: 0,0:54:59.71,0:55:02.69,Default,,0,0,0,,There's no invalidation.
+Dialogue: 0,0:55:02.69,0:55:04.25,Default,,0,0,0,,It's not looking for any power.
+Dialogue: 0,0:55:04.25,0:55:06.43,Default,,0,0,0,,It's not looking to exploit anybody.
+Dialogue: 0,0:55:06.43,0:55:08.09,Default,,0,0,0,,It has no possessions.
+Dialogue: 0,0:55:08.09,0:55:09.73,Default,,0,0,0,,It has no royalty.
+Dialogue: 0,0:55:09.73,0:55:10.73,Default,,0,0,0,,It has no government.
+Dialogue: 0,0:55:10.73,0:55:13.86,Default,,0,0,0,,It has no buildings.
+Dialogue: 0,0:55:13.86,0:55:15.82,Default,,0,0,0,,It has no glamour.
+Dialogue: 0,0:55:15.82,0:55:18.46,Default,,0,0,0,,It's just pure spiritual principle.
+Dialogue: 0,0:55:18.46,0:55:19.42,Default,,0,0,0,,And then that allows...
+Dialogue: 0,0:55:19.44,0:55:23.94,Default,,0,0,0,,It allows the individual to have the freedom to see the truth in that for himself and if
+Dialogue: 0,0:55:23.94,0:55:26.82,Default,,0,0,0,,he wishes to apply it to his own life.
+Dialogue: 0,0:55:26.82,0:55:30.60,Default,,0,0,0,,And so we see exemplified there that which is a high teaching.
+Dialogue: 0,0:55:30.60,0:55:35.86,Default,,0,0,0,,And that particular organization, when we calibrate it, does come out at 540, as we
+Dialogue: 0,0:55:35.86,0:55:36.86,Default,,0,0,0,,would expect.
+Dialogue: 0,0:55:36.86,0:55:41.66,Default,,0,0,0,,An energy field which heals would have to be a teaching that is in a positive direction
+Dialogue: 0,0:55:41.66,0:55:45.51,Default,,0,0,0,,and it calibrates out at least 540.
+Dialogue: 0,0:55:45.51,0:55:49.23,Default,,0,0,0,,And they stand, of course, as an example of healing.
+Dialogue: 0,0:55:49.23,0:55:53.37,Default,,0,0,0,,The healing there is based on the physical, the mental and the spiritual.
+Dialogue: 0,0:55:53.37,0:55:58.83,Default,,0,0,0,,And it's said that no healing from addiction occurs without spiritual growth and development.
+Dialogue: 0,0:55:58.83,0:56:04.99,Default,,0,0,0,,What has happened in the lives of many people that are considered saints and wrote autobiographies,
+Dialogue: 0,0:56:04.99,0:56:11.89,Default,,0,0,0,,etc., in which this bottom of the box played a big part in their inner experience prior
+Dialogue: 0,0:56:11.89,0:56:16.42,Default,,0,0,0,,to their achieving a higher state of awareness.
+Dialogue: 0,0:56:16.42,0:56:18.46,Default,,0,0,0,,What happened was the progressive influence.
+Dialogue: 0,0:56:18.46,0:56:19.46,Default,,0,0,0,,What happened?
+Dialogue: 0,0:56:19.46,0:56:20.46,Default,,0,0,0,,The progressive influence.
+Dialogue: 0,0:56:20.46,0:56:24.88,Default,,0,0,0,,As they moved, you see, in their research into their inner selves.
+Dialogue: 0,0:56:24.88,0:56:30.00,Default,,0,0,0,,They finally moved and brought up the very bottom of the box and faced the unconscious
+Dialogue: 0,0:56:30.00,0:56:38.90,Default,,0,0,0,,and now conscious conception of self as that which is ultimately separated from God.
+Dialogue: 0,0:56:38.90,0:56:42.64,Default,,0,0,0,,The bottom of the box is the ultimate separation from God.
+Dialogue: 0,0:56:42.64,0:56:49.06,Default,,0,0,0,,Until finally the agony, the self-hatred of the exquisite sense of sinfulness.
+Dialogue: 0,0:56:49.62,0:56:52.90,Default,,0,0,0,,then brought about what?
+Dialogue: 0,0:56:53.32,0:56:56.52,Default,,0,0,0,,Brought about not the discovery of God within sin,
+Dialogue: 0,0:56:57.10,0:56:59.54,Default,,0,0,0,,but it brought about surrender.
+Dialogue: 0,0:57:00.47,0:57:02.73,Default,,0,0,0,,What happened in each and every case was
+Dialogue: 0,0:57:02.73,0:57:08.71,Default,,0,0,0,,the agonizing experience of being so far from God
+Dialogue: 0,0:57:08.71,0:57:11.63,Default,,0,0,0,,was so agonizing that the person let go.
+Dialogue: 0,0:57:13.13,0:57:15.63,Default,,0,0,0,,It was the willingness to let go,
+Dialogue: 0,0:57:16.07,0:57:19.78,Default,,0,0,0,,to accept God as God.
+Dialogue: 0,0:57:19.78,0:57:22.46,Default,,0,0,0,,And what happened then is they moved up
+Dialogue: 0,0:57:22.46,0:57:26.18,Default,,0,0,0,,to a situation called surrender.
+Dialogue: 0,0:57:26.66,0:57:29.82,Default,,0,0,0,,Surrender, when we calibrate the energy field of surrender,
+Dialogue: 0,0:57:29.98,0:57:30.82,Default,,0,0,0,,it is 575.
+Dialogue: 0,0:57:31.40,0:57:34.24,Default,,0,0,0,,So what happened is the person removed themselves
+Dialogue: 0,0:57:34.24,0:57:36.26,Default,,0,0,0,,from a minus 30 energy field.
+Dialogue: 0,0:57:36.66,0:57:39.56,Default,,0,0,0,,They finally gave up and surrendered to God
+Dialogue: 0,0:57:39.56,0:57:42.91,Default,,0,0,0,,an energy field of 575
+Dialogue: 0,0:57:42.91,0:57:46.93,Default,,0,0,0,,and opened the way to the experience of truth.
+Dialogue: 0,0:57:47.61,0:57:49.07,Default,,0,0,0,,And so those who became enlightened
+Dialogue: 0,0:57:49.07,0:57:50.27,Default,,0,0,0,,often went through,
+Dialogue: 0,0:57:50.81,0:57:52.65,Default,,0,0,0,,agonizing periods,
+Dialogue: 0,0:57:53.13,0:57:54.21,Default,,0,0,0,,agonizing periods,
+Dialogue: 0,0:57:54.35,0:57:59.59,Default,,0,0,0,,40 days of facing that which is the utmost negative
+Dialogue: 0,0:57:59.59,0:58:02.05,Default,,0,0,0,,buried within one's unconscious,
+Dialogue: 0,0:58:02.71,0:58:04.31,Default,,0,0,0,,owning one's own shadow,
+Dialogue: 0,0:58:04.83,0:58:09.17,Default,,0,0,0,,looking at that which the person has held as most hateful
+Dialogue: 0,0:58:09.17,0:58:10.43,Default,,0,0,0,,and owning it.
+Dialogue: 0,0:58:11.75,0:58:13.53,Default,,0,0,0,,But the enlightenment then came about
+Dialogue: 0,0:58:13.53,0:58:15.21,Default,,0,0,0,,through first the owning of it,
+Dialogue: 0,0:58:15.31,0:58:17.61,Default,,0,0,0,,but then it was the letting go of it.
+Dialogue: 0,0:58:17.61,0:58:20.03,Default,,0,0,0,,The letting go of that which is
+Dialogue: 0,0:58:20.03,0:58:21.49,Default,,0,0,0,,the farthest,
+Dialogue: 0,0:58:21.51,0:58:23.39,Default,,0,0,0,,the most removed from the truth
+Dialogue: 0,0:58:23.39,0:58:24.97,Default,,0,0,0,,in those positions that are coming out
+Dialogue: 0,0:58:24.97,0:58:26.11,Default,,0,0,0,,of the bottom of the box.
+Dialogue: 0,0:58:26.11,0:58:29.29,Default,,0,0,0,,But it was the letting go of those positions
+Dialogue: 0,0:58:29.29,0:58:31.55,Default,,0,0,0,,that come out of the bottom of the box
+Dialogue: 0,0:58:31.55,0:58:34.49,Default,,0,0,0,,that led to the realization of the truth.
+Dialogue: 0,0:58:34.49,0:58:38.61,Default,,0,0,0,,Which brings us to then what is the overall
+Dialogue: 0,0:58:38.61,0:58:42.01,Default,,0,0,0,,general nature of spiritual work itself.
+Dialogue: 0,0:58:42.01,0:58:45.57,Default,,0,0,0,,It's the progressive letting go of positions
+Dialogue: 0,0:58:45.57,0:58:50.21,Default,,0,0,0,,and moving into an ever enlarging context.
+Dialogue: 0,0:58:50.21,0:58:51.05,Default,,0,0,0,,We could say,
+Dialogue: 0,0:58:51.96,0:58:55.12,Default,,0,0,0,,that all that is within the box is the ego.
+Dialogue: 0,0:58:55.12,0:58:58.56,Default,,0,0,0,,All that is within the box is the ego.
+Dialogue: 0,0:58:58.56,0:59:00.44,Default,,0,0,0,,High ego states,
+Dialogue: 0,0:59:00.44,0:59:02.78,Default,,0,0,0,,lower ego states.
+Dialogue: 0,0:59:02.78,0:59:05.58,Default,,0,0,0,,The letting go progressively,
+Dialogue: 0,0:59:05.58,0:59:09.54,Default,,0,0,0,,because these are all representing points of view.
+Dialogue: 0,0:59:09.54,0:59:12.68,Default,,0,0,0,,The progressive letting go of points of view,
+Dialogue: 0,0:59:12.68,0:59:14.82,Default,,0,0,0,,the letting go of judgment,
+Dialogue: 0,0:59:14.82,0:59:16.76,Default,,0,0,0,,the letting go of the vanity,
+Dialogue: 0,0:59:17.84,0:59:20.92,Default,,0,0,0,,the vanity coming out of here of I know,
+Dialogue: 0,0:59:20.92,0:59:21.76,Default,,0,0,0,,I know.
+Dialogue: 0,0:59:22.92,0:59:28.56,Default,,0,0,0,,The coming to the surrender through humility here
+Dialogue: 0,0:59:28.56,0:59:33.52,Default,,0,0,0,,of allowing the process of revelation.
+Dialogue: 0,0:59:33.52,0:59:35.60,Default,,0,0,0,,Instead of I know,
+Dialogue: 0,0:59:35.60,0:59:40.74,Default,,0,0,0,,it's that the truth becomes revealed.
+Dialogue: 0,0:59:40.74,0:59:42.64,Default,,0,0,0,,So we see the progressive letting go
+Dialogue: 0,0:59:42.64,0:59:45.30,Default,,0,0,0,,of these restrictive positions,
+Dialogue: 0,0:59:45.30,0:59:47.82,Default,,0,0,0,,all of which block the inner consciousness
+Dialogue: 0,0:59:47.82,0:59:49.77,Default,,0,0,0,,and awareness of the truth.
+Dialogue: 0,0:59:49.77,0:59:52.21,Default,,0,0,0,,The awareness of the truth then is coming out
+Dialogue: 0,0:59:52.21,0:59:55.23,Default,,0,0,0,,automatically of an energy field which gets,
+Dialogue: 0,0:59:55.23,0:59:59.63,Default,,0,0,0,,progressively higher until finally it reaches a point
+Dialogue: 0,0:59:59.63,1:00:04.66,Default,,0,0,0,,where one is open to the grace of God.
+Dialogue: 0,1:00:04.66,1:00:09.12,Default,,0,0,0,,That brings us to another difficulty in spiritual work,
+Dialogue: 0,1:00:09.12,1:00:11.94,Default,,0,0,0,,which brings about crises and conflicts.
+Dialogue: 0,1:00:11.94,1:00:14.50,Default,,0,0,0,,And that is the use of the term ego
+Dialogue: 0,1:00:14.50,1:00:18.90,Default,,0,0,0,,in a pejorative, make wrong kind of a way.
+Dialogue: 0,1:00:18.90,1:00:20.72,Default,,0,0,0,,You see, people will say,
+Dialogue: 0,1:00:20.72,1:00:22.32,Default,,0,0,0,,well, that is only ego.
+Dialogue: 0,1:00:22.32,1:00:24.86,Default,,0,0,0,,Your whole life has just been ego.
+Dialogue: 0,1:00:24.86,1:00:26.84,Default,,0,0,0,,Your whole life is a nurse or a doctor
+Dialogue: 0,1:00:26.84,1:00:30.01,Default,,0,0,0,,or a spiritual teacher or a mechanic,
+Dialogue: 0,1:00:30.01,1:00:32.85,Default,,0,0,0,,whatever you happen to be doing in the world.
+Dialogue: 0,1:00:32.85,1:00:34.23,Default,,0,0,0,,It's just an ego trip.
+Dialogue: 0,1:00:35.48,1:00:37.96,Default,,0,0,0,,As we look at this, we'll see from the viewpoint of truth,
+Dialogue: 0,1:00:37.96,1:00:40.92,Default,,0,0,0,,there is no such thing as just ego.
+Dialogue: 0,1:00:40.92,1:00:44.52,Default,,0,0,0,,It would mean that there is some place where God is not.
+Dialogue: 0,1:00:44.52,1:00:47.12,Default,,0,0,0,,You see, all things represent,
+Dialogue: 0,1:00:47.12,1:00:50.16,Default,,0,0,0,,let us say all positions represent ego,
+Dialogue: 0,1:00:50.16,1:00:55.16,Default,,0,0,0,,but the ego then is superimposed on that which is not ego.
+Dialogue: 0,1:00:55.16,1:00:59.16,Default,,0,0,0,,There has to be something larger, consciousness itself.
+Dialogue: 0,1:00:59.16,1:01:02.16,Default,,0,0,0,,And so to safely do spiritual work and avoid crises,
+Dialogue: 0,1:01:02.16,1:01:05.16,Default,,0,0,0,,it's necessary to reaffirm and look within
+Dialogue: 0,1:01:05.16,1:01:07.16,Default,,0,0,0,,and discover one's own innocence.
+Dialogue: 0,1:01:07.16,1:01:09.16,Default,,0,0,0,,It is really not safe to do spiritual work
+Dialogue: 0,1:01:09.16,1:01:11.16,Default,,0,0,0,,unless one has a glimpse at that innocence
+Dialogue: 0,1:01:11.16,1:01:13.16,Default,,0,0,0,,and keeps one eye on it at all times.
+Dialogue: 0,1:01:13.16,1:01:16.16,Default,,0,0,0,,Because that innocence then is the gateway back to the truth
+Dialogue: 0,1:01:16.16,1:01:20.38,Default,,0,0,0,,so that one doesn't get lost in the swirling of the truth.
+Dialogue: 0,1:01:20.38,1:01:22.12,Default,,0,0,0,,And that's what we're going to talk about today.
+Dialogue: 0,1:01:22.12,1:01:24.06,Default,,0,0,0,,We're going to talk about the spiritual work.
+Dialogue: 0,1:01:24.06,1:01:25.20,Default,,0,0,0,,We're going to talk about the spiritual work.
+Dialogue: 0,1:01:25.20,1:01:28.00,Default,,0,0,0,,We're going to talk about how the child is re-discovered
+Dialogue: 0,1:01:28.00,1:01:30.00,Default,,0,0,0,,and how it's re-recognized in the swamp.
+Dialogue: 0,1:01:30.00,1:01:32.00,Default,,0,0,0,,And how do we see that innocence
+Dialogue: 0,1:01:32.00,1:01:34.00,Default,,0,0,0,,and how can we know its presence?
+Dialogue: 0,1:01:34.00,1:01:39.00,Default,,0,0,0,,We know that enlightened beings say that all are one with God.
+Dialogue: 0,1:01:39.00,1:01:43.92,Default,,0,0,0,,Consequently, that which is intrinsically innocent
+Dialogue: 0,1:01:43.92,1:01:45.92,Default,,0,0,0,,is within us at all times.
+Dialogue: 0,1:01:45.92,1:01:48.92,Default,,0,0,0,,In our other talks, we have talked about how to rediscover that
+Dialogue: 0,1:01:48.92,1:01:52.92,Default,,0,0,0,,and we've said that it can come about as a matter of revelation
+Dialogue: 0,1:01:52.92,1:01:56.10,Default,,0,0,0,,or it can come about as a matter of understanding.
+Dialogue: 0,1:01:56.10,1:01:58.08,Default,,0,0,0,,If we look at the consciousness of the child,
+Dialogue: 0,1:01:58.08,1:02:01.20,Default,,0,0,0,,And all, everyone agrees on the innocence of the child.
+Dialogue: 0,1:02:01.94,1:02:05.74,Default,,0,0,0,,His little consciousness is yet, is not devious.
+Dialogue: 0,1:02:05.88,1:02:07.14,Default,,0,0,0,,It hasn't learned to lie.
+Dialogue: 0,1:02:07.14,1:02:12.52,Default,,0,0,0,,It hasn't learned the value of, the spurious values of judgment and criticism.
+Dialogue: 0,1:02:13.79,1:02:17.07,Default,,0,0,0,,So the child is openly trusting and innocent.
+Dialogue: 0,1:02:17.89,1:02:24.21,Default,,0,0,0,,And out of his innocence and his trustiness is where he begins to learn that which is not the truth.
+Dialogue: 0,1:02:24.21,1:02:30.75,Default,,0,0,0,,He hears his parents say, we don't play with certain children because they're of the wrong race or creed or color.
+Dialogue: 0,1:02:31.01,1:02:32.73,Default,,0,0,0,,They belong to the wrong religion.
+Dialogue: 0,1:02:33.41,1:02:35.37,Default,,0,0,0,,And so hatred is taught to the child.
+Dialogue: 0,1:02:36.23,1:02:41.21,Default,,0,0,0,,We, in other words, to be loyal to our family and if you honor and love your mother and your father,
+Dialogue: 0,1:02:42.11,1:02:44.81,Default,,0,0,0,,the child then has to adopt that teaching.
+Dialogue: 0,1:02:45.65,1:02:49.95,Default,,0,0,0,,And so the innocence of the child then is exploited by that which is not the truth.
+Dialogue: 0,1:02:49.95,1:02:54.11,Default,,0,0,0,,And that which is not the truth comes through generation after generation.
+Dialogue: 0,1:02:54.21,1:02:59.09,Default,,0,0,0,,Innocently enough through the parents, and through the grandparents, and through the family members,
+Dialogue: 0,1:02:59.09,1:03:05.09,Default,,0,0,0,,and through friends and relatives, and through the teachers, and through television, and the storybooks, and the novels.
+Dialogue: 0,1:03:06.38,1:03:13.58,Default,,0,0,0,,And so that which is intrinsically innocent begins to take on to itself programs, beliefs, which are not the truth.
+Dialogue: 0,1:03:14.16,1:03:17.64,Default,,0,0,0,,You might compare the consciousness of the child to the hardware of a computer.
+Dialogue: 0,1:03:18.46,1:03:23.58,Default,,0,0,0,,And the programming coming in from social consciousness from the world itself as the software.
+Dialogue: 0,1:03:23.58,1:03:23.70,Default,,0,0,0,,Right?
+Dialogue: 0,1:03:24.62,1:03:31.02,Default,,0,0,0,,You see that in the computer, the hardware, that which is intrinsically innocent, is uncontaminated by the software.
+Dialogue: 0,1:03:31.02,1:03:38.86,Default,,0,0,0,,You can run any kind of ignorance or negativity or falsehood through a computer, and the computer itself is uncontaminated.
+Dialogue: 0,1:03:38.86,1:03:45.58,Default,,0,0,0,,You put on the next soft floppy disk, and the computer's capacity is unimpaired.
+Dialogue: 0,1:03:46.14,1:03:50.38,Default,,0,0,0,,And so that intrinsic innocence within consciousness itself is unimpaired.
+Dialogue: 0,1:03:51.18,1:03:54.22,Default,,0,0,0,,And as we've said in other talks, it is that intrinsic.
+Dialogue: 0,1:03:54.62,1:03:57.74,Default,,0,0,0,,Innocence that is listening to this voice speaking right now.
+Dialogue: 0,1:03:58.30,1:04:00.94,Default,,0,0,0,,It is the intrinsic innocence of one's consciousness.
+Dialogue: 0,1:04:01.50,1:04:07.50,Default,,0,0,0,,Listening, trying to find the truth, trying to attune itself to what is real in this, what is...
+Dialogue: 0,1:04:08.38,1:04:13.66,Default,,0,0,0,,That childlike innocence is unchanged throughout our entire life.
+Dialogue: 0,1:04:13.66,1:04:14.70,Default,,0,0,0,,It never leaves us.
+Dialogue: 0,1:04:15.34,1:04:19.90,Default,,0,0,0,,And so when we look at what the world calls ego, or what spiritual work calls ego,
+Dialogue: 0,1:04:19.90,1:04:24.54,Default,,0,0,0,,instead of condemning it, we just see that out of innocence, that's what we believe.
+Dialogue: 0,1:04:24.62,1:04:26.62,Default,,0,0,0,,That's what we believed at that time.
+Dialogue: 0,1:04:26.62,1:04:32.29,Default,,0,0,0,,What we did was appropriate, if that software program was correct.
+Dialogue: 0,1:04:32.93,1:04:37.49,Default,,0,0,0,,So therefore, we don't ever make a mistake in our spiritual work.
+Dialogue: 0,1:04:37.49,1:04:39.65,Default,,0,0,0,,Everything is on purpose.
+Dialogue: 0,1:04:39.65,1:04:45.68,Default,,0,0,0,,Once we set our intention in achieving an understanding of the truth,
+Dialogue: 0,1:04:45.68,1:04:49.52,Default,,0,0,0,,in being open to grace so that the truth may be revealed,
+Dialogue: 0,1:04:49.52,1:04:53.04,Default,,0,0,0,,however you wish to hold it in your own mind,
+Dialogue: 0,1:04:53.04,1:04:55.74,Default,,0,0,0,,whichever expression is most appropriate for you.
+Dialogue: 0,1:04:56.30,1:05:01.74,Default,,0,0,0,,Then you must remember that you have asked all that is in error to be brought up for recognition.
+Dialogue: 0,1:05:02.74,1:05:08.02,Default,,0,0,0,,It's all right to do that if you realize at the same time your innate innocence.
+Dialogue: 0,1:05:08.02,1:05:09.78,Default,,0,0,0,,The innocence of what?
+Dialogue: 0,1:05:09.78,1:05:14.02,Default,,0,0,0,,The innocence not of you as a person, the innocence of consciousness itself.
+Dialogue: 0,1:05:14.58,1:05:18.74,Default,,0,0,0,,Because you as a person are merely reflecting that which is universal,
+Dialogue: 0,1:05:18.74,1:05:20.58,Default,,0,0,0,,and that is consciousness itself.
+Dialogue: 0,1:05:21.50,1:05:26.14,Default,,0,0,0,,And what has gone on then has gone on as a result of the nature of consciousness,
+Dialogue: 0,1:05:26.78,1:05:30.70,Default,,0,0,0,,and therefore there's no point in going into personal self-condemnation about it,
+Dialogue: 0,1:05:31.26,1:05:37.90,Default,,0,0,0,,nor is there, on the opposite side of the coin, going into personal pride about it.
+Dialogue: 0,1:05:37.90,1:05:40.70,Default,,0,0,0,,The discovery of the nature of consciousness itself,
+Dialogue: 0,1:05:41.58,1:05:45.02,Default,,0,0,0,,looking into the nature of that consciousness through your own introspection,
+Dialogue: 0,1:05:45.50,1:05:48.46,Default,,0,0,0,,you will realize that everything you've ever believed in your whole life,
+Dialogue: 0,1:05:48.46,1:05:50.54,Default,,0,0,0,,you believed it out of your own innocence.
+Dialogue: 0,1:05:50.54,1:05:55.18,Default,,0,0,0,,When you see that, you then develop a compassion and understanding,
+Dialogue: 0,1:05:55.18,1:05:56.38,Default,,0,0,0,,because you can see,
+Dialogue: 0,1:05:56.70,1:05:58.38,Default,,0,0,0,,out of your compassion now,
+Dialogue: 0,1:05:58.38,1:05:59.58,Default,,0,0,0,,out of your compassion,
+Dialogue: 0,1:05:59.58,1:06:02.06,Default,,0,0,0,,how through their own innocence,
+Dialogue: 0,1:06:02.06,1:06:04.30,Default,,0,0,0,,everybody has come to believe what they believe.
+Dialogue: 0,1:06:05.98,1:06:11.10,Default,,0,0,0,,The willingness then to forgive allows you to see into the hearts of others.
+Dialogue: 0,1:06:11.10,1:06:13.26,Default,,0,0,0,,And when you see into the hearts of others,
+Dialogue: 0,1:06:13.74,1:06:15.26,Default,,0,0,0,,out of your own compassion,
+Dialogue: 0,1:06:15.26,1:06:19.74,Default,,0,0,0,,you see over and over again the innocence of the child.
+Dialogue: 0,1:06:19.74,1:06:21.66,Default,,0,0,0,,No matter what the age of the body,
+Dialogue: 0,1:06:21.66,1:06:24.70,Default,,0,0,0,,consciousness has remained unchanged.
+Dialogue: 0,1:06:24.70,1:06:26.54,Default,,0,0,0,,You still hear the heart.
+Dialogue: 0,1:06:26.54,1:06:33.93,Default,,0,0,0,,the heart of the child within the adult, saying, but won't we all, but don't we, and it's the
+Dialogue: 0,1:06:33.93,1:06:38.81,Default,,0,0,0,,innocence of the child still speaking. To keep an eye on that and prevent spiritual
+Dialogue: 0,1:06:38.81,1:06:46.04,Default,,0,0,0,,crises, it heals them as they come up. The reaffirmation of our innocence, then, never
+Dialogue: 0,1:06:46.04,1:06:52.33,Default,,0,0,0,,buying that anything is just ego. There is no such thing as just ego. Ego, the software,
+Dialogue: 0,1:06:52.75,1:06:57.71,Default,,0,0,0,,social consciousness, the programming has been superimposed on that which is not ego.
+Dialogue: 0,1:06:58.51,1:07:04.77,Default,,0,0,0,,That which is truth itself, consciousness itself. All spiritual crisis, then, comes
+Dialogue: 0,1:07:04.77,1:07:09.83,Default,,0,0,0,,out of context. It comes out of meaning. It comes out of the way in which a thing is held.
+Dialogue: 0,1:07:09.83,1:07:16.88,Default,,0,0,0,,If you think your diet, for instance, is an unspiritual diet, or your lifestyle is an
+Dialogue: 0,1:07:16.88,1:07:21.74,Default,,0,0,0,,unspiritual lifestyle, or what you do for a living, all of these things are merely reflecting,
+Dialogue: 0,1:07:22.16,1:07:27.76,Default,,0,0,0,,as we see now, a certain level of consciousness. Those who have reached very high levels of
+Dialogue: 0,1:07:27.76,1:07:27.96,Default,,0,0,0,,consciousness.
+Dialogue: 0,1:07:27.98,1:07:35.09,Default,,0,0,0,,Condemn nothing. They will affirm, however, that certain levels of consciousness will
+Dialogue: 0,1:07:35.09,1:07:41.60,Default,,0,0,0,,have consequences. That a certain lifestyle, a lifestyle of selling out, selling out the
+Dialogue: 0,1:07:41.60,1:07:46.90,Default,,0,0,0,,truth about yourself, will bring inner pain and grievance. And now it's left up to you
+Dialogue: 0,1:07:46.90,1:07:53.72,Default,,0,0,0,,whether you wish to continue to do so or not. But there is no attempt to control you, no
+Dialogue: 0,1:07:53.72,1:07:59.44,Default,,0,0,0,,attempt to control you. Even the use of hell there, the thought of hell, and the hells are
+Dialogue: 0,1:07:59.44,1:08:04.12,Default,,0,0,0,,down below here. They are reversed fields. They are not only 30, 50, 75. They are like
+Dialogue: 0,1:08:04.12,1:08:12.64,Default,,0,0,0,,a minus 30, minus 50, minus 75, down to minus 100. Even those are then held as merely the
+Dialogue: 0,1:08:12.64,1:08:19.78,Default,,0,0,0,,consequences that will come about from certain types of behavior. Not as a threat, not something
+Dialogue: 0,1:08:19.78,1:08:28.44,Default,,0,0,0,,to frighten or control people with, not holding that as a negative position, but merely saying
+Dialogue: 0,1:08:28.44,1:08:29.70,Default,,0,0,0,,that certain behavior is not a threat.
+Dialogue: 0,1:08:29.70,1:08:36.88,Default,,0,0,0,,That certain behavior, certain kinds of self condemnation, etc., will bring you into energy
+Dialogue: 0,1:08:36.88,1:08:42.26,Default,,0,0,0,,fields that you will experience as the hells. Then it's left up to you whether you wish
+Dialogue: 0,1:08:42.26,1:08:48.94,Default,,0,0,0,,to continue to do that or not. But hell is not then a threat. It would merely be a fact
+Dialogue: 0,1:08:48.94,1:08:56.00,Default,,0,0,0,,of human consciousness. A fact of human consciousness. That the inner agony can become greater than
+Dialogue: 0,1:08:56.00,1:08:59.48,Default,,0,0,0,,what it is already if you violate certain principles.
+Dialogue: 0,1:08:59.48,1:09:05.68,Default,,0,0,0,,And so the teaching still holds up then that it can be a very high teaching even though
+Dialogue: 0,1:09:05.68,1:09:12.16,Default,,0,0,0,,it may warn us that very agonizing and painful states of consciousness can come about as
+Dialogue: 0,1:09:12.16,1:09:15.72,Default,,0,0,0,,a result of certain behavior.
+Dialogue: 0,1:09:15.72,1:09:22.08,Default,,0,0,0,,All experience within human consciousness, that includes of course all of spiritual work,
+Dialogue: 0,1:09:22.08,1:09:29.08,Default,,0,0,0,,is representing a position. It's representing a way of being with, a way of holding. And
+Dialogue: 0,1:09:29.60,1:09:33.72,Default,,0,0,0,,what we're always talking about then, even though when we think we're talking about
+Dialogue: 0,1:09:33.72,1:09:40.04,Default,,0,0,0,,the external world, is really an inner position coming out of a certain level of consciousness.
+Dialogue: 0,1:09:40.04,1:09:44.86,Default,,0,0,0,,How we are with a thing, how we can choose to be with it. And the pains and the agonies
+Dialogue: 0,1:09:44.86,1:09:51.12,Default,,0,0,0,,that come about are coming about as a result of our hanging on to, hanging on to what?
+Dialogue: 0,1:09:51.12,1:09:57.55,Default,,0,0,0,,Hanging on to putting our survival on something that is not the truth. Pain tells us that
+Dialogue: 0,1:09:57.55,1:09:58.45,Default,,0,0,0,,we have,
+Dialogue: 0,1:09:59.73,1:10:05.37,Default,,0,0,0,,that we've been hanging on to something, that we've put our survival on to something which
+Dialogue: 0,1:10:05.37,1:10:12.63,Default,,0,0,0,,is a violation of some principle of consciousness. And that really is what spiritual work is about.
+Dialogue: 0,1:10:12.63,1:10:19.07,Default,,0,0,0,,So the progressive pain then of these positions is telling us that they are far from the truth.
+Dialogue: 0,1:10:19.07,1:10:24.53,Default,,0,0,0,,It isn't that they're wrong. You see, there's no make wrong. It's that as you get closer
+Dialogue: 0,1:10:24.53,1:10:29.73,Default,,0,0,0,,and closer to the experience of the presence of God, the inner experience is one of increasing
+Dialogue: 0,1:10:29.73,1:10:35.17,Default,,0,0,0,,joy and happiness. As we get farther from it, it tells us that we are far removed from
+Dialogue: 0,1:10:35.17,1:10:40.59,Default,,0,0,0,,the truth. Therefore, it's not a make wrong. It's not right or wrong. It's just that it's
+Dialogue: 0,1:10:40.59,1:10:47.73,Default,,0,0,0,,painful and doesn't work. Coming out of desiringness, for instance, the Buddha said that all pain
+Dialogue: 0,1:10:47.73,1:10:53.91,Default,,0,0,0,,and suffering is based on desiringness. And a greater elaboration of that is that the
+Dialogue: 0,1:10:53.91,1:10:58.83,Default,,0,0,0,,desiringness is coming out of a fear, and the fear is coming out of a sense of lack,
+Dialogue: 0,1:10:58.83,1:10:59.67,Default,,0,0,0,,and the
+Dialogue: 0,1:10:59.73,1:11:06.42,Default,,0,0,0,,belief that one is separated from God. So he's not saying that you can't desire anything.
+Dialogue: 0,1:11:06.42,1:11:11.18,Default,,0,0,0,,He's just saying that desiringness itself is going to lead to progressive frustration
+Dialogue: 0,1:11:11.18,1:11:15.36,Default,,0,0,0,,and a feeling of being separated from the truth, and that you're going to be constantly
+Dialogue: 0,1:11:15.36,1:11:21.17,Default,,0,0,0,,wanting and craving, and that you're going to be entrapped by that. There's no right
+Dialogue: 0,1:11:21.17,1:11:26.39,Default,,0,0,0,,or wrong about it. There's no saying we should go to war with those people. Those people
+Dialogue: 0,1:11:26.39,1:11:30.47,Default,,0,0,0,,don't have souls, and God hates them and will throw them into hell. No such thing.
+Dialogue: 0,1:11:30.53,1:11:34.53,Default,,0,0,0,,All he's saying is that the consequences of this endless frustration is going to lead
+Dialogue: 0,1:11:34.53,1:11:40.47,Default,,0,0,0,,to anger. If you acquire that which you desire, you're going to go into pridefulness. If you
+Dialogue: 0,1:11:40.47,1:11:44.23,Default,,0,0,0,,don't, you're going to fear that you're going to lose it. If you keep trying and don't make
+Dialogue: 0,1:11:44.23,1:11:48.37,Default,,0,0,0,,it, you're going to go into apathy and guilt. So all he's saying is that the consequences
+Dialogue: 0,1:11:48.37,1:11:53.78,Default,,0,0,0,,are negative. The consequences are not going to support your movement towards the truth.
+Dialogue: 0,1:11:53.78,1:12:00.50,Default,,0,0,0,,And we notice that in these energy fields that one negative level of energy tends to
+Dialogue: 0,1:12:00.50,1:12:07.02,Default,,0,0,0,,bring forth all of them. So that desiringness doesn't remain pure, it tends to bring with
+Dialogue: 0,1:12:07.02,1:12:13.08,Default,,0,0,0,,it anger and pride and fear and grief and apathy. And so grief tends to pull with it
+Dialogue: 0,1:12:13.08,1:12:19.56,Default,,0,0,0,,fearful, angry, desiringness. And each of these tends to pull the other.
+Dialogue: 0,1:12:19.56,1:12:23.78,Default,,0,0,0,,The critical point in all spiritual work then is this capacity to be willing to tell the
+Dialogue: 0,1:12:23.78,1:12:29.96,Default,,0,0,0,,truth. Very often that truth is, I don't know. And it's the out of I don't know comes the
+Dialogue: 0,1:12:29.96,1:12:30.50,Default,,0,0,0,,willingness to be willing to tell the truth. And it's the out of I don't know comes the
+Dialogue: 0,1:12:30.50,1:12:37.16,Default,,0,0,0,,willingness to surrender, which is 575, to God. And the truth then comes about through
+Dialogue: 0,1:12:37.16,1:12:42.66,Default,,0,0,0,,an act of surrender. The truth then out of the pain, which leads many people into spiritual
+Dialogue: 0,1:12:42.66,1:12:47.00,Default,,0,0,0,,work, is not coming out of the pain. And the mistake is to worship the pain and think that
+Dialogue: 0,1:12:47.00,1:12:55.92,Default,,0,0,0,,suffering therefore is the royal road to enlightenment. It's the realization by facing all the suffering
+Dialogue: 0,1:12:55.92,1:13:00.70,Default,,0,0,0,,within oneself that it is not the truth. And it is the willingness to let it go and surrender
+Dialogue: 0,1:13:00.70,1:13:06.67,Default,,0,0,0,,it to God that the truth is revealed.
+Dialogue: 0,1:13:06.67,1:13:12.63,Default,,0,0,0,,Our whole position then about our inner innocence, the remembering that when we start spiritual
+Dialogue: 0,1:13:12.63,1:13:17.67,Default,,0,0,0,,work we are asking to have that which is not the truth brought up to our awareness and
+Dialogue: 0,1:13:17.67,1:13:22.80,Default,,0,0,0,,therefore it is evidence of success. Therefore the somewhat chaotic appearance of the lives
+Dialogue: 0,1:13:22.80,1:13:29.56,Default,,0,0,0,,of people who are labeled spiritual seekers, many of them their life becomes somewhat chaotic
+Dialogue: 0,1:13:29.56,1:13:31.40,Default,,0,0,0,,to the outside observer.
+Dialogue: 0,1:13:31.40,1:13:35.72,Default,,0,0,0,,The inner person is pleased because it says, I've asked to see what stands between me and
+Dialogue: 0,1:13:35.72,1:13:44.40,Default,,0,0,0,,the truth and that has been brought up for my awareness to be recognized, re-owned, re-contextualized
+Dialogue: 0,1:13:44.40,1:13:45.47,Default,,0,0,0,,and healed.
+Dialogue: 0,1:13:45.47,1:13:51.89,Default,,0,0,0,,How to come from a safe context then about one's spiritual work? How to provide for yourself
+Dialogue: 0,1:13:51.89,1:13:57.81,Default,,0,0,0,,a safe space? To come from the heart, that which is the heart with a capital H, not the
+Dialogue: 0,1:13:57.81,1:14:01.43,Default,,0,0,0,,physical heart, but the ultimate compassion.
+Dialogue: 0,1:14:01.43,1:14:08.03,Default,,0,0,0,,The owning of oneself from this level, the joy of the spiritual work, the saying thank
+Dialogue: 0,1:14:08.03,1:14:11.43,Default,,0,0,0,,you to all the things that come up out of gratitude.
+Dialogue: 0,1:14:11.43,1:14:18.55,Default,,0,0,0,,The crisis is the very event of the spiritual healing. It is out of the crisis that the
+Dialogue: 0,1:14:18.55,1:14:19.75,Default,,0,0,0,,healing occurs.

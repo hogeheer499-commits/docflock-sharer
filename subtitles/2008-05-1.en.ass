@@ -1,0 +1,1138 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:08.08,Default,,0,0,0,,And with that, I'd like to introduce my hubby, Dr. Hawkins.
+Dialogue: 0,0:00:08.08,0:00:12.54,Default,,0,0,0,,Bum, bum, bum, bum, bum, bum, bum, bum, bum, bum, bum, bum.
+Dialogue: 0,0:00:17.46,0:00:20.10,Default,,0,0,0,,Well, she's raised me right, you can tell that.
+Dialogue: 0,0:00:20.10,0:00:31.67,Default,,0,0,0,,Now, today we're talking about, today we're talking about practical spirituality.
+Dialogue: 0,0:00:34.67,0:00:37.98,Default,,0,0,0,,So we, how many people here are new?
+Dialogue: 0,0:00:39.29,0:00:40.52,Default,,0,0,0,,How many new people?
+Dialogue: 0,0:00:42.14,0:00:44.26,Default,,0,0,0,,Wave your hand, I can't see unless you wave it.
+Dialogue: 0,0:00:44.35,0:00:45.28,Default,,0,0,0,,Wave, wave.
+Dialogue: 0,0:00:46.18,0:00:46.70,Default,,0,0,0,,Okay.
+Dialogue: 0,0:00:46.70,0:00:46.84,Default,,0,0,0,,Okay.
+Dialogue: 0,0:00:47.21,0:00:50.07,Default,,0,0,0,,So that gives me an idea how much time to spend.
+Dialogue: 0,0:00:50.10,0:00:51.02,Default,,0,0,0,,How much time to spend on review.
+Dialogue: 0,0:00:52.66,0:01:00.21,Default,,0,0,0,,I like to do a quick review to refresh people's memory of what we've been talking about for the last few years.
+Dialogue: 0,0:01:01.06,0:01:03.70,Default,,0,0,0,,And for new people, to give them an orientation.
+Dialogue: 0,0:01:04.92,0:01:08.85,Default,,0,0,0,,And the Sedona group, you know, is usually people who've been here before.
+Dialogue: 0,0:01:09.00,0:01:11.26,Default,,0,0,0,,So we don't spend a lot of time on review.
+Dialogue: 0,0:01:12.78,0:01:14.81,Default,,0,0,0,,But we show you where the review is.
+Dialogue: 0,0:01:15.20,0:01:17.31,Default,,0,0,0,,And if you have any questions, you can holler.
+Dialogue: 0,0:01:17.31,0:01:18.57,Default,,0,0,0,,When we do the review.
+Dialogue: 0,0:01:20.10,0:01:23.62,Default,,0,0,0,,If you've got any kind of a question, you can just put your hand up and holler.
+Dialogue: 0,0:01:24.80,0:01:26.68,Default,,0,0,0,,And Susan will call on you.
+Dialogue: 0,0:01:28.94,0:01:31.70,Default,,0,0,0,,So you can see where you are, and I just hear it.
+Dialogue: 0,0:01:32.78,0:01:33.18,Default,,0,0,0,,Oh!
+Dialogue: 0,0:01:35.12,0:01:37.80,Default,,0,0,0,,So just put up your hand and wave if you've got a question.
+Dialogue: 0,0:01:38.86,0:01:44.82,Default,,0,0,0,,And so we're going to do a quick review that will take us through all the previous lectures.
+Dialogue: 0,0:01:44.82,0:01:49.82,Default,,0,0,0,,We're putting out a book of, a collection of all the slides.
+Dialogue: 0,0:01:50.10,0:01:50.82,Default,,0,0,0,,All the lectures.
+Dialogue: 0,0:01:51.24,0:02:00.64,Default,,0,0,0,,Because we realized that when you play a DVD, it doesn't, you know, it doesn't show up with sufficient clarity.
+Dialogue: 0,0:02:00.70,0:02:03.32,Default,,0,0,0,,Because, you know, the camera's quite away from the screen.
+Dialogue: 0,0:02:04.18,0:02:05.66,Default,,0,0,0,,And it's hard to read it.
+Dialogue: 0,0:02:05.70,0:02:07.24,Default,,0,0,0,,So this way we have it flip over.
+Dialogue: 0,0:02:07.36,0:02:12.40,Default,,0,0,0,,You can flip over and follow what is on the screen in the DVD.
+Dialogue: 0,0:02:14.43,0:02:18.30,Default,,0,0,0,,So we'll start then with a quick review of the slides.
+Dialogue: 0,0:02:18.93,0:02:20.08,Default,,0,0,0,,To bring us up to date.
+Dialogue: 0,0:02:20.15,0:02:25.23,Default,,0,0,0,,We always start with a map of consciousness as a common point of reference.
+Dialogue: 0,0:02:28.03,0:02:29.79,Default,,0,0,0,,As a common point of reference.
+Dialogue: 0,0:02:33.29,0:02:35.62,Default,,0,0,0,,These are levels of consciousness.
+Dialogue: 0,0:02:36.07,0:02:37.51,Default,,0,0,0,,These are emotional states.
+Dialogue: 0,0:02:38.51,0:02:41.84,Default,,0,0,0,,These are attitudes all boiled into one.
+Dialogue: 0,0:02:42.69,0:02:48.71,Default,,0,0,0,,And so we see the view of yourself and how you understand God.
+Dialogue: 0,0:02:48.71,0:02:49.93,Default,,0,0,0,,We should have.
+Dialogue: 0,0:02:49.93,0:02:51.31,Default,,0,0,0,,Society in there.
+Dialogue: 0,0:02:51.47,0:02:52.63,Default,,0,0,0,,How you view society.
+Dialogue: 0,0:02:54.68,0:02:58.19,Default,,0,0,0,,The levels are called peace, joy.
+Dialogue: 0,0:02:59.13,0:03:07.30,Default,,0,0,0,,They go all the way down to pride and anger and hatred and disaster.
+Dialogue: 0,0:03:09.93,0:03:11.18,Default,,0,0,0,,Today's internet.
+Dialogue: 0,0:03:12.80,0:03:13.15,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:03:13.15,0:03:19.34,Default,,0,0,0,,And the log of it tells us the relative power.
+Dialogue: 0,0:03:19.34,0:03:22.70,Default,,0,0,0,,It could be because these are exponential levels.
+Dialogue: 0,0:03:23.56,0:03:28.98,Default,,0,0,0,,And therefore, even a rise of a few points makes a considerable difference.
+Dialogue: 0,0:03:31.37,0:03:35.00,Default,,0,0,0,,The emotion that's along with it.
+Dialogue: 0,0:03:35.37,0:03:37.50,Default,,0,0,0,,We'll talk more about that later.
+Dialogue: 0,0:03:38.58,0:03:42.15,Default,,0,0,0,,And you see many that predominate in today's world.
+Dialogue: 0,0:03:42.15,0:03:49.12,Default,,0,0,0,,All kinds of hatred and, of course, political contests such as the one we're currently involved in.
+Dialogue: 0,0:03:49.34,0:03:53.24,Default,,0,0,0,,It seems to bring out the worst in mankind, doesn't it?
+Dialogue: 0,0:03:53.28,0:04:00.14,Default,,0,0,0,,It brings up all kinds of trivialities that we make fun of people.
+Dialogue: 0,0:04:00.14,0:04:06.46,Default,,0,0,0,,And hatred gets, this is a time for hatred.
+Dialogue: 0,0:04:06.75,0:04:13.25,Default,,0,0,0,,And what people forget is that, I use the example of strawberry versus vanilla.
+Dialogue: 0,0:04:14.43,0:04:18.07,Default,,0,0,0,,See, if you pick strawberry, it doesn't mean you have to hate vanilla.
+Dialogue: 0,0:04:18.78,0:04:19.31,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:04:19.37,0:04:20.36,Default,,0,0,0,,You can pick vanilla.
+Dialogue: 0,0:04:20.57,0:04:21.98,Default,,0,0,0,,You don't have to hate strawberry.
+Dialogue: 0,0:04:22.27,0:04:22.80,Default,,0,0,0,,You know what I mean?
+Dialogue: 0,0:04:24.04,0:04:26.01,Default,,0,0,0,,You can just pick what you pick.
+Dialogue: 0,0:04:26.86,0:04:28.87,Default,,0,0,0,,You don't have to hate the other people.
+Dialogue: 0,0:04:29.75,0:04:30.30,Default,,0,0,0,,Is that okay?
+Dialogue: 0,0:04:32.81,0:04:35.57,Default,,0,0,0,,Yeah, but people like an excuse for hatred, don't they?
+Dialogue: 0,0:04:36.24,0:04:37.53,Default,,0,0,0,,They love a hate parade.
+Dialogue: 0,0:04:39.18,0:04:40.62,Default,,0,0,0,,Protests, protests, protests.
+Dialogue: 0,0:04:41.31,0:04:42.50,Default,,0,0,0,,People love a hate parade.
+Dialogue: 0,0:04:42.50,0:04:44.07,Default,,0,0,0,,I don't want to deprive them of that.
+Dialogue: 0,0:04:46.07,0:04:48.75,Default,,0,0,0,,Once every four years, they can hate.
+Dialogue: 0,0:04:48.75,0:04:50.27,Default,,0,0,0,,They can hate without feeling guilty about it.
+Dialogue: 0,0:04:50.45,0:04:52.13,Default,,0,0,0,,They can feel patriotic.
+Dialogue: 0,0:04:54.81,0:04:55.87,Default,,0,0,0,,Patriotic about it.
+Dialogue: 0,0:04:57.36,0:04:58.81,Default,,0,0,0,,Oh, God, it's hysterical.
+Dialogue: 0,0:04:59.69,0:05:01.63,Default,,0,0,0,,Anyway, it'll be over before long.
+Dialogue: 0,0:05:02.01,0:05:03.83,Default,,0,0,0,,And we'll all survive it.
+Dialogue: 0,0:05:03.87,0:05:05.39,Default,,0,0,0,,Every four years, we go through this.
+Dialogue: 0,0:05:06.42,0:05:06.56,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:05:07.68,0:05:09.65,Default,,0,0,0,,So the slides for today, then.
+Dialogue: 0,0:05:10.21,0:05:10.68,Default,,0,0,0,,Let's see.
+Dialogue: 0,0:05:10.80,0:05:11.95,Default,,0,0,0,,We're doing a quick review.
+Dialogue: 0,0:05:12.15,0:05:13.59,Default,,0,0,0,,So we do the map of consciousness.
+Dialogue: 0,0:05:14.43,0:05:17.39,Default,,0,0,0,,Now, the next one we do is any questions?
+Dialogue: 0,0:05:17.40,0:05:20.22,Default,,0,0,0,,Any questions on any of these slides?
+Dialogue: 0,0:05:20.34,0:05:24.92,Default,,0,0,0,,You just holler and put your hand up, and we will try to answer it.
+Dialogue: 0,0:05:27.30,0:05:30.98,Default,,0,0,0,,Those lights sort of fade out the slides, eh?
+Dialogue: 0,0:05:31.44,0:05:36.14,Default,,0,0,0,,So that's one reason for putting out a collection of slides,
+Dialogue: 0,0:05:36.24,0:05:39.84,Default,,0,0,0,,is because now if you see this on a DVD, I can hardly see it myself.
+Dialogue: 0,0:05:40.40,0:05:41.36,Default,,0,0,0,,How would you read it?
+Dialogue: 0,0:05:41.54,0:05:45.68,Default,,0,0,0,,So this way, if we put the slides out so you can flip over on them at home,
+Dialogue: 0,0:05:47.40,0:05:53.62,Default,,0,0,0,,an explanation of the world's dilemma is shown by this graph,
+Dialogue: 0,0:05:54.32,0:06:00.16,Default,,0,0,0,,that 85% of the world's population calibrates below 200.
+Dialogue: 0,0:06:01.36,0:06:05.64,Default,,0,0,0,,Now, we know that 200 is the level of integrity and truth and reliability
+Dialogue: 0,0:06:05.64,0:06:10.28,Default,,0,0,0,,and the capacity to really comprehend truth,
+Dialogue: 0,0:06:10.28,0:06:13.08,Default,,0,0,0,,to discern the difference between appearance and essence.
+Dialogue: 0,0:06:14.34,0:06:17.28,Default,,0,0,0,,Below 200 is falsehood and allness.
+Dialogue: 0,0:06:17.40,0:06:18.74,Default,,0,0,0,,All that is negative in life.
+Dialogue: 0,0:06:19.44,0:06:22.58,Default,,0,0,0,,And 200 and up is all that is positive in life.
+Dialogue: 0,0:06:23.50,0:06:26.34,Default,,0,0,0,,And what's dismaying is the notice.
+Dialogue: 0,0:06:27.34,0:06:30.78,Default,,0,0,0,,This is the mass of the world's population.
+Dialogue: 0,0:06:31.96,0:06:36.38,Default,,0,0,0,,85% of the world's population calibrates below 200.
+Dialogue: 0,0:06:40.12,0:06:40.80,Default,,0,0,0,,85%.
+Dialogue: 0,0:06:40.80,0:06:44.20,Default,,0,0,0,,Cannot tell the difference between truth and falsehood.
+Dialogue: 0,0:06:44.92,0:06:46.36,Default,,0,0,0,,They cannot tell the difference.
+Dialogue: 0,0:06:46.88,0:06:47.34,Default,,0,0,0,,It's all the same.
+Dialogue: 0,0:06:47.40,0:06:48.00,Default,,0,0,0,,Same to them.
+Dialogue: 0,0:06:48.22,0:06:49.50,Default,,0,0,0,,Like a child, you see.
+Dialogue: 0,0:06:50.18,0:06:52.58,Default,,0,0,0,,Here, honey, this is arsenic and this is candy.
+Dialogue: 0,0:06:55.02,0:06:56.24,Default,,0,0,0,,Take the arsenic.
+Dialogue: 0,0:06:57.50,0:06:58.64,Default,,0,0,0,,Arsenic tastes sweet.
+Dialogue: 0,0:06:58.76,0:06:59.96,Default,,0,0,0,,Did you ever eat any arsenic?
+Dialogue: 0,0:07:06.96,0:07:10.68,Default,,0,0,0,,If you want to poison somebody, you put it in the dessert.
+Dialogue: 0,0:07:17.40,0:07:22.78,Default,,0,0,0,,If you're an enemy for dinner, and he eats the dessert, and he goes,
+Dialogue: 0,0:07:24.18,0:07:27.28,Default,,0,0,0,,and as he goes down, you say, it was in the dessert.
+Dialogue: 0,0:07:31.22,0:07:33.08,Default,,0,0,0,,It was in the plum pudding.
+Dialogue: 0,0:07:36.78,0:07:42.84,Default,,0,0,0,,85% of the world's population explains many phenomena.
+Dialogue: 0,0:07:44.22,0:07:47.34,Default,,0,0,0,,And instead of feeling depressed and upset,
+Dialogue: 0,0:07:47.40,0:07:49.52,Default,,0,0,0,,the world's conditions in various places,
+Dialogue: 0,0:07:50.46,0:07:53.54,Default,,0,0,0,,you just recall that the majority of mankind
+Dialogue: 0,0:07:53.54,0:07:57.10,Default,,0,0,0,,is unable to discern truth from falsehood.
+Dialogue: 0,0:07:57.24,0:07:59.20,Default,,0,0,0,,Unable, inherently unable.
+Dialogue: 0,0:08:00.00,0:08:03.80,Default,,0,0,0,,Just like a person with an IQ of 60, you know,
+Dialogue: 0,0:08:03.92,0:08:08.04,Default,,0,0,0,,can't get through postgraduate, college, and university.
+Dialogue: 0,0:08:09.38,0:08:14.30,Default,,0,0,0,,All right, so now the next one is, well,
+Dialogue: 0,0:08:14.42,0:08:16.20,Default,,0,0,0,,what is the consequence of this?
+Dialogue: 0,0:08:16.28,0:08:17.20,Default,,0,0,0,,The consequence.
+Dialogue: 0,0:08:17.40,0:08:19.74,Default,,0,0,0,,The consequence of this is that although the majority
+Dialogue: 0,0:08:19.74,0:08:22.52,Default,,0,0,0,,of the world's population calibrates below 200,
+Dialogue: 0,0:08:23.62,0:08:26.06,Default,,0,0,0,,those that calibrate above 200,
+Dialogue: 0,0:08:26.36,0:08:30.14,Default,,0,0,0,,which is only 15% of the world's population,
+Dialogue: 0,0:08:31.20,0:08:34.22,Default,,0,0,0,,their power is so enormous that they counterbalance.
+Dialogue: 0,0:08:34.48,0:08:40.30,Default,,0,0,0,,So 85% of the world is counterbalanced by 15% of the world
+Dialogue: 0,0:08:40.30,0:08:43.82,Default,,0,0,0,,that is capable of discerning truth from falsehood.
+Dialogue: 0,0:08:43.82,0:08:47.34,Default,,0,0,0,,And so there are people that lead and sustain.
+Dialogue: 0,0:08:47.39,0:08:54.62,Default,,0,0,0,,They sustain not by what they do, but by what they are.
+Dialogue: 0,0:08:56.15,0:08:58.77,Default,,0,0,0,,A group like this doesn't have to do anything.
+Dialogue: 0,0:08:59.50,0:09:01.39,Default,,0,0,0,,Please don't do anything to save the world.
+Dialogue: 0,0:09:01.63,0:09:02.84,Default,,0,0,0,,Everybody promise me.
+Dialogue: 0,0:09:03.60,0:09:05.17,Default,,0,0,0,,Don't do anything to save the world.
+Dialogue: 0,0:09:05.31,0:09:06.22,Default,,0,0,0,,Please give me a break.
+Dialogue: 0,0:09:08.89,0:09:12.87,Default,,0,0,0,,You just be what you are to the fullest extent that you can be that.
+Dialogue: 0,0:09:13.93,0:09:17.37,Default,,0,0,0,,And by doing that, you're fulfilling your destiny to the old.
+Dialogue: 0,0:09:17.37,0:09:21.55,Default,,0,0,0,,By being what you can be to the ultimate then,
+Dialogue: 0,0:09:22.10,0:09:24.13,Default,,0,0,0,,which is the subject of today's lectures.
+Dialogue: 0,0:09:25.10,0:09:27.96,Default,,0,0,0,,To be all that you can be to the fullest extent
+Dialogue: 0,0:09:27.96,0:09:30.86,Default,,0,0,0,,is already fulfilling your obligation
+Dialogue: 0,0:09:30.86,0:09:35.75,Default,,0,0,0,,and doing more than any kind of good-hearted doingness
+Dialogue: 0,0:09:35.75,0:09:36.72,Default,,0,0,0,,can do for the world.
+Dialogue: 0,0:09:38.48,0:09:42.70,Default,,0,0,0,,So this 15%, merely by being what they are.
+Dialogue: 0,0:09:42.72,0:09:43.37,Default,,0,0,0,,Next slide.
+Dialogue: 0,0:09:44.60,0:09:46.87,Default,,0,0,0,,By merely being what they are,
+Dialogue: 0,0:09:47.37,0:09:52.37,Default,,0,0,0,,you see this 15% outweighs this 85%.
+Dialogue: 0,0:09:52.37,0:09:54.87,Default,,0,0,0,,If that were not so,
+Dialogue: 0,0:09:55.00,0:09:58.29,Default,,0,0,0,,mankind would have self-destructed centuries ago.
+Dialogue: 0,0:09:59.39,0:10:04.15,Default,,0,0,0,,The sheer mass of negativity would have destroyed all of human life.
+Dialogue: 0,0:10:05.43,0:10:09.22,Default,,0,0,0,,So a group like this has a very important function.
+Dialogue: 0,0:10:09.62,0:10:11.51,Default,,0,0,0,,And I think we've calibrated before
+Dialogue: 0,0:10:11.51,0:10:16.55,Default,,0,0,0,,how many people this group, just this group sitting here, offsets.
+Dialogue: 0,0:10:17.37,0:10:18.51,Default,,0,0,0,,Let's see.
+Dialogue: 0,0:10:18.58,0:10:19.77,Default,,0,0,0,,We have permission to ask this.
+Dialogue: 0,0:10:20.62,0:10:24.43,Default,,0,0,0,,This group offsets on the negative side
+Dialogue: 0,0:10:24.43,0:10:25.98,Default,,0,0,0,,more than 50 million people.
+Dialogue: 0,0:10:26.79,0:10:27.48,Default,,0,0,0,,100 million.
+Dialogue: 0,0:10:28.58,0:10:29.55,Default,,0,0,0,,150 million.
+Dialogue: 0,0:10:30.15,0:10:30.84,Default,,0,0,0,,200 million.
+Dialogue: 0,0:10:31.22,0:10:32.15,Default,,0,0,0,,175 million.
+Dialogue: 0,0:10:32.60,0:10:34.24,Default,,0,0,0,,Hundreds of millions of people.
+Dialogue: 0,0:10:35.25,0:10:38.24,Default,,0,0,0,,See, because the power goes up exponentially.
+Dialogue: 0,0:10:39.39,0:10:39.96,Default,,0,0,0,,Exponentially.
+Dialogue: 0,0:10:41.12,0:10:44.36,Default,,0,0,0,,Therefore, a group like this offsets
+Dialogue: 0,0:10:44.36,0:10:46.55,Default,,0,0,0,,the negativity,
+Dialogue: 0,0:10:46.55,0:10:46.79,Default,,0,0,0,,the negativity,
+Dialogue: 0,0:10:46.79,0:10:46.86,Default,,0,0,0,,the negativity,
+Dialogue: 0,0:10:46.86,0:10:46.89,Default,,0,0,0,,the negativity,
+Dialogue: 0,0:10:46.89,0:10:46.91,Default,,0,0,0,,the negativity,
+Dialogue: 0,0:10:46.91,0:10:46.94,Default,,0,0,0,,the negativity,
+Dialogue: 0,0:10:46.94,0:10:46.96,Default,,0,0,0,,the negativity,
+Dialogue: 0,0:10:46.96,0:10:46.98,Default,,0,0,0,,the negativity,
+Dialogue: 0,0:10:46.98,0:10:47.36,Default,,0,0,0,,the negativity,
+Dialogue: 0,0:10:47.37,0:10:49.08,Default,,0,0,0,,literally of millions of people
+Dialogue: 0,0:10:49.08,0:10:53.25,Default,,0,0,0,,just by what you are.
+Dialogue: 0,0:10:53.58,0:10:56.46,Default,,0,0,0,,All you have to do to help the world
+Dialogue: 0,0:10:56.46,0:10:58.05,Default,,0,0,0,,to the greatest extent possible
+Dialogue: 0,0:10:58.05,0:11:00.15,Default,,0,0,0,,is breathe in and out.
+Dialogue: 0,0:11:02.08,0:11:03.65,Default,,0,0,0,,Everybody able to do that?
+Dialogue: 0,0:11:05.34,0:11:06.20,Default,,0,0,0,,You back there.
+Dialogue: 0,0:11:07.98,0:11:09.27,Default,,0,0,0,,With your head knocking.
+Dialogue: 0,0:11:09.63,0:11:09.84,Default,,0,0,0,,Hey.
+Dialogue: 0,0:11:10.86,0:11:11.58,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:11:11.77,0:11:12.60,Default,,0,0,0,,Me breathing again.
+Dialogue: 0,0:11:14.03,0:11:14.62,Default,,0,0,0,,Next.
+Dialogue: 0,0:11:16.91,0:11:17.36,Default,,0,0,0,,All right.
+Dialogue: 0,0:11:17.36,0:11:17.37,Default,,0,0,0,,All right.
+Dialogue: 0,0:11:17.58,0:11:18.77,Default,,0,0,0,,Evolution of consciousness.
+Dialogue: 0,0:11:19.67,0:11:21.20,Default,,0,0,0,,Percent of elapsed time.
+Dialogue: 0,0:11:22.13,0:11:24.20,Default,,0,0,0,,This has to be brought up to date.
+Dialogue: 0,0:11:24.29,0:11:25.93,Default,,0,0,0,,And it's sitting on my desk waiting for me
+Dialogue: 0,0:11:25.93,0:11:26.82,Default,,0,0,0,,to bring it up to date.
+Dialogue: 0,0:11:27.67,0:11:29.03,Default,,0,0,0,,The percent of elapsed time.
+Dialogue: 0,0:11:30.25,0:11:32.89,Default,,0,0,0,,Calibrated consciousness level of man,
+Dialogue: 0,0:11:33.15,0:11:35.41,Default,,0,0,0,,of elapsed time.
+Dialogue: 0,0:11:35.60,0:11:37.91,Default,,0,0,0,,You see, consciousness is only shot up
+Dialogue: 0,0:11:37.91,0:11:40.22,Default,,0,0,0,,in very, very recent times.
+Dialogue: 0,0:11:41.17,0:11:42.46,Default,,0,0,0,,Almost like yesterday.
+Dialogue: 0,0:11:42.46,0:11:43.86,Default,,0,0,0,,It's really only yesterday
+Dialogue: 0,0:11:43.86,0:11:46.13,Default,,0,0,0,,that we moved from the dinosaur,
+Dialogue: 0,0:11:47.37,0:11:48.87,Default,,0,0,0,,to human consciousness.
+Dialogue: 0,0:11:49.72,0:11:50.10,Default,,0,0,0,,All right.
+Dialogue: 0,0:11:50.13,0:11:50.79,Default,,0,0,0,,The next one.
+Dialogue: 0,0:11:53.67,0:11:56.10,Default,,0,0,0,,If we align these with the earth epics,
+Dialogue: 0,0:11:56.10,0:11:59.10,Default,,0,0,0,,you see the slow evolution of consciousness
+Dialogue: 0,0:11:59.10,0:12:02.25,Default,,0,0,0,,over actually millions of years.
+Dialogue: 0,0:12:02.53,0:12:04.13,Default,,0,0,0,,Millions and millions of years.
+Dialogue: 0,0:12:05.12,0:12:06.36,Default,,0,0,0,,The Cambrian period,
+Dialogue: 0,0:12:06.70,0:12:09.00,Default,,0,0,0,,the Devonian period,
+Dialogue: 0,0:12:09.29,0:12:11.24,Default,,0,0,0,,all these fancy sounding names.
+Dialogue: 0,0:12:13.67,0:12:16.36,Default,,0,0,0,,So consciousness evolved
+Dialogue: 0,0:12:16.36,0:12:17.27,Default,,0,0,0,,at a,
+Dialogue: 0,0:12:17.37,0:12:20.62,Default,,0,0,0,,at a snail's pace over millions of years.
+Dialogue: 0,0:12:20.62,0:12:24.60,Default,,0,0,0,,And here we have the various forms of life
+Dialogue: 0,0:12:24.60,0:12:26.43,Default,,0,0,0,,that occurred at the time.
+Dialogue: 0,0:12:26.43,0:12:30.37,Default,,0,0,0,,In the beginning, there was only bacteria and algae.
+Dialogue: 0,0:12:30.37,0:12:34.37,Default,,0,0,0,,And they calibrate as one and two.
+Dialogue: 0,0:12:34.37,0:12:37.74,Default,,0,0,0,,And then we see the beginning of the fishes and the reptiles
+Dialogue: 0,0:12:37.74,0:12:40.82,Default,,0,0,0,,and the evolution of consciousness
+Dialogue: 0,0:12:40.82,0:12:45.39,Default,,0,0,0,,up through the mammalian until present day.
+Dialogue: 0,0:12:45.39,0:12:46.24,Default,,0,0,0,,Yes.
+Dialogue: 0,0:12:46.24,0:12:46.75,Default,,0,0,0,,Next.
+Dialogue: 0,0:12:46.75,0:12:50.15,Default,,0,0,0,,And here we have the animals.
+Dialogue: 0,0:12:50.15,0:12:51.41,Default,,0,0,0,,You see the animal kingdom.
+Dialogue: 0,0:12:52.05,0:12:54.58,Default,,0,0,0,,You see the entire thing displayed.
+Dialogue: 0,0:12:55.51,0:12:58.46,Default,,0,0,0,,Here's the octopus, our old friend, the octopus.
+Dialogue: 0,0:12:58.46,0:13:00.12,Default,,0,0,0,,And the old friend, the Komodo dragon.
+Dialogue: 0,0:13:01.05,0:13:04.37,Default,,0,0,0,,Yeah. Don't go walking barefoot in his cage, please.
+Dialogue: 0,0:13:05.03,0:13:09.13,Default,,0,0,0,,Here we have the snake, the alligator,
+Dialogue: 0,0:13:09.13,0:13:10.29,Default,,0,0,0,,the whale, the dolphin.
+Dialogue: 0,0:13:14.00,0:13:16.13,Default,,0,0,0,,And I think it's just fascinating to look
+Dialogue: 0,0:13:16.13,0:13:18.29,Default,,0,0,0,,at the animal kingdom.
+Dialogue: 0,0:13:18.29,0:13:21.13,Default,,0,0,0,,Because we have a certain commonality
+Dialogue: 0,0:13:21.13,0:13:23.37,Default,,0,0,0,,with the animal kingdom.
+Dialogue: 0,0:13:23.37,0:13:26.62,Default,,0,0,0,,And I always look at all animals as friends.
+Dialogue: 0,0:13:26.62,0:13:28.87,Default,,0,0,0,,Even those that are not friendly,
+Dialogue: 0,0:13:28.87,0:13:31.00,Default,,0,0,0,,I consider them friends.
+Dialogue: 0,0:13:31.00,0:13:35.55,Default,,0,0,0,,Because they share, they share animal existence
+Dialogue: 0,0:13:35.55,0:13:37.75,Default,,0,0,0,,and animal consciousness.
+Dialogue: 0,0:13:37.75,0:13:41.79,Default,,0,0,0,,And there's an intuitive understanding that goes on.
+Dialogue: 0,0:13:41.79,0:13:45.55,Default,,0,0,0,,If you're wide awake, you have an intuitive understanding of where
+Dialogue: 0,0:13:45.56,0:13:47.26,Default,,0,0,0,,an animal is at.
+Dialogue: 0,0:13:47.26,0:13:50.36,Default,,0,0,0,,And if that bear is dangerous, you intuit it.
+Dialogue: 0,0:13:50.36,0:13:54.06,Default,,0,0,0,,And you slowly say, bye, bear.
+Dialogue: 0,0:13:54.06,0:13:55.04,Default,,0,0,0,,Bye, bear.
+Dialogue: 0,0:13:57.86,0:14:00.26,Default,,0,0,0,,Bye, bear.
+Dialogue: 0,0:14:00.26,0:14:01.70,Default,,0,0,0,,So we love the animals.
+Dialogue: 0,0:14:01.70,0:14:05.30,Default,,0,0,0,,And one of the pleasures of human life
+Dialogue: 0,0:14:05.30,0:14:07.06,Default,,0,0,0,,is the loving of the animals.
+Dialogue: 0,0:14:07.06,0:14:13.04,Default,,0,0,0,,And everybody who loves animals, of course, is helping the world.
+Dialogue: 0,0:14:13.04,0:14:14.80,Default,,0,0,0,,Because love uplifts.
+Dialogue: 0,0:14:14.80,0:14:15.22,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:14:15.22,0:14:17.12,Default,,0,0,0,,Uplifts mankind.
+Dialogue: 0,0:14:17.12,0:14:20.18,Default,,0,0,0,,And I told you, I had patients that lived alone.
+Dialogue: 0,0:14:20.18,0:14:23.16,Default,,0,0,0,,And they were so self-centered and depressed.
+Dialogue: 0,0:14:23.16,0:14:26.27,Default,,0,0,0,,And I told them that I would not treat them unless you get
+Dialogue: 0,0:14:26.27,0:14:31.00,Default,,0,0,0,,a canary, or a kitty, or a doggy, or a puppy.
+Dialogue: 0,0:14:31.00,0:14:33.10,Default,,0,0,0,,Because if you're only concerned about you,
+Dialogue: 0,0:14:33.10,0:14:35.80,Default,,0,0,0,,I can't really help you much.
+Dialogue: 0,0:14:35.80,0:14:37.66,Default,,0,0,0,,The big me, that's all you're concerned about.
+Dialogue: 0,0:14:37.66,0:14:39.66,Default,,0,0,0,,Me, me, me, me, me.
+Dialogue: 0,0:14:39.66,0:14:42.06,Default,,0,0,0,,I mean, you can't even take care of a couple of snails,
+Dialogue: 0,0:14:42.06,0:14:45.20,Default,,0,0,0,,or goldfish, I mean, something other
+Dialogue: 0,0:14:45.22,0:14:47.66,Default,,0,0,0,,than your own wonderful, marvelous self.
+Dialogue: 0,0:14:51.32,0:14:53.77,Default,,0,0,0,,No, there are people that can't even take care of a goldfish.
+Dialogue: 0,0:14:56.34,0:14:58.46,Default,,0,0,0,,All right, so they're stuck where they're stuck.
+Dialogue: 0,0:14:58.46,0:15:00.08,Default,,0,0,0,,And there they are.
+Dialogue: 0,0:15:00.08,0:15:03.44,Default,,0,0,0,,And here we see the animals that we have learned to love.
+Dialogue: 0,0:15:03.44,0:15:04.72,Default,,0,0,0,,And we've got to know them.
+Dialogue: 0,0:15:04.72,0:15:07.66,Default,,0,0,0,,We've gotten to know Coco, the trained gorilla,
+Dialogue: 0,0:15:07.66,0:15:12.56,Default,,0,0,0,,and that wonderful gray parrot, who is actually, at 400,
+Dialogue: 0,0:15:12.56,0:15:13.36,Default,,0,0,0,,able to comprehend.
+Dialogue: 0,0:15:15.22,0:15:19.24,Default,,0,0,0,,And the parrot I have at home is, what is that one calibrated at?
+Dialogue: 0,0:15:19.24,0:15:20.86,Default,,0,0,0,,I forget we calibrated her.
+Dialogue: 0,0:15:20.86,0:15:22.80,Default,,0,0,0,,What's the calibration of her?
+Dialogue: 0,0:15:22.80,0:15:25.77,Default,,0,0,0,,Oh, what's her name that bird?
+Dialogue: 0,0:15:25.77,0:15:26.44,Default,,0,0,0,,Broccoli.
+Dialogue: 0,0:15:26.44,0:15:27.00,Default,,0,0,0,,Broccoli.
+Dialogue: 0,0:15:27.00,0:15:29.34,Default,,0,0,0,,Calibrates over 200.
+Dialogue: 0,0:15:29.34,0:15:30.39,Default,,0,0,0,,300.
+Dialogue: 0,0:15:30.39,0:15:31.98,Default,,0,0,0,,350.
+Dialogue: 0,0:15:31.98,0:15:33.25,Default,,0,0,0,,340.
+Dialogue: 0,0:15:33.25,0:15:35.06,Default,,0,0,0,,350.
+Dialogue: 0,0:15:35.06,0:15:40.18,Default,,0,0,0,,So we have an African great, calibrates at 340 right now.
+Dialogue: 0,0:15:40.18,0:15:44.32,Default,,0,0,0,,And you're sitting there quietly, and all of a sudden,
+Dialogue: 0,0:15:44.32,0:15:45.04,Default,,0,0,0,,you'll hear.
+Dialogue: 0,0:15:45.04,0:15:45.13,Default,,0,0,0,,What?
+Dialogue: 0,0:15:45.13,0:15:45.20,Default,,0,0,0,,Don't.
+Dialogue: 0,0:15:45.20,0:15:46.16,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:15:49.10,0:15:49.74,Default,,0,0,0,,Broccoli.
+Dialogue: 0,0:15:50.52,0:15:51.72,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:15:51.75,0:15:52.52,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:15:52.56,0:15:53.28,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:15:54.52,0:15:55.66,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:15:56.80,0:15:57.74,Default,,0,0,0,,It's funny.
+Dialogue: 0,0:15:58.32,0:16:02.84,Default,,0,0,0,,So we have the delight, the delight of the animal kingdom.
+Dialogue: 0,0:16:03.37,0:16:08.46,Default,,0,0,0,,We're talking about the delight of awareness of your own existence.
+Dialogue: 0,0:16:09.64,0:16:12.04,Default,,0,0,0,,The delight in the beauty of nature.
+Dialogue: 0,0:16:12.03,0:16:16.74,Default,,0,0,0,,The delight in just the effect of your own existence.
+Dialogue: 0,0:16:17.25,0:16:21.95,Default,,0,0,0,,The delight that you share existence and consciousness with the animal kingdom.
+Dialogue: 0,0:16:22.81,0:16:25.29,Default,,0,0,0,,It's fun to walk in the woods by yourself.
+Dialogue: 0,0:16:26.12,0:16:29.00,Default,,0,0,0,,It's twice as much fun to walk in the woods with a doggie.
+Dialogue: 0,0:16:29.89,0:16:30.89,Default,,0,0,0,,Isn't that so?
+Dialogue: 0,0:16:31.13,0:16:33.07,Default,,0,0,0,,Somebody's sharing, so to share.
+Dialogue: 0,0:16:33.74,0:16:35.69,Default,,0,0,0,,With another person, it's more fun.
+Dialogue: 0,0:16:35.83,0:16:38.00,Default,,0,0,0,,Or with a kid, it's more fun.
+Dialogue: 0,0:16:38.33,0:16:40.00,Default,,0,0,0,,Even with a doggie, it's more fun.
+Dialogue: 0,0:16:40.86,0:16:42.01,Default,,0,0,0,,Or with a horse.
+Dialogue: 0,0:16:42.42,0:16:44.04,Default,,0,0,0,,Even lead a horse along.
+Dialogue: 0,0:16:44.60,0:16:46.68,Default,,0,0,0,,At least there's somebody sharing the world with you.
+Dialogue: 0,0:16:47.98,0:16:50.58,Default,,0,0,0,,Without animals, mankind would not have existed.
+Dialogue: 0,0:16:51.86,0:16:53.04,Default,,0,0,0,,Couldn't have survived.
+Dialogue: 0,0:16:53.66,0:16:55.98,Default,,0,0,0,,Because he didn't have the strength to plow.
+Dialogue: 0,0:16:56.16,0:16:57.60,Default,,0,0,0,,He needed a horse to plow.
+Dialogue: 0,0:16:58.32,0:17:00.04,Default,,0,0,0,,Didn't have milk without the cow.
+Dialogue: 0,0:17:00.34,0:17:01.96,Default,,0,0,0,,Didn't have wool without the sheep.
+Dialogue: 0,0:17:03.32,0:17:06.98,Default,,0,0,0,,Began to realize he didn't have meat without killing the deer.
+Dialogue: 0,0:17:07.75,0:17:10.90,Default,,0,0,0,,He didn't have clothing without the hide and the pelts.
+Dialogue: 0,0:17:10.90,0:17:13.22,Default,,0,0,0,,And he wouldn't have shoes.
+Dialogue: 0,0:17:13.56,0:17:15.64,Default,,0,0,0,,So that was the world without plastic.
+Dialogue: 0,0:17:23.38,0:17:32.25,Default,,0,0,0,,So to delight in your own existence means to share the awareness of the divinity of existence itself.
+Dialogue: 0,0:17:33.08,0:17:37.64,Default,,0,0,0,,To exist is already a tremendous miracle.
+Dialogue: 0,0:17:38.04,0:17:40.88,Default,,0,0,0,,So we have here the dog's wagging tail.
+Dialogue: 0,0:17:40.90,0:17:41.75,Default,,0,0,0,,It's a wagging tail at 500.
+Dialogue: 0,0:17:42.88,0:17:50.10,Default,,0,0,0,,Somebody is studying, a member of our group here is studying advertising.
+Dialogue: 0,0:17:51.42,0:17:53.90,Default,,0,0,0,,And so you can calibrate the power of an advertisement.
+Dialogue: 0,0:17:55.08,0:18:00.88,Default,,0,0,0,,And he found that if you put a little dog in the corner of the advertisement with a wagging tail,
+Dialogue: 0,0:18:01.42,0:18:03.64,Default,,0,0,0,,the power of the advertisement like quadruples.
+Dialogue: 0,0:18:06.38,0:18:06.94,Default,,0,0,0,,Quadruples.
+Dialogue: 0,0:18:09.48,0:18:10.88,Default,,0,0,0,,So that's the way to get it.
+Dialogue: 0,0:18:10.88,0:18:13.88,Default,,0,0,0,,What we do at friends is to wag your tail.
+Dialogue: 0,0:18:17.28,0:18:18.94,Default,,0,0,0,,And purr.
+Dialogue: 0,0:18:20.72,0:18:21.44,Default,,0,0,0,,And sing.
+Dialogue: 0,0:18:31.94,0:18:32.36,Default,,0,0,0,,All right.
+Dialogue: 0,0:18:32.36,0:18:33.84,Default,,0,0,0,,So these are all fascinating.
+Dialogue: 0,0:18:33.84,0:18:35.10,Default,,0,0,0,,We've fallen in love with them.
+Dialogue: 0,0:18:36.22,0:18:37.80,Default,,0,0,0,,And many of us follow them.
+Dialogue: 0,0:18:38.20,0:18:40.40,Default,,0,0,0,,Alex, the trained African gray parrot.
+Dialogue: 0,0:18:40.40,0:18:42.30,Default,,0,0,0,,Oscar the cat.
+Dialogue: 0,0:18:42.30,0:18:46.50,Default,,0,0,0,,Oscar is that cat that can tell when somebody's due to die.
+Dialogue: 0,0:18:46.50,0:18:48.04,Default,,0,0,0,,Remember that one?
+Dialogue: 0,0:18:48.04,0:18:50.98,Default,,0,0,0,,Yeah, within 72 hours, if this,
+Dialogue: 0,0:18:50.98,0:18:52.66,Default,,0,0,0,,I think it's a cat or was it a dog?
+Dialogue: 0,0:18:52.66,0:18:53.75,Default,,0,0,0,,I forget.
+Dialogue: 0,0:18:53.75,0:18:54.74,Default,,0,0,0,,It was Oscar.
+Dialogue: 0,0:18:56.40,0:18:59.01,Default,,0,0,0,,If you see Oscar coming to sleep with you.
+Dialogue: 0,0:19:03.92,0:19:04.96,Default,,0,0,0,,Hi, Oscar.
+Dialogue: 0,0:19:07.64,0:19:10.32,Default,,0,0,0,,Hi, Oscar.
+Dialogue: 0,0:19:10.40,0:19:12.90,Default,,0,0,0,,All right.
+Dialogue: 0,0:19:12.90,0:19:19.16,Default,,0,0,0,,So we see the fascination that man has had with his animal friends.
+Dialogue: 0,0:19:19.16,0:19:21.82,Default,,0,0,0,,So we view other people as friends.
+Dialogue: 0,0:19:21.82,0:19:24.06,Default,,0,0,0,,We view animals as friends.
+Dialogue: 0,0:19:24.06,0:19:26.60,Default,,0,0,0,,We view all of nature as friends.
+Dialogue: 0,0:19:26.60,0:19:31.51,Default,,0,0,0,,And that way, that helps us to live in a positive awareness of our,
+Dialogue: 0,0:19:31.51,0:19:34.94,Default,,0,0,0,,of our self and the reality of our own existence.
+Dialogue: 0,0:19:34.94,0:19:36.46,Default,,0,0,0,,We'll go to the next one.
+Dialogue: 0,0:19:36.46,0:19:37.80,Default,,0,0,0,,I forget how many we got here.
+Dialogue: 0,0:19:37.80,0:19:40.14,Default,,0,0,0,,Maybe I better hurry on.
+Dialogue: 0,0:19:40.14,0:19:40.40,Default,,0,0,0,,Oh.
+Dialogue: 0,0:19:40.40,0:19:45.54,Default,,0,0,0,,Great Books of the Western World is significant for people that are,
+Dialogue: 0,0:19:45.54,0:19:48.22,Default,,0,0,0,,you know, students of consciousness.
+Dialogue: 0,0:19:48.22,0:19:54.70,Default,,0,0,0,,Because here you find the answer to what goes on with society currently,
+Dialogue: 0,0:19:54.70,0:19:57.60,Default,,0,0,0,,as well as for some centuries.
+Dialogue: 0,0:19:57.60,0:20:08.00,Default,,0,0,0,,You see the calibration of the intellectual foundation
+Dialogue: 0,0:20:08.00,0:20:09.94,Default,,0,0,0,,of Western world is in the 400s.
+Dialogue: 0,0:20:09.94,0:20:15.98,Default,,0,0,0,,Great Books of the Western World, this is the product
+Dialogue: 0,0:20:15.98,0:20:20.10,Default,,0,0,0,,of man's best thinking over the centuries.
+Dialogue: 0,0:20:20.10,0:20:24.70,Default,,0,0,0,,It runs all the way up to 480, all the way to 505.
+Dialogue: 0,0:20:24.70,0:20:26.70,Default,,0,0,0,,Darwin at 450.
+Dialogue: 0,0:20:26.70,0:20:29.18,Default,,0,0,0,,Descartes, 490.
+Dialogue: 0,0:20:29.18,0:20:33.18,Default,,0,0,0,,Engels goes down quite a bit, 200.
+Dialogue: 0,0:20:33.18,0:20:36.12,Default,,0,0,0,,And then there's one that calibrates the lowest of all.
+Dialogue: 0,0:20:36.12,0:20:37.00,Default,,0,0,0,,Who's that one?
+Dialogue: 0,0:20:37.00,0:20:38.29,Default,,0,0,0,,I forget.
+Dialogue: 0,0:20:39.94,0:20:42.18,Default,,0,0,0,,What's his first name, Marx?
+Dialogue: 0,0:20:42.18,0:20:43.34,Default,,0,0,0,,Karl.
+Dialogue: 0,0:20:43.34,0:20:45.27,Default,,0,0,0,,Karl?
+Dialogue: 0,0:20:45.27,0:20:48.29,Default,,0,0,0,,Karl Marx?
+Dialogue: 0,0:20:48.29,0:20:49.18,Default,,0,0,0,,That Marx?
+Dialogue: 0,0:20:49.18,0:20:51.00,Default,,0,0,0,,Oh.
+Dialogue: 0,0:20:51.00,0:20:54.40,Default,,0,0,0,,That Marx at 130 slipped in.
+Dialogue: 0,0:20:54.40,0:20:59.94,Default,,0,0,0,,And that Marx is the downside of current society
+Dialogue: 0,0:20:59.94,0:21:08.38,Default,,0,0,0,,in which the Marxian dialectic has been reframed verbally
+Dialogue: 0,0:21:08.38,0:21:09.68,Default,,0,0,0,,and now appears as various.
+Dialogue: 0,0:21:09.68,0:21:11.92,Default,,0,0,0,,So there are a number of theories,
+Dialogue: 0,0:21:11.92,0:21:15.18,Default,,0,0,0,,all of which calibrate below 200.
+Dialogue: 0,0:21:15.18,0:21:16.44,Default,,0,0,0,,All right.
+Dialogue: 0,0:21:16.44,0:21:20.62,Default,,0,0,0,,So that we see is one of the intellectual disasters
+Dialogue: 0,0:21:20.62,0:21:23.32,Default,,0,0,0,,of mankind, intellectual.
+Dialogue: 0,0:21:23.32,0:21:26.74,Default,,0,0,0,,And that people cannot tell truth from falsehood.
+Dialogue: 0,0:21:26.74,0:21:29.12,Default,,0,0,0,,And these things, of course, sound seductive,
+Dialogue: 0,0:21:29.12,0:21:31.74,Default,,0,0,0,,sound seductive, you know.
+Dialogue: 0,0:21:31.74,0:21:33.74,Default,,0,0,0,,You have nothing to lose but your chains.
+Dialogue: 0,0:21:33.74,0:21:34.92,Default,,0,0,0,,Bang, bang.
+Dialogue: 0,0:21:34.92,0:21:37.58,Default,,0,0,0,,And it always makes for a great parade, a great parade.
+Dialogue: 0,0:21:37.58,0:21:38.98,Default,,0,0,0,,And heroes.
+Dialogue: 0,0:21:38.98,0:21:43.90,Default,,0,0,0,,You can get T-shirts with this hero freeing the oppressed.
+Dialogue: 0,0:21:46.09,0:21:48.46,Default,,0,0,0,,Who are the oppressed in today's society?
+Dialogue: 0,0:22:07.18,0:22:08.29,Default,,0,0,0,,You're the oppressed.
+Dialogue: 0,0:22:08.98,0:22:11.88,Default,,0,0,0,,Do you realize you're the oppressed?
+Dialogue: 0,0:22:14.88,0:22:17.25,Default,,0,0,0,,Which way is society going?
+Dialogue: 0,0:22:18.70,0:22:19.98,Default,,0,0,0,,It's going to...
+Dialogue: 0,0:22:21.98,0:22:24.94,Default,,0,0,0,,It's leaving spirituality.
+Dialogue: 0,0:22:25.29,0:22:27.57,Default,,0,0,0,,It's going to secular, right?
+Dialogue: 0,0:22:28.75,0:22:29.68,Default,,0,0,0,,Goodbye spiritual.
+Dialogue: 0,0:22:32.36,0:22:38.83,Default,,0,0,0,,Society is moving away from this tradition in the back here.
+Dialogue: 0,0:22:38.98,0:22:47.53,Default,,0,0,0,,And it's moving more towards atheistic socialism, Marxism.
+Dialogue: 0,0:22:48.22,0:22:48.86,Default,,0,0,0,,All right.
+Dialogue: 0,0:22:48.92,0:22:51.92,Default,,0,0,0,,So the fallen decline of the Western civilization,
+Dialogue: 0,0:22:52.24,0:22:54.64,Default,,0,0,0,,which is pointed out, of course, by the Pope as well,
+Dialogue: 0,0:22:55.62,0:23:00.59,Default,,0,0,0,,is due to leaving one field of a high energy level
+Dialogue: 0,0:23:00.59,0:23:06.40,Default,,0,0,0,,and moving to a lower one by popularization.
+Dialogue: 0,0:23:06.88,0:23:07.16,Default,,0,0,0,,Yes.
+Dialogue: 0,0:23:07.16,0:23:07.22,Default,,0,0,0,,Yes.
+Dialogue: 0,0:23:07.96,0:23:08.88,Default,,0,0,0,,So that is...
+Dialogue: 0,0:23:08.88,0:23:11.94,Default,,0,0,0,,That's going on, you know, politically in today's world.
+Dialogue: 0,0:23:12.02,0:23:12.68,Default,,0,0,0,,That's all it is.
+Dialogue: 0,0:23:13.26,0:23:14.88,Default,,0,0,0,,So the next one is...
+Dialogue: 0,0:23:16.54,0:23:19.24,Default,,0,0,0,,Yes.
+Dialogue: 0,0:23:19.40,0:23:20.90,Default,,0,0,0,,The muscle test response,
+Dialogue: 0,0:23:21.68,0:23:24.96,Default,,0,0,0,,which we've spoken about and explained many times,
+Dialogue: 0,0:23:25.58,0:23:27.68,Default,,0,0,0,,has many explanations.
+Dialogue: 0,0:23:27.68,0:23:31.38,Default,,0,0,0,,A biologic one, that it was necessary for survival,
+Dialogue: 0,0:23:32.36,0:23:36.60,Default,,0,0,0,,for primitive organisms to be able to tell that which is true and healthy
+Dialogue: 0,0:23:36.60,0:23:38.66,Default,,0,0,0,,from that which is poisonous and false.
+Dialogue: 0,0:23:39.76,0:23:44.10,Default,,0,0,0,,And it's moved all the way through now
+Dialogue: 0,0:23:44.10,0:23:49.18,Default,,0,0,0,,that we have an explanation from quantum mechanics.
+Dialogue: 0,0:23:50.76,0:23:54.62,Default,,0,0,0,,Yeah, the observation which led to calibrating the levels of consciousness
+Dialogue: 0,0:23:54.62,0:23:57.12,Default,,0,0,0,,was quite simple, quite simple.
+Dialogue: 0,0:23:57.66,0:24:04.78,Default,,0,0,0,,We found that if you hold something noxious next to a person's solar plexus
+Dialogue: 0,0:24:04.78,0:24:07.04,Default,,0,0,0,,and press on their arm, their arm goes weak.
+Dialogue: 0,0:24:07.04,0:24:07.12,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.12,0:24:07.14,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.14,0:24:07.20,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.20,0:24:07.22,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.22,0:24:07.28,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.28,0:24:07.34,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.34,0:24:07.36,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.36,0:24:07.42,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.42,0:24:07.48,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.48,0:24:07.58,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.58,0:24:07.64,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.64,0:24:07.74,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.74,0:24:07.84,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.84,0:24:07.86,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.86,0:24:07.90,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.90,0:24:07.92,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.92,0:24:07.94,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:07.94,0:24:08.00,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.00,0:24:08.02,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.02,0:24:08.04,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.04,0:24:08.06,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.06,0:24:08.08,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.08,0:24:08.10,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.10,0:24:08.12,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.12,0:24:08.18,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.18,0:24:08.22,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.22,0:24:08.24,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.24,0:24:08.28,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.28,0:24:08.30,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.30,0:24:08.34,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.34,0:24:08.54,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.54,0:24:08.68,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:08.88,0:24:10.12,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:10.12,0:24:13.06,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:13.06,0:24:13.38,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:13.38,0:24:13.44,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:13.44,0:24:13.46,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:13.46,0:24:13.48,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:13.48,0:24:13.54,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:13.54,0:24:13.56,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:13.56,0:24:13.92,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:13.92,0:24:13.96,Default,,0,0,0,,Yes.
+Dialogue: 0,0:24:14.70,0:24:19.18,Default,,0,0,0,,So you don't have to be a genius to display that or understand it.
+Dialogue: 0,0:24:19.32,0:24:25.02,Default,,0,0,0,,That which is truthful, integrous, and pro-life makes you go strong when I press down.
+Dialogue: 0,0:24:26.34,0:24:33.04,Default,,0,0,0,,That which is anti-life, poisonous, will kill you false, deceptive, and delusional,
+Dialogue: 0,0:24:33.68,0:24:35.00,Default,,0,0,0,,makes your arm go weak.
+Dialogue: 0,0:24:36.20,0:24:38.86,Default,,0,0,0,,It does so despite what you might think.
+Dialogue: 0,0:24:38.88,0:24:46.66,Default,,0,0,0,,think about it so if i put a person's name in an envelope and i put another person's name in
+Dialogue: 0,0:24:46.66,0:24:55.54,Default,,0,0,0,,another envelope now i don't tell the person i say it's a blind test what's in this envelope
+Dialogue: 0,0:24:55.54,0:25:01.88,Default,,0,0,0,,is the name of somebody who calibrates over 200 their arm goes really weak then i take the other
+Dialogue: 0,0:25:01.88,0:25:08.34,Default,,0,0,0,,envelope i say the name of this person calibrates over 200 and they go strong and i open it up
+Dialogue: 0,0:25:08.33,0:25:11.67,Default,,0,0,0,,and the one that made them go weak which we've done many times
+Dialogue: 0,0:25:11.67,0:25:19.33,Default,,0,0,0,,is karl marx just the name alone puts you down and jesus christ puts you up you know it's a very
+Dialogue: 0,0:25:19.33,0:25:30.81,Default,,0,0,0,,simple test you have to have an iq over at least 40 or 50 to get it anybody doesn't get it
+Dialogue: 0,0:25:37.22,0:25:38.24,Default,,0,0,0,,people who have an
+Dialogue: 0,0:25:38.24,0:25:38.31,Default,,0,0,0,,indignation
+Dialogue: 0,0:25:38.31,0:25:38.33,Default,,0,0,0,,people who have an indignation
+Dialogue: 0,0:25:38.34,0:25:40.36,Default,,0,0,0,,vested interest in falsehood
+Dialogue: 0,0:25:40.36,0:25:42.50,Default,,0,0,0,,get very upset with this
+Dialogue: 0,0:25:42.50,0:25:44.30,Default,,0,0,0,,test and have done everything they can to
+Dialogue: 0,0:25:44.30,0:25:45.62,Default,,0,0,0,,discredit it and
+Dialogue: 0,0:25:45.62,0:25:47.06,Default,,0,0,0,,vilify it
+Dialogue: 0,0:25:47.06,0:25:50.22,Default,,0,0,0,,say that it's all trickery
+Dialogue: 0,0:25:50.22,0:25:52.08,Default,,0,0,0,,and stage magic and all that
+Dialogue: 0,0:25:52.08,0:25:54.30,Default,,0,0,0,,but we've done it many many
+Dialogue: 0,0:25:54.30,0:25:56.04,Default,,0,0,0,,times many audiences
+Dialogue: 0,0:25:56.04,0:25:58.22,Default,,0,0,0,,over decades and the results
+Dialogue: 0,0:25:58.22,0:25:59.40,Default,,0,0,0,,are always the same
+Dialogue: 0,0:25:59.40,0:26:02.12,Default,,0,0,0,,if I hold Abraham Lincoln
+Dialogue: 0,0:26:02.12,0:26:04.08,Default,,0,0,0,,in my mind and I say what am I holding
+Dialogue: 0,0:26:04.08,0:26:05.48,Default,,0,0,0,,in mind she goes strong
+Dialogue: 0,0:26:05.48,0:26:09.98,Default,,0,0,0,,if I hold Adolf Hitler in my mind
+Dialogue: 0,0:26:09.98,0:26:11.38,Default,,0,0,0,,and I say what I'm holding in mind
+Dialogue: 0,0:26:11.38,0:26:13.94,Default,,0,0,0,,calibrates over 200 she goes weak
+Dialogue: 0,0:26:13.94,0:26:16.31,Default,,0,0,0,,now I didn't tell her what I'm holding in mind
+Dialogue: 0,0:26:16.31,0:26:17.16,Default,,0,0,0,,how would she know
+Dialogue: 0,0:26:17.16,0:26:19.40,Default,,0,0,0,,I'm not going to tell her
+Dialogue: 0,0:26:19.40,0:26:21.07,Default,,0,0,0,,because she might cheat on me
+Dialogue: 0,0:26:21.07,0:26:21.42,Default,,0,0,0,,cheat
+Dialogue: 0,0:26:21.42,0:26:26.96,Default,,0,0,0,,now I wouldn't trust it
+Dialogue: 0,0:26:26.96,0:26:28.92,Default,,0,0,0,,just because of the sure suggestion
+Dialogue: 0,0:26:28.92,0:26:31.05,Default,,0,0,0,,of it so if what
+Dialogue: 0,0:26:31.05,0:26:33.00,Default,,0,0,0,,I hold in mind is over 200
+Dialogue: 0,0:26:33.00,0:26:34.81,Default,,0,0,0,,I say to her
+Dialogue: 0,0:26:34.81,0:26:36.98,Default,,0,0,0,,what I'm holding in mind is over 200
+Dialogue: 0,0:26:36.98,0:26:39.00,Default,,0,0,0,,and I get a yes
+Dialogue: 0,0:26:39.00,0:26:39.75,Default,,0,0,0,,or a no
+Dialogue: 0,0:26:39.75,0:26:42.61,Default,,0,0,0,,we've done this probably close to
+Dialogue: 0,0:26:42.61,0:26:44.03,Default,,0,0,0,,10,000 times
+Dialogue: 0,0:26:44.03,0:26:52.27,Default,,0,0,0,,we've done it over 8,000 times
+Dialogue: 0,0:26:52.27,0:26:52.77,Default,,0,0,0,,let's see
+Dialogue: 0,0:26:52.77,0:26:57.13,Default,,0,0,0,,we've done it over 8,000 times
+Dialogue: 0,0:26:57.13,0:26:59.25,Default,,0,0,0,,7,500
+Dialogue: 0,0:26:59.25,0:27:00.55,Default,,0,0,0,,7,500
+Dialogue: 0,0:27:00.55,0:27:02.75,Default,,0,0,0,,7,000 times
+Dialogue: 0,0:27:02.75,0:27:04.77,Default,,0,0,0,,alright we've done it over 7,000 times
+Dialogue: 0,0:27:04.81,0:27:06.91,Default,,0,0,0,,well you have to
+Dialogue: 0,0:27:06.91,0:27:08.24,Default,,0,0,0,,you have to get some sleep in
+Dialogue: 0,0:27:08.24,0:27:12.83,Default,,0,0,0,,anyway we do it
+Dialogue: 0,0:27:12.83,0:27:14.77,Default,,0,0,0,,whenever so we find it very
+Dialogue: 0,0:27:14.77,0:27:16.22,Default,,0,0,0,,pragmatically useful
+Dialogue: 0,0:27:16.22,0:27:17.75,Default,,0,0,0,,very pragmatically useful
+Dialogue: 0,0:27:17.75,0:27:20.59,Default,,0,0,0,,alright so we've explained
+Dialogue: 0,0:27:20.59,0:27:22.74,Default,,0,0,0,,the collapse of the
+Dialogue: 0,0:27:22.74,0:27:24.50,Default,,0,0,0,,wave function and advanced
+Dialogue: 0,0:27:24.50,0:27:25.59,Default,,0,0,0,,theoretical physics
+Dialogue: 0,0:27:25.59,0:27:27.98,Default,,0,0,0,,and the book Mindful Universe
+Dialogue: 0,0:27:27.98,0:27:29.93,Default,,0,0,0,,by Henry Stapp
+Dialogue: 0,0:27:29.93,0:27:32.22,Default,,0,0,0,,professor of physics at Berkeley
+Dialogue: 0,0:27:32.22,0:27:34.74,Default,,0,0,0,,gives a rational explanation
+Dialogue: 0,0:27:34.81,0:27:37.01,Default,,0,0,0,,it's not necessary to know
+Dialogue: 0,0:27:37.01,0:27:38.98,Default,,0,0,0,,any of this therefore forget it
+Dialogue: 0,0:27:38.98,0:27:39.81,Default,,0,0,0,,go to the next slide
+Dialogue: 0,0:27:39.81,0:27:44.55,Default,,0,0,0,,alright just take my word for it
+Dialogue: 0,0:27:44.55,0:27:46.93,Default,,0,0,0,,there's a
+Dialogue: 0,0:27:46.93,0:27:48.83,Default,,0,0,0,,physiologic basis which is
+Dialogue: 0,0:27:48.83,0:27:50.24,Default,,0,0,0,,very important also
+Dialogue: 0,0:27:50.24,0:27:53.03,Default,,0,0,0,,you see 85% of the population
+Dialogue: 0,0:27:53.03,0:27:54.61,Default,,0,0,0,,cannot tell truth from falsehood
+Dialogue: 0,0:27:54.61,0:27:56.63,Default,,0,0,0,,and one of the reasons is
+Dialogue: 0,0:27:56.63,0:27:58.93,Default,,0,0,0,,it has to do with cerebral dominance
+Dialogue: 0,0:27:58.93,0:28:00.74,Default,,0,0,0,,has to do with
+Dialogue: 0,0:28:00.74,0:28:02.33,Default,,0,0,0,,whether you process things
+Dialogue: 0,0:28:02.33,0:28:04.25,Default,,0,0,0,,consciousness
+Dialogue: 0,0:28:04.81,0:28:06.77,Default,,0,0,0,,this level below 200
+Dialogue: 0,0:28:06.77,0:28:08.31,Default,,0,0,0,,or above 200
+Dialogue: 0,0:28:08.31,0:28:12.01,Default,,0,0,0,,processes things differently in the brain
+Dialogue: 0,0:28:12.01,0:28:13.96,Default,,0,0,0,,one reason people at this level
+Dialogue: 0,0:28:13.96,0:28:16.11,Default,,0,0,0,,can't comprehend this level
+Dialogue: 0,0:28:16.11,0:28:17.79,Default,,0,0,0,,is because you have to use
+Dialogue: 0,0:28:17.79,0:28:19.53,Default,,0,0,0,,this side of the brain
+Dialogue: 0,0:28:19.53,0:28:20.31,Default,,0,0,0,,this side
+Dialogue: 0,0:28:20.31,0:28:21.77,Default,,0,0,0,,side of the brain
+Dialogue: 0,0:28:21.77,0:28:24.67,Default,,0,0,0,,has a very positive effect
+Dialogue: 0,0:28:24.67,0:28:26.70,Default,,0,0,0,,positive emotions
+Dialogue: 0,0:28:26.70,0:28:28.67,Default,,0,0,0,,and releases very importantly
+Dialogue: 0,0:28:28.67,0:28:29.98,Default,,0,0,0,,endorphins
+Dialogue: 0,0:28:29.98,0:28:32.41,Default,,0,0,0,,the endorphins are
+Dialogue: 0,0:28:32.41,0:28:33.57,Default,,0,0,0,,peaceful
+Dialogue: 0,0:28:33.57,0:28:34.09,Default,,0,0,0,,harmonious
+Dialogue: 0,0:28:34.09,0:28:34.75,Default,,0,0,0,,peaceful harmonious
+Dialogue: 0,0:28:34.75,0:28:43.16,Default,,0,0,0,,pleasant. And one of the benefits of spiritual endeavor is that you shift more and more over
+Dialogue: 0,0:28:43.16,0:28:52.75,Default,,0,0,0,,to the endorphins, which are releasing hormones, which do play their part in altering how you see
+Dialogue: 0,0:28:52.75,0:28:59.16,Default,,0,0,0,,and experience the world. It's hard for a person dominated by the left brain to see the world as
+Dialogue: 0,0:28:59.16,0:29:07.22,Default,,0,0,0,,friendly. And for a person dominated by the right brain, it seems rather simple. To a right-brained
+Dialogue: 0,0:29:07.22,0:29:12.44,Default,,0,0,0,,person, they say, well, you walk around Sedona, it's lovely, and the weather is great here, and
+Dialogue: 0,0:29:12.44,0:29:18.75,Default,,0,0,0,,mountains are gorgeous, and I mean, what more do you want? A person very far in the left brain
+Dialogue: 0,0:29:18.75,0:29:25.10,Default,,0,0,0,,says it's too hot around here, and they charge too much, and the restaurants all rip you off.
+Dialogue: 0,0:29:25.40,0:29:29.14,Default,,0,0,0,,There's no parking place. I mean, you know, you see the negative view of the world, and you
+Dialogue: 0,0:29:29.14,0:29:32.30,Default,,0,0,0,,see the negative view of the world versus the positive view of the world. It's all the same
+Dialogue: 0,0:29:32.30,0:29:38.62,Default,,0,0,0,,world, so it's just perception. We'll go on to the next one. The correlation of loads of
+Dialogue: 0,0:29:38.62,0:29:47.20,Default,,0,0,0,,consciousness with social problems is of considerable sociologic import. Politically
+Dialogue: 0,0:29:47.20,0:29:55.92,Default,,0,0,0,,unpopular, too, because the cause of things, the conditions that precipitate them, people
+Dialogue: 0,0:29:55.92,0:29:58.20,Default,,0,0,0,,have a political position about.
+Dialogue: 0,0:29:59.14,0:30:07.86,Default,,0,0,0,,I think that these consequences are caused from without instead of from within, instead of from
+Dialogue: 0,0:30:07.86,0:30:16.54,Default,,0,0,0,,within. We see that the incidence of problems of all kinds, from poverty to crime, to the suicide
+Dialogue: 0,0:30:16.54,0:30:25.10,Default,,0,0,0,,rate, the homicide rate, the rate of in prisons, the higher the level of consciousness, the rate
+Dialogue: 0,0:30:25.10,0:30:27.32,Default,,0,0,0,,of unemployment is zero.
+Dialogue: 0,0:30:29.14,0:30:37.10,Default,,0,0,0,,The rate of poverty is zero. Happiness is 100%. And the rate of criminality is zero. So people
+Dialogue: 0,0:30:37.10,0:30:44.48,Default,,0,0,0,,who are spiritually highly motivated and caring and care about their fellow human beings,
+Dialogue: 0,0:30:44.48,0:30:50.42,Default,,0,0,0,,care about life in general, have a positive, uplifting viewpoint. Therefore, the level
+Dialogue: 0,0:30:50.42,0:30:57.82,Default,,0,0,0,,of consciousness, the higher it goes, the rate of unemployment drops eventually to zero,
+Dialogue: 0,0:30:57.82,0:30:58.86,Default,,0,0,0,,and poverty unhappens.
+Dialogue: 0,0:30:58.86,0:31:05.70,Default,,0,0,0,,Unhappiness disappears. So what we have then, we're left with people who are of extremely low
+Dialogue: 0,0:31:05.70,0:31:13.32,Default,,0,0,0,,level of consciousness for reasons that are karmic, biologic, sociological as well. And you
+Dialogue: 0,0:31:13.32,0:31:20.90,Default,,0,0,0,,reach people where the rate of unemployment is as close to 100%. The rate of poverty is 100%.
+Dialogue: 0,0:31:20.90,0:31:28.64,Default,,0,0,0,,Rate of happiness is zero percent. And criminality is common. The current economic
+Dialogue: 0,0:31:28.86,0:31:39.82,Default,,0,0,0,,crisis was due to trusting that people would have this kind of a reliability. If the government
+Dialogue: 0,0:31:39.82,0:31:45.04,Default,,0,0,0,,guarantees their mortgages, anybody and everybody could have one. So all the people from here
+Dialogue: 0,0:31:45.04,0:31:49.62,Default,,0,0,0,,flew into the mortgages, they instantly stopped paying them. They stopped cleaning out the
+Dialogue: 0,0:31:49.62,0:31:56.30,Default,,0,0,0,,attic, they stopped sweeping the sidewalk, and the thing went into poverty collapse.
+Dialogue: 0,0:31:56.30,0:31:58.80,Default,,0,0,0,,Because there is no reliability here. You see this?
+Dialogue: 0,0:31:58.79,0:32:04.89,Default,,0,0,0,,And it's not for any other reason other than the level of consciousness itself. The level
+Dialogue: 0,0:32:04.89,0:32:10.00,Default,,0,0,0,,of consciousness. In a high level of consciousness, you make sure that everything gets paid, taken
+Dialogue: 0,0:32:10.00,0:32:14.83,Default,,0,0,0,,care of, cleaned up, tidied up. The screens are put on in the summer, and the storms are
+Dialogue: 0,0:32:14.83,0:32:19.55,Default,,0,0,0,,put on in the winter. It seems obvious. But there are whole populations where it does
+Dialogue: 0,0:32:19.55,0:32:25.79,Default,,0,0,0,,not even occur. And I used to own some rental properties back east, and I had some of those
+Dialogue: 0,0:32:25.79,0:32:26.79,Default,,0,0,0,,people living there.
+Dialogue: 0,0:32:26.79,0:32:27.79,Default,,0,0,0,,I didn't deserve it.
+Dialogue: 0,0:32:27.79,0:32:28.79,Default,,0,0,0,,I didn't deserve it. I didn't deserve it. I didn't deserve it. I didn't deserve it.
+Dialogue: 0,0:32:28.79,0:32:33.09,Default,,0,0,0,,I didn't discover it until too late. Anyway, I had rented this lovely gatehouse, you know,
+Dialogue: 0,0:32:33.09,0:32:39.44,Default,,0,0,0,,an English Tudor slate roof. All brick, gorgeous place. For a pittance. And this guy was living
+Dialogue: 0,0:32:39.44,0:32:44.25,Default,,0,0,0,,there and I noticed that the garbage never seemed to go out. So one day I went by to
+Dialogue: 0,0:32:44.25,0:32:49.01,Default,,0,0,0,,see how he was doing, and I just knocked on the door and he was sitting at the kitchen
+Dialogue: 0,0:32:49.01,0:32:57.91,Default,,0,0,0,,table, and all over the kitchen table was marijuana. And he was... I said, how are things
+Dialogue: 0,0:32:57.91,0:32:58.59,Default,,0,0,0,,going, Pete?
+Dialogue: 0,0:32:59.37,0:33:00.33,Default,,0,0,0,,Oh, okay.
+Dialogue: 0,0:33:04.79,0:33:09.53,Default,,0,0,0,,Where does all the garbage go that should be out by the side of the house?
+Dialogue: 0,0:33:10.65,0:33:13.53,Default,,0,0,0,,He said, well, I don't know, maybe over there.
+Dialogue: 0,0:33:14.13,0:33:15.51,Default,,0,0,0,,So I went and opened the door.
+Dialogue: 0,0:33:15.59,0:33:16.61,Default,,0,0,0,,That was the door to the basement.
+Dialogue: 0,0:33:17.55,0:33:23.18,Default,,0,0,0,,The entire basement was filled, a fill, halfway up the stairway with trash.
+Dialogue: 0,0:33:23.85,0:33:28.20,Default,,0,0,0,,What he did with trash, old grapefruit rinds and garbage and all,
+Dialogue: 0,0:33:28.20,0:33:30.60,Default,,0,0,0,,is he just opened the door of the basement and threw it down there,
+Dialogue: 0,0:33:30.62,0:33:31.31,Default,,0,0,0,,and he closed the door.
+Dialogue: 0,0:33:37.72,0:33:39.24,Default,,0,0,0,,He got a mortgage, of course.
+Dialogue: 0,0:33:48.84,0:33:52.10,Default,,0,0,0,,Well, people want an explanation of what is the current economic situation.
+Dialogue: 0,0:33:52.22,0:33:52.84,Default,,0,0,0,,That's all it is.
+Dialogue: 0,0:33:53.29,0:33:57.18,Default,,0,0,0,,It's missing that the lovable consciousness is going to,
+Dialogue: 0,0:33:57.98,0:33:58.18,Default,,0,0,0,,you know,
+Dialogue: 0,0:33:58.20,0:34:02.98,Default,,0,0,0,,tell you how reliable a contract is.
+Dialogue: 0,0:34:03.58,0:34:06.20,Default,,0,0,0,,People here pay a great deal of attention to contracts.
+Dialogue: 0,0:34:07.08,0:34:08.38,Default,,0,0,0,,They say, you know, that's a contract.
+Dialogue: 0,0:34:08.51,0:34:09.40,Default,,0,0,0,,We agreed to that.
+Dialogue: 0,0:34:10.42,0:34:13.34,Default,,0,0,0,,And people here say, oh, that's a contract.
+Dialogue: 0,0:34:16.24,0:34:18.11,Default,,0,0,0,,Oh, well, wipe your feet on it.
+Dialogue: 0,0:34:18.28,0:34:20.59,Default,,0,0,0,,So, all right, we'll move to the next.
+Dialogue: 0,0:34:23.46,0:34:26.65,Default,,0,0,0,,The rate of happiness, and here we have
+Dialogue: 0,0:34:26.65,0:34:30.31,Default,,0,0,0,,a correlation of levels of consciousness and rate of happiness.
+Dialogue: 0,0:34:30.98,0:34:33.98,Default,,0,0,0,,And here you see the log of the level of consciousness
+Dialogue: 0,0:34:33.98,0:34:35.75,Default,,0,0,0,,and the rate of happiness.
+Dialogue: 0,0:34:36.77,0:34:40.57,Default,,0,0,0,,So, spiritual endeavor tends to, you know,
+Dialogue: 0,0:34:41.27,0:34:43.87,Default,,0,0,0,,pull you higher and higher on this map.
+Dialogue: 0,0:34:44.19,0:34:47.87,Default,,0,0,0,,And you reach a level where your only complaint is you're never unhappy
+Dialogue: 0,0:34:47.87,0:34:49.25,Default,,0,0,0,,and you've got nothing to complain about.
+Dialogue: 0,0:34:52.03,0:34:53.57,Default,,0,0,0,,I don't got anything to complain about.
+Dialogue: 0,0:34:56.65,0:35:00.61,Default,,0,0,0,,How can people control you if you've got nothing to complain about?
+Dialogue: 0,0:35:01.07,0:35:03.27,Default,,0,0,0,,Because what they do is they pick on your complaints
+Dialogue: 0,0:35:03.27,0:35:08.09,Default,,0,0,0,,and play them up and make political hay out of it.
+Dialogue: 0,0:35:09.44,0:35:13.79,Default,,0,0,0,,All right, so the rate of happiness goes up based not on externals,
+Dialogue: 0,0:35:13.87,0:35:16.23,Default,,0,0,0,,how much money you have, whether you went to college,
+Dialogue: 0,0:35:16.33,0:35:17.09,Default,,0,0,0,,any of those things.
+Dialogue: 0,0:35:17.63,0:35:20.25,Default,,0,0,0,,It's based solely on one's level of consciousness.
+Dialogue: 0,0:35:20.98,0:35:26.31,Default,,0,0,0,,So, it seemed to me the most efficient way to improve your life overall,
+Dialogue: 0,0:35:26.65,0:35:29.65,Default,,0,0,0,,is to pursue advancing your level of consciousness.
+Dialogue: 0,0:35:30.39,0:35:32.65,Default,,0,0,0,,Because you increase your rate of happiness,
+Dialogue: 0,0:35:32.92,0:35:34.01,Default,,0,0,0,,you increase your productivity,
+Dialogue: 0,0:35:35.01,0:35:39.25,Default,,0,0,0,,and it's beneficial to yourself and everybody around you,
+Dialogue: 0,0:35:39.33,0:35:39.96,Default,,0,0,0,,including the world.
+Dialogue: 0,0:35:40.27,0:35:40.51,Default,,0,0,0,,Yes.
+Dialogue: 0,0:35:41.15,0:35:42.05,Default,,0,0,0,,Next slide.
+Dialogue: 0,0:35:43.01,0:35:44.51,Default,,0,0,0,,I don't know where we are on the slides.
+Dialogue: 0,0:35:45.98,0:35:48.37,Default,,0,0,0,,Here we have a quick review of spiritual teachers.
+Dialogue: 0,0:35:48.71,0:35:50.59,Default,,0,0,0,,People often write me from all over the world
+Dialogue: 0,0:35:50.59,0:35:52.85,Default,,0,0,0,,and want to know about a certain spiritual teacher.
+Dialogue: 0,0:35:52.85,0:35:56.29,Default,,0,0,0,,And I tell them how to find out what that teacher,
+Dialogue: 0,0:35:56.30,0:35:57.70,Default,,0,0,0,,what that teacher calibrates at themself.
+Dialogue: 0,0:35:58.51,0:36:03.98,Default,,0,0,0,,And I also point out that here's over a hundred spiritual teachers.
+Dialogue: 0,0:36:04.20,0:36:05.20,Default,,0,0,0,,They're all calibrated.
+Dialogue: 0,0:36:05.53,0:36:09.20,Default,,0,0,0,,And next we'll have the writings of these teachers are calibrated.
+Dialogue: 0,0:36:09.86,0:36:14.62,Default,,0,0,0,,And somehow they always find somebody in the middle of nowhere,
+Dialogue: 0,0:36:15.34,0:36:20.82,Default,,0,0,0,,honky-donker, who claims to be the descendant of the master of Wahamahe,
+Dialogue: 0,0:36:22.44,0:36:26.28,Default,,0,0,0,,and suggests that we turn over all our material goods to him.
+Dialogue: 0,0:36:27.18,0:36:33.64,Default,,0,0,0,,And would you advise that I are following him?
+Dialogue: 0,0:36:33.68,0:36:36.98,Default,,0,0,0,,And I say, well, I've already done enough,
+Dialogue: 0,0:36:37.14,0:36:39.06,Default,,0,0,0,,and we've told you how to do it.
+Dialogue: 0,0:36:39.76,0:36:40.88,Default,,0,0,0,,What's the next slide?
+Dialogue: 0,0:36:42.40,0:36:42.88,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:43.48,0:36:46.24,Default,,0,0,0,,These are the great avatars of all time.
+Dialogue: 0,0:36:46.86,0:36:49.74,Default,,0,0,0,,And the Christian apostles at 980.
+Dialogue: 0,0:36:50.96,0:36:54.60,Default,,0,0,0,,This has to do with the relics, the realm of the relics,
+Dialogue: 0,0:36:55.42,0:36:55.74,Default,,0,0,0,,calibration.
+Dialogue: 0,0:36:56.30,0:36:56.98,Default,,0,0,0,,Calibrated at 900.
+Dialogue: 0,0:36:57.16,0:37:02.70,Default,,0,0,0,,We know that the bones underneath the Basilica in Rome calibrate over 900.
+Dialogue: 0,0:37:03.56,0:37:11.28,Default,,0,0,0,,It just affirms the spiritual level of the 12 apostles.
+Dialogue: 0,0:37:12.53,0:37:18.74,Default,,0,0,0,,And John the Baptist, Moses, Abraham, St. Paul, Muhammad,
+Dialogue: 0,0:37:18.98,0:37:23.06,Default,,0,0,0,,and Muhammad after age, later age.
+Dialogue: 0,0:37:23.56,0:37:24.92,Default,,0,0,0,,Let's go to the next one.
+Dialogue: 0,0:37:26.30,0:37:29.00,Default,,0,0,0,,Great spiritual writings.
+Dialogue: 0,0:37:31.24,0:37:35.68,Default,,0,0,0,,So when people are lost or confused, I say, look, here you've got 100 teachers
+Dialogue: 0,0:37:35.68,0:37:38.16,Default,,0,0,0,,and well over 100 books,
+Dialogue: 0,0:37:38.56,0:37:43.12,Default,,0,0,0,,and any one of these will take you a lifetime to really work it through.
+Dialogue: 0,0:37:45.30,0:37:48.62,Default,,0,0,0,,So this will take care of the next 40 or 50 lifetimes.
+Dialogue: 0,0:37:49.51,0:37:51.53,Default,,0,0,0,,When you come back, work on this one.
+Dialogue: 0,0:37:51.72,0:37:54.01,Default,,0,0,0,,And then when you come back again, come work on this one.
+Dialogue: 0,0:37:54.18,0:37:56.10,Default,,0,0,0,,And when you get to the bottom here,
+Dialogue: 0,0:37:56.30,0:37:57.86,Default,,0,0,0,,you don't have to come back anymore.
+Dialogue: 0,0:38:00.76,0:38:04.42,Default,,0,0,0,,When you finish the Zohar, that catapults you right off the planet.
+Dialogue: 0,0:38:05.56,0:38:08.24,Default,,0,0,0,,Shot out into infinite space by the Zohar,
+Dialogue: 0,0:38:08.86,0:38:12.70,Default,,0,0,0,,which calibrates at 905.
+Dialogue: 0,0:38:13.08,0:38:13.28,Default,,0,0,0,,Yep.
+Dialogue: 0,0:38:14.38,0:38:16.56,Default,,0,0,0,,See, some people start with this one.
+Dialogue: 0,0:38:19.26,0:38:20.78,Default,,0,0,0,,Some people start there.
+Dialogue: 0,0:38:20.88,0:38:21.74,Default,,0,0,0,,You can start anywhere.
+Dialogue: 0,0:38:21.74,0:38:22.96,Default,,0,0,0,,All right.
+Dialogue: 0,0:38:23.10,0:38:25.74,Default,,0,0,0,,So I think this is a very handy reference because,
+Dialogue: 0,0:38:26.86,0:38:30.06,Default,,0,0,0,,this kind of diagnostic work has never been done before.
+Dialogue: 0,0:38:30.51,0:38:33.72,Default,,0,0,0,,So the value of the work is that we're able to learn things
+Dialogue: 0,0:38:33.72,0:38:37.14,Default,,0,0,0,,that mankind has never had a chance to verify.
+Dialogue: 0,0:38:37.88,0:38:40.80,Default,,0,0,0,,It's always been the authority of religion,
+Dialogue: 0,0:38:41.80,0:38:43.62,Default,,0,0,0,,the authority of the good book,
+Dialogue: 0,0:38:43.72,0:38:45.68,Default,,0,0,0,,the authority of the Torah, the Bible.
+Dialogue: 0,0:38:47.22,0:38:52.64,Default,,0,0,0,,So belief then was based on authoritarianism.
+Dialogue: 0,0:38:52.64,0:38:56.08,Default,,0,0,0,,That led to many people becoming atheists.
+Dialogue: 0,0:38:56.86,0:39:04.80,Default,,0,0,0,,Because the authority, the institutions themselves made serious errors over the centuries.
+Dialogue: 0,0:39:05.46,0:39:08.60,Default,,0,0,0,,And consequently, just one error and a doubter can say,
+Dialogue: 0,0:39:08.76,0:39:12.86,Default,,0,0,0,,well, any organization that does so-and-so can't know the truth about anything.
+Dialogue: 0,0:39:13.53,0:39:16.32,Default,,0,0,0,,Well, they might know the truth about 98% of the things
+Dialogue: 0,0:39:16.32,0:39:18.14,Default,,0,0,0,,and not know the truth about 2%.
+Dialogue: 0,0:39:18.96,0:39:22.76,Default,,0,0,0,,So this is very practical, very practical.
+Dialogue: 0,0:39:23.53,0:39:25.28,Default,,0,0,0,,And you see a major division,
+Dialogue: 0,0:39:25.44,0:39:26.14,Default,,0,0,0,,even in the capital,
+Dialogue: 0,0:39:26.14,0:39:26.28,Default,,0,0,0,,even in the capital,
+Dialogue: 0,0:39:26.28,0:39:28.84,Default,,0,0,0,,in the calibration of the Christian Bible,
+Dialogue: 0,0:39:29.01,0:39:32.96,Default,,0,0,0,,whether it's the Lompsa Bible or the King James Version.
+Dialogue: 0,0:39:33.76,0:39:36.42,Default,,0,0,0,,The difference between the King James Version
+Dialogue: 0,0:39:36.42,0:39:39.34,Default,,0,0,0,,and the Lompsa Bible is considerable.
+Dialogue: 0,0:39:40.22,0:39:42.74,Default,,0,0,0,,I don't know where the Lompsa Bible is on there.
+Dialogue: 0,0:39:42.82,0:39:43.44,Default,,0,0,0,,I can't see it.
+Dialogue: 0,0:39:43.50,0:39:46.66,Default,,0,0,0,,But anywhere in the Lompsa Bible, it was in the 600s, I think.
+Dialogue: 0,0:39:47.64,0:39:48.58,Default,,0,0,0,,Can you see it, sweetheart?
+Dialogue: 0,0:39:50.36,0:39:53.46,Default,,0,0,0,,The King James Version calibrates in the high 400s.
+Dialogue: 0,0:39:53.46,0:39:54.59,Default,,0,0,0,,475.
+Dialogue: 0,0:39:56.19,0:39:57.90,Default,,0,0,0,,Oh, here's the Lompsa right here.
+Dialogue: 0,0:39:58.86,0:40:00.15,Default,,0,0,0,,Right in front of my eyeballs.
+Dialogue: 0,0:40:00.26,0:40:01.09,Default,,0,0,0,,No one's not going to see it.
+Dialogue: 0,0:40:02.34,0:40:03.42,Default,,0,0,0,,Calibrates at 700.
+Dialogue: 0,0:40:03.59,0:40:04.15,Default,,0,0,0,,Is that correct?
+Dialogue: 0,0:40:04.94,0:40:05.59,Default,,0,0,0,,What is it?
+Dialogue: 0,0:40:05.67,0:40:06.72,Default,,0,0,0,,I can't read it.
+Dialogue: 0,0:40:11.24,0:40:11.88,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:40:12.01,0:40:14.05,Default,,0,0,0,,It depends on whether, you know, you leave.
+Dialogue: 0,0:40:15.03,0:40:20.30,Default,,0,0,0,,It depends on whether you leave the New Testament in or not.
+Dialogue: 0,0:40:20.44,0:40:20.65,Default,,0,0,0,,Yes.
+Dialogue: 0,0:40:21.51,0:40:23.36,Default,,0,0,0,,In any case, the Lompsa Bible,
+Dialogue: 0,0:40:23.46,0:40:25.65,Default,,0,0,0,,it calibrates higher than the King James Version.
+Dialogue: 0,0:40:26.57,0:40:29.07,Default,,0,0,0,,So even if one says it's in the New Testament,
+Dialogue: 0,0:40:29.88,0:40:32.00,Default,,0,0,0,,you need to know whose translation.
+Dialogue: 0,0:40:33.74,0:40:36.17,Default,,0,0,0,,Because the Lompsa is from the Aramaic,
+Dialogue: 0,0:40:36.78,0:40:39.69,Default,,0,0,0,,and the more common one is from the Greek.
+Dialogue: 0,0:40:40.96,0:40:46.55,Default,,0,0,0,,So the translation from the Greek calibrates less than the one from
+Dialogue: 0,0:40:46.55,0:40:52.32,Default,,0,0,0,,the Eastern, so-called Eastern manuscripts of the Eastern Church.
+Dialogue: 0,0:40:53.08,0:40:54.92,Default,,0,0,0,,Okay, so we'll go to the next one.
+Dialogue: 0,0:40:57.48,0:40:58.94,Default,,0,0,0,,Fashionable philosophies.
+Dialogue: 0,0:41:01.24,0:41:09.03,Default,,0,0,0,,This has to do with moral equivalency and all kinds of things
+Dialogue: 0,0:41:09.03,0:41:12.78,Default,,0,0,0,,that we see flash across the television screen.
+Dialogue: 0,0:41:14.03,0:41:16.40,Default,,0,0,0,,All kinds of bizarre things.
+Dialogue: 0,0:41:16.40,0:41:21.55,Default,,0,0,0,,Free speech, of course, which is now supplanted God and divinity
+Dialogue: 0,0:41:21.55,0:41:22.30,Default,,0,0,0,,and the church.
+Dialogue: 0,0:41:22.68,0:41:23.92,Default,,0,0,0,,Free speech.
+Dialogue: 0,0:41:25.18,0:41:30.01,Default,,0,0,0,,At the time of World War II, calibrated at 255,
+Dialogue: 0,0:41:30.62,0:41:35.48,Default,,0,0,0,,free speech in the U.S. as of currently is 180.
+Dialogue: 0,0:41:35.94,0:41:38.32,Default,,0,0,0,,So free speech then, due to the media,
+Dialogue: 0,0:41:39.36,0:41:44.58,Default,,0,0,0,,is now focused on popularization and appeal
+Dialogue: 0,0:41:44.58,0:41:47.68,Default,,0,0,0,,and dramatization rather than truth.
+Dialogue: 0,0:41:48.26,0:41:48.42,Default,,0,0,0,,Yes.
+Dialogue: 0,0:41:49.10,0:41:51.34,Default,,0,0,0,,Free speech then is the railroad.
+Dialogue: 0,0:41:52.32,0:41:54.98,Default,,0,0,0,,It was theoretically the railroad to freedom,
+Dialogue: 0,0:41:55.58,0:42:00.70,Default,,0,0,0,,but in practice is the railroad to the collapse of our own society.
+Dialogue: 0,0:42:01.90,0:42:06.12,Default,,0,0,0,,If falsehood has equal privilege with truth,
+Dialogue: 0,0:42:06.82,0:42:11.24,Default,,0,0,0,,then what would hold up the columns of our society?
+Dialogue: 0,0:42:12.74,0:42:15.82,Default,,0,0,0,,So the New York Times, for instance, New York Times,
+Dialogue: 0,0:42:15.94,0:42:18.51,Default,,0,0,0,,I hate to even calibrate where the New York Times is right now.
+Dialogue: 0,0:42:18.84,0:42:21.42,Default,,0,0,0,,I better not calibrate the New York Times.
+Dialogue: 0,0:42:22.32,0:42:24.74,Default,,0,0,0,,Well, of course, they'll have an editorial.
+Dialogue: 0,0:42:27.44,0:42:27.88,Default,,0,0,0,,Huh?
+Dialogue: 0,0:42:28.24,0:42:29.80,Default,,0,0,0,,It looks like it's 140 standard.
+Dialogue: 0,0:42:31.42,0:42:31.86,Default,,0,0,0,,Oh.
+Dialogue: 0,0:42:33.20,0:42:34.50,Default,,0,0,0,,Well, they vary.
+Dialogue: 0,0:42:34.68,0:42:36.42,Default,,0,0,0,,Anyway, right now, the New York Times is probably,
+Dialogue: 0,0:42:36.86,0:42:38.30,Default,,0,0,0,,let's just do it one more time.
+Dialogue: 0,0:42:38.66,0:42:39.28,Default,,0,0,0,,We have permission.
+Dialogue: 0,0:42:39.66,0:42:41.44,Default,,0,0,0,,We have permission to do the New York Times.
+Dialogue: 0,0:42:41.96,0:42:43.24,Default,,0,0,0,,We have permission to do the New York Times.
+Dialogue: 0,0:42:44.50,0:42:46.74,Default,,0,0,0,,It calibrates currently over 170.
+Dialogue: 0,0:42:49.00,0:42:49.48,Default,,0,0,0,,165.
+Dialogue: 0,0:42:50.98,0:42:51.42,Default,,0,0,0,,160.
+Dialogue: 0,0:42:52.32,0:42:55.32,Default,,0,0,0,,The New York Times calibrates at 160.
+Dialogue: 0,0:42:56.00,0:43:00.14,Default,,0,0,0,,What does that say about the prognosis of American society?
+Dialogue: 0,0:43:02.60,0:43:04.51,Default,,0,0,0,,The banking system collapses.
+Dialogue: 0,0:43:04.80,0:43:06.78,Default,,0,0,0,,The New York Times calibrates at 160.
+Dialogue: 0,0:43:08.03,0:43:11.70,Default,,0,0,0,,Are we seeing the fall and collapse of Western civilization?
+Dialogue: 0,0:43:12.36,0:43:14.01,Default,,0,0,0,,Is that what's going on?
+Dialogue: 0,0:43:18.01,0:43:21.01,Default,,0,0,0,,When I grew up, the New York Times probably calibrated around 400.
+Dialogue: 0,0:43:22.32,0:43:31.26,Default,,0,0,0,,When I was growing up, the New York Times calibrated over 400 of this.
+Dialogue: 0,0:43:32.44,0:43:32.88,Default,,0,0,0,,405.
+Dialogue: 0,0:43:35.40,0:43:38.50,Default,,0,0,0,,The New York Times calibrated at 400 when I was growing up.
+Dialogue: 0,0:43:39.18,0:43:40.94,Default,,0,0,0,,Now it calibrates at, what did we say?
+Dialogue: 0,0:43:42.94,0:43:45.51,Default,,0,0,0,,God, we don't want the comedies to hear about that.
+Dialogue: 0,0:43:45.51,0:43:50.74,Default,,0,0,0,,The New York Times calibrates at 160.
+Dialogue: 0,0:43:50.74,0:43:56.74,Default,,0,0,0,,So, I guess we are seeing the fall and decline of Western civilization.
+Dialogue: 0,0:43:56.74,0:43:57.74,Default,,0,0,0,,Let's ask that.
+Dialogue: 0,0:43:57.74,0:44:02.00,Default,,0,0,0,,We have permission to ask about it.
+Dialogue: 0,0:44:02.00,0:44:06.86,Default,,0,0,0,,We are seeing the progression of the fall and decline of Western civilization.
+Dialogue: 0,0:44:06.86,0:44:07.86,Default,,0,0,0,,Resist.
+Dialogue: 0,0:44:07.86,0:44:08.86,Default,,0,0,0,,No.
+Dialogue: 0,0:44:08.86,0:44:13.54,Default,,0,0,0,,We are not seeing the fall and decline of Western civilization.
+Dialogue: 0,0:44:13.54,0:44:15.02,Default,,0,0,0,,We're only seeing a bump.
+Dialogue: 0,0:44:15.02,0:44:18.86,Default,,0,0,0,,Oh, we're only seeing a bump.
+Dialogue: 0,0:44:18.86,0:44:19.86,Default,,0,0,0,,.
+Dialogue: 0,0:44:19.86,0:44:20.86,Default,,0,0,0,,Oh, boy.
+Dialogue: 0,0:44:20.86,0:44:21.86,Default,,0,0,0,,Just a jiggle in evolutionary time.
+Dialogue: 0,0:44:21.86,0:44:22.86,Default,,0,0,0,,One of those.
+Dialogue: 0,0:44:22.86,0:44:23.86,Default,,0,0,0,,Okay.
+Dialogue: 0,0:44:23.86,0:44:24.86,Default,,0,0,0,,Let's go on to the next.
+Dialogue: 0,0:44:24.86,0:44:25.86,Default,,0,0,0,,Oh.
+Dialogue: 0,0:44:25.86,0:44:26.86,Default,,0,0,0,,Of course, we're going to do the last one.
+Dialogue: 0,0:44:26.86,0:44:27.86,Default,,0,0,0,,Okay.
+Dialogue: 0,0:44:27.86,0:44:28.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:28.86,0:44:29.86,Default,,0,0,0,,Okay.
+Dialogue: 0,0:44:29.86,0:44:30.86,Default,,0,0,0,,So, I'm going to go on to the next.
+Dialogue: 0,0:44:30.86,0:44:31.86,Default,,0,0,0,,.
+Dialogue: 0,0:44:31.86,0:44:32.86,Default,,0,0,0,,Oh.
+Dialogue: 0,0:44:32.86,0:44:33.86,Default,,0,0,0,,I'm going to go on to the next.
+Dialogue: 0,0:44:33.86,0:44:34.86,Default,,0,0,0,,.
+Dialogue: 0,0:44:34.86,0:44:35.86,Default,,0,0,0,,All right.
+Dialogue: 0,0:44:35.86,0:44:36.86,Default,,0,0,0,,There you go.
+Dialogue: 0,0:44:36.86,0:44:37.86,Default,,0,0,0,,You are going to go on to the next.
+Dialogue: 0,0:44:37.86,0:44:38.86,Default,,0,0,0,,All right.
+Dialogue: 0,0:44:38.86,0:44:39.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:39.86,0:44:40.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:40.86,0:44:41.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:41.86,0:44:42.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:42.86,0:44:43.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:43.86,0:44:44.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:44.86,0:44:45.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:45.86,0:44:46.86,Default,,0,0,0,,Okay.
+Dialogue: 0,0:44:46.86,0:44:47.86,Default,,0,0,0,,Okay.
+Dialogue: 0,0:44:47.86,0:44:48.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:48.86,0:44:49.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:49.86,0:45:08.16,Default,,0,0,0,,all know what this is yeah there's the New York Times that's a marvelous I just
+Dialogue: 0,0:45:08.16,0:45:12.90,Default,,0,0,0,,love that that's the one of my favorite slides because you know it's like
+Dialogue: 0,0:45:12.90,0:45:17.94,Default,,0,0,0,,everyday television you hear that you know somebody's spending a hundred and
+Dialogue: 0,0:45:17.94,0:45:29.51,Default,,0,0,0,,fifty million a week on TV advertising a week and therefore there you have the
+Dialogue: 0,0:45:29.51,0:45:43.01,Default,,0,0,0,,she's clothing okay so next oh I don't think that's supposed to be in there
+Dialogue: 0,0:45:43.01,0:45:46.38,Default,,0,0,0,,where are the isms no
+Dialogue: 0,0:45:47.94,0:45:53.67,Default,,0,0,0,,oh I see we're going backwards where are the isms yes well we just talked about
+Dialogue: 0,0:45:53.67,0:46:02.28,Default,,0,0,0,,all these isms that frayed across the screen and become elitist and it's the
+Dialogue: 0,0:46:02.28,0:46:10.98,Default,,0,0,0,,current fad and populism so populism has replaced truth if the things are popular
+Dialogue: 0,0:46:10.98,0:46:15.53,Default,,0,0,0,,so when you see a political rally you know 10,000 people cheering you think
+Dialogue: 0,0:46:17.94,0:46:46.70,Default,,0,0,0,,you're doing it right the changing of果 bedeutet
+Dialogue: 0,0:46:46.72,0:46:47.78,Default,,0,0,0,,you get that
+Dialogue: 0,0:46:47.78,0:46:47.84,Default,,0,0,0,,funny
+Dialogue: 0,0:46:47.84,0:46:47.90,Default,,0,0,0,,you get that
+Dialogue: 0,0:46:47.90,0:46:47.92,Default,,0,0,0,,funny
+Dialogue: 0,0:46:47.92,0:46:53.51,Default,,0,0,0,,of the banking system i really don't want the fate of the banking system up to a cheering cheer squad
+Dialogue: 0,0:46:54.72,0:47:00.48,Default,,0,0,0,,all in favor of the world so they may have the collapse of the economy right now
+Dialogue: 0,0:47:01.11,0:47:08.72,Default,,0,0,0,,worldwide all right so let's go to the next war of the isms spiritual practices and daily life
+Dialogue: 0,0:47:09.68,0:47:16.24,Default,,0,0,0,,is that what we're talking about today yes spiritual practices and daily life
+Dialogue: 0,0:47:16.24,0:47:25.58,Default,,0,0,0,,all right i still can't see where the fitly darn here which one are we on here honey
+Dialogue: 0,0:47:27.12,0:47:37.38,Default,,0,0,0,,here what are we on 95. oh okay good all right thank you 95
+Dialogue: 0,0:47:39.26,0:47:44.24,Default,,0,0,0,,spiritual practices that are suitable for daily life they merge right in with the lecture for
+Dialogue: 0,0:47:44.24,0:47:46.24,Default,,0,0,0,,today which has to do with spiritual practice
+Dialogue: 0,0:47:46.24,0:47:53.78,Default,,0,0,0,,do with practical spirituality these are the many many things that you can do education is the one
+Dialogue: 0,0:47:53.78,0:48:01.98,Default,,0,0,0,,we all pursue out of education we always end up favoring a teacher or certain teachers or group
+Dialogue: 0,0:48:01.98,0:48:12.28,Default,,0,0,0,,of teachers and we tend to become aligned with that particular pathway and we make meditation
+Dialogue: 0,0:48:12.28,0:48:19.88,Default,,0,0,0,,and prayer part of our daily routine is everybody here well everybody here pray every morning
+Dialogue: 0,0:48:20.46,0:48:28.58,Default,,0,0,0,,does everybody pray every night
+Dialogue: 0,0:48:28.58,0:48:34.10,Default,,0,0,0,,does everybody pray morning and night
+Dialogue: 0,0:48:34.10,0:48:38.42,Default,,0,0,0,,anybody pray all day long
+Dialogue: 0,0:48:42.28,0:48:47.18,Default,,0,0,0,,all right so we know that
+Dialogue: 0,0:48:47.18,0:48:52.16,Default,,0,0,0,,it requires attention and it requires
+Dialogue: 0,0:48:52.16,0:48:58.78,Default,,0,0,0,,avoiding the distractions of the world so the distraction the biggest enemy of
+Dialogue: 0,0:48:58.78,0:49:07.24,Default,,0,0,0,,uh the essence of goodness is not evil the biggest enemy is the distractions of the world
+Dialogue: 0,0:49:07.24,0:49:12.26,Default,,0,0,0,,yeah the reason you don't do many of these
+Dialogue: 0,0:49:12.28,0:49:18.62,Default,,0,0,0,,things is you're too busy it's not that there's evil demons out there trying to steal your soul
+Dialogue: 0,0:49:18.62,0:49:27.01,Default,,0,0,0,,that's a relief to know isn't it no it's just that uh human life has become so busy
+Dialogue: 0,0:49:27.01,0:49:35.82,Default,,0,0,0,,the demands for our attention are so constant and so cleverly done so cleverly done the media
+Dialogue: 0,0:49:35.82,0:49:41.32,Default,,0,0,0,,is so good at distracting us and attracting us and seducing us and getting our attention
+Dialogue: 0,0:49:42.28,0:49:48.36,Default,,0,0,0,,that you know you don't want to go back to prayer until you finish this movie on tv
+Dialogue: 0,0:49:48.36,0:49:52.12,Default,,0,0,0,,and by that time you're too sleepy you figure out i'll pray tomorrow
+Dialogue: 0,0:49:52.12,0:50:00.42,Default,,0,0,0,,you can always do a quick prayer i want you to go thank you god for everything amen
+Dialogue: 0,0:50:00.42,0:50:05.18,Default,,0,0,0,,let's do that thank you god for everything amen
+Dialogue: 0,0:50:05.18,0:50:08.96,Default,,0,0,0,,okay so we did our praying for today thank god
+Dialogue: 0,0:50:12.28,0:50:22.60,Default,,0,0,0,,thanks god thanks for everything amen thank you god for everything well that's all that you really
+Dialogue: 0,0:50:22.60,0:50:29.32,Default,,0,0,0,,have to do isn't it say you know if you say to a waitress gee thanks a lot you did a great job
+Dialogue: 0,0:50:29.32,0:50:37.74,Default,,0,0,0,,she goes oh she's happy you don't have to have a parade you don't have to build the castles to god
+Dialogue: 0,0:50:37.74,0:50:42.12,Default,,0,0,0,,you could just say dear god i give thanks so thankfulness
+Dialogue: 0,0:50:42.28,0:50:48.60,Default,,0,0,0,,is one of the most powerful giving thanks uh one day living one day at a time living in the moment
+Dialogue: 0,0:50:49.32,0:50:55.16,Default,,0,0,0,,and giving thanks uh through prayer through acknowledgement so we acknowledge that the source
+Dialogue: 0,0:50:55.16,0:51:04.76,Default,,0,0,0,,of our life is divinity we acknowledge that it's divinity is the energy of life itself and we
+Dialogue: 0,0:51:05.32,0:51:12.04,Default,,0,0,0,,we empower a thing when we acknowledge it the only one power anything in your life is to merely
+Dialogue: 0,0:51:12.28,0:51:18.20,Default,,0,0,0,,acknowledge it and that instantly empowers it so whatever you want to empower in your life
+Dialogue: 0,0:51:18.92,0:51:25.16,Default,,0,0,0,,you acknowledge and you acknowledge the gift of it to do all these positive things you then
+Dialogue: 0,0:51:25.80,0:51:32.76,Default,,0,0,0,,come up on the willingness to surrender the negatives people delight in hatred and hateful
+Dialogue: 0,0:51:32.76,0:51:40.36,Default,,0,0,0,,comments and the current political news is full of hatefulness and people get a lot of mileage out
+Dialogue: 0,0:51:40.36,0:51:41.08,Default,,0,0,0,,of hatefulness
+Dialogue: 0,0:51:42.28,0:51:48.60,Default,,0,0,0,,spiritually oriented people don't need hatefulness as you said you can pick vanilla you don't have
+Dialogue: 0,0:51:48.60,0:51:54.44,Default,,0,0,0,,to hate chocolate because you pick vanilla you don't have to hate strawberry because you picked
+Dialogue: 0,0:51:54.44,0:52:00.28,Default,,0,0,0,,lemonade you don't have to hate the opposite you just pick what you want and ignore the other
+Dialogue: 0,0:52:01.24,0:52:05.96,Default,,0,0,0,,just pick what you want and ignore the other you don't have to hate the opposite
+Dialogue: 0,0:52:05.96,0:52:12.12,Default,,0,0,0,,because people seem to feel you have to you can't just cheer for your team you've got to cheer
+Dialogue: 0,0:52:12.28,0:52:18.96,Default,,0,0,0,,against the other team you know the plunkers have come to town to play the boopers and when
+Dialogue: 0,0:52:18.96,0:52:24.40,Default,,0,0,0,,the plumpers come on you gotta go boo boo boo and when the plinkers go on you go ray
+Dialogue: 0,0:52:24.40,0:52:32.38,Default,,0,0,0,,so to elevate life to something beyond a high school basketball game is the whole point of
+Dialogue: 0,0:52:32.38,0:52:40.04,Default,,0,0,0,,spiritual reality to see it as something a little bit more than a than a high school basketball game
+Dialogue: 0,0:52:40.03,0:52:45.55,Default,,0,0,0,,where you have to jeer the other side you know you don't have to jeer vanilla because you choose
+Dialogue: 0,0:52:45.55,0:52:53.07,Default,,0,0,0,,chocolate you can just choose chocolate because you like chocolate that's what he said wasn't it
+Dialogue: 0,0:52:53.07,0:52:57.27,Default,,0,0,0,,you just choose chocolate because you like chocolate you never know what kind of you're
+Dialogue: 0,0:52:57.27,0:53:04.51,Default,,0,0,0,,going to get right who is that said that forrest forrest gump
+Dialogue: 0,0:53:04.51,0:53:09.67,Default,,0,0,0,,that's it
+Dialogue: 0,0:53:10.03,0:53:20.50,Default,,0,0,0,,forrest gump is one of my heroes and uh forrest gump to me is a is a great enlightened being let's
+Dialogue: 0,0:53:20.50,0:53:34.21,Default,,0,0,0,,see uh forrest gump forrest gump calibrates over 450 480 500 510 i knew care forrest gump
+Dialogue: 0,0:53:34.21,0:53:35.25,Default,,0,0,0,,calibrates at 500
+Dialogue: 0,0:53:35.25,0:53:39.65,Default,,0,0,0,,you recognize why
+Dialogue: 0,0:53:40.03,0:53:48.27,Default,,0,0,0,,i decided to run because i thought that's what would feel good and that it would be a nice thing
+Dialogue: 0,0:53:48.27,0:53:57.53,Default,,0,0,0,,to do the sheer simplicity of absolute truth so what do you forrest gump ran for three years
+Dialogue: 0,0:53:57.53,0:54:05.00,Default,,0,0,0,,and everywhere he ran around the country people started to follow him pretty soon
+Dialogue: 0,0:54:05.00,0:54:08.07,Default,,0,0,0,,there's a whole train of people running after forrest gump
+Dialogue: 0,0:54:10.03,0:54:15.00,Default,,0,0,0,,well there's a guy current current politics joe the plumber or something he's sort of like forrest gump
+Dialogue: 0,0:54:15.00,0:54:22.75,Default,,0,0,0,,the way to solve things is to be more responsible and solve them you know
+Dialogue: 0,0:54:22.75,0:54:27.53,Default,,0,0,0,,people say man what political genius this guy is
+Dialogue: 0,0:54:34.69,0:54:37.69,Default,,0,0,0,,probably shouldn't close congress right in the middle of a crisis
+Dialogue: 0,0:54:37.69,0:54:39.88,Default,,0,0,0,,go on vacation for six weeks
+Dialogue: 0,0:54:40.03,0:54:43.03,Default,,0,0,0,,That's right, I don't think I'd do that.
+Dialogue: 0,0:54:43.03,0:54:48.03,Default,,0,0,0,,Joe's going to be a great American hero, that's for sure.
+Dialogue: 0,0:54:48.03,0:54:50.03,Default,,0,0,0,,Great American hero.
+Dialogue: 0,0:54:50.03,0:54:54.03,Default,,0,0,0,,The stock market collapsing, the world collapsing,
+Dialogue: 0,0:54:54.03,0:54:56.03,Default,,0,0,0,,and Joe says, well, I just wouldn't do that,
+Dialogue: 0,0:54:56.03,0:54:58.03,Default,,0,0,0,,it just wouldn't make much sense.
+Dialogue: 0,0:55:02.03,0:55:04.03,Default,,0,0,0,,Dr. Hawkins.
+Dialogue: 0,0:55:04.03,0:55:05.03,Default,,0,0,0,,Yes.
+Dialogue: 0,0:55:05.03,0:55:09.03,Default,,0,0,0,,Did Tom Hanks tell Greg to find him on his plane for us?
+Dialogue: 0,0:55:09.03,0:55:11.03,Default,,0,0,0,,I never did that.
+Dialogue: 0,0:55:11.03,0:55:13.03,Default,,0,0,0,,I don't know if I have permission to do it.
+Dialogue: 0,0:55:13.03,0:55:16.03,Default,,0,0,0,,I mean, I don't think I have permission to do that,
+Dialogue: 0,0:55:16.03,0:55:21.03,Default,,0,0,0,,but I just intuit that he calibrates quite high as a person.
+Dialogue: 0,0:55:21.03,0:55:26.03,Default,,0,0,0,,Yeah, Tom Hanks calibrated quite high as a person.
+Dialogue: 0,0:55:26.03,0:55:28.03,Default,,0,0,0,,I don't want to say a number,
+Dialogue: 0,0:55:28.03,0:55:33.03,Default,,0,0,0,,but he himself calibrated quite high apparently.
+Dialogue: 0,0:55:33.03,0:55:38.03,Default,,0,0,0,,He certainly was a genius in detecting that certain energy
+Dialogue: 0,0:55:38.03,0:55:39.03,Default,,0,0,0,,and then radiating that.
+Dialogue: 0,0:55:39.03,0:55:42.03,Default,,0,0,0,,The simplicity and honesty of it.
+Dialogue: 0,0:55:42.03,0:55:45.03,Default,,0,0,0,,You know, it's almost like an animal simplicity.
+Dialogue: 0,0:55:45.03,0:55:48.03,Default,,0,0,0,,That smells good, so I think I'll eat that.
+Dialogue: 0,0:55:48.03,0:55:51.03,Default,,0,0,0,,And that smells bad, so I don't think I'll eat that.
+Dialogue: 0,0:55:57.03,0:55:59.03,Default,,0,0,0,,Man, you've got to be a goddamn genius.
+Dialogue: 0,0:55:59.03,0:56:02.03,Default,,0,0,0,,You've got to be pregnant.
+Dialogue: 0,0:56:02.03,0:56:04.03,Default,,0,0,0,,You've got to be a Buddha.
+Dialogue: 0,0:56:09.03,0:56:11.03,Default,,0,0,0,,Killers are bad people.
+Dialogue: 0,0:56:11.03,0:56:12.03,Default,,0,0,0,,Oh, they are?
+Dialogue: 0,0:56:12.03,0:56:14.03,Default,,0,0,0,,Oh.
+Dialogue: 0,0:56:14.03,0:56:16.03,Default,,0,0,0,,I thought they were misled.
+Dialogue: 0,0:56:16.03,0:56:19.03,Default,,0,0,0,,Well, they're misled to badness, okay.
+Dialogue: 0,0:56:19.03,0:56:24.03,Default,,0,0,0,,Anyway, I think that, you know, it's such a beautiful movie,
+Dialogue: 0,0:56:24.03,0:56:27.03,Default,,0,0,0,,and we're watching it again, reviewing it,
+Dialogue: 0,0:56:27.03,0:56:30.03,Default,,0,0,0,,because there was so much to learn from it.
+Dialogue: 0,0:56:30.03,0:56:35.03,Default,,0,0,0,,And it presents many, it's really existentialism.
+Dialogue: 0,0:56:35.03,0:56:38.03,Default,,0,0,0,,What is the meaning and significance of human existence?
+Dialogue: 0,0:56:38.03,0:56:41.03,Default,,0,0,0,,This is really what the core of that movie is about.
+Dialogue: 0,0:56:41.03,0:56:50.03,Default,,0,0,0,,What is the reality and the meaning and the significance of human existence
+Dialogue: 0,0:56:50.03,0:56:53.03,Default,,0,0,0,,is what that movie is all about.
+Dialogue: 0,0:56:53.03,0:57:00.03,Default,,0,0,0,,And I think it's a stunningly spiritual, very high-calibration kind of movie.
+Dialogue: 0,0:57:00.03,0:57:05.03,Default,,0,0,0,,And after you watch it, you're sort of spellbound for quite a while.
+Dialogue: 0,0:57:05.03,0:57:07.03,Default,,0,0,0,,Existential questions, you know,
+Dialogue: 0,0:57:07.03,0:57:10.03,Default,,0,0,0,,the value and significance of human life,
+Dialogue: 0,0:57:10.03,0:57:13.03,Default,,0,0,0,,and what things make it valuable.
+Dialogue: 0,0:57:13.03,0:57:15.03,Default,,0,0,0,,And if you just run when you feel like running,
+Dialogue: 0,0:57:15.03,0:57:17.03,Default,,0,0,0,,is that what life's all about?
+Dialogue: 0,0:57:17.03,0:57:20.03,Default,,0,0,0,,Yes, it is.
+Dialogue: 0,0:57:20.03,0:57:22.03,Default,,0,0,0,,You want to run for president?
+Dialogue: 0,0:57:22.03,0:57:27.03,Default,,0,0,0,,You just run for president because you feel like running for president.
+Dialogue: 0,0:57:27.03,0:57:29.03,Default,,0,0,0,,All right, so that's beautiful.
+Dialogue: 0,0:57:29.03,0:57:31.03,Default,,0,0,0,,Spiritual practice in daily life.
+Dialogue: 0,0:57:31.03,0:57:35.03,Default,,0,0,0,,So the willingness to let go of the negative.
+Dialogue: 0,0:57:35.03,0:57:37.03,Default,,0,0,0,,And the human ego loves to juice
+Dialogue: 0,0:57:37.03,0:57:38.03,Default,,0,0,0,,the negative.
+Dialogue: 0,0:57:38.03,0:57:40.03,Default,,0,0,0,,It loves to juice hatred,
+Dialogue: 0,0:57:40.03,0:57:42.03,Default,,0,0,0,,can't wait to stab somebody,
+Dialogue: 0,0:57:42.03,0:57:44.03,Default,,0,0,0,,can't wait to punish them,
+Dialogue: 0,0:57:44.03,0:57:46.03,Default,,0,0,0,,get revenge.
+Dialogue: 0,0:57:46.03,0:57:50.03,Default,,0,0,0,,And therefore, the negative is in competition
+Dialogue: 0,0:57:50.03,0:57:53.03,Default,,0,0,0,,all the time with the spiritual.
+Dialogue: 0,0:57:53.03,0:57:57.03,Default,,0,0,0,,So we're willing to surrender all the negatives
+Dialogue: 0,0:57:57.03,0:58:00.03,Default,,0,0,0,,and we look at the gift of life itself.
+Dialogue: 0,0:58:00.03,0:58:03.03,Default,,0,0,0,,We looked at the gift of life itself.
+Dialogue: 0,0:58:03.03,0:58:06.03,Default,,0,0,0,,And so we're getting closer to what our lecture's about today.
+Dialogue: 0,0:58:06.03,0:58:07.03,Default,,0,0,0,,That's enough review.
+Dialogue: 0,0:58:07.03,0:58:09.03,Default,,0,0,0,,We'll move on to the next one.
+Dialogue: 0,0:58:09.03,0:58:11.03,Default,,0,0,0,,And we'll review them all.
+Dialogue: 0,0:58:11.03,0:58:12.03,Default,,0,0,0,,What number is this one?
+Dialogue: 0,0:58:12.03,0:58:13.03,Default,,0,0,0,,96.
+Dialogue: 0,0:58:13.03,0:58:14.03,Default,,0,0,0,,Huh?
+Dialogue: 0,0:58:14.03,0:58:16.03,Default,,0,0,0,,96.
+Dialogue: 0,0:58:16.03,0:58:18.03,Default,,0,0,0,,I can't read it all.
+Dialogue: 0,0:58:18.03,0:58:19.03,Default,,0,0,0,,What does that say?
+Dialogue: 0,0:58:19.03,0:58:21.03,Default,,0,0,0,,Where's 96 there?
+Dialogue: 0,0:58:21.03,0:58:23.03,Default,,0,0,0,,Yeah?
+Dialogue: 0,0:58:23.03,0:58:25.03,Default,,0,0,0,,Okay.
+Dialogue: 0,0:58:25.03,0:58:26.03,Default,,0,0,0,,All right.
+Dialogue: 0,0:58:26.03,0:58:27.03,Default,,0,0,0,,96.
+Dialogue: 0,0:58:27.03,0:58:28.03,Default,,0,0,0,,Oh, there we are.
+Dialogue: 0,0:58:28.03,0:58:29.03,Default,,0,0,0,,Thank you very much.
+Dialogue: 0,0:58:29.03,0:58:31.03,Default,,0,0,0,,We're almost to where we're going.
+Dialogue: 0,0:58:31.03,0:58:33.03,Default,,0,0,0,,Well, if we keep going in the direction we're going,
+Dialogue: 0,0:58:33.03,0:58:35.03,Default,,0,0,0,,we're going to end up where we're headed for.
+Dialogue: 0,0:58:36.03,0:58:40.03,Default,,0,0,0,,All right.
+Dialogue: 0,0:58:40.03,0:58:43.03,Default,,0,0,0,,Choose holy company.
+Dialogue: 0,0:58:43.03,0:58:45.03,Default,,0,0,0,,Practice Socrates' view.
+Dialogue: 0,0:58:45.03,0:58:47.03,Default,,0,0,0,,See others as programmed.
+Dialogue: 0,0:58:47.03,0:58:48.03,Default,,0,0,0,,All right.
+Dialogue: 0,0:58:48.03,0:58:50.03,Default,,0,0,0,,So here's what we do.
+Dialogue: 0,0:58:50.03,0:58:53.03,Default,,0,0,0,,We become loving towards all of life,
+Dialogue: 0,0:58:53.03,0:58:56.03,Default,,0,0,0,,grateful for all that we have,
+Dialogue: 0,0:58:56.03,0:58:58.03,Default,,0,0,0,,and benevolent.
+Dialogue: 0,0:58:58.03,0:59:02.03,Default,,0,0,0,,So benevolence is an attitude in which we are gracious
+Dialogue: 0,0:59:02.03,0:59:05.03,Default,,0,0,0,,towards all of life and all of its creation.
+Dialogue: 0,0:59:06.03,0:59:10.03,Default,,0,0,0,,Benevolence, then, is a way of looking at the world.
+Dialogue: 0,0:59:10.03,0:59:14.03,Default,,0,0,0,,One can also be benevolent towards oneself,
+Dialogue: 0,0:59:14.03,0:59:17.03,Default,,0,0,0,,to be benevolent towards oneself,
+Dialogue: 0,0:59:17.03,0:59:20.03,Default,,0,0,0,,to be merciful towards oneself.
+Dialogue: 0,0:59:20.03,0:59:23.03,Default,,0,0,0,,People are safer to be with who are merciful towards
+Dialogue: 0,0:59:23.03,0:59:26.03,Default,,0,0,0,,themselves because vicious people,
+Dialogue: 0,0:59:26.03,0:59:30.03,Default,,0,0,0,,what they do is they project it outward onto you.
+Dialogue: 0,0:59:30.03,0:59:31.03,Default,,0,0,0,,You see?
+Dialogue: 0,0:59:31.03,0:59:34.03,Default,,0,0,0,,So unless a person is kind to themselves,
+Dialogue: 0,0:59:34.03,0:59:36.03,Default,,0,0,0,,learns how to be kind to themselves,
+Dialogue: 0,0:59:36.03,0:59:38.03,Default,,0,0,0,,they're not really safe to be with
+Dialogue: 0,0:59:38.03,0:59:41.03,Default,,0,0,0,,because that can turn on you any second.
+Dialogue: 0,0:59:41.03,0:59:45.03,Default,,0,0,0,,So we want to teach people to be easygoing with themselves,
+Dialogue: 0,0:59:45.03,0:59:48.03,Default,,0,0,0,,to be accepting of your own limitations
+Dialogue: 0,0:59:48.03,0:59:51.03,Default,,0,0,0,,without going into guilt and self-hatred,
+Dialogue: 0,0:59:51.03,0:59:54.03,Default,,0,0,0,,without becoming self-punitive,
+Dialogue: 0,0:59:54.03,0:59:57.03,Default,,0,0,0,,to be kindly towards oneself.
+Dialogue: 0,0:59:57.03,0:59:59.03,Default,,0,0,0,,You can't be kindly towards others
+Dialogue: 0,0:59:59.03,1:00:01.03,Default,,0,0,0,,if you're not kindly towards yourself.
+Dialogue: 0,1:00:01.03,1:00:03.03,Default,,0,0,0,,You can go through the gestures of it,
+Dialogue: 0,1:00:03.03,1:00:05.03,Default,,0,0,0,,but you're not really being it.
+Dialogue: 0,1:00:06.03,1:00:10.03,Default,,0,0,0,,So being it means that what you would wish for others,
+Dialogue: 0,1:00:10.03,1:00:14.03,Default,,0,0,0,,you now wish and employ towards yourself.
+Dialogue: 0,1:00:14.03,1:00:17.03,Default,,0,0,0,,You talk about being kind and understanding
+Dialogue: 0,1:00:17.03,1:00:19.03,Default,,0,0,0,,and helpful to others.
+Dialogue: 0,1:00:19.03,1:00:23.03,Default,,0,0,0,,Now what's important is that you be that way to you.
+Dialogue: 0,1:00:23.03,1:00:25.03,Default,,0,0,0,,Is everyone here kind and loving
+Dialogue: 0,1:00:25.03,1:00:28.03,Default,,0,0,0,,and benevolent towards themselves?
+Dialogue: 0,1:00:28.03,1:00:32.03,Default,,0,0,0,,Are we?
+Dialogue: 0,1:00:32.03,1:00:35.03,Default,,0,0,0,,Anybody hate yourself?
+Dialogue: 0,1:00:35.03,1:00:38.03,Default,,0,0,0,,Boo, I hate anybody who hates himself.
+Dialogue: 0,1:00:43.03,1:00:45.03,Default,,0,0,0,,We have to kill anybody who hates himself.
+Dialogue: 0,1:00:45.03,1:00:47.03,Default,,0,0,0,,We don't want any...
+Dialogue: 0,1:00:47.03,1:00:50.03,Default,,0,0,0,,All right, so being benevolent and compassionate
+Dialogue: 0,1:00:50.03,1:00:53.03,Default,,0,0,0,,towards all of life and all of its expressions.
+Dialogue: 0,1:00:53.03,1:00:56.03,Default,,0,0,0,,To be compassionate towards all of life
+Dialogue: 0,1:00:56.03,1:00:58.03,Default,,0,0,0,,and all of its expressions,
+Dialogue: 0,1:00:58.03,1:01:01.03,Default,,0,0,0,,including its expression as you,
+Dialogue: 0,1:01:01.03,1:01:03.03,Default,,0,0,0,,then is the very heart and source
+Dialogue: 0,1:01:03.03,1:01:05.03,Default,,0,0,0,,of a spiritual life.
+Dialogue: 0,1:01:05.03,1:01:07.03,Default,,0,0,0,,It's a spiritual erudition, see,
+Dialogue: 0,1:01:07.03,1:01:09.03,Default,,0,0,0,,which does not require any book.
+Dialogue: 0,1:01:09.03,1:01:11.03,Default,,0,0,0,,It merely realizes
+Dialogue: 0,1:01:11.03,1:01:15.03,Default,,0,0,0,,the kindness towards yourself and towards others
+Dialogue: 0,1:01:15.03,1:01:18.03,Default,,0,0,0,,is what uplifts mankind.
+Dialogue: 0,1:01:18.03,1:01:20.03,Default,,0,0,0,,Because as you...
+Dialogue: 0,1:01:20.03,1:01:22.03,Default,,0,0,0,,The way you uplift mankind,
+Dialogue: 0,1:01:22.03,1:01:25.03,Default,,0,0,0,,people say, what can I do to help mankind?
+Dialogue: 0,1:01:25.03,1:01:27.03,Default,,0,0,0,,What you can do is to be
+Dialogue: 0,1:01:27.03,1:01:29.03,Default,,0,0,0,,the highest being you can be,
+Dialogue: 0,1:01:29.03,1:01:32.03,Default,,0,0,0,,to be as kind and considerate towards all of life
+Dialogue: 0,1:01:32.03,1:01:34.03,Default,,0,0,0,,and all of its expressions.
+Dialogue: 0,1:01:34.03,1:01:37.03,Default,,0,0,0,,You see, the beauty of all exists.
+Dialogue: 0,1:01:37.03,1:01:39.03,Default,,0,0,0,,Some things have to be displayed,
+Dialogue: 0,1:01:39.03,1:01:41.03,Default,,0,0,0,,like these flowers,
+Dialogue: 0,1:01:41.03,1:01:43.03,Default,,0,0,0,,so stunning, so stunning,
+Dialogue: 0,1:01:43.03,1:01:45.03,Default,,0,0,0,,before you finally see it.
+Dialogue: 0,1:01:45.03,1:01:46.03,Default,,0,0,0,,But then after a while,
+Dialogue: 0,1:01:46.03,1:01:49.03,Default,,0,0,0,,you see it in every living thing.
+Dialogue: 0,1:01:49.03,1:01:51.03,Default,,0,0,0,,You see it in every tree.
+Dialogue: 0,1:01:51.03,1:01:54.03,Default,,0,0,0,,And I think we've asked this question before.
+Dialogue: 0,1:01:54.03,1:01:55.03,Default,,0,0,0,,Let's ask...
+Dialogue: 0,1:01:55.03,1:01:57.03,Default,,0,0,0,,I'll see if I have this question.
+Dialogue: 0,1:01:57.03,1:01:59.03,Default,,0,0,0,,I have permission to ask this question.
+Dialogue: 0,1:01:59.03,1:02:00.03,Default,,0,0,0,,Is this...
+Dialogue: 0,1:02:00.03,1:02:03.03,Default,,0,0,0,,Every living thing is aware of the divinity
+Dialogue: 0,1:02:03.03,1:02:07.03,Default,,0,0,0,,of your existence as you walk by, resist.
+Dialogue: 0,1:02:07.03,1:02:09.03,Default,,0,0,0,,Every living thing,
+Dialogue: 0,1:02:09.03,1:02:11.03,Default,,0,0,0,,every tree,
+Dialogue: 0,1:02:11.03,1:02:13.03,Default,,0,0,0,,all the grass,
+Dialogue: 0,1:02:13.03,1:02:16.03,Default,,0,0,0,,all living things are aware
+Dialogue: 0,1:02:16.03,1:02:18.03,Default,,0,0,0,,that you have walked by.
+Dialogue: 0,1:02:18.03,1:02:20.03,Default,,0,0,0,,Wow.
+Dialogue: 0,1:02:20.03,1:02:23.03,Default,,0,0,0,,Therefore, just to be
+Dialogue: 0,1:02:23.03,1:02:26.03,Default,,0,0,0,,and to be in what you are
+Dialogue: 0,1:02:26.03,1:02:28.03,Default,,0,0,0,,uplifts the world.
+Dialogue: 0,1:02:28.03,1:02:30.03,Default,,0,0,0,,You don't have to run out there
+Dialogue: 0,1:02:30.03,1:02:32.03,Default,,0,0,0,,and sign up for pledges for things.
+Dialogue: 0,1:02:33.03,1:02:35.03,Default,,0,0,0,,You just be what you are
+Dialogue: 0,1:02:35.03,1:02:38.03,Default,,0,0,0,,to the fullest capacity.
+Dialogue: 0,1:02:38.03,1:02:40.03,Default,,0,0,0,,Appreciate with joy
+Dialogue: 0,1:02:40.03,1:02:41.03,Default,,0,0,0,,your own existence,
+Dialogue: 0,1:02:41.03,1:02:43.03,Default,,0,0,0,,your own creation.
+Dialogue: 0,1:02:43.03,1:02:45.03,Default,,0,0,0,,We thank thee, O Lord,
+Dialogue: 0,1:02:45.03,1:02:48.03,Default,,0,0,0,,for our existence.
+Dialogue: 0,1:02:48.03,1:02:52.03,Default,,0,0,0,,We thank you for our creation.
+Dialogue: 0,1:02:52.03,1:02:55.03,Default,,0,0,0,,By being thankful for our own creation,
+Dialogue: 0,1:02:55.03,1:02:58.03,Default,,0,0,0,,we bless all of creation.
+Dialogue: 0,1:02:58.03,1:03:00.03,Default,,0,0,0,,Amen.
+Dialogue: 0,1:03:00.03,1:03:02.03,Default,,0,0,0,,So we'll stop there for now,
+Dialogue: 0,1:03:02.03,1:03:04.03,Default,,0,0,0,,and then we'll take a break.
+Dialogue: 0,1:03:04.03,1:03:07.03,Default,,0,0,0,,And when do we resume?
+Dialogue: 0,1:03:07.03,1:03:09.03,Default,,0,0,0,,We resume about 11.30.
+Dialogue: 0,1:03:09.03,1:03:10.03,Default,,0,0,0,,Huh?
+Dialogue: 0,1:03:10.03,1:03:11.03,Default,,0,0,0,,11.30.
+Dialogue: 0,1:03:11.03,1:03:13.03,Default,,0,0,0,,11.30.
+Dialogue: 0,1:03:13.03,1:03:14.03,Default,,0,0,0,,We have refreshments
+Dialogue: 0,1:03:14.03,1:03:16.03,Default,,0,0,0,,across the courtyard here.

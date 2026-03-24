@@ -1,0 +1,1750 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.10,0:00:11.76,Default,,0,0,0,,I'm Dr. David Hawkins. I'm a physician. I've been a psychiatrist for 35 years, worked in the field
+Dialogue: 0,0:00:11.76,0:00:17.30,Default,,0,0,0,,of psychoanalysis, worked in the field of nutrition, and especially nutrition and its relationship to
+Dialogue: 0,0:00:17.30,0:00:23.24,Default,,0,0,0,,brain chemistry. For the last 10 years, I've been doing research into the nature of consciousness
+Dialogue: 0,0:00:23.24,0:00:31.00,Default,,0,0,0,,itself, and especially its relationship to that which the world calls spiritual. In today's talk,
+Dialogue: 0,0:00:31.00,0:00:36.74,Default,,0,0,0,,we're going to be looking at the subject of health, one which everyone is interested in,
+Dialogue: 0,0:00:37.44,0:00:41.98,Default,,0,0,0,,the subject of health which occupies the minds of a large part of our population. And of course,
+Dialogue: 0,0:00:42.10,0:00:48.30,Default,,0,0,0,,as a physician, and as a psychiatrist, and as a spiritual researcher, I've been very interested
+Dialogue: 0,0:00:48.30,0:00:55.36,Default,,0,0,0,,in the field of health and self-healing. So we'll be talking again about the relationship between
+Dialogue: 0,0:00:55.36,0:01:01.50,Default,,0,0,0,,body, mind, and spirit, because we know from our previous talks,
+Dialogue: 0,0:01:01.68,0:01:08.44,Default,,0,0,0,,that body has no way of experiencing itself, that body is experienced in mind only.
+Dialogue: 0,0:01:09.34,0:01:18.35,Default,,0,0,0,,It's in mind that you experience the body. We know that the body expresses that which is held
+Dialogue: 0,0:01:18.35,0:01:24.05,Default,,0,0,0,,in mind. We know that mind itself cannot really experience itself. It has to be experienced from
+Dialogue: 0,0:01:24.05,0:01:31.09,Default,,0,0,0,,an even greater energy field, which we call consciousness. So we go from dense form,
+Dialogue: 0,0:01:31.93,0:01:38.95,Default,,0,0,0,,ever expanding into ever increasing formlessness. And so we end up with the experiencing of
+Dialogue: 0,0:01:38.95,0:01:44.41,Default,,0,0,0,,experience itself, or that field called awareness, which is beyond consciousness itself.
+Dialogue: 0,0:01:45.11,0:01:50.65,Default,,0,0,0,,So we're looking today at that relationship between body, mind, and spirit, very important
+Dialogue: 0,0:01:50.65,0:01:56.63,Default,,0,0,0,,when we're considering the whole subject of health. We'll be looking at consciousness itself,
+Dialogue: 0,0:01:56.63,0:02:02.49,Default,,0,0,0,,because all experience is going on within consciousness itself. And because the power,
+Dialogue: 0,0:02:02.51,0:02:09.05,Default,,0,0,0,,the power of the energy fields here, we've discovered that healing comes out of attitudes
+Dialogue: 0,0:02:09.05,0:02:13.95,Default,,0,0,0,,and belief systems and that which is held in mind. And therefore, health is also coming
+Dialogue: 0,0:02:13.95,0:02:21.31,Default,,0,0,0,,out of expressions of levels of consciousness. And to understand this and make it more understandable,
+Dialogue: 0,0:02:21.31,0:02:26.86,Default,,0,0,0,,more comprehensible, especially to people who are very logical in the orientation, which
+Dialogue: 0,0:02:26.86,0:02:34.34,Default,,0,0,0,,I was of course, being a skeptical scientist, what we've done is prepared here an integrated
+Dialogue: 0,0:02:34.34,0:02:42.62,Default,,0,0,0,,map of consciousness based on a mathematical relationship between the energy fields. And
+Dialogue: 0,0:02:42.62,0:02:47.20,Default,,0,0,0,,the energy field that we've done, and myself and my coworker, Glorian Ross, over the last
+Dialogue: 0,0:02:47.20,0:02:53.72,Default,,0,0,0,,few years, in which we've calibrated the energy fields of literally tens of thousands of things.
+Dialogue: 0,0:02:53.72,0:02:56.30,Default,,0,0,0,,Attitudes, feelings, etc.
+Dialogue: 0,0:02:56.30,0:03:01.92,Default,,0,0,0,,And so we've come up with this mathematical model in which the relative power of energy
+Dialogue: 0,0:03:01.92,0:03:08.44,Default,,0,0,0,,fields is calibrated so that you see that apathy, which is calibrated at 50, has only
+Dialogue: 0,0:03:08.44,0:03:12.86,Default,,0,0,0,,half the power of fear, which is calibrated at 100.
+Dialogue: 0,0:03:12.86,0:03:18.62,Default,,0,0,0,,Fear on the other hand has only half the power or the energy of courage, which is calibrated
+Dialogue: 0,0:03:18.62,0:03:20.76,Default,,0,0,0,,at 200.
+Dialogue: 0,0:03:20.76,0:03:26.26,Default,,0,0,0,,Not only do these energy fields have different relative power to each other, but we see that
+Dialogue: 0,0:03:26.26,0:03:29.08,Default,,0,0,0,,the energy fields go in a certain direction.
+Dialogue: 0,0:03:29.08,0:03:36.28,Default,,0,0,0,,We see that all the energy fields under courage are directed in a negative, anti-life, that
+Dialogue: 0,0:03:36.28,0:03:40.64,Default,,0,0,0,,which is oriented towards destruction.
+Dialogue: 0,0:03:40.64,0:03:46.12,Default,,0,0,0,,The energy fields below courage then tend to be anti-life in their effect.
+Dialogue: 0,0:03:46.12,0:03:51.18,Default,,0,0,0,,At the level of courage we see that the needle swings to the midline, and we see that as
+Dialogue: 0,0:03:51.18,0:03:56.32,Default,,0,0,0,,we go beyond the energy field of 200, up to neutral willingness, acceptance and love,
+Dialogue: 0,0:03:56.32,0:03:56.40,Default,,0,0,0,,there isn't much that is going on behind that Iraq and umas.
+Dialogue: 0,0:03:56.40,0:03:56.48,Default,,0,0,0,,Okay, all right.
+Dialogue: 0,0:03:56.48,0:03:56.52,Default,,0,0,0,,Sewed to the left, I'll have a photo.
+Dialogue: 0,0:03:56.52,0:03:56.54,Default,,0,0,0,,Okay, now let's see how this would work .I'll have Buch constructed to 100, okay, this is
+Dialogue: 0,0:03:56.54,0:04:03.22,Default,,0,0,0,,that these energy fuels now go to the right, indicating that they nurture and support life,
+Dialogue: 0,0:04:03.62,0:04:07.96,Default,,0,0,0,,that they are energy-giving, life-giving, increasing aliveness.
+Dialogue: 0,0:04:08.48,0:04:13.48,Default,,0,0,0,,So as we go up the scale, we go into energy fuels of increasing aliveness,
+Dialogue: 0,0:04:14.02,0:04:16.54,Default,,0,0,0,,that which supports life and the truth.
+Dialogue: 0,0:04:16.72,0:04:20.76,Default,,0,0,0,,And as we get to the bottom of the field, we get to that which does not support life,
+Dialogue: 0,0:04:20.76,0:04:25.24,Default,,0,0,0,,which is anti-life, and which does not represent the truth.
+Dialogue: 0,0:04:25.88,0:04:28.54,Default,,0,0,0,,You'll notice that death is calibrated at zero.
+Dialogue: 0,0:04:29.12,0:04:32.14,Default,,0,0,0,,And if we start with death at zero and calibrate these fields,
+Dialogue: 0,0:04:32.54,0:04:37.46,Default,,0,0,0,,we will find that at about the level of 600, we leave the field of duality.
+Dialogue: 0,0:04:37.54,0:04:38.84,Default,,0,0,0,,We leave the field of illusion.
+Dialogue: 0,0:04:39.46,0:04:47.17,Default,,0,0,0,,We leave the identification with the small self, with that which is the ego, in common parlance.
+Dialogue: 0,0:04:47.17,0:04:52.61,Default,,0,0,0,,And we move on into fields of enlightenment, so that the great enlightened beings,
+Dialogue: 0,0:04:52.77,0:04:55.59,Default,,0,0,0,,the great spiritual masters, the avatars,
+Dialogue: 0,0:04:55.73,0:05:01.55,Default,,0,0,0,,their energy fuels calibrate and begin up in the 700s and go on up into infinity.
+Dialogue: 0,0:05:02.35,0:05:07.55,Default,,0,0,0,,So the truth really begins then, where this needle swings to neutral,
+Dialogue: 0,0:05:08.07,0:05:11.45,Default,,0,0,0,,leaving falsehood, going into truth,
+Dialogue: 0,0:05:11.87,0:05:15.97,Default,,0,0,0,,and the energy fuels now go to the right, indicating that which is supportive.
+Dialogue: 0,0:05:16.71,0:05:19.13,Default,,0,0,0,,Supportive of life, supportive of aliveness.
+Dialogue: 0,0:05:19.95,0:05:24.47,Default,,0,0,0,,And so in our talk today, where we're talking about health, we're talking about aliveness.
+Dialogue: 0,0:05:24.97,0:05:25.61,Default,,0,0,0,,But we're talking about truth.
+Dialogue: 0,0:05:25.61,0:05:25.63,Default,,0,0,0,,We're talking about truth.
+Dialogue: 0,0:05:25.63,0:05:25.67,Default,,0,0,0,,We're talking about truth.
+Dialogue: 0,0:05:25.67,0:05:25.69,Default,,0,0,0,,We're talking about truth.
+Dialogue: 0,0:05:25.69,0:05:28.89,Default,,0,0,0,,What we're talking about is the expression of an energy field.
+Dialogue: 0,0:05:29.37,0:05:31.73,Default,,0,0,0,,The expression of an energy field.
+Dialogue: 0,0:05:32.51,0:05:36.75,Default,,0,0,0,,And we said that the body expresses that which the mind holds.
+Dialogue: 0,0:05:37.17,0:05:39.69,Default,,0,0,0,,We're only subject to what we hold in mind.
+Dialogue: 0,0:05:40.53,0:05:44.61,Default,,0,0,0,,And therefore, the greater the negativity that is being held in mind,
+Dialogue: 0,0:05:45.15,0:05:49.45,Default,,0,0,0,,the greater the negative energy field effect on the body's physical health.
+Dialogue: 0,0:05:50.05,0:05:53.47,Default,,0,0,0,,The greater the positive energy being held in mind and consciousness,
+Dialogue: 0,0:05:53.47,0:05:55.47,Default,,0,0,0,,the more powerfully positive.
+Dialogue: 0,0:05:55.47,0:05:57.47,Default,,0,0,0,,And the more positive will be the energy field of life.
+Dialogue: 0,0:05:58.15,0:06:03.36,Default,,0,0,0,,So this gives us a tool now, a way of approaching things to see,
+Dialogue: 0,0:06:03.50,0:06:05.96,Default,,0,0,0,,does this support life or does it not support life?
+Dialogue: 0,0:06:06.86,0:06:12.62,Default,,0,0,0,,We can substitute the word health, because health is nothing but the expression of life.
+Dialogue: 0,0:06:14.11,0:06:16.95,Default,,0,0,0,,These things up here, we will find, are supporting health.
+Dialogue: 0,0:06:17.19,0:06:20.05,Default,,0,0,0,,And these things down here are creating illness.
+Dialogue: 0,0:06:20.61,0:06:24.15,Default,,0,0,0,,So at the bottom of the box, we have energy fuels that support illness.
+Dialogue: 0,0:06:24.15,0:06:26.19,Default,,0,0,0,,And at the top of the box, we have energy fuels that support illness.
+Dialogue: 0,0:06:26.19,0:06:28.31,Default,,0,0,0,,And at the bottom of the box, we have energy fuels that support health.
+Dialogue: 0,0:06:28.31,0:06:30.51,Default,,0,0,0,,And at the top of the box, we have energy fuels that support life.
+Dialogue: 0,0:06:30.51,0:06:32.75,Default,,0,0,0,,Each of these energy fields reflects themselves in an emotion.
+Dialogue: 0,0:06:33.07,0:06:37.77,Default,,0,0,0,,So that which is anti-life, as you would expect, has negative emotions.
+Dialogue: 0,0:06:37.77,0:06:43.27,Default,,0,0,0,,The emotions of self-hatred, hopelessness, despair, regret, depression, worry, anxiety,
+Dialogue: 0,0:06:43.27,0:06:47.07,Default,,0,0,0,,cravingness, resentment, hatred, arrogance.
+Dialogue: 0,0:06:48.04,0:06:51.88,Default,,0,0,0,,These negative emotions then accompany ill health.
+Dialogue: 0,0:06:53.53,0:06:56.15,Default,,0,0,0,,We see the process going on in consciousness,
+Dialogue: 0,0:06:56.15,0:06:56.59,Default,,0,0,0,,We see the process going on in consciousness, coming out of the body,
+Dialogue: 0,0:06:56.59,0:06:56.61,Default,,0,0,0,,We see the process going on in consciousness, coming out of the body,
+Dialogue: 0,0:06:56.61,0:07:02.85,Default,,0,0,0,,of these emotional states destruction loss of energy loss of spirit deflation entrapment
+Dialogue: 0,0:07:02.85,0:07:10.34,Default,,0,0,0,,over expansion over inflation loss of power we see the kind of a world that a person experiences
+Dialogue: 0,0:07:10.34,0:07:16.26,Default,,0,0,0,,out of these negative mental states a world of sin and suffering hopelessness sadness frightening
+Dialogue: 0,0:07:16.26,0:07:23.22,Default,,0,0,0,,frustrating competitive a world of status we see the negative conceptualizations of god that come
+Dialogue: 0,0:07:23.22,0:07:29.78,Default,,0,0,0,,out of a lower energy field god is the ultimate enemy of man the one who hates them hates him
+Dialogue: 0,0:07:29.78,0:07:34.74,Default,,0,0,0,,the destroyer the one who throws you into hell forever or the god who ignores you the
+Dialogue: 0,0:07:34.74,0:07:40.58,Default,,0,0,0,,unlovingness the god who's dead the god is punitive the god is retaliatory or the atheistic
+Dialogue: 0,0:07:40.58,0:07:48.66,Default,,0,0,0,,or the bigot position so we have an energy field we have its negative direction we can see the
+Dialogue: 0,0:07:48.66,0:07:52.82,Default,,0,0,0,,weakness of the power we can see the negative emotion the destructive
+Dialogue: 0,0:07:53.22,0:07:57.78,Default,,0,0,0,,and process going on in consciousness the negative view of the world and the negative
+Dialogue: 0,0:07:57.78,0:08:05.70,Default,,0,0,0,,view of god all correlate with ill health all correlate with ill health is that accidental
+Dialogue: 0,0:08:05.70,0:08:11.54,Default,,0,0,0,,is it causal so we'll be looking at that today we'll be looking at health as the expression of
+Dialogue: 0,0:08:11.54,0:08:18.02,Default,,0,0,0,,unopposed aliveness resulting from the removal of its obstacles from the removal of all that is
+Dialogue: 0,0:08:18.02,0:08:24.02,Default,,0,0,0,,negative and we'll see that health results from transcending limitation and feelings of separation
+Dialogue: 0,0:08:24.74,0:08:29.06,Default,,0,0,0,,that we have the power of refusal we can refuse things that are negative in our life
+Dialogue: 0,0:08:29.62,0:08:35.62,Default,,0,0,0,,if our mind can get programmed in a negative direction we can choose to program it in a
+Dialogue: 0,0:08:35.62,0:08:39.86,Default,,0,0,0,,positive direction we'll be looking at health as an expression of self-love
+Dialogue: 0,0:08:40.74,0:08:46.56,Default,,0,0,0,,just how does one learn learn to love oneself we'll build an understanding of the subject then
+Dialogue: 0,0:08:46.56,0:08:55.09,Default,,0,0,0,,based on um our knowledge of these energy fields and their applications in everyday life and how to
+Dialogue: 0,0:08:55.89,0:09:02.63,Default,,0,0,0,,apply them to our daily lives this includes our way of thinking how do we live our lives
+Dialogue: 0,0:09:02.63,0:09:08.15,Default,,0,0,0,,we take our time to think we get excited about ourselves and do things that we like and we
+Dialogue: 0,0:09:08.15,0:09:13.27,Default,,0,0,0,,see that there's a lot of life that we can do and we can do it we've all got healthy states
+Dialogue: 0,0:09:13.27,0:09:17.91,Default,,0,0,0,,of body health so even if we do more often we can have better health and also more energy
+Dialogue: 0,0:09:17.91,0:09:20.95,Default,,0,0,0,,the same way we can have better physical health we can have better health and when we have more
+Dialogue: 0,0:09:20.95,0:09:23.83,Default,,0,0,0,,health we can have better mental health like we can have better cognitive health and so on and so on
+Dialogue: 0,0:09:23.83,0:09:28.63,Default,,0,0,0,,catch out of the corner of your eye and not central to your experience at all that means
+Dialogue: 0,0:09:28.63,0:09:34.63,Default,,0,0,0,,letting go of identifying oneself as this physicalness and so on the scale of consciousness
+Dialogue: 0,0:09:34.63,0:09:41.27,Default,,0,0,0,,here as we get towards the bottom of the box we have an increasing identification of ourselves
+Dialogue: 0,0:09:41.27,0:09:47.83,Default,,0,0,0,,as being the body and as we move higher in our consciousness this lessons and lessons until we
+Dialogue: 0,0:09:47.83,0:09:54.07,Default,,0,0,0,,finally transcend that identification with the body and in move into the realization of spirit
+Dialogue: 0,0:09:54.63,0:10:00.47,Default,,0,0,0,,the relationship between body mind and spirit then is what we'll be looking at today and how
+Dialogue: 0,0:10:00.47,0:10:06.16,Default,,0,0,0,,to achieve optimal health we have to look at the relationship between mind and body because that
+Dialogue: 0,0:10:06.16,0:10:11.89,Default,,0,0,0,,is of great importance in the field of health and one that is not really clearly understood
+Dialogue: 0,0:10:12.53,0:10:16.61,Default,,0,0,0,,perhaps utilizing our map of consciousness we can make it clearer
+Dialogue: 0,0:10:17.33,0:10:17.81,Default,,0,0,0,,and there is a
+Dialogue: 0,0:10:17.81,0:10:18.05,Default,,0,0,0,,certain
+Dialogue: 0,0:10:18.05,0:10:22.77,Default,,0,0,0,,principle and it's demonstrated clinically and we'll get to clinical examples
+Dialogue: 0,0:10:24.44,0:10:29.88,Default,,0,0,0,,that we're only subject to what we hold in mind now this is a principle of healing and a principle
+Dialogue: 0,0:10:29.88,0:10:35.80,Default,,0,0,0,,of health the health and healing being two different sides of a coin illness being one side
+Dialogue: 0,0:10:35.80,0:10:42.23,Default,,0,0,0,,of the coin health the other the opposite sides of the coin of the same understanding the same
+Dialogue: 0,0:10:42.23,0:10:48.69,Default,,0,0,0,,understanding that heals brings about health that we're subject to what we're holding in mind good
+Dialogue: 0,0:10:48.69,0:10:49.09,Default,,0,0,0,,clinical
+Dialogue: 0,0:10:49.09,0:10:55.41,Default,,0,0,0,,example of this as we said in a talk that we gave on healing illness is that of multiple
+Dialogue: 0,0:10:55.41,0:11:02.93,Default,,0,0,0,,personalities and another example is of hypnosis under hypnosis we can give a suggestion to a
+Dialogue: 0,0:11:02.93,0:11:08.77,Default,,0,0,0,,patient that you are allergic to the roses on the desk and when you wake up you will get hives
+Dialogue: 0,0:11:08.77,0:11:13.97,Default,,0,0,0,,and a rash and start sneezing and then we create amnesia for that suggestion
+Dialogue: 0,0:11:15.03,0:11:19.59,Default,,0,0,0,,when the person wakes up from the hypnotic trance all of a sudden they start to wheeze
+Dialogue: 0,0:11:19.99,0:11:25.83,Default,,0,0,0,,they get hives and develop a rash so the body you see is responding to what the mind believes
+Dialogue: 0,0:11:26.72,0:11:33.60,Default,,0,0,0,,and so with hypnosis we can induce the symptoms and i would imagine probably almost any illness
+Dialogue: 0,0:11:33.60,0:11:39.04,Default,,0,0,0,,by convincing the patient under hypnosis that our program that we have just programmed him with
+Dialogue: 0,0:11:39.04,0:11:46.45,Default,,0,0,0,,is actually true and then creating amnesia for the memory that he was programmed and so we see
+Dialogue: 0,0:11:46.45,0:11:50.21,Default,,0,0,0,,the illness then is coming out of a program a belief system
+Dialogue: 0,0:11:50.85,0:11:56.34,Default,,0,0,0,,of course the hypnotic patient is this is happening as an experiment in a laboratory
+Dialogue: 0,0:11:57.06,0:12:03.16,Default,,0,0,0,,but let's forget let's not forget what happens in everyday life is that we've been hypnotized
+Dialogue: 0,0:12:03.16,0:12:08.76,Default,,0,0,0,,thousands and thousands of times we sit in a trance before the television set have no conscious
+Dialogue: 0,0:12:08.76,0:12:13.88,Default,,0,0,0,,memory the program went in and we are now subject to that for the rest of our life with no memory of
+Dialogue: 0,0:12:13.88,0:12:19.11,Default,,0,0,0,,where that came from because of childhood amnesia many people can't remember what happened before
+Dialogue: 0,0:12:19.11,0:12:20.63,Default,,0,0,0,,the age of five and so they're going to have a lot to deal with what's going on in my life right now
+Dialogue: 0,0:12:20.95,0:12:26.49,Default,,0,0,0,,Some people even, you know, at a much later age, they have no memory of anything from their entire childhood or very few memories.
+Dialogue: 0,0:12:27.33,0:12:32.55,Default,,0,0,0,,Even people with good memories of their childhood, there are vast areas of vacant forgottenness.
+Dialogue: 0,0:12:33.83,0:12:40.43,Default,,0,0,0,,And in those areas of vacant forgottenness are the many programs which are now expressing later on in various forms of ill health.
+Dialogue: 0,0:12:40.43,0:12:47.99,Default,,0,0,0,,Such catchphrases as heart disease runs in our family, overweight runs in our family, allergies run in our family, etc.
+Dialogue: 0,0:12:48.23,0:12:49.91,Default,,0,0,0,,Everybody has hay fever in our family.
+Dialogue: 0,0:12:49.91,0:12:59.16,Default,,0,0,0,,These thoughts then become a program and it goes into the mind and we see that it's the same as though the person was hypnotized.
+Dialogue: 0,0:12:59.30,0:13:05.64,Default,,0,0,0,,Until that program is made conscious and cancelled, it remains operative within the unconscious.
+Dialogue: 0,0:13:06.14,0:13:14.67,Default,,0,0,0,,We see another example of the power of mind over body in so-called cases of multiple personality.
+Dialogue: 0,0:13:15.15,0:13:19.65,Default,,0,0,0,,These have been gaining increasing attention within the field of psychiatry
+Dialogue: 0,0:13:19.65,0:13:21.33,Default,,0,0,0,,and it is found to be far more common.
+Dialogue: 0,0:13:21.35,0:13:32.47,Default,,0,0,0,,It was previously believed that the consciousness of one personality will be adopted and be operative within the person's body for varying periods of time.
+Dialogue: 0,0:13:32.47,0:13:36.53,Default,,0,0,0,,It could be minutes, it could be hours, weeks, days, or even years.
+Dialogue: 0,0:13:36.53,0:13:42.77,Default,,0,0,0,,While that personality is operative, while that second personality is operative,
+Dialogue: 0,0:13:42.77,0:13:47.87,Default,,0,0,0,,the person is subject to all the belief systems held by that personality.
+Dialogue: 0,0:13:47.87,0:13:51.31,Default,,0,0,0,,So if that personality happens to believe I have an ulcer,
+Dialogue: 0,0:13:51.35,0:13:58.31,Default,,0,0,0,,I have a weight problem, I have allergies, I have diverticulitis, I have colitis, whatever it may believe,
+Dialogue: 0,0:13:58.31,0:14:04.99,Default,,0,0,0,,I have back trouble, so while that personality is operative within the body,
+Dialogue: 0,0:14:04.99,0:14:09.33,Default,,0,0,0,,those physical abnormalities actually are brought into existence.
+Dialogue: 0,0:14:09.33,0:14:16.03,Default,,0,0,0,,The reverse side of it is when that personality leaves and how that comes about is
+Dialogue: 0,0:14:16.03,0:14:22.39,Default,,0,0,0,,sometimes intoxication or shifts of emotionality or life circumstances, suddenly the other personality comes into the body.
+Dialogue: 0,0:14:22.53,0:14:29.77,Default,,0,0,0,,The other personality which has no such belief, the body promptly heals itself of all those illnesses.
+Dialogue: 0,0:14:29.77,0:14:33.40,Default,,0,0,0,,Now why does the mind have such power over the body?
+Dialogue: 0,0:14:33.40,0:14:36.04,Default,,0,0,0,,Perhaps we can look at the physics of it a bit.
+Dialogue: 0,0:14:36.04,0:14:39.32,Default,,0,0,0,,The physics would make it very easily understandable.
+Dialogue: 0,0:14:39.32,0:14:46.06,Default,,0,0,0,,We sit in our calibrated system here where death is zero and guilt is 30, 50, we went all the way up here.
+Dialogue: 0,0:14:46.06,0:14:49.26,Default,,0,0,0,,We can get the energy field of anything in the world.
+Dialogue: 0,0:14:49.26,0:14:52.76,Default,,0,0,0,,And so we calibrate the energy field of the body,
+Dialogue: 0,0:14:52.76,0:15:00.76,Default,,0,0,0,,the physical body itself, and we find that the physical body is not a reversed state like this.
+Dialogue: 0,0:15:00.76,0:15:06.38,Default,,0,0,0,,The body is not a negative state, but the energy field of the body is about 100.
+Dialogue: 0,0:15:06.38,0:15:10.52,Default,,0,0,0,,In other words, its power, its energy field is about 100.
+Dialogue: 0,0:15:10.52,0:15:14.32,Default,,0,0,0,,The energy field of mind begins here around 400.
+Dialogue: 0,0:15:14.32,0:15:16.92,Default,,0,0,0,,It runs between 400 and 500.
+Dialogue: 0,0:15:16.92,0:15:22.56,Default,,0,0,0,,Those are the energy fields of the intellect, reason, logic, mind,
+Dialogue: 0,0:15:22.56,0:15:24.75,Default,,0,0,0,,and beliefs.
+Dialogue: 0,0:15:24.75,0:15:29.75,Default,,0,0,0,,And therefore if we hold a thought in mind that says,
+Dialogue: 0,0:15:29.75,0:15:39.87,Default,,0,0,0,,seeds like in a strawberry or caraway seeds or any kind of seeds give me diverticulitis,
+Dialogue: 0,0:15:39.87,0:15:46.41,Default,,0,0,0,,then the power of that thought, you see coming out of an energy field of between 400 and 500,
+Dialogue: 0,0:15:46.41,0:15:52.75,Default,,0,0,0,,the body which only has an energy field of 100 is overpowered by the power of the pattern
+Dialogue: 0,0:15:52.75,0:15:54.75,Default,,0,0,0,,of that belief.
+Dialogue: 0,0:15:54.75,0:15:56.75,Default,,0,0,0,,And all thoughts have a form.
+Dialogue: 0,0:15:56.75,0:16:00.75,Default,,0,0,0,,And so the form, which is there in the collective unconscious,
+Dialogue: 0,0:16:00.75,0:16:05.75,Default,,0,0,0,,the collective consciousness, the social consciousness, whatever you want to call it,
+Dialogue: 0,0:16:05.75,0:16:07.75,Default,,0,0,0,,is there in great detail.
+Dialogue: 0,0:16:07.75,0:16:14.75,Default,,0,0,0,,The pattern of that and the coming about of how the mechanics of that would happen is already there.
+Dialogue: 0,0:16:14.75,0:16:19.75,Default,,0,0,0,,So if we buy into that thought, if we go into agreement with it,
+Dialogue: 0,0:16:19.75,0:16:22.75,Default,,0,0,0,,it's like we bring it into our own unconscious.
+Dialogue: 0,0:16:22.75,0:16:25.75,Default,,0,0,0,,And that then expresses itself within the body.
+Dialogue: 0,0:16:25.75,0:16:28.75,Default,,0,0,0,,So the body will do what the mind believes.
+Dialogue: 0,0:16:28.75,0:16:34.10,Default,,0,0,0,,So the healing of the body then and the achievement of health
+Dialogue: 0,0:16:34.10,0:16:39.10,Default,,0,0,0,,is achieved not by addressing the body directly but by addressing the mind,
+Dialogue: 0,0:16:39.10,0:16:43.10,Default,,0,0,0,,moving right into the fields of consciousness itself.
+Dialogue: 0,0:16:43.10,0:16:47.10,Default,,0,0,0,,So if the body is expressing that which is held in consciousness,
+Dialogue: 0,0:16:47.10,0:16:51.36,Default,,0,0,0,,then what we need to look at is what is being held in consciousness.
+Dialogue: 0,0:16:51.36,0:16:53.36,Default,,0,0,0,,Very often what's being held in consciousness
+Dialogue: 0,0:16:53.36,0:16:55.36,Default,,0,0,0,,we are not aware of.
+Dialogue: 0,0:16:55.36,0:16:58.36,Default,,0,0,0,,In that case we call it being unconscious of that.
+Dialogue: 0,0:16:58.36,0:17:05.06,Default,,0,0,0,,By looking at the body we may have no recall of ever having had such a thought.
+Dialogue: 0,0:17:05.06,0:17:09.06,Default,,0,0,0,,But the body is telling us what must be held.
+Dialogue: 0,0:17:09.06,0:17:10.06,Default,,0,0,0,,It's like an x-ray.
+Dialogue: 0,0:17:10.06,0:17:16.06,Default,,0,0,0,,The x-ray is telling us what must be held in mind for this to be presenting itself in the body.
+Dialogue: 0,0:17:16.06,0:17:21.12,Default,,0,0,0,,So if the person, let's say, develops clinical diabetes,
+Dialogue: 0,0:17:21.12,0:17:22.12,Default,,0,0,0,,and he says,
+Dialogue: 0,0:17:22.12,0:17:24.12,Default,,0,0,0,,I don't remember anything in my family.
+Dialogue: 0,0:17:24.12,0:17:27.12,Default,,0,0,0,,I don't remember anything in my family ever being said about that.
+Dialogue: 0,0:17:27.12,0:17:30.12,Default,,0,0,0,,I don't remember anybody in my family had diabetes.
+Dialogue: 0,0:17:30.12,0:17:33.73,Default,,0,0,0,,I don't see where it could have arisen in my mind.
+Dialogue: 0,0:17:33.73,0:17:37.73,Default,,0,0,0,,We know that somewhere in the unconscious is the belief in diabetes
+Dialogue: 0,0:17:37.73,0:17:39.73,Default,,0,0,0,,and all that goes with diabetes.
+Dialogue: 0,0:17:39.73,0:17:42.73,Default,,0,0,0,,If we do individual research with the individual patient
+Dialogue: 0,0:17:42.73,0:17:44.73,Default,,0,0,0,,long enough and patiently enough,
+Dialogue: 0,0:17:44.73,0:17:47.76,Default,,0,0,0,,we will uncover where the program came from.
+Dialogue: 0,0:17:47.76,0:17:50.76,Default,,0,0,0,,But what it tells us is that the program is there.
+Dialogue: 0,0:17:50.76,0:17:53.76,Default,,0,0,0,,That the person thinks, I am subject to that.
+Dialogue: 0,0:17:53.76,0:17:57.76,Default,,0,0,0,,And therefore the healing has to be of the belief system.
+Dialogue: 0,0:17:57.76,0:18:01.76,Default,,0,0,0,,We have to heal where the origin of the illness starts.
+Dialogue: 0,0:18:01.76,0:18:04.76,Default,,0,0,0,,And so health comes out of mind.
+Dialogue: 0,0:18:04.76,0:18:07.76,Default,,0,0,0,,It comes out of positive mental attitudes.
+Dialogue: 0,0:18:07.76,0:18:10.76,Default,,0,0,0,,It comes out of a field of consciousness.
+Dialogue: 0,0:18:10.76,0:18:12.76,Default,,0,0,0,,It comes out of a level of consciousness
+Dialogue: 0,0:18:12.76,0:18:17.76,Default,,0,0,0,,which expresses itself on the lower plane, the physical plane,
+Dialogue: 0,0:18:17.76,0:18:22.76,Default,,0,0,0,,as an expression of health coming out of these fields above neutral.
+Dialogue: 0,0:18:22.76,0:18:23.76,Default,,0,0,0,,Out of willingness.
+Dialogue: 0,0:18:23.76,0:18:25.76,Default,,0,0,0,,Out of the willingness to be accepting.
+Dialogue: 0,0:18:25.76,0:18:26.76,Default,,0,0,0,,Out of lovingness.
+Dialogue: 0,0:18:26.76,0:18:28.76,Default,,0,0,0,,Out of inner joyfulness.
+Dialogue: 0,0:18:28.76,0:18:30.76,Default,,0,0,0,,And out of an inner state of peace.
+Dialogue: 0,0:18:30.76,0:18:34.76,Default,,0,0,0,,That which is mental was in the 400s.
+Dialogue: 0,0:18:34.76,0:18:36.76,Default,,0,0,0,,And that love is 500s.
+Dialogue: 0,0:18:36.76,0:18:39.76,Default,,0,0,0,,And of course spirit is 600 and above.
+Dialogue: 0,0:18:39.76,0:18:42.76,Default,,0,0,0,,Actually spirit begins here once the needle moves to the right.
+Dialogue: 0,0:18:42.76,0:18:48.15,Default,,0,0,0,,It becomes increasingly consciously aware that it is spirit.
+Dialogue: 0,0:18:48.15,0:18:52.15,Default,,0,0,0,,So therefore the intellect is not man's highest faculty.
+Dialogue: 0,0:18:52.15,0:18:57.15,Default,,0,0,0,,Contrary to the age of reason and other learned works.
+Dialogue: 0,0:18:57.15,0:19:04.18,Default,,0,0,0,,Or those intellectuals who hold the thing that differentiates man from the animal is his intellect.
+Dialogue: 0,0:19:04.18,0:19:06.18,Default,,0,0,0,,The intellect is only in the 400s.
+Dialogue: 0,0:19:06.18,0:19:10.18,Default,,0,0,0,,There is something beyond mind, beyond logic, beyond reason,
+Dialogue: 0,0:19:10.18,0:19:15.18,Default,,0,0,0,,which jumps and transcends into a whole different paradigm,
+Dialogue: 0,0:19:15.18,0:19:17.18,Default,,0,0,0,,a whole different way of being.
+Dialogue: 0,0:19:17.18,0:19:19.18,Default,,0,0,0,,It's necessary to know about that.
+Dialogue: 0,0:19:19.18,0:19:22.18,Default,,0,0,0,,It's necessary to know then that which heals,
+Dialogue: 0,0:19:22.18,0:19:24.31,Default,,0,0,0,,which is here on up.
+Dialogue: 0,0:19:24.31,0:19:31.40,Default,,0,0,0,,It's necessary to look at the contribution that is coming into an illness from these various levels.
+Dialogue: 0,0:19:31.40,0:19:33.40,Default,,0,0,0,,We find that always with an illness,
+Dialogue: 0,0:19:33.40,0:19:34.40,Default,,0,0,0,,if we now understand illness,
+Dialogue: 0,0:19:34.40,0:19:36.40,Default,,0,0,0,,then we will understand its reverse,
+Dialogue: 0,0:19:36.40,0:19:38.40,Default,,0,0,0,,which is health.
+Dialogue: 0,0:19:38.40,0:19:41.40,Default,,0,0,0,,That in illness there is always unconscious guilt.
+Dialogue: 0,0:19:41.40,0:19:47.78,Default,,0,0,0,,Never has there been an illness without unconscious guilt in our research.
+Dialogue: 0,0:19:47.78,0:19:52.78,Default,,0,0,0,,There is an unconscious guilt and therefore the undoing of unconscious guilt.
+Dialogue: 0,0:19:52.78,0:19:54.78,Default,,0,0,0,,We're not talking about conscious guilt now.
+Dialogue: 0,0:19:54.78,0:19:56.78,Default,,0,0,0,,We're talking about unconscious guilt.
+Dialogue: 0,0:19:56.78,0:20:02.78,Default,,0,0,0,,And therefore there are whole systems of how to let go of unconscious guilt
+Dialogue: 0,0:20:02.78,0:20:06.78,Default,,0,0,0,,through the process of the willingness to forgive.
+Dialogue: 0,0:20:06.78,0:20:08.78,Default,,0,0,0,,Moving from here then,
+Dialogue: 0,0:20:08.78,0:20:11.78,Default,,0,0,0,,meaning the willingness to let go of judgment,
+Dialogue: 0,0:20:11.78,0:20:13.78,Default,,0,0,0,,of criticism and judgment,
+Dialogue: 0,0:20:13.78,0:20:15.78,Default,,0,0,0,,the willingness to let go of make wrong,
+Dialogue: 0,0:20:15.78,0:20:18.78,Default,,0,0,0,,of right wrong as an orientation towards life,
+Dialogue: 0,0:20:18.78,0:20:21.78,Default,,0,0,0,,and a willingness to move towards a forgivingness
+Dialogue: 0,0:20:21.78,0:20:26.78,Default,,0,0,0,,and the desire to understand life out of compassion.
+Dialogue: 0,0:20:26.78,0:20:30.26,Default,,0,0,0,,So moving out of the contribution of guilt
+Dialogue: 0,0:20:30.26,0:20:32.26,Default,,0,0,0,,and all the negative emotions,
+Dialogue: 0,0:20:32.26,0:20:34.26,Default,,0,0,0,,and we move up to the mind,
+Dialogue: 0,0:20:34.26,0:20:37.26,Default,,0,0,0,,we find that illness requires several things.
+Dialogue: 0,0:20:37.26,0:20:40.26,Default,,0,0,0,,It requires unconscious guilt
+Dialogue: 0,0:20:40.26,0:20:44.26,Default,,0,0,0,,and it requires a mental belief system.
+Dialogue: 0,0:20:44.26,0:20:47.26,Default,,0,0,0,,The mind has to believe in a certain belief
+Dialogue: 0,0:20:47.26,0:20:50.26,Default,,0,0,0,,for the person to believe that they are subject to that.
+Dialogue: 0,0:20:50.26,0:20:52.26,Default,,0,0,0,,It's as though unconscious guilt
+Dialogue: 0,0:20:52.26,0:20:56.26,Default,,0,0,0,,looks for something to justify itself.
+Dialogue: 0,0:20:56.26,0:20:59.26,Default,,0,0,0,,So it can be any illness out there
+Dialogue: 0,0:20:59.26,0:21:01.26,Default,,0,0,0,,and we see that after a certain illness
+Dialogue: 0,0:21:01.26,0:21:03.26,Default,,0,0,0,,gets popularized on television,
+Dialogue: 0,0:21:03.26,0:21:05.26,Default,,0,0,0,,let's say some celebrity,
+Dialogue: 0,0:21:05.26,0:21:08.26,Default,,0,0,0,,shares with us that particular illness
+Dialogue: 0,0:21:08.26,0:21:11.26,Default,,0,0,0,,and that's followed by an epidemic of that illness.
+Dialogue: 0,0:21:11.26,0:21:13.90,Default,,0,0,0,,It's because of suggestion.
+Dialogue: 0,0:21:13.90,0:21:15.90,Default,,0,0,0,,The mind now buys that.
+Dialogue: 0,0:21:15.90,0:21:17.90,Default,,0,0,0,,The mind buys the belief system
+Dialogue: 0,0:21:17.90,0:21:20.90,Default,,0,0,0,,in the specificity of a particular disease.
+Dialogue: 0,0:21:20.90,0:21:22.90,Default,,0,0,0,,Unconscious guilt gives us
+Dialogue: 0,0:21:22.90,0:21:25.32,Default,,0,0,0,,and gives it the power.
+Dialogue: 0,0:21:25.32,0:21:26.32,Default,,0,0,0,,It's the unconscious guilt
+Dialogue: 0,0:21:26.32,0:21:27.32,Default,,0,0,0,,looking for an expression
+Dialogue: 0,0:21:27.32,0:21:29.32,Default,,0,0,0,,through the autonomic nervous system
+Dialogue: 0,0:21:29.32,0:21:31.32,Default,,0,0,0,,and through the hormonal system
+Dialogue: 0,0:21:31.32,0:21:34.32,Default,,0,0,0,,and through all the stress mechanisms within the body
+Dialogue: 0,0:21:34.32,0:21:37.32,Default,,0,0,0,,and through the acupuncture energy system.
+Dialogue: 0,0:21:37.32,0:21:41.48,Default,,0,0,0,,Which brings us to the subject of kinesiology
+Dialogue: 0,0:21:41.48,0:21:44.48,Default,,0,0,0,,which we mentioned in one of our other talks
+Dialogue: 0,0:21:44.48,0:21:47.48,Default,,0,0,0,,as a way of checking out for yourself
+Dialogue: 0,0:21:47.48,0:21:49.48,Default,,0,0,0,,these calibrations.
+Dialogue: 0,0:21:49.48,0:21:51.48,Default,,0,0,0,,All of you who are familiar with kinesiology
+Dialogue: 0,0:21:51.48,0:21:52.48,Default,,0,0,0,,know how it works.
+Dialogue: 0,0:21:52.48,0:21:53.48,Default,,0,0,0,,Those who aren't,
+Dialogue: 0,0:21:53.48,0:21:55.48,Default,,0,0,0,,I can just briefly explain it to you
+Dialogue: 0,0:21:55.48,0:21:57.48,Default,,0,0,0,,in about less than a minute.
+Dialogue: 0,0:21:57.48,0:22:00.15,Default,,0,0,0,,What you do is you press down
+Dialogue: 0,0:22:00.15,0:22:02.15,Default,,0,0,0,,and you have somebody hold out their arm.
+Dialogue: 0,0:22:02.15,0:22:03.15,Default,,0,0,0,,You look away from them
+Dialogue: 0,0:22:03.15,0:22:05.15,Default,,0,0,0,,and you press down and ask them to resist.
+Dialogue: 0,0:22:05.15,0:22:08.15,Default,,0,0,0,,Now you ask them to hold something negative in mind.
+Dialogue: 0,0:22:08.15,0:22:10.15,Default,,0,0,0,,Something about in their life
+Dialogue: 0,0:22:10.15,0:22:12.15,Default,,0,0,0,,over which they have grief or fear
+Dialogue: 0,0:22:12.15,0:22:14.15,Default,,0,0,0,,or somebody they hate, let's say.
+Dialogue: 0,0:22:14.15,0:22:15.15,Default,,0,0,0,,And as you press,
+Dialogue: 0,0:22:15.15,0:22:16.15,Default,,0,0,0,,now you ask them to resist
+Dialogue: 0,0:22:16.15,0:22:17.15,Default,,0,0,0,,and you press down again
+Dialogue: 0,0:22:17.15,0:22:20.15,Default,,0,0,0,,and you'll see instantly the whole body goes weak.
+Dialogue: 0,0:22:20.15,0:22:22.15,Default,,0,0,0,,The body goes weak
+Dialogue: 0,0:22:22.15,0:22:25.15,Default,,0,0,0,,figuratively and symbolically
+Dialogue: 0,0:22:25.15,0:22:27.15,Default,,0,0,0,,it goes weak on many levels.
+Dialogue: 0,0:22:27.15,0:22:29.18,Default,,0,0,0,,Now if we ask the same person
+Dialogue: 0,0:22:29.18,0:22:31.18,Default,,0,0,0,,to forget that and instead
+Dialogue: 0,0:22:31.18,0:22:34.18,Default,,0,0,0,,to hold in mind something or someone they love
+Dialogue: 0,0:22:34.18,0:22:35.18,Default,,0,0,0,,and we press down again
+Dialogue: 0,0:22:35.18,0:22:37.18,Default,,0,0,0,,we'll find that with all our strength
+Dialogue: 0,0:22:37.18,0:22:38.18,Default,,0,0,0,,we can't push their arm down.
+Dialogue: 0,0:22:38.18,0:22:40.18,Default,,0,0,0,,They are amazingly strong.
+Dialogue: 0,0:22:40.18,0:22:42.18,Default,,0,0,0,,The brain hemispheres are synchronized,
+Dialogue: 0,0:22:42.18,0:22:44.18,Default,,0,0,0,,the acupuncture energy system is balanced
+Dialogue: 0,0:22:44.18,0:22:47.18,Default,,0,0,0,,and the energy flow of health,
+Dialogue: 0,0:22:47.18,0:22:50.18,Default,,0,0,0,,the energy of life is flowing correctly
+Dialogue: 0,0:22:50.18,0:22:52.18,Default,,0,0,0,,down all the energy channels
+Dialogue: 0,0:22:52.18,0:22:55.18,Default,,0,0,0,,and energizing all the organs of the body.
+Dialogue: 0,0:22:55.18,0:22:58.18,Default,,0,0,0,,So that we see every time we hold a negative thought
+Dialogue: 0,0:22:58.18,0:23:02.18,Default,,0,0,0,,then the energy flow down one of the 12 main meridians
+Dialogue: 0,0:23:02.18,0:23:04.18,Default,,0,0,0,,is interrupted.
+Dialogue: 0,0:23:04.18,0:23:07.18,Default,,0,0,0,,And if we habitually blow certain acupuncture meridians
+Dialogue: 0,0:23:07.18,0:23:10.18,Default,,0,0,0,,then disease comes about in that organ.
+Dialogue: 0,0:23:10.18,0:23:13.56,Default,,0,0,0,,So we see that any of these negative emotions
+Dialogue: 0,0:23:13.56,0:23:17.56,Default,,0,0,0,,is the direct cause of a disease process.
+Dialogue: 0,0:23:17.56,0:23:21.56,Default,,0,0,0,,Unconscious guilt gives it enormous power
+Dialogue: 0,0:23:21.56,0:23:24.56,Default,,0,0,0,,and the form that that illness takes
+Dialogue: 0,0:23:24.56,0:23:26.56,Default,,0,0,0,,then is coming from mind,
+Dialogue: 0,0:23:26.56,0:23:28.56,Default,,0,0,0,,what the mind believes.
+Dialogue: 0,0:23:28.56,0:23:31.69,Default,,0,0,0,,So what the mind believes is what the body expresses.
+Dialogue: 0,0:23:31.69,0:23:36.72,Default,,0,0,0,,We have to look at how experience is experienced.
+Dialogue: 0,0:23:36.72,0:23:39.72,Default,,0,0,0,,We see that the body in and of itself
+Dialogue: 0,0:23:39.72,0:23:42.72,Default,,0,0,0,,as we have said in other of these talks,
+Dialogue: 0,0:23:42.72,0:23:45.72,Default,,0,0,0,,the body in and of itself is in ascension,
+Dialogue: 0,0:23:45.72,0:23:47.76,Default,,0,0,0,,as curious as that may sound.
+Dialogue: 0,0:23:47.76,0:23:50.76,Default,,0,0,0,,It has no capacity to experience itself.
+Dialogue: 0,0:23:50.76,0:23:53.76,Default,,0,0,0,,The experience, the next level of experience
+Dialogue: 0,0:23:53.76,0:23:55.76,Default,,0,0,0,,is coming through sensations
+Dialogue: 0,0:23:55.76,0:23:57.76,Default,,0,0,0,,coming from the senses of the body.
+Dialogue: 0,0:23:57.76,0:23:59.76,Default,,0,0,0,,So we don't experience the body,
+Dialogue: 0,0:23:59.76,0:24:03.14,Default,,0,0,0,,we experience the senses of the body.
+Dialogue: 0,0:24:03.14,0:24:05.14,Default,,0,0,0,,Senses themselves have no capacity
+Dialogue: 0,0:24:05.14,0:24:07.65,Default,,0,0,0,,to experience themselves.
+Dialogue: 0,0:24:07.65,0:24:09.65,Default,,0,0,0,,They're experienced in mind.
+Dialogue: 0,0:24:09.65,0:24:11.65,Default,,0,0,0,,It's because of mind,
+Dialogue: 0,0:24:11.65,0:24:14.65,Default,,0,0,0,,it's in mind that we experience the senses.
+Dialogue: 0,0:24:14.65,0:24:16.65,Default,,0,0,0,,And the senses then report what's going on
+Dialogue: 0,0:24:16.65,0:24:17.65,Default,,0,0,0,,within the body.
+Dialogue: 0,0:24:17.65,0:24:21.13,Default,,0,0,0,,So we're already several levels removed.
+Dialogue: 0,0:24:21.13,0:24:23.13,Default,,0,0,0,,Mind itself isn't able to experience
+Dialogue: 0,0:24:23.13,0:24:25.13,Default,,0,0,0,,its own experience.
+Dialogue: 0,0:24:25.13,0:24:28.13,Default,,0,0,0,,It has to be in a greater, larger energy field
+Dialogue: 0,0:24:28.13,0:24:30.13,Default,,0,0,0,,than itself.
+Dialogue: 0,0:24:30.13,0:24:32.13,Default,,0,0,0,,And in this case it is the energy field
+Dialogue: 0,0:24:32.13,0:24:34.13,Default,,0,0,0,,of consciousness itself.
+Dialogue: 0,0:24:34.13,0:24:36.13,Default,,0,0,0,,It is because of consciousness
+Dialogue: 0,0:24:36.13,0:24:39.13,Default,,0,0,0,,that we're aware of what is going on in mind.
+Dialogue: 0,0:24:39.13,0:24:41.13,Default,,0,0,0,,Mind then is telling us via the senses
+Dialogue: 0,0:24:41.13,0:24:43.13,Default,,0,0,0,,what is going on in body.
+Dialogue: 0,0:24:43.13,0:24:45.13,Default,,0,0,0,,So you see that which we are,
+Dialogue: 0,0:24:45.13,0:24:47.13,Default,,0,0,0,,when I say I, me,
+Dialogue: 0,0:24:47.13,0:24:49.23,Default,,0,0,0,,is already several levels removed
+Dialogue: 0,0:24:49.23,0:24:51.23,Default,,0,0,0,,from the physical body.
+Dialogue: 0,0:24:51.23,0:24:53.80,Default,,0,0,0,,Consciousness itself requires
+Dialogue: 0,0:24:53.80,0:24:55.80,Default,,0,0,0,,something greater than itself
+Dialogue: 0,0:24:55.80,0:24:57.80,Default,,0,0,0,,and that we call awareness.
+Dialogue: 0,0:24:57.80,0:24:59.80,Default,,0,0,0,,Awareness.
+Dialogue: 0,0:24:59.80,0:25:03.25,Default,,0,0,0,,Awareness is what allows us to know
+Dialogue: 0,0:25:03.25,0:25:05.25,Default,,0,0,0,,what is going on in consciousness
+Dialogue: 0,0:25:05.25,0:25:08.25,Default,,0,0,0,,reporting what is happening within mind,
+Dialogue: 0,0:25:08.25,0:25:10.25,Default,,0,0,0,,which in turn is reporting what is happening
+Dialogue: 0,0:25:10.25,0:25:13.25,Default,,0,0,0,,via the senses about the body.
+Dialogue: 0,0:25:13.25,0:25:17.50,Default,,0,0,0,,That which is essentially myself then
+Dialogue: 0,0:25:17.50,0:25:20.50,Default,,0,0,0,,is many levels removed from the physical body.
+Dialogue: 0,0:25:20.50,0:25:23.85,Default,,0,0,0,,It's necessary for us to look at it
+Dialogue: 0,0:25:23.85,0:25:25.85,Default,,0,0,0,,and get that correctly in mind
+Dialogue: 0,0:25:25.85,0:25:27.85,Default,,0,0,0,,because now we see that it's the mind
+Dialogue: 0,0:25:27.85,0:25:29.85,Default,,0,0,0,,that has power over the body.
+Dialogue: 0,0:25:29.85,0:25:31.85,Default,,0,0,0,,We saw the physics of it,
+Dialogue: 0,0:25:31.85,0:25:33.85,Default,,0,0,0,,that the energy fields of the 400s
+Dialogue: 0,0:25:33.85,0:25:35.85,Default,,0,0,0,,just by their sheer power
+Dialogue: 0,0:25:35.85,0:25:37.85,Default,,0,0,0,,are greater than that of the physical body.
+Dialogue: 0,0:25:37.85,0:25:39.85,Default,,0,0,0,,The physical body does
+Dialogue: 0,0:25:39.85,0:25:41.85,Default,,0,0,0,,what the mind tells it to do
+Dialogue: 0,0:25:41.85,0:25:43.85,Default,,0,0,0,,and therefore if the mind says
+Dialogue: 0,0:25:43.85,0:25:45.85,Default,,0,0,0,,I have this disease or that disease
+Dialogue: 0,0:25:45.85,0:25:47.85,Default,,0,0,0,,the body complies.
+Dialogue: 0,0:25:47.85,0:25:49.85,Default,,0,0,0,,When we look at this we see the importance then
+Dialogue: 0,0:25:49.85,0:25:51.85,Default,,0,0,0,,of not buying into
+Dialogue: 0,0:25:51.85,0:25:53.85,Default,,0,0,0,,programs
+Dialogue: 0,0:25:53.85,0:25:55.85,Default,,0,0,0,,and all of which are really
+Dialogue: 0,0:25:55.85,0:25:57.95,Default,,0,0,0,,limitations of the truth.
+Dialogue: 0,0:25:57.95,0:25:59.95,Default,,0,0,0,,We see the importance of consciously
+Dialogue: 0,0:25:59.95,0:26:01.95,Default,,0,0,0,,cancelling and saying
+Dialogue: 0,0:26:01.95,0:26:03.95,Default,,0,0,0,,something which is the truth.
+Dialogue: 0,0:26:03.95,0:26:05.95,Default,,0,0,0,,The truth is
+Dialogue: 0,0:26:05.95,0:26:10.87,Default,,0,0,0,,I am an infinite being
+Dialogue: 0,0:26:10.87,0:26:12.87,Default,,0,0,0,,not subject to that.
+Dialogue: 0,0:26:12.87,0:26:16.00,Default,,0,0,0,,So when we hear something
+Dialogue: 0,0:26:16.00,0:26:18.00,Default,,0,0,0,,like eggs which are
+Dialogue: 0,0:26:18.00,0:26:20.00,Default,,0,0,0,,full of cholesterol and their
+Dialogue: 0,0:26:20.00,0:26:22.00,Default,,0,0,0,,cholesterol will give you heart disease.
+Dialogue: 0,0:26:22.00,0:26:24.44,Default,,0,0,0,,If you buy into the thought form,
+Dialogue: 0,0:26:24.44,0:26:26.44,Default,,0,0,0,,if you buy into that belief system
+Dialogue: 0,0:26:26.44,0:26:28.44,Default,,0,0,0,,that eggs, cholesterol
+Dialogue: 0,0:26:28.44,0:26:30.44,Default,,0,0,0,,will give me heart disease
+Dialogue: 0,0:26:30.44,0:26:32.44,Default,,0,0,0,,raise my blood cholesterol
+Dialogue: 0,0:26:32.44,0:26:34.44,Default,,0,0,0,,what happens is that the body
+Dialogue: 0,0:26:34.44,0:26:36.44,Default,,0,0,0,,agrees and
+Dialogue: 0,0:26:36.44,0:26:38.44,Default,,0,0,0,,when you eat cholesterol
+Dialogue: 0,0:26:38.44,0:26:40.44,Default,,0,0,0,,what happens is your blood cholesterol goes up.
+Dialogue: 0,0:26:40.44,0:26:43.21,Default,,0,0,0,,You can experiment with this
+Dialogue: 0,0:26:43.21,0:26:45.21,Default,,0,0,0,,because I've done it
+Dialogue: 0,0:26:45.21,0:26:47.40,Default,,0,0,0,,and at one time I had a very high cholesterol
+Dialogue: 0,0:26:47.40,0:26:49.40,Default,,0,0,0,,and I began to cancel the belief system.
+Dialogue: 0,0:26:49.40,0:26:51.40,Default,,0,0,0,,I kept saying I'm an infinite being
+Dialogue: 0,0:26:51.40,0:26:53.40,Default,,0,0,0,,I'm not subject to that.
+Dialogue: 0,0:26:53.40,0:26:55.44,Default,,0,0,0,,I'm only subject to what I hold in mind.
+Dialogue: 0,0:26:55.44,0:26:57.44,Default,,0,0,0,,This does not apply to me
+Dialogue: 0,0:26:57.44,0:26:59.44,Default,,0,0,0,,and I hereby cancel it and refuse it.
+Dialogue: 0,0:26:59.44,0:27:01.60,Default,,0,0,0,,Well if the mind
+Dialogue: 0,0:27:01.60,0:27:03.60,Default,,0,0,0,,can empower you with a
+Dialogue: 0,0:27:03.60,0:27:05.60,Default,,0,0,0,,negative belief system it can reverse itself
+Dialogue: 0,0:27:05.60,0:27:07.60,Default,,0,0,0,,can it not?
+Dialogue: 0,0:27:07.60,0:27:09.60,Default,,0,0,0,,And therefore you begin telling yourself
+Dialogue: 0,0:27:09.60,0:27:11.60,Default,,0,0,0,,that they have no effect on me
+Dialogue: 0,0:27:11.60,0:27:13.60,Default,,0,0,0,,that that's only a belief system
+Dialogue: 0,0:27:13.60,0:27:15.60,Default,,0,0,0,,that I don't have to buy into that
+Dialogue: 0,0:27:15.60,0:27:17.66,Default,,0,0,0,,I don't have to go into agreement with it.
+Dialogue: 0,0:27:17.66,0:27:19.66,Default,,0,0,0,,When I go into agreement with it
+Dialogue: 0,0:27:19.66,0:27:21.66,Default,,0,0,0,,I give it the power of the collective
+Dialogue: 0,0:27:21.66,0:27:23.66,Default,,0,0,0,,energy of that belief.
+Dialogue: 0,0:27:23.66,0:27:25.66,Default,,0,0,0,,When I refuse it
+Dialogue: 0,0:27:25.66,0:27:27.66,Default,,0,0,0,,then I release myself from the collective
+Dialogue: 0,0:27:27.66,0:27:29.66,Default,,0,0,0,,energy of that belief system.
+Dialogue: 0,0:27:29.66,0:27:31.85,Default,,0,0,0,,I count myself out.
+Dialogue: 0,0:27:31.85,0:27:33.85,Default,,0,0,0,,So one attitude then
+Dialogue: 0,0:27:33.85,0:27:35.85,Default,,0,0,0,,is to not buy into
+Dialogue: 0,0:27:35.85,0:27:37.85,Default,,0,0,0,,agreement
+Dialogue: 0,0:27:37.85,0:27:39.85,Default,,0,0,0,,with negative belief systems
+Dialogue: 0,0:27:39.85,0:27:41.85,Default,,0,0,0,,having to do with your health.
+Dialogue: 0,0:27:41.85,0:27:43.85,Default,,0,0,0,,This is very important
+Dialogue: 0,0:27:43.85,0:27:45.85,Default,,0,0,0,,when it comes to epidemics
+Dialogue: 0,0:27:45.85,0:27:47.85,Default,,0,0,0,,the hysteria.
+Dialogue: 0,0:27:47.85,0:27:49.85,Default,,0,0,0,,So you see the programming that comes in
+Dialogue: 0,0:27:49.85,0:27:51.85,Default,,0,0,0,,is aided and abetted by
+Dialogue: 0,0:27:51.85,0:27:53.85,Default,,0,0,0,,an emotional program.
+Dialogue: 0,0:27:53.85,0:27:56.04,Default,,0,0,0,,So now we hear much about AIDS
+Dialogue: 0,0:27:56.04,0:27:58.04,Default,,0,0,0,,let's say.
+Dialogue: 0,0:27:58.04,0:28:00.04,Default,,0,0,0,,And then we hear about
+Dialogue: 0,0:28:00.04,0:28:02.04,Default,,0,0,0,,constant repetition in the media
+Dialogue: 0,0:28:02.04,0:28:04.04,Default,,0,0,0,,who play upon what?
+Dialogue: 0,0:28:04.04,0:28:06.04,Default,,0,0,0,,Fear.
+Dialogue: 0,0:28:06.04,0:28:08.04,Default,,0,0,0,,Fear about this.
+Dialogue: 0,0:28:08.04,0:28:10.04,Default,,0,0,0,,Anger about this.
+Dialogue: 0,0:28:10.04,0:28:12.04,Default,,0,0,0,,And of course guilt about this.
+Dialogue: 0,0:28:12.04,0:28:14.04,Default,,0,0,0,,What better disease to bring up all
+Dialogue: 0,0:28:14.04,0:28:16.04,Default,,0,0,0,,man's feelings of sinfulness
+Dialogue: 0,0:28:16.04,0:28:18.04,Default,,0,0,0,,and guilt especially about his sexuality
+Dialogue: 0,0:28:18.04,0:28:20.04,Default,,0,0,0,,which is so common in our culture
+Dialogue: 0,0:28:20.04,0:28:22.68,Default,,0,0,0,,in all cultures.
+Dialogue: 0,0:28:22.68,0:28:24.68,Default,,0,0,0,,That which is the highest expression
+Dialogue: 0,0:28:24.68,0:28:26.68,Default,,0,0,0,,of love of course
+Dialogue: 0,0:28:26.68,0:28:28.68,Default,,0,0,0,,when it takes on a negative
+Dialogue: 0,0:28:28.68,0:28:30.68,Default,,0,0,0,,and when it is turned over
+Dialogue: 0,0:28:30.68,0:28:32.68,Default,,0,0,0,,becomes the lowest.
+Dialogue: 0,0:28:32.68,0:28:34.68,Default,,0,0,0,,And therefore what a better area
+Dialogue: 0,0:28:34.68,0:28:36.68,Default,,0,0,0,,in which to create an epidemic
+Dialogue: 0,0:28:36.68,0:28:38.68,Default,,0,0,0,,through sheer belief in it.
+Dialogue: 0,0:28:38.68,0:28:40.68,Default,,0,0,0,,The unconscious guilt
+Dialogue: 0,0:28:40.68,0:28:42.68,Default,,0,0,0,,not to mention the conscious guilt
+Dialogue: 0,0:28:42.68,0:28:44.68,Default,,0,0,0,,about one's sexuality.
+Dialogue: 0,0:28:44.68,0:28:46.68,Default,,0,0,0,,The sadness about that.
+Dialogue: 0,0:28:46.68,0:28:48.68,Default,,0,0,0,,The grief over that.
+Dialogue: 0,0:28:48.68,0:28:50.68,Default,,0,0,0,,The fear about the disease etc.
+Dialogue: 0,0:28:50.68,0:28:52.68,Default,,0,0,0,,All of this contributing then
+Dialogue: 0,0:28:52.68,0:28:54.68,Default,,0,0,0,,and setting the stage.
+Dialogue: 0,0:28:54.68,0:28:56.68,Default,,0,0,0,,So you have the mental belief system
+Dialogue: 0,0:28:56.68,0:28:58.68,Default,,0,0,0,,coming out of an energy field in the 400's.
+Dialogue: 0,0:28:58.68,0:29:00.68,Default,,0,0,0,,You have fear about it
+Dialogue: 0,0:29:00.68,0:29:02.68,Default,,0,0,0,,coming out of a negative 100's.
+Dialogue: 0,0:29:02.68,0:29:04.68,Default,,0,0,0,,And you have the guilt coming out
+Dialogue: 0,0:29:04.68,0:29:06.68,Default,,0,0,0,,of the minus 30's.
+Dialogue: 0,0:29:06.68,0:29:08.68,Default,,0,0,0,,And so you have the exact set up for that.
+Dialogue: 0,0:29:08.68,0:29:10.68,Default,,0,0,0,,The exact set up
+Dialogue: 0,0:29:10.68,0:29:12.68,Default,,0,0,0,,because the mind will choose
+Dialogue: 0,0:29:12.68,0:29:14.68,Default,,0,0,0,,that which
+Dialogue: 0,0:29:14.68,0:29:16.68,Default,,0,0,0,,it is impressed with.
+Dialogue: 0,0:29:16.68,0:29:18.68,Default,,0,0,0,,And will use that
+Dialogue: 0,0:29:18.68,0:29:20.68,Default,,0,0,0,,as a form of expression.
+Dialogue: 0,0:29:20.68,0:29:22.68,Default,,0,0,0,,In the case of the cholesterol
+Dialogue: 0,0:29:22.68,0:29:24.81,Default,,0,0,0,,the experiment I did with that
+Dialogue: 0,0:29:24.81,0:29:26.81,Default,,0,0,0,,with my own self
+Dialogue: 0,0:29:26.81,0:29:28.81,Default,,0,0,0,,was to cancel the thought
+Dialogue: 0,0:29:28.81,0:29:31.13,Default,,0,0,0,,that came up.
+Dialogue: 0,0:29:31.13,0:29:33.13,Default,,0,0,0,,And as time went by
+Dialogue: 0,0:29:33.13,0:29:35.13,Default,,0,0,0,,in fact it didn't take very long
+Dialogue: 0,0:29:35.13,0:29:37.13,Default,,0,0,0,,with that particular thing
+Dialogue: 0,0:29:37.13,0:29:39.13,Default,,0,0,0,,the cholesterol level came down
+Dialogue: 0,0:29:39.13,0:29:41.13,Default,,0,0,0,,and now I can eat 3 eggs for breakfast
+Dialogue: 0,0:29:41.13,0:29:43.13,Default,,0,0,0,,every single morning.
+Dialogue: 0,0:29:43.13,0:29:45.13,Default,,0,0,0,,Lots of cheese.
+Dialogue: 0,0:29:45.13,0:29:47.13,Default,,0,0,0,,In fact I live on a high cholesterol diet
+Dialogue: 0,0:29:47.13,0:29:49.13,Default,,0,0,0,,and yet my cholesterol is low
+Dialogue: 0,0:29:49.13,0:29:52.12,Default,,0,0,0,,and sometimes even below normal
+Dialogue: 0,0:29:52.12,0:29:54.12,Default,,0,0,0,,for my age.
+Dialogue: 0,0:29:54.12,0:29:56.12,Default,,0,0,0,,The body will do exactly
+Dialogue: 0,0:29:56.12,0:29:58.12,Default,,0,0,0,,what the mind believes
+Dialogue: 0,0:29:58.12,0:30:00.12,Default,,0,0,0,,and that's my belief in that
+Dialogue: 0,0:30:00.12,0:30:02.70,Default,,0,0,0,,make it happen within my life.
+Dialogue: 0,0:30:02.70,0:30:04.70,Default,,0,0,0,,It's because of the nature
+Dialogue: 0,0:30:04.70,0:30:06.70,Default,,0,0,0,,of the unconscious.
+Dialogue: 0,0:30:06.70,0:30:08.89,Default,,0,0,0,,It creates the opportunity
+Dialogue: 0,0:30:08.89,0:30:10.89,Default,,0,0,0,,for that to happen.
+Dialogue: 0,0:30:10.89,0:30:12.89,Default,,0,0,0,,We certainly see that in accidents.
+Dialogue: 0,0:30:12.89,0:30:14.89,Default,,0,0,0,,The person is so called accident prone
+Dialogue: 0,0:30:14.89,0:30:16.89,Default,,0,0,0,,that's the form that is taken
+Dialogue: 0,0:30:16.89,0:30:18.89,Default,,0,0,0,,in that person's mind.
+Dialogue: 0,0:30:18.89,0:30:20.89,Default,,0,0,0,,Unconsciously they just manage
+Dialogue: 0,0:30:20.89,0:30:22.89,Default,,0,0,0,,to get their body in the right place
+Dialogue: 0,0:30:22.89,0:30:24.89,Default,,0,0,0,,at the right time.
+Dialogue: 0,0:30:24.89,0:30:27.08,Default,,0,0,0,,Just to get hit by the fender of the car
+Dialogue: 0,0:30:27.08,0:30:29.08,Default,,0,0,0,,slip down the stairs, get hit on the head.
+Dialogue: 0,0:30:29.08,0:30:31.08,Default,,0,0,0,,The mind will find a way.
+Dialogue: 0,0:30:31.08,0:30:33.08,Default,,0,0,0,,People will just slip into
+Dialogue: 0,0:30:33.08,0:30:35.08,Default,,0,0,0,,sort of a hypnotic trance
+Dialogue: 0,0:30:35.08,0:30:37.31,Default,,0,0,0,,and expose themselves
+Dialogue: 0,0:30:37.31,0:30:39.31,Default,,0,0,0,,to the correct opportunities
+Dialogue: 0,0:30:39.31,0:30:41.44,Default,,0,0,0,,to make that manifest within their life.
+Dialogue: 0,0:30:41.44,0:30:43.44,Default,,0,0,0,,For instance with the cold virus
+Dialogue: 0,0:30:43.44,0:30:45.44,Default,,0,0,0,,there's many experiments
+Dialogue: 0,0:30:45.44,0:30:47.44,Default,,0,0,0,,where we take 100 subject volunteers
+Dialogue: 0,0:30:47.44,0:30:49.44,Default,,0,0,0,,and expose them to a very heavy dose
+Dialogue: 0,0:30:49.44,0:30:51.44,Default,,0,0,0,,of cold virus.
+Dialogue: 0,0:30:51.44,0:30:53.44,Default,,0,0,0,,We see what happens
+Dialogue: 0,0:30:53.44,0:30:55.44,Default,,0,0,0,,is that not everybody gets the cold virus.
+Dialogue: 0,0:30:55.44,0:30:57.44,Default,,0,0,0,,Only a certain percentage
+Dialogue: 0,0:30:57.44,0:30:59.44,Default,,0,0,0,,will always get it.
+Dialogue: 0,0:30:59.44,0:31:01.50,Default,,0,0,0,,In other words if the power
+Dialogue: 0,0:31:01.50,0:31:03.50,Default,,0,0,0,,was in the virus rather than
+Dialogue: 0,0:31:03.50,0:31:05.50,Default,,0,0,0,,within consciousness
+Dialogue: 0,0:31:05.50,0:31:07.50,Default,,0,0,0,,all 100 would get it
+Dialogue: 0,0:31:07.50,0:31:09.50,Default,,0,0,0,,because that virus would be so potent.
+Dialogue: 0,0:31:09.50,0:31:11.50,Default,,0,0,0,,Actually what happens is
+Dialogue: 0,0:31:11.50,0:31:13.50,Default,,0,0,0,,maybe only 65%
+Dialogue: 0,0:31:13.50,0:31:15.50,Default,,0,0,0,,will get it.
+Dialogue: 0,0:31:15.50,0:31:17.50,Default,,0,0,0,,A third don't believe in it.
+Dialogue: 0,0:31:17.50,0:31:19.50,Default,,0,0,0,,There's sufficient doubt within the mind.
+Dialogue: 0,0:31:19.50,0:31:21.50,Default,,0,0,0,,There's insufficient unconscious guilt.
+Dialogue: 0,0:31:21.50,0:31:23.50,Default,,0,0,0,,It's not acceptable to the person
+Dialogue: 0,0:31:23.50,0:31:25.50,Default,,0,0,0,,to express it in that form.
+Dialogue: 0,0:31:25.50,0:31:27.50,Default,,0,0,0,,Nothing is universal.
+Dialogue: 0,0:31:27.50,0:31:29.50,Default,,0,0,0,,We see the same thing with healings.
+Dialogue: 0,0:31:29.50,0:31:31.50,Default,,0,0,0,,Penicillin doesn't cure 100%
+Dialogue: 0,0:31:31.50,0:31:33.50,Default,,0,0,0,,of pneumonias.
+Dialogue: 0,0:31:33.50,0:31:35.50,Default,,0,0,0,,It only cures a certain percent.
+Dialogue: 0,0:31:35.50,0:31:37.50,Default,,0,0,0,,Every medical treatment
+Dialogue: 0,0:31:37.50,0:31:39.50,Default,,0,0,0,,has only a certain percentage
+Dialogue: 0,0:31:39.50,0:31:41.50,Default,,0,0,0,,of people who will respond.
+Dialogue: 0,0:31:41.50,0:31:43.50,Default,,0,0,0,,And what is the difference?
+Dialogue: 0,0:31:43.50,0:31:45.50,Default,,0,0,0,,It is because the others
+Dialogue: 0,0:31:45.50,0:31:47.50,Default,,0,0,0,,don't have sufficient unconscious guilt.
+Dialogue: 0,0:31:47.50,0:31:49.50,Default,,0,0,0,,It's not operative.
+Dialogue: 0,0:31:49.50,0:31:51.50,Default,,0,0,0,,This particular illness doesn't fit
+Dialogue: 0,0:31:51.50,0:31:53.50,Default,,0,0,0,,any particular thought form
+Dialogue: 0,0:31:53.50,0:31:55.50,Default,,0,0,0,,that they have bought into.
+Dialogue: 0,0:31:55.50,0:31:57.50,Default,,0,0,0,,And so both sides of it
+Dialogue: 0,0:31:57.50,0:31:59.50,Default,,0,0,0,,are the same.
+Dialogue: 0,0:31:59.50,0:32:01.98,Default,,0,0,0,,The energy that we put into
+Dialogue: 0,0:32:01.98,0:32:03.98,Default,,0,0,0,,a certain belief system.
+Dialogue: 0,0:32:03.98,0:32:05.98,Default,,0,0,0,,So we see then that health
+Dialogue: 0,0:32:05.98,0:32:07.98,Default,,0,0,0,,is the willingness to let go
+Dialogue: 0,0:32:07.98,0:32:09.98,Default,,0,0,0,,of buying into negativity.
+Dialogue: 0,0:32:09.98,0:32:11.98,Default,,0,0,0,,Why should a person buy into negativity anyway?
+Dialogue: 0,0:32:11.98,0:32:13.98,Default,,0,0,0,,Why is it that some people
+Dialogue: 0,0:32:13.98,0:32:15.98,Default,,0,0,0,,are so programmable?
+Dialogue: 0,0:32:15.98,0:32:17.98,Default,,0,0,0,,We know people that go into hysteria
+Dialogue: 0,0:32:17.98,0:32:19.98,Default,,0,0,0,,every time they open a magazine.
+Dialogue: 0,0:32:19.98,0:32:21.98,Default,,0,0,0,,The latest illness sends them into a panic.
+Dialogue: 0,0:32:21.98,0:32:23.98,Default,,0,0,0,,And it has to do then
+Dialogue: 0,0:32:23.98,0:32:25.98,Default,,0,0,0,,with the amount of fear
+Dialogue: 0,0:32:25.98,0:32:27.98,Default,,0,0,0,,and the amount of guilt.
+Dialogue: 0,0:32:27.98,0:32:29.98,Default,,0,0,0,,It's as though the person
+Dialogue: 0,0:32:29.98,0:32:31.98,Default,,0,0,0,,knows what to be afraid of.
+Dialogue: 0,0:32:31.98,0:32:33.98,Default,,0,0,0,,It's as though they're only too aware
+Dialogue: 0,0:32:33.98,0:32:35.98,Default,,0,0,0,,that because they have so much of this
+Dialogue: 0,0:32:35.98,0:32:37.98,Default,,0,0,0,,for them to even hear about it
+Dialogue: 0,0:32:37.98,0:32:39.98,Default,,0,0,0,,and become mentally programmed
+Dialogue: 0,0:32:39.98,0:32:41.98,Default,,0,0,0,,is almost enough to make it happen
+Dialogue: 0,0:32:41.98,0:32:44.08,Default,,0,0,0,,in their life.
+Dialogue: 0,0:32:44.08,0:32:46.08,Default,,0,0,0,,So what does this tell us then
+Dialogue: 0,0:32:46.08,0:32:48.08,Default,,0,0,0,,about the steps towards optimal health?
+Dialogue: 0,0:32:48.08,0:32:50.08,Default,,0,0,0,,It means the willingness
+Dialogue: 0,0:32:50.08,0:32:52.08,Default,,0,0,0,,to adopt mental attitudes
+Dialogue: 0,0:32:52.08,0:32:54.08,Default,,0,0,0,,that are positive and constructive.
+Dialogue: 0,0:32:54.08,0:32:56.08,Default,,0,0,0,,And this means the willingness
+Dialogue: 0,0:32:56.08,0:32:58.08,Default,,0,0,0,,to let go of the negative ones.
+Dialogue: 0,0:32:58.08,0:33:00.08,Default,,0,0,0,,The willingness to take an easy going
+Dialogue: 0,0:33:00.08,0:33:02.08,Default,,0,0,0,,forgiving attitude towards life.
+Dialogue: 0,0:33:02.08,0:33:04.08,Default,,0,0,0,,The unwillingness
+Dialogue: 0,0:33:04.08,0:33:06.08,Default,,0,0,0,,to buy into negative programming.
+Dialogue: 0,0:33:06.08,0:33:08.08,Default,,0,0,0,,The owning
+Dialogue: 0,0:33:08.08,0:33:10.08,Default,,0,0,0,,of the power of mind.
+Dialogue: 0,0:33:10.08,0:33:12.08,Default,,0,0,0,,You see, going into denial
+Dialogue: 0,0:33:12.08,0:33:14.46,Default,,0,0,0,,going into denial
+Dialogue: 0,0:33:14.46,0:33:16.46,Default,,0,0,0,,and blaming it
+Dialogue: 0,0:33:16.46,0:33:18.46,Default,,0,0,0,,on out there
+Dialogue: 0,0:33:18.46,0:33:20.52,Default,,0,0,0,,is giving your power away.
+Dialogue: 0,0:33:20.52,0:33:22.52,Default,,0,0,0,,We see that these energy fields below courage
+Dialogue: 0,0:33:22.52,0:33:24.52,Default,,0,0,0,,here are all levels in which the person
+Dialogue: 0,0:33:24.52,0:33:26.52,Default,,0,0,0,,has become victim.
+Dialogue: 0,0:33:26.52,0:33:28.52,Default,,0,0,0,,What's happened is they've given
+Dialogue: 0,0:33:28.52,0:33:30.52,Default,,0,0,0,,their power away
+Dialogue: 0,0:33:30.52,0:33:32.52,Default,,0,0,0,,and put it on something outside of themselves.
+Dialogue: 0,0:33:32.52,0:33:34.52,Default,,0,0,0,,And these people
+Dialogue: 0,0:33:34.52,0:33:36.52,Default,,0,0,0,,in these levels here have said
+Dialogue: 0,0:33:36.52,0:33:38.52,Default,,0,0,0,,to themselves unconsciously
+Dialogue: 0,0:33:38.52,0:33:40.52,Default,,0,0,0,,the source of my happiness
+Dialogue: 0,0:33:40.52,0:33:42.52,Default,,0,0,0,,is outside of myself.
+Dialogue: 0,0:33:42.52,0:33:44.52,Default,,0,0,0,,They've put their survival on something
+Dialogue: 0,0:33:44.52,0:33:46.52,Default,,0,0,0,,outside of themselves.
+Dialogue: 0,0:33:46.52,0:33:48.52,Default,,0,0,0,,As we move into levels of truth
+Dialogue: 0,0:33:48.52,0:33:50.52,Default,,0,0,0,,above the levels of courage
+Dialogue: 0,0:33:50.52,0:33:52.52,Default,,0,0,0,,and the energy fields are now going positive
+Dialogue: 0,0:33:52.52,0:33:54.52,Default,,0,0,0,,we see that the person
+Dialogue: 0,0:33:54.52,0:33:56.52,Default,,0,0,0,,is reowning their power.
+Dialogue: 0,0:33:56.52,0:33:58.52,Default,,0,0,0,,The person is saying, I and I alone
+Dialogue: 0,0:33:58.52,0:34:00.52,Default,,0,0,0,,have the power to create
+Dialogue: 0,0:34:00.52,0:34:02.52,Default,,0,0,0,,happiness and opportunity in my life.
+Dialogue: 0,0:34:02.52,0:34:04.52,Default,,0,0,0,,It is coming from within me.
+Dialogue: 0,0:34:04.52,0:34:06.52,Default,,0,0,0,,And so these people
+Dialogue: 0,0:34:06.52,0:34:08.52,Default,,0,0,0,,then own that health
+Dialogue: 0,0:34:08.52,0:34:10.52,Default,,0,0,0,,is something that comes
+Dialogue: 0,0:34:10.52,0:34:12.52,Default,,0,0,0,,from within.
+Dialogue: 0,0:34:12.52,0:34:14.52,Default,,0,0,0,,These people are coming from
+Dialogue: 0,0:34:14.52,0:34:16.52,Default,,0,0,0,,I am the victim of disease.
+Dialogue: 0,0:34:16.52,0:34:18.52,Default,,0,0,0,,You see, we are not the victim of viruses.
+Dialogue: 0,0:34:18.52,0:34:20.52,Default,,0,0,0,,We're not the victim of accidents.
+Dialogue: 0,0:34:20.52,0:34:22.52,Default,,0,0,0,,We're not the victim of cholesterol.
+Dialogue: 0,0:34:22.52,0:34:24.52,Default,,0,0,0,,We're not the victim of uric acid levels.
+Dialogue: 0,0:34:24.52,0:34:26.52,Default,,0,0,0,,We're not the victim of those things.
+Dialogue: 0,0:34:26.52,0:34:28.52,Default,,0,0,0,,When we reown our own power
+Dialogue: 0,0:34:28.52,0:34:30.62,Default,,0,0,0,,we say, hey, it's my mind
+Dialogue: 0,0:34:30.62,0:34:32.62,Default,,0,0,0,,that's been creating that.
+Dialogue: 0,0:34:32.62,0:34:34.62,Default,,0,0,0,,My mind believes that eating liver
+Dialogue: 0,0:34:34.62,0:34:36.62,Default,,0,0,0,,and kidneys is going to give you
+Dialogue: 0,0:34:36.62,0:34:38.62,Default,,0,0,0,,a high uric acid level
+Dialogue: 0,0:34:38.62,0:34:41.04,Default,,0,0,0,,and that's going to give you an attack of gout.
+Dialogue: 0,0:34:41.04,0:34:43.04,Default,,0,0,0,,My mind is so powerful
+Dialogue: 0,0:34:43.04,0:34:45.04,Default,,0,0,0,,that if I believe that
+Dialogue: 0,0:34:45.04,0:34:47.36,Default,,0,0,0,,it will literally make it happen.
+Dialogue: 0,0:34:47.36,0:34:49.36,Default,,0,0,0,,That's a hard thing for many people to accept
+Dialogue: 0,0:34:49.36,0:34:51.36,Default,,0,0,0,,that their mind has that much power.
+Dialogue: 0,0:34:51.36,0:34:53.36,Default,,0,0,0,,You mean to tell me that if I believe
+Dialogue: 0,0:34:53.36,0:34:55.36,Default,,0,0,0,,that eating sugar and sweets
+Dialogue: 0,0:34:55.36,0:34:57.36,Default,,0,0,0,,is going to give me hypoglycemia
+Dialogue: 0,0:34:57.36,0:34:59.36,Default,,0,0,0,,that that will give me hypoglycemia?
+Dialogue: 0,0:34:59.36,0:35:01.36,Default,,0,0,0,,Indeed it will.
+Dialogue: 0,0:35:01.36,0:35:03.36,Default,,0,0,0,,And so we go back to the physics involved
+Dialogue: 0,0:35:03.36,0:35:05.36,Default,,0,0,0,,and we remind ourselves
+Dialogue: 0,0:35:05.36,0:35:07.36,Default,,0,0,0,,that the body's energy field of 100
+Dialogue: 0,0:35:07.36,0:35:09.36,Default,,0,0,0,,is weak compared to the belief systems of 400.
+Dialogue: 0,0:35:09.36,0:35:11.36,Default,,0,0,0,,The belief that sugar and sweets
+Dialogue: 0,0:35:11.36,0:35:13.36,Default,,0,0,0,,will give me hypoglycemia
+Dialogue: 0,0:35:13.36,0:35:15.36,Default,,0,0,0,,or give me diabetes
+Dialogue: 0,0:35:15.36,0:35:17.68,Default,,0,0,0,,or give me overweight.
+Dialogue: 0,0:35:17.68,0:35:19.68,Default,,0,0,0,,Those belief systems are sufficient to do it.
+Dialogue: 0,0:35:19.68,0:35:21.68,Default,,0,0,0,,And all the explanations
+Dialogue: 0,0:35:21.68,0:35:23.68,Default,,0,0,0,,that we come upon
+Dialogue: 0,0:35:23.68,0:35:25.68,Default,,0,0,0,,the rationalizations
+Dialogue: 0,0:35:25.68,0:35:27.68,Default,,0,0,0,,that justify that we are the victim of that
+Dialogue: 0,0:35:27.68,0:35:29.68,Default,,0,0,0,,are just that.
+Dialogue: 0,0:35:29.68,0:35:31.68,Default,,0,0,0,,They're not the truth.
+Dialogue: 0,0:35:31.68,0:35:33.68,Default,,0,0,0,,They're substituting an explanation.
+Dialogue: 0,0:35:33.68,0:35:36.12,Default,,0,0,0,,The fact that it's scientific
+Dialogue: 0,0:35:36.12,0:35:38.12,Default,,0,0,0,,is still an explanation.
+Dialogue: 0,0:35:38.12,0:35:40.12,Default,,0,0,0,,The science of it
+Dialogue: 0,0:35:40.12,0:35:42.12,Default,,0,0,0,,is the mechanism.
+Dialogue: 0,0:35:42.12,0:35:44.12,Default,,0,0,0,,The description of the mechanism
+Dialogue: 0,0:35:44.12,0:35:46.12,Default,,0,0,0,,of how this comes about on the physical plane
+Dialogue: 0,0:35:46.12,0:35:48.12,Default,,0,0,0,,is only a description
+Dialogue: 0,0:35:48.12,0:35:50.12,Default,,0,0,0,,of the mechanism.
+Dialogue: 0,0:35:50.12,0:35:52.12,Default,,0,0,0,,It is not a description of cause.
+Dialogue: 0,0:35:52.12,0:35:54.12,Default,,0,0,0,,Cause is on the level of mind.
+Dialogue: 0,0:35:54.12,0:35:56.12,Default,,0,0,0,,Effect is on the level of body.
+Dialogue: 0,0:35:56.12,0:35:58.12,Default,,0,0,0,,It's not the other way around.
+Dialogue: 0,0:35:58.12,0:36:00.12,Default,,0,0,0,,And if we really just merely reverse
+Dialogue: 0,0:36:00.12,0:36:02.12,Default,,0,0,0,,that understanding,
+Dialogue: 0,0:36:02.12,0:36:04.12,Default,,0,0,0,,we have the whole key to health and healing.
+Dialogue: 0,0:36:04.12,0:36:06.12,Default,,0,0,0,,Health then comes out of a positive
+Dialogue: 0,0:36:06.12,0:36:08.12,Default,,0,0,0,,mental attitude.
+Dialogue: 0,0:36:08.12,0:36:10.12,Default,,0,0,0,,That's a thing we've heard many times, haven't we?
+Dialogue: 0,0:36:10.12,0:36:12.12,Default,,0,0,0,,In fact, many people are annoyed by it.
+Dialogue: 0,0:36:12.12,0:36:14.12,Default,,0,0,0,,Yes, because that infers if I have a sickness
+Dialogue: 0,0:36:14.12,0:36:16.12,Default,,0,0,0,,I don't have a positive mental attitude.
+Dialogue: 0,0:36:16.12,0:36:18.22,Default,,0,0,0,,Let's look at mental attitude then.
+Dialogue: 0,0:36:18.22,0:36:20.22,Default,,0,0,0,,Let's look at what is meant by that
+Dialogue: 0,0:36:20.22,0:36:22.22,Default,,0,0,0,,and the part that that plays in
+Dialogue: 0,0:36:22.22,0:36:24.22,Default,,0,0,0,,health and freedom
+Dialogue: 0,0:36:24.22,0:36:26.28,Default,,0,0,0,,from sickness and suffering.
+Dialogue: 0,0:36:26.28,0:36:28.28,Default,,0,0,0,,We said the one thing that goes on
+Dialogue: 0,0:36:28.28,0:36:30.28,Default,,0,0,0,,in the unhealthy person is
+Dialogue: 0,0:36:30.28,0:36:32.28,Default,,0,0,0,,this unconscious guilt
+Dialogue: 0,0:36:32.28,0:36:34.28,Default,,0,0,0,,and the cure for that
+Dialogue: 0,0:36:34.28,0:36:36.28,Default,,0,0,0,,is the willingness to be forgiving,
+Dialogue: 0,0:36:36.28,0:36:38.28,Default,,0,0,0,,to actually take courses in forgiveness
+Dialogue: 0,0:36:38.28,0:36:40.28,Default,,0,0,0,,if that is necessary,
+Dialogue: 0,0:36:40.28,0:36:42.28,Default,,0,0,0,,such as the Course in Miracles,
+Dialogue: 0,0:36:42.28,0:36:44.28,Default,,0,0,0,,which is specifically designed
+Dialogue: 0,0:36:44.28,0:36:46.28,Default,,0,0,0,,to let go of that tendency of the mind
+Dialogue: 0,0:36:46.28,0:36:48.35,Default,,0,0,0,,to criticize, to attack, and to judge.
+Dialogue: 0,0:36:48.35,0:36:50.35,Default,,0,0,0,,The willingness then
+Dialogue: 0,0:36:50.35,0:36:52.38,Default,,0,0,0,,to let go judgmentalism.
+Dialogue: 0,0:36:52.38,0:36:54.38,Default,,0,0,0,,Now the mechanism is unconscious,
+Dialogue: 0,0:36:54.38,0:36:56.38,Default,,0,0,0,,so the person may not see
+Dialogue: 0,0:36:56.38,0:36:58.38,Default,,0,0,0,,the connection between
+Dialogue: 0,0:36:58.38,0:37:00.38,Default,,0,0,0,,the fact that their mind is critical
+Dialogue: 0,0:37:00.38,0:37:02.38,Default,,0,0,0,,and judgmental.
+Dialogue: 0,0:37:02.38,0:37:04.38,Default,,0,0,0,,If your mind is critical and judgmental
+Dialogue: 0,0:37:04.38,0:37:06.38,Default,,0,0,0,,of others, of course it is critical
+Dialogue: 0,0:37:06.38,0:37:08.38,Default,,0,0,0,,and judgmental of yourself.
+Dialogue: 0,0:37:08.38,0:37:10.38,Default,,0,0,0,,The creation of the unconscious guilt
+Dialogue: 0,0:37:10.38,0:37:12.38,Default,,0,0,0,,then builds up a certain energy
+Dialogue: 0,0:37:12.38,0:37:14.38,Default,,0,0,0,,which expresses itself through
+Dialogue: 0,0:37:14.38,0:37:16.38,Default,,0,0,0,,the autonomic nervous system
+Dialogue: 0,0:37:16.38,0:37:18.38,Default,,0,0,0,,and the acupuncture energy system.
+Dialogue: 0,0:37:18.38,0:37:20.38,Default,,0,0,0,,So that is the cure of that.
+Dialogue: 0,0:37:20.38,0:37:22.38,Default,,0,0,0,,The contribution from mind,
+Dialogue: 0,0:37:22.38,0:37:24.38,Default,,0,0,0,,the belief system,
+Dialogue: 0,0:37:24.38,0:37:26.83,Default,,0,0,0,,we said is the power of refusal,
+Dialogue: 0,0:37:26.83,0:37:28.83,Default,,0,0,0,,to deny it.
+Dialogue: 0,0:37:28.83,0:37:30.83,Default,,0,0,0,,It is your power now
+Dialogue: 0,0:37:30.83,0:37:32.83,Default,,0,0,0,,that it is the mind and the mind itself
+Dialogue: 0,0:37:32.83,0:37:34.83,Default,,0,0,0,,that is the cause of the illness.
+Dialogue: 0,0:37:34.83,0:37:36.83,Default,,0,0,0,,The willingness to give up
+Dialogue: 0,0:37:36.83,0:37:38.83,Default,,0,0,0,,the position of victim,
+Dialogue: 0,0:37:38.83,0:37:40.83,Default,,0,0,0,,the willingness to reown one's own power
+Dialogue: 0,0:37:40.83,0:37:42.83,Default,,0,0,0,,is part and parcel of the third thing
+Dialogue: 0,0:37:42.83,0:37:44.83,Default,,0,0,0,,that is necessary for health,
+Dialogue: 0,0:37:44.83,0:37:46.83,Default,,0,0,0,,and that is one's overall
+Dialogue: 0,0:37:46.83,0:37:48.83,Default,,0,0,0,,spiritual growth and development.
+Dialogue: 0,0:37:48.83,0:37:50.83,Default,,0,0,0,,The overall moving out of
+Dialogue: 0,0:37:50.83,0:37:52.83,Default,,0,0,0,,these negative energy patterns,
+Dialogue: 0,0:37:52.83,0:37:54.83,Default,,0,0,0,,the willingness to face truths
+Dialogue: 0,0:37:54.83,0:37:56.83,Default,,0,0,0,,within ourself,
+Dialogue: 0,0:37:56.83,0:37:59.37,Default,,0,0,0,,and the moving into a positive energy field.
+Dialogue: 0,0:37:59.37,0:38:01.37,Default,,0,0,0,,This can be done actually rather rapidly.
+Dialogue: 0,0:38:01.37,0:38:03.37,Default,,0,0,0,,How so?
+Dialogue: 0,0:38:03.37,0:38:05.37,Default,,0,0,0,,Because willingness,
+Dialogue: 0,0:38:05.37,0:38:07.37,Default,,0,0,0,,you see, is the key.
+Dialogue: 0,0:38:07.37,0:38:09.37,Default,,0,0,0,,Through the willingness to look at it,
+Dialogue: 0,0:38:09.37,0:38:11.37,Default,,0,0,0,,the willingness to say,
+Dialogue: 0,0:38:11.37,0:38:13.37,Default,,0,0,0,,well, I don't really believe this,
+Dialogue: 0,0:38:13.37,0:38:15.37,Default,,0,0,0,,but it is said that my mind has the power
+Dialogue: 0,0:38:15.37,0:38:17.37,Default,,0,0,0,,to create an illness within my body,
+Dialogue: 0,0:38:17.37,0:38:19.37,Default,,0,0,0,,and so I am willing to look at that
+Dialogue: 0,0:38:19.37,0:38:21.37,Default,,0,0,0,,because I have an open mind.
+Dialogue: 0,0:38:21.37,0:38:23.37,Default,,0,0,0,,I have an open mind
+Dialogue: 0,0:38:23.37,0:38:25.37,Default,,0,0,0,,and I am willing to agree.
+Dialogue: 0,0:38:25.37,0:38:27.47,Default,,0,0,0,,My intention aligns then
+Dialogue: 0,0:38:27.47,0:38:29.47,Default,,0,0,0,,and I begin to move into accepting
+Dialogue: 0,0:38:29.47,0:38:31.47,Default,,0,0,0,,which I discover.
+Dialogue: 0,0:38:31.47,0:38:33.47,Default,,0,0,0,,I begin to find
+Dialogue: 0,0:38:33.47,0:38:35.47,Default,,0,0,0,,that moving into lovingness
+Dialogue: 0,0:38:35.47,0:38:37.47,Default,,0,0,0,,has a curative and healing power.
+Dialogue: 0,0:38:37.47,0:38:39.47,Default,,0,0,0,,And how do we do that?
+Dialogue: 0,0:38:39.47,0:38:41.47,Default,,0,0,0,,Our willingness to forgive,
+Dialogue: 0,0:38:41.47,0:38:43.47,Default,,0,0,0,,our willingness here moves us
+Dialogue: 0,0:38:43.47,0:38:45.47,Default,,0,0,0,,right into the willingness to forgive,
+Dialogue: 0,0:38:45.47,0:38:47.47,Default,,0,0,0,,and if we
+Dialogue: 0,0:38:47.47,0:38:49.47,Default,,0,0,0,,can quickly move ourself into
+Dialogue: 0,0:38:49.47,0:38:51.47,Default,,0,0,0,,the willingness to be compassionate.
+Dialogue: 0,0:38:51.47,0:38:54.17,Default,,0,0,0,,What does compassion mean?
+Dialogue: 0,0:38:54.17,0:38:56.40,Default,,0,0,0,,Compassion means
+Dialogue: 0,0:38:56.40,0:38:58.40,Default,,0,0,0,,the willingness to see the innocence
+Dialogue: 0,0:38:58.40,0:39:00.40,Default,,0,0,0,,within all things.
+Dialogue: 0,0:39:00.40,0:39:02.40,Default,,0,0,0,,You see, that coincides
+Dialogue: 0,0:39:02.40,0:39:04.40,Default,,0,0,0,,with the willingness to forgive.
+Dialogue: 0,0:39:04.40,0:39:06.40,Default,,0,0,0,,Out of compassion
+Dialogue: 0,0:39:06.40,0:39:08.40,Default,,0,0,0,,comes the power,
+Dialogue: 0,0:39:08.40,0:39:10.40,Default,,0,0,0,,the capacity,
+Dialogue: 0,0:39:10.40,0:39:12.40,Default,,0,0,0,,coming out of our intention
+Dialogue: 0,0:39:12.40,0:39:14.40,Default,,0,0,0,,to really see into the hearts of others.
+Dialogue: 0,0:39:14.40,0:39:16.40,Default,,0,0,0,,When we see into the hearts of others,
+Dialogue: 0,0:39:16.40,0:39:18.40,Default,,0,0,0,,as we've said in other talks,
+Dialogue: 0,0:39:18.40,0:39:20.40,Default,,0,0,0,,what we discover is the innocence
+Dialogue: 0,0:39:20.40,0:39:22.40,Default,,0,0,0,,of the child
+Dialogue: 0,0:39:22.40,0:39:24.40,Default,,0,0,0,,within each and every one of us
+Dialogue: 0,0:39:24.40,0:39:26.40,Default,,0,0,0,,because it is intrinsic to the nature
+Dialogue: 0,0:39:26.40,0:39:28.43,Default,,0,0,0,,of consciousness itself,
+Dialogue: 0,0:39:28.43,0:39:30.43,Default,,0,0,0,,is that intrinsic innocence
+Dialogue: 0,0:39:30.43,0:39:32.43,Default,,0,0,0,,which never dies
+Dialogue: 0,0:39:32.43,0:39:34.43,Default,,0,0,0,,no matter how long we live.
+Dialogue: 0,0:39:34.43,0:39:36.43,Default,,0,0,0,,The innocence of the child
+Dialogue: 0,0:39:36.43,0:39:38.43,Default,,0,0,0,,is what bought the mistake,
+Dialogue: 0,0:39:38.43,0:39:40.43,Default,,0,0,0,,which bought the negative program
+Dialogue: 0,0:39:40.43,0:39:42.43,Default,,0,0,0,,in the first place.
+Dialogue: 0,0:39:42.43,0:39:44.43,Default,,0,0,0,,The being aware,
+Dialogue: 0,0:39:44.43,0:39:46.43,Default,,0,0,0,,that that intrinsic innocence of the child
+Dialogue: 0,0:39:46.43,0:39:48.43,Default,,0,0,0,,is ever with us.
+Dialogue: 0,0:39:48.43,0:39:50.43,Default,,0,0,0,,It's the innocence of the child
+Dialogue: 0,0:39:50.43,0:39:53.00,Default,,0,0,0,,that sits there in front of the television set
+Dialogue: 0,0:39:53.00,0:39:55.00,Default,,0,0,0,,and buys the negative programming.
+Dialogue: 0,0:39:55.00,0:39:57.00,Default,,0,0,0,,Out of its naivete,
+Dialogue: 0,0:39:57.00,0:39:59.00,Default,,0,0,0,,out of its lack of discernment,
+Dialogue: 0,0:39:59.00,0:40:01.00,Default,,0,0,0,,the innocence of the child
+Dialogue: 0,0:40:01.00,0:40:03.00,Default,,0,0,0,,says,
+Dialogue: 0,0:40:03.00,0:40:05.00,Default,,0,0,0,,this is a world
+Dialogue: 0,0:40:05.00,0:40:07.00,Default,,0,0,0,,that is out to program you
+Dialogue: 0,0:40:07.00,0:40:09.00,Default,,0,0,0,,with as much negativity
+Dialogue: 0,0:40:09.00,0:40:11.20,Default,,0,0,0,,as you're willing to buy.
+Dialogue: 0,0:40:11.20,0:40:13.20,Default,,0,0,0,,In fact, it gets well paid to do that
+Dialogue: 0,0:40:13.20,0:40:15.20,Default,,0,0,0,,because advertising is usually based
+Dialogue: 0,0:40:15.20,0:40:17.20,Default,,0,0,0,,in playing off of these negative energy fields.
+Dialogue: 0,0:40:17.20,0:40:19.20,Default,,0,0,0,,All of our fears,
+Dialogue: 0,0:40:19.20,0:40:21.20,Default,,0,0,0,,all of our desires,
+Dialogue: 0,0:40:21.20,0:40:23.20,Default,,0,0,0,,all of our pridefulness,
+Dialogue: 0,0:40:23.20,0:40:25.20,Default,,0,0,0,,all of it as you see below the line.
+Dialogue: 0,0:40:25.20,0:40:27.20,Default,,0,0,0,,The willingness then
+Dialogue: 0,0:40:27.20,0:40:29.20,Default,,0,0,0,,to be aware
+Dialogue: 0,0:40:29.20,0:40:31.20,Default,,0,0,0,,that within us is our innocence
+Dialogue: 0,0:40:31.20,0:40:33.20,Default,,0,0,0,,and that the innocence
+Dialogue: 0,0:40:33.20,0:40:35.20,Default,,0,0,0,,needs to be protected.
+Dialogue: 0,0:40:35.20,0:40:37.20,Default,,0,0,0,,So we come into what's called self-care.
+Dialogue: 0,0:40:37.20,0:40:39.20,Default,,0,0,0,,Self-care,
+Dialogue: 0,0:40:39.20,0:40:41.20,Default,,0,0,0,,the capacity to love oneself now,
+Dialogue: 0,0:40:41.20,0:40:43.20,Default,,0,0,0,,means taking responsibility
+Dialogue: 0,0:40:43.20,0:40:45.20,Default,,0,0,0,,to protect ourselves
+Dialogue: 0,0:40:45.20,0:40:47.20,Default,,0,0,0,,from that innocence
+Dialogue: 0,0:40:47.20,0:40:49.20,Default,,0,0,0,,and the willingness
+Dialogue: 0,0:40:49.20,0:40:51.20,Default,,0,0,0,,to undo the mistakes
+Dialogue: 0,0:40:51.20,0:40:53.20,Default,,0,0,0,,that the mind picked up
+Dialogue: 0,0:40:53.20,0:40:55.20,Default,,0,0,0,,as a result of its innocence.
+Dialogue: 0,0:40:55.20,0:40:57.23,Default,,0,0,0,,We can handle now
+Dialogue: 0,0:40:57.23,0:40:59.23,Default,,0,0,0,,looking at ourselves
+Dialogue: 0,0:40:59.23,0:41:01.23,Default,,0,0,0,,and healing that which we find within us
+Dialogue: 0,0:41:01.23,0:41:03.23,Default,,0,0,0,,if we're coming from the compassion
+Dialogue: 0,0:41:03.23,0:41:05.23,Default,,0,0,0,,of the awareness
+Dialogue: 0,0:41:05.23,0:41:07.23,Default,,0,0,0,,of the intrinsic innocence
+Dialogue: 0,0:41:07.23,0:41:09.26,Default,,0,0,0,,of our consciousness.
+Dialogue: 0,0:41:09.26,0:41:11.26,Default,,0,0,0,,We see that it was innocence
+Dialogue: 0,0:41:11.26,0:41:13.26,Default,,0,0,0,,that got programmed.
+Dialogue: 0,0:41:13.26,0:41:15.26,Default,,0,0,0,,Now we take responsibility for that
+Dialogue: 0,0:41:15.26,0:41:17.26,Default,,0,0,0,,and we say, well,
+Dialogue: 0,0:41:17.26,0:41:19.26,Default,,0,0,0,,in my innocence I bought all that.
+Dialogue: 0,0:41:19.26,0:41:21.26,Default,,0,0,0,,In my innocence I didn't know any better.
+Dialogue: 0,0:41:21.26,0:41:23.26,Default,,0,0,0,,In my innocence I thought
+Dialogue: 0,0:41:23.26,0:41:25.26,Default,,0,0,0,,that the right thing to do
+Dialogue: 0,0:41:25.26,0:41:27.26,Default,,0,0,0,,was to be judgmental,
+Dialogue: 0,0:41:27.26,0:41:29.26,Default,,0,0,0,,to condemn people,
+Dialogue: 0,0:41:29.26,0:41:31.26,Default,,0,0,0,,to judge them as right and wrong.
+Dialogue: 0,0:41:31.26,0:41:33.80,Default,,0,0,0,,I'm going to let it go.
+Dialogue: 0,0:41:33.80,0:41:35.80,Default,,0,0,0,,We have amongst our acquaintances
+Dialogue: 0,0:41:35.80,0:41:37.80,Default,,0,0,0,,and the people that we've done research
+Dialogue: 0,0:41:37.80,0:41:40.28,Default,,0,0,0,,with people
+Dialogue: 0,0:41:40.28,0:41:42.28,Default,,0,0,0,,who have had every disease known to mankind,
+Dialogue: 0,0:41:42.28,0:41:44.28,Default,,0,0,0,,advanced multiple sclerosis,
+Dialogue: 0,0:41:44.28,0:41:46.28,Default,,0,0,0,,cancers of all kinds,
+Dialogue: 0,0:41:46.28,0:41:48.28,Default,,0,0,0,,all kinds of advanced illnesses.
+Dialogue: 0,0:41:48.28,0:41:50.28,Default,,0,0,0,,And these people
+Dialogue: 0,0:41:50.28,0:41:52.28,Default,,0,0,0,,merely were willing
+Dialogue: 0,0:41:52.28,0:41:54.28,Default,,0,0,0,,to look into this question.
+Dialogue: 0,0:41:54.28,0:41:56.28,Default,,0,0,0,,And when they did,
+Dialogue: 0,0:41:56.28,0:41:58.28,Default,,0,0,0,,they went through the processes
+Dialogue: 0,0:41:58.28,0:42:00.28,Default,,0,0,0,,that we've described in this talk
+Dialogue: 0,0:42:00.28,0:42:02.28,Default,,0,0,0,,and they all came out
+Dialogue: 0,0:42:02.28,0:42:04.28,Default,,0,0,0,,of their illnesses
+Dialogue: 0,0:42:04.28,0:42:07.24,Default,,0,0,0,,without any residuals whatsoever.
+Dialogue: 0,0:42:07.24,0:42:09.24,Default,,0,0,0,,This capacity then
+Dialogue: 0,0:42:09.24,0:42:11.24,Default,,0,0,0,,to be forgiving is within us,
+Dialogue: 0,0:42:11.24,0:42:13.24,Default,,0,0,0,,the capacity for compassion.
+Dialogue: 0,0:42:13.24,0:42:15.24,Default,,0,0,0,,Out of it comes
+Dialogue: 0,0:42:15.24,0:42:17.24,Default,,0,0,0,,a general attitude,
+Dialogue: 0,0:42:17.24,0:42:19.24,Default,,0,0,0,,a way in which we look at ourself.
+Dialogue: 0,0:42:19.24,0:42:21.24,Default,,0,0,0,,So from our bigness,
+Dialogue: 0,0:42:21.24,0:42:23.24,Default,,0,0,0,,from our greatness,
+Dialogue: 0,0:42:23.24,0:42:25.24,Default,,0,0,0,,we look at our humanness
+Dialogue: 0,0:42:25.24,0:42:27.24,Default,,0,0,0,,through forgiving eyes
+Dialogue: 0,0:42:27.24,0:42:29.24,Default,,0,0,0,,and we begin to forgive ourself
+Dialogue: 0,0:42:29.24,0:42:31.24,Default,,0,0,0,,for all the things
+Dialogue: 0,0:42:31.24,0:42:33.24,Default,,0,0,0,,that were limitations
+Dialogue: 0,0:42:33.24,0:42:35.24,Default,,0,0,0,,of the truth.
+Dialogue: 0,0:42:35.24,0:42:37.24,Default,,0,0,0,,All of these things
+Dialogue: 0,0:42:37.24,0:42:39.24,Default,,0,0,0,,with an energy fuel
+Dialogue: 0,0:42:39.24,0:42:41.24,Default,,0,0,0,,with the arrows going to the left
+Dialogue: 0,0:42:41.24,0:42:43.24,Default,,0,0,0,,are denials of the truth.
+Dialogue: 0,0:42:43.24,0:42:45.24,Default,,0,0,0,,All of those with an arrow
+Dialogue: 0,0:42:45.24,0:42:47.72,Default,,0,0,0,,going to the right
+Dialogue: 0,0:42:47.72,0:42:49.72,Default,,0,0,0,,is the acceptance of that
+Dialogue: 0,0:42:49.72,0:42:51.72,Default,,0,0,0,,which is true and positive.
+Dialogue: 0,0:42:51.72,0:42:53.72,Default,,0,0,0,,And so health,
+Dialogue: 0,0:42:53.72,0:42:55.72,Default,,0,0,0,,because the body is reflecting
+Dialogue: 0,0:42:55.72,0:42:57.72,Default,,0,0,0,,what the mind believes
+Dialogue: 0,0:42:57.72,0:42:59.72,Default,,0,0,0,,and the mind is reflecting
+Dialogue: 0,0:42:59.72,0:43:01.72,Default,,0,0,0,,our spiritual position.
+Dialogue: 0,0:43:01.72,0:43:03.72,Default,,0,0,0,,Spirit has the greatest power of all.
+Dialogue: 0,0:43:03.72,0:43:05.72,Default,,0,0,0,,It is willing to accept
+Dialogue: 0,0:43:05.72,0:43:07.72,Default,,0,0,0,,the power of mind.
+Dialogue: 0,0:43:07.72,0:43:09.72,Default,,0,0,0,,Now we have to be attentive
+Dialogue: 0,0:43:09.72,0:43:11.72,Default,,0,0,0,,and we have to persevere
+Dialogue: 0,0:43:11.72,0:43:13.72,Default,,0,0,0,,and we can't let it get away
+Dialogue: 0,0:43:13.72,0:43:15.72,Default,,0,0,0,,with expressing negativity
+Dialogue: 0,0:43:15.72,0:43:17.72,Default,,0,0,0,,without stopping it.
+Dialogue: 0,0:43:17.72,0:43:19.72,Default,,0,0,0,,So we get to develop
+Dialogue: 0,0:43:19.72,0:43:21.72,Default,,0,0,0,,sort of an ear for negativity
+Dialogue: 0,0:43:21.72,0:43:24.68,Default,,0,0,0,,and begin to recognize it
+Dialogue: 0,0:43:24.68,0:43:26.84,Default,,0,0,0,,for what it is.
+Dialogue: 0,0:43:26.84,0:43:28.84,Default,,0,0,0,,We let go of false humility
+Dialogue: 0,0:43:28.84,0:43:30.91,Default,,0,0,0,,and we start questioning
+Dialogue: 0,0:43:30.91,0:43:32.91,Default,,0,0,0,,such remarks as,
+Dialogue: 0,0:43:32.91,0:43:34.91,Default,,0,0,0,,oh, my handwriting is poor
+Dialogue: 0,0:43:34.91,0:43:36.91,Default,,0,0,0,,or I gain weight
+Dialogue: 0,0:43:36.91,0:43:38.91,Default,,0,0,0,,in the same amount of food
+Dialogue: 0,0:43:38.91,0:43:40.91,Default,,0,0,0,,that other people stay thin.
+Dialogue: 0,0:43:40.91,0:43:42.91,Default,,0,0,0,,The minute we hear ourselves
+Dialogue: 0,0:43:42.91,0:43:44.91,Default,,0,0,0,,saying these limiting,
+Dialogue: 0,0:43:44.91,0:43:46.91,Default,,0,0,0,,self-defeating, self-attacking thoughts
+Dialogue: 0,0:43:46.91,0:43:48.91,Default,,0,0,0,,they have to be stopped and canceled.
+Dialogue: 0,0:43:48.91,0:43:50.91,Default,,0,0,0,,The handwriting is poor
+Dialogue: 0,0:43:50.91,0:43:52.91,Default,,0,0,0,,because there's a belief system
+Dialogue: 0,0:43:52.91,0:43:55.07,Default,,0,0,0,,that I have poor handwriting
+Dialogue: 0,0:43:55.07,0:43:57.07,Default,,0,0,0,,and not vice versa.
+Dialogue: 0,0:43:57.07,0:43:59.07,Default,,0,0,0,,So what we're doing then
+Dialogue: 0,0:43:59.07,0:44:01.07,Default,,0,0,0,,is reversing the whole programming
+Dialogue: 0,0:44:01.07,0:44:03.10,Default,,0,0,0,,of the mind as far as
+Dialogue: 0,0:44:03.10,0:44:05.10,Default,,0,0,0,,we're coming back to a principle
+Dialogue: 0,0:44:05.10,0:44:07.10,Default,,0,0,0,,which you can demonstrate
+Dialogue: 0,0:44:07.10,0:44:09.32,Default,,0,0,0,,through your own experience.
+Dialogue: 0,0:44:09.32,0:44:11.32,Default,,0,0,0,,That the physical is the expression
+Dialogue: 0,0:44:11.32,0:44:13.32,Default,,0,0,0,,of the mental and not vice versa.
+Dialogue: 0,0:44:13.32,0:44:15.32,Default,,0,0,0,,It isn't that we came to the conclusion
+Dialogue: 0,0:44:15.32,0:44:17.32,Default,,0,0,0,,our handwriting is poor
+Dialogue: 0,0:44:17.32,0:44:19.32,Default,,0,0,0,,because our handwriting is poor.
+Dialogue: 0,0:44:19.32,0:44:21.32,Default,,0,0,0,,The handwriting is poor
+Dialogue: 0,0:44:21.32,0:44:23.32,Default,,0,0,0,,because the cause was in mind.
+Dialogue: 0,0:44:23.32,0:44:25.32,Default,,0,0,0,,The belief system.
+Dialogue: 0,0:44:25.32,0:44:27.32,Default,,0,0,0,,Perhaps a remark
+Dialogue: 0,0:44:27.32,0:44:29.32,Default,,0,0,0,,picked up in childhood.
+Dialogue: 0,0:44:29.32,0:44:31.32,Default,,0,0,0,,Somebody says your handwriting is poor.
+Dialogue: 0,0:44:31.32,0:44:33.32,Default,,0,0,0,,From that point on that program
+Dialogue: 0,0:44:33.32,0:44:35.87,Default,,0,0,0,,we have to look at the ingenuity
+Dialogue: 0,0:44:35.87,0:44:37.87,Default,,0,0,0,,of the unconscious mind.
+Dialogue: 0,0:44:37.87,0:44:40.06,Default,,0,0,0,,To really see it
+Dialogue: 0,0:44:40.06,0:44:42.06,Default,,0,0,0,,it would be great if you had
+Dialogue: 0,0:44:42.06,0:44:44.06,Default,,0,0,0,,some experience in watching
+Dialogue: 0,0:44:44.06,0:44:46.06,Default,,0,0,0,,hypnotic experiments.
+Dialogue: 0,0:44:46.06,0:44:48.06,Default,,0,0,0,,Because if we tell the person
+Dialogue: 0,0:44:48.06,0:44:50.06,Default,,0,0,0,,that when they wake up
+Dialogue: 0,0:44:50.06,0:44:52.06,Default,,0,0,0,,their legs will be itching
+Dialogue: 0,0:44:52.06,0:44:54.06,Default,,0,0,0,,and then we induce amnesia
+Dialogue: 0,0:44:54.06,0:44:56.06,Default,,0,0,0,,for that suggestion.
+Dialogue: 0,0:44:56.06,0:44:58.06,Default,,0,0,0,,When we wake the person up
+Dialogue: 0,0:44:58.06,0:45:00.06,Default,,0,0,0,,we'll say how do you feel?
+Dialogue: 0,0:45:00.06,0:45:02.06,Default,,0,0,0,,Instantly the mind will start
+Dialogue: 0,0:45:02.06,0:45:04.06,Default,,0,0,0,,creating the most marvelous
+Dialogue: 0,0:45:04.06,0:45:06.06,Default,,0,0,0,,things.
+Dialogue: 0,0:45:06.06,0:45:08.06,Default,,0,0,0,,The person doesn't just say
+Dialogue: 0,0:45:08.06,0:45:10.06,Default,,0,0,0,,well my legs itch.
+Dialogue: 0,0:45:10.06,0:45:12.06,Default,,0,0,0,,The mind always gets in there
+Dialogue: 0,0:45:12.06,0:45:14.06,Default,,0,0,0,,in a creative way
+Dialogue: 0,0:45:14.06,0:45:16.06,Default,,0,0,0,,and will say and start explaining
+Dialogue: 0,0:45:16.06,0:45:18.06,Default,,0,0,0,,well I've got wool pants on
+Dialogue: 0,0:45:18.06,0:45:20.06,Default,,0,0,0,,and you know I'm allergic to wool
+Dialogue: 0,0:45:20.06,0:45:22.06,Default,,0,0,0,,and the heat in this room
+Dialogue: 0,0:45:22.06,0:45:24.06,Default,,0,0,0,,and steam heat always creates that.
+Dialogue: 0,0:45:24.06,0:45:26.06,Default,,0,0,0,,It's just marvelous to listen
+Dialogue: 0,0:45:26.06,0:45:28.06,Default,,0,0,0,,to the inventiveness of the mind
+Dialogue: 0,0:45:28.06,0:45:30.06,Default,,0,0,0,,as it begins to create
+Dialogue: 0,0:45:30.06,0:45:32.06,Default,,0,0,0,,the reasons for the symptom
+Dialogue: 0,0:45:32.06,0:45:34.44,Default,,0,0,0,,The mind will do the same thing then
+Dialogue: 0,0:45:34.44,0:45:36.44,Default,,0,0,0,,and it's helpful to look at ourselves
+Dialogue: 0,0:45:36.44,0:45:38.44,Default,,0,0,0,,as though we've been hypnotized
+Dialogue: 0,0:45:38.44,0:45:40.44,Default,,0,0,0,,subjects half of our life
+Dialogue: 0,0:45:40.44,0:45:42.44,Default,,0,0,0,,and didn't even realize it.
+Dialogue: 0,0:45:42.44,0:45:44.44,Default,,0,0,0,,What is hypnosis?
+Dialogue: 0,0:45:44.44,0:45:46.44,Default,,0,0,0,,It's suggestibility is it not?
+Dialogue: 0,0:45:46.44,0:45:48.44,Default,,0,0,0,,It means to be in an unguarded
+Dialogue: 0,0:45:48.44,0:45:50.44,Default,,0,0,0,,suggestible relaxed state.
+Dialogue: 0,0:45:50.44,0:45:52.44,Default,,0,0,0,,So anytime you've been
+Dialogue: 0,0:45:52.44,0:45:54.44,Default,,0,0,0,,in an unguarded relaxed
+Dialogue: 0,0:45:54.44,0:45:56.44,Default,,0,0,0,,suggestible state
+Dialogue: 0,0:45:56.44,0:45:58.44,Default,,0,0,0,,you've picked up all the programming
+Dialogue: 0,0:45:58.44,0:46:00.44,Default,,0,0,0,,and whether you remember it or not
+Dialogue: 0,0:46:00.44,0:46:02.44,Default,,0,0,0,,it is still operative.
+Dialogue: 0,0:46:02.44,0:46:04.44,Default,,0,0,0,,Half asleep as you sat in front
+Dialogue: 0,0:46:04.44,0:46:06.44,Default,,0,0,0,,of the television set
+Dialogue: 0,0:46:06.44,0:46:08.44,Default,,0,0,0,,hour after hour after hour
+Dialogue: 0,0:46:08.44,0:46:10.44,Default,,0,0,0,,of programming went into the mind.
+Dialogue: 0,0:46:10.44,0:46:12.44,Default,,0,0,0,,These are all now
+Dialogue: 0,0:46:12.44,0:46:14.44,Default,,0,0,0,,unconscious
+Dialogue: 0,0:46:14.44,0:46:16.48,Default,,0,0,0,,hypnotic programs.
+Dialogue: 0,0:46:16.48,0:46:18.48,Default,,0,0,0,,How can we discover what we've been programmed?
+Dialogue: 0,0:46:18.48,0:46:20.48,Default,,0,0,0,,With is by watching
+Dialogue: 0,0:46:20.48,0:46:22.48,Default,,0,0,0,,to see what comes up.
+Dialogue: 0,0:46:22.48,0:46:24.48,Default,,0,0,0,,So the idea oh I'm no good
+Dialogue: 0,0:46:24.48,0:46:27.15,Default,,0,0,0,,I'm no good.
+Dialogue: 0,0:46:27.15,0:46:29.15,Default,,0,0,0,,I never was very good at playing cards.
+Dialogue: 0,0:46:29.15,0:46:31.15,Default,,0,0,0,,If you have the belief system
+Dialogue: 0,0:46:31.15,0:46:33.15,Default,,0,0,0,,that you're not very good at playing cards
+Dialogue: 0,0:46:33.15,0:46:35.15,Default,,0,0,0,,you're not going to operate in your life
+Dialogue: 0,0:46:35.15,0:46:37.15,Default,,0,0,0,,is that you're not going to be very good
+Dialogue: 0,0:46:37.15,0:46:39.15,Default,,0,0,0,,at playing cards.
+Dialogue: 0,0:46:39.15,0:46:41.15,Default,,0,0,0,,That goes back then to reinforce
+Dialogue: 0,0:46:41.15,0:46:43.15,Default,,0,0,0,,the belief system.
+Dialogue: 0,0:46:43.15,0:46:45.15,Default,,0,0,0,,And so these belief systems
+Dialogue: 0,0:46:45.15,0:46:47.15,Default,,0,0,0,,become self reinforcing.
+Dialogue: 0,0:46:47.15,0:46:49.15,Default,,0,0,0,,They become self fulfilling prophecies.
+Dialogue: 0,0:46:49.15,0:46:51.15,Default,,0,0,0,,We hold the belief unwittingly
+Dialogue: 0,0:46:51.15,0:46:53.15,Default,,0,0,0,,it then manifests in our life
+Dialogue: 0,0:46:53.15,0:46:55.47,Default,,0,0,0,,we look at that and we say see
+Dialogue: 0,0:46:55.47,0:46:57.47,Default,,0,0,0,,and that justifies the belief system.
+Dialogue: 0,0:46:57.47,0:46:59.47,Default,,0,0,0,,So by looking at our life
+Dialogue: 0,0:46:59.47,0:47:01.47,Default,,0,0,0,,we can tell what beliefs we are holding
+Dialogue: 0,0:47:01.47,0:47:03.47,Default,,0,0,0,,if we can't recall them
+Dialogue: 0,0:47:03.47,0:47:05.47,Default,,0,0,0,,therefore our movement
+Dialogue: 0,0:47:05.47,0:47:07.47,Default,,0,0,0,,is upward in consciousness
+Dialogue: 0,0:47:07.47,0:47:09.47,Default,,0,0,0,,we said health is the automatic
+Dialogue: 0,0:47:09.47,0:47:11.47,Default,,0,0,0,,expression of these energy fields up here.
+Dialogue: 0,0:47:11.47,0:47:13.47,Default,,0,0,0,,The energy field of 540 and over
+Dialogue: 0,0:47:13.47,0:47:15.47,Default,,0,0,0,,which is one of gratitude
+Dialogue: 0,0:47:15.47,0:47:17.47,Default,,0,0,0,,and forgiveness.
+Dialogue: 0,0:47:17.47,0:47:19.47,Default,,0,0,0,,We see that gratitude is at 540
+Dialogue: 0,0:47:19.47,0:47:21.47,Default,,0,0,0,,forgiveness is at 540
+Dialogue: 0,0:47:21.47,0:47:23.47,Default,,0,0,0,,and healing
+Dialogue: 0,0:47:23.47,0:47:25.47,Default,,0,0,0,,is at 540.
+Dialogue: 0,0:47:25.47,0:47:27.47,Default,,0,0,0,,The willingness to be forgiving
+Dialogue: 0,0:47:27.47,0:47:29.47,Default,,0,0,0,,and grateful in itself
+Dialogue: 0,0:47:29.47,0:47:31.47,Default,,0,0,0,,automatically begins to heal.
+Dialogue: 0,0:47:31.47,0:47:34.46,Default,,0,0,0,,Becoming a
+Dialogue: 0,0:47:34.46,0:47:36.46,Default,,0,0,0,,loving being.
+Dialogue: 0,0:47:36.46,0:47:38.46,Default,,0,0,0,,This energy field of love
+Dialogue: 0,0:47:38.46,0:47:40.46,Default,,0,0,0,,and we must talk about what that means.
+Dialogue: 0,0:47:40.46,0:47:42.46,Default,,0,0,0,,It doesn't talk about
+Dialogue: 0,0:47:42.46,0:47:44.46,Default,,0,0,0,,it's not sentimentality.
+Dialogue: 0,0:47:44.46,0:47:46.46,Default,,0,0,0,,What the world calls love
+Dialogue: 0,0:47:46.46,0:47:48.46,Default,,0,0,0,,is coming out in an energy field
+Dialogue: 0,0:47:48.46,0:47:50.46,Default,,0,0,0,,in here.
+Dialogue: 0,0:47:50.46,0:47:52.46,Default,,0,0,0,,It's talking about dependency
+Dialogue: 0,0:47:52.46,0:47:54.46,Default,,0,0,0,,it's talking about control
+Dialogue: 0,0:47:54.46,0:47:56.46,Default,,0,0,0,,it's talking about sentimentalism
+Dialogue: 0,0:47:56.46,0:47:58.46,Default,,0,0,0,,and emotionalism
+Dialogue: 0,0:47:58.46,0:48:00.46,Default,,0,0,0,,and emotional sentimental attachment
+Dialogue: 0,0:48:00.46,0:48:02.46,Default,,0,0,0,,in which there is
+Dialogue: 0,0:48:02.46,0:48:04.46,Default,,0,0,0,,control going back and forth
+Dialogue: 0,0:48:04.46,0:48:06.46,Default,,0,0,0,,and the satisfaction of desiringness
+Dialogue: 0,0:48:06.46,0:48:08.46,Default,,0,0,0,,on both sides
+Dialogue: 0,0:48:08.46,0:48:10.46,Default,,0,0,0,,is called love.
+Dialogue: 0,0:48:10.46,0:48:12.75,Default,,0,0,0,,The Hollywood version.
+Dialogue: 0,0:48:12.75,0:48:14.75,Default,,0,0,0,,When you hear somebody say
+Dialogue: 0,0:48:14.75,0:48:16.75,Default,,0,0,0,,I used to love George but I don't anymore
+Dialogue: 0,0:48:16.75,0:48:18.75,Default,,0,0,0,,what it means is that
+Dialogue: 0,0:48:18.75,0:48:20.75,Default,,0,0,0,,they never did love George.
+Dialogue: 0,0:48:20.75,0:48:22.75,Default,,0,0,0,,What it means is they had a sentimental attachment
+Dialogue: 0,0:48:22.75,0:48:24.75,Default,,0,0,0,,sort of a solar plexus
+Dialogue: 0,0:48:24.75,0:48:26.75,Default,,0,0,0,,kind of a hanging onto
+Dialogue: 0,0:48:26.75,0:48:28.75,Default,,0,0,0,,which the person then
+Dialogue: 0,0:48:28.75,0:48:30.75,Default,,0,0,0,,romanticized and glamorized
+Dialogue: 0,0:48:30.75,0:48:32.75,Default,,0,0,0,,within their life
+Dialogue: 0,0:48:32.75,0:48:34.75,Default,,0,0,0,,and poured a lot of emotional energy
+Dialogue: 0,0:48:34.75,0:48:36.75,Default,,0,0,0,,into their life
+Dialogue: 0,0:48:36.75,0:48:38.88,Default,,0,0,0,,and when that was broken
+Dialogue: 0,0:48:38.88,0:48:40.88,Default,,0,0,0,,up came a lot of negative emotion.
+Dialogue: 0,0:48:40.88,0:48:42.88,Default,,0,0,0,,The kind of love we're talking about
+Dialogue: 0,0:48:42.88,0:48:44.88,Default,,0,0,0,,is unconditional love.
+Dialogue: 0,0:48:44.88,0:48:46.97,Default,,0,0,0,,Unconditional love.
+Dialogue: 0,0:48:46.97,0:48:48.97,Default,,0,0,0,,What is unconditional love?
+Dialogue: 0,0:48:48.97,0:48:50.97,Default,,0,0,0,,That's an inner decision
+Dialogue: 0,0:48:50.97,0:48:52.97,Default,,0,0,0,,that we make within ourself.
+Dialogue: 0,0:48:52.97,0:48:54.97,Default,,0,0,0,,See the intention
+Dialogue: 0,0:48:54.97,0:48:56.97,Default,,0,0,0,,it's coming out of the intention
+Dialogue: 0,0:48:56.97,0:48:58.97,Default,,0,0,0,,and the decision
+Dialogue: 0,0:48:58.97,0:49:00.97,Default,,0,0,0,,to be a loving person.
+Dialogue: 0,0:49:00.97,0:49:02.97,Default,,0,0,0,,So if I decide to love you
+Dialogue: 0,0:49:02.97,0:49:04.97,Default,,0,0,0,,that is my inner decision.
+Dialogue: 0,0:49:04.97,0:49:06.97,Default,,0,0,0,,Therefore I'm not the victim
+Dialogue: 0,0:49:06.97,0:49:08.97,Default,,0,0,0,,of what goes on in the world
+Dialogue: 0,0:49:08.97,0:49:10.97,Default,,0,0,0,,because my decision to love
+Dialogue: 0,0:49:10.97,0:49:12.97,Default,,0,0,0,,creates a stable energy field
+Dialogue: 0,0:49:12.97,0:49:14.97,Default,,0,0,0,,of unconditionality.
+Dialogue: 0,0:49:14.97,0:49:16.97,Default,,0,0,0,,So the other person's behavior
+Dialogue: 0,0:49:16.97,0:49:18.97,Default,,0,0,0,,may not please me
+Dialogue: 0,0:49:18.97,0:49:20.97,Default,,0,0,0,,may not contribute
+Dialogue: 0,0:49:20.97,0:49:23.26,Default,,0,0,0,,to what I desire
+Dialogue: 0,0:49:23.26,0:49:25.26,Default,,0,0,0,,but it doesn't change the lovingness.
+Dialogue: 0,0:49:25.26,0:49:27.26,Default,,0,0,0,,So the mother
+Dialogue: 0,0:49:27.26,0:49:29.26,Default,,0,0,0,,for instance who visits her son in prison
+Dialogue: 0,0:49:29.26,0:49:31.26,Default,,0,0,0,,for 20 years
+Dialogue: 0,0:49:31.26,0:49:33.26,Default,,0,0,0,,the son who is a murderer
+Dialogue: 0,0:49:33.26,0:49:35.26,Default,,0,0,0,,loves the beingness
+Dialogue: 0,0:49:35.26,0:49:37.26,Default,,0,0,0,,the is-ness
+Dialogue: 0,0:49:37.26,0:49:39.26,Default,,0,0,0,,that which the person really is.
+Dialogue: 0,0:49:39.26,0:49:41.26,Default,,0,0,0,,Of course his behavior
+Dialogue: 0,0:49:41.26,0:49:43.26,Default,,0,0,0,,does not make her happy
+Dialogue: 0,0:49:43.26,0:49:45.26,Default,,0,0,0,,but the love is unconditional
+Dialogue: 0,0:49:45.26,0:49:47.26,Default,,0,0,0,,no matter what he does.
+Dialogue: 0,0:49:47.26,0:49:49.26,Default,,0,0,0,,So the closest to it
+Dialogue: 0,0:49:49.26,0:49:51.26,Default,,0,0,0,,that we see in our world
+Dialogue: 0,0:49:51.26,0:49:53.26,Default,,0,0,0,,is the lovingness of the mother
+Dialogue: 0,0:49:53.26,0:49:55.26,Default,,0,0,0,,which is unconditional.
+Dialogue: 0,0:49:55.26,0:49:57.26,Default,,0,0,0,,The lovingness of 12 step groups
+Dialogue: 0,0:49:57.26,0:49:59.26,Default,,0,0,0,,such as Alcoholics Anonymous
+Dialogue: 0,0:49:59.26,0:50:01.26,Default,,0,0,0,,which I've used as an example
+Dialogue: 0,0:50:01.26,0:50:03.74,Default,,0,0,0,,in other talks.
+Dialogue: 0,0:50:03.74,0:50:05.74,Default,,0,0,0,,The unconditionality of that lovingness.
+Dialogue: 0,0:50:05.74,0:50:07.74,Default,,0,0,0,,It's not concerned with what you have.
+Dialogue: 0,0:50:07.74,0:50:09.74,Default,,0,0,0,,It's not concerned with what you have.
+Dialogue: 0,0:50:09.74,0:50:11.74,Default,,0,0,0,,The people at the bottom here
+Dialogue: 0,0:50:11.74,0:50:13.74,Default,,0,0,0,,are very concerned with havingness
+Dialogue: 0,0:50:13.74,0:50:15.74,Default,,0,0,0,,and rate people back and forth
+Dialogue: 0,0:50:15.74,0:50:17.74,Default,,0,0,0,,on what they have.
+Dialogue: 0,0:50:17.74,0:50:19.74,Default,,0,0,0,,In the middle of the box
+Dialogue: 0,0:50:19.74,0:50:21.74,Default,,0,0,0,,people are preoccupied with doingness
+Dialogue: 0,0:50:21.74,0:50:23.74,Default,,0,0,0,,and people are rated
+Dialogue: 0,0:50:23.74,0:50:25.74,Default,,0,0,0,,and their status depends on what you do
+Dialogue: 0,0:50:25.74,0:50:27.74,Default,,0,0,0,,and all the titles that go
+Dialogue: 0,0:50:27.74,0:50:29.74,Default,,0,0,0,,with your doingness.
+Dialogue: 0,0:50:29.74,0:50:31.74,Default,,0,0,0,,As you move towards the top of the box
+Dialogue: 0,0:50:31.74,0:50:33.74,Default,,0,0,0,,what people are concerned with
+Dialogue: 0,0:50:33.74,0:50:35.74,Default,,0,0,0,,is what you are, what you have become
+Dialogue: 0,0:50:35.74,0:50:38.03,Default,,0,0,0,,what you are beingness
+Dialogue: 0,0:50:38.03,0:50:40.03,Default,,0,0,0,,that which you truly are.
+Dialogue: 0,0:50:40.03,0:50:42.03,Default,,0,0,0,,We're concerned there
+Dialogue: 0,0:50:42.03,0:50:44.03,Default,,0,0,0,,with a person's status
+Dialogue: 0,0:50:44.03,0:50:46.03,Default,,0,0,0,,their value there
+Dialogue: 0,0:50:46.03,0:50:48.03,Default,,0,0,0,,is the kind of a person that you are
+Dialogue: 0,0:50:48.03,0:50:50.03,Default,,0,0,0,,that which you have become
+Dialogue: 0,0:50:50.03,0:50:52.03,Default,,0,0,0,,you have become that kind of a person
+Dialogue: 0,0:50:52.03,0:50:54.03,Default,,0,0,0,,and that is what is valued.
+Dialogue: 0,0:50:54.03,0:50:56.03,Default,,0,0,0,,The willingness then to become
+Dialogue: 0,0:50:56.03,0:50:58.03,Default,,0,0,0,,a forgiving person
+Dialogue: 0,0:50:58.03,0:51:00.06,Default,,0,0,0,,who nurtures all of life
+Dialogue: 0,0:51:00.06,0:51:02.06,Default,,0,0,0,,non-judgmentally
+Dialogue: 0,0:51:02.06,0:51:04.06,Default,,0,0,0,,automatically brings about within yourself
+Dialogue: 0,0:51:04.06,0:51:06.06,Default,,0,0,0,,because of the very healing nature
+Dialogue: 0,0:51:06.06,0:51:08.06,Default,,0,0,0,,a condition of good health.
+Dialogue: 0,0:51:08.06,0:51:10.09,Default,,0,0,0,,The beginning to see
+Dialogue: 0,0:51:10.09,0:51:12.09,Default,,0,0,0,,the perfection of all things
+Dialogue: 0,0:51:12.09,0:51:14.09,Default,,0,0,0,,how all things work out for the good.
+Dialogue: 0,0:51:14.09,0:51:16.09,Default,,0,0,0,,How can illness be
+Dialogue: 0,0:51:16.09,0:51:18.09,Default,,0,0,0,,held in that context?
+Dialogue: 0,0:51:18.09,0:51:20.60,Default,,0,0,0,,For the person who is oriented
+Dialogue: 0,0:51:20.60,0:51:22.60,Default,,0,0,0,,such in the direction in which
+Dialogue: 0,0:51:22.60,0:51:24.60,Default,,0,0,0,,we're talking today
+Dialogue: 0,0:51:24.60,0:51:26.60,Default,,0,0,0,,then illness merely becomes
+Dialogue: 0,0:51:26.60,0:51:28.64,Default,,0,0,0,,something that is coming up
+Dialogue: 0,0:51:28.64,0:51:30.64,Default,,0,0,0,,in order to be healed.
+Dialogue: 0,0:51:30.64,0:51:32.64,Default,,0,0,0,,We look at the illness then
+Dialogue: 0,0:51:32.64,0:51:34.64,Default,,0,0,0,,as bringing up a lesson.
+Dialogue: 0,0:51:34.64,0:51:36.64,Default,,0,0,0,,The illness is saying
+Dialogue: 0,0:51:36.64,0:51:38.64,Default,,0,0,0,,please heal what I stand for
+Dialogue: 0,0:51:38.64,0:51:40.64,Default,,0,0,0,,what I symbolize.
+Dialogue: 0,0:51:40.64,0:51:42.92,Default,,0,0,0,,Please heal your guiltiness.
+Dialogue: 0,0:51:42.92,0:51:44.92,Default,,0,0,0,,Please heal your self-hatred.
+Dialogue: 0,0:51:44.92,0:51:46.92,Default,,0,0,0,,Please heal your limiting thought forms.
+Dialogue: 0,0:51:46.92,0:51:48.92,Default,,0,0,0,,Please move up to loving me
+Dialogue: 0,0:51:48.92,0:51:50.92,Default,,0,0,0,,so that I can be healed.
+Dialogue: 0,0:51:50.92,0:51:52.92,Default,,0,0,0,,And so the illness
+Dialogue: 0,0:51:52.92,0:51:54.92,Default,,0,0,0,,is a demand
+Dialogue: 0,0:51:54.92,0:51:56.92,Default,,0,0,0,,to grow spiritually.
+Dialogue: 0,0:51:56.92,0:51:58.92,Default,,0,0,0,,It's an incessant
+Dialogue: 0,0:51:58.92,0:52:00.92,Default,,0,0,0,,gadfly
+Dialogue: 0,0:52:00.92,0:52:02.92,Default,,0,0,0,,that tells us
+Dialogue: 0,0:52:02.92,0:52:04.92,Default,,0,0,0,,that something is out
+Dialogue: 0,0:52:04.92,0:52:06.92,Default,,0,0,0,,something needs to be looked at
+Dialogue: 0,0:52:06.92,0:52:08.92,Default,,0,0,0,,to be held in a different way.
+Dialogue: 0,0:52:08.92,0:52:10.92,Default,,0,0,0,,You see because it is not
+Dialogue: 0,0:52:10.92,0:52:12.92,Default,,0,0,0,,the events of life
+Dialogue: 0,0:52:12.92,0:52:14.92,Default,,0,0,0,,but how we hold them
+Dialogue: 0,0:52:14.92,0:52:16.92,Default,,0,0,0,,that creates our reaction.
+Dialogue: 0,0:52:16.92,0:52:18.92,Default,,0,0,0,,Events in and of themselves
+Dialogue: 0,0:52:18.92,0:52:20.92,Default,,0,0,0,,have no power
+Dialogue: 0,0:52:20.92,0:52:22.92,Default,,0,0,0,,to affect how we feel
+Dialogue: 0,0:52:22.92,0:52:24.92,Default,,0,0,0,,one way or another.
+Dialogue: 0,0:52:24.92,0:52:26.92,Default,,0,0,0,,It's what our position is about them.
+Dialogue: 0,0:52:26.92,0:52:28.92,Default,,0,0,0,,It's our judgment about them.
+Dialogue: 0,0:52:28.92,0:52:30.92,Default,,0,0,0,,It's how we decide to be with them.
+Dialogue: 0,0:52:30.92,0:52:32.92,Default,,0,0,0,,It's our attitude.
+Dialogue: 0,0:52:32.92,0:52:34.92,Default,,0,0,0,,It's our point of view.
+Dialogue: 0,0:52:34.92,0:52:36.92,Default,,0,0,0,,It's the context.
+Dialogue: 0,0:52:36.92,0:52:39.50,Default,,0,0,0,,And so we see
+Dialogue: 0,0:52:39.50,0:52:41.50,Default,,0,0,0,,we are the creator then
+Dialogue: 0,0:52:41.50,0:52:43.50,Default,,0,0,0,,of the meaning
+Dialogue: 0,0:52:43.50,0:52:45.50,Default,,0,0,0,,the impact that it has on us.
+Dialogue: 0,0:52:45.50,0:52:47.50,Default,,0,0,0,,Stress comes from
+Dialogue: 0,0:52:47.50,0:52:49.50,Default,,0,0,0,,that very thing.
+Dialogue: 0,0:52:49.50,0:52:51.50,Default,,0,0,0,,Giving it power over our lives
+Dialogue: 0,0:52:51.50,0:52:53.50,Default,,0,0,0,,coming from the position of victim
+Dialogue: 0,0:52:53.50,0:52:55.50,Default,,0,0,0,,putting the source of happiness
+Dialogue: 0,0:52:55.50,0:52:57.50,Default,,0,0,0,,outside of our life
+Dialogue: 0,0:52:57.50,0:52:59.50,Default,,0,0,0,,denying the power of our own mind.
+Dialogue: 0,0:52:59.50,0:53:01.50,Default,,0,0,0,,The healing then comes about
+Dialogue: 0,0:53:01.50,0:53:03.50,Default,,0,0,0,,through the re-owning of the power
+Dialogue: 0,0:53:03.50,0:53:05.50,Default,,0,0,0,,the realization that we and we alone
+Dialogue: 0,0:53:05.50,0:53:07.50,Default,,0,0,0,,create
+Dialogue: 0,0:53:07.50,0:53:09.50,Default,,0,0,0,,the meaning of any
+Dialogue: 0,0:53:09.50,0:53:11.50,Default,,0,0,0,,circumstance, event,
+Dialogue: 0,0:53:11.50,0:53:13.50,Default,,0,0,0,,place, position or thing
+Dialogue: 0,0:53:13.50,0:53:15.50,Default,,0,0,0,,any person in our life.
+Dialogue: 0,0:53:15.50,0:53:17.88,Default,,0,0,0,,We are the one that creates the meaning.
+Dialogue: 0,0:53:17.88,0:53:19.88,Default,,0,0,0,,Our position, the way we hold it then
+Dialogue: 0,0:53:19.88,0:53:21.88,Default,,0,0,0,,that either becomes
+Dialogue: 0,0:53:21.88,0:53:23.88,Default,,0,0,0,,a source of healing
+Dialogue: 0,0:53:23.88,0:53:25.88,Default,,0,0,0,,or a source of illness.
+Dialogue: 0,0:53:25.88,0:53:27.88,Default,,0,0,0,,We are the one that determines that.
+Dialogue: 0,0:53:27.88,0:53:29.88,Default,,0,0,0,,It's her little pet.
+Dialogue: 0,0:53:29.88,0:53:31.88,Default,,0,0,0,,In other words
+Dialogue: 0,0:53:31.88,0:53:33.88,Default,,0,0,0,,we begin to see that the body
+Dialogue: 0,0:53:33.88,0:53:35.88,Default,,0,0,0,,is like a little marionette.
+Dialogue: 0,0:53:35.88,0:53:37.88,Default,,0,0,0,,You know it sort of happily goes about its way
+Dialogue: 0,0:53:37.88,0:53:39.88,Default,,0,0,0,,energy fuels of joyfulness and gladness.
+Dialogue: 0,0:53:39.88,0:53:41.88,Default,,0,0,0,,You see it just sort of does
+Dialogue: 0,0:53:41.88,0:53:43.88,Default,,0,0,0,,what it does automatically
+Dialogue: 0,0:53:43.88,0:53:45.88,Default,,0,0,0,,without much thinking about it.
+Dialogue: 0,0:53:45.88,0:53:47.88,Default,,0,0,0,,Healthy means we pay less and less
+Dialogue: 0,0:53:47.88,0:53:49.88,Default,,0,0,0,,attention to the body
+Dialogue: 0,0:53:49.88,0:53:51.88,Default,,0,0,0,,and that which we do
+Dialogue: 0,0:53:51.88,0:53:53.88,Default,,0,0,0,,which the world would call health giving
+Dialogue: 0,0:53:53.88,0:53:55.88,Default,,0,0,0,,is out of appreciation
+Dialogue: 0,0:53:55.88,0:53:57.88,Default,,0,0,0,,it's an expression of how we are
+Dialogue: 0,0:53:57.88,0:53:59.88,Default,,0,0,0,,with that body.
+Dialogue: 0,0:53:59.88,0:54:01.88,Default,,0,0,0,,You see we aren't giving away
+Dialogue: 0,0:54:01.88,0:54:03.88,Default,,0,0,0,,our power as source.
+Dialogue: 0,0:54:03.88,0:54:05.88,Default,,0,0,0,,Being healthy means you've re-owned
+Dialogue: 0,0:54:05.88,0:54:07.88,Default,,0,0,0,,your power as source.
+Dialogue: 0,0:54:07.88,0:54:09.88,Default,,0,0,0,,You're not giving away the source
+Dialogue: 0,0:54:09.88,0:54:12.27,Default,,0,0,0,,of health of the body to the world.
+Dialogue: 0,0:54:12.27,0:54:14.27,Default,,0,0,0,,The exercising we do
+Dialogue: 0,0:54:14.27,0:54:16.27,Default,,0,0,0,,is out of the joyfulness
+Dialogue: 0,0:54:16.27,0:54:18.27,Default,,0,0,0,,in experiencing the body.
+Dialogue: 0,0:54:18.27,0:54:20.27,Default,,0,0,0,,So we don't say that swimming
+Dialogue: 0,0:54:20.27,0:54:22.27,Default,,0,0,0,,is what causes the body
+Dialogue: 0,0:54:22.27,0:54:24.27,Default,,0,0,0,,to be healthy.
+Dialogue: 0,0:54:24.27,0:54:26.27,Default,,0,0,0,,We come from the position
+Dialogue: 0,0:54:26.27,0:54:28.27,Default,,0,0,0,,that because we enjoy the body
+Dialogue: 0,0:54:28.27,0:54:30.27,Default,,0,0,0,,we enjoy its activity
+Dialogue: 0,0:54:30.27,0:54:32.65,Default,,0,0,0,,such as swimming.
+Dialogue: 0,0:54:32.65,0:54:34.65,Default,,0,0,0,,So those activities which the world
+Dialogue: 0,0:54:34.65,0:54:36.65,Default,,0,0,0,,consider healthy
+Dialogue: 0,0:54:36.65,0:54:38.65,Default,,0,0,0,,then are coming out of the expression
+Dialogue: 0,0:54:38.65,0:54:40.65,Default,,0,0,0,,of one's inner sense of aliveness.
+Dialogue: 0,0:54:40.65,0:54:42.65,Default,,0,0,0,,The joy
+Dialogue: 0,0:54:42.65,0:54:44.65,Default,,0,0,0,,in allowing the body's
+Dialogue: 0,0:54:44.65,0:54:46.65,Default,,0,0,0,,expression in ways
+Dialogue: 0,0:54:46.65,0:54:48.65,Default,,0,0,0,,that the world considers healthy.
+Dialogue: 0,0:54:48.65,0:54:50.65,Default,,0,0,0,,Not because they're causal
+Dialogue: 0,0:54:50.65,0:54:52.65,Default,,0,0,0,,those are the effect.
+Dialogue: 0,0:54:52.65,0:54:54.65,Default,,0,0,0,,The healthy enjoyment of the body then
+Dialogue: 0,0:54:54.65,0:54:56.65,Default,,0,0,0,,is the effect of the mental attitude.
+Dialogue: 0,0:54:56.65,0:54:58.65,Default,,0,0,0,,Looking at it as something pleasurable.
+Dialogue: 0,0:54:58.65,0:55:00.65,Default,,0,0,0,,And therefore we come to a
+Dialogue: 0,0:55:00.65,0:55:02.65,Default,,0,0,0,,lovingness of the body.
+Dialogue: 0,0:55:02.65,0:55:04.65,Default,,0,0,0,,No, not a narcissistic
+Dialogue: 0,0:55:04.65,0:55:06.65,Default,,0,0,0,,self-glorification.
+Dialogue: 0,0:55:06.65,0:55:08.65,Default,,0,0,0,,Not a muscle man
+Dialogue: 0,0:55:08.65,0:55:10.65,Default,,0,0,0,,a picture in the photo magazine.
+Dialogue: 0,0:55:10.65,0:55:12.65,Default,,0,0,0,,Not out of desiringness
+Dialogue: 0,0:55:12.65,0:55:14.65,Default,,0,0,0,,not out of pridefulness
+Dialogue: 0,0:55:14.65,0:55:16.65,Default,,0,0,0,,not out of narcissism
+Dialogue: 0,0:55:16.65,0:55:18.65,Default,,0,0,0,,but out of a lovingness
+Dialogue: 0,0:55:18.65,0:55:20.65,Default,,0,0,0,,and a gratitude.
+Dialogue: 0,0:55:20.65,0:55:22.65,Default,,0,0,0,,We say ah little body
+Dialogue: 0,0:55:22.65,0:55:24.65,Default,,0,0,0,,you've served me well
+Dialogue: 0,0:55:24.65,0:55:26.65,Default,,0,0,0,,I love you
+Dialogue: 0,0:55:26.65,0:55:28.65,Default,,0,0,0,,I appreciate you
+Dialogue: 0,0:55:28.65,0:55:30.65,Default,,0,0,0,,I value you
+Dialogue: 0,0:55:30.65,0:55:32.81,Default,,0,0,0,,See we know we are not the body.
+Dialogue: 0,0:55:32.81,0:55:34.81,Default,,0,0,0,,If you lose your right arm
+Dialogue: 0,0:55:34.81,0:55:36.81,Default,,0,0,0,,you'll still say I am me.
+Dialogue: 0,0:55:36.81,0:55:38.81,Default,,0,0,0,,If you lose your left arm
+Dialogue: 0,0:55:38.81,0:55:40.81,Default,,0,0,0,,if you lose both legs
+Dialogue: 0,0:55:40.81,0:55:42.81,Default,,0,0,0,,you'll still be saying I am me.
+Dialogue: 0,0:55:42.81,0:55:44.81,Default,,0,0,0,,If we take off the ears
+Dialogue: 0,0:55:44.81,0:55:46.81,Default,,0,0,0,,progressively the body diminishes
+Dialogue: 0,0:55:46.81,0:55:48.81,Default,,0,0,0,,to practically nothing
+Dialogue: 0,0:55:48.81,0:55:50.81,Default,,0,0,0,,and yet the sense of self
+Dialogue: 0,0:55:50.81,0:55:52.97,Default,,0,0,0,,is ever with us.
+Dialogue: 0,0:55:52.97,0:55:54.97,Default,,0,0,0,,And so the healthy person
+Dialogue: 0,0:55:54.97,0:55:56.97,Default,,0,0,0,,begins to develop a sense of self
+Dialogue: 0,0:55:56.97,0:55:58.97,Default,,0,0,0,,that is independent of external events
+Dialogue: 0,0:55:58.97,0:56:00.97,Default,,0,0,0,,and independent
+Dialogue: 0,0:56:00.97,0:56:02.97,Default,,0,0,0,,of being the body itself.
+Dialogue: 0,0:56:02.97,0:56:04.97,Default,,0,0,0,,The person is aware
+Dialogue: 0,0:56:04.97,0:56:06.97,Default,,0,0,0,,that the body is the body
+Dialogue: 0,0:56:06.97,0:56:08.97,Default,,0,0,0,,of events but I am me.
+Dialogue: 0,0:56:08.97,0:56:10.97,Default,,0,0,0,,And that which I am
+Dialogue: 0,0:56:10.97,0:56:12.97,Default,,0,0,0,,is really untouched by these events.
+Dialogue: 0,0:56:12.97,0:56:14.97,Default,,0,0,0,,The self that wakes up every morning
+Dialogue: 0,0:56:14.97,0:56:16.97,Default,,0,0,0,,before it even begins to remember
+Dialogue: 0,0:56:16.97,0:56:18.97,Default,,0,0,0,,you know name and address
+Dialogue: 0,0:56:18.97,0:56:20.97,Default,,0,0,0,,and where you are
+Dialogue: 0,0:56:20.97,0:56:22.97,Default,,0,0,0,,and what you're supposed to do today
+Dialogue: 0,0:56:22.97,0:56:24.97,Default,,0,0,0,,that self remains unimpaired.
+Dialogue: 0,0:56:24.97,0:56:26.97,Default,,0,0,0,,The innocence of consciousness
+Dialogue: 0,0:56:26.97,0:56:28.97,Default,,0,0,0,,the hardware of the computer
+Dialogue: 0,0:56:28.97,0:56:30.97,Default,,0,0,0,,is unaffected by the software
+Dialogue: 0,0:56:30.97,0:56:32.97,Default,,0,0,0,,the events that go through life.
+Dialogue: 0,0:56:32.97,0:56:34.97,Default,,0,0,0,,And so a healthy attitude
+Dialogue: 0,0:56:34.97,0:56:36.97,Default,,0,0,0,,is one which does not put
+Dialogue: 0,0:56:36.97,0:56:39.00,Default,,0,0,0,,the person in transitory.
+Dialogue: 0,0:56:39.00,0:56:41.00,Default,,0,0,0,,When we look back at this chart
+Dialogue: 0,0:56:41.00,0:56:43.26,Default,,0,0,0,,we'll see.
+Dialogue: 0,0:56:43.26,0:56:45.26,Default,,0,0,0,,What's happened here
+Dialogue: 0,0:56:45.26,0:56:47.26,Default,,0,0,0,,is that the person has placed
+Dialogue: 0,0:56:47.26,0:56:49.26,Default,,0,0,0,,their survival on something
+Dialogue: 0,0:56:49.26,0:56:51.26,Default,,0,0,0,,outside of themself.
+Dialogue: 0,0:56:51.26,0:56:53.26,Default,,0,0,0,,This something outside of oneself
+Dialogue: 0,0:56:53.26,0:56:55.26,Default,,0,0,0,,is always transitory
+Dialogue: 0,0:56:55.26,0:56:57.26,Default,,0,0,0,,and changing in nature.
+Dialogue: 0,0:56:57.26,0:56:59.26,Default,,0,0,0,,We can say the one thing we know
+Dialogue: 0,0:56:59.26,0:57:01.26,Default,,0,0,0,,about the world for certain
+Dialogue: 0,0:57:01.26,0:57:03.26,Default,,0,0,0,,is that all things change.
+Dialogue: 0,0:57:03.26,0:57:05.26,Default,,0,0,0,,All things change.
+Dialogue: 0,0:57:05.26,0:57:07.26,Default,,0,0,0,,Consequently if we put the source
+Dialogue: 0,0:57:07.26,0:57:09.26,Default,,0,0,0,,of our survival on that
+Dialogue: 0,0:57:09.26,0:57:11.26,Default,,0,0,0,,which is outside of ourself
+Dialogue: 0,0:57:11.26,0:57:13.26,Default,,0,0,0,,our job, our possessions
+Dialogue: 0,0:57:13.26,0:57:15.26,Default,,0,0,0,,a particular relationship
+Dialogue: 0,0:57:15.26,0:57:17.26,Default,,0,0,0,,then we're merely setting ourself up
+Dialogue: 0,0:57:17.26,0:57:19.26,Default,,0,0,0,,for the loss
+Dialogue: 0,0:57:19.26,0:57:21.26,Default,,0,0,0,,of our health
+Dialogue: 0,0:57:21.26,0:57:23.26,Default,,0,0,0,,because what's going to come up
+Dialogue: 0,0:57:23.26,0:57:25.26,Default,,0,0,0,,first of all is fear of loss
+Dialogue: 0,0:57:25.26,0:57:27.26,Default,,0,0,0,,even though that's not conscious.
+Dialogue: 0,0:57:27.26,0:57:29.26,Default,,0,0,0,,You know if the source of your happiness
+Dialogue: 0,0:57:29.26,0:57:31.26,Default,,0,0,0,,is your title and your position
+Dialogue: 0,0:57:31.26,0:57:33.26,Default,,0,0,0,,and your address and the kind of car
+Dialogue: 0,0:57:33.26,0:57:35.26,Default,,0,0,0,,that you have etc.
+Dialogue: 0,0:57:35.26,0:57:37.26,Default,,0,0,0,,or even the beauty of the physical body
+Dialogue: 0,0:57:37.26,0:57:39.26,Default,,0,0,0,,that you have
+Dialogue: 0,0:57:39.26,0:57:41.26,Default,,0,0,0,,then you're vulnerable.
+Dialogue: 0,0:57:41.26,0:57:43.26,Default,,0,0,0,,So that vulnerability
+Dialogue: 0,0:57:43.26,0:57:45.26,Default,,0,0,0,,is in the unconscious
+Dialogue: 0,0:57:45.26,0:57:47.26,Default,,0,0,0,,and it stores up a great deal of fear.
+Dialogue: 0,0:57:47.26,0:57:49.26,Default,,0,0,0,,And therefore people's lives become
+Dialogue: 0,0:57:49.26,0:57:51.26,Default,,0,0,0,,endlessly to reinforce
+Dialogue: 0,0:57:51.26,0:57:53.26,Default,,0,0,0,,and protect themselves from the loss
+Dialogue: 0,0:57:53.26,0:57:55.90,Default,,0,0,0,,of those things upon which
+Dialogue: 0,0:57:55.90,0:57:57.90,Default,,0,0,0,,they have put their survival.
+Dialogue: 0,0:57:57.90,0:57:59.90,Default,,0,0,0,,The healthy person realizes
+Dialogue: 0,0:57:59.90,0:58:01.90,Default,,0,0,0,,the true nature of who they really are.
+Dialogue: 0,0:58:01.90,0:58:03.90,Default,,0,0,0,,That they are something far beyond that.
+Dialogue: 0,0:58:03.90,0:58:05.90,Default,,0,0,0,,That they are the one
+Dialogue: 0,0:58:05.90,0:58:07.90,Default,,0,0,0,,that gives those things value.
+Dialogue: 0,0:58:07.90,0:58:09.90,Default,,0,0,0,,That they are temporary enjoyment
+Dialogue: 0,0:58:09.90,0:58:11.90,Default,,0,0,0,,but their survival doesn't depend on them.
+Dialogue: 0,0:58:11.90,0:58:14.28,Default,,0,0,0,,We said that when you move up
+Dialogue: 0,0:58:14.28,0:58:16.28,Default,,0,0,0,,into this energy fuel
+Dialogue: 0,0:58:16.28,0:58:18.28,Default,,0,0,0,,called acceptance
+Dialogue: 0,0:58:18.28,0:58:20.28,Default,,0,0,0,,one has stopped giving one's power
+Dialogue: 0,0:58:20.28,0:58:22.28,Default,,0,0,0,,away to the world.
+Dialogue: 0,0:58:22.28,0:58:24.28,Default,,0,0,0,,One has begun to accept
+Dialogue: 0,0:58:24.28,0:58:26.28,Default,,0,0,0,,that I am the source of my happiness.
+Dialogue: 0,0:58:26.28,0:58:28.28,Default,,0,0,0,,That if you put a person like that
+Dialogue: 0,0:58:28.28,0:58:30.28,Default,,0,0,0,,on a desert island and come back a year later
+Dialogue: 0,0:58:30.28,0:58:32.28,Default,,0,0,0,,you know they'll have a coconut business going
+Dialogue: 0,0:58:32.28,0:58:34.28,Default,,0,0,0,,and they'll have found a new relationship
+Dialogue: 0,0:58:34.28,0:58:36.28,Default,,0,0,0,,and they'll build a tree house in the tree
+Dialogue: 0,0:58:36.28,0:58:38.28,Default,,0,0,0,,and they'll be teaching the children algebra.
+Dialogue: 0,0:58:38.28,0:58:40.28,Default,,0,0,0,,That they have the capacity
+Dialogue: 0,0:58:40.28,0:58:42.28,Default,,0,0,0,,to recreate for themselves
+Dialogue: 0,0:58:42.28,0:58:44.28,Default,,0,0,0,,the source of happiness
+Dialogue: 0,0:58:44.28,0:58:46.28,Default,,0,0,0,,comes from the realization
+Dialogue: 0,0:58:46.28,0:58:48.28,Default,,0,0,0,,that I myself am the source of that happiness.
+Dialogue: 0,0:58:48.28,0:58:50.28,Default,,0,0,0,,I myself am the source of health.
+Dialogue: 0,0:58:50.28,0:58:52.28,Default,,0,0,0,,It doesn't depend on epidemics.
+Dialogue: 0,0:58:52.28,0:58:54.28,Default,,0,0,0,,It doesn't depend on what is out there in the world.
+Dialogue: 0,0:58:54.28,0:58:56.41,Default,,0,0,0,,It doesn't depend on what I eat.
+Dialogue: 0,0:58:56.41,0:58:58.41,Default,,0,0,0,,When we really realize that
+Dialogue: 0,0:58:58.41,0:59:00.41,Default,,0,0,0,,then we begin to transcend
+Dialogue: 0,0:59:00.41,0:59:02.41,Default,,0,0,0,,and no longer be at the effect
+Dialogue: 0,0:59:02.41,0:59:04.41,Default,,0,0,0,,of all these false belief systems.
+Dialogue: 0,0:59:04.41,0:59:06.41,Default,,0,0,0,,And so what kind of a life
+Dialogue: 0,0:59:06.41,0:59:08.41,Default,,0,0,0,,is possible then?
+Dialogue: 0,0:59:08.41,0:59:10.41,Default,,0,0,0,,It comes from canceling these belief systems.
+Dialogue: 0,0:59:10.41,0:59:12.41,Default,,0,0,0,,The mind says,
+Dialogue: 0,0:59:12.41,0:59:14.48,Default,,0,0,0,,uh-oh, you cancel these belief systems
+Dialogue: 0,0:59:14.48,0:59:16.48,Default,,0,0,0,,and you're really going to be in trouble.
+Dialogue: 0,0:59:16.48,0:59:18.48,Default,,0,0,0,,So you see here is a mind that has placed its security
+Dialogue: 0,0:59:18.48,0:59:20.48,Default,,0,0,0,,it's based its security
+Dialogue: 0,0:59:20.48,0:59:22.51,Default,,0,0,0,,on the worshipping of fear.
+Dialogue: 0,0:59:22.51,0:59:24.51,Default,,0,0,0,,The worshipping of fear.
+Dialogue: 0,0:59:24.51,0:59:26.51,Default,,0,0,0,,It is saying, by paying attention
+Dialogue: 0,0:59:26.51,0:59:28.51,Default,,0,0,0,,to these fearful thoughts
+Dialogue: 0,0:59:28.51,0:59:30.51,Default,,0,0,0,,and complying with them
+Dialogue: 0,0:59:30.51,0:59:32.51,Default,,0,0,0,,that's why
+Dialogue: 0,0:59:32.51,0:59:34.51,Default,,0,0,0,,I am alive.
+Dialogue: 0,0:59:34.51,0:59:36.51,Default,,0,0,0,,A mind like that says
+Dialogue: 0,0:59:36.51,0:59:38.51,Default,,0,0,0,,the reason my house hasn't been robbed
+Dialogue: 0,0:59:38.51,0:59:40.51,Default,,0,0,0,,is because I lock all my doors.
+Dialogue: 0,0:59:40.51,0:59:42.83,Default,,0,0,0,,It doesn't see
+Dialogue: 0,0:59:42.83,0:59:44.83,Default,,0,0,0,,that it's the power of the thought.
+Dialogue: 0,0:59:44.83,0:59:46.83,Default,,0,0,0,,The mind thinks
+Dialogue: 0,0:59:46.83,0:59:48.83,Default,,0,0,0,,if the doors are locked
+Dialogue: 0,0:59:48.83,0:59:50.83,Default,,0,0,0,,the house won't be robbed.
+Dialogue: 0,0:59:50.83,0:59:52.83,Default,,0,0,0,,It's the power of the mind
+Dialogue: 0,0:59:52.83,0:59:55.37,Default,,0,0,0,,that's keeping the house from being robbed.
+Dialogue: 0,0:59:55.37,0:59:57.37,Default,,0,0,0,,It isn't the locking of the doors at all.
+Dialogue: 0,0:59:57.37,0:59:59.37,Default,,0,0,0,,As anybody knows
+Dialogue: 0,0:59:59.37,1:00:01.37,Default,,0,0,0,,an accomplished thief will go through any lock.
+Dialogue: 0,1:00:01.37,1:00:03.37,Default,,0,0,0,,There is no lock made that will hold back an accomplished thief.
+Dialogue: 0,1:00:03.37,1:00:05.37,Default,,0,0,0,,They'll go through the window.
+Dialogue: 0,1:00:05.37,1:00:07.44,Default,,0,0,0,,You've got your doors locked.
+Dialogue: 0,1:00:07.44,1:00:09.44,Default,,0,0,0,,Zip, zip, zip, they're in through the window.
+Dialogue: 0,1:00:09.44,1:00:11.44,Default,,0,0,0,,Zip, zip, zip, they're through the ceiling.
+Dialogue: 0,1:00:11.44,1:00:13.44,Default,,0,0,0,,They're through the roof.
+Dialogue: 0,1:00:13.44,1:00:15.44,Default,,0,0,0,,They're through the wall.
+Dialogue: 0,1:00:15.44,1:00:17.44,Default,,0,0,0,,Somebody wants in.
+Dialogue: 0,1:00:17.44,1:00:19.44,Default,,0,0,0,,Let's not kid ourselves.
+Dialogue: 0,1:00:19.44,1:00:21.44,Default,,0,0,0,,They're going to get in.
+Dialogue: 0,1:00:21.44,1:00:23.44,Default,,0,0,0,,Even an amateur like myself.
+Dialogue: 0,1:00:23.44,1:00:25.44,Default,,0,0,0,,Give me 20 minutes
+Dialogue: 0,1:00:25.44,1:00:27.44,Default,,0,0,0,,and a trunk load of tools
+Dialogue: 0,1:00:27.44,1:00:29.85,Default,,0,0,0,,and I'm going to be in that house.
+Dialogue: 0,1:00:29.85,1:00:31.85,Default,,0,0,0,,It's the power of the thought.
+Dialogue: 0,1:00:31.85,1:00:33.85,Default,,0,0,0,,The power of the belief.
+Dialogue: 0,1:00:33.85,1:00:35.85,Default,,0,0,0,,It isn't the lock.
+Dialogue: 0,1:00:35.85,1:00:37.85,Default,,0,0,0,,It's the power of the belief.
+Dialogue: 0,1:00:37.85,1:00:39.85,Default,,0,0,0,,The willingness to undo its mistakes.
+Dialogue: 0,1:00:39.85,1:00:41.85,Default,,0,0,0,,The willingness to be
+Dialogue: 0,1:00:41.85,1:00:43.85,Default,,0,0,0,,forgiving and compassionate.
+Dialogue: 0,1:00:43.85,1:00:45.85,Default,,0,0,0,,The realization through wisdom
+Dialogue: 0,1:00:48.24,1:00:50.24,Default,,0,0,0,,that I make myself victim
+Dialogue: 0,1:00:50.24,1:00:52.24,Default,,0,0,0,,when I place the source of happiness
+Dialogue: 0,1:00:52.24,1:00:54.24,Default,,0,0,0,,outside myself.
+Dialogue: 0,1:00:54.24,1:00:56.24,Default,,0,0,0,,And so what happens is
+Dialogue: 0,1:00:56.24,1:00:58.24,Default,,0,0,0,,we begin to recontextualize our life.
+Dialogue: 0,1:00:58.24,1:01:00.24,Default,,0,0,0,,We begin to say
+Dialogue: 0,1:01:00.24,1:01:02.24,Default,,0,0,0,,what is it that gives my life meaning?
+Dialogue: 0,1:01:02.24,1:01:04.24,Default,,0,0,0,,What is it that I really value?
+Dialogue: 0,1:01:04.24,1:01:06.24,Default,,0,0,0,,What is it that if you removed
+Dialogue: 0,1:01:06.24,1:01:08.24,Default,,0,0,0,,from my life
+Dialogue: 0,1:01:08.24,1:01:10.24,Default,,0,0,0,,if you took away my job
+Dialogue: 0,1:01:10.24,1:01:12.24,Default,,0,0,0,,and you took away my position
+Dialogue: 0,1:01:12.24,1:01:14.24,Default,,0,0,0,,what meaning would my life have then?
+Dialogue: 0,1:01:14.24,1:01:16.24,Default,,0,0,0,,What would it be worth?
+Dialogue: 0,1:01:16.24,1:01:18.24,Default,,0,0,0,,What am I willing to die for?
+Dialogue: 0,1:01:18.24,1:01:20.24,Default,,0,0,0,,And so some introspection
+Dialogue: 0,1:01:20.24,1:01:22.24,Default,,0,0,0,,and spiritual movement is necessary
+Dialogue: 0,1:01:22.24,1:01:24.24,Default,,0,0,0,,to achieve a state of well-being.
+Dialogue: 0,1:01:24.24,1:01:26.24,Default,,0,0,0,,The feeling that one's life
+Dialogue: 0,1:01:26.24,1:01:28.24,Default,,0,0,0,,is significant.
+Dialogue: 0,1:01:28.24,1:01:30.81,Default,,0,0,0,,That we make a difference in the world.
+Dialogue: 0,1:01:30.81,1:01:32.81,Default,,0,0,0,,We don't need the attention
+Dialogue: 0,1:01:32.81,1:01:34.81,Default,,0,0,0,,that illness brings to us
+Dialogue: 0,1:01:34.81,1:01:36.81,Default,,0,0,0,,because our sense of importance
+Dialogue: 0,1:01:36.81,1:01:38.81,Default,,0,0,0,,comes about through the realization
+Dialogue: 0,1:01:38.81,1:01:40.81,Default,,0,0,0,,and willingness of our real self.
+Dialogue: 0,1:01:40.81,1:01:42.81,Default,,0,0,0,,And so general growth
+Dialogue: 0,1:01:42.81,1:01:44.81,Default,,0,0,0,,in the whole field
+Dialogue: 0,1:01:44.81,1:01:46.81,Default,,0,0,0,,of spiritual development
+Dialogue: 0,1:01:46.81,1:01:48.81,Default,,0,0,0,,brings about a condition of health.
+Dialogue: 0,1:01:48.81,1:01:50.81,Default,,0,0,0,,And it can do so quite rapidly.
+Dialogue: 0,1:01:50.81,1:01:52.81,Default,,0,0,0,,To change your position
+Dialogue: 0,1:01:52.81,1:01:54.81,Default,,0,0,0,,to let go a certain limiting belief
+Dialogue: 0,1:01:54.81,1:01:56.81,Default,,0,0,0,,doesn't take very long at all.
+Dialogue: 0,1:01:56.81,1:01:58.81,Default,,0,0,0,,First is the realization
+Dialogue: 0,1:01:58.81,1:02:00.81,Default,,0,0,0,,that you have the power to do that.
+Dialogue: 0,1:02:00.81,1:02:02.81,Default,,0,0,0,,And secondly
+Dialogue: 0,1:02:02.81,1:02:04.81,Default,,0,0,0,,is the willingness to try it out.
+Dialogue: 0,1:02:04.81,1:02:06.81,Default,,0,0,0,,To verify through your own experience.
+Dialogue: 0,1:02:06.81,1:02:08.81,Default,,0,0,0,,It isn't necessary
+Dialogue: 0,1:02:08.81,1:02:10.81,Default,,0,0,0,,to take the words of others.
+Dialogue: 0,1:02:10.81,1:02:12.81,Default,,0,0,0,,The words of others are only an inspiration.
+Dialogue: 0,1:02:12.81,1:02:14.81,Default,,0,0,0,,You have enough faith in them
+Dialogue: 0,1:02:14.81,1:02:16.81,Default,,0,0,0,,to say, well, it sounds so
+Dialogue: 0,1:02:16.81,1:02:18.81,Default,,0,0,0,,and I'm willing to give it a try.
+Dialogue: 0,1:02:18.81,1:02:20.81,Default,,0,0,0,,And therefore in my own particular
+Dialogue: 0,1:02:20.81,1:02:22.91,Default,,0,0,0,,personal experience
+Dialogue: 0,1:02:22.91,1:02:24.91,Default,,0,0,0,,as well as clinical experience
+Dialogue: 0,1:02:24.91,1:02:26.91,Default,,0,0,0,,I've seen illnesses go in a matter of
+Dialogue: 0,1:02:26.91,1:02:28.91,Default,,0,0,0,,minutes, days, weeks, months
+Dialogue: 0,1:02:28.91,1:02:30.91,Default,,0,0,0,,the most a chronic illness
+Dialogue: 0,1:02:30.91,1:02:32.91,Default,,0,0,0,,that lasted for 25 years
+Dialogue: 0,1:02:32.91,1:02:35.20,Default,,0,0,0,,perhaps took two years
+Dialogue: 0,1:02:35.20,1:02:37.20,Default,,0,0,0,,but it was constantly doing the processes
+Dialogue: 0,1:02:37.20,1:02:39.20,Default,,0,0,0,,that I've described today.
+Dialogue: 0,1:02:39.20,1:02:41.20,Default,,0,0,0,,The willingness to accept the power of mind
+Dialogue: 0,1:02:41.20,1:02:43.20,Default,,0,0,0,,the willingness to never allow the mind
+Dialogue: 0,1:02:43.20,1:02:45.20,Default,,0,0,0,,to say something negative
+Dialogue: 0,1:02:45.20,1:02:47.20,Default,,0,0,0,,without challenging it
+Dialogue: 0,1:02:47.20,1:02:49.20,Default,,0,0,0,,and replacing it with a positive thought.
+Dialogue: 0,1:02:49.20,1:02:51.20,Default,,0,0,0,,The willingness to let go
+Dialogue: 0,1:02:51.20,1:02:53.20,Default,,0,0,0,,being judgmental towards ourselves and others
+Dialogue: 0,1:02:53.20,1:02:55.20,Default,,0,0,0,,as a result of the letting go of the negative.
+Dialogue: 0,1:02:55.20,1:02:57.48,Default,,0,0,0,,Why is this so?
+Dialogue: 0,1:02:57.48,1:02:59.48,Default,,0,0,0,,This is so because
+Dialogue: 0,1:02:59.48,1:03:01.48,Default,,0,0,0,,the energy field of that which you are
+Dialogue: 0,1:03:01.48,1:03:03.48,Default,,0,0,0,,which gives us
+Dialogue: 0,1:03:03.48,1:03:05.48,Default,,0,0,0,,an intense sense of aliveness
+Dialogue: 0,1:03:05.48,1:03:07.48,Default,,0,0,0,,when we let go of the obstacles to it
+Dialogue: 0,1:03:07.48,1:03:09.48,Default,,0,0,0,,is ever present.
+Dialogue: 0,1:03:09.48,1:03:11.48,Default,,0,0,0,,What we call bliss
+Dialogue: 0,1:03:11.48,1:03:13.48,Default,,0,0,0,,is the vibration of life itself.
+Dialogue: 0,1:03:13.48,1:03:15.48,Default,,0,0,0,,We could call all that is
+Dialogue: 0,1:03:15.48,1:03:17.48,Default,,0,0,0,,at the top of this chart
+Dialogue: 0,1:03:17.48,1:03:19.48,Default,,0,0,0,,that which is God
+Dialogue: 0,1:03:19.48,1:03:21.48,Default,,0,0,0,,that which is spirit
+Dialogue: 0,1:03:21.48,1:03:23.48,Default,,0,0,0,,that which is one's higher power
+Dialogue: 0,1:03:23.48,1:03:25.48,Default,,0,0,0,,what Krishnamurti calls what is
+Dialogue: 0,1:03:25.48,1:03:27.48,Default,,0,0,0,,isness, beingness
+Dialogue: 0,1:03:27.48,1:03:29.48,Default,,0,0,0,,the energy of that is the energy of life itself.
+Dialogue: 0,1:03:29.48,1:03:31.48,Default,,0,0,0,,Constantly present, ever present.
+Dialogue: 0,1:03:31.48,1:03:34.12,Default,,0,0,0,,Like the sun
+Dialogue: 0,1:03:34.12,1:03:36.12,Default,,0,0,0,,it is always shining
+Dialogue: 0,1:03:36.12,1:03:38.12,Default,,0,0,0,,but because of these clouds here
+Dialogue: 0,1:03:38.12,1:03:40.12,Default,,0,0,0,,we don't experience it.
+Dialogue: 0,1:03:40.12,1:03:42.12,Default,,0,0,0,,It is not necessary to program ourselves
+Dialogue: 0,1:03:42.12,1:03:44.12,Default,,0,0,0,,with the truth.
+Dialogue: 0,1:03:44.12,1:03:46.12,Default,,0,0,0,,It is only necessary to remove
+Dialogue: 0,1:03:46.12,1:03:48.12,Default,,0,0,0,,that which is false.
+Dialogue: 0,1:03:48.12,1:03:50.12,Default,,0,0,0,,The removal of the clouds from the sky
+Dialogue: 0,1:03:50.12,1:03:52.12,Default,,0,0,0,,the elimination of the negative
+Dialogue: 0,1:03:52.12,1:03:54.12,Default,,0,0,0,,allows one to experience
+Dialogue: 0,1:03:54.12,1:03:56.12,Default,,0,0,0,,the energy fields
+Dialogue: 0,1:03:56.12,1:03:58.12,Default,,0,0,0,,of that which is positive.
+Dialogue: 0,1:03:58.12,1:04:00.12,Default,,0,0,0,,So it is only the removal of the negative
+Dialogue: 0,1:04:00.12,1:04:02.12,Default,,0,0,0,,that is necessary.
+Dialogue: 0,1:04:02.12,1:04:04.12,Default,,0,0,0,,The willingness to let go
+Dialogue: 0,1:04:04.12,1:04:06.12,Default,,0,0,0,,of habits of negative thinking, etc.
+Dialogue: 0,1:04:06.12,1:04:08.54,Default,,0,0,0,,The removal
+Dialogue: 0,1:04:08.54,1:04:10.54,Default,,0,0,0,,of the obstacles
+Dialogue: 0,1:04:10.54,1:04:12.54,Default,,0,0,0,,through the experiencing of this
+Dialogue: 0,1:04:12.54,1:04:14.54,Default,,0,0,0,,will result in an increasing sense
+Dialogue: 0,1:04:14.54,1:04:16.54,Default,,0,0,0,,of aliveness.
+Dialogue: 0,1:04:16.54,1:04:18.54,Default,,0,0,0,,With it, a joy of one's own existence.
+Dialogue: 0,1:04:18.54,1:04:20.54,Default,,0,0,0,,As this joy
+Dialogue: 0,1:04:20.54,1:04:22.54,Default,,0,0,0,,of one's own existence comes in
+Dialogue: 0,1:04:22.54,1:04:24.54,Default,,0,0,0,,first subtly and then stronger and stronger
+Dialogue: 0,1:04:24.54,1:04:26.67,Default,,0,0,0,,there is a diminished
+Dialogue: 0,1:04:26.67,1:04:28.67,Default,,0,0,0,,awareness even of the presence
+Dialogue: 0,1:04:28.67,1:04:30.67,Default,,0,0,0,,of the body.
+Dialogue: 0,1:04:30.67,1:04:32.67,Default,,0,0,0,,One's physicalness
+Dialogue: 0,1:04:32.67,1:04:34.67,Default,,0,0,0,,as one gets up into higher levels of happiness
+Dialogue: 0,1:04:34.67,1:04:36.67,Default,,0,0,0,,there is a joyfulness
+Dialogue: 0,1:04:36.67,1:04:38.67,Default,,0,0,0,,the body is looked to as a source of pleasure
+Dialogue: 0,1:04:38.67,1:04:40.67,Default,,0,0,0,,it is held as a pleasure
+Dialogue: 0,1:04:40.67,1:04:42.73,Default,,0,0,0,,a pleasurable
+Dialogue: 0,1:04:42.73,1:04:44.73,Default,,0,0,0,,enjoyable experience.
+Dialogue: 0,1:04:44.73,1:04:46.73,Default,,0,0,0,,But as we move towards
+Dialogue: 0,1:04:46.73,1:04:48.73,Default,,0,0,0,,the top of the box
+Dialogue: 0,1:04:48.73,1:04:50.73,Default,,0,0,0,,the experiencing of the body
+Dialogue: 0,1:04:50.73,1:04:52.73,Default,,0,0,0,,begins to diminish altogether.
+Dialogue: 0,1:04:52.73,1:04:54.73,Default,,0,0,0,,There is a progressive experiencing
+Dialogue: 0,1:04:54.73,1:04:56.73,Default,,0,0,0,,of joy which is diffuse.
+Dialogue: 0,1:04:56.73,1:04:58.73,Default,,0,0,0,,There is an inner progressive
+Dialogue: 0,1:04:58.73,1:05:00.73,Default,,0,0,0,,state of serenity accompanied by
+Dialogue: 0,1:05:00.73,1:05:02.73,Default,,0,0,0,,a peaceful blissfulness.
+Dialogue: 0,1:05:02.73,1:05:04.73,Default,,0,0,0,,And at this point
+Dialogue: 0,1:05:04.73,1:05:06.73,Default,,0,0,0,,the experience of the body
+Dialogue: 0,1:05:06.73,1:05:08.73,Default,,0,0,0,,may disappear altogether
+Dialogue: 0,1:05:08.73,1:05:10.73,Default,,0,0,0,,into sort of a sublime
+Dialogue: 0,1:05:10.73,1:05:12.73,Default,,0,0,0,,state in which one is
+Dialogue: 0,1:05:12.73,1:05:14.73,Default,,0,0,0,,joyful
+Dialogue: 0,1:05:14.73,1:05:16.73,Default,,0,0,0,,aliveness.
+Dialogue: 0,1:05:16.73,1:05:18.73,Default,,0,0,0,,One is that which is
+Dialogue: 0,1:05:18.73,1:05:20.73,Default,,0,0,0,,loving bliss.
+Dialogue: 0,1:05:20.73,1:05:22.73,Default,,0,0,0,,At that point the awareness of the body
+Dialogue: 0,1:05:22.73,1:05:24.73,Default,,0,0,0,,may be almost nil.
+Dialogue: 0,1:05:24.73,1:05:26.73,Default,,0,0,0,,It's as though it's present in the room
+Dialogue: 0,1:05:26.73,1:05:28.73,Default,,0,0,0,,but it's no more
+Dialogue: 0,1:05:28.73,1:05:30.73,Default,,0,0,0,,important than anything else
+Dialogue: 0,1:05:30.73,1:05:32.76,Default,,0,0,0,,in the room.
+Dialogue: 0,1:05:32.76,1:05:34.76,Default,,0,0,0,,That loss of identification
+Dialogue: 0,1:05:34.76,1:05:36.76,Default,,0,0,0,,with the body.
+Dialogue: 0,1:05:36.76,1:05:38.76,Default,,0,0,0,,And we watch the body from that viewpoint
+Dialogue: 0,1:05:38.76,1:05:40.76,Default,,0,0,0,,going about its business happily
+Dialogue: 0,1:05:40.76,1:05:42.76,Default,,0,0,0,,but we are no more concerned
+Dialogue: 0,1:05:42.76,1:05:44.76,Default,,0,0,0,,about it than we are
+Dialogue: 0,1:05:44.76,1:05:46.76,Default,,0,0,0,,anything else in the room.
+Dialogue: 0,1:05:46.76,1:05:48.76,Default,,0,0,0,,That loss of identification
+Dialogue: 0,1:05:48.76,1:05:50.76,Default,,0,0,0,,with the separate limited self.
+Dialogue: 0,1:05:50.76,1:05:52.76,Default,,0,0,0,,The loss of identification
+Dialogue: 0,1:05:52.76,1:05:54.76,Default,,0,0,0,,with the limited physical.
+Dialogue: 0,1:05:54.76,1:05:56.76,Default,,0,0,0,,And with it of course the body
+Dialogue: 0,1:05:56.76,1:05:58.76,Default,,0,0,0,,is expressing the absolute truth
+Dialogue: 0,1:05:58.76,1:06:00.76,Default,,0,0,0,,the infinite truth
+Dialogue: 0,1:06:00.76,1:06:02.76,Default,,0,0,0,,that one is the infinite beingness
+Dialogue: 0,1:06:02.76,1:06:04.76,Default,,0,0,0,,of the universe.
+Dialogue: 0,1:06:04.76,1:06:06.96,Default,,0,0,0,,And therefore the value
+Dialogue: 0,1:06:06.96,1:06:08.96,Default,,0,0,0,,of replacing a negative thought
+Dialogue: 0,1:06:08.96,1:06:10.96,Default,,0,0,0,,into the empty
+Dialogue: 0,1:06:10.96,1:06:12.96,Default,,0,0,0,,space of that
+Dialogue: 0,1:06:12.96,1:06:14.96,Default,,0,0,0,,in the place that we just cancel
+Dialogue: 0,1:06:14.96,1:06:16.96,Default,,0,0,0,,we place the statement
+Dialogue: 0,1:06:16.96,1:06:18.96,Default,,0,0,0,,I am an infinite being and I am not
+Dialogue: 0,1:06:18.96,1:06:20.96,Default,,0,0,0,,subject to that.
+Dialogue: 0,1:06:20.96,1:06:22.96,Default,,0,0,0,,I am an infinite being and I am not subject to that.
+Dialogue: 0,1:06:22.96,1:06:24.96,Default,,0,0,0,,So everything that we cancel
+Dialogue: 0,1:06:24.96,1:06:26.96,Default,,0,0,0,,we replace with the truth.
+Dialogue: 0,1:06:26.96,1:06:29.98,Default,,0,0,0,,In place of the negative thought
+Dialogue: 0,1:06:29.98,1:06:31.98,Default,,0,0,0,,we put something in that's positive
+Dialogue: 0,1:06:31.98,1:06:33.98,Default,,0,0,0,,because we choose to love
+Dialogue: 0,1:06:33.98,1:06:35.98,Default,,0,0,0,,ourself instead.
+Dialogue: 0,1:06:35.98,1:06:37.98,Default,,0,0,0,,So we can also use the form we can say
+Dialogue: 0,1:06:37.98,1:06:39.98,Default,,0,0,0,,I cancel that. I no longer buy that.
+Dialogue: 0,1:06:39.98,1:06:41.98,Default,,0,0,0,,I'm not subject to that.
+Dialogue: 0,1:06:41.98,1:06:43.98,Default,,0,0,0,,Instead I choose to love myself.
+Dialogue: 0,1:06:43.98,1:06:45.98,Default,,0,0,0,,Instead I choose to love myself.
+Dialogue: 0,1:06:45.98,1:06:47.98,Default,,0,0,0,,And so we see that
+Dialogue: 0,1:06:47.98,1:06:49.98,Default,,0,0,0,,lovingness then
+Dialogue: 0,1:06:49.98,1:06:51.98,Default,,0,0,0,,is the great healer.
+Dialogue: 0,1:06:51.98,1:06:53.98,Default,,0,0,0,,We have within our capacity
+Dialogue: 0,1:06:53.98,1:06:55.98,Default,,0,0,0,,within the power within us
+Dialogue: 0,1:06:55.98,1:06:57.98,Default,,0,0,0,,all the powers of self healing.
+Dialogue: 0,1:06:57.98,1:06:59.98,Default,,0,0,0,,All we have to do is remove the obstacles.
+Dialogue: 0,1:06:59.98,1:07:01.98,Default,,0,0,0,,Perfect health
+Dialogue: 0,1:07:01.98,1:07:03.98,Default,,0,0,0,,is an expression then
+Dialogue: 0,1:07:03.98,1:07:05.98,Default,,0,0,0,,of spiritual awareness.
+Dialogue: 0,1:07:05.98,1:07:07.98,Default,,0,0,0,,The willingness to let go
+Dialogue: 0,1:07:07.98,1:07:09.98,Default,,0,0,0,,of the negative
+Dialogue: 0,1:07:09.98,1:07:11.98,Default,,0,0,0,,and allowing it to be replaced by that
+Dialogue: 0,1:07:11.98,1:07:14.04,Default,,0,0,0,,which is loving.
+Dialogue: 0,1:07:14.04,1:07:16.04,Default,,0,0,0,,So the physical expression then
+Dialogue: 0,1:07:16.04,1:07:18.04,Default,,0,0,0,,is of this energy field.
+Dialogue: 0,1:07:18.04,1:07:20.04,Default,,0,0,0,,Sickness is merely an expression
+Dialogue: 0,1:07:20.04,1:07:22.04,Default,,0,0,0,,of this energy field
+Dialogue: 0,1:07:22.04,1:07:24.04,Default,,0,0,0,,down here
+Dialogue: 0,1:07:24.04,1:07:26.04,Default,,0,0,0,,given form by what is held in mind.
+Dialogue: 0,1:07:26.04,1:07:28.17,Default,,0,0,0,,Physical health
+Dialogue: 0,1:07:28.17,1:07:30.17,Default,,0,0,0,,is merely an expression
+Dialogue: 0,1:07:30.17,1:07:32.17,Default,,0,0,0,,of a positive energy field
+Dialogue: 0,1:07:32.17,1:07:34.17,Default,,0,0,0,,reinforced by our
+Dialogue: 0,1:07:34.17,1:07:36.17,Default,,0,0,0,,willingness to commit
+Dialogue: 0,1:07:36.17,1:07:38.17,Default,,0,0,0,,to compassion and forgiveness.
+Dialogue: 0,1:07:38.17,1:07:40.17,Default,,0,0,0,,That which I am
+Dialogue: 0,1:07:40.17,1:07:42.17,Default,,0,0,0,,includes the body
+Dialogue: 0,1:07:42.17,1:07:44.24,Default,,0,0,0,,not limited to it.
+Dialogue: 0,1:07:44.24,1:07:46.24,Default,,0,0,0,,That which I am chooses to love it
+Dialogue: 0,1:07:46.24,1:07:48.88,Default,,0,0,0,,to value it
+Dialogue: 0,1:07:48.88,1:07:50.88,Default,,0,0,0,,to be appreciative of it
+Dialogue: 0,1:07:50.88,1:07:52.94,Default,,0,0,0,,to be grateful for it
+Dialogue: 0,1:07:52.94,1:07:54.94,Default,,0,0,0,,to enjoy the sense of aliveness.
+Dialogue: 0,1:07:54.94,1:07:56.94,Default,,0,0,0,,We get into
+Dialogue: 0,1:07:56.94,1:07:58.94,Default,,0,0,0,,the joy of the experiencing
+Dialogue: 0,1:07:58.94,1:08:00.94,Default,,0,0,0,,of experience.
+Dialogue: 0,1:08:00.94,1:08:02.94,Default,,0,0,0,,We get more and more into the awareness
+Dialogue: 0,1:08:02.94,1:08:04.94,Default,,0,0,0,,of the joy and the thankfulness
+Dialogue: 0,1:08:04.94,1:08:06.94,Default,,0,0,0,,for our existence.
+Dialogue: 0,1:08:06.94,1:08:08.94,Default,,0,0,0,,The existence of what?
+Dialogue: 0,1:08:08.94,1:08:10.94,Default,,0,0,0,,The existence of our consciousness.
+Dialogue: 0,1:08:10.94,1:08:12.94,Default,,0,0,0,,The body is then included
+Dialogue: 0,1:08:12.94,1:08:14.94,Default,,0,0,0,,within the field of consciousness itself.
+Dialogue: 0,1:08:14.94,1:08:16.94,Default,,0,0,0,,We come to the surprising thought
+Dialogue: 0,1:08:16.94,1:08:18.94,Default,,0,0,0,,that the body
+Dialogue: 0,1:08:18.94,1:08:20.94,Default,,0,0,0,,is within the mind.
+Dialogue: 0,1:08:20.94,1:08:22.94,Default,,0,0,0,,Most people
+Dialogue: 0,1:08:22.94,1:08:24.94,Default,,0,0,0,,having a limited belief system
+Dialogue: 0,1:08:24.94,1:08:26.94,Default,,0,0,0,,will think that the mind
+Dialogue: 0,1:08:26.94,1:08:28.94,Default,,0,0,0,,is somewhere up here.
+Dialogue: 0,1:08:28.94,1:08:30.94,Default,,0,0,0,,Actually when you experience experience
+Dialogue: 0,1:08:30.94,1:08:32.94,Default,,0,0,0,,if you try to localize it
+Dialogue: 0,1:08:32.94,1:08:34.94,Default,,0,0,0,,you will see that it is everywhere.
+Dialogue: 0,1:08:34.94,1:08:36.94,Default,,0,0,0,,When you experience a thought
+Dialogue: 0,1:08:36.94,1:08:39.04,Default,,0,0,0,,it is being experienced everywhere.
+Dialogue: 0,1:08:39.04,1:08:41.04,Default,,0,0,0,,The thought that it is occurring
+Dialogue: 0,1:08:41.04,1:08:43.04,Default,,0,0,0,,somewhere in here
+Dialogue: 0,1:08:43.04,1:08:45.04,Default,,0,0,0,,within your system
+Dialogue: 0,1:08:45.04,1:08:47.68,Default,,0,0,0,,it is a thought about thought.
+Dialogue: 0,1:08:47.68,1:08:49.68,Default,,0,0,0,,Inner experience will tell you
+Dialogue: 0,1:08:49.68,1:08:51.68,Default,,0,0,0,,that the experience of a thought
+Dialogue: 0,1:08:51.68,1:08:53.68,Default,,0,0,0,,the experience of the body
+Dialogue: 0,1:08:53.68,1:08:55.68,Default,,0,0,0,,is occurring everywhere.
+Dialogue: 0,1:08:55.68,1:08:57.68,Default,,0,0,0,,It is occurring in consciousness itself.
+Dialogue: 0,1:08:57.68,1:08:59.68,Default,,0,0,0,,You understand that the body
+Dialogue: 0,1:08:59.68,1:09:01.68,Default,,0,0,0,,is sitting in the chair
+Dialogue: 0,1:09:01.68,1:09:03.68,Default,,0,0,0,,but where is that understanding
+Dialogue: 0,1:09:03.68,1:09:05.68,Default,,0,0,0,,being experienced?
+Dialogue: 0,1:09:05.68,1:09:07.68,Default,,0,0,0,,That understanding is being experienced
+Dialogue: 0,1:09:07.68,1:09:09.68,Default,,0,0,0,,in no specific place.
+Dialogue: 0,1:09:09.68,1:09:11.68,Default,,0,0,0,,It is happening within
+Dialogue: 0,1:09:11.68,1:09:13.87,Default,,0,0,0,,your consciousness itself.
+Dialogue: 0,1:09:13.87,1:09:15.87,Default,,0,0,0,,The health then is really
+Dialogue: 0,1:09:15.87,1:09:17.87,Default,,0,0,0,,addressing ourselves
+Dialogue: 0,1:09:17.87,1:09:19.87,Default,,0,0,0,,to the nature of consciousness.
+Dialogue: 0,1:09:19.87,1:09:21.87,Default,,0,0,0,,The body then is coming out
+Dialogue: 0,1:09:21.87,1:09:23.87,Default,,0,0,0,,of our sense of aliveness
+Dialogue: 0,1:09:23.87,1:09:25.87,Default,,0,0,0,,which is coming out of our
+Dialogue: 0,1:09:25.87,1:09:27.87,Default,,0,0,0,,sense of appreciation
+Dialogue: 0,1:09:27.87,1:09:29.87,Default,,0,0,0,,for our own existence.
+Dialogue: 0,1:09:29.87,1:09:31.87,Default,,0,0,0,,In this talk we have repeated
+Dialogue: 0,1:09:31.87,1:09:33.87,Default,,0,0,0,,certain things over and over
+Dialogue: 0,1:09:33.87,1:09:35.93,Default,,0,0,0,,because of the mind's resistance
+Dialogue: 0,1:09:35.93,1:09:37.93,Default,,0,0,0,,to accepting the truth of it.
+Dialogue: 0,1:09:37.93,1:09:39.93,Default,,0,0,0,,Right brain learning is really
+Dialogue: 0,1:09:39.93,1:09:41.93,Default,,0,0,0,,one of becoming familiar
+Dialogue: 0,1:09:41.93,1:09:43.93,Default,,0,0,0,,constantly re-exposing ourselves
+Dialogue: 0,1:09:43.93,1:09:45.93,Default,,0,0,0,,until it becomes natural.
+Dialogue: 0,1:09:45.93,1:09:47.93,Default,,0,0,0,,Why is it difficult when it comes
+Dialogue: 0,1:09:47.93,1:09:49.93,Default,,0,0,0,,to healing and health?
+Dialogue: 0,1:09:49.93,1:09:51.93,Default,,0,0,0,,It is because we are really reversing
+Dialogue: 0,1:09:51.93,1:09:53.93,Default,,0,0,0,,the mind's belief in causality.
+Dialogue: 0,1:09:53.93,1:09:55.93,Default,,0,0,0,,We are saying that the physical
+Dialogue: 0,1:09:55.93,1:09:58.25,Default,,0,0,0,,is the expression of the mental
+Dialogue: 0,1:09:58.25,1:10:00.25,Default,,0,0,0,,and not vice versa.
+Dialogue: 0,1:10:00.25,1:10:02.25,Default,,0,0,0,,You see the world would like to say
+Dialogue: 0,1:10:02.25,1:10:04.25,Default,,0,0,0,,and that it is the other way around
+Dialogue: 0,1:10:04.25,1:10:06.25,Default,,0,0,0,,that cause is within the world.
+Dialogue: 0,1:10:06.25,1:10:08.25,Default,,0,0,0,,Cause is within the powers
+Dialogue: 0,1:10:08.25,1:10:10.25,Default,,0,0,0,,within the virus.
+Dialogue: 0,1:10:10.25,1:10:12.25,Default,,0,0,0,,The power is within the bacteria.
+Dialogue: 0,1:10:12.25,1:10:14.25,Default,,0,0,0,,Even medications work because
+Dialogue: 0,1:10:14.25,1:10:16.25,Default,,0,0,0,,it is the belief in the power
+Dialogue: 0,1:10:16.25,1:10:18.25,Default,,0,0,0,,of the medication.
+Dialogue: 0,1:10:18.25,1:10:20.25,Default,,0,0,0,,We certainly see this with scientific research
+Dialogue: 0,1:10:20.25,1:10:22.25,Default,,0,0,0,,into the nature of placebos.
+Dialogue: 0,1:10:22.25,1:10:24.25,Default,,0,0,0,,Placebos alone will cure 35%
+Dialogue: 0,1:10:24.25,1:10:26.25,Default,,0,0,0,,generally of people with any given ailment.
+Dialogue: 0,1:10:26.25,1:10:28.25,Default,,0,0,0,,Just the suggestion
+Dialogue: 0,1:10:28.25,1:10:30.25,Default,,0,0,0,,that this pill will heal it
+Dialogue: 0,1:10:30.25,1:10:32.25,Default,,0,0,0,,35% of the time
+Dialogue: 0,1:10:32.25,1:10:34.25,Default,,0,0,0,,is all that is sufficient.
+Dialogue: 0,1:10:34.25,1:10:36.99,Default,,0,0,0,,Realizing then
+Dialogue: 0,1:10:36.99,1:10:38.99,Default,,0,0,0,,that we are making a major move
+Dialogue: 0,1:10:38.99,1:10:40.99,Default,,0,0,0,,in consciousness allows us
+Dialogue: 0,1:10:40.99,1:10:42.99,Default,,0,0,0,,to value
+Dialogue: 0,1:10:42.99,1:10:44.99,Default,,0,0,0,,all of our knowledge about
+Dialogue: 0,1:10:44.99,1:10:46.99,Default,,0,0,0,,consciousness and health
+Dialogue: 0,1:10:46.99,1:10:48.99,Default,,0,0,0,,to use it as a springboard
+Dialogue: 0,1:10:48.99,1:10:50.99,Default,,0,0,0,,to our own spiritual growth and development.

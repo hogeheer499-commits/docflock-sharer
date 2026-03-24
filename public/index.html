@@ -32,11 +32,28 @@
       </div>
 
       <div class="player-section">
+        <!-- Resume prompt -->
+        <div id="resume-prompt" class="resume-prompt hidden">
+          <span id="resume-text"></span>
+          <div class="resume-actions">
+            <button id="resume-btn" class="btn-primary">Resume</button>
+            <button id="resume-dismiss" class="btn-dismiss">Dismiss</button>
+          </div>
+        </div>
+
         <!-- Lecture selector -->
         <div class="select-group">
           <label for="video-select">Lectures</label>
           <select id="video-select">
             <option value="">Select a lecture...</option>
+          </select>
+        </div>
+
+        <!-- Short Doc Clips selector -->
+        <div id="clips-group" class="select-group hidden">
+          <label for="clips-select">Short Doc Clips</label>
+          <select id="clips-select">
+            <option value="">Select a clip...</option>
           </select>
         </div>
 
@@ -70,15 +87,6 @@
         <div id="lang-group" class="lang-group hidden">
           <label>Subtitles</label>
           <div id="lang-checkboxes" class="lang-checkboxes"></div>
-        </div>
-
-        <!-- Resume prompt -->
-        <div id="resume-prompt" class="resume-prompt hidden">
-          <span id="resume-text"></span>
-          <div class="resume-actions">
-            <button id="resume-btn" class="btn-primary">Resume</button>
-            <button id="resume-dismiss" class="btn-dismiss">Dismiss</button>
-          </div>
         </div>
 
         <button id="play-btn" class="btn-primary btn-full" disabled>Play</button>

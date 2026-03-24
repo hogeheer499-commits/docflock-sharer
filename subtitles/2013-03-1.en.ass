@@ -1,0 +1,704 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:17.92,Default,,0,0,0,,Let me first introduce myself a little bit and how we get to know each other, Dr. Hawkins and me.
+Dialogue: 0,0:00:17.92,0:00:29.51,Default,,0,0,0,,I'm from Korea. We're a new meditation group trying to settle in Sedona. This is maybe a
+Dialogue: 0,0:00:29.51,0:00:36.71,Default,,0,0,0,,third month staying in Sedona, and we happen to know each other by a Korean doctor who wants to
+Dialogue: 0,0:00:36.71,0:00:45.35,Default,,0,0,0,,translate David's book, The Power Versus Force. Anyway, through this book, we got to know each
+Dialogue: 0,0:00:45.35,0:00:53.03,Default,,0,0,0,,other quite closely, and we admired his effort to do such an enlightening work in a scientific sense.
+Dialogue: 0,0:00:54.79,0:00:59.43,Default,,0,0,0,,Now, this book will be soon translated into Korean, maybe at the end of the year.
+Dialogue: 0,0:00:59.52,0:01:08.00,Default,,0,0,0,,So after we're publishing his book in Korean version, we want to introduce him more,
+Dialogue: 0,0:01:08.00,0:01:15.04,Default,,0,0,0,,because probably lots of people in my country get more curiosity, you know, who this author is about.
+Dialogue: 0,0:01:15.68,0:01:22.71,Default,,0,0,0,,There's three million members in Korea? Yeah, yeah. It's kind of very fast-growing meditation.
+Dialogue: 0,0:01:22.71,0:01:29.43,Default,,0,0,0,,26 centers? Yes. And now how many centers are in the United States? 13 now. 13?
+Dialogue: 0,0:01:29.51,0:01:38.56,Default,,0,0,0,,Already? Yeah. Well, this is not something new. It is really ancient spiritual practice taught or
+Dialogue: 0,0:01:40.56,0:01:47.43,Default,,0,0,0,,transmitted from our very, very Asian ancestors, but it had been lost for a while. But now,
+Dialogue: 0,0:01:48.00,0:01:54.31,Default,,0,0,0,,over the last decade, we're rediscovering this tradition, and it's getting very popular at home.
+Dialogue: 0,0:01:55.92,0:01:59.19,Default,,0,0,0,,I was reading the book that Dr. Lee lent me. Right.
+Dialogue: 0,0:01:59.51,0:02:02.95,Default,,0,0,0,,Six thousand years of Korean spiritual tradition. Right.
+Dialogue: 0,0:02:02.95,0:02:07.19,Default,,0,0,0,,And the founder of the main religion is about 2500 BC.
+Dialogue: 0,0:02:08.71,0:02:11.28,Default,,0,0,0,,What was his name? Dan Young? Dan Young? Dan Goon.
+Dialogue: 0,0:02:11.84,0:02:13.43,Default,,0,0,0,,Huh? Dan Goon.
+Dialogue: 0,0:02:13.43,0:02:20.56,Default,,0,0,0,,Yeah, that's right. Right. Anyway, so today we originally focused on his
+Dialogue: 0,0:02:20.56,0:02:27.75,Default,,0,0,0,,personal journey in terms of spiritual evolution. And in his book, at the last part of his book, he
+Dialogue: 0,0:02:28.63,0:02:29.35,Default,,0,0,0,,very briefly...
+Dialogue: 0,0:02:29.76,0:02:38.16,Default,,0,0,0,,tells most of his spiritual journey in a very essential form. So what I want to do today is go
+Dialogue: 0,0:02:38.16,0:02:45.43,Default,,0,0,0,,through in each stage of his spiritual awakening and go to more details. And also, I have some
+Dialogue: 0,0:02:45.43,0:02:54.00,Default,,0,0,0,,questions as a spiritual practitioner, whatever you say. So we're going to follow the basic
+Dialogue: 0,0:02:54.00,0:02:59.12,Default,,0,0,0,,format of his writing in the last part of his book. So you're a spiritual student?
+Dialogue: 0,0:03:00.08,0:03:00.80,Default,,0,0,0,,I think so.
+Dialogue: 0,0:03:02.08,0:03:03.60,Default,,0,0,0,,No, no, no.
+Dialogue: 0,0:03:04.40,0:03:06.40,Default,,0,0,0,,But you're a committed full-time student?
+Dialogue: 0,0:03:07.28,0:03:12.71,Default,,0,0,0,,Well, what I'm saying, the student is, you know, everybody, in a sense, we are
+Dialogue: 0,0:03:12.71,0:03:16.00,Default,,0,0,0,,best spiritual students once you became a human form.
+Dialogue: 0,0:03:16.00,0:03:16.56,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:03:16.56,0:03:17.84,Default,,0,0,0,,Yeah, that's what I meant.
+Dialogue: 0,0:03:17.84,0:03:20.16,Default,,0,0,0,,That's a good way to define the human experience.
+Dialogue: 0,0:03:21.20,0:03:28.87,Default,,0,0,0,,Why don't, for us, for our potential reader in Korea, why don't you just be describing
+Dialogue: 0,0:03:28.87,0:03:34.00,Default,,0,0,0,,where you're born, and what is your, you know, family looks like, and...
+Dialogue: 0,0:03:34.00,0:03:41.19,Default,,0,0,0,,Something about my early life, yes. Well, I grew up in the Midwest, in Wisconsin. It was
+Dialogue: 0,0:03:41.19,0:03:44.24,Default,,0,0,0,,during the depression, and...
+Dialogue: 0,0:03:44.24,0:03:46.31,Default,,0,0,0,,You're born in 19...
+Dialogue: 0,0:03:46.31,0:03:47.43,Default,,0,0,0,,27.
+Dialogue: 0,0:03:47.43,0:03:48.15,Default,,0,0,0,,27.
+Dialogue: 0,0:03:48.15,0:03:57.28,Default,,0,0,0,,And the depression was on, and soon after the depression, there was World War II. And so, I grew
+Dialogue: 0,0:03:57.28,0:03:58.71,Default,,0,0,0,,up with that, in a tradition...
+Dialogue: 0,0:03:58.71,0:04:07.41,Default,,0,0,0,,Protestant family. I was brought up high Episcopal. I was an altar boy. I was a choir boy.
+Dialogue: 0,0:04:07.41,0:04:17.37,Default,,0,0,0,,The family was rather religious. And actually, when I became a teenager, I read Thomas Paine's
+Dialogue: 0,0:04:17.37,0:04:29.06,Default,,0,0,0,,Age of Reason and became an atheist. And I was always a hard worker, you know. I had
+Dialogue: 0,0:04:29.06,0:04:37.37,Default,,0,0,0,,the longest paper route in the state of Wisconsin, 17 miles every day, and made $50 a month.
+Dialogue: 0,0:04:37.37,0:04:46.75,Default,,0,0,0,,And I paid my way through school. And I was born with a reasonably high IQ, so it didn't
+Dialogue: 0,0:04:46.75,0:04:47.36,Default,,0,0,0,,take me long to start.
+Dialogue: 0,0:04:47.36,0:04:52.52,Default,,0,0,0,,I started to study, so that gave me time to work, so that I could earn the tuition to
+Dialogue: 0,0:04:52.52,0:04:57.80,Default,,0,0,0,,go to schools. So I sort of worked my way through school, you know. And then in World
+Dialogue: 0,0:04:57.80,0:05:05.69,Default,,0,0,0,,War II, I was on a minesweeper. I was in China, in the East China Sea, Formosa, Nationalist
+Dialogue: 0,0:05:05.69,0:05:14.74,Default,,0,0,0,,China now, in the South Pacific. And then after the war, I went to Teachers College
+Dialogue: 0,0:05:14.74,0:05:16.74,Default,,0,0,0,,for a couple of years.
+Dialogue: 0,0:05:16.74,0:05:23.22,Default,,0,0,0,,And then medical school. And I specialized in psychiatry.
+Dialogue: 0,0:05:23.22,0:05:30.92,Default,,0,0,0,,I didn't...in our private conversation, didn't you say you were in Jay Street Theological
+Dialogue: 0,0:05:30.92,0:05:31.36,Default,,0,0,0,,College, or over there?
+Dialogue: 0,0:05:31.36,0:05:37.86,Default,,0,0,0,,Well, after two years at Teachers College, I transferred to a Roman Catholic university,
+Dialogue: 0,0:05:37.86,0:05:45.24,Default,,0,0,0,,Marquette University. And I studied theology. At the time, I was an atheist, you know. At
+Dialogue: 0,0:05:45.24,0:05:45.87,Default,,0,0,0,,the time, I studied theology. I was the first man to be an atheist. That's the first thing
+Dialogue: 0,0:05:45.87,0:05:46.10,Default,,0,0,0,,that I did. I was the first man to be an atheist, and then at that time, I was teaching this.
+Dialogue: 0,0:05:46.10,0:05:46.57,Default,,0,0,0,,Did you follow any Catholic?
+Dialogue: 0,0:05:46.57,0:05:46.60,Default,,0,0,0,,No. Did you follow any Catholic?
+Dialogue: 0,0:05:46.60,0:05:46.66,Default,,0,0,0,,No. Did you follow any Catholic?
+Dialogue: 0,0:05:46.66,0:05:46.74,Default,,0,0,0,,No. Did you follow any Catholic?
+Dialogue: 0,0:05:46.74,0:05:51.66,Default,,0,0,0,,theology I got a straight A in theology and Catholic ethics and Thomas Aquinas
+Dialogue: 0,0:05:51.66,0:05:55.98,Default,,0,0,0,,and all and I used to drive some of my fellow students crazy because they were very
+Dialogue: 0,0:05:55.98,0:06:01.48,Default,,0,0,0,,religious and were getting C's and I was atheistic and getting A's that drove me
+Dialogue: 0,0:06:01.48,0:06:07.24,Default,,0,0,0,,nuts but I was always intensely interested in religion one way or the
+Dialogue: 0,0:06:07.24,0:06:13.62,Default,,0,0,0,,other either pro or again you see did you believe what you wrote in your
+Dialogue: 0,0:06:13.62,0:06:21.72,Default,,0,0,0,,papers no I'm just no I didn't know no Thomas Aquinas is proof of the
+Dialogue: 0,0:06:21.72,0:06:27.66,Default,,0,0,0,,existence of God and things you know I thought they were interesting and I used
+Dialogue: 0,0:06:27.66,0:06:32.81,Default,,0,0,0,,to argue religion all the time you know after class we would go over and drink
+Dialogue: 0,0:06:32.81,0:06:37.92,Default,,0,0,0,,beer and argue religion so you basically playing with the theology rather than
+Dialogue: 0,0:06:37.92,0:06:43.07,Default,,0,0,0,,studying it well I wanted to know what people believe
+Dialogue: 0,0:06:43.07,0:06:43.18,Default,,0,0,0,,I
+Dialogue: 0,0:06:43.18,0:06:43.57,Default,,0,0,0,,believe
+Dialogue: 0,0:06:43.57,0:06:43.62,Default,,0,0,0,,I
+Dialogue: 0,0:06:43.62,0:06:46.43,Default,,0,0,0,,'m alright if you're gonna disagree with something you better know a lot
+Dialogue: 0,0:06:46.43,0:06:51.84,Default,,0,0,0,,about it you know so when you became a psychiatrist I mean when I look back at
+Dialogue: 0,0:06:51.84,0:06:58.07,Default,,0,0,0,,it retrospectively now I see what I was doing you know I was what I was really
+Dialogue: 0,0:06:58.07,0:07:04.30,Default,,0,0,0,,saying was that the intellect cannot prove the existence of God you know it
+Dialogue: 0,0:07:04.30,0:07:10.68,Default,,0,0,0,,can give it a reasonable hypothesis but I didn't know it but later on it is only
+Dialogue: 0,0:07:10.68,0:07:13.57,Default,,0,0,0,,the subjective experience of the presence of God
+Dialogue: 0,0:07:13.57,0:07:18.50,Default,,0,0,0,,and that blows the intellect out the window
+Dialogue: 0,0:07:18.50,0:07:27.57,Default,,0,0,0,,so where they're gone anyway oh I'm sorry I disturbing your life story no I
+Dialogue: 0,0:07:27.57,0:07:33.59,Default,,0,0,0,,was just telling you the rough the rough of it and and I was psychoanalyzed
+Dialogue: 0,0:07:33.59,0:07:39.57,Default,,0,0,0,,you know I was in psychoanalysis and I did psycho analysis for years and I had
+Dialogue: 0,0:07:39.57,0:07:43.53,Default,,0,0,0,,a very large psychiatric practice in New York probably the biggest cooking company hang around there for many years he ended up getting
+Dialogue: 0,0:07:43.54,0:07:50.87,Default,,0,0,0,,biggest in the country, I guess. We had 50 employees. We had 2,000 outpatients. I saw
+Dialogue: 0,0:07:50.87,0:07:56.50,Default,,0,0,0,,1,000 new patients a year. And then I had a very large hospital practice where I was
+Dialogue: 0,0:07:56.50,0:08:02.06,Default,,0,0,0,,chief of psychiatry. And I always had about 40 private patients in the hospital at all
+Dialogue: 0,0:08:02.06,0:08:09.34,Default,,0,0,0,,times that I saw three times a week. And I then got into the relationship between nutrition
+Dialogue: 0,0:08:09.34,0:08:16.66,Default,,0,0,0,,and brain chemistry and mental and emotional illness. And we did a lot of avant-garde work,
+Dialogue: 0,0:08:16.66,0:08:23.66,Default,,0,0,0,,you might say. And patients came from all over. And I wrote about it in a book I did
+Dialogue: 0,0:08:23.66,0:08:30.98,Default,,0,0,0,,with Linus Pauling. I was writing a book about this new approach to mental illness. At the
+Dialogue: 0,0:08:30.98,0:08:35.32,Default,,0,0,0,,time, it was a Freudian era. And they thought that all mental illness was due to how you
+Dialogue: 0,0:08:35.32,0:08:38.50,Default,,0,0,0,,were brought up, you know.
+Dialogue: 0,0:08:38.50,0:08:38.70,Default,,0,0,0,,Okay.
+Dialogue: 0,0:08:38.70,0:08:39.32,Default,,0,0,0,,And I looked at these
+Dialogue: 0,0:08:39.32,0:08:45.78,Default,,0,0,0,,severe psychosis and schizophrenia and bipolar disorder and various addictions. And it was
+Dialogue: 0,0:08:45.78,0:08:52.06,Default,,0,0,0,,obvious it was biochemical. So I was writing this book, and Linus Pauling asked if he could
+Dialogue: 0,0:08:52.06,0:08:58.68,Default,,0,0,0,,put a chapter in and edit the book. So we published a book in 1973 called Orthomolecular
+Dialogue: 0,0:08:58.68,0:09:07.40,Default,,0,0,0,,Psychiatry with Linus Pauling and myself. And I had this very large practice until the
+Dialogue: 0,0:09:07.40,0:09:08.26,Default,,0,0,0,,late 70s.
+Dialogue: 0,0:09:08.68,0:09:08.96,Default,,0,0,0,,Nice.
+Dialogue: 0,0:09:09.32,0:09:15.28,Default,,0,0,0,,And then at that time, I left practice and moved to a small town and pretty much withdrew
+Dialogue: 0,0:09:15.28,0:09:17.87,Default,,0,0,0,,from the world for about 12 years.
+Dialogue: 0,0:09:17.87,0:09:19.96,Default,,0,0,0,,Now you're in Sedona?
+Dialogue: 0,0:09:19.96,0:09:29.62,Default,,0,0,0,,And now I've, after 12 years, which I'll explain later, it took some years to learn how to
+Dialogue: 0,0:09:29.62,0:09:34.72,Default,,0,0,0,,function back in the world again. During those 12 years, I pretty much lost track of the
+Dialogue: 0,0:09:34.72,0:09:36.44,Default,,0,0,0,,world.
+Dialogue: 0,0:09:36.44,0:09:38.68,Default,,0,0,0,,And then there was a...
+Dialogue: 0,0:09:38.68,0:09:43.44,Default,,0,0,0,,There was a girls' treatment center that didn't have a psychiatrist, and they asked if I would
+Dialogue: 0,0:09:43.44,0:09:49.98,Default,,0,0,0,,come there. And that led to one thing to another, and now I'm back into full-time practice again.
+Dialogue: 0,0:09:49.98,0:09:57.90,Default,,0,0,0,,So those are the outlines of my physical life, you know, what the body does in the world.
+Dialogue: 0,0:09:57.90,0:10:02.14,Default,,0,0,0,,The body goes about doing all these things, you know, and I'm just the witness of it.
+Dialogue: 0,0:10:02.14,0:10:04.68,Default,,0,0,0,,I don't know what it's going to do next. It's always surprising.
+Dialogue: 0,0:10:04.68,0:10:05.68,Default,,0,0,0,,Right.
+Dialogue: 0,0:10:05.68,0:10:06.68,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:10:06.68,0:10:08.04,Default,,0,0,0,,Well, we'll see.
+Dialogue: 0,0:10:08.03,0:10:15.87,Default,,0,0,0,,In your book, you start your spiritual journey from at age 3. You wrote, like, there occurring
+Dialogue: 0,0:10:15.87,0:10:22.03,Default,,0,0,0,,a sudden full consciousness of existence. So you suddenly felt what is the meaning of
+Dialogue: 0,0:10:22.03,0:10:23.03,Default,,0,0,0,,I am, right?
+Dialogue: 0,0:10:23.03,0:10:24.03,Default,,0,0,0,,Yes.
+Dialogue: 0,0:10:24.03,0:10:26.03,Default,,0,0,0,,So maybe we can start about this.
+Dialogue: 0,0:10:26.03,0:10:33.03,Default,,0,0,0,,Well, you know, the first recollection, the birth of, you know, when a person says I,
+Dialogue: 0,0:10:33.03,0:10:36.03,Default,,0,0,0,,I, what do they mean by I?
+Dialogue: 0,0:10:36.03,0:10:37.03,Default,,0,0,0,,Well...
+Dialogue: 0,0:10:37.03,0:10:38.03,Default,,0,0,0,,Yes.
+Dialogue: 0,0:10:38.03,0:10:45.95,Default,,0,0,0,,Well, before age 3, there didn't seem to be any I. And then suddenly about age 3, there
+Dialogue: 0,0:10:45.95,0:10:53.15,Default,,0,0,0,,was sudden awareness, very intense awareness of existence. Suddenly I realized that I exist.
+Dialogue: 0,0:10:53.15,0:11:00.83,Default,,0,0,0,,It was full-blown realization without any thoughts, no language, no words. The realization
+Dialogue: 0,0:11:00.83,0:11:07.87,Default,,0,0,0,,that I exist, and almost instantly came the fear, if I exist, hypothetically, I'm going
+Dialogue: 0,0:11:07.87,0:11:08.87,Default,,0,0,0,,to exist.
+Dialogue: 0,0:11:08.87,0:11:12.51,Default,,0,0,0,,And hypothetically, it could have been that I would not have existed. And so there was
+Dialogue: 0,0:11:12.51,0:11:19.00,Default,,0,0,0,,then the fear of nonexistence. So I was confronted with the fact of existence that the minute
+Dialogue: 0,0:11:19.00,0:11:28.48,Default,,0,0,0,,you say I am, the minute the ego is born, instantly comes the fear of nonexistence.
+Dialogue: 0,0:11:28.48,0:11:33.79,Default,,0,0,0,,So intrinsic to the ego then is I am, and therefore it is possible that I would not
+Dialogue: 0,0:11:33.79,0:11:35.60,Default,,0,0,0,,be, you know.
+Dialogue: 0,0:11:35.60,0:11:37.79,Default,,0,0,0,,I don't know how many 3- or 4-year-olds worry about that.
+Dialogue: 0,0:11:37.87,0:11:45.39,Default,,0,0,0,,I don't know about such things, but I did. And it was a very intense experience, yeah.
+Dialogue: 0,0:11:45.39,0:11:49.37,Default,,0,0,0,,Was it like a constant concerning, or just a one-kick experience?
+Dialogue: 0,0:11:49.37,0:11:50.87,Default,,0,0,0,,No, it was a sudden onset.
+Dialogue: 0,0:11:50.87,0:11:51.87,Default,,0,0,0,,Oh, okay.
+Dialogue: 0,0:11:51.87,0:12:01.60,Default,,0,0,0,,So the I was born, you see. People worry about who am I, and when was I born? The physical
+Dialogue: 0,0:12:01.60,0:12:06.87,Default,,0,0,0,,body was not the I, you see. The birth of saying that I exist, that I exist, that I
+Dialogue: 0,0:12:06.87,0:12:07.87,Default,,0,0,0,,exist.
+Dialogue: 0,0:12:07.87,0:12:14.53,Default,,0,0,0,,That was the beginning of I. So that's when I was born. When I was born, the body was
+Dialogue: 0,0:12:14.53,0:12:21.63,Default,,0,0,0,,already 3 years old. So it's like I used a body that was already in existence and took
+Dialogue: 0,0:12:21.63,0:12:24.00,Default,,0,0,0,,it over and said I, and now I am.
+Dialogue: 0,0:12:24.00,0:12:31.87,Default,,0,0,0,,Okay, was there any special accident or anything which created this kind of awareness,
+Dialogue: 0,0:12:31.87,0:12:33.67,Default,,0,0,0,,or were you just, you know?
+Dialogue: 0,0:12:33.67,0:12:35.87,Default,,0,0,0,,It was just a sudden awareness, yeah.
+Dialogue: 0,0:12:35.87,0:12:36.87,Default,,0,0,0,,There's no cause?
+Dialogue: 0,0:12:36.87,0:12:40.87,Default,,0,0,0,,There's no correlated accident or special surrounding?
+Dialogue: 0,0:12:40.87,0:12:41.87,Default,,0,0,0,,No.
+Dialogue: 0,0:12:41.87,0:12:42.87,Default,,0,0,0,,No? Okay.
+Dialogue: 0,0:12:42.87,0:12:47.37,Default,,0,0,0,,No. Just, I think in everyone's life, if you look back, there is a moment when you were
+Dialogue: 0,0:12:47.37,0:12:53.01,Default,,0,0,0,,born. And that's when you were born. The physical body is irrelevant. You're born when you say
+Dialogue: 0,0:12:53.01,0:13:00.55,Default,,0,0,0,,I am. Then suddenly, now you have the fear of nonexistence. The fear of death, you know.
+Dialogue: 0,0:13:00.55,0:13:03.87,Default,,0,0,0,,So everybody gets obsessed with the fear of death from that moment on.
+Dialogue: 0,0:13:03.87,0:13:05.87,Default,,0,0,0,,Yeah, well, it's what you're describing.
+Dialogue: 0,0:13:05.87,0:13:06.87,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:13:06.87,0:13:12.37,Default,,0,0,0,,It's an experience. It's quite understandable. But something what surprised me is the age
+Dialogue: 0,0:13:12.37,0:13:13.37,Default,,0,0,0,,of 3.
+Dialogue: 0,0:13:13.37,0:13:15.37,Default,,0,0,0,,Yeah, 3, 4, somewhere around there.
+Dialogue: 0,0:13:15.37,0:13:20.87,Default,,0,0,0,,Because I, you know, I can't really remember what I've been thinking about when I was 3.
+Dialogue: 0,0:13:20.87,0:13:26.87,Default,,0,0,0,,It's too early, David, anyway.
+Dialogue: 0,0:13:26.87,0:13:32.87,Default,,0,0,0,,The other thing we could do would be calibrate the level of consciousness of these various
+Dialogue: 0,0:13:32.87,0:13:35.87,Default,,0,0,0,,experiences for curiosity. You want to do that?
+Dialogue: 0,0:13:35.87,0:13:37.37,Default,,0,0,0,,Okay, well, if you want.
+Dialogue: 0,0:13:37.37,0:13:44.37,Default,,0,0,0,,I've never done it, but, you know, because in the book we calibrate the level of consciousness
+Dialogue: 0,0:13:44.37,0:13:48.37,Default,,0,0,0,,of various things. We could do that now. I've never done that with that experience. You
+Dialogue: 0,0:13:48.37,0:13:49.37,Default,,0,0,0,,want to do that?
+Dialogue: 0,0:13:49.37,0:13:50.37,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:50.37,0:13:52.37,Default,,0,0,0,,We'll just say what was the level of that experience, just for the fun of it.
+Dialogue: 0,0:13:52.37,0:13:53.37,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:53.37,0:14:00.37,Default,,0,0,0,,Yeah? Okay. Just put your arm on. You don't have to put it down. Just, here, you put out
+Dialogue: 0,0:14:00.37,0:14:01.37,Default,,0,0,0,,your arm.
+Dialogue: 0,0:14:01.37,0:14:02.37,Default,,0,0,0,,Oh.
+Dialogue: 0,0:14:02.37,0:14:03.87,Default,,0,0,0,,Okay. Now, when I say resist, you resist. Resist. Okay.
+Dialogue: 0,0:14:03.87,0:14:04.87,Default,,0,0,0,,Okay.
+Dialogue: 0,0:14:04.87,0:14:18.37,Default,,0,0,0,,Okay. Picture someone you love. Got it? Resist. Okay. Picture Adolf Hitler. Resist. Okay.
+Dialogue: 0,0:14:18.37,0:14:19.37,Default,,0,0,0,,You're okay.
+Dialogue: 0,0:14:19.37,0:14:25.37,Default,,0,0,0,,All right. Now, the experience at age 3 or 4, whatever it was, did that calibrate over
+Dialogue: 0,0:14:25.37,0:14:34.37,Default,,0,0,0,,400? Resist. Did that calibrate over 500? Resist. Did that calibrate over 600? Resist.
+Dialogue: 0,0:14:34.87,0:14:41.37,Default,,0,0,0,,Did that calibrate over 650? Resist. Did that calibrate over 700? Resist. 650, around
+Dialogue: 0,0:14:41.37,0:14:42.37,Default,,0,0,0,,650.
+Dialogue: 0,0:14:42.37,0:14:43.37,Default,,0,0,0,,Wow.
+Dialogue: 0,0:14:43.37,0:14:51.37,Default,,0,0,0,,I never knew that. So, there must have been some karmic predisposition to have an experience
+Dialogue: 0,0:14:51.37,0:14:57.37,Default,,0,0,0,,that calibrates at an amazing 650, because the ego stops at 600, so the ego goes up to
+Dialogue: 0,0:14:57.37,0:14:58.37,Default,,0,0,0,,600.
+Dialogue: 0,0:14:58.37,0:14:59.37,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:14:59.37,0:15:03.37,Default,,0,0,0,,Various aspects of the spiritual ego take over from 600, but 600 is really, you know,
+Dialogue: 0,0:15:03.37,0:15:06.87,Default,,0,0,0,,600 is really the level of enlightenment already.
+Dialogue: 0,0:15:06.87,0:15:07.87,Default,,0,0,0,,Yeah, I think so.
+Dialogue: 0,0:15:07.87,0:15:19.87,Default,,0,0,0,,To see oneself. So, what I saw at the time then was the I as existence only, because
+Dialogue: 0,0:15:19.87,0:15:21.37,Default,,0,0,0,,I didn't identify with the body.
+Dialogue: 0,0:15:21.37,0:15:22.37,Default,,0,0,0,,Right.
+Dialogue: 0,0:15:22.37,0:15:32.87,Default,,0,0,0,,It wasn't that I the body am, but that one is, oh, I see, that one has a separate consciousness,
+Dialogue: 0,0:15:33.37,0:15:40.87,Default,,0,0,0,,separate from the oneness of God. Wow. Hmm. So, I didn't realize that before, because
+Dialogue: 0,0:15:40.87,0:15:47.87,Default,,0,0,0,,I never looked back at that moment, but that moment then was actually a period of enlightenment
+Dialogue: 0,0:15:47.87,0:15:52.87,Default,,0,0,0,,at 650 to realize, it must have been more than 650. Let's go, we'll go again.
+Dialogue: 0,0:15:52.87,0:15:53.87,Default,,0,0,0,,Okay.
+Dialogue: 0,0:15:53.87,0:16:02.87,Default,,0,0,0,,That experience was over 650, resist. That was over 680, over 700, 700.
+Dialogue: 0,0:16:03.37,0:16:15.37,Default,,0,0,0,,740, resist. 720, resist. 730, resist. 740, resist. Yes, that would be around 730, see,
+Dialogue: 0,0:16:15.37,0:16:19.87,Default,,0,0,0,,to realize that that which I am is existence itself.
+Dialogue: 0,0:16:19.87,0:16:20.87,Default,,0,0,0,,Right.
+Dialogue: 0,0:16:20.87,0:16:23.37,Default,,0,0,0,,Is already a very advanced state of consciousness.
+Dialogue: 0,0:16:23.37,0:16:24.37,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:16:24.37,0:16:29.87,Default,,0,0,0,,So, that advanced state of consciousness came on spontaneously, unwittingly, of its own
+Dialogue: 0,0:16:29.87,0:16:32.87,Default,,0,0,0,,at age three or four. That's amazing.
+Dialogue: 0,0:16:33.37,0:16:34.37,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:16:34.37,0:16:40.37,Default,,0,0,0,,Yeah, well, that tells me, again, in terms of spiritual evolution, your physical body,
+Dialogue: 0,0:16:40.37,0:16:45.87,Default,,0,0,0,,the age of your physical body, does it really matter? You know, I think what you experienced
+Dialogue: 0,0:16:45.87,0:16:52.37,Default,,0,0,0,,at age three, kind of an evidence. We shouldn't so much attaching how these persons are.
+Dialogue: 0,0:16:52.37,0:16:54.37,Default,,0,0,0,,Perhaps many years as a Buddhist monk, huh?
+Dialogue: 0,0:16:54.37,0:16:55.37,Default,,0,0,0,,You're right.
+Dialogue: 0,0:16:55.37,0:16:56.37,Default,,0,0,0,,I think so.
+Dialogue: 0,0:16:56.37,0:17:01.37,Default,,0,0,0,,I can tell, you know, you are such a very ancient soul, I think.
+Dialogue: 0,0:17:01.37,0:17:02.37,Default,,0,0,0,,So, let's see.
+Dialogue: 0,0:17:02.37,0:17:03.37,Default,,0,0,0,,Was that?
+Dialogue: 0,0:17:03.37,0:17:05.38,Default,,0,0,0,,I've never asked these questions before.
+Dialogue: 0,0:17:05.38,0:17:11.38,Default,,0,0,0,,Was that experience the result of many lifetimes of meditation as a Buddhist monk?
+Dialogue: 0,0:17:11.38,0:17:14.38,Default,,0,0,0,,That was as a result of many lifetimes.
+Dialogue: 0,0:17:14.38,0:17:15.38,Default,,0,0,0,,Resist.
+Dialogue: 0,0:17:15.38,0:17:16.38,Default,,0,0,0,,Oh.
+Dialogue: 0,0:17:16.38,0:17:20.38,Default,,0,0,0,,That was from following the Mahayana path.
+Dialogue: 0,0:17:20.38,0:17:21.38,Default,,0,0,0,,Resist.
+Dialogue: 0,0:17:21.38,0:17:22.38,Default,,0,0,0,,No.
+Dialogue: 0,0:17:22.38,0:17:24.38,Default,,0,0,0,,That was following the Hinayana path.
+Dialogue: 0,0:17:24.38,0:17:25.38,Default,,0,0,0,,Resist.
+Dialogue: 0,0:17:25.38,0:17:26.38,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,0:17:26.38,0:17:31.38,Default,,0,0,0,,That was following the Hinayana path, see, because one time when I was surrendering every
+Dialogue: 0,0:17:31.38,0:17:32.38,Default,,0,0,0,,aspect of the ego.
+Dialogue: 0,0:17:32.38,0:17:34.38,Default,,0,0,0,,I went into the Absolute Void.
+Dialogue: 0,0:17:34.38,0:17:39.38,Default,,0,0,0,,The Absolute Void is where you go with Hinayana, you see.
+Dialogue: 0,0:17:39.38,0:17:45.38,Default,,0,0,0,,And there, one is beyond existence and nonexistence.
+Dialogue: 0,0:17:45.38,0:17:50.38,Default,,0,0,0,,Well, actually it's a mistake, because what you're experiencing almost is nonexistence.
+Dialogue: 0,0:17:50.38,0:17:53.38,Default,,0,0,0,,And then you say, well, who would be experiencing nonexistence?
+Dialogue: 0,0:17:53.38,0:17:56.38,Default,,0,0,0,,And you see already there's an error.
+Dialogue: 0,0:17:56.38,0:17:58.38,Default,,0,0,0,,What can I say?
+Dialogue: 0,0:17:58.38,0:18:01.38,Default,,0,0,0,,To say that I am the void, that I don't exist.
+Dialogue: 0,0:18:01.38,0:18:08.38,Default,,0,0,0,,That I don't exist as separate, you know, as consciousness, there would have to be
+Dialogue: 0,0:18:08.38,0:18:10.38,Default,,0,0,0,,consciousness there to say that.
+Dialogue: 0,0:18:10.38,0:18:11.38,Default,,0,0,0,,So, already it's a lie.
+Dialogue: 0,0:18:11.38,0:18:15.38,Default,,0,0,0,,So, well, anyway, that's later in the story.
+Dialogue: 0,0:18:15.38,0:18:16.38,Default,,0,0,0,,Right.
+Dialogue: 0,0:18:16.38,0:18:17.38,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:18:17.38,0:18:20.38,Default,,0,0,0,,To switch from Hinayana to Mahayana was one thing I did in this lifetime then.
+Dialogue: 0,0:18:20.38,0:18:21.38,Default,,0,0,0,,Okay.
+Dialogue: 0,0:18:21.38,0:18:22.38,Default,,0,0,0,,Okay.
+Dialogue: 0,0:18:22.38,0:18:23.38,Default,,0,0,0,,That makes sense now.
+Dialogue: 0,0:18:23.38,0:18:25.38,Default,,0,0,0,,I never looked at that before.
+Dialogue: 0,0:18:25.38,0:18:26.38,Default,,0,0,0,,Right.
+Dialogue: 0,0:18:26.38,0:18:27.38,Default,,0,0,0,,Anyway, then you said you're gone.
+Dialogue: 0,0:18:27.38,0:18:28.38,Default,,0,0,0,,You're gone.
+Dialogue: 0,0:18:28.38,0:18:29.38,Default,,0,0,0,,You're gone.
+Dialogue: 0,0:18:29.38,0:18:30.38,Default,,0,0,0,,You're gone.
+Dialogue: 0,0:18:30.38,0:18:37.38,Default,,0,0,0,,And then you even, and then you're living in the world, and you, you're gone through
+Dialogue: 0,0:18:37.38,0:18:43.38,Default,,0,0,0,,childhood and all the adolescence, and you still carry all these paradoxical questions
+Dialogue: 0,0:18:43.38,0:18:44.38,Default,,0,0,0,,of existence.
+Dialogue: 0,0:18:44.38,0:18:45.38,Default,,0,0,0,,So...
+Dialogue: 0,0:18:45.38,0:18:46.38,Default,,0,0,0,,I'll tell you how I experienced that...
+Dialogue: 0,0:18:46.38,0:18:47.38,Default,,0,0,0,,Okay.
+Dialogue: 0,0:18:47.38,0:18:48.38,Default,,0,0,0,,...because see, none of these things occurred in thought.
+Dialogue: 0,0:18:48.38,0:18:50.38,Default,,0,0,0,,These things that, they are not things like you would think about.
+Dialogue: 0,0:18:50.38,0:18:51.38,Default,,0,0,0,,Uh-hmm.
+Dialogue: 0,0:18:51.38,0:18:54.88,Default,,0,0,0,,So, this was not like intellectual ruminations about a philosophical question.
+Dialogue: 0,0:18:54.88,0:18:59.38,Default,,0,0,0,,I don't want the viewer to misunderstand that.
+Dialogue: 0,0:18:59.38,0:19:07.46,Default,,0,0,0,,The difficulty with the average intelligent, educated person is when they hear what is
+Dialogue: 0,0:19:07.46,0:19:14.14,Default,,0,0,0,,a purely subjective spiritual experience, they translate that into the intellect, and
+Dialogue: 0,0:19:14.14,0:19:17.10,Default,,0,0,0,,it has nothing to do with the intellect.
+Dialogue: 0,0:19:17.10,0:19:26.30,Default,,0,0,0,,But I would be sitting in class in grade school, and that which I had now identified as myself
+Dialogue: 0,0:19:26.29,0:19:37.53,Default,,0,0,0,,in the view of the world, this body and the name, would begin to disappear into just the
+Dialogue: 0,0:19:37.53,0:19:39.79,Default,,0,0,0,,state of existence itself.
+Dialogue: 0,0:19:39.79,0:19:47.31,Default,,0,0,0,,The ego was very fragile, I mean, it was practically nonexistent, it was like it would disappear.
+Dialogue: 0,0:19:47.31,0:19:51.33,Default,,0,0,0,,And there was only this, you know, you would disappear into nothingness, into the infinite
+Dialogue: 0,0:19:51.33,0:19:56.27,Default,,0,0,0,,void, into infinite awareness.
+Dialogue: 0,0:19:56.27,0:20:00.94,Default,,0,0,0,,Awareness itself and the individual self would no longer exist again.
+Dialogue: 0,0:20:00.94,0:20:07.27,Default,,0,0,0,,It was constantly threatening to disappear into nonexistence all the time.
+Dialogue: 0,0:20:07.27,0:20:11.24,Default,,0,0,0,,And that would scare me, and I would like intensify my identification with this personal
+Dialogue: 0,0:20:11.24,0:20:18.07,Default,,0,0,0,,self to bring myself back to being here now, this person named David, you know.
+Dialogue: 0,0:20:18.07,0:20:20.42,Default,,0,0,0,,That was a funny experience, it would scare me.
+Dialogue: 0,0:20:20.42,0:20:25.46,Default,,0,0,0,,I never told anybody about any of these things, you know, but I mean, what would you say?
+Dialogue: 0,0:20:25.46,0:20:26.25,Default,,0,0,0,,So during the...
+Dialogue: 0,0:20:26.25,0:20:33.03,Default,,0,0,0,,During your childhood, you constantly had this kind of experience, like a continuous
+Dialogue: 0,0:20:33.03,0:20:34.03,Default,,0,0,0,,experience.
+Dialogue: 0,0:20:34.03,0:20:38.25,Default,,0,0,0,,Like you have to hang on to this ego or it will slip away from you.
+Dialogue: 0,0:20:38.25,0:20:44.77,Default,,0,0,0,,So how, what kind of boy you were, I mean, were you like an introverted and read lots
+Dialogue: 0,0:20:44.77,0:20:46.70,Default,,0,0,0,,of books, or you were extroverted?
+Dialogue: 0,0:20:46.70,0:20:51.57,Default,,0,0,0,,Well, I had a couple of, I always had a couple of intense close friends, but I was more an
+Dialogue: 0,0:20:51.57,0:20:53.66,Default,,0,0,0,,introvert.
+Dialogue: 0,0:20:53.66,0:20:55.92,Default,,0,0,0,,I didn't care much for sports and contact sports.
+Dialogue: 0,0:20:55.92,0:20:58.66,Default,,0,0,0,,To me it was boring.
+Dialogue: 0,0:20:58.66,0:21:03.08,Default,,0,0,0,,Games have always been boring, so it was just another boring game.
+Dialogue: 0,0:21:03.08,0:21:18.00,Default,,0,0,0,,And you know, I was busy reading Plato's Republic, or Sophocles, or the aphorisms of some philosopher.
+Dialogue: 0,0:21:18.00,0:21:23.70,Default,,0,0,0,,And then I was an avid collector, I was, I studied bugs, I was an etymologist, amateur
+Dialogue: 0,0:21:23.70,0:21:25.70,Default,,0,0,0,,etymologist, and chemist.
+Dialogue: 0,0:21:25.70,0:21:37.58,Default,,0,0,0,,I did, I studied physics, memorized the periodic table of elements in their atomic weights.
+Dialogue: 0,0:21:37.58,0:21:40.79,Default,,0,0,0,,So when other kids were playing stickball, I was doing that, you know.
+Dialogue: 0,0:21:40.79,0:21:45.86,Default,,0,0,0,,Well, my question is then, how about, is there anybody, you know, when we're looking back
+Dialogue: 0,0:21:45.86,0:21:51.62,Default,,0,0,0,,on our childhood, they're always very influential figures, you know, like for me, my sister,
+Dialogue: 0,0:21:51.62,0:21:54.44,Default,,0,0,0,,I had a very intensive, constant conversation.
+Dialogue: 0,0:21:54.44,0:21:55.50,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,0:21:55.50,0:22:00.25,Default,,0,0,0,,Just as she understands me and the whole family, was there anybody around you like
+Dialogue: 0,0:22:00.25,0:22:01.25,Default,,0,0,0,,that?
+Dialogue: 0,0:22:01.25,0:22:04.51,Default,,0,0,0,,Well, my father and I were very close.
+Dialogue: 0,0:22:04.51,0:22:11.33,Default,,0,0,0,,And I was very close to my grandfathers, I had wonderful grandparents, wonderful parents.
+Dialogue: 0,0:22:11.33,0:22:15.24,Default,,0,0,0,,My father was a hard person, you know, a hard person.
+Dialogue: 0,0:22:15.24,0:22:22.77,Default,,0,0,0,,And I loved him intensely, and he and I got along extremely well, and I also picked up
+Dialogue: 0,0:22:22.77,0:22:24.50,Default,,0,0,0,,all his bad habits.
+Dialogue: 0,0:22:24.50,0:22:25.50,Default,,0,0,0,,Like what?
+Dialogue: 0,0:22:25.50,0:22:28.25,Default,,0,0,0,,I don't want to mention on television.
+Dialogue: 0,0:22:28.25,0:22:34.00,Default,,0,0,0,,So, and my mother supported my intellect, you know, she took me to the science museums
+Dialogue: 0,0:22:34.00,0:22:42.66,Default,,0,0,0,,and one side of the family was aristocratic, one side of the family were social, you know,
+Dialogue: 0,0:22:42.66,0:22:45.50,Default,,0,0,0,,what you would call the social register.
+Dialogue: 0,0:22:45.50,0:22:48.00,Default,,0,0,0,,And my grandmother was a debutante.
+Dialogue: 0,0:22:48.00,0:22:54.25,Default,,0,0,0,,So one side of the family were, my great-grandfather was the mayor of Milwaukee, another one was,
+Dialogue: 0,0:22:54.25,0:23:03.20,Default,,0,0,0,,Episcopal bishop, and the third one founded Northwestern Mutual Life Insurance Company.
+Dialogue: 0,0:23:03.20,0:23:10.07,Default,,0,0,0,,So one side of the family was a very educated and upper class, you might say.
+Dialogue: 0,0:23:10.07,0:23:16.25,Default,,0,0,0,,And then the other side was, my father's side was more like creative.
+Dialogue: 0,0:23:16.25,0:23:23.01,Default,,0,0,0,,My father was a great musician, great pianist, and he was about to go on a world tour when
+Dialogue: 0,0:23:23.01,0:23:24.01,Default,,0,0,0,,his mother...
+Dialogue: 0,0:23:24.25,0:23:29.81,Default,,0,0,0,,didn't want her young boy traveling around the world by himself, he was an only son.
+Dialogue: 0,0:23:29.81,0:23:36.57,Default,,0,0,0,,So he was more the creative, heart person, and my mother was more like the intellect.
+Dialogue: 0,0:23:36.57,0:23:42.29,Default,,0,0,0,,So it was like, through my father's side was the heart, and through my mother's side came
+Dialogue: 0,0:23:42.29,0:23:44.48,Default,,0,0,0,,the mind.
+Dialogue: 0,0:23:44.48,0:23:48.57,Default,,0,0,0,,And although my other grandfather was also very loving.
+Dialogue: 0,0:23:48.57,0:23:54.20,Default,,0,0,0,,So I was very fortunate to have very loving parents and grandparents, you know.
+Dialogue: 0,0:23:54.25,0:24:00.53,Default,,0,0,0,,So probably you didn't really get so much great picture of the world during the depression
+Dialogue: 0,0:24:00.53,0:24:01.53,Default,,0,0,0,,period.
+Dialogue: 0,0:24:01.53,0:24:07.14,Default,,0,0,0,,Well, you know, it was, it partly drove me to enterprise.
+Dialogue: 0,0:24:07.14,0:24:12.57,Default,,0,0,0,,I've always been very enterprising, you know, to this very day.
+Dialogue: 0,0:24:12.57,0:24:16.01,Default,,0,0,0,,Yesterday I saw a lot of patients and I also sold them five pounds of tomatoes.
+Dialogue: 0,0:24:16.01,0:24:23.61,Default,,0,0,0,,I don't know, as a boy I always had to sign up by the side of the road, goat milk for
+Dialogue: 0,0:24:23.61,0:24:24.05,Default,,0,0,0,,sale.
+Dialogue: 0,0:24:24.05,0:24:31.53,Default,,0,0,0,,Tomatoes for sale, cucumbers for sale, puppies for sale, rabbits for sale.
+Dialogue: 0,0:24:31.53,0:24:37.05,Default,,0,0,0,,You know, there was always that drive to be enterprising, and to this day I'm still a
+Dialogue: 0,0:24:37.05,0:24:39.33,Default,,0,0,0,,high energy enterprising person, you know.
+Dialogue: 0,0:24:39.33,0:24:44.79,Default,,0,0,0,,Well, you know, you said you're an introvert, and that in which doesn't go as well with
+Dialogue: 0,0:24:44.79,0:24:46.29,Default,,0,0,0,,this enterprising person.
+Dialogue: 0,0:24:46.29,0:24:48.39,Default,,0,0,0,,Well, I got over that.
+Dialogue: 0,0:24:48.39,0:24:53.33,Default,,0,0,0,,I got over being an introvert, and now I'm neither an introvert nor an extrovert.
+Dialogue: 0,0:24:53.33,0:24:53.83,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:24:54.05,0:24:56.51,Default,,0,0,0,,I enjoy being by myself.
+Dialogue: 0,0:24:56.51,0:24:58.24,Default,,0,0,0,,I have no need to be with anybody.
+Dialogue: 0,0:24:58.24,0:25:03.96,Default,,0,0,0,,I could be alone by myself for years and never see another human being and be perfectly happy.
+Dialogue: 0,0:25:03.96,0:25:10.13,Default,,0,0,0,,And on the other hand, I can be around lots of people and do a lot of public speaking
+Dialogue: 0,0:25:10.13,0:25:12.94,Default,,0,0,0,,and be in front of millions of people on television.
+Dialogue: 0,0:25:12.94,0:25:16.89,Default,,0,0,0,,I was on network television a lot of times.
+Dialogue: 0,0:25:16.89,0:25:20.81,Default,,0,0,0,,So I can talk to millions of people and have a good time, and I can be by myself for years
+Dialogue: 0,0:25:20.81,0:25:23.33,Default,,0,0,0,,and never see another human being and be very happy.
+Dialogue: 0,0:25:23.33,0:25:26.65,Default,,0,0,0,,But I relate to the animals a lot, you know.
+Dialogue: 0,0:25:26.65,0:25:27.65,Default,,0,0,0,,I love animals.
+Dialogue: 0,0:25:27.65,0:25:35.19,Default,,0,0,0,,So I spent years by myself and feel very close to the animals around me.
+Dialogue: 0,0:25:35.19,0:25:37.51,Default,,0,0,0,,What kind of animals are your favorite?
+Dialogue: 0,0:25:37.51,0:25:38.51,Default,,0,0,0,,Wild animals.
+Dialogue: 0,0:25:38.51,0:25:39.51,Default,,0,0,0,,Oh.
+Dialogue: 0,0:25:39.51,0:25:43.09,Default,,0,0,0,,Well, of course, here I have all kinds of domestic animals, too, you know, a few horses
+Dialogue: 0,0:25:43.09,0:25:51.79,Default,,0,0,0,,and rabbits and chickens and ducks and a couple of doves and geese and turkeys and cats and
+Dialogue: 0,0:25:51.79,0:25:52.33,Default,,0,0,0,,things.
+Dialogue: 0,0:25:53.34,0:25:54.34,Default,,0,0,0,,OK.
+Dialogue: 0,0:25:54.34,0:25:55.34,Default,,0,0,0,,I don't know where the kitty is today.
+Dialogue: 0,0:25:55.34,0:25:56.34,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:25:56.34,0:25:57.34,Default,,0,0,0,,Where's the kitty?
+Dialogue: 0,0:25:57.34,0:25:58.34,Default,,0,0,0,,I don't know.
+Dialogue: 0,0:25:58.34,0:25:59.34,Default,,0,0,0,,She usually likes to get in the television.
+Dialogue: 0,0:25:59.34,0:26:00.34,Default,,0,0,0,,Go ahead.
+Dialogue: 0,0:26:00.34,0:26:09.34,Default,,0,0,0,,Now, another significant incident you mentioned in your writing, it's in 1939 when you're
+Dialogue: 0,0:26:09.34,0:26:13.34,Default,,0,0,0,,a paper boy in rural Wisconsin.
+Dialogue: 0,0:26:13.34,0:26:20.66,Default,,0,0,0,,Yes, I was, you know, I told you about I had the longest paper route in the state of Wisconsin.
+Dialogue: 0,0:26:20.66,0:26:21.66,Default,,0,0,0,,See?
+Dialogue: 0,0:26:21.66,0:26:22.66,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:26:22.66,0:26:29.22,Default,,0,0,0,,It was zero and it's pitch dark out and I was a couple of miles from the nearest farmhouse
+Dialogue: 0,0:26:29.22,0:26:33.06,Default,,0,0,0,,and the wind was fierce and I took all my papers and blew them across the top of the
+Dialogue: 0,0:26:33.06,0:26:39.56,Default,,0,0,0,,snow and I started to cry with frustration and it was freezing cold.
+Dialogue: 0,0:26:39.56,0:26:46.56,Default,,0,0,0,,So and my knees were all frozen and, you know, my pants were frozen stiff.
+Dialogue: 0,0:26:46.56,0:26:51.66,Default,,0,0,0,,So anyway, what I did was there was the snow plows had been through in Wisconsin, the snowbanks,
+Dialogue: 0,0:26:51.66,0:26:55.16,Default,,0,0,0,,by the side of the road are often 15 feet high.
+Dialogue: 0,0:26:55.16,0:26:58.16,Default,,0,0,0,,I mean, the plows are higher than this room.
+Dialogue: 0,0:26:58.16,0:26:59.16,Default,,0,0,0,,Wow.
+Dialogue: 0,0:26:59.16,0:27:03.25,Default,,0,0,0,,The plow, the front of the plow is higher than this room and so the snowbanks are very,
+Dialogue: 0,0:27:03.25,0:27:04.25,Default,,0,0,0,,very wide.
+Dialogue: 0,0:27:04.25,0:27:09.90,Default,,0,0,0,,By the end of the winter, they're very, so anyway, I broke through the crust of the ice
+Dialogue: 0,0:27:09.90,0:27:14.66,Default,,0,0,0,,and I got inside, I made a, I howled it out and I get out of the wind, there's no place
+Dialogue: 0,0:27:14.66,0:27:16.84,Default,,0,0,0,,out of the wind.
+Dialogue: 0,0:27:16.84,0:27:21.06,Default,,0,0,0,,And so I climbed in and out of the wind, you know.
+Dialogue: 0,0:27:21.05,0:27:36.55,Default,,0,0,0,,And the cold, all of a sudden the cold, well not all of a sudden, the cold seemed to disappear.
+Dialogue: 0,0:27:36.55,0:27:42.94,Default,,0,0,0,,And instead there was this incredible warmth came over me, it was a feeling of infinite
+Dialogue: 0,0:27:42.94,0:27:49.05,Default,,0,0,0,,peace and an exquisite joy on a level I can't even describe.
+Dialogue: 0,0:27:49.05,0:27:51.05,Default,,0,0,0,,And there seemed to be like a glow.
+Dialogue: 0,0:27:51.05,0:27:53.77,Default,,0,0,0,,There seemed to be a golden light to it.
+Dialogue: 0,0:27:53.77,0:28:02.94,Default,,0,0,0,,So I became one with this infinite, it was like the presence of infinite love.
+Dialogue: 0,0:28:02.94,0:28:10.96,Default,,0,0,0,,And the individual self again dissolved and this individual love was not, was not different
+Dialogue: 0,0:28:10.96,0:28:13.35,Default,,0,0,0,,than what I am.
+Dialogue: 0,0:28:13.35,0:28:20.00,Default,,0,0,0,,And before the body, before the world, before planets, before the universe, there's this
+Dialogue: 0,0:28:21.05,0:28:34.24,Default,,0,0,0,,kind of, it goes on forever and that went on for some eons of time because you're outside
+Dialogue: 0,0:28:34.24,0:28:35.24,Default,,0,0,0,,of time.
+Dialogue: 0,0:28:35.24,0:28:43.59,Default,,0,0,0,,There was no form, there was just this infinite presence.
+Dialogue: 0,0:28:43.59,0:28:47.85,Default,,0,0,0,,There was no thought about it.
+Dialogue: 0,0:28:47.85,0:28:50.81,Default,,0,0,0,,We could ask what, we could ask what was the energy of that.
+Dialogue: 0,0:28:51.05,0:28:52.05,Default,,0,0,0,,Let's ask.
+Dialogue: 0,0:28:52.05,0:28:53.05,Default,,0,0,0,,These are things I've never asked before.
+Dialogue: 0,0:28:53.05,0:28:54.05,Default,,0,0,0,,Okay.
+Dialogue: 0,0:28:54.05,0:28:55.05,Default,,0,0,0,,Let's just see.
+Dialogue: 0,0:28:55.05,0:28:56.05,Default,,0,0,0,,All right.
+Dialogue: 0,0:28:56.05,0:28:59.96,Default,,0,0,0,,Because I want to integrate it also.
+Dialogue: 0,0:28:59.96,0:29:04.11,Default,,0,0,0,,That experience is over 500 resist.
+Dialogue: 0,0:29:04.11,0:29:08.17,Default,,0,0,0,,That experience is over 550 resist.
+Dialogue: 0,0:29:08.17,0:29:11.94,Default,,0,0,0,,That experience is over 580 resist.
+Dialogue: 0,0:29:11.94,0:29:15.03,Default,,0,0,0,,That experience is over 590 resist.
+Dialogue: 0,0:29:15.03,0:29:19.27,Default,,0,0,0,,That experience is over 600 resist.
+Dialogue: 0,0:29:19.27,0:29:32.27,Default,,0,0,0,,700 resist, 800 resist, 760 resist, 770, 780, 770, that's amazing, I didn't realize that.
+Dialogue: 0,0:29:32.27,0:29:36.16,Default,,0,0,0,,I thought it was only about 600.
+Dialogue: 0,0:29:36.16,0:29:44.27,Default,,0,0,0,,Why such an experience mostly happen when the body is in such a big suffering?
+Dialogue: 0,0:29:44.27,0:29:47.27,Default,,0,0,0,,Oh.
+Dialogue: 0,0:29:47.27,0:29:48.27,Default,,0,0,0,,It seems to.
+Dialogue: 0,0:29:48.27,0:29:53.27,Default,,0,0,0,,Perhaps separate one's identification with the body.
+Dialogue: 0,0:29:53.27,0:29:56.27,Default,,0,0,0,,In other words, you stop identifying with the body.
+Dialogue: 0,0:29:56.27,0:30:01.27,Default,,0,0,0,,The minute you stop identifying with the body, suddenly you realize who you are.
+Dialogue: 0,0:30:01.27,0:30:02.27,Default,,0,0,0,,Right.
+Dialogue: 0,0:30:02.27,0:30:08.27,Default,,0,0,0,,And because the separate ego seems to identify so strongly with the physicality.
+Dialogue: 0,0:30:08.27,0:30:15.27,Default,,0,0,0,,And once you stop identifying with that, then there's, one time I went out of body spontaneously.
+Dialogue: 0,0:30:15.27,0:30:17.27,Default,,0,0,0,,You hear people that go out of body all the time.
+Dialogue: 0,0:30:17.27,0:30:18.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:18.27,0:30:19.27,Default,,0,0,0,,They always complain they can't stand their body.
+Dialogue: 0,0:30:19.27,0:30:20.27,Default,,0,0,0,,I never had that problem.
+Dialogue: 0,0:30:20.27,0:30:21.27,Default,,0,0,0,,But I didn't know, I never heard of such a thing.
+Dialogue: 0,0:30:21.27,0:30:22.27,Default,,0,0,0,,But I was very sick with a physical illness.
+Dialogue: 0,0:30:22.27,0:30:23.27,Default,,0,0,0,,And I was, yeah, very sick.
+Dialogue: 0,0:30:23.27,0:30:24.27,Default,,0,0,0,,And all of a sudden, much to my surprise, I found myself about five feet over the physical
+Dialogue: 0,0:30:24.27,0:30:25.27,Default,,0,0,0,,body.
+Dialogue: 0,0:30:25.27,0:30:26.27,Default,,0,0,0,,Here I was, in exact, exactly like this body, only like it didn't weigh anything.
+Dialogue: 0,0:30:26.27,0:30:27.27,Default,,0,0,0,,And you could almost like see through it.
+Dialogue: 0,0:30:27.27,0:30:28.27,Default,,0,0,0,,You know?
+Dialogue: 0,0:30:28.27,0:30:29.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:29.27,0:30:30.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:30.27,0:30:31.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:31.27,0:30:32.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:32.27,0:30:33.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:33.27,0:30:34.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:34.27,0:30:35.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:35.27,0:30:36.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:36.27,0:30:37.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:37.27,0:30:38.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:38.27,0:30:39.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:39.27,0:30:40.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:40.27,0:30:41.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:41.27,0:30:42.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:42.27,0:30:43.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:43.27,0:30:44.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:44.27,0:30:45.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:30:45.27,0:30:47.27,Default,,0,0,0,,You could almost like see through it.
+Dialogue: 0,0:30:47.27,0:30:48.27,Default,,0,0,0,,Right.
+Dialogue: 0,0:30:48.27,0:30:49.27,Default,,0,0,0,,You know?
+Dialogue: 0,0:30:49.27,0:30:51.27,Default,,0,0,0,,And there I was five feet or six feet over the body.
+Dialogue: 0,0:30:51.27,0:30:55.27,Default,,0,0,0,,I looked down at the physical body and there's Dave's body laying in the bed.
+Dialogue: 0,0:30:55.27,0:30:58.11,Default,,0,0,0,,He looked pretty bad too, I'll tell ya'.
+Dialogue: 0,0:30:59.11,0:31:03.27,Default,,0,0,0,,It's a sick looking guy laying in a bed and I'm five feet up in the air.
+Dialogue: 0,0:31:03.27,0:31:06.27,Default,,0,0,0,,And, I never heard of out of body experience.
+Dialogue: 0,0:31:06.27,0:31:07.27,Default,,0,0,0,,I didn't know what it was.
+Dialogue: 0,0:31:08.27,0:31:11.27,Default,,0,0,0,,I was just amazed by the, phenomenon.
+Dialogue: 0,0:31:11.27,0:31:12.27,Default,,0,0,0,,Mmm hmm.
+Dialogue: 0,0:31:12.27,0:31:14.27,Default,,0,0,0,,In fact I was in psychoanalysis at the time.
+Dialogue: 0,0:31:14.27,0:31:15.27,Default,,0,0,0,,Mmm hmm.
+Dialogue: 0,0:31:15.27,0:31:18.01,Default,,0,0,0,,And I remember I went back and told my psychoanalyst about it.
+Dialogue: 0,0:31:18.87,0:31:22.42,Default,,0,0,0,,I said, there I was, five or six feet over the physical body,
+Dialogue: 0,0:31:22.81,0:31:25.25,Default,,0,0,0,,and exact same as this body.
+Dialogue: 0,0:31:26.09,0:31:28.48,Default,,0,0,0,,And he said, well, it must have been a toxic psychosis.
+Dialogue: 0,0:31:28.70,0:31:29.74,Default,,0,0,0,,And I said, yes, you're right.
+Dialogue: 0,0:31:29.79,0:31:34.09,Default,,0,0,0,,I guess we did some kind of a duplication of the body ego image, you know.
+Dialogue: 0,0:31:34.70,0:31:39.07,Default,,0,0,0,,So both of us concluded it was some kind of a toxic brain reaction or something.
+Dialogue: 0,0:31:39.85,0:31:42.51,Default,,0,0,0,,For many years, I thought that, you know,
+Dialogue: 0,0:31:42.51,0:31:49.18,Default,,0,0,0,,it was many years later that I began to read books about, you know, out-of-body experiences.
+Dialogue: 0,0:31:49.35,0:31:52.01,Default,,0,0,0,,Nowadays, it's very commonly reported.
+Dialogue: 0,0:31:52.31,0:31:56.55,Default,,0,0,0,,But in those days, that was probably back in the early 50s,
+Dialogue: 0,0:31:56.83,0:31:58.63,Default,,0,0,0,,nobody heard about such things.
+Dialogue: 0,0:31:59.31,0:32:00.87,Default,,0,0,0,,And you didn't talk about them either.
+Dialogue: 0,0:32:00.96,0:32:02.29,Default,,0,0,0,,Everybody would think you were pretty cuckoo.
+Dialogue: 0,0:32:04.01,0:32:06.51,Default,,0,0,0,,So you even didn't tell the supplement?
+Dialogue: 0,0:32:06.51,0:32:08.27,Default,,0,0,0,,No, I told my psychoanalyst about it.
+Dialogue: 0,0:32:08.29,0:32:08.77,Default,,0,0,0,,That was it.
+Dialogue: 0,0:32:09.07,0:32:10.44,Default,,0,0,0,,And then I discussed it.
+Dialogue: 0,0:32:12.51,0:32:20.98,Default,,0,0,0,,Well, so you mentioned that those experiences,
+Dialogue: 0,0:32:20.98,0:32:26.20,Default,,0,0,0,,which is very distinctive, you started to become an atheist.
+Dialogue: 0,0:32:27.35,0:32:28.85,Default,,0,0,0,,Well, yes, the intellect.
+Dialogue: 0,0:32:29.07,0:32:33.98,Default,,0,0,0,,The intellect was pretty advanced, and it was quite sophisticated.
+Dialogue: 0,0:32:35.20,0:32:38.55,Default,,0,0,0,,And, you know, many of the proofs for God's existence,
+Dialogue: 0,0:32:38.77,0:32:40.75,Default,,0,0,0,,many of the belief systems about God,
+Dialogue: 0,0:32:40.75,0:32:46.24,Default,,0,0,0,,and let's say if somebody is basically more spiritually advanced than that,
+Dialogue: 0,0:32:46.33,0:32:50.22,Default,,0,0,0,,without even realizing that, they were rejected as false
+Dialogue: 0,0:32:50.22,0:32:51.55,Default,,0,0,0,,because they recognized that it's false.
+Dialogue: 0,0:32:51.70,0:32:55.24,Default,,0,0,0,,So all the negative gods, you know, the god of retaliation,
+Dialogue: 0,0:32:55.35,0:32:59.01,Default,,0,0,0,,the god of punishment, the god who throws you into hell forever
+Dialogue: 0,0:32:59.01,0:33:02.40,Default,,0,0,0,,because you're so wicked and he hates you, et cetera,
+Dialogue: 0,0:33:03.40,0:33:07.90,Default,,0,0,0,,the god who gets mad at mankind and is prone to jealousy.
+Dialogue: 0,0:33:09.22,0:33:10.37,Default,,0,0,0,,I'm a jealous god.
+Dialogue: 0,0:33:10.64,0:33:10.72,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:33:10.75,0:33:13.68,Default,,0,0,0,,I get very pissed off, and if you get me mad,
+Dialogue: 0,0:33:13.77,0:33:17.35,Default,,0,0,0,,I'm going to destroy your village and town and rain pestilence on you and all.
+Dialogue: 0,0:33:18.59,0:33:20.42,Default,,0,0,0,,That's some kind of a demon, you see.
+Dialogue: 0,0:33:20.70,0:33:21.53,Default,,0,0,0,,That's not God.
+Dialogue: 0,0:33:21.61,0:33:22.18,Default,,0,0,0,,That's a demon.
+Dialogue: 0,0:33:22.50,0:33:26.16,Default,,0,0,0,,God was what I experienced there in the snowbank,
+Dialogue: 0,0:33:26.50,0:33:32.48,Default,,0,0,0,,an infinite presence of infinite love that radiates equally like the sun on all, you see.
+Dialogue: 0,0:33:32.48,0:33:34.25,Default,,0,0,0,,It never qualifies itself.
+Dialogue: 0,0:33:34.40,0:33:35.46,Default,,0,0,0,,It never limits itself.
+Dialogue: 0,0:33:36.24,0:33:37.27,Default,,0,0,0,,It does no judgment.
+Dialogue: 0,0:33:37.66,0:33:38.44,Default,,0,0,0,,It just is.
+Dialogue: 0,0:33:39.53,0:33:40.70,Default,,0,0,0,,To be God, one could.
+Dialogue: 0,0:33:40.75,0:33:46.90,Default,,0,0,0,,To only be, you know, or have the infinite potential to be all that is.
+Dialogue: 0,0:33:47.72,0:33:49.51,Default,,0,0,0,,Anything less than that can't be God.
+Dialogue: 0,0:33:49.51,0:33:53.75,Default,,0,0,0,,So what I really did when I became an atheist is I rejected the false gods.
+Dialogue: 0,0:33:55.14,0:33:59.31,Default,,0,0,0,,And don't forget those false gods have made atheists of many honest men
+Dialogue: 0,0:33:59.31,0:34:01.70,Default,,0,0,0,,because if you have an honest, intense intellect
+Dialogue: 0,0:34:01.70,0:34:07.87,Default,,0,0,0,,and you look at all the God belief systems that the world holds,
+Dialogue: 0,0:34:09.13,0:34:10.51,Default,,0,0,0,,you would automatically...
+Dialogue: 0,0:34:10.51,0:34:11.61,Default,,0,0,0,,automatically reject it.
+Dialogue: 0,0:34:12.50,0:34:18.25,Default,,0,0,0,,And also I had another interesting experience around 15 or so.
+Dialogue: 0,0:34:19.32,0:34:24.11,Default,,0,0,0,,I suddenly became conscious of the totality of the world's suffering.
+Dialogue: 0,0:34:25.50,0:34:30.42,Default,,0,0,0,,I suddenly got the totality, the immensity of the world's suffering.
+Dialogue: 0,0:34:31.36,0:34:32.28,Default,,0,0,0,,In what way?
+Dialogue: 0,0:34:33.42,0:34:38.13,Default,,0,0,0,,I just became aware of its totality.
+Dialogue: 0,0:34:40.51,0:34:44.44,Default,,0,0,0,,And in that instant, I couldn't believe in a God that would allow that.
+Dialogue: 0,0:34:45.57,0:34:50.90,Default,,0,0,0,,You know, anything that would allow that, I could not call God nor could I worship it.
+Dialogue: 0,0:34:53.09,0:34:56.09,Default,,0,0,0,,I was not that sophisticated at the time.
+Dialogue: 0,0:34:56.09,0:35:00.34,Default,,0,0,0,,See, what I did was I held God responsible for that which is created by the ego.
+Dialogue: 0,0:35:00.90,0:35:05.00,Default,,0,0,0,,What I saw was the extent of the damage of what the ego creates.
+Dialogue: 0,0:35:06.11,0:35:10.40,Default,,0,0,0,,And then I thought, because God is the creator, you know, religiously,
+Dialogue: 0,0:35:10.40,0:35:13.01,Default,,0,0,0,,religiously wise, he must have created that.
+Dialogue: 0,0:35:14.32,0:35:16.36,Default,,0,0,0,,So I rejected that kind of a God.
+Dialogue: 0,0:35:16.66,0:35:22.92,Default,,0,0,0,,So all I really did was reject the negative misconceptions about the true nature of God.
+Dialogue: 0,0:35:23.84,0:35:26.92,Default,,0,0,0,,Because unless one has experienced an infinite presence,
+Dialogue: 0,0:35:27.88,0:35:29.46,Default,,0,0,0,,one doesn't know what one's talking about.
+Dialogue: 0,0:35:29.59,0:35:33.63,Default,,0,0,0,,And one is just repeating, mouthing things they've heard from somebody else, you see.
+Dialogue: 0,0:35:34.01,0:35:34.32,Default,,0,0,0,,Right.
+Dialogue: 0,0:35:36.16,0:35:38.16,Default,,0,0,0,,And like all the so-called Christians,
+Dialogue: 0,0:35:38.42,0:35:39.90,Default,,0,0,0,,and when they talk about Christianity,
+Dialogue: 0,0:35:40.07,0:35:40.38,Default,,0,0,0,,what they're really saying is,
+Dialogue: 0,0:35:40.38,0:35:41.61,Default,,0,0,0,,what they're really quoting is the Old Testament.
+Dialogue: 0,0:35:42.28,0:35:44.14,Default,,0,0,0,,Why are you quoting the Old Testament if you're a Christian?
+Dialogue: 0,0:35:45.16,0:35:47.44,Default,,0,0,0,,I mean, why was Christ born?
+Dialogue: 0,0:35:47.78,0:35:49.55,Default,,0,0,0,,You're not going to pay any attention to what he said.
+Dialogue: 0,0:35:50.66,0:35:53.16,Default,,0,0,0,,So an eye for an eye and a tooth for a tooth
+Dialogue: 0,0:35:53.16,0:35:57.86,Default,,0,0,0,,did not bring about any wonders in this world.
+Dialogue: 0,0:35:58.90,0:36:02.57,Default,,0,0,0,,And Christ was born and said, forget that, forget that.
+Dialogue: 0,0:36:03.68,0:36:05.84,Default,,0,0,0,,Instead, he replaced it by forgiveness.
+Dialogue: 0,0:36:06.61,0:36:08.94,Default,,0,0,0,,So the law of love was the new law
+Dialogue: 0,0:36:09.59,0:36:10.36,Default,,0,0,0,,supplied at the end.
+Dialogue: 0,0:36:10.38,0:36:12.24,Default,,0,0,0,,The old law of hatred and getting even,
+Dialogue: 0,0:36:12.46,0:36:14.28,Default,,0,0,0,,which is the history of the Middle East,
+Dialogue: 0,0:36:14.94,0:36:16.76,Default,,0,0,0,,the history of the Catholics and the Protestants,
+Dialogue: 0,0:36:17.68,0:36:18.98,Default,,0,0,0,,the history of prosecution.
+Dialogue: 0,0:36:20.92,0:36:25.40,Default,,0,0,0,,And so when somebody talks to me that they're a Christian,
+Dialogue: 0,0:36:26.46,0:36:28.96,Default,,0,0,0,,you know, I want to know what they're talking about.
+Dialogue: 0,0:36:29.20,0:36:31.05,Default,,0,0,0,,You mean the God of love, the God of forgiveness,
+Dialogue: 0,0:36:31.46,0:36:33.22,Default,,0,0,0,,the God of infinite mercy?
+Dialogue: 0,0:36:35.64,0:36:37.34,Default,,0,0,0,,And so I was getting a kick out of
+Dialogue: 0,0:36:37.34,0:36:39.22,Default,,0,0,0,,Muslims.
+Dialogue: 0,0:36:40.38,0:36:42.53,Default,,0,0,0,,You know, because when you read the Koran,
+Dialogue: 0,0:36:42.53,0:36:44.92,Default,,0,0,0,,it says, Allah, the All-Merciful.
+Dialogue: 0,0:36:45.55,0:36:48.18,Default,,0,0,0,,Every phrase, it says, Allah, the All-Merciful.
+Dialogue: 0,0:36:49.44,0:36:51.70,Default,,0,0,0,,But in practice, they're exactly the opposite.
+Dialogue: 0,0:36:52.00,0:36:55.68,Default,,0,0,0,,You know, they execute you for all kinds of things
+Dialogue: 0,0:36:55.68,0:36:56.46,Default,,0,0,0,,and behead you.
+Dialogue: 0,0:36:56.46,0:37:00.84,Default,,0,0,0,,And it is certainly not a merciful country,
+Dialogue: 0,0:37:00.94,0:37:02.20,Default,,0,0,0,,a merciful religion.
+Dialogue: 0,0:37:02.20,0:37:06.36,Default,,0,0,0,,So it was those gods of negativity that I rejected
+Dialogue: 0,0:37:06.36,0:37:07.42,Default,,0,0,0,,when I became an atheist.
+Dialogue: 0,0:37:07.42,0:37:09.05,Default,,0,0,0,,So when I look back, I was correct.
+Dialogue: 0,0:37:09.05,0:37:09.55,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:09.55,0:37:12.09,Default,,0,0,0,,I was correct in rejecting it.
+Dialogue: 0,0:37:12.71,0:37:13.86,Default,,0,0,0,,I wasn't rejecting God.
+Dialogue: 0,0:37:14.01,0:37:18.40,Default,,0,0,0,,I was correcting, I was rejecting the misconceptions of God.
+Dialogue: 0,0:37:18.50,0:37:21.05,Default,,0,0,0,,These are all the egos, misinterpretations of God.
+Dialogue: 0,0:37:21.92,0:37:26.44,Default,,0,0,0,,I guess what you don't want to follow is such a divinity,
+Dialogue: 0,0:37:26.92,0:37:30.88,Default,,0,0,0,,the cold divinity based on the human fear and anxiety.
+Dialogue: 0,0:37:31.25,0:37:31.48,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:31.48,0:37:34.86,Default,,0,0,0,,It's just a projection of human negativity.
+Dialogue: 0,0:37:35.07,0:37:35.40,Default,,0,0,0,,Right.
+Dialogue: 0,0:37:35.59,0:37:38.48,Default,,0,0,0,,And then calling it God and then living a life in fear of it.
+Dialogue: 0,0:37:38.88,0:37:39.36,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.36,0:37:39.38,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.38,0:37:39.40,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.40,0:37:39.42,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.42,0:37:39.48,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.48,0:37:39.50,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.50,0:37:39.51,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.51,0:37:39.53,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.53,0:37:39.55,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.55,0:37:39.69,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.69,0:37:39.71,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.71,0:37:39.75,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:39.75,0:37:42.42,Default,,0,0,0,,The difficulty with the Christianity has, as I see it,
+Dialogue: 0,0:37:43.29,0:37:46.94,Default,,0,0,0,,is so little is recorded of what he actually said and taught.
+Dialogue: 0,0:37:47.75,0:37:51.23,Default,,0,0,0,,And don't forget, I calibrated the energy level of Jesus Christ.
+Dialogue: 0,0:37:51.36,0:37:52.15,Default,,0,0,0,,It was 1,000.
+Dialogue: 0,0:37:52.48,0:37:52.75,Default,,0,0,0,,Okay.
+Dialogue: 0,0:37:53.23,0:37:58.05,Default,,0,0,0,,And Christianity in the first century calibrated at about 950.
+Dialogue: 0,0:37:58.27,0:37:58.61,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:37:59.19,0:38:01.29,Default,,0,0,0,,And then, as you remember, I said in the book,
+Dialogue: 0,0:38:01.36,0:38:05.09,Default,,0,0,0,,around the year 476 or something, the Council of Nicaea,
+Dialogue: 0,0:38:05.94,0:38:09.01,Default,,0,0,0,,you calibrate what is the energy of Christianity up to the year 400,
+Dialogue: 0,0:38:09.21,0:38:09.50,Default,,0,0,0,,and up to the year 950.
+Dialogue: 0,0:38:09.50,0:38:12.98,Default,,0,0,0,,to the Council of Nicaea, you see it's still very high, about 900s.
+Dialogue: 0,0:38:14.03,0:38:18.86,Default,,0,0,0,,And then after the Council of Nicaea, it drops precipitously to the high 400s.
+Dialogue: 0,0:38:20.15,0:38:24.55,Default,,0,0,0,,Some incredibly huge error came into that Council of Nicaea
+Dialogue: 0,0:38:24.55,0:38:28.21,Default,,0,0,0,,and blew out a lot of the purity of what Jesus Christ taught.
+Dialogue: 0,0:38:28.21,0:38:33.30,Default,,0,0,0,,So we don't really know what he said because it wasn't written down.
+Dialogue: 0,0:38:33.65,0:38:37.03,Default,,0,0,0,,And then the difficulty of an enlightened teacher
+Dialogue: 0,0:38:37.03,0:38:40.44,Default,,0,0,0,,is the misunderstanding of the listener.
+Dialogue: 0,0:38:41.13,0:38:45.21,Default,,0,0,0,,The listener, if he's talking about something as an analogy,
+Dialogue: 0,0:38:45.46,0:38:46.40,Default,,0,0,0,,they will take it literally.
+Dialogue: 0,0:38:46.65,0:38:50.01,Default,,0,0,0,,Or if he's speaking as a metaphor, they will take it as a literality.
+Dialogue: 0,0:38:51.17,0:38:53.90,Default,,0,0,0,,And then because of the negativity of the ego,
+Dialogue: 0,0:38:53.90,0:39:00.23,Default,,0,0,0,,they will project negative inferences into something that is actually benign.
+Dialogue: 0,0:39:01.69,0:39:04.07,Default,,0,0,0,,When Jesus Christ talks about hell,
+Dialogue: 0,0:39:04.82,0:39:06.90,Default,,0,0,0,,he's talking about that which you yourself created,
+Dialogue: 0,0:39:07.03,0:39:08.38,Default,,0,0,0,,that which you create for yourself.
+Dialogue: 0,0:39:08.38,0:39:11.38,Default,,0,0,0,,He's not talking about some arbitrary, like jail,
+Dialogue: 0,0:39:11.38,0:39:13.38,Default,,0,0,0,,cosmic jail you get thrown into.
+Dialogue: 0,0:39:13.38,0:39:16.38,Default,,0,0,0,,He's saying if you follow certain kinds of behavior,
+Dialogue: 0,0:39:16.38,0:39:19.38,Default,,0,0,0,,you will bring enormous suffering upon yourself.
+Dialogue: 0,0:39:19.38,0:39:21.38,Default,,0,0,0,,But that is self-created.
+Dialogue: 0,0:39:21.38,0:39:23.38,Default,,0,0,0,,There isn't any sub-punitive God hanging out there
+Dialogue: 0,0:39:23.38,0:39:28.38,Default,,0,0,0,,waiting for you to trip over things in the highway
+Dialogue: 0,0:39:28.38,0:39:31.38,Default,,0,0,0,,so he can kick you in the butt and throw you into jail,
+Dialogue: 0,0:39:31.38,0:39:34.38,Default,,0,0,0,,a cosmic torture chamber, you know.
+Dialogue: 0,0:39:34.38,0:39:36.42,Default,,0,0,0,,That's how most people picture God,
+Dialogue: 0,0:39:36.42,0:39:42.42,Default,,0,0,0,,a monster who waits for you to trip over the defects of your own humanness.
+Dialogue: 0,0:39:42.42,0:39:45.80,Default,,0,0,0,,And now you're guilty of humanness,
+Dialogue: 0,0:39:45.80,0:39:47.18,Default,,0,0,0,,and because you're guilty of humanness,
+Dialogue: 0,0:39:47.18,0:39:50.92,Default,,0,0,0,,we're going to throw you into this endless torture pit.
+Dialogue: 0,0:39:52.57,0:39:56.07,Default,,0,0,0,,So this horrible God sits there waiting for you to screw up,
+Dialogue: 0,0:39:56.07,0:39:56.92,Default,,0,0,0,,you know what I mean?
+Dialogue: 0,0:39:56.92,0:39:57.57,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:39:57.57,0:39:58.65,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:39:58.65,0:40:02.42,Default,,0,0,0,,Well, no matter whether you're talking about negativity,
+Dialogue: 0,0:40:02.42,0:40:03.92,Default,,0,0,0,,like hell or heaven,
+Dialogue: 0,0:40:03.92,0:40:06.38,Default,,0,0,0,,the problem is there is a separation,
+Dialogue: 0,0:40:06.38,0:40:06.40,Default,,0,0,0,,Yeah. the problem is there is a separation,
+Dialogue: 0,0:40:06.40,0:40:11.16,Default,,0,0,0,,between you as a human being and the divinity out there.
+Dialogue: 0,0:40:11.16,0:40:14.90,Default,,0,0,0,,So, I mean, we are not the same exactly,
+Dialogue: 0,0:40:14.90,0:40:18.16,Default,,0,0,0,,but somehow we are connected with the divinity.
+Dialogue: 0,0:40:18.16,0:40:18.90,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:40:18.90,0:40:21.90,Default,,0,0,0,,And we're also the creator of our own inner hell.
+Dialogue: 0,0:40:21.90,0:40:24.40,Default,,0,0,0,,Yeah, that's the point, yes.
+Dialogue: 0,0:40:24.40,0:40:25.40,Default,,0,0,0,,That one creates it oneself.
+Dialogue: 0,0:40:25.40,0:40:25.90,Default,,0,0,0,,Right.
+Dialogue: 0,0:40:25.90,0:40:28.90,Default,,0,0,0,,There's no arbitrary, punitive God hanging out waiting for you.
+Dialogue: 0,0:40:28.90,0:40:31.40,Default,,0,0,0,,But the thing is, once people are creating such a thing,
+Dialogue: 0,0:40:31.40,0:40:35.40,Default,,0,0,0,,then they start to see things as a separate being, you know.
+Dialogue: 0,0:40:35.40,0:40:36.36,Default,,0,0,0,,I'm in here.
+Dialogue: 0,0:40:36.36,0:40:38.86,Default,,0,0,0,,And there is either hell or heaven.
+Dialogue: 0,0:40:38.86,0:40:39.86,Default,,0,0,0,,Which way to go?
+Dialogue: 0,0:40:39.86,0:40:40.86,Default,,0,0,0,,So...
+Dialogue: 0,0:40:40.86,0:40:41.36,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:40:41.36,0:40:42.36,Default,,0,0,0,,So I see.
+Dialogue: 0,0:40:42.36,0:40:45.36,Default,,0,0,0,,Therefore, it's the ego that creates all the negative gods.
+Dialogue: 0,0:40:45.36,0:40:46.12,Default,,0,0,0,,Right.
+Dialogue: 0,0:40:46.12,0:40:49.86,Default,,0,0,0,,The negative gods are self-created.
+Dialogue: 0,0:40:49.86,0:40:54.36,Default,,0,0,0,,And so one is always living in the prison created by one's own ego.
+Dialogue: 0,0:40:54.36,0:40:56.36,Default,,0,0,0,,So...
+Dialogue: 0,0:40:56.36,0:41:02.86,Default,,0,0,0,,Like we often forgot the original creation started from our own inside,
+Dialogue: 0,0:41:02.86,0:41:03.86,Default,,0,0,0,,rather than...
+Dialogue: 0,0:41:03.86,0:41:06.32,Default,,0,0,0,,So the more purified one becomes,
+Dialogue: 0,0:41:06.32,0:41:10.82,Default,,0,0,0,,spiritually, the less any such a god could have any reality,
+Dialogue: 0,0:41:10.82,0:41:12.82,Default,,0,0,0,,because it doesn't exist within you anymore
+Dialogue: 0,0:41:12.82,0:41:14.82,Default,,0,0,0,,to project out into the world to be afraid of.
+Dialogue: 0,0:41:14.82,0:41:15.32,Default,,0,0,0,,Right.
+Dialogue: 0,0:41:15.32,0:41:18.32,Default,,0,0,0,,Because your hatred of other people and fear
+Dialogue: 0,0:41:18.32,0:41:21.82,Default,,0,0,0,,is now diminished practically to zero.
+Dialogue: 0,0:41:21.82,0:41:24.82,Default,,0,0,0,,Only a benevolent god would have any reality to you.
+Dialogue: 0,0:41:24.82,0:41:25.82,Default,,0,0,0,,Yeah, I see.
+Dialogue: 0,0:41:25.82,0:41:29.82,Default,,0,0,0,,So everyone lives with the very god that they create.
+Dialogue: 0,0:41:29.82,0:41:32.82,Default,,0,0,0,,You can neither prove nor disprove the existence of God
+Dialogue: 0,0:41:32.82,0:41:33.82,Default,,0,0,0,,through the intellect alone.
+Dialogue: 0,0:41:33.82,0:41:34.82,Default,,0,0,0,,Right.
+Dialogue: 0,0:41:34.82,0:41:36.08,Default,,0,0,0,,And, of course, if we calibrate,
+Dialogue: 0,0:41:36.07,0:41:39.07,Default,,0,0,0,,the energy fields of that,
+Dialogue: 0,0:41:39.07,0:41:41.57,Default,,0,0,0,,as we did in the book and other videotapes,
+Dialogue: 0,0:41:41.57,0:41:43.07,Default,,0,0,0,,the intellect is in the 400s.
+Dialogue: 0,0:41:43.07,0:41:44.07,Default,,0,0,0,,Right.
+Dialogue: 0,0:41:44.07,0:41:46.57,Default,,0,0,0,,And the 400s is too much of a limitation.
+Dialogue: 0,0:41:46.57,0:41:49.07,Default,,0,0,0,,You couldn't possibly prove the existence of something
+Dialogue: 0,0:41:49.07,0:41:51.57,Default,,0,0,0,,that can only be experienced from the 600s and up...
+Dialogue: 0,0:41:51.57,0:41:52.57,Default,,0,0,0,,Right.
+Dialogue: 0,0:41:52.57,0:41:57.57,Default,,0,0,0,,...by means of a device that is limited to the 400s.
+Dialogue: 0,0:41:57.57,0:42:03.07,Default,,0,0,0,,It's like a telescope is too weak to reach the furthest galaxies.

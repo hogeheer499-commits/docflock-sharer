@@ -102,9 +102,11 @@ async function doLogin() {
 
 // --- Video list ---
 const videoSelect = document.getElementById("video-select");
+const clipsSelect = document.getElementById("clips-select");
 const musicSelect = document.getElementById("music-select");
 const ytSelect = document.getElementById("yt-select");
 let ytCache = [];
+let clipsCache = [];
 const langGroup = document.getElementById("lang-group");
 const langCheckboxes = document.getElementById("lang-checkboxes");
 const playBtn = document.getElementById("play-btn");
@@ -129,6 +131,24 @@ async function loadVideos() {
       opt.value = v.id;
       opt.textContent = v.title;
       (optgroup || videoSelect).appendChild(opt);
+    }
+  } catch {}
+
+  try {
+    const resp2 = await api("/api/clips");
+    clipsCache = await resp2.json();
+    const clipsGroup = document.getElementById("clips-group");
+    if (clipsCache.length > 0) {
+      clipsSelect.innerHTML = '<option value="">Select a clip...</option>';
+      for (const c of clipsCache) {
+        const opt = document.createElement("option");
+        opt.value = c.id;
+        opt.textContent = c.title;
+        clipsSelect.appendChild(opt);
+      }
+      clipsGroup.classList.remove("hidden");
+    } else {
+      clipsGroup.classList.add("hidden");
     }
   } catch {}
 
@@ -165,22 +185,27 @@ async function loadVideos() {
 
 // Only one dropdown active at a time
 videoSelect.addEventListener("change", () => {
-  if (videoSelect.value) { musicSelect.value = ""; ytSelect.value = ""; }
+  if (videoSelect.value) { clipsSelect.value = ""; musicSelect.value = ""; ytSelect.value = ""; }
+  onSelectionChange();
+});
+
+clipsSelect.addEventListener("change", () => {
+  if (clipsSelect.value) { videoSelect.value = ""; musicSelect.value = ""; ytSelect.value = ""; }
   onSelectionChange();
 });
 
 musicSelect.addEventListener("change", () => {
-  if (musicSelect.value) { videoSelect.value = ""; ytSelect.value = ""; }
+  if (musicSelect.value) { videoSelect.value = ""; clipsSelect.value = ""; ytSelect.value = ""; }
   onSelectionChange();
 });
 
 ytSelect.addEventListener("change", () => {
-  if (ytSelect.value) { videoSelect.value = ""; musicSelect.value = ""; }
+  if (ytSelect.value) { videoSelect.value = ""; clipsSelect.value = ""; musicSelect.value = ""; }
   onSelectionChange();
 });
 
 function getSelectedId() {
-  return videoSelect.value || musicSelect.value || ytSelect.value || "";
+  return videoSelect.value || clipsSelect.value || musicSelect.value || ytSelect.value || "";
 }
 
 function onSelectionChange() {
@@ -191,7 +216,9 @@ function onSelectionChange() {
     return;
   }
 
-  const video = videosCache.find((v) => v.id === videoId);
+  const video = videosCache.find((v) => v.id === videoId)
+    || clipsCache.find((v) => v.id === videoId)
+    || ytCache.find((v) => v.id === videoId);
   if (video && video.languages.length > 0) {
     langCheckboxes.innerHTML = "";
     for (const lang of video.languages) {

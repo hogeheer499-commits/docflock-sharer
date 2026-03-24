@@ -1,0 +1,1737 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:07.84,Default,,0,0,0,,I'm Dr. David Hawkins. I've been a psychiatrist for 35 years, psychoanalyst, nutritionist,
+Dialogue: 0,0:00:08.22,0:00:11.06,Default,,0,0,0,,researcher into the nature of consciousness and spiritual work.
+Dialogue: 0,0:00:11.91,0:00:16.93,Default,,0,0,0,,And in this series of talks, we're using the knowledge that we gain from our research
+Dialogue: 0,0:00:16.93,0:00:21.39,Default,,0,0,0,,into the nature of consciousness itself for the alleviation of human suffering.
+Dialogue: 0,0:00:22.77,0:00:25.75,Default,,0,0,0,,Today's talk is addressed to letting go of weight,
+Dialogue: 0,0:00:25.75,0:00:32.35,Default,,0,0,0,,how to let go of weight in a way that's practical, easygoing, joyful,
+Dialogue: 0,0:00:32.75,0:00:35.07,Default,,0,0,0,,and does not involve any kind of suffering.
+Dialogue: 0,0:00:36.47,0:00:37.39,Default,,0,0,0,,Can this be done?
+Dialogue: 0,0:00:37.85,0:00:40.89,Default,,0,0,0,,Well, all we ask for is some of your attention,
+Dialogue: 0,0:00:41.85,0:00:46.09,Default,,0,0,0,,maybe an hour, hour and a half is all it's going to take of your attention,
+Dialogue: 0,0:00:46.55,0:00:52.89,Default,,0,0,0,,over a day or two, during a day which you're doing the other things that you would be doing anyway.
+Dialogue: 0,0:00:53.27,0:00:55.33,Default,,0,0,0,,The benefits can be long-lasting.
+Dialogue: 0,0:00:55.73,0:00:56.37,Default,,0,0,0,,They can last a long time.
+Dialogue: 0,0:00:56.39,0:00:56.75,Default,,0,0,0,,A lifetime.
+Dialogue: 0,0:00:57.55,0:01:01.91,Default,,0,0,0,,The reward for a couple hours of just paying attention to a few simple principles
+Dialogue: 0,0:01:01.91,0:01:05.93,Default,,0,0,0,,is a lifetime of freedom from this problem.
+Dialogue: 0,0:01:06.80,0:01:07.90,Default,,0,0,0,,How do I know it works?
+Dialogue: 0,0:01:08.16,0:01:10.10,Default,,0,0,0,,Because it's worked in everybody who's tried it.
+Dialogue: 0,0:01:10.54,0:01:11.74,Default,,0,0,0,,It's worked in my patients.
+Dialogue: 0,0:01:12.06,0:01:13.56,Default,,0,0,0,,It's worked in my own self.
+Dialogue: 0,0:01:13.92,0:01:17.54,Default,,0,0,0,,Because I myself lost 50 pounds using this very simple technique
+Dialogue: 0,0:01:17.54,0:01:20.58,Default,,0,0,0,,coming out of our consciousness research.
+Dialogue: 0,0:01:22.77,0:01:26.41,Default,,0,0,0,,The alleviation of a problem should be simple,
+Dialogue: 0,0:01:27.15,0:01:27.59,Default,,0,0,0,,direct,
+Dialogue: 0,0:01:27.97,0:01:28.67,Default,,0,0,0,,to the point,
+Dialogue: 0,0:01:29.39,0:01:30.13,Default,,0,0,0,,long-lasting,
+Dialogue: 0,0:01:30.27,0:01:32.05,Default,,0,0,0,,and its effect costs nothing.
+Dialogue: 0,0:01:33.01,0:01:36.37,Default,,0,0,0,,Diets not work and appetite suppressants will look into that.
+Dialogue: 0,0:01:37.01,0:01:38.81,Default,,0,0,0,,The usual techniques that people try
+Dialogue: 0,0:01:38.81,0:01:42.91,Default,,0,0,0,,end up with sort of a guilty self-recrimination.
+Dialogue: 0,0:01:43.53,0:01:44.47,Default,,0,0,0,,They work temporarily,
+Dialogue: 0,0:01:44.99,0:01:49.31,Default,,0,0,0,,but because they don't really change the way you are with your body,
+Dialogue: 0,0:01:49.63,0:01:53.35,Default,,0,0,0,,because they don't really change those Pavlovian reflexes
+Dialogue: 0,0:01:53.35,0:01:57.47,Default,,0,0,0,,which drive you into eating despite your best interests.
+Dialogue: 0,0:01:58.25,0:02:00.91,Default,,0,0,0,,We'll talk about a shifting state of consciousness
+Dialogue: 0,0:02:00.91,0:02:05.31,Default,,0,0,0,,that we've discovered occurs in the process of eating itself
+Dialogue: 0,0:02:05.31,0:02:07.13,Default,,0,0,0,,and how you can easily overcome that
+Dialogue: 0,0:02:07.13,0:02:10.73,Default,,0,0,0,,so that your weight loss becomes permanent.
+Dialogue: 0,0:02:11.84,0:02:14.00,Default,,0,0,0,,So we're going to say give up trying willpower,
+Dialogue: 0,0:02:14.18,0:02:15.02,Default,,0,0,0,,give up dieting,
+Dialogue: 0,0:02:15.20,0:02:17.46,Default,,0,0,0,,give up resisting eating as they don't work.
+Dialogue: 0,0:02:17.86,0:02:18.90,Default,,0,0,0,,They make you miserable
+Dialogue: 0,0:02:18.90,0:02:21.12,Default,,0,0,0,,and you're going to end up the same as you were easier.
+Dialogue: 0,0:02:21.96,0:02:25.80,Default,,0,0,0,,Anyway, there's a much easier way that is truly joyful.
+Dialogue: 0,0:02:27.14,0:02:28.64,Default,,0,0,0,,We'll be talking about,
+Dialogue: 0,0:02:28.64,0:02:31.20,Default,,0,0,0,,and we'll be using during our talk,
+Dialogue: 0,0:02:31.90,0:02:35.78,Default,,0,0,0,,this scale of consciousness that we have over on the blackboard
+Dialogue: 0,0:02:35.78,0:02:39.95,Default,,0,0,0,,that we have been referring to in the other talks here in the office.
+Dialogue: 0,0:02:41.24,0:02:44.94,Default,,0,0,0,,This is a mathematical model of levels of consciousness
+Dialogue: 0,0:02:44.94,0:02:49.38,Default,,0,0,0,,as we commonly experience them in everyday life.
+Dialogue: 0,0:02:50.58,0:02:52.18,Default,,0,0,0,,And through our research,
+Dialogue: 0,0:02:52.30,0:02:56.10,Default,,0,0,0,,we were able to calibrate the relative energy power of these energy fields,
+Dialogue: 0,0:02:56.28,0:02:58.76,Default,,0,0,0,,the directions of these energy fields,
+Dialogue: 0,0:02:59.06,0:03:01.78,Default,,0,0,0,,and the importance that this has
+Dialogue: 0,0:03:01.78,0:03:04.20,Default,,0,0,0,,when we're trying to handle any kind of a human problem.
+Dialogue: 0,0:03:04.84,0:03:07.96,Default,,0,0,0,,And through a simple understanding of some very simple concepts,
+Dialogue: 0,0:03:08.88,0:03:12.16,Default,,0,0,0,,we are then put in a place of being able to handle things
+Dialogue: 0,0:03:12.16,0:03:17.42,Default,,0,0,0,,that up to that time were baffling and not successful.
+Dialogue: 0,0:03:19.32,0:03:22.30,Default,,0,0,0,,We're going to talk about how to image yourself as slim
+Dialogue: 0,0:03:22.30,0:03:24.50,Default,,0,0,0,,and love and energize that image
+Dialogue: 0,0:03:24.50,0:03:28.54,Default,,0,0,0,,and then let go of it so that it actually materializes.
+Dialogue: 0,0:03:28.54,0:03:30.10,Default,,0,0,0,,So we're going to be using some of,
+Dialogue: 0,0:03:30.40,0:03:34.58,Default,,0,0,0,,the techniques based upon the nature of consciousness itself.
+Dialogue: 0,0:03:36.13,0:03:38.73,Default,,0,0,0,,How to come from your heart instead of your head.
+Dialogue: 0,0:03:39.23,0:03:41.23,Default,,0,0,0,,How to come from your heart instead of your stomach.
+Dialogue: 0,0:03:42.65,0:03:45.81,Default,,0,0,0,,The head criticizes you and the stomach wants to eat.
+Dialogue: 0,0:03:46.13,0:03:47.77,Default,,0,0,0,,And the only way to handle this problem
+Dialogue: 0,0:03:47.77,0:03:50.53,Default,,0,0,0,,is to come from your heart about the whole thing.
+Dialogue: 0,0:03:51.09,0:03:54.41,Default,,0,0,0,,And so we're going to be somewhat lighthearted about this subject today,
+Dialogue: 0,0:03:54.79,0:03:56.95,Default,,0,0,0,,in which many people get quite heavy about.
+Dialogue: 0,0:03:57.91,0:03:59.83,Default,,0,0,0,,The lightheartedness comes with the eating
+Dialogue: 0,0:03:59.83,0:04:01.17,Default,,0,0,0,,and then the self-recrimination,
+Dialogue: 0,0:04:01.17,0:04:01.31,Default,,0,0,0,,and then the self-recrimination,
+Dialogue: 0,0:04:01.31,0:04:01.33,Default,,0,0,0,,and then the self-recrimination,
+Dialogue: 0,0:04:01.33,0:04:03.71,Default,,0,0,0,,and the guilt comes, you know, as you go to bed,
+Dialogue: 0,0:04:03.79,0:04:04.93,Default,,0,0,0,,you lie in bed and you wonder,
+Dialogue: 0,0:04:05.11,0:04:06.25,Default,,0,0,0,,why did I eat all that?
+Dialogue: 0,0:04:07.16,0:04:09.80,Default,,0,0,0,,And begin to attack yourself.
+Dialogue: 0,0:04:11.04,0:04:14.64,Default,,0,0,0,,So we're going to find a way beyond all these problems
+Dialogue: 0,0:04:14.64,0:04:15.80,Default,,0,0,0,,that will work for us.
+Dialogue: 0,0:04:17.60,0:04:19.56,Default,,0,0,0,,And so to start with, let's talk about,
+Dialogue: 0,0:04:19.66,0:04:22.90,Default,,0,0,0,,let's talk about the common medical model,
+Dialogue: 0,0:04:23.04,0:04:24.98,Default,,0,0,0,,the one that is commonly tried.
+Dialogue: 0,0:04:25.86,0:04:29.74,Default,,0,0,0,,And we see that it's really based on the idea of diet.
+Dialogue: 0,0:04:30.20,0:04:32.62,Default,,0,0,0,,The whole concept is based on,
+Dialogue: 0,0:04:32.62,0:04:36.40,Default,,0,0,0,,based on an assumption that the number of calories you eat
+Dialogue: 0,0:04:36.40,0:04:37.78,Default,,0,0,0,,is what determines your weight,
+Dialogue: 0,0:04:38.14,0:04:41.25,Default,,0,0,0,,plus maybe some thought to exercise.
+Dialogue: 0,0:04:42.01,0:04:43.21,Default,,0,0,0,,Now what we're going to say today
+Dialogue: 0,0:04:43.21,0:04:45.71,Default,,0,0,0,,is not necessarily going to agree
+Dialogue: 0,0:04:45.71,0:04:47.47,Default,,0,0,0,,with traditional medical thinking.
+Dialogue: 0,0:04:48.33,0:04:50.13,Default,,0,0,0,,If traditional medical thinking
+Dialogue: 0,0:04:50.13,0:04:52.15,Default,,0,0,0,,and counting calories has worked for you,
+Dialogue: 0,0:04:52.69,0:04:54.27,Default,,0,0,0,,you wouldn't be watching this film.
+Dialogue: 0,0:04:54.93,0:04:57.51,Default,,0,0,0,,So we're going to talk instead about things
+Dialogue: 0,0:04:57.51,0:04:58.89,Default,,0,0,0,,that we have clinically observed
+Dialogue: 0,0:04:58.89,0:05:01.49,Default,,0,0,0,,as being true experientially.
+Dialogue: 0,0:05:02.25,0:05:03.63,Default,,0,0,0,,You see, consciousness work has to be done
+Dialogue: 0,0:05:03.63,0:05:07.43,Default,,0,0,0,,with the truth of one's own inner experience.
+Dialogue: 0,0:05:07.57,0:05:09.49,Default,,0,0,0,,It does not have anything to do with theory
+Dialogue: 0,0:05:09.49,0:05:15.77,Default,,0,0,0,,or a hypothesis or scientific reasoning or logic.
+Dialogue: 0,0:05:15.91,0:05:17.99,Default,,0,0,0,,It has to do with the experiencing
+Dialogue: 0,0:05:17.99,0:05:19.19,Default,,0,0,0,,of the truth within you.
+Dialogue: 0,0:05:20.83,0:05:22.99,Default,,0,0,0,,So the first thing we want to do
+Dialogue: 0,0:05:22.99,0:05:25.47,Default,,0,0,0,,is to begin to cancel some of our beliefs
+Dialogue: 0,0:05:25.47,0:05:28.95,Default,,0,0,0,,about diet and food that have contributed to our problem.
+Dialogue: 0,0:05:29.88,0:05:33.46,Default,,0,0,0,,To begin with, we have thoughts coming such as,
+Dialogue: 0,0:05:33.46,0:05:34.70,Default,,0,0,0,,well, overweight,
+Dialogue: 0,0:05:34.72,0:05:35.80,Default,,0,0,0,,it runs in our family,
+Dialogue: 0,0:05:36.02,0:05:36.98,Default,,0,0,0,,it's in the genes,
+Dialogue: 0,0:05:37.56,0:05:38.78,Default,,0,0,0,,it's due to my thyroid,
+Dialogue: 0,0:05:40.46,0:05:43.90,Default,,0,0,0,,it's due to the fact that as an infant I was overweight
+Dialogue: 0,0:05:43.90,0:05:46.24,Default,,0,0,0,,and that caused too many fat cells.
+Dialogue: 0,0:05:46.38,0:05:48.28,Default,,0,0,0,,Now these are all popular medical theories
+Dialogue: 0,0:05:48.28,0:05:52.14,Default,,0,0,0,,and if holding those in mind works for you,
+Dialogue: 0,0:05:52.20,0:05:53.28,Default,,0,0,0,,then that is very good.
+Dialogue: 0,0:05:53.82,0:05:55.44,Default,,0,0,0,,But we have found experientially
+Dialogue: 0,0:05:55.44,0:05:57.00,Default,,0,0,0,,this really isn't so, is it?
+Dialogue: 0,0:05:57.70,0:06:01.32,Default,,0,0,0,,Because two people will eat exactly the same diet
+Dialogue: 0,0:06:01.32,0:06:03.10,Default,,0,0,0,,and I've experienced this myself
+Dialogue: 0,0:06:03.10,0:06:04.36,Default,,0,0,0,,over the last several years,
+Dialogue: 0,0:06:04.72,0:06:06.82,Default,,0,0,0,,where myself and another person would eat
+Dialogue: 0,0:06:06.82,0:06:09.48,Default,,0,0,0,,practically the same number of calories.
+Dialogue: 0,0:06:09.48,0:06:11.78,Default,,0,0,0,,One would gain weight and the other would lose.
+Dialogue: 0,0:06:11.78,0:06:13.98,Default,,0,0,0,,So how do you explain that phenomenon
+Dialogue: 0,0:06:13.98,0:06:16.48,Default,,0,0,0,,in as much as the activity levels are about the same
+Dialogue: 0,0:06:16.48,0:06:18.28,Default,,0,0,0,,and everything else is about the same?
+Dialogue: 0,0:06:18.28,0:06:23.55,Default,,0,0,0,,So we have to question some of the basic medical hypothesis
+Dialogue: 0,0:06:23.55,0:06:27.15,Default,,0,0,0,,and we see that some of them are very simple to understand.
+Dialogue: 0,0:06:27.15,0:06:31.70,Default,,0,0,0,,To begin with, why assume because you eat 100 calories
+Dialogue: 0,0:06:31.70,0:06:34.34,Default,,0,0,0,,that the body therefore absorbs 100 calories?
+Dialogue: 0,0:06:34.34,0:06:35.64,Default,,0,0,0,,What makes you think that two people,
+Dialogue: 0,0:06:35.64,0:06:39.54,Default,,0,0,0,,the two people's gastrointestinal tract are exactly the same?
+Dialogue: 0,0:06:39.54,0:06:41.40,Default,,0,0,0,,I ate a 1,000 calorie piece of pie
+Dialogue: 0,0:06:41.40,0:06:44.20,Default,,0,0,0,,and another person eats a 1,000 calorie piece of pie.
+Dialogue: 0,0:06:44.20,0:06:47.50,Default,,0,0,0,,Maybe I only absorb 500 calories out of that 1,000.
+Dialogue: 0,0:06:47.50,0:06:50.33,Default,,0,0,0,,The other 500 runs right on through.
+Dialogue: 0,0:06:50.33,0:06:54.57,Default,,0,0,0,,And so we have other factors such as the rate of movement
+Dialogue: 0,0:06:54.57,0:06:56.33,Default,,0,0,0,,of the gastrointestinal tract.
+Dialogue: 0,0:06:56.33,0:06:59.87,Default,,0,0,0,,We know that the faster things move through the tract,
+Dialogue: 0,0:06:59.87,0:07:02.13,Default,,0,0,0,,the less things are absorbed.
+Dialogue: 0,0:07:02.13,0:07:05.17,Default,,0,0,0,,So we have other factors to consider
+Dialogue: 0,0:07:05.17,0:07:07.01,Default,,0,0,0,,than just calories.
+Dialogue: 0,0:07:07.01,0:07:09.21,Default,,0,0,0,,And so we're going to talk about these things today
+Dialogue: 0,0:07:09.21,0:07:13.04,Default,,0,0,0,,and arrive at a way of handling this problem
+Dialogue: 0,0:07:13.04,0:07:16.84,Default,,0,0,0,,that will not involve counting calories.
+Dialogue: 0,0:07:16.84,0:07:19.80,Default,,0,0,0,,There are some dietary tricks that are helpful
+Dialogue: 0,0:07:19.80,0:07:23.78,Default,,0,0,0,,and so we'll throw in some tricks about eating
+Dialogue: 0,0:07:23.78,0:07:28.68,Default,,0,0,0,,that are helpful in the beginning until the results
+Dialogue: 0,0:07:28.68,0:07:32.48,Default,,0,0,0,,of your working on yourself have adjusted your epistat.
+Dialogue: 0,0:07:32.48,0:07:34.94,Default,,0,0,0,,So today we're going to be talking about,
+Dialogue: 0,0:07:35.94,0:07:38.08,Default,,0,0,0,,a portion of the brain in the hypothalamus,
+Dialogue: 0,0:07:38.08,0:07:43.10,Default,,0,0,0,,which is called the epistat and how to set down your epistat.
+Dialogue: 0,0:07:43.10,0:07:46.98,Default,,0,0,0,,It takes you a day or two to handle this problem
+Dialogue: 0,0:07:46.98,0:07:50.40,Default,,0,0,0,,and then the epistat gets reset.
+Dialogue: 0,0:07:50.40,0:07:55.88,Default,,0,0,0,,And because the epistat controls your feeling of satiety,
+Dialogue: 0,0:07:55.88,0:07:58.64,Default,,0,0,0,,it will now control your weight and as you hold a certain weight
+Dialogue: 0,0:07:58.64,0:08:02.58,Default,,0,0,0,,in mind, it begins to materialize on the physical plane.
+Dialogue: 0,0:08:02.58,0:08:05.78,Default,,0,0,0,,So we'll again be talking about the power of mind over body.
+Dialogue: 0,0:08:05.94,0:08:10.98,Default,,0,0,0,,The power of mind over body and we'll be looking at the fact
+Dialogue: 0,0:08:10.98,0:08:14.88,Default,,0,0,0,,that it is mind that creates body being what it is rather
+Dialogue: 0,0:08:14.88,0:08:16.58,Default,,0,0,0,,than the other way around.
+Dialogue: 0,0:08:16.58,0:08:21.38,Default,,0,0,0,,We have to reverse the conventional so-called common sense
+Dialogue: 0,0:08:21.38,0:08:24.60,Default,,0,0,0,,of the left brain logic which says it's the body
+Dialogue: 0,0:08:24.60,0:08:26.28,Default,,0,0,0,,that creates the mind.
+Dialogue: 0,0:08:26.28,0:08:29.48,Default,,0,0,0,,Instead we have to look at the opposite, that what is held
+Dialogue: 0,0:08:29.48,0:08:33.64,Default,,0,0,0,,in mind manifests within the body so that our thoughts
+Dialogue: 0,0:08:33.64,0:08:35.88,Default,,0,0,0,,and our beliefs about weight, activity,
+Dialogue: 0,0:08:35.88,0:08:40.48,Default,,0,0,0,,calories and all the phenomena surrounding this have been
+Dialogue: 0,0:08:40.48,0:08:43.04,Default,,0,0,0,,what is affecting our weight.
+Dialogue: 0,0:08:43.04,0:08:47.30,Default,,0,0,0,,We know this from let's say cases of patients
+Dialogue: 0,0:08:47.30,0:08:49.30,Default,,0,0,0,,with multiple personality.
+Dialogue: 0,0:08:49.30,0:08:52.86,Default,,0,0,0,,One personality will come into the patient and take
+Dialogue: 0,0:08:52.86,0:08:55.76,Default,,0,0,0,,over his consciousness named Dick.
+Dialogue: 0,0:08:55.76,0:08:59.53,Default,,0,0,0,,Now Dick doesn't have any eating or weight problem at all.
+Dialogue: 0,0:08:59.53,0:09:00.99,Default,,0,0,0,,In fact, he eats very little.
+Dialogue: 0,0:09:00.99,0:09:02.73,Default,,0,0,0,,He's spry and active.
+Dialogue: 0,0:09:02.73,0:09:05.67,Default,,0,0,0,,And while Dick is in the body, the person is slim
+Dialogue: 0,0:09:05.67,0:09:07.46,Default,,0,0,0,,and loses weight.
+Dialogue: 0,0:09:07.46,0:09:10.16,Default,,0,0,0,,Then the person will go into a trance state
+Dialogue: 0,0:09:10.16,0:09:12.46,Default,,0,0,0,,or become intoxicated or something.
+Dialogue: 0,0:09:12.46,0:09:14.76,Default,,0,0,0,,And Robert comes into the body.
+Dialogue: 0,0:09:14.76,0:09:16.76,Default,,0,0,0,,Robert loves to eat.
+Dialogue: 0,0:09:16.76,0:09:20.94,Default,,0,0,0,,He gorges himself on all kinds of things, et cetera.
+Dialogue: 0,0:09:20.94,0:09:25.10,Default,,0,0,0,,And the person's weight suddenly rises dramatically.
+Dialogue: 0,0:09:25.10,0:09:29.96,Default,,0,0,0,,So you see the response now of the body is therefore to the mind,
+Dialogue: 0,0:09:29.96,0:09:33.54,Default,,0,0,0,,to the mindset, to the mind's beliefs, to the mind's attitudes,
+Dialogue: 0,0:09:33.54,0:09:36.30,Default,,0,0,0,,to the way the person holds their relationship
+Dialogue: 0,0:09:36.30,0:09:39.40,Default,,0,0,0,,to their body in their mind.
+Dialogue: 0,0:09:39.40,0:09:42.90,Default,,0,0,0,,It is the mind that is going to be setting our epistat
+Dialogue: 0,0:09:42.90,0:09:46.80,Default,,0,0,0,,and is using consciousness techniques within the mind
+Dialogue: 0,0:09:46.80,0:09:49.30,Default,,0,0,0,,which are going to release our weight problem.
+Dialogue: 0,0:09:49.30,0:09:54.21,Default,,0,0,0,,So we can let go of the weight almost automatically.
+Dialogue: 0,0:09:54.21,0:09:56.37,Default,,0,0,0,,I want to review again with you the nature
+Dialogue: 0,0:09:56.37,0:09:58.45,Default,,0,0,0,,of consciousness itself.
+Dialogue: 0,0:09:58.45,0:10:02.27,Default,,0,0,0,,That relationship between body, mind and spirit.
+Dialogue: 0,0:10:02.27,0:10:06.11,Default,,0,0,0,,Spirit being that energy field of consciousness
+Dialogue: 0,0:10:06.11,0:10:12.30,Default,,0,0,0,,which is all pervasive throughout life itself.
+Dialogue: 0,0:10:12.30,0:10:16.00,Default,,0,0,0,,The first thing to understand is that the body has no capacity
+Dialogue: 0,0:10:16.00,0:10:18.13,Default,,0,0,0,,to experience itself.
+Dialogue: 0,0:10:18.13,0:10:20.37,Default,,0,0,0,,At first this seems like an amazing thought.
+Dialogue: 0,0:10:20.37,0:10:22.73,Default,,0,0,0,,Because most of us, unless we're enlightened,
+Dialogue: 0,0:10:22.73,0:10:25.03,Default,,0,0,0,,assume that we are the physical body.
+Dialogue: 0,0:10:25.03,0:10:28.18,Default,,0,0,0,,The first thing to realize is that the body has no way
+Dialogue: 0,0:10:28.18,0:10:30.02,Default,,0,0,0,,in which to experience itself.
+Dialogue: 0,0:10:30.02,0:10:32.48,Default,,0,0,0,,My arm cannot experience my arm.
+Dialogue: 0,0:10:32.48,0:10:35.59,Default,,0,0,0,,My leg cannot experience my leg.
+Dialogue: 0,0:10:35.59,0:10:38.59,Default,,0,0,0,,Instead it has to be experiencing something greater
+Dialogue: 0,0:10:38.59,0:10:39.99,Default,,0,0,0,,than itself.
+Dialogue: 0,0:10:39.99,0:10:43.09,Default,,0,0,0,,And so we experience the body via the senses.
+Dialogue: 0,0:10:43.09,0:10:47.85,Default,,0,0,0,,It is the senses that tell us what is going on with the body.
+Dialogue: 0,0:10:47.85,0:10:49.35,Default,,0,0,0,,So we're not experiencing the body.
+Dialogue: 0,0:10:49.35,0:10:52.71,Default,,0,0,0,,We're experiencing the senses of the body.
+Dialogue: 0,0:10:52.71,0:10:56.31,Default,,0,0,0,,Now the senses of the body themselves have no capacity
+Dialogue: 0,0:10:56.31,0:10:58.19,Default,,0,0,0,,to experience themselves.
+Dialogue: 0,0:10:58.19,0:11:00.31,Default,,0,0,0,,They have to be experienced in something greater
+Dialogue: 0,0:11:00.31,0:11:04.84,Default,,0,0,0,,than what they are and that is mind itself.
+Dialogue: 0,0:11:04.84,0:11:08.28,Default,,0,0,0,,So we have the mind is the place
+Dialogue: 0,0:11:08.28,0:11:08.90,Default,,0,0,0,,in which the body is.
+Dialogue: 0,0:11:08.90,0:11:10.54,Default,,0,0,0,,The body is experienced.
+Dialogue: 0,0:11:10.54,0:11:14.46,Default,,0,0,0,,In which the sensations from the body are experienced.
+Dialogue: 0,0:11:14.46,0:11:18.80,Default,,0,0,0,,Mind itself is incapable of experiencing itself.
+Dialogue: 0,0:11:18.80,0:11:22.60,Default,,0,0,0,,Now this seems like an amazing thought also, isn't it?
+Dialogue: 0,0:11:22.60,0:11:25.94,Default,,0,0,0,,A thought cannot experience its own thoughtness.
+Dialogue: 0,0:11:25.94,0:11:29.54,Default,,0,0,0,,A memory cannot experience its own memoryness.
+Dialogue: 0,0:11:29.54,0:11:32.74,Default,,0,0,0,,A fantasy of the future cannot experience itself.
+Dialogue: 0,0:11:32.74,0:11:35.66,Default,,0,0,0,,An emotion cannot experience itself.
+Dialogue: 0,0:11:35.66,0:11:39.32,Default,,0,0,0,,What goes on in the mind has to be experienced in something
+Dialogue: 0,0:11:39.32,0:11:39.86,Default,,0,0,0,,which itself cannot experience.
+Dialogue: 0,0:11:39.86,0:11:45.10,Default,,0,0,0,,Mind itself is greater than mind, and that is consciousness itself.
+Dialogue: 0,0:11:45.10,0:11:49.66,Default,,0,0,0,,So we have the body is experienced via sensation.
+Dialogue: 0,0:11:49.66,0:11:52.22,Default,,0,0,0,,Sensation is experienced in the mind.
+Dialogue: 0,0:11:52.22,0:11:55.76,Default,,0,0,0,,Mind is experienced in consciousness.
+Dialogue: 0,0:11:55.76,0:11:59.02,Default,,0,0,0,,We can see this very easily because if something happens,
+Dialogue: 0,0:11:59.02,0:12:00.80,Default,,0,0,0,,let's say to a portion of the brain,
+Dialogue: 0,0:12:00.80,0:12:03.68,Default,,0,0,0,,we know that the person is unable to experience,
+Dialogue: 0,0:12:03.68,0:12:06.73,Default,,0,0,0,,let's say the opposite side of the body.
+Dialogue: 0,0:12:06.73,0:12:09.33,Default,,0,0,0,,So without mind, body cannot be experienced.
+Dialogue: 0,0:12:09.33,0:12:10.52,Default,,0,0,0,,We know.
+Dialogue: 0,0:12:10.52,0:12:13.26,Default,,0,0,0,,We know because of anesthesia, for instance.
+Dialogue: 0,0:12:13.26,0:12:15.82,Default,,0,0,0,,In fact, that is the whole point of anesthesia.
+Dialogue: 0,0:12:15.82,0:12:20.42,Default,,0,0,0,,That without consciousness, we're not aware of what is going on in mind.
+Dialogue: 0,0:12:20.42,0:12:23.58,Default,,0,0,0,,If you delete consciousness via the anesthetic,
+Dialogue: 0,0:12:23.58,0:12:28.46,Default,,0,0,0,,there is no knowledge or experience now of what is going on in either mind or body.
+Dialogue: 0,0:12:28.46,0:12:32.64,Default,,0,0,0,,So consciousness is higher than mind and body.
+Dialogue: 0,0:12:32.64,0:12:37.28,Default,,0,0,0,,There is, in fact, a state beyond consciousness itself,
+Dialogue: 0,0:12:37.28,0:12:40.88,Default,,0,0,0,,which is still and unmoving, against which,
+Dialogue: 0,0:12:41.04,0:12:45.04,Default,,0,0,0,,we are then aware of what is going on in consciousness.
+Dialogue: 0,0:12:45.04,0:12:47.40,Default,,0,0,0,,And that is the state of awareness.
+Dialogue: 0,0:12:47.40,0:12:50.54,Default,,0,0,0,,The state of awareness, which is not different
+Dialogue: 0,0:12:50.54,0:12:55.50,Default,,0,0,0,,than the great powerful energy field behind consciousness itself,
+Dialogue: 0,0:12:55.50,0:12:58.94,Default,,0,0,0,,which is not different than the energy of life itself,
+Dialogue: 0,0:12:58.94,0:13:01.14,Default,,0,0,0,,which is not different than one's godness,
+Dialogue: 0,0:13:01.14,0:13:04.84,Default,,0,0,0,,if these are terms that are acceptable to you.
+Dialogue: 0,0:13:04.84,0:13:11.64,Default,,0,0,0,,It is necessary to know this because we then become aware of where all experience is taking place.
+Dialogue: 0,0:13:11.84,0:13:16.96,Default,,0,0,0,,The experience is taking place within consciousness itself.
+Dialogue: 0,0:13:16.96,0:13:21.66,Default,,0,0,0,,All human experience is taking place in consciousness itself.
+Dialogue: 0,0:13:21.66,0:13:26.66,Default,,0,0,0,,Consequently, I cannot experience the wall or the floor or you.
+Dialogue: 0,0:13:26.66,0:13:34.16,Default,,0,0,0,,What I'm experiencing is within my own consciousness of you or the wall or the floor.
+Dialogue: 0,0:13:34.16,0:13:39.41,Default,,0,0,0,,This gives us an understanding of an area in which we can work then,
+Dialogue: 0,0:13:39.41,0:13:42.41,Default,,0,0,0,,which is less restricted by consciousness,
+Dialogue: 0,0:13:42.41,0:13:46.41,Default,,0,0,0,,which is less restricted by the commonly held belief systems.
+Dialogue: 0,0:13:46.41,0:13:51.41,Default,,0,0,0,,If the entire weight problem is a phenomena occurring within consciousness itself,
+Dialogue: 0,0:13:51.41,0:13:53.41,Default,,0,0,0,,if consciousness is more powerful than mind,
+Dialogue: 0,0:13:53.41,0:13:55.41,Default,,0,0,0,,which is more powerful than senses,
+Dialogue: 0,0:13:55.41,0:13:57.48,Default,,0,0,0,,which is more powerful than body,
+Dialogue: 0,0:13:57.48,0:14:02.48,Default,,0,0,0,,then we can bring about a shift in the body by merely addressing consciousness itself.
+Dialogue: 0,0:14:02.48,0:14:04.48,Default,,0,0,0,,If we address the problem there,
+Dialogue: 0,0:14:04.48,0:14:08.48,Default,,0,0,0,,because the body will only do what is held in mind,
+Dialogue: 0,0:14:08.48,0:14:11.48,Default,,0,0,0,,we don't have to really bother much with the body.
+Dialogue: 0,0:14:11.48,0:14:14.48,Default,,0,0,0,,The body will automatically correct itself
+Dialogue: 0,0:14:14.48,0:14:19.48,Default,,0,0,0,,because the problem is really a problem within the experience,
+Dialogue: 0,0:14:19.48,0:14:21.48,Default,,0,0,0,,within consciousness itself.
+Dialogue: 0,0:14:21.48,0:14:26.48,Default,,0,0,0,,So we'll be addressing techniques which have to do with the mind and with consciousness,
+Dialogue: 0,0:14:26.48,0:14:32.48,Default,,0,0,0,,and we won't have to be very much concerned then with handling the body as such.
+Dialogue: 0,0:14:32.48,0:14:35.60,Default,,0,0,0,,You might say that the body is an effect.
+Dialogue: 0,0:14:35.60,0:14:37.60,Default,,0,0,0,,The cause is in mind.
+Dialogue: 0,0:14:37.60,0:14:40.60,Default,,0,0,0,,The cause of what happens in the body is in mind.
+Dialogue: 0,0:14:40.60,0:14:42.60,Default,,0,0,0,,It's only an effect.
+Dialogue: 0,0:14:42.60,0:14:46.60,Default,,0,0,0,,Consequently, the attempts to solve the weight problem
+Dialogue: 0,0:14:46.60,0:14:52.02,Default,,0,0,0,,which are addressed to the body only are notoriously unsuccessful.
+Dialogue: 0,0:14:52.02,0:14:56.02,Default,,0,0,0,,Practically every month you see endless magazines and newspapers
+Dialogue: 0,0:14:56.02,0:15:00.63,Default,,0,0,0,,and the headline on the cover which sells them is a new diet.
+Dialogue: 0,0:15:00.63,0:15:02.63,Default,,0,0,0,,This tells you that diets don't work.
+Dialogue: 0,0:15:02.63,0:15:05.95,Default,,0,0,0,,When you find multiple solutions to a problem,
+Dialogue: 0,0:15:05.95,0:15:08.95,Default,,0,0,0,,when there are endless articles on the same phenomena,
+Dialogue: 0,0:15:08.95,0:15:10.95,Default,,0,0,0,,you know they don't have the answer.
+Dialogue: 0,0:15:10.95,0:15:12.95,Default,,0,0,0,,If you had the answer to the weight problem,
+Dialogue: 0,0:15:12.95,0:15:14.95,Default,,0,0,0,,there wouldn't be any articles on diet at all
+Dialogue: 0,0:15:14.95,0:15:16.95,Default,,0,0,0,,because everybody would have handled it.
+Dialogue: 0,0:15:16.95,0:15:19.95,Default,,0,0,0,,Addressing it on the physical level alone just doesn't work.
+Dialogue: 0,0:15:19.95,0:15:22.95,Default,,0,0,0,,It just doesn't work for many other problems
+Dialogue: 0,0:15:22.95,0:15:25.95,Default,,0,0,0,,which involve complicated human behavior,
+Dialogue: 0,0:15:25.95,0:15:27.95,Default,,0,0,0,,such problems as alcoholism,
+Dialogue: 0,0:15:27.95,0:15:32.95,Default,,0,0,0,,many illnesses including duodenal ulcers, etc., diverticulitis.
+Dialogue: 0,0:15:32.95,0:15:36.95,Default,,0,0,0,,All these things are notoriously non-responsive
+Dialogue: 0,0:15:36.95,0:15:39.95,Default,,0,0,0,,to addressing them on the physical level only.
+Dialogue: 0,0:15:39.95,0:15:42.98,Default,,0,0,0,,We have to become more sophisticated and more conscious ourselves
+Dialogue: 0,0:15:42.98,0:15:46.98,Default,,0,0,0,,to bring about a resolution of long-standing behavioral problems.
+Dialogue: 0,0:15:46.98,0:15:51.98,Default,,0,0,0,,The technique which I used personally when I lost that 50 pounds,
+Dialogue: 0,0:15:51.98,0:15:55.98,Default,,0,0,0,,which may not sound like a lot of pounds to some of you,
+Dialogue: 0,0:15:55.98,0:16:01.98,Default,,0,0,0,,but it was 30% of my body weight because at the time I weighed 175,
+Dialogue: 0,0:16:01.98,0:16:05.98,Default,,0,0,0,,and with this technique I went down to 125,
+Dialogue: 0,0:16:05.98,0:16:07.98,Default,,0,0,0,,which was the weight that I desired.
+Dialogue: 0,0:16:07.98,0:16:10.52,Default,,0,0,0,,This technique really only worked
+Dialogue: 0,0:16:10.52,0:16:13.52,Default,,0,0,0,,because it only takes, as I had promised you,
+Dialogue: 0,0:16:13.52,0:16:16.52,Default,,0,0,0,,really a matter of minutes over a day or two.
+Dialogue: 0,0:16:16.52,0:16:19.52,Default,,0,0,0,,Collectively, we're asking for maybe an hour,
+Dialogue: 0,0:16:19.52,0:16:22.52,Default,,0,0,0,,an hour and a half of your time and attention.
+Dialogue: 0,0:16:22.52,0:16:25.52,Default,,0,0,0,,You can actually do this while you're going about the house
+Dialogue: 0,0:16:25.52,0:16:29.52,Default,,0,0,0,,or going about in the office, driving back and forth to work.
+Dialogue: 0,0:16:29.52,0:16:32.52,Default,,0,0,0,,You can just fit it into your daily routine.
+Dialogue: 0,0:16:32.52,0:16:36.59,Default,,0,0,0,,It isn't something that you really have to stop your life in order to handle.
+Dialogue: 0,0:16:36.59,0:16:38.59,Default,,0,0,0,,It isn't like going away to a milk farm
+Dialogue: 0,0:16:38.59,0:16:42.84,Default,,0,0,0,,or going to a dance studio or something.
+Dialogue: 0,0:16:42.84,0:16:44.84,Default,,0,0,0,,This is something that works right into your life.
+Dialogue: 0,0:16:44.84,0:16:48.84,Default,,0,0,0,,For a thing to be effective, it has to fit in with your life pattern.
+Dialogue: 0,0:16:48.84,0:16:51.84,Default,,0,0,0,,I found that any behavioral modification technique
+Dialogue: 0,0:16:51.84,0:16:53.84,Default,,0,0,0,,works if it fits in with your daily life.
+Dialogue: 0,0:16:53.84,0:16:56.84,Default,,0,0,0,,If you have to change your whole lifestyle,
+Dialogue: 0,0:16:56.84,0:16:58.84,Default,,0,0,0,,then usually the results are temporary.
+Dialogue: 0,0:16:58.84,0:17:02.97,Default,,0,0,0,,In this case, what we do is when the sensation comes on
+Dialogue: 0,0:17:02.97,0:17:04.97,Default,,0,0,0,,that you have previously called hunger,
+Dialogue: 0,0:17:04.97,0:17:07.97,Default,,0,0,0,,what you do is you ignore the thoughts that go with this,
+Dialogue: 0,0:17:07.97,0:17:10.97,Default,,0,0,0,,especially canceling that thought, hunger,
+Dialogue: 0,0:17:10.97,0:17:13.97,Default,,0,0,0,,and instead you go right into the sensations,
+Dialogue: 0,0:17:13.97,0:17:16.97,Default,,0,0,0,,right into the inner experience
+Dialogue: 0,0:17:16.97,0:17:19.97,Default,,0,0,0,,of what it is you're actually experiencing
+Dialogue: 0,0:17:19.97,0:17:21.97,Default,,0,0,0,,and where you're experiencing it in your body
+Dialogue: 0,0:17:21.97,0:17:24.97,Default,,0,0,0,,without labeling it, without calling it anything,
+Dialogue: 0,0:17:24.97,0:17:26.97,Default,,0,0,0,,without putting any name on it,
+Dialogue: 0,0:17:26.97,0:17:29.97,Default,,0,0,0,,to just experience it and begin to let go,
+Dialogue: 0,0:17:29.97,0:17:33.10,Default,,0,0,0,,resisting those sensations.
+Dialogue: 0,0:17:33.10,0:17:35.10,Default,,0,0,0,,We go into consciousness itself.
+Dialogue: 0,0:17:35.10,0:17:37.10,Default,,0,0,0,,We go into the inner experience
+Dialogue: 0,0:17:37.10,0:17:40.10,Default,,0,0,0,,of what you're experiencing
+Dialogue: 0,0:17:40.10,0:17:42.10,Default,,0,0,0,,without labeling it with anything,
+Dialogue: 0,0:17:42.10,0:17:44.10,Default,,0,0,0,,without calling it anything.
+Dialogue: 0,0:17:44.10,0:17:47.10,Default,,0,0,0,,Instead, to silently go within
+Dialogue: 0,0:17:47.10,0:17:50.10,Default,,0,0,0,,and experience what's being experienced
+Dialogue: 0,0:17:50.10,0:17:53.48,Default,,0,0,0,,and let go, resisting it.
+Dialogue: 0,0:17:53.48,0:17:55.48,Default,,0,0,0,,In the beginning, you are so controlled
+Dialogue: 0,0:17:55.48,0:17:57.48,Default,,0,0,0,,by the Pavlovian conditioning
+Dialogue: 0,0:17:57.48,0:18:00.48,Default,,0,0,0,,that the minute you get this sensation,
+Dialogue: 0,0:18:00.48,0:18:03.48,Default,,0,0,0,,the behavior goes into immediate action to satisfy it.
+Dialogue: 0,0:18:03.48,0:18:06.48,Default,,0,0,0,,And so, like Pavlov's dog who ate,
+Dialogue: 0,0:18:06.48,0:18:08.48,Default,,0,0,0,,you know, salivated every time the bell rang,
+Dialogue: 0,0:18:08.48,0:18:11.48,Default,,0,0,0,,what you've done is set up a conditioned reflex
+Dialogue: 0,0:18:11.48,0:18:13.48,Default,,0,0,0,,and what we want to do is unset this.
+Dialogue: 0,0:18:13.48,0:18:16.96,Default,,0,0,0,,How can we unset it and how long does this take?
+Dialogue: 0,0:18:16.96,0:18:17.96,Default,,0,0,0,,How much effort?
+Dialogue: 0,0:18:17.96,0:18:20.99,Default,,0,0,0,,Very little effort, very little time.
+Dialogue: 0,0:18:20.99,0:18:23.99,Default,,0,0,0,,What we do instead is when we get this sensation,
+Dialogue: 0,0:18:23.99,0:18:25.99,Default,,0,0,0,,which in the past we've called hungry,
+Dialogue: 0,0:18:25.99,0:18:27.99,Default,,0,0,0,,I'm hungry now,
+Dialogue: 0,0:18:27.99,0:18:29.99,Default,,0,0,0,,what we do is we let go, resisting it.
+Dialogue: 0,0:18:29.99,0:18:35.08,Default,,0,0,0,,We just agree and we're willing to be with the sensation
+Dialogue: 0,0:18:35.08,0:18:37.08,Default,,0,0,0,,but do nothing about it.
+Dialogue: 0,0:18:37.08,0:18:39.08,Default,,0,0,0,,So I let the experience
+Dialogue: 0,0:18:39.08,0:18:41.08,Default,,0,0,0,,run within me.
+Dialogue: 0,0:18:41.08,0:18:44.08,Default,,0,0,0,,I'm willing to be with that inner experience
+Dialogue: 0,0:18:44.08,0:18:47.24,Default,,0,0,0,,of whatever it is, the sensation.
+Dialogue: 0,0:18:47.24,0:18:50.24,Default,,0,0,0,,Some people may sense it in the stomach.
+Dialogue: 0,0:18:50.24,0:18:55.31,Default,,0,0,0,,Some people may sense it in sort of a physical weakness.
+Dialogue: 0,0:18:55.31,0:18:57.31,Default,,0,0,0,,Whatever the sensation is,
+Dialogue: 0,0:18:57.31,0:19:00.31,Default,,0,0,0,,we stop talking about it in our mind.
+Dialogue: 0,0:19:00.31,0:19:01.31,Default,,0,0,0,,We stop languaging it.
+Dialogue: 0,0:19:01.31,0:19:03.31,Default,,0,0,0,,We stop giving it a label.
+Dialogue: 0,0:19:03.31,0:19:06.31,Default,,0,0,0,,Instead, we go into the inner experience
+Dialogue: 0,0:19:06.31,0:19:08.85,Default,,0,0,0,,and we let go, resisting it.
+Dialogue: 0,0:19:08.85,0:19:10.85,Default,,0,0,0,,In letting go, resisting it,
+Dialogue: 0,0:19:10.85,0:19:12.85,Default,,0,0,0,,we can move up to a higher energy level
+Dialogue: 0,0:19:12.85,0:19:15.85,Default,,0,0,0,,if we choose it, if we're willing,
+Dialogue: 0,0:19:15.85,0:19:16.85,Default,,0,0,0,,if we say to ourself,
+Dialogue: 0,0:19:16.85,0:19:19.85,Default,,0,0,0,,I want more of whatever that is.
+Dialogue: 0,0:19:19.85,0:19:21.85,Default,,0,0,0,,Now the reason for that
+Dialogue: 0,0:19:21.85,0:19:24.85,Default,,0,0,0,,and the way that it will make it acceptable to you
+Dialogue: 0,0:19:24.85,0:19:26.85,Default,,0,0,0,,is that there is a limited amount
+Dialogue: 0,0:19:26.85,0:19:29.24,Default,,0,0,0,,of this sensation that's coming up.
+Dialogue: 0,0:19:29.24,0:19:32.24,Default,,0,0,0,,The mind thinks, if I don't satisfy this,
+Dialogue: 0,0:19:32.24,0:19:36.24,Default,,0,0,0,,I'm going to be beset by this hungry feeling continuously.
+Dialogue: 0,0:19:36.24,0:19:37.24,Default,,0,0,0,,That's not so.
+Dialogue: 0,0:19:37.24,0:19:38.24,Default,,0,0,0,,That is coming from resisting it.
+Dialogue: 0,0:19:38.24,0:19:40.40,Default,,0,0,0,,When we go with it,
+Dialogue: 0,0:19:40.40,0:19:42.40,Default,,0,0,0,,like in the Tao,
+Dialogue: 0,0:19:42.40,0:19:44.40,Default,,0,0,0,,you know, the Chinese philosophy,
+Dialogue: 0,0:19:44.40,0:19:47.40,Default,,0,0,0,,where the willow tree bends with the wind
+Dialogue: 0,0:19:47.40,0:19:49.40,Default,,0,0,0,,and therefore doesn't break,
+Dialogue: 0,0:19:49.40,0:19:51.62,Default,,0,0,0,,as compared to the oak tree,
+Dialogue: 0,0:19:51.62,0:19:53.62,Default,,0,0,0,,which resists the wind and of course is broken.
+Dialogue: 0,0:19:53.62,0:19:55.62,Default,,0,0,0,,So instead of being the oak tree
+Dialogue: 0,0:19:55.62,0:19:57.62,Default,,0,0,0,,who resists this sensation
+Dialogue: 0,0:19:57.62,0:19:59.62,Default,,0,0,0,,and tries to battle it with willpower
+Dialogue: 0,0:19:59.62,0:20:00.62,Default,,0,0,0,,and fight it,
+Dialogue: 0,0:20:00.62,0:20:02.62,Default,,0,0,0,,we're like the willow tree.
+Dialogue: 0,0:20:02.62,0:20:04.62,Default,,0,0,0,,We go with the sensation
+Dialogue: 0,0:20:04.62,0:20:06.62,Default,,0,0,0,,and we let go, resisting it.
+Dialogue: 0,0:20:06.62,0:20:07.81,Default,,0,0,0,,In fact, we will resist it.
+Dialogue: 0,0:20:07.81,0:20:09.81,Default,,0,0,0,,In fact, we welcome it.
+Dialogue: 0,0:20:09.81,0:20:10.81,Default,,0,0,0,,It's like we're saying more.
+Dialogue: 0,0:20:10.81,0:20:11.81,Default,,0,0,0,,We want more wind.
+Dialogue: 0,0:20:11.81,0:20:14.81,Default,,0,0,0,,We want more of this inner experience.
+Dialogue: 0,0:20:14.81,0:20:17.81,Default,,0,0,0,,As we call forth more of it,
+Dialogue: 0,0:20:17.81,0:20:19.81,Default,,0,0,0,,we like empty it out.
+Dialogue: 0,0:20:19.81,0:20:22.81,Default,,0,0,0,,So if I sit with this inner feeling now
+Dialogue: 0,0:20:22.81,0:20:24.81,Default,,0,0,0,,and I let it be with me,
+Dialogue: 0,0:20:24.81,0:20:27.70,Default,,0,0,0,,I can actually stop,
+Dialogue: 0,0:20:27.70,0:20:28.70,Default,,0,0,0,,if I'm doing this at home
+Dialogue: 0,0:20:28.70,0:20:31.70,Default,,0,0,0,,and I suggest you start it at a weekend when you're home,
+Dialogue: 0,0:20:31.70,0:20:33.92,Default,,0,0,0,,I can even stop everything
+Dialogue: 0,0:20:33.92,0:20:35.92,Default,,0,0,0,,and really focus on that.
+Dialogue: 0,0:20:35.92,0:20:37.92,Default,,0,0,0,,I don't want anything to distract
+Dialogue: 0,0:20:37.92,0:20:40.02,Default,,0,0,0,,from my being with this sensation
+Dialogue: 0,0:20:40.02,0:20:42.05,Default,,0,0,0,,and as I sit with it,
+Dialogue: 0,0:20:42.05,0:20:43.05,Default,,0,0,0,,in a matter of minutes,
+Dialogue: 0,0:20:43.05,0:20:45.05,Default,,0,0,0,,it will suddenly disappear.
+Dialogue: 0,0:20:45.05,0:20:47.17,Default,,0,0,0,,After it disappears,
+Dialogue: 0,0:20:47.17,0:20:49.17,Default,,0,0,0,,I can go about my business
+Dialogue: 0,0:20:49.17,0:20:51.17,Default,,0,0,0,,and after you become used to this technique,
+Dialogue: 0,0:20:51.17,0:20:53.17,Default,,0,0,0,,you don't have to stop your activities at all.
+Dialogue: 0,0:20:53.17,0:20:55.17,Default,,0,0,0,,When that experience comes up,
+Dialogue: 0,0:20:55.17,0:20:57.20,Default,,0,0,0,,you fix and focus on it.
+Dialogue: 0,0:20:57.20,0:20:59.20,Default,,0,0,0,,You concentrate on it.
+Dialogue: 0,0:20:59.20,0:21:02.20,Default,,0,0,0,,You fix your attention on your welcoming it.
+Dialogue: 0,0:21:02.20,0:21:04.20,Default,,0,0,0,,It's like you're opening the barn door
+Dialogue: 0,0:21:04.20,0:21:07.20,Default,,0,0,0,,and allowing that to come into you willingly,
+Dialogue: 0,0:21:07.20,0:21:09.20,Default,,0,0,0,,being with that sensation
+Dialogue: 0,0:21:09.20,0:21:11.20,Default,,0,0,0,,but not doing anything about it.
+Dialogue: 0,0:21:11.20,0:21:13.20,Default,,0,0,0,,We want to break that cycle
+Dialogue: 0,0:21:13.20,0:21:14.20,Default,,0,0,0,,where you get that sensation
+Dialogue: 0,0:21:14.20,0:21:16.20,Default,,0,0,0,,which your mind then labels hunger,
+Dialogue: 0,0:21:16.20,0:21:18.20,Default,,0,0,0,,you then satisfy it with food
+Dialogue: 0,0:21:18.20,0:21:20.20,Default,,0,0,0,,and what you've just done is reinforce,
+Dialogue: 0,0:21:20.20,0:21:22.20,Default,,0,0,0,,made yourself victim,
+Dialogue: 0,0:21:22.20,0:21:25.20,Default,,0,0,0,,made yourself at the effect of that behavior pattern.
+Dialogue: 0,0:21:25.20,0:21:29.16,Default,,0,0,0,,Instead, that which you are,
+Dialogue: 0,0:21:29.16,0:21:30.16,Default,,0,0,0,,your person, yourself,
+Dialogue: 0,0:21:30.16,0:21:32.16,Default,,0,0,0,,stands aside from this sensation
+Dialogue: 0,0:21:32.16,0:21:35.32,Default,,0,0,0,,and begins to master it
+Dialogue: 0,0:21:35.32,0:21:37.32,Default,,0,0,0,,so that you're no longer at the effect of it,
+Dialogue: 0,0:21:37.32,0:21:38.32,Default,,0,0,0,,you are the master.
+Dialogue: 0,0:21:38.32,0:21:39.55,Default,,0,0,0,,You know, in Zen,
+Dialogue: 0,0:21:39.55,0:21:41.55,Default,,0,0,0,,they have the famous ox herding pictures.
+Dialogue: 0,0:21:41.55,0:21:43.55,Default,,0,0,0,,And in the first picture,
+Dialogue: 0,0:21:43.55,0:21:45.55,Default,,0,0,0,,it shows the monk
+Dialogue: 0,0:21:45.55,0:21:47.55,Default,,0,0,0,,and he's hanging on to this rope
+Dialogue: 0,0:21:47.55,0:21:49.55,Default,,0,0,0,,which is attached to the ox
+Dialogue: 0,0:21:49.55,0:21:51.55,Default,,0,0,0,,and the ox is dragging him all across the ground,
+Dialogue: 0,0:21:51.55,0:21:52.55,Default,,0,0,0,,you see,
+Dialogue: 0,0:21:52.55,0:21:53.55,Default,,0,0,0,,and his knees are bruised
+Dialogue: 0,0:21:53.55,0:21:55.55,Default,,0,0,0,,and he's bleeding from his ears
+Dialogue: 0,0:21:55.55,0:21:57.55,Default,,0,0,0,,and he's all a mess.
+Dialogue: 0,0:21:57.55,0:21:59.55,Default,,0,0,0,,Then you see the next picture,
+Dialogue: 0,0:21:59.55,0:22:00.55,Default,,0,0,0,,he has the ox
+Dialogue: 0,0:22:00.55,0:22:02.55,Default,,0,0,0,,and he's got this ox,
+Dialogue: 0,0:22:02.55,0:22:04.55,Default,,0,0,0,,the rope tied to a tree.
+Dialogue: 0,0:22:04.55,0:22:05.55,Default,,0,0,0,,In other words,
+Dialogue: 0,0:22:05.55,0:22:07.55,Default,,0,0,0,,now he has caught the ox,
+Dialogue: 0,0:22:07.55,0:22:10.55,Default,,0,0,0,,he has identified what the problem is.
+Dialogue: 0,0:22:10.55,0:22:11.55,Default,,0,0,0,,And then the next picture,
+Dialogue: 0,0:22:11.55,0:22:12.55,Default,,0,0,0,,you see him,
+Dialogue: 0,0:22:12.55,0:22:13.55,Default,,0,0,0,,he's riding on top of the ox.
+Dialogue: 0,0:22:13.55,0:22:14.55,Default,,0,0,0,,He has become the master.
+Dialogue: 0,0:22:14.55,0:22:16.55,Default,,0,0,0,,He's no longer the victim,
+Dialogue: 0,0:22:16.55,0:22:18.55,Default,,0,0,0,,he's no longer at the effect of it.
+Dialogue: 0,0:22:18.55,0:22:20.77,Default,,0,0,0,,And how did he do that?
+Dialogue: 0,0:22:20.77,0:22:21.77,Default,,0,0,0,,He did it just,
+Dialogue: 0,0:22:21.77,0:22:23.77,Default,,0,0,0,,that's what we're doing right now.
+Dialogue: 0,0:22:23.77,0:22:25.77,Default,,0,0,0,,We're going to tether this ox right now
+Dialogue: 0,0:22:25.77,0:22:27.77,Default,,0,0,0,,by identifying what is the pattern
+Dialogue: 0,0:22:27.77,0:22:29.77,Default,,0,0,0,,that has to be handled
+Dialogue: 0,0:22:29.77,0:22:31.77,Default,,0,0,0,,and then we're going to be on top of it
+Dialogue: 0,0:22:31.77,0:22:33.77,Default,,0,0,0,,so that the person that we are now
+Dialogue: 0,0:22:33.77,0:22:36.77,Default,,0,0,0,,stands independent above and beyond
+Dialogue: 0,0:22:36.77,0:22:38.77,Default,,0,0,0,,and becomes the master of this.
+Dialogue: 0,0:22:38.77,0:22:40.77,Default,,0,0,0,,Very simple thing to solve.
+Dialogue: 0,0:22:40.77,0:22:43.19,Default,,0,0,0,,It's very simple,
+Dialogue: 0,0:22:43.19,0:22:45.25,Default,,0,0,0,,it's merely the willingness
+Dialogue: 0,0:22:45.25,0:22:47.25,Default,,0,0,0,,to experience what in the beginning
+Dialogue: 0,0:22:47.25,0:22:49.25,Default,,0,0,0,,may seem like some discomfort.
+Dialogue: 0,0:22:49.25,0:22:50.25,Default,,0,0,0,,In other words,
+Dialogue: 0,0:22:50.25,0:22:52.25,Default,,0,0,0,,to experience this sensation
+Dialogue: 0,0:22:52.25,0:22:56.12,Default,,0,0,0,,without satiating it right away.
+Dialogue: 0,0:22:56.12,0:22:57.12,Default,,0,0,0,,As we do this,
+Dialogue: 0,0:22:57.12,0:22:59.12,Default,,0,0,0,,we weaken the reflex.
+Dialogue: 0,0:22:59.12,0:23:01.12,Default,,0,0,0,,Well, what about our eating during the day?
+Dialogue: 0,0:23:01.12,0:23:03.12,Default,,0,0,0,,What do we do about that?
+Dialogue: 0,0:23:03.12,0:23:04.12,Default,,0,0,0,,Well, what we do about our eating
+Dialogue: 0,0:23:04.12,0:23:07.12,Default,,0,0,0,,is what I call anticipatory eating.
+Dialogue: 0,0:23:07.12,0:23:09.12,Default,,0,0,0,,You never eat when you're hungry.
+Dialogue: 0,0:23:09.12,0:23:11.12,Default,,0,0,0,,The first two days that you do this,
+Dialogue: 0,0:23:11.12,0:23:12.12,Default,,0,0,0,,and in fact,
+Dialogue: 0,0:23:12.12,0:23:14.12,Default,,0,0,0,,probably for the first week or two,
+Dialogue: 0,0:23:14.12,0:23:17.12,Default,,0,0,0,,never allow yourself to eat when you're hungry.
+Dialogue: 0,0:23:17.12,0:23:18.12,Default,,0,0,0,,Instead,
+Dialogue: 0,0:23:18.12,0:23:20.12,Default,,0,0,0,,you let go of this hungriness
+Dialogue: 0,0:23:20.12,0:23:23.12,Default,,0,0,0,,by using this radical truth technique.
+Dialogue: 0,0:23:23.12,0:23:26.69,Default,,0,0,0,,And what you do is you anticipate
+Dialogue: 0,0:23:26.69,0:23:28.79,Default,,0,0,0,,periods of hunger.
+Dialogue: 0,0:23:28.79,0:23:30.79,Default,,0,0,0,,You know your own hunger patterns.
+Dialogue: 0,0:23:30.79,0:23:32.79,Default,,0,0,0,,So instead of waiting until you're hungry
+Dialogue: 0,0:23:32.79,0:23:33.79,Default,,0,0,0,,and eating,
+Dialogue: 0,0:23:33.79,0:23:35.79,Default,,0,0,0,,which reinforces the pattern,
+Dialogue: 0,0:23:35.79,0:23:37.79,Default,,0,0,0,,instead you anticipate.
+Dialogue: 0,0:23:37.79,0:23:38.79,Default,,0,0,0,,You know that habitually
+Dialogue: 0,0:23:38.79,0:23:40.79,Default,,0,0,0,,you're going to be hungry around 6 o'clock.
+Dialogue: 0,0:23:40.79,0:23:41.79,Default,,0,0,0,,So what you do,
+Dialogue: 0,0:23:41.79,0:23:43.79,Default,,0,0,0,,instead of waiting until you're hungry
+Dialogue: 0,0:23:43.79,0:23:44.79,Default,,0,0,0,,and then satisfying it,
+Dialogue: 0,0:23:44.79,0:23:46.79,Default,,0,0,0,,thereby reinforcing your own conditioning,
+Dialogue: 0,0:23:46.79,0:23:48.79,Default,,0,0,0,,what you do is you anticipate it
+Dialogue: 0,0:23:48.79,0:23:50.79,Default,,0,0,0,,before you're hungry.
+Dialogue: 0,0:23:50.79,0:23:51.92,Default,,0,0,0,,Quarter to five,
+Dialogue: 0,0:23:51.92,0:23:53.92,Default,,0,0,0,,you're not even hungry yet.
+Dialogue: 0,0:23:53.92,0:23:54.92,Default,,0,0,0,,Quarter to five,
+Dialogue: 0,0:23:54.92,0:23:57.17,Default,,0,0,0,,you have a cheese sandwich.
+Dialogue: 0,0:23:57.17,0:23:59.36,Default,,0,0,0,,When you're not hungry.
+Dialogue: 0,0:23:59.36,0:24:01.36,Default,,0,0,0,,So the technique is simple then.
+Dialogue: 0,0:24:01.36,0:24:03.36,Default,,0,0,0,,You eat when you're not hungry
+Dialogue: 0,0:24:03.36,0:24:05.36,Default,,0,0,0,,and you don't eat when you are.
+Dialogue: 0,0:24:05.36,0:24:06.36,Default,,0,0,0,,Instead,
+Dialogue: 0,0:24:06.36,0:24:08.36,Default,,0,0,0,,you substitute this technique
+Dialogue: 0,0:24:08.36,0:24:09.36,Default,,0,0,0,,for the hunger pattern.
+Dialogue: 0,0:24:09.36,0:24:10.36,Default,,0,0,0,,Now, how long will this take
+Dialogue: 0,0:24:10.36,0:24:12.36,Default,,0,0,0,,before you disappear hunger?
+Dialogue: 0,0:24:12.36,0:24:14.46,Default,,0,0,0,,What is going to happen?
+Dialogue: 0,0:24:14.46,0:24:15.62,Default,,0,0,0,,What's going to happen
+Dialogue: 0,0:24:15.62,0:24:18.62,Default,,0,0,0,,is that you will no longer experience hunger.
+Dialogue: 0,0:24:18.62,0:24:20.62,Default,,0,0,0,,You will no longer experience appetite.
+Dialogue: 0,0:24:20.62,0:24:22.62,Default,,0,0,0,,It will seem to disappear.
+Dialogue: 0,0:24:22.62,0:24:23.62,Default,,0,0,0,,By the second day,
+Dialogue: 0,0:24:23.62,0:24:25.62,Default,,0,0,0,,you'll notice that it is already so weak
+Dialogue: 0,0:24:25.62,0:24:27.62,Default,,0,0,0,,that you barely notice it.
+Dialogue: 0,0:24:27.62,0:24:29.62,Default,,0,0,0,,How many minutes a day will this take?
+Dialogue: 0,0:24:29.62,0:24:30.62,Default,,0,0,0,,The first day,
+Dialogue: 0,0:24:30.62,0:24:33.62,Default,,0,0,0,,maybe a total of half an hour.
+Dialogue: 0,0:24:33.62,0:24:34.62,Default,,0,0,0,,You'll notice that
+Dialogue: 0,0:24:34.62,0:24:36.62,Default,,0,0,0,,if you do nothing about this sensation
+Dialogue: 0,0:24:36.62,0:24:38.62,Default,,0,0,0,,and really let go resisting it,
+Dialogue: 0,0:24:38.62,0:24:40.62,Default,,0,0,0,,that it will disappear
+Dialogue: 0,0:24:40.62,0:24:42.62,Default,,0,0,0,,in a matter of minutes.
+Dialogue: 0,0:24:42.62,0:24:44.62,Default,,0,0,0,,After you do this a number of times,
+Dialogue: 0,0:24:44.62,0:24:46.62,Default,,0,0,0,,it will disappear in a matter of seconds.
+Dialogue: 0,0:24:46.62,0:24:48.62,Default,,0,0,0,,You'll know that if you sit down
+Dialogue: 0,0:24:48.62,0:24:51.62,Default,,0,0,0,,and let go resisting this sensation,
+Dialogue: 0,0:24:51.62,0:24:53.62,Default,,0,0,0,,that in seconds it's over.
+Dialogue: 0,0:24:53.62,0:24:54.62,Default,,0,0,0,,In seconds,
+Dialogue: 0,0:24:54.62,0:24:56.62,Default,,0,0,0,,you're no longer at the effect of this appetite.
+Dialogue: 0,0:24:56.62,0:24:58.62,Default,,0,0,0,,You're no longer driven by it.
+Dialogue: 0,0:24:58.62,0:25:01.32,Default,,0,0,0,,You can be absolutely free of it.
+Dialogue: 0,0:25:01.32,0:25:07.21,Default,,0,0,0,,In place of this pattern then,
+Dialogue: 0,0:25:07.21,0:25:10.21,Default,,0,0,0,,you may feel instead sort of a blankness,
+Dialogue: 0,0:25:10.21,0:25:11.21,Default,,0,0,0,,sort of an emptiness,
+Dialogue: 0,0:25:11.21,0:25:14.31,Default,,0,0,0,,like where there once was this hunger
+Dialogue: 0,0:25:14.31,0:25:16.31,Default,,0,0,0,,and the drive to eat,
+Dialogue: 0,0:25:16.31,0:25:17.31,Default,,0,0,0,,and then the appetite,
+Dialogue: 0,0:25:17.31,0:25:19.31,Default,,0,0,0,,and then the enthusiasm about it,
+Dialogue: 0,0:25:19.31,0:25:21.56,Default,,0,0,0,,and then the satiation.
+Dialogue: 0,0:25:21.56,0:25:23.56,Default,,0,0,0,,It seems like nothing is going on
+Dialogue: 0,0:25:23.56,0:25:25.56,Default,,0,0,0,,in that space in your life.
+Dialogue: 0,0:25:25.56,0:25:27.76,Default,,0,0,0,,So what you can do instead
+Dialogue: 0,0:25:27.76,0:25:29.76,Default,,0,0,0,,is do some other pleasurable activity.
+Dialogue: 0,0:25:29.76,0:25:31.76,Default,,0,0,0,,Do some other pleasurable activity.
+Dialogue: 0,0:25:31.76,0:25:32.76,Default,,0,0,0,,Reward yourself.
+Dialogue: 0,0:25:32.76,0:25:34.76,Default,,0,0,0,,The book that you've been wanting to read
+Dialogue: 0,0:25:34.76,0:25:36.76,Default,,0,0,0,,and have never had the time to read.
+Dialogue: 0,0:25:36.76,0:25:38.76,Default,,0,0,0,,Well, now that you're not out in the kitchen all the time,
+Dialogue: 0,0:25:38.76,0:25:39.76,Default,,0,0,0,,eating all the time,
+Dialogue: 0,0:25:39.76,0:25:41.76,Default,,0,0,0,,you'll have some time to read that novel,
+Dialogue: 0,0:25:41.76,0:25:42.76,Default,,0,0,0,,you know,
+Dialogue: 0,0:25:42.76,0:25:44.76,Default,,0,0,0,,the one that you just want to read for enjoyment,
+Dialogue: 0,0:25:44.76,0:25:45.76,Default,,0,0,0,,and you feel too guilty to read it
+Dialogue: 0,0:25:45.76,0:25:48.76,Default,,0,0,0,,because you really have more important things to do.
+Dialogue: 0,0:25:48.76,0:25:51.82,Default,,0,0,0,,The trashy magazine that you've been wanting to read all week,
+Dialogue: 0,0:25:51.82,0:25:53.82,Default,,0,0,0,,but you feel too guilty to give the time to it.
+Dialogue: 0,0:25:53.82,0:25:56.82,Default,,0,0,0,,Well, get yourself something that you really enjoy doing.
+Dialogue: 0,0:25:56.82,0:25:58.82,Default,,0,0,0,,One thing I like to do, for instance,
+Dialogue: 0,0:25:58.82,0:26:00.82,Default,,0,0,0,,is take a nap.
+Dialogue: 0,0:26:00.82,0:26:02.82,Default,,0,0,0,,All the time you spend eating food,
+Dialogue: 0,0:26:02.82,0:26:03.82,Default,,0,0,0,,and preparing food,
+Dialogue: 0,0:26:03.82,0:26:04.82,Default,,0,0,0,,and cleaning up from the food,
+Dialogue: 0,0:26:04.82,0:26:05.82,Default,,0,0,0,,and shopping the food,
+Dialogue: 0,0:26:05.82,0:26:06.82,Default,,0,0,0,,you know,
+Dialogue: 0,0:26:06.82,0:26:09.04,Default,,0,0,0,,can take up a great part of your day.
+Dialogue: 0,0:26:09.04,0:26:11.04,Default,,0,0,0,,It gives you time for a short nap.
+Dialogue: 0,0:26:11.04,0:26:12.04,Default,,0,0,0,,It really feels great.
+Dialogue: 0,0:26:12.04,0:26:13.04,Default,,0,0,0,,After a 20-minute nap,
+Dialogue: 0,0:26:13.04,0:26:14.04,Default,,0,0,0,,you feel fantastic.
+Dialogue: 0,0:26:14.04,0:26:19.11,Default,,0,0,0,,After a 20-minute hunger engorgement,
+Dialogue: 0,0:26:19.11,0:26:21.11,Default,,0,0,0,,you know that you don't feel fantastic,
+Dialogue: 0,0:26:21.11,0:26:22.11,Default,,0,0,0,,you feel horrible.
+Dialogue: 0,0:26:22.11,0:26:24.11,Default,,0,0,0,,You just had four Milky Ways,
+Dialogue: 0,0:26:24.11,0:26:26.11,Default,,0,0,0,,a caramel sundae,
+Dialogue: 0,0:26:26.11,0:26:28.11,Default,,0,0,0,,and finished off a piece of cheese,
+Dialogue: 0,0:26:28.11,0:26:29.11,Default,,0,0,0,,and now,
+Dialogue: 0,0:26:29.11,0:26:30.11,Default,,0,0,0,,instead of feeling happy,
+Dialogue: 0,0:26:30.11,0:26:31.59,Default,,0,0,0,,you're feeling guilty.
+Dialogue: 0,0:26:31.59,0:26:33.59,Default,,0,0,0,,The way off the guilt trip, then,
+Dialogue: 0,0:26:33.59,0:26:36.59,Default,,0,0,0,,is to really know that there is a very simple technique.
+Dialogue: 0,0:26:36.59,0:26:37.59,Default,,0,0,0,,It sounds so simple,
+Dialogue: 0,0:26:37.59,0:26:39.59,Default,,0,0,0,,but that's why it works.
+Dialogue: 0,0:26:39.59,0:26:40.59,Default,,0,0,0,,You know,
+Dialogue: 0,0:26:40.59,0:26:42.59,Default,,0,0,0,,things that are extraordinarily complicated
+Dialogue: 0,0:26:42.59,0:26:43.59,Default,,0,0,0,,are usually far from the truth.
+Dialogue: 0,0:26:43.59,0:26:46.59,Default,,0,0,0,,The truth is usually amazingly simple.
+Dialogue: 0,0:26:46.59,0:26:47.59,Default,,0,0,0,,As people, let's say,
+Dialogue: 0,0:26:47.59,0:26:49.59,Default,,0,0,0,,in Alcoholics Anonymous have found out,
+Dialogue: 0,0:26:49.59,0:26:51.59,Default,,0,0,0,,stay away from one drink one day at a time.
+Dialogue: 0,0:26:51.59,0:26:52.59,Default,,0,0,0,,It sounds so simple.
+Dialogue: 0,0:26:52.59,0:26:53.59,Default,,0,0,0,,The intellect says,
+Dialogue: 0,0:26:53.59,0:26:54.59,Default,,0,0,0,,nonsensical,
+Dialogue: 0,0:26:54.59,0:26:55.59,Default,,0,0,0,,I know that.
+Dialogue: 0,0:26:55.59,0:26:56.75,Default,,0,0,0,,You know it.
+Dialogue: 0,0:26:56.75,0:26:57.75,Default,,0,0,0,,The intellect knows it,
+Dialogue: 0,0:26:57.75,0:26:58.75,Default,,0,0,0,,but you,
+Dialogue: 0,0:26:58.75,0:26:59.75,Default,,0,0,0,,your person,
+Dialogue: 0,0:26:59.75,0:27:00.75,Default,,0,0,0,,doesn't know that.
+Dialogue: 0,0:27:00.75,0:27:02.75,Default,,0,0,0,,We only know a thing through our own validation,
+Dialogue: 0,0:27:02.75,0:27:04.75,Default,,0,0,0,,through our own inner experience.
+Dialogue: 0,0:27:04.75,0:27:06.26,Default,,0,0,0,,Within a day or two,
+Dialogue: 0,0:27:06.26,0:27:08.26,Default,,0,0,0,,it usually takes me exactly one day
+Dialogue: 0,0:27:08.26,0:27:09.26,Default,,0,0,0,,to get off eating,
+Dialogue: 0,0:27:09.26,0:27:10.26,Default,,0,0,0,,and hunger,
+Dialogue: 0,0:27:10.26,0:27:11.26,Default,,0,0,0,,and appetite.
+Dialogue: 0,0:27:11.26,0:27:13.26,Default,,0,0,0,,If you've allowed yourself to get reprogrammed,
+Dialogue: 0,0:27:13.26,0:27:15.26,Default,,0,0,0,,you'll notice as time goes on,
+Dialogue: 0,0:27:15.26,0:27:17.26,Default,,0,0,0,,you're beginning to look forward to meals,
+Dialogue: 0,0:27:17.26,0:27:19.26,Default,,0,0,0,,you're starting to get into the habit pattern
+Dialogue: 0,0:27:19.26,0:27:21.26,Default,,0,0,0,,of getting hungry and satisfying it.
+Dialogue: 0,0:27:21.26,0:27:24.26,Default,,0,0,0,,It's very simple to get back off it,
+Dialogue: 0,0:27:24.26,0:27:26.26,Default,,0,0,0,,to release yourself back off of it,
+Dialogue: 0,0:27:26.26,0:27:28.26,Default,,0,0,0,,by doing this just a few times.
+Dialogue: 0,0:27:28.26,0:27:30.26,Default,,0,0,0,,It's so effective with me now
+Dialogue: 0,0:27:30.26,0:27:32.26,Default,,0,0,0,,that I can do it just once.
+Dialogue: 0,0:27:32.26,0:27:33.26,Default,,0,0,0,,All I have to do
+Dialogue: 0,0:27:33.26,0:27:35.26,Default,,0,0,0,,is allow that feeling of hungriness to come up,
+Dialogue: 0,0:27:35.26,0:27:37.26,Default,,0,0,0,,just be with it,
+Dialogue: 0,0:27:37.26,0:27:38.26,Default,,0,0,0,,welcome it,
+Dialogue: 0,0:27:38.26,0:27:39.26,Default,,0,0,0,,wait until it runs out,
+Dialogue: 0,0:27:39.26,0:27:41.26,Default,,0,0,0,,and that handles it.
+Dialogue: 0,0:27:41.26,0:27:42.26,Default,,0,0,0,,Maybe every few years
+Dialogue: 0,0:27:42.26,0:27:43.26,Default,,0,0,0,,I have to do it.
+Dialogue: 0,0:27:43.26,0:27:44.26,Default,,0,0,0,,Maybe I'll have to do that
+Dialogue: 0,0:27:44.26,0:27:46.26,Default,,0,0,0,,if I've really gotten into holiday indulgence
+Dialogue: 0,0:27:46.26,0:27:48.26,Default,,0,0,0,,for a number of years.
+Dialogue: 0,0:27:48.26,0:27:51.64,Default,,0,0,0,,Because another thing that goes on is,
+Dialogue: 0,0:27:51.64,0:27:53.64,Default,,0,0,0,,as we do this,
+Dialogue: 0,0:27:53.64,0:27:55.64,Default,,0,0,0,,there is a center in the base of the brain,
+Dialogue: 0,0:27:55.64,0:27:56.64,Default,,0,0,0,,in the hypothalamus,
+Dialogue: 0,0:27:56.64,0:27:58.64,Default,,0,0,0,,called the apostat.
+Dialogue: 0,0:27:58.64,0:28:02.64,Default,,0,0,0,,The apostat sets our degree of satiety,
+Dialogue: 0,0:28:02.64,0:28:05.64,Default,,0,0,0,,the amount of satiety that we are searching for.
+Dialogue: 0,0:28:05.64,0:28:06.64,Default,,0,0,0,,And the less we eat,
+Dialogue: 0,0:28:06.64,0:28:09.64,Default,,0,0,0,,the more we set down our apostat.
+Dialogue: 0,0:28:09.64,0:28:13.06,Default,,0,0,0,,Now, talking about satiety,
+Dialogue: 0,0:28:13.06,0:28:14.06,Default,,0,0,0,,you see,
+Dialogue: 0,0:28:14.06,0:28:15.06,Default,,0,0,0,,it's something else
+Dialogue: 0,0:28:15.06,0:28:16.06,Default,,0,0,0,,that is not really understood
+Dialogue: 0,0:28:16.06,0:28:19.06,Default,,0,0,0,,in traditional scientific medicine.
+Dialogue: 0,0:28:19.06,0:28:21.06,Default,,0,0,0,,Scientific medicine talks about calories,
+Dialogue: 0,0:28:21.06,0:28:24.06,Default,,0,0,0,,as though one calorie was the same as another calorie.
+Dialogue: 0,0:28:24.06,0:28:25.06,Default,,0,0,0,,But we all know
+Dialogue: 0,0:28:25.06,0:28:28.06,Default,,0,0,0,,that satiety plays a great place
+Dialogue: 0,0:28:28.06,0:28:31.09,Default,,0,0,0,,in our hunger and our weight problems.
+Dialogue: 0,0:28:31.09,0:28:34.09,Default,,0,0,0,,Satiety is more important than calories.
+Dialogue: 0,0:28:34.09,0:28:35.09,Default,,0,0,0,,Therefore,
+Dialogue: 0,0:28:35.09,0:28:37.09,Default,,0,0,0,,the diet I follow
+Dialogue: 0,0:28:37.09,0:28:40.12,Default,,0,0,0,,would make most people who follow diets faint.
+Dialogue: 0,0:28:40.12,0:28:41.12,Default,,0,0,0,,But I know
+Dialogue: 0,0:28:41.12,0:28:43.12,Default,,0,0,0,,what creates a feeling of satiety
+Dialogue: 0,0:28:43.12,0:28:46.44,Default,,0,0,0,,within myself.
+Dialogue: 0,0:28:46.44,0:28:47.44,Default,,0,0,0,,Certain types of things,
+Dialogue: 0,0:28:47.44,0:28:49.44,Default,,0,0,0,,like a hamburger smothered in onions.
+Dialogue: 0,0:28:49.44,0:28:50.44,Default,,0,0,0,,By the time you finish that,
+Dialogue: 0,0:28:50.44,0:28:52.44,Default,,0,0,0,,you get that totally filled up,
+Dialogue: 0,0:28:52.44,0:28:53.44,Default,,0,0,0,,satisfied,
+Dialogue: 0,0:28:53.44,0:28:54.44,Default,,0,0,0,,you know,
+Dialogue: 0,0:28:54.44,0:28:55.44,Default,,0,0,0,,meat and cheese
+Dialogue: 0,0:28:55.44,0:28:57.53,Default,,0,0,0,,and those kind of foods.
+Dialogue: 0,0:28:57.53,0:28:58.53,Default,,0,0,0,,Cheese is not on,
+Dialogue: 0,0:28:58.53,0:28:59.53,Default,,0,0,0,,you know,
+Dialogue: 0,0:28:59.53,0:29:01.53,Default,,0,0,0,,anybody's reducing diet.
+Dialogue: 0,0:29:01.53,0:29:03.53,Default,,0,0,0,,But we know that cheese has quite a,
+Dialogue: 0,0:29:03.53,0:29:04.53,Default,,0,0,0,,you know,
+Dialogue: 0,0:29:04.53,0:29:05.60,Default,,0,0,0,,satiety factor.
+Dialogue: 0,0:29:05.60,0:29:07.60,Default,,0,0,0,,So that once you've eaten a certain amount of it,
+Dialogue: 0,0:29:07.60,0:29:10.60,Default,,0,0,0,,it's like your appetite is satisfied.
+Dialogue: 0,0:29:10.60,0:29:12.60,Default,,0,0,0,,We also know that calories are released
+Dialogue: 0,0:29:12.60,0:29:14.60,Default,,0,0,0,,at different rates.
+Dialogue: 0,0:29:14.60,0:29:16.60,Default,,0,0,0,,And so that fats,
+Dialogue: 0,0:29:16.60,0:29:17.60,Default,,0,0,0,,for once,
+Dialogue: 0,0:29:17.60,0:29:18.60,Default,,0,0,0,,for instance,
+Dialogue: 0,0:29:18.60,0:29:19.60,Default,,0,0,0,,are released at one rate,
+Dialogue: 0,0:29:19.60,0:29:21.69,Default,,0,0,0,,protein at another.
+Dialogue: 0,0:29:21.69,0:29:23.69,Default,,0,0,0,,We know that it takes a lot of calories,
+Dialogue: 0,0:29:23.69,0:29:24.69,Default,,0,0,0,,a number of calories,
+Dialogue: 0,0:29:24.69,0:29:30.04,Default,,0,0,0,,to burn up every gram of protein.
+Dialogue: 0,0:29:30.04,0:29:31.04,Default,,0,0,0,,So one of the tricks,
+Dialogue: 0,0:29:31.04,0:29:32.04,Default,,0,0,0,,of course,
+Dialogue: 0,0:29:32.04,0:29:33.04,Default,,0,0,0,,which you can use
+Dialogue: 0,0:29:33.04,0:29:35.04,Default,,0,0,0,,to speed up the process
+Dialogue: 0,0:29:35.04,0:29:37.04,Default,,0,0,0,,of the weight loss with yourself
+Dialogue: 0,0:29:37.04,0:29:39.04,Default,,0,0,0,,is to go in for a heavily,
+Dialogue: 0,0:29:39.04,0:29:40.04,Default,,0,0,0,,you know,
+Dialogue: 0,0:29:40.04,0:29:41.04,Default,,0,0,0,,high protein diet.
+Dialogue: 0,0:29:41.04,0:29:42.40,Default,,0,0,0,,We know that some foods,
+Dialogue: 0,0:29:42.40,0:29:44.40,Default,,0,0,0,,we're not going to be talking about diet today,
+Dialogue: 0,0:29:44.40,0:29:46.40,Default,,0,0,0,,but I'll just throw in a few tricks
+Dialogue: 0,0:29:46.40,0:29:47.40,Default,,0,0,0,,that I've observed clinically
+Dialogue: 0,0:29:47.40,0:29:50.75,Default,,0,0,0,,and I know work.
+Dialogue: 0,0:29:50.75,0:29:53.75,Default,,0,0,0,,That eating sugar on an empty stomach
+Dialogue: 0,0:29:53.75,0:29:56.75,Default,,0,0,0,,is sort of deleterious to the goals of your program.
+Dialogue: 0,0:29:56.75,0:29:57.75,Default,,0,0,0,,Why?
+Dialogue: 0,0:29:57.75,0:29:59.75,Default,,0,0,0,,Because the body takes it in so fast,
+Dialogue: 0,0:29:59.75,0:30:01.75,Default,,0,0,0,,it's absorbed so rapidly,
+Dialogue: 0,0:30:01.75,0:30:03.75,Default,,0,0,0,,it can't be metabolized that fast,
+Dialogue: 0,0:30:03.75,0:30:07.75,Default,,0,0,0,,and it just has to be stored within the body.
+Dialogue: 0,0:30:07.75,0:30:09.75,Default,,0,0,0,,So one thing we do for our own sake then,
+Dialogue: 0,0:30:09.75,0:30:13.75,Default,,0,0,0,,because part of this is caring for ourself,
+Dialogue: 0,0:30:13.75,0:30:15.75,Default,,0,0,0,,loving ourself,
+Dialogue: 0,0:30:15.75,0:30:17.75,Default,,0,0,0,,is to try and avoid sugar and sweets
+Dialogue: 0,0:30:17.75,0:30:20.75,Default,,0,0,0,,when we're introducing this program into our life.
+Dialogue: 0,0:30:20.75,0:30:23.75,Default,,0,0,0,,Downstream, you can eat them.
+Dialogue: 0,0:30:23.75,0:30:26.75,Default,,0,0,0,,I eat hot fudge sundaes all the time,
+Dialogue: 0,0:30:26.75,0:30:29.13,Default,,0,0,0,,and I love chocolate fudge,
+Dialogue: 0,0:30:29.13,0:30:31.13,Default,,0,0,0,,and anything chocolate.
+Dialogue: 0,0:30:31.13,0:30:34.13,Default,,0,0,0,,So I haven't found at this point in my life
+Dialogue: 0,0:30:34.13,0:30:38.13,Default,,0,0,0,,that eating those things has any effect on weight.
+Dialogue: 0,0:30:38.13,0:30:39.13,Default,,0,0,0,,But in the beginning,
+Dialogue: 0,0:30:39.13,0:30:41.13,Default,,0,0,0,,because you want to see a fast result,
+Dialogue: 0,0:30:41.13,0:30:43.13,Default,,0,0,0,,and I believe you should,
+Dialogue: 0,0:30:43.13,0:30:45.13,Default,,0,0,0,,I believe you should have the satisfaction
+Dialogue: 0,0:30:45.13,0:30:46.13,Default,,0,0,0,,of doing this thing now
+Dialogue: 0,0:30:46.13,0:30:49.68,Default,,0,0,0,,and seeing some return, some reward.
+Dialogue: 0,0:30:49.68,0:30:52.68,Default,,0,0,0,,Seeing the image that you've been holding of yourself
+Dialogue: 0,0:30:52.68,0:30:55.19,Default,,0,0,0,,come into manifestation.
+Dialogue: 0,0:30:55.19,0:30:58.19,Default,,0,0,0,,It's probably best to avoid
+Dialogue: 0,0:30:58.19,0:31:00.19,Default,,0,0,0,,things that are heavily sugar,
+Dialogue: 0,0:31:00.19,0:31:02.19,Default,,0,0,0,,especially on an empty stomach.
+Dialogue: 0,0:31:02.19,0:31:06.51,Default,,0,0,0,,So our technique then is to let go resisting
+Dialogue: 0,0:31:06.51,0:31:09.51,Default,,0,0,0,,and to disappear hunger and appetite.
+Dialogue: 0,0:31:09.51,0:31:11.51,Default,,0,0,0,,You then live in a world
+Dialogue: 0,0:31:11.51,0:31:13.51,Default,,0,0,0,,where you're no longer in the cycle,
+Dialogue: 0,0:31:13.51,0:31:14.51,Default,,0,0,0,,you see.
+Dialogue: 0,0:31:14.51,0:31:16.54,Default,,0,0,0,,You get used to an eating cycle
+Dialogue: 0,0:31:16.54,0:31:17.54,Default,,0,0,0,,of overeating,
+Dialogue: 0,0:31:17.54,0:31:19.54,Default,,0,0,0,,feeling guilty about the overeating,
+Dialogue: 0,0:31:19.54,0:31:21.54,Default,,0,0,0,,then trying to control it.
+Dialogue: 0,0:31:21.54,0:31:22.54,Default,,0,0,0,,Then up comes hunger.
+Dialogue: 0,0:31:22.54,0:31:25.47,Default,,0,0,0,,With the hunger comes guilt.
+Dialogue: 0,0:31:25.47,0:31:26.47,Default,,0,0,0,,With it comes appetite.
+Dialogue: 0,0:31:26.47,0:31:29.47,Default,,0,0,0,,With it comes the expectation of satiation.
+Dialogue: 0,0:31:29.47,0:31:30.47,Default,,0,0,0,,Then comes the overindulgence.
+Dialogue: 0,0:31:30.47,0:31:31.47,Default,,0,0,0,,Then comes the guilt again.
+Dialogue: 0,0:31:31.47,0:31:35.47,Default,,0,0,0,,So you have this endless self-defeating cycle.
+Dialogue: 0,0:31:35.47,0:31:38.56,Default,,0,0,0,,The only way to beat it is to rise above it,
+Dialogue: 0,0:31:38.56,0:31:39.56,Default,,0,0,0,,to transcend it,
+Dialogue: 0,0:31:39.56,0:31:40.56,Default,,0,0,0,,to be beyond it.
+Dialogue: 0,0:31:40.56,0:31:42.79,Default,,0,0,0,,And by disappearing,
+Dialogue: 0,0:31:42.79,0:31:43.79,Default,,0,0,0,,you'll find that appetite and hunger
+Dialogue: 0,0:31:43.79,0:31:45.79,Default,,0,0,0,,actually disappears.
+Dialogue: 0,0:31:45.79,0:31:46.79,Default,,0,0,0,,And you'll have the experience
+Dialogue: 0,0:31:46.79,0:31:48.79,Default,,0,0,0,,of never being hungry.
+Dialogue: 0,0:31:48.79,0:31:50.79,Default,,0,0,0,,Well, the next thing the mind says,
+Dialogue: 0,0:31:50.79,0:31:52.79,Default,,0,0,0,,I don't want to give up the pleasure of eating.
+Dialogue: 0,0:31:52.79,0:31:55.79,Default,,0,0,0,,Sounds like you're going to come into a loss, right?
+Dialogue: 0,0:31:55.79,0:31:56.79,Default,,0,0,0,,You're not going to be able to enjoy
+Dialogue: 0,0:31:56.79,0:31:58.79,Default,,0,0,0,,a molten milk or a hot fed sundae
+Dialogue: 0,0:31:58.79,0:32:02.79,Default,,0,0,0,,or a hamburger smothered in onions.
+Dialogue: 0,0:32:02.79,0:32:04.79,Default,,0,0,0,,Quite the contrary.
+Dialogue: 0,0:32:04.79,0:32:06.79,Default,,0,0,0,,What happens to the enjoyment of eating
+Dialogue: 0,0:32:06.79,0:32:08.79,Default,,0,0,0,,once you do this
+Dialogue: 0,0:32:08.79,0:32:13.14,Default,,0,0,0,,is that appetite arises out of the eating itself.
+Dialogue: 0,0:32:13.14,0:32:15.14,Default,,0,0,0,,So I'll sit down with no hunger
+Dialogue: 0,0:32:15.14,0:32:17.14,Default,,0,0,0,,and no appetite at all.
+Dialogue: 0,0:32:17.14,0:32:19.14,Default,,0,0,0,,But the minute I begin to eat,
+Dialogue: 0,0:32:19.14,0:32:21.14,Default,,0,0,0,,it creates appetite.
+Dialogue: 0,0:32:21.14,0:32:23.14,Default,,0,0,0,,And the pleasure of eating
+Dialogue: 0,0:32:23.14,0:32:26.14,Default,,0,0,0,,is more than it ever was.
+Dialogue: 0,0:32:26.14,0:32:29.36,Default,,0,0,0,,I enjoy food now more than I ever did.
+Dialogue: 0,0:32:29.36,0:32:32.36,Default,,0,0,0,,It's why it's not accompanied by guilt anymore.
+Dialogue: 0,0:32:32.36,0:32:34.36,Default,,0,0,0,,It's not accompanied by self-blame.
+Dialogue: 0,0:32:34.36,0:32:36.36,Default,,0,0,0,,It's not accompanied by anxiety.
+Dialogue: 0,0:32:36.36,0:32:37.36,Default,,0,0,0,,Am I eating too many calories?
+Dialogue: 0,0:32:37.36,0:32:39.36,Default,,0,0,0,,Am I going to gain weight from this?
+Dialogue: 0,0:32:39.36,0:32:41.68,Default,,0,0,0,,All that's eliminated.
+Dialogue: 0,0:32:41.68,0:32:42.68,Default,,0,0,0,,So you're not going to give up
+Dialogue: 0,0:32:42.68,0:32:44.68,Default,,0,0,0,,the pleasure of eating at all.
+Dialogue: 0,0:32:44.68,0:32:45.68,Default,,0,0,0,,You'll find that when you eat
+Dialogue: 0,0:32:45.68,0:32:46.68,Default,,0,0,0,,when you're not hungry,
+Dialogue: 0,0:32:46.68,0:32:49.94,Default,,0,0,0,,that you're enjoying the food considerably.
+Dialogue: 0,0:32:49.94,0:32:51.94,Default,,0,0,0,,When do you start enjoying the cheese sandwich?
+Dialogue: 0,0:32:51.94,0:32:53.94,Default,,0,0,0,,The minute you take a bite into it.
+Dialogue: 0,0:32:53.94,0:32:55.94,Default,,0,0,0,,Not even hungry.
+Dialogue: 0,0:32:55.94,0:32:56.94,Default,,0,0,0,,I pick up the cheese sandwich.
+Dialogue: 0,0:32:56.94,0:32:57.94,Default,,0,0,0,,I bite into it.
+Dialogue: 0,0:32:57.94,0:32:58.94,Default,,0,0,0,,The enjoyment is there.
+Dialogue: 0,0:32:58.94,0:33:02.09,Default,,0,0,0,,There's no loss of enjoyment.
+Dialogue: 0,0:33:02.09,0:33:05.09,Default,,0,0,0,,I don't believe in letting go enjoyment and pleasure.
+Dialogue: 0,0:33:05.09,0:33:06.09,Default,,0,0,0,,On the contrary,
+Dialogue: 0,0:33:06.09,0:33:08.09,Default,,0,0,0,,I believe in increasing it.
+Dialogue: 0,0:33:08.09,0:33:09.09,Default,,0,0,0,,So now you'll have the enjoyment
+Dialogue: 0,0:33:09.09,0:33:10.09,Default,,0,0,0,,and the pleasure of eating
+Dialogue: 0,0:33:10.09,0:33:13.09,Default,,0,0,0,,as well as the enjoyment and pleasure,
+Dialogue: 0,0:33:13.09,0:33:15.09,Default,,0,0,0,,and the justified pride
+Dialogue: 0,0:33:15.09,0:33:17.09,Default,,0,0,0,,in having a body that's more appropriate
+Dialogue: 0,0:33:17.09,0:33:20.19,Default,,0,0,0,,to your own aesthetic ambitions.
+Dialogue: 0,0:33:20.19,0:33:22.19,Default,,0,0,0,,And we'll be talking about that next,
+Dialogue: 0,0:33:22.19,0:33:24.19,Default,,0,0,0,,your own aesthetic ambitions
+Dialogue: 0,0:33:24.19,0:33:26.19,Default,,0,0,0,,as to what you would like to look like
+Dialogue: 0,0:33:26.19,0:33:27.19,Default,,0,0,0,,and a technique perhaps
+Dialogue: 0,0:33:27.19,0:33:30.19,Default,,0,0,0,,that will help bring that into manifestation.
+Dialogue: 0,0:33:30.19,0:33:34.80,Default,,0,0,0,,First, we need the actual handling
+Dialogue: 0,0:33:34.80,0:33:37.80,Default,,0,0,0,,of that cycle of eating, getting hungry.
+Dialogue: 0,0:33:37.80,0:33:39.80,Default,,0,0,0,,So you see what's happening.
+Dialogue: 0,0:33:39.80,0:33:42.80,Default,,0,0,0,,You see that you are the victim
+Dialogue: 0,0:33:42.80,0:33:48.80,Default,,0,0,0,,of a behavioral pattern, a conditioning.
+Dialogue: 0,0:33:48.80,0:33:50.80,Default,,0,0,0,,It has nothing to do with willpower.
+Dialogue: 0,0:33:50.80,0:33:53.80,Default,,0,0,0,,It has nothing to do with morality.
+Dialogue: 0,0:33:53.80,0:33:58.80,Default,,0,0,0,,You see, we can condition any kind of an animal in this way.
+Dialogue: 0,0:33:58.80,0:34:03.80,Default,,0,0,0,,What's happened is sort of a Pavlovian dog conditioning,
+Dialogue: 0,0:34:03.80,0:34:06.80,Default,,0,0,0,,and it has nothing really to do with your personality.
+Dialogue: 0,0:34:06.80,0:34:08.80,Default,,0,0,0,,It has nothing to do with your self-worth.
+Dialogue: 0,0:34:08.80,0:34:10.80,Default,,0,0,0,,It has nothing to do with the fact
+Dialogue: 0,0:34:10.80,0:34:11.80,Default,,0,0,0,,that you're self-indulgent.
+Dialogue: 0,0:34:11.80,0:34:14.80,Default,,0,0,0,,It has nothing to do with oral narcissistic needs
+Dialogue: 0,0:34:14.80,0:34:17.80,Default,,0,0,0,,or whatever the psychoanalytic theory might be,
+Dialogue: 0,0:34:17.80,0:34:20.80,Default,,0,0,0,,oral aggression, oral passivity.
+Dialogue: 0,0:34:20.80,0:34:23.96,Default,,0,0,0,,It's got nothing to do with that, you see.
+Dialogue: 0,0:34:23.96,0:34:26.66,Default,,0,0,0,,It merely has to do with a simple,
+Dialogue: 0,0:34:26.66,0:34:29.66,Default,,0,0,0,,very primary type of conditioning
+Dialogue: 0,0:34:29.66,0:34:32.66,Default,,0,0,0,,which has been favored in our society.
+Dialogue: 0,0:34:32.66,0:34:34.66,Default,,0,0,0,,You picked it up from your own social conditioning
+Dialogue: 0,0:34:34.66,0:34:36.66,Default,,0,0,0,,as a child, that's all.
+Dialogue: 0,0:34:36.66,0:34:38.66,Default,,0,0,0,,And we'll be talking about the child
+Dialogue: 0,0:34:38.66,0:34:40.66,Default,,0,0,0,,and the part that the child plays.
+Dialogue: 0,0:34:40.66,0:34:41.66,Default,,0,0,0,,And moving on now,
+Dialogue: 0,0:34:41.66,0:34:45.66,Default,,0,0,0,,to a different way of looking at the whole eating pattern.
+Dialogue: 0,0:34:45.66,0:34:47.76,Default,,0,0,0,,Mind, the body is experienced in mind,
+Dialogue: 0,0:34:47.76,0:34:50.76,Default,,0,0,0,,and the mind is experienced in consciousness.
+Dialogue: 0,0:34:50.76,0:34:52.76,Default,,0,0,0,,So where you're really experiencing
+Dialogue: 0,0:34:52.76,0:34:54.76,Default,,0,0,0,,that which you've called hunger in the past
+Dialogue: 0,0:34:54.76,0:34:56.76,Default,,0,0,0,,is in your consciousness.
+Dialogue: 0,0:34:56.76,0:34:58.82,Default,,0,0,0,,And where is that localized?
+Dialogue: 0,0:34:58.82,0:35:00.82,Default,,0,0,0,,You'll notice that it's only a belief system
+Dialogue: 0,0:35:00.82,0:35:02.82,Default,,0,0,0,,that it's experienced in the stomach.
+Dialogue: 0,0:35:02.82,0:35:04.82,Default,,0,0,0,,It's actually experienced
+Dialogue: 0,0:35:04.82,0:35:06.82,Default,,0,0,0,,in sort of a generalized way
+Dialogue: 0,0:35:06.82,0:35:08.82,Default,,0,0,0,,in sort of everywhere.
+Dialogue: 0,0:35:08.82,0:35:11.08,Default,,0,0,0,,The thought that it is in the stomach,
+Dialogue: 0,0:35:11.08,0:35:14.08,Default,,0,0,0,,is just a belief system from childhood.
+Dialogue: 0,0:35:14.08,0:35:15.08,Default,,0,0,0,,As we said before,
+Dialogue: 0,0:35:15.08,0:35:18.08,Default,,0,0,0,,the body cannot experience anything.
+Dialogue: 0,0:35:18.08,0:35:20.08,Default,,0,0,0,,What is going on is experienced
+Dialogue: 0,0:35:20.08,0:35:24.08,Default,,0,0,0,,in a more diffuse, generalized area.
+Dialogue: 0,0:35:24.08,0:35:27.30,Default,,0,0,0,,So another trick, another technique
+Dialogue: 0,0:35:27.30,0:35:30.30,Default,,0,0,0,,in letting go of suffering of any kind,
+Dialogue: 0,0:35:30.30,0:35:33.30,Default,,0,0,0,,whether it's pain or illness or physical symptoms,
+Dialogue: 0,0:35:33.30,0:35:36.49,Default,,0,0,0,,in this case, what we've been calling hunger,
+Dialogue: 0,0:35:36.49,0:35:38.49,Default,,0,0,0,,is nothing but a physical symptom.
+Dialogue: 0,0:35:38.49,0:35:41.49,Default,,0,0,0,,You'll notice that it is being experienced
+Dialogue: 0,0:35:41.49,0:35:44.49,Default,,0,0,0,,in a general, diffuse kind of way.
+Dialogue: 0,0:35:44.49,0:35:47.49,Default,,0,0,0,,It's being experienced sort of everywhere.
+Dialogue: 0,0:35:47.49,0:35:50.49,Default,,0,0,0,,Because where do we experience all experience?
+Dialogue: 0,0:35:50.49,0:35:52.49,Default,,0,0,0,,Actually, it's being experienced
+Dialogue: 0,0:35:52.49,0:35:54.49,Default,,0,0,0,,in an everywhere-ness,
+Dialogue: 0,0:35:54.49,0:35:57.49,Default,,0,0,0,,rather than a localized situation.
+Dialogue: 0,0:35:57.49,0:35:59.49,Default,,0,0,0,,The localization is coming from
+Dialogue: 0,0:35:59.49,0:36:01.49,Default,,0,0,0,,the strong belief systems.
+Dialogue: 0,0:36:01.49,0:36:06.84,Default,,0,0,0,,You know, we have all these thoughts from childhood.
+Dialogue: 0,0:36:06.84,0:36:10.84,Default,,0,0,0,,As we let go, resisting this energy
+Dialogue: 0,0:36:10.84,0:36:12.84,Default,,0,0,0,,of this sensation,
+Dialogue: 0,0:36:12.84,0:36:16.84,Default,,0,0,0,,it becomes diffuse and finally it disappears.
+Dialogue: 0,0:36:16.84,0:36:18.84,Default,,0,0,0,,Well, this is very interesting
+Dialogue: 0,0:36:18.84,0:36:21.84,Default,,0,0,0,,because we'll go over to the board now.
+Dialogue: 0,0:36:21.84,0:36:24.84,Default,,0,0,0,,We'll go to this map of consciousness,
+Dialogue: 0,0:36:24.84,0:36:26.84,Default,,0,0,0,,this mathematical model,
+Dialogue: 0,0:36:26.84,0:36:29.84,Default,,0,0,0,,and see if we can get some kind of sense out of it
+Dialogue: 0,0:36:29.84,0:36:33.09,Default,,0,0,0,,from the viewpoint of energy fields.
+Dialogue: 0,0:36:33.09,0:36:35.09,Default,,0,0,0,,Here we have the levels of consciousness,
+Dialogue: 0,0:36:35.09,0:36:38.09,Default,,0,0,0,,these energy fields starting at the bottom,
+Dialogue: 0,0:36:38.09,0:36:40.09,Default,,0,0,0,,the lower feelings.
+Dialogue: 0,0:36:40.09,0:36:42.09,Default,,0,0,0,,And we notice as we come up here
+Dialogue: 0,0:36:42.09,0:36:44.09,Default,,0,0,0,,to desire,
+Dialogue: 0,0:36:44.09,0:36:46.09,Default,,0,0,0,,which is what has been running us
+Dialogue: 0,0:36:46.09,0:36:49.09,Default,,0,0,0,,with our appetite-hunger satiation cycle,
+Dialogue: 0,0:36:49.09,0:36:51.09,Default,,0,0,0,,we notice that it has an energy field
+Dialogue: 0,0:36:51.09,0:36:54.09,Default,,0,0,0,,that's been calibrated at 125.
+Dialogue: 0,0:36:54.09,0:36:57.09,Default,,0,0,0,,We notice that the direction of the energy field
+Dialogue: 0,0:36:57.09,0:36:59.09,Default,,0,0,0,,is in a negative direction.
+Dialogue: 0,0:36:59.09,0:37:02.09,Default,,0,0,0,,In other words, it has a deleterious effect on our life.
+Dialogue: 0,0:37:02.09,0:37:04.09,Default,,0,0,0,,And we notice that the emotion
+Dialogue: 0,0:37:04.09,0:37:06.09,Default,,0,0,0,,that goes with this energy field
+Dialogue: 0,0:37:06.09,0:37:09.09,Default,,0,0,0,,is wanting and craving,
+Dialogue: 0,0:37:09.09,0:37:11.09,Default,,0,0,0,,and all the addictions then fall into this.
+Dialogue: 0,0:37:11.09,0:37:14.09,Default,,0,0,0,,So calling a weight problem a food addiction
+Dialogue: 0,0:37:14.09,0:37:16.09,Default,,0,0,0,,in a way is correct
+Dialogue: 0,0:37:16.09,0:37:19.09,Default,,0,0,0,,in that we're talking about
+Dialogue: 0,0:37:19.09,0:37:22.09,Default,,0,0,0,,this particular energy field right here.
+Dialogue: 0,0:37:22.09,0:37:24.09,Default,,0,0,0,,And we see what is characteristic
+Dialogue: 0,0:37:24.09,0:37:28.09,Default,,0,0,0,,of this negative 125 energy field
+Dialogue: 0,0:37:28.09,0:37:30.09,Default,,0,0,0,,is a feeling of wantingness,
+Dialogue: 0,0:37:30.09,0:37:32.09,Default,,0,0,0,,desiringness, cravingness.
+Dialogue: 0,0:37:32.09,0:37:35.09,Default,,0,0,0,,And we see that the process going on,
+Dialogue: 0,0:37:35.09,0:37:37.09,Default,,0,0,0,,the process going on in consciousness
+Dialogue: 0,0:37:37.09,0:37:39.67,Default,,0,0,0,,is entrapment.
+Dialogue: 0,0:37:39.67,0:37:41.67,Default,,0,0,0,,The person therefore feels like this,
+Dialogue: 0,0:37:41.67,0:37:43.67,Default,,0,0,0,,like a victim.
+Dialogue: 0,0:37:43.67,0:37:45.67,Default,,0,0,0,,And because of the direction
+Dialogue: 0,0:37:45.67,0:37:47.67,Default,,0,0,0,,of the energy field here,
+Dialogue: 0,0:37:47.67,0:37:50.67,Default,,0,0,0,,there are negative feelings about the self
+Dialogue: 0,0:37:50.67,0:37:54.76,Default,,0,0,0,,having to do with this whole cycle.
+Dialogue: 0,0:37:54.76,0:37:56.76,Default,,0,0,0,,As we let go resisting it
+Dialogue: 0,0:37:56.76,0:37:58.76,Default,,0,0,0,,and get released off of it,
+Dialogue: 0,0:37:58.76,0:38:00.76,Default,,0,0,0,,go beyond it,
+Dialogue: 0,0:38:00.76,0:38:02.76,Default,,0,0,0,,you see what's happening now
+Dialogue: 0,0:38:02.76,0:38:04.76,Default,,0,0,0,,is we start moving up to the courage
+Dialogue: 0,0:38:04.76,0:38:06.76,Default,,0,0,0,,to handle this problem,
+Dialogue: 0,0:38:06.76,0:38:09.76,Default,,0,0,0,,the pride and our willingness to look at it.
+Dialogue: 0,0:38:09.76,0:38:11.76,Default,,0,0,0,,And we move up,
+Dialogue: 0,0:38:11.76,0:38:13.76,Default,,0,0,0,,we make it off this cycle
+Dialogue: 0,0:38:13.76,0:38:15.76,Default,,0,0,0,,and to this level here
+Dialogue: 0,0:38:15.76,0:38:18.80,Default,,0,0,0,,which is a plus 250
+Dialogue: 0,0:38:18.80,0:38:22.83,Default,,0,0,0,,in which we become unattached, detached.
+Dialogue: 0,0:38:22.83,0:38:24.83,Default,,0,0,0,,And at that point the phenomena,
+Dialogue: 0,0:38:24.83,0:38:26.83,Default,,0,0,0,,the process going on in consciousness
+Dialogue: 0,0:38:26.83,0:38:29.31,Default,,0,0,0,,is that you're released.
+Dialogue: 0,0:38:29.31,0:38:31.31,Default,,0,0,0,,Because the energy field now goes to the right,
+Dialogue: 0,0:38:31.31,0:38:33.31,Default,,0,0,0,,we have a positive good feeling.
+Dialogue: 0,0:38:33.31,0:38:35.31,Default,,0,0,0,,It's constructive
+Dialogue: 0,0:38:35.31,0:38:37.31,Default,,0,0,0,,and it makes us feel better.
+Dialogue: 0,0:38:37.31,0:38:39.31,Default,,0,0,0,,It has a lot of power in it.
+Dialogue: 0,0:38:39.31,0:38:42.31,Default,,0,0,0,,And how do we experience that detachment?
+Dialogue: 0,0:38:42.31,0:38:45.01,Default,,0,0,0,,It's an experience that,
+Dialogue: 0,0:38:45.01,0:38:46.01,Default,,0,0,0,,well, if we eat it's okay
+Dialogue: 0,0:38:46.01,0:38:48.01,Default,,0,0,0,,and if I don't eat it's okay.
+Dialogue: 0,0:38:48.01,0:38:50.01,Default,,0,0,0,,People say, you want to eat something now?
+Dialogue: 0,0:38:50.01,0:38:52.01,Default,,0,0,0,,I say, well, if you're going to fix something, fine.
+Dialogue: 0,0:38:52.01,0:38:54.08,Default,,0,0,0,,Then, you know, they'll say,
+Dialogue: 0,0:38:54.08,0:38:55.08,Default,,0,0,0,,well, what do you want to eat?
+Dialogue: 0,0:38:55.08,0:38:57.08,Default,,0,0,0,,Do you want to eat this?
+Dialogue: 0,0:38:57.08,0:38:58.08,Default,,0,0,0,,Do you want macaroni
+Dialogue: 0,0:38:58.08,0:39:00.08,Default,,0,0,0,,or do you want baked beans?
+Dialogue: 0,0:39:00.08,0:39:02.08,Default,,0,0,0,,And you say, well, either way.
+Dialogue: 0,0:39:02.08,0:39:04.08,Default,,0,0,0,,Because when you reach this level
+Dialogue: 0,0:39:04.08,0:39:07.08,Default,,0,0,0,,of handling appetite and hunger,
+Dialogue: 0,0:39:07.08,0:39:09.08,Default,,0,0,0,,you're no longer really fixed
+Dialogue: 0,0:39:09.08,0:39:11.08,Default,,0,0,0,,on one particular food or another.
+Dialogue: 0,0:39:11.08,0:39:12.08,Default,,0,0,0,,You can say, well,
+Dialogue: 0,0:39:12.08,0:39:15.14,Default,,0,0,0,,if we have a steak tonight, that's fine
+Dialogue: 0,0:39:15.14,0:39:17.14,Default,,0,0,0,,and if we don't, that's fine.
+Dialogue: 0,0:39:17.14,0:39:19.14,Default,,0,0,0,,So it's okay either way.
+Dialogue: 0,0:39:19.14,0:39:21.14,Default,,0,0,0,,It means you're free, you see.
+Dialogue: 0,0:39:21.14,0:39:24.14,Default,,0,0,0,,And one characteristic is freedom.
+Dialogue: 0,0:39:24.14,0:39:26.14,Default,,0,0,0,,Freedom from what?
+Dialogue: 0,0:39:26.14,0:39:28.14,Default,,0,0,0,,Freedom from being run by that.
+Dialogue: 0,0:39:28.14,0:39:31.17,Default,,0,0,0,,Freedom from being a victim of that.
+Dialogue: 0,0:39:31.17,0:39:33.17,Default,,0,0,0,,Freedom from the entrapment
+Dialogue: 0,0:39:33.17,0:39:37.17,Default,,0,0,0,,which made us feel bad about ourself.
+Dialogue: 0,0:39:37.17,0:39:38.17,Default,,0,0,0,,The negative energy field
+Dialogue: 0,0:39:38.17,0:39:41.17,Default,,0,0,0,,makes us feel bad about ourself.
+Dialogue: 0,0:39:41.17,0:39:42.17,Default,,0,0,0,,So automatically,
+Dialogue: 0,0:39:42.17,0:39:46.17,Default,,0,0,0,,as we get detached from these sensations,
+Dialogue: 0,0:39:46.17,0:39:49.17,Default,,0,0,0,,we begin to feel good about ourself.
+Dialogue: 0,0:39:49.17,0:39:51.17,Default,,0,0,0,,In fact, our willingness to do that
+Dialogue: 0,0:39:51.17,0:39:53.17,Default,,0,0,0,,moves us up to 310,
+Dialogue: 0,0:39:53.17,0:39:56.17,Default,,0,0,0,,which is an even better feeling about it.
+Dialogue: 0,0:39:56.17,0:39:57.17,Default,,0,0,0,,We begin to accept
+Dialogue: 0,0:39:57.17,0:40:01.17,Default,,0,0,0,,that this is nothing but a phenomena.
+Dialogue: 0,0:40:01.17,0:40:03.17,Default,,0,0,0,,You see, it's just a set of vibrations
+Dialogue: 0,0:40:03.17,0:40:05.17,Default,,0,0,0,,going on within consciousness.
+Dialogue: 0,0:40:05.17,0:40:06.17,Default,,0,0,0,,It doesn't have to do with food.
+Dialogue: 0,0:40:06.17,0:40:08.17,Default,,0,0,0,,It doesn't have to do with the body.
+Dialogue: 0,0:40:08.17,0:40:10.17,Default,,0,0,0,,Those are all programs.
+Dialogue: 0,0:40:10.17,0:40:12.17,Default,,0,0,0,,In essence, the physics of it is
+Dialogue: 0,0:40:12.17,0:40:14.17,Default,,0,0,0,,that it's just a set of vibrations
+Dialogue: 0,0:40:14.17,0:40:16.17,Default,,0,0,0,,going on in the field of consciousness
+Dialogue: 0,0:40:16.17,0:40:20.17,Default,,0,0,0,,which are within our power to alter.
+Dialogue: 0,0:40:20.17,0:40:22.17,Default,,0,0,0,,And once we do that,
+Dialogue: 0,0:40:22.17,0:40:24.17,Default,,0,0,0,,we can really begin to love ourself
+Dialogue: 0,0:40:24.17,0:40:26.17,Default,,0,0,0,,more than we did before.
+Dialogue: 0,0:40:26.17,0:40:31.25,Default,,0,0,0,,There's another aspect going on in consciousness
+Dialogue: 0,0:40:31.25,0:40:32.25,Default,,0,0,0,,that's very interesting
+Dialogue: 0,0:40:32.25,0:40:35.25,Default,,0,0,0,,that will be very helpful to you also.
+Dialogue: 0,0:40:35.25,0:40:38.25,Default,,0,0,0,,Something you can observe within yourself.
+Dialogue: 0,0:40:38.25,0:40:41.25,Default,,0,0,0,,Something I picked up within myself
+Dialogue: 0,0:40:41.25,0:40:43.25,Default,,0,0,0,,and saw it happening.
+Dialogue: 0,0:40:43.25,0:40:45.80,Default,,0,0,0,,You see, the cycle in the past
+Dialogue: 0,0:40:45.80,0:40:49.80,Default,,0,0,0,,has been to be run by this hunger, appetite,
+Dialogue: 0,0:40:49.80,0:40:52.80,Default,,0,0,0,,satiation, and then guilt.
+Dialogue: 0,0:40:52.80,0:40:54.80,Default,,0,0,0,,What happens is,
+Dialogue: 0,0:40:54.80,0:40:58.80,Default,,0,0,0,,your good intentions suddenly flew out the window.
+Dialogue: 0,0:40:58.80,0:41:00.80,Default,,0,0,0,,The good intentions that you had about
+Dialogue: 0,0:41:00.80,0:41:04.80,Default,,0,0,0,,taking off weight and dieting and all that
+Dialogue: 0,0:41:04.80,0:41:06.89,Default,,0,0,0,,have disappeared somewhere.
+Dialogue: 0,0:41:06.89,0:41:09.89,Default,,0,0,0,,And after you have filled yourself up
+Dialogue: 0,0:41:09.89,0:41:11.89,Default,,0,0,0,,with far more than you knew you needed,
+Dialogue: 0,0:41:11.89,0:41:13.89,Default,,0,0,0,,suddenly you go into a feeling
+Dialogue: 0,0:41:13.89,0:41:15.89,Default,,0,0,0,,of this self-disgust and guilt.
+Dialogue: 0,0:41:15.89,0:41:18.89,Default,,0,0,0,,And people who have severe eating problems
+Dialogue: 0,0:41:18.89,0:41:19.89,Default,,0,0,0,,often do that.
+Dialogue: 0,0:41:19.89,0:41:21.99,Default,,0,0,0,,They go in the bathroom
+Dialogue: 0,0:41:21.99,0:41:23.99,Default,,0,0,0,,and throw all the food back up again
+Dialogue: 0,0:41:23.99,0:41:25.99,Default,,0,0,0,,and they go into self-hatred and guilt
+Dialogue: 0,0:41:25.99,0:41:27.99,Default,,0,0,0,,and even suicidal depressions.
+Dialogue: 0,0:41:27.99,0:41:32.05,Default,,0,0,0,,The self-hatred becomes severe, the blame.
+Dialogue: 0,0:41:32.05,0:41:34.05,Default,,0,0,0,,So, what is going on here?
+Dialogue: 0,0:41:34.05,0:41:38.47,Default,,0,0,0,,Well, what I saw happening was
+Dialogue: 0,0:41:38.47,0:41:41.47,Default,,0,0,0,,when you sit down to eat,
+Dialogue: 0,0:41:41.47,0:41:44.47,Default,,0,0,0,,you see, the one who wants to take off weight
+Dialogue: 0,0:41:44.47,0:41:46.47,Default,,0,0,0,,and all this is the adult in us.
+Dialogue: 0,0:41:46.47,0:41:47.47,Default,,0,0,0,,Remember Eric Berne,
+Dialogue: 0,0:41:47.47,0:41:49.47,Default,,0,0,0,,the transactional analysis?
+Dialogue: 0,0:41:49.47,0:41:52.50,Default,,0,0,0,,A lot of people in that kind of psychological work
+Dialogue: 0,0:41:52.50,0:41:55.50,Default,,0,0,0,,have talked about our child tape,
+Dialogue: 0,0:41:55.50,0:41:57.50,Default,,0,0,0,,our adult tape, and our parent tape.
+Dialogue: 0,0:41:57.50,0:41:59.50,Default,,0,0,0,,It is like there are three voices within us.
+Dialogue: 0,0:41:59.50,0:42:00.50,Default,,0,0,0,,One is the child,
+Dialogue: 0,0:42:00.50,0:42:01.50,Default,,0,0,0,,one is the adult,
+Dialogue: 0,0:42:01.50,0:42:04.50,Default,,0,0,0,,who is the rational, intelligent, educated person,
+Dialogue: 0,0:42:04.50,0:42:06.50,Default,,0,0,0,,and one is the parent,
+Dialogue: 0,0:42:06.50,0:42:08.50,Default,,0,0,0,,who tends to be punitive,
+Dialogue: 0,0:42:08.50,0:42:10.50,Default,,0,0,0,,who tends to be moralistic.
+Dialogue: 0,0:42:10.50,0:42:13.50,Default,,0,0,0,,The parent tape is the one that tells you about right and wrong.
+Dialogue: 0,0:42:13.50,0:42:16.88,Default,,0,0,0,,So, you will see that this is what has been happening.
+Dialogue: 0,0:42:16.88,0:42:19.88,Default,,0,0,0,,As you sit down to the table
+Dialogue: 0,0:42:19.88,0:42:21.88,Default,,0,0,0,,or as you walk into the refrigerator,
+Dialogue: 0,0:42:21.88,0:42:24.88,Default,,0,0,0,,you go unconscious.
+Dialogue: 0,0:42:24.88,0:42:26.88,Default,,0,0,0,,You go unconscious and what happens is
+Dialogue: 0,0:42:26.88,0:42:29.36,Default,,0,0,0,,the child takes over.
+Dialogue: 0,0:42:29.36,0:42:32.36,Default,,0,0,0,,Now, what does the child know about diet, weight, calories?
+Dialogue: 0,0:42:32.36,0:42:33.36,Default,,0,0,0,,Nothing.
+Dialogue: 0,0:42:33.36,0:42:36.36,Default,,0,0,0,,The consciousness of the child is
+Dialogue: 0,0:42:36.36,0:42:39.36,Default,,0,0,0,,I want and I satisfy, I get.
+Dialogue: 0,0:42:39.36,0:42:40.36,Default,,0,0,0,,So, what happens is
+Dialogue: 0,0:42:40.36,0:42:43.36,Default,,0,0,0,,we go into, without realizing it,
+Dialogue: 0,0:42:43.36,0:42:45.36,Default,,0,0,0,,a different state of consciousness
+Dialogue: 0,0:42:45.36,0:42:47.36,Default,,0,0,0,,in which the child is really...
+Dialogue: 0,0:42:47.36,0:42:49.36,Default,,0,0,0,,So, who is in the refrigerator poking around?
+Dialogue: 0,0:42:49.36,0:42:52.61,Default,,0,0,0,,The child is.
+Dialogue: 0,0:42:52.61,0:42:55.61,Default,,0,0,0,,Who is ordering a second hot fudge sundae?
+Dialogue: 0,0:42:55.61,0:42:56.61,Default,,0,0,0,,The child is.
+Dialogue: 0,0:42:56.61,0:42:59.61,Default,,0,0,0,,Who is having a second helping of potatoes and gravy?
+Dialogue: 0,0:42:59.61,0:43:02.12,Default,,0,0,0,,The child is.
+Dialogue: 0,0:43:02.12,0:43:04.12,Default,,0,0,0,,And after we indulge the child then,
+Dialogue: 0,0:43:04.12,0:43:07.12,Default,,0,0,0,,without realizing this is what is going on,
+Dialogue: 0,0:43:07.12,0:43:10.22,Default,,0,0,0,,and after the meal is over,
+Dialogue: 0,0:43:10.22,0:43:11.22,Default,,0,0,0,,what happens now is
+Dialogue: 0,0:43:11.22,0:43:12.22,Default,,0,0,0,,the child leaves.
+Dialogue: 0,0:43:12.22,0:43:14.22,Default,,0,0,0,,I mean, he has had his fill.
+Dialogue: 0,0:43:14.22,0:43:15.22,Default,,0,0,0,,And who takes his place?
+Dialogue: 0,0:43:15.22,0:43:16.22,Default,,0,0,0,,The parent.
+Dialogue: 0,0:43:16.22,0:43:17.22,Default,,0,0,0,,The parent says,
+Dialogue: 0,0:43:17.22,0:43:19.22,Default,,0,0,0,,how could you have been so stupid?
+Dialogue: 0,0:43:19.22,0:43:20.22,Default,,0,0,0,,Why did you have seconds?
+Dialogue: 0,0:43:20.22,0:43:22.22,Default,,0,0,0,,Why did you add a piece of pie?
+Dialogue: 0,0:43:22.22,0:43:24.22,Default,,0,0,0,,Why did you put ice cream on top of the pie?
+Dialogue: 0,0:43:24.22,0:43:26.22,Default,,0,0,0,,I mean, think of the calories.
+Dialogue: 0,0:43:26.22,0:43:27.22,Default,,0,0,0,,You are really stupid.
+Dialogue: 0,0:43:27.22,0:43:29.22,Default,,0,0,0,,You are really weak.
+Dialogue: 0,0:43:29.22,0:43:31.22,Default,,0,0,0,,You don't have any willpower.
+Dialogue: 0,0:43:31.22,0:43:32.22,Default,,0,0,0,,You are no good.
+Dialogue: 0,0:43:32.22,0:43:34.22,Default,,0,0,0,,Your self-worth is rotten.
+Dialogue: 0,0:43:34.22,0:43:35.22,Default,,0,0,0,,So, now what happens is
+Dialogue: 0,0:43:35.22,0:43:39.22,Default,,0,0,0,,you are subjected to the angry parent blaming you.
+Dialogue: 0,0:43:39.22,0:43:40.96,Default,,0,0,0,,Blaming who?
+Dialogue: 0,0:43:40.96,0:43:41.96,Default,,0,0,0,,Blaming the child.
+Dialogue: 0,0:43:41.96,0:43:43.96,Default,,0,0,0,,Where has the adult been all this time?
+Dialogue: 0,0:43:43.96,0:43:45.96,Default,,0,0,0,,He has been out to lunch.
+Dialogue: 0,0:43:45.96,0:43:47.96,Default,,0,0,0,,He wasn't there at meal time
+Dialogue: 0,0:43:47.96,0:43:49.96,Default,,0,0,0,,and he isn't there after meal time.
+Dialogue: 0,0:43:49.96,0:43:53.96,Default,,0,0,0,,The child and the parent have taken over the whole eating program.
+Dialogue: 0,0:43:53.96,0:43:54.96,Default,,0,0,0,,And isn't that natural?
+Dialogue: 0,0:43:54.96,0:43:58.96,Default,,0,0,0,,Because where did these eating patterns set up in the first place?
+Dialogue: 0,0:43:58.96,0:44:00.96,Default,,0,0,0,,They set up with the child.
+Dialogue: 0,0:44:00.96,0:44:03.96,Default,,0,0,0,,And who is sitting next to the child but the parent?
+Dialogue: 0,0:44:03.96,0:44:06.37,Default,,0,0,0,,So, the child and the parent tapes have been
+Dialogue: 0,0:44:06.37,0:44:09.37,Default,,0,0,0,,what has been running the whole eating pattern.
+Dialogue: 0,0:44:09.37,0:44:10.56,Default,,0,0,0,,The adult hasn't had a chance.
+Dialogue: 0,0:44:10.56,0:44:13.56,Default,,0,0,0,,Now, the way to counteract this then
+Dialogue: 0,0:44:13.56,0:44:16.56,Default,,0,0,0,,is to be aware that this pattern is running.
+Dialogue: 0,0:44:16.56,0:44:19.56,Default,,0,0,0,,Just to be aware of it already begins to change it.
+Dialogue: 0,0:44:19.56,0:44:21.56,Default,,0,0,0,,And now you make a note to yourself.
+Dialogue: 0,0:44:21.56,0:44:23.56,Default,,0,0,0,,You can put it on the table.
+Dialogue: 0,0:44:23.56,0:44:25.56,Default,,0,0,0,,You can put it on the refrigerator
+Dialogue: 0,0:44:25.56,0:44:28.56,Default,,0,0,0,,and call forth consciously your adult.
+Dialogue: 0,0:44:28.56,0:44:30.56,Default,,0,0,0,,And I tell my child,
+Dialogue: 0,0:44:30.56,0:44:32.56,Default,,0,0,0,,look, you are going to be handled.
+Dialogue: 0,0:44:32.56,0:44:34.56,Default,,0,0,0,,This is a place for an adult now
+Dialogue: 0,0:44:34.56,0:44:36.56,Default,,0,0,0,,because my adult is very conscious of his eating.
+Dialogue: 0,0:44:36.56,0:44:38.56,Default,,0,0,0,,My adult knows about calories.
+Dialogue: 0,0:44:38.56,0:44:39.56,Default,,0,0,0,,My adult knows all these things.
+Dialogue: 0,0:44:39.56,0:44:42.56,Default,,0,0,0,,And so I consciously call forth my adult
+Dialogue: 0,0:44:42.56,0:44:44.56,Default,,0,0,0,,to be there at the meal.
+Dialogue: 0,0:44:44.56,0:44:47.56,Default,,0,0,0,,I consciously summon him forth.
+Dialogue: 0,0:44:47.56,0:44:51.98,Default,,0,0,0,,I say, you know, the adult me is here now.
+Dialogue: 0,0:44:51.98,0:44:54.98,Default,,0,0,0,,And I consciously reject the presence of the child.
+Dialogue: 0,0:44:54.98,0:44:57.98,Default,,0,0,0,,Now because the overindulgence doesn't happen,
+Dialogue: 0,0:44:57.98,0:45:00.98,Default,,0,0,0,,when the meal is over, my adult stays there.
+Dialogue: 0,0:45:00.98,0:45:03.98,Default,,0,0,0,,No parent comes in to blame me for what's been done
+Dialogue: 0,0:45:03.98,0:45:05.98,Default,,0,0,0,,because no crime has been committed.
+Dialogue: 0,0:45:05.98,0:45:08.98,Default,,0,0,0,,The crime is not committed by the adult.
+Dialogue: 0,0:45:08.98,0:45:12.08,Default,,0,0,0,,You see, the crime is committed by the child.
+Dialogue: 0,0:45:12.08,0:45:16.08,Default,,0,0,0,,So allowing ourselves then to go unconscious when we eat.
+Dialogue: 0,0:45:16.08,0:45:18.08,Default,,0,0,0,,We don't mean unconscious like pass out.
+Dialogue: 0,0:45:18.08,0:45:21.08,Default,,0,0,0,,You know, that's not what we're talking about.
+Dialogue: 0,0:45:21.08,0:45:24.08,Default,,0,0,0,,We're talking about that aspect of our personality
+Dialogue: 0,0:45:24.08,0:45:26.08,Default,,0,0,0,,that comes forth.
+Dialogue: 0,0:45:26.08,0:45:28.08,Default,,0,0,0,,We're not aware that it's the child now
+Dialogue: 0,0:45:28.08,0:45:30.08,Default,,0,0,0,,coming in to take over.
+Dialogue: 0,0:45:30.08,0:45:32.08,Default,,0,0,0,,And the child doesn't care about weight.
+Dialogue: 0,0:45:32.08,0:45:36.08,Default,,0,0,0,,The child doesn't care about having a good figure.
+Dialogue: 0,0:45:36.08,0:45:38.08,Default,,0,0,0,,These are not things that bother a child.
+Dialogue: 0,0:45:38.08,0:45:41.88,Default,,0,0,0,,These are not things that bother the parent.
+Dialogue: 0,0:45:41.88,0:45:43.88,Default,,0,0,0,,So we want the adult to take over
+Dialogue: 0,0:45:43.88,0:45:46.88,Default,,0,0,0,,the actual experience of eating.
+Dialogue: 0,0:45:46.88,0:45:49.88,Default,,0,0,0,,Not the child and not the angry punitive parent.
+Dialogue: 0,0:45:49.88,0:45:52.88,Default,,0,0,0,,We don't want to be at the effect of either one of them.
+Dialogue: 0,0:45:52.88,0:45:54.88,Default,,0,0,0,,This is no place now for the child
+Dialogue: 0,0:45:54.88,0:45:56.88,Default,,0,0,0,,because he has no self-control
+Dialogue: 0,0:45:56.88,0:45:59.88,Default,,0,0,0,,and no intelligence about such matters.
+Dialogue: 0,0:45:59.88,0:46:01.88,Default,,0,0,0,,And we don't want the parent there
+Dialogue: 0,0:46:01.88,0:46:03.88,Default,,0,0,0,,because the parent is into the no, no, no
+Dialogue: 0,0:46:03.88,0:46:07.91,Default,,0,0,0,,and the self-blame and the self-hatred.
+Dialogue: 0,0:46:07.91,0:46:10.91,Default,,0,0,0,,So let's get rid of them at meal time.
+Dialogue: 0,0:46:10.91,0:46:12.91,Default,,0,0,0,,We send the child out to play
+Dialogue: 0,0:46:12.91,0:46:14.91,Default,,0,0,0,,and we'll tell the parent to go take a nap
+Dialogue: 0,0:46:14.91,0:46:16.91,Default,,0,0,0,,and we'll tell them it's time for the adult
+Dialogue: 0,0:46:16.91,0:46:19.32,Default,,0,0,0,,to come forth now.
+Dialogue: 0,0:46:19.32,0:46:21.32,Default,,0,0,0,,These you'll find work extremely well.
+Dialogue: 0,0:46:21.32,0:46:23.32,Default,,0,0,0,,You see, it doesn't take willpower.
+Dialogue: 0,0:46:23.32,0:46:25.32,Default,,0,0,0,,It doesn't take self-control.
+Dialogue: 0,0:46:25.32,0:46:28.32,Default,,0,0,0,,It doesn't take resisting anything.
+Dialogue: 0,0:46:28.32,0:46:30.32,Default,,0,0,0,,It just takes being aware.
+Dialogue: 0,0:46:30.32,0:46:31.32,Default,,0,0,0,,Be aware.
+Dialogue: 0,0:46:31.32,0:46:32.32,Default,,0,0,0,,So you sit down.
+Dialogue: 0,0:46:32.32,0:46:34.32,Default,,0,0,0,,You say hello to your adult, you see.
+Dialogue: 0,0:46:34.32,0:46:37.32,Default,,0,0,0,,And when you sit down to eat, be conscious.
+Dialogue: 0,0:46:37.32,0:46:39.32,Default,,0,0,0,,I've watched myself do this.
+Dialogue: 0,0:46:39.32,0:46:42.42,Default,,0,0,0,,Just as you sit down at the dinner table,
+Dialogue: 0,0:46:42.42,0:46:44.42,Default,,0,0,0,,you watch the kid come up in you.
+Dialogue: 0,0:46:44.42,0:46:46.42,Default,,0,0,0,,Oh, look at that.
+Dialogue: 0,0:46:46.42,0:46:48.42,Default,,0,0,0,,Who is that that's there at the table?
+Dialogue: 0,0:46:48.42,0:46:49.42,Default,,0,0,0,,Oh, wow, look.
+Dialogue: 0,0:46:49.42,0:46:51.42,Default,,0,0,0,,Look at the pile of mashed potatoes.
+Dialogue: 0,0:46:51.42,0:46:52.42,Default,,0,0,0,,Look at the gravy.
+Dialogue: 0,0:46:52.42,0:46:55.42,Default,,0,0,0,,I mean, you watch people's face when they sit down at the table
+Dialogue: 0,0:46:55.42,0:46:57.42,Default,,0,0,0,,and you'll see who's up in them.
+Dialogue: 0,0:46:57.42,0:46:58.42,Default,,0,0,0,,You see the eyes pop open.
+Dialogue: 0,0:46:58.42,0:47:00.42,Default,,0,0,0,,You watch the pupils go like that.
+Dialogue: 0,0:47:00.42,0:47:03.42,Default,,0,0,0,,If that isn't a five-year-old kid, I never saw one.
+Dialogue: 0,0:47:03.42,0:47:05.42,Default,,0,0,0,,So you see a businessman, you know,
+Dialogue: 0,0:47:05.42,0:47:06.42,Default,,0,0,0,,and he walks into the restaurant
+Dialogue: 0,0:47:06.42,0:47:08.42,Default,,0,0,0,,and he's got his briefcase and he's so serious
+Dialogue: 0,0:47:08.42,0:47:10.42,Default,,0,0,0,,and he goes down to the cafeteria line
+Dialogue: 0,0:47:10.42,0:47:11.42,Default,,0,0,0,,and he sits down.
+Dialogue: 0,0:47:11.42,0:47:14.42,Default,,0,0,0,,Watch his face now as he puts his napkin in front of him.
+Dialogue: 0,0:47:14.42,0:47:15.42,Default,,0,0,0,,He picks up his napkin.
+Dialogue: 0,0:47:15.42,0:47:17.48,Default,,0,0,0,,He goes,
+Dialogue: 0,0:47:17.48,0:47:19.48,Default,,0,0,0,,Somebody else is there already, isn't it?
+Dialogue: 0,0:47:19.48,0:47:22.48,Default,,0,0,0,,There's the kid all ready to have a good time.
+Dialogue: 0,0:47:22.48,0:47:24.48,Default,,0,0,0,,And, of course, after he leaves,
+Dialogue: 0,0:47:24.48,0:47:26.48,Default,,0,0,0,,he gets up, he folds his paper,
+Dialogue: 0,0:47:26.48,0:47:28.68,Default,,0,0,0,,and now you see,
+Dialogue: 0,0:47:28.68,0:47:29.68,Default,,0,0,0,,Oh, I ate too much.
+Dialogue: 0,0:47:29.68,0:47:31.68,Default,,0,0,0,,Instantly, now who's there?
+Dialogue: 0,0:47:31.68,0:47:33.68,Default,,0,0,0,,Look at the frown and the...
+Dialogue: 0,0:47:33.68,0:47:36.28,Default,,0,0,0,,He's already berating himself
+Dialogue: 0,0:47:36.28,0:47:38.28,Default,,0,0,0,,as he walks out of the restaurant.
+Dialogue: 0,0:47:38.28,0:47:40.28,Default,,0,0,0,,He's counting all the calories in his mind.
+Dialogue: 0,0:47:40.28,0:47:43.28,Default,,0,0,0,,He just ate 3,850 calories for dinner.
+Dialogue: 0,0:47:43.28,0:47:47.28,Default,,0,0,0,,And his doctor told him he's only supposed to eat 900 calories a day.
+Dialogue: 0,0:47:47.28,0:47:51.28,Default,,0,0,0,,He figures he can't eat till next Tuesday now.
+Dialogue: 0,0:47:51.28,0:47:54.28,Default,,0,0,0,,And how is he going to survive?
+Dialogue: 0,0:47:54.28,0:47:57.28,Default,,0,0,0,,So how to break out of this self-defeating pattern
+Dialogue: 0,0:47:57.28,0:47:59.28,Default,,0,0,0,,just by being aware?
+Dialogue: 0,0:47:59.28,0:48:01.28,Default,,0,0,0,,You know, make a little sign for yourself that says,
+Dialogue: 0,0:48:01.28,0:48:03.41,Default,,0,0,0,,Hello, adult.
+Dialogue: 0,0:48:03.41,0:48:05.41,Default,,0,0,0,,Be conscious. Beware.
+Dialogue: 0,0:48:05.41,0:48:09.41,Default,,0,0,0,,You'll find that the adult enjoys eating a great deal too.
+Dialogue: 0,0:48:09.41,0:48:13.83,Default,,0,0,0,,He just doesn't go crazy so easily, you know.
+Dialogue: 0,0:48:13.83,0:48:17.01,Default,,0,0,0,,I forgot to mention something before
+Dialogue: 0,0:48:17.01,0:48:22.01,Default,,0,0,0,,when I was talking about avoiding eating a lot of sugar and sweets
+Dialogue: 0,0:48:22.01,0:48:24.01,Default,,0,0,0,,on an empty stomach,
+Dialogue: 0,0:48:24.01,0:48:27.27,Default,,0,0,0,,and I want to mention it so that I don't forget it.
+Dialogue: 0,0:48:27.27,0:48:30.27,Default,,0,0,0,,And that is we want to avoid fluctuating blood sugar
+Dialogue: 0,0:48:30.27,0:48:34.27,Default,,0,0,0,,as much as possible when we're first initiating this program.
+Dialogue: 0,0:48:34.27,0:48:36.27,Default,,0,0,0,,Because in the unconscious,
+Dialogue: 0,0:48:36.27,0:48:41.27,Default,,0,0,0,,a drop in blood sugar is often associated in the mind
+Dialogue: 0,0:48:41.27,0:48:44.27,Default,,0,0,0,,with hunger and hungry feelings.
+Dialogue: 0,0:48:44.27,0:48:47.27,Default,,0,0,0,,So if we, on an empty stomach for instance,
+Dialogue: 0,0:48:47.27,0:48:49.27,Default,,0,0,0,,eat a hot fudge sundae,
+Dialogue: 0,0:48:49.27,0:48:52.27,Default,,0,0,0,,then you'll watch the blood sugar shoots up like this
+Dialogue: 0,0:48:52.27,0:48:55.27,Default,,0,0,0,,and then adrenaline is poured out
+Dialogue: 0,0:48:55.27,0:48:57.46,Default,,0,0,0,,and insulin is poured out
+Dialogue: 0,0:48:57.46,0:49:00.46,Default,,0,0,0,,and you'll see what happens is the blood sugar then
+Dialogue: 0,0:49:00.46,0:49:02.46,Default,,0,0,0,,tends to drop rapidly.
+Dialogue: 0,0:49:02.46,0:49:04.46,Default,,0,0,0,,Behaviorally, in the past,
+Dialogue: 0,0:49:04.46,0:49:07.46,Default,,0,0,0,,we have associated that then with feeling hungry.
+Dialogue: 0,0:49:07.46,0:49:09.46,Default,,0,0,0,,You see, we're not actually hungry.
+Dialogue: 0,0:49:09.46,0:49:11.46,Default,,0,0,0,,Our stomach is still full.
+Dialogue: 0,0:49:11.46,0:49:13.46,Default,,0,0,0,,We have more calories in us than what we need.
+Dialogue: 0,0:49:13.46,0:49:17.46,Default,,0,0,0,,But it's the rapidity and the degree of drop of this blood sugar
+Dialogue: 0,0:49:17.46,0:49:19.46,Default,,0,0,0,,from where it started previously
+Dialogue: 0,0:49:19.46,0:49:22.46,Default,,0,0,0,,then triggers the sensation of hunger again.
+Dialogue: 0,0:49:22.46,0:49:26.52,Default,,0,0,0,,It's much easier when you're initiating this program
+Dialogue: 0,0:49:26.52,0:49:29.52,Default,,0,0,0,,to try and stay on a high protein or a high fat diet
+Dialogue: 0,0:49:29.52,0:49:32.52,Default,,0,0,0,,because then your blood sugar tends to stay somewhat level.
+Dialogue: 0,0:49:32.52,0:49:34.52,Default,,0,0,0,,You don't hit those sudden drops.
+Dialogue: 0,0:49:34.52,0:49:38.52,Default,,0,0,0,,They give you that feeling that you want to eat something right away.
+Dialogue: 0,0:49:38.52,0:49:41.52,Default,,0,0,0,,And therefore it makes it a little easier on yourself.
+Dialogue: 0,0:49:41.52,0:49:45.59,Default,,0,0,0,,The point is we want to avoid suffering in all its forms.
+Dialogue: 0,0:49:45.59,0:49:50.59,Default,,0,0,0,,We don't want to experience suffering in any kind of a program
+Dialogue: 0,0:49:50.59,0:49:52.59,Default,,0,0,0,,because otherwise it's not going to work.
+Dialogue: 0,0:49:52.59,0:49:55.59,Default,,0,0,0,,Counting calories and depriving yourself
+Dialogue: 0,0:49:55.59,0:49:57.59,Default,,0,0,0,,is setting up a form of suffering.
+Dialogue: 0,0:49:57.59,0:50:01.62,Default,,0,0,0,,So what happens then is the unconscious guilt gets satisfied.
+Dialogue: 0,0:50:01.62,0:50:03.62,Default,,0,0,0,,You see, the overindulgence sets up guilt.
+Dialogue: 0,0:50:03.62,0:50:07.62,Default,,0,0,0,,So then we diet and that is sort of like self-punitive.
+Dialogue: 0,0:50:07.62,0:50:10.68,Default,,0,0,0,,You sort of punish yourself by going on bread and water
+Dialogue: 0,0:50:10.68,0:50:13.68,Default,,0,0,0,,like a prisoner for a certain period of time.
+Dialogue: 0,0:50:13.68,0:50:16.84,Default,,0,0,0,,Then after we've punished ourselves sufficiently
+Dialogue: 0,0:50:16.84,0:50:19.84,Default,,0,0,0,,for all this overindulgence in the past
+Dialogue: 0,0:50:19.84,0:50:23.84,Default,,0,0,0,,what happens now is the guilt disappears.
+Dialogue: 0,0:50:23.84,0:50:25.84,Default,,0,0,0,,And once the guilt disappears
+Dialogue: 0,0:50:25.84,0:50:27.84,Default,,0,0,0,,then the old eating habit pattern returns.
+Dialogue: 0,0:50:27.84,0:50:32.84,Default,,0,0,0,,So that overindulgence, feeling guilty, going into a self-punitive
+Dialogue: 0,0:50:32.84,0:50:39.39,Default,,0,0,0,,you know, bread and water kind of diet, going to that extreme.
+Dialogue: 0,0:50:39.39,0:50:42.39,Default,,0,0,0,,So we want to get off that imbalance of extremes.
+Dialogue: 0,0:50:42.39,0:50:45.39,Default,,0,0,0,,First swinging to the overeating and overindulgence
+Dialogue: 0,0:50:45.39,0:50:50.39,Default,,0,0,0,,then swinging into the guilt and the self-punitive deprivation.
+Dialogue: 0,0:50:50.39,0:50:53.39,Default,,0,0,0,,Deprivation is not the way to happiness, you see.
+Dialogue: 0,0:50:53.39,0:50:55.39,Default,,0,0,0,,Nor is overindulgence.
+Dialogue: 0,0:50:55.39,0:50:58.39,Default,,0,0,0,,But transcending it and being in the middle of the two
+Dialogue: 0,0:50:58.39,0:51:00.39,Default,,0,0,0,,so that you're over and above the problem.
+Dialogue: 0,0:51:00.39,0:51:02.39,Default,,0,0,0,,So that the adult is there to take over.
+Dialogue: 0,0:51:03.39,0:51:08.42,Default,,0,0,0,,Using consciousness techniques, making it easy, making it enjoyable.
+Dialogue: 0,0:51:08.42,0:51:12.42,Default,,0,0,0,,It's really delightful to realize that you have just handled that and transcended it.
+Dialogue: 0,0:51:12.42,0:51:15.42,Default,,0,0,0,,Something that's plagued you your whole lifetime can be handled
+Dialogue: 0,0:51:15.42,0:51:17.52,Default,,0,0,0,,you know, in a matter of minutes.
+Dialogue: 0,0:51:17.52,0:51:20.52,Default,,0,0,0,,The first day, I think the first day I tried this
+Dialogue: 0,0:51:20.52,0:51:24.52,Default,,0,0,0,,I don't think I spent over a total of 45 minutes
+Dialogue: 0,0:51:24.52,0:51:27.52,Default,,0,0,0,,sitting down handling those sensations.
+Dialogue: 0,0:51:27.52,0:51:29.52,Default,,0,0,0,,And the second day maybe 20 minutes.
+Dialogue: 0,0:51:29.52,0:51:31.68,Default,,0,0,0,,The third day maybe 10 minutes.
+Dialogue: 0,0:51:31.68,0:51:33.68,Default,,0,0,0,,And the next day maybe 4 minutes.
+Dialogue: 0,0:51:33.68,0:51:37.68,Default,,0,0,0,,And since that time I don't think I've spent collectively an hour
+Dialogue: 0,0:51:37.68,0:51:39.68,Default,,0,0,0,,in the last 10 years.
+Dialogue: 0,0:51:39.68,0:51:42.68,Default,,0,0,0,,Collectively over a 10 year period I don't think I've even spent.
+Dialogue: 0,0:51:42.68,0:51:44.68,Default,,0,0,0,,You see, if you take a stopwatch and start.
+Dialogue: 0,0:51:44.68,0:51:47.68,Default,,0,0,0,,You start to feel hungry, you start a stopwatch.
+Dialogue: 0,0:51:47.68,0:51:50.68,Default,,0,0,0,,And then you sit down and you use this technique.
+Dialogue: 0,0:51:50.68,0:51:53.68,Default,,0,0,0,,And when the hunger feeling is gone you hit the stopwatch again.
+Dialogue: 0,0:51:53.68,0:51:56.68,Default,,0,0,0,,If you did that I don't think you would even collect an hour
+Dialogue: 0,0:51:56.68,0:51:59.68,Default,,0,0,0,,over a 10 year period of time.
+Dialogue: 0,0:51:59.68,0:52:01.68,Default,,0,0,0,,So that certainly is not much in the way of effort.
+Dialogue: 0,0:52:01.68,0:52:03.68,Default,,0,0,0,,Not much in the way of suffering.
+Dialogue: 0,0:52:03.68,0:52:05.68,Default,,0,0,0,,No willpower is involved.
+Dialogue: 0,0:52:05.68,0:52:09.68,Default,,0,0,0,,Instead of willpower what we're using instead is willingness.
+Dialogue: 0,0:52:09.68,0:52:13.68,Default,,0,0,0,,See, willingness is a positive energy.
+Dialogue: 0,0:52:13.68,0:52:16.71,Default,,0,0,0,,It's powerful at 310.
+Dialogue: 0,0:52:16.71,0:52:19.71,Default,,0,0,0,,And using willpower, resisting.
+Dialogue: 0,0:52:19.71,0:52:22.71,Default,,0,0,0,,Willpower means I will resist this.
+Dialogue: 0,0:52:22.71,0:52:24.71,Default,,0,0,0,,Is a negative energy field.
+Dialogue: 0,0:52:24.71,0:52:27.71,Default,,0,0,0,,And it has a weak power of only 125.
+Dialogue: 0,0:52:27.71,0:52:30.71,Default,,0,0,0,,So instead we're going to be using willingness, acceptance.
+Dialogue: 0,0:52:30.71,0:52:32.71,Default,,0,0,0,,We're going to be happy about it.
+Dialogue: 0,0:52:32.71,0:52:34.71,Default,,0,0,0,,If your willpower is at about 300,
+Dialogue: 0,0:52:34.71,0:52:36.71,Default,,0,0,0,,let's say it's at about 500,
+Dialogue: 0,0:52:36.71,0:52:39.71,Default,,0,0,0,,we're going to end up joyful and feeling great about ourself.
+Dialogue: 0,0:52:39.71,0:52:42.71,Default,,0,0,0,,Feeling wonderful about ourself.
+Dialogue: 0,0:52:42.71,0:52:45.71,Default,,0,0,0,,And of course the body begins to feel wonderful about itself.
+Dialogue: 0,0:52:45.71,0:52:48.71,Default,,0,0,0,,And so we begin to experience our body in sort of a happy way.
+Dialogue: 0,0:52:48.71,0:52:51.48,Default,,0,0,0,,A happy way.
+Dialogue: 0,0:52:51.48,0:52:55.48,Default,,0,0,0,,Another way to increase the rapidity of the effect of this
+Dialogue: 0,0:52:55.48,0:52:58.48,Default,,0,0,0,,is by watching your activity.
+Dialogue: 0,0:52:58.48,0:53:00.48,Default,,0,0,0,,See, we said exercise is great.
+Dialogue: 0,0:53:00.48,0:53:03.48,Default,,0,0,0,,But if you're going to set about taking off weight through exercise,
+Dialogue: 0,0:53:03.48,0:53:07.48,Default,,0,0,0,,How many mornings are you going to get up and do calisthenics, you see?
+Dialogue: 0,0:53:07.48,0:53:10.48,Default,,0,0,0,,No matter how attractive the person is on the television set,
+Dialogue: 0,0:53:10.48,0:53:13.48,Default,,0,0,0,,you're just going to do this a number of times,
+Dialogue: 0,0:53:13.48,0:53:16.48,Default,,0,0,0,,and the enthusiasm by the fourth day wears out,
+Dialogue: 0,0:53:16.48,0:53:20.48,Default,,0,0,0,,and before you know it, you're back into the same old pattern.
+Dialogue: 0,0:53:20.48,0:53:22.57,Default,,0,0,0,,Exercise is wonderful.
+Dialogue: 0,0:53:22.57,0:53:25.57,Default,,0,0,0,,It's good for that sense of well-being.
+Dialogue: 0,0:53:25.57,0:53:30.86,Default,,0,0,0,,But as weight reduction folks, we all know the truth of that one.
+Dialogue: 0,0:53:30.86,0:53:34.31,Default,,0,0,0,,It works so well, actually,
+Dialogue: 0,0:53:34.31,0:53:37.31,Default,,0,0,0,,that you may end up having a problem of being thin.
+Dialogue: 0,0:53:37.31,0:53:39.53,Default,,0,0,0,,That's what happened with me.
+Dialogue: 0,0:53:39.53,0:53:42.53,Default,,0,0,0,,This worked so well that pretty soon the appetite disappeared,
+Dialogue: 0,0:53:42.53,0:53:45.53,Default,,0,0,0,,the hunger disappeared, all these cycles of eating, indulgence,
+Dialogue: 0,0:53:45.53,0:53:47.53,Default,,0,0,0,,and then feeling guilty disappeared,
+Dialogue: 0,0:53:47.53,0:53:50.53,Default,,0,0,0,,and I noticed that I would forget to eat.
+Dialogue: 0,0:53:50.53,0:53:52.53,Default,,0,0,0,,Forgot to eat breakfast, forgot to eat lunch.
+Dialogue: 0,0:53:52.53,0:53:55.53,Default,,0,0,0,,I would get busy with the activities of the day
+Dialogue: 0,0:53:55.53,0:53:57.53,Default,,0,0,0,,and totally forget eating.
+Dialogue: 0,0:53:57.53,0:54:00.60,Default,,0,0,0,,Once in a while it would come to you in the beginning
+Dialogue: 0,0:54:00.60,0:54:01.60,Default,,0,0,0,,because it's a habit.
+Dialogue: 0,0:54:01.60,0:54:02.60,Default,,0,0,0,,It's meal time.
+Dialogue: 0,0:54:02.60,0:54:04.66,Default,,0,0,0,,And then what you do is you sit down
+Dialogue: 0,0:54:04.66,0:54:09.66,Default,,0,0,0,,and you let go resisting that the same as you did the sensations.
+Dialogue: 0,0:54:09.66,0:54:13.66,Default,,0,0,0,,And you'll notice that the idea that I must eat breakfast,
+Dialogue: 0,0:54:13.66,0:54:15.66,Default,,0,0,0,,I must eat lunch, I must eat dinner,
+Dialogue: 0,0:54:15.66,0:54:17.66,Default,,0,0,0,,these are cultural conditionings.
+Dialogue: 0,0:54:17.66,0:54:19.66,Default,,0,0,0,,They don't have any reality to them.
+Dialogue: 0,0:54:19.66,0:54:22.66,Default,,0,0,0,,It's just as easy to not eat all day.
+Dialogue: 0,0:54:22.66,0:54:25.98,Default,,0,0,0,,And I've actually gone days without eating
+Dialogue: 0,0:54:25.98,0:54:26.98,Default,,0,0,0,,and didn't even notice it.
+Dialogue: 0,0:54:26.98,0:54:29.98,Default,,0,0,0,,One time I went from Monday to Thursday.
+Dialogue: 0,0:54:29.98,0:54:30.98,Default,,0,0,0,,I was so busy with activities.
+Dialogue: 0,0:54:30.98,0:54:33.98,Default,,0,0,0,,And on Thursday I suddenly realized
+Dialogue: 0,0:54:33.98,0:54:37.17,Default,,0,0,0,,I don't think I've eaten the last couple of days.
+Dialogue: 0,0:54:37.17,0:54:39.56,Default,,0,0,0,,And sure enough I hadn't.
+Dialogue: 0,0:54:39.56,0:54:41.56,Default,,0,0,0,,And the family began to complain that I was too thin.
+Dialogue: 0,0:54:41.56,0:54:45.56,Default,,0,0,0,,So then I had to consciously be aware that it's necessary to eat
+Dialogue: 0,0:54:45.56,0:54:49.56,Default,,0,0,0,,and sort of reprogram myself a little bit back into eating.
+Dialogue: 0,0:54:49.56,0:54:51.56,Default,,0,0,0,,So it works extremely well.
+Dialogue: 0,0:54:51.56,0:54:53.56,Default,,0,0,0,,It brings a great deal of happiness.
+Dialogue: 0,0:54:53.56,0:54:57.07,Default,,0,0,0,,And we might talk about something else too.
+Dialogue: 0,0:54:57.07,0:55:01.07,Default,,0,0,0,,We might talk about using another consciousness technique
+Dialogue: 0,0:55:01.07,0:55:03.07,Default,,0,0,0,,which has a general application.
+Dialogue: 0,0:55:03.07,0:55:05.07,Default,,0,0,0,,All the things we're talking about today,
+Dialogue: 0,0:55:05.07,0:55:06.07,Default,,0,0,0,,it of course will dawn on you,
+Dialogue: 0,0:55:06.07,0:55:08.90,Default,,0,0,0,,have many applications.
+Dialogue: 0,0:55:08.90,0:55:10.90,Default,,0,0,0,,There is a technique also
+Dialogue: 0,0:55:10.90,0:55:14.90,Default,,0,0,0,,where you picture the kind of body you want to have.
+Dialogue: 0,0:55:14.90,0:55:15.96,Default,,0,0,0,,You see?
+Dialogue: 0,0:55:15.96,0:55:18.96,Default,,0,0,0,,You picture the kind of body you want to have
+Dialogue: 0,0:55:18.96,0:55:20.96,Default,,0,0,0,,and you picture the kind of feeling
+Dialogue: 0,0:55:20.96,0:55:25.83,Default,,0,0,0,,that you want to have about having this kind of a body.
+Dialogue: 0,0:55:25.83,0:55:27.83,Default,,0,0,0,,Remember some time in your life
+Dialogue: 0,0:55:27.83,0:55:31.83,Default,,0,0,0,,when you were feeling joyful and pleased with yourself.
+Dialogue: 0,0:55:31.83,0:55:33.83,Default,,0,0,0,,And now picture yourself,
+Dialogue: 0,0:55:33.83,0:55:37.21,Default,,0,0,0,,picture that body the way you want it to be
+Dialogue: 0,0:55:37.21,0:55:40.47,Default,,0,0,0,,and reawaken that emotion.
+Dialogue: 0,0:55:40.47,0:55:43.47,Default,,0,0,0,,Picture yourself as, let's say you want to be slim,
+Dialogue: 0,0:55:43.47,0:55:45.47,Default,,0,0,0,,picture yourself as slim
+Dialogue: 0,0:55:45.47,0:55:48.47,Default,,0,0,0,,and begin to love that picture.
+Dialogue: 0,0:55:48.47,0:55:50.47,Default,,0,0,0,,Love that picture of yourself.
+Dialogue: 0,0:55:50.47,0:55:53.47,Default,,0,0,0,,Love that picture of the body.
+Dialogue: 0,0:55:53.47,0:55:55.47,Default,,0,0,0,,And now let it go.
+Dialogue: 0,0:55:55.47,0:55:57.47,Default,,0,0,0,,Now let it go knowing that that,
+Dialogue: 0,0:55:57.47,0:55:59.47,Default,,0,0,0,,what you've done is you've set up a program,
+Dialogue: 0,0:55:59.47,0:56:01.47,Default,,0,0,0,,you've set up what is going to be in the future.
+Dialogue: 0,0:56:01.47,0:56:04.47,Default,,0,0,0,,Because the mind will now begin
+Dialogue: 0,0:56:04.47,0:56:07.47,Default,,0,0,0,,to move in that direction automatically.
+Dialogue: 0,0:56:07.47,0:56:10.53,Default,,0,0,0,,Just love that picture of yourself
+Dialogue: 0,0:56:10.53,0:56:13.53,Default,,0,0,0,,and if you like you can put the number of pounds under it.
+Dialogue: 0,0:56:13.53,0:56:16.53,Default,,0,0,0,,Right now I have 132 under my picture.
+Dialogue: 0,0:56:16.53,0:56:18.53,Default,,0,0,0,,So I picture how I want to look.
+Dialogue: 0,0:56:18.53,0:56:22.53,Default,,0,0,0,,You know, relatively slim so your clothes feel comfortable.
+Dialogue: 0,0:56:22.53,0:56:25.53,Default,,0,0,0,,And under that I have a picture of 132.
+Dialogue: 0,0:56:25.53,0:56:27.53,Default,,0,0,0,,So I just love that about myself
+Dialogue: 0,0:56:27.53,0:56:31.53,Default,,0,0,0,,and I say, you know, fantastic at your age to be slim
+Dialogue: 0,0:56:31.53,0:56:34.72,Default,,0,0,0,,and active and feel good about the body.
+Dialogue: 0,0:56:34.72,0:56:37.65,Default,,0,0,0,,I love myself for that.
+Dialogue: 0,0:56:37.65,0:56:41.65,Default,,0,0,0,,You see, we want to stop identifying with the body.
+Dialogue: 0,0:56:41.65,0:56:43.65,Default,,0,0,0,,You know, I am not the body.
+Dialogue: 0,0:56:43.65,0:56:45.65,Default,,0,0,0,,I have a body.
+Dialogue: 0,0:56:45.65,0:56:49.65,Default,,0,0,0,,So how I view my relationship to body,
+Dialogue: 0,0:56:49.65,0:56:51.65,Default,,0,0,0,,it becomes important.
+Dialogue: 0,0:56:51.65,0:56:53.65,Default,,0,0,0,,I am that which has a body.
+Dialogue: 0,0:56:53.65,0:56:55.65,Default,,0,0,0,,Like I am that which has a car.
+Dialogue: 0,0:56:55.65,0:56:58.65,Default,,0,0,0,,I am that which has a house I live in.
+Dialogue: 0,0:56:58.65,0:57:01.65,Default,,0,0,0,,So the car, the house, I mean the car,
+Dialogue: 0,0:57:01.65,0:57:03.65,Default,,0,0,0,,the body becomes like those things.
+Dialogue: 0,0:57:03.65,0:57:05.65,Default,,0,0,0,,It becomes like my pet.
+Dialogue: 0,0:57:05.65,0:57:07.65,Default,,0,0,0,,It becomes like my pet animal.
+Dialogue: 0,0:57:07.65,0:57:09.65,Default,,0,0,0,,My friend, Gloria Ross, calls it her pet.
+Dialogue: 0,0:57:09.65,0:57:11.65,Default,,0,0,0,,And that is a great way to look at it.
+Dialogue: 0,0:57:11.65,0:57:13.65,Default,,0,0,0,,See, this is my little pet.
+Dialogue: 0,0:57:13.65,0:57:14.65,Default,,0,0,0,,This is my bicycle.
+Dialogue: 0,0:57:14.65,0:57:15.65,Default,,0,0,0,,This is my vehicle.
+Dialogue: 0,0:57:15.65,0:57:17.65,Default,,0,0,0,,This is my car.
+Dialogue: 0,0:57:17.65,0:57:20.65,Default,,0,0,0,,This is my pet that carries me around.
+Dialogue: 0,0:57:20.65,0:57:23.65,Default,,0,0,0,,But you see, it is different than saying I am that.
+Dialogue: 0,0:57:23.65,0:57:24.65,Default,,0,0,0,,I am that.
+Dialogue: 0,0:57:24.65,0:57:26.65,Default,,0,0,0,,Because if I say I am the body,
+Dialogue: 0,0:57:26.65,0:57:29.65,Default,,0,0,0,,then I am subject to what goes on with the body.
+Dialogue: 0,0:57:29.65,0:57:30.65,Default,,0,0,0,,And if it gains weight,
+Dialogue: 0,0:57:30.65,0:57:33.65,Default,,0,0,0,,then it is me that is fat.
+Dialogue: 0,0:57:33.65,0:57:35.65,Default,,0,0,0,,I am the one at fault.
+Dialogue: 0,0:57:35.65,0:57:38.65,Default,,0,0,0,,I berate me thinking I am the body.
+Dialogue: 0,0:57:38.65,0:57:43.10,Default,,0,0,0,,It doesn't take too much in the way of meditative self-awareness
+Dialogue: 0,0:57:43.10,0:57:46.10,Default,,0,0,0,,to realize that you are that which experiences the body.
+Dialogue: 0,0:57:46.10,0:57:48.10,Default,,0,0,0,,You are not the body.
+Dialogue: 0,0:57:48.10,0:57:50.52,Default,,0,0,0,,Right in the beginning we said that
+Dialogue: 0,0:57:50.52,0:57:52.58,Default,,0,0,0,,body cannot experience itself.
+Dialogue: 0,0:57:52.58,0:57:54.58,Default,,0,0,0,,It only can be experienced in mind.
+Dialogue: 0,0:57:54.58,0:57:57.58,Default,,0,0,0,,Mind can only be experienced by consciousness.
+Dialogue: 0,0:57:57.58,0:58:00.58,Default,,0,0,0,,Consciousness itself can only be experienced by
+Dialogue: 0,0:58:00.58,0:58:03.64,Default,,0,0,0,,a field greater than itself called awareness.
+Dialogue: 0,0:58:03.64,0:58:06.64,Default,,0,0,0,,So I am that which is aware of the body.
+Dialogue: 0,0:58:06.64,0:58:11.12,Default,,0,0,0,,I am that which is beyond the body.
+Dialogue: 0,0:58:11.12,0:58:13.12,Default,,0,0,0,,So how I am with that body now?
+Dialogue: 0,0:58:13.12,0:58:15.12,Default,,0,0,0,,I am one thing.
+Dialogue: 0,0:58:15.12,0:58:17.12,Default,,0,0,0,,The body is another.
+Dialogue: 0,0:58:17.12,0:58:19.12,Default,,0,0,0,,And this body is going to reflect
+Dialogue: 0,0:58:19.12,0:58:21.12,Default,,0,0,0,,what I am holding in consciousness.
+Dialogue: 0,0:58:21.12,0:58:24.12,Default,,0,0,0,,So that my problem is not the body at all.
+Dialogue: 0,0:58:24.12,0:58:27.12,Default,,0,0,0,,The problem is what I am holding in consciousness.
+Dialogue: 0,0:58:27.12,0:58:30.12,Default,,0,0,0,,My problem is merely to change the vibrational body.
+Dialogue: 0,0:58:30.12,0:58:33.12,Default,,0,0,0,,To change the vibrational patterns within consciousness.
+Dialogue: 0,0:58:33.12,0:58:35.12,Default,,0,0,0,,And this body is going to do automatically
+Dialogue: 0,0:58:35.12,0:58:37.12,Default,,0,0,0,,what it is told to do.
+Dialogue: 0,0:58:37.12,0:58:38.12,Default,,0,0,0,,The body can't think.
+Dialogue: 0,0:58:38.12,0:58:40.12,Default,,0,0,0,,The body has no mind.
+Dialogue: 0,0:58:40.12,0:58:44.12,Default,,0,0,0,,What I am, that which I am, has the mind.
+Dialogue: 0,0:58:44.12,0:58:47.12,Default,,0,0,0,,And the body follows what I tell it to do.
+Dialogue: 0,0:58:47.12,0:58:50.12,Default,,0,0,0,,So this imaging technique,
+Dialogue: 0,0:58:50.12,0:58:55.12,Default,,0,0,0,,the way in which I hold as pleasurable my relationship,
+Dialogue: 0,0:58:55.12,0:58:57.12,Default,,0,0,0,,and I enjoy its activity now.
+Dialogue: 0,0:58:57.12,0:58:59.12,Default,,0,0,0,,I enjoy the way it sort of bounces around.
+Dialogue: 0,0:58:59.12,0:59:01.12,Default,,0,0,0,,It sort of does its...
+Dialogue: 0,0:59:01.12,0:59:03.12,Default,,0,0,0,,You see, as we keep letting go
+Dialogue: 0,0:59:03.12,0:59:05.12,Default,,0,0,0,,and keep following these techniques,
+Dialogue: 0,0:59:05.12,0:59:08.12,Default,,0,0,0,,what happens is the body seems to get lighter.
+Dialogue: 0,0:59:08.12,0:59:11.12,Default,,0,0,0,,The body, having nothing to do with weight,
+Dialogue: 0,0:59:11.12,0:59:14.12,Default,,0,0,0,,is experienced as progressively weightless.
+Dialogue: 0,0:59:14.12,0:59:17.12,Default,,0,0,0,,And as we move up the scale of consciousness,
+Dialogue: 0,0:59:17.12,0:59:21.12,Default,,0,0,0,,after a while we are hardly aware that the body even exists.
+Dialogue: 0,0:59:21.12,0:59:25.96,Default,,0,0,0,,Let's look at the scale of consciousness then
+Dialogue: 0,0:59:25.96,0:59:28.40,Default,,0,0,0,,in a different way.
+Dialogue: 0,0:59:28.40,0:59:29.40,Default,,0,0,0,,Let's look at
+Dialogue: 0,0:59:29.40,0:59:32.40,Default,,0,0,0,,how we are with our weight problem.
+Dialogue: 0,0:59:32.40,0:59:35.50,Default,,0,0,0,,How am I holding this problem
+Dialogue: 0,0:59:35.50,0:59:39.50,Default,,0,0,0,,so that I can get out of the emotional destructive patterns
+Dialogue: 0,0:59:39.50,0:59:41.50,Default,,0,0,0,,which have accompanied it?
+Dialogue: 0,0:59:41.50,0:59:44.50,Default,,0,0,0,,It's generally thought that these negative feelings
+Dialogue: 0,0:59:44.50,0:59:47.50,Default,,0,0,0,,are the cause of the weight problem.
+Dialogue: 0,0:59:47.50,0:59:51.17,Default,,0,0,0,,If you look into it, you'll see this is really not so.
+Dialogue: 0,0:59:51.17,0:59:55.17,Default,,0,0,0,,You'll see that these are the reactions to the weight problem.
+Dialogue: 0,0:59:55.17,0:59:57.17,Default,,0,0,0,,These are the reactions to the weight problem.
+Dialogue: 0,0:59:57.17,0:59:59.17,Default,,0,0,0,,And sometimes they are the corollary
+Dialogue: 0,0:59:59.17,1:00:01.17,Default,,0,0,0,,or the parallel.
+Dialogue: 0,1:00:01.17,1:00:05.16,Default,,0,0,0,,Let's look and see how we've been holding
+Dialogue: 0,1:00:05.16,1:00:08.16,Default,,0,0,0,,the weight problem up to this point.
+Dialogue: 0,1:00:08.16,1:00:11.16,Default,,0,0,0,,Most of us have been down here at the bottom of the box
+Dialogue: 0,1:00:11.16,1:00:12.16,Default,,0,0,0,,called guilt.
+Dialogue: 0,1:00:12.16,1:00:13.16,Default,,0,0,0,,See?
+Dialogue: 0,1:00:13.16,1:00:16.29,Default,,0,0,0,,Guilt is an energy field of 30.
+Dialogue: 0,1:00:16.29,1:00:17.29,Default,,0,0,0,,It's very weak.
+Dialogue: 0,1:00:17.29,1:00:20.29,Default,,0,0,0,,If you try to handle your weight problem
+Dialogue: 0,1:00:20.29,1:00:23.29,Default,,0,0,0,,or any problem, alcohol, relationships,
+Dialogue: 0,1:00:23.29,1:00:26.29,Default,,0,0,0,,if you try to handle anything from the level of guilt,
+Dialogue: 0,1:00:26.29,1:00:29.29,Default,,0,0,0,,you can see how much energy you've got to work with.
+Dialogue: 0,1:00:29.29,1:00:32.29,Default,,0,0,0,,You've got like 30 bucks as compared to love,
+Dialogue: 0,1:00:32.29,1:00:34.29,Default,,0,0,0,,which is 500 bucks.
+Dialogue: 0,1:00:34.29,1:00:37.29,Default,,0,0,0,,30 bucks isn't going to buy you much progress in anything.
+Dialogue: 0,1:00:37.29,1:00:40.29,Default,,0,0,0,,Not only that, but the energy field is negative,
+Dialogue: 0,1:00:40.29,1:00:43.29,Default,,0,0,0,,meaning you're going to feel lousy about the whole thing.
+Dialogue: 0,1:00:43.29,1:00:45.29,Default,,0,0,0,,You're going to be full of self-hatred,
+Dialogue: 0,1:00:45.29,1:00:47.29,Default,,0,0,0,,and actually the process is destructive.
+Dialogue: 0,1:00:47.29,1:00:49.29,Default,,0,0,0,,The process is destructive.
+Dialogue: 0,1:00:49.29,1:00:51.29,Default,,0,0,0,,I mean, people have actually committed suicide
+Dialogue: 0,1:00:51.29,1:00:54.29,Default,,0,0,0,,over their weight problem, their self-indulgence.
+Dialogue: 0,1:00:54.29,1:00:58.29,Default,,0,0,0,,Even if you don't handle it from guilt,
+Dialogue: 0,1:00:58.29,1:01:00.29,Default,,0,0,0,,you move up to hopelessness.
+Dialogue: 0,1:01:00.29,1:01:03.29,Default,,0,0,0,,This state here, which has an energy field of 50,
+Dialogue: 0,1:01:03.29,1:01:06.29,Default,,0,0,0,,is accompanied by hopelessness and despair.
+Dialogue: 0,1:01:06.29,1:01:09.29,Default,,0,0,0,,This means my case is hopeless.
+Dialogue: 0,1:01:09.29,1:01:11.29,Default,,0,0,0,,I've tried all the diets.
+Dialogue: 0,1:01:11.29,1:01:13.29,Default,,0,0,0,,I've tried the milk farms, all that.
+Dialogue: 0,1:01:13.29,1:01:18.29,Default,,0,0,0,,I've lost the energy with which to even address this problem anymore.
+Dialogue: 0,1:01:18.29,1:01:21.29,Default,,0,0,0,,I'm the victim of it, and I just surrender to it and give up.
+Dialogue: 0,1:01:21.29,1:01:24.29,Default,,0,0,0,,So this is, I am hopeless.
+Dialogue: 0,1:01:24.29,1:01:26.29,Default,,0,0,0,,The next one above it is grief.
+Dialogue: 0,1:01:26.29,1:01:27.29,Default,,0,0,0,,This is the depression.
+Dialogue: 0,1:01:27.29,1:01:29.29,Default,,0,0,0,,This is the depression about the problem,
+Dialogue: 0,1:01:29.29,1:01:33.29,Default,,0,0,0,,the regret, feeling despondent and dispirited.
+Dialogue: 0,1:01:33.29,1:01:34.36,Default,,0,0,0,,You see?
+Dialogue: 0,1:01:34.36,1:01:37.36,Default,,0,0,0,,Or the fear of this problem and its consequences.
+Dialogue: 0,1:01:37.36,1:01:38.36,Default,,0,0,0,,These are all negative feelings.
+Dialogue: 0,1:01:38.36,1:01:40.36,Default,,0,0,0,,You see the direction of the arrow.
+Dialogue: 0,1:01:40.36,1:01:42.36,Default,,0,0,0,,That I'm going to die of a heart attack.
+Dialogue: 0,1:01:42.36,1:01:44.36,Default,,0,0,0,,This overweight is going to kill me, etc.
+Dialogue: 0,1:01:44.36,1:01:46.36,Default,,0,0,0,,This is full of worry, anxiety, and panic.
+Dialogue: 0,1:01:46.36,1:01:49.36,Default,,0,0,0,,It's going to destroy my relationships and my future.
+Dialogue: 0,1:01:49.36,1:01:52.36,Default,,0,0,0,,And of course, your self-esteem is deflated.
+Dialogue: 0,1:01:52.36,1:01:55.36,Default,,0,0,0,,So people with a weight problem often socially withdraw.
+Dialogue: 0,1:01:55.36,1:01:56.36,Default,,0,0,0,,They compensate.
+Dialogue: 0,1:01:56.36,1:01:58.36,Default,,0,0,0,,They compensate in other ways,
+Dialogue: 0,1:01:58.36,1:02:02.36,Default,,0,0,0,,because they feel inadequate due to this energy field.
+Dialogue: 0,1:02:02.36,1:02:04.36,Default,,0,0,0,,They're not inadequate people at all.
+Dialogue: 0,1:02:04.36,1:02:07.36,Default,,0,0,0,,It's just that they're holding that about their situation,
+Dialogue: 0,1:02:07.36,1:02:11.80,Default,,0,0,0,,and then the negativity of it affects their emotions.
+Dialogue: 0,1:02:11.80,1:02:14.80,Default,,0,0,0,,We've already talked about this level here.
+Dialogue: 0,1:02:14.80,1:02:17.80,Default,,0,0,0,,You know, the desiring, the wanting, the craving,
+Dialogue: 0,1:02:17.80,1:02:19.80,Default,,0,0,0,,behind all this, the entrapment.
+Dialogue: 0,1:02:19.80,1:02:22.80,Default,,0,0,0,,And we move up to the next field, which is anger.
+Dialogue: 0,1:02:22.80,1:02:25.80,Default,,0,0,0,,You know, the person is angry about their weight problem.
+Dialogue: 0,1:02:25.80,1:02:26.80,Default,,0,0,0,,They resent it.
+Dialogue: 0,1:02:26.80,1:02:28.80,Default,,0,0,0,,They're full of grievances about it.
+Dialogue: 0,1:02:28.80,1:02:31.80,Default,,0,0,0,,And although 150 is more effective,
+Dialogue: 0,1:02:31.80,1:02:35.80,Default,,0,0,0,,you're probably going to be more effective utilizing anger,
+Dialogue: 0,1:02:35.80,1:02:37.80,Default,,0,0,0,,certainly, than guilt or hopelessness.
+Dialogue: 0,1:02:37.80,1:02:40.80,Default,,0,0,0,,If you're angry enough about your weight problem,
+Dialogue: 0,1:02:40.80,1:02:43.80,Default,,0,0,0,,you can move up to pride, which is 175.
+Dialogue: 0,1:02:43.80,1:02:46.80,Default,,0,0,0,,That's enough to run the United States Marine Corps, pride.
+Dialogue: 0,1:02:46.80,1:02:48.80,Default,,0,0,0,,That's a lot of power.
+Dialogue: 0,1:02:48.80,1:02:52.12,Default,,0,0,0,,And try to move through pride,
+Dialogue: 0,1:02:52.12,1:02:55.12,Default,,0,0,0,,because that's not exactly a great place to hang out in,
+Dialogue: 0,1:02:55.12,1:02:58.12,Default,,0,0,0,,because of the inflation of the ego that happens there,
+Dialogue: 0,1:02:58.12,1:02:59.12,Default,,0,0,0,,and move up to courage.
+Dialogue: 0,1:02:59.12,1:03:03.12,Default,,0,0,0,,The courage, now that you know some tools that are really going to work,
+Dialogue: 0,1:03:03.12,1:03:05.12,Default,,0,0,0,,the courage to try them out.
+Dialogue: 0,1:03:05.12,1:03:06.12,Default,,0,0,0,,That's 200.
+Dialogue: 0,1:03:06.12,1:03:10.12,Default,,0,0,0,,200 is a lot of power as compared to 30 or 50.
+Dialogue: 0,1:03:10.12,1:03:13.12,Default,,0,0,0,,It enables you to face, to cope, to handle.
+Dialogue: 0,1:03:13.12,1:03:16.12,Default,,0,0,0,,And what happens there is you become empowered.
+Dialogue: 0,1:03:16.12,1:03:18.12,Default,,0,0,0,,You now become empowered.
+Dialogue: 0,1:03:18.12,1:03:22.12,Default,,0,0,0,,The truth of it is you haven't known how to handle it up to now,
+Dialogue: 0,1:03:22.12,1:03:23.12,Default,,0,0,0,,or you would have.
+Dialogue: 0,1:03:23.12,1:03:24.12,Default,,0,0,0,,Isn't that so?
+Dialogue: 0,1:03:24.12,1:03:26.12,Default,,0,0,0,,If you really knew how to handle it, you would have.
+Dialogue: 0,1:03:26.12,1:03:27.12,Default,,0,0,0,,That's the truth of it.
+Dialogue: 0,1:03:27.12,1:03:31.76,Default,,0,0,0,,You use these releasing techniques, this letting go,
+Dialogue: 0,1:03:31.76,1:03:34.76,Default,,0,0,0,,these letting go techniques,
+Dialogue: 0,1:03:34.76,1:03:37.76,Default,,0,0,0,,and you become detached from the whole problem.
+Dialogue: 0,1:03:37.76,1:03:40.02,Default,,0,0,0,,If the weight stays, it stays,
+Dialogue: 0,1:03:40.02,1:03:43.02,Default,,0,0,0,,and if it doesn't stay, it doesn't make any difference.
+Dialogue: 0,1:03:43.02,1:03:47.02,Default,,0,0,0,,At this point, you say, it's not apathy, it's not hopelessness.
+Dialogue: 0,1:03:47.02,1:03:50.02,Default,,0,0,0,,On the other hand, you're released from the thing,
+Dialogue: 0,1:03:50.02,1:03:52.02,Default,,0,0,0,,and therefore, you're feeling good,
+Dialogue: 0,1:03:52.02,1:03:54.02,Default,,0,0,0,,and you move up to a willingness.
+Dialogue: 0,1:03:54.02,1:03:57.02,Default,,0,0,0,,Willingness at 310 is a lot of energy.
+Dialogue: 0,1:03:57.02,1:03:58.02,Default,,0,0,0,,Compare it to guilt.
+Dialogue: 0,1:03:58.02,1:03:59.02,Default,,0,0,0,,Compare it to grief.
+Dialogue: 0,1:03:59.02,1:04:00.02,Default,,0,0,0,,Compare it to...
+Dialogue: 0,1:04:00.02,1:04:02.02,Default,,0,0,0,,You see how much power you've got now,
+Dialogue: 0,1:04:02.02,1:04:04.02,Default,,0,0,0,,and here you're in agreement.
+Dialogue: 0,1:04:04.02,1:04:05.02,Default,,0,0,0,,You're aligned with this technique.
+Dialogue: 0,1:04:05.02,1:04:07.02,Default,,0,0,0,,Your intention is finally up,
+Dialogue: 0,1:04:07.02,1:04:09.02,Default,,0,0,0,,that you're finally going to handle it,
+Dialogue: 0,1:04:09.02,1:04:11.02,Default,,0,0,0,,and you accept that it can be handled,
+Dialogue: 0,1:04:11.02,1:04:12.02,Default,,0,0,0,,that you're an adequate person.
+Dialogue: 0,1:04:12.02,1:04:14.02,Default,,0,0,0,,You start becoming confident,
+Dialogue: 0,1:04:14.02,1:04:16.02,Default,,0,0,0,,and there's a transformation now occurring
+Dialogue: 0,1:04:16.02,1:04:20.02,Default,,0,0,0,,because you realize the power to handle this is within you,
+Dialogue: 0,1:04:20.02,1:04:23.05,Default,,0,0,0,,and you start moving up into a lovingness.
+Dialogue: 0,1:04:23.05,1:04:25.05,Default,,0,0,0,,The desire to really love yourself,
+Dialogue: 0,1:04:25.05,1:04:27.05,Default,,0,0,0,,to love this body,
+Dialogue: 0,1:04:27.05,1:04:30.05,Default,,0,0,0,,now that you don't identify with it as me.
+Dialogue: 0,1:04:30.05,1:04:32.05,Default,,0,0,0,,This body is not me.
+Dialogue: 0,1:04:32.05,1:04:34.05,Default,,0,0,0,,If you take off my left leg, I'm still me.
+Dialogue: 0,1:04:34.05,1:04:36.05,Default,,0,0,0,,If you take off my right leg, I'm still me.
+Dialogue: 0,1:04:36.05,1:04:38.05,Default,,0,0,0,,Take off the left arm, I'm still me.
+Dialogue: 0,1:04:38.05,1:04:40.05,Default,,0,0,0,,Take off the right arm, I'm still me.
+Dialogue: 0,1:04:40.05,1:04:43.05,Default,,0,0,0,,Take off both ears, I'm still me.
+Dialogue: 0,1:04:43.05,1:04:45.05,Default,,0,0,0,,You get that the me is me,
+Dialogue: 0,1:04:45.05,1:04:47.05,Default,,0,0,0,,and I'm not the body.
+Dialogue: 0,1:04:47.05,1:04:50.05,Default,,0,0,0,,So whether it weighs 200 pounds or 85 pounds,
+Dialogue: 0,1:04:50.05,1:04:53.05,Default,,0,0,0,,that which I am is unassailed by that,
+Dialogue: 0,1:04:53.05,1:04:56.72,Default,,0,0,0,,and I must learn to love that body now,
+Dialogue: 0,1:04:56.72,1:04:58.72,Default,,0,0,0,,begin to really value it,
+Dialogue: 0,1:04:58.72,1:05:01.98,Default,,0,0,0,,and see that it's just an enjoyable little puppet.
+Dialogue: 0,1:05:01.98,1:05:04.98,Default,,0,0,0,,The way to relate to the body is that it's a happy little puppet.
+Dialogue: 0,1:05:04.98,1:05:06.98,Default,,0,0,0,,You see, and it goes about its way,
+Dialogue: 0,1:05:06.98,1:05:08.98,Default,,0,0,0,,and the less attention you pay to it,
+Dialogue: 0,1:05:08.98,1:05:10.98,Default,,0,0,0,,the better it really handles itself.
+Dialogue: 0,1:05:10.98,1:05:13.98,Default,,0,0,0,,It just does what it's doing automatically.
+Dialogue: 0,1:05:13.98,1:05:15.98,Default,,0,0,0,,And you see, if you get to love it, you see,
+Dialogue: 0,1:05:15.98,1:05:17.98,Default,,0,0,0,,your brain begins to release endorphins.
+Dialogue: 0,1:05:17.98,1:05:18.98,Default,,0,0,0,,Endorphins.
+Dialogue: 0,1:05:18.98,1:05:20.98,Default,,0,0,0,,When endorphins are released,
+Dialogue: 0,1:05:20.98,1:05:23.98,Default,,0,0,0,,a process goes on in consciousness called revelation.
+Dialogue: 0,1:05:23.98,1:05:25.98,Default,,0,0,0,,You begin to see things differently.
+Dialogue: 0,1:05:25.98,1:05:27.98,Default,,0,0,0,,What do you see differently?
+Dialogue: 0,1:05:27.98,1:05:30.98,Default,,0,0,0,,You see how wonderful your little body is.
+Dialogue: 0,1:05:30.98,1:05:32.98,Default,,0,0,0,,That's one of the things you begin to see.
+Dialogue: 0,1:05:32.98,1:05:35.98,Default,,0,0,0,,You begin to love it and get a kick out of it.
+Dialogue: 0,1:05:35.98,1:05:38.98,Default,,0,0,0,,When you're overweight, are you getting a kick out of your body?
+Dialogue: 0,1:05:38.98,1:05:40.98,Default,,0,0,0,,No, you don't get a kick out of it.
+Dialogue: 0,1:05:40.98,1:05:43.98,Default,,0,0,0,,Every time you look at it, it throws you back into guilt again.
+Dialogue: 0,1:05:43.98,1:05:47.52,Default,,0,0,0,,Up here, you start getting a kick out of it.
+Dialogue: 0,1:05:47.52,1:05:50.52,Default,,0,0,0,,You start getting playful with it, sort of a joyfulness.
+Dialogue: 0,1:05:50.52,1:05:54.52,Default,,0,0,0,,You see, a joyfulness and a happiness about this little body.
+Dialogue: 0,1:05:54.52,1:05:58.52,Default,,0,0,0,,It bounces around and you're just sort of dimly aware of it.
+Dialogue: 0,1:05:58.52,1:06:02.94,Default,,0,0,0,,It's because you're experiencing your existence
+Dialogue: 0,1:06:02.94,1:06:05.94,Default,,0,0,0,,from a position of allness.
+Dialogue: 0,1:06:05.94,1:06:06.94,Default,,0,0,0,,See?
+Dialogue: 0,1:06:06.94,1:06:10.97,Default,,0,0,0,,Once you become conscious about where experience is happening,
+Dialogue: 0,1:06:10.97,1:06:14.97,Default,,0,0,0,,you get that experiencing is happening everywhere.
+Dialogue: 0,1:06:14.97,1:06:17.97,Default,,0,0,0,,You begin to identify with everywhere-ness.
+Dialogue: 0,1:06:17.97,1:06:23.97,Default,,0,0,0,,Instead of stomach-ness or bulge-ness or ulcer-ness,
+Dialogue: 0,1:06:23.97,1:06:26.97,Default,,0,0,0,,all those localized things,
+Dialogue: 0,1:06:26.97,1:06:29.97,Default,,0,0,0,,that which I am is a conscious being.
+Dialogue: 0,1:06:29.97,1:06:31.97,Default,,0,0,0,,Consciousness is everywhere.
+Dialogue: 0,1:06:31.97,1:06:35.04,Default,,0,0,0,,So I begin to experience my existence
+Dialogue: 0,1:06:35.04,1:06:38.04,Default,,0,0,0,,as being almost everywhere in space.
+Dialogue: 0,1:06:38.04,1:06:42.04,Default,,0,0,0,,And within this everywhere-ness, within this allness,
+Dialogue: 0,1:06:42.04,1:06:44.04,Default,,0,0,0,,this happy little puppet bounces around.
+Dialogue: 0,1:06:44.04,1:06:47.04,Default,,0,0,0,,You see how it just does what it does.
+Dialogue: 0,1:06:47.04,1:06:51.32,Default,,0,0,0,,And it has a good time doing it.
+Dialogue: 0,1:06:51.32,1:06:54.32,Default,,0,0,0,,We start to come from the heart about it then.
+Dialogue: 0,1:06:54.32,1:06:56.32,Default,,0,0,0,,Heart with a capital H.
+Dialogue: 0,1:06:56.32,1:06:58.32,Default,,0,0,0,,Heart not meaning the physical organ.
+Dialogue: 0,1:06:58.32,1:07:03.60,Default,,0,0,0,,Heart meaning that quality of valuing your existence.
+Dialogue: 0,1:07:03.60,1:07:05.60,Default,,0,0,0,,Coming from that greatness.
+Dialogue: 0,1:07:05.60,1:07:06.60,Default,,0,0,0,,Coming from the big-ness.
+Dialogue: 0,1:07:06.60,1:07:09.60,Default,,0,0,0,,Coming from the joy of aliveness.
+Dialogue: 0,1:07:09.60,1:07:12.60,Default,,0,0,0,,And seeing the body as a contributor to that.
+Dialogue: 0,1:07:12.60,1:07:15.60,Default,,0,0,0,,As something that's enjoyable.
+Dialogue: 0,1:07:15.60,1:07:17.60,Default,,0,0,0,,As something that you can have fun with.
+Dialogue: 0,1:07:17.60,1:07:19.60,Default,,0,0,0,,Something you can experiment.
+Dialogue: 0,1:07:19.60,1:07:22.37,Default,,0,0,0,,Something you can play with.
+Dialogue: 0,1:07:22.37,1:07:24.37,Default,,0,0,0,,This talk today gives you something
+Dialogue: 0,1:07:24.37,1:07:26.37,Default,,0,0,0,,to have a good time with.
+Dialogue: 0,1:07:26.37,1:07:30.56,Default,,0,0,0,,It's really fun to sit down and watch this phenomenon happen.
+Dialogue: 0,1:07:30.56,1:07:32.56,Default,,0,0,0,,It's really joyful.
+Dialogue: 0,1:07:32.56,1:07:33.56,Default,,0,0,0,,It's really fun.
+Dialogue: 0,1:07:33.56,1:07:35.82,Default,,0,0,0,,You know, within a day or two,
+Dialogue: 0,1:07:35.82,1:07:38.95,Default,,0,0,0,,within a day or two, it's all over.
+Dialogue: 0,1:07:38.95,1:07:41.95,Default,,0,0,0,,Within a couple of days, once you're released off
+Dialogue: 0,1:07:41.95,1:07:43.95,Default,,0,0,0,,this appetite-hunger cycle,
+Dialogue: 0,1:07:43.95,1:07:45.95,Default,,0,0,0,,the rest of it is automatic.
+Dialogue: 0,1:07:45.95,1:07:49.49,Default,,0,0,0,,You know, you don't have to do another thing.
+Dialogue: 0,1:07:49.49,1:07:51.49,Default,,0,0,0,,If you want to throw in some common sense
+Dialogue: 0,1:07:51.49,1:07:53.49,Default,,0,0,0,,and have a diet soda, you know,
+Dialogue: 0,1:07:53.49,1:07:55.49,Default,,0,0,0,,have a diet Coke instead of a regular Coke,
+Dialogue: 0,1:07:55.49,1:07:57.49,Default,,0,0,0,,and save yourself 100 calories,
+Dialogue: 0,1:07:57.49,1:07:58.49,Default,,0,0,0,,well, that's common sense.
+Dialogue: 0,1:07:58.49,1:07:59.49,Default,,0,0,0,,That's up to you.
+Dialogue: 0,1:07:59.49,1:08:01.49,Default,,0,0,0,,That's different than being at the effect of.
+Dialogue: 0,1:08:01.49,1:08:03.49,Default,,0,0,0,,It's different than being run by.
+Dialogue: 0,1:08:03.49,1:08:06.49,Default,,0,0,0,,It's different than being run by the guilt of.
+Dialogue: 0,1:08:06.49,1:08:08.56,Default,,0,0,0,,That's considerably different,
+Dialogue: 0,1:08:08.56,1:08:10.56,Default,,0,0,0,,because now you're at choice.
+Dialogue: 0,1:08:10.56,1:08:12.56,Default,,0,0,0,,So if my weight gets a little on the high side,
+Dialogue: 0,1:08:12.56,1:08:16.00,Default,,0,0,0,,another trick that works is never to allow yourself
+Dialogue: 0,1:08:16.00,1:08:18.00,Default,,0,0,0,,to go over a certain number of pounds.
+Dialogue: 0,1:08:18.00,1:08:21.00,Default,,0,0,0,,If I pick 132, that means that by accident
+Dialogue: 0,1:08:21.00,1:08:23.20,Default,,0,0,0,,it runs to 134.
+Dialogue: 0,1:08:23.20,1:08:25.20,Default,,0,0,0,,Then I go back to this technique again
+Dialogue: 0,1:08:25.20,1:08:27.20,Default,,0,0,0,,and get off that cycle,
+Dialogue: 0,1:08:27.20,1:08:30.20,Default,,0,0,0,,because those old patterns can tend to recur,
+Dialogue: 0,1:08:30.20,1:08:33.20,Default,,0,0,0,,but they're very easy to let go of once it recurs.
+Dialogue: 0,1:08:33.20,1:08:35.20,Default,,0,0,0,,You can really do it once or twice.
+Dialogue: 0,1:08:35.20,1:08:38.84,Default,,0,0,0,,The first time you feel hungry, you sit down and you skip it.
+Dialogue: 0,1:08:38.84,1:08:40.84,Default,,0,0,0,,You skip the eating until that hunger disappears.
+Dialogue: 0,1:08:40.84,1:08:43.84,Default,,0,0,0,,Then you can go out in the refrigerator if you want.
+Dialogue: 0,1:08:43.84,1:08:46.84,Default,,0,0,0,,And don't forget to have your adult at the refrigerator.
+Dialogue: 0,1:08:46.84,1:08:49.84,Default,,0,0,0,,Put a note inside your refrigerator when you open it,
+Dialogue: 0,1:08:49.84,1:08:52.84,Default,,0,0,0,,maybe a picture of yourself as you as an adult, you see,
+Dialogue: 0,1:08:52.84,1:08:54.84,Default,,0,0,0,,so that you realize you've got a choice
+Dialogue: 0,1:08:54.84,1:08:57.84,Default,,0,0,0,,of whose arm is going to be reaching into the refrigerator.
+Dialogue: 0,1:08:57.84,1:08:59.84,Default,,0,0,0,,Keep that kid out, you know,
+Dialogue: 0,1:08:59.84,1:09:02.84,Default,,0,0,0,,because the kid is going to help himself in the refrigerator.
+Dialogue: 0,1:09:02.84,1:09:05.93,Default,,0,0,0,,And let your adult be there.
+Dialogue: 0,1:09:05.93,1:09:09.93,Default,,0,0,0,,So the whole thing becomes a very enjoyable experience,
+Dialogue: 0,1:09:09.93,1:09:12.93,Default,,0,0,0,,one in which you truly begin to love yourself.
+Dialogue: 0,1:09:12.93,1:09:16.93,Default,,0,0,0,,The basis of all these self-healing techniques
+Dialogue: 0,1:09:16.93,1:09:21.93,Default,,0,0,0,,that we talk about are merely ways of loving yourself,
+Dialogue: 0,1:09:21.93,1:09:23.93,Default,,0,0,0,,ways of really beginning to value yourself.
+Dialogue: 0,1:09:23.93,1:09:27.93,Default,,0,0,0,,Really ways of loving that which you are,
+Dialogue: 0,1:09:27.93,1:09:30.93,Default,,0,0,0,,that which you really are in truth.
+Dialogue: 0,1:09:30.93,1:09:34.93,Default,,0,0,0,,And that which you are in truth then looks at the body,
+Dialogue: 0,1:09:34.93,1:09:40.38,Default,,0,0,0,,that which you really are looks now at your little body
+Dialogue: 0,1:09:40.38,1:09:43.38,Default,,0,0,0,,and begins to get a kick out of it.
+Dialogue: 0,1:09:43.38,1:09:45.38,Default,,0,0,0,,It says, gee, I'm having a good time with you.
+Dialogue: 0,1:09:45.38,1:09:47.38,Default,,0,0,0,,You're a fun thing.
+Dialogue: 0,1:09:47.38,1:09:51.38,Default,,0,0,0,,You begin to see that it really runs almost on automatic all by itself.
+Dialogue: 0,1:09:51.38,1:09:53.44,Default,,0,0,0,,You'll see that the mind, the ego,
+Dialogue: 0,1:09:53.44,1:09:56.18,Default,,0,0,0,,has played a trick on you.
+Dialogue: 0,1:09:56.18,1:09:58.18,Default,,0,0,0,,You think that you make a decision
+Dialogue: 0,1:09:58.18,1:10:00.18,Default,,0,0,0,,and then the body does that.
+Dialogue: 0,1:10:00.18,1:10:02.18,Default,,0,0,0,,You see, actually it's doing it by itself.
+Dialogue: 0,1:10:02.18,1:10:04.18,Default,,0,0,0,,It's on automatic.
+Dialogue: 0,1:10:04.18,1:10:07.18,Default,,0,0,0,,Once you've released it out of a negative pattern,
+Dialogue: 0,1:10:07.18,1:10:10.18,Default,,0,0,0,,the body will just handle itself very well.
+Dialogue: 0,1:10:10.18,1:10:14.28,Default,,0,0,0,,We know this with scientific experiments with young children,
+Dialogue: 0,1:10:14.28,1:10:17.28,Default,,0,0,0,,that if you allow them to spontaneously select their diet,
+Dialogue: 0,1:10:17.28,1:10:20.28,Default,,0,0,0,,they will automatically select a balanced diet.
+Dialogue: 0,1:10:20.28,1:10:23.28,Default,,0,0,0,,So you begin to get a return of faith in nature.
+Dialogue: 0,1:10:24.28,1:10:30.28,Default,,0,0,0,,You allow your mind, you allow the body now to sort of be itself.
+Dialogue: 0,1:10:30.28,1:10:32.28,Default,,0,0,0,,The nature, the nature,
+Dialogue: 0,1:10:32.28,1:10:35.28,Default,,0,0,0,,that which is natural within the body itself
+Dialogue: 0,1:10:35.28,1:10:38.28,Default,,0,0,0,,will automatically handle its nutritional needs.
+Dialogue: 0,1:10:38.28,1:10:41.82,Default,,0,0,0,,Once we get off the social programming,
+Dialogue: 0,1:10:41.82,1:10:44.82,Default,,0,0,0,,then that which is automatically self-healing
+Dialogue: 0,1:10:44.82,1:10:46.82,Default,,0,0,0,,and healthy within the body takes over.
+Dialogue: 0,1:10:46.82,1:10:49.82,Default,,0,0,0,,It takes over and it looks after itself
+Dialogue: 0,1:10:49.82,1:10:52.82,Default,,0,0,0,,and it chooses what it needs to eat and what it wants to eat
+Dialogue: 0,1:10:52.82,1:10:54.82,Default,,0,0,0,,and it does extremely well.
+Dialogue: 0,1:10:54.82,1:10:58.65,Default,,0,0,0,,My body eats lots of cholesterol
+Dialogue: 0,1:10:58.65,1:11:00.65,Default,,0,0,0,,and it loves cheese and eggs
+Dialogue: 0,1:11:00.65,1:11:02.65,Default,,0,0,0,,and it would make any dietician faint,
+Dialogue: 0,1:11:02.65,1:11:04.65,Default,,0,0,0,,any nutritionist I'm sure would faint
+Dialogue: 0,1:11:04.65,1:11:06.65,Default,,0,0,0,,when they see what I have for breakfast.
+Dialogue: 0,1:11:06.65,1:11:08.65,Default,,0,0,0,,And yet the cholesterol is normal,
+Dialogue: 0,1:11:08.65,1:11:10.65,Default,,0,0,0,,the blood sugar is normal,
+Dialogue: 0,1:11:10.65,1:11:13.68,Default,,0,0,0,,all the blood chemistries are normal.
+Dialogue: 0,1:11:13.68,1:11:16.68,Default,,0,0,0,,I have a faith then, you might say,
+Dialogue: 0,1:11:16.68,1:11:19.68,Default,,0,0,0,,in the God within nature itself.
+Dialogue: 0,1:11:19.68,1:11:21.68,Default,,0,0,0,,The God within nature itself.
+Dialogue: 0,1:11:21.68,1:11:24.68,Default,,0,0,0,,The body being part of nature.
+Dialogue: 0,1:11:24.68,1:11:26.68,Default,,0,0,0,,The body being part.
+Dialogue: 0,1:11:26.68,1:11:29.68,Default,,0,0,0,,Of the beautiful nature of this planet.
+Dialogue: 0,1:11:29.68,1:11:31.68,Default,,0,0,0,,It has its own inner wisdom
+Dialogue: 0,1:11:31.68,1:11:35.68,Default,,0,0,0,,and when we remove the artificial conditioning of our society,
+Dialogue: 0,1:11:35.68,1:11:38.68,Default,,0,0,0,,its own innate inner wisdom comes forth
+Dialogue: 0,1:11:38.68,1:11:41.68,Default,,0,0,0,,and it expresses itself in a sense of aliveness,
+Dialogue: 0,1:11:41.68,1:11:44.68,Default,,0,0,0,,a sense of joyfulness, a sense of lightness,
+Dialogue: 0,1:11:44.68,1:11:49.38,Default,,0,0,0,,the capacity to feel good at all times
+Dialogue: 0,1:11:49.38,1:11:53.38,Default,,0,0,0,,and you'll see that its weight handles itself automatically.
+Dialogue: 0,1:11:53.38,1:11:55.48,Default,,0,0,0,,To do this then all we're asking for
+Dialogue: 0,1:11:55.48,1:11:57.48,Default,,0,0,0,,is really a few minutes of time
+Dialogue: 0,1:11:57.48,1:12:02.48,Default,,0,0,0,,with many years of joyful reward coming as a result.
+Dialogue: 0,1:12:02.48,1:12:05.48,Default,,0,0,0,,Have a good time with this little body.
+Dialogue: 0,1:12:05.48,1:12:07.48,Default,,0,0,0,,Love it. Be good to it.
+Dialogue: 0,1:12:07.48,1:12:09.48,Default,,0,0,0,,Kiss it.
+Dialogue: 0,1:12:09.48,1:12:12.48,Default,,0,0,0,,Give it all the love and attention that it needs.
+Dialogue: 0,1:12:12.48,1:12:14.48,Default,,0,0,0,,Realize that it belongs to you
+Dialogue: 0,1:12:14.48,1:12:16.48,Default,,0,0,0,,but it is not what you are.
+Dialogue: 0,1:12:16.48,1:12:18.48,Default,,0,0,0,,It is not you but it belongs to you.
+Dialogue: 0,1:12:18.48,1:12:20.48,Default,,0,0,0,,It's a lovely possession.
+Dialogue: 0,1:12:20.48,1:12:22.48,Default,,0,0,0,,Enjoy it while you've got it.
+Dialogue: 0,1:12:22.48,1:12:24.54,Default,,0,0,0,,Why not have a good time with it?
+Dialogue: 0,1:12:24.54,1:12:26.54,Default,,0,0,0,,Take it out of the category of pain,
+Dialogue: 0,1:12:26.54,1:12:28.54,Default,,0,0,0,,sin, suffering and guilt.
+Dialogue: 0,1:12:28.54,1:12:30.54,Default,,0,0,0,,Give that up forever.
+Dialogue: 0,1:12:30.54,1:12:32.54,Default,,0,0,0,,Choose joy as your way of being with it
+Dialogue: 0,1:12:32.54,1:12:34.54,Default,,0,0,0,,and have a good time.

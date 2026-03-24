@@ -1,0 +1,1318 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.57,0:00:08.68,Default,,0,0,0,,I have two questions.
+Dialogue: 0,0:00:08.89,0:00:13.38,Default,,0,0,0,,The first one is my feel is the feel of addictions.
+Dialogue: 0,0:00:14.32,0:00:19.23,Default,,0,0,0,,And many times I've heard over the years that people who get into drugs and alcohol
+Dialogue: 0,0:00:19.23,0:00:24.73,Default,,0,0,0,,and become addicted are on a negative path looking for spirituality.
+Dialogue: 0,0:00:26.48,0:00:28.14,Default,,0,0,0,,That's the first question.
+Dialogue: 0,0:00:28.26,0:00:30.96,Default,,0,0,0,,The second one, I run a program called Bridging the Gaps.
+Dialogue: 0,0:00:31.46,0:00:36.85,Default,,0,0,0,,The first one was it's a negative pathway, that's positionality.
+Dialogue: 0,0:00:36.85,0:00:41.35,Default,,0,0,0,,If it leads to God, it's hardly negative.
+Dialogue: 0,0:00:42.21,0:00:44.20,Default,,0,0,0,,I would say it's the hard way to God.
+Dialogue: 0,0:00:47.89,0:00:53.61,Default,,0,0,0,,But you see it also as a spiritual path, but the slow route, the slow boat.
+Dialogue: 0,0:00:55.67,0:00:57.50,Default,,0,0,0,,Addiction is the way of desperation.
+Dialogue: 0,0:00:58.00,0:00:58.59,Default,,0,0,0,,It's choosing.
+Dialogue: 0,0:00:59.93,0:01:01.75,Default,,0,0,0,,See, with addiction, you've got two choices.
+Dialogue: 0,0:01:02.14,0:01:03.64,Default,,0,0,0,,You either surrender to God or die.
+Dialogue: 0,0:01:05.04,0:01:05.81,Default,,0,0,0,,It's the one way.
+Dialogue: 0,0:01:06.26,0:01:08.09,Default,,0,0,0,,You can't change your mind and get off the boat.
+Dialogue: 0,0:01:09.01,0:01:10.23,Default,,0,0,0,,It's a progressive disease.
+Dialogue: 0,0:01:10.23,0:01:13.82,Default,,0,0,0,,It takes you down to finally suicide, dementia.
+Dialogue: 0,0:01:14.34,0:01:17.00,Default,,0,0,0,,You don't have any choice.
+Dialogue: 0,0:01:17.37,0:01:19.50,Default,,0,0,0,,So you either surrender to God or you die.
+Dialogue: 0,0:01:20.45,0:01:21.54,Default,,0,0,0,,Very strict pathway.
+Dialogue: 0,0:01:24.50,0:01:28.14,Default,,0,0,0,,The second question is that ever since I discovered your book,
+Dialogue: 0,0:01:28.23,0:01:34.87,Default,,0,0,0,,I've been trying to figure out how to incorporate the material into the program
+Dialogue: 0,0:01:34.87,0:01:39.07,Default,,0,0,0,,because we are holistically based and we're looking at a lot of different things,
+Dialogue: 0,0:01:39.15,0:01:42.09,Default,,0,0,0,,acu-detox and yoga and exercise.
+Dialogue: 0,0:01:42.09,0:01:44.23,Default,,0,0,0,,We've really focused on the physiology of addiction.
+Dialogue: 0,0:01:45.54,0:01:46.28,Default,,0,0,0,,What kind of addiction?
+Dialogue: 0,0:01:47.01,0:01:47.45,Default,,0,0,0,,Physiology.
+Dialogue: 0,0:01:47.57,0:01:48.70,Default,,0,0,0,,Or the biochemical aspects.
+Dialogue: 0,0:01:48.70,0:01:48.90,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:01:48.90,0:01:53.18,Default,,0,0,0,,So we're more in the physical along with the 12-step model and so forth.
+Dialogue: 0,0:01:53.34,0:01:54.87,Default,,0,0,0,,But I've been trying to.
+Dialogue: 0,0:01:54.92,0:01:59.29,Default,,0,0,0,,And then you said a few minutes ago that half the population is below 200,
+Dialogue: 0,0:01:59.42,0:02:01.87,Default,,0,0,0,,so you can't use that as far as kinesiology.
+Dialogue: 0,0:02:02.14,0:02:07.60,Default,,0,0,0,,So although my experience has been overall that drug addicts and alcoholics,
+Dialogue: 0,0:02:07.65,0:02:10.75,Default,,0,0,0,,at least the ones that get to treatment, are usually above average,
+Dialogue: 0,0:02:11.71,0:02:12.75,Default,,0,0,0,,at least the ones we treat.
+Dialogue: 0,0:02:13.84,0:02:16.34,Default,,0,0,0,,The disease is physical, mental, and spiritual.
+Dialogue: 0,0:02:16.94,0:02:17.65,Default,,0,0,0,,Right.
+Dialogue: 0,0:02:17.65,0:02:21.33,Default,,0,0,0,,And I believe you have to approach all three, including nutrition,
+Dialogue: 0,0:02:22.33,0:02:26.81,Default,,0,0,0,,making sure they don't go into hypoglycemic relapse.
+Dialogue: 0,0:02:28.03,0:02:30.96,Default,,0,0,0,,I just take them off sugar and sweets and put them on big doses of vitamins
+Dialogue: 0,0:02:30.96,0:02:32.03,Default,,0,0,0,,and send them to AA.
+Dialogue: 0,0:02:34.62,0:02:35.90,Default,,0,0,0,,And you've done what you get.
+Dialogue: 0,0:02:36.78,0:02:41.69,Default,,0,0,0,,But how would you specifically use what you speak of in a program?
+Dialogue: 0,0:02:41.87,0:02:42.09,Default,,0,0,0,,I don't.
+Dialogue: 0,0:02:42.09,0:02:43.03,Default,,0,0,0,,Do you have any thoughts on that?
+Dialogue: 0,0:02:43.03,0:02:43.56,Default,,0,0,0,,I don't.
+Dialogue: 0,0:02:44.53,0:02:45.58,Default,,0,0,0,,I send them to AA.
+Dialogue: 0,0:02:47.09,0:02:47.56,Default,,0,0,0,,They don't need it.
+Dialogue: 0,0:02:47.56,0:02:48.21,Default,,0,0,0,,We do also.
+Dialogue: 0,0:02:48.40,0:02:49.00,Default,,0,0,0,,They don't need it.
+Dialogue: 0,0:02:49.09,0:02:49.88,Default,,0,0,0,,They don't need anything.
+Dialogue: 0,0:02:50.28,0:02:52.00,Default,,0,0,0,,They don't have to say if they do the program.
+Dialogue: 0,0:02:53.02,0:02:56.40,Default,,0,0,0,,Because the third step, you're surrendering everything to God as it arises,
+Dialogue: 0,0:02:57.91,0:03:01.56,Default,,0,0,0,,including resisting admitting the fact that you have an addiction.
+Dialogue: 0,0:03:02.41,0:03:03.63,Default,,0,0,0,,Well, we have our difficulty.
+Dialogue: 0,0:03:03.80,0:03:06.40,Default,,0,0,0,,We have one program that specializes in professionals.
+Dialogue: 0,0:03:07.08,0:03:10.02,Default,,0,0,0,,So we get doctors, lawyers, and they don't tend.
+Dialogue: 0,0:03:10.62,0:03:13.69,Default,,0,0,0,,I mean, we have a mixture, but many of them will not go to
+Dialogue: 0,0:03:13.69,0:03:21.00,Default,,0,0,0,,or do not want to incorporate anything to do with AA in their program.
+Dialogue: 0,0:03:21.00,0:03:22.43,Default,,0,0,0,,That's pridefulness.
+Dialogue: 0,0:03:23.08,0:03:25.46,Default,,0,0,0,,I definitely agree with that.
+Dialogue: 0,0:03:25.66,0:03:31.15,Default,,0,0,0,,So I tell them, you've got humility in life or pride in death.
+Dialogue: 0,0:03:32.02,0:03:33.74,Default,,0,0,0,,I don't care which choice you make.
+Dialogue: 0,0:03:34.78,0:03:35.31,Default,,0,0,0,,I like that.
+Dialogue: 0,0:03:36.90,0:03:39.28,Default,,0,0,0,,I mean, I don't give a damn whether you live or die.
+Dialogue: 0,0:03:39.41,0:03:39.80,Default,,0,0,0,,You know what I mean?
+Dialogue: 0,0:03:39.80,0:03:42.06,Default,,0,0,0,,It's something to you, but to me, it's only a nickel.
+Dialogue: 0,0:03:43.19,0:03:44.90,Default,,0,0,0,,I like that answer.
+Dialogue: 0,0:03:45.00,0:03:45.31,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:03:53.43,0:03:54.28,Default,,0,0,0,,Thank you for this opportunity.
+Dialogue: 0,0:03:54.28,0:03:55.40,Default,,0,0,0,,That's the zen of it.
+Dialogue: 0,0:03:59.16,0:04:01.33,Default,,0,0,0,,You've spoken of intentions here today.
+Dialogue: 0,0:04:01.33,0:04:02.31,Default,,0,0,0,,Can you explain?
+Dialogue: 0,0:04:02.33,0:04:04.25,Default,,0,0,0,,Can you explain the difference between goals and intentions
+Dialogue: 0,0:04:04.25,0:04:07.28,Default,,0,0,0,,and whether or not the visualization process
+Dialogue: 0,0:04:07.28,0:04:11.87,Default,,0,0,0,,or how important the visualization process is to the fulfillment of goals?
+Dialogue: 0,0:04:11.96,0:04:14.09,Default,,0,0,0,,Visualization has to do with form.
+Dialogue: 0,0:04:15.28,0:04:19.66,Default,,0,0,0,,Form is not necessarily a spiritual goal.
+Dialogue: 0,0:04:19.81,0:04:20.75,Default,,0,0,0,,That's a worldly goal.
+Dialogue: 0,0:04:27.33,0:04:30.49,Default,,0,0,0,,A goal is an ending place.
+Dialogue: 0,0:04:31.62,0:04:32.60,Default,,0,0,0,,I go from here.
+Dialogue: 0,0:04:33.06,0:04:34.12,Default,,0,0,0,,I've reached my goal.
+Dialogue: 0,0:04:34.33,0:04:34.80,Default,,0,0,0,,I'm done.
+Dialogue: 0,0:04:38.39,0:04:40.86,Default,,0,0,0,,Intention is a direction of life.
+Dialogue: 0,0:04:41.61,0:04:43.79,Default,,0,0,0,,And you can't achieve any goal.
+Dialogue: 0,0:04:44.55,0:04:45.35,Default,,0,0,0,,There isn't any goal.
+Dialogue: 0,0:04:45.82,0:04:47.64,Default,,0,0,0,,It's like you decided to keep going east.
+Dialogue: 0,0:04:48.76,0:04:52.94,Default,,0,0,0,,So as long as you keep going east, your goal is already fulfilled.
+Dialogue: 0,0:04:54.75,0:04:55.70,Default,,0,0,0,,I say, are you going east?
+Dialogue: 0,0:04:55.79,0:04:55.99,Default,,0,0,0,,Yep.
+Dialogue: 0,0:04:56.56,0:04:57.68,Default,,0,0,0,,Well, that was your intention.
+Dialogue: 0,0:04:58.02,0:05:00.88,Default,,0,0,0,,So you've already achieved your goal to go east.
+Dialogue: 0,0:05:01.50,0:05:06.12,Default,,0,0,0,,If your decision is to go the spiritual pathway, then you've already achieved that.
+Dialogue: 0,0:05:06.12,0:05:09.30,Default,,0,0,0,,What you mean is it's ultimate.
+Dialogue: 0,0:05:09.87,0:05:13.67,Default,,0,0,0,,It's ultimate is what you're really talking about.
+Dialogue: 0,0:05:13.79,0:05:13.93,Default,,0,0,0,,Right?
+Dialogue: 0,0:05:16.54,0:05:17.51,Default,,0,0,0,,It's ultimate.
+Dialogue: 0,0:05:21.37,0:05:25.97,Default,,0,0,0,,All God asks of you is that you set the compass in a spiritually integrous direction.
+Dialogue: 0,0:05:26.31,0:05:27.26,Default,,0,0,0,,That's the only thing he asks.
+Dialogue: 0,0:05:29.37,0:05:30.50,Default,,0,0,0,,Nothing else is asked.
+Dialogue: 0,0:05:33.25,0:05:38.56,Default,,0,0,0,,Is it not beneficial to have in this worldly form, in the world,
+Dialogue: 0,0:05:38.98,0:05:41.45,Default,,0,0,0,,I want to say a direction, yes, an intention,
+Dialogue: 0,0:05:41.72,0:05:47.50,Default,,0,0,0,,but that which we want to attain, that which we want to go to, not just...
+Dialogue: 0,0:05:47.50,0:05:50.26,Default,,0,0,0,,What you hold in mind tends to actualize.
+Dialogue: 0,0:05:50.32,0:05:50.91,Default,,0,0,0,,That's a fact.
+Dialogue: 0,0:05:51.38,0:05:53.52,Default,,0,0,0,,You just hold in mind.
+Dialogue: 0,0:05:53.68,0:05:57.11,Default,,0,0,0,,You just hold in mind a picture of what you feel would be the fulfillment
+Dialogue: 0,0:05:57.11,0:06:03.93,Default,,0,0,0,,without desiring it, without trying to make it happen.
+Dialogue: 0,0:06:05.63,0:06:07.98,Default,,0,0,0,,You picture every place I've ever lived.
+Dialogue: 0,0:06:08.72,0:06:14.56,Default,,0,0,0,,I would picture what I picture would be ideal, but not crave it or want it or desire it.
+Dialogue: 0,0:06:16.06,0:06:21.11,Default,,0,0,0,,And each time there would be a phone call and I would say,
+Dialogue: 0,0:06:21.79,0:06:24.62,Default,,0,0,0,,hey, the place next to me right along the creek is up for sale.
+Dialogue: 0,0:06:26.04,0:06:27.83,Default,,0,0,0,,And you're the only one I want to live next to me.
+Dialogue: 0,0:06:27.83,0:06:28.19,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:06:28.75,0:06:30.81,Default,,0,0,0,,Anyway, so I came and looked at it.
+Dialogue: 0,0:06:31.27,0:06:35.72,Default,,0,0,0,,I was thinking of a little place out in the woods next to the creek.
+Dialogue: 0,0:06:36.16,0:06:36.30,Default,,0,0,0,,See?
+Dialogue: 0,0:06:37.20,0:06:38.64,Default,,0,0,0,,Same thing happened back east.
+Dialogue: 0,0:06:38.79,0:06:42.31,Default,,0,0,0,,I was thinking, you know, of acres of woods, you know,
+Dialogue: 0,0:06:43.63,0:06:45.13,Default,,0,0,0,,building a certain kind of house in the middle.
+Dialogue: 0,0:06:45.31,0:06:46.62,Default,,0,0,0,,So you just picture it.
+Dialogue: 0,0:06:47.25,0:06:49.81,Default,,0,0,0,,What you hold in mind tends to actualize.
+Dialogue: 0,0:06:50.54,0:06:55.86,Default,,0,0,0,,But it's up to many karmic propensities and other things,
+Dialogue: 0,0:06:56.18,0:06:59.27,Default,,0,0,0,,whether you unconsciously feel that you deserve this.
+Dialogue: 0,0:06:59.27,0:07:01.01,Default,,0,0,0,,Many things have to be resolved.
+Dialogue: 0,0:07:01.16,0:07:04.81,Default,,0,0,0,,But it tends to come about as you picture it.
+Dialogue: 0,0:07:08.37,0:07:13.77,Default,,0,0,0,,But without trying to force it or make it happen.
+Dialogue: 0,0:07:17.00,0:07:18.12,Default,,0,0,0,,It's more like you.
+Dialogue: 0,0:07:18.18,0:07:22.29,Default,,0,0,0,,Yes, it's more like you picture that's for you.
+Dialogue: 0,0:07:22.79,0:07:23.41,Default,,0,0,0,,You know what I mean?
+Dialogue: 0,0:07:24.51,0:07:29.95,Default,,0,0,0,,You hold it as a loving picture in your mind of what you admire or cherish
+Dialogue: 0,0:07:29.95,0:07:35.55,Default,,0,0,0,,and try to let go of the solar plexus wantingness of it.
+Dialogue: 0,0:07:35.91,0:07:38.73,Default,,0,0,0,,Thank you, sir.
+Dialogue: 0,0:07:38.73,0:07:40.26,Default,,0,0,0,,The other is to drive it.
+Dialogue: 0,0:07:41.24,0:07:43.31,Default,,0,0,0,,With greed and kill everybody in your way.
+Dialogue: 0,0:07:49.26,0:07:50.62,Default,,0,0,0,,Take it over at gunpoint.
+Dialogue: 0,0:07:54.12,0:07:57.75,Default,,0,0,0,,Once we have become enlightened,
+Dialogue: 0,0:07:58.31,0:08:00.74,Default,,0,0,0,,are we free from suffering for all eternity?
+Dialogue: 0,0:08:01.43,0:08:02.00,Default,,0,0,0,,Are we done?
+Dialogue: 0,0:08:04.93,0:08:06.99,Default,,0,0,0,,You don't have to worry about all of eternity.
+Dialogue: 0,0:08:14.56,0:08:15.38,Default,,0,0,0,,The Buddha said,
+Dialogue: 0,0:08:18.01,0:08:20.56,Default,,0,0,0,,human life is sickness, old age, suffering, and death.
+Dialogue: 0,0:08:21.62,0:08:24.19,Default,,0,0,0,,And it's due to constantly recycling back and forth
+Dialogue: 0,0:08:24.19,0:08:24.92,Default,,0,0,0,,by identifying the suffering.
+Dialogue: 0,0:08:24.92,0:08:25.01,Default,,0,0,0,,By identifying the suffering.
+Dialogue: 0,0:08:25.01,0:08:25.07,Default,,0,0,0,,By identifying the suffering.
+Dialogue: 0,0:08:25.07,0:08:25.13,Default,,0,0,0,,By identifying the suffering.
+Dialogue: 0,0:08:25.13,0:08:25.22,Default,,0,0,0,,By identifying the suffering.
+Dialogue: 0,0:08:25.22,0:08:25.27,Default,,0,0,0,,By identifying the suffering.
+Dialogue: 0,0:08:25.27,0:08:25.87,Default,,0,0,0,,By identifying the suffering.
+Dialogue: 0,0:08:25.87,0:08:25.92,Default,,0,0,0,,By identifying the suffering.
+Dialogue: 0,0:08:25.92,0:08:26.24,Default,,0,0,0,,By identifying the suffering.
+Dialogue: 0,0:08:26.24,0:08:27.83,Default,,0,0,0,,As mind and body.
+Dialogue: 0,0:08:28.51,0:08:32.32,Default,,0,0,0,,To transcend that illusion that you are the mind or that you are the body.
+Dialogue: 0,0:08:32.44,0:08:34.48,Default,,0,0,0,,To let go of cravingness and wantingness.
+Dialogue: 0,0:08:34.91,0:08:38.20,Default,,0,0,0,,Which binds you to the wheel of rebirth and reincarnation.
+Dialogue: 0,0:08:39.36,0:08:43.51,Default,,0,0,0,,If you let that go, you need not be reborn again in physicality.
+Dialogue: 0,0:08:49.79,0:08:50.36,Default,,0,0,0,,Is that good enough?
+Dialogue: 0,0:08:51.75,0:08:53.90,Default,,0,0,0,,I never argued with a high thinking.
+Dialogue: 0,0:08:54.07,0:08:54.30,Default,,0,0,0,,Okay.
+Dialogue: 0,0:08:54.97,0:08:58.76,Default,,0,0,0,,After you've escaped the birth-death cycle.
+Dialogue: 0,0:08:59.14,0:08:59.45,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:59.97,0:09:01.88,Default,,0,0,0,,Do you ever suffer again after that?
+Dialogue: 0,0:09:01.88,0:09:01.99,Default,,0,0,0,,I don't know.
+Dialogue: 0,0:09:01.99,0:09:14.88,Default,,0,0,0,,I mean, because Jesus, I thought after you became enlightened and escaped the karmic cycle, that life was eternal paradise, or you didn't have any more work to do.
+Dialogue: 0,0:09:16.98,0:09:18.89,Default,,0,0,0,,I don't quite get the gist of the question.
+Dialogue: 0,0:09:20.10,0:09:21.44,Default,,0,0,0,,What happens to you after you're enlightened?
+Dialogue: 0,0:09:23.79,0:09:24.13,Default,,0,0,0,,Yes.
+Dialogue: 0,0:09:24.77,0:09:25.65,Default,,0,0,0,,It's still difficult.
+Dialogue: 0,0:09:25.75,0:09:29.29,Default,,0,0,0,,There isn't anyone for something to happen to, you see.
+Dialogue: 0,0:09:29.86,0:09:30.94,Default,,0,0,0,,You're begging the question.
+Dialogue: 0,0:09:30.94,0:09:36.44,Default,,0,0,0,,And after you are not anyone anymore, what happens to that one that is no more?
+Dialogue: 0,0:09:37.65,0:09:38.44,Default,,0,0,0,,He doesn't exist.
+Dialogue: 0,0:09:39.91,0:09:40.51,Default,,0,0,0,,End of problem.
+Dialogue: 0,0:09:42.19,0:09:42.69,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:09:43.96,0:09:48.87,Default,,0,0,0,,After sugar dissolves in water, he doesn't have any problem with sugar anymore.
+Dialogue: 0,0:09:59.73,0:10:04.36,Default,,0,0,0,,I've been getting the impression, I guess, by reading partly Omar.
+Dialogue: 0,0:10:05.40,0:10:10.87,Default,,0,0,0,,Sharif Abdullah is one person that wrote a book recently that kind of states it very well,
+Dialogue: 0,0:10:11.00,0:10:14.62,Default,,0,0,0,,that there's a definite threat to the biosphere.
+Dialogue: 0,0:10:15.39,0:10:18.91,Default,,0,0,0,,From our overproduction and not watching out what's going on,
+Dialogue: 0,0:10:18.91,0:10:28.53,Default,,0,0,0,,and also that part of the solution is a shift in myth to where we see that we're one family on one world,
+Dialogue: 0,0:10:28.60,0:10:34.04,Default,,0,0,0,,away from the perception that we're all these separate nations and are against each other.
+Dialogue: 0,0:10:35.08,0:10:40.29,Default,,0,0,0,,And do you find any resonance with this, or is that something that's in your concerns?
+Dialogue: 0,0:10:41.00,0:10:43.49,Default,,0,0,0,,Do you get the gist of it?
+Dialogue: 0,0:10:44.24,0:10:44.87,Default,,0,0,0,,What's the gist?
+Dialogue: 0,0:11:02.89,0:11:03.77,Default,,0,0,0,,It's the other way around.
+Dialogue: 0,0:11:04.05,0:11:04.15,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:11:05.46,0:11:12.20,Default,,0,0,0,,We see a coming problem with the earth, and that the solution is in the shift in the myth.
+Dialogue: 0,0:11:12.22,0:11:23.46,Default,,0,0,0,,You see, the way to be as a spiritual person is respectful of the sacredness of all of life.
+Dialogue: 0,0:11:24.89,0:11:34.36,Default,,0,0,0,,And then from that respect for the sacredness of all of life, certain actions automatically follow that are aligned with that intention.
+Dialogue: 0,0:11:37.55,0:11:37.67,Default,,0,0,0,,Yes.
+Dialogue: 0,0:11:38.03,0:11:43.63,Default,,0,0,0,,It just seems that there's a crisis.
+Dialogue: 0,0:11:43.65,0:11:53.64,Default,,0,0,0,,There's a crisis right now, and if we don't have a certain amount of increased spiritual perception of honoring the sacredness,
+Dialogue: 0,0:11:53.88,0:11:55.64,Default,,0,0,0,,that we'll really have a bad mess-up.
+Dialogue: 0,0:11:56.74,0:12:02.75,Default,,0,0,0,,You see, the distribution of the consciousness level of mankind goes from,
+Dialogue: 0,0:12:04.80,0:12:08.11,Default,,0,0,0,,let's take the Green River pillar, probably around 30,
+Dialogue: 0,0:12:08.47,0:12:10.54,Default,,0,0,0,,call it ready consciousness of about 30,
+Dialogue: 0,0:12:12.59,0:12:14.40,Default,,0,0,0,,and it goes all the way up to 1,000.
+Dialogue: 0,0:12:14.40,0:12:14.47,Default,,0,0,0,,Wow.
+Dialogue: 0,0:12:17.76,0:12:20.25,Default,,0,0,0,,So, included in that...
+Dialogue: 0,0:12:20.44,0:12:33.66,Default,,0,0,0,,So, included in that immense straddle is all possibility, all possibility.
+Dialogue: 0,0:12:35.20,0:12:37.50,Default,,0,0,0,,I think I sort of answered your question earlier.
+Dialogue: 0,0:12:37.77,0:12:40.63,Default,,0,0,0,,If this was meant to be a celestial realm, it would be.
+Dialogue: 0,0:12:43.46,0:12:44.96,Default,,0,0,0,,Neither one of us would probably be here.
+Dialogue: 0,0:12:50.91,0:12:52.50,Default,,0,0,0,,It's not a celestial realm.
+Dialogue: 0,0:12:54.11,0:12:55.78,Default,,0,0,0,,It's not supposed to be a celestial realm.
+Dialogue: 0,0:12:57.74,0:13:02.87,Default,,0,0,0,,Everybody who tries to impose their will on it and force it into being a celestial realm
+Dialogue: 0,0:13:02.87,0:13:04.94,Default,,0,0,0,,is following some kind of a spiritual illusion.
+Dialogue: 0,0:13:06.77,0:13:07.39,Default,,0,0,0,,That's a fact.
+Dialogue: 0,0:13:07.62,0:13:07.94,Default,,0,0,0,,Resist.
+Dialogue: 0,0:13:09.02,0:13:09.66,Default,,0,0,0,,That's true.
+Dialogue: 0,0:13:09.83,0:13:15.55,Default,,0,0,0,,The damage could be repaired in several more millennia.
+Dialogue: 0,0:13:15.55,0:13:21.30,Default,,0,0,0,,So, we have a whole stratified set of choices,
+Dialogue: 0,0:13:21.85,0:13:24.53,Default,,0,0,0,,and that's how we work out our karma.
+Dialogue: 0,0:13:25.63,0:13:33.09,Default,,0,0,0,,So, this is a gymnasium, a school, a purgatorial opportunity.
+Dialogue: 0,0:13:34.24,0:13:39.89,Default,,0,0,0,,And the class, as a whole race, can go several steps back and have a long way back,
+Dialogue: 0,0:13:40.25,0:13:43.25,Default,,0,0,0,,or the class, as a whole race, can go squeeze through to the next level.
+Dialogue: 0,0:13:43.37,0:13:44.32,Default,,0,0,0,,That's where I think we are.
+Dialogue: 0,0:13:44.48,0:13:45.55,Default,,0,0,0,,They're different for us.
+Dialogue: 0,0:13:45.96,0:13:46.08,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:13:49.50,0:13:54.71,Default,,0,0,0,,Dr. Hawkins, I had an experience much like the one you talked about in the snowbank.
+Dialogue: 0,0:13:54.71,0:14:04.25,Default,,0,0,0,,And following that experience for three days, I felt somewhat assaulted by darker entities
+Dialogue: 0,0:14:04.25,0:14:15.99,Default,,0,0,0,,and felt, looking back, that I needed to stay in that physical space, within that eternal space,
+Dialogue: 0,0:14:16.02,0:14:17.49,Default,,0,0,0,,in order to achieve.
+Dialogue: 0,0:14:17.50,0:14:23.35,Default,,0,0,0,,the goal that I've been seeking, and left that physical space for reasons that I wasn't really aware of.
+Dialogue: 0,0:14:23.40,0:14:24.26,Default,,0,0,0,,It just kind of happened.
+Dialogue: 0,0:14:27.83,0:14:33.28,Default,,0,0,0,,Since then, although I've had a pretty significant shift of my sense of identity,
+Dialogue: 0,0:14:33.47,0:14:36.33,Default,,0,0,0,,there still is a definite sense of ego.
+Dialogue: 0,0:14:37.21,0:14:43.74,Default,,0,0,0,,My question is, once that space is, or that state of consciousness is experienced,
+Dialogue: 0,0:14:43.74,0:14:45.74,Default,,0,0,0,,is it just a matter of remaining there?
+Dialogue: 0,0:14:46.67,0:14:49.72,Default,,0,0,0,,Because it seemed like there was a complete withdrawal.
+Dialogue: 0,0:14:49.82,0:14:50.87,Default,,0,0,0,,It usually doesn't stay.
+Dialogue: 0,0:14:51.08,0:14:52.08,Default,,0,0,0,,It usually doesn't stay.
+Dialogue: 0,0:14:53.41,0:14:59.70,Default,,0,0,0,,Near-death experiences, transitory states of illumination, are usually not permanent.
+Dialogue: 0,0:14:59.70,0:15:00.67,Default,,0,0,0,,They usually come and go.
+Dialogue: 0,0:15:03.70,0:15:04.94,Default,,0,0,0,,But they inspire you.
+Dialogue: 0,0:15:05.03,0:15:07.74,Default,,0,0,0,,It's like you get a glimpse ahead.
+Dialogue: 0,0:15:08.51,0:15:09.91,Default,,0,0,0,,You see what's possible.
+Dialogue: 0,0:15:11.49,0:15:13.66,Default,,0,0,0,,And they become inspirational.
+Dialogue: 0,0:15:15.02,0:15:21.50,Default,,0,0,0,,But I think Ramana Maharishi, Nisargadatta Maharishi, all those will agree that in the beginning,
+Dialogue: 0,0:15:21.87,0:15:23.49,Default,,0,0,0,,they may come as a state of illumination.
+Dialogue: 0,0:15:23.49,0:15:24.26,Default,,0,0,0,,And then leave.
+Dialogue: 0,0:15:24.87,0:15:28.97,Default,,0,0,0,,The Christian literature of the saints is also full of that.
+Dialogue: 0,0:15:30.74,0:15:33.37,Default,,0,0,0,,O my beloved, how couldst thou have left me?
+Dialogue: 0,0:15:34.25,0:15:41.37,Default,,0,0,0,,The angels, I mean, you know, the doves soaring, and then now down near the earth, feeling crestfallen.
+Dialogue: 0,0:15:43.26,0:15:47.35,Default,,0,0,0,,It's like you rise above your karma and go into a beatific state.
+Dialogue: 0,0:15:47.76,0:15:50.52,Default,,0,0,0,,But then your negative karma catches up with you again.
+Dialogue: 0,0:15:53.00,0:15:55.87,Default,,0,0,0,,Therefore, one works harder.
+Dialogue: 0,0:15:56.95,0:15:59.57,Default,,0,0,0,,And let's go wanting to return to that state.
+Dialogue: 0,0:16:00.83,0:16:02.33,Default,,0,0,0,,Forget returning to that state.
+Dialogue: 0,0:16:04.79,0:16:07.10,Default,,0,0,0,,Because it cannot be brought back.
+Dialogue: 0,0:16:07.67,0:16:08.75,Default,,0,0,0,,It's not volitional.
+Dialogue: 0,0:16:08.75,0:16:12.00,Default,,0,0,0,,It's not within the providence of will.
+Dialogue: 0,0:16:14.72,0:16:17.51,Default,,0,0,0,,Lead the most spiritually pure life you can.
+Dialogue: 0,0:16:18.77,0:16:26.50,Default,,0,0,0,,And if providence sees, the grace of God so grants it, if your providence would return.
+Dialogue: 0,0:16:29.74,0:16:30.22,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:16:32.99,0:16:34.59,Default,,0,0,0,,Yeah, you rise above your karma.
+Dialogue: 0,0:16:34.87,0:16:35.33,Default,,0,0,0,,That's what I was going to say.
+Dialogue: 0,0:16:39.80,0:16:40.09,Default,,0,0,0,,Hi.
+Dialogue: 0,0:16:41.35,0:16:42.02,Default,,0,0,0,,Earlier.
+Dialogue: 0,0:16:42.14,0:16:51.87,Default,,0,0,0,,Today, you mentioned in your lecture that over 200, we come into this life with a particular karmic identification.
+Dialogue: 0,0:16:52.34,0:16:55.79,Default,,0,0,0,,And there's also a predetermined exit moment.
+Dialogue: 0,0:16:55.84,0:17:00.63,Default,,0,0,0,,So we really don't need to have fear about that moment of death.
+Dialogue: 0,0:17:00.67,0:17:11.85,Default,,0,0,0,,But you also talked about a few instances in your life when you were kind of at the turning point where it seemed like you could or when you were 14, you talked about
+Dialogue: 0,0:17:11.85,0:17:14.09,Default,,0,0,0,,possibly choosing to stay or to leave.
+Dialogue: 0,0:17:14.29,0:17:14.68,Default,,0,0,0,,Yes.
+Dialogue: 0,0:17:15.22,0:17:19.96,Default,,0,0,0,,And I've heard other people, you know, who had near death experiences talk about this.
+Dialogue: 0,0:17:20.98,0:17:22.11,Default,,0,0,0,,You don't hear from them again.
+Dialogue: 0,0:17:24.03,0:17:24.85,Default,,0,0,0,,That's true.
+Dialogue: 0,0:17:24.98,0:17:25.66,Default,,0,0,0,,That's true.
+Dialogue: 0,0:17:25.98,0:17:29.88,Default,,0,0,0,,So I mean, is, is it really completely predetermined?
+Dialogue: 0,0:17:29.88,0:17:34.32,Default,,0,0,0,,Or are there instances where you actually do have a choice?
+Dialogue: 0,0:17:34.39,0:17:36.10,Default,,0,0,0,,Sometimes our choice about what?
+Dialogue: 0,0:17:36.49,0:17:38.17,Default,,0,0,0,,About whether to leave or to stay.
+Dialogue: 0,0:17:39.89,0:17:40.63,Default,,0,0,0,,Leave or stay?
+Dialogue: 0,0:17:40.93,0:17:41.84,Default,,0,0,0,,Yeah, stay.
+Dialogue: 0,0:17:42.77,0:17:49.25,Default,,0,0,0,,As it seemed like you did when you were 14 and, and felt that your father wasn't ready to have you leave.
+Dialogue: 0,0:17:49.97,0:17:54.93,Default,,0,0,0,,Well, you see, you neither win or lose, no matter which decision you make.
+Dialogue: 0,0:17:55.91,0:17:56.82,Default,,0,0,0,,It doesn't really matter.
+Dialogue: 0,0:17:57.93,0:17:59.15,Default,,0,0,0,,And they're really both the same.
+Dialogue: 0,0:18:00.18,0:18:01.59,Default,,0,0,0,,Although that's very hard to see.
+Dialogue: 0,0:18:07.56,0:18:17.95,Default,,0,0,0,,In terms of whether a person's time of exit is predetermined, is that then, I guess it doesn't matter then you're saying.
+Dialogue: 0,0:18:20.77,0:18:21.27,Default,,0,0,0,,The time is.
+Dialogue: 0,0:18:21.27,0:18:30.70,Default,,0,0,0,,Well, it has to do with the intention at the time and the karmic propensities and whether that was one of your purposes in this reincarnation, et cetera.
+Dialogue: 0,0:18:30.94,0:18:31.29,Default,,0,0,0,,Okay.
+Dialogue: 0,0:18:32.03,0:18:34.00,Default,,0,0,0,,So it's a rather complicated issue.
+Dialogue: 0,0:18:34.24,0:18:35.50,Default,,0,0,0,,We'll take some research.
+Dialogue: 0,0:18:35.77,0:18:36.09,Default,,0,0,0,,Okay.
+Dialogue: 0,0:18:36.09,0:18:40.14,Default,,0,0,0,,And past life recall and all to get what the significance was.
+Dialogue: 0,0:18:41.07,0:18:50.83,Default,,0,0,0,,The choosing this was each time in the interest of love as love was understood at that time.
+Dialogue: 0,0:18:50.83,0:18:59.83,Default,,0,0,0,,So the understanding of love to a 14 year old boy would be somewhat different than at age 75.
+Dialogue: 0,0:19:00.64,0:19:01.48,Default,,0,0,0,,See?
+Dialogue: 0,0:19:01.75,0:19:02.00,Default,,0,0,0,,Right.
+Dialogue: 0,0:19:03.34,0:19:09.65,Default,,0,0,0,,So the comprehension, the way it's contextualized would be different.
+Dialogue: 0,0:19:09.91,0:19:12.17,Default,,0,0,0,,Therefore, different karmic consequences.
+Dialogue: 0,0:19:19.58,0:19:24.13,Default,,0,0,0,,If one case to say is sacrificial, another case to leave is sacrificial.
+Dialogue: 0,0:19:24.69,0:19:25.04,Default,,0,0,0,,Right.
+Dialogue: 0,0:19:25.95,0:19:26.21,Default,,0,0,0,,See?
+Dialogue: 0,0:19:26.50,0:19:26.82,Default,,0,0,0,,Right.
+Dialogue: 0,0:19:27.23,0:19:28.71,Default,,0,0,0,,So do we have a choice?
+Dialogue: 0,0:19:28.97,0:19:29.69,Default,,0,0,0,,Whether or not.
+Dialogue: 0,0:19:29.86,0:19:30.17,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:19:30.28,0:19:30.73,Default,,0,0,0,,The choice.
+Dialogue: 0,0:19:30.93,0:19:32.71,Default,,0,0,0,,The choice of sacrifice.
+Dialogue: 0,0:19:32.84,0:19:33.32,Default,,0,0,0,,You have a choice.
+Dialogue: 0,0:19:35.69,0:19:36.99,Default,,0,0,0,,You can either breathe or not breathe.
+Dialogue: 0,0:19:39.09,0:19:39.98,Default,,0,0,0,,You don't have to breathe.
+Dialogue: 0,0:19:40.78,0:19:43.23,Default,,0,0,0,,In that state, it's not necessary to breathe.
+Dialogue: 0,0:19:44.06,0:19:44.84,Default,,0,0,0,,Everything stops.
+Dialogue: 0,0:19:45.30,0:19:45.91,Default,,0,0,0,,You don't have to eat.
+Dialogue: 0,0:19:46.04,0:19:46.82,Default,,0,0,0,,You don't have to go to the bathroom.
+Dialogue: 0,0:19:46.82,0:19:47.67,Default,,0,0,0,,You don't have to breathe.
+Dialogue: 0,0:19:47.86,0:19:48.08,Default,,0,0,0,,Nothing.
+Dialogue: 0,0:19:51.64,0:19:52.44,Default,,0,0,0,,Everything is silent.
+Dialogue: 0,0:19:56.91,0:20:04.36,Default,,0,0,0,,You have absolute, total freedom to retain the body or not.
+Dialogue: 0,0:20:06.38,0:20:09.59,Default,,0,0,0,,And because your mind is silent, you can't think about it.
+Dialogue: 0,0:20:11.21,0:20:12.00,Default,,0,0,0,,You have nothing to think about.
+Dialogue: 0,0:20:12.25,0:20:12.67,Default,,0,0,0,,You don't have to think about it.
+Dialogue: 0,0:20:14.03,0:20:23.55,Default,,0,0,0,,Therefore, the choosingness comes out of nothingness.
+Dialogue: 0,0:20:24.03,0:20:28.20,Default,,0,0,0,,Because there's nothing but silence.
+Dialogue: 0,0:20:29.03,0:20:31.05,Default,,0,0,0,,The choosingness happens of its own.
+Dialogue: 0,0:20:33.69,0:20:36.02,Default,,0,0,0,,It isn't I that chose to breathe.
+Dialogue: 0,0:20:36.75,0:20:39.36,Default,,0,0,0,,The choosingness chose to breathe.
+Dialogue: 0,0:20:42.96,0:20:46.52,Default,,0,0,0,,This book is for a friend of mine who's turning 60.
+Dialogue: 0,0:20:46.52,0:20:50.93,Default,,0,0,0,,And he's on the faculty and the board of directors of the Gestalt Institute.
+Dialogue: 0,0:20:51.04,0:20:51.49,Default,,0,0,0,,In Cleveland.
+Dialogue: 0,0:20:52.13,0:20:55.67,Default,,0,0,0,,And when he read your book the first time, he was so moved by it,
+Dialogue: 0,0:20:55.67,0:20:59.84,Default,,0,0,0,,he bought a case and invited all the faculty to read this book.
+Dialogue: 0,0:21:00.08,0:21:00.71,Default,,0,0,0,,What's his name?
+Dialogue: 0,0:21:00.80,0:21:02.28,Default,,0,0,0,,I should say to so-and-so, right?
+Dialogue: 0,0:21:02.39,0:21:03.13,Default,,0,0,0,,His name is, yeah.
+Dialogue: 0,0:21:04.04,0:21:05.78,Default,,0,0,0,,To my dear friend, Josh.
+Dialogue: 0,0:21:05.86,0:21:06.32,Default,,0,0,0,,What's his name?
+Dialogue: 0,0:21:07.92,0:21:08.79,Default,,0,0,0,,That's close.
+Dialogue: 0,0:21:09.22,0:21:10.59,Default,,0,0,0,,It's John Carter.
+Dialogue: 0,0:21:11.07,0:21:11.42,Default,,0,0,0,,Huh?
+Dialogue: 0,0:21:11.66,0:21:12.50,Default,,0,0,0,,John Carter.
+Dialogue: 0,0:21:13.95,0:21:14.39,Default,,0,0,0,,Carter.
+Dialogue: 0,0:21:17.59,0:21:18.48,Default,,0,0,0,,Like President?
+Dialogue: 0,0:21:19.84,0:21:21.41,Default,,0,0,0,,Like President.
+Dialogue: 0,0:21:22.38,0:21:22.72,Default,,0,0,0,,Yes.
+Dialogue: 0,0:21:22.88,0:21:23.35,Default,,0,0,0,,How about John?
+Dialogue: 0,0:21:23.35,0:21:24.64,Default,,0,0,0,,Only John Carter, yeah.
+Dialogue: 0,0:21:26.20,0:21:26.64,Default,,0,0,0,,Carter?
+Dialogue: 0,0:21:28.77,0:21:29.44,Default,,0,0,0,,Like Cartier?
+Dialogue: 0,0:21:33.27,0:21:34.81,Default,,0,0,0,,Oh, you mean like Cartier?
+Dialogue: 0,0:21:35.05,0:21:36.22,Default,,0,0,0,,Oh, of course, I know what you mean.
+Dialogue: 0,0:21:36.61,0:21:37.07,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:21:44.79,0:21:45.18,Default,,0,0,0,,Hi.
+Dialogue: 0,0:21:45.70,0:21:49.68,Default,,0,0,0,,You state in your book that the Buddha taught enlightenment
+Dialogue: 0,0:21:49.68,0:21:51.90,Default,,0,0,0,,and that Christ taught salvation.
+Dialogue: 0,0:21:52.24,0:21:53.96,Default,,0,0,0,,Is there a distinction between the two?
+Dialogue: 0,0:21:55.09,0:21:55.48,Default,,0,0,0,,And what?
+Dialogue: 0,0:21:58.52,0:21:58.75,Default,,0,0,0,,Oh.
+Dialogue: 0,0:22:01.88,0:22:04.85,Default,,0,0,0,,Salvation is the celestial realm.
+Dialogue: 0,0:22:06.88,0:22:07.85,Default,,0,0,0,,Love is 500.
+Dialogue: 0,0:22:08.05,0:22:08.90,Default,,0,0,0,,Calibration is 500.
+Dialogue: 0,0:22:09.11,0:22:11.11,Default,,0,0,0,,Unconditional love calibrates at 540.
+Dialogue: 0,0:22:11.11,0:22:11.53,Default,,0,0,0,,No?
+Dialogue: 0,0:22:12.42,0:22:13.81,Default,,0,0,0,,Enlightenment calibrates at 0.
+Dialogue: 0,0:22:13.85,0:22:14.74,Default,,0,0,0,,600 and over.
+Dialogue: 0,0:22:16.22,0:22:23.33,Default,,0,0,0,,So it's like a more advanced destination to shoot for.
+Dialogue: 0,0:22:23.33,0:22:29.66,Default,,0,0,0,,It's also far more arduous and far less likely to be accomplished.
+Dialogue: 0,0:22:33.00,0:22:36.22,Default,,0,0,0,,Lotusland Buddhism and Christianity are both like practical.
+Dialogue: 0,0:22:37.24,0:22:43.59,Default,,0,0,0,,It's like the negativity, the gravitation of the negativity on this planet is so intense.
+Dialogue: 0,0:22:44.24,0:22:46.01,Default,,0,0,0,,The provocation is so continuous.
+Dialogue: 0,0:22:46.31,0:22:47.57,Default,,0,0,0,,I mean, the media hits you.
+Dialogue: 0,0:22:47.57,0:22:48.42,Default,,0,0,0,,You're with it constantly.
+Dialogue: 0,0:22:49.20,0:22:55.16,Default,,0,0,0,,Fallacy, rhetoric, distortion, positionality, emotional manipulation, glamorization.
+Dialogue: 0,0:22:55.98,0:23:04.44,Default,,0,0,0,,It's a ceaseless barrage that the likelihood of also leading an ordinary life and staying alive as a human being
+Dialogue: 0,0:23:04.44,0:23:06.64,Default,,0,0,0,,and becoming enlightened is practically zilch.
+Dialogue: 0,0:23:07.56,0:23:10.73,Default,,0,0,0,,So Jesus says get real.
+Dialogue: 0,0:23:11.76,0:23:14.26,Default,,0,0,0,,And Lotusland Buddhism says get real.
+Dialogue: 0,0:23:15.64,0:23:19.88,Default,,0,0,0,,Become as pure a human being as you can and still live like a family.
+Dialogue: 0,0:23:19.88,0:23:22.22,Default,,0,0,0,,Life and living so-and-so.
+Dialogue: 0,0:23:23.80,0:23:29.93,Default,,0,0,0,,And if it's because of your alignment, your intention, devotion to Jesus Christ as your Savior,
+Dialogue: 0,0:23:30.86,0:23:32.69,Default,,0,0,0,,he then becomes your advocate.
+Dialogue: 0,0:23:34.41,0:23:41.84,Default,,0,0,0,,And you might say the judges of justice hold on the scale, the weight of what you've done.
+Dialogue: 0,0:23:42.02,0:23:48.04,Default,,0,0,0,,And the Christ speaks for you and says, but in my name did she ask for your help.
+Dialogue: 0,0:23:48.30,0:23:55.19,Default,,0,0,0,,So by that one is the benefit.
+Dialogue: 0,0:23:55.39,0:23:56.47,Default,,0,0,0,,The benefit of grace.
+Dialogue: 0,0:23:57.39,0:24:01.93,Default,,0,0,0,,The grace of the Savior then is that he is the advocate for your intention.
+Dialogue: 0,0:24:03.21,0:24:07.99,Default,,0,0,0,,So as you left this lifetime, she may not have accomplished her ultimate goal,
+Dialogue: 0,0:24:08.39,0:24:11.00,Default,,0,0,0,,but she has made a stated intention.
+Dialogue: 0,0:24:11.84,0:24:16.61,Default,,0,0,0,,And therefore, you merit admission to this celestial realm called heaven.
+Dialogue: 0,0:24:18.51,0:24:18.85,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:24:20.78,0:24:21.39,Default,,0,0,0,,Enlightenment.
+Dialogue: 0,0:24:21.60,0:24:24.58,Default,,0,0,0,,There would be nobody there to be spoken for.
+Dialogue: 0,0:24:27.90,0:24:30.30,Default,,0,0,0,,I have two questions.
+Dialogue: 0,0:24:30.67,0:24:33.28,Default,,0,0,0,,The first question has to do with the chakras.
+Dialogue: 0,0:24:33.97,0:24:41.98,Default,,0,0,0,,And I'm wondering if they, how they, or if they can be found on the, in the levels of consciousness, where would they be?
+Dialogue: 0,0:24:41.98,0:24:43.64,Default,,0,0,0,,Yes, roughly comparable.
+Dialogue: 0,0:24:44.46,0:24:49.70,Default,,0,0,0,,The base chakra, as I say, if you get down to the bottom of apathy, the energy has left the base chakra.
+Dialogue: 0,0:24:50.67,0:24:55.04,Default,,0,0,0,,And you just lay there in apathy, you don't even have the energy to feed yourself.
+Dialogue: 0,0:24:55.21,0:24:55.99,Default,,0,0,0,,That's apathy.
+Dialogue: 0,0:24:56.32,0:24:57.71,Default,,0,0,0,,The base chakra is blown out.
+Dialogue: 0,0:24:57.71,0:24:58.75,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:24:58.75,0:25:01.53,Default,,0,0,0,,You get up to higher levels, you get up to the...
+Dialogue: 0,0:25:01.55,0:25:03.59,Default,,0,0,0,,Yeah, the spleen.
+Dialogue: 0,0:25:04.57,0:25:05.70,Default,,0,0,0,,You get to hatred.
+Dialogue: 0,0:25:07.14,0:25:11.31,Default,,0,0,0,,The Al-Qaeda operates out of the spleen, out of the spleen.
+Dialogue: 0,0:25:13.11,0:25:15.44,Default,,0,0,0,,Hamas, all those operate out of the spleen.
+Dialogue: 0,0:25:15.61,0:25:15.98,Default,,0,0,0,,Hatred.
+Dialogue: 0,0:25:16.68,0:25:22.25,Default,,0,0,0,,And in the name of God, they kill, which is blasphemy, really, is actual blasphemy.
+Dialogue: 0,0:25:23.82,0:25:26.28,Default,,0,0,0,,They use the words of God against God.
+Dialogue: 0,0:25:26.28,0:25:32.91,Default,,0,0,0,,And therefore, that which hates divinity masquerades that they are doing so in the name of divinity,
+Dialogue: 0,0:25:32.91,0:25:34.60,Default,,0,0,0,,which is the ultimate blasphemy.
+Dialogue: 0,0:25:34.73,0:25:36.15,Default,,0,0,0,,That's why they calibrate it at 35.
+Dialogue: 0,0:25:38.79,0:25:39.11,Default,,0,0,0,,So?
+Dialogue: 0,0:25:39.64,0:25:40.40,Default,,0,0,0,,That's the spleen.
+Dialogue: 0,0:25:41.65,0:25:43.36,Default,,0,0,0,,The solar plexus is wantingness.
+Dialogue: 0,0:25:44.46,0:25:51.75,Default,,0,0,0,,Let's say, you know, wantingness, aggressiveness, doingness, the capacity to do.
+Dialogue: 0,0:25:51.88,0:25:53.61,Default,,0,0,0,,That's in the 200s, the 300s.
+Dialogue: 0,0:25:54.93,0:25:57.78,Default,,0,0,0,,The heart, of course, is the heart chakra, the 500s.
+Dialogue: 0,0:25:58.67,0:26:01.52,Default,,0,0,0,,The third eye, the opening of the third eye would be like 600.
+Dialogue: 0,0:26:03.13,0:26:04.32,Default,,0,0,0,,Spiritual discernment.
+Dialogue: 0,0:26:04.32,0:26:07.32,Default,,0,0,0,,Without kinesiology, people don't have spiritual discernment.
+Dialogue: 0,0:26:07.84,0:26:10.53,Default,,0,0,0,,They can't tell appearance from essence.
+Dialogue: 0,0:26:11.74,0:26:14.70,Default,,0,0,0,,They can't tell the sheep's clothing from the wolf and the sheep's clothing.
+Dialogue: 0,0:26:15.59,0:26:17.53,Default,,0,0,0,,So, Jesus Christ sent me here.
+Dialogue: 0,0:26:17.88,0:26:19.74,Default,,0,0,0,,He says, I want you to teach kinesiology.
+Dialogue: 0,0:26:22.97,0:26:27.26,Default,,0,0,0,,So, people can tell whether it's a sheep or is it a wolf and sheep's clothing.
+Dialogue: 0,0:26:28.50,0:26:34.05,Default,,0,0,0,,Because other than by their fruits you shall know them, there's no way of telling, is there?
+Dialogue: 0,0:26:38.85,0:26:41.64,Default,,0,0,0,,How can you tell a sheep from a wolf and sheep's clothing?
+Dialogue: 0,0:26:41.64,0:26:41.74,Default,,0,0,0,,I don't know.
+Dialogue: 0,0:26:48.81,0:26:50.09,Default,,0,0,0,,I'm a sheep with wolf's clothing.
+Dialogue: 0,0:26:51.05,0:26:51.50,Default,,0,0,0,,Ah.
+Dialogue: 0,0:26:54.88,0:26:59.23,Default,,0,0,0,,I scare people away so they won't find that I'm a sheep underneath.
+Dialogue: 0,0:26:59.23,0:27:06.53,Default,,0,0,0,,And the other question has to do with vibrational levels.
+Dialogue: 0,0:27:08.44,0:27:16.94,Default,,0,0,0,,And I wonder, there's been a lot of work done around the organs of the body when they're running perfectly.
+Dialogue: 0,0:27:17.11,0:27:18.98,Default,,0,0,0,,They run at 77 megahertz.
+Dialogue: 0,0:27:19.16,0:27:21.68,Default,,0,0,0,,I'm talking about frequency levels and things like that.
+Dialogue: 0,0:27:21.70,0:27:31.05,Default,,0,0,0,,And that when you pursue a spiritual path, there's a lot of talk about bringing your vibration up, bringing your frequency up.
+Dialogue: 0,0:27:31.22,0:27:33.18,Default,,0,0,0,,And so, is there any correlation?
+Dialogue: 0,0:27:34.03,0:27:39.07,Default,,0,0,0,,Is there a correlation or a bridge between that work and the work of the levels of consciousness?
+Dialogue: 0,0:27:39.22,0:27:40.14,Default,,0,0,0,,I don't think so.
+Dialogue: 0,0:27:40.24,0:27:43.09,Default,,0,0,0,,I think they're talking about different scales of vibration.
+Dialogue: 0,0:27:43.75,0:27:49.11,Default,,0,0,0,,We're talking about spiritual energy and balance.
+Dialogue: 0,0:27:49.11,0:27:51.53,Default,,0,0,0,,So, if you're spiritually aligned.
+Dialogue: 0,0:27:51.81,0:27:53.70,Default,,0,0,0,,Spiritual aligned.
+Dialogue: 0,0:27:54.01,0:27:56.66,Default,,0,0,0,,And your intentionality is integrous.
+Dialogue: 0,0:27:57.42,0:28:02.29,Default,,0,0,0,,Then the chakra system and the acupuncture system will balance itself out.
+Dialogue: 0,0:28:04.81,0:28:07.57,Default,,0,0,0,,Unless you have an impairment in some particular attitude.
+Dialogue: 0,0:28:07.85,0:28:10.68,Default,,0,0,0,,That's why John Diamond did such excellent work.
+Dialogue: 0,0:28:11.27,0:28:15.01,Default,,0,0,0,,You know, he found the acupuncture points that relate to certain attitudes.
+Dialogue: 0,0:28:15.48,0:28:22.07,Default,,0,0,0,,And he would give you a, what do you call it, where you say positive.
+Dialogue: 0,0:28:22.35,0:28:23.07,Default,,0,0,0,,Affirmation.
+Dialogue: 0,0:28:23.48,0:28:23.59,Default,,0,0,0,,Huh?
+Dialogue: 0,0:28:23.59,0:28:24.53,Default,,0,0,0,,An affirmation.
+Dialogue: 0,0:28:24.61,0:28:25.16,Default,,0,0,0,,Yeah, an affirmation.
+Dialogue: 0,0:28:25.18,0:28:28.31,Default,,0,0,0,,At the same time, you stimulate those specific acupuncture points.
+Dialogue: 0,0:28:28.96,0:28:37.42,Default,,0,0,0,,So, those things that are related to body work and consciousness and attitudes are like a step between the physical.
+Dialogue: 0,0:28:37.74,0:28:41.14,Default,,0,0,0,,You know, body work is like a step between the physical and then the chakra system.
+Dialogue: 0,0:28:41.38,0:28:45.66,Default,,0,0,0,,And then the pure spiritual work, which doesn't pay attention to chakra systems.
+Dialogue: 0,0:28:46.83,0:28:49.05,Default,,0,0,0,,Pure spiritual work doesn't pay attention to them, you know.
+Dialogue: 0,0:28:49.74,0:28:53.25,Default,,0,0,0,,I mean, esoterically, you could describe them, but they're irrelevant.
+Dialogue: 0,0:28:53.74,0:28:55.89,Default,,0,0,0,,You know.
+Dialogue: 0,0:28:55.89,0:28:59.18,Default,,0,0,0,,So, the dagger's at the point of your enemy's heart.
+Dialogue: 0,0:28:59.29,0:29:00.68,Default,,0,0,0,,You can either push it in or not.
+Dialogue: 0,0:29:01.99,0:29:03.50,Default,,0,0,0,,You haven't got time to do kinesiology.
+Dialogue: 0,0:29:05.69,0:29:05.97,Default,,0,0,0,,Right.
+Dialogue: 0,0:29:06.15,0:29:07.19,Default,,0,0,0,,You just have time to choose.
+Dialogue: 0,0:29:07.19,0:29:10.56,Default,,0,0,0,,In one lifetime, you lose if you push it in.
+Dialogue: 0,0:29:11.17,0:29:13.36,Default,,0,0,0,,In another lifetime, you lose if you don't.
+Dialogue: 0,0:29:14.11,0:29:15.31,Default,,0,0,0,,Depends on the context.
+Dialogue: 0,0:29:15.75,0:29:18.01,Default,,0,0,0,,I said, you can't know truth unless you know context.
+Dialogue: 0,0:29:22.73,0:29:26.69,Default,,0,0,0,,Integrity means crossing over 200 for integrity's reasons.
+Dialogue: 0,0:29:27.69,0:29:31.84,Default,,0,0,0,,So, as I've told other groups, one lifetime, I failed to kill a warrior.
+Dialogue: 0,0:29:31.99,0:29:32.49,Default,,0,0,0,,That I won't.
+Dialogue: 0,0:29:32.63,0:29:33.19,Default,,0,0,0,,Wounded.
+Dialogue: 0,0:29:34.53,0:29:38.66,Default,,0,0,0,,And I came back and had to go through very painful surgery with no anesthesia.
+Dialogue: 0,0:29:39.18,0:29:41.42,Default,,0,0,0,,In the middle of it, I remembered the exact thing.
+Dialogue: 0,0:29:43.03,0:29:49.40,Default,,0,0,0,,I put a sword right through his groin and did not give him the kudogra.
+Dialogue: 0,0:29:50.98,0:29:52.11,Default,,0,0,0,,Out of cowardice.
+Dialogue: 0,0:29:53.77,0:29:55.22,Default,,0,0,0,,I couldn't bring myself to kill him.
+Dialogue: 0,0:29:56.09,0:29:59.55,Default,,0,0,0,,So, I left him to die of his wounds, which took him weeks of agony and fever.
+Dialogue: 0,0:30:00.75,0:30:05.19,Default,,0,0,0,,And I should have, one warrior to another, put him out of his misery.
+Dialogue: 0,0:30:07.00,0:30:07.44,Default,,0,0,0,,So.
+Dialogue: 0,0:30:07.72,0:30:10.85,Default,,0,0,0,,I had to suffer the guilt of that for a long time.
+Dialogue: 0,0:30:11.61,0:30:13.70,Default,,0,0,0,,Agonizing that I had lacked the courage.
+Dialogue: 0,0:30:15.01,0:30:16.22,Default,,0,0,0,,One warrior to another.
+Dialogue: 0,0:30:19.57,0:30:23.81,Default,,0,0,0,,In this war, you leave a pistol with one bullet left in it by his hand.
+Dialogue: 0,0:30:24.20,0:30:24.92,Default,,0,0,0,,You walk away.
+Dialogue: 0,0:30:25.38,0:30:26.22,Default,,0,0,0,,Now it's his choice.
+Dialogue: 0,0:30:27.11,0:30:28.07,Default,,0,0,0,,But that's your obligation.
+Dialogue: 0,0:30:28.33,0:30:29.01,Default,,0,0,0,,Warrior to warrior.
+Dialogue: 0,0:30:30.54,0:30:32.65,Default,,0,0,0,,So, in this lifetime, I did that karma.
+Dialogue: 0,0:30:33.21,0:30:34.54,Default,,0,0,0,,And I apologized to him.
+Dialogue: 0,0:30:37.80,0:30:38.84,Default,,0,0,0,,And I asked his forgiveness.
+Dialogue: 0,0:30:39.49,0:30:46.86,Default,,0,0,0,,I would have the courage to kudogra.
+Dialogue: 0,0:30:46.86,0:30:48.75,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:30:48.75,0:30:49.08,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:30:49.08,0:30:51.00,Default,,0,0,0,,Out of my love for him, I kill him.
+Dialogue: 0,0:30:51.82,0:30:51.95,Default,,0,0,0,,See?
+Dialogue: 0,0:30:52.45,0:30:54.21,Default,,0,0,0,,So, it's intention, not the act.
+Dialogue: 0,0:30:55.11,0:31:00.35,Default,,0,0,0,,So, in one lifetime, to run the dagger home would be cowardly and negative.
+Dialogue: 0,0:31:00.70,0:31:02.98,Default,,0,0,0,,And another not to would be cowardly and negative.
+Dialogue: 0,0:31:03.16,0:31:05.09,Default,,0,0,0,,So, context makes the whole difference.
+Dialogue: 0,0:31:08.00,0:31:08.24,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:31:09.71,0:31:20.23,Default,,0,0,0,,And I just have one other thing, which is I am so grateful for some of the things you said today about when you're born and when you die.
+Dialogue: 0,0:31:20.23,0:31:21.95,Default,,0,0,0,,And these things are all set up.
+Dialogue: 0,0:31:22.10,0:31:22.82,Default,,0,0,0,,I had a...
+Dialogue: 0,0:31:22.82,0:31:23.23,Default,,0,0,0,,I had my...
+Dialogue: 0,0:31:23.50,0:31:26.86,Default,,0,0,0,,I had my first child in December, and she was only with us for 10 days.
+Dialogue: 0,0:31:27.58,0:31:30.06,Default,,0,0,0,,And I really can...
+Dialogue: 0,0:31:30.06,0:31:35.92,Default,,0,0,0,,Your work has really helped with that, to know that these things are chosen, you know.
+Dialogue: 0,0:31:36.20,0:31:38.00,Default,,0,0,0,,Karmically destined to come in and out, see?
+Dialogue: 0,0:31:38.03,0:31:38.29,Default,,0,0,0,,Right.
+Dialogue: 0,0:31:38.53,0:31:40.90,Default,,0,0,0,,To experience the birth process for some reason.
+Dialogue: 0,0:31:42.16,0:31:43.81,Default,,0,0,0,,And having accomplished it, left.
+Dialogue: 0,0:31:44.76,0:31:45.69,Default,,0,0,0,,End of karmic purpose.
+Dialogue: 0,0:31:47.52,0:31:48.50,Default,,0,0,0,,So, thank you for that.
+Dialogue: 0,0:31:48.69,0:31:48.86,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:31:49.59,0:31:51.07,Default,,0,0,0,,Another interesting fact.
+Dialogue: 0,0:31:53.14,0:31:55.14,Default,,0,0,0,,I like things that relieve guilt and anxiety.
+Dialogue: 0,0:31:55.14,0:31:59.85,Default,,0,0,0,,You know, is that the spirit, human spirit, doesn't enter the embryo until the third month.
+Dialogue: 0,0:32:00.29,0:32:00.96,Default,,0,0,0,,Isn't that interesting?
+Dialogue: 0,0:32:02.39,0:32:03.50,Default,,0,0,0,,Not until the third month.
+Dialogue: 0,0:32:03.65,0:32:07.97,Default,,0,0,0,,The spirit waits to make sure, I guess, the embryo is going to survive.
+Dialogue: 0,0:32:08.50,0:32:10.52,Default,,0,0,0,,It doesn't enter the human embryo until the third month.
+Dialogue: 0,0:32:11.44,0:32:12.59,Default,,0,0,0,,I just think that's interesting.
+Dialogue: 0,0:32:14.00,0:32:15.45,Default,,0,0,0,,I don't know what it means, but...
+Dialogue: 0,0:32:17.88,0:32:21.52,Default,,0,0,0,,Yeah, third month.
+Dialogue: 0,0:32:23.81,0:32:28.11,Default,,0,0,0,,Dr. Hawkins, if I understood you correctly this morning,
+Dialogue: 0,0:32:28.27,0:32:29.27,Default,,0,0,0,,you had said that,
+Dialogue: 0,0:32:29.27,0:32:31.74,Default,,0,0,0,,Christ came in in one lifetime.
+Dialogue: 0,0:32:32.33,0:32:37.48,Default,,0,0,0,,And Edgar Cayce says that he was here 33 lifetimes.
+Dialogue: 0,0:32:37.70,0:32:39.35,Default,,0,0,0,,And I just wondered why the discrepancy.
+Dialogue: 0,0:32:39.88,0:32:41.20,Default,,0,0,0,,Because Cayce didn't know any better.
+Dialogue: 0,0:32:44.54,0:32:45.10,Default,,0,0,0,,Okay.
+Dialogue: 0,0:32:49.43,0:32:52.06,Default,,0,0,0,,Cayce was into the esoteric Christ.
+Dialogue: 0,0:32:53.25,0:32:53.96,Default,,0,0,0,,Which means what?
+Dialogue: 0,0:32:54.20,0:32:54.50,Default,,0,0,0,,Yes.
+Dialogue: 0,0:32:54.70,0:32:57.55,Default,,0,0,0,,Well, you have to be educated in esotericism.
+Dialogue: 0,0:32:58.48,0:33:03.16,Default,,0,0,0,,There is the esoteric Christ, and then there's the physical material Christ.
+Dialogue: 0,0:33:03.16,0:33:04.00,Default,,0,0,0,,Okay.
+Dialogue: 0,0:33:05.24,0:33:06.22,Default,,0,0,0,,May I have permission to ask this?
+Dialogue: 0,0:33:06.79,0:33:09.14,Default,,0,0,0,,Cayce was talking about the esoteric Christ.
+Dialogue: 0,0:33:09.40,0:33:09.57,Default,,0,0,0,,Yes.
+Dialogue: 0,0:33:09.83,0:33:14.53,Default,,0,0,0,,He was speaking of the esoteric Christ, and not the actual physical Christ.
+Dialogue: 0,0:33:15.25,0:33:16.76,Default,,0,0,0,,Does that mean Jesus the man?
+Dialogue: 0,0:33:16.86,0:33:17.56,Default,,0,0,0,,You'll have to study...
+Dialogue: 0,0:33:19.72,0:33:23.77,Default,,0,0,0,,What's her name that channeled the white brotherhood?
+Dialogue: 0,0:33:24.69,0:33:27.80,Default,,0,0,0,,If you read the Alice Bailey books, that'll sort of answer it.
+Dialogue: 0,0:33:28.26,0:33:33.19,Default,,0,0,0,,And Manley's books, which get more into esotericism.
+Dialogue: 0,0:33:33.19,0:33:33.45,Default,,0,0,0,,Okay.
+Dialogue: 0,0:33:34.75,0:33:35.26,Default,,0,0,0,,And...
+Dialogue: 0,0:33:35.26,0:33:35.56,Default,,0,0,0,,Okay.
+Dialogue: 0,0:33:35.58,0:33:40.50,Default,,0,0,0,,There are different levels of existence, other than the physical and the strictly spiritual.
+Dialogue: 0,0:33:40.78,0:33:41.50,Default,,0,0,0,,Esoteric levels.
+Dialogue: 0,0:33:42.13,0:33:45.19,Default,,0,0,0,,So I think Cayce was talking about the esoteric Christ.
+Dialogue: 0,0:33:45.71,0:33:47.38,Default,,0,0,0,,Okay.
+Dialogue: 0,0:33:47.59,0:33:47.75,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:33:47.75,0:33:53.40,Default,,0,0,0,,Who you might say was reborn again in the late 80s, when the consciousness level went
+Dialogue: 0,0:33:53.40,0:33:55.14,Default,,0,0,0,,from 190 to 205.
+Dialogue: 0,0:33:55.66,0:34:00.05,Default,,0,0,0,,That's the reemergence of the Christ consciousness, the second coming, isn't it?
+Dialogue: 0,0:34:00.75,0:34:03.64,Default,,0,0,0,,Where they think another human being should come up and say, I'm reborn Jesus.
+Dialogue: 0,0:34:03.81,0:34:05.07,Default,,0,0,0,,I mean, there's no way.
+Dialogue: 0,0:34:05.07,0:34:05.46,Default,,0,0,0,,No.
+Dialogue: 0,0:34:05.46,0:34:13.55,Default,,0,0,0,,No, the Christ consciousness prevails, then another wave of the Christ consciousness came
+Dialogue: 0,0:34:13.55,0:34:19.13,Default,,0,0,0,,in on October 14th at five in the afternoon, and it went from 205 to 207.
+Dialogue: 0,0:34:20.59,0:34:27.76,Default,,0,0,0,,It seems to me like the Christ consciousness prevails, then it increases, then it increases.
+Dialogue: 0,0:34:27.94,0:34:31.65,Default,,0,0,0,,What do you think would happen to the people on this planet if it went from 200 up to 1,000
+Dialogue: 0,0:34:31.65,0:34:32.30,Default,,0,0,0,,all of a sudden?
+Dialogue: 0,0:34:33.11,0:34:35.69,Default,,0,0,0,,It brings sudden death to most people on the planet.
+Dialogue: 0,0:34:35.69,0:34:36.42,Default,,0,0,0,,You know that?
+Dialogue: 0,0:34:36.42,0:34:37.73,Default,,0,0,0,,No.
+Dialogue: 0,0:34:37.73,0:34:42.82,Default,,0,0,0,,You raise the level of the sea this much, then you raise the level of the sea this much
+Dialogue: 0,0:34:42.82,0:34:46.69,Default,,0,0,0,,because the whole world has to adjust to that.
+Dialogue: 0,0:34:46.69,0:34:53.26,Default,,0,0,0,,So spiritual advancement is not supposed to be brutal, to force everybody to jump to 2,000
+Dialogue: 0,0:34:53.26,0:34:59.19,Default,,0,0,0,,or 1,000, I mean, to even go from 800 to 900, like fries your whole nervous system, like
+Dialogue: 0,0:34:59.19,0:35:01.32,Default,,0,0,0,,you'd die 1,000 deaths.
+Dialogue: 0,0:35:01.32,0:35:02.32,Default,,0,0,0,,So what are you going to do?
+Dialogue: 0,0:35:02.32,0:35:04.61,Default,,0,0,0,,Fry everybody on the planet and force them to jump to 1,000?
+Dialogue: 0,0:35:04.61,0:35:05.61,Default,,0,0,0,,No.
+Dialogue: 0,0:35:05.61,0:35:07.57,Default,,0,0,0,,I think the Christ consciousness as...
+Dialogue: 0,0:35:07.57,0:35:08.13,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:35:08.44,0:35:11.17,Default,,0,0,0,,It becomes acceptable, moves in.
+Dialogue: 0,0:35:11.84,0:35:15.59,Default,,0,0,0,,We may see another decade or a few decades, it moves another two.
+Dialogue: 0,0:35:16.48,0:35:19.82,Default,,0,0,0,,Look at the upset that even a few points has caused.
+Dialogue: 0,0:35:19.82,0:35:26.82,Default,,0,0,0,,All the giant corporations have fallen, all kinds of things.
+Dialogue: 0,0:35:27.15,0:35:28.03,Default,,0,0,0,,Heads have been rolling.
+Dialogue: 0,0:35:29.00,0:35:35.03,Default,,0,0,0,,Those heads would not have rolled at 190, and Ron would be profitable at 190.
+Dialogue: 0,0:35:36.82,0:35:37.40,Default,,0,0,0,,We'll come.
+Dialogue: 0,0:35:38.26,0:35:38.69,Default,,0,0,0,,We'll quit.
+Dialogue: 0,0:35:41.36,0:35:42.75,Default,,0,0,0,,Okay, I'm going to see them right now.
+Dialogue: 0,0:35:42.94,0:35:43.42,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:35:43.46,0:35:44.21,Default,,0,0,0,,We're not catching a train.
+Dialogue: 0,0:35:44.23,0:35:47.92,Default,,0,0,0,,Oh, I'm moving.
+Dialogue: 0,0:35:49.09,0:35:51.03,Default,,0,0,0,,Okay, I know, we're not running out of space.
+Dialogue: 0,0:35:51.61,0:35:52.23,Default,,0,0,0,,Is there a church?
+Dialogue: 0,0:35:53.78,0:35:55.03,Default,,0,0,0,,Thanks for coming.
+Dialogue: 0,0:35:55.98,0:36:00.42,Default,,0,0,0,,Are you familiar with the term psychic vampires, or people who steal others' energy?
+Dialogue: 0,0:36:01.76,0:36:02.48,Default,,0,0,0,,Not really.
+Dialogue: 0,0:36:05.61,0:36:06.65,Default,,0,0,0,,No, no.
+Dialogue: 0,0:36:09.05,0:36:18.40,Default,,0,0,0,,Can somebody go from a calibrated at a 400 by one bad choice, drop to below 200 without
+Dialogue: 0,0:36:18.40,0:36:19.40,Default,,0,0,0,,shock?
+Dialogue: 0,0:36:19.40,0:36:20.40,Default,,0,0,0,,Yeah, I think so.
+Dialogue: 0,0:36:20.40,0:36:21.53,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:21.53,0:36:25.53,Default,,0,0,0,,And would that also be a shock to the system as it is in reverse from, say, 190 to, or
+Dialogue: 0,0:36:25.53,0:36:26.53,Default,,0,0,0,,do we do that all the time?
+Dialogue: 0,0:36:26.53,0:36:27.53,Default,,0,0,0,,I don't know if it'd be a shock to the system or not.
+Dialogue: 0,0:36:27.53,0:36:28.82,Default,,0,0,0,,I don't historically remember that being said.
+Dialogue: 0,0:36:28.82,0:36:29.82,Default,,0,0,0,,Do we do that?
+Dialogue: 0,0:36:29.82,0:36:30.82,Default,,0,0,0,,I mean, do we bounce up and down daily just by choices?
+Dialogue: 0,0:36:30.82,0:36:31.82,Default,,0,0,0,,Oh, not that much.
+Dialogue: 0,0:36:31.82,0:36:32.82,Default,,0,0,0,,No, no.
+Dialogue: 0,0:36:32.82,0:36:33.82,Default,,0,0,0,,We fluctuate a little bit like this.
+Dialogue: 0,0:36:33.82,0:36:34.82,Default,,0,0,0,,Okay.
+Dialogue: 0,0:36:34.82,0:36:35.82,Default,,0,0,0,,But I say your spiritual will is what, your spiritual intention, your will, your commitment.
+Dialogue: 0,0:36:35.82,0:36:36.82,Default,,0,0,0,,Okay.
+Dialogue: 0,0:36:36.82,0:36:37.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:37.82,0:36:38.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:38.82,0:36:39.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:39.82,0:36:40.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:40.82,0:36:41.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:41.82,0:36:42.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:42.82,0:36:43.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:43.82,0:36:44.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:44.82,0:36:45.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:45.82,0:36:46.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:46.82,0:36:47.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:47.82,0:36:48.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:48.82,0:36:49.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:49.82,0:36:50.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:50.82,0:36:51.82,Default,,0,0,0,,So the spiritual will doesn't fluctuate from moment to moment.
+Dialogue: 0,0:36:51.82,0:36:52.82,Default,,0,0,0,,No.
+Dialogue: 0,0:36:52.82,0:37:03.38,Default,,0,0,0,,And the miraculous does occur as a consequence of the Kundalini energy because the person
+Dialogue: 0,0:37:03.38,0:37:09.71,Default,,0,0,0,,will sit down there with a problem and you don't know why they're there and then you
+Dialogue: 0,0:37:09.71,0:37:12.78,Default,,0,0,0,,get, Oh, I get what, yeah.
+Dialogue: 0,0:37:12.78,0:37:13.78,Default,,0,0,0,,And walk away.
+Dialogue: 0,0:37:13.78,0:37:17.75,Default,,0,0,0,,Well, and you had nothing to do with that.
+Dialogue: 0,0:37:17.75,0:37:24.28,Default,,0,0,0,,The healing capacity then is a consequence of spiritual commitment.
+Dialogue: 0,0:37:24.28,0:37:25.48,Default,,0,0,0,,You can't do it for its own.
+Dialogue: 0,0:37:25.48,0:37:35.40,Default,,0,0,0,,sake the kundalini energy the miraculous the so-called cities s-i-d-d-h-i-s are a consequence
+Dialogue: 0,0:37:35.40,0:37:44.55,Default,,0,0,0,,but you can't seek them for themselves the cities you know do perform the miraculous
+Dialogue: 0,0:37:44.55,0:37:56.55,Default,,0,0,0,,and they're exquisite to experience but you can't hang on to them for their own sake and
+Dialogue: 0,0:37:56.55,0:38:04.40,Default,,0,0,0,,the spiritually advanced teachings are not to claim them not to hang on to them
+Dialogue: 0,0:38:04.40,0:38:19.05,Default,,0,0,0,,to merely witness them because the kundalini energy does what it does of its own yes thank
+Dialogue: 0,0:38:19.05,0:38:26.92,Default,,0,0,0,,you dr hawkins um question about fluorescent lights have you tested full spectrum fluorescent
+Dialogue: 0,0:38:26.92,0:38:32.86,Default,,0,0,0,,lights as well as ordinary ones no we didn't bother those were the days we they just i don't
+Dialogue: 0,0:38:32.86,0:38:33.44,Default,,0,0,0,,know we just
+Dialogue: 0,0:38:33.44,0:38:42.28,Default,,0,0,0,,have fluorescent lights thank you um and can you comment on the level of consciousness of
+Dialogue: 0,0:38:42.28,0:38:50.26,Default,,0,0,0,,any entity or entities that inhabit the sun that what inhabit the sun the sun yeah no thank you
+Dialogue: 0,0:38:50.26,0:39:01.28,Default,,0,0,0,,whose son the cosmic sun no i never thought of the question dr hawkins my question has to do
+Dialogue: 0,0:39:01.28,0:39:06.76,Default,,0,0,0,,with spiritual intention if your intention is to surrender to god and that is
+Dialogue: 0,0:39:06.76,0:39:06.94,Default,,0,0,0,,you
+Dialogue: 0,0:39:06.96,0:39:12.88,Default,,0,0,0,,what you're making the purpose of your life are intentions such as prayer for healing for oneself
+Dialogue: 0,0:39:12.88,0:39:19.53,Default,,0,0,0,,or loved ones or actually any preferences whatsoever if you put any intention into those
+Dialogue: 0,0:39:19.53,0:39:25.92,Default,,0,0,0,,thoughts are they integrous because really when you do that it depends on what level of
+Dialogue: 0,0:39:25.92,0:39:31.44,Default,,0,0,0,,consciousness you're at at the time on one level would be it would be something you've got to
+Dialogue: 0,0:39:31.44,0:39:36.94,Default,,0,0,0,,get over at another level it'd be something that you're just approaching and looking at
+Dialogue: 0,0:39:36.94,0:39:43.51,Default,,0,0,0,,learning and another you would say in the name of the highest good because you don't know if healing
+Dialogue: 0,0:39:43.51,0:39:49.01,Default,,0,0,0,,somebody or they're getting better is in the interest of the highest good anyway better they
+Dialogue: 0,0:39:49.01,0:39:55.23,Default,,0,0,0,,leave you know i'm saying so therefore serve the highest good by getting out of here frankly
+Dialogue: 0,0:39:55.23,0:40:02.21,Default,,0,0,0,,and so really just surrendering it to god and saying whatever is in the highest foot is it
+Dialogue: 0,0:40:02.21,0:40:07.30,Default,,0,0,0,,in which case um certain prayers any prayers for anything else
+Dialogue: 0,0:40:07.86,0:40:13.92,Default,,0,0,0,,are really not necessary well it's well intentioned it's well intentioned
+Dialogue: 0,0:40:13.92,0:40:16.51,Default,,0,0,0,,it's so it's a form of love
+Dialogue: 0,0:40:16.51,0:40:18.59,Default,,0,0,0,,and the prayer you know
+Dialogue: 0,0:40:18.59,0:40:22.69,Default,,0,0,0,,in a way it's sort of ambiguous because you're asking god to do what god's will is for the
+Dialogue: 0,0:40:22.69,0:40:27.65,Default,,0,0,0,,person and he really doesn't need to be reminded
+Dialogue: 0,0:40:27.65,0:40:28.71,Default,,0,0,0,,exactly
+Dialogue: 0,0:40:28.71,0:40:33.46,Default,,0,0,0,,and what if it's one's own self and you feel that um you know you're asking
+Dialogue: 0,0:40:33.46,0:40:37.19,Default,,0,0,0,,or making an intention let's say for a certain kind of healing process
+Dialogue: 0,0:40:37.19,0:40:38.30,Default,,0,0,0,,which i think you
+Dialogue: 0,0:40:38.30,0:40:40.09,Default,,0,0,0,,maybe can affect
+Dialogue: 0,0:40:40.09,0:40:41.00,Default,,0,0,0,,but all right
+Dialogue: 0,0:40:41.00,0:40:47.40,Default,,0,0,0,,what you do is you hold in mind as i say what you hold in mind tends to actualize you saw the
+Dialogue: 0,0:40:47.40,0:40:53.15,Default,,0,0,0,,physics of it this morning through the heisenberg principles so the intentionality
+Dialogue: 0,0:40:53.15,0:40:59.32,Default,,0,0,0,,of their health and wellness if you're just holding it in mind you don't have to
+Dialogue: 0,0:40:59.32,0:41:07.48,Default,,0,0,0,,go through entreaty which is a dualistic process there's a me asking a god there
+Dialogue: 0,0:41:07.48,0:41:11.63,Default,,0,0,0,,says you're seeing all three separated you the person you're praying for in god see
+Dialogue: 0,0:41:11.80,0:41:15.76,Default,,0,0,0,,and you're trying to close the triangle whether it may triangle
+Dialogue: 0,0:41:15.76,0:41:22.40,Default,,0,0,0,,so by intentionality picture of the resolution that from your limited viewpoint
+Dialogue: 0,0:41:22.40,0:41:27.17,Default,,0,0,0,,you feel would be the most desirable and most loving resolution
+Dialogue: 0,0:41:27.17,0:41:31.88,Default,,0,0,0,,may not be but at least in your viewpoint
+Dialogue: 0,0:41:31.88,0:41:34.84,Default,,0,0,0,,and that's not contradicting
+Dialogue: 0,0:41:34.84,0:41:39.63,Default,,0,0,0,,let's say the will of god or your intention to well that's why you do it in in line with
+Dialogue: 0,0:41:39.63,0:41:43.28,Default,,0,0,0,,god's will
+Dialogue: 0,0:41:43.28,0:41:46.67,Default,,0,0,0,,You know, Medicare keeps their people alive, you know, in the nursing homes.
+Dialogue: 0,0:41:46.82,0:41:50.21,Default,,0,0,0,,I was the only doctor who would go to the nursing homes in the whole county.
+Dialogue: 0,0:41:50.44,0:41:53.69,Default,,0,0,0,,And I'd go there, and some old thing would be all there, crippled up in a wheelchair.
+Dialogue: 0,0:41:54.30,0:41:58.15,Default,,0,0,0,,Help, help, help, help, help, help, help.
+Dialogue: 0,0:41:58.38,0:42:00.63,Default,,0,0,0,,What do you want?
+Dialogue: 0,0:42:00.84,0:42:01.76,Default,,0,0,0,,Let me out of here.
+Dialogue: 0,0:42:02.51,0:42:05.42,Default,,0,0,0,,Medicare won't allow you to let people die.
+Dialogue: 0,0:42:06.61,0:42:07.36,Default,,0,0,0,,It's against the law.
+Dialogue: 0,0:42:07.36,0:42:10.71,Default,,0,0,0,,All these tubes and plugs.
+Dialogue: 0,0:42:12.55,0:42:14.15,Default,,0,0,0,,Ghastly, ghastly, ghastly.
+Dialogue: 0,0:42:14.84,0:42:16.26,Default,,0,0,0,,Help, help, help.
+Dialogue: 0,0:42:17.25,0:42:17.86,Default,,0,0,0,,What does she want?
+Dialogue: 0,0:42:17.90,0:42:18.11,Default,,0,0,0,,Help.
+Dialogue: 0,0:42:18.48,0:42:19.71,Default,,0,0,0,,Help me get out of here.
+Dialogue: 0,0:42:20.53,0:42:22.26,Default,,0,0,0,,They won't let me get out of here.
+Dialogue: 0,0:42:25.44,0:42:28.53,Default,,0,0,0,,So should I pray for her to stay alive or pull the plug?
+Dialogue: 0,0:42:30.59,0:42:33.42,Default,,0,0,0,,She's begging me, please let me out of here.
+Dialogue: 0,0:42:33.61,0:42:34.48,Default,,0,0,0,,I'm in agony.
+Dialogue: 0,0:42:34.76,0:42:37.17,Default,,0,0,0,,All this is keeping me in endless agony.
+Dialogue: 0,0:42:37.86,0:42:38.92,Default,,0,0,0,,Can't you help me?
+Dialogue: 0,0:42:39.32,0:42:40.69,Default,,0,0,0,,That's what she's asking me.
+Dialogue: 0,0:42:41.78,0:42:44.73,Default,,0,0,0,,Doctor, doctor, can't you let me go?
+Dialogue: 0,0:42:45.78,0:42:47.96,Default,,0,0,0,,And I tell her, it's against the law.
+Dialogue: 0,0:42:51.73,0:42:52.34,Default,,0,0,0,,Against the law.
+Dialogue: 0,0:42:52.71,0:42:53.78,Default,,0,0,0,,That appears to die.
+Dialogue: 0,0:42:54.26,0:42:54.94,Default,,0,0,0,,Even if they're begging.
+Dialogue: 0,0:42:57.15,0:42:57.38,Default,,0,0,0,,Right?
+Dialogue: 0,0:43:01.80,0:43:02.69,Default,,0,0,0,,Please let me go.
+Dialogue: 0,0:43:04.11,0:43:06.80,Default,,0,0,0,,Now, I've got to stay here.
+Dialogue: 0,0:43:11.44,0:43:18.13,Default,,0,0,0,,The Vedic system talks about the cycle of yugas or ages.
+Dialogue: 0,0:43:18.63,0:43:24.23,Default,,0,0,0,,And the current age we're in being known as the Kali Yuga, the dark ages.
+Dialogue: 0,0:43:24.80,0:43:25.69,Default,,0,0,0,,The age of iron.
+Dialogue: 0,0:43:27.46,0:43:34.94,Default,,0,0,0,,And in your books, you talk about the progression of consciousness.
+Dialogue: 0,0:43:34.94,0:43:43.76,Default,,0,0,0,,From, well, around 100, 2,000 years ago and 207 currently.
+Dialogue: 0,0:43:44.30,0:43:52.46,Default,,0,0,0,,And it suggests that if the Vedic model is accurate, that we're moving out of that darker age into the next.
+Dialogue: 0,0:43:52.67,0:43:53.00,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:43:53.55,0:43:54.59,Default,,0,0,0,,What's the question?
+Dialogue: 0,0:43:55.11,0:43:55.86,Default,,0,0,0,,This cycle.
+Dialogue: 0,0:43:56.05,0:44:01.73,Default,,0,0,0,,Is this cycle something you've examined with the calibration scale to validate?
+Dialogue: 0,0:44:01.73,0:44:05.59,Default,,0,0,0,,Is this something that actually occurs on this planet?
+Dialogue: 0,0:44:05.61,0:44:13.92,Default,,0,0,0,,It's kind of winking in and out of, let's say, human manifestation or spiritual manifestation, human form.
+Dialogue: 0,0:44:19.88,0:44:24.15,Default,,0,0,0,,When Indra breathes in, universes disappear.
+Dialogue: 0,0:44:24.67,0:44:27.19,Default,,0,0,0,,When Indra breathes out, universes appear.
+Dialogue: 0,0:44:28.21,0:44:29.73,Default,,0,0,0,,Every breath is a Kali Yuga.
+Dialogue: 0,0:44:30.73,0:44:31.55,Default,,0,0,0,,Can I ask you a question?
+Dialogue: 0,0:44:33.80,0:44:34.01,Default,,0,0,0,,Yep.
+Dialogue: 0,0:44:34.51,0:44:34.96,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:44:35.42,0:44:41.90,Default,,0,0,0,,You said that life is consciousness entering matter.
+Dialogue: 0,0:44:41.90,0:44:44.09,Default,,0,0,0,,And I wondered, what is...
+Dialogue: 0,0:44:44.26,0:44:45.94,Default,,0,0,0,,What is matter without consciousness?
+Dialogue: 0,0:44:46.71,0:44:46.96,Default,,0,0,0,,Dead.
+Dialogue: 0,0:44:47.84,0:44:48.15,Default,,0,0,0,,Dead?
+Dialogue: 0,0:44:50.73,0:44:54.55,Default,,0,0,0,,Well, what is matter, then, I guess, I wonder?
+Dialogue: 0,0:44:54.63,0:44:55.01,Default,,0,0,0,,Energy.
+Dialogue: 0,0:44:55.90,0:44:57.07,Default,,0,0,0,,E goes MC squared.
+Dialogue: 0,0:44:57.75,0:44:58.88,Default,,0,0,0,,It's energy, yeah.
+Dialogue: 0,0:44:59.28,0:44:59.80,Default,,0,0,0,,Energy.
+Dialogue: 0,0:44:59.88,0:45:00.25,Default,,0,0,0,,Energy.
+Dialogue: 0,0:45:00.80,0:45:01.28,Default,,0,0,0,,Oh, so...
+Dialogue: 0,0:45:01.28,0:45:03.23,Default,,0,0,0,,And speed, MC squared.
+Dialogue: 0,0:45:03.48,0:45:07.21,Default,,0,0,0,,So consciousness makes it have a form.
+Dialogue: 0,0:45:07.55,0:45:07.75,Default,,0,0,0,,No.
+Dialogue: 0,0:45:08.17,0:45:08.23,Default,,0,0,0,,No.
+Dialogue: 0,0:45:08.23,0:45:09.84,Default,,0,0,0,,Because algae doesn't have consciousness.
+Dialogue: 0,0:45:10.88,0:45:11.13,Default,,0,0,0,,No.
+Dialogue: 0,0:45:11.30,0:45:12.05,Default,,0,0,0,,So what's the...
+Dialogue: 0,0:45:12.05,0:45:15.15,Default,,0,0,0,,The energy of life, then, is the energy of consciousness.
+Dialogue: 0,0:45:15.57,0:45:22.05,Default,,0,0,0,,What's the question?
+Dialogue: 0,0:45:22.73,0:45:24.19,Default,,0,0,0,,Well, I don't know.
+Dialogue: 0,0:45:24.21,0:45:26.90,Default,,0,0,0,,This is one of those things the brain can't...
+Dialogue: 0,0:45:26.90,0:45:29.28,Default,,0,0,0,,Just is puzzled with.
+Dialogue: 0,0:45:29.53,0:45:31.28,Default,,0,0,0,,That what is...
+Dialogue: 0,0:45:31.28,0:45:32.90,Default,,0,0,0,,Well, matter is energy.
+Dialogue: 0,0:45:33.76,0:45:35.44,Default,,0,0,0,,Matter is not energy.
+Dialogue: 0,0:45:35.57,0:45:35.98,Default,,0,0,0,,It's matter.
+Dialogue: 0,0:45:36.69,0:45:38.69,Default,,0,0,0,,Well, then, there's no...
+Dialogue: 0,0:45:38.69,0:45:39.32,Default,,0,0,0,,That's...
+Dialogue: 0,0:45:39.32,0:45:40.32,Default,,0,0,0,,E doesn't equal E.
+Dialogue: 0,0:45:40.44,0:45:41.48,Default,,0,0,0,,It equals MC squared.
+Dialogue: 0,0:45:42.42,0:45:42.90,Default,,0,0,0,,Well, matter...
+Dialogue: 0,0:45:42.90,0:45:43.71,Default,,0,0,0,,It's a light squared.
+Dialogue: 0,0:45:44.71,0:45:45.40,Default,,0,0,0,,...is...
+Dialogue: 0,0:45:45.40,0:45:53.07,Default,,0,0,0,,So energy, then, is convertible into matter under the proper conditions.
+Dialogue: 0,0:45:53.07,0:45:53.17,Default,,0,0,0,,Oh.
+Dialogue: 0,0:45:53.17,0:45:53.23,Default,,0,0,0,,Oh.
+Dialogue: 0,0:45:53.26,0:45:53.55,Default,,0,0,0,,Okay.
+Dialogue: 0,0:45:53.73,0:45:55.46,Default,,0,0,0,,Energy can be converted to matter.
+Dialogue: 0,0:45:56.67,0:45:57.11,Default,,0,0,0,,So...
+Dialogue: 0,0:45:57.11,0:46:01.26,Default,,0,0,0,,There's the law of conservation of energy, the law of conservation of matter.
+Dialogue: 0,0:46:01.75,0:46:06.03,Default,,0,0,0,,And then there's one we forgot to mention today that's more important than all of them,
+Dialogue: 0,0:46:06.15,0:46:08.17,Default,,0,0,0,,the law of conservation of energy of life.
+Dialogue: 0,0:46:08.26,0:46:09.26,Default,,0,0,0,,You cannot kill life.
+Dialogue: 0,0:46:10.90,0:46:12.42,Default,,0,0,0,,Not possible to kill life.
+Dialogue: 0,0:46:13.01,0:46:14.96,Default,,0,0,0,,Not within the realm of the destroyable.
+Dialogue: 0,0:46:16.44,0:46:17.75,Default,,0,0,0,,It can only change form.
+Dialogue: 0,0:46:17.75,0:46:25.28,Default,,0,0,0,,So equals MC squared means that energy and its physicality can take different dimensions.
+Dialogue: 0,0:46:25.61,0:46:33.76,Default,,0,0,0,,Of course, the discovery of dark matter, dark energy, and all such things, and string theory of, you know, complicated advanced theoretical physics.
+Dialogue: 0,0:46:34.67,0:46:40.92,Default,,0,0,0,,My own view of it, there's only one physicality in the whole universe, and that's pure energy itself.
+Dialogue: 0,0:46:41.34,0:46:50.09,Default,,0,0,0,,The vibrational frequency of which can then take the form of matter, fire, heat, electricity, telephone, electricity.
+Dialogue: 0,0:46:50.61,0:46:56.53,Default,,0,0,0,,But there's only one basic primary, primordial energy out of which all of these expressions are.
+Dialogue: 0,0:46:56.98,0:47:00.51,Default,,0,0,0,,Is consciousness then an expression of energy?
+Dialogue: 0,0:47:01.15,0:47:02.80,Default,,0,0,0,,A certain kind of expression?
+Dialogue: 0,0:47:03.23,0:47:06.59,Default,,0,0,0,,I mean, this is just a mental question, but it comes up.
+Dialogue: 0,0:47:07.05,0:47:08.55,Default,,0,0,0,,It's the infinite energy.
+Dialogue: 0,0:47:09.32,0:47:11.26,Default,,0,0,0,,You might say it's comparable to gravity.
+Dialogue: 0,0:47:12.71,0:47:18.46,Default,,0,0,0,,It's a primordial, the primordial energy out of which all of existence arises.
+Dialogue: 0,0:47:18.88,0:47:26.03,Default,,0,0,0,,If divinity is primordial, infinite, formless energy,
+Dialogue: 0,0:47:28.05,0:47:29.59,Default,,0,0,0,,it can, it then manifests.
+Dialogue: 0,0:47:30.07,0:47:32.46,Default,,0,0,0,,It manifests as all of creation, yes?
+Dialogue: 0,0:47:33.23,0:47:37.36,Default,,0,0,0,,Creation then is expressed in different vibrational frequencies.
+Dialogue: 0,0:47:38.63,0:47:43.13,Default,,0,0,0,,Heat, light, dark matter, light matter, dark hole.
+Dialogue: 0,0:47:44.69,0:47:48.03,Default,,0,0,0,,Dark holes, dark galaxies, dark holes in the galaxies.
+Dialogue: 0,0:47:48.42,0:47:50.51,Default,,0,0,0,,The gravitation is so intense.
+Dialogue: 0,0:47:51.48,0:47:56.09,Default,,0,0,0,,The gravitation in a dark hole is so intense that even light cannot escape.
+Dialogue: 0,0:47:57.80,0:47:58.98,Default,,0,0,0,,That's gravity for you.
+Dialogue: 0,0:48:00.30,0:48:00.90,Default,,0,0,0,,That's enough.
+Dialogue: 0,0:48:01.69,0:48:01.96,Default,,0,0,0,,Okay.
+Dialogue: 0,0:48:01.96,0:48:02.94,Default,,0,0,0,,Get the answer.
+Dialogue: 0,0:48:03.32,0:48:09.19,Default,,0,0,0,,I have to rescue her.
+Dialogue: 0,0:48:12.40,0:48:19.94,Default,,0,0,0,,Dr. Hawkins, your book has been very instrumental in a book that I'm writing right now
+Dialogue: 0,0:48:19.94,0:48:22.50,Default,,0,0,0,,called The Science of Personal Fulfillment.
+Dialogue: 0,0:48:22.63,0:48:24.28,Default,,0,0,0,,I've been pursuing this for quite a while.
+Dialogue: 0,0:48:26.59,0:48:30.11,Default,,0,0,0,,But a question I want to ask is,
+Dialogue: 0,0:48:30.51,0:48:36.48,Default,,0,0,0,,do you consider yourself of the order of Melchizedek?
+Dialogue: 0,0:48:37.57,0:48:38.82,Default,,0,0,0,,Do I consider myself what?
+Dialogue: 0,0:48:38.82,0:48:41.23,Default,,0,0,0,,Of the order of Melchizedek.
+Dialogue: 0,0:48:41.25,0:48:41.92,Default,,0,0,0,,Of Melchizedek?
+Dialogue: 0,0:48:44.88,0:48:45.73,Default,,0,0,0,,Well, no.
+Dialogue: 0,0:48:46.90,0:48:51.23,Default,,0,0,0,,I ask that question because, you know, Jesus was of the order.
+Dialogue: 0,0:48:51.98,0:48:55.32,Default,,0,0,0,,And he was a healer, which you are also.
+Dialogue: 0,0:48:56.26,0:49:01.05,Default,,0,0,0,,And when I say he was a healer, I mean the energy field that surrounded him.
+Dialogue: 0,0:49:01.78,0:49:07.11,Default,,0,0,0,,And I never contextualized it in that way because I didn't contextualize Jesus Christ either.
+Dialogue: 0,0:49:07.19,0:49:08.92,Default,,0,0,0,,But I think I know what you're talking about.
+Dialogue: 0,0:49:09.44,0:49:13.76,Default,,0,0,0,,It's a spiritual contextualization.
+Dialogue: 0,0:49:13.76,0:49:15.48,Default,,0,0,0,,One I'm not familiar with.
+Dialogue: 0,0:49:15.51,0:49:16.96,Default,,0,0,0,,Yeah, I understand what you're saying now.
+Dialogue: 0,0:49:17.38,0:49:17.78,Default,,0,0,0,,I see.
+Dialogue: 0,0:49:18.23,0:49:18.57,Default,,0,0,0,,All right.
+Dialogue: 0,0:49:18.80,0:49:19.71,Default,,0,0,0,,Just one more thing.
+Dialogue: 0,0:49:23.48,0:49:32.55,Default,,0,0,0,,I'm wrestling with one of my basic instincts that is anger that I'm seeking to subdue.
+Dialogue: 0,0:49:33.36,0:49:41.50,Default,,0,0,0,,And my fiancée, well aware of that, she does things to bring it out and elevate it.
+Dialogue: 0,0:49:44.51,0:49:51.38,Default,,0,0,0,,Now, when I tell her, I say, well, look, a man and a woman are supposed to be one.
+Dialogue: 0,0:49:51.98,0:49:54.09,Default,,0,0,0,,And there are certain thoughts that I wouldn't even...
+Dialogue: 0,0:49:54.21,0:49:55.94,Default,,0,0,0,,I wouldn't even think knowing what it would do to me.
+Dialogue: 0,0:49:56.75,0:50:03.73,Default,,0,0,0,,And you were supposed to be part of me doing these things to bring these things out of me that I'm trying to subdue.
+Dialogue: 0,0:50:04.36,0:50:11.82,Default,,0,0,0,,And on the other hand, she's telling me, well, if you are studying that, you're supposed to be able to do better.
+Dialogue: 0,0:50:12.25,0:50:14.53,Default,,0,0,0,,And I'm, you know, I sit thinking about it.
+Dialogue: 0,0:50:14.61,0:50:15.38,Default,,0,0,0,,I'm saying...
+Dialogue: 0,0:50:15.38,0:50:17.69,Default,,0,0,0,,She's giving you all these golden opportunities, in other words.
+Dialogue: 0,0:50:18.13,0:50:18.57,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:50:21.07,0:50:22.07,Default,,0,0,0,,Thank you, sweetheart.
+Dialogue: 0,0:50:22.07,0:50:22.92,Default,,0,0,0,,How do you love?
+Dialogue: 0,0:50:23.03,0:50:24.07,Default,,0,0,0,,You have given me the opportunity.
+Dialogue: 0,0:50:24.30,0:50:25.61,Default,,0,0,0,,The opportunity to forgive you.
+Dialogue: 0,0:50:26.82,0:50:27.73,Default,,0,0,0,,But I...
+Dialogue: 0,0:50:27.73,0:50:33.21,Default,,0,0,0,,Well, I take the other way.
+Dialogue: 0,0:50:33.23,0:50:33.57,Default,,0,0,0,,She's a sweetheart.
+Dialogue: 0,0:50:34.19,0:50:41.69,Default,,0,0,0,,So I say, look, no, I say, I don't think, you know, you are being part of me.
+Dialogue: 0,0:50:42.00,0:50:43.90,Default,,0,0,0,,I don't think you should be doing this.
+Dialogue: 0,0:50:44.01,0:50:44.51,Default,,0,0,0,,Yeah, right.
+Dialogue: 0,0:50:47.07,0:50:47.44,Default,,0,0,0,,Oh.
+Dialogue: 0,0:50:48.88,0:50:51.96,Default,,0,0,0,,Right, she's part of you, but with limitations, with reservations.
+Dialogue: 0,0:50:52.76,0:50:53.05,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:50:54.32,0:50:54.78,Default,,0,0,0,,I think.
+Dialogue: 0,0:50:56.55,0:50:57.98,Default,,0,0,0,,If God meant for there to be one sex, there would be one sex.
+Dialogue: 0,0:50:57.98,0:50:58.38,Default,,0,0,0,,One sex.
+Dialogue: 0,0:50:58.50,0:50:59.36,Default,,0,0,0,,There would only be one sex.
+Dialogue: 0,0:51:02.28,0:51:03.05,Default,,0,0,0,,A female sex.
+Dialogue: 0,0:51:12.34,0:51:15.05,Default,,0,0,0,,A butterfly has two wings to fly with, see?
+Dialogue: 0,0:51:15.19,0:51:15.59,Default,,0,0,0,,Life.
+Dialogue: 0,0:51:16.57,0:51:17.82,Default,,0,0,0,,It's a pleasure to be here.
+Dialogue: 0,0:51:18.03,0:51:18.30,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:51:19.48,0:51:25.07,Default,,0,0,0,,My question is, you spoke about how when we're born, we're already at a level of consciousness.
+Dialogue: 0,0:51:25.15,0:51:25.40,Default,,0,0,0,,Yes.
+Dialogue: 0,0:51:25.86,0:51:30.46,Default,,0,0,0,,Which also means we're already at a particular karmic level.
+Dialogue: 0,0:51:30.71,0:51:31.05,Default,,0,0,0,,Yes.
+Dialogue: 0,0:51:32.69,0:51:33.21,Default,,0,0,0,,So...
+Dialogue: 0,0:51:33.21,0:51:35.15,Default,,0,0,0,,As our life progresses and we make choices...
+Dialogue: 0,0:51:35.73,0:51:38.05,Default,,0,0,0,,And sometimes people make negative choices.
+Dialogue: 0,0:51:38.17,0:51:38.28,Default,,0,0,0,,Yes.
+Dialogue: 0,0:51:38.36,0:51:38.84,Default,,0,0,0,,People...
+Dialogue: 0,0:51:38.84,0:51:41.28,Default,,0,0,0,,What...
+Dialogue: 0,0:51:41.28,0:51:44.61,Default,,0,0,0,,Is our life kind of like a yo-yo in terms of spiritual growth?
+Dialogue: 0,0:51:44.76,0:51:45.76,Default,,0,0,0,,Do we not...
+Dialogue: 0,0:51:45.76,0:51:49.78,Default,,0,0,0,,Everyone's life is not an upward progression, is it?
+Dialogue: 0,0:51:50.00,0:51:50.01,Default,,0,0,0,,No.
+Dialogue: 0,0:51:50.23,0:51:50.59,Default,,0,0,0,,Okay.
+Dialogue: 0,0:51:51.17,0:51:53.78,Default,,0,0,0,,Many people in this lifetime have fallen considerably.
+Dialogue: 0,0:51:55.38,0:52:02.86,Default,,0,0,0,,If you do Napoleon, Napoleon was about 450, 460, and he became emperor.
+Dialogue: 0,0:52:03.57,0:52:04.80,Default,,0,0,0,,Crown himself emperor.
+Dialogue: 0,0:52:05.15,0:52:07.69,Default,,0,0,0,,His calibration then dropped to about 1,000.
+Dialogue: 0,0:52:07.71,0:52:09.82,Default,,0,0,0,,130 or 160 or something.
+Dialogue: 0,0:52:11.09,0:52:18.48,Default,,0,0,0,,The time of the Battle of Waterloo, the Duke of...
+Dialogue: 0,0:52:18.48,0:52:28.36,Default,,0,0,0,,The Duke of Wellington calibrated around, don't forget, 420 or something.
+Dialogue: 0,0:52:29.11,0:52:33.13,Default,,0,0,0,,But by that time, Napoleon had crashed and was like about 170.
+Dialogue: 0,0:52:35.82,0:52:41.01,Default,,0,0,0,,Adolf Hitler also calibrated in reasonably good 400s early in his career.
+Dialogue: 0,0:52:42.71,0:52:43.96,Default,,0,0,0,,And when...
+Dialogue: 0,0:52:43.96,0:52:47.57,Default,,0,0,0,,You can, with kinesiology, track historically when these events happened.
+Dialogue: 0,0:52:47.57,0:52:49.51,Default,,0,0,0,,With Napoleon, it was when he...
+Dialogue: 0,0:52:49.51,0:52:50.55,Default,,0,0,0,,He crowned himself emperor.
+Dialogue: 0,0:52:51.61,0:52:56.19,Default,,0,0,0,,See, to crown the sovereign head of a European state was done by the pope.
+Dialogue: 0,0:52:57.05,0:53:01.78,Default,,0,0,0,,So he usurped the pope and crowned himself emperor.
+Dialogue: 0,0:53:02.90,0:53:05.63,Default,,0,0,0,,And in that moment, he crashed into megalomania.
+Dialogue: 0,0:53:06.78,0:53:11.78,Default,,0,0,0,,Hitler did the same thing when he became head of all the departments of government.
+Dialogue: 0,0:53:12.17,0:53:18.28,Default,,0,0,0,,He was the head of the army, the head of the military, the head of the government, the head of everything.
+Dialogue: 0,0:53:18.28,0:53:21.00,Default,,0,0,0,,And in that moment, Hitler crashed from four...
+Dialogue: 0,0:53:21.00,0:53:24.65,Default,,0,0,0,,Forty or wherever he was, down to one...
+Dialogue: 0,0:53:24.65,0:53:26.92,Default,,0,0,0,,Whatever it was when he finally gave up.
+Dialogue: 0,0:53:27.63,0:53:31.42,Default,,0,0,0,,So that narcissistic megalomania lies in wait.
+Dialogue: 0,0:53:32.48,0:53:33.36,Default,,0,0,0,,Lies in wait.
+Dialogue: 0,0:53:33.82,0:53:37.82,Default,,0,0,0,,And the grandiosity then destroys what could have been great.
+Dialogue: 0,0:53:38.57,0:53:42.44,Default,,0,0,0,,Winston Churchill did not succumb to the same temptation, you see.
+Dialogue: 0,0:53:43.30,0:53:48.09,Default,,0,0,0,,So power then, worthly power, differentiates the sheep from the goats.
+Dialogue: 0,0:53:48.69,0:53:50.17,Default,,0,0,0,,You either become a statesman...
+Dialogue: 0,0:53:50.86,0:53:51.30,Default,,0,0,0,,Or...
+Dialogue: 0,0:53:51.76,0:53:56.78,Default,,0,0,0,,Or you become a megalomaniac.
+Dialogue: 0,0:53:59.23,0:54:00.67,Default,,0,0,0,,I don't know if...
+Dialogue: 0,0:54:00.67,0:54:01.40,Default,,0,0,0,,Is that what you asked me?
+Dialogue: 0,0:54:01.90,0:54:03.09,Default,,0,0,0,,Yeah, I think so.
+Dialogue: 0,0:54:03.32,0:54:03.80,Default,,0,0,0,,I think...
+Dialogue: 0,0:54:03.80,0:54:08.07,Default,,0,0,0,,Well, one of the things that has happened to me since I've been reading your book
+Dialogue: 0,0:54:08.07,0:54:10.55,Default,,0,0,0,,is I'm constantly looking at the numbers and saying,
+Dialogue: 0,0:54:10.88,0:54:12.07,Default,,0,0,0,,Oh, gee, where would I fall?
+Dialogue: 0,0:54:12.19,0:54:14.59,Default,,0,0,0,,You know, and I don't know if other people are doing this.
+Dialogue: 0,0:54:14.61,0:54:16.32,Default,,0,0,0,,You don't have to worry about where you fall now.
+Dialogue: 0,0:54:16.96,0:54:19.88,Default,,0,0,0,,Well, in other words, it's a kind of a...
+Dialogue: 0,0:54:19.88,0:54:21.28,Default,,0,0,0,,You already are what you are.
+Dialogue: 0,0:54:21.76,0:54:22.19,Default,,0,0,0,,That's what you're saying.
+Dialogue: 0,0:54:22.19,0:54:23.19,Default,,0,0,0,,Because unless you were spiritually...
+Dialogue: 0,0:54:23.98,0:54:28.44,Default,,0,0,0,,Integrous, you wouldn't be on a spiritual pathway to begin with.
+Dialogue: 0,0:54:29.19,0:54:29.80,Default,,0,0,0,,I was telling...
+Dialogue: 0,0:54:29.80,0:54:31.78,Default,,0,0,0,,If you're on a spiritual pathway, don't worry about it.
+Dialogue: 0,0:54:31.82,0:54:32.86,Default,,0,0,0,,Let God worry about it.
+Dialogue: 0,0:54:33.30,0:54:34.48,Default,,0,0,0,,Let Jesus worry about it.
+Dialogue: 0,0:54:34.55,0:54:35.21,Default,,0,0,0,,That's what he's there for.
+Dialogue: 0,0:54:35.21,0:54:36.23,Default,,0,0,0,,And you spoke of...
+Dialogue: 0,0:54:36.23,0:54:38.25,Default,,0,0,0,,You spoke of...
+Dialogue: 0,0:54:38.25,0:54:40.63,Default,,0,0,0,,And when you were talking about Jesus,
+Dialogue: 0,0:54:40.78,0:54:42.96,Default,,0,0,0,,were you saying Jesus was an advocate?
+Dialogue: 0,0:54:43.09,0:54:44.17,Default,,0,0,0,,You used the word advocate.
+Dialogue: 0,0:54:44.84,0:54:45.19,Default,,0,0,0,,Yes.
+Dialogue: 0,0:54:45.80,0:54:47.59,Default,,0,0,0,,Spokesman for on your behalf.
+Dialogue: 0,0:54:51.09,0:54:55.32,Default,,0,0,0,,I will stand before the Father in your behalf
+Dialogue: 0,0:54:55.32,0:54:57.32,Default,,0,0,0,,because you have aligned yourself.
+Dialogue: 0,0:54:57.36,0:54:59.84,Default,,0,0,0,,You have aligned yourself with me
+Dialogue: 0,0:54:59.84,0:55:05.96,Default,,0,0,0,,and in my name, in the name of Jesus Christ.
+Dialogue: 0,0:55:06.05,0:55:06.82,Default,,0,0,0,,That's all it takes.
+Dialogue: 0,0:55:06.94,0:55:08.71,Default,,0,0,0,,In the name of the Lord Jesus.
+Dialogue: 0,0:55:10.32,0:55:12.15,Default,,0,0,0,,And I will look after these are my...
+Dialogue: 0,0:55:12.15,0:55:13.34,Default,,0,0,0,,Because these are my sheep.
+Dialogue: 0,0:55:13.76,0:55:15.42,Default,,0,0,0,,They have committed to me karmically.
+Dialogue: 0,0:55:16.61,0:55:17.73,Default,,0,0,0,,They are now my sheep.
+Dialogue: 0,0:55:17.94,0:55:20.28,Default,,0,0,0,,And I speak for them on their behalf
+Dialogue: 0,0:55:20.28,0:55:22.42,Default,,0,0,0,,that I will look after them, O Lord.
+Dialogue: 0,0:55:24.13,0:55:25.34,Default,,0,0,0,,And the Lord says, pass.
+Dialogue: 0,0:55:25.90,0:55:26.32,Default,,0,0,0,,Hopefully.
+Dialogue: 0,0:55:28.71,0:55:30.03,Default,,0,0,0,,Then where does grace...
+Dialogue: 0,0:55:30.03,0:55:30.82,Default,,0,0,0,,One last question.
+Dialogue: 0,0:55:30.82,0:55:31.38,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:55:31.50,0:55:32.86,Default,,0,0,0,,Where does grace come in?
+Dialogue: 0,0:55:33.15,0:55:33.57,Default,,0,0,0,,Grace?
+Dialogue: 0,0:55:33.84,0:55:34.28,Default,,0,0,0,,Yes.
+Dialogue: 0,0:55:36.26,0:55:38.98,Default,,0,0,0,,Grace is a very sophisticated understanding.
+Dialogue: 0,0:55:44.21,0:55:46.01,Default,,0,0,0,,It is by grace that you exist.
+Dialogue: 0,0:55:47.88,0:55:50.44,Default,,0,0,0,,It is by grace that you are allowed to suffer
+Dialogue: 0,0:55:50.44,0:55:52.71,Default,,0,0,0,,the consequences of wrong decisions.
+Dialogue: 0,0:55:54.61,0:55:57.36,Default,,0,0,0,,It is by grace that you can earn karmic merit.
+Dialogue: 0,0:55:58.05,0:55:58.73,Default,,0,0,0,,Karmic what?
+Dialogue: 0,0:55:59.15,0:55:59.69,Default,,0,0,0,,Karmic merit.
+Dialogue: 0,0:56:00.03,0:56:00.30,Default,,0,0,0,,Merit.
+Dialogue: 0,0:56:00.63,0:56:03.96,Default,,0,0,0,,It is by grace that you can undo the errors of the past.
+Dialogue: 0,0:56:05.25,0:56:08.40,Default,,0,0,0,,It is by grace that you have existence in the first place.
+Dialogue: 0,0:56:11.19,0:56:11.55,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:56:15.48,0:56:16.32,Default,,0,0,0,,Dr. Hawkins.
+Dialogue: 0,0:56:17.34,0:56:17.67,Default,,0,0,0,,Yes.
+Dialogue: 0,0:56:18.15,0:56:20.84,Default,,0,0,0,,I think grace probably answered my question.
+Dialogue: 0,0:56:20.94,0:56:24.65,Default,,0,0,0,,But my question was about karmic consequences
+Dialogue: 0,0:56:24.65,0:56:27.17,Default,,0,0,0,,for choosing to have an abortion.
+Dialogue: 0,0:56:27.59,0:56:27.94,Default,,0,0,0,,Yes.
+Dialogue: 0,0:56:28.55,0:56:31.71,Default,,0,0,0,,And I just wanted to ask you about that.
+Dialogue: 0,0:56:32.34,0:56:33.82,Default,,0,0,0,,That would depend on the individual
+Dialogue: 0,0:56:33.82,0:56:36.84,Default,,0,0,0,,and the context in which it happened.
+Dialogue: 0,0:56:37.63,0:56:38.67,Default,,0,0,0,,You mentioned before
+Dialogue: 0,0:56:38.67,0:56:41.17,Default,,0,0,0,,the spirit doesn't come into the embryo
+Dialogue: 0,0:56:41.17,0:56:42.05,Default,,0,0,0,,until the third month.
+Dialogue: 0,0:56:42.36,0:56:42.71,Default,,0,0,0,,Yes.
+Dialogue: 0,0:56:42.71,0:56:45.26,Default,,0,0,0,,So if it's an abortion within the first three months,
+Dialogue: 0,0:56:45.28,0:56:48.01,Default,,0,0,0,,I don't think the person is technically guilty of anything.
+Dialogue: 0,0:56:49.03,0:56:50.59,Default,,0,0,0,,There's no spirit there yet.
+Dialogue: 0,0:56:51.94,0:56:56.73,Default,,0,0,0,,It's only the primordial embryonic animalness
+Dialogue: 0,0:56:56.73,0:57:00.63,Default,,0,0,0,,that is going to be inherited by a human spirit.
+Dialogue: 0,0:57:01.71,0:57:05.67,Default,,0,0,0,,So it depends on many factors, intentionality.
+Dialogue: 0,0:57:06.46,0:57:06.76,Default,,0,0,0,,Okay.
+Dialogue: 0,0:57:07.73,0:57:10.15,Default,,0,0,0,,That was the first I had ever heard of that,
+Dialogue: 0,0:57:10.28,0:57:13.59,Default,,0,0,0,,the human spirit not coming into the human embryo
+Dialogue: 0,0:57:13.59,0:57:15.40,Default,,0,0,0,,until the third month when you said that today.
+Dialogue: 0,0:57:15.40,0:57:15.48,Default,,0,0,0,,Okay.
+Dialogue: 0,0:57:16.98,0:57:17.53,Default,,0,0,0,,Wow.
+Dialogue: 0,0:57:18.48,0:57:22.88,Default,,0,0,0,,Because, you know, I've carried a lot of guilt and pain.
+Dialogue: 0,0:57:23.57,0:57:26.19,Default,,0,0,0,,And so I hope to God it was before three months.
+Dialogue: 0,0:57:26.90,0:57:33.46,Default,,0,0,0,,Well, you know, spontaneous abortions are so frequent
+Dialogue: 0,0:57:33.46,0:57:35.44,Default,,0,0,0,,that people don't even know they happen that often.
+Dialogue: 0,0:57:35.55,0:57:36.65,Default,,0,0,0,,They think it's a missed period.
+Dialogue: 0,0:57:38.01,0:57:38.44,Default,,0,0,0,,Okay.
+Dialogue: 0,0:57:38.98,0:57:39.21,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:57:39.63,0:57:43.42,Default,,0,0,0,,Probably 10% of all pregnancies end up in spontaneous abortion,
+Dialogue: 0,0:57:43.42,0:57:45.61,Default,,0,0,0,,maybe more, maybe closer to a third.
+Dialogue: 0,0:57:46.59,0:57:48.21,Default,,0,0,0,,I think they skipped a period, actually.
+Dialogue: 0,0:57:48.44,0:57:48.55,Default,,0,0,0,,That was...
+Dialogue: 0,0:57:48.96,0:57:50.92,Default,,0,0,0,,Spontaneous miscarriage.
+Dialogue: 0,0:57:52.67,0:57:58.98,Default,,0,0,0,,So would they have to do with also, like, the soul coming in?
+Dialogue: 0,0:57:59.38,0:58:00.84,Default,,0,0,0,,That was that soul's purpose?
+Dialogue: 0,0:58:02.42,0:58:03.78,Default,,0,0,0,,It's very complicated.
+Dialogue: 0,0:58:03.94,0:58:04.09,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:58:04.17,0:58:06.53,Default,,0,0,0,,If you knew how to do kinesiology very well,
+Dialogue: 0,0:58:06.59,0:58:08.90,Default,,0,0,0,,and if you get permission, you could ask many questions.
+Dialogue: 0,0:58:09.82,0:58:12.44,Default,,0,0,0,,Did this spirit only mean to come in and leave right away?
+Dialogue: 0,0:58:12.59,0:58:15.21,Default,,0,0,0,,You may have accomplished that spirit's purpose, you see,
+Dialogue: 0,0:58:15.21,0:58:16.55,Default,,0,0,0,,and you're feeling guilty about nothing
+Dialogue: 0,0:58:16.55,0:58:18.57,Default,,0,0,0,,when actually that was the spirit's purpose.
+Dialogue: 0,0:58:18.84,0:58:20.61,Default,,0,0,0,,Anyhow, I don't know.
+Dialogue: 0,0:58:20.67,0:58:21.44,Default,,0,0,0,,It's complicated.
+Dialogue: 0,0:58:21.44,0:58:23.05,Default,,0,0,0,,They've got to research it.
+Dialogue: 0,0:58:23.48,0:58:25.90,Default,,0,0,0,,Just, yeah, a question for so long.
+Dialogue: 0,0:58:26.25,0:58:33.40,Default,,0,0,0,,So, but also, if, I mean, I think it was before three months,
+Dialogue: 0,0:58:33.48,0:58:36.55,Default,,0,0,0,,but if it wasn't, so karmically, you're, you know,
+Dialogue: 0,0:58:36.82,0:58:42.46,Default,,0,0,0,,is that like, you'd most likely play that out in another lifetime,
+Dialogue: 0,0:58:43.17,0:58:44.03,Default,,0,0,0,,the consequences?
+Dialogue: 0,0:58:44.42,0:58:44.76,Default,,0,0,0,,Yes.
+Dialogue: 0,0:58:44.76,0:58:45.55,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:58:45.55,0:58:46.63,Default,,0,0,0,,Or maybe this one?
+Dialogue: 0,0:58:46.63,0:58:48.46,Default,,0,0,0,,Next time you might come in and get aborted too much.
+Dialogue: 0,0:58:48.46,0:58:57.53,Default,,0,0,0,,Well, that's what I was thinking, or, you know, to have that experience.
+Dialogue: 0,0:58:58.30,0:58:59.86,Default,,0,0,0,,So, anyways, that was...
+Dialogue: 0,0:58:59.86,0:59:00.34,Default,,0,0,0,,It's complex.
+Dialogue: 0,0:59:00.57,0:59:00.80,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:59:01.86,0:59:04.90,Default,,0,0,0,,You just have to have faith that it all works out.
+Dialogue: 0,0:59:05.46,0:59:07.17,Default,,0,0,0,,In the end, God's will prevails.
+Dialogue: 0,0:59:07.38,0:59:08.65,Default,,0,0,0,,In the end, God's will prevails.
+Dialogue: 0,0:59:09.69,0:59:15.07,Default,,0,0,0,,Therefore, if you feel guilt about it, you ask for forgiveness.
+Dialogue: 0,0:59:15.36,0:59:18.21,Default,,0,0,0,,If I've made a mistake, then I pray for forgiveness of the mistake.
+Dialogue: 0,0:59:18.57,0:59:18.88,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:59:19.38,0:59:20.36,Default,,0,0,0,,And I, you know.
+Dialogue: 0,0:59:20.82,0:59:21.98,Default,,0,0,0,,So, in the end, God's will prevails.
+Dialogue: 0,0:59:21.98,0:59:23.46,Default,,0,0,0,,In the end, God's goodness prevails.
+Dialogue: 0,0:59:23.92,0:59:28.32,Default,,0,0,0,,So, you haven't held up the progress of divinity.
+Dialogue: 0,0:59:29.78,0:59:30.34,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:59:32.34,0:59:35.30,Default,,0,0,0,,We don't want to exaggerate the importance of our mistakes either.
+Dialogue: 0,0:59:38.73,0:59:45.86,Default,,0,0,0,,In the overall course of the evolution of the universe, it's trivial.
+Dialogue: 0,0:59:47.34,0:59:47.73,Default,,0,0,0,,Yes?
+Dialogue: 0,0:59:48.01,0:59:49.94,Default,,0,0,0,,Thanks for taking my question, Dr. Hawkins.
+Dialogue: 0,0:59:49.94,0:59:51.65,Default,,0,0,0,,If I understand what you're saying,
+Dialogue: 0,0:59:52.32,0:59:58.13,Default,,0,0,0,,it would seem as though the time of our death is predetermined from the time that we hit here.
+Dialogue: 0,0:59:58.88,1:00:00.09,Default,,0,0,0,,At the moment you're born,
+Dialogue: 0,1:00:00.09,1:00:02.05,Default,,0,0,0,,the moment of your death is already predetermined.
+Dialogue: 0,1:00:03.34,1:00:04.61,Default,,0,0,0,,That's where we go to kinesiology.
+Dialogue: 0,1:00:04.92,1:00:06.34,Default,,0,0,0,,You know, I'm not putting money there.
+Dialogue: 0,1:00:08.69,1:00:09.88,Default,,0,0,0,,That's what I learned, yes.
+Dialogue: 0,1:00:09.98,1:00:15.26,Default,,0,0,0,,Well, that being the case, what does that say about safety concerns,
+Dialogue: 0,1:00:15.53,1:00:19.11,Default,,0,0,0,,or you alluded to skydiving, or even free will,
+Dialogue: 0,1:00:19.23,1:00:22.96,Default,,0,0,0,,the choice to take one's own life if there was a severe illness or something like that?
+Dialogue: 0,1:00:22.96,1:00:23.17,Default,,0,0,0,,Yes.
+Dialogue: 0,1:00:23.86,1:00:28.19,Default,,0,0,0,,Is there free will in that matter?
+Dialogue: 0,1:00:28.55,1:00:29.50,Default,,0,0,0,,Yeah, there's free will.
+Dialogue: 0,1:00:32.36,1:00:35.32,Default,,0,0,0,,Choose to die or not to die, that's not going to determine what happens.
+Dialogue: 0,1:00:35.32,1:00:37.61,Default,,0,0,0,,But you get your, you get to vote.
+Dialogue: 0,1:00:41.63,1:00:46.57,Default,,0,0,0,,I'm not sure I understand that it's predetermined, but I still get to vote.
+Dialogue: 0,1:00:46.86,1:00:47.57,Default,,0,0,0,,You get to vote.
+Dialogue: 0,1:00:49.96,1:00:51.82,Default,,0,0,0,,The time, you can't control.
+Dialogue: 0,1:00:54.38,1:01:00.26,Default,,0,0,0,,However, you do have the capacity to influence the way in which it may happen.
+Dialogue: 0,1:01:04.15,1:01:04.48,Default,,0,0,0,,Okay.
+Dialogue: 0,1:01:05.44,1:01:09.00,Default,,0,0,0,,So that if I were a person who was in a nursing home and I was ill and decided,
+Dialogue: 0,1:01:09.13,1:01:10.63,Default,,0,0,0,,I mean, I would have that ability still.
+Dialogue: 0,1:01:11.71,1:01:11.98,Default,,0,0,0,,Well.
+Dialogue: 0,1:01:11.98,1:01:12.07,Default,,0,0,0,,Well.
+Dialogue: 0,1:01:12.63,1:01:13.36,Default,,0,0,0,,You're going to leave the,
+Dialogue: 0,1:01:13.36,1:01:15.76,Default,,0,0,0,,you're going to leave at the time that you're destined to leave.
+Dialogue: 0,1:01:15.86,1:01:19.05,Default,,0,0,0,,And I would presume the old lady in the wheelchair who can't get the hell out of here.
+Dialogue: 0,1:01:19.65,1:01:21.63,Default,,0,0,0,,It's because it's not time for her yet.
+Dialogue: 0,1:01:21.98,1:01:24.28,Default,,0,0,0,,When it's time, you can't stop her from getting out of here.
+Dialogue: 0,1:01:25.48,1:01:27.73,Default,,0,0,0,,Is there a karmic consequence to suicide?
+Dialogue: 0,1:01:29.03,1:01:31.82,Default,,0,0,0,,I haven't really researched the karmic consequence of suicide,
+Dialogue: 0,1:01:31.82,1:01:34.01,Default,,0,0,0,,but it's not as down as people think.
+Dialogue: 0,1:01:34.38,1:01:40.71,Default,,0,0,0,,You remember who was that lady that wrote so much, the doctor, about death and dying?
+Dialogue: 0,1:01:40.92,1:01:42.13,Default,,0,0,0,,Dr. Kubler-Ross.
+Dialogue: 0,1:01:43.44,1:01:44.51,Default,,0,0,0,,Kubler-Ross, right.
+Dialogue: 0,1:01:45.59,1:01:46.23,Default,,0,0,0,,In her research,
+Dialogue: 0,1:01:46.44,1:01:52.03,Default,,0,0,0,,suicide didn't appear to have any negative, a real negative consequence at all.
+Dialogue: 0,1:01:56.84,1:01:57.34,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:01:59.46,1:02:01.00,Default,,0,0,0,,And why should God care about it?
+Dialogue: 0,1:02:01.76,1:02:02.98,Default,,0,0,0,,Want to check yourself out?
+Dialogue: 0,1:02:04.15,1:02:04.65,Default,,0,0,0,,Hi.
+Dialogue: 0,1:02:05.82,1:02:07.63,Default,,0,0,0,,Can you comment on capital punishment?
+Dialogue: 0,1:02:13.26,1:02:15.28,Default,,0,0,0,,It calibrates extremely low.
+Dialogue: 0,1:02:17.13,1:02:22.73,Default,,0,0,0,,Capital punishment calibrates over 30, 35, about 30.
+Dialogue: 0,1:02:27.90,1:02:28.40,Default,,0,0,0,,So.
+Dialogue: 0,1:02:28.76,1:02:29.26,Default,,0,0,0,,That's it.
+Dialogue: 0,1:02:29.78,1:02:30.28,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:02:36.28,1:02:37.94,Default,,0,0,0,,You were talking about spiritual.
+Dialogue: 0,1:02:38.13,1:02:41.05,Default,,0,0,0,,Well, doesn't that an attention doesn't fluctuate.
+Dialogue: 0,1:02:41.90,1:02:46.13,Default,,0,0,0,,And yet there seems to be an experience often called the dark night of the soul.
+Dialogue: 0,1:02:46.55,1:02:48.53,Default,,0,0,0,,It feels like it's below 200.
+Dialogue: 0,1:02:48.55,1:02:49.55,Default,,0,0,0,,Yes, it's horrible.
+Dialogue: 0,1:02:50.55,1:02:55.51,Default,,0,0,0,,Can you like, but you're not necessarily dropping to that as an overall.
+Dialogue: 0,1:02:55.76,1:03:01.23,Default,,0,0,0,,No, you know, you've read, you read all the Christian saints and many have written about the dark night of the soul.
+Dialogue: 0,1:03:02.65,1:03:03.65,Default,,0,0,0,,It seems to have it more.
+Dialogue: 0,1:03:03.65,1:03:09.09,Default,,0,0,0,,First of all, the Christians and others, you don't read so much about the dark night of the soul coming from.
+Dialogue: 0,1:03:09.38,1:03:17.46,Default,,0,0,0,,India or Buddhism is not really a familiar thing in Buddhist literature.
+Dialogue: 0,1:03:18.09,1:03:20.11,Default,,0,0,0,,No, it's more in Christian literature.
+Dialogue: 0,1:03:21.30,1:03:24.71,Default,,0,0,0,,It's like you transcend all your dark karma, go into a great place.
+Dialogue: 0,1:03:25.36,1:03:30.26,Default,,0,0,0,,And now your negative karma, the undone comes up, takes you out of it.
+Dialogue: 0,1:03:30.30,1:03:33.36,Default,,0,0,0,,So negative karma of the undone, the undone.
+Dialogue: 0,1:03:33.80,1:03:34.30,Default,,0,0,0,,Okay.
+Dialogue: 0,1:03:34.30,1:03:39.11,Default,,0,0,0,,You've transcended up to there, but there's farther to go.
+Dialogue: 0,1:03:39.94,1:03:42.01,Default,,0,0,0,,And now because you're not in now.
+Dialogue: 0,1:03:42.01,1:03:45.46,Default,,0,0,0,,What you've brought up is stuff that would not have been brought up.
+Dialogue: 0,1:03:45.46,1:03:54.53,Default,,0,0,0,,Had you not risen to that level, you're not going to have a problem with forgiveness until you really do the course of miracles.
+Dialogue: 0,1:03:54.53,1:03:56.84,Default,,0,0,0,,And now forgiveness is the biggest problem in your life.
+Dialogue: 0,1:03:56.84,1:04:03.96,Default,,0,0,0,,You see, you see everything in terms of the kind of nation you're okay until you set a higher spiritual goal.
+Dialogue: 0,1:04:03.98,1:04:06.90,Default,,0,0,0,,Now you've brought your bottom up, brought up your bottom.
+Dialogue: 0,1:04:06.90,1:04:13.11,Default,,0,0,0,,See, so you used to be able to hate bad people and it was no problem.
+Dialogue: 0,1:04:13.36,1:04:15.34,Default,,0,0,0,,But now you're guilt stricken.
+Dialogue: 0,1:04:18.36,1:04:21.73,Default,,0,0,0,,I have to see ludicrous as an okay guy in that tough.
+Dialogue: 0,1:04:22.55,1:04:24.73,Default,,0,0,0,,How am I going to see ludicrous as an okay guy?
+Dialogue: 0,1:04:25.59,1:04:33.65,Default,,0,0,0,,You're talking about how they call hollow point bullets, kicking pregnant wives in the belly.
+Dialogue: 0,1:04:34.92,1:04:36.25,Default,,0,0,0,,I'm supposed to love this guy.
+Dialogue: 0,1:04:39.46,1:04:40.73,Default,,0,0,0,,See what a problem I got now.
+Dialogue: 0,1:04:40.78,1:04:43.13,Default,,0,0,0,,Didn't have that problem before I did the course of miracles.
+Dialogue: 0,1:04:45.51,1:04:48.84,Default,,0,0,0,,I thought he was a swell guy or else I hated him, but I didn't have any problem.
+Dialogue: 0,1:04:49.57,1:05:12.86,Default,,0,0,0,,But once you do this, all right, so spiritual evolution itself will not keep giving you new problems that will take you out of euphoria when you're over your, when you're, when you're, um, ahead of your karma, you feel euphoric, but then that doesn't last because the next lesson comes up.
+Dialogue: 0,1:05:12.86,1:05:13.28,Default,,0,0,0,,Right.
+Dialogue: 0,1:05:13.53,1:05:14.98,Default,,0,0,0,,So it doesn't mean you've fallen.
+Dialogue: 0,1:05:15.19,1:05:17.00,Default,,0,0,0,,It means that you're still advancing.
+Dialogue: 0,1:05:17.65,1:05:18.09,Default,,0,0,0,,Right.
+Dialogue: 0,1:05:18.34,1:05:21.73,Default,,0,0,0,,If you stop advancing, you probably go back to the euphoria again.
+Dialogue: 0,1:05:22.03,1:05:33.71,Default,,0,0,0,,So it'll continue to feel so long as you're ahead of your karma, see, but the spirit doesn't allow you to stay there.
+Dialogue: 0,1:05:35.94,1:05:38.15,Default,,0,0,0,,Then the spirit says, what about this?
+Dialogue: 0,1:05:38.53,1:05:38.67,Default,,0,0,0,,Right.
+Dialogue: 0,1:05:39.46,1:05:46.59,Default,,0,0,0,,Well, cause I, cause I did the course of miracles for a really long time and it felt like I cut out a whole level and hit a point of grace for a very long time.
+Dialogue: 0,1:05:47.07,1:05:49.30,Default,,0,0,0,,And now it's like all the unconscious.
+Dialogue: 0,1:05:49.80,1:05:50.19,Default,,0,0,0,,Right.
+Dialogue: 0,1:05:50.19,1:05:51.94,Default,,0,0,0,,Or like that's from past lifetimes.
+Dialogue: 0,1:05:52.28,1:05:52.71,Default,,0,0,0,,Okay.
+Dialogue: 0,1:05:52.71,1:05:52.96,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:05:54.07,1:05:54.51,Default,,0,0,0,,Which is true.
+Dialogue: 0,1:05:54.57,1:05:56.19,Default,,0,0,0,,Picking up is from past lifetimes.
+Dialogue: 0,1:05:56.57,1:05:56.67,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:05:56.73,1:05:58.53,Default,,0,0,0,,The past lifetimes are catching up with you.
+Dialogue: 0,1:05:59.40,1:05:59.82,Default,,0,0,0,,Oh, good.
+Dialogue: 0,1:06:02.38,1:06:06.57,Default,,0,0,0,,But that's, I mean, that's good because I can then move through them.
+Dialogue: 0,1:06:06.82,1:06:07.07,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:06:07.65,1:06:08.09,Default,,0,0,0,,Okay.
+Dialogue: 0,1:06:09.48,1:06:13.84,Default,,0,0,0,,You know, the Buddha said he was beset by demons, you know, beset by demons.
+Dialogue: 0,1:06:13.98,1:06:19.55,Default,,0,0,0,,In my lifetime, I've been fried by them, you know, fry your nervous system.
+Dialogue: 0,1:06:19.71,1:06:20.80,Default,,0,0,0,,God Almighty, you know.
+Dialogue: 0,1:06:22.15,1:06:28.61,Default,,0,0,0,,Well, I understand like, cause it always felt like I'd done something wrong because I know that as you are,
+Dialogue: 0,1:06:28.84,1:06:33.84,Default,,0,0,0,,you draw to you and then to suddenly hit such a bottom, it's like, oh, what did I do wrong?
+Dialogue: 0,1:06:33.88,1:06:35.59,Default,,0,0,0,,You become a challenge to the opposite.
+Dialogue: 0,1:06:36.76,1:06:37.48,Default,,0,0,0,,Say it again.
+Dialogue: 0,1:06:37.96,1:06:39.01,Default,,0,0,0,,You become a challenge.
+Dialogue: 0,1:06:39.01,1:06:45.03,Default,,0,0,0,,The forces that prevail due to lack of integrity.
+Dialogue: 0,1:06:45.40,1:06:48.94,Default,,0,0,0,,See, as you evolve, you become a threat to them.
+Dialogue: 0,1:06:51.61,1:06:57.55,Default,,0,0,0,,You can run in round the way you run in round, but when the integrity level jumps over 205, you can't run and run that way anymore.
+Dialogue: 0,1:07:00.11,1:07:00.23,Default,,0,0,0,,Yep.
+Dialogue: 0,1:07:00.67,1:07:00.94,Default,,0,0,0,,Okay.
+Dialogue: 0,1:07:01.23,1:07:02.00,Default,,0,0,0,,Thank you very much.
+Dialogue: 0,1:07:02.00,1:07:05.21,Default,,0,0,0,,Real calm.
+Dialogue: 0,1:07:05.57,1:07:08.01,Default,,0,0,0,,We're almost through.
+Dialogue: 0,1:07:08.21,1:07:08.55,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,1:07:08.92,1:07:11.28,Default,,0,0,0,,We're going to quit at six.
+Dialogue: 0,1:07:11.61,1:07:11.80,Default,,0,0,0,,Okay.
+Dialogue: 0,1:07:12.07,1:07:12.26,Default,,0,0,0,,Good.
+Dialogue: 0,1:07:12.86,1:07:23.67,Default,,0,0,0,,Dr. Hawkins, Dr. Ian Stevenson, University of Virginia, psychiatrist, age probably about 82 or 83 now.
+Dialogue: 0,1:07:24.40,1:07:29.61,Default,,0,0,0,,Back in the early 70s, he did a book called 20 Cases Suggestive of Reincarnation.
+Dialogue: 0,1:07:30.34,1:07:35.61,Default,,0,0,0,,By that time, he had checked memories of kids throughout the world.
+Dialogue: 0,1:07:35.86,1:07:36.51,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:07:36.51,1:07:37.46,Default,,0,0,0,,By that time, about.
+Dialogue: 0,1:07:37.57,1:07:38.03,Default,,0,0,0,,About 1,000.
+Dialogue: 0,1:07:38.15,1:07:40.46,Default,,0,0,0,,Now, he's up at about 7,000.
+Dialogue: 0,1:07:40.69,1:07:40.92,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:07:41.03,1:07:43.86,Default,,0,0,0,,A book called Old Souls, written by the editor.
+Dialogue: 0,1:07:43.86,1:07:46.03,Default,,0,0,0,,Yeah, trying to document reincarnation.
+Dialogue: 0,1:07:46.17,1:07:46.32,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,1:07:46.86,1:07:52.88,Default,,0,0,0,,Now, I met him some years ago when he had just written the book.
+Dialogue: 0,1:07:52.96,1:07:57.57,Default,,0,0,0,,Actually, it was still in manuscript form when I was, well, on the West Coast.
+Dialogue: 0,1:07:57.96,1:08:02.63,Default,,0,0,0,,And I asked him, when does the soul usually enter the body?
+Dialogue: 0,1:08:02.82,1:08:03.21,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:08:03.51,1:08:04.46,Default,,0,0,0,,He said, at birth.
+Dialogue: 0,1:08:04.71,1:08:05.84,Default,,0,0,0,,Almost always at birth.
+Dialogue: 0,1:08:05.84,1:08:07.38,Default,,0,0,0,,Sometimes, there's a little delay.
+Dialogue: 0,1:08:07.48,1:08:08.88,Default,,0,0,0,,Maybe a day or two, a week.
+Dialogue: 0,1:08:09.30,1:08:09.32,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,1:08:09.46,1:08:11.40,Default,,0,0,0,,Where does the soul enter, I asked.
+Dialogue: 0,1:08:12.26,1:08:13.67,Default,,0,0,0,,Never forget the conversation.
+Dialogue: 0,1:08:13.86,1:08:13.92,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,1:08:13.92,1:08:18.43,Default,,0,0,0,,He said, almost always through the soft part of the skull.
+Dialogue: 0,1:08:18.56,1:08:19.22,Default,,0,0,0,,Fontanelle, yeah.
+Dialogue: 0,1:08:19.63,1:08:22.90,Default,,0,0,0,,So, you're coming up with three months.
+Dialogue: 0,1:08:23.17,1:08:25.51,Default,,0,0,0,,That's what I get with kinesiology when I ask the question.
+Dialogue: 0,1:08:25.94,1:08:26.22,Default,,0,0,0,,Okay.
+Dialogue: 0,1:08:26.31,1:08:27.28,Default,,0,0,0,,Do you want to try it again?
+Dialogue: 0,1:08:27.55,1:08:32.44,Default,,0,0,0,,In light of Ian Stevenson, the soul enters at birth?
+Dialogue: 0,1:08:32.56,1:08:33.21,Default,,0,0,0,,The soul enters.
+Dialogue: 0,1:08:33.27,1:08:35.09,Default,,0,0,0,,We have permission to ask this in front of this audience.
+Dialogue: 0,1:08:35.55,1:08:36.78,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:36.78,1:08:36.86,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:36.86,1:08:36.90,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:36.90,1:08:36.93,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:36.93,1:08:36.94,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:36.94,1:08:36.98,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:36.98,1:08:37.01,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.01,1:08:37.06,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.06,1:08:37.10,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.10,1:08:37.13,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.13,1:08:37.22,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.22,1:08:37.28,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.28,1:08:37.31,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.31,1:08:37.55,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.55,1:08:37.59,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.59,1:08:37.63,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.63,1:08:37.64,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.64,1:08:37.71,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.71,1:08:37.75,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:37.75,1:08:37.77,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:38.52,1:08:39.01,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:39.71,1:08:39.72,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:39.72,1:08:40.02,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:40.02,1:08:40.05,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:40.05,1:08:40.06,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:40.06,1:08:40.09,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:40.09,1:08:42.44,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:42.44,1:08:42.60,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:44.61,1:08:44.85,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:44.85,1:08:44.96,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:44.96,1:08:45.02,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:45.02,1:08:46.06,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:46.06,1:08:46.30,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:46.30,1:08:46.46,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:46.46,1:08:46.53,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:46.53,1:08:46.69,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:46.69,1:08:46.80,Default,,0,0,0,,Yes.
+Dialogue: 0,1:08:46.80,1:08:47.43,Default,,0,0,0,,It's good to see him answering.
+Dialogue: 0,1:08:49.18,1:08:50.97,Default,,0,0,0,,Well, then we have a difference.
+Dialogue: 0,1:08:51.34,1:08:54.73,Default,,0,0,0,,No, because you see, the spirit is the etheric body, and the etheric body is not physical,
+Dialogue: 0,1:08:54.92,1:08:56.65,Default,,0,0,0,,so it doesn't enter the brain in the first place.
+Dialogue: 0,1:08:56.77,1:08:56.96,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:08:57.19,1:08:57.43,Default,,0,0,0,,Okay.
+Dialogue: 0,1:08:57.76,1:08:59.72,Default,,0,0,0,,So, it doesn't need a fontanelle because it's not physical.
+Dialogue: 0,1:09:00.64,1:09:05.55,Default,,0,0,0,,And the soul is a much broader kind of part of oneself.
+Dialogue: 0,1:09:06.55,1:09:06.60,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:09:08.78,1:09:09.14,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:09:09.14,1:09:10.98,Default,,0,0,0,,Stevenson's singing about it in more,
+Dialogue: 0,1:09:11.09,1:09:17.51,Default,,0,0,0,,physical terms, that it's probably more like a diffuse field, probably more like a diffuse
+Dialogue: 0,1:09:17.51,1:09:18.96,Default,,0,0,0,,field.
+Dialogue: 0,1:09:18.96,1:09:19.98,Default,,0,0,0,,Okay.
+Dialogue: 0,1:09:19.98,1:09:27.77,Default,,0,0,0,,I haven't heard of this name in a long time, Ian Stevenson.
+Dialogue: 0,1:09:27.77,1:09:29.84,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:09:29.84,1:09:36.26,Default,,0,0,0,,If you are in a situation that seems to be difficult where the environment may be at
+Dialogue: 0,1:09:36.26,1:09:40.93,Default,,0,0,0,,a lower consciousness level than you are, and I'm thinking in particular of a job I
+Dialogue: 0,1:09:40.93,1:09:48.30,Default,,0,0,0,,have, what's the best way to be able to hold on to your own level of consciousness and
+Dialogue: 0,1:09:48.30,1:09:49.30,Default,,0,0,0,,not be pulled down?
+Dialogue: 0,1:09:49.30,1:09:53.65,Default,,0,0,0,,It won't pull down except with your agreement.
+Dialogue: 0,1:09:53.65,1:09:58.14,Default,,0,0,0,,So if it's a lower level of consciousness than your own, then it's a test pattern you're
+Dialogue: 0,1:09:58.14,1:10:02.38,Default,,0,0,0,,in.
+Dialogue: 0,1:10:02.38,1:10:05.52,Default,,0,0,0,,If we aggravate her enough, she'll finally hate us.
+Dialogue: 0,1:10:05.52,1:10:06.52,Default,,0,0,0,,What?
+Dialogue: 0,1:10:06.52,1:10:11.72,Default,,0,0,0,,After you pass the test, it'll disappear.
+Dialogue: 0,1:10:11.72,1:10:13.76,Default,,0,0,0,,It's like looking for your weak spots.
+Dialogue: 0,1:10:13.76,1:10:14.76,Default,,0,0,0,,We aggravate her enough.
+Dialogue: 0,1:10:14.76,1:10:15.14,Default,,0,0,0,,Sooner or later, she'll hate us.
+Dialogue: 0,1:10:15.14,1:10:19.14,Default,,0,0,0,,They will get her to hate us, and she will no longer become an enemy of us.
+Dialogue: 0,1:10:19.14,1:10:22.13,Default,,0,0,0,,She'll enjoy the haters of the world.
+Dialogue: 0,1:10:22.13,1:10:26.90,Default,,0,0,0,,But if you resist that and make a choice, it will disappear from your life.
+Dialogue: 0,1:10:26.90,1:10:27.90,Default,,0,0,0,,It will have served a purpose.
+Dialogue: 0,1:10:27.90,1:10:29.93,Default,,0,0,0,,Which is like...
+Dialogue: 0,1:10:29.93,1:10:31.93,Default,,0,0,0,,And then you'll be surrounded with nice people.
+Dialogue: 0,1:10:31.93,1:10:37.31,Default,,0,0,0,,That seems to have happened.
+Dialogue: 0,1:10:37.31,1:10:41.14,Default,,0,0,0,,It's like a test period in your life.
+Dialogue: 0,1:10:41.14,1:10:48.09,Default,,0,0,0,,If you just keep returning negativity with positive happiness and good and blessings
+Dialogue: 0,1:10:48.09,1:10:50.09,Default,,0,0,0,,et cetera, it will disappear from your life.
+Dialogue: 0,1:10:50.09,1:10:51.22,Default,,0,0,0,,Okay.
+Dialogue: 0,1:10:51.22,1:10:54.35,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:10:54.35,1:10:56.96,Default,,0,0,0,,There'll be nothing to hold it in place anymore.
+Dialogue: 0,1:10:56.96,1:10:59.35,Default,,0,0,0,,It's being held in place by the test pattern.
+Dialogue: 0,1:10:59.35,1:11:00.93,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:11:00.93,1:11:08.10,Default,,0,0,0,,Dr. Hawkins, I wanted to ask you, what is the nature of true service?
+Dialogue: 0,1:11:08.10,1:11:14.03,Default,,0,0,0,,Nature of what?
+Dialogue: 0,1:11:14.03,1:11:15.03,Default,,0,0,0,,True service?
+Dialogue: 0,1:11:15.03,1:11:16.03,Default,,0,0,0,,Service to God?
+Dialogue: 0,1:11:16.03,1:11:21.09,Default,,0,0,0,,Ah, that would take all day.
+Dialogue: 0,1:11:21.09,1:11:26.09,Default,,0,0,0,,But, briefly, it is to surrender one's personal willfulness.
+Dialogue: 0,1:11:26.09,1:11:27.76,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:11:27.76,1:11:30.56,Default,,0,0,0,,In the 12 steps, I think, are very end-all, so they're very important.
+Dialogue: 0,1:11:30.56,1:11:31.56,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:11:31.56,1:11:38.47,Default,,0,0,0,,And then there's the course of miracles, to surrender one's self, one's life to God.
+Dialogue: 0,1:11:38.47,1:11:40.47,Default,,0,0,0,,Now, you don't know what that means.
+Dialogue: 0,1:11:40.47,1:11:48.76,Default,,0,0,0,,And, as time goes on, you realize that you never did know what it means, because it's
+Dialogue: 0,1:11:48.76,1:11:49.76,Default,,0,0,0,,revealed to you differently.
+Dialogue: 0,1:11:49.76,1:11:54.28,Default,,0,0,0,,It comes through a revelation.
+Dialogue: 0,1:11:54.28,1:11:57.44,Default,,0,0,0,,What is it you're supposed to surrender to God?
+Dialogue: 0,1:11:57.44,1:11:59.72,Default,,0,0,0,,You know?
+Dialogue: 0,1:11:59.72,1:12:03.72,Default,,0,0,0,,To even know what that means probably takes a lifetime.
+Dialogue: 0,1:12:03.72,1:12:07.82,Default,,0,0,0,,So, what the will of God means, then, comes as a revelation.
+Dialogue: 0,1:12:07.82,1:12:12.82,Default,,0,0,0,,So, it means one thing at this level, one thing at this level, one thing at this level,
+Dialogue: 0,1:12:12.82,1:12:13.82,Default,,0,0,0,,one thing at this level.
+Dialogue: 0,1:12:13.82,1:12:19.56,Default,,0,0,0,,And, when it's served its purpose at this level, it takes on a new meaning at the next
+Dialogue: 0,1:12:19.56,1:12:20.56,Default,,0,0,0,,level.
+Dialogue: 0,1:12:20.56,1:12:27.06,Default,,0,0,0,,Just to follow up to that, the reason I ask that, sometimes it feels like there's
+Dialogue: 0,1:12:27.06,1:12:29.06,Default,,0,0,0,,an overwhelming sense of responsibility.
+Dialogue: 0,1:12:29.06,1:12:30.06,Default,,0,0,0,,Yes.
+Dialogue: 0,1:12:30.06,1:12:33.06,Default,,0,0,0,,And I'm wondering, is that the unworthiness of the ego?
+Dialogue: 0,1:12:33.06,1:12:37.06,Default,,0,0,0,,The unworthiness of the ego, or the aspiration of the soul?
+Dialogue: 0,1:12:37.06,1:12:39.06,Default,,0,0,0,,It's a combination of both.
+Dialogue: 0,1:12:39.06,1:12:43.06,Default,,0,0,0,,With prayer, you get the illumination of it.
+Dialogue: 0,1:12:43.06,1:12:45.57,Default,,0,0,0,,You'll get illumination.
+Dialogue: 0,1:12:45.57,1:12:52.11,Default,,0,0,0,,You just say, Dear God, I ask out of your kindness and beneficence for clarification
+Dialogue: 0,1:12:52.11,1:12:53.11,Default,,0,0,0,,of this understanding.
+Dialogue: 0,1:12:53.11,1:12:56.11,Default,,0,0,0,,And I ask the Holy Spirit for a miracle.
+Dialogue: 0,1:12:56.11,1:12:57.85,Default,,0,0,0,,And then forget it.
+Dialogue: 0,1:12:57.85,1:13:04.31,Default,,0,0,0,,Then, as you're driving down the road, it's a snap.
+Dialogue: 0,1:13:04.31,1:13:05.31,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:13:05.31,1:13:07.25,Default,,0,0,0,,Okay.

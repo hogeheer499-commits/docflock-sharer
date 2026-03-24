@@ -9,7 +9,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from config import HOST, PORT
-from player import player, scan_videos, scan_music, scan_youtube_cache, get_video, get_next_video, get_prev_video, download_youtube
+from player import player, scan_videos, scan_clips, scan_music, scan_youtube_cache, get_video, get_next_video, get_prev_video, download_youtube
 
 PUBLIC_DIR = Path(__file__).parent.parent / "public"
 
@@ -55,6 +55,11 @@ class DelayRequest(BaseModel):
 @app.get("/api/videos")
 async def api_videos():
     return scan_videos()
+
+
+@app.get("/api/clips")
+async def api_clips():
+    return scan_clips()
 
 
 @app.get("/api/music")

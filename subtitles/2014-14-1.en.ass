@@ -1,0 +1,1392 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.62,0:00:09.56,Default,,0,0,0,,I'm Dr. David Hawkins. I've been a psychiatrist for the last 35 years.
+Dialogue: 0,0:00:10.04,0:00:15.56,Default,,0,0,0,,I've worked in the fields of psychoanalysis, psychopharmacology, psychotherapy, group therapy.
+Dialogue: 0,0:00:16.58,0:00:22.52,Default,,0,0,0,,I did a lot of research in the nature of relationship between nutrition and brain chemistry.
+Dialogue: 0,0:00:23.30,0:00:28.40,Default,,0,0,0,,And for the last 10 years, I've been working in the research into the nature of consciousness itself
+Dialogue: 0,0:00:28.40,0:00:33.46,Default,,0,0,0,,and its relationship to that field of knowledge referred to by the world as spiritual.
+Dialogue: 0,0:00:33.46,0:00:39.76,Default,,0,0,0,,And today's talk will be on giving up being old, letting go of the aging process,
+Dialogue: 0,0:00:40.06,0:00:44.36,Default,,0,0,0,,how to identify with that aspect of yourself which is real,
+Dialogue: 0,0:00:44.70,0:00:48.20,Default,,0,0,0,,and let go of those identifications with that which is unreal.
+Dialogue: 0,0:00:48.88,0:00:54.00,Default,,0,0,0,,And so we'll be talking about the relationship between body, mind, and spirit.
+Dialogue: 0,0:00:54.91,0:00:59.49,Default,,0,0,0,,What is the true relationship, and how does that relate to our topic for today?
+Dialogue: 0,0:00:59.79,0:01:03.49,Default,,0,0,0,,We'll be looking at where is it that man experiences experience,
+Dialogue: 0,0:01:04.07,0:01:11.97,Default,,0,0,0,,because if we address the results of our research to that area where man really experiences his experience,
+Dialogue: 0,0:01:12.43,0:01:18.15,Default,,0,0,0,,we find that we are not subject to many things that the world holds to be inevitable.
+Dialogue: 0,0:01:19.15,0:01:21.73,Default,,0,0,0,,We see that aging is a series of identifications.
+Dialogue: 0,0:01:22.49,0:01:27.87,Default,,0,0,0,,It's buying into a whole series of programs, stereotypes, behavior patterns.
+Dialogue: 0,0:01:28.63,0:01:30.49,Default,,0,0,0,,It's buying life scripts.
+Dialogue: 0,0:01:31.33,0:01:34.11,Default,,0,0,0,,That which really experiences life has no age.
+Dialogue: 0,0:01:34.39,0:01:35.73,Default,,0,0,0,,And it is not subject to aging.
+Dialogue: 0,0:01:36.57,0:01:43.27,Default,,0,0,0,,And we have to ask ourselves, are we that which we are experiencing, or are we the experiencer?
+Dialogue: 0,0:01:43.77,0:01:48.03,Default,,0,0,0,,We'll look into the middle-aged myth, the health patterns, sexual patterns,
+Dialogue: 0,0:01:48.31,0:01:51.13,Default,,0,0,0,,so weight problems that supposedly occur in middle age.
+Dialogue: 0,0:01:51.71,0:01:55.45,Default,,0,0,0,,We'll look into the statement that the body does what the mind believes,
+Dialogue: 0,0:01:55.59,0:01:57.21,Default,,0,0,0,,and we'll look into the physics of that.
+Dialogue: 0,0:01:58.74,0:02:03.60,Default,,0,0,0,,We'll look into the fact that the body is really the effect and not the cause,
+Dialogue: 0,0:02:04.10,0:02:04.36,Default,,0,0,0,,that it's not the cause.
+Dialogue: 0,0:02:04.36,0:02:04.38,Default,,0,0,0,,We'll look into the fact that the body is really the effect and not the cause,
+Dialogue: 0,0:02:04.58,0:02:06.16,Default,,0,0,0,,subject to what we hold in mind.
+Dialogue: 0,0:02:06.84,0:02:10.96,Default,,0,0,0,,We'll look at the fact that we have freedom of choice to elect these various patterns.
+Dialogue: 0,0:02:12.02,0:02:14.66,Default,,0,0,0,,We'll look at the adopting of family patterns
+Dialogue: 0,0:02:14.66,0:02:19.12,Default,,0,0,0,,and the influence that they have had on our thoughts and beliefs about longevity
+Dialogue: 0,0:02:19.12,0:02:20.36,Default,,0,0,0,,and what that looks like.
+Dialogue: 0,0:02:21.05,0:02:23.97,Default,,0,0,0,,The importance of feeling that your life is a contribution, a sharing,
+Dialogue: 0,0:02:24.13,0:02:26.53,Default,,0,0,0,,that it makes a difference, that it is of value.
+Dialogue: 0,0:02:27.17,0:02:29.45,Default,,0,0,0,,We'll look at some experiments from hypnosis.
+Dialogue: 0,0:02:29.93,0:02:33.45,Default,,0,0,0,,We'll look at some odd things that have occurred in science
+Dialogue: 0,0:02:34.09,0:02:34.49,Default,,0,0,0,,that have occurred in our lives.
+Dialogue: 0,0:02:34.49,0:02:39.87,Default,,0,0,0,,We'll look at a clinical example called progeria and what that means to us.
+Dialogue: 0,0:02:40.13,0:02:42.05,Default,,0,0,0,,We'll look at aging as a class phenomenon.
+Dialogue: 0,0:02:42.55,0:02:44.05,Default,,0,0,0,,We'll look at sex and age.
+Dialogue: 0,0:02:44.75,0:02:49.85,Default,,0,0,0,,And so today we'll cover this whole field which preoccupies everyone as he grows older,
+Dialogue: 0,0:02:50.43,0:02:52.15,Default,,0,0,0,,the facts, the fantasies.
+Dialogue: 0,0:02:52.75,0:02:57.55,Default,,0,0,0,,How can this be handled coming from our knowledge of the nature of consciousness itself?
+Dialogue: 0,0:02:58.33,0:03:01.49,Default,,0,0,0,,And so we'll be referring, as we have in these other talks,
+Dialogue: 0,0:03:01.75,0:03:04.49,Default,,0,0,0,,to a map of consciousness, something we have found,
+Dialogue: 0,0:03:04.49,0:03:05.41,Default,,0,0,0,,and extremely useful.
+Dialogue: 0,0:03:06.05,0:03:11.61,Default,,0,0,0,,It gives us an orientation to the whole subject of human behavior and who am I.
+Dialogue: 0,0:03:13.00,0:03:15.90,Default,,0,0,0,,And here we have really a mathematical model
+Dialogue: 0,0:03:15.90,0:03:21.12,Default,,0,0,0,,in which we have worked out the relative energy fields,
+Dialogue: 0,0:03:21.34,0:03:24.36,Default,,0,0,0,,the directions of the energy fields of these levels of consciousness,
+Dialogue: 0,0:03:24.84,0:03:28.44,Default,,0,0,0,,and we've worked out numerically their relative power,
+Dialogue: 0,0:03:29.02,0:03:33.72,Default,,0,0,0,,starting with death at zero and enlightenment at 600, for instance.
+Dialogue: 0,0:03:33.84,0:03:35.02,Default,,0,0,0,,We find that,
+Dialogue: 0,0:03:35.10,0:03:38.00,Default,,0,0,0,,apathy at 50 has half the power of fear,
+Dialogue: 0,0:03:38.82,0:03:40.96,Default,,0,0,0,,and fear calibrates at 100.
+Dialogue: 0,0:03:41.52,0:03:45.34,Default,,0,0,0,,We find that fear has half the energy of courage.
+Dialogue: 0,0:03:46.30,0:03:51.82,Default,,0,0,0,,So we find that neutral, where everything is just okay with you,
+Dialogue: 0,0:03:52.16,0:03:53.68,Default,,0,0,0,,has half the energy of love.
+Dialogue: 0,0:03:54.78,0:03:57.04,Default,,0,0,0,,We notice that below this level of courage,
+Dialogue: 0,0:03:57.16,0:03:59.64,Default,,0,0,0,,which is the capacity to tell the truth,
+Dialogue: 0,0:04:00.36,0:04:03.84,Default,,0,0,0,,that all the energy fields are reversed and in a negative direction.
+Dialogue: 0,0:04:04.56,0:04:05.66,Default,,0,0,0,,And we notice critically,
+Dialogue: 0,0:04:05.66,0:04:09.26,Default,,0,0,0,,above this level that all the energy fields go to the right.
+Dialogue: 0,0:04:09.76,0:04:12.56,Default,,0,0,0,,In other words, those plus positive energy fields
+Dialogue: 0,0:04:12.96,0:04:17.76,Default,,0,0,0,,are those which nurture, support, and value life and hold it as sacred.
+Dialogue: 0,0:04:18.86,0:04:22.26,Default,,0,0,0,,These energy fields below are those which are opposed to life,
+Dialogue: 0,0:04:22.56,0:04:23.86,Default,,0,0,0,,do not support life,
+Dialogue: 0,0:04:24.26,0:04:27.36,Default,,0,0,0,,and in fact, at the very bottom, become destruction.
+Dialogue: 0,0:04:28.26,0:04:33.66,Default,,0,0,0,,Loss of energy, loss of spirit, deflation, entrapment, inflation and expansion
+Dialogue: 0,0:04:33.86,0:04:35.42,Default,,0,0,0,,are all negative processes.
+Dialogue: 0,0:04:35.76,0:04:38.86,Default,,0,0,0,,And they lead to viewing the world in a negative way.
+Dialogue: 0,0:04:39.36,0:04:42.56,Default,,0,0,0,,They lead to seeing God in a very negative way.
+Dialogue: 0,0:04:43.16,0:04:47.86,Default,,0,0,0,,And so, in our talk today, we'll be going back to this chart,
+Dialogue: 0,0:04:48.46,0:04:50.16,Default,,0,0,0,,to this map of consciousness,
+Dialogue: 0,0:04:50.76,0:04:55.29,Default,,0,0,0,,and so that we have a way of orienting our knowledge of this whole field.
+Dialogue: 0,0:04:56.22,0:05:02.02,Default,,0,0,0,,It's necessary to restate then the relationship between body, mind and spirit,
+Dialogue: 0,0:05:02.52,0:05:05.62,Default,,0,0,0,,to see what this really means, because it is very important
+Dialogue: 0,0:05:06.45,0:05:08.95,Default,,0,0,0,,in looking at our subject for today.
+Dialogue: 0,0:05:09.97,0:05:15.37,Default,,0,0,0,,It's necessary to know and to realize through your own inner reflection and contemplation
+Dialogue: 0,0:05:16.47,0:05:19.07,Default,,0,0,0,,that the body is unable to experience itself.
+Dialogue: 0,0:05:19.57,0:05:24.47,Default,,0,0,0,,We've said this in all of our talks, but it cannot bear repeating too often.
+Dialogue: 0,0:05:24.97,0:05:28.67,Default,,0,0,0,,The body has no capacity to experience itself.
+Dialogue: 0,0:05:31.02,0:05:33.62,Default,,0,0,0,,Our knowledge about the body, of what's going on with the body,
+Dialogue: 0,0:05:33.62,0:05:35.72,Default,,0,0,0,,is coming from its sensations.
+Dialogue: 0,0:05:36.52,0:05:39.02,Default,,0,0,0,,The sensations themselves, in and of themselves,
+Dialogue: 0,0:05:39.02,0:05:42.02,Default,,0,0,0,,have no capacity to experience themselves.
+Dialogue: 0,0:05:42.52,0:05:47.52,Default,,0,0,0,,That experience has to go on in something that is greater than the body and its sensations,
+Dialogue: 0,0:05:47.52,0:05:52.02,Default,,0,0,0,,its sensory mechanisms, and that is mind itself.
+Dialogue: 0,0:05:52.56,0:05:57.06,Default,,0,0,0,,It's because of mind that you're aware of what is going on within the sensations,
+Dialogue: 0,0:05:57.56,0:06:01.06,Default,,0,0,0,,and the sensations are telling you what is happening within the body.
+Dialogue: 0,0:06:01.75,0:06:06.25,Default,,0,0,0,,Mind itself, as curious as it may seem, has no capacity to experience itself.
+Dialogue: 0,0:06:07.25,0:06:10.25,Default,,0,0,0,,A thought cannot experience its own thoughtness.
+Dialogue: 0,0:06:10.75,0:06:13.25,Default,,0,0,0,,A feeling cannot experience its own feelingness.
+Dialogue: 0,0:06:13.75,0:06:16.25,Default,,0,0,0,,A memory cannot experience its own memoryness.
+Dialogue: 0,0:06:16.75,0:06:19.25,Default,,0,0,0,,Mind itself, in order to be experienced,
+Dialogue: 0,0:06:19.75,0:06:23.25,Default,,0,0,0,,has to be experienced by something that is greater than itself,
+Dialogue: 0,0:06:23.75,0:06:27.25,Default,,0,0,0,,and that is the energy field of consciousness itself.
+Dialogue: 0,0:06:27.75,0:06:31.25,Default,,0,0,0,,Consciousness itself being greater than mind and more inclusive.
+Dialogue: 0,0:06:31.75,0:06:36.63,Default,,0,0,0,,Consciousness itself, how do we know what we are conscious of?
+Dialogue: 0,0:06:37.13,0:06:41.63,Default,,0,0,0,,Is coming from an infinite field with no limitations whatsoever called awareness.
+Dialogue: 0,0:06:42.13,0:06:45.63,Default,,0,0,0,,It's because of awareness that we know what is going on in consciousness.
+Dialogue: 0,0:06:46.13,0:06:49.63,Default,,0,0,0,,It is because of consciousness that we know what is going on in mind.
+Dialogue: 0,0:06:50.13,0:06:53.63,Default,,0,0,0,,It is because of mind that we're aware of what's going on with sensations.
+Dialogue: 0,0:06:54.13,0:06:57.63,Default,,0,0,0,,It's because of sensations we're aware of what's going on with the body.
+Dialogue: 0,0:06:58.13,0:07:00.63,Default,,0,0,0,,Consequently, that which we are, that which is aware,
+Dialogue: 0,0:07:01.13,0:07:06.63,Default,,0,0,0,,that which we really mean by the ultimate I, the infinite self,
+Dialogue: 0,0:07:07.63,0:07:10.13,Default,,0,0,0,,that which is aware and conscious,
+Dialogue: 0,0:07:10.63,0:07:15.63,Default,,0,0,0,,is far removed, many levels removed, as you can see, from the body.
+Dialogue: 0,0:07:18.28,0:07:22.78,Default,,0,0,0,,The interesting thing is that the body, one law of consciousness is,
+Dialogue: 0,0:07:23.28,0:07:26.28,Default,,0,0,0,,is that the body does what the mind holds.
+Dialogue: 0,0:07:26.78,0:07:29.28,Default,,0,0,0,,We're only subject to what the mind is holding.
+Dialogue: 0,0:07:29.78,0:07:34.28,Default,,0,0,0,,In other words, the body, being like a puppet, is controlled by mind.
+Dialogue: 0,0:07:34.78,0:07:38.78,Default,,0,0,0,,It is controlled both consciously and unconsciously.
+Dialogue: 0,0:07:39.78,0:07:43.78,Default,,0,0,0,,Few people realize the power of mind over body.
+Dialogue: 0,0:07:44.28,0:07:46.78,Default,,0,0,0,,When we look back at our field of consciousness,
+Dialogue: 0,0:07:47.28,0:07:48.78,Default,,0,0,0,,when we look at this map,
+Dialogue: 0,0:07:49.28,0:07:53.78,Default,,0,0,0,,we'll see that the physical body has a relative energy of about 100.
+Dialogue: 0,0:07:54.28,0:07:56.78,Default,,0,0,0,,Mind itself is up here in the 400s,
+Dialogue: 0,0:07:57.28,0:08:00.78,Default,,0,0,0,,although we don't have it on the blackboard because we only have limited space.
+Dialogue: 0,0:08:01.28,0:08:05.28,Default,,0,0,0,,All the levels of mind are energy fields in the 400s.
+Dialogue: 0,0:08:05.78,0:08:07.78,Default,,0,0,0,,The energy field of the body is neutral.
+Dialogue: 0,0:08:07.78,0:08:10.28,Default,,0,0,0,,It is neither positive or negative.
+Dialogue: 0,0:08:10.78,0:08:15.78,Default,,0,0,0,,A thought then held in mind, if we just look at the physics of it,
+Dialogue: 0,0:08:16.28,0:08:19.78,Default,,0,0,0,,held from an energy of 400 then dominates the body,
+Dialogue: 0,0:08:20.28,0:08:22.28,Default,,0,0,0,,which only has an energy field of 100.
+Dialogue: 0,0:08:22.78,0:08:27.78,Default,,0,0,0,,Consequently, the beliefs, the ideas, the thoughts, the configurations,
+Dialogue: 0,0:08:28.28,0:08:32.78,Default,,0,0,0,,the patterns, the scripts that we hold in mind are adopted by the body
+Dialogue: 0,0:08:33.28,0:08:36.78,Default,,0,0,0,,and begin to reflect in the body's physical appearance.
+Dialogue: 0,0:08:36.78,0:08:39.78,Default,,0,0,0,,And we certainly have covered this in our talks on health,
+Dialogue: 0,0:08:40.28,0:08:41.78,Default,,0,0,0,,in our talks on illness,
+Dialogue: 0,0:08:42.28,0:08:45.28,Default,,0,0,0,,and in our talks on giving up the various diseases,
+Dialogue: 0,0:08:45.78,0:08:49.28,Default,,0,0,0,,in which I shared a lot of my personal experience as well as research.
+Dialogue: 0,0:08:49.78,0:08:53.28,Default,,0,0,0,,So this principle will be very important for us to look at today.
+Dialogue: 0,0:08:53.78,0:08:55.78,Default,,0,0,0,,And we'll demonstrate it with clinical examples,
+Dialogue: 0,0:08:56.28,0:08:58.78,Default,,0,0,0,,and we'll give you ways to verify it for yourself.
+Dialogue: 0,0:08:59.28,0:09:01.28,Default,,0,0,0,,How to undo the middle age myth,
+Dialogue: 0,0:09:01.78,0:09:04.28,Default,,0,0,0,,the whole idea of decrepit old age,
+Dialogue: 0,0:09:04.78,0:09:06.28,Default,,0,0,0,,the idea of failing health,
+Dialogue: 0,0:09:06.78,0:09:09.28,Default,,0,0,0,,the belief system that all these things are inevitable,
+Dialogue: 0,0:09:09.78,0:09:14.28,Default,,0,0,0,,that they must be part and parcel of the body process itself,
+Dialogue: 0,0:09:14.78,0:09:18.28,Default,,0,0,0,,little realizing that they are actually coming from mind.
+Dialogue: 0,0:09:18.78,0:09:22.78,Default,,0,0,0,,And so we come across the principle of where is the source,
+Dialogue: 0,0:09:23.28,0:09:27.28,Default,,0,0,0,,that mind is the creator and that the physical body is the effect.
+Dialogue: 0,0:09:27.78,0:09:32.78,Default,,0,0,0,,Mind is where causation occurs and the physical body is in effect.
+Dialogue: 0,0:09:33.28,0:09:36.28,Default,,0,0,0,,The fact that the material world then is at the effect
+Dialogue: 0,0:09:37.28,0:09:41.28,Default,,0,0,0,,is the result of what is held in mind.
+Dialogue: 0,0:09:41.78,0:09:46.28,Default,,0,0,0,,And we can demonstrate this with very simple clinical examples such as hypnosis.
+Dialogue: 0,0:09:46.78,0:09:51.28,Default,,0,0,0,,We see in hypnosis, for instance, we can take an old person who is quite feeble.
+Dialogue: 0,0:09:51.78,0:09:53.28,Default,,0,0,0,,He walks in the office and he says,
+Dialogue: 0,0:09:53.78,0:09:55.28,Default,,0,0,0,,Would you like me to sit here?
+Dialogue: 0,0:09:55.78,0:09:57.28,Default,,0,0,0,,Could I sit in this chair here?
+Dialogue: 0,0:09:57.78,0:10:01.28,Default,,0,0,0,,And he sits down as though he barely has the strength and the power to sit in the chair.
+Dialogue: 0,0:10:01.78,0:10:04.78,Default,,0,0,0,,And we put him under hypnosis and we tell him he's 35 years old.
+Dialogue: 0,0:10:05.28,0:10:06.28,Default,,0,0,0,,And then we induce amnesia.
+Dialogue: 0,0:10:06.78,0:10:09.28,Default,,0,0,0,,So he doesn't remember what the suggestion was.
+Dialogue: 0,0:10:09.78,0:10:12.28,Default,,0,0,0,,And then we wake him up from his hypnotic state.
+Dialogue: 0,0:10:12.78,0:10:14.28,Default,,0,0,0,,And we say, Would you like a glass of water?
+Dialogue: 0,0:10:14.78,0:10:16.28,Default,,0,0,0,,And he says, Oh yes, I'd like a glass of water.
+Dialogue: 0,0:10:16.78,0:10:21.28,Default,,0,0,0,,And he walks over to the bubbler and he takes a glass and he fills it and he sits down.
+Dialogue: 0,0:10:21.78,0:10:23.28,Default,,0,0,0,,And the feeble old man is gone.
+Dialogue: 0,0:10:23.78,0:10:25.78,Default,,0,0,0,,Where is all the shaking? Where is all the trembling?
+Dialogue: 0,0:10:26.28,0:10:29.28,Default,,0,0,0,,Where is all the weakness? Where is all that decrepitness?
+Dialogue: 0,0:10:29.78,0:10:34.28,Default,,0,0,0,,What has happened to the feeble old man? He seems to have disappeared.
+Dialogue: 0,0:10:34.28,0:10:41.19,Default,,0,0,0,,We can see with the clinical example then, through the hypnotic state,
+Dialogue: 0,0:10:41.69,0:10:45.19,Default,,0,0,0,,that the mind is reflecting exactly what the mind believes.
+Dialogue: 0,0:10:45.69,0:10:48.19,Default,,0,0,0,,The body is reflecting exactly what the mind believes.
+Dialogue: 0,0:10:48.69,0:10:51.19,Default,,0,0,0,,The way it stands. The way it holds itself.
+Dialogue: 0,0:10:51.69,0:10:53.19,Default,,0,0,0,,The attitude towards the body.
+Dialogue: 0,0:10:53.69,0:10:56.69,Default,,0,0,0,,The old person is looking at the body as though it's frail.
+Dialogue: 0,0:10:57.19,0:11:00.19,Default,,0,0,0,,You know, they're preoccupied. They might fall and break their hip.
+Dialogue: 0,0:11:00.69,0:11:04.19,Default,,0,0,0,,And thereby holding that in mind and bringing it into their life experience.
+Dialogue: 0,0:11:05.19,0:11:08.19,Default,,0,0,0,,So with hypnosis we see a very good example then.
+Dialogue: 0,0:11:08.69,0:11:13.19,Default,,0,0,0,,And we've used also the example in other talks of the multiple personality.
+Dialogue: 0,0:11:13.69,0:11:20.19,Default,,0,0,0,,Where one of the personalities has totally different views about health and life and aging
+Dialogue: 0,0:11:20.69,0:11:22.19,Default,,0,0,0,,than the second personality.
+Dialogue: 0,0:11:22.69,0:11:27.19,Default,,0,0,0,,And when the one personality is in the body, the body reflects what that personality believes.
+Dialogue: 0,0:11:27.69,0:11:32.19,Default,,0,0,0,,So if one personality believes in asthma, while that personality is in the body,
+Dialogue: 0,0:11:32.69,0:11:34.19,Default,,0,0,0,,the person literally has asthma.
+Dialogue: 0,0:11:35.19,0:11:38.19,Default,,0,0,0,,But when that personality is replaced by a more pleasant personality
+Dialogue: 0,0:11:38.69,0:11:41.19,Default,,0,0,0,,that doesn't have a belief in these psychosomatic illnesses,
+Dialogue: 0,0:11:41.69,0:11:44.19,Default,,0,0,0,,then we see the asthma is not present.
+Dialogue: 0,0:11:44.69,0:11:46.19,Default,,0,0,0,,And that person has no allergies.
+Dialogue: 0,0:11:46.69,0:11:52.19,Default,,0,0,0,,Consequently, the physical body is reflecting exactly what our belief systems are.
+Dialogue: 0,0:11:52.69,0:11:55.19,Default,,0,0,0,,We'll look at how did these belief systems arise.
+Dialogue: 0,0:11:55.82,0:11:58.32,Default,,0,0,0,,First of all, that we have an option.
+Dialogue: 0,0:11:58.82,0:12:01.32,Default,,0,0,0,,You see, the mind concludes, I don't have any options.
+Dialogue: 0,0:12:02.27,0:12:04.77,Default,,0,0,0,,The naive mind thinks I'm at the effect of the body.
+Dialogue: 0,0:12:05.27,0:12:07.77,Default,,0,0,0,,I'm at the effect of the ongoingness of time.
+Dialogue: 0,0:12:08.27,0:12:11.77,Default,,0,0,0,,In this case, the mind is giving away its power to the calendar.
+Dialogue: 0,0:12:12.27,0:12:17.77,Default,,0,0,0,,It says, it pictures as the years go by, the body must of necessity get older.
+Dialogue: 0,0:12:18.84,0:12:25.34,Default,,0,0,0,,Well, we see a very interesting clinical example in a scientific condition called progeria.
+Dialogue: 0,0:12:26.04,0:12:34.54,Default,,0,0,0,,In which the person progressively ages and becomes an extremely old, old person by the age of 5, 6, 7, 8, 9
+Dialogue: 0,0:12:34.54,0:12:38.04,Default,,0,0,0,,and often dead by age 10 of old age.
+Dialogue: 0,0:12:38.66,0:12:42.16,Default,,0,0,0,,Literal old age, decrepit old age by age 10.
+Dialogue: 0,0:12:42.66,0:12:44.66,Default,,0,0,0,,And so we see an interesting example.
+Dialogue: 0,0:12:45.16,0:12:52.16,Default,,0,0,0,,How can old age and actually death from old age occur in a span of only 10 calendar years?
+Dialogue: 0,0:12:52.66,0:13:00.16,Default,,0,0,0,,If calendar years were cause and physical body was at the effect of the calendar, no such thing could occur.
+Dialogue: 0,0:13:00.66,0:13:03.16,Default,,0,0,0,,The only reason to bring these up is to
+Dialogue: 0,0:13:03.16,0:13:06.66,Default,,0,0,0,,begin to open the mind to see that we have options.
+Dialogue: 0,0:13:07.16,0:13:10.66,Default,,0,0,0,,To see that that which we believe, that which we buy into,
+Dialogue: 0,0:13:11.16,0:13:14.16,Default,,0,0,0,,that which we allow ourselves to be programmed by,
+Dialogue: 0,0:13:14.66,0:13:17.66,Default,,0,0,0,,now becomes the source. It becomes the program.
+Dialogue: 0,0:13:18.16,0:13:19.66,Default,,0,0,0,,It becomes the script.
+Dialogue: 0,0:13:20.16,0:13:24.66,Default,,0,0,0,,And this script begins to express itself on the physical level.
+Dialogue: 0,0:13:25.16,0:13:27.66,Default,,0,0,0,,When we see it occurring on the physical level,
+Dialogue: 0,0:13:28.16,0:13:32.66,Default,,0,0,0,,the mind, because of its naivete, concludes that causation,
+Dialogue: 0,0:13:33.16,0:13:35.66,Default,,0,0,0,,is happening on the physical level.
+Dialogue: 0,0:13:36.16,0:13:41.66,Default,,0,0,0,,So the naive mind sees causality as A causes B causes C
+Dialogue: 0,0:13:42.16,0:13:43.66,Default,,0,0,0,,within the physical realm.
+Dialogue: 0,0:13:44.26,0:13:47.76,Default,,0,0,0,,The turning of the calendar, the turning of the seasons,
+Dialogue: 0,0:13:48.26,0:13:54.42,Default,,0,0,0,,is causing, on the physical level then, the aging process of the body.
+Dialogue: 0,0:13:54.92,0:14:01.53,Default,,0,0,0,,It sees causality on the physical level as A causes B causes C.
+Dialogue: 0,0:14:02.03,0:14:03.53,Default,,0,0,0,,And closer to reality,
+Dialogue: 0,0:14:03.53,0:14:08.76,Default,,0,0,0,,the truth is that something from a higher level is causing,
+Dialogue: 0,0:14:09.26,0:14:11.76,Default,,0,0,0,,sequentially, both A, B and C.
+Dialogue: 0,0:14:12.26,0:14:14.76,Default,,0,0,0,,Cause is on this level, effect is on this level.
+Dialogue: 0,0:14:15.26,0:14:18.76,Default,,0,0,0,,If I hold a concept in mind that goes A, B, C,
+Dialogue: 0,0:14:19.26,0:14:24.60,Default,,0,0,0,,then within the physical world what we see is first A, then B, then C.
+Dialogue: 0,0:14:25.10,0:14:27.60,Default,,0,0,0,,The left brain, because it thinks linearly
+Dialogue: 0,0:14:28.10,0:14:32.60,Default,,0,0,0,,and projects its concepts onto the phenomena of the world,
+Dialogue: 0,0:14:33.10,0:14:34.10,Default,,0,0,0,,holds, therefore,
+Dialogue: 0,0:14:34.10,0:14:36.60,Default,,0,0,0,,that A must cause B cause C,
+Dialogue: 0,0:14:37.10,0:14:39.60,Default,,0,0,0,,never suspecting that causality of A, B, C
+Dialogue: 0,0:14:40.10,0:14:42.60,Default,,0,0,0,,is coming from a different level altogether.
+Dialogue: 0,0:14:43.10,0:14:45.60,Default,,0,0,0,,So the level of cause, where the power is,
+Dialogue: 0,0:14:46.10,0:14:48.08,Default,,0,0,0,,is the level of mind.
+Dialogue: 0,0:14:48.58,0:14:51.08,Default,,0,0,0,,The world of the physical is the world of effect.
+Dialogue: 0,0:14:51.58,0:14:53.58,Default,,0,0,0,,It creates A, B, C.
+Dialogue: 0,0:14:54.08,0:14:57.08,Default,,0,0,0,,So if I hold a pattern in mind of what aging looks like,
+Dialogue: 0,0:14:57.58,0:15:00.08,Default,,0,0,0,,what I think it must be and what must happen,
+Dialogue: 0,0:15:00.58,0:15:03.58,Default,,0,0,0,,I create on the physical level A, B, C.
+Dialogue: 0,0:15:03.58,0:15:06.24,Default,,0,0,0,,The decrepit, feeble old man,
+Dialogue: 0,0:15:06.74,0:15:10.24,Default,,0,0,0,,because in his childhood that's what old people looked like.
+Dialogue: 0,0:15:10.74,0:15:11.74,Default,,0,0,0,,He was convinced.
+Dialogue: 0,0:15:12.24,0:15:14.24,Default,,0,0,0,,That's what you look like when you're 80.
+Dialogue: 0,0:15:14.74,0:15:17.24,Default,,0,0,0,,And so when he was 80, that's exactly what he looked like.
+Dialogue: 0,0:15:17.74,0:15:19.74,Default,,0,0,0,,So if we could look back into his mind,
+Dialogue: 0,0:15:20.24,0:15:22.24,Default,,0,0,0,,go into his mind and see his pictures
+Dialogue: 0,0:15:22.74,0:15:24.24,Default,,0,0,0,,of what does an old man look like,
+Dialogue: 0,0:15:24.74,0:15:26.74,Default,,0,0,0,,we would see exactly what an old man looks like
+Dialogue: 0,0:15:27.24,0:15:28.74,Default,,0,0,0,,because he's standing there right in front of us.
+Dialogue: 0,0:15:29.24,0:15:32.24,Default,,0,0,0,,That was his picture of what it looks like to get old.
+Dialogue: 0,0:15:32.24,0:15:34.74,Default,,0,0,0,,The body demonstrating what the mind believes
+Dialogue: 0,0:15:35.24,0:15:37.74,Default,,0,0,0,,is an experiment done with the menstrual periods in women
+Dialogue: 0,0:15:38.24,0:15:40.99,Default,,0,0,0,,in which they were given an injection.
+Dialogue: 0,0:15:41.49,0:15:43.99,Default,,0,0,0,,They were told that this injection would result
+Dialogue: 0,0:15:44.49,0:15:46.99,Default,,0,0,0,,in their skipping their next menstrual period.
+Dialogue: 0,0:15:47.49,0:15:51.99,Default,,0,0,0,,And so what happened was they were given an injection of a placebo.
+Dialogue: 0,0:15:52.49,0:15:55.09,Default,,0,0,0,,And of those people given the injection of a placebo,
+Dialogue: 0,0:15:55.59,0:15:59.09,Default,,0,0,0,,all of them experienced either skipping the menstrual period
+Dialogue: 0,0:15:59.59,0:16:01.09,Default,,0,0,0,,or a delay.
+Dialogue: 0,0:16:01.09,0:16:03.59,Default,,0,0,0,,I think 85% skipped the next menstrual period
+Dialogue: 0,0:16:04.09,0:16:06.59,Default,,0,0,0,,and 15% experienced a great delay.
+Dialogue: 0,0:16:07.09,0:16:10.59,Default,,0,0,0,,So these examples are not exceptions.
+Dialogue: 0,0:16:11.09,0:16:12.59,Default,,0,0,0,,These are...
+Dialogue: 0,0:16:13.09,0:16:15.59,Default,,0,0,0,,What we're interested in is the basic principle.
+Dialogue: 0,0:16:16.09,0:16:19.59,Default,,0,0,0,,The basic principle is that this is going on all the time.
+Dialogue: 0,0:16:20.09,0:16:22.59,Default,,0,0,0,,The mind is continuously reflecting
+Dialogue: 0,0:16:23.09,0:16:27.59,Default,,0,0,0,,the patterns and the beliefs of what is being held in mind.
+Dialogue: 0,0:16:28.09,0:16:29.59,Default,,0,0,0,,These clinical examples from hypnosis
+Dialogue: 0,0:16:29.59,0:16:34.82,Default,,0,0,0,,and research experiments are merely isolated examples
+Dialogue: 0,0:16:35.32,0:16:36.82,Default,,0,0,0,,where you can see it clearly.
+Dialogue: 0,0:16:37.32,0:16:40.86,Default,,0,0,0,,But you can see then if under hypnosis
+Dialogue: 0,0:16:41.36,0:16:43.86,Default,,0,0,0,,the body will do exactly what the mind believes.
+Dialogue: 0,0:16:44.36,0:16:45.86,Default,,0,0,0,,For instance, you can put a patient under
+Dialogue: 0,0:16:46.36,0:16:47.86,Default,,0,0,0,,and tell him he's allergic to roses.
+Dialogue: 0,0:16:48.36,0:16:49.86,Default,,0,0,0,,And when he wakes up, his nose will stuff up.
+Dialogue: 0,0:16:50.36,0:16:52.86,Default,,0,0,0,,He'll go into hay fever and have an asthma attack
+Dialogue: 0,0:16:53.36,0:16:54.86,Default,,0,0,0,,right there within the office.
+Dialogue: 0,0:16:55.36,0:16:57.86,Default,,0,0,0,,It's been done many times and it's historically recorded
+Dialogue: 0,0:16:57.86,0:17:00.93,Default,,0,0,0,,in the annals of psychoanalysis.
+Dialogue: 0,0:17:01.43,0:17:02.93,Default,,0,0,0,,This is always going on.
+Dialogue: 0,0:17:03.43,0:17:04.93,Default,,0,0,0,,And so now you begin to get a feel
+Dialogue: 0,0:17:05.43,0:17:06.93,Default,,0,0,0,,for what we're talking about.
+Dialogue: 0,0:17:07.43,0:17:09.93,Default,,0,0,0,,That the constant programming is coming in.
+Dialogue: 0,0:17:10.43,0:17:12.93,Default,,0,0,0,,The expectations of middle age and old age
+Dialogue: 0,0:17:13.43,0:17:14.93,Default,,0,0,0,,and what this is supposed to mean
+Dialogue: 0,0:17:15.43,0:17:18.46,Default,,0,0,0,,are now bought by the mind out of its naivete.
+Dialogue: 0,0:17:18.96,0:17:20.46,Default,,0,0,0,,And as we've said in other talks,
+Dialogue: 0,0:17:20.96,0:17:22.96,Default,,0,0,0,,one of the basic principles of consciousness itself
+Dialogue: 0,0:17:23.46,0:17:25.46,Default,,0,0,0,,is its intrinsic innocence.
+Dialogue: 0,0:17:26.32,0:17:28.32,Default,,0,0,0,,It's because the mind is innocent
+Dialogue: 0,0:17:28.32,0:17:32.82,Default,,0,0,0,,that we have to carefully begin to watch it and guard it.
+Dialogue: 0,0:17:33.32,0:17:34.82,Default,,0,0,0,,We have to become like its mother.
+Dialogue: 0,0:17:35.32,0:17:37.32,Default,,0,0,0,,Our mind is like an innocent kid
+Dialogue: 0,0:17:37.82,0:17:38.82,Default,,0,0,0,,who goes out in the world
+Dialogue: 0,0:17:39.32,0:17:40.82,Default,,0,0,0,,and believes everything it hears.
+Dialogue: 0,0:17:41.32,0:17:42.32,Default,,0,0,0,,It believes every billboard.
+Dialogue: 0,0:17:42.82,0:17:43.82,Default,,0,0,0,,It believes every commercial.
+Dialogue: 0,0:17:44.32,0:17:45.82,Default,,0,0,0,,It believes every remark that people make.
+Dialogue: 0,0:17:46.32,0:17:47.82,Default,,0,0,0,,It believes what it sees.
+Dialogue: 0,0:17:48.32,0:17:49.82,Default,,0,0,0,,It has no way to evaluate it.
+Dialogue: 0,0:17:50.32,0:17:52.82,Default,,0,0,0,,It has no sense of discrimination.
+Dialogue: 0,0:17:53.38,0:17:56.88,Default,,0,0,0,,And so we have to begin to sort of take responsibility
+Dialogue: 0,0:17:56.88,0:17:59.38,Default,,0,0,0,,and say, I can see that my mind
+Dialogue: 0,0:17:59.88,0:18:01.38,Default,,0,0,0,,and its intrinsic innocence
+Dialogue: 0,0:18:01.88,0:18:03.38,Default,,0,0,0,,because the innocence of the mind of the child
+Dialogue: 0,0:18:03.88,0:18:05.38,Default,,0,0,0,,is still with us throughout life.
+Dialogue: 0,0:18:05.88,0:18:09.51,Default,,0,0,0,,And I'd better start looking into what it's been buying.
+Dialogue: 0,0:18:10.07,0:18:12.57,Default,,0,0,0,,And so we look at the lives of many people
+Dialogue: 0,0:18:13.07,0:18:14.57,Default,,0,0,0,,that are very creative.
+Dialogue: 0,0:18:15.07,0:18:16.57,Default,,0,0,0,,And we see that, characteristically,
+Dialogue: 0,0:18:17.07,0:18:18.57,Default,,0,0,0,,they live well into their 90s.
+Dialogue: 0,0:18:19.07,0:18:21.07,Default,,0,0,0,,And frequently they get married at 85
+Dialogue: 0,0:18:21.57,0:18:23.07,Default,,0,0,0,,and start having children at 90.
+Dialogue: 0,0:18:23.57,0:18:25.57,Default,,0,0,0,,And Dr. John Diamond, a physician,
+Dialogue: 0,0:18:25.57,0:18:28.07,Default,,0,0,0,,has written a couple of books about that
+Dialogue: 0,0:18:28.57,0:18:31.07,Default,,0,0,0,,in his books about behavioral kinesiology
+Dialogue: 0,0:18:31.57,0:18:33.07,Default,,0,0,0,,and the energy of life
+Dialogue: 0,0:18:33.57,0:18:35.07,Default,,0,0,0,,in which he does a whole chapter on that.
+Dialogue: 0,0:18:35.57,0:18:38.07,Default,,0,0,0,,He made a study of the life patterns
+Dialogue: 0,0:18:38.57,0:18:40.07,Default,,0,0,0,,of those who are into classical music,
+Dialogue: 0,0:18:40.57,0:18:42.07,Default,,0,0,0,,conductors and composers and performers.
+Dialogue: 0,0:18:42.57,0:18:44.07,Default,,0,0,0,,And he found that, characteristically,
+Dialogue: 0,0:18:44.57,0:18:46.57,Default,,0,0,0,,they all live to a very old age
+Dialogue: 0,0:18:47.07,0:18:48.07,Default,,0,0,0,,and remain productive.
+Dialogue: 0,0:18:48.57,0:18:51.07,Default,,0,0,0,,We think nothing of an 86-year-old conductor
+Dialogue: 0,0:18:51.57,0:18:53.07,Default,,0,0,0,,leading a whole symphony orchestra,
+Dialogue: 0,0:18:53.57,0:18:55.07,Default,,0,0,0,,having a 34-year-old wife
+Dialogue: 0,0:18:55.57,0:18:57.07,Default,,0,0,0,,and a young baby at home.
+Dialogue: 0,0:18:57.76,0:18:59.26,Default,,0,0,0,,We all just sort of know
+Dialogue: 0,0:18:59.76,0:19:01.26,Default,,0,0,0,,that that goes with that lifestyle.
+Dialogue: 0,0:19:01.76,0:19:04.26,Default,,0,0,0,,Writers who live to a very advanced age.
+Dialogue: 0,0:19:04.76,0:19:06.26,Default,,0,0,0,,People into research and physics
+Dialogue: 0,0:19:06.76,0:19:08.26,Default,,0,0,0,,who live to a very ripe old age.
+Dialogue: 0,0:19:08.76,0:19:10.26,Default,,0,0,0,,Performers.
+Dialogue: 0,0:19:10.76,0:19:13.26,Default,,0,0,0,,We think of George Burns, Fred Astaire.
+Dialogue: 0,0:19:13.76,0:19:16.76,Default,,0,0,0,,Age means nothing at all, then, as such.
+Dialogue: 0,0:19:17.26,0:19:19.76,Default,,0,0,0,,In other words, the numerical, chronological age
+Dialogue: 0,0:19:20.26,0:19:22.26,Default,,0,0,0,,has no power within it.
+Dialogue: 0,0:19:22.76,0:19:24.26,Default,,0,0,0,,But our beliefs about that,
+Dialogue: 0,0:19:24.26,0:19:25.76,Default,,0,0,0,,how we hold that,
+Dialogue: 0,0:19:26.26,0:19:28.80,Default,,0,0,0,,how we genuflect to all the belief systems
+Dialogue: 0,0:19:29.30,0:19:30.30,Default,,0,0,0,,that go with that,
+Dialogue: 0,0:19:30.80,0:19:31.80,Default,,0,0,0,,that we've bought throughout the years,
+Dialogue: 0,0:19:32.30,0:19:33.80,Default,,0,0,0,,that does have power.
+Dialogue: 0,0:19:34.30,0:19:35.80,Default,,0,0,0,,How is it that some people are dancing
+Dialogue: 0,0:19:36.30,0:19:37.30,Default,,0,0,0,,and performing at 90,
+Dialogue: 0,0:19:37.80,0:19:38.80,Default,,0,0,0,,and other people at 59
+Dialogue: 0,0:19:39.30,0:19:40.86,Default,,0,0,0,,are ready for the grave?
+Dialogue: 0,0:19:41.36,0:19:42.86,Default,,0,0,0,,I have a friend who, at age 59,
+Dialogue: 0,0:19:43.36,0:19:44.86,Default,,0,0,0,,looks like he's about 75.
+Dialogue: 0,0:19:45.36,0:19:46.86,Default,,0,0,0,,It's like life is all over.
+Dialogue: 0,0:19:47.36,0:19:50.36,Default,,0,0,0,,He's already had a couple of coronary bypass operations.
+Dialogue: 0,0:19:51.50,0:19:53.50,Default,,0,0,0,,The way he holds himself,
+Dialogue: 0,0:19:53.50,0:19:57.50,Default,,0,0,0,,the weakness and the whole body stance,
+Dialogue: 0,0:19:58.00,0:20:02.85,Default,,0,0,0,,tells you what he believes old age must entail.
+Dialogue: 0,0:20:04.04,0:20:06.04,Default,,0,0,0,,So the first thing we have to see
+Dialogue: 0,0:20:06.54,0:20:07.54,Default,,0,0,0,,is that we have options.
+Dialogue: 0,0:20:08.04,0:20:09.04,Default,,0,0,0,,We have options.
+Dialogue: 0,0:20:09.54,0:20:11.04,Default,,0,0,0,,We can choose to be different.
+Dialogue: 0,0:20:11.54,0:20:16.04,Default,,0,0,0,,We can choose to let go of the belief systems in our family.
+Dialogue: 0,0:20:16.61,0:20:18.11,Default,,0,0,0,,We can begin to see now and look back
+Dialogue: 0,0:20:18.61,0:20:20.11,Default,,0,0,0,,where did these belief systems about
+Dialogue: 0,0:20:20.61,0:20:22.61,Default,,0,0,0,,what middle age and the aging process,
+Dialogue: 0,0:20:22.61,0:20:24.11,Default,,0,0,0,,where did they come from?
+Dialogue: 0,0:20:24.61,0:20:26.11,Default,,0,0,0,,What constitutes them?
+Dialogue: 0,0:20:26.61,0:20:28.11,Default,,0,0,0,,We look at our own childhood now
+Dialogue: 0,0:20:28.61,0:20:30.61,Default,,0,0,0,,and look at our grandparents.
+Dialogue: 0,0:20:31.11,0:20:33.11,Default,,0,0,0,,And what was our relationship with our grandparents?
+Dialogue: 0,0:20:33.61,0:20:35.61,Default,,0,0,0,,And at that time, our parents were middle aged.
+Dialogue: 0,0:20:36.11,0:20:38.11,Default,,0,0,0,,So when we look at our middle aged parents,
+Dialogue: 0,0:20:38.61,0:20:39.61,Default,,0,0,0,,remember the pattern,
+Dialogue: 0,0:20:40.11,0:20:41.61,Default,,0,0,0,,we see that like a photograph,
+Dialogue: 0,0:20:42.11,0:20:43.11,Default,,0,0,0,,the negative.
+Dialogue: 0,0:20:43.61,0:20:45.11,Default,,0,0,0,,It means what? A beer belly?
+Dialogue: 0,0:20:45.61,0:20:46.61,Default,,0,0,0,,It means sitting home,
+Dialogue: 0,0:20:47.11,0:20:48.11,Default,,0,0,0,,feeling tired and discouraged
+Dialogue: 0,0:20:48.61,0:20:50.11,Default,,0,0,0,,and watching the television set
+Dialogue: 0,0:20:50.61,0:20:51.61,Default,,0,0,0,,and complaining about life.
+Dialogue: 0,0:20:51.61,0:20:53.11,Default,,0,0,0,,Does it mean overhearing remarks?
+Dialogue: 0,0:20:53.61,0:20:56.11,Default,,0,0,0,,Well, I don't have the energy for that anymore.
+Dialogue: 0,0:20:56.61,0:20:58.11,Default,,0,0,0,,Getting the thought that well,
+Dialogue: 0,0:20:58.61,0:20:59.61,Default,,0,0,0,,you're over the hill
+Dialogue: 0,0:21:00.11,0:21:01.61,Default,,0,0,0,,and the men start to wink at each other.
+Dialogue: 0,0:21:02.11,0:21:04.11,Default,,0,0,0,,Hey George, what are you,
+Dialogue: 0,0:21:04.61,0:21:05.61,Default,,0,0,0,,a little over the hill there?
+Dialogue: 0,0:21:06.11,0:21:07.11,Default,,0,0,0,,Meaning middle age,
+Dialogue: 0,0:21:07.61,0:21:08.61,Default,,0,0,0,,forget about sex life.
+Dialogue: 0,0:21:09.11,0:21:12.11,Default,,0,0,0,,All these programs are going into the impressionable mind
+Dialogue: 0,0:21:12.61,0:21:13.61,Default,,0,0,0,,of the naive child.
+Dialogue: 0,0:21:14.11,0:21:15.11,Default,,0,0,0,,He's creating a picture
+Dialogue: 0,0:21:15.61,0:21:17.11,Default,,0,0,0,,what mother looks like,
+Dialogue: 0,0:21:17.61,0:21:18.61,Default,,0,0,0,,tired and bedraggled.
+Dialogue: 0,0:21:19.11,0:21:21.11,Default,,0,0,0,,She no longer cares for her appearance,
+Dialogue: 0,0:21:21.11,0:21:23.11,Default,,0,0,0,,doesn't bother going to the beautician anymore
+Dialogue: 0,0:21:23.61,0:21:25.11,Default,,0,0,0,,because middle age to her now means
+Dialogue: 0,0:21:25.61,0:21:28.11,Default,,0,0,0,,sort of retiring from life, you see.
+Dialogue: 0,0:21:29.12,0:21:31.62,Default,,0,0,0,,And we see the people looking forward to retirement
+Dialogue: 0,0:21:32.12,0:21:34.12,Default,,0,0,0,,and what their views of that are.
+Dialogue: 0,0:21:34.62,0:21:36.62,Default,,0,0,0,,The confusion of retiring from the job
+Dialogue: 0,0:21:37.12,0:21:38.62,Default,,0,0,0,,with retiring from life.
+Dialogue: 0,0:21:39.12,0:21:40.62,Default,,0,0,0,,How many people do you know at age 65
+Dialogue: 0,0:21:41.12,0:21:42.62,Default,,0,0,0,,retired not just from jobs,
+Dialogue: 0,0:21:43.12,0:21:45.12,Default,,0,0,0,,but they retired from life itself?
+Dialogue: 0,0:21:45.62,0:21:46.62,Default,,0,0,0,,The whole attitude is,
+Dialogue: 0,0:21:47.12,0:21:49.62,Default,,0,0,0,,we'll go to sunset hills now
+Dialogue: 0,0:21:49.62,0:21:52.12,Default,,0,0,0,,and slowly wait for the sun to set.
+Dialogue: 0,0:21:52.62,0:21:54.12,Default,,0,0,0,,We'll join the old people's
+Dialogue: 0,0:21:54.62,0:21:55.62,Default,,0,0,0,,fade out club
+Dialogue: 0,0:21:56.12,0:21:57.62,Default,,0,0,0,,and we get progressively weaker
+Dialogue: 0,0:21:58.12,0:21:59.12,Default,,0,0,0,,and watch each other go.
+Dialogue: 0,0:21:59.62,0:22:01.57,Default,,0,0,0,,That's an option.
+Dialogue: 0,0:22:02.07,0:22:04.89,Default,,0,0,0,,George Burns didn't buy that option.
+Dialogue: 0,0:22:05.39,0:22:07.39,Default,,0,0,0,,Fred Astaire didn't buy that option.
+Dialogue: 0,0:22:07.89,0:22:08.89,Default,,0,0,0,,The great composers and writers,
+Dialogue: 0,0:22:09.39,0:22:10.89,Default,,0,0,0,,think of all the politicians
+Dialogue: 0,0:22:11.39,0:22:13.39,Default,,0,0,0,,and the powers that run this world
+Dialogue: 0,0:22:13.89,0:22:16.89,Default,,0,0,0,,well into their 60s, 70s and 80s.
+Dialogue: 0,0:22:17.39,0:22:18.89,Default,,0,0,0,,As they got older,
+Dialogue: 0,0:22:18.89,0:22:21.39,Default,,0,0,0,,their power, their wisdom,
+Dialogue: 0,0:22:21.89,0:22:23.39,Default,,0,0,0,,their ability in the world
+Dialogue: 0,0:22:23.89,0:22:26.39,Default,,0,0,0,,grew ever stronger, not weaker.
+Dialogue: 0,0:22:27.14,0:22:29.64,Default,,0,0,0,,Look at all the thought systems and beliefs
+Dialogue: 0,0:22:30.14,0:22:32.71,Default,,0,0,0,,about what is supposed to happen to the body.
+Dialogue: 0,0:22:33.21,0:22:34.71,Default,,0,0,0,,All the thoughts of what we think
+Dialogue: 0,0:22:35.21,0:22:36.80,Default,,0,0,0,,aging must entail.
+Dialogue: 0,0:22:37.30,0:22:37.80,Default,,0,0,0,,When I was young,
+Dialogue: 0,0:22:38.30,0:22:39.80,Default,,0,0,0,,I heard about the prostate trouble
+Dialogue: 0,0:22:40.30,0:22:42.80,Default,,0,0,0,,of all the grandfathers and men in my family.
+Dialogue: 0,0:22:43.30,0:22:45.80,Default,,0,0,0,,All the men from age 45 or 50 on
+Dialogue: 0,0:22:46.30,0:22:48.35,Default,,0,0,0,,had prostate trouble.
+Dialogue: 0,0:22:48.35,0:22:49.85,Default,,0,0,0,,And they complained about this.
+Dialogue: 0,0:22:50.35,0:22:51.85,Default,,0,0,0,,And women's complaints about their
+Dialogue: 0,0:22:52.35,0:22:53.85,Default,,0,0,0,,GU system and GI system,
+Dialogue: 0,0:22:54.35,0:22:57.85,Default,,0,0,0,,all these things that supposedly go with old age.
+Dialogue: 0,0:22:58.35,0:22:59.35,Default,,0,0,0,,And when I got to be 50,
+Dialogue: 0,0:22:59.85,0:23:00.35,Default,,0,0,0,,I didn't realize it,
+Dialogue: 0,0:23:00.85,0:23:01.85,Default,,0,0,0,,but I was holding all those thoughts
+Dialogue: 0,0:23:02.35,0:23:03.35,Default,,0,0,0,,in my mind too.
+Dialogue: 0,0:23:03.85,0:23:04.85,Default,,0,0,0,,And at age 50,
+Dialogue: 0,0:23:05.35,0:23:06.85,Default,,0,0,0,,suddenly I became a very middle-aged,
+Dialogue: 0,0:23:07.35,0:23:08.35,Default,,0,0,0,,aging person.
+Dialogue: 0,0:23:08.85,0:23:09.35,Default,,0,0,0,,At age 50,
+Dialogue: 0,0:23:09.85,0:23:10.85,Default,,0,0,0,,suddenly my hands and my feet
+Dialogue: 0,0:23:11.35,0:23:12.35,Default,,0,0,0,,were cold all the time.
+Dialogue: 0,0:23:12.85,0:23:13.85,Default,,0,0,0,,I was exhausted all the time.
+Dialogue: 0,0:23:14.35,0:23:14.85,Default,,0,0,0,,I was tired.
+Dialogue: 0,0:23:15.35,0:23:16.85,Default,,0,0,0,,Libido went out the window.
+Dialogue: 0,0:23:16.85,0:23:18.35,Default,,0,0,0,,The prostate became enlarged.
+Dialogue: 0,0:23:18.85,0:23:21.85,Default,,0,0,0,,All kinds of physical diseases began to happen.
+Dialogue: 0,0:23:22.35,0:23:24.35,Default,,0,0,0,,All the things that fit my picture
+Dialogue: 0,0:23:24.85,0:23:25.85,Default,,0,0,0,,of middle age,
+Dialogue: 0,0:23:26.35,0:23:27.85,Default,,0,0,0,,discouragement and depression.
+Dialogue: 0,0:23:28.35,0:23:29.85,Default,,0,0,0,,At middle age, the picture was
+Dialogue: 0,0:23:30.35,0:23:31.85,Default,,0,0,0,,you're very tired out by the world.
+Dialogue: 0,0:23:32.35,0:23:33.35,Default,,0,0,0,,You're exhausted.
+Dialogue: 0,0:23:33.85,0:23:35.85,Default,,0,0,0,,You lay on the couch and you can barely get up.
+Dialogue: 0,0:23:36.35,0:23:37.85,Default,,0,0,0,,You complain about your prostate.
+Dialogue: 0,0:23:38.35,0:23:41.30,Default,,0,0,0,,And you infer by various jokes and innuendos
+Dialogue: 0,0:23:41.80,0:23:44.30,Default,,0,0,0,,that sex is, you know, a thing of the past now
+Dialogue: 0,0:23:44.80,0:23:46.30,Default,,0,0,0,,because older people don't have that.
+Dialogue: 0,0:23:46.30,0:23:47.30,Default,,0,0,0,,You see?
+Dialogue: 0,0:23:47.80,0:23:48.80,Default,,0,0,0,,Like nuns don't go to the bathroom.
+Dialogue: 0,0:23:49.30,0:23:50.80,Default,,0,0,0,,All those childhood beliefs, you see?
+Dialogue: 0,0:23:53.79,0:23:56.29,Default,,0,0,0,,How is it that all this came to pass then?
+Dialogue: 0,0:23:56.79,0:23:58.79,Default,,0,0,0,,It came to pass because that was my picture
+Dialogue: 0,0:23:59.29,0:24:00.79,Default,,0,0,0,,of what it meant to be middle-aged.
+Dialogue: 0,0:24:01.79,0:24:02.79,Default,,0,0,0,,And so, to begin with then,
+Dialogue: 0,0:24:03.29,0:24:04.79,Default,,0,0,0,,we have to look at what are our pictures?
+Dialogue: 0,0:24:05.29,0:24:07.29,Default,,0,0,0,,What was our relationship with our parents?
+Dialogue: 0,0:24:07.79,0:24:08.79,Default,,0,0,0,,Did we love them?
+Dialogue: 0,0:24:09.29,0:24:11.29,Default,,0,0,0,,Interesting enough that love can be
+Dialogue: 0,0:24:11.79,0:24:13.29,Default,,0,0,0,,the very reason for that identification.
+Dialogue: 0,0:24:13.79,0:24:15.29,Default,,0,0,0,,It's because we love them
+Dialogue: 0,0:24:15.29,0:24:17.29,Default,,0,0,0,,that we pattern ourself after them.
+Dialogue: 0,0:24:17.79,0:24:19.29,Default,,0,0,0,,If you admire your father
+Dialogue: 0,0:24:19.79,0:24:21.79,Default,,0,0,0,,and then he develops this middle-age pattern,
+Dialogue: 0,0:24:22.29,0:24:24.29,Default,,0,0,0,,of your admiration and love for him
+Dialogue: 0,0:24:24.79,0:24:25.79,Default,,0,0,0,,and family loyalty,
+Dialogue: 0,0:24:26.29,0:24:28.29,Default,,0,0,0,,you identify with it and you pick up this pattern,
+Dialogue: 0,0:24:28.79,0:24:30.29,Default,,0,0,0,,not for negative reasons,
+Dialogue: 0,0:24:30.79,0:24:32.29,Default,,0,0,0,,but out of innocence and out of love.
+Dialogue: 0,0:24:32.79,0:24:35.32,Default,,0,0,0,,The same with your relationship with your grandparents.
+Dialogue: 0,0:24:35.82,0:24:38.32,Default,,0,0,0,,You get an idea of what old age looks like.
+Dialogue: 0,0:24:38.82,0:24:42.32,Default,,0,0,0,,Now, I had a relatively negative view of middle age.
+Dialogue: 0,0:24:42.82,0:24:44.82,Default,,0,0,0,,But I had a relatively positive view
+Dialogue: 0,0:24:45.32,0:24:46.32,Default,,0,0,0,,of old age.
+Dialogue: 0,0:24:46.82,0:24:48.82,Default,,0,0,0,,And therefore, I've always looked forward to old age.
+Dialogue: 0,0:24:49.32,0:24:51.82,Default,,0,0,0,,At 76, my grandfather was up on the roof
+Dialogue: 0,0:24:52.32,0:24:53.82,Default,,0,0,0,,putting on a new roof.
+Dialogue: 0,0:24:54.32,0:24:56.82,Default,,0,0,0,,My other grandfather was dignified and elegant.
+Dialogue: 0,0:24:57.32,0:24:58.82,Default,,0,0,0,,And so, I looked forward to old age.
+Dialogue: 0,0:24:59.32,0:25:00.82,Default,,0,0,0,,That's the time when you can put on your spots
+Dialogue: 0,0:25:01.32,0:25:02.82,Default,,0,0,0,,and your spats and your best hat
+Dialogue: 0,0:25:03.32,0:25:05.82,Default,,0,0,0,,and dress up and wear your best clothes
+Dialogue: 0,0:25:06.32,0:25:08.82,Default,,0,0,0,,and live a really aristocratic, enjoyable life.
+Dialogue: 0,0:25:09.32,0:25:11.82,Default,,0,0,0,,For once, you can really just be who you really are.
+Dialogue: 0,0:25:12.32,0:25:13.82,Default,,0,0,0,,It's going to be over before long
+Dialogue: 0,0:25:13.82,0:25:16.32,Default,,0,0,0,,and therefore, you don't have to cater to anybody anymore.
+Dialogue: 0,0:25:16.82,0:25:17.82,Default,,0,0,0,,You can really be elegant
+Dialogue: 0,0:25:18.32,0:25:20.32,Default,,0,0,0,,and a very loving and wonderful person.
+Dialogue: 0,0:25:20.82,0:25:22.32,Default,,0,0,0,,So, old age, to me,
+Dialogue: 0,0:25:22.82,0:25:25.32,Default,,0,0,0,,was not something of a faltering decrepitude.
+Dialogue: 0,0:25:26.01,0:25:28.01,Default,,0,0,0,,It has been for other people, however.
+Dialogue: 0,0:25:28.51,0:25:30.51,Default,,0,0,0,,And so, we see that we have an option.
+Dialogue: 0,0:25:31.01,0:25:33.01,Default,,0,0,0,,It's who you loved and who you identified with.
+Dialogue: 0,0:25:33.51,0:25:36.51,Default,,0,0,0,,It's all the programming that we've gotten from television,
+Dialogue: 0,0:25:37.01,0:25:39.51,Default,,0,0,0,,you know, the movies, the image of what aging means
+Dialogue: 0,0:25:40.01,0:25:41.01,Default,,0,0,0,,and all this kind of thing.
+Dialogue: 0,0:25:41.51,0:25:42.51,Default,,0,0,0,,The television commercials,
+Dialogue: 0,0:25:42.51,0:25:44.01,Default,,0,0,0,,all those things that are designed
+Dialogue: 0,0:25:44.51,0:25:47.01,Default,,0,0,0,,to appeal to those fears of aging.
+Dialogue: 0,0:25:47.51,0:25:50.01,Default,,0,0,0,,And of course, what we fear, we hold in mind
+Dialogue: 0,0:25:50.51,0:25:52.01,Default,,0,0,0,,and what we hold in mind tends to manifest.
+Dialogue: 0,0:25:52.51,0:25:54.01,Default,,0,0,0,,So, our fears of old age,
+Dialogue: 0,0:25:54.51,0:25:56.01,Default,,0,0,0,,the very things we begin to fear,
+Dialogue: 0,0:25:56.51,0:25:58.51,Default,,0,0,0,,are the very things that begin to manifest.
+Dialogue: 0,0:25:59.01,0:26:01.62,Default,,0,0,0,,We have to go back to the realization
+Dialogue: 0,0:26:02.12,0:26:03.12,Default,,0,0,0,,that we have an option.
+Dialogue: 0,0:26:03.62,0:26:05.62,Default,,0,0,0,,We don't have to buy any of these pictures.
+Dialogue: 0,0:26:06.12,0:26:07.62,Default,,0,0,0,,Whatever picture we buy
+Dialogue: 0,0:26:08.12,0:26:09.62,Default,,0,0,0,,is what is going to manifest in our life.
+Dialogue: 0,0:26:10.12,0:26:12.62,Default,,0,0,0,,And therefore, we have to be careful.
+Dialogue: 0,0:26:13.12,0:26:14.62,Default,,0,0,0,,About what we buy into.
+Dialogue: 0,0:26:15.12,0:26:16.62,Default,,0,0,0,,And so, therefore, we sort of become
+Dialogue: 0,0:26:17.12,0:26:18.12,Default,,0,0,0,,the guardian of our mind.
+Dialogue: 0,0:26:18.62,0:26:19.62,Default,,0,0,0,,We look at it and see,
+Dialogue: 0,0:26:20.12,0:26:21.12,Default,,0,0,0,,what does it believe?
+Dialogue: 0,0:26:21.62,0:26:23.62,Default,,0,0,0,,We forgive it for what it picked up over the years.
+Dialogue: 0,0:26:24.12,0:26:26.62,Default,,0,0,0,,It didn't know of its own innocence.
+Dialogue: 0,0:26:27.12,0:26:29.12,Default,,0,0,0,,And therefore, it picked up all these programs
+Dialogue: 0,0:26:29.62,0:26:30.62,Default,,0,0,0,,and stories and scripts.
+Dialogue: 0,0:26:31.12,0:26:33.12,Default,,0,0,0,,And unwittingly, we found that we were beginning
+Dialogue: 0,0:26:33.62,0:26:34.68,Default,,0,0,0,,to act them out.
+Dialogue: 0,0:26:35.18,0:26:37.68,Default,,0,0,0,,Now, if we want to know what life scripts we bought,
+Dialogue: 0,0:26:38.34,0:26:40.34,Default,,0,0,0,,all we have to do is look at our life
+Dialogue: 0,0:26:40.84,0:26:42.84,Default,,0,0,0,,and look at our physical self
+Dialogue: 0,0:26:42.84,0:26:44.34,Default,,0,0,0,,and the physical self then,
+Dialogue: 0,0:26:44.84,0:26:46.34,Default,,0,0,0,,being a reflection of what we have bought,
+Dialogue: 0,0:26:46.84,0:26:48.34,Default,,0,0,0,,tells us what we've bought.
+Dialogue: 0,0:26:48.97,0:26:50.47,Default,,0,0,0,,See, we may not be able to remember it.
+Dialogue: 0,0:26:50.97,0:26:52.97,Default,,0,0,0,,Many of these things, we have amnesia.
+Dialogue: 0,0:26:53.47,0:26:55.47,Default,,0,0,0,,Remarks overheard throughout childhood.
+Dialogue: 0,0:26:55.97,0:26:59.12,Default,,0,0,0,,People look into their memory and say,
+Dialogue: 0,0:26:59.62,0:27:02.12,Default,,0,0,0,,I don't remember ever believing such a thing.
+Dialogue: 0,0:27:03.62,0:27:06.62,Default,,0,0,0,,We're unconscious and don't remember most of our life.
+Dialogue: 0,0:27:07.12,0:27:10.62,Default,,0,0,0,,You realize that you have amnesia really for most of your life.
+Dialogue: 0,0:27:11.12,0:27:13.62,Default,,0,0,0,,Because of the millions and millions of things
+Dialogue: 0,0:27:13.62,0:27:15.12,Default,,0,0,0,,that you can remember,
+Dialogue: 0,0:27:15.62,0:27:17.12,Default,,0,0,0,,what you don't realize is,
+Dialogue: 0,0:27:17.62,0:27:20.12,Default,,0,0,0,,in one day, look at how many seconds there are.
+Dialogue: 0,0:27:20.62,0:27:24.12,Default,,0,0,0,,Do you remember what happened each second in each day?
+Dialogue: 0,0:27:24.62,0:27:26.12,Default,,0,0,0,,You're lucky if you can remember
+Dialogue: 0,0:27:26.62,0:27:28.51,Default,,0,0,0,,what you had for breakfast yesterday, right?
+Dialogue: 0,0:27:29.01,0:27:30.51,Default,,0,0,0,,Therefore, a great deal of what went on in your life
+Dialogue: 0,0:27:31.01,0:27:33.51,Default,,0,0,0,,is forgotten, not totally, not actually forgotten,
+Dialogue: 0,0:27:34.01,0:27:37.89,Default,,0,0,0,,but you might say operationally forgotten
+Dialogue: 0,0:27:38.39,0:27:40.89,Default,,0,0,0,,and that it's not available for immediate recall.
+Dialogue: 0,0:27:41.39,0:27:42.89,Default,,0,0,0,,If we look at the body then,
+Dialogue: 0,0:27:42.89,0:27:45.39,Default,,0,0,0,,we'll see what the programs were that it picked up,
+Dialogue: 0,0:27:45.89,0:27:47.39,Default,,0,0,0,,what its belief systems were,
+Dialogue: 0,0:27:47.89,0:27:49.39,Default,,0,0,0,,what it thought was valuable,
+Dialogue: 0,0:27:49.89,0:27:51.89,Default,,0,0,0,,maybe that which it actually loved,
+Dialogue: 0,0:27:52.39,0:27:54.39,Default,,0,0,0,,or its reverse, that which it feared
+Dialogue: 0,0:27:54.89,0:27:56.89,Default,,0,0,0,,and brought about into manifestation
+Dialogue: 0,0:27:57.39,0:27:59.39,Default,,0,0,0,,because the fear was holding it in mind.
+Dialogue: 0,0:28:00.18,0:28:02.18,Default,,0,0,0,,We see that the patterns of aging
+Dialogue: 0,0:28:02.68,0:28:05.18,Default,,0,0,0,,also follow a certain class phenomena.
+Dialogue: 0,0:28:05.68,0:28:10.18,Default,,0,0,0,,And we see a changing picture of age and aging.
+Dialogue: 0,0:28:10.68,0:28:12.68,Default,,0,0,0,,We see increasing longevity,
+Dialogue: 0,0:28:13.18,0:28:16.68,Default,,0,0,0,,it is now very common for people to live longer
+Dialogue: 0,0:28:17.18,0:28:19.18,Default,,0,0,0,,and even though they live longer,
+Dialogue: 0,0:28:19.68,0:28:22.18,Default,,0,0,0,,to be energetic and very much alive
+Dialogue: 0,0:28:22.68,0:28:24.18,Default,,0,0,0,,into very advanced age.
+Dialogue: 0,0:28:24.68,0:28:27.68,Default,,0,0,0,,We see this is characteristic of the upper classes.
+Dialogue: 0,0:28:28.18,0:28:31.18,Default,,0,0,0,,We see it as characteristic of those who are aristocratic.
+Dialogue: 0,0:28:31.71,0:28:33.71,Default,,0,0,0,,When I said I had grandfathers
+Dialogue: 0,0:28:34.21,0:28:36.71,Default,,0,0,0,,who were very lively and spry in their old age
+Dialogue: 0,0:28:37.21,0:28:39.71,Default,,0,0,0,,and were very elegant in their style and their dress,
+Dialogue: 0,0:28:40.21,0:28:41.71,Default,,0,0,0,,that's a certain lifestyle
+Dialogue: 0,0:28:41.71,0:28:44.21,Default,,0,0,0,,which we classify as aristocratic.
+Dialogue: 0,0:28:45.32,0:28:48.32,Default,,0,0,0,,It means holding the value of one's life now
+Dialogue: 0,0:28:48.82,0:28:53.82,Default,,0,0,0,,and seeing old age as one of increasing stature and value.
+Dialogue: 0,0:28:54.45,0:28:58.95,Default,,0,0,0,,We contrast this with a different class view
+Dialogue: 0,0:28:59.45,0:29:03.45,Default,,0,0,0,,where the class where your power and value in the world
+Dialogue: 0,0:29:03.95,0:29:05.95,Default,,0,0,0,,comes out of your physical strength.
+Dialogue: 0,0:29:06.45,0:29:09.95,Default,,0,0,0,,And there we see the more rapid aging patterns.
+Dialogue: 0,0:29:10.45,0:29:11.95,Default,,0,0,0,,We see, for instance,
+Dialogue: 0,0:29:11.95,0:29:15.45,Default,,0,0,0,,in sports figures where at age 32 they're already old
+Dialogue: 0,0:29:15.95,0:29:17.45,Default,,0,0,0,,and at 40, forget it,
+Dialogue: 0,0:29:17.95,0:29:20.45,Default,,0,0,0,,they're an old man in that sports field.
+Dialogue: 0,0:29:20.95,0:29:23.45,Default,,0,0,0,,We see certain classes of laboring people
+Dialogue: 0,0:29:23.95,0:29:27.45,Default,,0,0,0,,where at age 65 when you retire it's pretty much over.
+Dialogue: 0,0:29:27.95,0:29:30.45,Default,,0,0,0,,And from 65 on this pattern then
+Dialogue: 0,0:29:30.95,0:29:34.45,Default,,0,0,0,,of moving into Sunset Hills and the beer belly
+Dialogue: 0,0:29:34.95,0:29:36.45,Default,,0,0,0,,and you see indolence
+Dialogue: 0,0:29:36.95,0:29:39.45,Default,,0,0,0,,and the loss of energy, the loss of interest,
+Dialogue: 0,0:29:39.95,0:29:41.45,Default,,0,0,0,,the loss of aliveness.
+Dialogue: 0,0:29:41.95,0:29:43.45,Default,,0,0,0,,The giving up of life,
+Dialogue: 0,0:29:43.95,0:29:48.45,Default,,0,0,0,,as though retiring from the job means retiring from life.
+Dialogue: 0,0:29:48.95,0:29:53.45,Default,,0,0,0,,As though the job was the only thing that gave meaning and value to life.
+Dialogue: 0,0:29:53.95,0:29:58.95,Default,,0,0,0,,And now that one is not classified anymore as a worker in quotes,
+Dialogue: 0,0:29:59.45,0:30:01.95,Default,,0,0,0,,one no longer has value in the world.
+Dialogue: 0,0:30:02.45,0:30:06.45,Default,,0,0,0,,The failure there to look at oneself in a more holistic total way,
+Dialogue: 0,0:30:06.95,0:30:11.45,Default,,0,0,0,,to see value as something other than productivity in the workforce,
+Dialogue: 0,0:30:11.95,0:30:15.45,Default,,0,0,0,,to see the value of one's life as something other than
+Dialogue: 0,0:30:15.95,0:30:18.95,Default,,0,0,0,,the capacity to bring home a paycheck every Friday,
+Dialogue: 0,0:30:19.45,0:30:23.40,Default,,0,0,0,,to see oneself as something other than just provider
+Dialogue: 0,0:30:23.90,0:30:25.90,Default,,0,0,0,,or just mother of the children.
+Dialogue: 0,0:30:26.40,0:30:28.40,Default,,0,0,0,,And so we see the pattern in women
+Dialogue: 0,0:30:28.90,0:30:30.90,Default,,0,0,0,,in which the aging process doesn't really start
+Dialogue: 0,0:30:31.40,0:30:33.40,Default,,0,0,0,,until the children grow up and leave home.
+Dialogue: 0,0:30:33.90,0:30:35.90,Default,,0,0,0,,And then suddenly she joins her husband
+Dialogue: 0,0:30:36.40,0:30:38.40,Default,,0,0,0,,in this retiring from life.
+Dialogue: 0,0:30:38.90,0:30:40.40,Default,,0,0,0,,He retires from the job.
+Dialogue: 0,0:30:40.90,0:30:41.90,Default,,0,0,0,,She's now retired from the job.
+Dialogue: 0,0:30:42.40,0:30:43.40,Default,,0,0,0,,His mother.
+Dialogue: 0,0:30:43.90,0:30:46.90,Default,,0,0,0,,Both of them are now unemployed with no value in their own eyes.
+Dialogue: 0,0:30:47.40,0:30:49.90,Default,,0,0,0,,And although they make a few sporadic jabs
+Dialogue: 0,0:30:50.40,0:30:52.90,Default,,0,0,0,,at being of some use in society,
+Dialogue: 0,0:30:53.40,0:30:54.90,Default,,0,0,0,,they don't really believe it.
+Dialogue: 0,0:30:55.40,0:30:58.90,Default,,0,0,0,,And therefore the aging then becomes progressive and rapid.
+Dialogue: 0,0:30:59.40,0:31:00.90,Default,,0,0,0,,And many of them die, of course,
+Dialogue: 0,0:31:01.40,0:31:03.40,Default,,0,0,0,,within one year of retirement.
+Dialogue: 0,0:31:03.90,0:31:07.40,Default,,0,0,0,,The coronary heart attack within one year of retirement
+Dialogue: 0,0:31:07.90,0:31:09.40,Default,,0,0,0,,is much higher than any other bracket
+Dialogue: 0,0:31:09.90,0:31:11.90,Default,,0,0,0,,amongst a certain class of workers.
+Dialogue: 0,0:31:12.90,0:31:14.90,Default,,0,0,0,,And so we have to look earlier in life
+Dialogue: 0,0:31:15.40,0:31:17.90,Default,,0,0,0,,and we have to constantly challenge these belief systems
+Dialogue: 0,0:31:18.40,0:31:21.90,Default,,0,0,0,,to discover something about our life that is of such value
+Dialogue: 0,0:31:22.40,0:31:24.90,Default,,0,0,0,,that whether we work, whether we bring home a paycheck,
+Dialogue: 0,0:31:25.40,0:31:26.90,Default,,0,0,0,,whether we're raising children,
+Dialogue: 0,0:31:27.40,0:31:29.90,Default,,0,0,0,,whether we're following a traditional,
+Dialogue: 0,0:31:30.40,0:31:32.90,Default,,0,0,0,,solid, middle-class American way of life or not,
+Dialogue: 0,0:31:33.40,0:31:34.90,Default,,0,0,0,,that our life still has value.
+Dialogue: 0,0:31:35.40,0:31:37.90,Default,,0,0,0,,That we see that we're making a difference in the world.
+Dialogue: 0,0:31:38.40,0:31:39.90,Default,,0,0,0,,That our life is significant.
+Dialogue: 0,0:31:40.40,0:31:41.90,Default,,0,0,0,,The willingness to share our life with others
+Dialogue: 0,0:31:42.90,0:31:45.90,Default,,0,0,0,,to be a source of enthusiasm,
+Dialogue: 0,0:31:46.40,0:31:49.90,Default,,0,0,0,,to contribute to the life of those around us.
+Dialogue: 0,0:31:50.40,0:31:52.90,Default,,0,0,0,,We have to reevaluate now the value of our life
+Dialogue: 0,0:31:53.40,0:31:54.90,Default,,0,0,0,,and recontextualize it.
+Dialogue: 0,0:31:55.40,0:31:57.40,Default,,0,0,0,,Come from a different way of being with it.
+Dialogue: 0,0:31:57.90,0:31:59.40,Default,,0,0,0,,How to look at it differently
+Dialogue: 0,0:31:59.90,0:32:02.90,Default,,0,0,0,,so as to give it a different value in our own eyes.
+Dialogue: 0,0:32:03.40,0:32:04.90,Default,,0,0,0,,How to raise our own energy pattern
+Dialogue: 0,0:32:05.40,0:32:07.90,Default,,0,0,0,,by coming from a different way of looking at it.
+Dialogue: 0,0:32:08.40,0:32:12.76,Default,,0,0,0,,We said that one is not really subject
+Dialogue: 0,0:32:13.26,0:32:15.79,Default,,0,0,0,,to anything but what is held in mind.
+Dialogue: 0,0:32:16.29,0:32:19.29,Default,,0,0,0,,That we can identify these belief systems and patterns,
+Dialogue: 0,0:32:19.79,0:32:22.79,Default,,0,0,0,,that we have the option to change them.
+Dialogue: 0,0:32:23.29,0:32:24.79,Default,,0,0,0,,The choice is up to us.
+Dialogue: 0,0:32:25.29,0:32:29.29,Default,,0,0,0,,We can be very active and vigorous into old age,
+Dialogue: 0,0:32:29.79,0:32:32.29,Default,,0,0,0,,have a very significant and valuable life,
+Dialogue: 0,0:32:32.79,0:32:34.36,Default,,0,0,0,,highly enjoyable.
+Dialogue: 0,0:32:34.86,0:32:37.86,Default,,0,0,0,,Our physical health can continue right to the very end.
+Dialogue: 0,0:32:38.71,0:32:42.21,Default,,0,0,0,,When we say this, some people automatically get a resentment.
+Dialogue: 0,0:32:42.71,0:32:44.71,Default,,0,0,0,,And what is the resentment coming from?
+Dialogue: 0,0:32:45.21,0:32:48.71,Default,,0,0,0,,It's coming from the fact that they were looking forward
+Dialogue: 0,0:32:49.21,0:32:51.21,Default,,0,0,0,,to these disabilities of old age.
+Dialogue: 0,0:32:51.71,0:32:54.71,Default,,0,0,0,,They were looking forward to the secondary gains and benefits
+Dialogue: 0,0:32:55.21,0:32:56.71,Default,,0,0,0,,that they would get out of that.
+Dialogue: 0,0:32:57.21,0:32:58.71,Default,,0,0,0,,They picture themselves as somewhat feeble and old
+Dialogue: 0,0:32:59.21,0:33:00.71,Default,,0,0,0,,and now people start looking out for them.
+Dialogue: 0,0:33:01.21,0:33:02.71,Default,,0,0,0,,So they're going to get a lot of attention.
+Dialogue: 0,0:33:03.21,0:33:04.71,Default,,0,0,0,,People will hold open doors,
+Dialogue: 0,0:33:05.21,0:33:06.71,Default,,0,0,0,,put the packages in the car for you,
+Dialogue: 0,0:33:07.21,0:33:09.21,Default,,0,0,0,,give you 10% off on your groceries.
+Dialogue: 0,0:33:09.71,0:33:11.71,Default,,0,0,0,,There'll be all kinds of credits and things
+Dialogue: 0,0:33:11.71,0:33:13.21,Default,,0,0,0,,and aids that come to you now
+Dialogue: 0,0:33:13.71,0:33:15.21,Default,,0,0,0,,because of your disability.
+Dialogue: 0,0:33:15.71,0:33:17.21,Default,,0,0,0,,And so when you see the secondary gain,
+Dialogue: 0,0:33:17.71,0:33:19.21,Default,,0,0,0,,we have to look at that and say,
+Dialogue: 0,0:33:19.71,0:33:22.21,Default,,0,0,0,,what was I hoping to get out of, you know,
+Dialogue: 0,0:33:22.71,0:33:25.21,Default,,0,0,0,,being somewhat debilitated with old age
+Dialogue: 0,0:33:25.71,0:33:27.21,Default,,0,0,0,,and somewhat decrepit?
+Dialogue: 0,0:33:27.71,0:33:29.71,Default,,0,0,0,,Being excused from the obligations of life.
+Dialogue: 0,0:33:30.21,0:33:32.71,Default,,0,0,0,,I really, you know, don't have to contribute anymore.
+Dialogue: 0,0:33:33.21,0:33:34.71,Default,,0,0,0,,And please let me out, I'm too old.
+Dialogue: 0,0:33:35.21,0:33:38.21,Default,,0,0,0,,You know, you folks, you young folks have all the energy.
+Dialogue: 0,0:33:38.71,0:33:41.21,Default,,0,0,0,,What were we looking to excuse ourselves from?
+Dialogue: 0,0:33:41.71,0:33:45.71,Default,,0,0,0,,What responsibilities were we going to use old age as a cop-out?
+Dialogue: 0,0:33:46.21,0:33:49.21,Default,,0,0,0,,So let's just look at those things and be honest with ourselves.
+Dialogue: 0,0:33:49.71,0:33:51.21,Default,,0,0,0,,They're all part of humanness.
+Dialogue: 0,0:33:51.71,0:33:53.21,Default,,0,0,0,,Everybody has those fantasies.
+Dialogue: 0,0:33:53.71,0:33:57.71,Default,,0,0,0,,Everybody looks at the advantages of any of these life scripts
+Dialogue: 0,0:33:58.21,0:34:00.21,Default,,0,0,0,,and that's one of the reasons they choose them.
+Dialogue: 0,0:34:00.71,0:34:03.71,Default,,0,0,0,,We have to look at whether we're willing to let those things go
+Dialogue: 0,0:34:04.21,0:34:06.71,Default,,0,0,0,,for the gain and for the benefit that we would get.
+Dialogue: 0,0:34:07.21,0:34:08.71,Default,,0,0,0,,Would we rather be vigorous
+Dialogue: 0,0:34:09.21,0:34:11.21,Default,,0,0,0,,or would we love to have that attention
+Dialogue: 0,0:34:11.21,0:34:14.71,Default,,0,0,0,,of having a Boy Scout at our elbow as we cross the street?
+Dialogue: 0,0:34:15.21,0:34:17.21,Default,,0,0,0,,Would you like to stride across confidently
+Dialogue: 0,0:34:17.71,0:34:19.21,Default,,0,0,0,,or would you like some young man to say,
+Dialogue: 0,0:34:19.71,0:34:21.71,Default,,0,0,0,,here sir, may I help you across the street?
+Dialogue: 0,0:34:22.21,0:34:24.21,Default,,0,0,0,,It's fun, it's nice, just think of all that attention.
+Dialogue: 0,0:34:24.71,0:34:26.71,Default,,0,0,0,,Boy Scouts everywhere helping you across the street.
+Dialogue: 0,0:34:27.21,0:34:28.71,Default,,0,0,0,,If it's worth it,
+Dialogue: 0,0:34:29.21,0:34:31.21,Default,,0,0,0,,then let the Boy Scouts help you across the street.
+Dialogue: 0,0:34:31.71,0:34:34.21,Default,,0,0,0,,If it's not, stride across with a vigorous gait.
+Dialogue: 0,0:34:34.71,0:34:40.87,Default,,0,0,0,,Our life, the body, what goes on in our life,
+Dialogue: 0,0:34:41.90,0:34:45.90,Default,,0,0,0,,is then a projection of what we have been holding in our own mind.
+Dialogue: 0,0:34:46.40,0:34:47.90,Default,,0,0,0,,All we're experiencing then
+Dialogue: 0,0:34:48.40,0:34:51.06,Default,,0,0,0,,is the projection into the physical world
+Dialogue: 0,0:34:51.56,0:34:53.56,Default,,0,0,0,,of our own belief systems.
+Dialogue: 0,0:34:54.80,0:34:57.80,Default,,0,0,0,,What we're holding in mind is manifesting.
+Dialogue: 0,0:34:58.36,0:35:00.86,Default,,0,0,0,,And we have a choice when we see this pattern.
+Dialogue: 0,0:35:01.36,0:35:02.86,Default,,0,0,0,,We can begin to realize
+Dialogue: 0,0:35:03.36,0:35:06.86,Default,,0,0,0,,if all I'm experiencing is that which I've been holding in mind,
+Dialogue: 0,0:35:07.36,0:35:09.36,Default,,0,0,0,,then I can change that which I experience
+Dialogue: 0,0:35:09.86,0:35:11.86,Default,,0,0,0,,by changing that which I hold in mind.
+Dialogue: 0,0:35:12.52,0:35:14.02,Default,,0,0,0,,And that's exactly what we did,
+Dialogue: 0,0:35:14.52,0:35:17.02,Default,,0,0,0,,and that's exactly what I've done in my own personal life.
+Dialogue: 0,0:35:17.55,0:35:20.05,Default,,0,0,0,,And I shared that with you in my talks on giving up illness.
+Dialogue: 0,0:35:20.55,0:35:24.05,Default,,0,0,0,,And I'll just use two of the examples from that talk,
+Dialogue: 0,0:35:24.55,0:35:27.05,Default,,0,0,0,,or one of the examples plus one I didn't talk about.
+Dialogue: 0,0:35:27.65,0:35:29.15,Default,,0,0,0,,For instance, the prostate trouble
+Dialogue: 0,0:35:29.65,0:35:31.15,Default,,0,0,0,,that is supposed to come with middle age.
+Dialogue: 0,0:35:31.65,0:35:35.15,Default,,0,0,0,,And it's a standing joke amongst men in the men's rooms, you see.
+Dialogue: 0,0:35:35.65,0:35:37.15,Default,,0,0,0,,And men are standing there,
+Dialogue: 0,0:35:37.65,0:35:39.15,Default,,0,0,0,,and one will say to the other one,
+Dialogue: 0,0:35:39.65,0:35:42.15,Default,,0,0,0,,well, you must be over 50, you know what I mean?
+Dialogue: 0,0:35:42.65,0:35:46.34,Default,,0,0,0,,It's like a prejudged thing that this is inevitable
+Dialogue: 0,0:35:46.84,0:35:48.34,Default,,0,0,0,,and it's part and parcel of middle age.
+Dialogue: 0,0:35:48.94,0:35:51.44,Default,,0,0,0,,And so when that began to happen to me,
+Dialogue: 0,0:35:51.94,0:35:54.94,Default,,0,0,0,,I was already into the study of the nature of consciousness itself
+Dialogue: 0,0:35:55.44,0:35:58.16,Default,,0,0,0,,and healing techniques, and I began to cancel it.
+Dialogue: 0,0:35:58.66,0:36:01.66,Default,,0,0,0,,I said that's a belief system, and it has no basis in reality.
+Dialogue: 0,0:36:02.16,0:36:04.66,Default,,0,0,0,,Its only reality is that I'm holding it in mind.
+Dialogue: 0,0:36:05.16,0:36:08.16,Default,,0,0,0,,The truth is I'm an infinite being, and I'm not subject to that.
+Dialogue: 0,0:36:08.66,0:36:10.16,Default,,0,0,0,,The truth is I'm an infinite being,
+Dialogue: 0,0:36:10.66,0:36:12.66,Default,,0,0,0,,and I'm only subject to what I hold in mind.
+Dialogue: 0,0:36:13.16,0:36:16.16,Default,,0,0,0,,And as I kept canceling it, every time this belief came up,
+Dialogue: 0,0:36:16.66,0:36:18.16,Default,,0,0,0,,and kept insisting on the truth,
+Dialogue: 0,0:36:18.66,0:36:20.16,Default,,0,0,0,,so I insisted on the truth,
+Dialogue: 0,0:36:20.66,0:36:22.16,Default,,0,0,0,,and what I did is I reprogrammed the mind.
+Dialogue: 0,0:36:22.66,0:36:25.16,Default,,0,0,0,,I began to see this belief, you know, as nonsense.
+Dialogue: 0,0:36:25.66,0:36:28.26,Default,,0,0,0,,It's nonsense, but the collective consciousness,
+Dialogue: 0,0:36:28.76,0:36:31.26,Default,,0,0,0,,you know, the energy field of the world,
+Dialogue: 0,0:36:31.76,0:36:35.26,Default,,0,0,0,,its belief in that is something I have to constantly counter,
+Dialogue: 0,0:36:35.76,0:36:39.26,Default,,0,0,0,,because the world tries to reprogram you again with it.
+Dialogue: 0,0:36:39.76,0:36:42.76,Default,,0,0,0,,And so it leaves, and then it may momentarily come back,
+Dialogue: 0,0:36:43.76,0:36:46.26,Default,,0,0,0,,because you chance to overhear a remark.
+Dialogue: 0,0:36:46.76,0:36:49.76,Default,,0,0,0,,Some other middle-aged man talks about his prostate trouble, let's say.
+Dialogue: 0,0:36:50.74,0:36:54.24,Default,,0,0,0,,And temporarily you find that you've fallen back into believing again.
+Dialogue: 0,0:36:54.74,0:36:56.24,Default,,0,0,0,,So it requires vigilance, then,
+Dialogue: 0,0:36:56.74,0:37:00.24,Default,,0,0,0,,to begin to undo all these belief systems within the mind.
+Dialogue: 0,0:37:01.28,0:37:03.78,Default,,0,0,0,,The same thing happened with vision and with glasses.
+Dialogue: 0,0:37:04.28,0:37:06.28,Default,,0,0,0,,And I always wore glasses my whole life.
+Dialogue: 0,0:37:06.78,0:37:09.31,Default,,0,0,0,,I wore glasses for 50 years.
+Dialogue: 0,0:37:10.29,0:37:12.29,Default,,0,0,0,,I wore glasses since I was a child.
+Dialogue: 0,0:37:12.79,0:37:14.29,Default,,0,0,0,,And, of course, the belief system
+Dialogue: 0,0:37:14.29,0:37:17.79,Default,,0,0,0,,in our society is that middle age brings about,
+Dialogue: 0,0:37:18.29,0:37:19.79,Default,,0,0,0,,you know, changes in your vision.
+Dialogue: 0,0:37:20.29,0:37:22.79,Default,,0,0,0,,And many people put on reading glasses at middle age.
+Dialogue: 0,0:37:23.29,0:37:24.79,Default,,0,0,0,,So, middle age reading spectacles.
+Dialogue: 0,0:37:25.29,0:37:26.79,Default,,0,0,0,,When we think of a middle-aged person,
+Dialogue: 0,0:37:27.29,0:37:29.29,Default,,0,0,0,,when we look at the Retired People's Magazine,
+Dialogue: 0,0:37:29.79,0:37:31.29,Default,,0,0,0,,they almost always have glasses on.
+Dialogue: 0,0:37:31.79,0:37:34.29,Default,,0,0,0,,It's just presumed that by middle age you're going to need glasses.
+Dialogue: 0,0:37:34.79,0:37:36.29,Default,,0,0,0,,Well, I had glasses already,
+Dialogue: 0,0:37:36.79,0:37:39.29,Default,,0,0,0,,because I had the image in my mind of the intellectual bookworm,
+Dialogue: 0,0:37:39.79,0:37:41.79,Default,,0,0,0,,which I was, who always wears glasses.
+Dialogue: 0,0:37:42.29,0:37:43.79,Default,,0,0,0,,So part of my image of what I was
+Dialogue: 0,0:37:44.29,0:37:47.29,Default,,0,0,0,,as an adolescent young man was, of course, wearing glasses.
+Dialogue: 0,0:37:48.14,0:37:49.64,Default,,0,0,0,,Of course, if you already wear glasses,
+Dialogue: 0,0:37:50.14,0:37:52.64,Default,,0,0,0,,by middle age it's presumed your vision's going to get worse
+Dialogue: 0,0:37:53.14,0:37:54.64,Default,,0,0,0,,and you're going to need bifocals.
+Dialogue: 0,0:37:55.14,0:37:57.14,Default,,0,0,0,,And by late middle age, certainly trifocals.
+Dialogue: 0,0:37:57.64,0:37:59.14,Default,,0,0,0,,So it was at the trifocal stage,
+Dialogue: 0,0:37:59.64,0:38:01.14,Default,,0,0,0,,after having worn glasses all my life,
+Dialogue: 0,0:38:01.64,0:38:04.64,Default,,0,0,0,,that I was involved in this kind of research and study.
+Dialogue: 0,0:38:05.14,0:38:07.64,Default,,0,0,0,,And one day someone and I was sharing with my class
+Dialogue: 0,0:38:08.14,0:38:10.64,Default,,0,0,0,,all the physical illnesses that I'd let go of
+Dialogue: 0,0:38:11.14,0:38:13.14,Default,,0,0,0,,following these consciousness techniques.
+Dialogue: 0,0:38:13.14,0:38:15.64,Default,,0,0,0,,And probably a list of 15, 20 different diseases.
+Dialogue: 0,0:38:16.14,0:38:17.64,Default,,0,0,0,,And when somebody said,
+Dialogue: 0,0:38:18.14,0:38:19.64,Default,,0,0,0,,well, then how come you're still wearing glasses?
+Dialogue: 0,0:38:20.24,0:38:22.24,Default,,0,0,0,,And so I said, you know, I never thought of that.
+Dialogue: 0,0:38:22.74,0:38:25.74,Default,,0,0,0,,I never thought of, you know, the fact that the eyeball itself,
+Dialogue: 0,0:38:26.24,0:38:29.74,Default,,0,0,0,,your capacity to see, a vision, the whole mechanism of vision,
+Dialogue: 0,0:38:30.24,0:38:34.74,Default,,0,0,0,,would just again be a manifestation of my belief systems about it.
+Dialogue: 0,0:38:35.24,0:38:38.46,Default,,0,0,0,,And so I looked at the belief systems and I began to cancel them.
+Dialogue: 0,0:38:38.96,0:38:40.46,Default,,0,0,0,,You know, I said, I'm an infinite being.
+Dialogue: 0,0:38:40.96,0:38:42.96,Default,,0,0,0,,I'm not really subject to any limitation.
+Dialogue: 0,0:38:43.46,0:38:45.96,Default,,0,0,0,,Such as the belief that I need glasses.
+Dialogue: 0,0:38:46.46,0:38:47.96,Default,,0,0,0,,And it took six weeks.
+Dialogue: 0,0:38:48.46,0:38:49.96,Default,,0,0,0,,For six weeks I couldn't see anything.
+Dialogue: 0,0:38:50.46,0:38:52.51,Default,,0,0,0,,I never put the glasses back on again.
+Dialogue: 0,0:38:53.01,0:38:56.51,Default,,0,0,0,,And during that six weeks when my motility was somewhat limited
+Dialogue: 0,0:38:57.01,0:39:00.51,Default,,0,0,0,,by the inability to see anything more than a couple of feet in front of me,
+Dialogue: 0,0:39:01.01,0:39:03.51,Default,,0,0,0,,and I also was myopic as well as farsighted,
+Dialogue: 0,0:39:04.01,0:39:05.51,Default,,0,0,0,,and I also had astigmatism.
+Dialogue: 0,0:39:06.01,0:39:09.51,Default,,0,0,0,,And so I couldn't read anything, nor could I see anything distant.
+Dialogue: 0,0:39:10.01,0:39:13.51,Default,,0,0,0,,After about six weeks of constantly letting this go
+Dialogue: 0,0:39:13.51,0:39:16.01,Default,,0,0,0,,and canceling it, and consistent work,
+Dialogue: 0,0:39:16.51,0:39:18.01,Default,,0,0,0,,I finally just surrendered to it.
+Dialogue: 0,0:39:18.51,0:39:21.51,Default,,0,0,0,,And I said, well, because that's part of the technique also,
+Dialogue: 0,0:39:22.01,0:39:25.01,Default,,0,0,0,,is to let go resisting what the belief system was.
+Dialogue: 0,0:39:25.51,0:39:30.14,Default,,0,0,0,,And so I said, well, God, I said, if I'm never going to see again,
+Dialogue: 0,0:39:30.64,0:39:32.14,Default,,0,0,0,,I guess I'm just never going to see again.
+Dialogue: 0,0:39:32.64,0:39:34.14,Default,,0,0,0,,And I just totally let it go.
+Dialogue: 0,0:39:34.64,0:39:37.14,Default,,0,0,0,,I just totally surrendered it to a higher power.
+Dialogue: 0,0:39:37.67,0:39:41.67,Default,,0,0,0,,And I said, whatever your will is for me, I will agree to that.
+Dialogue: 0,0:39:41.67,0:39:43.42,Default,,0,0,0,,Well, what is the will of God for us?
+Dialogue: 0,0:39:43.92,0:39:47.42,Default,,0,0,0,,The will of God for us is complete and total happiness,
+Dialogue: 0,0:39:47.92,0:39:49.42,Default,,0,0,0,,complete wholeness and oneness.
+Dialogue: 0,0:39:49.92,0:39:52.42,Default,,0,0,0,,Anyway, in surrendering to God's will, all of a sudden,
+Dialogue: 0,0:39:52.92,0:39:56.42,Default,,0,0,0,,in one instant, the vision came back absolutely perfect,
+Dialogue: 0,0:39:56.92,0:39:58.42,Default,,0,0,0,,after a lifetime of wearing glasses.
+Dialogue: 0,0:39:58.92,0:40:01.42,Default,,0,0,0,,So it doesn't matter how long we've had this belief system.
+Dialogue: 0,0:40:01.92,0:40:04.42,Default,,0,0,0,,There was a belief system that was there throughout my entire life,
+Dialogue: 0,0:40:04.92,0:40:06.42,Default,,0,0,0,,literally limiting vision.
+Dialogue: 0,0:40:06.92,0:40:10.42,Default,,0,0,0,,That was a good more than ten years ago now.
+Dialogue: 0,0:40:10.42,0:40:13.92,Default,,0,0,0,,And I have a driver's license that says no glasses required.
+Dialogue: 0,0:40:14.42,0:40:16.92,Default,,0,0,0,,And every time I go for a vision test, the vision is perfect.
+Dialogue: 0,0:40:17.42,0:40:20.92,Default,,0,0,0,,So those are just clinical examples, just demonstrations,
+Dialogue: 0,0:40:21.42,0:40:24.92,Default,,0,0,0,,and I share them because of the principle involved.
+Dialogue: 0,0:40:25.42,0:40:28.92,Default,,0,0,0,,The principle being that we experience experience
+Dialogue: 0,0:40:29.42,0:40:31.42,Default,,0,0,0,,in the level of consciousness itself.
+Dialogue: 0,0:40:31.92,0:40:34.92,Default,,0,0,0,,Body is only a reflection of that which we believe.
+Dialogue: 0,0:40:35.42,0:40:39.92,Default,,0,0,0,,And so if we address ourself directly to those belief systems,
+Dialogue: 0,0:40:40.42,0:40:43.92,Default,,0,0,0,,to the mind itself and to where it is being experienced,
+Dialogue: 0,0:40:44.42,0:40:45.92,Default,,0,0,0,,we can undo these belief systems.
+Dialogue: 0,0:40:46.42,0:40:48.92,Default,,0,0,0,,We have that freedom. We have that option.
+Dialogue: 0,0:40:50.06,0:40:52.56,Default,,0,0,0,,So let's go back to some of the commonly held belief systems
+Dialogue: 0,0:40:53.06,0:40:55.56,Default,,0,0,0,,about middle age and aging and old age
+Dialogue: 0,0:40:56.06,0:40:58.56,Default,,0,0,0,,and see how we can be with that.
+Dialogue: 0,0:40:59.06,0:41:01.56,Default,,0,0,0,,You see, because there are two things going on.
+Dialogue: 0,0:41:02.06,0:41:05.56,Default,,0,0,0,,There are the belief systems about what all that entails,
+Dialogue: 0,0:41:06.06,0:41:10.56,Default,,0,0,0,,and then there is our position about that, the way we feel about it.
+Dialogue: 0,0:41:11.06,0:41:15.60,Default,,0,0,0,,Because in truth, it's not the events in life that have any importance at all.
+Dialogue: 0,0:41:16.10,0:41:17.60,Default,,0,0,0,,Facts don't mean a thing.
+Dialogue: 0,0:41:18.10,0:41:22.60,Default,,0,0,0,,The importance of a fact or an event is how we feel about it.
+Dialogue: 0,0:41:23.10,0:41:25.60,Default,,0,0,0,,How we feel about it. Isn't that so?
+Dialogue: 0,0:41:26.26,0:41:29.76,Default,,0,0,0,,How we feel about it then creates a context.
+Dialogue: 0,0:41:30.26,0:41:31.76,Default,,0,0,0,,It creates a way of being,
+Dialogue: 0,0:41:32.26,0:41:36.76,Default,,0,0,0,,and it decides in advance how we're going to feel about that event,
+Dialogue: 0,0:41:37.26,0:41:39.76,Default,,0,0,0,,feel about that decision, feel about that fact.
+Dialogue: 0,0:41:39.76,0:41:48.26,Default,,0,0,0,,So let's see how we can be with this whole problem in mind of old age and aging,
+Dialogue: 0,0:41:48.76,0:41:50.26,Default,,0,0,0,,middle age, all that goes with that.
+Dialogue: 0,0:41:50.76,0:41:54.70,Default,,0,0,0,,And we'll go back to our map of consciousness,
+Dialogue: 0,0:41:55.20,0:42:00.70,Default,,0,0,0,,where we see we have various energy fields, various levels of conscious.
+Dialogue: 0,0:42:01.20,0:42:03.70,Default,,0,0,0,,At the bottom, this would be the most unconscious,
+Dialogue: 0,0:42:04.20,0:42:08.70,Default,,0,0,0,,the farthest from the truth, the closest to death itself.
+Dialogue: 0,0:42:08.70,0:42:12.20,Default,,0,0,0,,At the top, we have, because of increasing truth,
+Dialogue: 0,0:42:12.70,0:42:17.20,Default,,0,0,0,,an alignment with life, with truth, and with a sense of aliveness.
+Dialogue: 0,0:42:17.70,0:42:20.20,Default,,0,0,0,,So we might say at the top is God, the closeness to God,
+Dialogue: 0,0:42:20.70,0:42:23.20,Default,,0,0,0,,at the bottom is the greatest distance.
+Dialogue: 0,0:42:23.70,0:42:28.20,Default,,0,0,0,,And out of these energy fields then come certain emotions.
+Dialogue: 0,0:42:28.70,0:42:33.20,Default,,0,0,0,,Certain emotions reflect the energy field which is coming out of our position.
+Dialogue: 0,0:42:33.70,0:42:37.20,Default,,0,0,0,,And out of our position comes a certain view of the world,
+Dialogue: 0,0:42:37.20,0:42:42.20,Default,,0,0,0,,and then the God of that world would have to be a certain kind of God.
+Dialogue: 0,0:42:42.70,0:42:46.36,Default,,0,0,0,,So how could we look at old age and let's look around us in the world
+Dialogue: 0,0:42:46.86,0:42:51.36,Default,,0,0,0,,and you'll see instantly how the world and what you hold this
+Dialogue: 0,0:42:51.86,0:42:53.36,Default,,0,0,0,,and how you have bought into it.
+Dialogue: 0,0:42:53.86,0:42:58.36,Default,,0,0,0,,We can identify at which level did we buy into it and about what.
+Dialogue: 0,0:42:59.47,0:43:03.97,Default,,0,0,0,,At the bottom with the lowest energy, one leading almost to pass of suicide,
+Dialogue: 0,0:43:04.47,0:43:06.97,Default,,0,0,0,,and many deaths from old age are not due to old age at all.
+Dialogue: 0,0:43:06.97,0:43:08.97,Default,,0,0,0,,They're all forms of passive suicide.
+Dialogue: 0,0:43:09.47,0:43:12.47,Default,,0,0,0,,They're the result of having given up out of hopelessness.
+Dialogue: 0,0:43:12.97,0:43:18.97,Default,,0,0,0,,So we see a guiltiness as though old age and the decrepitudes,
+Dialogue: 0,0:43:19.47,0:43:22.97,Default,,0,0,0,,the illnesses are somehow punishment for one's sins.
+Dialogue: 0,0:43:23.47,0:43:26.47,Default,,0,0,0,,One failures in life, you now deserve all this.
+Dialogue: 0,0:43:26.97,0:43:30.97,Default,,0,0,0,,Out of self-hatred then, the person chooses destruction.
+Dialogue: 0,0:43:31.54,0:43:36.54,Default,,0,0,0,,They see their life and the world, you know, as the experience of sin and suffering,
+Dialogue: 0,0:43:37.54,0:43:41.54,Default,,0,0,0,,and they really fear dying because out of their guilt,
+Dialogue: 0,0:43:42.04,0:43:45.04,Default,,0,0,0,,they picture that God is very likely going to destroy their soul
+Dialogue: 0,0:43:45.54,0:43:47.04,Default,,0,0,0,,and throw them into hell forever.
+Dialogue: 0,0:43:47.54,0:43:51.04,Default,,0,0,0,,And so there is a fear of old age and dying, of course,
+Dialogue: 0,0:43:51.54,0:43:57.04,Default,,0,0,0,,viewing it as a destructive process, looking at age then as destruction.
+Dialogue: 0,0:43:57.54,0:44:02.04,Default,,0,0,0,,And we see the destruction then that comes from this belief system in their life,
+Dialogue: 0,0:44:02.54,0:44:06.54,Default,,0,0,0,,all the aspects of their life which they let fall into the detriment
+Dialogue: 0,0:44:07.04,0:44:09.80,Default,,0,0,0,,of this destructive viewpoint.
+Dialogue: 0,0:44:10.30,0:44:14.80,Default,,0,0,0,,An energy field somewhat above that, but still very close to passive suicide,
+Dialogue: 0,0:44:15.30,0:44:19.80,Default,,0,0,0,,just allowing yourself to die over not caring about yourself enough to care for yourself,
+Dialogue: 0,0:44:20.30,0:44:24.80,Default,,0,0,0,,is a field called apathy, with a calibrated energy field of 50.
+Dialogue: 0,0:44:25.30,0:44:27.80,Default,,0,0,0,,You see it is again a negative attitude,
+Dialogue: 0,0:44:28.30,0:44:30.80,Default,,0,0,0,,and this is the one of hopelessness and despair,
+Dialogue: 0,0:44:31.30,0:44:33.90,Default,,0,0,0,,in which there is loss of energy.
+Dialogue: 0,0:44:34.40,0:44:35.90,Default,,0,0,0,,In this view of old age,
+Dialogue: 0,0:44:35.90,0:44:38.40,Default,,0,0,0,,we consider that the whole situation is hopeless,
+Dialogue: 0,0:44:38.90,0:44:40.40,Default,,0,0,0,,that the grim reaper,
+Dialogue: 0,0:44:40.90,0:44:43.40,Default,,0,0,0,,you know, the skeleton on the horse with the scythe,
+Dialogue: 0,0:44:43.90,0:44:45.40,Default,,0,0,0,,has the power over us,
+Dialogue: 0,0:44:45.90,0:44:48.40,Default,,0,0,0,,that old age then is hopeless.
+Dialogue: 0,0:44:48.90,0:44:50.40,Default,,0,0,0,,All these conditions are hopeless.
+Dialogue: 0,0:44:50.90,0:44:52.40,Default,,0,0,0,,All the physical elements are hopeless.
+Dialogue: 0,0:44:52.90,0:44:54.40,Default,,0,0,0,,There is no point in doing anything about them.
+Dialogue: 0,0:44:54.90,0:44:58.40,Default,,0,0,0,,You might as well let the teeth rot out and the body go into decay.
+Dialogue: 0,0:44:58.90,0:45:03.40,Default,,0,0,0,,There is no point because there is a loss of energy coming out of this world view.
+Dialogue: 0,0:45:03.90,0:45:05.40,Default,,0,0,0,,The loss of energy means,
+Dialogue: 0,0:45:05.40,0:45:07.90,Default,,0,0,0,,now out of that hopelessness and despair,
+Dialogue: 0,0:45:08.40,0:45:09.90,Default,,0,0,0,,you don't have the energy to handle it,
+Dialogue: 0,0:45:10.40,0:45:11.90,Default,,0,0,0,,and therefore you see your life
+Dialogue: 0,0:45:12.40,0:45:14.40,Default,,0,0,0,,and life in the world as hopeless,
+Dialogue: 0,0:45:14.90,0:45:16.40,Default,,0,0,0,,and God is really dead,
+Dialogue: 0,0:45:16.90,0:45:19.90,Default,,0,0,0,,a very uncaring view of God.
+Dialogue: 0,0:45:20.40,0:45:22.38,Default,,0,0,0,,The next higher energy level,
+Dialogue: 0,0:45:22.88,0:45:25.38,Default,,0,0,0,,the way of looking at old age or middle age,
+Dialogue: 0,0:45:25.88,0:45:26.88,Default,,0,0,0,,is one of grief.
+Dialogue: 0,0:45:27.38,0:45:28.38,Default,,0,0,0,,This is very common.
+Dialogue: 0,0:45:28.88,0:45:30.88,Default,,0,0,0,,The sadness over middle age,
+Dialogue: 0,0:45:31.38,0:45:34.38,Default,,0,0,0,,picturing the loss of youth as a great and terrible loss,
+Dialogue: 0,0:45:34.38,0:45:35.88,Default,,0,0,0,,the loss of the vigor,
+Dialogue: 0,0:45:36.38,0:45:37.88,Default,,0,0,0,,the loss of one's sex life,
+Dialogue: 0,0:45:38.38,0:45:39.88,Default,,0,0,0,,loss of one's physical attractiveness
+Dialogue: 0,0:45:40.38,0:45:42.38,Default,,0,0,0,,and sexual seductive abilities,
+Dialogue: 0,0:45:42.88,0:45:44.38,Default,,0,0,0,,loss of mental acuity,
+Dialogue: 0,0:45:44.88,0:45:45.88,Default,,0,0,0,,position and power in the world,
+Dialogue: 0,0:45:46.38,0:45:47.88,Default,,0,0,0,,physical attractiveness,
+Dialogue: 0,0:45:48.38,0:45:49.88,Default,,0,0,0,,the endless grief over this,
+Dialogue: 0,0:45:50.38,0:45:53.38,Default,,0,0,0,,ending up in the emotions as regret,
+Dialogue: 0,0:45:53.88,0:45:56.88,Default,,0,0,0,,looking at middle age and advancing age as loss,
+Dialogue: 0,0:45:57.38,0:45:59.88,Default,,0,0,0,,becoming dispirited about life,
+Dialogue: 0,0:46:00.38,0:46:01.88,Default,,0,0,0,,about one's own life and life in general,
+Dialogue: 0,0:46:02.38,0:46:03.88,Default,,0,0,0,,and the sadness of middle age,
+Dialogue: 0,0:46:04.38,0:46:05.88,Default,,0,0,0,,looking at one's own life as sad,
+Dialogue: 0,0:46:06.38,0:46:07.88,Default,,0,0,0,,looking at the future as sad,
+Dialogue: 0,0:46:08.38,0:46:10.88,Default,,0,0,0,,looking at the progressive aging as sad,
+Dialogue: 0,0:46:11.38,0:46:14.88,Default,,0,0,0,,looking at God as that which really ignores you,
+Dialogue: 0,0:46:15.38,0:46:17.88,Default,,0,0,0,,doesn't really care about this process.
+Dialogue: 0,0:46:18.83,0:46:20.83,Default,,0,0,0,,If we get to a higher energy field than that,
+Dialogue: 0,0:46:21.33,0:46:22.33,Default,,0,0,0,,we move into fear,
+Dialogue: 0,0:46:22.83,0:46:26.33,Default,,0,0,0,,and today we'll say that the energy of fear
+Dialogue: 0,0:46:26.83,0:46:28.33,Default,,0,0,0,,can be utilized in a positive way.
+Dialogue: 0,0:46:28.83,0:46:31.39,Default,,0,0,0,,What we need to fear is the consequences
+Dialogue: 0,0:46:31.89,0:46:33.39,Default,,0,0,0,,of these negative belief systems,
+Dialogue: 0,0:46:33.39,0:46:34.89,Default,,0,0,0,,not old age.
+Dialogue: 0,0:46:35.39,0:46:39.39,Default,,0,0,0,,The danger is not in the age itself.
+Dialogue: 0,0:46:39.89,0:46:42.39,Default,,0,0,0,,The threat to us is really out of
+Dialogue: 0,0:46:42.89,0:46:45.39,Default,,0,0,0,,these negative belief systems that we've been holding.
+Dialogue: 0,0:46:45.89,0:46:47.39,Default,,0,0,0,,That's what is to be feared.
+Dialogue: 0,0:46:47.89,0:46:50.39,Default,,0,0,0,,But the ordinary person fears old age itself.
+Dialogue: 0,0:46:50.89,0:46:53.39,Default,,0,0,0,,They're full of worry and anxiety.
+Dialogue: 0,0:46:53.89,0:46:56.39,Default,,0,0,0,,You see, grief has to do with the past,
+Dialogue: 0,0:46:56.89,0:46:58.39,Default,,0,0,0,,and fear has to do with the future.
+Dialogue: 0,0:46:58.89,0:47:02.39,Default,,0,0,0,,And so the mind which is looking at it out of fear
+Dialogue: 0,0:47:02.39,0:47:05.39,Default,,0,0,0,,is holding worry and anxiety about the future.
+Dialogue: 0,0:47:05.89,0:47:08.39,Default,,0,0,0,,Therefore, the world, the whole aging process,
+Dialogue: 0,0:47:08.89,0:47:10.39,Default,,0,0,0,,looks frightening.
+Dialogue: 0,0:47:11.02,0:47:12.52,Default,,0,0,0,,And there doesn't seem to be any God
+Dialogue: 0,0:47:13.02,0:47:14.52,Default,,0,0,0,,that one can rely upon,
+Dialogue: 0,0:47:15.02,0:47:17.52,Default,,0,0,0,,because that God could be punitive.
+Dialogue: 0,0:47:18.02,0:47:20.52,Default,,0,0,0,,It doesn't seem to love you very much.
+Dialogue: 0,0:47:21.02,0:47:22.52,Default,,0,0,0,,Next comes the desire.
+Dialogue: 0,0:47:23.02,0:47:27.52,Default,,0,0,0,,Coming from desire is the intense craving,
+Dialogue: 0,0:47:28.02,0:47:29.52,Default,,0,0,0,,the wanting to change all this.
+Dialogue: 0,0:47:30.02,0:47:31.52,Default,,0,0,0,,And one aspect of that, you see,
+Dialogue: 0,0:47:31.52,0:47:34.52,Default,,0,0,0,,is becoming addicted to being young.
+Dialogue: 0,0:47:35.02,0:47:39.02,Default,,0,0,0,,The whole thought that life is where youth is.
+Dialogue: 0,0:47:39.52,0:47:41.52,Default,,0,0,0,,And so you see the youth cult,
+Dialogue: 0,0:47:42.02,0:47:44.02,Default,,0,0,0,,the fear of old age then,
+Dialogue: 0,0:47:44.52,0:47:47.02,Default,,0,0,0,,expressing itself in a frantic desire
+Dialogue: 0,0:47:47.52,0:47:48.52,Default,,0,0,0,,to hang on to youth.
+Dialogue: 0,0:47:49.02,0:47:51.02,Default,,0,0,0,,And the inappropriateness then of some people
+Dialogue: 0,0:47:51.52,0:47:53.02,Default,,0,0,0,,failing to age gracefully,
+Dialogue: 0,0:47:53.52,0:47:58.02,Default,,0,0,0,,meaning that inability to let go of the desire for youth.
+Dialogue: 0,0:47:58.52,0:48:01.02,Default,,0,0,0,,And so, you know, at 75 you buy yourself
+Dialogue: 0,0:48:01.02,0:48:03.52,Default,,0,0,0,,a sports car and start smoking joints
+Dialogue: 0,0:48:04.02,0:48:05.52,Default,,0,0,0,,and running around the discos
+Dialogue: 0,0:48:06.02,0:48:08.02,Default,,0,0,0,,and get an 18-year-old girlfriend
+Dialogue: 0,0:48:08.81,0:48:11.81,Default,,0,0,0,,that wanting to hang on to youth
+Dialogue: 0,0:48:12.31,0:48:14.81,Default,,0,0,0,,and misidentifying youth as life.
+Dialogue: 0,0:48:15.31,0:48:17.81,Default,,0,0,0,,Life is there throughout.
+Dialogue: 0,0:48:18.31,0:48:20.31,Default,,0,0,0,,The energy of life is the same
+Dialogue: 0,0:48:20.81,0:48:22.81,Default,,0,0,0,,in the child as in the old person.
+Dialogue: 0,0:48:25.76,0:48:27.76,Default,,0,0,0,,We move up next to one of anger.
+Dialogue: 0,0:48:28.26,0:48:29.26,Default,,0,0,0,,You see, anger.
+Dialogue: 0,0:48:29.76,0:48:31.26,Default,,0,0,0,,The angriness at the thought
+Dialogue: 0,0:48:31.76,0:48:33.26,Default,,0,0,0,,and the subject and at the effect
+Dialogue: 0,0:48:33.76,0:48:37.26,Default,,0,0,0,,and victim of this whole progressive aging process
+Dialogue: 0,0:48:37.76,0:48:39.26,Default,,0,0,0,,that the calendar has the power,
+Dialogue: 0,0:48:39.76,0:48:41.26,Default,,0,0,0,,you see, over your life.
+Dialogue: 0,0:48:41.76,0:48:43.76,Default,,0,0,0,,You see, these are all negative energy fields
+Dialogue: 0,0:48:44.26,0:48:46.26,Default,,0,0,0,,and in practice, really, they're usually mixed.
+Dialogue: 0,0:48:46.76,0:48:48.26,Default,,0,0,0,,Rarely do you have just one level.
+Dialogue: 0,0:48:48.76,0:48:50.26,Default,,0,0,0,,The anger is also mixed with some sadness,
+Dialogue: 0,0:48:50.76,0:48:52.26,Default,,0,0,0,,some hopelessness, some guilt.
+Dialogue: 0,0:48:52.76,0:48:54.26,Default,,0,0,0,,All of them tend to occur together.
+Dialogue: 0,0:48:54.76,0:48:56.26,Default,,0,0,0,,But you see, the anger of old age,
+Dialogue: 0,0:48:56.76,0:48:57.76,Default,,0,0,0,,the frustration about it,
+Dialogue: 0,0:48:58.26,0:48:59.26,Default,,0,0,0,,the resentment,
+Dialogue: 0,0:48:59.76,0:49:00.76,Default,,0,0,0,,resenting the aging process,
+Dialogue: 0,0:49:00.76,0:49:02.26,Default,,0,0,0,,resenting the loss of youth,
+Dialogue: 0,0:49:02.76,0:49:03.76,Default,,0,0,0,,hating it.
+Dialogue: 0,0:49:04.26,0:49:05.26,Default,,0,0,0,,You see young people
+Dialogue: 0,0:49:05.76,0:49:07.26,Default,,0,0,0,,who have not had good experiences
+Dialogue: 0,0:49:07.76,0:49:08.76,Default,,0,0,0,,with their grandparents
+Dialogue: 0,0:49:09.26,0:49:10.26,Default,,0,0,0,,and they hate older people,
+Dialogue: 0,0:49:10.76,0:49:12.26,Default,,0,0,0,,don't want to be around them.
+Dialogue: 0,0:49:13.84,0:49:15.34,Default,,0,0,0,,Out of anger, then,
+Dialogue: 0,0:49:15.84,0:49:18.34,Default,,0,0,0,,this is a world of conflict and competition
+Dialogue: 0,0:49:18.84,0:49:21.34,Default,,0,0,0,,and their anger at God leads to an unconscious guilt
+Dialogue: 0,0:49:21.84,0:49:23.84,Default,,0,0,0,,and a fear that God will retaliate.
+Dialogue: 0,0:49:25.26,0:49:28.26,Default,,0,0,0,,Another way to be about it would be denial,
+Dialogue: 0,0:49:28.76,0:49:31.76,Default,,0,0,0,,to refuse to see all the things we're talking about.
+Dialogue: 0,0:49:32.26,0:49:36.76,Default,,0,0,0,,Today, a certain arrogance and inflated position about that.
+Dialogue: 0,0:49:37.61,0:49:39.11,Default,,0,0,0,,And so we have, then,
+Dialogue: 0,0:49:39.61,0:49:42.61,Default,,0,0,0,,a way of being with the subject of age and aging
+Dialogue: 0,0:49:43.11,0:49:45.11,Default,,0,0,0,,that would be totally negative.
+Dialogue: 0,0:49:45.90,0:49:47.40,Default,,0,0,0,,The things we're talking about today
+Dialogue: 0,0:49:47.90,0:49:49.40,Default,,0,0,0,,have more to do with the truth.
+Dialogue: 0,0:49:49.90,0:49:51.40,Default,,0,0,0,,To begin to look at them, then,
+Dialogue: 0,0:49:51.90,0:49:54.40,Default,,0,0,0,,would move us out of these negative positions.
+Dialogue: 0,0:49:54.90,0:49:56.40,Default,,0,0,0,,We could let go of resisting.
+Dialogue: 0,0:49:56.90,0:49:58.40,Default,,0,0,0,,We could let go of being attached to them.
+Dialogue: 0,0:49:58.90,0:50:00.40,Default,,0,0,0,,We could let go of valuing them.
+Dialogue: 0,0:50:00.90,0:50:02.40,Default,,0,0,0,,And we could be released from them.
+Dialogue: 0,0:50:02.90,0:50:03.90,Default,,0,0,0,,In which case,
+Dialogue: 0,0:50:04.40,0:50:07.90,Default,,0,0,0,,middle age and aging would start to look okay to us.
+Dialogue: 0,0:50:08.40,0:50:09.90,Default,,0,0,0,,The God of that kind of an experience
+Dialogue: 0,0:50:10.40,0:50:11.90,Default,,0,0,0,,would be a God of freedom.
+Dialogue: 0,0:50:12.40,0:50:15.90,Default,,0,0,0,,The freedom to see that perhaps you are the source
+Dialogue: 0,0:50:16.40,0:50:18.90,Default,,0,0,0,,of what happens to you in your life.
+Dialogue: 0,0:50:19.40,0:50:20.90,Default,,0,0,0,,The willingness to look at that.
+Dialogue: 0,0:50:21.40,0:50:22.90,Default,,0,0,0,,You say, yes, I'll agree with that
+Dialogue: 0,0:50:23.40,0:50:24.90,Default,,0,0,0,,because my intention now is to find out
+Dialogue: 0,0:50:25.40,0:50:26.90,Default,,0,0,0,,what is the truth about this.
+Dialogue: 0,0:50:27.40,0:50:29.90,Default,,0,0,0,,And now, middle age and aging begin to look,
+Dialogue: 0,0:50:30.40,0:50:31.90,Default,,0,0,0,,the world begins to look friendly.
+Dialogue: 0,0:50:32.90,0:50:36.40,Default,,0,0,0,,We have such a world as promising and hopeful.
+Dialogue: 0,0:50:36.90,0:50:38.90,Default,,0,0,0,,We can move up to the level of acceptance
+Dialogue: 0,0:50:39.40,0:50:41.90,Default,,0,0,0,,in which we're beginning to reown our own power.
+Dialogue: 0,0:50:42.43,0:50:43.93,Default,,0,0,0,,You see, the thing that shifts the energy field
+Dialogue: 0,0:50:44.43,0:50:45.93,Default,,0,0,0,,from negative to positive
+Dialogue: 0,0:50:46.43,0:50:48.93,Default,,0,0,0,,is the willingness now to accept the truth.
+Dialogue: 0,0:50:49.43,0:50:50.93,Default,,0,0,0,,The truth is that we are the source
+Dialogue: 0,0:50:51.43,0:50:53.93,Default,,0,0,0,,of what happens to us in our life.
+Dialogue: 0,0:50:54.43,0:50:55.43,Default,,0,0,0,,We are the source.
+Dialogue: 0,0:50:55.93,0:50:59.43,Default,,0,0,0,,By virtue of buying into and owning these belief systems,
+Dialogue: 0,0:50:59.93,0:51:01.43,Default,,0,0,0,,we bring them into our life.
+Dialogue: 0,0:51:01.93,0:51:02.43,Default,,0,0,0,,The truth is
+Dialogue: 0,0:51:02.43,0:51:03.93,Default,,0,0,0,,that we have a choice.
+Dialogue: 0,0:51:04.43,0:51:05.93,Default,,0,0,0,,The minute we see we have a choice
+Dialogue: 0,0:51:06.43,0:51:07.93,Default,,0,0,0,,and begin to accept that,
+Dialogue: 0,0:51:08.43,0:51:10.93,Default,,0,0,0,,now it all begins to look harmonious.
+Dialogue: 0,0:51:11.43,0:51:15.93,Default,,0,0,0,,The God of such a universe begins to look merciful.
+Dialogue: 0,0:51:16.43,0:51:19.43,Default,,0,0,0,,We can now move into a condition of lovingness,
+Dialogue: 0,0:51:20.96,0:51:24.46,Default,,0,0,0,,begin to take responsibility for really loving ourself,
+Dialogue: 0,0:51:24.96,0:51:26.96,Default,,0,0,0,,beginning to nurture and support,
+Dialogue: 0,0:51:27.46,0:51:28.96,Default,,0,0,0,,beginning to forgive ourself
+Dialogue: 0,0:51:29.46,0:51:32.21,Default,,0,0,0,,that we fell into these thought patterns.
+Dialogue: 0,0:51:32.21,0:51:34.21,Default,,0,0,0,,Why did we fall into these thought patterns?
+Dialogue: 0,0:51:34.71,0:51:36.21,Default,,0,0,0,,We did it out of our own innocence,
+Dialogue: 0,0:51:36.71,0:51:38.21,Default,,0,0,0,,out of our own naivete.
+Dialogue: 0,0:51:38.71,0:51:40.21,Default,,0,0,0,,We thought that's the way it was.
+Dialogue: 0,0:51:40.71,0:51:42.21,Default,,0,0,0,,Nobody thought to question it.
+Dialogue: 0,0:51:42.71,0:51:44.21,Default,,0,0,0,,People were not so conscious.
+Dialogue: 0,0:51:44.71,0:51:46.21,Default,,0,0,0,,People were not so aware.
+Dialogue: 0,0:51:46.71,0:51:48.21,Default,,0,0,0,,It's only by demonstrating examples you say,
+Dialogue: 0,0:51:48.71,0:51:51.21,Default,,0,0,0,,wow, looks like I have a choice here.
+Dialogue: 0,0:51:51.71,0:51:53.21,Default,,0,0,0,,You see, we stop saying,
+Dialogue: 0,0:51:53.71,0:51:55.21,Default,,0,0,0,,well, it must be that person's genetics.
+Dialogue: 0,0:51:55.90,0:51:57.40,Default,,0,0,0,,Or if I was that rich,
+Dialogue: 0,0:51:57.90,0:51:59.40,Default,,0,0,0,,I'd be glad to be alive at 92.
+Dialogue: 0,0:51:59.90,0:52:00.90,Default,,0,0,0,,You know what I mean?
+Dialogue: 0,0:52:00.90,0:52:02.40,Default,,0,0,0,,We stop excusing it
+Dialogue: 0,0:52:02.90,0:52:04.40,Default,,0,0,0,,and begin to really accept that
+Dialogue: 0,0:52:04.90,0:52:07.40,Default,,0,0,0,,it's because of the patterns we've held in life.
+Dialogue: 0,0:52:07.90,0:52:10.90,Default,,0,0,0,,And this comes almost as a revelation to us,
+Dialogue: 0,0:52:11.40,0:52:13.40,Default,,0,0,0,,a sudden opening of the open mind.
+Dialogue: 0,0:52:13.90,0:52:15.40,Default,,0,0,0,,And so the way to avoid this
+Dialogue: 0,0:52:15.90,0:52:18.40,Default,,0,0,0,,is to then begin to have an open mind,
+Dialogue: 0,0:52:18.90,0:52:20.90,Default,,0,0,0,,the willingness to look at the options,
+Dialogue: 0,0:52:21.40,0:52:23.40,Default,,0,0,0,,that we do indeed have choices,
+Dialogue: 0,0:52:23.90,0:52:25.90,Default,,0,0,0,,and then the world starts to look loving.
+Dialogue: 0,0:52:26.40,0:52:28.90,Default,,0,0,0,,We begin to love now the prospects
+Dialogue: 0,0:52:28.90,0:52:31.40,Default,,0,0,0,,because we begin to see the advantages
+Dialogue: 0,0:52:31.90,0:52:33.40,Default,,0,0,0,,of middle age and old age.
+Dialogue: 0,0:52:33.90,0:52:35.40,Default,,0,0,0,,And many people will look back and say,
+Dialogue: 0,0:52:35.90,0:52:37.40,Default,,0,0,0,,frankly, I wouldn't want to be young again.
+Dialogue: 0,0:52:37.90,0:52:39.90,Default,,0,0,0,,I mean, I would hate the thought of going through the teens,
+Dialogue: 0,0:52:40.40,0:52:42.90,Default,,0,0,0,,the anxiety, the acne, the unknowingness,
+Dialogue: 0,0:52:43.40,0:52:45.40,Default,,0,0,0,,the stumbling around awkwardness,
+Dialogue: 0,0:52:45.90,0:52:48.90,Default,,0,0,0,,the endless social anxiety and self-consciousness.
+Dialogue: 0,0:52:49.40,0:52:51.82,Default,,0,0,0,,I don't think I'd care for the 20s either,
+Dialogue: 0,0:52:52.32,0:52:53.82,Default,,0,0,0,,wondering what am I going to be in this world
+Dialogue: 0,0:52:54.32,0:52:55.32,Default,,0,0,0,,and the terrible anxieties,
+Dialogue: 0,0:52:55.82,0:52:57.83,Default,,0,0,0,,and will I make it through college?
+Dialogue: 0,0:52:58.33,0:52:59.33,Default,,0,0,0,,The struggle of the 30s,
+Dialogue: 0,0:52:59.33,0:53:01.83,Default,,0,0,0,,trying to establish a family and all those kind of things.
+Dialogue: 0,0:53:02.97,0:53:06.47,Default,,0,0,0,,Instead of now saying that the past was better than the present,
+Dialogue: 0,0:53:06.97,0:53:09.47,Default,,0,0,0,,we begin to say, hey, right here, now in the present,
+Dialogue: 0,0:53:09.97,0:53:11.47,Default,,0,0,0,,I have some beautiful options.
+Dialogue: 0,0:53:11.97,0:53:14.47,Default,,0,0,0,,It's suddenly like the whole world opens up to us anew.
+Dialogue: 0,0:53:14.97,0:53:18.47,Default,,0,0,0,,I can become reborn at age 60. Why not?
+Dialogue: 0,0:53:19.52,0:53:23.02,Default,,0,0,0,,As we move from a negative energy field into a positive one,
+Dialogue: 0,0:53:23.52,0:53:26.02,Default,,0,0,0,,we get closer and closer to the truth.
+Dialogue: 0,0:53:26.52,0:53:29.02,Default,,0,0,0,,And we become progressively aware
+Dialogue: 0,0:53:29.02,0:53:31.52,Default,,0,0,0,,that what we are is the experiencer,
+Dialogue: 0,0:53:32.02,0:53:35.55,Default,,0,0,0,,that the phenomena that have been going through life
+Dialogue: 0,0:53:36.05,0:53:39.55,Default,,0,0,0,,has not really affected the experiencer.
+Dialogue: 0,0:53:40.05,0:53:42.55,Default,,0,0,0,,It's like we're the hardware of the computer
+Dialogue: 0,0:53:43.05,0:53:45.58,Default,,0,0,0,,and the experiences have been the software.
+Dialogue: 0,0:53:46.08,0:53:49.08,Default,,0,0,0,,The hardware is unaffected by the software.
+Dialogue: 0,0:53:49.58,0:53:53.58,Default,,0,0,0,,That which experiences is unaffected by the experiencing.
+Dialogue: 0,0:53:54.08,0:53:57.61,Default,,0,0,0,,That which we are has remained unaged,
+Dialogue: 0,0:53:57.61,0:53:59.61,Default,,0,0,0,,is not subject to age.
+Dialogue: 0,0:54:00.71,0:54:03.71,Default,,0,0,0,,Men are perhaps more conscious of this,
+Dialogue: 0,0:54:04.21,0:54:05.71,Default,,0,0,0,,perhaps in certain areas,
+Dialogue: 0,0:54:06.21,0:54:09.71,Default,,0,0,0,,because a man at 70 still finds a pretty girl attractive
+Dialogue: 0,0:54:10.21,0:54:11.71,Default,,0,0,0,,the same as he did at 20.
+Dialogue: 0,0:54:12.21,0:54:13.71,Default,,0,0,0,,And they'll say to each other with amazement,
+Dialogue: 0,0:54:14.62,0:54:16.12,Default,,0,0,0,,you know, it hasn't changed any at all.
+Dialogue: 0,0:54:16.62,0:54:19.12,Default,,0,0,0,,The inner experiencer has been unaware
+Dialogue: 0,0:54:19.62,0:54:21.62,Default,,0,0,0,,that a change has been going on in the body.
+Dialogue: 0,0:54:22.12,0:54:24.12,Default,,0,0,0,,And sometimes it comes as a surprise.
+Dialogue: 0,0:54:25.33,0:54:26.83,Default,,0,0,0,,The people look at you differently
+Dialogue: 0,0:54:27.33,0:54:28.33,Default,,0,0,0,,and you wonder why they're looking at you differently.
+Dialogue: 0,0:54:28.83,0:54:30.83,Default,,0,0,0,,It's because that within you
+Dialogue: 0,0:54:31.33,0:54:33.33,Default,,0,0,0,,hasn't experienced the passage of time.
+Dialogue: 0,0:54:33.83,0:54:35.33,Default,,0,0,0,,Your real self, your true self,
+Dialogue: 0,0:54:35.83,0:54:40.33,Default,,0,0,0,,hasn't experienced anything such as aging.
+Dialogue: 0,0:54:40.83,0:54:42.33,Default,,0,0,0,,No such thing goes on
+Dialogue: 0,0:54:42.83,0:54:44.83,Default,,0,0,0,,within the truth of that which you are.
+Dialogue: 0,0:54:45.33,0:54:47.33,Default,,0,0,0,,And so this progressive awareness then
+Dialogue: 0,0:54:47.89,0:54:50.39,Default,,0,0,0,,increases your freedom of choice,
+Dialogue: 0,0:54:50.89,0:54:52.89,Default,,0,0,0,,the way you wish to be with yourself.
+Dialogue: 0,0:54:53.39,0:54:54.39,Default,,0,0,0,,You realize that, for instance,
+Dialogue: 0,0:54:54.89,0:54:56.39,Default,,0,0,0,,that sexuality in old age,
+Dialogue: 0,0:54:56.89,0:54:58.39,Default,,0,0,0,,as we covered in our talk on sexuality,
+Dialogue: 0,0:54:59.39,0:55:01.39,Default,,0,0,0,,does not decline at all.
+Dialogue: 0,0:55:01.89,0:55:07.39,Default,,0,0,0,,That sexuality remains active very often to the very end.
+Dialogue: 0,0:55:08.02,0:55:09.52,Default,,0,0,0,,And personal friends of mine,
+Dialogue: 0,0:55:10.02,0:55:12.52,Default,,0,0,0,,I remember one in particular was a world famous person,
+Dialogue: 0,0:55:13.02,0:55:16.06,Default,,0,0,0,,said to me at 76
+Dialogue: 0,0:55:16.56,0:55:19.06,Default,,0,0,0,,that his sex life was better
+Dialogue: 0,0:55:19.56,0:55:21.06,Default,,0,0,0,,than it had ever been at any time in his life.
+Dialogue: 0,0:55:21.56,0:55:24.06,Default,,0,0,0,,That it expanded to unbelievable dimensions
+Dialogue: 0,0:55:24.56,0:55:28.10,Default,,0,0,0,,that as a young man he had never even thought of.
+Dialogue: 0,0:55:28.10,0:55:30.10,Default,,0,0,0,,As a young man he was interested in,
+Dialogue: 0,0:55:30.60,0:55:32.10,Default,,0,0,0,,you know, the calisthenics,
+Dialogue: 0,0:55:32.60,0:55:34.10,Default,,0,0,0,,the acrobatics, the performance.
+Dialogue: 0,0:55:34.60,0:55:36.10,Default,,0,0,0,,And as an older person,
+Dialogue: 0,0:55:36.60,0:55:38.60,Default,,0,0,0,,more mature and greater in wisdom,
+Dialogue: 0,0:55:39.10,0:55:41.60,Default,,0,0,0,,he was interested in the greater dimensions.
+Dialogue: 0,0:55:42.10,0:55:45.10,Default,,0,0,0,,So at age 76, I remember he confided in me
+Dialogue: 0,0:55:45.60,0:55:47.10,Default,,0,0,0,,that he had really just discovered
+Dialogue: 0,0:55:47.60,0:55:49.60,Default,,0,0,0,,what sex was really all about.
+Dialogue: 0,0:55:50.10,0:55:51.10,Default,,0,0,0,,That it was incredible.
+Dialogue: 0,0:55:51.60,0:55:54.60,Default,,0,0,0,,And he was just boggled by the quality of it,
+Dialogue: 0,0:55:55.10,0:55:56.10,Default,,0,0,0,,what he had discovered.
+Dialogue: 0,0:55:56.10,0:55:59.67,Default,,0,0,0,,So that brings us to some of these belief systems
+Dialogue: 0,0:56:00.17,0:56:01.67,Default,,0,0,0,,that are so common in our society,
+Dialogue: 0,0:56:02.17,0:56:06.17,Default,,0,0,0,,having to do with what happens in one's sexual being,
+Dialogue: 0,0:56:06.67,0:56:07.67,Default,,0,0,0,,the so-called menopause,
+Dialogue: 0,0:56:08.17,0:56:11.17,Default,,0,0,0,,the male and female menopause.
+Dialogue: 0,0:56:12.12,0:56:14.62,Default,,0,0,0,,And here we'll go to a clinical experiment
+Dialogue: 0,0:56:15.12,0:56:18.62,Default,,0,0,0,,in which a group of 30 women were given an injection
+Dialogue: 0,0:56:19.12,0:56:24.62,Default,,0,0,0,,that they were told would bring their period two weeks sooner.
+Dialogue: 0,0:56:25.12,0:56:26.62,Default,,0,0,0,,It said that this injection was a hormone
+Dialogue: 0,0:56:27.62,0:56:30.63,Default,,0,0,0,,and their period would come on two weeks sooner.
+Dialogue: 0,0:56:31.13,0:56:34.63,Default,,0,0,0,,So what happened was the whole premenstrual syndrome,
+Dialogue: 0,0:56:35.13,0:56:36.63,Default,,0,0,0,,the whole premenstrual syndrome,
+Dialogue: 0,0:56:37.13,0:56:39.70,Default,,0,0,0,,with bloating and weight gain and belching
+Dialogue: 0,0:56:40.20,0:56:42.70,Default,,0,0,0,,and all the things that the various women complained of,
+Dialogue: 0,0:56:43.20,0:56:45.70,Default,,0,0,0,,abdominal pains and colics and things.
+Dialogue: 0,0:56:46.20,0:56:52.86,Default,,0,0,0,,All the premenstrual syndrome came on now a week early
+Dialogue: 0,0:56:53.36,0:56:55.86,Default,,0,0,0,,because they all now in mind held that the period
+Dialogue: 0,0:56:56.36,0:56:57.86,Default,,0,0,0,,was going to come two weeks sooner.
+Dialogue: 0,0:56:58.36,0:57:01.86,Default,,0,0,0,,And so we see the intense suggestibility,
+Dialogue: 0,0:57:02.36,0:57:05.86,Default,,0,0,0,,this whole belief in the premenstrual syndrome,
+Dialogue: 0,0:57:06.36,0:57:08.86,Default,,0,0,0,,and the whole belief in the symptoms
+Dialogue: 0,0:57:09.36,0:57:10.86,Default,,0,0,0,,that are supposed to go with middle age
+Dialogue: 0,0:57:11.36,0:57:12.86,Default,,0,0,0,,in both the woman and the man.
+Dialogue: 0,0:57:13.36,0:57:15.66,Default,,0,0,0,,The woman's belief in hot flashes,
+Dialogue: 0,0:57:16.16,0:57:18.66,Default,,0,0,0,,all the phenomena that are supposed to occur,
+Dialogue: 0,0:57:19.16,0:57:21.66,Default,,0,0,0,,can all be induced by hypnosis.
+Dialogue: 0,0:57:22.16,0:57:23.66,Default,,0,0,0,,And it's been done over and over,
+Dialogue: 0,0:57:24.16,0:57:26.66,Default,,0,0,0,,where a young person is put under hypnotic trance
+Dialogue: 0,0:57:27.16,0:57:29.66,Default,,0,0,0,,and told whether they're going through the menopause
+Dialogue: 0,0:57:30.16,0:57:31.66,Default,,0,0,0,,and asked what are the symptoms,
+Dialogue: 0,0:57:32.16,0:57:33.66,Default,,0,0,0,,and their symptoms are reported out verbatim.
+Dialogue: 0,0:57:34.16,0:57:35.66,Default,,0,0,0,,And so we see that the menopause,
+Dialogue: 0,0:57:36.16,0:57:37.66,Default,,0,0,0,,the so-called menopausal syndrome,
+Dialogue: 0,0:57:38.16,0:57:40.66,Default,,0,0,0,,varies from culture to culture
+Dialogue: 0,0:57:41.16,0:57:43.66,Default,,0,0,0,,and from class to class within each culture.
+Dialogue: 0,0:57:44.16,0:57:47.66,Default,,0,0,0,,So what is expected, what is held as the inevitable?
+Dialogue: 0,0:57:48.16,0:57:52.07,Default,,0,0,0,,We see how the mind holds us then as victim.
+Dialogue: 0,0:57:52.57,0:57:54.07,Default,,0,0,0,,It's as though the mind says,
+Dialogue: 0,0:57:54.57,0:57:56.07,Default,,0,0,0,,this is how it is,
+Dialogue: 0,0:57:56.07,0:57:58.07,Default,,0,0,0,,the situation is hopeless,
+Dialogue: 0,0:57:58.57,0:58:01.07,Default,,0,0,0,,one can only give into it, buy into it,
+Dialogue: 0,0:58:01.57,0:58:03.07,Default,,0,0,0,,be at the effect of it,
+Dialogue: 0,0:58:03.57,0:58:06.07,Default,,0,0,0,,and thereby giving away our own power.
+Dialogue: 0,0:58:06.57,0:58:08.07,Default,,0,0,0,,I've already, you know,
+Dialogue: 0,0:58:08.57,0:58:11.07,Default,,0,0,0,,shared with you the example of the middle age man
+Dialogue: 0,0:58:11.57,0:58:13.07,Default,,0,0,0,,and what is supposed to go on there.
+Dialogue: 0,0:58:13.57,0:58:15.57,Default,,0,0,0,,You know, the cold hands and the cold feet,
+Dialogue: 0,0:58:16.07,0:58:17.57,Default,,0,0,0,,the feeling tired, discouraged,
+Dialogue: 0,0:58:18.07,0:58:19.57,Default,,0,0,0,,the loss of energy and libido,
+Dialogue: 0,0:58:20.07,0:58:22.57,Default,,0,0,0,,the occurrence of all these middle age diseases,
+Dialogue: 0,0:58:23.07,0:58:25.07,Default,,0,0,0,,diverticulitis and all these things,
+Dialogue: 0,0:58:25.07,0:58:28.57,Default,,0,0,0,,and gout and all the things associated with a certain age group.
+Dialogue: 0,0:58:29.07,0:58:30.57,Default,,0,0,0,,And I bought into all that,
+Dialogue: 0,0:58:31.07,0:58:35.07,Default,,0,0,0,,and at age 50 I had a full-blown case of middle ageness.
+Dialogue: 0,0:58:35.57,0:58:37.74,Default,,0,0,0,,So all these things are coming then
+Dialogue: 0,0:58:38.24,0:58:40.74,Default,,0,0,0,,from the suggestibility of the naive mind.
+Dialogue: 0,0:58:41.24,0:58:43.24,Default,,0,0,0,,I go back to, over and over again,
+Dialogue: 0,0:58:43.74,0:58:45.24,Default,,0,0,0,,to the innocence of the mind.
+Dialogue: 0,0:58:45.74,0:58:48.24,Default,,0,0,0,,It is out of our innocence that we bought all this.
+Dialogue: 0,0:58:48.74,0:58:52.24,Default,,0,0,0,,It is out of the vulnerability of our humanness.
+Dialogue: 0,0:58:53.31,0:58:53.81,Default,,0,0,0,,Therefore,
+Dialogue: 0,0:58:53.81,0:58:56.31,Default,,0,0,0,,where comes out of that a compassion,
+Dialogue: 0,0:58:56.81,0:58:58.31,Default,,0,0,0,,a willingness to forgive ourself
+Dialogue: 0,0:58:58.81,0:59:00.81,Default,,0,0,0,,for what we bought into.
+Dialogue: 0,0:59:01.31,0:59:03.81,Default,,0,0,0,,It's just that we didn't know any differently.
+Dialogue: 0,0:59:04.31,0:59:07.81,Default,,0,0,0,,The purpose of these talks then is to share what we've discovered,
+Dialogue: 0,0:59:08.31,0:59:10.31,Default,,0,0,0,,that we have an option, we have a choice.
+Dialogue: 0,0:59:10.81,0:59:11.81,Default,,0,0,0,,We are not victims.
+Dialogue: 0,0:59:12.31,0:59:13.81,Default,,0,0,0,,And the way to move out of that then
+Dialogue: 0,0:59:14.31,0:59:16.31,Default,,0,0,0,,is to move out of the bottom of the box.
+Dialogue: 0,0:59:16.81,0:59:18.81,Default,,0,0,0,,Realize that it is not hopeless.
+Dialogue: 0,0:59:19.31,0:59:21.81,Default,,0,0,0,,If it was hopeless, I would still be wearing glasses.
+Dialogue: 0,0:59:21.81,0:59:23.81,Default,,0,0,0,,I'd still have prostate trouble.
+Dialogue: 0,0:59:24.31,0:59:26.31,Default,,0,0,0,,I'd still have all these middle-aged diseases,
+Dialogue: 0,0:59:26.81,0:59:28.66,Default,,0,0,0,,which I bought at the time.
+Dialogue: 0,0:59:29.16,0:59:31.66,Default,,0,0,0,,We have to choose then to move ourself
+Dialogue: 0,0:59:32.16,0:59:33.66,Default,,0,0,0,,out of the bottom of the box.
+Dialogue: 0,0:59:34.16,0:59:36.66,Default,,0,0,0,,Just by education, just by knowing about it,
+Dialogue: 0,0:59:37.16,0:59:38.66,Default,,0,0,0,,just by hearing about it,
+Dialogue: 0,0:59:39.16,0:59:41.66,Default,,0,0,0,,we begin to realize it is not hopeless.
+Dialogue: 0,0:59:42.16,0:59:44.66,Default,,0,0,0,,You see, the mind would like to excuse its own responsibility
+Dialogue: 0,0:59:45.16,0:59:46.66,Default,,0,0,0,,and say, well, you can do it.
+Dialogue: 0,0:59:47.16,0:59:49.16,Default,,0,0,0,,After all, you're a psychiatrist, you're a doctor,
+Dialogue: 0,0:59:49.66,0:59:51.66,Default,,0,0,0,,you've studied all these consciousness things.
+Dialogue: 0,0:59:52.16,0:59:54.66,Default,,0,0,0,,It was really very simple and I really did these things
+Dialogue: 0,0:59:55.16,0:59:56.66,Default,,0,0,0,,the minute I learned about it.
+Dialogue: 0,0:59:57.16,1:00:00.88,Default,,0,0,0,,I took a course that increased your awareness
+Dialogue: 0,1:00:01.38,1:00:03.88,Default,,0,0,0,,of the very things we're talking about today.
+Dialogue: 0,1:00:04.38,1:00:08.88,Default,,0,0,0,,And within one week, many of these illnesses began to leave.
+Dialogue: 0,1:00:09.38,1:00:11.88,Default,,0,0,0,,Within 90 days, there was the alleviation
+Dialogue: 0,1:00:12.38,1:00:13.88,Default,,0,0,0,,of a great many of them.
+Dialogue: 0,1:00:14.38,1:00:16.88,Default,,0,0,0,,I was not a sophisticated researcher,
+Dialogue: 0,1:00:17.38,1:00:19.88,Default,,0,0,0,,not advanced in my knowledge of the field at all at that time,
+Dialogue: 0,1:00:20.38,1:00:21.88,Default,,0,0,0,,barely a beginner.
+Dialogue: 0,1:00:22.38,1:00:25.88,Default,,0,0,0,,Just knowing what I've talked about today is sufficient.
+Dialogue: 0,1:00:26.38,1:00:27.88,Default,,0,0,0,,That's really all you really have to know
+Dialogue: 0,1:00:28.38,1:00:30.88,Default,,0,0,0,,because I've distilled out of it what are the essential principles.
+Dialogue: 0,1:00:31.58,1:00:33.08,Default,,0,0,0,,What do I have to do?
+Dialogue: 0,1:00:33.58,1:00:37.08,Default,,0,0,0,,As though you have to start taking up tennis and calisthenics
+Dialogue: 0,1:00:37.58,1:00:40.08,Default,,0,0,0,,and jazzercise or something.
+Dialogue: 0,1:00:40.58,1:00:44.58,Default,,0,0,0,,You don't have to do anything to undo the aging process.
+Dialogue: 0,1:00:45.08,1:00:46.58,Default,,0,0,0,,It's all what you know.
+Dialogue: 0,1:00:47.08,1:00:50.56,Default,,0,0,0,,And what we've been talking about today is really sufficient.
+Dialogue: 0,1:00:51.06,1:00:52.56,Default,,0,0,0,,If we look at this box
+Dialogue: 0,1:00:52.56,1:00:55.06,Default,,0,0,0,,and look at it now from a slightly different view,
+Dialogue: 0,1:00:55.56,1:00:57.06,Default,,0,0,0,,at the very bottom of the box,
+Dialogue: 0,1:00:57.56,1:01:00.06,Default,,0,0,0,,people at this level of consciousness here,
+Dialogue: 0,1:01:00.56,1:01:04.06,Default,,0,0,0,,value life and rate themselves and others on what you have.
+Dialogue: 0,1:01:04.56,1:01:07.06,Default,,0,0,0,,Because this is coming from survival,
+Dialogue: 0,1:01:07.56,1:01:09.56,Default,,0,0,0,,it's having this that is important.
+Dialogue: 0,1:01:10.06,1:01:14.06,Default,,0,0,0,,And so a person's value of himself and others is what they have.
+Dialogue: 0,1:01:14.56,1:01:18.06,Default,,0,0,0,,And we see certain people as they get progressively older
+Dialogue: 0,1:01:18.56,1:01:22.06,Default,,0,0,0,,cling more and more to give themselves a sense of value
+Dialogue: 0,1:01:22.06,1:01:23.56,Default,,0,0,0,,that which they have.
+Dialogue: 0,1:01:24.06,1:01:28.56,Default,,0,0,0,,And there are certain subgroups in our culture with which I'm familiar
+Dialogue: 0,1:01:29.06,1:01:31.56,Default,,0,0,0,,in which having this is predominant.
+Dialogue: 0,1:01:32.06,1:01:33.56,Default,,0,0,0,,It's what you have.
+Dialogue: 0,1:01:34.06,1:01:36.56,Default,,0,0,0,,And whether you have more millions than another person
+Dialogue: 0,1:01:37.06,1:01:38.56,Default,,0,0,0,,is really what counts.
+Dialogue: 0,1:01:39.06,1:01:41.56,Default,,0,0,0,,And if you lose all your money, now you're out of that society.
+Dialogue: 0,1:01:42.06,1:01:44.06,Default,,0,0,0,,So it has to do with having this.
+Dialogue: 0,1:01:45.07,1:01:48.07,Default,,0,0,0,,As we move up into the middle range here, closer to the truth,
+Dialogue: 0,1:01:48.57,1:01:52.07,Default,,0,0,0,,courage, that energy field which sees life as opportunity,
+Dialogue: 0,1:01:52.57,1:01:57.07,Default,,0,0,0,,that part that settled America, created all the big industries,
+Dialogue: 0,1:01:57.57,1:02:01.07,Default,,0,0,0,,that powerful energy center coming out of the middle here,
+Dialogue: 0,1:02:01.57,1:02:03.57,Default,,0,0,0,,it's what you do that counts.
+Dialogue: 0,1:02:04.07,1:02:06.57,Default,,0,0,0,,And there, doingness is very important.
+Dialogue: 0,1:02:07.07,1:02:08.07,Default,,0,0,0,,What you do.
+Dialogue: 0,1:02:08.57,1:02:11.07,Default,,0,0,0,,And here, do is seen as cause.
+Dialogue: 0,1:02:11.57,1:02:13.57,Default,,0,0,0,,You're important because of what you do.
+Dialogue: 0,1:02:14.07,1:02:17.07,Default,,0,0,0,,And therefore, there's a great emphasis on doingness.
+Dialogue: 0,1:02:17.57,1:02:21.57,Default,,0,0,0,,Well, we want to hold doingness as the effect rather than the cause.
+Dialogue: 0,1:02:21.57,1:02:25.07,Default,,0,0,0,,What you do is coming from what you're holding in mind,
+Dialogue: 0,1:02:25.57,1:02:27.07,Default,,0,0,0,,your belief pattern.
+Dialogue: 0,1:02:27.57,1:02:30.07,Default,,0,0,0,,So doingness is a result and it's not a cause.
+Dialogue: 0,1:02:30.57,1:02:34.07,Default,,0,0,0,,It isn't because of the tennis that you're happy and healthy.
+Dialogue: 0,1:02:34.57,1:02:37.07,Default,,0,0,0,,It's because you're happy and healthy that you express that joy
+Dialogue: 0,1:02:37.57,1:02:40.07,Default,,0,0,0,,of your aliveness in the form of tennis.
+Dialogue: 0,1:02:40.57,1:02:44.10,Default,,0,0,0,,So the doingness then, which is so important there,
+Dialogue: 0,1:02:44.60,1:02:47.10,Default,,0,0,0,,begins to fade out as you move and progress
+Dialogue: 0,1:02:47.60,1:02:50.10,Default,,0,0,0,,in your own level of consciousness.
+Dialogue: 0,1:02:50.10,1:02:53.60,Default,,0,0,0,,And as you get closer and closer to the awareness of what you are,
+Dialogue: 0,1:02:54.10,1:02:57.10,Default,,0,0,0,,then it's what you are that becomes important.
+Dialogue: 0,1:02:57.60,1:03:01.10,Default,,0,0,0,,And so as you progress in life, what you have become,
+Dialogue: 0,1:03:01.60,1:03:04.60,Default,,0,0,0,,it's who you are that becomes important.
+Dialogue: 0,1:03:05.10,1:03:08.60,Default,,0,0,0,,And so in other cultural groups, it's what you are,
+Dialogue: 0,1:03:09.10,1:03:11.10,Default,,0,0,0,,what you have become, what you stand for,
+Dialogue: 0,1:03:11.60,1:03:13.60,Default,,0,0,0,,your isness, your beingness.
+Dialogue: 0,1:03:14.10,1:03:15.60,Default,,0,0,0,,It's the beingness that counts.
+Dialogue: 0,1:03:16.10,1:03:18.60,Default,,0,0,0,,And so spiritually sophisticated groups are not interested
+Dialogue: 0,1:03:18.60,1:03:20.10,Default,,0,0,0,,in what you have.
+Dialogue: 0,1:03:20.60,1:03:22.10,Default,,0,0,0,,Nobody cares what you have.
+Dialogue: 0,1:03:22.60,1:03:26.16,Default,,0,0,0,,Everybody knows that having is the result of doing.
+Dialogue: 0,1:03:26.66,1:03:30.16,Default,,0,0,0,,And doing, if you want to work harder and more effectively,
+Dialogue: 0,1:03:30.66,1:03:32.16,Default,,0,0,0,,will bring about havingness.
+Dialogue: 0,1:03:32.66,1:03:36.23,Default,,0,0,0,,And doingness, they know, is just a matter of exercising options.
+Dialogue: 0,1:03:36.73,1:03:39.73,Default,,0,0,0,,You can join the board of everything and run yourself around ragged.
+Dialogue: 0,1:03:40.23,1:03:43.23,Default,,0,0,0,,So doingness no longer has status or value.
+Dialogue: 0,1:03:43.73,1:03:47.23,Default,,0,0,0,,True value then comes out of what you have become.
+Dialogue: 0,1:03:47.23,1:03:49.73,Default,,0,0,0,,The principles by which you live.
+Dialogue: 0,1:03:50.23,1:03:52.73,Default,,0,0,0,,The committing yourself to the principle
+Dialogue: 0,1:03:53.23,1:03:56.73,Default,,0,0,0,,of becoming increasingly conscious, increasingly aware.
+Dialogue: 0,1:03:57.23,1:03:59.73,Default,,0,0,0,,The commitment to spiritual principles,
+Dialogue: 0,1:04:00.23,1:04:02.23,Default,,0,0,0,,and to those things which are universal,
+Dialogue: 0,1:04:02.73,1:04:04.73,Default,,0,0,0,,which transcend the temporary.
+Dialogue: 0,1:04:05.23,1:04:08.73,Default,,0,0,0,,The identification then with progressive awareness
+Dialogue: 0,1:04:09.23,1:04:11.23,Default,,0,0,0,,of that which you really are.
+Dialogue: 0,1:04:11.73,1:04:14.73,Default,,0,0,0,,So this progressive increase in consciousness then,
+Dialogue: 0,1:04:15.23,1:04:16.73,Default,,0,0,0,,consciousness then,
+Dialogue: 0,1:04:16.73,1:04:19.23,Default,,0,0,0,,is not at the effect of the world anymore.
+Dialogue: 0,1:04:19.73,1:04:21.23,Default,,0,0,0,,No longer do you need to have
+Dialogue: 0,1:04:21.73,1:04:25.23,Default,,0,0,0,,and to realize the significance of your beingness.
+Dialogue: 0,1:04:25.73,1:04:27.23,Default,,0,0,0,,No longer do you have to do.
+Dialogue: 0,1:04:27.73,1:04:30.73,Default,,0,0,0,,It's the awareness of that which you are.
+Dialogue: 0,1:04:33.33,1:04:35.33,Default,,0,0,0,,That gives you a different position then
+Dialogue: 0,1:04:35.83,1:04:37.33,Default,,0,0,0,,from which to view the body.
+Dialogue: 0,1:04:37.83,1:04:42.33,Default,,0,0,0,,And so we look now at what our relationship is to the body.
+Dialogue: 0,1:04:42.83,1:04:46.83,Default,,0,0,0,,And we can see it's something that you have.
+Dialogue: 0,1:04:46.83,1:04:48.83,Default,,0,0,0,,It's not something that you are.
+Dialogue: 0,1:04:49.33,1:04:51.33,Default,,0,0,0,,It's something that belongs to you.
+Dialogue: 0,1:04:51.83,1:04:54.33,Default,,0,0,0,,And so you can begin to enjoy the body now
+Dialogue: 0,1:04:54.83,1:04:56.33,Default,,0,0,0,,and see that you have an option.
+Dialogue: 0,1:04:56.83,1:04:59.83,Default,,0,0,0,,You can look at it as a fun thing that belongs to you.
+Dialogue: 0,1:05:00.33,1:05:02.33,Default,,0,0,0,,And it's there for your enjoyment.
+Dialogue: 0,1:05:02.83,1:05:05.33,Default,,0,0,0,,See as we let go our identification
+Dialogue: 0,1:05:05.83,1:05:08.33,Default,,0,0,0,,and realize that I'm not the body.
+Dialogue: 0,1:05:08.83,1:05:11.33,Default,,0,0,0,,I am that which is experiencing the body.
+Dialogue: 0,1:05:11.83,1:05:13.83,Default,,0,0,0,,That gives me options and choices.
+Dialogue: 0,1:05:14.33,1:05:15.83,Default,,0,0,0,,I can decide to enjoy it.
+Dialogue: 0,1:05:15.83,1:05:19.33,Default,,0,0,0,,I can see that it sort of bounces around happily
+Dialogue: 0,1:05:19.83,1:05:23.33,Default,,0,0,0,,and doing what it does relatively effortlessly
+Dialogue: 0,1:05:23.83,1:05:25.33,Default,,0,0,0,,by letting go all my belief systems,
+Dialogue: 0,1:05:25.83,1:05:27.33,Default,,0,0,0,,negative belief systems,
+Dialogue: 0,1:05:27.83,1:05:29.33,Default,,0,0,0,,about sickness and illness.
+Dialogue: 0,1:05:29.83,1:05:32.33,Default,,0,0,0,,I can be willing to let all those things go
+Dialogue: 0,1:05:32.83,1:05:36.83,Default,,0,0,0,,and as I get older enjoy a progressively more healthy body.
+Dialogue: 0,1:05:37.33,1:05:40.36,Default,,0,0,0,,And so that the body that I, you know,
+Dialogue: 0,1:05:40.86,1:05:42.36,Default,,0,0,0,,that I enjoy now
+Dialogue: 0,1:05:42.86,1:05:45.36,Default,,0,0,0,,is considerably healthier than it was 10 or 20 years ago.
+Dialogue: 0,1:05:45.86,1:05:47.36,Default,,0,0,0,,So with progressive age,
+Dialogue: 0,1:05:47.86,1:05:50.36,Default,,0,0,0,,you know, what the world calls aging,
+Dialogue: 0,1:05:50.86,1:05:53.36,Default,,0,0,0,,the body has gotten increasingly better.
+Dialogue: 0,1:05:53.86,1:05:57.86,Default,,0,0,0,,I enjoy the body much more at 60 than I did at 40.
+Dialogue: 0,1:05:58.58,1:06:00.58,Default,,0,0,0,,And the body at 40 was very tired
+Dialogue: 0,1:06:01.08,1:06:02.58,Default,,0,0,0,,because it had migraine headaches,
+Dialogue: 0,1:06:03.08,1:06:04.58,Default,,0,0,0,,it had ulcers, it had diverticulitis,
+Dialogue: 0,1:06:05.08,1:06:06.58,Default,,0,0,0,,it had colitis, it had hemorrhoids,
+Dialogue: 0,1:06:07.08,1:06:09.58,Default,,0,0,0,,it had swollen ankles by Friday night,
+Dialogue: 0,1:06:10.08,1:06:12.58,Default,,0,0,0,,it had elevated cholesterol, it had gout.
+Dialogue: 0,1:06:13.56,1:06:15.06,Default,,0,0,0,,I had to carry a cane around in the trunk of the car
+Dialogue: 0,1:06:15.06,1:06:16.56,Default,,0,0,0,,for this poor old body.
+Dialogue: 0,1:06:17.06,1:06:19.66,Default,,0,0,0,,So at age 40 the body was old
+Dialogue: 0,1:06:20.16,1:06:22.66,Default,,0,0,0,,and at age 60 I enjoy it greatly.
+Dialogue: 0,1:06:23.16,1:06:25.16,Default,,0,0,0,,All those illnesses have left.
+Dialogue: 0,1:06:25.66,1:06:27.66,Default,,0,0,0,,So with the letting go of those belief systems
+Dialogue: 0,1:06:28.16,1:06:29.66,Default,,0,0,0,,and those limitations has come
+Dialogue: 0,1:06:30.16,1:06:31.66,Default,,0,0,0,,the progressive enjoyment of the body
+Dialogue: 0,1:06:32.16,1:06:34.66,Default,,0,0,0,,and seeing it now as something with which to,
+Dialogue: 0,1:06:35.16,1:06:37.16,Default,,0,0,0,,you know, express one's happiness.
+Dialogue: 0,1:06:37.66,1:06:41.66,Default,,0,0,0,,And how we view time becomes increasingly important.
+Dialogue: 0,1:06:42.19,1:06:44.69,Default,,0,0,0,,You see, because if we look at time as our enemy,
+Dialogue: 0,1:06:45.69,1:06:48.69,Default,,0,0,0,,then we subject ourselves to the whole aging process.
+Dialogue: 0,1:06:49.19,1:06:51.69,Default,,0,0,0,,If we're holding in mind that the passage of time
+Dialogue: 0,1:06:52.19,1:06:55.19,Default,,0,0,0,,automatically, the corollary, the meaning of that,
+Dialogue: 0,1:06:55.69,1:06:57.69,Default,,0,0,0,,is the progressive deterioration of the body,
+Dialogue: 0,1:06:58.19,1:06:59.69,Default,,0,0,0,,then we're subject to that
+Dialogue: 0,1:07:00.19,1:07:01.69,Default,,0,0,0,,because we've been holding it in mind.
+Dialogue: 0,1:07:02.29,1:07:04.79,Default,,0,0,0,,If, on the other hand, we view time as the space
+Dialogue: 0,1:07:05.29,1:07:07.29,Default,,0,0,0,,which gives us the freedom to grow,
+Dialogue: 0,1:07:07.79,1:07:09.79,Default,,0,0,0,,to become more conscious, to become aware,
+Dialogue: 0,1:07:10.29,1:07:12.29,Default,,0,0,0,,then time becomes our friend.
+Dialogue: 0,1:07:12.79,1:07:14.79,Default,,0,0,0,,It's over the passage of time, then,
+Dialogue: 0,1:07:14.79,1:07:17.79,Default,,0,0,0,,which has been my friend over the last 10 or 20 years,
+Dialogue: 0,1:07:18.29,1:07:21.79,Default,,0,0,0,,that these illnesses and middle-aged
+Dialogue: 0,1:07:22.29,1:07:24.79,Default,,0,0,0,,and old-age diseases of the body have disappeared.
+Dialogue: 0,1:07:25.29,1:07:27.29,Default,,0,0,0,,I've had the time in which to explore,
+Dialogue: 0,1:07:27.79,1:07:29.79,Default,,0,0,0,,the time to become aware that there are options,
+Dialogue: 0,1:07:30.29,1:07:33.79,Default,,0,0,0,,the time to become aware of how I was limiting myself
+Dialogue: 0,1:07:34.29,1:07:35.79,Default,,0,0,0,,within my own belief systems,
+Dialogue: 0,1:07:36.29,1:07:38.79,Default,,0,0,0,,the time to become aware of what is that relationship
+Dialogue: 0,1:07:39.29,1:07:41.79,Default,,0,0,0,,between body, mind and spirit,
+Dialogue: 0,1:07:42.29,1:07:43.79,Default,,0,0,0,,the time to realize that we have
+Dialogue: 0,1:07:43.79,1:07:46.79,Default,,0,0,0,,a complete option, freedom of the spirit,
+Dialogue: 0,1:07:47.29,1:07:48.79,Default,,0,0,0,,that we are not limited except
+Dialogue: 0,1:07:49.29,1:07:50.79,Default,,0,0,0,,to that which we hold in mind.

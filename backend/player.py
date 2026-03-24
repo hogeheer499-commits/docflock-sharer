@@ -154,6 +154,33 @@ def scan_music() -> list[dict]:
     return result
 
 
+def scan_clips() -> list[dict]:
+    """Scan clips directory for short doc clips."""
+    clips_dir = VIDEOS_DIR / "clips"
+    clips_json = VIDEOS_DIR / "clips.json"
+    if not clips_dir.is_dir() or not clips_json.exists():
+        return []
+
+    import json as _json
+    tracks = _json.loads(clips_json.read_text())
+    result = []
+    for i, track in enumerate(tracks):
+        filepath = clips_dir / track["file"]
+        if not filepath.exists():
+            continue
+        vid_id = "clips/" + filepath.stem
+        result.append({
+            "id": vid_id,
+            "title": track["title"],
+            "series": "Short Doc Clips",
+            "file": str(filepath),
+            "languages": [],
+            "sort_key": f"clips/{i:03d}",
+            "category": "clips",
+        })
+    return result
+
+
 def scan_youtube_cache() -> list[dict]:
     """Scan cached YouTube downloads."""
     if not CACHE_DIR.is_dir():
@@ -183,7 +210,7 @@ def _all_videos() -> list[dict]:
     lectures = scan_videos()
     for v in lectures:
         v["category"] = "lecture"
-    return lectures + scan_music() + scan_youtube_cache()
+    return lectures + scan_clips() + scan_music() + scan_youtube_cache()
 
 
 def get_video(video_id: str) -> dict | None:

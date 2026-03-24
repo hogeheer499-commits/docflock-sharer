@@ -1,0 +1,1108 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.19,0:00:18.51,Default,,0,0,0,,After another
+Dialogue: 0,0:00:18.51,0:00:22.46,Default,,0,0,0,,If it isn't here, it's there
+Dialogue: 0,0:00:22.46,0:00:23.46,Default,,0,0,0,,You've got to be someplace
+Dialogue: 0,0:00:23.46,0:00:28.75,Default,,0,0,0,,No matter who you are, you've got to be someplace
+Dialogue: 0,0:00:28.75,0:00:32.28,Default,,0,0,0,,Where's the microphone?
+Dialogue: 0,0:00:33.75,0:00:34.36,Default,,0,0,0,,It's on you
+Dialogue: 0,0:00:34.36,0:00:35.92,Default,,0,0,0,,Oh, it's on me
+Dialogue: 0,0:00:35.92,0:00:36.78,Default,,0,0,0,,I have to talk in this
+Dialogue: 0,0:00:36.78,0:00:37.42,Default,,0,0,0,,Oh, I see
+Dialogue: 0,0:00:37.42,0:00:40.38,Default,,0,0,0,,I thought it was just ladies' day
+Dialogue: 0,0:00:40.38,0:00:42.38,Default,,0,0,0,,She gets the microphone and I get to listen
+Dialogue: 0,0:00:42.38,0:00:47.28,Default,,0,0,0,,What is this thing behind me here?
+Dialogue: 0,0:00:47.39,0:00:49.28,Default,,0,0,0,,It's called a pillow that you're supposed to sit on
+Dialogue: 0,0:00:49.28,0:00:50.35,Default,,0,0,0,,Oh, okay
+Dialogue: 0,0:00:50.35,0:00:53.89,Default,,0,0,0,,All right
+Dialogue: 0,0:00:53.89,0:00:57.84,Default,,0,0,0,,Well, we were saying we wanted to become
+Dialogue: 0,0:00:57.84,0:01:00.88,Default,,0,0,0,,Less and less didactic over the years
+Dialogue: 0,0:01:00.88,0:01:01.74,Default,,0,0,0,,You know, because
+Dialogue: 0,0:01:01.74,0:01:03.92,Default,,0,0,0,,All the research that was done
+Dialogue: 0,0:01:03.92,0:01:06.04,Default,,0,0,0,,You know, took a lot of research
+Dialogue: 0,0:01:06.04,0:01:09.93,Default,,0,0,0,,And now we want to become
+Dialogue: 0,0:01:09.93,0:01:11.15,Default,,0,0,0,,More and more non-linear
+Dialogue: 0,0:01:11.15,0:01:12.39,Default,,0,0,0,,Less didactic
+Dialogue: 0,0:01:12.39,0:01:14.40,Default,,0,0,0,,More like a
+Dialogue: 0,0:01:14.40,0:01:17.31,Default,,0,0,0,,What do you call it that we have at night?
+Dialogue: 0,0:01:19.01,0:01:19.57,Default,,0,0,0,,Sat-sangs
+Dialogue: 0,0:01:19.57,0:01:21.28,Default,,0,0,0,,Yeah, more and more
+Dialogue: 0,0:01:21.28,0:01:23.81,Default,,0,0,0,,Spontaneous and non-linear
+Dialogue: 0,0:01:23.81,0:01:24.51,Default,,0,0,0,,Right
+Dialogue: 0,0:01:24.51,0:01:27.54,Default,,0,0,0,,And so one thing
+Dialogue: 0,0:01:27.54,0:01:30.85,Default,,0,0,0,,Was our discussing matters
+Dialogue: 0,0:01:30.85,0:01:33.20,Default,,0,0,0,,The way we often discuss them
+Dialogue: 0,0:01:33.20,0:01:33.71,Default,,0,0,0,,Right
+Dialogue: 0,0:01:33.71,0:01:34.01,Default,,0,0,0,,Yes
+Dialogue: 0,0:01:34.01,0:01:37.21,Default,,0,0,0,,We've had
+Dialogue: 0,0:01:37.21,0:01:39.59,Default,,0,0,0,,We had this open discussion one time
+Dialogue: 0,0:01:39.59,0:01:41.71,Default,,0,0,0,,In Sedona and everybody liked it
+Dialogue: 0,0:01:41.71,0:01:43.48,Default,,0,0,0,,And we covered prayer
+Dialogue: 0,0:01:43.48,0:01:45.73,Default,,0,0,0,,I don't know if any of you have that
+Dialogue: 0,0:01:45.73,0:01:46.78,Default,,0,0,0,,DVD
+Dialogue: 0,0:01:46.78,0:01:48.68,Default,,0,0,0,,But it was really good
+Dialogue: 0,0:01:48.68,0:01:50.23,Default,,0,0,0,,And we wanted to cover it thoroughly
+Dialogue: 0,0:01:50.23,0:01:53.35,Default,,0,0,0,,Well, we were talking about this
+Dialogue: 0,0:01:53.35,0:01:54.15,Default,,0,0,0,,And he says, well
+Dialogue: 0,0:01:54.15,0:01:57.18,Default,,0,0,0,,The next thing I wanted to cover is guilt
+Dialogue: 0,0:01:57.18,0:02:02.51,Default,,0,0,0,,And we thought that it might fit in with this lecture
+Dialogue: 0,0:02:02.51,0:02:05.64,Default,,0,0,0,,Well, husbands and wives
+Dialogue: 0,0:02:05.64,0:02:07.28,Default,,0,0,0,,Get into guilt trading in a way
+Dialogue: 0,0:02:07.28,0:02:07.79,Default,,0,0,0,,Yes, they do
+Dialogue: 0,0:02:07.79,0:02:12.03,Default,,0,0,0,,I mean, who left the door to the refrigerator open?
+Dialogue: 0,0:02:12.15,0:02:12.65,Default,,0,0,0,,You know what I'm saying?
+Dialogue: 0,0:02:15.43,0:02:16.13,Default,,0,0,0,,Wasn't me
+Dialogue: 0,0:02:16.13,0:02:17.65,Default,,0,0,0,,It was them gremlins again
+Dialogue: 0,0:02:17.65,0:02:18.62,Default,,0,0,0,,I don't know
+Dialogue: 0,0:02:18.62,0:02:20.75,Default,,0,0,0,,We have a new refrigerator that's smart
+Dialogue: 0,0:02:20.75,0:02:22.80,Default,,0,0,0,,It beeps at you when you leave the door open
+Dialogue: 0,0:02:22.80,0:02:26.68,Default,,0,0,0,,We haven't had one in 30 years
+Dialogue: 0,0:02:26.68,0:02:28.41,Default,,0,0,0,,It was on its way out
+Dialogue: 0,0:02:28.41,0:02:29.58,Default,,0,0,0,,So we got a new one
+Dialogue: 0,0:02:29.58,0:02:31.34,Default,,0,0,0,,In 30 years we'll get another one
+Dialogue: 0,0:02:31.34,0:02:31.56,Default,,0,0,0,,Yeah
+Dialogue: 0,0:02:31.56,0:02:35.15,Default,,0,0,0,,So anyway, it beeps at you
+Dialogue: 0,0:02:35.15,0:02:35.91,Default,,0,0,0,,The door's left over
+Dialogue: 0,0:02:35.91,0:02:36.13,Default,,0,0,0,,It goes
+Dialogue: 0,0:02:36.13,0:02:39.16,Default,,0,0,0,,And you go, what's that?
+Dialogue: 0,0:02:41.16,0:02:42.61,Default,,0,0,0,,Anyway, guilt
+Dialogue: 0,0:02:42.61,0:02:43.40,Default,,0,0,0,,All right
+Dialogue: 0,0:02:43.40,0:02:45.47,Default,,0,0,0,,My question is
+Dialogue: 0,0:02:45.47,0:02:47.68,Default,,0,0,0,,When is guilt
+Dialogue: 0,0:02:47.68,0:02:52.46,Default,,0,0,0,,When is guilt positive
+Dialogue: 0,0:02:52.46,0:02:55.46,Default,,0,0,0,,And when is guilt negative
+Dialogue: 0,0:02:55.46,0:02:56.80,Default,,0,0,0,,In one's life?
+Dialogue: 0,0:02:58.09,0:02:59.46,Default,,0,0,0,,Because there's good guilt
+Dialogue: 0,0:02:59.46,0:03:01.94,Default,,0,0,0,,I mean, you know, when you're guilty
+Dialogue: 0,0:03:01.94,0:03:04.90,Default,,0,0,0,,Because you might have hurt someone's feelings
+Dialogue: 0,0:03:04.90,0:03:07.62,Default,,0,0,0,,You know, and you say, why did I do that?
+Dialogue: 0,0:03:08.03,0:03:11.81,Default,,0,0,0,,You know, I wish I could change that incident in my life
+Dialogue: 0,0:03:11.81,0:03:14.46,Default,,0,0,0,,And then there's bad guilt
+Dialogue: 0,0:03:14.46,0:03:18.68,Default,,0,0,0,,Where you just continually beat yourself up
+Dialogue: 0,0:03:18.68,0:03:22.16,Default,,0,0,0,,Over something that had done or said
+Dialogue: 0,0:03:22.16,0:03:24.90,Default,,0,0,0,,You know, so when is that?
+Dialogue: 0,0:03:24.90,0:03:25.40,Default,,0,0,0,,When is guilt appropriate?
+Dialogue: 0,0:03:25.55,0:03:27.87,Default,,0,0,0,,Well, when you see on the calibrated level of consciousness
+Dialogue: 0,0:03:27.87,0:03:30.21,Default,,0,0,0,,Guilt is, what, 90 or something?
+Dialogue: 0,0:03:30.62,0:03:30.90,Default,,0,0,0,,Yeah
+Dialogue: 0,0:03:30.90,0:03:33.65,Default,,0,0,0,,It's down below 200
+Dialogue: 0,0:03:33.65,0:03:38.74,Default,,0,0,0,,So the idea is how to turn it around
+Dialogue: 0,0:03:38.74,0:03:39.97,Default,,0,0,0,,Into something useful
+Dialogue: 0,0:03:39.97,0:03:40.59,Default,,0,0,0,,Right
+Dialogue: 0,0:03:40.59,0:03:43.86,Default,,0,0,0,,That, well, you know
+Dialogue: 0,0:03:43.86,0:03:46.30,Default,,0,0,0,,It's because where we get guilt from
+Dialogue: 0,0:03:46.30,0:03:47.78,Default,,0,0,0,,In the beginning, you know
+Dialogue: 0,0:03:47.78,0:03:49.02,Default,,0,0,0,,Is our parents
+Dialogue: 0,0:03:49.02,0:03:51.91,Default,,0,0,0,,Being a naughty boy or a naughty girl
+Dialogue: 0,0:03:51.91,0:03:53.36,Default,,0,0,0,,Or doing something naughty
+Dialogue: 0,0:03:53.36,0:03:57.27,Default,,0,0,0,,So it's part of the Freudian super ego
+Dialogue: 0,0:03:57.27,0:03:59.50,Default,,0,0,0,,You know, so guilt becomes
+Dialogue: 0,0:03:59.75,0:04:01.65,Default,,0,0,0,,The introjected parent
+Dialogue: 0,0:04:01.65,0:04:05.80,Default,,0,0,0,,So, you know, if the psyche is like child
+Dialogue: 0,0:04:05.80,0:04:08.52,Default,,0,0,0,,Adult and parent
+Dialogue: 0,0:04:08.52,0:04:11.28,Default,,0,0,0,,The simplest psychological division
+Dialogue: 0,0:04:11.28,0:04:13.78,Default,,0,0,0,,Is the inner child, the inner adult
+Dialogue: 0,0:04:13.78,0:04:14.74,Default,,0,0,0,,And the inner parent
+Dialogue: 0,0:04:14.74,0:04:19.01,Default,,0,0,0,,So what you have is the introjected parent
+Dialogue: 0,0:04:19.01,0:04:22.27,Default,,0,0,0,,The super ego, the conscience
+Dialogue: 0,0:04:22.27,0:04:23.92,Default,,0,0,0,,Becoming punitive
+Dialogue: 0,0:04:23.92,0:04:27.16,Default,,0,0,0,,And, of course, that's the way the child hears it
+Dialogue: 0,0:04:27.16,0:04:29.01,Default,,0,0,0,,And that's the way the parents mean it, too
+Dialogue: 0,0:04:29.01,0:04:30.45,Default,,0,0,0,,If you keep it up, you're going to get a spanking
+Dialogue: 0,0:04:30.45,0:04:30.48,Default,,0,0,0,,And you're going to get a spanking
+Dialogue: 0,0:04:30.48,0:04:30.62,Default,,0,0,0,,And you're going to get a spanking
+Dialogue: 0,0:04:30.62,0:04:30.63,Default,,0,0,0,,And you're going to get a spanking
+Dialogue: 0,0:04:30.66,0:04:31.25,Default,,0,0,0,,Or something
+Dialogue: 0,0:04:31.25,0:04:36.48,Default,,0,0,0,,So it naturally lowers your self-esteem
+Dialogue: 0,0:04:36.48,0:04:38.86,Default,,0,0,0,,So the idea is
+Dialogue: 0,0:04:38.86,0:04:40.92,Default,,0,0,0,,How can you teach your super ego
+Dialogue: 0,0:04:40.92,0:04:43.01,Default,,0,0,0,,To become more benign
+Dialogue: 0,0:04:43.01,0:04:43.93,Default,,0,0,0,,More benign
+Dialogue: 0,0:04:43.93,0:04:48.00,Default,,0,0,0,,And in my own life
+Dialogue: 0,0:04:48.00,0:04:49.69,Default,,0,0,0,,I had quite a battle with it
+Dialogue: 0,0:04:49.69,0:04:52.19,Default,,0,0,0,,As I've said before
+Dialogue: 0,0:04:52.19,0:04:53.54,Default,,0,0,0,,In lectures
+Dialogue: 0,0:04:53.54,0:04:55.12,Default,,0,0,0,,I had a super ego that was
+Dialogue: 0,0:04:55.12,0:04:56.80,Default,,0,0,0,,Overly active
+Dialogue: 0,0:04:56.80,0:04:58.81,Default,,0,0,0,,And I had to go for counseling
+Dialogue: 0,0:04:58.81,0:05:00.10,Default,,0,0,0,,On scrupulosity
+Dialogue: 0,0:05:00.10,0:05:03.66,Default,,0,0,0,,And I lived in dread of a sin
+Dialogue: 0,0:05:03.66,0:05:08.77,Default,,0,0,0,,And I don't know what I thought would happen
+Dialogue: 0,0:05:08.77,0:05:10.30,Default,,0,0,0,,I guess you went to hell or something
+Dialogue: 0,0:05:10.30,0:05:13.37,Default,,0,0,0,,But I was scared to death of a sin
+Dialogue: 0,0:05:13.37,0:05:16.56,Default,,0,0,0,,And God could see this sin
+Dialogue: 0,0:05:16.56,0:05:20.43,Default,,0,0,0,,It was like a stain on your window shield back here
+Dialogue: 0,0:05:20.43,0:05:26.17,Default,,0,0,0,,Anyway, this little blot of sin would appear
+Dialogue: 0,0:05:26.17,0:05:28.31,Default,,0,0,0,,And God would see this sin on your soul
+Dialogue: 0,0:05:28.31,0:05:30.62,Default,,0,0,0,,So it was sort of scary
+Dialogue: 0,0:05:30.62,0:05:32.63,Default,,0,0,0,,It's like you're afraid of your own thoughts
+Dialogue: 0,0:05:32.63,0:05:34.07,Default,,0,0,0,,You might think it's something sinful
+Dialogue: 0,0:05:34.07,0:05:34.72,Default,,0,0,0,,You know what I'm saying?
+Dialogue: 0,0:05:34.72,0:05:38.10,Default,,0,0,0,,Well, let's say
+Dialogue: 0,0:05:38.10,0:05:40.33,Default,,0,0,0,,Alright
+Dialogue: 0,0:05:40.33,0:05:45.12,Default,,0,0,0,,Is a sin
+Dialogue: 0,0:05:45.12,0:05:46.93,Default,,0,0,0,,Wouldn't you consider though
+Dialogue: 0,0:05:46.93,0:05:48.54,Default,,0,0,0,,Like a sin as something
+Dialogue: 0,0:05:48.54,0:05:51.42,Default,,0,0,0,,That you wouldn't be remorseful for?
+Dialogue: 0,0:05:52.50,0:05:54.54,Default,,0,0,0,,Well, that would make it a sin-sin
+Dialogue: 0,0:05:54.54,0:05:55.54,Default,,0,0,0,,Wouldn't it?
+Dialogue: 0,0:05:56.62,0:05:57.48,Default,,0,0,0,,You only did your sin
+Dialogue: 0,0:05:57.48,0:05:59.30,Default,,0,0,0,,But you didn't even feel guilty about it
+Dialogue: 0,0:05:59.30,0:06:02.43,Default,,0,0,0,,Once you recognize a sin though
+Dialogue: 0,0:06:02.43,0:06:05.30,Default,,0,0,0,,Then the guilt, of course, comes in
+Dialogue: 0,0:06:05.30,0:06:06.51,Default,,0,0,0,,But if you're a sinner
+Dialogue: 0,0:06:06.54,0:06:09.07,Default,,0,0,0,,You didn't recognize it as a sin
+Dialogue: 0,0:06:09.07,0:06:10.24,Default,,0,0,0,,I mean, I'm trying to
+Dialogue: 0,0:06:10.24,0:06:12.00,Default,,0,0,0,,If you didn't label it
+Dialogue: 0,0:06:12.00,0:06:14.12,Default,,0,0,0,,Theologically, yeah
+Dialogue: 0,0:06:14.12,0:06:17.99,Default,,0,0,0,,Well, you might say that regret would be a better
+Dialogue: 0,0:06:17.99,0:06:21.79,Default,,0,0,0,,Regret is a better alternative to guilt
+Dialogue: 0,0:06:21.79,0:06:23.58,Default,,0,0,0,,You can wish you hadn't done
+Dialogue: 0,0:06:23.58,0:06:24.76,Default,,0,0,0,,You could regret it
+Dialogue: 0,0:06:24.76,0:06:30.54,Default,,0,0,0,,But you don't have to go into self-punitive mode, you know
+Dialogue: 0,0:06:31.87,0:06:34.60,Default,,0,0,0,,Well, everybody's always said or done something
+Dialogue: 0,0:06:34.60,0:06:36.75,Default,,0,0,0,,That they said, oh, why did I do that?
+Dialogue: 0,0:06:36.75,0:06:37.48,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:06:37.48,0:06:42.48,Default,,0,0,0,,You know, years and years and years
+Dialogue: 0,0:06:42.48,0:06:43.74,Default,,0,0,0,,And you go
+Dialogue: 0,0:06:43.74,0:06:45.98,Default,,0,0,0,,30 years later, you're still guilty
+Dialogue: 0,0:06:45.98,0:06:46.31,Default,,0,0,0,,So then how do you drop that?
+Dialogue: 0,0:06:46.93,0:06:47.33,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:06:47.33,0:06:48.48,Default,,0,0,0,,So how do you drop it once
+Dialogue: 0,0:06:48.48,0:06:53.81,Default,,0,0,0,,You've already paid this years of, you know, of guilt
+Dialogue: 0,0:06:53.81,0:06:55.50,Default,,0,0,0,,So how then, how do you drop that?
+Dialogue: 0,0:06:55.92,0:06:57.00,Default,,0,0,0,,How do you drop that?
+Dialogue: 0,0:06:57.04,0:06:58.54,Default,,0,0,0,,Because, I mean, it's obvious
+Dialogue: 0,0:06:58.54,0:06:59.54,Default,,0,0,0,,Well, you can change it
+Dialogue: 0,0:06:59.54,0:07:02.37,Default,,0,0,0,,Change it to something less punitive like regret
+Dialogue: 0,0:07:02.37,0:07:03.51,Default,,0,0,0,,Okay
+Dialogue: 0,0:07:03.51,0:07:07.25,Default,,0,0,0,,And then you have to move to forgiveness, you know
+Dialogue: 0,0:07:07.48,0:07:08.69,Default,,0,0,0,,You have to move to forgiveness
+Dialogue: 0,0:07:08.69,0:07:10.62,Default,,0,0,0,,So then you had to forgive yourself
+Dialogue: 0,0:07:10.62,0:07:13.36,Default,,0,0,0,,Then for this action
+Dialogue: 0,0:07:13.36,0:07:15.77,Default,,0,0,0,,And I'm saying either not knowing better
+Dialogue: 0,0:07:15.77,0:07:17.22,Default,,0,0,0,,Just like you would with someone else
+Dialogue: 0,0:07:17.22,0:07:17.66,Default,,0,0,0,,Yes
+Dialogue: 0,0:07:17.66,0:07:21.18,Default,,0,0,0,,Or you'd also have to feel that you're entitled to forgiveness
+Dialogue: 0,0:07:21.18,0:07:22.62,Default,,0,0,0,,Oh
+Dialogue: 0,0:07:22.62,0:07:24.80,Default,,0,0,0,,Some people are so busy berating themselves
+Dialogue: 0,0:07:24.80,0:07:26.75,Default,,0,0,0,,They don't feel they deserve forgiveness
+Dialogue: 0,0:07:26.75,0:07:28.18,Default,,0,0,0,,All right
+Dialogue: 0,0:07:28.18,0:07:32.48,Default,,0,0,0,,So there's no end to their, you know, jail sentence
+Dialogue: 0,0:07:32.48,0:07:33.04,Default,,0,0,0,,Right
+Dialogue: 0,0:07:33.04,0:07:33.62,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:07:33.62,0:07:35.57,Default,,0,0,0,,Lifetime of guilt over some error
+Dialogue: 0,0:07:35.57,0:07:38.56,Default,,0,0,0,,So then you've got these burdens that you're carrying
+Dialogue: 0,0:07:38.56,0:07:39.57,Default,,0,0,0,,Around
+Dialogue: 0,0:07:39.57,0:07:40.86,Default,,0,0,0,,Yeah, I know
+Dialogue: 0,0:07:40.86,0:07:42.04,Default,,0,0,0,,You know, on your shoulders going
+Dialogue: 0,0:07:42.04,0:07:43.68,Default,,0,0,0,,Why did I do that?
+Dialogue: 0,0:07:43.93,0:07:47.57,Default,,0,0,0,,That happened back when I was five years old
+Dialogue: 0,0:07:47.57,0:07:49.54,Default,,0,0,0,,And I still can't get rid of it
+Dialogue: 0,0:07:49.54,0:07:50.68,Default,,0,0,0,,You know
+Dialogue: 0,0:07:50.68,0:07:53.22,Default,,0,0,0,,Yeah, some of those last a lifetime, don't they?
+Dialogue: 0,0:07:53.24,0:07:53.43,Default,,0,0,0,,Yeah
+Dialogue: 0,0:07:53.43,0:07:53.83,Default,,0,0,0,,Yes
+Dialogue: 0,0:07:53.83,0:07:59.56,Default,,0,0,0,,And, of course, religion tends to intensify it to some degree
+Dialogue: 0,0:07:59.56,0:08:02.13,Default,,0,0,0,,Because a lot of what you feel guilty about
+Dialogue: 0,0:08:02.13,0:08:04.22,Default,,0,0,0,,Is labeled as sin on top of it
+Dialogue: 0,0:08:04.22,0:08:05.04,Default,,0,0,0,,Yes
+Dialogue: 0,0:08:05.04,0:08:07.87,Default,,0,0,0,,Not only was it bad, wrong, and guilty
+Dialogue: 0,0:08:07.87,0:08:08.60,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:08:08.62,0:08:11.43,Default,,0,0,0,,But it's sinful on top of it, you know
+Dialogue: 0,0:08:11.43,0:08:12.19,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:08:12.19,0:08:15.60,Default,,0,0,0,,Yeah, so then you could begin to get more sophisticated
+Dialogue: 0,0:08:15.60,0:08:17.12,Default,,0,0,0,,About what is sinful
+Dialogue: 0,0:08:17.12,0:08:21.37,Default,,0,0,0,,And begin to see that guilt is really self-indulgence
+Dialogue: 0,0:08:21.37,0:08:22.79,Default,,0,0,0,,Oh
+Dialogue: 0,0:08:22.79,0:08:24.49,Default,,0,0,0,,So you can stop feeling guilty
+Dialogue: 0,0:08:24.49,0:08:30.97,Default,,0,0,0,,And start feeling guilty about the fact that your guilt is self-indulgent
+Dialogue: 0,0:08:30.97,0:08:34.87,Default,,0,0,0,,Get the juice out
+Dialogue: 0,0:08:34.87,0:08:37.35,Default,,0,0,0,,Well, it's really narcissistic, isn't guilt?
+Dialogue: 0,0:08:37.35,0:08:39.04,Default,,0,0,0,,Guilt is really wallowing in narcissism
+Dialogue: 0,0:08:39.04,0:08:40.00,Default,,0,0,0,,Yeah
+Dialogue: 0,0:08:40.02,0:08:41.59,Default,,0,0,0,,Oh, wicked, wicked me
+Dialogue: 0,0:08:41.59,0:08:46.45,Default,,0,0,0,,So who's the main person on stage there?
+Dialogue: 0,0:08:46.61,0:08:47.30,Default,,0,0,0,,It's me
+Dialogue: 0,0:08:47.30,0:08:48.33,Default,,0,0,0,,Oh, I see
+Dialogue: 0,0:08:48.33,0:08:51.09,Default,,0,0,0,,Oh, me made the mistake
+Dialogue: 0,0:08:51.09,0:08:52.21,Default,,0,0,0,,Me is guilty
+Dialogue: 0,0:08:52.21,0:08:53.04,Default,,0,0,0,,Me is
+Dialogue: 0,0:08:53.04,0:08:55.14,Default,,0,0,0,,I'm the bad person
+Dialogue: 0,0:08:55.14,0:08:56.07,Default,,0,0,0,,It's the big me
+Dialogue: 0,0:08:56.07,0:08:57.99,Default,,0,0,0,,So, yeah, capital M-E
+Dialogue: 0,0:08:57.99,0:08:59.11,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:08:59.11,0:09:01.83,Default,,0,0,0,,Is center stage again
+Dialogue: 0,0:09:01.83,0:09:03.92,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:09:03.92,0:09:07.66,Default,,0,0,0,,You can see how the narcissistic ego
+Dialogue: 0,0:09:07.66,0:09:10.49,Default,,0,0,0,,Loves to wallow in sin
+Dialogue: 0,0:09:10.49,0:09:12.76,Default,,0,0,0,,You know, remember the flagellates
+Dialogue: 0,0:09:12.76,0:09:15.57,Default,,0,0,0,,And the mortification
+Dialogue: 0,0:09:15.57,0:09:19.33,Default,,0,0,0,,And all this kind of stuff you go through
+Dialogue: 0,0:09:19.33,0:09:24.76,Default,,0,0,0,,Well, what's the difference between guilt and shame?
+Dialogue: 0,0:09:26.65,0:09:29.94,Default,,0,0,0,,Shame we get from society, you see
+Dialogue: 0,0:09:29.94,0:09:30.77,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:09:30.77,0:09:34.60,Default,,0,0,0,,Yeah, and the guilty one, if they're not careful
+Dialogue: 0,0:09:34.60,0:09:36.25,Default,,0,0,0,,Gets expelled from society
+Dialogue: 0,0:09:36.25,0:09:41.13,Default,,0,0,0,,So shame, in a way, is you're expelled from society
+Dialogue: 0,0:09:41.13,0:09:41.82,Default,,0,0,0,,You're expelled from society
+Dialogue: 0,0:09:41.84,0:09:42.96,Default,,0,0,0,,You're expelled from the group
+Dialogue: 0,0:09:42.96,0:09:47.08,Default,,0,0,0,,You're sent off and it's really a banishment
+Dialogue: 0,0:09:47.08,0:09:47.72,Default,,0,0,0,,Okay
+Dialogue: 0,0:09:47.72,0:09:53.36,Default,,0,0,0,,Shame is really banishment from integrous company
+Dialogue: 0,0:09:53.36,0:09:56.58,Default,,0,0,0,,You know, you should be ashamed of yourself showing around here
+Dialogue: 0,0:09:56.58,0:10:00.65,Default,,0,0,0,,It's banishment
+Dialogue: 0,0:10:00.65,0:10:03.72,Default,,0,0,0,,In the unconscious, banishment means death
+Dialogue: 0,0:10:03.72,0:10:08.74,Default,,0,0,0,,Because the only way you survived over evolutionary time
+Dialogue: 0,0:10:08.74,0:10:12.65,Default,,0,0,0,,Was belonging to a family, belonging to a tribe, etc
+Dialogue: 0,0:10:13.12,0:10:13.89,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:10:13.89,0:10:16.55,Default,,0,0,0,,So if you violated the mores of the group
+Dialogue: 0,0:10:16.55,0:10:19.24,Default,,0,0,0,,And became banished, that was the sentence to death
+Dialogue: 0,0:10:19.24,0:10:22.25,Default,,0,0,0,,Because nobody in those, you know, you couldn't survive very long
+Dialogue: 0,0:10:22.25,0:10:24.96,Default,,0,0,0,,In the wilderness all by yourself
+Dialogue: 0,0:10:24.96,0:10:25.53,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:10:25.53,0:10:30.75,Default,,0,0,0,,It's only by group dynamics that a society evolves
+Dialogue: 0,0:10:30.75,0:10:34.79,Default,,0,0,0,,So banishment really meant death in a way
+Dialogue: 0,0:10:34.79,0:10:41.55,Default,,0,0,0,,Yeah, so if a wolf pack banishes a bad wolf
+Dialogue: 0,0:10:41.55,0:10:44.00,Default,,0,0,0,,He's banished really to die
+Dialogue: 0,0:10:44.00,0:10:44.08,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:10:44.08,0:10:44.17,Default,,0,0,0,,Yeah, so if a wolf pack banishes a bad wolf, he's banished really to die
+Dialogue: 0,0:10:44.17,0:10:44.27,Default,,0,0,0,,Yeah, so if a wolf pack banishes a bad wolf, he's banished really to die
+Dialogue: 0,0:10:44.27,0:10:48.89,Default,,0,0,0,,So churches, when they excommunicate people, it's pretty serious
+Dialogue: 0,0:10:48.89,0:10:52.12,Default,,0,0,0,,Yeah, excommunication
+Dialogue: 0,0:10:52.12,0:10:53.01,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:10:53.01,0:10:55.95,Default,,0,0,0,,That's the unforgivable
+Dialogue: 0,0:10:55.95,0:10:57.12,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:10:57.12,0:11:00.98,Default,,0,0,0,,Well, I think Jesus' teachings is much better, you know
+Dialogue: 0,0:11:00.98,0:11:01.84,Default,,0,0,0,,Yeah
+Dialogue: 0,0:11:01.84,0:11:06.41,Default,,0,0,0,,I like his better
+Dialogue: 0,0:11:06.41,0:11:09.96,Default,,0,0,0,,Forgive that you may be forgiven, you know
+Dialogue: 0,0:11:09.96,0:11:10.37,Default,,0,0,0,,Forgive
+Dialogue: 0,0:11:10.37,0:11:16.01,Default,,0,0,0,,As I forgive others, I earn the right to be forgiven myself
+Dialogue: 0,0:11:17.75,0:11:26.14,Default,,0,0,0,,So you look at letting go of guilt as a form of worshiping God
+Dialogue: 0,0:11:26.14,0:11:29.12,Default,,0,0,0,,If you really love God, then you stop berating
+Dialogue: 0,0:11:29.12,0:11:33.11,Default,,0,0,0,,After all, you are a creation of God, a creature of God
+Dialogue: 0,0:11:33.11,0:11:33.69,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:11:33.69,0:11:38.19,Default,,0,0,0,,So you stop punishing one of God's creatures
+Dialogue: 0,0:11:38.19,0:11:42.12,Default,,0,0,0,,So you can turn that benign viewpoint, see?
+Dialogue: 0,0:11:42.95,0:11:43.28,Default,,0,0,0,,Okay
+Dialogue: 0,0:11:43.28,0:11:45.71,Default,,0,0,0,,So this morning was interesting
+Dialogue: 0,0:11:45.71,0:11:47.49,Default,,0,0,0,,As I talked about George Soros
+Dialogue: 0,0:11:47.49,0:11:47.66,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:11:47.66,0:11:56.25,Default,,0,0,0,,I felt this surge of positive agape kind of love surge up about George
+Dialogue: 0,0:11:56.25,0:11:56.58,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:11:56.58,0:11:58.44,Default,,0,0,0,,I actually felt a love for him
+Dialogue: 0,0:11:58.44,0:12:01.64,Default,,0,0,0,,And I thought, poor George
+Dialogue: 0,0:12:01.64,0:12:05.75,Default,,0,0,0,,I saw him as lovable
+Dialogue: 0,0:12:05.75,0:12:08.50,Default,,0,0,0,,You know, not through my intellect, not through reason or anything
+Dialogue: 0,0:12:08.50,0:12:10.98,Default,,0,0,0,,But a surge of lovability
+Dialogue: 0,0:12:10.98,0:12:14.60,Default,,0,0,0,,A gray-haired old man trying to do the best he can
+Dialogue: 0,0:12:14.60,0:12:15.60,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:12:15.60,0:12:18.67,Default,,0,0,0,,And, you know, whatever you might think about him
+Dialogue: 0,0:12:18.67,0:12:19.03,Default,,0,0,0,,Et cetera
+Dialogue: 0,0:12:19.03,0:12:22.12,Default,,0,0,0,,But just as a fellow human being
+Dialogue: 0,0:12:22.12,0:12:26.63,Default,,0,0,0,,Struggling to do whatever he perceives at the given moment
+Dialogue: 0,0:12:26.63,0:12:28.98,Default,,0,0,0,,As being beneficial to the world, et cetera
+Dialogue: 0,0:12:28.98,0:12:31.01,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:12:31.01,0:12:32.10,Default,,0,0,0,,Well, when
+Dialogue: 0,0:12:32.10,0:12:32.84,Default,,0,0,0,,Uh-huh
+Dialogue: 0,0:12:32.84,0:12:36.20,Default,,0,0,0,,For instance, some teachings, you know, of course
+Dialogue: 0,0:12:36.20,0:12:38.00,Default,,0,0,0,,They have the Ten Commandments
+Dialogue: 0,0:12:38.00,0:12:40.00,Default,,0,0,0,,And if you break one, you know it's a sin
+Dialogue: 0,0:12:40.00,0:12:43.36,Default,,0,0,0,,And then you have the guilt of breaking that Ten Commandments
+Dialogue: 0,0:12:43.36,0:12:43.51,Default,,0,0,0,,Yeah, yeah
+Dialogue: 0,0:12:43.51,0:12:44.03,Default,,0,0,0,,It's a sin
+Dialogue: 0,0:12:44.03,0:12:49.69,Default,,0,0,0,,What is the purpose of that type?
+Dialogue: 0,0:12:49.69,0:12:51.85,Default,,0,0,0,,The Commandments?
+Dialogue: 0,0:12:51.85,0:12:55.85,Default,,0,0,0,,No, what is the purpose of that type of self-punishment?
+Dialogue: 0,0:12:56.85,0:12:57.90,Default,,0,0,0,,I mean, what is the
+Dialogue: 0,0:12:57.90,0:13:01.40,Default,,0,0,0,,Not that I would break a Ten Commandment, don't get me wrong
+Dialogue: 0,0:13:01.40,0:13:10.22,Default,,0,0,0,,But I mean, what is the purpose of teaching that kind of self-punishment?
+Dialogue: 0,0:13:10.87,0:13:13.03,Default,,0,0,0,,Well, it's, you know, penance
+Dialogue: 0,0:13:13.03,0:13:19.86,Default,,0,0,0,,In other words, if you're Catholic or Episcopal
+Dialogue: 0,0:13:19.86,0:13:20.01,Default,,0,0,0,,Or something like that
+Dialogue: 0,0:13:20.03,0:13:20.24,Default,,0,0,0,,Right
+Dialogue: 0,0:13:20.24,0:13:21.58,Default,,0,0,0,,You go to confession
+Dialogue: 0,0:13:21.58,0:13:24.88,Default,,0,0,0,,And the priest listens to your confession
+Dialogue: 0,0:13:24.88,0:13:27.19,Default,,0,0,0,,And he finds out if you're really contrite
+Dialogue: 0,0:13:27.19,0:13:31.05,Default,,0,0,0,,And he gives you ten Hail Marys and ten Our Fathers
+Dialogue: 0,0:13:31.05,0:13:35.55,Default,,0,0,0,,And then he gives you absolution, right?
+Dialogue: 0,0:13:35.63,0:13:35.79,Default,,0,0,0,,Okay
+Dialogue: 0,0:13:35.79,0:13:42.00,Default,,0,0,0,,So it's psychologically, you know, psychological Freudian mechanism
+Dialogue: 0,0:13:42.00,0:13:45.09,Default,,0,0,0,,Would be called undoing, undoing
+Dialogue: 0,0:13:45.09,0:13:49.33,Default,,0,0,0,,So you undo the guilt through penance and good works
+Dialogue: 0,0:13:49.33,0:13:50.52,Default,,0,0,0,,And you undo the guilt through penance and good works
+Dialogue: 0,0:13:50.54,0:13:51.75,Default,,0,0,0,,And sincerity
+Dialogue: 0,0:13:51.75,0:13:53.37,Default,,0,0,0,,Okay
+Dialogue: 0,0:13:53.37,0:13:54.95,Default,,0,0,0,,Yeah
+Dialogue: 0,0:13:54.95,0:13:59.72,Default,,0,0,0,,So how to make the superego more benign, you know?
+Dialogue: 0,0:14:00.32,0:14:00.63,Default,,0,0,0,,Yeah
+Dialogue: 0,0:14:00.63,0:14:02.15,Default,,0,0,0,,The conscience more benign
+Dialogue: 0,0:14:02.15,0:14:07.36,Default,,0,0,0,,And in psychoanalysis, the first thing, well, first of all, I went for training about scrupulosity
+Dialogue: 0,0:14:07.36,0:14:14.39,Default,,0,0,0,,And the first thing my analyst said to me was, you know, we have to develop a more benign superego
+Dialogue: 0,0:14:14.39,0:14:17.22,Default,,0,0,0,,How can you say what you're holding in your unconscious
+Dialogue: 0,0:14:17.22,0:14:20.29,Default,,0,0,0,,If every time it comes up, you're going to beat yourself up with guilt
+Dialogue: 0,0:14:20.29,0:14:21.01,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:14:21.01,0:14:21.34,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:14:21.34,0:14:23.72,Default,,0,0,0,,So you need a more benign way of viewing
+Dialogue: 0,0:14:23.72,0:14:28.41,Default,,0,0,0,,And stop making your errors personal
+Dialogue: 0,0:14:28.41,0:14:30.88,Default,,0,0,0,,They're due to humanness
+Dialogue: 0,0:14:30.88,0:14:32.90,Default,,0,0,0,,It's a human defect, see?
+Dialogue: 0,0:14:33.59,0:14:37.85,Default,,0,0,0,,So the reason guilt is narcissistic is they say, oh, me, wicked, wicked, guilty me
+Dialogue: 0,0:14:37.85,0:14:42.26,Default,,0,0,0,,When you're really talking about a limitation inherent in mankind
+Dialogue: 0,0:14:42.26,0:14:50.27,Default,,0,0,0,,Human consciousness hasn't evolved to the level that would preclude making any error
+Dialogue: 0,0:14:50.27,0:14:51.63,Default,,0,0,0,,You would have to be omniscient
+Dialogue: 0,0:14:51.82,0:14:54.41,Default,,0,0,0,,Okay
+Dialogue: 0,0:14:54.41,0:14:57.01,Default,,0,0,0,,You'd have to be omniscient to never make a mistake, you know?
+Dialogue: 0,0:14:57.27,0:14:59.25,Default,,0,0,0,,Never put the butter in the cheese compartment
+Dialogue: 0,0:14:59.25,0:15:00.17,Default,,0,0,0,,It's not possible
+Dialogue: 0,0:15:00.17,0:15:04.64,Default,,0,0,0,,You left the refrigerator door open again
+Dialogue: 0,0:15:04.64,0:15:05.59,Default,,0,0,0,,No, not me
+Dialogue: 0,0:15:05.59,0:15:08.11,Default,,0,0,0,,The cat did it
+Dialogue: 0,0:15:08.11,0:15:12.15,Default,,0,0,0,,We're going to get a doggy
+Dialogue: 0,0:15:12.15,0:15:13.53,Default,,0,0,0,,We can blame things on the dog
+Dialogue: 0,0:15:13.53,0:15:14.20,Default,,0,0,0,,That'll be handy
+Dialogue: 0,0:15:14.20,0:15:14.74,Default,,0,0,0,,Yeah
+Dialogue: 0,0:15:14.74,0:15:15.91,Default,,0,0,0,,Yeah, it'd be his fault
+Dialogue: 0,0:15:15.91,0:15:19.62,Default,,0,0,0,,The dog did it
+Dialogue: 0,0:15:19.62,0:15:24.32,Default,,0,0,0,,The bird's already paid its price
+Dialogue: 0,0:15:24.70,0:15:28.14,Default,,0,0,0,,All right, so you make a resolution
+Dialogue: 0,0:15:28.14,0:15:36.38,Default,,0,0,0,,That I will stop indulging in the narcissistic self-aggrandizement of guilt
+Dialogue: 0,0:15:36.38,0:15:41.84,Default,,0,0,0,,Instead, I will be towards myself the same as I am
+Dialogue: 0,0:15:41.84,0:15:44.01,Default,,0,0,0,,Towards all living things
+Dialogue: 0,0:15:44.01,0:15:46.29,Default,,0,0,0,,And that is with benign goodwill
+Dialogue: 0,0:15:46.29,0:15:53.28,Default,,0,0,0,,I will turn benign goodwill and realize that the limitations of being human
+Dialogue: 0,0:15:53.28,0:15:56.02,Default,,0,0,0,,So in other words, when you do something, you're not going to be able to do it
+Dialogue: 0,0:15:56.04,0:15:59.83,Default,,0,0,0,,When you do something that's, say, not quite ethical or whatever
+Dialogue: 0,0:15:59.83,0:16:01.04,Default,,0,0,0,,I'm trying
+Dialogue: 0,0:16:01.04,0:16:04.99,Default,,0,0,0,,I have a specific thing in mind that I'm thinking of that happened in childhood
+Dialogue: 0,0:16:04.99,0:16:07.35,Default,,0,0,0,,So if you do something to another person
+Dialogue: 0,0:16:07.35,0:16:10.71,Default,,0,0,0,,And you feel guilt about that
+Dialogue: 0,0:16:10.71,0:16:17.86,Default,,0,0,0,,And yet, eventually, it seems like you realize that it was just not
+Dialogue: 0,0:16:17.86,0:16:20.44,Default,,0,0,0,,It wasn't that you intentionally did it
+Dialogue: 0,0:16:20.44,0:16:22.20,Default,,0,0,0,,It was just that you were naive
+Dialogue: 0,0:16:22.20,0:16:26.12,Default,,0,0,0,,And didn't realize that that was actually going to hurt someone else
+Dialogue: 0,0:16:26.13,0:16:28.75,Default,,0,0,0,,As feelings or hurt them as a person
+Dialogue: 0,0:16:28.75,0:16:30.50,Default,,0,0,0,,So, you know, there's certain
+Dialogue: 0,0:16:30.50,0:16:32.91,Default,,0,0,0,,In a way, I can understand what you're saying
+Dialogue: 0,0:16:32.91,0:16:34.20,Default,,0,0,0,,That it's almost like
+Dialogue: 0,0:16:34.20,0:16:39.67,Default,,0,0,0,,There's also a learning process involved in some guilt, too
+Dialogue: 0,0:16:39.67,0:16:42.98,Default,,0,0,0,,In other words, you learn never to do that again
+Dialogue: 0,0:16:42.98,0:16:45.63,Default,,0,0,0,,You have to ask who made the mistake in the first place
+Dialogue: 0,0:16:45.63,0:16:49.10,Default,,0,0,0,,Was it the child, the adult, or the parent in you, see?
+Dialogue: 0,0:16:49.95,0:16:52.35,Default,,0,0,0,,And, of course, what really feels worse is the parent
+Dialogue: 0,0:16:52.35,0:16:56.00,Default,,0,0,0,,Because if you've made somebody wrong for something
+Dialogue: 0,0:16:56.00,0:16:56.62,Default,,0,0,0,,And then later discuss it
+Dialogue: 0,0:16:56.85,0:16:58.45,Default,,0,0,0,,And then you discover that they actually didn't do it
+Dialogue: 0,0:16:58.45,0:17:00.14,Default,,0,0,0,,Oh, wow, I mean, that is a
+Dialogue: 0,0:17:00.14,0:17:02.80,Default,,0,0,0,,Now you're really hung up
+Dialogue: 0,0:17:02.80,0:17:07.36,Default,,0,0,0,,You know, because you've now injured another human being
+Dialogue: 0,0:17:07.36,0:17:12.67,Default,,0,0,0,,So you try to be as benign as you can in your viewpoint of life
+Dialogue: 0,0:17:12.67,0:17:20.50,Default,,0,0,0,,And then give yourself the same opportunity to be loved and cared for
+Dialogue: 0,0:17:20.50,0:17:26.81,Default,,0,0,0,,You see, because the crooked tree is just as loved by God as the symmetrical tree, is it not?
+Dialogue: 0,0:17:26.81,0:17:27.33,Default,,0,0,0,,You see?
+Dialogue: 0,0:17:27.74,0:17:31.46,Default,,0,0,0,,There's nothing wrong with having a few knots in your branches
+Dialogue: 0,0:17:31.46,0:17:40.97,Default,,0,0,0,,Hmm, interesting
+Dialogue: 0,0:17:40.97,0:17:43.56,Default,,0,0,0,,Well, some people will never make a mistake
+Dialogue: 0,0:17:43.56,0:17:45.50,Default,,0,0,0,,It's because they don't do anything in the world
+Dialogue: 0,0:17:45.50,0:17:53.22,Default,,0,0,0,,Well, that's what I'm saying
+Dialogue: 0,0:17:53.22,0:17:57.55,Default,,0,0,0,,You can learn from some errors, you know
+Dialogue: 0,0:17:57.55,0:17:58.94,Default,,0,0,0,,And then, but those are the things that you can learn from
+Dialogue: 0,0:17:58.96,0:18:03.33,Default,,0,0,0,,Those errors, you know, I chose this, not that
+Dialogue: 0,0:18:03.33,0:18:09.38,Default,,0,0,0,,In other words, that one error might guide you towards a better understanding later
+Dialogue: 0,0:18:09.38,0:18:10.57,Default,,0,0,0,,Yes, yeah, it's a karmic involvement
+Dialogue: 0,0:18:10.57,0:18:17.73,Default,,0,0,0,,So sometimes I think that an incident makes you a better person
+Dialogue: 0,0:18:17.73,0:18:19.97,Default,,0,0,0,,Even though at the time you felt terrible about it
+Dialogue: 0,0:18:19.97,0:18:22.65,Default,,0,0,0,,Yeah, at the time you wish you hadn't gone through it
+Dialogue: 0,0:18:22.65,0:18:23.04,Default,,0,0,0,,Right
+Dialogue: 0,0:18:23.04,0:18:26.50,Default,,0,0,0,,But I think you end up more benevolent in the end
+Dialogue: 0,0:18:26.50,0:18:27.58,Default,,0,0,0,,More benevolent
+Dialogue: 0,0:18:27.58,0:18:28.00,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:18:28.00,0:18:29.28,Default,,0,0,0,,About your own beliefs and beliefs
+Dialogue: 0,0:18:29.30,0:18:32.08,Default,,0,0,0,,The limitation of your own humanness as well as everyone else
+Dialogue: 0,0:18:32.08,0:18:32.41,Default,,0,0,0,,Right
+Dialogue: 0,0:18:32.41,0:18:35.99,Default,,0,0,0,,Well, in other words, you say, oh, I won't do that, you know
+Dialogue: 0,0:18:35.99,0:18:39.43,Default,,0,0,0,,Or things that were done to you that weren't your fault or whatever it was
+Dialogue: 0,0:18:39.43,0:18:39.76,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:18:39.76,0:18:42.50,Default,,0,0,0,,But you say, oh, I wouldn't do that to another person
+Dialogue: 0,0:18:42.50,0:18:46.15,Default,,0,0,0,,Because I know how that feels on the other end, you know, so
+Dialogue: 0,0:18:46.15,0:18:50.67,Default,,0,0,0,,We try not to make the mistake of false
+Dialogue: 0,0:18:50.67,0:18:52.56,Default,,0,0,0,,Accusations
+Dialogue: 0,0:18:52.56,0:18:53.26,Default,,0,0,0,,Yes, right
+Dialogue: 0,0:18:53.26,0:18:54.50,Default,,0,0,0,,We try very hard not to
+Dialogue: 0,0:18:54.50,0:18:57.28,Default,,0,0,0,,Because we know how painful it is if we make a mistake
+Dialogue: 0,0:18:57.28,0:18:58.02,Default,,0,0,0,,Right
+Dialogue: 0,0:18:58.02,0:18:58.17,Default,,0,0,0,,Right
+Dialogue: 0,0:18:58.17,0:18:59.28,Default,,0,0,0,,But sometimes those things are not
+Dialogue: 0,0:18:59.30,0:19:03.04,Default,,0,0,0,,You have to experience them in order to know not to do them
+Dialogue: 0,0:19:03.04,0:19:05.50,Default,,0,0,0,,Well, that's the whole learning mechanism
+Dialogue: 0,0:19:05.50,0:19:11.00,Default,,0,0,0,,So if the karmic purpose of human life, you know, is the evolution of consciousness
+Dialogue: 0,0:19:11.00,0:19:15.33,Default,,0,0,0,,And every time we've done the arm on it, we get, yes, that is the purpose of human life
+Dialogue: 0,0:19:15.33,0:19:19.28,Default,,0,0,0,,Is to undo negative karma and gain positive karma
+Dialogue: 0,0:19:19.28,0:19:19.89,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:19:19.89,0:19:24.40,Default,,0,0,0,,Then turning that which is negative into something which is positive
+Dialogue: 0,0:19:24.40,0:19:26.85,Default,,0,0,0,,Is one of the reasons we're here, you know
+Dialogue: 0,0:19:26.85,0:19:27.31,Default,,0,0,0,,Okay
+Dialogue: 0,0:19:27.31,0:19:28.40,Default,,0,0,0,,One of the reasons we're here
+Dialogue: 0,0:19:28.40,0:19:29.70,Default,,0,0,0,,So
+Dialogue: 0,0:19:29.75,0:19:34.64,Default,,0,0,0,,There's probably a lot of people in hell because they condemn themselves to hell, see
+Dialogue: 0,0:19:34.64,0:19:38.25,Default,,0,0,0,,They condemn themselves to hell
+Dialogue: 0,0:19:38.25,0:19:43.33,Default,,0,0,0,,And somebody has to tell them when enough suffering is enough
+Dialogue: 0,0:19:43.33,0:19:46.90,Default,,0,0,0,,How much suffering does it take to undo one error?
+Dialogue: 0,0:19:48.10,0:19:51.75,Default,,0,0,0,,A month of it? A year? Ten years? Lifetime? A decade?
+Dialogue: 0,0:19:52.28,0:19:52.60,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:19:52.60,0:19:57.98,Default,,0,0,0,,Like you were saying, you can remember things from childhood that bothered you for 30, 40 years
+Dialogue: 0,0:19:57.98,0:19:58.40,Default,,0,0,0,,Right
+Dialogue: 0,0:19:58.40,0:20:01.07,Default,,0,0,0,,So, you know, how long do you have to carry those burdens?
+Dialogue: 0,0:20:01.46,0:20:04.51,Default,,0,0,0,,How long would you say is enough is enough, you know?
+Dialogue: 0,0:20:05.31,0:20:07.11,Default,,0,0,0,,Depends on what it was, but I mean
+Dialogue: 0,0:20:07.11,0:20:07.75,Default,,0,0,0,,Right
+Dialogue: 0,0:20:07.75,0:20:08.38,Default,,0,0,0,,It's still
+Dialogue: 0,0:20:08.38,0:20:16.40,Default,,0,0,0,,What part of that is the ego juicing it and what part of that is actual
+Dialogue: 0,0:20:16.40,0:20:17.74,Default,,0,0,0,,Right, yeah, is real
+Dialogue: 0,0:20:17.74,0:20:18.50,Default,,0,0,0,,Real
+Dialogue: 0,0:20:18.50,0:20:25.70,Default,,0,0,0,,Well, Buddhism tends to define guilt as self-indulgence, egoistic, narcissistic
+Dialogue: 0,0:20:25.70,0:20:30.78,Default,,0,0,0,,Oh me, me, oh horrible me, how could me make that mistake?
+Dialogue: 0,0:20:30.78,0:20:32.39,Default,,0,0,0,,What's me gonna do about me?
+Dialogue: 0,0:20:32.82,0:20:33.52,Default,,0,0,0,,It's all about me
+Dialogue: 0,0:20:33.52,0:20:39.35,Default,,0,0,0,,So Buddhism tends to view guilt as narcissistic self-indulgence, frankly
+Dialogue: 0,0:20:39.35,0:20:45.29,Default,,0,0,0,,So it's best that if we make a mistake, acknowledge it and move on
+Dialogue: 0,0:20:45.29,0:20:46.90,Default,,0,0,0,,That's what you do
+Dialogue: 0,0:20:46.90,0:20:52.59,Default,,0,0,0,,And also, there isn't any personal I that did that in the first place
+Dialogue: 0,0:20:52.59,0:20:58.72,Default,,0,0,0,,So as you become a Buddha yourself, you see, it's just an illusion that there was a personal separate I
+Dialogue: 0,0:20:58.72,0:21:02.11,Default,,0,0,0,,That did this or did that, you see, that's all
+Dialogue: 0,0:21:02.11,0:21:02.98,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:21:02.98,0:21:04.64,Default,,0,0,0,,Hyperbole, it's all hyperbole
+Dialogue: 0,0:21:04.64,0:21:08.27,Default,,0,0,0,,It's all exaggeration and
+Dialogue: 0,0:21:08.27,0:21:12.83,Default,,0,0,0,,Well, we were saying this morning that things happen as a result of emergence
+Dialogue: 0,0:21:12.83,0:21:14.33,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:21:14.33,0:21:23.59,Default,,0,0,0,,The consciousness itself, by your alignment, there's powerful attractor fields that dominate lesser powerful fields
+Dialogue: 0,0:21:23.59,0:21:26.68,Default,,0,0,0,,Which dominate lesser powerful fields
+Dialogue: 0,0:21:26.68,0:21:35.28,Default,,0,0,0,,So something may escape all of them, you see, and still erupt
+Dialogue: 0,0:21:35.28,0:21:36.28,Default,,0,0,0,,Don't forget we have a left...
+Dialogue: 0,0:21:36.32,0:21:37.32,Default,,0,0,0,,Right brain and a right brain
+Dialogue: 0,0:21:37.32,0:21:42.57,Default,,0,0,0,,So if we were meant to be angels in this realm, we would only have right brain
+Dialogue: 0,0:21:42.57,0:21:44.61,Default,,0,0,0,,The left brain is very much an animal
+Dialogue: 0,0:21:44.61,0:21:50.80,Default,,0,0,0,,So anything I look at to forgive myself is almost always the animal
+Dialogue: 0,0:21:50.80,0:21:51.30,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:21:51.30,0:21:53.50,Default,,0,0,0,,It's the animal that wants to be first in line
+Dialogue: 0,0:21:53.50,0:21:55.41,Default,,0,0,0,,It's the animal that wants all the attention
+Dialogue: 0,0:21:55.41,0:21:59.02,Default,,0,0,0,,It's the animal that wants the land share
+Dialogue: 0,0:21:59.02,0:22:01.65,Default,,0,0,0,,It's almost always the animal
+Dialogue: 0,0:22:01.65,0:22:03.01,Default,,0,0,0,,Okay
+Dialogue: 0,0:22:03.01,0:22:07.42,Default,,0,0,0,,The spiritual self would only make an error out of ignorance, let's say
+Dialogue: 0,0:22:07.51,0:22:08.51,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:22:08.51,0:22:15.51,Default,,0,0,0,,But the human self is that the left brain animal arises
+Dialogue: 0,0:22:15.51,0:22:18.51,Default,,0,0,0,,The animal instinct, the amygdala dominates
+Dialogue: 0,0:22:18.51,0:22:23.51,Default,,0,0,0,,And then the superego is brought in out of guilt that your animal got away with you
+Dialogue: 0,0:22:23.51,0:22:28.71,Default,,0,0,0,,So then you have to get acquainted with your animal and acknowledge that your animal's there
+Dialogue: 0,0:22:28.71,0:22:34.71,Default,,0,0,0,,And although your animal causes you a lot of problems, if it wasn't for your animal, you probably wouldn't be alive
+Dialogue: 0,0:22:34.71,0:22:35.93,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:22:35.93,0:22:43.93,Default,,0,0,0,,So we could acknowledge the animal in us instead of denying it
+Dialogue: 0,0:22:43.93,0:22:45.93,Default,,0,0,0,,And say, of course you want to be first
+Dialogue: 0,0:22:45.93,0:22:51.93,Default,,0,0,0,,Of course you want to be the alpha male, the alpha female, the richest one, the leader of the pack, the dominant one
+Dialogue: 0,0:22:51.93,0:22:54.41,Default,,0,0,0,,Uh-huh
+Dialogue: 0,0:22:54.41,0:22:57.44,Default,,0,0,0,,So one way to get rid of a thing is to acknowledge it
+Dialogue: 0,0:22:57.44,0:22:59.44,Default,,0,0,0,,Not get rid of it, but subdue it
+Dialogue: 0,0:22:59.44,0:23:05.44,Default,,0,0,0,,Is to acknowledge the animal and say, okay, you could even give your animal a name
+Dialogue: 0,0:23:05.44,0:23:09.46,Default,,0,0,0,,Perky
+Dialogue: 0,0:23:09.46,0:23:11.46,Default,,0,0,0,,Okay, Perky, I hear you
+Dialogue: 0,0:23:11.46,0:23:13.46,Default,,0,0,0,,Of course you want to be the winner
+Dialogue: 0,0:23:13.46,0:23:16.46,Default,,0,0,0,,Of course you want to be, of course you want to win the beauty contest
+Dialogue: 0,0:23:16.46,0:23:19.46,Default,,0,0,0,,Of course you want to be rich and famous and be in Hollywood
+Dialogue: 0,0:23:19.46,0:23:26.53,Default,,0,0,0,,That dominates the thinking of millions and millions of people, doesn't it?
+Dialogue: 0,0:23:26.53,0:23:27.53,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:23:27.53,0:23:32.53,Default,,0,0,0,,You watch television, it's just the same theme over and over and over again
+Dialogue: 0,0:23:32.53,0:23:38.11,Default,,0,0,0,,Seduction, money, dominance, territory
+Dialogue: 0,0:23:38.11,0:23:39.75,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:23:39.75,0:23:41.75,Default,,0,0,0,,And being on camera
+Dialogue: 0,0:23:41.75,0:23:43.75,Default,,0,0,0,,Oh, on camera, be on camera
+Dialogue: 0,0:23:43.75,0:23:49.75,Default,,0,0,0,,People do anything to be on camera
+Dialogue: 0,0:23:49.75,0:23:55.03,Default,,0,0,0,,So that's the me, me, me of the narcissistic ego
+Dialogue: 0,0:23:55.03,0:24:00.07,Default,,0,0,0,,So I think you've got to realize there's an animal in you and get acquainted with this animal
+Dialogue: 0,0:24:00.07,0:24:01.07,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:24:01.07,0:24:04.07,Default,,0,0,0,,Instead of turning it into an enemy, turn it into a pet
+Dialogue: 0,0:24:04.07,0:24:07.07,Default,,0,0,0,,Oh, yes, with Snooki, I hear you
+Dialogue: 0,0:24:07.07,0:24:09.07,Default,,0,0,0,,I know you want to be on the center stage
+Dialogue: 0,0:24:09.07,0:24:12.07,Default,,0,0,0,,Oh, Snooki, I know you want to win that free trip to Florida
+Dialogue: 0,0:24:12.07,0:24:13.07,Default,,0,0,0,,Uh-huh
+Dialogue: 0,0:24:13.07,0:24:17.40,Default,,0,0,0,,Bathe on the beach with the cameras going, of course
+Dialogue: 0,0:24:21.58,0:24:23.58,Default,,0,0,0,,So I think there's a good technique
+Dialogue: 0,0:24:23.58,0:24:28.20,Default,,0,0,0,,Is, first of all, recognize the animal
+Dialogue: 0,0:24:28.20,0:24:29.20,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:24:29.20,0:24:31.20,Default,,0,0,0,,It has all the animal instincts
+Dialogue: 0,0:24:31.20,0:24:33.20,Default,,0,0,0,,And then give your animal a name
+Dialogue: 0,0:24:33.20,0:24:38.07,Default,,0,0,0,,Pick out a good name for your animal
+Dialogue: 0,0:24:38.07,0:24:43.72,Default,,0,0,0,,And then a lot of times the reason that it rises up, it wants to be acknowledged
+Dialogue: 0,0:24:43.72,0:24:44.72,Default,,0,0,0,,It doesn't want to be ignored
+Dialogue: 0,0:24:44.72,0:24:45.72,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:24:45.72,0:24:50.72,Default,,0,0,0,,It would rather be bad and get attention than be ignored
+Dialogue: 0,0:24:50.72,0:24:53.72,Default,,0,0,0,,And you'll see this with babies and very young children
+Dialogue: 0,0:24:53.72,0:24:59.14,Default,,0,0,0,,They'd rather cry and crab and create a fuss rather than be ignored
+Dialogue: 0,0:24:59.14,0:25:03.14,Default,,0,0,0,,So you just say, I hear you, I hear you, Snooki
+Dialogue: 0,0:25:03.14,0:25:09.14,Default,,0,0,0,,Somebody's stealing our microphone
+Dialogue: 0,0:25:09.14,0:25:12.77,Default,,0,0,0,,Call the police
+Dialogue: 0,0:25:12.77,0:25:14.77,Default,,0,0,0,,I guess this is, yeah
+Dialogue: 0,0:25:14.77,0:25:16.77,Default,,0,0,0,,Oh, now it's different
+Dialogue: 0,0:25:16.77,0:25:17.77,Default,,0,0,0,,Yeah
+Dialogue: 0,0:25:17.77,0:25:18.77,Default,,0,0,0,,Oh, wow
+Dialogue: 0,0:25:18.77,0:25:19.77,Default,,0,0,0,,Can you hear me better?
+Dialogue: 0,0:25:19.77,0:25:20.77,Default,,0,0,0,,Much better
+Dialogue: 0,0:25:20.77,0:25:21.77,Default,,0,0,0,,Okay
+Dialogue: 0,0:25:21.77,0:25:23.42,Default,,0,0,0,,Yeah
+Dialogue: 0,0:25:23.42,0:25:27.42,Default,,0,0,0,,So I think, what do you think about calling your animal an animal
+Dialogue: 0,0:25:27.42,0:25:31.42,Default,,0,0,0,,And acknowledging its presence and realizing that without it
+Dialogue: 0,0:25:31.42,0:25:33.42,Default,,0,0,0,,You probably wouldn't be alive to complain about it
+Dialogue: 0,0:25:33.42,0:25:36.42,Default,,0,0,0,,So we acknowledge the animal in us
+Dialogue: 0,0:25:36.42,0:25:38.42,Default,,0,0,0,,I mean, you wouldn't bother eating
+Dialogue: 0,0:25:38.42,0:25:39.42,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:25:39.42,0:25:41.86,Default,,0,0,0,,I mean, I wouldn't bother eating, you know
+Dialogue: 0,0:25:41.86,0:25:45.96,Default,,0,0,0,,You've got to stop everything and eat, sort of a nuisance, you know
+Dialogue: 0,0:25:45.96,0:25:49.17,Default,,0,0,0,,Same with sleeping
+Dialogue: 0,0:25:49.17,0:25:53.29,Default,,0,0,0,,Any physiologic body animal function, you know
+Dialogue: 0,0:25:53.29,0:25:56.32,Default,,0,0,0,,I just always have a resentment about it
+Dialogue: 0,0:25:56.32,0:25:59.32,Default,,0,0,0,,You've got to stop meditating after a certain number of hours
+Dialogue: 0,0:25:59.32,0:26:01.32,Default,,0,0,0,,Because you're falling over
+Dialogue: 0,0:26:01.32,0:26:04.83,Default,,0,0,0,,And you haven't eaten in three or four days
+Dialogue: 0,0:26:04.83,0:26:07.45,Default,,0,0,0,,Oh, yeah, you've got to do that
+Dialogue: 0,0:26:07.45,0:26:12.71,Default,,0,0,0,,Yeah, so you can follow the path of Hindu asceticism
+Dialogue: 0,0:26:12.71,0:26:16.71,Default,,0,0,0,,In the United States, they'd probably get you put in a hospital
+Dialogue: 0,0:26:16.71,0:26:22.71,Default,,0,0,0,,But you look like Ramana Maharshi, they're going to hospitalize you, frankly
+Dialogue: 0,0:26:22.71,0:26:23.71,Default,,0,0,0,,Sort of cacectic, you know
+Dialogue: 0,0:26:23.71,0:26:28.71,Default,,0,0,0,,Sort of cacectic, like two weeks from starving to death
+Dialogue: 0,0:26:28.71,0:26:30.93,Default,,0,0,0,,But that's a Hindu tradition
+Dialogue: 0,0:26:30.93,0:26:33.93,Default,,0,0,0,,And therefore, you know, you can do that there
+Dialogue: 0,0:26:33.93,0:26:37.22,Default,,0,0,0,,And get away with it
+Dialogue: 0,0:26:37.22,0:26:40.75,Default,,0,0,0,,Here, you wouldn't probably get away with it
+Dialogue: 0,0:26:40.75,0:26:45.96,Default,,0,0,0,,Hindu asceticism is an attempt to subdue this animal, you see
+Dialogue: 0,0:26:45.96,0:26:48.20,Default,,0,0,0,,Mm-hmm
+Dialogue: 0,0:26:48.20,0:26:50.20,Default,,0,0,0,,But I don't think you can really succeed
+Dialogue: 0,0:26:50.20,0:26:53.20,Default,,0,0,0,,Because whether you like it or not, you have to breathe
+Dialogue: 0,0:26:53.20,0:26:55.94,Default,,0,0,0,,And unless you can stop breathing
+Dialogue: 0,0:26:55.94,0:26:58.94,Default,,0,0,0,,You can't really subdue the animal
+Dialogue: 0,0:26:58.94,0:27:02.68,Default,,0,0,0,,The animal insists that you breathe
+Dialogue: 0,0:27:02.68,0:27:07.68,Default,,0,0,0,,So, the downside of human life is that you inherit the animal
+Dialogue: 0,0:27:07.68,0:27:09.68,Default,,0,0,0,,The protoplasmic animal
+Dialogue: 0,0:27:09.68,0:27:14.27,Default,,0,0,0,,Which has legitimate needs as well
+Dialogue: 0,0:27:14.27,0:27:18.27,Default,,0,0,0,,And you have to say, do I serve God best by starving to death
+Dialogue: 0,0:27:18.27,0:27:20.31,Default,,0,0,0,,And falling off the planet?
+Dialogue: 0,0:27:20.31,0:27:26.31,Default,,0,0,0,,Or do I serve God best by staying here and serving my fellow man?
+Dialogue: 0,0:27:26.31,0:27:32.07,Default,,0,0,0,,To just topple over and leave seems a little narcissistic
+Dialogue: 0,0:27:32.07,0:27:35.91,Default,,0,0,0,,Doesn't it?
+Dialogue: 0,0:27:35.91,0:27:40.91,Default,,0,0,0,,Well, I always thought that, you know, us teaching like we're doing
+Dialogue: 0,0:27:40.91,0:27:44.91,Default,,0,0,0,,I always thought that, oh, someday we'll get this thing where
+Dialogue: 0,0:27:44.91,0:27:46.91,Default,,0,0,0,,Okay, that's enough, you don't have to do this anymore
+Dialogue: 0,0:27:46.91,0:27:48.91,Default,,0,0,0,,But that's never come
+Dialogue: 0,0:27:48.91,0:27:50.91,Default,,0,0,0,,Do what anymore?
+Dialogue: 0,0:27:50.91,0:27:52.91,Default,,0,0,0,,Teach, you know, I always thought
+Dialogue: 0,0:27:52.91,0:27:54.91,Default,,0,0,0,,Oh, someday, you know, when it'll just say
+Dialogue: 0,0:27:54.91,0:27:57.91,Default,,0,0,0,,Oh, okay, we've done what we should and that would be it
+Dialogue: 0,0:27:57.91,0:28:00.91,Default,,0,0,0,,But it doesn't, it's like this isn't it
+Dialogue: 0,0:28:00.91,0:28:01.91,Default,,0,0,0,,It isn't ending
+Dialogue: 0,0:28:01.91,0:28:04.94,Default,,0,0,0,,Well, it's like everything you do is teaching
+Dialogue: 0,0:28:04.94,0:28:07.94,Default,,0,0,0,,The way you are, the way you hold your being
+Dialogue: 0,0:28:07.94,0:28:12.28,Default,,0,0,0,,Is teaching by example all the time
+Dialogue: 0,0:28:12.28,0:28:17.79,Default,,0,0,0,,To be cruel or to be kind
+Dialogue: 0,0:28:17.79,0:28:19.79,Default,,0,0,0,,To be loving, to be considerate
+Dialogue: 0,0:28:19.79,0:28:21.96,Default,,0,0,0,,To be thoughtful of others
+Dialogue: 0,0:28:21.96,0:28:24.96,Default,,0,0,0,,To take joy in one's existence
+Dialogue: 0,0:28:24.96,0:28:26.44,Default,,0,0,0,,Yeah
+Dialogue: 0,0:28:26.44,0:28:28.44,Default,,0,0,0,,So, everyone teaches by example
+Dialogue: 0,0:28:28.44,0:28:29.44,Default,,0,0,0,,All the time
+Dialogue: 0,0:28:29.44,0:28:32.44,Default,,0,0,0,,This is the way to be, that's the way to be
+Dialogue: 0,0:28:32.44,0:28:36.56,Default,,0,0,0,,There's a good program, remember that one about the dog whisperer?
+Dialogue: 0,0:28:36.56,0:28:37.56,Default,,0,0,0,,Oh, yeah
+Dialogue: 0,0:28:37.56,0:28:38.56,Default,,0,0,0,,Yeah, the dog whisperer
+Dialogue: 0,0:28:38.56,0:28:40.56,Default,,0,0,0,,And he does a lot of that
+Dialogue: 0,0:28:40.56,0:28:43.56,Default,,0,0,0,,Showing the dog who he is
+Dialogue: 0,0:28:43.56,0:28:45.56,Default,,0,0,0,,And therefore who they are
+Dialogue: 0,0:28:45.56,0:28:47.56,Default,,0,0,0,,And therefore how to be
+Dialogue: 0,0:28:47.56,0:28:49.56,Default,,0,0,0,,So, he's teaching the dog how to be
+Dialogue: 0,0:28:49.56,0:28:52.56,Default,,0,0,0,,How to be with the owner, you know
+Dialogue: 0,0:28:52.56,0:28:55.56,Default,,0,0,0,,And he also teaches the owner how to be with the dog
+Dialogue: 0,0:28:55.56,0:28:56.56,Default,,0,0,0,,With the dog
+Dialogue: 0,0:28:56.56,0:28:57.56,Default,,0,0,0,,Yes
+Dialogue: 0,0:28:57.56,0:28:58.56,Default,,0,0,0,,I think that's
+Dialogue: 0,0:28:58.56,0:29:00.56,Default,,0,0,0,,I think that's like almost like role playing
+Dialogue: 0,0:29:00.56,0:29:04.56,Default,,0,0,0,,So, it shows the owner how you have to be for the dog to respect you
+Dialogue: 0,0:29:04.56,0:29:05.56,Default,,0,0,0,,Right
+Dialogue: 0,0:29:05.56,0:29:07.56,Default,,0,0,0,,And because you're supposed to be the leader
+Dialogue: 0,0:29:07.56,0:29:09.59,Default,,0,0,0,,The dog looks to you to be leader
+Dialogue: 0,0:29:09.59,0:29:10.59,Default,,0,0,0,,And if you don't lead
+Dialogue: 0,0:29:10.59,0:29:14.01,Default,,0,0,0,,So, you have to accept your role
+Dialogue: 0,0:29:14.01,0:29:18.01,Default,,0,0,0,,So, we might say just being human is already a responsibility, is it not?
+Dialogue: 0,0:29:18.01,0:29:19.01,Default,,0,0,0,,Yes
+Dialogue: 0,0:29:19.01,0:29:22.01,Default,,0,0,0,,You're already a teacher just by the fact that you're here
+Dialogue: 0,0:29:22.01,0:29:26.95,Default,,0,0,0,,And whatever you do is going to influence other people by example
+Dialogue: 0,0:29:26.95,0:29:30.76,Default,,0,0,0,,So, we're always teaching
+Dialogue: 0,0:29:30.76,0:29:32.76,Default,,0,0,0,,We're always teaching whether we know it or not
+Dialogue: 0,0:29:32.76,0:29:35.11,Default,,0,0,0,,But just how we are
+Dialogue: 0,0:29:35.11,0:29:37.11,Default,,0,0,0,,Okay
+Dialogue: 0,0:29:37.11,0:29:39.11,Default,,0,0,0,,Just how we are teaches
+Dialogue: 0,0:29:39.11,0:29:41.11,Default,,0,0,0,,I mean, even when I go in there and go
+Dialogue: 0,0:29:41.11,0:29:43.11,Default,,0,0,0,,This isn't working right
+Dialogue: 0,0:29:43.11,0:29:45.11,Default,,0,0,0,,I'm still teaching
+Dialogue: 0,0:29:45.11,0:29:46.11,Default,,0,0,0,,That's it
+Dialogue: 0,0:29:46.11,0:29:48.48,Default,,0,0,0,,That's how it is
+Dialogue: 0,0:29:48.48,0:29:51.48,Default,,0,0,0,,Yeah, because we accept the child in us
+Dialogue: 0,0:29:51.48,0:29:54.85,Default,,0,0,0,,And the adult, you know
+Dialogue: 0,0:29:54.85,0:29:55.85,Default,,0,0,0,,Oh, good
+Dialogue: 0,0:29:55.85,0:29:57.85,Default,,0,0,0,,Can I look at that and just throw in a temper tantrum and get by with it?
+Dialogue: 0,0:29:57.85,0:29:59.85,Default,,0,0,0,,Well, a lot of times that's right
+Dialogue: 0,0:29:59.85,0:30:00.85,Default,,0,0,0,,Sometimes we do that with each other
+Dialogue: 0,0:30:00.85,0:30:02.85,Default,,0,0,0,,I think it's just her seven-year-old
+Dialogue: 0,0:30:02.85,0:30:05.01,Default,,0,0,0,,You have a very active seven-year-old
+Dialogue: 0,0:30:05.01,0:30:06.01,Default,,0,0,0,,And that's just her
+Dialogue: 0,0:30:10.01,0:30:12.01,Default,,0,0,0,,I'm going to get you for that one, you know
+Dialogue: 0,0:30:14.01,0:30:17.01,Default,,0,0,0,,I didn't say your seven-year-old wasn't charming
+Dialogue: 0,0:30:18.01,0:30:22.01,Default,,0,0,0,,I just said your seven-year-old sometimes dominates the field, you know
+Dialogue: 0,0:30:25.74,0:30:26.74,Default,,0,0,0,,Okay
+Dialogue: 0,0:30:26.74,0:30:29.74,Default,,0,0,0,,Well, then your adult complains about the child in you
+Dialogue: 0,0:30:29.74,0:30:31.74,Default,,0,0,0,,So, I try to side with
+Dialogue: 0,0:30:31.74,0:30:32.74,Default,,0,0,0,,Well, that's true
+Dialogue: 0,0:30:32.74,0:30:33.74,Default,,0,0,0,,Yes, that's right
+Dialogue: 0,0:30:33.74,0:30:36.74,Default,,0,0,0,,How come I ate that piece of candy, you know
+Dialogue: 0,0:30:36.74,0:30:37.74,Default,,0,0,0,,I'm feeling guilty about it
+Dialogue: 0,0:30:37.74,0:30:39.74,Default,,0,0,0,,It's just your seven-year-old, you know
+Dialogue: 0,0:30:39.74,0:30:40.74,Default,,0,0,0,,Yeah
+Dialogue: 0,0:30:40.74,0:30:42.89,Default,,0,0,0,,Yeah
+Dialogue: 0,0:30:43.89,0:30:45.89,Default,,0,0,0,,So, everyone gets a piece of candy, you know
+Dialogue: 0,0:30:48.15,0:30:49.15,Default,,0,0,0,,Yeah, that's true
+Dialogue: 0,0:30:49.15,0:30:50.15,Default,,0,0,0,,That's true
+Dialogue: 0,0:30:50.15,0:30:52.15,Default,,0,0,0,,You feel guilty over little things, you know
+Dialogue: 0,0:30:52.15,0:30:58.55,Default,,0,0,0,,Like sometimes I don't always have time to make your espresso
+Dialogue: 0,0:30:58.55,0:31:02.93,Default,,0,0,0,,We have four pots of espresso
+Dialogue: 0,0:31:02.93,0:31:04.93,Default,,0,0,0,,And he drinks it all the time
+Dialogue: 0,0:31:04.93,0:31:06.93,Default,,0,0,0,,So, sometimes it runs out
+Dialogue: 0,0:31:06.93,0:31:10.19,Default,,0,0,0,,And I'm busy doing something else
+Dialogue: 0,0:31:10.19,0:31:12.19,Default,,0,0,0,,And I don't see that it's run out, so
+Dialogue: 0,0:31:12.19,0:31:15.19,Default,,0,0,0,,And then I feel guilty that I didn't get in there and make it in time
+Dialogue: 0,0:31:15.19,0:31:17.19,Default,,0,0,0,,Now, you know, I know that's just a little thing
+Dialogue: 0,0:31:17.19,0:31:19.19,Default,,0,0,0,,But it's still, that's a guilty thing
+Dialogue: 0,0:31:19.19,0:31:21.19,Default,,0,0,0,,Then I have to go through hardship
+Dialogue: 0,0:31:28.00,0:31:30.00,Default,,0,0,0,,Yeah, his hardship is
+Dialogue: 0,0:31:30.00,0:31:32.00,Default,,0,0,0,,Susie, I'm out of coffee
+Dialogue: 0,0:31:33.00,0:31:35.00,Default,,0,0,0,,And sometimes it's really hardship
+Dialogue: 0,0:31:35.00,0:31:37.00,Default,,0,0,0,,I have to make it myself
+Dialogue: 0,0:31:42.44,0:31:48.55,Default,,0,0,0,,Yeah, but if you ever cut yourself, espresso would come out and not blood
+Dialogue: 0,0:31:53.55,0:31:54.55,Default,,0,0,0,,Yes
+Dialogue: 0,0:31:56.97,0:31:58.97,Default,,0,0,0,,He didn't say no, did he?
+Dialogue: 0,0:31:58.97,0:32:00.97,Default,,0,0,0,,That's true
+Dialogue: 0,0:32:00.97,0:32:04.39,Default,,0,0,0,,Yeah, he drinks an awful lot of it, he likes it
+Dialogue: 0,0:32:04.39,0:32:06.39,Default,,0,0,0,,Well, you sip a little espresso all day
+Dialogue: 0,0:32:06.39,0:32:09.39,Default,,0,0,0,,But it is true, sometimes it's like
+Dialogue: 0,0:32:09.39,0:32:13.39,Default,,0,0,0,,Some of those things like, well, for instance, me being guilty of not being able to make your pot
+Dialogue: 0,0:32:13.39,0:32:15.39,Default,,0,0,0,,Of espresso
+Dialogue: 0,0:32:15.39,0:32:18.39,Default,,0,0,0,,It's because I have other pressing things, see
+Dialogue: 0,0:32:18.39,0:32:22.39,Default,,0,0,0,,It isn't that I'm being neglective of your needs
+Dialogue: 0,0:32:22.39,0:32:24.39,Default,,0,0,0,,Or neglective of you
+Dialogue: 0,0:32:24.39,0:32:25.39,Default,,0,0,0,,No, I don't feel neglected
+Dialogue: 0,0:32:25.39,0:32:27.39,Default,,0,0,0,,It's just that I have pressing other
+Dialogue: 0,0:32:27.39,0:32:28.39,Default,,0,0,0,,Other things are pressing on me
+Dialogue: 0,0:32:28.39,0:32:29.39,Default,,0,0,0,,Just self-pity
+Dialogue: 0,0:32:29.39,0:32:30.39,Default,,0,0,0,,Like laundry
+Dialogue: 0,0:32:30.39,0:32:31.71,Default,,0,0,0,,Yeah
+Dialogue: 0,0:32:31.71,0:32:33.71,Default,,0,0,0,,I don't blame it on you, though
+Dialogue: 0,0:32:33.71,0:32:34.74,Default,,0,0,0,,Oh, yeah
+Dialogue: 0,0:32:34.74,0:32:37.83,Default,,0,0,0,,I don't say, well, she should have made the espresso
+Dialogue: 0,0:32:37.83,0:32:39.83,Default,,0,0,0,,I don't think that
+Dialogue: 0,0:32:39.83,0:32:40.83,Default,,0,0,0,,No
+Dialogue: 0,0:32:40.83,0:32:42.83,Default,,0,0,0,,I think I should have made it
+Dialogue: 0,0:32:42.83,0:32:43.83,Default,,0,0,0,,It's a
+Dialogue: 0,0:32:43.83,0:32:44.83,Default,,0,0,0,,Oh, okay
+Dialogue: 0,0:32:44.83,0:32:48.67,Default,,0,0,0,,Well, good, that makes me feel better
+Dialogue: 0,0:32:48.67,0:32:52.67,Default,,0,0,0,,Because I'm beating myself up because I can't get in there to do it
+Dialogue: 0,0:32:52.67,0:32:53.67,Default,,0,0,0,,See?
+Dialogue: 0,0:32:53.67,0:32:55.67,Default,,0,0,0,,You know, you understand?
+Dialogue: 0,0:32:55.67,0:33:04.96,Default,,0,0,0,,You know, we're always trying to make the other one feel better no matter what goes on
+Dialogue: 0,0:33:04.96,0:33:05.96,Default,,0,0,0,,You know what I'm saying?
+Dialogue: 0,0:33:05.96,0:33:06.96,Default,,0,0,0,,Yeah
+Dialogue: 0,0:33:06.96,0:33:08.96,Default,,0,0,0,,She stubbed her toe yesterday
+Dialogue: 0,0:33:08.96,0:33:11.96,Default,,0,0,0,,I don't feel guilty about stubbing it so you couldn't help it
+Dialogue: 0,0:33:11.96,0:33:13.96,Default,,0,0,0,,And you couldn't see where you were going
+Dialogue: 0,0:33:13.96,0:33:18.40,Default,,0,0,0,,And where's that stuff you're supposed to get in the drugstore to put on an instant cure?
+Dialogue: 0,0:33:18.40,0:33:20.40,Default,,0,0,0,,Yeah, I don't know
+Dialogue: 0,0:33:20.40,0:33:21.63,Default,,0,0,0,,Yeah
+Dialogue: 0,0:33:21.63,0:33:22.69,Default,,0,0,0,,Yeah
+Dialogue: 0,0:33:22.69,0:33:28.03,Default,,0,0,0,,So I think when people love each other, they're always trying to make the other one feel better in some way
+Dialogue: 0,0:33:28.03,0:33:31.32,Default,,0,0,0,,They're trying to alleviate each other's guilt
+Dialogue: 0,0:33:31.32,0:33:37.65,Default,,0,0,0,,And then they feel guilty if they're unable to, you know, make the other person happier
+Dialogue: 0,0:33:37.65,0:33:38.65,Default,,0,0,0,,Right, that's true
+Dialogue: 0,0:33:38.65,0:33:40.65,Default,,0,0,0,,It's not like you're obliged to
+Dialogue: 0,0:33:40.65,0:33:44.75,Default,,0,0,0,,It's just that your life becomes, you know, like
+Dialogue: 0,0:33:44.75,0:33:45.75,Default,,0,0,0,,Busy
+Dialogue: 0,0:33:45.75,0:33:46.75,Default,,0,0,0,,Yeah, busy
+Dialogue: 0,0:33:46.75,0:33:48.75,Default,,0,0,0,,And, you know, you want to share the lovingness
+Dialogue: 0,0:33:48.75,0:33:53.75,Default,,0,0,0,,Share the lovingness with the other person in all the little ways that you can, see?
+Dialogue: 0,0:33:53.75,0:33:54.75,Default,,0,0,0,,Okay
+Dialogue: 0,0:33:54.75,0:33:56.75,Default,,0,0,0,,So it's nothing to feel guilty about
+Dialogue: 0,0:33:56.75,0:33:58.75,Default,,0,0,0,,I don't want to say it's guilty
+Dialogue: 0,0:33:58.75,0:34:04.20,Default,,0,0,0,,Because you just can't fulfill every requirement of every moment
+Dialogue: 0,0:34:04.20,0:34:08.19,Default,,0,0,0,,I mean, the requirement of every moment is just sometimes so voluminous
+Dialogue: 0,0:34:08.19,0:34:12.36,Default,,0,0,0,,The mail's here, the telephone is ringing, and somebody's at the door
+Dialogue: 0,0:34:12.36,0:34:15.48,Default,,0,0,0,,In the meantime, the cat wants a refill
+Dialogue: 0,0:34:15.48,0:34:19.48,Default,,0,0,0,,And somebody left the bathroom door on top of it
+Dialogue: 0,0:34:19.48,0:34:22.48,Default,,0,0,0,,And the light running in the laundry room with the water running
+Dialogue: 0,0:34:22.48,0:34:24.48,Default,,0,0,0,,So it's your rush about
+Dialogue: 0,0:34:24.48,0:34:30.48,Default,,0,0,0,,Deciding to decide, you know, what can you do that's most profitable, you know
+Dialogue: 0,0:34:30.48,0:34:36.51,Default,,0,0,0,,But I think the joy of relationship is contributing to the other person's happiness
+Dialogue: 0,0:34:36.51,0:34:40.51,Default,,0,0,0,,That is really one of the greatest joys of it, you see?
+Dialogue: 0,0:34:40.51,0:34:46.13,Default,,0,0,0,,And alleviating guilt is one of them, I think
+Dialogue: 0,0:34:46.13,0:34:48.13,Default,,0,0,0,,Yeah, some of it, yeah
+Dialogue: 0,0:34:48.63,0:34:48.98,Default,,0,0,0,,Okay.
+Dialogue: 0,0:34:50.15,0:34:52.63,Default,,0,0,0,,So when you don't have clean socks, you're not going to yell at me?
+Dialogue: 0,0:34:53.63,0:34:53.98,Default,,0,0,0,,No.
+Dialogue: 0,0:34:54.19,0:34:55.30,Default,,0,0,0,,I just wear dirty socks.
+Dialogue: 0,0:34:55.71,0:34:56.51,Default,,0,0,0,,Or no socks.
+Dialogue: 0,0:34:59.17,0:34:59.78,Default,,0,0,0,,Okay.
+Dialogue: 0,0:35:00.51,0:35:03.15,Default,,0,0,0,,Then you'll feel guilty if I walk around with no socks.
+Dialogue: 0,0:35:04.94,0:35:07.51,Default,,0,0,0,,So I have to put dirty socks on.
+Dialogue: 0,0:35:07.63,0:35:10.57,Default,,0,0,0,,Otherwise, you would feel guilty that I don't have any socks.
+Dialogue: 0,0:35:10.63,0:35:10.98,Default,,0,0,0,,You understand?
+Dialogue: 0,0:35:11.25,0:35:12.73,Default,,0,0,0,,Yeah, I do.
+Dialogue: 0,0:35:12.94,0:35:13.69,Default,,0,0,0,,I understand.
+Dialogue: 0,0:35:14.78,0:35:15.53,Default,,0,0,0,,That's true.
+Dialogue: 0,0:35:16.03,0:35:18.32,Default,,0,0,0,,I mean, I understand both sides.
+Dialogue: 0,0:35:19.23,0:35:20.96,Default,,0,0,0,,But it is that way.
+Dialogue: 0,0:35:24.15,0:35:25.92,Default,,0,0,0,,There's some saying that says guilt is good.
+Dialogue: 0,0:35:26.11,0:35:26.71,Default,,0,0,0,,Guilt is good.
+Dialogue: 0,0:35:26.90,0:35:27.76,Default,,0,0,0,,You need more of it.
+Dialogue: 0,0:35:27.88,0:35:28.36,Default,,0,0,0,,More of it.
+Dialogue: 0,0:35:28.44,0:35:30.40,Default,,0,0,0,,And then it makes you realize how stupid it is.
+Dialogue: 0,0:35:32.19,0:35:33.11,Default,,0,0,0,,Guilt is good.
+Dialogue: 0,0:35:33.21,0:35:33.78,Default,,0,0,0,,Wallowing it.
+Dialogue: 0,0:35:33.82,0:35:34.86,Default,,0,0,0,,Oh, more, more guilt.
+Dialogue: 0,0:35:34.96,0:35:35.13,Default,,0,0,0,,More.
+Dialogue: 0,0:35:35.13,0:35:38.94,Default,,0,0,0,,So that's why you say when you feel guilty, then go with it.
+Dialogue: 0,0:35:39.28,0:35:39.96,Default,,0,0,0,,Go with it.
+Dialogue: 0,0:35:40.07,0:35:44.19,Default,,0,0,0,,And just wallow in it and say, oh, I'm horrible for not doing that.
+Dialogue: 0,0:35:45.19,0:35:45.34,Default,,0,0,0,,Right?
+Dialogue: 0,0:35:45.73,0:35:51.09,Default,,0,0,0,,Yeah, because you see the ridiculousness of it via hyperbole.
+Dialogue: 0,0:35:51.30,0:35:51.90,Default,,0,0,0,,Yeah, because then I...
+Dialogue: 0,0:35:51.90,0:35:54.63,Default,,0,0,0,,You'd be laughing and on the floor laughing about it
+Dialogue: 0,0:35:54.63,0:35:57.71,Default,,0,0,0,,because that would send me into a fit of how stupid it was.
+Dialogue: 0,0:35:58.94,0:35:59.69,Default,,0,0,0,,It would.
+Dialogue: 0,0:36:00.00,0:36:03.03,Default,,0,0,0,,I mean, when you really go that far down, you know.
+Dialogue: 0,0:36:03.96,0:36:08.48,Default,,0,0,0,,Well, there's conscious guilt in which you were consciously aware of feeling guilty.
+Dialogue: 0,0:36:09.11,0:36:11.21,Default,,0,0,0,,And then there's unconscious guilt.
+Dialogue: 0,0:36:11.21,0:36:15.44,Default,,0,0,0,,So people become unwittingly self-punitive
+Dialogue: 0,0:36:15.44,0:36:20.36,Default,,0,0,0,,and constantly put themselves in horrible situations
+Dialogue: 0,0:36:20.36,0:36:22.17,Default,,0,0,0,,out of unconscious guilt.
+Dialogue: 0,0:36:22.19,0:36:25.38,Default,,0,0,0,,So in therapy, you try to bring this up.
+Dialogue: 0,0:36:26.05,0:36:29.51,Default,,0,0,0,,You don't have to get yourself arrested for DWI all the time
+Dialogue: 0,0:36:29.51,0:36:34.86,Default,,0,0,0,,or whatever, you know, as a self-punitive measure.
+Dialogue: 0,0:36:35.36,0:36:38.48,Default,,0,0,0,,So you give people permission to feel guilty.
+Dialogue: 0,0:36:38.80,0:36:39.71,Default,,0,0,0,,Please feel guilty.
+Dialogue: 0,0:36:39.98,0:36:41.32,Default,,0,0,0,,Feel free to feel guilty
+Dialogue: 0,0:36:41.32,0:36:44.17,Default,,0,0,0,,so you don't have to go through about surreptitious ways
+Dialogue: 0,0:36:44.17,0:36:48.96,Default,,0,0,0,,to maneuver the world into being punitive towards you.
+Dialogue: 0,0:36:48.96,0:36:49.03,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:49.80,0:36:51.96,Default,,0,0,0,,I mean, look at these kids in Hollywood.
+Dialogue: 0,0:36:52.57,0:36:55.26,Default,,0,0,0,,They're constantly jumping in their car, right with the camera going.
+Dialogue: 0,0:36:56.17,0:36:57.82,Default,,0,0,0,,Their license has been suspended.
+Dialogue: 0,0:36:58.03,0:37:00.80,Default,,0,0,0,,They're due in the court three hours ago.
+Dialogue: 0,0:37:01.05,0:37:06.09,Default,,0,0,0,,And there they are in front of the cameras getting into their car and driving off, you know.
+Dialogue: 0,0:37:07.44,0:37:11.11,Default,,0,0,0,,Just asking the world to please punish me, please punish me,
+Dialogue: 0,0:37:11.21,0:37:12.84,Default,,0,0,0,,please arrest me, please do something.
+Dialogue: 0,0:37:13.55,0:37:14.30,Default,,0,0,0,,Yeah, that's true.
+Dialogue: 0,0:37:14.46,0:37:14.69,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:15.96,0:37:22.59,Default,,0,0,0,,So in other words, then, you know, someone like, well, who we're thinking of,
+Dialogue: 0,0:37:23.59,0:37:28.19,Default,,0,0,0,,would be, it's almost a cry for help, then, when they get to that point.
+Dialogue: 0,0:37:28.78,0:37:30.50,Default,,0,0,0,,That's what we call it psychologically.
+Dialogue: 0,0:37:30.80,0:37:34.63,Default,,0,0,0,,It's a cry for help that they're so vanquished by guilt and helplessness
+Dialogue: 0,0:37:34.63,0:37:37.71,Default,,0,0,0,,that they're in a swamp, they're in an overwhelm.
+Dialogue: 0,0:37:37.78,0:37:38.05,Default,,0,0,0,,Okay.
+Dialogue: 0,0:37:38.50,0:37:40.82,Default,,0,0,0,,You know, in psychology, they call it an overwhelm.
+Dialogue: 0,0:37:40.96,0:37:44.94,Default,,0,0,0,,It's just too many stimuli to be able to handle.
+Dialogue: 0,0:37:46.59,0:37:47.88,Default,,0,0,0,,There's kind of a jiggling here.
+Dialogue: 0,0:37:47.92,0:37:48.42,Default,,0,0,0,,I'm sorry.
+Dialogue: 0,0:37:48.90,0:37:50.46,Default,,0,0,0,,I'm trying to figure out what it is.
+Dialogue: 0,0:37:52.59,0:37:54.17,Default,,0,0,0,,So, in other words, that is.
+Dialogue: 0,0:37:54.28,0:37:55.13,Default,,0,0,0,,But that is like a cry.
+Dialogue: 0,0:37:55.15,0:37:56.78,Default,,0,0,0,,It's like a cry for help when they get that far.
+Dialogue: 0,0:37:59.38,0:38:02.96,Default,,0,0,0,,That's sometimes just sort of a beatific saying.
+Dialogue: 0,0:38:03.17,0:38:04.32,Default,,0,0,0,,It's only a cry for help.
+Dialogue: 0,0:38:05.34,0:38:07.26,Default,,0,0,0,,No, they're just rotten because they're rotten.
+Dialogue: 0,0:38:10.30,0:38:13.38,Default,,0,0,0,,They've got to get off on being rotten as possible, you know what I'm saying?
+Dialogue: 0,0:38:15.65,0:38:19.21,Default,,0,0,0,,You don't have to go to that extreme to get a cry for help.
+Dialogue: 0,0:38:20.36,0:38:24.03,Default,,0,0,0,,All you have to do is say, I think I'll go see my therapist tomorrow.
+Dialogue: 0,0:38:26.00,0:38:26.19,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:38:27.05,0:38:28.88,Default,,0,0,0,,You don't have to commit a crime.
+Dialogue: 0,0:38:28.88,0:38:28.96,Default,,0,0,0,,You don't have to commit a crime.
+Dialogue: 0,0:38:28.96,0:38:29.05,Default,,0,0,0,,You don't have to commit a crime.
+Dialogue: 0,0:38:29.05,0:38:34.01,Default,,0,0,0,,So you'd be arrested so that, you know, sometimes I think those are subterfuges
+Dialogue: 0,0:38:34.01,0:38:38.01,Default,,0,0,0,,that people will invent and project onto the person, you know?
+Dialogue: 0,0:38:38.23,0:38:44.84,Default,,0,0,0,,Okay, so what I'm getting from all this is guilt is good if it changes behavior.
+Dialogue: 0,0:38:45.84,0:38:47.30,Default,,0,0,0,,Yeah, in a positive way.
+Dialogue: 0,0:38:47.38,0:38:47.73,Default,,0,0,0,,In a positive way.
+Dialogue: 0,0:38:47.73,0:38:51.69,Default,,0,0,0,,It makes you more conscious, more aware, more responsible.
+Dialogue: 0,0:38:52.19,0:38:54.30,Default,,0,0,0,,But for its own sake, it's a dead end.
+Dialogue: 0,0:38:54.53,0:38:54.84,Default,,0,0,0,,Right.
+Dialogue: 0,0:38:55.07,0:38:57.30,Default,,0,0,0,,For its own sake, guilt is good.
+Dialogue: 0,0:38:57.30,0:38:59.30,Default,,0,0,0,,What guilt is is not good is when...
+Dialogue: 0,0:38:59.86,0:39:09.73,Default,,0,0,0,,When you continually do the same actions, yet you do not have a better response.
+Dialogue: 0,0:39:11.07,0:39:15.32,Default,,0,0,0,,You don't have a positive response from those actions.
+Dialogue: 0,0:39:16.00,0:39:16.51,Default,,0,0,0,,Is that right?
+Dialogue: 0,0:39:16.51,0:39:22.78,Default,,0,0,0,,Yeah, the 12-step groups teaches that instead of guilt, what's called for is a decent regret.
+Dialogue: 0,0:39:23.05,0:39:26.42,Default,,0,0,0,,Bill W. said, you know, don't wallow in guilt.
+Dialogue: 0,0:39:26.42,0:39:28.69,Default,,0,0,0,,A decent regret is all that's required.
+Dialogue: 0,0:39:29.59,0:39:29.71,Default,,0,0,0,,Okay.
+Dialogue: 0,0:39:29.82,0:39:30.63,Default,,0,0,0,,So he wasn't using...
+Dialogue: 0,0:39:30.94,0:39:33.94,Default,,0,0,0,,He wasn't using the term narcissism, but that's what he was really hitting on.
+Dialogue: 0,0:39:34.42,0:39:41.59,Default,,0,0,0,,Instead of wallowing in, oh, poor me's, oh, how guilty I am, a decent regret, a decent regret.
+Dialogue: 0,0:39:41.92,0:39:43.90,Default,,0,0,0,,I'm sorry I did that.
+Dialogue: 0,0:39:43.96,0:39:45.28,Default,,0,0,0,,I won't do it that way again.
+Dialogue: 0,0:39:45.59,0:39:45.84,Default,,0,0,0,,Okay.
+Dialogue: 0,0:39:46.28,0:39:49.34,Default,,0,0,0,,And so you've turned it into a learning tool.
+Dialogue: 0,0:39:49.67,0:39:50.11,Default,,0,0,0,,Learning tool.
+Dialogue: 0,0:39:50.21,0:39:50.92,Default,,0,0,0,,Right, right, right.
+Dialogue: 0,0:39:51.21,0:39:55.57,Default,,0,0,0,,To use mistakes as a way of learning, a better way of handling things.
+Dialogue: 0,0:39:55.57,0:39:59.82,Default,,0,0,0,,So guilt is good if it's a learning tool and it changes the behavior.
+Dialogue: 0,0:40:00.01,0:40:01.11,Default,,0,0,0,,If it's converted to it.
+Dialogue: 0,0:40:01.13,0:40:01.86,Default,,0,0,0,,If it's converted to a learning tool.
+Dialogue: 0,0:40:02.11,0:40:06.50,Default,,0,0,0,,Yeah, but in and of itself, it's just a narcissistic wallowing, you know.
+Dialogue: 0,0:40:06.50,0:40:14.76,Default,,0,0,0,,But when guilt is bad is when you wallow in it and carry it with you for year after year after year without any kind of change or...
+Dialogue: 0,0:40:14.76,0:40:15.34,Default,,0,0,0,,That's right.
+Dialogue: 0,0:40:15.46,0:40:16.46,Default,,0,0,0,,I think so.
+Dialogue: 0,0:40:16.55,0:40:21.40,Default,,0,0,0,,Or resentment on doing that.
+Dialogue: 0,0:40:22.28,0:40:24.92,Default,,0,0,0,,You know, so you take positive action.
+Dialogue: 0,0:40:25.73,0:40:26.11,Default,,0,0,0,,Right.
+Dialogue: 0,0:40:26.11,0:40:29.01,Default,,0,0,0,,Yeah, so a decent regret I think is a very good...
+Dialogue: 0,0:40:29.01,0:40:29.53,Default,,0,0,0,,Right, that's what I was looking for.
+Dialogue: 0,0:40:29.53,0:40:30.11,Default,,0,0,0,,...a very good...
+Dialogue: 0,0:40:31.48,0:40:32.15,Default,,0,0,0,,...compromise.
+Dialogue: 0,0:40:32.46,0:40:32.80,Default,,0,0,0,,Okay.
+Dialogue: 0,0:40:33.82,0:40:35.32,Default,,0,0,0,,Yeah, you do regret it.
+Dialogue: 0,0:40:35.86,0:40:35.96,Default,,0,0,0,,Right.
+Dialogue: 0,0:40:36.05,0:40:39.76,Default,,0,0,0,,And it is out of decency that you have the regret.
+Dialogue: 0,0:40:40.09,0:40:40.30,Default,,0,0,0,,Right.
+Dialogue: 0,0:40:40.30,0:40:42.25,Default,,0,0,0,,If you didn't have decency, you wouldn't regret it.
+Dialogue: 0,0:40:42.38,0:40:42.86,Default,,0,0,0,,Exactly.
+Dialogue: 0,0:40:43.44,0:40:46.07,Default,,0,0,0,,I mean, the mafia doesn't feel guilty that they shoot you, you see.
+Dialogue: 0,0:40:47.09,0:40:47.42,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:40:47.59,0:40:49.09,Default,,0,0,0,,They gain status.
+Dialogue: 0,0:40:51.46,0:40:51.94,Default,,0,0,0,,So...
+Dialogue: 0,0:40:51.94,0:40:53.32,Default,,0,0,0,,Well, what about shame?
+Dialogue: 0,0:40:53.71,0:41:00.71,Default,,0,0,0,,I mean, shame is another, you know, it's another guilt tool, you know, that people use.
+Dialogue: 0,0:41:00.71,0:41:03.09,Default,,0,0,0,,Yeah, well, we said that that's a socialization.
+Dialogue: 0,0:41:03.11,0:41:03.50,Default,,0,0,0,,Right.
+Dialogue: 0,0:41:03.50,0:41:04.34,Default,,0,0,0,,It's a culturalization.
+Dialogue: 0,0:41:04.34,0:41:08.17,Default,,0,0,0,,And that can be, you know, aimed at other people or whatever, you know.
+Dialogue: 0,0:41:08.48,0:41:08.90,Default,,0,0,0,,No, use it as a...
+Dialogue: 0,0:41:08.90,0:41:11.13,Default,,0,0,0,,It's usually, shame is usually aimed at other people.
+Dialogue: 0,0:41:11.13,0:41:11.96,Default,,0,0,0,,Yeah, it's used as a...
+Dialogue: 0,0:41:11.96,0:41:14.15,Default,,0,0,0,,By one person aimed at someone else.
+Dialogue: 0,0:41:15.00,0:41:19.03,Default,,0,0,0,,We shame, well, that's because of the parental use of that.
+Dialogue: 0,0:41:19.38,0:41:22.21,Default,,0,0,0,,Shame on you so-and-so for spilling your milk.
+Dialogue: 0,0:41:23.21,0:41:23.73,Default,,0,0,0,,Oh, well.
+Dialogue: 0,0:41:24.34,0:41:24.59,Default,,0,0,0,,Yep.
+Dialogue: 0,0:41:25.17,0:41:29.23,Default,,0,0,0,,I'm thinking of other things other than parent-child relationship.
+Dialogue: 0,0:41:29.23,0:41:31.82,Default,,0,0,0,,No, I'm just thinking of its origin in the child.
+Dialogue: 0,0:41:31.82,0:41:33.38,Default,,0,0,0,,Yes, the origin is that.
+Dialogue: 0,0:41:33.38,0:41:37.07,Default,,0,0,0,,But, I mean, I'm thinking, you know, children are cruel to each other.
+Dialogue: 0,0:41:37.19,0:41:38.03,Default,,0,0,0,,They can be very nasty.
+Dialogue: 0,0:41:38.03,0:41:39.23,Default,,0,0,0,,They can be really savage.
+Dialogue: 0,0:41:39.63,0:41:40.40,Default,,0,0,0,,Very savage.
+Dialogue: 0,0:41:40.98,0:41:51.48,Default,,0,0,0,,And on top of it, what I really feel sorry for is when you're young, your whole being is being, you know, formed.
+Dialogue: 0,0:41:52.34,0:41:57.00,Default,,0,0,0,,You know, your whole perception of life and who you want to be and everything.
+Dialogue: 0,0:41:57.00,0:41:58.21,Default,,0,0,0,,And other...
+Dialogue: 0,0:41:58.21,0:42:03.00,Default,,0,0,0,,It's so sad to see how much your peer pressure...
+Dialogue: 0,0:42:03.48,0:42:10.40,Default,,0,0,0,,Can change that just by a few nasty, shameful things, you know, that can be aimed at you.
+Dialogue: 0,0:42:10.40,0:42:11.44,Default,,0,0,0,,Yeah, it can be really cruel.
+Dialogue: 0,0:42:11.59,0:42:11.84,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:42:12.07,0:42:12.34,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:42:12.90,0:42:16.73,Default,,0,0,0,,So, I mean, I'm not speaking from experience.
+Dialogue: 0,0:42:16.94,0:42:18.44,Default,,0,0,0,,I'm just saying that I've seen it done.
+Dialogue: 0,0:42:18.80,0:42:19.11,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:42:19.11,0:42:32.78,Default,,0,0,0,,And I just don't understand how any child can be that mean to another child and not have the compassion in themselves.
+Dialogue: 0,0:42:35.15,0:42:38.46,Default,,0,0,0,,Well, the animal in them hasn't become socialized as yet.
+Dialogue: 0,0:42:38.46,0:42:38.69,Default,,0,0,0,,Okay.
+Dialogue: 0,0:42:39.07,0:42:39.36,Default,,0,0,0,,Yes.
+Dialogue: 0,0:42:40.32,0:42:44.67,Default,,0,0,0,,So, in the animal world, the stronger take advantage of the weaker.
+Dialogue: 0,0:42:46.03,0:42:48.65,Default,,0,0,0,,You see, they don't give the weaker...
+Dialogue: 0,0:42:48.65,0:42:49.80,Default,,0,0,0,,Well, is it weak...
+Dialogue: 0,0:42:49.80,0:42:50.90,Default,,0,0,0,,...help because it's weaker.
+Dialogue: 0,0:42:51.23,0:42:52.67,Default,,0,0,0,,But is it weak or meek?
+Dialogue: 0,0:42:53.01,0:42:53.38,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:42:53.59,0:42:55.34,Default,,0,0,0,,Is it weak or meek?
+Dialogue: 0,0:42:55.82,0:43:01.92,Default,,0,0,0,,In other words, the stronger do they take advantage of the meeker because...
+Dialogue: 0,0:43:03.05,0:43:05.32,Default,,0,0,0,,And say, oh, they're weak, you know?
+Dialogue: 0,0:43:05.51,0:43:06.55,Default,,0,0,0,,Yes, they often do.
+Dialogue: 0,0:43:06.67,0:43:07.23,Default,,0,0,0,,I think so.
+Dialogue: 0,0:43:07.30,0:43:08.34,Default,,0,0,0,,They're just confused.
+Dialogue: 0,0:43:08.76,0:43:08.98,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:43:09.28,0:43:09.75,Default,,0,0,0,,They do.
+Dialogue: 0,0:43:10.25,0:43:15.42,Default,,0,0,0,,So, it's not that they're weak.
+Dialogue: 0,0:43:15.48,0:43:22.09,Default,,0,0,0,,It's just that they aren't going to do what other people's animals would do.
+Dialogue: 0,0:43:22.09,0:43:30.71,Default,,0,0,0,,In other words, they're like almost a higher being that they can understand that that isn't something they want to come down to that level in some children.
+Dialogue: 0,0:43:30.73,0:43:31.59,Default,,0,0,0,,They can refuse it.
+Dialogue: 0,0:43:31.71,0:43:31.86,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:43:31.94,0:43:37.23,Default,,0,0,0,,They refuse it, and so then they're mistaken for being meek because they wouldn't...
+Dialogue: 0,0:43:37.23,0:43:40.48,Default,,0,0,0,,Yeah, and when you won't join the gang to beat up the kid...
+Dialogue: 0,0:43:40.71,0:43:41.17,Default,,0,0,0,,In town.
+Dialogue: 0,0:43:41.51,0:43:41.76,Default,,0,0,0,,Right.
+Dialogue: 0,0:43:42.13,0:43:42.42,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:43:43.09,0:43:45.73,Default,,0,0,0,,When you hang back and won't join in the beat-up.
+Dialogue: 0,0:43:46.98,0:43:49.92,Default,,0,0,0,,So, what would be the karma of that?
+Dialogue: 0,0:43:50.03,0:43:51.00,Default,,0,0,0,,Would it be...
+Dialogue: 0,0:43:51.00,0:43:55.00,Default,,0,0,0,,Well, we all know it's going to be good karma if they didn't participate in something like that.
+Dialogue: 0,0:43:55.00,0:44:03.42,Default,,0,0,0,,But, I mean, you know, it's very hard sometimes, especially for boys, to live with that kind of situation when they say, I don't think that's right.
+Dialogue: 0,0:44:03.46,0:44:04.53,Default,,0,0,0,,I'm not going to do that.
+Dialogue: 0,0:44:04.98,0:44:06.48,Default,,0,0,0,,Yeah, the boy gang mentality.
+Dialogue: 0,0:44:06.65,0:44:07.00,Default,,0,0,0,,You're right.
+Dialogue: 0,0:44:07.55,0:44:08.00,Default,,0,0,0,,It's very difficult.
+Dialogue: 0,0:44:08.00,0:44:10.00,Default,,0,0,0,,You may end up being a loner because you're not going to join the...
+Dialogue: 0,0:44:11.26,0:44:12.32,Default,,0,0,0,,The boy gang culture.
+Dialogue: 0,0:44:12.36,0:44:12.55,Default,,0,0,0,,Right.
+Dialogue: 0,0:44:12.63,0:44:14.09,Default,,0,0,0,,That leads you to read books.
+Dialogue: 0,0:44:14.38,0:44:14.69,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:44:15.13,0:44:15.32,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:44:15.32,0:44:16.80,Default,,0,0,0,,I spent a lot of years reading books.
+Dialogue: 0,0:44:17.80,0:44:19.51,Default,,0,0,0,,That means you read books?
+Dialogue: 0,0:44:19.65,0:44:19.86,Default,,0,0,0,,Is that what you're saying?
+Dialogue: 0,0:44:19.86,0:44:24.67,Default,,0,0,0,,Well, I read years of reading books rather than joining that mentality.
+Dialogue: 0,0:44:25.07,0:44:25.36,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:44:26.42,0:44:32.96,Default,,0,0,0,,I wasn't into squeezing, you know, wrestling and fighting and scratching people's faces.
+Dialogue: 0,0:44:33.23,0:44:33.32,Default,,0,0,0,,Right.
+Dialogue: 0,0:44:33.32,0:44:36.40,Default,,0,0,0,,And all such, like, it seems sort of stupid and boring.
+Dialogue: 0,0:44:36.57,0:44:37.55,Default,,0,0,0,,You know, frankly, it was boring.
+Dialogue: 0,0:44:37.90,0:44:38.96,Default,,0,0,0,,There's no point to it.
+Dialogue: 0,0:44:39.98,0:44:41.53,Default,,0,0,0,,You know, I'd rather read the market.
+Dialogue: 0,0:44:41.53,0:44:42.59,Default,,0,0,0,,I'd rather read Marcus Aurelius.
+Dialogue: 0,0:44:43.59,0:44:44.07,Default,,0,0,0,,So...
+Dialogue: 0,0:44:44.07,0:44:47.19,Default,,0,0,0,,The aphorisms of Marcus Aurelius.
+Dialogue: 0,0:44:47.71,0:44:50.84,Default,,0,0,0,,What's wrong with our country is that that's not required reading.
+Dialogue: 0,0:44:50.94,0:44:53.67,Default,,0,0,0,,To become a president, you have to go to president college.
+Dialogue: 0,0:44:53.82,0:44:55.44,Default,,0,0,0,,It's a quick progress.
+Dialogue: 0,0:44:55.80,0:44:59.59,Default,,0,0,0,,And you have to master the aphorisms of Marcus Aurelius.
+Dialogue: 0,0:44:59.90,0:45:00.17,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:45:00.86,0:45:02.65,Default,,0,0,0,,And then you can run for president.
+Dialogue: 0,0:45:04.51,0:45:08.98,Default,,0,0,0,,You can't really be a president and be unfamiliar with the aphorisms of Marcus Aurelius.
+Dialogue: 0,0:45:09.30,0:45:09.59,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:45:09.59,0:45:11.59,Default,,0,0,0,,That's why we don't have any stunning presidents.
+Dialogue: 0,0:45:11.75,0:45:16.94,Default,,0,0,0,,Of recent times, because they're not familiar with the aphorisms of Marcus Aurelius.
+Dialogue: 0,0:45:17.44,0:45:19.42,Default,,0,0,0,,What is the responsibility of the ruler?
+Dialogue: 0,0:45:19.59,0:45:24.11,Default,,0,0,0,,And what is the obligation of the sovereign to those that are ruled?
+Dialogue: 0,0:45:24.36,0:45:26.67,Default,,0,0,0,,What is the obligation of the ruler to the ruled?
+Dialogue: 0,0:45:27.67,0:45:31.57,Default,,0,0,0,,And it brings forth all kinds of very positive character traits.
+Dialogue: 0,0:45:32.50,0:45:37.82,Default,,0,0,0,,And it's because of those character traits, and you follow them, that you can claim that you are sovereign.
+Dialogue: 0,0:45:38.42,0:45:39.00,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:45:39.00,0:45:43.28,Default,,0,0,0,,And we see what happens with the country when it does not follow.
+Dialogue: 0,0:45:43.46,0:45:43.96,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:45:43.96,0:45:47.96,Default,,0,0,0,,Those rules of integrity, it fails in its own sovereignty.
+Dialogue: 0,0:45:47.96,0:45:50.38,Default,,0,0,0,,You see, the United States failing in its own sovereignty.
+Dialogue: 0,0:45:50.38,0:45:52.42,Default,,0,0,0,,It can't even protect its own border because of it.
+Dialogue: 0,0:45:53.30,0:45:54.46,Default,,0,0,0,,I mean, that's the beginning.
+Dialogue: 0,0:45:54.46,0:45:57.78,Default,,0,0,0,,Anybody in the neighborhood puts a fence around.
+Dialogue: 0,0:45:57.78,0:46:00.92,Default,,0,0,0,,You see, you don't just let people savage your lawn and eat up your.
+Dialogue: 0,0:46:01.98,0:46:06.71,Default,,0,0,0,,Well, yeah, we have javelinas, and so they come through our yard, so we put a fence to stop them.
+Dialogue: 0,0:46:06.71,0:46:08.42,Default,,0,0,0,,All right, so there's an obligation.
+Dialogue: 0,0:46:08.42,0:46:13.78,Default,,0,0,0,,So like the aphorisms of Marcus Aurelius, what is the, what are the obligations?
+Dialogue: 0,0:46:13.78,0:46:14.63,Default,,0,0,0,,What is the obligations of the ruler?
+Dialogue: 0,0:46:14.63,0:46:16.09,Default,,0,0,0,,What is the obligation of the ruler?
+Dialogue: 0,0:46:16.09,0:46:20.65,Default,,0,0,0,,Everybody wants to be number one dog, you know, for the glamour of it.
+Dialogue: 0,0:46:20.65,0:46:22.17,Default,,0,0,0,,It's really just the glamour of it.
+Dialogue: 0,0:46:22.17,0:46:25.44,Default,,0,0,0,,There isn't anything great or wonderful that's going to come out of this, you see?
+Dialogue: 0,0:46:26.53,0:46:26.94,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:46:27.51,0:46:29.92,Default,,0,0,0,,Either give, you know, tax rebate you or don't.
+Dialogue: 0,0:46:29.92,0:46:32.71,Default,,0,0,0,,But that doesn't change the nature of our civilization at all.
+Dialogue: 0,0:46:32.71,0:46:34.09,Default,,0,0,0,,You know, it has no impact whatsoever.
+Dialogue: 0,0:46:34.38,0:46:34.67,Default,,0,0,0,,Okay.
+Dialogue: 0,0:46:35.65,0:46:40.40,Default,,0,0,0,,So what we need is rulers that have been trained to be rulers, you know, see?
+Dialogue: 0,0:46:40.86,0:46:41.28,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:46:41.67,0:46:44.23,Default,,0,0,0,,And that's why the monarchs of Europe.
+Dialogue: 0,0:46:44.23,0:46:44.38,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:46:44.40,0:46:48.76,Default,,0,0,0,,The monarchs of Europe fell is because they did not take on the responsibility of training
+Dialogue: 0,0:46:48.76,0:46:55.17,Default,,0,0,0,,subsequent generations in how to be a ruler, unlike China, where China, you know, there
+Dialogue: 0,0:46:55.17,0:46:58.23,Default,,0,0,0,,were benevolent rulers that ruled for hundreds of years.
+Dialogue: 0,0:46:58.44,0:47:05.63,Default,,0,0,0,,China had hundreds of years of peace by virtue of sovereigns who were benign and took on
+Dialogue: 0,0:47:05.63,0:47:08.34,Default,,0,0,0,,and accepted the responsibility of their role.
+Dialogue: 0,0:47:08.78,0:47:09.03,Default,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:47:10.01,0:47:10.34,Default,,0,0,0,,See?
+Dialogue: 0,0:47:11.40,0:47:11.80,Default,,0,0,0,,Yep.
+Dialogue: 0,0:47:12.23,0:47:12.57,Default,,0,0,0,,Okay.
+Dialogue: 0,0:47:12.78,0:47:15.59,Default,,0,0,0,,It takes more to be president than just get a big war.
+Dialogue: 0,0:47:15.61,0:47:15.96,Default,,0,0,0,,Yep.
+Dialogue: 0,0:47:15.96,0:47:23.76,Default,,0,0,0,,It takes learning how to really be a sovereign and what's your responsibility to the populace.
+Dialogue: 0,0:47:27.09,0:47:33.00,Default,,0,0,0,,I always figure you're answerable to the people and to your own self and ultimately to God.
+Dialogue: 0,0:47:33.13,0:47:37.86,Default,,0,0,0,,To be given that much power would be scary at death's door.
+Dialogue: 0,0:47:38.25,0:47:45.13,Default,,0,0,0,,You know, did I use that for the welfare of mankind or did I use that just for my own
+Dialogue: 0,0:47:45.13,0:47:46.42,Default,,0,0,0,,aggrandizement, see?
+Dialogue: 0,0:47:46.42,0:47:48.65,Default,,0,0,0,,So it's quite a moral responsibility.
+Dialogue: 0,0:47:49.59,0:47:57.13,Default,,0,0,0,,That's why I brought up that minister who calibrates so high that's counseled 14 or
+Dialogue: 0,0:47:57.13,0:47:58.65,Default,,0,0,0,,12 presidents in a row.
+Dialogue: 0,0:47:58.90,0:47:59.40,Default,,0,0,0,,What's his name?
+Dialogue: 0,0:47:59.42,0:47:59.92,Default,,0,0,0,,Billy Graham.
+Dialogue: 0,0:48:00.44,0:48:00.63,Default,,0,0,0,,Hmm?
+Dialogue: 0,0:48:00.76,0:48:01.36,Default,,0,0,0,,Billy Graham.
+Dialogue: 0,0:48:01.80,0:48:02.84,Default,,0,0,0,,Billy Graham, yes.
+Dialogue: 0,0:48:03.67,0:48:09.59,Default,,0,0,0,,Calibrates way up there, almost saintly, and what a difficult job he had trying to guide
+Dialogue: 0,0:48:09.59,0:48:16.23,Default,,0,0,0,,these presidents through all these moral dilemmas, all these moral conflicts, and that was a
+Dialogue: 0,0:48:16.23,0:48:16.98,Default,,0,0,0,,wonderful job.
+Dialogue: 0,0:48:16.98,0:48:19.69,Default,,0,0,0,,So we're what our country has been without Billy Graham.
+Dialogue: 0,0:48:19.80,0:48:21.57,Default,,0,0,0,,I mean, he was the guy that got the presidents the last few generations.
+Dialogue: 0,0:48:21.57,0:48:28.78,Default,,0,0,0,,So would you say that all of us should leave this place without guilt then?
+Dialogue: 0,0:48:29.42,0:48:32.03,Default,,0,0,0,,I mean, we should not carry any more guilt with us at all?
+Dialogue: 0,0:48:33.05,0:48:38.53,Default,,0,0,0,,I would say the perfect being would have learned from the guilt, and now that the guilt has
+Dialogue: 0,0:48:38.53,0:48:41.82,Default,,0,0,0,,served its purpose, you no longer need to hang on to it.
+Dialogue: 0,0:48:42.84,0:48:47.50,Default,,0,0,0,,You need to hang on to the guilt until it motivates you to change your behavior.
+Dialogue: 0,0:48:48.17,0:48:50.67,Default,,0,0,0,,Once it's done that, there would be no point in hanging on to it.
+Dialogue: 0,0:48:50.67,0:48:56.07,Default,,0,0,0,,hanging on to the guilt it's already you've already paid the price you know you paid the
+Dialogue: 0,0:48:56.07,0:49:02.42,Default,,0,0,0,,price and learned the lesson there's no point to hang on to it now okay so in other words all of
+Dialogue: 0,0:49:02.42,0:49:08.21,Default,,0,0,0,,us can walk out of here pretty much guilt-free i would think that a very you know spiritually
+Dialogue: 0,0:49:08.21,0:49:16.44,Default,,0,0,0,,of our person sees that the purpose of this is to benefit uh the world and god yourself and your
+Dialogue: 0,0:49:16.44,0:49:20.63,Default,,0,0,0,,fellow human being i want to serve that what that use would it be you know
+Dialogue: 0,0:49:21.00,0:49:39.05,Default,,0,0,0,,um thank you for asking me all these questions we uh bat things back and forth like this i know
+Dialogue: 0,0:49:39.05,0:49:45.53,Default,,0,0,0,,a lot at home you know yeah what's the most moral decision in a certain situation
+Dialogue: 0,0:49:45.53,0:49:51.44,Default,,0,0,0,,what serves the highest good and what does not and then we use the arm recalibrated you know
+Dialogue: 0,0:49:51.44,0:49:55.59,Default,,0,0,0,,you know what does what what is this answer if we follow this
+Dialogue: 0,0:49:55.59,0:49:55.61,Default,,0,0,0,,answer if we follow this answer if we follow this answer if we follow this answer if we follow this
+Dialogue: 0,0:49:55.61,0:49:59.30,Default,,0,0,0,,answer. What does that calibrate? And then when we get a different calibration, we'll say,
+Dialogue: 0,0:49:59.44,0:50:02.80,Default,,0,0,0,,oh, suddenly, as you get it, you suddenly see it. You say, oh, I see why that's...
+Dialogue: 0,0:50:02.80,0:50:06.73,Default,,0,0,0,,And it just goes around and it comes back. I see why that's 570 and this is only 430.
+Dialogue: 0,0:50:06.98,0:50:11.23,Default,,0,0,0,,Oh, I see. I get it. I get it. So just examining a thing already
+Dialogue: 0,0:50:11.23,0:50:14.78,Default,,0,0,0,,changes the field. To look at a thing changes the field.
+Dialogue: 0,0:50:15.63,0:50:19.48,Default,,0,0,0,,And that's quantum mechanics, you see. To look at an experiment
+Dialogue: 0,0:50:19.48,0:50:23.65,Default,,0,0,0,,has already changed the result. So merely to look
+Dialogue: 0,0:50:23.65,0:50:27.61,Default,,0,0,0,,at the guilt has already changed it. You've collapsed the
+Dialogue: 0,0:50:27.61,0:50:31.40,Default,,0,0,0,,wave function of the potential into the actual. So merely
+Dialogue: 0,0:50:31.40,0:50:35.53,Default,,0,0,0,,looking at a deep character defect or looking at guilt or something,
+Dialogue: 0,0:50:36.53,0:50:39.82,Default,,0,0,0,,you've already begun to change it. You've collapsed the wave function
+Dialogue: 0,0:50:39.82,0:50:43.17,Default,,0,0,0,,from what could be and it begins to emerge
+Dialogue: 0,0:50:43.17,0:50:47.38,Default,,0,0,0,,as what could be and will be and becomes.
+Dialogue: 0,0:50:47.67,0:50:49.84,Default,,0,0,0,,So it's all the process of becoming.
+Dialogue: 0,0:50:52.05,0:50:53.55,Default,,0,0,0,,We're learning beings.
+Dialogue: 0,0:50:53.92,0:50:58.69,Default,,0,0,0,,The biggest project we have on this planet is learning.
+Dialogue: 0,0:50:59.34,0:51:03.17,Default,,0,0,0,,We're really here to learn. You don't have to be a human
+Dialogue: 0,0:51:03.17,0:51:06.00,Default,,0,0,0,,to enjoy. You can be a dog or anything else to enjoy.
+Dialogue: 0,0:51:07.17,0:51:11.07,Default,,0,0,0,,But to be a human, you have to be really committed to the pain of learning.
+Dialogue: 0,0:51:11.59,0:51:15.05,Default,,0,0,0,,The patience and the pain. And you've karmically
+Dialogue: 0,0:51:15.05,0:51:18.63,Default,,0,0,0,,earned what you've learned. And it is painful to learn sometimes.
+Dialogue: 0,0:51:18.69,0:51:22.03,Default,,0,0,0,,We've earned what we learned. We've earned what we learned?
+Dialogue: 0,0:51:22.63,0:51:24.07,Default,,0,0,0,,That's it. Okay.
+Dialogue: 0,0:51:24.51,0:51:28.82,Default,,0,0,0,,We've earned what we learned.
+Dialogue: 0,0:51:29.86,0:51:32.46,Default,,0,0,0,,Well, that makes it okay, doesn't it?
+Dialogue: 0,0:51:32.46,0:51:33.78,Default,,0,0,0,,Yeah, it does.
+Dialogue: 0,0:51:36.34,0:51:38.88,Default,,0,0,0,,Well, you know what? We've already talked an hour.
+Dialogue: 0,0:51:39.17,0:51:43.96,Default,,0,0,0,,Oh, no. And so we're going to be having book signing next.
+Dialogue: 0,0:51:44.23,0:51:48.48,Default,,0,0,0,,We're going to take a 15-minute break. And if you have questions,
+Dialogue: 0,0:51:48.57,0:51:52.15,Default,,0,0,0,,if you'll line up on the left side. My left, your right.
+Dialogue: 0,0:51:52.61,0:51:54.46,Default,,0,0,0,,I'd just like to know if you enjoyed dialogue.
+Dialogue: 0,0:51:54.78,0:52:09.09,Default,,0,0,0,,You did? You know, there's various pedagogical techniques
+Dialogue: 0,0:52:09.09,0:52:14.53,Default,,0,0,0,,and various ways of sharing information. And stirring up the same process
+Dialogue: 0,0:52:14.53,0:52:18.23,Default,,0,0,0,,in everyone. That's what I like, is when somebody teaches me
+Dialogue: 0,0:52:18.23,0:52:20.32,Default,,0,0,0,,how they do something, and then I can go do it.
+Dialogue: 0,0:52:21.48,0:52:23.19,Default,,0,0,0,,So thank you so much for your time.
+Dialogue: 0,0:52:23.19,0:52:23.76,Default,,0,0,0,,Yes?

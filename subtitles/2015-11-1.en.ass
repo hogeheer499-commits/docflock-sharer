@@ -1,0 +1,1157 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.88,0:00:35.21,Default,,0,0,0,,I'm Dr. David Hawkins. I've been a psychiatrist for 35 years, worked for many years in the field of psychoanalysis, all the various forms of individual and group psychotherapy, did years of research in psychopharmacology, also in nutrition and its relationship to brain chemistry, many years I worked with addiction, and for the last 10 years I've been working on research in the nature of consciousness itself and its application of that human field of knowledge.
+Dialogue: 0,0:00:35.23,0:01:06.30,Default,,0,0,0,,knowledge known as the spiritual. And so we've done a series of talks on utilizing a consciousness approach to a variety of man's problems, you know, stress, alcoholism, various diseases, depression, fear, major loss, and in those talks we've spent a great deal of time on the subject matter and a short amount of time on the map of consciousness that we've utilized in all of them to explain
+Dialogue: 0,0:01:06.30,0:01:21.98,Default,,0,0,0,,that relationship between body, mind, and spirit, which is so important to understand in self-healing. And in the talk we did on self-healing, we went into that rather extensively with some practical applications clinically and from my own life.
+Dialogue: 0,0:01:22.30,0:01:36.60,Default,,0,0,0,,And so people have asked to have perhaps a talk on just the map of consciousness itself, without any special application to any particular human problem. But the implications of it are, and from an understanding of it,
+Dialogue: 0,0:01:36.62,0:02:07.27,Default,,0,0,0,,its application to all human problems becomes rather apparent. And so I want to talk today then, we'll be talking from this chart which we have before. This is a map of consciousness. It's extremely useful. It came out of a composite of 10 years of research in a variety of fields. And that's a subject in itself. It's a mathematical model. And as far as we know, the first time that many of these energy fields have been
+Dialogue: 0,0:02:07.29,0:02:37.42,Default,,0,0,0,,calibrated. When we're talking about consciousness, then we're talking about energy fields. And so to begin with then, within the box, this box here, we have general levels of consciousness, fields of consciousness. And these have been calibrated as to the direction of the field as indicated by the arrows, those below courage, all going to the left. Those above courage, the energy fields all go to the right. What's the significance of that?
+Dialogue: 0,0:02:37.52,0:02:53.42,Default,,0,0,0,,Absolutely. So we have the significance of that direction of the energy field, the same as it is in geomancy. That which is in a negative direction does not support life, is anti-life you might say. That which is in a positive direction, in the direction of the
+Dialogue: 0,0:02:53.42,0:03:04.06,Default,,0,0,0,,truth, just as this is the direction of that which is false, supports life and nurtures life. And so the top of the box, we approach an alignment with truth, we
+Dialogue: 0,0:03:04.06,0:03:07.72,Default,,0,0,0,,see that the energy fields become more powerful. And that they're
+Dialogue: 0,0:03:07.72,0:03:07.90,Default,,0,0,0,,normally
+Dialogue: 0,0:03:08.06,0:03:10.06,Default,,0,0,0,,Numerical calibration becomes higher
+Dialogue: 0,0:03:11.87,0:03:16.45,Default,,0,0,0,,The calibration of the fields goes as follows starting with death at zero
+Dialogue: 0,0:03:17.99,0:03:25.15,Default,,0,0,0,,If we calibrate the relative power of these energy fields, we will end up with what the world calls enlightenment at about 600
+Dialogue: 0,0:03:27.12,0:03:35.30,Default,,0,0,0,,Enlightenment meaning that one is transcended duality transcended the identification with a small personal self and so within the box
+Dialogue: 0,0:03:35.30,0:03:43.16,Default,,0,0,0,,Mmm, these levels are what the person generally means when they talk about me or myself and therefore it is the ego
+Dialogue: 0,0:03:43.16,0:03:49.54,Default,,0,0,0,,It is the self with a small s just as beyond the top of the box is the self with a capital S
+Dialogue: 0,0:03:50.14,0:03:53.45,Default,,0,0,0,,to the right of the energy field
+Dialogue: 0,0:03:53.81,0:03:58.21,Default,,0,0,0,,Are the emotions that are usually experienced coming out of that energy field?
+Dialogue: 0,0:03:58.59,0:04:02.47,Default,,0,0,0,,And to the right of that is the process going on in consciousness
+Dialogue: 0,0:04:03.23,0:04:06.94,Default,,0,0,0,,To the left of these energy fields we have the view of the world
+Dialogue: 0,0:04:07.12,0:04:11.98,Default,,0,0,0,,one's perception the perception that comes from that general level of consciousness and
+Dialogue: 0,0:04:12.48,0:04:18.94,Default,,0,0,0,,the view of God the kind of a God that would be the god of that kind of a world perception and
+Dialogue: 0,0:04:19.95,0:04:21.95,Default,,0,0,0,,so we'll start then with the box and
+Dialogue: 0,0:04:22.47,0:04:25.97,Default,,0,0,0,,Start at the very bottom as I said these energy fields
+Dialogue: 0,0:04:27.57,0:04:32.75,Default,,0,0,0,,Mean for instance that apathy at 50 has relatively half the power of
+Dialogue: 0,0:04:33.73,0:04:37.37,Default,,0,0,0,,resentment which calibrates at about a hundred and grief has
+Dialogue: 0,0:04:38.37,0:04:43.63,Default,,0,0,0,,Relatively half the power grief at 75 of anger, which is a hundred and fifty
+Dialogue: 0,0:04:44.48,0:04:48.12,Default,,0,0,0,,You can verify these for yourself. There's a variety of means
+Dialogue: 0,0:04:48.70,0:04:53.28,Default,,0,0,0,,But the average person in their own home can verify these numbers themselves
+Dialogue: 0,0:04:53.94,0:04:55.94,Default,,0,0,0,,utilizing the simple system of kinesiology
+Dialogue: 0,0:04:56.14,0:05:00.12,Default,,0,0,0,,You have somebody test you and press down on your arm and you say
+Dialogue: 0,0:05:00.44,0:05:06.18,Default,,0,0,0,,You know is fear over 50 is fear over 60 is fear or 70 is a fear over 80 is a fear over 90
+Dialogue: 0,0:05:06.18,0:05:07.78,Default,,0,0,0,,If you're over 100 and 100 you'll go weak
+Dialogue: 0,0:05:08.18,0:05:11.74,Default,,0,0,0,,so these have been verified by a number of people and
+Dialogue: 0,0:05:13.58,0:05:19.42,Default,,0,0,0,,They're generally correct. In other words, this may be 77 rather than 75 exactly, but for teaching purposes
+Dialogue: 0,0:05:20.30,0:05:24.18,Default,,0,0,0,,They're rounded off to the nearest figures and they're relatively accurate
+Dialogue: 0,0:05:24.92,0:05:31.39,Default,,0,0,0,,If we start at the bottom of the box, we have an energy field called guilt. You'll notice it is the most reversed
+Dialogue: 0,0:05:31.91,0:05:33.91,Default,,0,0,0,,Its power is 30
+Dialogue: 0,0:05:34.77,0:05:37.99,Default,,0,0,0,,the emotion coming out of that is self-hatred and
+Dialogue: 0,0:05:38.93,0:05:43.55,Default,,0,0,0,,Out of self-hatred the process going on in consciousness is one of destruction
+Dialogue: 0,0:05:44.07,0:05:45.85,Default,,0,0,0,,so
+Dialogue: 0,0:05:45.85,0:05:52.69,Default,,0,0,0,,the view of the world that comes out of this energy field is that this is a world of sin and suffering and
+Dialogue: 0,0:05:53.49,0:06:00.33,Default,,0,0,0,,therefore the God of such a world would have to be the ultimate destroyer the ultimate hater of mankind
+Dialogue: 0,0:06:00.87,0:06:03.87,Default,,0,0,0,,Who would throw your eternal soul into hell forever?
+Dialogue: 0,0:06:03.97,0:06:06.32,Default,,0,0,0,,so
+Dialogue: 0,0:06:06.32,0:06:09.02,Default,,0,0,0,,Hmm with a God like that. You really don't need a devil
+Dialogue: 0,0:06:09.02,0:06:09.58,Default,,0,0,0,,so
+Dialogue: 0,0:06:09.58,0:06:13.90,Default,,0,0,0,,don't have devil over here because and that is really the demonic depictions of
+Dialogue: 0,0:06:13.90,0:06:19.54,Default,,0,0,0,,God if we calibrate death at zero then the various hells would be down below
+Dialogue: 0,0:06:19.54,0:06:23.86,Default,,0,0,0,,the bottom of the chart a special subject in and of itself with suicide
+Dialogue: 0,0:06:23.86,0:06:30.18,Default,,0,0,0,,for instance calibrating at a reverse minus 50 and as compared to death at
+Dialogue: 0,0:06:30.18,0:06:36.18,Default,,0,0,0,,zero but death very often for many people on the planet and we spoke of
+Dialogue: 0,0:06:36.18,0:06:40.86,Default,,0,0,0,,especially in the addictions comes as a matter of passive suicide coming out of
+Dialogue: 0,0:06:40.86,0:06:46.50,Default,,0,0,0,,this bottom energy field because of the self-hatred and the suicide takes the
+Dialogue: 0,0:06:46.50,0:06:51.88,Default,,0,0,0,,form of not caring for oneself it takes the form of not getting out of the way
+Dialogue: 0,0:06:51.88,0:06:56.96,Default,,0,0,0,,of the bus and turning the car over the accidental overdose all the ways that
+Dialogue: 0,0:06:56.96,0:07:01.02,Default,,0,0,0,,people fail to take the insulin for their diabetes and go into coma and they
+Dialogue: 0,0:07:01.02,0:07:04.28,Default,,0,0,0,,don't stay on their diets and die from various diseases and they're
+Dialogue: 0,0:07:04.28,0:07:06.00,Default,,0,0,0,,non-cooperative with their physician and
+Dialogue: 0,0:07:06.00,0:07:06.16,Default,,0,0,0,,you know they're not going to die from various diseases and they're not
+Dialogue: 0,0:07:06.18,0:07:10.94,Default,,0,0,0,,going to die from these various illnesses so the process then is going on
+Dialogue: 0,0:07:10.94,0:07:17.46,Default,,0,0,0,,of destruction leading to what death aligns with this embodiment so guilt
+Dialogue: 0,0:07:17.46,0:07:23.54,Default,,0,0,0,,being the bottom energy field one right above that is called apathy the apathy
+Dialogue: 0,0:07:23.54,0:07:29.28,Default,,0,0,0,,calibrates at 50 and that's the apathy you see also has a reversed energy field
+Dialogue: 0,0:07:29.28,0:07:36.96,Default,,0,0,0,,and the emotion coming out of apathy is hopelessness hopelessness and despair and
+Dialogue: 0,0:07:36.96,0:07:42.48,Default,,0,0,0,,despondency and depression and the reason for that is the loss of energy you
+Dialogue: 0,0:07:42.48,0:07:47.38,Default,,0,0,0,,see that the process going on in consciousness is d energized the loss of
+Dialogue: 0,0:07:47.38,0:07:55.10,Default,,0,0,0,,energy apathy then leads to a view of the world as hopeless and the god of a
+Dialogue: 0,0:07:55.10,0:08:00.16,Default,,0,0,0,,hopeless condition of mankind and world would be dead and so you have many many
+Dialogue: 0,0:08:00.16,0:08:05.04,Default,,0,0,0,,famous philosophers because the intellect you see will justify any
+Dialogue: 0,0:08:05.04,0:08:07.10,Default,,0,0,0,,particular position that the person is
+Dialogue: 0,0:08:07.10,0:08:11.90,Default,,0,0,0,,holding unconsciously and try to rationalize it and defend it and make it sound sensible
+Dialogue: 0,0:08:12.81,0:08:18.73,Default,,0,0,0,,so the idea that god is dead and that man is hopeless and the condition of life is hopeless
+Dialogue: 0,0:08:18.73,0:08:26.47,Default,,0,0,0,,invalidates the value of life and therefore is destructive leading to destruction so apathy
+Dialogue: 0,0:08:26.47,0:08:32.63,Default,,0,0,0,,calibrating at 50 if we can get a person up to a higher energy state and call grief see apathy
+Dialogue: 0,0:08:32.63,0:08:37.75,Default,,0,0,0,,is like the old lady rocking back and forth in a rocking chair staring hopelessly out the window
+Dialogue: 0,0:08:38.66,0:08:43.06,Default,,0,0,0,,and she'd gotten a telegram from the state department that her son was killed in action
+Dialogue: 0,0:08:43.62,0:08:50.10,Default,,0,0,0,,and so she just stares hopelessly out the window blank and you see maybe a large portion of the
+Dialogue: 0,0:08:50.10,0:08:57.22,Default,,0,0,0,,world lives in a state of apathy whole countries whole subcontinents biafra and ethiopia and whole
+Dialogue: 0,0:08:57.22,0:09:02.58,Default,,0,0,0,,whole countries where the people just stare blankly because there is no hope there is no
+Dialogue: 0,0:09:02.58,0:09:07.78,Default,,0,0,0,,chance and about a third of the world you know about 80 correction about 85 percent of the
+Dialogue: 0,0:09:08.02,0:09:16.38,Default,,0,0,0,,world lives in the bottom three states of fear grief and apathy so the woman staring blankly
+Dialogue: 0,0:09:16.38,0:09:21.58,Default,,0,0,0,,back and forth has also had enzymatic changes happening in her brain neurotransmitter changes
+Dialogue: 0,0:09:21.58,0:09:26.86,Default,,0,0,0,,so we could have a column over here that says brain chemistry that this energy field then
+Dialogue: 0,0:09:26.86,0:09:32.78,Default,,0,0,0,,results in a shift of brain chemistry resulting in that clinical state called hopelessness
+Dialogue: 0,0:09:34.12,0:09:39.64,Default,,0,0,0,,if she should start to cry and express emotion then we know that the person is getting better
+Dialogue: 0,0:09:39.64,0:09:45.32,Default,,0,0,0,,they're moving up to an energy field called grief which is characterized emotionally by regret
+Dialogue: 0,0:09:45.88,0:09:52.36,Default,,0,0,0,,by a feeling of loss by feeling of despondency and there the process going on in consciousness is
+Dialogue: 0,0:09:52.36,0:09:58.74,Default,,0,0,0,,dispirited so across the top of the box we don't have enough room on this blackboard but we have
+Dialogue: 0,0:09:59.70,0:10:06.98,Default,,0,0,0,,you know life and spirit and higher power and buddha and krishna and all those names beingness
+Dialogue: 0,0:10:06.98,0:10:09.62,Default,,0,0,0,,isness that depict that very energy
+Dialogue: 0,0:10:09.70,0:10:18.63,Default,,0,0,0,,of life itself the awareness of that being called aliveness so grief then is the loss of that spirit
+Dialogue: 0,0:10:18.63,0:10:25.67,Default,,0,0,0,,the loss of the will to live and when the will to live is lost then the energy which that will pulls
+Dialogue: 0,0:10:25.67,0:10:31.59,Default,,0,0,0,,to it the entity from the universe is lost and you have the loss of energy leading to the destruction
+Dialogue: 0,0:10:32.68,0:10:40.02,Default,,0,0,0,,so grief then the person in grief looks out at the world and sees a sad world and a god that ignores
+Dialogue: 0,0:10:41.94,0:10:45.70,Default,,0,0,0,,themselves and in that way he is able to and let his life go on and save life
+Dialogue: 0,0:10:48.34,0:10:53.70,Default,,0,0,0,,as we move up to the next energy field we have fear which is again a negative energy field but
+Dialogue: 0,0:10:53.70,0:10:58.90,Default,,0,0,0,,this time calibrates at 100. and fear therefore has a lot of energy in it you can run a great
+Dialogue: 0,0:10:58.90,0:11:04.58,Default,,0,0,0,,distance with fear fear runs a good part of the world it runs a large part of the industrial world
+Dialogue: 0,0:11:04.58,0:11:10.58,Default,,0,0,0,,and a whole insurance industry so fear is a very important part of everyone's life mattis avenue
+Dialogue: 0,0:11:10.58,0:11:16.34,Default,,0,0,0,,ordinarily experience it it has to do with the future just like grief has to do with the past
+Dialogue: 0,0:11:16.34,0:11:22.58,Default,,0,0,0,,fear is of the future and so it's emotionally experienced in everyday life by the average
+Dialogue: 0,0:11:22.58,0:11:29.14,Default,,0,0,0,,person as worry as anxiety or panic and what's happened the process going on in consciousness
+Dialogue: 0,0:11:29.14,0:11:36.98,Default,,0,0,0,,is one of deflation so the animal the animal you see when it's frightened shrinks and you remember
+Dialogue: 0,0:11:36.98,0:11:41.22,Default,,0,0,0,,in grade school when the teacher called on somebody out there for the answer everybody
+Dialogue: 0,0:11:41.22,0:11:46.50,Default,,0,0,0,,would shrink and hide behind the person in front of them so fear is a shrinkingness
+Dialogue: 0,0:11:47.42,0:11:53.26,Default,,0,0,0,,a fear of the future and it has a lot of energy so that one can use the energy if you know what
+Dialogue: 0,0:11:53.26,0:12:00.60,Default,,0,0,0,,to be afraid of you can then make the energy of that fear really work for you these bottom three
+Dialogue: 0,0:12:00.60,0:12:06.20,Default,,0,0,0,,states the bottom states actually come out of the failure to face this energy field above it
+Dialogue: 0,0:12:06.92,0:12:07.80,Default,,0,0,0,,so the way out
+Dialogue: 0,0:12:07.88,0:12:14.36,Default,,0,0,0,,of depression as we said in our talk on on depression is to look at the fear that is
+Dialogue: 0,0:12:14.36,0:12:19.88,Default,,0,0,0,,underlying the depression and we'll see that the fear usually is taking the form of i have
+Dialogue: 0,0:12:19.88,0:12:25.08,Default,,0,0,0,,lost the source of my happiness so that all these levels from courage on down which have
+Dialogue: 0,0:12:25.08,0:12:31.16,Default,,0,0,0,,a negative energy field are all coming from the same thought that happiness is something
+Dialogue: 0,0:12:31.16,0:12:37.64,Default,,0,0,0,,that comes from outside myself it's putting one's survival on something outside of my own self
+Dialogue: 0,0:12:38.20,0:12:44.28,Default,,0,0,0,,therefore they're all states of powerlessness and they're all states of victimhood they're all
+Dialogue: 0,0:12:44.28,0:12:50.44,Default,,0,0,0,,states of being victim being at the effect of having projected the source of one's power
+Dialogue: 0,0:12:50.44,0:12:57.59,Default,,0,0,0,,outside of oneself underlying the depression then is a fear the fear that one has lost you
+Dialogue: 0,0:12:57.59,0:13:02.79,Default,,0,0,0,,see because grief has to do with loss the fear that one has lost the source of happiness
+Dialogue: 0,0:13:03.91,0:13:07.59,Default,,0,0,0,,that source having been pictured as something outside of oneself
+Dialogue: 0,0:13:09.54,0:13:15.54,Default,,0,0,0,,so when you listen to face that fear and how to handle that fear rapidly overcomes the depression
+Dialogue: 0,0:13:15.54,0:13:20.74,Default,,0,0,0,,and so in the talk we gave on consciousness looks at fear we go into the exact technique
+Dialogue: 0,0:13:20.74,0:13:26.42,Default,,0,0,0,,of how to let go resisting the energy field of that fear and let it run out and the minute you
+Dialogue: 0,0:13:26.42,0:13:31.94,Default,,0,0,0,,do that the depression disappears instead of depression you're feeling anxiety and fear
+Dialogue: 0,0:13:32.50,0:13:39.29,Default,,0,0,0,,and that's much easier to handle than than is depression the energy field above fear then
+Dialogue: 0,0:13:40.41,0:13:48.89,Default,,0,0,0,,comes desiringness desiringness we see as an energy field of calibrates at 125 it's still a
+Dialogue: 0,0:13:48.89,0:13:54.89,Default,,0,0,0,,negative energy field and we experience it in ordinary life as wanting the whole general coming
+Dialogue: 0,0:13:54.89,0:14:01.69,Default,,0,0,0,,from the solar plexus of wantingness craving this craving this and of course that's the energy field
+Dialogue: 0,0:14:01.69,0:14:08.04,Default,,0,0,0,,of the addictions which become obsessions and compulsions what's happened there with desire is
+Dialogue: 0,0:14:08.04,0:14:10.04,Default,,0,0,0,,the process going on in consciousness
+Dialogue: 0,0:14:11.18,0:14:17.74,Default,,0,0,0,,so we are then at the effect of we are run by that which we desire and of course madison avenue
+Dialogue: 0,0:14:17.74,0:14:23.10,Default,,0,0,0,,plays off that if they can create a desire by an unconscious connection a symbolization with
+Dialogue: 0,0:14:23.10,0:14:28.46,Default,,0,0,0,,something in the archetypally in the unconscious they create that desire and we all know that
+Dialogue: 0,0:14:28.46,0:14:35.58,Default,,0,0,0,,desire can run an entire lifetime desire can be the motivation desire for a phd or the desire to
+Dialogue: 0,0:14:35.58,0:14:40.14,Default,,0,0,0,,become successful and to become famous desire to have a lot of money
+Dialogue: 0,0:14:40.54,0:14:46.78,Default,,0,0,0,,to be a celebrity to acquire whatever it is that one thinks is going to bring happiness that
+Dialogue: 0,0:14:46.78,0:14:52.39,Default,,0,0,0,,cadillac that home on the hill the family and children whatever it is it's always you see
+Dialogue: 0,0:14:52.39,0:14:57.99,Default,,0,0,0,,still out there so it's a wantingness and a cravingness and because it's coming from an
+Dialogue: 0,0:14:57.99,0:15:04.54,Default,,0,0,0,,energy field that can never really be satisfied because desiringness is desiringness you know
+Dialogue: 0,0:15:04.54,0:15:09.74,Default,,0,0,0,,roughly for those of you who are aware of the energy fields how they've classically been
+Dialogue: 0,0:15:11.50,0:15:18.22,Default,,0,0,0,,about and this would really be the level of the spleen you see and the level of the base chakra
+Dialogue: 0,0:15:18.22,0:15:22.22,Default,,0,0,0,,here we're coming up to the energy of the solar plexus here we're coming up to the heart
+Dialogue: 0,0:15:22.22,0:15:27.26,Default,,0,0,0,,here we're coming up to the uh ajna and here we're coming to the crown chakras for those of
+Dialogue: 0,0:15:27.26,0:15:33.24,Default,,0,0,0,,you want a correlation with the chakras the these energy levels roughly correlate so desiringness is
+Dialogue: 0,0:15:33.24,0:15:41.80,Default,,0,0,0,,that drivenness that endless wantingness which can't be satisfied because uh it is a
+Dialogue: 0,0:15:41.88,0:15:49.45,Default,,0,0,0,,continuing energy field of its own and it keeps creating more desire desire if you know what the
+Dialogue: 0,0:15:49.45,0:15:55.85,Default,,0,0,0,,desire then can the energy field of that can be used to desire something better for yourself but
+Dialogue: 0,0:15:55.85,0:16:02.73,Default,,0,0,0,,generally the desiringness leads to frustration and this eventually leads up to anger anger which
+Dialogue: 0,0:16:02.73,0:16:09.13,Default,,0,0,0,,calibrates at 150 as everyone knows has a huge amount of power and energy in it the angry person
+Dialogue: 0,0:16:09.13,0:16:12.89,Default,,0,0,0,,if they know how to utilize that anger constructively if they can know how to use
+Dialogue: 0,0:16:12.97,0:16:19.13,Default,,0,0,0,,the energy of this and not the destructive downside form of it out of anger then whole
+Dialogue: 0,0:16:19.13,0:16:24.81,Default,,0,0,0,,social movements have arisen you know the women's movement in our time and the blacks moving up in
+Dialogue: 0,0:16:24.81,0:16:33.05,Default,,0,0,0,,america those who are underprivileged etc out of their angriness you see because they used to
+Dialogue: 0,0:16:33.05,0:16:38.89,Default,,0,0,0,,be at the bottom of the they used to be at the back of the bus in hopelessness and apathy nothing
+Dialogue: 0,0:16:38.89,0:16:42.89,Default,,0,0,0,,could be done about their situation and of course people came along and inspired
+Dialogue: 0,0:16:42.97,0:16:49.69,Default,,0,0,0,,them and television on television activated this level here the third world of the repressed
+Dialogue: 0,0:16:49.69,0:16:56.49,Default,,0,0,0,,peoples of the world through tv began to see what other people had and that fired up desire
+Dialogue: 0,0:16:56.49,0:17:02.01,Default,,0,0,0,,and then the frustration of that desire leading to anger and the energy of that anger being utilized
+Dialogue: 0,0:17:02.01,0:17:08.09,Default,,0,0,0,,to create whole social movements changes in the legislature and social changes such as we see
+Dialogue: 0,0:17:08.09,0:17:12.89,Default,,0,0,0,,still going on the energy of that well anger as we experience it in daily life
+Dialogue: 0,0:17:12.97,0:17:20.57,Default,,0,0,0,,is usually in the form of resentments hatred grievances grudges of course eventually murder and
+Dialogue: 0,0:17:20.57,0:17:28.60,Default,,0,0,0,,war the process going on in consciousness is one of expansion so the animal that is angry swells up
+Dialogue: 0,0:17:28.60,0:17:34.52,Default,,0,0,0,,you know when my cat gets angry her tail swells up she swells to almost twice her size and tries
+Dialogue: 0,0:17:34.52,0:17:42.84,Default,,0,0,0,,to look imposing so that's the biologic purpose expansion to overshadow one's apparently
+Dialogue: 0,0:17:43.00,0:17:49.56,Default,,0,0,0,,an enemy so angriness the energy of that can be utilized to want something better for yourself
+Dialogue: 0,0:17:49.56,0:17:55.08,Default,,0,0,0,,and move up to pride want something better for yourself use the energy of the frustration and
+Dialogue: 0,0:17:55.08,0:18:03.83,Default,,0,0,0,,the anger and move up to pride pride as you see is 175 which is enough to run the united states
+Dialogue: 0,0:18:03.83,0:18:11.26,Default,,0,0,0,,marine corps it still however has a negative direction and we know that was it pride and
+Dialogue: 0,0:18:11.26,0:18:13.50,Default,,0,0,0,,precedes the fall etc so there's many
+Dialogue: 0,0:18:13.90,0:18:19.66,Default,,0,0,0,,things indicating that pride is not a very good thing it's good as compared to these lower fields
+Dialogue: 0,0:18:19.66,0:18:25.51,Default,,0,0,0,,because it has much more energy and pride as we experience it in daily life is in the form of
+Dialogue: 0,0:18:25.51,0:18:33.19,Default,,0,0,0,,arrogance contempt sarcasm the downside of it really is denial and the problem is and the
+Dialogue: 0,0:18:33.19,0:18:39.67,Default,,0,0,0,,process and consciousness is one of inflation so we say the person in pride then is arrogant has
+Dialogue: 0,0:18:39.67,0:18:43.43,Default,,0,0,0,,a swelled head is too big for his britches is unteachable
+Dialogue: 0,0:18:43.99,0:18:51.27,Default,,0,0,0,,you know cannot hear that cannot hear and so those people have a closed mind so this position here
+Dialogue: 0,0:18:51.27,0:18:57.27,Default,,0,0,0,,leads to a polarized position which puts the person therefore constantly on the defensive
+Dialogue: 0,0:18:57.27,0:19:02.87,Default,,0,0,0,,of me being right and the world therefore must be wrong and so the energy is dissipated here
+Dialogue: 0,0:19:02.87,0:19:09.78,Default,,0,0,0,,in endless defensiveness of course the reason for for pride has to do with the underlying fear once
+Dialogue: 0,0:19:09.78,0:19:13.78,Default,,0,0,0,,the person faces the underlying fear they can let them let go of the pride
+Dialogue: 0,0:19:14.70,0:19:21.18,Default,,0,0,0,,so one thing about these negative uh fields is that they tend to reinforce each other seldom do
+Dialogue: 0,0:19:21.18,0:19:26.22,Default,,0,0,0,,you see just one alone one predominates but they are really all feeding into each other
+Dialogue: 0,0:19:26.94,0:19:31.74,Default,,0,0,0,,so that one has grief over one's anger one has anger over one's pride one has
+Dialogue: 0,0:19:33.61,0:19:40.73,Default,,0,0,0,,fear over one's grief etc so that they all tend to reinforce each other so an upset is usually
+Dialogue: 0,0:19:40.73,0:19:44.01,Default,,0,0,0,,composed of a composite of all these negative energy fields
+Dialogue: 0,0:19:44.25,0:19:48.82,Default,,0,0,0,,Something crucial happens now at the level of courage.
+Dialogue: 0,0:19:48.82,0:19:52.82,Default,,0,0,0,,And courage, which calibrates at 200, has an enormous amount of power.
+Dialogue: 0,0:19:52.82,0:19:55.82,Default,,0,0,0,,It's obvious that courage settled the United States of America.
+Dialogue: 0,0:19:55.82,0:19:58.82,Default,,0,0,0,,Courage created all the great industries.
+Dialogue: 0,0:19:58.82,0:20:03.08,Default,,0,0,0,,Courage is the basis of man's getting to the moon.
+Dialogue: 0,0:20:03.08,0:20:06.08,Default,,0,0,0,,So courage has an enormous amount of energy.
+Dialogue: 0,0:20:06.08,0:20:10.08,Default,,0,0,0,,And, of course, the Marines starts at pride but really hopes to move you up
+Dialogue: 0,0:20:10.08,0:20:13.08,Default,,0,0,0,,to a more stable level called courage. Why?
+Dialogue: 0,0:20:13.08,0:20:17.08,Default,,0,0,0,,It's not so much the increase or the increment of 25 points in the energy field,
+Dialogue: 0,0:20:17.08,0:20:19.08,Default,,0,0,0,,although that is sizable.
+Dialogue: 0,0:20:19.08,0:20:23.08,Default,,0,0,0,,The critical thing is that the energy field now goes neutral.
+Dialogue: 0,0:20:23.08,0:20:27.08,Default,,0,0,0,,The reason for that is that the person has told the truth.
+Dialogue: 0,0:20:27.08,0:20:29.08,Default,,0,0,0,,So in the integrity scale,
+Dialogue: 0,0:20:29.08,0:20:32.08,Default,,0,0,0,,and this is nothing but an adaptation of the integrity scale
+Dialogue: 0,0:20:32.08,0:20:36.08,Default,,0,0,0,,combined with psychoanalysis and various other fields from geomancy, etc.
+Dialogue: 0,0:20:36.08,0:20:39.50,Default,,0,0,0,,Once you tell the truth, then, you're above the line.
+Dialogue: 0,0:20:39.50,0:20:41.50,Default,,0,0,0,,You're no longer a victim.
+Dialogue: 0,0:20:41.50,0:20:43.50,Default,,0,0,0,,And the reason is the energy field now
+Dialogue: 0,0:20:43.50,0:20:45.50,Default,,0,0,0,,goes neutral.
+Dialogue: 0,0:20:45.50,0:20:49.50,Default,,0,0,0,,So you might say that this field here is like an antenna.
+Dialogue: 0,0:20:49.50,0:20:53.50,Default,,0,0,0,,And below the level of courage, the antenna is tuned to the negative.
+Dialogue: 0,0:20:53.50,0:20:56.50,Default,,0,0,0,,It pulls detriment into the energy field.
+Dialogue: 0,0:20:56.50,0:21:00.50,Default,,0,0,0,,So in geomancy, let's say, if we fly over an area,
+Dialogue: 0,0:21:00.50,0:21:03.50,Default,,0,0,0,,we can tell by just looking at a certain canyon
+Dialogue: 0,0:21:03.50,0:21:06.50,Default,,0,0,0,,that the energy field of that canyon is in a negative direction
+Dialogue: 0,0:21:06.50,0:21:09.85,Default,,0,0,0,,by the way the flora lays out.
+Dialogue: 0,0:21:09.85,0:21:12.85,Default,,0,0,0,,The energy field then is attuned to the negative.
+Dialogue: 0,0:21:12.85,0:21:14.85,Default,,0,0,0,,Now here, suddenly, it goes neutral,
+Dialogue: 0,0:21:14.85,0:21:18.85,Default,,0,0,0,,so that the energy field stops pulling to itself detriment from the universe.
+Dialogue: 0,0:21:18.85,0:21:24.49,Default,,0,0,0,,The person now is in a different condition.
+Dialogue: 0,0:21:24.49,0:21:29.49,Default,,0,0,0,,They're now able to face things, face and cope and handle,
+Dialogue: 0,0:21:29.49,0:21:32.49,Default,,0,0,0,,and the first time they're able to be appropriate.
+Dialogue: 0,0:21:32.49,0:21:34.49,Default,,0,0,0,,So all these energy fields below here, you see,
+Dialogue: 0,0:21:34.49,0:21:40.49,Default,,0,0,0,,courage still will experience these lesser feelings, these negative feelings.
+Dialogue: 0,0:21:40.49,0:21:43.49,Default,,0,0,0,,But the person in courage now has the power,
+Dialogue: 0,0:21:43.49,0:21:46.49,Default,,0,0,0,,to handle those negative energies.
+Dialogue: 0,0:21:46.49,0:21:49.49,Default,,0,0,0,,And so the process that's critical is one of empowerment.
+Dialogue: 0,0:21:49.49,0:21:52.49,Default,,0,0,0,,The person becomes re-empowered by telling the truth.
+Dialogue: 0,0:21:52.49,0:21:56.49,Default,,0,0,0,,And of course, this is critical in the recovery from all illnesses,
+Dialogue: 0,0:21:56.49,0:22:00.49,Default,,0,0,0,,and is very visibly so in Alcoholics Anonymous, let's say,
+Dialogue: 0,0:22:00.49,0:22:03.49,Default,,0,0,0,,where the first step is the admission of the truth.
+Dialogue: 0,0:22:03.49,0:22:06.49,Default,,0,0,0,,What happens then to the person's energy fields,
+Dialogue: 0,0:22:06.49,0:22:08.49,Default,,0,0,0,,as you can test with kinesiology,
+Dialogue: 0,0:22:08.49,0:22:11.49,Default,,0,0,0,,instead of going weak, the person suddenly goes strong
+Dialogue: 0,0:22:11.49,0:22:13.49,Default,,0,0,0,,when they admit that they are poor.
+Dialogue: 0,0:22:13.49,0:22:15.49,Default,,0,0,0,,They're powerless over something.
+Dialogue: 0,0:22:15.49,0:22:17.49,Default,,0,0,0,,When we admit we don't know something,
+Dialogue: 0,0:22:17.49,0:22:21.16,Default,,0,0,0,,we get off the arrogance of pride and pretending that we know.
+Dialogue: 0,0:22:21.16,0:22:24.16,Default,,0,0,0,,So the person may still have negative feelings.
+Dialogue: 0,0:22:24.16,0:22:28.16,Default,,0,0,0,,So the person in level of courage is going to ask the boss for a raise, for instance.
+Dialogue: 0,0:22:28.16,0:22:30.16,Default,,0,0,0,,His stomach may still be in a knot.
+Dialogue: 0,0:22:30.16,0:22:31.16,Default,,0,0,0,,He might be angry.
+Dialogue: 0,0:22:31.16,0:22:33.16,Default,,0,0,0,,He might even feel hopeless that he's going to get the raise.
+Dialogue: 0,0:22:33.16,0:22:35.16,Default,,0,0,0,,He might even be arrogant.
+Dialogue: 0,0:22:35.16,0:22:40.16,Default,,0,0,0,,But now he has enough power to handle all that and be appropriate.
+Dialogue: 0,0:22:40.16,0:22:42.16,Default,,0,0,0,,So he's able to face it and cope with it
+Dialogue: 0,0:22:42.16,0:22:46.16,Default,,0,0,0,,and able to function in an effective way in the world.
+Dialogue: 0,0:22:46.16,0:22:48.96,Default,,0,0,0,,That brings us to the next level,
+Dialogue: 0,0:22:48.96,0:22:51.96,Default,,0,0,0,,where now you see the energy field swings to the right,
+Dialogue: 0,0:22:51.96,0:22:54.96,Default,,0,0,0,,that which is positive, that which is aligned with the truth.
+Dialogue: 0,0:22:54.96,0:22:57.96,Default,,0,0,0,,And the energy field jumps to 250,
+Dialogue: 0,0:22:57.96,0:23:00.96,Default,,0,0,0,,and this one is called neutral.
+Dialogue: 0,0:23:00.96,0:23:06.96,Default,,0,0,0,,And the emotion that goes with neutral is one of unattached, non-attachment,
+Dialogue: 0,0:23:06.96,0:23:11.96,Default,,0,0,0,,so that it's okay if you get the job and it's okay if you don't.
+Dialogue: 0,0:23:12.96,0:23:17.99,Default,,0,0,0,,The process going on in consciousness is we say the person is now released.
+Dialogue: 0,0:23:17.99,0:23:20.99,Default,,0,0,0,,They're not attached to any particular outcome.
+Dialogue: 0,0:23:20.99,0:23:22.99,Default,,0,0,0,,They're no longer a victim.
+Dialogue: 0,0:23:22.99,0:23:25.99,Default,,0,0,0,,The person now has a great deal more power.
+Dialogue: 0,0:23:25.99,0:23:28.99,Default,,0,0,0,,And so we say no aversions, no attachments.
+Dialogue: 0,0:23:28.99,0:23:31.99,Default,,0,0,0,,The person has no attachments and no aversions,
+Dialogue: 0,0:23:31.99,0:23:36.79,Default,,0,0,0,,meaning that they are now above the solar plexus.
+Dialogue: 0,0:23:36.79,0:23:42.79,Default,,0,0,0,,Unattached, the downside of unattached can be detached or flat.
+Dialogue: 0,0:23:42.79,0:23:48.79,Default,,0,0,0,,And so the upside of it can be the okayness of life,
+Dialogue: 0,0:23:48.79,0:23:52.79,Default,,0,0,0,,so that if you don't get this job, you'll get another job.
+Dialogue: 0,0:23:52.79,0:23:54.79,Default,,0,0,0,,So the person is no longer a victim.
+Dialogue: 0,0:23:54.79,0:23:56.79,Default,,0,0,0,,He's no longer a leaf in the wind.
+Dialogue: 0,0:23:56.79,0:23:59.79,Default,,0,0,0,,And the person's now feeling released
+Dialogue: 0,0:23:59.79,0:24:05.18,Default,,0,0,0,,and therefore in a much better state, in a far more powerful state.
+Dialogue: 0,0:24:05.18,0:24:08.18,Default,,0,0,0,,You'll see the way that person sees the world is okay,
+Dialogue: 0,0:24:08.18,0:24:11.18,Default,,0,0,0,,and the way they experience God is freedom.
+Dialogue: 0,0:24:11.18,0:24:13.18,Default,,0,0,0,,So the person then talks about,
+Dialogue: 0,0:24:13.18,0:24:17.18,Default,,0,0,0,,you know, going free, God as being freedom.
+Dialogue: 0,0:24:17.18,0:24:22.91,Default,,0,0,0,,And they talk about, you know, detachment and feeling released.
+Dialogue: 0,0:24:22.91,0:24:26.91,Default,,0,0,0,,The next energy field above that is called willingness.
+Dialogue: 0,0:24:26.91,0:24:31.91,Default,,0,0,0,,Willingness, you see, at 310 is far more powerful to the right.
+Dialogue: 0,0:24:31.91,0:24:35.91,Default,,0,0,0,,And the emotion of that is accompanied by the thoughts of yes.
+Dialogue: 0,0:24:35.91,0:24:40.91,Default,,0,0,0,,Saying yes to life, to join, to agree, to commit, to align with.
+Dialogue: 0,0:24:40.91,0:24:43.91,Default,,0,0,0,,Because now we have the introduction of intention.
+Dialogue: 0,0:24:43.91,0:24:47.14,Default,,0,0,0,,So a person on the level of neutral, let's say,
+Dialogue: 0,0:24:47.14,0:24:49.14,Default,,0,0,0,,you say to them, would you like to go to a movie tonight?
+Dialogue: 0,0:24:49.14,0:24:53.14,Default,,0,0,0,,They say, well, it's okay if we go, and it's okay if we don't.
+Dialogue: 0,0:24:53.14,0:24:55.14,Default,,0,0,0,,I mean, that's not exactly enthusiasm.
+Dialogue: 0,0:24:55.14,0:24:57.14,Default,,0,0,0,,That's not exactly aliveness.
+Dialogue: 0,0:24:57.14,0:25:00.14,Default,,0,0,0,,You know, it's a long way from abundance yet.
+Dialogue: 0,0:25:00.14,0:25:03.14,Default,,0,0,0,,And certainly far more comfortable than being down here.
+Dialogue: 0,0:25:03.14,0:25:09.14,Default,,0,0,0,,To be detached feels more comfortable than being in fear or grief or apathy or anger.
+Dialogue: 0,0:25:09.14,0:25:12.68,Default,,0,0,0,,But it is still a far cry from willing.
+Dialogue: 0,0:25:12.68,0:25:14.68,Default,,0,0,0,,You know, waitress who perfunctorily,
+Dialogue: 0,0:25:14.68,0:25:17.68,Default,,0,0,0,,it's okay if she serves you, it's okay if she doesn't,
+Dialogue: 0,0:25:17.68,0:25:19.68,Default,,0,0,0,,is different than the one who is willing
+Dialogue: 0,0:25:19.68,0:25:21.68,Default,,0,0,0,,because she's now bringing her own aliveness,
+Dialogue: 0,0:25:21.68,0:25:24.68,Default,,0,0,0,,her own intention to say yes, to commit and to agree.
+Dialogue: 0,0:25:24.68,0:25:29.68,Default,,0,0,0,,And so real power then begins with this level here
+Dialogue: 0,0:25:29.68,0:25:31.68,Default,,0,0,0,,because you've let go the resistance.
+Dialogue: 0,0:25:31.68,0:25:35.68,Default,,0,0,0,,So the beauty of neutral is that you've let go resisting things
+Dialogue: 0,0:25:35.68,0:25:37.68,Default,,0,0,0,,and you have a lot more power.
+Dialogue: 0,0:25:37.68,0:25:43.68,Default,,0,0,0,,But now you have to introduce a new energy to move up to 310, which is willingness.
+Dialogue: 0,0:25:45.32,0:25:49.32,Default,,0,0,0,,Which moves us to the next field above that called acceptance.
+Dialogue: 0,0:25:49.32,0:25:53.32,Default,,0,0,0,,Acceptance at 380 is a very powerful energy field.
+Dialogue: 0,0:25:53.32,0:25:58.32,Default,,0,0,0,,That's the energy field of being capable, adequate and confident.
+Dialogue: 0,0:25:58.32,0:26:02.32,Default,,0,0,0,,And at that level there's the beginning of a transformation in consciousness.
+Dialogue: 0,0:26:02.32,0:26:04.32,Default,,0,0,0,,And why is that?
+Dialogue: 0,0:26:04.32,0:26:08.32,Default,,0,0,0,,The transformation has to do with the person's re-owning
+Dialogue: 0,0:26:08.32,0:26:11.32,Default,,0,0,0,,that they are the source of their own happiness.
+Dialogue: 0,0:26:11.32,0:26:14.32,Default,,0,0,0,,That the power is within myself.
+Dialogue: 0,0:26:14.32,0:26:16.32,Default,,0,0,0,,And so a person on this level then,
+Dialogue: 0,0:26:16.32,0:26:20.32,Default,,0,0,0,,that's the person that a big corporation that has a very big contract,
+Dialogue: 0,0:26:20.32,0:26:23.32,Default,,0,0,0,,you know, to get all of Europe or something,
+Dialogue: 0,0:26:23.32,0:26:25.32,Default,,0,0,0,,sends out a person on this level.
+Dialogue: 0,0:26:25.32,0:26:27.32,Default,,0,0,0,,Because this person is realistic
+Dialogue: 0,0:26:27.32,0:26:31.32,Default,,0,0,0,,in that they can admit their upside and they can admit their downside.
+Dialogue: 0,0:26:31.32,0:26:35.32,Default,,0,0,0,,See, they're not into pride, which means denial,
+Dialogue: 0,0:26:35.32,0:26:39.32,Default,,0,0,0,,so they can allow for their weaknesses and their shortcomings.
+Dialogue: 0,0:26:39.32,0:26:42.32,Default,,0,0,0,,So an executive on that level can say,
+Dialogue: 0,0:26:42.32,0:26:44.32,Default,,0,0,0,,you know, I don't do very well with that guy,
+Dialogue: 0,0:26:44.32,0:26:45.32,Default,,0,0,0,,you know, in Argentina,
+Dialogue: 0,0:26:45.32,0:26:47.32,Default,,0,0,0,,you know, it'd be better if you sent Jake,
+Dialogue: 0,0:26:47.32,0:26:48.32,Default,,0,0,0,,I'm sure he'd get along better.
+Dialogue: 0,0:26:48.32,0:26:50.32,Default,,0,0,0,,He can indicate where he's limited.
+Dialogue: 0,0:26:50.32,0:26:55.32,Default,,0,0,0,,And a person on a level of acceptance accepts how the world works,
+Dialogue: 0,0:26:55.32,0:26:58.32,Default,,0,0,0,,has stopped getting into a right and wrong about it
+Dialogue: 0,0:26:58.32,0:27:01.32,Default,,0,0,0,,and therefore can deal with it effectively.
+Dialogue: 0,0:27:01.32,0:27:05.32,Default,,0,0,0,,The transformation is because of the re-owning of one's own power.
+Dialogue: 0,0:27:05.32,0:27:08.32,Default,,0,0,0,,And a person on this level knows that no matter where you put him,
+Dialogue: 0,0:27:08.32,0:27:13.32,Default,,0,0,0,,somehow he will create a circumstance that will create happiness.
+Dialogue: 0,0:27:14.67,0:27:16.67,Default,,0,0,0,,So that person, if you drop them on a desert island
+Dialogue: 0,0:27:16.67,0:27:18.67,Default,,0,0,0,,and you come back a year later,
+Dialogue: 0,0:27:18.67,0:27:20.67,Default,,0,0,0,,you'll find that he's, you know,
+Dialogue: 0,0:27:20.67,0:27:23.67,Default,,0,0,0,,has a coconut farm going and has built a tree house
+Dialogue: 0,0:27:23.67,0:27:25.67,Default,,0,0,0,,and has started a new family with a native girl
+Dialogue: 0,0:27:25.67,0:27:27.67,Default,,0,0,0,,and is teaching children French,
+Dialogue: 0,0:27:27.67,0:27:31.25,Default,,0,0,0,,the person makes out wherever they are.
+Dialogue: 0,0:27:31.25,0:27:34.25,Default,,0,0,0,,And the same would be, let's say, putting the person in jail.
+Dialogue: 0,0:27:34.25,0:27:36.25,Default,,0,0,0,,So jail is a place, or prison is a place,
+Dialogue: 0,0:27:36.25,0:27:40.25,Default,,0,0,0,,where at the bottom of the rung you can commit suicide,
+Dialogue: 0,0:27:40.25,0:27:42.25,Default,,0,0,0,,you can go into depression and despair,
+Dialogue: 0,0:27:42.25,0:27:44.25,Default,,0,0,0,,or you could become enlightened
+Dialogue: 0,0:27:44.25,0:27:45.25,Default,,0,0,0,,or write a great novel.
+Dialogue: 0,0:27:45.25,0:27:48.25,Default,,0,0,0,,And, of course, some of the greatest works of literature ever written
+Dialogue: 0,0:27:48.25,0:27:50.25,Default,,0,0,0,,have been written in prison.
+Dialogue: 0,0:27:50.25,0:27:53.25,Default,,0,0,0,,So a person on this level then would say,
+Dialogue: 0,0:27:53.25,0:27:55.44,Default,,0,0,0,,wow, I'm in prison,
+Dialogue: 0,0:27:55.44,0:27:58.44,Default,,0,0,0,,at least I got a chance to do what I've always wanted to do all my life,
+Dialogue: 0,0:27:58.44,0:28:00.44,Default,,0,0,0,,and sits down and proceeds to write the great novel.
+Dialogue: 0,0:28:00.44,0:28:04.44,Default,,0,0,0,,Or, on the destructive side, something like Mein Kampf, you know.
+Dialogue: 0,0:28:04.44,0:28:06.44,Default,,0,0,0,,Hitler wrote Mein Kampf in prison
+Dialogue: 0,0:28:06.44,0:28:08.44,Default,,0,0,0,,and practically changed the face of Europe,
+Dialogue: 0,0:28:08.44,0:28:09.44,Default,,0,0,0,,changed the face of the world.
+Dialogue: 0,0:28:09.44,0:28:14.54,Default,,0,0,0,,So the utilization then of opportunity,
+Dialogue: 0,0:28:14.54,0:28:16.54,Default,,0,0,0,,coming from this level,
+Dialogue: 0,0:28:16.54,0:28:19.54,Default,,0,0,0,,can be turned into turning lemons into lemonade.
+Dialogue: 0,0:28:19.54,0:28:21.54,Default,,0,0,0,,That comes from a position, a way of being,
+Dialogue: 0,0:28:21.54,0:28:23.54,Default,,0,0,0,,a reowning of one's own power.
+Dialogue: 0,0:28:23.54,0:28:26.54,Default,,0,0,0,,That leads to a certain easygoing.
+Dialogue: 0,0:28:26.54,0:28:28.54,Default,,0,0,0,,So these people are easygoing.
+Dialogue: 0,0:28:28.54,0:28:31.24,Default,,0,0,0,,They don't ruffle easily.
+Dialogue: 0,0:28:31.24,0:28:34.24,Default,,0,0,0,,That reowning one's own power, then,
+Dialogue: 0,0:28:34.24,0:28:37.24,Default,,0,0,0,,and recycling of the energy back from the universe,
+Dialogue: 0,0:28:37.24,0:28:39.24,Default,,0,0,0,,the constant reowning of that
+Dialogue: 0,0:28:39.24,0:28:42.24,Default,,0,0,0,,then moves the person up to an energy field of 500,
+Dialogue: 0,0:28:42.24,0:28:44.24,Default,,0,0,0,,and we call that love.
+Dialogue: 0,0:28:44.24,0:28:47.75,Default,,0,0,0,,This type of love is an energy field which is stable,
+Dialogue: 0,0:28:47.75,0:28:50.75,Default,,0,0,0,,and it's called unconditional love.
+Dialogue: 0,0:28:50.75,0:28:53.75,Default,,0,0,0,,And the emotions that accompany this are
+Dialogue: 0,0:28:53.75,0:28:56.75,Default,,0,0,0,,the desire to support,
+Dialogue: 0,0:28:56.75,0:28:58.75,Default,,0,0,0,,to nurture, to honor all of life,
+Dialogue: 0,0:28:58.75,0:29:02.75,Default,,0,0,0,,and forgiveness is part and parcel of it,
+Dialogue: 0,0:29:02.75,0:29:04.75,Default,,0,0,0,,because the motivation there,
+Dialogue: 0,0:29:04.75,0:29:06.75,Default,,0,0,0,,the purpose there is to understand.
+Dialogue: 0,0:29:06.75,0:29:09.75,Default,,0,0,0,,So the purpose down here, you see, is to win,
+Dialogue: 0,0:29:09.75,0:29:11.75,Default,,0,0,0,,or to make wrong.
+Dialogue: 0,0:29:11.75,0:29:13.75,Default,,0,0,0,,It becomes a moralistic position.
+Dialogue: 0,0:29:13.75,0:29:16.75,Default,,0,0,0,,This person up here is not interested in right and wrong.
+Dialogue: 0,0:29:16.75,0:29:19.75,Default,,0,0,0,,This person is interested in understanding.
+Dialogue: 0,0:29:19.75,0:29:22.75,Default,,0,0,0,,And when we talked about the 12-step groups, such as AA,
+Dialogue: 0,0:29:22.75,0:29:27.26,Default,,0,0,0,,we characterized them as unconditional love.
+Dialogue: 0,0:29:27.26,0:29:32.00,Default,,0,0,0,,So this is different than what the world calls love.
+Dialogue: 0,0:29:32.00,0:29:35.00,Default,,0,0,0,,What the world calls love is something down in here
+Dialogue: 0,0:29:35.00,0:29:36.00,Default,,0,0,0,,which is an attachment.
+Dialogue: 0,0:29:36.00,0:29:38.00,Default,,0,0,0,,As Solar Plexus says,
+Dialogue: 0,0:29:38.00,0:29:41.00,Default,,0,0,0,,sentimentalism, emotionalism.
+Dialogue: 0,0:29:41.00,0:29:43.00,Default,,0,0,0,,I can't live without you, baby.
+Dialogue: 0,0:29:43.00,0:29:45.00,Default,,0,0,0,,I'll kill myself if you leave me.
+Dialogue: 0,0:29:45.00,0:29:46.00,Default,,0,0,0,,I'll kill you if you leave me.
+Dialogue: 0,0:29:46.00,0:29:47.00,Default,,0,0,0,,All of this.
+Dialogue: 0,0:29:47.00,0:29:51.00,Default,,0,0,0,,I'll die of loneliness if you walk out of my life.
+Dialogue: 0,0:29:51.00,0:29:54.00,Default,,0,0,0,,It's out of this energy field here that you hear remarks like,
+Dialogue: 0,0:29:54.00,0:29:56.00,Default,,0,0,0,,I used to be in love with George, but I'm not anymore.
+Dialogue: 0,0:29:56.00,0:29:59.00,Default,,0,0,0,,What that means is I never was in love with George,
+Dialogue: 0,0:29:59.00,0:30:02.00,Default,,0,0,0,,but I had a sentimentalism, an emotionalism, an attachment,
+Dialogue: 0,0:30:02.00,0:30:05.00,Default,,0,0,0,,a mutual control and dependency,
+Dialogue: 0,0:30:05.00,0:30:07.06,Default,,0,0,0,,and a lusting after,
+Dialogue: 0,0:30:07.06,0:30:09.06,Default,,0,0,0,,and an ownership.
+Dialogue: 0,0:30:09.06,0:30:13.06,Default,,0,0,0,,This kind of love is something that comes from within oneself.
+Dialogue: 0,0:30:13.06,0:30:15.06,Default,,0,0,0,,It comes from an inner declaration,
+Dialogue: 0,0:30:15.06,0:30:17.06,Default,,0,0,0,,it comes from an intention,
+Dialogue: 0,0:30:17.06,0:30:20.06,Default,,0,0,0,,it comes from a realization of truth,
+Dialogue: 0,0:30:20.06,0:30:22.06,Default,,0,0,0,,and it comes out as lovingness.
+Dialogue: 0,0:30:22.06,0:30:25.06,Default,,0,0,0,,So the person from this energy field then
+Dialogue: 0,0:30:25.06,0:30:27.06,Default,,0,0,0,,is loving towards all of life,
+Dialogue: 0,0:30:27.06,0:30:29.06,Default,,0,0,0,,whether the life is a little toad
+Dialogue: 0,0:30:29.06,0:30:34.06,Default,,0,0,0,,or whether the life is standing in sort of a tough love situation
+Dialogue: 0,0:30:34.06,0:30:36.06,Default,,0,0,0,,for the good of someone else.
+Dialogue: 0,0:30:36.06,0:30:38.06,Default,,0,0,0,,It nurtures and it supports life.
+Dialogue: 0,0:30:38.06,0:30:41.06,Default,,0,0,0,,It's the beginning of a revelation.
+Dialogue: 0,0:30:41.06,0:30:43.06,Default,,0,0,0,,And the brain enzyme changes.
+Dialogue: 0,0:30:43.06,0:30:45.06,Default,,0,0,0,,We've got a column here for brain enzymes.
+Dialogue: 0,0:30:45.06,0:30:49.06,Default,,0,0,0,,The brain enzyme changes at the beginning of the release of endorphins.
+Dialogue: 0,0:30:49.06,0:30:54.06,Default,,0,0,0,,And the release of endorphins then opens millions of banks of neurons,
+Dialogue: 0,0:30:54.06,0:30:56.06,Default,,0,0,0,,which up to this time have been sitting around
+Dialogue: 0,0:30:56.06,0:30:59.10,Default,,0,0,0,,waiting for this energy field to activate them.
+Dialogue: 0,0:30:59.10,0:31:05.83,Default,,0,0,0,,And so the whole field of endorphins is the whole field of current research.
+Dialogue: 0,0:31:05.83,0:31:09.83,Default,,0,0,0,,At about 540 is the energy field of healing,
+Dialogue: 0,0:31:09.83,0:31:12.83,Default,,0,0,0,,healers, people that are touch healers
+Dialogue: 0,0:31:12.83,0:31:13.83,Default,,0,0,0,,or thought healers,
+Dialogue: 0,0:31:13.83,0:31:16.83,Default,,0,0,0,,the various healing energy fields.
+Dialogue: 0,0:31:16.83,0:31:19.83,Default,,0,0,0,,So 540 is the energy field of healing.
+Dialogue: 0,0:31:19.83,0:31:23.83,Default,,0,0,0,,And curiously enough, that's the energy field of the 12-step groups.
+Dialogue: 0,0:31:23.83,0:31:25.83,Default,,0,0,0,,They come out at about 540.
+Dialogue: 0,0:31:25.83,0:31:31.96,Default,,0,0,0,,Anything that you put in a plus positive energy field of 540 begins to heal,
+Dialogue: 0,0:31:31.96,0:31:33.96,Default,,0,0,0,,whether it's a sick animal,
+Dialogue: 0,0:31:33.96,0:31:35.96,Default,,0,0,0,,an emotionally sick human being,
+Dialogue: 0,0:31:35.96,0:31:37.96,Default,,0,0,0,,an addicted person, whatever.
+Dialogue: 0,0:31:37.96,0:31:41.96,Default,,0,0,0,,A plus energy field of 540 then is healing.
+Dialogue: 0,0:31:41.96,0:31:42.96,Default,,0,0,0,,The...
+Dialogue: 0,0:31:42.96,0:31:47.96,Default,,0,0,0,,There's a rise in the intensity of the energy field of aliveness.
+Dialogue: 0,0:31:47.96,0:31:48.96,Default,,0,0,0,,And so we...
+Dialogue: 0,0:31:48.96,0:31:54.18,Default,,0,0,0,,We look to be around those kind of people because they make us feel more alive.
+Dialogue: 0,0:31:54.18,0:31:56.18,Default,,0,0,0,,They make us feel more alive.
+Dialogue: 0,0:31:56.18,0:31:58.18,Default,,0,0,0,,They give out energy to the field.
+Dialogue: 0,0:31:58.18,0:32:01.18,Default,,0,0,0,,These people down here are pulling energy from the field.
+Dialogue: 0,0:32:01.18,0:32:04.18,Default,,0,0,0,,Pulling energy field because they're coming from lack.
+Dialogue: 0,0:32:04.18,0:32:07.18,Default,,0,0,0,,They're coming from a graspingness, a neediness.
+Dialogue: 0,0:32:07.18,0:32:10.86,Default,,0,0,0,,And so they tire us and...
+Dialogue: 0,0:32:10.86,0:32:12.86,Default,,0,0,0,,When this person sits out in the waiting room, you see,
+Dialogue: 0,0:32:12.86,0:32:15.86,Default,,0,0,0,,and the boss or secretary goes out,
+Dialogue: 0,0:32:15.86,0:32:17.86,Default,,0,0,0,,she comes in, she tells the boss,
+Dialogue: 0,0:32:17.86,0:32:20.86,Default,,0,0,0,,there's a guy waiting for you out in front.
+Dialogue: 0,0:32:20.86,0:32:22.86,Default,,0,0,0,,And with a little flick of the eyebrow, she indicates,
+Dialogue: 0,0:32:22.86,0:32:23.86,Default,,0,0,0,,forget it.
+Dialogue: 0,0:32:23.86,0:32:27.86,Default,,0,0,0,,She's already just gotten the energy field that he came from.
+Dialogue: 0,0:32:27.86,0:32:29.86,Default,,0,0,0,,When this person sits out in the waiting room,
+Dialogue: 0,0:32:29.86,0:32:32.86,Default,,0,0,0,,he's not going to wait long because they...
+Dialogue: 0,0:32:32.86,0:32:35.86,Default,,0,0,0,,The secretary instantly gets who that person is and says,
+Dialogue: 0,0:32:35.86,0:32:37.86,Default,,0,0,0,,boss, you're running a little bit late.
+Dialogue: 0,0:32:37.86,0:32:38.86,Default,,0,0,0,,There's a guy waiting for you.
+Dialogue: 0,0:32:38.86,0:32:40.86,Default,,0,0,0,,And, you know, she indicates by a flick of an eyebrow,
+Dialogue: 0,0:32:40.86,0:32:41.86,Default,,0,0,0,,this is somebody you don't want to keep.
+Dialogue: 0,0:32:41.86,0:32:43.86,Default,,0,0,0,,This is somebody you don't want to keep waiting.
+Dialogue: 0,0:32:43.86,0:32:44.86,Default,,0,0,0,,She doesn't know why.
+Dialogue: 0,0:32:44.86,0:32:47.86,Default,,0,0,0,,It's because she's picked up this energy field.
+Dialogue: 0,0:32:47.86,0:32:51.27,Default,,0,0,0,,So it's a very powerful energy field.
+Dialogue: 0,0:32:51.27,0:32:53.27,Default,,0,0,0,,At the bottom, you see...
+Dialogue: 0,0:32:53.27,0:32:56.27,Default,,0,0,0,,At the bottom, these are situations of lose-lose.
+Dialogue: 0,0:32:56.27,0:32:57.27,Default,,0,0,0,,Everybody loses.
+Dialogue: 0,0:32:57.27,0:33:00.27,Default,,0,0,0,,You lose and the people that become associated with you
+Dialogue: 0,0:33:00.27,0:33:02.27,Default,,0,0,0,,in your life lose.
+Dialogue: 0,0:33:02.27,0:33:04.27,Default,,0,0,0,,And this point of view is one of losing.
+Dialogue: 0,0:33:04.27,0:33:05.27,Default,,0,0,0,,So that the person says,
+Dialogue: 0,0:33:05.27,0:33:07.27,Default,,0,0,0,,everywhere I look, there's a closed door.
+Dialogue: 0,0:33:07.27,0:33:08.27,Default,,0,0,0,,If I do go this way, I'll lose.
+Dialogue: 0,0:33:08.27,0:33:10.27,Default,,0,0,0,,If I go this way...
+Dialogue: 0,0:33:10.27,0:33:13.37,Default,,0,0,0,,The world is seen as a losing proposition.
+Dialogue: 0,0:33:13.37,0:33:17.37,Default,,0,0,0,,The people in the middle look at life as win-lose.
+Dialogue: 0,0:33:17.37,0:33:19.37,Default,,0,0,0,,Out of their pridefulness,
+Dialogue: 0,0:33:19.37,0:33:22.37,Default,,0,0,0,,out of that polarization of angriness,
+Dialogue: 0,0:33:22.37,0:33:26.37,Default,,0,0,0,,because they see the world as competition and conflict.
+Dialogue: 0,0:33:26.37,0:33:29.37,Default,,0,0,0,,These people live in a world of win-lose.
+Dialogue: 0,0:33:29.37,0:33:31.37,Default,,0,0,0,,If I win, therefore you lose.
+Dialogue: 0,0:33:31.37,0:33:35.37,Default,,0,0,0,,Therefore, they have endless unconscious fears of retaliation
+Dialogue: 0,0:33:35.37,0:33:39.37,Default,,0,0,0,,because they look at success as vanquishing
+Dialogue: 0,0:33:39.37,0:33:41.37,Default,,0,0,0,,and then expect retaliation.
+Dialogue: 0,0:33:41.37,0:33:43.37,Default,,0,0,0,,So even if you beat somebody in this game,
+Dialogue: 0,0:33:43.37,0:33:45.37,Default,,0,0,0,,you can't really win because, after all,
+Dialogue: 0,0:33:45.37,0:33:48.37,Default,,0,0,0,,he's got friends that may come looking for you someday.
+Dialogue: 0,0:33:48.37,0:33:50.37,Default,,0,0,0,,So you can never relax.
+Dialogue: 0,0:33:50.37,0:33:53.37,Default,,0,0,0,,These people up here conceptualize and hold life
+Dialogue: 0,0:33:53.37,0:33:55.37,Default,,0,0,0,,as a win-win situation.
+Dialogue: 0,0:33:55.37,0:33:57.37,Default,,0,0,0,,So that when I win, you win.
+Dialogue: 0,0:33:57.37,0:33:58.37,Default,,0,0,0,,Everybody in the family wins.
+Dialogue: 0,0:33:58.37,0:34:00.37,Default,,0,0,0,,The company wins.
+Dialogue: 0,0:34:00.37,0:34:01.37,Default,,0,0,0,,So the more money the company makes,
+Dialogue: 0,0:34:01.37,0:34:03.37,Default,,0,0,0,,the better for the employees.
+Dialogue: 0,0:34:03.37,0:34:05.53,Default,,0,0,0,,You know, everybody tends to win.
+Dialogue: 0,0:34:05.53,0:34:07.53,Default,,0,0,0,,So these are win-win situations.
+Dialogue: 0,0:34:07.53,0:34:08.53,Default,,0,0,0,,So as we...
+Dialogue: 0,0:34:08.53,0:34:11.53,Default,,0,0,0,,just as we avoid these people down here
+Dialogue: 0,0:34:11.53,0:34:13.53,Default,,0,0,0,,and tolerate these people in here,
+Dialogue: 0,0:34:13.53,0:34:15.53,Default,,0,0,0,,these people are sought.
+Dialogue: 0,0:34:15.53,0:34:17.53,Default,,0,0,0,,So these people don't have to look for jobs
+Dialogue: 0,0:34:17.53,0:34:18.53,Default,,0,0,0,,or look for invitations
+Dialogue: 0,0:34:18.53,0:34:20.53,Default,,0,0,0,,or look for relationships.
+Dialogue: 0,0:34:20.53,0:34:21.53,Default,,0,0,0,,People seek them out.
+Dialogue: 0,0:34:21.53,0:34:23.53,Default,,0,0,0,,People call them up and say,
+Dialogue: 0,0:34:23.53,0:34:25.53,Default,,0,0,0,,Wouldn't you like to work for us?
+Dialogue: 0,0:34:25.53,0:34:28.53,Default,,0,0,0,,Wouldn't you like to be vice president of marketing for our company?
+Dialogue: 0,0:34:28.53,0:34:30.53,Default,,0,0,0,,So people seek you out.
+Dialogue: 0,0:34:30.53,0:34:31.53,Default,,0,0,0,,Wouldn't you like to come to our party?
+Dialogue: 0,0:34:31.53,0:34:32.53,Default,,0,0,0,,Wouldn't you like to go to bed with me?
+Dialogue: 0,0:34:32.53,0:34:34.53,Default,,0,0,0,,Et cetera, whatever.
+Dialogue: 0,0:34:34.53,0:34:36.53,Default,,0,0,0,,These people are sought.
+Dialogue: 0,0:34:36.53,0:34:38.53,Default,,0,0,0,,And so it comes out of the energy
+Dialogue: 0,0:34:38.53,0:34:39.53,Default,,0,0,0,,field.
+Dialogue: 0,0:34:39.53,0:34:41.53,Default,,0,0,0,,And as we move up towards 540,
+Dialogue: 0,0:34:41.53,0:34:43.53,Default,,0,0,0,,we see there's an inner joy.
+Dialogue: 0,0:34:43.53,0:34:46.53,Default,,0,0,0,,Not an emotionalism coming out of the solar plexus
+Dialogue: 0,0:34:46.53,0:34:48.53,Default,,0,0,0,,like you just won the ball game
+Dialogue: 0,0:34:48.53,0:34:49.53,Default,,0,0,0,,jumping up and down,
+Dialogue: 0,0:34:49.53,0:34:51.53,Default,,0,0,0,,but a quiet inner knowingness
+Dialogue: 0,0:34:51.53,0:34:53.53,Default,,0,0,0,,is beginning to take place now
+Dialogue: 0,0:34:53.53,0:34:55.53,Default,,0,0,0,,because at this energy field of revelation,
+Dialogue: 0,0:34:55.53,0:34:57.53,Default,,0,0,0,,one connects within oneself
+Dialogue: 0,0:34:57.53,0:34:59.53,Default,,0,0,0,,with something rock-like,
+Dialogue: 0,0:34:59.53,0:35:01.53,Default,,0,0,0,,something that is always there.
+Dialogue: 0,0:35:01.53,0:35:03.53,Default,,0,0,0,,And so this is the beginning
+Dialogue: 0,0:35:03.53,0:35:06.53,Default,,0,0,0,,of the transfiguration of consciousness.
+Dialogue: 0,0:35:06.53,0:35:08.53,Default,,0,0,0,,And we see the beginning
+Dialogue: 0,0:35:08.53,0:35:10.53,Default,,0,0,0,,of an inner serenity
+Dialogue: 0,0:35:10.53,0:35:14.53,Default,,0,0,0,,and the opening of compassion.
+Dialogue: 0,0:35:14.53,0:35:16.53,Default,,0,0,0,,And at 560,
+Dialogue: 0,0:35:16.53,0:35:18.53,Default,,0,0,0,,that reaches actually an ecstasy,
+Dialogue: 0,0:35:18.53,0:35:21.53,Default,,0,0,0,,an inner exquisite knowingness,
+Dialogue: 0,0:35:21.53,0:35:24.53,Default,,0,0,0,,a transfiguration of consciousness
+Dialogue: 0,0:35:24.53,0:35:26.53,Default,,0,0,0,,which is going to be leading up to
+Dialogue: 0,0:35:26.53,0:35:28.53,Default,,0,0,0,,in states really of illumination
+Dialogue: 0,0:35:28.53,0:35:31.82,Default,,0,0,0,,as we get close to 600.
+Dialogue: 0,0:35:31.82,0:35:33.82,Default,,0,0,0,,This energy field of compassion
+Dialogue: 0,0:35:33.82,0:35:35.82,Default,,0,0,0,,is one which one can elect.
+Dialogue: 0,0:35:35.82,0:35:37.82,Default,,0,0,0,,There are several places one can elect.
+Dialogue: 0,0:35:37.82,0:35:39.82,Default,,0,0,0,,One certainly has a choice here
+Dialogue: 0,0:35:39.82,0:35:40.82,Default,,0,0,0,,to tell the truth
+Dialogue: 0,0:35:40.82,0:35:43.82,Default,,0,0,0,,and bring oneself up to this energy field here.
+Dialogue: 0,0:35:43.82,0:35:45.82,Default,,0,0,0,,One can make a commitment
+Dialogue: 0,0:35:45.82,0:35:48.82,Default,,0,0,0,,to lovingness as a way of being.
+Dialogue: 0,0:35:48.82,0:35:51.82,Default,,0,0,0,,So this requires no belief in God
+Dialogue: 0,0:35:51.82,0:35:54.82,Default,,0,0,0,,or any theological, spiritual system.
+Dialogue: 0,0:35:54.82,0:35:56.82,Default,,0,0,0,,That commitment to lovingness,
+Dialogue: 0,0:35:56.82,0:35:58.82,Default,,0,0,0,,to that which nurtures and supports life
+Dialogue: 0,0:35:58.82,0:36:00.82,Default,,0,0,0,,in all of its expressions.
+Dialogue: 0,0:36:00.82,0:36:04.82,Default,,0,0,0,,It sees that which is divine in all things
+Dialogue: 0,0:36:04.82,0:36:07.82,Default,,0,0,0,,as it moves up to an even higher level
+Dialogue: 0,0:36:07.82,0:36:11.62,Default,,0,0,0,,where it begins to see the perfection of all things.
+Dialogue: 0,0:36:11.62,0:36:13.62,Default,,0,0,0,,Compassion then is a way of knowing,
+Dialogue: 0,0:36:13.62,0:36:16.62,Default,,0,0,0,,a way of looking into the hearts of others.
+Dialogue: 0,0:36:16.62,0:36:20.62,Default,,0,0,0,,You see, because of the release of endorphins
+Dialogue: 0,0:36:20.62,0:36:23.62,Default,,0,0,0,,here at this level of revelation,
+Dialogue: 0,0:36:23.62,0:36:25.62,Default,,0,0,0,,the beginning of transfiguration,
+Dialogue: 0,0:36:25.62,0:36:27.62,Default,,0,0,0,,there comes that knowing,
+Dialogue: 0,0:36:27.62,0:36:30.62,Default,,0,0,0,,the separation between one self as an individual
+Dialogue: 0,0:36:30.62,0:36:32.62,Default,,0,0,0,,and another self as an individual
+Dialogue: 0,0:36:32.62,0:36:34.62,Default,,0,0,0,,begins to break down.
+Dialogue: 0,0:36:34.62,0:36:36.62,Default,,0,0,0,,And there's almost like the beginning
+Dialogue: 0,0:36:36.62,0:36:37.62,Default,,0,0,0,,of a oneness of the heart,
+Dialogue: 0,0:36:37.62,0:36:39.62,Default,,0,0,0,,a knowingness.
+Dialogue: 0,0:36:39.62,0:36:42.62,Default,,0,0,0,,Not a thinkingness, but a knowingness.
+Dialogue: 0,0:36:42.62,0:36:44.65,Default,,0,0,0,,Different than thinking.
+Dialogue: 0,0:36:44.65,0:36:46.65,Default,,0,0,0,,There's something we're missing on the board here
+Dialogue: 0,0:36:46.65,0:36:48.65,Default,,0,0,0,,and that is the energy fields in here
+Dialogue: 0,0:36:48.65,0:36:49.65,Default,,0,0,0,,because we don't have enough room
+Dialogue: 0,0:36:49.65,0:36:50.65,Default,,0,0,0,,to put it on the blackboard,
+Dialogue: 0,0:36:50.65,0:36:52.65,Default,,0,0,0,,of the four hundreds.
+Dialogue: 0,0:36:52.65,0:36:55.65,Default,,0,0,0,,See, the four hundreds are the level of mind,
+Dialogue: 0,0:36:55.65,0:36:58.65,Default,,0,0,0,,of intellect, of thinkingness,
+Dialogue: 0,0:36:58.65,0:37:01.65,Default,,0,0,0,,of the process going on in consciousness
+Dialogue: 0,0:37:01.65,0:37:03.65,Default,,0,0,0,,is one of conceptualization.
+Dialogue: 0,0:37:03.65,0:37:05.65,Default,,0,0,0,,Conceptualization.
+Dialogue: 0,0:37:05.65,0:37:07.13,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:37:07.13,0:37:10.13,Default,,0,0,0,,So this is mind in the four hundreds,
+Dialogue: 0,0:37:10.13,0:37:13.13,Default,,0,0,0,,thinkingness, intellect, etc.
+Dialogue: 0,0:37:13.13,0:37:15.13,Default,,0,0,0,,And above that is heart.
+Dialogue: 0,0:37:15.13,0:37:18.13,Default,,0,0,0,,So you see the statement that says
+Dialogue: 0,0:37:18.13,0:37:20.13,Default,,0,0,0,,that the thing that differentiates man from the animal,
+Dialogue: 0,0:37:20.13,0:37:22.13,Default,,0,0,0,,the thing that makes the man the highest of all things
+Dialogue: 0,0:37:22.13,0:37:24.13,Default,,0,0,0,,is his intellect.
+Dialogue: 0,0:37:24.13,0:37:27.13,Default,,0,0,0,,It doesn't come out here correctly.
+Dialogue: 0,0:37:27.13,0:37:29.13,Default,,0,0,0,,It's man's heart.
+Dialogue: 0,0:37:29.13,0:37:32.13,Default,,0,0,0,,It's the heart you see is higher than the head.
+Dialogue: 0,0:37:32.13,0:37:35.13,Default,,0,0,0,,The heart, which doesn't think, just knows.
+Dialogue: 0,0:37:35.13,0:37:37.13,Default,,0,0,0,,So at this energy field,
+Dialogue: 0,0:37:37.13,0:37:41.13,Default,,0,0,0,,is knowingness without the necessity for thinkingness.
+Dialogue: 0,0:37:41.13,0:37:44.13,Default,,0,0,0,,See, and the god of mind,
+Dialogue: 0,0:37:44.13,0:37:45.13,Default,,0,0,0,,the god of the intellect,
+Dialogue: 0,0:37:45.13,0:37:47.13,Default,,0,0,0,,is intelligence.
+Dialogue: 0,0:37:47.13,0:37:49.13,Default,,0,0,0,,And the worship of intelligence then,
+Dialogue: 0,0:37:49.13,0:37:51.13,Default,,0,0,0,,being in the four hundreds,
+Dialogue: 0,0:37:51.13,0:37:53.13,Default,,0,0,0,,is certainly higher than these
+Dialogue: 0,0:37:53.13,0:37:55.13,Default,,0,0,0,,sort of demonic levels down below.
+Dialogue: 0,0:37:55.13,0:37:58.13,Default,,0,0,0,,But it is still a far cry from
+Dialogue: 0,0:37:58.13,0:38:01.13,Default,,0,0,0,,those states of the full opening of the heart.
+Dialogue: 0,0:38:01.13,0:38:03.13,Default,,0,0,0,,So that love, the energy field of heart,
+Dialogue: 0,0:38:03.13,0:38:05.13,Default,,0,0,0,,then begins about here
+Dialogue: 0,0:38:05.13,0:38:07.13,Default,,0,0,0,,and goes up to infinity.
+Dialogue: 0,0:38:07.13,0:38:10.16,Default,,0,0,0,,So love, we begin to detect that at five hundred,
+Dialogue: 0,0:38:10.16,0:38:13.16,Default,,0,0,0,,which is the energy field of happiness, by the way,
+Dialogue: 0,0:38:13.16,0:38:15.16,Default,,0,0,0,,begins at five hundred.
+Dialogue: 0,0:38:15.16,0:38:17.16,Default,,0,0,0,,But then that expands up into infinity
+Dialogue: 0,0:38:17.16,0:38:20.16,Default,,0,0,0,,through the six hundred, seven hundred, eight hundred,
+Dialogue: 0,0:38:20.16,0:38:22.16,Default,,0,0,0,,up to a thousand and beyond.
+Dialogue: 0,0:38:22.16,0:38:24.16,Default,,0,0,0,,So these are the beginning of the energy field,
+Dialogue: 0,0:38:24.16,0:38:26.16,Default,,0,0,0,,but by no means the end.
+Dialogue: 0,0:38:26.16,0:38:29.16,Default,,0,0,0,,It is the beginning and it goes on to infinity.
+Dialogue: 0,0:38:29.16,0:38:32.74,Default,,0,0,0,,This level of revelation then opens our way
+Dialogue: 0,0:38:32.74,0:38:34.74,Default,,0,0,0,,to transfiguration and this compassion
+Dialogue: 0,0:38:34.74,0:38:36.74,Default,,0,0,0,,which leads to ecstasy.
+Dialogue: 0,0:38:36.74,0:38:39.74,Default,,0,0,0,,And leads up to the states close to six hundred,
+Dialogue: 0,0:38:39.74,0:38:41.74,Default,,0,0,0,,which are states of bliss,
+Dialogue: 0,0:38:41.74,0:38:43.74,Default,,0,0,0,,the beginning of states of illumination
+Dialogue: 0,0:38:43.74,0:38:46.74,Default,,0,0,0,,and enlightenment and experientially
+Dialogue: 0,0:38:46.74,0:38:48.74,Default,,0,0,0,,they are often accompanied by feelings of light.
+Dialogue: 0,0:38:48.74,0:38:50.74,Default,,0,0,0,,Light, the room lit up.
+Dialogue: 0,0:38:50.74,0:38:52.74,Default,,0,0,0,,When Bill Wilson, for instance,
+Dialogue: 0,0:38:52.74,0:38:54.74,Default,,0,0,0,,had his spiritual experience,
+Dialogue: 0,0:38:54.74,0:38:57.74,Default,,0,0,0,,he said the room lit up by the infinite presence.
+Dialogue: 0,0:38:57.74,0:39:00.74,Default,,0,0,0,,And that was the beginning of the approach
+Dialogue: 0,0:39:00.74,0:39:02.74,Default,,0,0,0,,of that energy field of six hundred.
+Dialogue: 0,0:39:02.74,0:39:05.74,Default,,0,0,0,,The energy field is up here called bliss.
+Dialogue: 0,0:39:05.74,0:39:08.74,Default,,0,0,0,,You know, that was very important in our talk on addiction
+Dialogue: 0,0:39:08.74,0:39:12.74,Default,,0,0,0,,because we said that the energy field of bliss
+Dialogue: 0,0:39:12.74,0:39:14.74,Default,,0,0,0,,transforms the person's life.
+Dialogue: 0,0:39:14.74,0:39:17.74,Default,,0,0,0,,The person who falls into samadhi by accident,
+Dialogue: 0,0:39:17.74,0:39:19.74,Default,,0,0,0,,goes into a transcendental state.
+Dialogue: 0,0:39:19.74,0:39:22.74,Default,,0,0,0,,So six hundred and up are transcendental states.
+Dialogue: 0,0:39:22.74,0:39:25.74,Default,,0,0,0,,Usually that person's life is changed thereafter.
+Dialogue: 0,0:39:25.74,0:39:27.74,Default,,0,0,0,,People who have near-death experiences
+Dialogue: 0,0:39:27.74,0:39:30.74,Default,,0,0,0,,and experience those energy fields over six hundred
+Dialogue: 0,0:39:30.74,0:39:32.74,Default,,0,0,0,,experience the presence of their own higher self,
+Dialogue: 0,0:39:32.74,0:39:34.74,Default,,0,0,0,,the conscious awareness of one solar angel.
+Dialogue: 0,0:39:35.74,0:39:38.74,Default,,0,0,0,,Those are levels beyond which
+Dialogue: 0,0:39:38.74,0:39:40.74,Default,,0,0,0,,then go on up to infinity
+Dialogue: 0,0:39:40.74,0:39:43.74,Default,,0,0,0,,and the various world famous spiritual teachers
+Dialogue: 0,0:39:43.74,0:39:45.74,Default,,0,0,0,,and that's a whole subject in itself,
+Dialogue: 0,0:39:45.74,0:39:48.74,Default,,0,0,0,,the subject of what goes on in the six hundreds.
+Dialogue: 0,0:39:48.74,0:39:50.74,Default,,0,0,0,,We can say roughly that
+Dialogue: 0,0:39:50.74,0:39:54.74,Default,,0,0,0,,the beginning of the energy field of the Christ and the Buddha
+Dialogue: 0,0:39:54.74,0:39:57.74,Default,,0,0,0,,is around seven hundred and fifty to eight hundred
+Dialogue: 0,0:39:57.74,0:39:59.74,Default,,0,0,0,,and then goes from there on up to infinity.
+Dialogue: 0,0:39:59.74,0:40:02.74,Default,,0,0,0,,Those are the levels which have such enormous power
+Dialogue: 0,0:40:02.74,0:40:04.74,Default,,0,0,0,,that we call them avatars.
+Dialogue: 0,0:40:04.74,0:40:07.74,Default,,0,0,0,,An avatar in three years of his ministry
+Dialogue: 0,0:40:07.74,0:40:10.74,Default,,0,0,0,,the Christ totally transformed and changed the consciousness
+Dialogue: 0,0:40:10.74,0:40:13.74,Default,,0,0,0,,of all mankind for thousands of years to come.
+Dialogue: 0,0:40:13.74,0:40:17.15,Default,,0,0,0,,Transformed our life on the horizontal plane
+Dialogue: 0,0:40:17.15,0:40:19.15,Default,,0,0,0,,as well as the vertical.
+Dialogue: 0,0:40:19.15,0:40:22.22,Default,,0,0,0,,And so those are fields of enormous power.
+Dialogue: 0,0:40:22.22,0:40:24.22,Default,,0,0,0,,But at least it gives us an idea now
+Dialogue: 0,0:40:24.22,0:40:26.22,Default,,0,0,0,,where all this fits together.
+Dialogue: 0,0:40:26.22,0:40:29.38,Default,,0,0,0,,And we said that this energy field here
+Dialogue: 0,0:40:29.38,0:40:31.38,Default,,0,0,0,,can be experienced
+Dialogue: 0,0:40:31.38,0:40:34.38,Default,,0,0,0,,by removing one's experience of these things.
+Dialogue: 0,0:40:34.38,0:40:37.38,Default,,0,0,0,,It's like the sun is always shining
+Dialogue: 0,0:40:37.38,0:40:40.38,Default,,0,0,0,,and these energy fields here are like the clouds.
+Dialogue: 0,0:40:40.38,0:40:42.38,Default,,0,0,0,,And as we remove the clouds
+Dialogue: 0,0:40:42.38,0:40:45.47,Default,,0,0,0,,we experience the sun which is always shining.
+Dialogue: 0,0:40:45.47,0:40:47.47,Default,,0,0,0,,And in the talk on addictions
+Dialogue: 0,0:40:47.47,0:40:49.47,Default,,0,0,0,,we made a very precise point
+Dialogue: 0,0:40:49.47,0:40:51.47,Default,,0,0,0,,that it's not the removal of the clouds
+Dialogue: 0,0:40:51.47,0:40:53.47,Default,,0,0,0,,that causes the sun to shine
+Dialogue: 0,0:40:53.47,0:40:55.47,Default,,0,0,0,,which is what the addicted person begins to think.
+Dialogue: 0,0:40:55.47,0:40:58.47,Default,,0,0,0,,Now people who get addicted to anything
+Dialogue: 0,0:40:58.47,0:41:01.47,Default,,0,0,0,,thinking that because of the left brain
+Dialogue: 0,0:41:01.47,0:41:04.47,Default,,0,0,0,,type of thinking linear causes
+Dialogue: 0,0:41:04.47,0:41:07.60,Default,,0,0,0,,causality that A causes B causes C.
+Dialogue: 0,0:41:07.60,0:41:08.60,Default,,0,0,0,,The removal of this.
+Dialogue: 0,0:41:08.60,0:41:10.60,Default,,0,0,0,,So the whole purpose of spiritual work then
+Dialogue: 0,0:41:10.60,0:41:12.60,Default,,0,0,0,,is the removal of these clouds
+Dialogue: 0,0:41:12.60,0:41:15.60,Default,,0,0,0,,so that one experiences the shining forth
+Dialogue: 0,0:41:15.60,0:41:17.60,Default,,0,0,0,,of the self with a capital S
+Dialogue: 0,0:41:17.60,0:41:20.59,Default,,0,0,0,,which is at the top of the board.
+Dialogue: 0,0:41:20.59,0:41:23.59,Default,,0,0,0,,These energy fields then are so powerful
+Dialogue: 0,0:41:23.59,0:41:25.59,Default,,0,0,0,,they dominate our perception.
+Dialogue: 0,0:41:25.59,0:41:29.59,Default,,0,0,0,,They're really portholes out of which we see the world.
+Dialogue: 0,0:41:29.59,0:41:31.59,Default,,0,0,0,,And we often hear it said that this is really
+Dialogue: 0,0:41:31.59,0:41:33.59,Default,,0,0,0,,just a world of mirrors.
+Dialogue: 0,0:41:33.59,0:41:34.59,Default,,0,0,0,,That all we're experiencing
+Dialogue: 0,0:41:34.59,0:41:36.59,Default,,0,0,0,,is our own energy field
+Dialogue: 0,0:41:36.59,0:41:39.59,Default,,0,0,0,,controlling our perception and our experiencing.
+Dialogue: 0,0:41:39.59,0:41:41.59,Default,,0,0,0,,So let's look at that then.
+Dialogue: 0,0:41:41.59,0:41:42.59,Default,,0,0,0,,Let's look at perception.
+Dialogue: 0,0:41:42.59,0:41:44.59,Default,,0,0,0,,Let's look at the view of the world
+Dialogue: 0,0:41:44.59,0:41:45.59,Default,,0,0,0,,and the view of life
+Dialogue: 0,0:41:45.59,0:41:48.59,Default,,0,0,0,,as it comes out of these various energy fields.
+Dialogue: 0,0:41:48.59,0:41:52.33,Default,,0,0,0,,As we said in the beginning, guilt
+Dialogue: 0,0:41:52.33,0:41:56.42,Default,,0,0,0,,that self-hatred, that destructive energy field
+Dialogue: 0,0:41:56.42,0:41:59.42,Default,,0,0,0,,sees a world of sin and suffering
+Dialogue: 0,0:41:59.42,0:42:02.42,Default,,0,0,0,,and therefore that person walking down the street
+Dialogue: 0,0:42:02.42,0:42:05.42,Default,,0,0,0,,looks around and all that person sees is suffering.
+Dialogue: 0,0:42:05.42,0:42:07.42,Default,,0,0,0,,And when they open the newspaper
+Dialogue: 0,0:42:07.42,0:42:10.42,Default,,0,0,0,,what they see is the endless suffering of mankind.
+Dialogue: 0,0:42:10.42,0:42:14.06,Default,,0,0,0,,The person who is in this energy field here
+Dialogue: 0,0:42:14.06,0:42:16.06,Default,,0,0,0,,of hopelessness and despair
+Dialogue: 0,0:42:16.06,0:42:19.06,Default,,0,0,0,,literally sees a hopeless world.
+Dialogue: 0,0:42:19.06,0:42:21.06,Default,,0,0,0,,And when he opens the newspaper
+Dialogue: 0,0:42:21.06,0:42:24.06,Default,,0,0,0,,he notices the hopeless condition of mankind
+Dialogue: 0,0:42:24.06,0:42:26.06,Default,,0,0,0,,the endless wars, the endless poverty,
+Dialogue: 0,0:42:26.06,0:42:28.22,Default,,0,0,0,,the endless crime.
+Dialogue: 0,0:42:28.22,0:42:31.22,Default,,0,0,0,,And so actually experiences perceptually,
+Dialogue: 0,0:42:31.22,0:42:34.22,Default,,0,0,0,,visually, auditorily, through all the senses
+Dialogue: 0,0:42:34.22,0:42:36.22,Default,,0,0,0,,experiences a world
+Dialogue: 0,0:42:36.22,0:42:38.51,Default,,0,0,0,,of hopelessness.
+Dialogue: 0,0:42:38.51,0:42:41.51,Default,,0,0,0,,So what kind of a God could be the God
+Dialogue: 0,0:42:41.51,0:42:43.51,Default,,0,0,0,,of a hopeless world as we said
+Dialogue: 0,0:42:43.51,0:42:45.51,Default,,0,0,0,,this is God is dead.
+Dialogue: 0,0:42:45.51,0:42:49.74,Default,,0,0,0,,The person in grief, regret and loss and despondency
+Dialogue: 0,0:42:49.74,0:42:52.74,Default,,0,0,0,,that dispirited state
+Dialogue: 0,0:42:52.74,0:42:54.74,Default,,0,0,0,,coming out of the loss of the will to live
+Dialogue: 0,0:42:54.74,0:42:58.77,Default,,0,0,0,,walks down the street and sees this as a sad world.
+Dialogue: 0,0:42:58.77,0:43:00.77,Default,,0,0,0,,So this is what is actually experienced
+Dialogue: 0,0:43:00.77,0:43:02.77,Default,,0,0,0,,and you know yourself if you're in a sad state
+Dialogue: 0,0:43:02.77,0:43:04.77,Default,,0,0,0,,when you walk down the street
+Dialogue: 0,0:43:04.77,0:43:06.77,Default,,0,0,0,,you see the children and you think
+Dialogue: 0,0:43:06.77,0:43:07.77,Default,,0,0,0,,how sad.
+Dialogue: 0,0:43:07.77,0:43:09.77,Default,,0,0,0,,You know you look at the old people
+Dialogue: 0,0:43:09.77,0:43:10.77,Default,,0,0,0,,and you think how sad.
+Dialogue: 0,0:43:10.77,0:43:11.77,Default,,0,0,0,,You look at the buildings
+Dialogue: 0,0:43:11.77,0:43:12.77,Default,,0,0,0,,you look at mankind's condition
+Dialogue: 0,0:43:12.77,0:43:13.77,Default,,0,0,0,,and you think how sad.
+Dialogue: 0,0:43:13.77,0:43:15.77,Default,,0,0,0,,And as I said you open the newspaper
+Dialogue: 0,0:43:15.77,0:43:17.77,Default,,0,0,0,,and you see how sad is life.
+Dialogue: 0,0:43:17.77,0:43:21.77,Default,,0,0,0,,That's your own energy field coloring everything.
+Dialogue: 0,0:43:21.77,0:43:23.77,Default,,0,0,0,,So these are like colored glasses
+Dialogue: 0,0:43:23.77,0:43:24.77,Default,,0,0,0,,and we put them on
+Dialogue: 0,0:43:24.77,0:43:26.77,Default,,0,0,0,,and we then experience everything
+Dialogue: 0,0:43:26.77,0:43:29.77,Default,,0,0,0,,as being colored by this energy field.
+Dialogue: 0,0:43:29.77,0:43:33.57,Default,,0,0,0,,The person in fear as we well know
+Dialogue: 0,0:43:33.57,0:43:35.57,Default,,0,0,0,,sees this as a threatening world
+Dialogue: 0,0:43:35.57,0:43:36.57,Default,,0,0,0,,a frightening world.
+Dialogue: 0,0:43:36.57,0:43:38.57,Default,,0,0,0,,Constant jeopardy.
+Dialogue: 0,0:43:38.57,0:43:41.57,Default,,0,0,0,,So he sees it as a world of danger.
+Dialogue: 0,0:43:41.57,0:43:43.57,Default,,0,0,0,,So the person walking down the street
+Dialogue: 0,0:43:43.57,0:43:45.57,Default,,0,0,0,,in that energy field
+Dialogue: 0,0:43:45.57,0:43:46.57,Default,,0,0,0,,sees danger everywhere.
+Dialogue: 0,0:43:46.57,0:43:48.57,Default,,0,0,0,,Sees that you could break your ankle here
+Dialogue: 0,0:43:48.57,0:43:50.57,Default,,0,0,0,,break your ankle there.
+Dialogue: 0,0:43:50.57,0:43:51.57,Default,,0,0,0,,They cover everything with insurance.
+Dialogue: 0,0:43:51.57,0:43:53.57,Default,,0,0,0,,They see the threat
+Dialogue: 0,0:43:53.57,0:43:55.57,Default,,0,0,0,,muggers everywhere
+Dialogue: 0,0:43:55.57,0:43:56.57,Default,,0,0,0,,and rapers under the bed.
+Dialogue: 0,0:43:56.57,0:43:58.57,Default,,0,0,0,,And of course when they open the newspaper
+Dialogue: 0,0:43:58.57,0:44:01.57,Default,,0,0,0,,they see the frightening conditions of all of life.
+Dialogue: 0,0:44:01.57,0:44:03.57,Default,,0,0,0,,The jeopardy, the danger.
+Dialogue: 0,0:44:03.57,0:44:04.57,Default,,0,0,0,,And they live in their house
+Dialogue: 0,0:44:04.57,0:44:05.57,Default,,0,0,0,,they lock their car
+Dialogue: 0,0:44:05.57,0:44:06.57,Default,,0,0,0,,and their own garage
+Dialogue: 0,0:44:06.57,0:44:07.57,Default,,0,0,0,,and then they lock the garage
+Dialogue: 0,0:44:07.57,0:44:08.57,Default,,0,0,0,,which is in their house which is locked
+Dialogue: 0,0:44:08.57,0:44:10.57,Default,,0,0,0,,which is in their yard which is locked
+Dialogue: 0,0:44:10.57,0:44:11.57,Default,,0,0,0,,which is in a neighborhood
+Dialogue: 0,0:44:11.57,0:44:13.57,Default,,0,0,0,,which has never had a robbery yet.
+Dialogue: 0,0:44:13.57,0:44:15.57,Default,,0,0,0,,And yet the fear goes on you see.
+Dialogue: 0,0:44:15.57,0:44:18.57,Default,,0,0,0,,So having more police doesn't really help
+Dialogue: 0,0:44:18.57,0:44:21.57,Default,,0,0,0,,because where are the police going to be
+Dialogue: 0,0:44:21.57,0:44:22.57,Default,,0,0,0,,when your house is robbed?
+Dialogue: 0,0:44:22.57,0:44:23.57,Default,,0,0,0,,You know where they're going to be.
+Dialogue: 0,0:44:23.57,0:44:25.57,Default,,0,0,0,,They're going to be at the other end of town.
+Dialogue: 0,0:44:25.57,0:44:26.82,Default,,0,0,0,,So it doesn't help.
+Dialogue: 0,0:44:26.82,0:44:28.82,Default,,0,0,0,,So trying to change the world then
+Dialogue: 0,0:44:28.82,0:44:30.82,Default,,0,0,0,,doesn't really assuage it
+Dialogue: 0,0:44:30.82,0:44:33.82,Default,,0,0,0,,because it's coming from one's own energy field.
+Dialogue: 0,0:44:33.82,0:44:35.78,Default,,0,0,0,,The field above that
+Dialogue: 0,0:44:35.78,0:44:37.78,Default,,0,0,0,,desiringness then sees this
+Dialogue: 0,0:44:37.78,0:44:40.78,Default,,0,0,0,,as a frustrating world of endless wantingness.
+Dialogue: 0,0:44:40.78,0:44:43.78,Default,,0,0,0,,And so the person coming from this energy field
+Dialogue: 0,0:44:43.78,0:44:44.78,Default,,0,0,0,,of wantingness
+Dialogue: 0,0:44:44.78,0:44:46.78,Default,,0,0,0,,this solar plexus fixation
+Dialogue: 0,0:44:46.78,0:44:48.78,Default,,0,0,0,,as they walk down the street
+Dialogue: 0,0:44:48.78,0:44:50.78,Default,,0,0,0,,they see all the things they want.
+Dialogue: 0,0:44:50.78,0:44:51.78,Default,,0,0,0,,They see the cars they want
+Dialogue: 0,0:44:51.78,0:44:53.78,Default,,0,0,0,,the beauty that they want
+Dialogue: 0,0:44:53.78,0:44:55.78,Default,,0,0,0,,the status, the positions
+Dialogue: 0,0:44:55.78,0:44:56.78,Default,,0,0,0,,the buildings they want.
+Dialogue: 0,0:44:56.78,0:45:00.78,Default,,0,0,0,,So because the world is therefore frustrating
+Dialogue: 0,0:45:00.78,0:45:02.78,Default,,0,0,0,,because of their endless wantingness
+Dialogue: 0,0:45:02.78,0:45:04.78,Default,,0,0,0,,which can never be satisfied.
+Dialogue: 0,0:45:04.78,0:45:06.78,Default,,0,0,0,,So that's the multi-millionaire
+Dialogue: 0,0:45:06.78,0:45:08.78,Default,,0,0,0,,whose fingernails grow long
+Dialogue: 0,0:45:08.78,0:45:09.78,Default,,0,0,0,,and their hair grows long
+Dialogue: 0,0:45:09.78,0:45:10.78,Default,,0,0,0,,and they get paranoid and weird
+Dialogue: 0,0:45:10.78,0:45:11.78,Default,,0,0,0,,as they get older.
+Dialogue: 0,0:45:11.78,0:45:12.78,Default,,0,0,0,,More and more millions of dollars
+Dialogue: 0,0:45:12.78,0:45:14.78,Default,,0,0,0,,doesn't satisfy it.
+Dialogue: 0,0:45:14.78,0:45:16.78,Default,,0,0,0,,The fact that they have 50 million doesn't help
+Dialogue: 0,0:45:16.78,0:45:18.78,Default,,0,0,0,,because the desiring, the wanting
+Dialogue: 0,0:45:18.78,0:45:20.78,Default,,0,0,0,,for more power.
+Dialogue: 0,0:45:20.78,0:45:22.78,Default,,0,0,0,,So these are fields then
+Dialogue: 0,0:45:22.78,0:45:24.78,Default,,0,0,0,,that cannot be satisfied
+Dialogue: 0,0:45:24.78,0:45:27.78,Default,,0,0,0,,and this frustration leads to anger.
+Dialogue: 0,0:45:27.78,0:45:29.78,Default,,0,0,0,,So the angry world then sees
+Dialogue: 0,0:45:29.78,0:45:31.78,Default,,0,0,0,,the angry person then sees
+Dialogue: 0,0:45:31.78,0:45:33.78,Default,,0,0,0,,a competitive world
+Dialogue: 0,0:45:33.78,0:45:35.78,Default,,0,0,0,,a world of conflict, of war
+Dialogue: 0,0:45:35.78,0:45:37.78,Default,,0,0,0,,of me against you.
+Dialogue: 0,0:45:37.78,0:45:41.78,Default,,0,0,0,,The person into this competitive view of the world
+Dialogue: 0,0:45:41.78,0:45:42.78,Default,,0,0,0,,looks out in the woods
+Dialogue: 0,0:45:42.78,0:45:44.78,Default,,0,0,0,,and thinks that the tall trees are competing
+Dialogue: 0,0:45:44.78,0:45:46.78,Default,,0,0,0,,with the small trees for the sunlight.
+Dialogue: 0,0:45:46.78,0:45:49.82,Default,,0,0,0,,As you can see this is a conception
+Dialogue: 0,0:45:49.82,0:45:51.82,Default,,0,0,0,,then projected on to a field
+Dialogue: 0,0:45:51.82,0:45:53.82,Default,,0,0,0,,where there is no such thing as competition
+Dialogue: 0,0:45:53.82,0:45:55.82,Default,,0,0,0,,even going on.
+Dialogue: 0,0:45:55.82,0:45:57.82,Default,,0,0,0,,And so that person lives in a world
+Dialogue: 0,0:45:57.82,0:46:00.82,Default,,0,0,0,,of endless possibility of war
+Dialogue: 0,0:46:00.82,0:46:02.82,Default,,0,0,0,,and conflict
+Dialogue: 0,0:46:02.82,0:46:04.82,Default,,0,0,0,,and they see everything as competition
+Dialogue: 0,0:46:04.82,0:46:05.82,Default,,0,0,0,,not as cooperation
+Dialogue: 0,0:46:05.82,0:46:07.82,Default,,0,0,0,,which a person up here would see.
+Dialogue: 0,0:46:07.82,0:46:09.82,Default,,0,0,0,,The person who is into pride
+Dialogue: 0,0:46:09.82,0:46:11.82,Default,,0,0,0,,sees this as a world of status
+Dialogue: 0,0:46:11.82,0:46:14.82,Default,,0,0,0,,and so that person walking down the same street
+Dialogue: 0,0:46:14.82,0:46:15.82,Default,,0,0,0,,sees the Gucci shoes
+Dialogue: 0,0:46:15.82,0:46:16.82,Default,,0,0,0,,sees the name tags
+Dialogue: 0,0:46:16.82,0:46:18.82,Default,,0,0,0,,and sees the labels
+Dialogue: 0,0:46:18.82,0:46:19.82,Default,,0,0,0,,sees the status
+Dialogue: 0,0:46:19.82,0:46:22.82,Default,,0,0,0,,doesn't see grief or any of this at all
+Dialogue: 0,0:46:22.82,0:46:25.82,Default,,0,0,0,,only sees the kind of car they would want
+Dialogue: 0,0:46:25.82,0:46:27.82,Default,,0,0,0,,the kind of building they would like to live
+Dialogue: 0,0:46:27.82,0:46:30.82,Default,,0,0,0,,they classify everything in terms of status
+Dialogue: 0,0:46:30.82,0:46:32.82,Default,,0,0,0,,and so positionality
+Dialogue: 0,0:46:32.82,0:46:35.82,Default,,0,0,0,,they are preoccupied with positionality.
+Dialogue: 0,0:46:35.82,0:46:37.82,Default,,0,0,0,,What happens when you get to the level of truth
+Dialogue: 0,0:46:37.82,0:46:38.82,Default,,0,0,0,,the level of courage
+Dialogue: 0,0:46:38.82,0:46:40.82,Default,,0,0,0,,is that the world suddenly appears
+Dialogue: 0,0:46:40.82,0:46:42.82,Default,,0,0,0,,as a place of opportunity.
+Dialogue: 0,0:46:42.82,0:46:44.82,Default,,0,0,0,,The world is an exciting challenging place
+Dialogue: 0,0:46:44.82,0:46:47.82,Default,,0,0,0,,an opportunity for growth and expansion
+Dialogue: 0,0:46:47.82,0:46:49.82,Default,,0,0,0,,that person opens the newspaper
+Dialogue: 0,0:46:49.82,0:46:51.82,Default,,0,0,0,,and sees the endless opportunities
+Dialogue: 0,0:46:51.82,0:46:52.82,Default,,0,0,0,,for man to grow
+Dialogue: 0,0:46:52.82,0:46:54.82,Default,,0,0,0,,to meet these challenges
+Dialogue: 0,0:46:54.82,0:46:55.82,Default,,0,0,0,,to go beyond them
+Dialogue: 0,0:46:55.82,0:46:57.82,Default,,0,0,0,,to learn in the process
+Dialogue: 0,0:46:57.82,0:47:01.23,Default,,0,0,0,,and so that person is excited about life.
+Dialogue: 0,0:47:01.23,0:47:02.23,Default,,0,0,0,,As we move up to neutral then
+Dialogue: 0,0:47:02.23,0:47:06.23,Default,,0,0,0,,we move into a world of okayness
+Dialogue: 0,0:47:06.23,0:47:08.23,Default,,0,0,0,,because this person is detached
+Dialogue: 0,0:47:08.23,0:47:09.23,Default,,0,0,0,,unattached
+Dialogue: 0,0:47:09.23,0:47:11.23,Default,,0,0,0,,rather non-attached
+Dialogue: 0,0:47:11.23,0:47:13.23,Default,,0,0,0,,everything sort of becomes okay
+Dialogue: 0,0:47:13.23,0:47:17.23,Default,,0,0,0,,and you start moving into an easy going view of the world
+Dialogue: 0,0:47:17.23,0:47:19.23,Default,,0,0,0,,in which the person begins to say
+Dialogue: 0,0:47:19.23,0:47:20.23,Default,,0,0,0,,well that's human nature
+Dialogue: 0,0:47:20.23,0:47:22.23,Default,,0,0,0,,that's the way it is
+Dialogue: 0,0:47:22.23,0:47:25.23,Default,,0,0,0,,it's serving some kind of an ultimate purpose.
+Dialogue: 0,0:47:25.23,0:47:27.30,Default,,0,0,0,,The person who moves into willingness
+Dialogue: 0,0:47:27.30,0:47:28.30,Default,,0,0,0,,now for the first time
+Dialogue: 0,0:47:28.30,0:47:30.30,Default,,0,0,0,,begins to experience this as a friendly world
+Dialogue: 0,0:47:30.30,0:47:32.30,Default,,0,0,0,,and that person walking down the street
+Dialogue: 0,0:47:32.30,0:47:35.30,Default,,0,0,0,,sees the endless friendlinesses that go on
+Dialogue: 0,0:47:35.30,0:47:37.30,Default,,0,0,0,,how friendly this universe is
+Dialogue: 0,0:47:37.30,0:47:38.30,Default,,0,0,0,,no matter what you have
+Dialogue: 0,0:47:38.30,0:47:39.30,Default,,0,0,0,,like you pull your nose in a hanky
+Dialogue: 0,0:47:39.30,0:47:41.30,Default,,0,0,0,,there's a waste basket right there
+Dialogue: 0,0:47:41.30,0:47:43.30,Default,,0,0,0,,the world is harmonious
+Dialogue: 0,0:47:43.30,0:47:45.36,Default,,0,0,0,,and friendly and supportive.
+Dialogue: 0,0:47:45.36,0:47:47.36,Default,,0,0,0,,The person on the level of acceptance then
+Dialogue: 0,0:47:47.36,0:47:49.36,Default,,0,0,0,,really experiences that harmony of life
+Dialogue: 0,0:47:49.36,0:47:53.36,Default,,0,0,0,,begins to experience what Jung calls synchronicity
+Dialogue: 0,0:47:53.36,0:47:56.36,Default,,0,0,0,,how everything just sort of flows together
+Dialogue: 0,0:47:56.36,0:47:59.36,Default,,0,0,0,,and begins to experience a world of cooperation
+Dialogue: 0,0:47:59.36,0:48:01.36,Default,,0,0,0,,because he's holding cooperation
+Dialogue: 0,0:48:01.36,0:48:03.36,Default,,0,0,0,,as his own energy field
+Dialogue: 0,0:48:03.36,0:48:06.36,Default,,0,0,0,,he experiences life as cooperative.
+Dialogue: 0,0:48:06.36,0:48:09.39,Default,,0,0,0,,This person as he moves into lovingness
+Dialogue: 0,0:48:09.39,0:48:11.39,Default,,0,0,0,,begins to experience the lovingness
+Dialogue: 0,0:48:11.39,0:48:13.39,Default,,0,0,0,,and the endless loving support
+Dialogue: 0,0:48:13.39,0:48:17.39,Default,,0,0,0,,the universality of that loving energy in the universe.
+Dialogue: 0,0:48:17.39,0:48:20.39,Default,,0,0,0,,The person moving up towards states of illumination
+Dialogue: 0,0:48:20.39,0:48:22.39,Default,,0,0,0,,begins to experience the incredible beauty
+Dialogue: 0,0:48:22.39,0:48:24.39,Default,,0,0,0,,and perfection of life
+Dialogue: 0,0:48:24.39,0:48:27.39,Default,,0,0,0,,the absolute perfection of creation
+Dialogue: 0,0:48:27.39,0:48:30.39,Default,,0,0,0,,and as he moves up towards the highest energy fields
+Dialogue: 0,0:48:30.39,0:48:33.39,Default,,0,0,0,,he experiences actually the divine essence
+Dialogue: 0,0:48:33.39,0:48:35.39,Default,,0,0,0,,and nature of all of life.
+Dialogue: 0,0:48:35.39,0:48:37.39,Default,,0,0,0,,The incredible beauty of all things
+Dialogue: 0,0:48:37.39,0:48:40.39,Default,,0,0,0,,not aesthetic beauty which is pleasing to the senses
+Dialogue: 0,0:48:40.39,0:48:42.39,Default,,0,0,0,,but the intrinsic beauty
+Dialogue: 0,0:48:42.39,0:48:44.39,Default,,0,0,0,,which when you walk down an alley
+Dialogue: 0,0:48:44.39,0:48:47.39,Default,,0,0,0,,which to the eye of the unenlightened would look ugly
+Dialogue: 0,0:48:47.39,0:48:50.39,Default,,0,0,0,,experiences the incredible perfection and beauty
+Dialogue: 0,0:48:50.39,0:48:52.39,Default,,0,0,0,,of the aliveness of life
+Dialogue: 0,0:48:52.39,0:48:56.39,Default,,0,0,0,,begins to see all of life as a rose unfolding
+Dialogue: 0,0:48:56.39,0:48:58.39,Default,,0,0,0,,so he doesn't see imperfection
+Dialogue: 0,0:48:58.39,0:48:59.39,Default,,0,0,0,,sees process
+Dialogue: 0,0:48:59.39,0:49:03.39,Default,,0,0,0,,that person there instead of being wrong
+Dialogue: 0,0:49:03.39,0:49:06.39,Default,,0,0,0,,is in the unfoldment
+Dialogue: 0,0:49:06.39,0:49:10.39,Default,,0,0,0,,sees all of the universe as the unfoldment of that perfection.
+Dialogue: 0,0:49:10.39,0:49:12.81,Default,,0,0,0,,So what kind of a God can one envision
+Dialogue: 0,0:49:12.81,0:49:14.81,Default,,0,0,0,,from these various energy fields then?
+Dialogue: 0,0:49:14.81,0:49:16.81,Default,,0,0,0,,As we said this person here
+Dialogue: 0,0:49:16.81,0:49:19.81,Default,,0,0,0,,envisions a God who is the ultimate destroyer
+Dialogue: 0,0:49:19.81,0:49:21.81,Default,,0,0,0,,and actually the ultimate enemy and hater of mankind
+Dialogue: 0,0:49:21.81,0:49:23.81,Default,,0,0,0,,the ultimate of hatred.
+Dialogue: 0,0:49:23.81,0:49:27.38,Default,,0,0,0,,To throw your eternal soul into hell forever
+Dialogue: 0,0:49:27.38,0:49:29.38,Default,,0,0,0,,would be the ultimate act of hate.
+Dialogue: 0,0:49:29.38,0:49:32.80,Default,,0,0,0,,The person in apathy and hopelessness
+Dialogue: 0,0:49:32.80,0:49:34.80,Default,,0,0,0,,experiences God as dead.
+Dialogue: 0,0:49:34.80,0:49:37.80,Default,,0,0,0,,The person who is in this energy field
+Dialogue: 0,0:49:37.80,0:49:39.80,Default,,0,0,0,,sometimes says I believe in God
+Dialogue: 0,0:49:39.80,0:49:41.80,Default,,0,0,0,,but I feel he wouldn't have anything to do with me
+Dialogue: 0,0:49:41.80,0:49:44.80,Default,,0,0,0,,because I am just a worm, worthless.
+Dialogue: 0,0:49:44.80,0:49:47.80,Default,,0,0,0,,I am so worthless that God would have nothing to do with me.
+Dialogue: 0,0:49:47.80,0:49:49.80,Default,,0,0,0,,The person who lives in fear
+Dialogue: 0,0:49:49.80,0:49:53.80,Default,,0,0,0,,sees a punitive, frightening, terrifying God.
+Dialogue: 0,0:49:53.80,0:49:55.93,Default,,0,0,0,,The person who lives in frustration
+Dialogue: 0,0:49:55.93,0:49:57.93,Default,,0,0,0,,feels separated from God.
+Dialogue: 0,0:49:57.93,0:49:58.93,Default,,0,0,0,,That's the God who constantly whispers.
+Dialogue: 0,0:49:58.93,0:50:00.93,Default,,0,0,0,,That's the God who constantly withholds from you
+Dialogue: 0,0:50:00.93,0:50:03.93,Default,,0,0,0,,that which would allow you to be happy.
+Dialogue: 0,0:50:03.93,0:50:07.93,Default,,0,0,0,,And therefore he is actually acting in a very hostile manner.
+Dialogue: 0,0:50:07.93,0:50:09.93,Default,,0,0,0,,The person in anger expects, of course,
+Dialogue: 0,0:50:09.93,0:50:12.93,Default,,0,0,0,,a retaliatory, punishing God.
+Dialogue: 0,0:50:12.93,0:50:14.93,Default,,0,0,0,,And because these things go together
+Dialogue: 0,0:50:14.93,0:50:17.93,Default,,0,0,0,,we then get the God who is really demonic.
+Dialogue: 0,0:50:17.93,0:50:19.93,Default,,0,0,0,,The God who really hates you.
+Dialogue: 0,0:50:19.93,0:50:22.93,Default,,0,0,0,,Who threatens to throw you into hell.
+Dialogue: 0,0:50:22.93,0:50:24.93,Default,,0,0,0,,The ultimate destroyer, the punisher.
+Dialogue: 0,0:50:24.93,0:50:26.93,Default,,0,0,0,,The God who is vengeful.
+Dialogue: 0,0:50:26.93,0:50:28.93,Default,,0,0,0,,The God who is jealous.
+Dialogue: 0,0:50:28.93,0:50:31.93,Default,,0,0,0,,So we get a depiction of a God who is fitfully jealous
+Dialogue: 0,0:50:31.93,0:50:35.93,Default,,0,0,0,,and given to emotional extremes of destructiveness.
+Dialogue: 0,0:50:35.93,0:50:37.93,Default,,0,0,0,,These are all coming out, of course,
+Dialogue: 0,0:50:37.93,0:50:39.93,Default,,0,0,0,,of a field of consciousness
+Dialogue: 0,0:50:39.93,0:50:41.93,Default,,0,0,0,,having no basis in reality whatsoever.
+Dialogue: 0,0:50:41.93,0:50:45.06,Default,,0,0,0,,When we get up to here, the level of pride
+Dialogue: 0,0:50:45.06,0:50:48.06,Default,,0,0,0,,we can have two directions to go.
+Dialogue: 0,0:50:48.06,0:50:50.06,Default,,0,0,0,,Because of the arrogance.
+Dialogue: 0,0:50:50.06,0:50:52.06,Default,,0,0,0,,Because of the inflated ego.
+Dialogue: 0,0:50:52.06,0:50:54.06,Default,,0,0,0,,We can have, on the one hand, atheism
+Dialogue: 0,0:50:54.06,0:50:56.06,Default,,0,0,0,,or on the other side, the zealot.
+Dialogue: 0,0:50:56.06,0:50:58.06,Default,,0,0,0,,The bigot. The one who knows.
+Dialogue: 0,0:50:58.06,0:51:00.06,Default,,0,0,0,,So these are people who have the answer.
+Dialogue: 0,0:51:00.06,0:51:04.38,Default,,0,0,0,,And the answer is coming out of intellectual arrogance.
+Dialogue: 0,0:51:04.38,0:51:06.38,Default,,0,0,0,,As we move up to courage, then,
+Dialogue: 0,0:51:06.38,0:51:08.38,Default,,0,0,0,,which is the level of truth,
+Dialogue: 0,0:51:08.38,0:51:10.38,Default,,0,0,0,,what kind of God do we have?
+Dialogue: 0,0:51:10.38,0:51:12.38,Default,,0,0,0,,We have God of a question mark.
+Dialogue: 0,0:51:12.38,0:51:13.38,Default,,0,0,0,,For the first time,
+Dialogue: 0,0:51:13.38,0:51:15.38,Default,,0,0,0,,because we're now hitting the level of truth,
+Dialogue: 0,0:51:15.38,0:51:17.38,Default,,0,0,0,,we have an open mind and the person says,
+Dialogue: 0,0:51:17.38,0:51:19.38,Default,,0,0,0,,you know, I really don't know about God.
+Dialogue: 0,0:51:19.38,0:51:21.38,Default,,0,0,0,,It's only hearsay.
+Dialogue: 0,0:51:21.38,0:51:23.44,Default,,0,0,0,,All that I've read, all that I've heard,
+Dialogue: 0,0:51:23.44,0:51:25.44,Default,,0,0,0,,all that religion teaches
+Dialogue: 0,0:51:25.44,0:51:27.44,Default,,0,0,0,,is really other people's experience
+Dialogue: 0,0:51:27.44,0:51:29.44,Default,,0,0,0,,in times and places.
+Dialogue: 0,0:51:29.44,0:51:30.44,Default,,0,0,0,,And on the witness stand, frankly,
+Dialogue: 0,0:51:30.44,0:51:32.44,Default,,0,0,0,,I would have to say, I don't know anything about it.
+Dialogue: 0,0:51:32.44,0:51:35.44,Default,,0,0,0,,And so the question mark, the spiritual seeking,
+Dialogue: 0,0:51:35.44,0:51:37.44,Default,,0,0,0,,really begins at this level.
+Dialogue: 0,0:51:37.44,0:51:39.44,Default,,0,0,0,,The person says, I of my own self
+Dialogue: 0,0:51:39.44,0:51:42.44,Default,,0,0,0,,would like to know what is the truth of this.
+Dialogue: 0,0:51:42.44,0:51:47.11,Default,,0,0,0,,And so you move into the God of one's own inner experience.
+Dialogue: 0,0:51:47.11,0:51:50.27,Default,,0,0,0,,The God of one's own understanding.
+Dialogue: 0,0:51:50.27,0:51:53.27,Default,,0,0,0,,As you move up to this level of neutral, then,
+Dialogue: 0,0:51:53.27,0:51:56.27,Default,,0,0,0,,you begin to experience a world of okayness
+Dialogue: 0,0:51:56.27,0:51:58.27,Default,,0,0,0,,and you experience, as we said before,
+Dialogue: 0,0:51:58.27,0:52:00.27,Default,,0,0,0,,God as freedom.
+Dialogue: 0,0:52:00.27,0:52:02.27,Default,,0,0,0,,You begin to experience that there is no punitive,
+Dialogue: 0,0:52:02.27,0:52:04.27,Default,,0,0,0,,hateful, negative God at all
+Dialogue: 0,0:52:04.27,0:52:06.27,Default,,0,0,0,,because you've moved out of those energy fields.
+Dialogue: 0,0:52:06.27,0:52:09.27,Default,,0,0,0,,There's a God of absolute, infinite freedom
+Dialogue: 0,0:52:09.27,0:52:12.27,Default,,0,0,0,,to expand, to explore, to become,
+Dialogue: 0,0:52:12.27,0:52:14.34,Default,,0,0,0,,to fulfill one's potential.
+Dialogue: 0,0:52:14.34,0:52:17.34,Default,,0,0,0,,As we move up to the willingness, friendly level,
+Dialogue: 0,0:52:17.34,0:52:19.34,Default,,0,0,0,,we begin to experience God as something
+Dialogue: 0,0:52:19.34,0:52:22.34,Default,,0,0,0,,that is perhaps promising and hopeful.
+Dialogue: 0,0:52:22.34,0:52:24.34,Default,,0,0,0,,Something that is now positive.
+Dialogue: 0,0:52:24.34,0:52:26.34,Default,,0,0,0,,Down here it was negative.
+Dialogue: 0,0:52:26.34,0:52:28.34,Default,,0,0,0,,Here it opens to openness and freedom.
+Dialogue: 0,0:52:28.34,0:52:31.34,Default,,0,0,0,,But now it's beginning to look positive.
+Dialogue: 0,0:52:31.34,0:52:33.34,Default,,0,0,0,,And the person on this level here,
+Dialogue: 0,0:52:33.34,0:52:35.34,Default,,0,0,0,,experiencing life as harmony,
+Dialogue: 0,0:52:35.34,0:52:38.34,Default,,0,0,0,,realizes God is the ultimate merciful.
+Dialogue: 0,0:52:38.34,0:52:43.37,Default,,0,0,0,,The ultimate, that which is all forgiving
+Dialogue: 0,0:52:43.37,0:52:45.37,Default,,0,0,0,,and all merciful.
+Dialogue: 0,0:52:45.37,0:52:47.37,Default,,0,0,0,,And the person in lovingness, then,
+Dialogue: 0,0:52:47.37,0:52:50.37,Default,,0,0,0,,begins to experience the God of unconditional love.
+Dialogue: 0,0:52:50.37,0:52:52.37,Default,,0,0,0,,The ever presence of the love of God
+Dialogue: 0,0:52:52.37,0:52:54.37,Default,,0,0,0,,as the source of one's happiness
+Dialogue: 0,0:52:54.37,0:52:56.37,Default,,0,0,0,,and the source of life.
+Dialogue: 0,0:52:56.37,0:52:58.37,Default,,0,0,0,,As we move into joy and the awareness
+Dialogue: 0,0:52:58.37,0:53:00.37,Default,,0,0,0,,of beauty and perfection
+Dialogue: 0,0:53:00.37,0:53:02.37,Default,,0,0,0,,and the divine essence of all things.
+Dialogue: 0,0:53:02.37,0:53:04.37,Default,,0,0,0,,The oneness of God.
+Dialogue: 0,0:53:04.37,0:53:06.37,Default,,0,0,0,,The oneness, the unity.
+Dialogue: 0,0:53:06.37,0:53:08.37,Default,,0,0,0,,And finally we move to the top.
+Dialogue: 0,0:53:08.37,0:53:12.37,Default,,0,0,0,,God as beingness, isness, the reality, the truth.
+Dialogue: 0,0:53:12.37,0:53:14.37,Default,,0,0,0,,That which is.
+Dialogue: 0,0:53:14.37,0:53:16.37,Default,,0,0,0,,That which is nameless.
+Dialogue: 0,0:53:16.37,0:53:21.37,Default,,0,0,0,,And one realizes that one is at one with that
+Dialogue: 0,0:53:21.37,0:53:23.37,Default,,0,0,0,,as one goes into 600.
+Dialogue: 0,0:53:23.37,0:53:25.37,Default,,0,0,0,,We now have a context
+Dialogue: 0,0:53:25.37,0:53:27.37,Default,,0,0,0,,which will give a certain
+Dialogue: 0,0:53:27.37,0:53:30.37,Default,,0,0,0,,background, a way to hold now
+Dialogue: 0,0:53:30.37,0:53:32.37,Default,,0,0,0,,and to see our spiritual work
+Dialogue: 0,0:53:32.37,0:53:34.37,Default,,0,0,0,,from a different perspective.
+Dialogue: 0,0:53:34.37,0:53:36.37,Default,,0,0,0,,To see healing from a different perspective.
+Dialogue: 0,0:53:36.37,0:53:38.37,Default,,0,0,0,,How to approach that
+Dialogue: 0,0:53:38.37,0:53:41.94,Default,,0,0,0,,great enigma called the ego.
+Dialogue: 0,0:53:41.94,0:53:44.94,Default,,0,0,0,,We see now that
+Dialogue: 0,0:53:44.94,0:53:46.94,Default,,0,0,0,,this energy field of 540 and up,
+Dialogue: 0,0:53:46.94,0:53:48.94,Default,,0,0,0,,the fields of compassion.
+Dialogue: 0,0:53:48.94,0:53:49.94,Default,,0,0,0,,We're interested in compassion.
+Dialogue: 0,0:53:49.94,0:53:51.94,Default,,0,0,0,,And people in spiritual work are generally
+Dialogue: 0,0:53:51.94,0:53:52.94,Default,,0,0,0,,perfecting.
+Dialogue: 0,0:53:52.94,0:53:54.94,Default,,0,0,0,,They're coming from the 400s
+Dialogue: 0,0:53:54.94,0:53:56.94,Default,,0,0,0,,where they have learningness,
+Dialogue: 0,0:53:56.94,0:53:59.94,Default,,0,0,0,,knowledge with a small k about spiritual matters.
+Dialogue: 0,0:53:59.94,0:54:00.94,Default,,0,0,0,,Putting them into effect
+Dialogue: 0,0:54:00.94,0:54:02.94,Default,,0,0,0,,and trying to perfect the 500s.
+Dialogue: 0,0:54:02.94,0:54:04.94,Default,,0,0,0,,Of course the miracles,
+Dialogue: 0,0:54:04.94,0:54:05.94,Default,,0,0,0,,the 12-step groups,
+Dialogue: 0,0:54:05.94,0:54:08.94,Default,,0,0,0,,a great many are concerned with
+Dialogue: 0,0:54:08.94,0:54:14.01,Default,,0,0,0,,the perfecting of the capacity to love.
+Dialogue: 0,0:54:14.01,0:54:16.01,Default,,0,0,0,,And we move up to a certain way then
+Dialogue: 0,0:54:16.01,0:54:20.04,Default,,0,0,0,,of viewing what the world calls the ego then.
+Dialogue: 0,0:54:20.04,0:54:22.04,Default,,0,0,0,,If we, you see money in and of itself,
+Dialogue: 0,0:54:22.04,0:54:24.04,Default,,0,0,0,,let's take an example of money.
+Dialogue: 0,0:54:24.04,0:54:26.04,Default,,0,0,0,,Money, wealth, power, sexuality,
+Dialogue: 0,0:54:26.04,0:54:29.04,Default,,0,0,0,,worldly success is all around 200.
+Dialogue: 0,0:54:29.04,0:54:32.17,Default,,0,0,0,,Remember in that movie Lost Horizon
+Dialogue: 0,0:54:32.17,0:54:35.17,Default,,0,0,0,,where the hero falls into Shangri-La
+Dialogue: 0,0:54:35.17,0:54:38.17,Default,,0,0,0,,which calibrates at about 625.
+Dialogue: 0,0:54:38.17,0:54:42.17,Default,,0,0,0,,He comes back into the world of doingness.
+Dialogue: 0,0:54:42.17,0:54:44.17,Default,,0,0,0,,This is the world of doingness.
+Dialogue: 0,0:54:44.17,0:54:46.42,Default,,0,0,0,,And he no longer finds satisfaction
+Dialogue: 0,0:54:46.42,0:54:48.42,Default,,0,0,0,,because he has experienced something higher.
+Dialogue: 0,0:54:48.42,0:54:51.42,Default,,0,0,0,,You see at the bottom of the box here,
+Dialogue: 0,0:54:51.42,0:54:52.42,Default,,0,0,0,,this is the world of havingness.
+Dialogue: 0,0:54:52.42,0:54:54.42,Default,,0,0,0,,It's what you have that counts.
+Dialogue: 0,0:54:54.42,0:54:56.42,Default,,0,0,0,,And people, status,
+Dialogue: 0,0:54:56.42,0:54:58.42,Default,,0,0,0,,etc. comes from what you have.
+Dialogue: 0,0:54:58.42,0:55:00.42,Default,,0,0,0,,In the middle of the box,
+Dialogue: 0,0:55:00.42,0:55:03.42,Default,,0,0,0,,that's the world of doingness.
+Dialogue: 0,0:55:03.42,0:55:05.42,Default,,0,0,0,,At the bottom they want to know what you have
+Dialogue: 0,0:55:05.42,0:55:07.42,Default,,0,0,0,,and they rate you on what you have.
+Dialogue: 0,0:55:07.42,0:55:08.42,Default,,0,0,0,,The world of doingness,
+Dialogue: 0,0:55:08.42,0:55:10.42,Default,,0,0,0,,they want to know what you do in the world.
+Dialogue: 0,0:55:10.42,0:55:11.42,Default,,0,0,0,,What do you do there?
+Dialogue: 0,0:55:11.42,0:55:12.42,Default,,0,0,0,,You know, what position,
+Dialogue: 0,0:55:12.42,0:55:14.42,Default,,0,0,0,,what is your function?
+Dialogue: 0,0:55:14.42,0:55:17.42,Default,,0,0,0,,Havingness is no longer impressive.
+Dialogue: 0,0:55:17.42,0:55:19.42,Default,,0,0,0,,Down here at Cadillac it's very impressive.
+Dialogue: 0,0:55:19.42,0:55:21.42,Default,,0,0,0,,Here it's no longer so impressive
+Dialogue: 0,0:55:21.42,0:55:23.42,Default,,0,0,0,,because everybody knows if you do plenty,
+Dialogue: 0,0:55:23.42,0:55:25.42,Default,,0,0,0,,like work seven days a week and two jobs,
+Dialogue: 0,0:55:25.42,0:55:27.42,Default,,0,0,0,,that you can have all you want.
+Dialogue: 0,0:55:27.42,0:55:30.42,Default,,0,0,0,,So havingness then no longer has status.
+Dialogue: 0,0:55:30.42,0:55:31.42,Default,,0,0,0,,Doingness.
+Dialogue: 0,0:55:31.42,0:55:33.42,Default,,0,0,0,,But as you move towards the top of the box,
+Dialogue: 0,0:55:33.42,0:55:35.42,Default,,0,0,0,,it's not what you have,
+Dialogue: 0,0:55:35.42,0:55:36.42,Default,,0,0,0,,it's not what you do,
+Dialogue: 0,0:55:36.42,0:55:37.42,Default,,0,0,0,,it's what you are,
+Dialogue: 0,0:55:37.42,0:55:39.42,Default,,0,0,0,,it's what you have become.
+Dialogue: 0,0:55:39.42,0:55:41.42,Default,,0,0,0,,People seek you out now
+Dialogue: 0,0:55:41.42,0:55:43.42,Default,,0,0,0,,for what you have become,
+Dialogue: 0,0:55:43.42,0:55:44.42,Default,,0,0,0,,what you have,
+Dialogue: 0,0:55:44.42,0:55:46.42,Default,,0,0,0,,the truth that you have owned about yourself.
+Dialogue: 0,0:55:46.42,0:55:48.42,Default,,0,0,0,,And so we seek those people
+Dialogue: 0,0:55:48.42,0:55:50.42,Default,,0,0,0,,because of what they are.
+Dialogue: 0,0:55:50.42,0:55:52.42,Default,,0,0,0,,We don't even care what they have.
+Dialogue: 0,0:55:52.42,0:55:54.42,Default,,0,0,0,,And I've known people like that for many years
+Dialogue: 0,0:55:54.42,0:55:56.42,Default,,0,0,0,,and I never have known what they do.
+Dialogue: 0,0:55:56.42,0:55:58.42,Default,,0,0,0,,I still don't know what they do.
+Dialogue: 0,0:55:58.42,0:56:00.42,Default,,0,0,0,,But what they are is what is interesting
+Dialogue: 0,0:56:00.42,0:56:02.42,Default,,0,0,0,,and why we seek their company.
+Dialogue: 0,0:56:02.42,0:56:05.97,Default,,0,0,0,,So, utilizing this knowledge then,
+Dialogue: 0,0:56:05.97,0:56:08.97,Default,,0,0,0,,we have an understanding of many things.
+Dialogue: 0,0:56:08.97,0:56:12.06,Default,,0,0,0,,The way to heal the small self then
+Dialogue: 0,0:56:12.06,0:56:16.06,Default,,0,0,0,,is not to come from a polarized right-wrong position,
+Dialogue: 0,0:56:16.06,0:56:17.06,Default,,0,0,0,,a make-wrong,
+Dialogue: 0,0:56:17.06,0:56:18.06,Default,,0,0,0,,which makes it our enemy
+Dialogue: 0,0:56:18.06,0:56:20.06,Default,,0,0,0,,and gives it energy and power,
+Dialogue: 0,0:56:20.06,0:56:23.06,Default,,0,0,0,,but to come from a loving compassion,
+Dialogue: 0,0:56:23.06,0:56:24.06,Default,,0,0,0,,to see the intrinsic,
+Dialogue: 0,0:56:24.06,0:56:26.06,Default,,0,0,0,,to see the intrinsic innocence.
+Dialogue: 0,0:56:26.06,0:56:28.06,Default,,0,0,0,,Because within this here,
+Dialogue: 0,0:56:28.06,0:56:31.06,Default,,0,0,0,,what you see is the innocence of the child.
+Dialogue: 0,0:56:31.06,0:56:34.06,Default,,0,0,0,,You see the innocence of the child's consciousness.
+Dialogue: 0,0:56:34.06,0:56:37.06,Default,,0,0,0,,And then you see the programming that comes in.
+Dialogue: 0,0:56:37.06,0:56:40.06,Default,,0,0,0,,It's because of the child's lovingness and trustiness
+Dialogue: 0,0:56:40.06,0:56:43.06,Default,,0,0,0,,that it is so programmable.
+Dialogue: 0,0:56:43.06,0:56:45.06,Default,,0,0,0,,And you begin to see the innocence
+Dialogue: 0,0:56:45.06,0:56:49.10,Default,,0,0,0,,even within that which is most hateful.
+Dialogue: 0,0:56:49.10,0:56:50.10,Default,,0,0,0,,Out of one's compassion then,
+Dialogue: 0,0:56:50.10,0:56:52.10,Default,,0,0,0,,to see into the hearts of things,
+Dialogue: 0,0:56:52.10,0:56:54.10,Default,,0,0,0,,one sees the intrinsic innocence
+Dialogue: 0,0:56:54.10,0:56:56.10,Default,,0,0,0,,even within the ego.
+Dialogue: 0,0:56:56.10,0:56:58.10,Default,,0,0,0,,And so, how does it get healed then?
+Dialogue: 0,0:56:58.10,0:57:00.10,Default,,0,0,0,,It gets healed out of compassion.
+Dialogue: 0,0:57:00.10,0:57:02.10,Default,,0,0,0,,It gets loved.
+Dialogue: 0,0:57:02.10,0:57:03.10,Default,,0,0,0,,We love our humanness.
+Dialogue: 0,0:57:03.10,0:57:05.10,Default,,0,0,0,,Instead of condemning it now,
+Dialogue: 0,0:57:05.10,0:57:06.10,Default,,0,0,0,,we say,
+Dialogue: 0,0:57:06.10,0:57:09.10,Default,,0,0,0,,I see the necessity of that at that time.
+Dialogue: 0,0:57:09.10,0:57:10.10,Default,,0,0,0,,For instance,
+Dialogue: 0,0:57:10.10,0:57:12.10,Default,,0,0,0,,instead of being ashamed of anger,
+Dialogue: 0,0:57:12.10,0:57:14.10,Default,,0,0,0,,hatred,
+Dialogue: 0,0:57:14.10,0:57:15.10,Default,,0,0,0,,we say to ourself,
+Dialogue: 0,0:57:15.10,0:57:18.10,Default,,0,0,0,,well, that being angry was necessary at that time.
+Dialogue: 0,0:57:18.10,0:57:20.10,Default,,0,0,0,,Because a person who's never hated
+Dialogue: 0,0:57:20.10,0:57:22.10,Default,,0,0,0,,will never move up to love, will they?
+Dialogue: 0,0:57:22.10,0:57:24.10,Default,,0,0,0,,Because they've never cared that much about love,
+Dialogue: 0,0:57:24.10,0:57:25.10,Default,,0,0,0,,life.
+Dialogue: 0,0:57:25.10,0:57:26.10,Default,,0,0,0,,If you don't care enough about life
+Dialogue: 0,0:57:26.10,0:57:27.10,Default,,0,0,0,,to have ever gotten angry
+Dialogue: 0,0:57:27.10,0:57:28.10,Default,,0,0,0,,and actually hated,
+Dialogue: 0,0:57:28.10,0:57:31.10,Default,,0,0,0,,then you would be down here in apathy.
+Dialogue: 0,0:57:31.10,0:57:33.10,Default,,0,0,0,,So we look at our humanness then
+Dialogue: 0,0:57:33.10,0:57:35.10,Default,,0,0,0,,from the viewpoint of forgiveness,
+Dialogue: 0,0:57:35.10,0:57:36.10,Default,,0,0,0,,from compassion.
+Dialogue: 0,0:57:36.10,0:57:37.10,Default,,0,0,0,,And we love it.
+Dialogue: 0,0:57:37.10,0:57:40.10,Default,,0,0,0,,We hold it within our greatness.
+Dialogue: 0,0:57:40.10,0:57:42.10,Default,,0,0,0,,And we look at our smallness
+Dialogue: 0,0:57:42.10,0:57:43.10,Default,,0,0,0,,like we look at the child.
+Dialogue: 0,0:57:43.10,0:57:46.10,Default,,0,0,0,,And we begin to heal it through understanding,
+Dialogue: 0,0:57:46.10,0:57:47.10,Default,,0,0,0,,through compassion.
+Dialogue: 0,0:57:47.10,0:57:48.10,Default,,0,0,0,,And when we do, you see,
+Dialogue: 0,0:57:48.10,0:57:51.10,Default,,0,0,0,,we're pulling forth a very powerful energy field,
+Dialogue: 0,0:57:51.10,0:57:53.10,Default,,0,0,0,,a healing energy field.
+Dialogue: 0,0:57:53.10,0:57:55.10,Default,,0,0,0,,When we look at ourself
+Dialogue: 0,0:57:55.10,0:57:58.10,Default,,0,0,0,,from compassion and from lovingness,
+Dialogue: 0,0:57:58.10,0:58:00.10,Default,,0,0,0,,we begin to heal it.
+Dialogue: 0,0:58:00.10,0:58:02.10,Default,,0,0,0,,And of course we know
+Dialogue: 0,0:58:02.10,0:58:03.10,Default,,0,0,0,,that which we forgive in others
+Dialogue: 0,0:58:03.10,0:58:05.10,Default,,0,0,0,,is forgiven within ourself.
+Dialogue: 0,0:58:05.10,0:58:07.10,Default,,0,0,0,,That which we forgive in ourself
+Dialogue: 0,0:58:07.10,0:58:10.10,Default,,0,0,0,,disappears from our perception of the world.
+Dialogue: 0,0:58:10.10,0:58:13.10,Default,,0,0,0,,So our perception of the world begins to shift.
+Dialogue: 0,0:58:13.10,0:58:15.10,Default,,0,0,0,,And as we hit the level of 600,
+Dialogue: 0,0:58:15.10,0:58:17.10,Default,,0,0,0,,we begin to experience a world
+Dialogue: 0,0:58:17.10,0:58:19.10,Default,,0,0,0,,which is totally different.
+Dialogue: 0,0:58:19.10,0:58:20.10,Default,,0,0,0,,I always say,
+Dialogue: 0,0:58:20.10,0:58:22.10,Default,,0,0,0,,movie A is replaced by movie B.
+Dialogue: 0,0:58:22.10,0:58:25.10,Default,,0,0,0,,It's like you're putting on different colored glasses
+Dialogue: 0,0:58:25.10,0:58:26.10,Default,,0,0,0,,and now it looks the same
+Dialogue: 0,0:58:26.10,0:58:29.13,Default,,0,0,0,,but it's experienced totally differently.
+Dialogue: 0,0:58:29.13,0:58:31.13,Default,,0,0,0,,And so that's the purpose of this map of consciousness,
+Dialogue: 0,0:58:31.13,0:58:33.13,Default,,0,0,0,,to create a context
+Dialogue: 0,0:58:33.13,0:58:36.13,Default,,0,0,0,,out of which merely experiencing it,
+Dialogue: 0,0:58:36.13,0:58:37.13,Default,,0,0,0,,merely seeing it,
+Dialogue: 0,0:58:37.13,0:58:39.13,Default,,0,0,0,,opens whole new avenues.
+Dialogue: 0,0:58:39.13,0:58:42.13,Default,,0,0,0,,Whole new avenues begin to just open up automatically.
+Dialogue: 0,0:58:42.13,0:58:44.13,Default,,0,0,0,,And our intention,
+Dialogue: 0,0:58:44.13,0:58:48.13,Default,,0,0,0,,our intention now is facilitated.
+Dialogue: 0,0:58:48.13,0:58:50.13,Default,,0,0,0,,Our capacity to heal ourself
+Dialogue: 0,0:58:50.13,0:58:51.13,Default,,0,0,0,,and to heal others,
+Dialogue: 0,0:58:51.13,0:58:53.13,Default,,0,0,0,,the fulfillment of our own potential,
+Dialogue: 0,0:58:53.13,0:58:55.13,Default,,0,0,0,,as we see ourself move forward
+Dialogue: 0,0:58:55.13,0:58:57.13,Default,,0,0,0,,in our own realization of the truth.

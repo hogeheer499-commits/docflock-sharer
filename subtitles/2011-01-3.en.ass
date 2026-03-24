@@ -1,0 +1,1943 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.99,0:00:10.39,Default,,0,0,0,,Susan has taught our African gray parrot to say, I'm calling my lawyer.
+Dialogue: 0,0:00:12.82,0:00:13.96,Default,,0,0,0,,That's why I'm laughing.
+Dialogue: 0,0:00:15.31,0:00:16.91,Default,,0,0,0,,I'm calling my lawyer, the bird says.
+Dialogue: 0,0:00:16.92,0:00:17.98,Default,,0,0,0,,I'm calling my lawyer.
+Dialogue: 0,0:00:21.30,0:00:22.30,Default,,0,0,0,,Oh, God.
+Dialogue: 0,0:00:23.39,0:00:24.17,Default,,0,0,0,,Hi, Dr. Hawkins.
+Dialogue: 0,0:00:24.33,0:00:24.53,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:00:24.69,0:00:26.28,Default,,0,0,0,,I have a practical question.
+Dialogue: 0,0:00:27.12,0:00:33.24,Default,,0,0,0,,I'm wondering if it would be in the highest good for me to go to school to study Chinese medicine.
+Dialogue: 0,0:00:34.64,0:00:35.56,Default,,0,0,0,,Are you Chinese?
+Dialogue: 0,0:00:35.84,0:00:36.17,Default,,0,0,0,,No.
+Dialogue: 0,0:00:36.85,0:00:37.88,Default,,0,0,0,,Not in this life.
+Dialogue: 0,0:00:39.61,0:00:42.00,Default,,0,0,0,,What do you want to study Chinese medicine for?
+Dialogue: 0,0:00:42.70,0:00:45.92,Default,,0,0,0,,I just have a drawing to it.
+Dialogue: 0,0:00:46.24,0:00:46.46,Default,,0,0,0,,Oh.
+Dialogue: 0,0:00:47.20,0:00:52.61,Default,,0,0,0,,But I also am a perpetual student, and I don't know if that's pathological or not.
+Dialogue: 0,0:00:55.92,0:00:56.22,Default,,0,0,0,,So?
+Dialogue: 0,0:00:57.07,0:00:57.60,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:00:58.50,0:00:59.24,Default,,0,0,0,,So what's the question?
+Dialogue: 0,0:00:59.24,0:01:02.52,Default,,0,0,0,,So I'm just wondering if it would be in my highest good to go to school and study that.
+Dialogue: 0,0:01:03.00,0:01:04.31,Default,,0,0,0,,And if so, I have a school.
+Dialogue: 0,0:01:04.31,0:01:06.51,Default,,0,0,0,,It would be in his highest good to study Chinese medicine.
+Dialogue: 0,0:01:07.68,0:01:08.45,Default,,0,0,0,,There you go.
+Dialogue: 0,0:01:08.62,0:01:08.98,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:01:08.98,0:01:12.21,Default,,0,0,0,,And would you mind checking a school that I have in mind, if it's best?
+Dialogue: 0,0:01:16.26,0:01:17.07,Default,,0,0,0,,Fudan Pop?
+Dialogue: 0,0:01:17.87,0:01:18.64,Default,,0,0,0,,That place?
+Dialogue: 0,0:01:18.92,0:01:19.71,Default,,0,0,0,,Yeah, that one.
+Dialogue: 0,0:01:20.98,0:01:22.54,Default,,0,0,0,,The place he wants to go is okay.
+Dialogue: 0,0:01:23.14,0:01:23.35,Default,,0,0,0,,Good.
+Dialogue: 0,0:01:23.56,0:01:24.48,Default,,0,0,0,,Thank you very much.
+Dialogue: 0,0:01:36.35,0:01:36.93,Default,,0,0,0,,You betcha.
+Dialogue: 0,0:01:37.92,0:01:38.93,Default,,0,0,0,,Yeah, good for you.
+Dialogue: 0,0:01:40.42,0:01:41.20,Default,,0,0,0,,Good for you.
+Dialogue: 0,0:01:49.84,0:01:51.01,Default,,0,0,0,,Who is that on the front there?
+Dialogue: 0,0:01:51.14,0:01:51.45,Default,,0,0,0,,Who is that?
+Dialogue: 0,0:01:52.62,0:01:53.56,Default,,0,0,0,,Who is that?
+Dialogue: 0,0:01:54.15,0:01:54.40,Default,,0,0,0,,You.
+Dialogue: 0,0:01:54.76,0:01:55.50,Default,,0,0,0,,Is that myself?
+Dialogue: 0,0:01:57.84,0:01:59.03,Default,,0,0,0,,Is that what I look like?
+Dialogue: 0,0:02:05.62,0:02:06.87,Default,,0,0,0,,Whatever you say, baby.
+Dialogue: 0,0:02:06.87,0:02:09.71,Default,,0,0,0,,If you say that's me, I'll think of you.
+Dialogue: 0,0:02:09.74,0:02:10.74,Default,,0,0,0,,I'll take your word for it.
+Dialogue: 0,0:02:13.80,0:02:14.30,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:02:16.16,0:02:16.66,Default,,0,0,0,,Yes.
+Dialogue: 0,0:02:19.65,0:02:30.90,Default,,0,0,0,,If everything is God, if all of us, omnipresent and omnipotent, what is the purpose of God experiencing itself?
+Dialogue: 0,0:02:32.75,0:02:33.65,Default,,0,0,0,,There is no purpose.
+Dialogue: 0,0:02:33.65,0:02:34.65,Default,,0,0,0,,That's the human notion.
+Dialogue: 0,0:02:37.00,0:02:40.41,Default,,0,0,0,,A hemlock tree does not grow in order to experience itself.
+Dialogue: 0,0:02:41.22,0:02:43.06,Default,,0,0,0,,It grows because it's a hemlock tree.
+Dialogue: 0,0:02:43.49,0:02:44.56,Default,,0,0,0,,It's designed to do that.
+Dialogue: 0,0:02:47.90,0:02:48.90,Default,,0,0,0,,You're asking me, why is God like that?
+Dialogue: 0,0:02:48.90,0:02:50.02,Default,,0,0,0,,Why is God like God?
+Dialogue: 0,0:02:50.02,0:02:51.86,Default,,0,0,0,,I don't know.
+Dialogue: 0,0:02:51.86,0:02:55.05,Default,,0,0,0,,Why is God like God?
+Dialogue: 0,0:02:55.05,0:02:57.09,Default,,0,0,0,,Gee, I don't know.
+Dialogue: 0,0:02:57.09,0:03:07.75,Default,,0,0,0,,But, you're looking for human rationality where it's not really appropriate.
+Dialogue: 0,0:03:07.75,0:03:19.43,Default,,0,0,0,,Everybody likes to presume that God has human notions and motives and that's not so.
+Dialogue: 0,0:03:19.43,0:03:20.43,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:03:20.43,0:03:25.93,Default,,0,0,0,,And the ocean isn't there just so you can swim in it.
+Dialogue: 0,0:03:25.93,0:03:26.93,Default,,0,0,0,,Okay?
+Dialogue: 0,0:03:26.93,0:03:27.93,Default,,0,0,0,,Okay.
+Dialogue: 0,0:03:27.93,0:03:29.28,Default,,0,0,0,,The ocean is there because that's what an ocean is.
+Dialogue: 0,0:03:32.65,0:03:33.15,Default,,0,0,0,,Oh-ho.
+Dialogue: 0,0:03:33.15,0:03:45.13,Default,,0,0,0,,You see, there's subject, object, and verb, you know.
+Dialogue: 0,0:03:46.09,0:03:50.50,Default,,0,0,0,,God does this in order to do that, you know.
+Dialogue: 0,0:03:50.68,0:03:54.16,Default,,0,0,0,,That's trying to put it in within a human dimension.
+Dialogue: 0,0:03:58.69,0:03:59.03,Default,,0,0,0,,Yes.
+Dialogue: 0,0:03:59.84,0:04:00.09,Default,,0,0,0,,Hello.
+Dialogue: 0,0:04:02.41,0:04:06.21,Default,,0,0,0,,You mentioned the quality of intense prayer today.
+Dialogue: 0,0:04:08.75,0:04:13.62,Default,,0,0,0,,My priest, many months ago, gave me this rosary as a gift.
+Dialogue: 0,0:04:14.02,0:04:14.41,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:04:16.51,0:04:20.22,Default,,0,0,0,,And before I came, I had it for many months,
+Dialogue: 0,0:04:20.22,0:04:22.00,Default,,0,0,0,,and before I came to Sedona this weekend,
+Dialogue: 0,0:04:22.00,0:04:25.16,Default,,0,0,0,,I realized I had never said a rosary.
+Dialogue: 0,0:04:26.24,0:04:29.66,Default,,0,0,0,,So yesterday, at the Chapel of the Holy Cross,
+Dialogue: 0,0:04:30.04,0:04:33.92,Default,,0,0,0,,I dedicated my first rosary to God.
+Dialogue: 0,0:04:34.56,0:04:35.19,Default,,0,0,0,,Good deal.
+Dialogue: 0,0:04:36.00,0:04:40.56,Default,,0,0,0,,And I wept the entire time, and then said three more.
+Dialogue: 0,0:04:41.73,0:04:44.91,Default,,0,0,0,,And I just wanted to thank you for this inspiration.
+Dialogue: 0,0:04:46.12,0:04:47.93,Default,,0,0,0,,You enjoyed the Chapel of the Holy Cross.
+Dialogue: 0,0:04:48.50,0:04:49.17,Default,,0,0,0,,Very much.
+Dialogue: 0,0:04:49.35,0:04:50.61,Default,,0,0,0,,Yeah, I loved that place.
+Dialogue: 0,0:04:51.81,0:04:53.51,Default,,0,0,0,,Then the world found out about it.
+Dialogue: 0,0:04:54.13,0:04:54.25,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:04:54.63,0:04:55.43,Default,,0,0,0,,At the end of that.
+Dialogue: 0,0:04:58.39,0:04:59.50,Default,,0,0,0,,I'm very grateful.
+Dialogue: 0,0:05:00.18,0:05:00.42,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:05:00.42,0:05:01.98,Default,,0,0,0,,Well, at three or four in the morning,
+Dialogue: 0,0:05:02.10,0:05:03.50,Default,,0,0,0,,usually the traffic dies out.
+Dialogue: 0,0:05:07.18,0:05:07.58,Default,,0,0,0,,Okay.
+Dialogue: 0,0:05:08.00,0:05:08.35,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:05:08.43,0:05:09.76,Default,,0,0,0,,It used to be open all night.
+Dialogue: 0,0:05:10.25,0:05:10.50,Default,,0,0,0,,Ah.
+Dialogue: 0,0:05:10.88,0:05:11.41,Default,,0,0,0,,And so.
+Dialogue: 0,0:05:11.67,0:05:12.93,Default,,0,0,0,,Oh, do they lock it at night now?
+Dialogue: 0,0:05:13.11,0:05:13.61,Default,,0,0,0,,Yeah, they lock it.
+Dialogue: 0,0:05:13.61,0:05:13.97,Default,,0,0,0,,Oh.
+Dialogue: 0,0:05:14.31,0:05:16.37,Default,,0,0,0,,But it used to be open all night,
+Dialogue: 0,0:05:16.44,0:05:19.82,Default,,0,0,0,,and you could go in there and just sit anytime you wanted to,
+Dialogue: 0,0:05:19.97,0:05:21.44,Default,,0,0,0,,but I don't know.
+Dialogue: 0,0:05:21.44,0:05:23.58,Default,,0,0,0,,I guess I shouldn't have mentioned it so many places.
+Dialogue: 0,0:05:23.68,0:05:24.91,Default,,0,0,0,,I should have kept it to myself.
+Dialogue: 0,0:05:24.91,0:05:27.61,Default,,0,0,0,,But it was really beautiful.
+Dialogue: 0,0:05:28.18,0:05:28.82,Default,,0,0,0,,Loud mouth.
+Dialogue: 0,0:05:31.68,0:05:32.36,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:05:32.72,0:05:33.62,Default,,0,0,0,,May I shake your hand?
+Dialogue: 0,0:05:34.01,0:05:34.22,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:05:52.42,0:05:54.81,Default,,0,0,0,,A good place to find solitude is Times Square.
+Dialogue: 0,0:06:00.48,0:06:02.37,Default,,0,0,0,,You can spend years there and nobody says hello to you.
+Dialogue: 0,0:06:12.30,0:06:13.33,Default,,0,0,0,,That is for you, yes.
+Dialogue: 0,0:06:14.44,0:06:15.18,Default,,0,0,0,,There are chocolates.
+Dialogue: 0,0:06:17.83,0:06:22.66,Default,,0,0,0,,Doc, I just wanted to thank you for being such a rich blessing in my life.
+Dialogue: 0,0:06:23.89,0:06:29.99,Default,,0,0,0,,And I can't express it.
+Dialogue: 0,0:06:30.55,0:06:32.76,Default,,0,0,0,,So if I have contributed to your happiness,
+Dialogue: 0,0:06:32.94,0:06:34.20,Default,,0,0,0,,then that makes me very happy.
+Dialogue: 0,0:06:34.20,0:06:35.56,Default,,0,0,0,,Yes, you have.
+Dialogue: 0,0:06:35.70,0:06:39.31,Default,,0,0,0,,And that your happiness made me happy should make you happy.
+Dialogue: 0,0:06:39.38,0:06:40.51,Default,,0,0,0,,And it does.
+Dialogue: 0,0:06:40.51,0:06:41.97,Default,,0,0,0,,May I shake your hand?
+Dialogue: 0,0:06:41.97,0:06:42.97,Default,,0,0,0,,Bless you.
+Dialogue: 0,0:06:42.97,0:06:43.97,Default,,0,0,0,,Bless you.
+Dialogue: 0,0:06:43.97,0:06:44.97,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:06:44.97,0:06:45.97,Default,,0,0,0,,Oh, a picture.
+Dialogue: 0,0:06:45.97,0:06:47.10,Default,,0,0,0,,Befuddled.
+Dialogue: 0,0:06:47.10,0:06:48.10,Default,,0,0,0,,Befuddled.
+Dialogue: 0,0:06:48.10,0:06:49.99,Default,,0,0,0,,That's a nice word.
+Dialogue: 0,0:06:49.99,0:06:50.99,Default,,0,0,0,,I like that word, befuddled.
+Dialogue: 0,0:06:50.99,0:06:51.99,Default,,0,0,0,,Befuddled brings about befuddlement.
+Dialogue: 0,0:06:51.99,0:06:55.42,Default,,0,0,0,,Befuddlement.
+Dialogue: 0,0:06:55.42,0:06:56.42,Default,,0,0,0,,Befuddled.
+Dialogue: 0,0:06:56.42,0:06:57.42,Default,,0,0,0,,Here we go.
+Dialogue: 0,0:06:57.42,0:06:58.42,Default,,0,0,0,,Here we are.
+Dialogue: 0,0:06:58.42,0:06:59.42,Default,,0,0,0,,Hello.
+Dialogue: 0,0:06:59.42,0:07:02.92,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:02.92,0:07:03.92,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:03.92,0:07:04.92,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:04.92,0:07:06.77,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:06.77,0:07:07.77,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:07.77,0:07:08.85,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:08.85,0:07:11.31,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:11.31,0:07:23.49,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:23.49,0:07:26.06,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:26.06,0:07:27.06,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:27.06,0:07:28.62,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:28.62,0:07:29.62,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:29.62,0:07:31.66,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:31.66,0:07:32.66,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:32.66,0:07:33.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:33.87,0:07:34.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:34.87,0:07:35.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:35.87,0:07:36.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:36.87,0:07:37.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:37.87,0:07:38.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:38.87,0:07:39.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:39.87,0:07:40.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:40.87,0:07:41.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:41.87,0:07:42.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:42.87,0:07:43.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:43.87,0:07:44.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:44.87,0:07:45.87,Default,,0,0,0,,Hello.
+Dialogue: 0,0:07:47.98,0:07:51.72,Default,,0,0,0,,Master In March, you have prayed for me to continue to come here.
+Dialogue: 0,0:07:51.72,0:07:58.72,Default,,0,0,0,,By virtue of that, I could come here again without troubles.
+Dialogue: 0,0:07:59.01,0:08:01.27,Default,,0,0,0,,All circumstances have changed.
+Dialogue: 0,0:08:01.27,0:08:10.50,Default,,0,0,0,,different from my reptile reptile the look of the face is different left and
+Dialogue: 0,0:08:10.50,0:08:18.06,Default,,0,0,0,,right in daily life my left one is always healthy smiling and strong but my
+Dialogue: 0,0:08:18.06,0:08:26.64,Default,,0,0,0,,right right part is depressed weak exhausted yeah become easily becomes
+Dialogue: 0,0:08:26.64,0:08:34.88,Default,,0,0,0,,sad embarrassed and when I meditate sometimes my whole body gets lightened
+Dialogue: 0,0:08:34.88,0:08:40.80,Default,,0,0,0,,except to my right part of my head except for what he seems to feel like is
+Dialogue: 0,0:08:40.80,0:08:45.30,Default,,0,0,0,,right everything his whole body becomes enlightened but the right side of his
+Dialogue: 0,0:08:45.30,0:08:52.65,Default,,0,0,0,,head you know like there's a block there oh no get light in the whole body get
+Dialogue: 0,0:08:52.65,0:08:56.70,Default,,0,0,0,,lightened except yes
+Dialogue: 0,0:08:56.72,0:08:58.12,Default,,0,0,0,,What is it he's saying?
+Dialogue: 0,0:08:58.84,0:09:00.08,Default,,0,0,0,,Just a minute. Go ahead.
+Dialogue: 0,0:09:03.21,0:09:09.12,Default,,0,0,0,,And on meditation, it seems like dark clouds start from this part
+Dialogue: 0,0:09:09.12,0:09:12.57,Default,,0,0,0,,and spread, veil my whole head.
+Dialogue: 0,0:09:12.57,0:09:20.21,Default,,0,0,0,,He feels like the left part of his face is happy, working,
+Dialogue: 0,0:09:20.37,0:09:23.21,Default,,0,0,0,,and the right part is not.
+Dialogue: 0,0:09:23.21,0:09:24.47,Default,,0,0,0,,And he says...
+Dialogue: 0,0:09:24.47,0:09:27.59,Default,,0,0,0,,Yes, that's an uncommon condition, but it has a name, actually.
+Dialogue: 0,0:09:27.73,0:09:34.40,Default,,0,0,0,,Okay. When he meditates, he feels like this, the right part,
+Dialogue: 0,0:09:34.71,0:09:36.99,Default,,0,0,0,,is where the darkness comes from.
+Dialogue: 0,0:09:37.16,0:09:37.50,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:09:37.64,0:09:41.26,Default,,0,0,0,,And everything else, he feels, becomes enlightened,
+Dialogue: 0,0:09:41.45,0:09:42.73,Default,,0,0,0,,but there's this dark spot.
+Dialogue: 0,0:09:42.73,0:09:44.92,Default,,0,0,0,,Yeah, that's just a natural phenomenon with him.
+Dialogue: 0,0:09:46.13,0:09:48.67,Default,,0,0,0,,So what could he do to change that?
+Dialogue: 0,0:09:48.72,0:09:49.98,Default,,0,0,0,,Why would he want to change it?
+Dialogue: 0,0:09:50.79,0:09:53.65,Default,,0,0,0,,Well, he would like to have that feeling all over.
+Dialogue: 0,0:09:54.13,0:09:56.77,Default,,0,0,0,,In his body, rather than just...
+Dialogue: 0,0:09:56.77,0:09:59.82,Default,,0,0,0,,You mean my right foot should always feel the same as my left foot?
+Dialogue: 0,0:10:00.51,0:10:01.15,Default,,0,0,0,,I guess.
+Dialogue: 0,0:10:02.51,0:10:03.39,Default,,0,0,0,,Two different feet.
+Dialogue: 0,0:10:03.98,0:10:08.55,Default,,0,0,0,,Okay. So what could that represent, then, that he has that?
+Dialogue: 0,0:10:09.15,0:10:11.10,Default,,0,0,0,,Nothing in particular.
+Dialogue: 0,0:10:11.36,0:10:11.62,Default,,0,0,0,,Okay.
+Dialogue: 0,0:10:11.62,0:10:15.32,Default,,0,0,0,,It's not necessarily significant or meaningful.
+Dialogue: 0,0:10:17.09,0:10:20.57,Default,,0,0,0,,My right eye is considerably different than my left eye,
+Dialogue: 0,0:10:21.79,0:10:25.13,Default,,0,0,0,,but that's just the way it is, the way the retina is, you know.
+Dialogue: 0,0:10:25.53,0:10:26.57,Default,,0,0,0,,Okay.
+Dialogue: 0,0:10:26.57,0:10:26.75,Default,,0,0,0,,Okay.
+Dialogue: 0,0:10:26.83,0:10:31.04,Default,,0,0,0,,So you just accept nature how it is, and how it is.
+Dialogue: 0,0:10:31.47,0:10:31.59,Default,,0,0,0,,Okay?
+Dialogue: 0,0:10:34.30,0:10:34.78,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:10:41.27,0:10:42.29,Default,,0,0,0,,I am a doctor.
+Dialogue: 0,0:10:43.78,0:10:51.71,Default,,0,0,0,,Could you please bless on myself, on my patients, and on my practices?
+Dialogue: 0,0:10:52.62,0:10:52.88,Default,,0,0,0,,What?
+Dialogue: 0,0:10:53.09,0:10:59.04,Default,,0,0,0,,She wants a blessing to have more patients and...
+Dialogue: 0,0:10:59.04,0:10:59.40,Default,,0,0,0,,Practice.
+Dialogue: 0,0:10:59.95,0:11:01.09,Default,,0,0,0,,And on her practice.
+Dialogue: 0,0:11:01.33,0:11:02.83,Default,,0,0,0,,She needs a blessing on her practice.
+Dialogue: 0,0:11:02.97,0:11:03.64,Default,,0,0,0,,She's a doctor.
+Dialogue: 0,0:11:05.05,0:11:06.29,Default,,0,0,0,,You want me to bless your practice?
+Dialogue: 0,0:11:06.29,0:11:07.29,Default,,0,0,0,,And patients.
+Dialogue: 0,0:11:07.96,0:11:08.96,Default,,0,0,0,,And patients.
+Dialogue: 0,0:11:09.13,0:11:09.86,Default,,0,0,0,,My patients.
+Dialogue: 0,0:11:10.01,0:11:10.55,Default,,0,0,0,,Her patients.
+Dialogue: 0,0:11:10.98,0:11:12.53,Default,,0,0,0,,I can't bless all your patients.
+Dialogue: 0,0:11:14.24,0:11:15.75,Default,,0,0,0,,I don't know who they are.
+Dialogue: 0,0:11:17.12,0:11:23.22,Default,,0,0,0,,What do you do to be the best doctor you can be?
+Dialogue: 0,0:11:23.72,0:11:24.39,Default,,0,0,0,,What do you do?
+Dialogue: 0,0:11:24.46,0:11:27.44,Default,,0,0,0,,What do you do to be the best doctor you can be?
+Dialogue: 0,0:11:34.10,0:11:34.48,Default,,0,0,0,,Prayer.
+Dialogue: 0,0:11:35.00,0:11:36.37,Default,,0,0,0,,Do you pray for your patients?
+Dialogue: 0,0:11:36.50,0:11:36.94,Default,,0,0,0,,Yes.
+Dialogue: 0,0:11:38.66,0:11:39.95,Default,,0,0,0,,Yes, that's what you do.
+Dialogue: 0,0:11:40.04,0:11:44.98,Default,,0,0,0,,You do the best you can because you know you're karmically responsible.
+Dialogue: 0,0:11:46.91,0:11:49.15,Default,,0,0,0,,And every patient I saw...
+Dialogue: 0,0:11:49.15,0:11:51.72,Default,,0,0,0,,And I saw many for 50 years, thousands.
+Dialogue: 0,0:11:53.08,0:12:02.00,Default,,0,0,0,,Every patient, what to me was that God's intention was for me to be as helpful as I could to this patient.
+Dialogue: 0,0:12:02.32,0:12:02.53,Default,,0,0,0,,Yes.
+Dialogue: 0,0:12:04.01,0:12:05.77,Default,,0,0,0,,And I found it very fulfilling.
+Dialogue: 0,0:12:07.36,0:12:09.94,Default,,0,0,0,,And I only gave a practice because I had to.
+Dialogue: 0,0:12:11.75,0:12:13.48,Default,,0,0,0,,I'd still be seeing patients.
+Dialogue: 0,0:12:13.94,0:12:16.86,Default,,0,0,0,,But the malpractice insurance became so expensive.
+Dialogue: 0,0:12:16.86,0:12:21.47,Default,,0,0,0,,I was spending all my time just working for the insurance company.
+Dialogue: 0,0:12:21.47,0:12:25.10,Default,,0,0,0,,And finally, reluctantly, I just had to quit.
+Dialogue: 0,0:12:26.26,0:12:40.45,Default,,0,0,0,,But I really missed it because it's very gratifying to be able to help people and to relieve suffering and bring forth their gift to the world, you know.
+Dialogue: 0,0:12:41.03,0:12:43.50,Default,,0,0,0,,So I missed the practice of medicine.
+Dialogue: 0,0:12:43.74,0:12:44.96,Default,,0,0,0,,I really enjoyed it.
+Dialogue: 0,0:12:45.36,0:12:51.30,Default,,0,0,0,,And also the fact that with psychiatry, you gave it another dimension besides just the physical.
+Dialogue: 0,0:12:51.87,0:12:59.58,Default,,0,0,0,,Could you hold my hand for a second?
+Dialogue: 0,0:12:59.96,0:13:00.22,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:13:01.36,0:13:02.17,Default,,0,0,0,,Do you want pictures?
+Dialogue: 0,0:13:02.36,0:13:02.51,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:13:03.50,0:13:04.25,Default,,0,0,0,,Come over here.
+Dialogue: 0,0:13:04.53,0:13:07.45,Default,,0,0,0,,Yeah, I miss my old patients.
+Dialogue: 0,0:13:08.53,0:13:10.72,Default,,0,0,0,,I didn't quit until the last one died.
+Dialogue: 0,0:13:12.90,0:13:15.28,Default,,0,0,0,,I said, I'll stay in practice as long as they're still alive.
+Dialogue: 0,0:13:17.23,0:13:21.07,Default,,0,0,0,,He was in his 90s and he teetered in and fell over.
+Dialogue: 0,0:13:21.25,0:13:21.76,Default,,0,0,0,,That was the end.
+Dialogue: 0,0:13:25.29,0:13:27.77,Default,,0,0,0,,I said, well, God, I guess I can retire now.
+Dialogue: 0,0:13:27.77,0:13:32.58,Default,,0,0,0,,I didn't want to leave the practice.
+Dialogue: 0,0:13:33.89,0:13:34.25,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.25,0:13:34.32,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.32,0:13:34.34,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.34,0:13:34.36,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.36,0:13:34.37,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.37,0:13:34.39,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.39,0:13:34.41,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.41,0:13:34.44,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.44,0:13:34.46,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.46,0:13:34.48,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.48,0:13:34.50,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.50,0:13:34.51,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.51,0:13:34.55,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.55,0:13:34.58,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.58,0:13:34.60,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.60,0:13:34.63,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.63,0:13:34.65,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.65,0:13:34.67,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.67,0:13:34.72,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:34.72,0:13:34.74,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:35.25,0:13:35.94,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:35.94,0:13:36.89,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:36.89,0:13:36.94,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:36.96,0:13:47.54,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:47.54,0:13:47.59,Default,,0,0,0,,Okay.
+Dialogue: 0,0:13:47.75,0:13:47.76,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:13:48.39,0:13:51.74,Default,,0,0,0,,Finally he died, and so I was relieved that I could close my practice.
+Dialogue: 0,0:13:54.98,0:13:55.10,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:13:55.36,0:13:56.22,Default,,0,0,0,,Hello, Dr. Hawkins.
+Dialogue: 0,0:13:56.37,0:13:56.67,Default,,0,0,0,,Yes.
+Dialogue: 0,0:13:57.50,0:13:59.51,Default,,0,0,0,,My goodness, where did all these books come from?
+Dialogue: 0,0:14:01.27,0:14:02.94,Default,,0,0,0,,First, I ask for your blessing.
+Dialogue: 0,0:14:04.98,0:14:09.20,Default,,0,0,0,,And second, my question is,
+Dialogue: 0,0:14:10.19,0:14:16.13,Default,,0,0,0,,In your work, I've read that love is innate to the capital S self from within.
+Dialogue: 0,0:14:17.20,0:14:17.67,Default,,0,0,0,,Yes.
+Dialogue: 0,0:14:18.58,0:14:20.62,Default,,0,0,0,,I'd like to understand that.
+Dialogue: 0,0:14:21.70,0:14:27.58,Default,,0,0,0,,That its quality is divinity, which radiates love towards all that exists.
+Dialogue: 0,0:14:29.13,0:14:38.72,Default,,0,0,0,,The problem is that I tend to treat love as if it's some sort of currency
+Dialogue: 0,0:14:38.72,0:14:42.96,Default,,0,0,0,,that goes from one person to the other, that it comes from an external source.
+Dialogue: 0,0:14:43.50,0:14:45.20,Default,,0,0,0,,No, it's a way of being in the world.
+Dialogue: 0,0:14:45.32,0:14:46.05,Default,,0,0,0,,It's a way of being.
+Dialogue: 0,0:14:47.16,0:14:49.23,Default,,0,0,0,,It's got nothing to do with anything else out there.
+Dialogue: 0,0:14:50.91,0:14:54.22,Default,,0,0,0,,The way that you walk through the woods, it's your way of being with the woods,
+Dialogue: 0,0:14:54.51,0:15:00.92,Default,,0,0,0,,being with the trees, being with the rabbits, to radiate appreciation.
+Dialogue: 0,0:15:00.92,0:15:04.78,Default,,0,0,0,,So love has many forms other than affection.
+Dialogue: 0,0:15:05.42,0:15:10.38,Default,,0,0,0,,It can be appreciation and acknowledgement of the significance
+Dialogue: 0,0:15:10.38,0:15:12.64,Default,,0,0,0,,and beauty of the existence of the other.
+Dialogue: 0,0:15:14.42,0:15:16.04,Default,,0,0,0,,I've got three kitties at home.
+Dialogue: 0,0:15:16.04,0:15:18.82,Default,,0,0,0,,Each one is divine.
+Dialogue: 0,0:15:20.22,0:15:21.01,Default,,0,0,0,,There's divine.
+Dialogue: 0,0:15:22.69,0:15:25.85,Default,,0,0,0,,And then I have a doggie who is also divine.
+Dialogue: 0,0:15:26.89,0:15:28.29,Default,,0,0,0,,Would you suggest I get a pet?
+Dialogue: 0,0:15:28.91,0:15:29.20,Default,,0,0,0,,Huh?
+Dialogue: 0,0:15:29.77,0:15:31.74,Default,,0,0,0,,Would you suggest getting a pet?
+Dialogue: 0,0:15:32.25,0:15:37.61,Default,,0,0,0,,If he gives love, then he expects love in return.
+Dialogue: 0,0:15:38.25,0:15:41.19,Default,,0,0,0,,So he hasn't learned to give up without...
+Dialogue: 0,0:15:41.19,0:15:42.92,Default,,0,0,0,,No, no, it's a way of being.
+Dialogue: 0,0:15:43.02,0:15:44.66,Default,,0,0,0,,It's a way of being with the world.
+Dialogue: 0,0:15:45.52,0:15:46.73,Default,,0,0,0,,It's a way of being.
+Dialogue: 0,0:15:48.48,0:15:51.25,Default,,0,0,0,,So the doggie sits next to me.
+Dialogue: 0,0:15:51.71,0:15:55.64,Default,,0,0,0,,I look at the doggie, and if I look at the doggie, her tail starts going.
+Dialogue: 0,0:15:58.04,0:16:00.35,Default,,0,0,0,,I haven't touched her, I haven't spoken to her,
+Dialogue: 0,0:16:01.60,0:16:04.41,Default,,0,0,0,,but I can feel the love for the dog,
+Dialogue: 0,0:16:04.41,0:16:07.27,Default,,0,0,0,,and the doggie's tail starts to wag.
+Dialogue: 0,0:16:08.29,0:16:10.44,Default,,0,0,0,,So that's the way to be in the world,
+Dialogue: 0,0:16:11.52,0:16:14.97,Default,,0,0,0,,that all the people around you are wagging their tails that you're there.
+Dialogue: 0,0:16:17.38,0:16:17.83,Default,,0,0,0,,Okay.
+Dialogue: 0,0:16:18.33,0:16:18.61,Default,,0,0,0,,Okay?
+Dialogue: 0,0:16:19.07,0:16:19.54,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:16:21.46,0:16:22.36,Default,,0,0,0,,Can I have a picture?
+Dialogue: 0,0:16:23.13,0:16:23.77,Default,,0,0,0,,Is that you, Ben?
+Dialogue: 0,0:16:25.38,0:16:25.92,Default,,0,0,0,,Can I have a picture?
+Dialogue: 0,0:16:26.21,0:16:27.00,Default,,0,0,0,,Yes.
+Dialogue: 0,0:16:27.25,0:16:27.78,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:16:28.21,0:16:29.50,Default,,0,0,0,,I didn't want it drying out.
+Dialogue: 0,0:16:29.61,0:16:30.35,Default,,0,0,0,,That's fine, yes.
+Dialogue: 0,0:16:31.60,0:16:32.36,Default,,0,0,0,,You want a picture?
+Dialogue: 0,0:16:35.84,0:16:36.58,Default,,0,0,0,,Where is he going?
+Dialogue: 0,0:16:37.03,0:16:37.36,Default,,0,0,0,,Sorry.
+Dialogue: 0,0:16:38.58,0:16:41.08,Default,,0,0,0,,Okay, you want it with or without a waggy tail?
+Dialogue: 0,0:16:41.75,0:16:42.82,Default,,0,0,0,,A waggy tail, please.
+Dialogue: 0,0:16:42.87,0:16:43.96,Default,,0,0,0,,You want the waggy tail?
+Dialogue: 0,0:16:44.44,0:16:44.87,Default,,0,0,0,,Okay.
+Dialogue: 0,0:16:45.50,0:16:46.34,Default,,0,0,0,,Take that picture.
+Dialogue: 0,0:16:46.87,0:16:47.53,Default,,0,0,0,,God bless you.
+Dialogue: 0,0:16:47.75,0:16:47.94,Default,,0,0,0,,Boom.
+Dialogue: 0,0:16:50.41,0:16:51.24,Default,,0,0,0,,Where did he go?
+Dialogue: 0,0:16:51.37,0:16:51.98,Default,,0,0,0,,There you go.
+Dialogue: 0,0:16:52.24,0:16:52.62,Default,,0,0,0,,There you go.
+Dialogue: 0,0:16:52.62,0:16:52.75,Default,,0,0,0,,There you go, sir.
+Dialogue: 0,0:16:55.24,0:16:56.87,Default,,0,0,0,,That's your waggy tail picture.
+Dialogue: 0,0:17:00.61,0:17:01.65,Default,,0,0,0,,Hi.
+Dialogue: 0,0:17:05.21,0:17:05.82,Default,,0,0,0,,Yeah, Laura.
+Dialogue: 0,0:17:06.64,0:17:10.61,Default,,0,0,0,,In my home, I'm trying to have aesthetics,
+Dialogue: 0,0:17:10.90,0:17:13.24,Default,,0,0,0,,but a portion of the home has a lot of clutter.
+Dialogue: 0,0:17:13.75,0:17:16.98,Default,,0,0,0,,Is that indicative of something on the spiritual path?
+Dialogue: 0,0:17:16.98,0:17:19.25,Default,,0,0,0,,Yeah, it's significant that part of your house is cluttered.
+Dialogue: 0,0:17:20.18,0:17:20.81,Default,,0,0,0,,Yeah, it's true.
+Dialogue: 0,0:17:22.59,0:17:26.27,Default,,0,0,0,,I feel like I'm stuck in something with my partner and myself,
+Dialogue: 0,0:17:26.27,0:17:29.24,Default,,0,0,0,,and I don't know if you have any insights what the clutter,
+Dialogue: 0,0:17:30.34,0:17:31.78,Default,,0,0,0,,what it would take to move that,
+Dialogue: 0,0:17:31.86,0:17:32.99,Default,,0,0,0,,or what could be underlying,
+Dialogue: 0,0:17:33.00,0:17:35.41,Default,,0,0,0,,or what could be underlying it, or...
+Dialogue: 0,0:17:35.41,0:17:36.17,Default,,0,0,0,,Laziness.
+Dialogue: 0,0:17:37.45,0:17:38.91,Default,,0,0,0,,That's a good answer.
+Dialogue: 0,0:17:42.30,0:17:44.78,Default,,0,0,0,,It takes time, thought, and energy to clear up clutter.
+Dialogue: 0,0:17:45.47,0:17:45.82,Default,,0,0,0,,Okay.
+Dialogue: 0,0:17:46.04,0:17:47.04,Default,,0,0,0,,And you're too lazy.
+Dialogue: 0,0:17:47.73,0:17:48.26,Default,,0,0,0,,To do it.
+Dialogue: 0,0:17:48.47,0:17:48.80,Default,,0,0,0,,Yes.
+Dialogue: 0,0:17:49.52,0:17:52.49,Default,,0,0,0,,You're lying in bed sleeping when you should be clearing up clutter.
+Dialogue: 0,0:17:53.95,0:17:55.36,Default,,0,0,0,,Okay, could be true.
+Dialogue: 0,0:17:57.13,0:17:59.86,Default,,0,0,0,,Is it indicative of anything in the relationship?
+Dialogue: 0,0:18:01.00,0:18:01.11,Default,,0,0,0,,No.
+Dialogue: 0,0:18:01.11,0:18:02.01,Default,,0,0,0,,That we're both doing it?
+Dialogue: 0,0:18:02.11,0:18:02.50,Default,,0,0,0,,No.
+Dialogue: 0,0:18:02.92,0:18:05.50,Default,,0,0,0,,No, just laziness on both parts, perhaps.
+Dialogue: 0,0:18:07.11,0:18:09.11,Default,,0,0,0,,No, clutter is part of the human condition.
+Dialogue: 0,0:18:14.46,0:18:15.11,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:18:15.55,0:18:17.00,Default,,0,0,0,,Okay, work on that.
+Dialogue: 0,0:18:20.17,0:18:21.47,Default,,0,0,0,,You don't have to work on it.
+Dialogue: 0,0:18:21.52,0:18:23.36,Default,,0,0,0,,If you work on it, it won't have clutter anymore.
+Dialogue: 0,0:18:23.67,0:18:24.86,Default,,0,0,0,,All right, good.
+Dialogue: 0,0:18:25.15,0:18:25.60,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:18:26.42,0:18:27.40,Default,,0,0,0,,Clutter is good.
+Dialogue: 0,0:18:31.02,0:18:32.54,Default,,0,0,0,,Tell yourself clutter is good.
+Dialogue: 0,0:18:32.54,0:18:36.65,Default,,0,0,0,,What I do is I confine my clutter to certain areas.
+Dialogue: 0,0:18:37.68,0:18:40.25,Default,,0,0,0,,So like this table from here to there, this can be clutter.
+Dialogue: 0,0:18:41.10,0:18:42.23,Default,,0,0,0,,And this is not clutter.
+Dialogue: 0,0:18:43.85,0:18:44.48,Default,,0,0,0,,Isn't that nice?
+Dialogue: 0,0:18:46.78,0:18:47.58,Default,,0,0,0,,Does that sound good?
+Dialogue: 0,0:18:49.65,0:18:51.76,Default,,0,0,0,,Hi, my question is pornography.
+Dialogue: 0,0:18:52.65,0:18:54.19,Default,,0,0,0,,How do people overcome pornography?
+Dialogue: 0,0:18:54.67,0:18:55.80,Default,,0,0,0,,How do people what?
+Dialogue: 0,0:18:56.30,0:18:56.82,Default,,0,0,0,,Pornography.
+Dialogue: 0,0:18:58.30,0:18:59.00,Default,,0,0,0,,Overcome it?
+Dialogue: 0,0:18:59.25,0:18:59.45,Default,,0,0,0,,Yes.
+Dialogue: 0,0:19:00.49,0:19:00.80,Default,,0,0,0,,Yes?
+Dialogue: 0,0:19:02.47,0:19:03.45,Default,,0,0,0,,That's my question.
+Dialogue: 0,0:19:04.08,0:19:04.65,Default,,0,0,0,,Oh, oh.
+Dialogue: 0,0:19:05.34,0:19:06.52,Default,,0,0,0,,Shock treatment, how's that?
+Dialogue: 0,0:19:13.55,0:19:15.22,Default,,0,0,0,,Is there any other way?
+Dialogue: 0,0:19:18.86,0:19:20.28,Default,,0,0,0,,Oh, castration.
+Dialogue: 0,0:19:23.57,0:19:24.81,Default,,0,0,0,,What about something else?
+Dialogue: 0,0:19:28.43,0:19:29.56,Default,,0,0,0,,What's wrong with castration?
+Dialogue: 0,0:19:30.10,0:19:35.74,Default,,0,0,0,,Are there other options?
+Dialogue: 0,0:19:42.19,0:19:43.84,Default,,0,0,0,,Deconditioning yourself, which takes time.
+Dialogue: 0,0:19:44.47,0:19:46.28,Default,,0,0,0,,Because it's also just a habit.
+Dialogue: 0,0:19:46.63,0:19:47.25,Default,,0,0,0,,It's a habit.
+Dialogue: 0,0:19:47.45,0:19:47.65,Default,,0,0,0,,Right.
+Dialogue: 0,0:19:47.93,0:19:49.58,Default,,0,0,0,,It isn't just pornography.
+Dialogue: 0,0:19:50.15,0:19:51.52,Default,,0,0,0,,It's a pornography habit.
+Dialogue: 0,0:19:52.23,0:19:53.99,Default,,0,0,0,,Like the fixation on it.
+Dialogue: 0,0:19:55.00,0:19:57.03,Default,,0,0,0,,And you don't find it's boring after a while?
+Dialogue: 0,0:19:58.34,0:19:58.76,Default,,0,0,0,,I do.
+Dialogue: 0,0:19:59.49,0:20:00.06,Default,,0,0,0,,You do?
+Dialogue: 0,0:20:00.86,0:20:01.56,Default,,0,0,0,,And then I stop.
+Dialogue: 0,0:20:03.16,0:20:04.29,Default,,0,0,0,,And that's a problem?
+Dialogue: 0,0:20:05.18,0:20:07.14,Default,,0,0,0,,But I have relapses.
+Dialogue: 0,0:20:07.31,0:20:11.31,Default,,0,0,0,,Like for four months I would not do anything and then I relapse.
+Dialogue: 0,0:20:13.92,0:20:14.94,Default,,0,0,0,,I didn't get the last sentence.
+Dialogue: 0,0:20:15.16,0:20:18.83,Default,,0,0,0,,He said four months he would not do anything and then he'd have a relapse.
+Dialogue: 0,0:20:19.38,0:20:20.05,Default,,0,0,0,,Oh, oh.
+Dialogue: 0,0:20:21.25,0:20:23.24,Default,,0,0,0,,So it'd be like AA, huh?
+Dialogue: 0,0:20:23.75,0:20:24.25,Default,,0,0,0,,Right.
+Dialogue: 0,0:20:24.66,0:20:28.79,Default,,0,0,0,,Yeah, you give it up one day at a time, which is the only way to do it.
+Dialogue: 0,0:20:28.79,0:20:29.55,Default,,0,0,0,,Okay.
+Dialogue: 0,0:20:29.77,0:20:31.20,Default,,0,0,0,,Give it up one day at a time.
+Dialogue: 0,0:20:32.86,0:20:35.69,Default,,0,0,0,,And as you get older and older, it'd be less and less interesting.
+Dialogue: 0,0:20:37.68,0:20:38.18,Default,,0,0,0,,For sure.
+Dialogue: 0,0:20:38.31,0:20:38.81,Default,,0,0,0,,For sure.
+Dialogue: 0,0:20:41.10,0:20:42.73,Default,,0,0,0,,The novelty wears off.
+Dialogue: 0,0:20:45.42,0:20:45.92,Default,,0,0,0,,Thank you, sir.
+Dialogue: 0,0:20:46.05,0:20:51.70,Default,,0,0,0,,The first derriere is fascinating, but the thousandth one is the thousandth butt you've looked at.
+Dialogue: 0,0:20:54.56,0:20:55.50,Default,,0,0,0,,May I have a picture?
+Dialogue: 0,0:20:55.99,0:20:57.69,Default,,0,0,0,,Derriere is turned into butts.
+Dialogue: 0,0:21:02.33,0:21:10.35,Default,,0,0,0,,Boom.
+Dialogue: 0,0:21:26.40,0:21:26.92,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:21:27.35,0:21:31.25,Default,,0,0,0,,Dr. Hawkins, I am grateful for your teachings and grateful to be here.
+Dialogue: 0,0:21:31.66,0:21:31.83,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:21:32.05,0:21:36.38,Default,,0,0,0,,Some time ago I was sitting in a Mexican restaurant, not long ago,
+Dialogue: 0,0:21:36.98,0:21:40.00,Default,,0,0,0,,and it was just a small restaurant.
+Dialogue: 0,0:21:40.22,0:21:43.09,Default,,0,0,0,,And out of the side of my eye I caught sight of a...
+Dialogue: 0,0:21:43.09,0:21:43.81,Default,,0,0,0,,Yeah, is that what she said?
+Dialogue: 0,0:21:44.66,0:21:48.27,Default,,0,0,0,,I caught sight of, in this restaurant, totally unexpectedly,
+Dialogue: 0,0:21:48.27,0:21:51.35,Default,,0,0,0,,the sight of a being of light.
+Dialogue: 0,0:21:51.75,0:21:55.98,Default,,0,0,0,,Who asked, what have you learned, how well have you loved?
+Dialogue: 0,0:21:56.72,0:22:03.44,Default,,0,0,0,,And it was such an astonishing experience, I tended to believe it, but it remains astonishing.
+Dialogue: 0,0:22:04.05,0:22:04.96,Default,,0,0,0,,And I'm wondering...
+Dialogue: 0,0:22:04.96,0:22:05.66,Default,,0,0,0,,What was she talking about in a Mexican restaurant?
+Dialogue: 0,0:22:05.85,0:22:06.75,Default,,0,0,0,,I don't know what she was saying.
+Dialogue: 0,0:22:08.14,0:22:13.46,Default,,0,0,0,,I was sitting in a Mexican restaurant when I had this experience of this being of light.
+Dialogue: 0,0:22:13.92,0:22:14.40,Default,,0,0,0,,Of what?
+Dialogue: 0,0:22:14.68,0:22:15.92,Default,,0,0,0,,A being of light.
+Dialogue: 0,0:22:16.11,0:22:17.05,Default,,0,0,0,,A beam of light.
+Dialogue: 0,0:22:17.05,0:22:17.18,Default,,0,0,0,,A beam.
+Dialogue: 0,0:22:17.18,0:22:19.09,Default,,0,0,0,,It's got nothing to do with a Mexican restaurant, right?
+Dialogue: 0,0:22:20.57,0:22:21.96,Default,,0,0,0,,A being of light.
+Dialogue: 0,0:22:21.96,0:22:23.16,Default,,0,0,0,,A beam of light, yeah.
+Dialogue: 0,0:22:23.16,0:22:23.59,Default,,0,0,0,,A being.
+Dialogue: 0,0:22:24.11,0:22:25.46,Default,,0,0,0,,A being of light.
+Dialogue: 0,0:22:25.57,0:22:27.40,Default,,0,0,0,,So it's got nothing to do with Mexican restaurants.
+Dialogue: 0,0:22:27.46,0:22:27.72,Default,,0,0,0,,Okay.
+Dialogue: 0,0:22:28.65,0:22:31.91,Default,,0,0,0,,I don't care what street it was on, what city, what year.
+Dialogue: 0,0:22:32.96,0:22:33.29,Default,,0,0,0,,Sorry.
+Dialogue: 0,0:22:34.66,0:22:35.05,Default,,0,0,0,,And...
+Dialogue: 0,0:22:35.05,0:22:37.81,Default,,0,0,0,,A light lit up in the room?
+Dialogue: 0,0:22:38.64,0:22:41.27,Default,,0,0,0,,A being of light appeared in the room.
+Dialogue: 0,0:22:41.27,0:22:41.98,Default,,0,0,0,,Oh, a being, a being.
+Dialogue: 0,0:22:41.98,0:22:47.53,Default,,0,0,0,,And the being of light asked, what have you learned, how well have you loved?
+Dialogue: 0,0:22:48.05,0:22:48.31,Default,,0,0,0,,Yes.
+Dialogue: 0,0:22:48.42,0:22:51.03,Default,,0,0,0,,And it was such an astonishing experience.
+Dialogue: 0,0:22:51.33,0:22:51.92,Default,,0,0,0,,I would think so.
+Dialogue: 0,0:22:52.00,0:22:52.18,Default,,0,0,0,,I mean...
+Dialogue: 0,0:22:52.33,0:22:53.24,Default,,0,0,0,,I'm inclined to believe...
+Dialogue: 0,0:22:53.24,0:22:55.90,Default,,0,0,0,,I'm inclined to believe it would be true.
+Dialogue: 0,0:22:56.14,0:22:59.09,Default,,0,0,0,,And I wondered if you might test the veracity of that.
+Dialogue: 0,0:22:59.38,0:23:00.88,Default,,0,0,0,,It was an angel.
+Dialogue: 0,0:23:01.29,0:23:02.09,Default,,0,0,0,,It was an angel.
+Dialogue: 0,0:23:02.57,0:23:02.92,Default,,0,0,0,,All right.
+Dialogue: 0,0:23:03.14,0:23:03.83,Default,,0,0,0,,It was an angel.
+Dialogue: 0,0:23:04.31,0:23:04.51,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:23:04.90,0:23:05.18,Default,,0,0,0,,All right.
+Dialogue: 0,0:23:05.46,0:23:06.01,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:23:07.15,0:23:09.93,Default,,0,0,0,,So why would he ask that question?
+Dialogue: 0,0:23:10.63,0:23:13.50,Default,,0,0,0,,Because it's significant in her level of consciousness.
+Dialogue: 0,0:23:14.46,0:23:14.90,Default,,0,0,0,,Okay.
+Dialogue: 0,0:23:14.90,0:23:18.70,Default,,0,0,0,,If I'm an angel and I'm cruising along and I get this lady who's asking a certain question,
+Dialogue: 0,0:23:18.83,0:23:22.44,Default,,0,0,0,,I shoot over and I say, try pork and beans.
+Dialogue: 0,0:23:22.44,0:23:22.94,Default,,0,0,0,,You know what I mean?
+Dialogue: 0,0:23:30.04,0:23:41.13,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:23:41.60,0:23:42.22,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:23:44.52,0:23:54.02,Default,,0,0,0,,Well, that higher angel that heard my prayer was just, I would say, cruising around, calibrating
+Dialogue: 0,0:23:54.02,0:23:54.91,Default,,0,0,0,,at 6,000.
+Dialogue: 0,0:23:55.15,0:23:55.49,Default,,0,0,0,,Right.
+Dialogue: 0,0:23:55.89,0:23:59.36,Default,,0,0,0,,And all of a sudden, my prayer went up with great intensity.
+Dialogue: 0,0:24:00.70,0:24:08.67,Default,,0,0,0,,So this angelic being that calibrates it at 6,000, and we verified it many times over
+Dialogue: 0,0:24:08.67,0:24:11.49,Default,,0,0,0,,the years, you know, heard it.
+Dialogue: 0,0:24:11.54,0:24:13.06,Default,,0,0,0,,And was there to respond, you know.
+Dialogue: 0,0:24:13.99,0:24:18.16,Default,,0,0,0,,And gave me a zap that totally changed my life, yes.
+Dialogue: 0,0:24:19.83,0:24:20.42,Default,,0,0,0,,Thank you, Dr. Hawkins.
+Dialogue: 0,0:24:20.42,0:24:28.74,Default,,0,0,0,,I would say that angelic being was cruising by when my appeal shot up into the cosmos.
+Dialogue: 0,0:24:29.51,0:24:29.92,Default,,0,0,0,,Okay.
+Dialogue: 0,0:24:30.01,0:24:30.42,Default,,0,0,0,,Go ahead.
+Dialogue: 0,0:24:30.83,0:24:32.11,Default,,0,0,0,,Thank you, Dr. Hawkins.
+Dialogue: 0,0:24:32.24,0:24:32.96,Default,,0,0,0,,Thank you, Susan.
+Dialogue: 0,0:24:32.96,0:24:34.22,Default,,0,0,0,,It's great to see you all again.
+Dialogue: 0,0:24:34.81,0:24:37.22,Default,,0,0,0,,My question, and a blessing, please.
+Dialogue: 0,0:24:38.05,0:24:42.98,Default,,0,0,0,,My question is, is the soul the same thing as the self?
+Dialogue: 0,0:24:42.98,0:24:44.31,Default,,0,0,0,,With a capital S.
+Dialogue: 0,0:24:45.11,0:24:45.35,Default,,0,0,0,,No.
+Dialogue: 0,0:24:46.50,0:24:49.97,Default,,0,0,0,,The self is more inclusive, generally speaking.
+Dialogue: 0,0:24:51.01,0:25:00.06,Default,,0,0,0,,And the soul is usually delimited to not including the personality as such.
+Dialogue: 0,0:25:02.99,0:25:04.76,Default,,0,0,0,,I mean, just in general parlance.
+Dialogue: 0,0:25:07.26,0:25:07.52,Default,,0,0,0,,Yeah?
+Dialogue: 0,0:25:09.44,0:25:10.00,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:25:19.17,0:25:23.50,Default,,0,0,0,,You can tell when an angel's around you, or I can tell when an angel's around, because
+Dialogue: 0,0:25:25.15,0:25:26.45,Default,,0,0,0,,it smells like perfume.
+Dialogue: 0,0:25:26.84,0:25:28.58,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.58,0:25:28.60,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.60,0:25:28.63,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.63,0:25:28.65,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.65,0:25:28.67,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.67,0:25:28.69,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.69,0:25:28.71,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.71,0:25:28.73,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.73,0:25:28.75,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.75,0:25:28.76,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.76,0:25:28.78,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.78,0:25:28.80,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.80,0:25:28.82,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.82,0:25:28.84,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.84,0:25:28.86,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.86,0:25:28.91,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.91,0:25:28.95,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.95,0:25:28.97,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.97,0:25:28.99,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:28.99,0:25:29.00,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:29.00,0:25:29.02,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:29.02,0:25:29.06,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:29.06,0:25:29.08,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:29.08,0:25:29.10,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:29.10,0:25:29.36,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:29.65,0:25:30.52,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:39.97,0:25:40.08,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:40.23,0:25:42.19,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:42.19,0:25:42.26,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:42.26,0:25:42.28,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:42.28,0:25:42.43,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:42.43,0:25:42.52,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:42.52,0:25:42.58,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:42.58,0:25:42.60,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:42.60,0:25:42.65,Default,,0,0,0,,Right.
+Dialogue: 0,0:25:42.65,0:25:45.83,Default,,0,0,0,,That's an entity from the lower dimensions.
+Dialogue: 0,0:25:47.30,0:25:47.54,Default,,0,0,0,,Yes?
+Dialogue: 0,0:25:47.84,0:25:48.15,Default,,0,0,0,,Yes.
+Dialogue: 0,0:25:48.25,0:25:51.69,Default,,0,0,0,,Thank you very much for being here and for all you're doing.
+Dialogue: 0,0:25:52.91,0:25:58.41,Default,,0,0,0,,I have a question about suicide, what happens to the soul in suicide.
+Dialogue: 0,0:25:59.19,0:25:59.95,Default,,0,0,0,,Question what?
+Dialogue: 0,0:26:00.13,0:26:00.84,Default,,0,0,0,,About suicide.
+Dialogue: 0,0:26:01.34,0:26:01.78,Default,,0,0,0,,When someone commits suicide, what happens to the soul in suicide?
+Dialogue: 0,0:26:01.78,0:26:02.17,Default,,0,0,0,,What happens to the soul in suicide?
+Dialogue: 0,0:26:02.17,0:26:09.20,Default,,0,0,0,,suicide what happens to their soul i really don't know because i don't know that it's a very
+Dialogue: 0,0:26:09.20,0:26:18.16,Default,,0,0,0,,specific thing spiritually speaking this suicide can be a you know in desperation it can be in a
+Dialogue: 0,0:26:18.16,0:26:24.18,Default,,0,0,0,,fit of psychosis a fit of madness can be a way of getting even with god it can be this is a case
+Dialogue: 0,0:26:24.18,0:26:30.24,Default,,0,0,0,,where uh i think the person that it may have alzheimer's disease and they don't want to go
+Dialogue: 0,0:26:30.24,0:26:33.38,Default,,0,0,0,,through the suffering themselves and cause suffering for others they don't want to what
+Dialogue: 0,0:26:33.38,0:26:37.42,Default,,0,0,0,,go through suffering and they don't want to what they don't want to go through
+Dialogue: 0,0:26:37.42,0:26:41.98,Default,,0,0,0,,put other people through suffering oh yes well that's very considerate
+Dialogue: 0,0:26:41.98,0:26:48.31,Default,,0,0,0,,so it's okay yeah remove yourself instead of making people carry you away you know
+Dialogue: 0,0:26:48.31,0:26:52.38,Default,,0,0,0,,like digging your own grave saves somebody's job
+Dialogue: 0,0:26:52.38,0:26:55.70,Default,,0,0,0,,oh thank you
+Dialogue: 0,0:26:55.70,0:27:09.07,Default,,0,0,0,,suicide can be rational intelligent and making
+Dialogue: 0,0:27:09.07,0:27:09.11,Default,,0,0,0,,you know you're not going to be able to do anything you're not going to be able to do
+Dialogue: 0,0:27:09.11,0:27:09.14,Default,,0,0,0,,you're not going to be able to do anything you're not going to be able to do anything you're not going to be able to do
+Dialogue: 0,0:27:09.14,0:27:48.67,Default,,0,0,0,,you're not going to be able to do anything you're not going to be able to do anything you're not going to be able to do更
+Dialogue: 0,0:27:48.84,0:27:55.18,Default,,0,0,0,,you realize water from the ganges calibrates the 700 you
+Dialogue: 0,0:27:55.18,0:28:03.48,Default,,0,0,0,,know that yes all right so she brought me some water for the Ganges this water
+Dialogue: 0,0:28:03.48,0:28:14.28,Default,,0,0,0,,calibrates over 700 this water is from the Ganges River fantastic have a glass
+Dialogue: 0,0:28:14.28,0:28:20.53,Default,,0,0,0,,of it for breakfast David has often said that if he ever went to India that he
+Dialogue: 0,0:28:20.53,0:28:25.07,Default,,0,0,0,,wouldn't come back yes I've watched a number of his videos I've died by the
+Dialogue: 0,0:28:25.07,0:28:33.35,Default,,0,0,0,,Ganges many a time body is burned up in the guts that's this is from the that's
+Dialogue: 0,0:28:33.35,0:28:38.46,Default,,0,0,0,,the fact the point the beginning this is from the source of the Ganges the source
+Dialogue: 0,0:28:38.46,0:28:43.98,Default,,0,0,0,,yeah I have a source yeah we've watched a number of your videos back in India we
+Dialogue: 0,0:28:43.98,0:28:50.70,Default,,0,0,0,,watched a number of videos your videos the lecture videos and I always saw you
+Dialogue: 0,0:28:50.70,0:28:55.11,Default,,0,0,0,,talking about Ganges whenever any Indian would come up so I said that would be
+Dialogue: 0,0:28:55.11,0:28:56.20,Default,,0,0,0,,the best thing that I could
+Dialogue: 0,0:28:56.20,0:28:56.61,Default,,0,0,0,,you know I would be the best thing that I could do
+Dialogue: 0,0:28:56.61,0:29:07.96,Default,,0,0,0,,get here for you oh that's wonderful okay this calibrates 700 the Ganges River
+Dialogue: 0,0:29:07.96,0:29:14.55,Default,,0,0,0,,calibrates 700 all the dead bodies and stuff you know it's a holy it's a holy
+Dialogue: 0,0:29:14.55,0:29:24.53,Default,,0,0,0,,river purified by the spiritual devotion of the people in India there that's a
+Dialogue: 0,0:29:24.53,0:29:28.39,Default,,0,0,0,,lovely gift thank you so much oh I just wanted to
+Dialogue: 0,0:29:28.39,0:29:28.93,Default,,0,0,0,,in India there that's a holy it's a holy river purified by the spiritual devotion of the people in India there that's a holy
+Dialogue: 0,0:29:28.93,0:29:33.21,Default,,0,0,0,,I just wanted to know how do I keep track of myself whether I'm on the path
+Dialogue: 0,0:29:33.21,0:29:38.84,Default,,0,0,0,,to know because you know in in my day-to-day life the number of instances
+Dialogue: 0,0:29:38.84,0:29:44.73,Default,,0,0,0,,when I get angry I get upset about things and so fearful I have so much of
+Dialogue: 0,0:29:44.73,0:29:50.71,Default,,0,0,0,,anxiety for my children so you know all these things calibrate below 200 and I
+Dialogue: 0,0:29:50.71,0:29:55.99,Default,,0,0,0,,keep wondering whether I am on the path or am I getting howie what is your
+Dialogue: 0,0:29:55.99,0:30:01.75,Default,,0,0,0,,question she feels like she's like below 200 because she has all these anxieties
+Dialogue: 0,0:30:01.75,0:30:07.73,Default,,0,0,0,,about her children and day-to-day life and you know no fears coming up all the
+Dialogue: 0,0:30:07.73,0:30:13.32,Default,,0,0,0,,fears coming up so she has all these emotions about her child children right
+Dialogue: 0,0:30:13.32,0:30:20.47,Default,,0,0,0,,and so that's normal yeah yeah it's not that she's below 200 no it's because
+Dialogue: 0,0:30:20.47,0:30:29.04,Default,,0,0,0,,she's maternal yeah she's over 200 maternalism I don't suffer from
+Dialogue: 0,0:30:29.04,0:30:40.03,Default,,0,0,0,,maternalism I love you I'm glad I'm not a woman because
+Dialogue: 0,0:30:40.03,0:30:48.94,Default,,0,0,0,,maternalism would be endless wouldn't it as it is paternalism just trying to be
+Dialogue: 0,0:30:48.94,0:30:53.74,Default,,0,0,0,,the best you can be to other people you know maternal doesn't mean necessarily
+Dialogue: 0,0:30:53.74,0:30:59.17,Default,,0,0,0,,one's own physical children you can be
+Dialogue: 0,0:30:59.17,0:30:59.19,Default,,0,0,0,,very maternal you can be very physical you can be
+Dialogue: 0,0:30:59.19,0:30:59.25,Default,,0,0,0,,very maternal you can be very regardless if you're able to be a mother if you're
+Dialogue: 0,0:30:59.25,0:31:04.68,Default,,0,0,0,,very maternal towards it you know if you're a clerk in the drugstore to be
+Dialogue: 0,0:31:04.68,0:31:10.50,Default,,0,0,0,,solicitous that everybody's being taken care of and happy and so those are
+Dialogue: 0,0:31:10.50,0:31:32.05,Default,,0,0,0,,character traits character traits very good good oh you bet honey but I'd sign
+Dialogue: 0,0:31:32.05,0:31:52.18,Default,,0,0,0,,in the front here right anywhere they're right in the middle yes madam
+Dialogue: 0,0:31:52.18,0:32:04.85,Default,,0,0,0,,yeah bless you god bless
+Dialogue: 0,0:32:21.25,0:32:34.70,Default,,0,0,0,,mm-hmm hello David Hawkins yes yeah I was here two years back and you said my
+Dialogue: 0,0:32:34.70,0:32:41.18,Default,,0,0,0,,eyes were gloomy and also you said I was in depression you calibrated and I just
+Dialogue: 0,0:32:41.18,0:32:44.92,Default,,0,0,0,,want to see am I still the same or
+Dialogue: 0,0:32:54.68,0:33:05.35,Default,,0,0,0,,calibrated he wants to know oh what does he want to know about depression he
+Dialogue: 0,0:33:05.35,0:33:12.26,Default,,0,0,0,,was he was depressed let's just add something it's okay to ask this he's
+Dialogue: 0,0:33:12.26,0:33:24.67,Default,,0,0,0,,over 300 350 380 375 370 370 that's good that's willingness that's being yeah
+Dialogue: 0,0:33:24.67,0:33:25.54,Default,,0,0,0,,foods about life
+Dialogue: 0,0:33:25.54,0:33:25.84,Default,,0,0,0,,yeah
+Dialogue: 0,0:33:25.84,0:33:31.43,Default,,0,0,0,,good England doing good with life yeah there's a presidential would-be
+Dialogue: 0,0:33:31.43,0:33:41.10,Default,,0,0,0,,candidate in Calvary 380 he changed his mind now all right I just want your
+Dialogue: 0,0:33:41.10,0:33:49.50,Default,,0,0,0,,blessings for me and and rest of the world with right knowledge please please
+Dialogue: 0,0:33:49.50,0:33:56.72,Default,,0,0,0,,bless me and everybody on the world with right knowledge he was just a blessing
+Dialogue: 0,0:33:56.72,0:33:57.42,Default,,0,0,0,,on him
+Dialogue: 0,0:33:57.42,0:34:03.44,Default,,0,0,0,,and the world if you could I don't get the question what does he want he was to
+Dialogue: 0,0:34:03.44,0:34:16.11,Default,,0,0,0,,be blessed by you okay god bless you amen a picture oh oh it's different
+Dialogue: 0,0:34:16.11,0:34:29.71,Default,,0,0,0,,god bless you yeah god bless you I give everybody a big hug but I'd fall over in
+Dialogue: 0,0:34:29.71,0:34:35.96,Default,,0,0,0,,no time dr. Hawkins and Susan it's a great blessing to be in your presence
+Dialogue: 0,0:34:35.96,0:34:45.11,Default,,0,0,0,,today i thank god for this and dr hawkins i understand blessings of a teacher protects a
+Dialogue: 0,0:34:45.11,0:34:57.51,Default,,0,0,0,,seeker from many traps and pitfalls and i would like to pray in your presence to have your blessings
+Dialogue: 0,0:34:57.51,0:35:07.17,Default,,0,0,0,,to protect me from any pitfalls in my journey so that i am on the path in this lifetime
+Dialogue: 0,0:35:07.17,0:35:15.46,Default,,0,0,0,,and the lifetimes to come um he understands the blessing of the teachers uh protects them
+Dialogue: 0,0:35:15.46,0:35:23.59,Default,,0,0,0,,from pit pit pitfalls in their on their path and he would like you to bless him god bless you and
+Dialogue: 0,0:35:23.59,0:35:32.65,Default,,0,0,0,,protect you from any pitfalls that you may go integrously to reach your spiritual destiny and
+Dialogue: 0,0:35:32.65,0:35:39.65,Default,,0,0,0,,ambition and and capacity so we will try to bypass
+Dialogue: 0,0:35:39.65,0:35:51.53,Default,,0,0,0,,any pitfalls all right okay and one small uh thing my my cousin and her husband were here in
+Dialogue: 0,0:35:51.53,0:35:58.07,Default,,0,0,0,,your presence seeking your blessings for a child they gave birth to a baby boy last month
+Dialogue: 0,0:35:58.07,0:36:03.19,Default,,0,0,0,,they were here asking your blessings
+Dialogue: 0,0:36:03.19,0:36:11.76,Default,,0,0,0,,what was last year uh for a child and she gave birth to a baby boy last month oh good that'll be
+Dialogue: 0,0:36:11.76,0:36:12.15,Default,,0,0,0,,a dollar
+Dialogue: 0,0:36:13.94,0:36:19.57,Default,,0,0,0,,that's wonderful
+Dialogue: 0,0:36:19.57,0:36:29.46,Default,,0,0,0,,god bless you and the child and the baby cute baby what's the baby's name what's the baby's name
+Dialogue: 0,0:36:29.46,0:36:37.21,Default,,0,0,0,,uh ching maya ching maya ching maya as a girl it's a boy a boy ching maya
+Dialogue: 0,0:36:37.21,0:36:46.42,Default,,0,0,0,,ching maya ching maya very good god bless you everybody's having babies
+Dialogue: 0,0:36:47.01,0:36:52.13,Default,,0,0,0,,um for those of you that don't know if you remember gabe that used to be here
+Dialogue: 0,0:36:52.13,0:37:00.19,Default,,0,0,0,,um he just had a baby girl and she weighed six pounds seven ounces or something like that
+Dialogue: 0,0:37:00.19,0:37:05.84,Default,,0,0,0,,anyway um they just had a baby girl and they haven't selected a name yet but as soon as we
+Dialogue: 0,0:37:05.84,0:37:17.94,Default,,0,0,0,,know we'll let you know hello yeah um i just uh i just graduated from college last week and
+Dialogue: 0,0:37:17.94,0:37:19.38,Default,,0,0,0,,my graduation gift was a baby girl and i'm so happy to be here and i'm so happy to be here and
+Dialogue: 0,0:37:19.40,0:37:20.76,Default,,0,0,0,,i'm so happy to be here that my parents did that so that's my gift was to come out here and meet you
+Dialogue: 0,0:37:20.76,0:37:30.19,Default,,0,0,0,,so i just wanted to uh thank you did you graduate where your degree with um a degree in music in
+Dialogue: 0,0:37:30.19,0:37:37.59,Default,,0,0,0,,music yeah so looking to be a full-time musician so i just wanted to come and meet you and uh shake
+Dialogue: 0,0:37:37.59,0:37:43.57,Default,,0,0,0,,your hand and ask you for your blessing on my what kind of a musician do you want to be um i
+Dialogue: 0,0:37:43.57,0:37:50.86,Default,,0,0,0,,play the drums oh the drums and i'd like to uh i play i have a you know i play jazz and our
+Dialogue: 0,0:37:51.07,0:37:52.80,Default,,0,0,0,,R&B and rock and funk.
+Dialogue: 0,0:37:53.00,0:37:53.67,Default,,0,0,0,,I like all that.
+Dialogue: 0,0:37:56.11,0:38:01.55,Default,,0,0,0,,I'm starting that journey now as being, you know, that's my job.
+Dialogue: 0,0:38:04.09,0:38:06.03,Default,,0,0,0,,Yeah, I'm glad to meet a musician.
+Dialogue: 0,0:38:06.92,0:38:08.86,Default,,0,0,0,,My father was a famous musician.
+Dialogue: 0,0:38:09.53,0:38:10.32,Default,,0,0,0,,Yeah, his dad was a musician.
+Dialogue: 0,0:38:10.32,0:38:11.50,Default,,0,0,0,,Yeah, yeah.
+Dialogue: 0,0:38:12.11,0:38:14.11,Default,,0,0,0,,He had a great following, all kinds of music.
+Dialogue: 0,0:38:16.36,0:38:17.98,Default,,0,0,0,,And I almost became a musician.
+Dialogue: 0,0:38:18.78,0:38:19.92,Default,,0,0,0,,And I played drums.
+Dialogue: 0,0:38:20.92,0:38:21.50,Default,,0,0,0,,Yes, I did.
+Dialogue: 0,0:38:21.50,0:38:26.07,Default,,0,0,0,,Almost a musician.
+Dialogue: 0,0:38:28.21,0:38:28.82,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:38:35.21,0:38:38.34,Default,,0,0,0,,What's that thing in Edinburgh every year?
+Dialogue: 0,0:38:38.75,0:38:38.86,Default,,0,0,0,,Tattoo.
+Dialogue: 0,0:38:39.25,0:38:40.09,Default,,0,0,0,,Tattoo, yeah.
+Dialogue: 0,0:38:41.55,0:38:42.96,Default,,0,0,0,,Wait, we're going to do one more.
+Dialogue: 0,0:38:44.46,0:38:45.61,Default,,0,0,0,,We're going to do one more.
+Dialogue: 0,0:38:46.42,0:38:47.30,Default,,0,0,0,,It didn't work, sorry.
+Dialogue: 0,0:38:48.59,0:38:52.94,Default,,0,0,0,,I'd come back in March in the Edinburgh Parade if I was a musician.
+Dialogue: 0,0:38:54.09,0:38:54.32,Default,,0,0,0,,Yep.
+Dialogue: 0,0:38:55.86,0:38:57.46,Default,,0,0,0,,A trumpet and drums.
+Dialogue: 0,0:38:57.46,0:38:57.86,Default,,0,0,0,,Did it work?
+Dialogue: 0,0:38:58.71,0:39:01.42,Default,,0,0,0,,You got it.
+Dialogue: 0,0:39:01.88,0:39:05.11,Default,,0,0,0,,Oh, you're welcome.
+Dialogue: 0,0:39:06.59,0:39:06.86,Default,,0,0,0,,Hi.
+Dialogue: 0,0:39:06.86,0:39:07.05,Default,,0,0,0,,Hi.
+Dialogue: 0,0:39:08.59,0:39:15.36,Default,,0,0,0,,I'm a little bit nervous, but I just wanted to come and be close to you guys.
+Dialogue: 0,0:39:16.69,0:39:23.59,Default,,0,0,0,,And I don't have a personal question, but I just met somebody that wanted me to ask
+Dialogue: 0,0:39:23.59,0:39:26.57,Default,,0,0,0,,if you guys have calibrated Carl Jung's work.
+Dialogue: 0,0:39:27.57,0:39:28.13,Default,,0,0,0,,Carl Jung?
+Dialogue: 0,0:39:28.65,0:39:29.57,Default,,0,0,0,,Carl Jung?
+Dialogue: 0,0:39:30.07,0:39:30.25,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:39:31.25,0:39:33.13,Default,,0,0,0,,Oh, yeah, I calibrated him before.
+Dialogue: 0,0:39:33.59,0:39:34.36,Default,,0,0,0,,His work.
+Dialogue: 0,0:39:35.38,0:39:36.25,Default,,0,0,0,,His work?
+Dialogue: 0,0:39:36.30,0:39:36.57,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:39:37.98,0:39:40.03,Default,,0,0,0,,Well, let's see if I remember what it was.
+Dialogue: 0,0:39:40.44,0:39:50.86,Default,,0,0,0,,Carl Jung calibrated over 500, 550, 545, 540, 535.
+Dialogue: 0,0:39:52.55,0:39:55.55,Default,,0,0,0,,Yeah, he's a, yeah, low 500s, 535.
+Dialogue: 0,0:39:55.86,0:39:56.63,Default,,0,0,0,,Carl Jung, yeah.
+Dialogue: 0,0:39:57.15,0:40:02.55,Default,,0,0,0,,And so the calibration of the person would be the same as the work?
+Dialogue: 0,0:40:02.88,0:40:03.17,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:40:03.26,0:40:03.90,Default,,0,0,0,,Their body of work?
+Dialogue: 0,0:40:03.90,0:40:04.40,Default,,0,0,0,,Yeah, yeah.
+Dialogue: 0,0:40:04.46,0:40:04.76,Default,,0,0,0,,Okay.
+Dialogue: 0,0:40:05.51,0:40:05.84,Default,,0,0,0,,Right.
+Dialogue: 0,0:40:05.84,0:40:07.17,Default,,0,0,0,,Most of the time it is.
+Dialogue: 0,0:40:07.26,0:40:07.84,Default,,0,0,0,,Sometimes it differs.
+Dialogue: 0,0:40:07.98,0:40:09.26,Default,,0,0,0,,But most of the time it is.
+Dialogue: 0,0:40:09.32,0:40:09.94,Default,,0,0,0,,They go up and down.
+Dialogue: 0,0:40:09.94,0:40:11.34,Default,,0,0,0,,I've calibrated Jung before.
+Dialogue: 0,0:40:11.53,0:40:11.78,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:40:12.13,0:40:12.65,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:40:14.30,0:40:14.55,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:40:14.55,0:40:15.80,Default,,0,0,0,,Okay, let me have it one more time.
+Dialogue: 0,0:40:16.48,0:40:17.80,Default,,0,0,0,,Jung is in the 500s.
+Dialogue: 0,0:40:18.73,0:40:22.96,Default,,0,0,0,,About over 25, over 525, over 530.
+Dialogue: 0,0:40:23.92,0:40:25.67,Default,,0,0,0,,Yeah, he's around 530 right in there.
+Dialogue: 0,0:40:26.15,0:40:32.23,Default,,0,0,0,,So is it like a good, a good one to study, I guess, is kind of what she was saying.
+Dialogue: 0,0:40:32.23,0:40:32.75,Default,,0,0,0,,What's the question?
+Dialogue: 0,0:40:33.21,0:40:35.71,Default,,0,0,0,,Would he be someone to study, Carl Jung?
+Dialogue: 0,0:40:35.88,0:40:36.76,Default,,0,0,0,,Oh, yes, indeed.
+Dialogue: 0,0:40:36.92,0:40:37.40,Default,,0,0,0,,Oh, sure.
+Dialogue: 0,0:40:37.59,0:40:37.75,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:40:37.75,0:40:38.15,Default,,0,0,0,,Okay.
+Dialogue: 0,0:40:38.40,0:40:38.86,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:40:39.23,0:40:40.80,Default,,0,0,0,,No, Carl Jung was a genius.
+Dialogue: 0,0:40:40.82,0:40:43.96,Default,,0,0,0,,Yeah, because I think it's, Freud was below 500.
+Dialogue: 0,0:40:44.71,0:40:45.71,Default,,0,0,0,,I don't remember now.
+Dialogue: 0,0:40:46.09,0:40:47.53,Default,,0,0,0,,Yeah, he was like 499, I think.
+Dialogue: 0,0:40:47.53,0:40:47.92,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:40:48.21,0:40:48.48,Default,,0,0,0,,Okay.
+Dialogue: 0,0:40:48.86,0:40:49.61,Default,,0,0,0,,Yeah, that's right.
+Dialogue: 0,0:40:50.13,0:40:50.92,Default,,0,0,0,,May I shake your hand?
+Dialogue: 0,0:40:50.92,0:40:51.65,Default,,0,0,0,,I remember now.
+Dialogue: 0,0:40:51.73,0:40:53.42,Default,,0,0,0,,Carl Jung calibrated higher, yes.
+Dialogue: 0,0:40:54.26,0:40:57.26,Default,,0,0,0,,Because Jung had a spiritual orientation.
+Dialogue: 0,0:40:59.32,0:41:02.55,Default,,0,0,0,,It was Carl Jung because of him that AA started.
+Dialogue: 0,0:41:03.15,0:41:03.38,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:41:04.03,0:41:04.32,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:41:07.76,0:41:08.25,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:41:14.90,0:41:15.26,Default,,0,0,0,,Hello.
+Dialogue: 0,0:41:15.26,0:41:15.32,Default,,0,0,0,,Hello.
+Dialogue: 0,0:41:15.78,0:41:18.80,Default,,0,0,0,,My question is, I'm wondering, since I'm pregnant,
+Dialogue: 0,0:41:19.55,0:41:22.88,Default,,0,0,0,,if my consciousness is different now than it would normally be.
+Dialogue: 0,0:41:22.88,0:41:23.88,Default,,0,0,0,,I'm sorry, what?
+Dialogue: 0,0:41:23.88,0:41:24.88,Default,,0,0,0,,I wasn't, I wasn't.
+Dialogue: 0,0:41:24.88,0:41:29.15,Default,,0,0,0,,I'm pregnant, and I'm wondering if my consciousness is different now than it would normally be,
+Dialogue: 0,0:41:29.15,0:41:30.15,Default,,0,0,0,,or how it, how it.
+Dialogue: 0,0:41:30.15,0:41:31.15,Default,,0,0,0,,What's your question?
+Dialogue: 0,0:41:31.15,0:41:32.15,Default,,0,0,0,,She's pregnant.
+Dialogue: 0,0:41:32.15,0:41:33.15,Default,,0,0,0,,Yes.
+Dialogue: 0,0:41:33.15,0:41:37.15,Default,,0,0,0,,She doesn't know if her consciousness is different now or how it changes.
+Dialogue: 0,0:41:37.15,0:41:38.15,Default,,0,0,0,,How it changes.
+Dialogue: 0,0:41:38.15,0:41:39.15,Default,,0,0,0,,Would it change?
+Dialogue: 0,0:41:39.15,0:41:40.15,Default,,0,0,0,,No.
+Dialogue: 0,0:41:40.15,0:41:41.15,Default,,0,0,0,,No.
+Dialogue: 0,0:41:41.15,0:41:44.57,Default,,0,0,0,,No, your consciousness doesn't change because you're pregnant.
+Dialogue: 0,0:41:44.57,0:41:48.00,Default,,0,0,0,,Nothing different happens when you're carrying a child?
+Dialogue: 0,0:41:48.00,0:41:49.00,Default,,0,0,0,,Well.
+Dialogue: 0,0:41:49.00,0:41:50.00,Default,,0,0,0,,There's lots of changes.
+Dialogue: 0,0:41:50.00,0:41:51.00,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:41:51.00,0:41:52.00,Default,,0,0,0,,There's lots of changes.
+Dialogue: 0,0:41:52.00,0:41:55.00,Default,,0,0,0,,Well, of course there's a connection between your consciousness and your pregnancy, but
+Dialogue: 0,0:41:55.00,0:41:57.00,Default,,0,0,0,,what specific question are you asking?
+Dialogue: 0,0:41:57.00,0:42:02.55,Default,,0,0,0,,I'm just wondering if, if you calibrated me, would you calibrate myself, or would it calibrate
+Dialogue: 0,0:42:02.55,0:42:03.55,Default,,0,0,0,,the child and myself?
+Dialogue: 0,0:42:03.55,0:42:04.55,Default,,0,0,0,,Would it be different now since I'm pregnant?
+Dialogue: 0,0:42:04.55,0:42:08.92,Default,,0,0,0,,It's different because the baby is different than what you are.
+Dialogue: 0,0:42:08.92,0:42:09.92,Default,,0,0,0,,The baby's different.
+Dialogue: 0,0:42:09.92,0:42:10.92,Default,,0,0,0,,Okay.
+Dialogue: 0,0:42:10.92,0:42:11.92,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:42:11.92,0:42:15.32,Default,,0,0,0,,And I also just wanted to ask for a blessing on this baby and my four-year-old, who has
+Dialogue: 0,0:42:15.32,0:42:18.32,Default,,0,0,0,,a fever, who, it's hard for me to be away from her while she's.
+Dialogue: 0,0:42:18.32,0:42:19.32,Default,,0,0,0,,Let me have your arm.
+Dialogue: 0,0:42:19.32,0:42:20.32,Default,,0,0,0,,It's okay to bless this baby.
+Dialogue: 0,0:42:20.32,0:42:21.32,Default,,0,0,0,,Okay.
+Dialogue: 0,0:42:21.32,0:42:22.32,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:42:22.32,0:42:23.32,Default,,0,0,0,,God bless this little baby.
+Dialogue: 0,0:42:23.32,0:42:24.76,Default,,0,0,0,,Amen.
+Dialogue: 0,0:42:24.76,0:42:26.25,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:42:26.25,0:42:28.30,Default,,0,0,0,,God bless that baby.
+Dialogue: 0,0:42:28.30,0:42:29.30,Default,,0,0,0,,You're supposed to sign it.
+Dialogue: 0,0:42:29.30,0:42:30.30,Default,,0,0,0,,We've been busy blessing babies lately, haven't we?
+Dialogue: 0,0:42:30.30,0:42:31.30,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:42:31.30,0:42:32.30,Default,,0,0,0,,It's spring.
+Dialogue: 0,0:42:32.30,0:42:33.46,Default,,0,0,0,,Yes.
+Dialogue: 0,0:42:33.46,0:42:34.46,Default,,0,0,0,,God bless this little baby.
+Dialogue: 0,0:42:34.46,0:42:35.46,Default,,0,0,0,,Thank you so much.
+Dialogue: 0,0:42:35.46,0:42:36.46,Default,,0,0,0,,Yep.
+Dialogue: 0,0:42:36.46,0:42:38.90,Default,,0,0,0,,You're supposed to sign it.
+Dialogue: 0,0:42:38.90,0:42:39.90,Default,,0,0,0,,I don't know what this is.
+Dialogue: 0,0:42:39.90,0:42:43.65,Default,,0,0,0,,Just sign it anywhere.
+Dialogue: 0,0:42:43.65,0:42:44.65,Default,,0,0,0,,What is this thing?
+Dialogue: 0,0:42:44.65,0:42:45.76,Default,,0,0,0,,It's a computer.
+Dialogue: 0,0:42:45.76,0:42:46.76,Default,,0,0,0,,A computer?
+Dialogue: 0,0:42:46.76,0:42:50.88,Default,,0,0,0,,Yes.
+Dialogue: 0,0:42:50.88,0:42:51.88,Default,,0,0,0,,Just a minute.
+Dialogue: 0,0:42:51.88,0:42:53.36,Default,,0,0,0,,He's got to sign it.
+Dialogue: 0,0:42:53.36,0:42:54.36,Default,,0,0,0,,Okay.
+Dialogue: 0,0:42:54.36,0:42:55.36,Default,,0,0,0,,Anywhere.
+Dialogue: 0,0:42:55.36,0:42:56.36,Default,,0,0,0,,Anywhere.
+Dialogue: 0,0:42:56.36,0:42:57.40,Default,,0,0,0,,Anywhere.
+Dialogue: 0,0:42:57.40,0:42:58.40,Default,,0,0,0,,Anywhere.
+Dialogue: 0,0:42:58.40,0:42:59.40,Default,,0,0,0,,Anywhere.
+Dialogue: 0,0:42:59.40,0:43:03.15,Default,,0,0,0,,Anywhere.
+Dialogue: 0,0:43:03.15,0:43:04.15,Default,,0,0,0,,Anywhere.
+Dialogue: 0,0:43:04.15,0:43:05.98,Default,,0,0,0,,Nothing.
+Dialogue: 0,0:43:05.98,0:43:06.98,Default,,0,0,0,,Hi.
+Dialogue: 0,0:43:06.98,0:43:17.94,Default,,0,0,0,,You're supposed to sign this.
+Dialogue: 0,0:43:17.94,0:43:19.26,Default,,0,0,0,,I don't understand anything about computers.
+Dialogue: 0,0:43:19.26,0:43:20.26,Default,,0,0,0,,Oh, mm-hm.
+Dialogue: 0,0:43:20.26,0:43:24.17,Default,,0,0,0,,I got as far as the abacus, and that's as far I got.
+Dialogue: 0,0:43:24.17,0:43:31.19,Default,,0,0,0,,Jaya's here.
+Dialogue: 0,0:43:31.19,0:43:32.19,Default,,0,0,0,,What?
+Dialogue: 0,0:43:32.19,0:43:33.23,Default,,0,0,0,,Jaya got to come all the way from Dubai.
+Dialogue: 0,0:43:33.23,0:43:35.28,Default,,0,0,0,,Jaya's here.
+Dialogue: 0,0:43:35.28,0:43:42.76,Default,,0,0,0,,I'm trying you to listen to what you're saying.
+Dialogue: 0,0:43:42.76,0:43:44.69,Default,,0,0,0,,What did you say?
+Dialogue: 0,0:43:44.69,0:43:45.69,Default,,0,0,0,,Jaya is here.
+Dialogue: 0,0:43:45.69,0:43:47.86,Default,,0,0,0,,She's come all the way from Dubai, again..
+Dialogue: 0,0:43:47.86,0:43:48.86,Default,,0,0,0,,Oh, from Dubai.
+Dialogue: 0,0:43:48.86,0:43:51.26,Default,,0,0,0,,Yes, yes.
+Dialogue: 0,0:43:51.26,0:43:53.21,Default,,0,0,0,,Hi, sweetheart.
+Dialogue: 0,0:43:53.21,0:43:56.51,Default,,0,0,0,,That's the lady from Dubai.
+Dialogue: 0,0:43:56.55,0:43:59.00,Default,,0,0,0,,the lights are too bright
+Dialogue: 0,0:43:59.00,0:44:00.71,Default,,0,0,0,,she comes such a long way
+Dialogue: 0,0:44:00.71,0:44:05.59,Default,,0,0,0,,sure
+Dialogue: 0,0:44:05.59,0:44:10.03,Default,,0,0,0,,now I know what you're talking about
+Dialogue: 0,0:44:10.03,0:44:11.88,Default,,0,0,0,,you read it and if he doesn't understand it
+Dialogue: 0,0:44:11.88,0:44:14.03,Default,,0,0,0,,I will repeat it because I have to do these
+Dialogue: 0,0:44:14.03,0:44:16.21,Default,,0,0,0,,things or he won't sign them where I want him to
+Dialogue: 0,0:44:16.21,0:44:18.98,Default,,0,0,0,,Dr. Hawkins
+Dialogue: 0,0:44:18.98,0:44:21.26,Default,,0,0,0,,thank you
+Dialogue: 0,0:44:21.26,0:44:22.78,Default,,0,0,0,,for your teachings
+Dialogue: 0,0:44:22.78,0:44:26.21,Default,,0,0,0,,and I'd like to
+Dialogue: 0,0:44:26.21,0:44:28.09,Default,,0,0,0,,convey the love and
+Dialogue: 0,0:44:28.09,0:44:29.82,Default,,0,0,0,,the gratitude from
+Dialogue: 0,0:44:29.82,0:44:32.48,Default,,0,0,0,,all the members of the two groups
+Dialogue: 0,0:44:32.48,0:44:34.19,Default,,0,0,0,,in Dubai
+Dialogue: 0,0:44:34.19,0:44:38.92,Default,,0,0,0,,each of them has sent you lots of love
+Dialogue: 0,0:44:38.92,0:44:40.82,Default,,0,0,0,,and their pranam
+Dialogue: 0,0:44:40.82,0:44:42.26,Default,,0,0,0,,very nice
+Dialogue: 0,0:44:42.26,0:44:45.26,Default,,0,0,0,,how many people get blessed
+Dialogue: 0,0:44:45.26,0:44:46.36,Default,,0,0,0,,from Dubai today?
+Dialogue: 0,0:44:46.67,0:44:47.07,Default,,0,0,0,,just me
+Dialogue: 0,0:44:47.07,0:44:54.15,Default,,0,0,0,,could you please give them
+Dialogue: 0,0:44:54.15,0:44:56.15,Default,,0,0,0,,give these two group members
+Dialogue: 0,0:44:56.15,0:44:57.53,Default,,0,0,0,,your blessings please
+Dialogue: 0,0:44:57.53,0:45:01.21,Default,,0,0,0,,she wants you to give the group members
+Dialogue: 0,0:45:01.21,0:45:02.19,Default,,0,0,0,,your blessing
+Dialogue: 0,0:45:02.19,0:45:04.65,Default,,0,0,0,,how many members are in the group?
+Dialogue: 0,0:45:05.73,0:45:08.40,Default,,0,0,0,,I'd say about 15
+Dialogue: 0,0:45:08.40,0:45:08.57,Default,,0,0,0,,15
+Dialogue: 0,0:45:08.57,0:45:08.59,Default,,0,0,0,,15?
+Dialogue: 0,0:45:08.59,0:45:10.09,Default,,0,0,0,,God bless that
+Dialogue: 0,0:45:10.09,0:45:11.82,Default,,0,0,0,,15 members of your group, amen
+Dialogue: 0,0:45:11.82,0:45:13.53,Default,,0,0,0,,thank you
+Dialogue: 0,0:45:13.53,0:45:15.44,Default,,0,0,0,,who's this here?
+Dialogue: 0,0:45:15.90,0:45:16.94,Default,,0,0,0,,that's myself
+Dialogue: 0,0:45:16.94,0:45:24.98,Default,,0,0,0,,is that what the book looks like?
+Dialogue: 0,0:45:25.65,0:45:26.42,Default,,0,0,0,,oh
+Dialogue: 0,0:45:26.42,0:45:30.55,Default,,0,0,0,,oh I didn't know that
+Dialogue: 0,0:45:30.55,0:45:32.36,Default,,0,0,0,,she's going to ask a question now
+Dialogue: 0,0:45:32.36,0:45:33.55,Default,,0,0,0,,yeah
+Dialogue: 0,0:45:33.55,0:45:37.00,Default,,0,0,0,,in your DVD
+Dialogue: 0,0:45:37.00,0:45:38.07,Default,,0,0,0,,The Mystic
+Dialogue: 0,0:45:38.07,0:45:41.82,Default,,0,0,0,,you speak of diving into the silence
+Dialogue: 0,0:45:41.82,0:45:45.96,Default,,0,0,0,,mm-hmm
+Dialogue: 0,0:45:45.96,0:45:51.38,Default,,0,0,0,,I have been practicing this for some time
+Dialogue: 0,0:45:51.38,0:45:55.90,Default,,0,0,0,,and the practice has deepened quite a bit
+Dialogue: 0,0:45:55.90,0:45:58.88,Default,,0,0,0,,my request is
+Dialogue: 0,0:45:58.88,0:46:01.15,Default,,0,0,0,,could you guide me
+Dialogue: 0,0:46:01.15,0:46:05.15,Default,,0,0,0,,for a few seconds into the completeness of it now please
+Dialogue: 0,0:46:05.15,0:46:08.61,Default,,0,0,0,,could you guide her in
+Dialogue: 0,0:46:08.61,0:46:10.61,Default,,0,0,0,,if she was to go into meditation
+Dialogue: 0,0:46:10.61,0:46:13.61,Default,,0,0,0,,would you guide her in this practice
+Dialogue: 0,0:46:13.61,0:46:17.61,Default,,0,0,0,,into the diving into the silence?
+Dialogue: 0,0:46:17.61,0:46:18.61,Default,,0,0,0,,silence
+Dialogue: 0,0:46:18.61,0:46:19.61,Default,,0,0,0,,the silence
+Dialogue: 0,0:46:19.61,0:46:23.61,Default,,0,0,0,,could we do just a minute of silence
+Dialogue: 0,0:46:23.61,0:46:38.26,Default,,0,0,0,,Sylvia, it's complete
+Dialogue: 0,0:46:38.26,0:46:47.03,Default,,0,0,0,,thank you
+Dialogue: 0,0:46:47.03,0:46:50.65,Default,,0,0,0,,I appreciate your presence in my life
+Dialogue: 0,0:46:50.65,0:46:56.11,Default,,0,0,0,,I can't get up
+Dialogue: 0,0:46:56.11,0:46:58.17,Default,,0,0,0,,I know
+Dialogue: 0,0:46:58.17,0:47:01.46,Default,,0,0,0,,it was the thump on the table that did it
+Dialogue: 0,0:47:01.46,0:47:05.40,Default,,0,0,0,,okay, thank you so much
+Dialogue: 0,0:47:05.40,0:47:06.40,Default,,0,0,0,,love you
+Dialogue: 0,0:47:06.40,0:47:22.36,Default,,0,0,0,,yes, here's a tall gentleman who would like to get close to the table
+Dialogue: 0,0:47:22.36,0:47:25.71,Default,,0,0,0,,he's getting close to the table
+Dialogue: 0,0:47:25.71,0:47:31.09,Default,,0,0,0,,he's getting older by the minute
+Dialogue: 0,0:47:31.09,0:47:32.23,Default,,0,0,0,,older
+Dialogue: 0,0:47:32.23,0:47:33.23,Default,,0,0,0,,and older
+Dialogue: 0,0:47:33.23,0:47:34.48,Default,,0,0,0,,and older
+Dialogue: 0,0:47:34.48,0:47:35.48,Default,,0,0,0,,and older
+Dialogue: 0,0:47:35.48,0:47:36.48,Default,,0,0,0,,and older
+Dialogue: 0,0:47:36.48,0:47:37.65,Default,,0,0,0,,and older
+Dialogue: 0,0:47:37.65,0:47:45.82,Default,,0,0,0,,and older
+Dialogue: 0,0:47:45.82,0:47:46.82,Default,,0,0,0,,yes
+Dialogue: 0,0:47:46.82,0:47:48.09,Default,,0,0,0,,it's about ten after three
+Dialogue: 0,0:47:48.09,0:47:49.09,Default,,0,0,0,,did you want to take a quick break
+Dialogue: 0,0:47:49.09,0:47:50.09,Default,,0,0,0,,and then we'll return and finish
+Dialogue: 0,0:47:50.09,0:47:51.09,Default,,0,0,0,,what time is it?
+Dialogue: 0,0:47:51.09,0:47:52.09,Default,,0,0,0,,ten after three
+Dialogue: 0,0:47:52.09,0:47:53.19,Default,,0,0,0,,you want what, five minutes?
+Dialogue: 0,0:47:53.19,0:47:54.19,Default,,0,0,0,,yeah, just like a five minute break
+Dialogue: 0,0:47:54.19,0:47:55.19,Default,,0,0,0,,and then
+Dialogue: 0,0:47:55.19,0:47:56.19,Default,,0,0,0,,so everyone has a chance to go to bed
+Dialogue: 0,0:47:56.19,0:47:57.19,Default,,0,0,0,,a pedal break
+Dialogue: 0,0:47:57.19,0:47:58.19,Default,,0,0,0,,yes
+Dialogue: 0,0:47:58.19,0:47:59.19,Default,,0,0,0,,you're such a darling
+Dialogue: 0,0:47:59.19,0:48:00.19,Default,,0,0,0,,thank you, Julia
+Dialogue: 0,0:48:00.19,0:48:01.19,Default,,0,0,0,,thank you
+Dialogue: 0,0:48:01.19,0:48:02.19,Default,,0,0,0,,thank you
+Dialogue: 0,0:48:02.19,0:48:14.84,Default,,0,0,0,,thank you
+Dialogue: 0,0:48:14.84,0:48:15.84,Default,,0,0,0,,thank you
+Dialogue: 0,0:48:15.84,0:48:16.84,Default,,0,0,0,,thank you
+Dialogue: 0,0:48:16.84,0:48:18.13,Default,,0,0,0,,thank you
+Dialogue: 0,0:48:18.13,0:48:19.13,Default,,0,0,0,,thank you
+Dialogue: 0,0:48:19.13,0:48:20.13,Default,,0,0,0,,ah, yes
+Dialogue: 0,0:48:20.13,0:48:30.80,Default,,0,0,0,,now
+Dialogue: 0,0:48:31.80,0:48:39.61,Default,,0,0,0,,let us resume now
+Dialogue: 0,0:48:39.61,0:48:41.26,Default,,0,0,0,,or forever hold your peace
+Dialogue: 0,0:48:41.26,0:48:42.90,Default,,0,0,0,,okay
+Dialogue: 0,0:48:44.34,0:48:47.63,Default,,0,0,0,,yeah, thank you, thank you
+Dialogue: 0,0:48:47.63,0:48:51.86,Default,,0,0,0,,okay, we're all set to go
+Dialogue: 0,0:48:51.86,0:48:52.86,Default,,0,0,0,,don't lose your time
+Dialogue: 0,0:48:52.86,0:48:54.94,Default,,0,0,0,,I don't want to forget my water
+Dialogue: 0,0:48:54.94,0:48:56.73,Default,,0,0,0,,from the Ganshys
+Dialogue: 0,0:48:56.73,0:48:57.73,Default,,0,0,0,,that's great
+Dialogue: 0,0:48:57.73,0:49:01.17,Default,,0,0,0,,yeah, so I don't forget
+Dialogue: 0,0:49:01.17,0:49:03.48,Default,,0,0,0,,there, thank you
+Dialogue: 0,0:49:03.48,0:49:09.78,Default,,0,0,0,,you drink it and you're dead
+Dialogue: 0,0:49:09.78,0:49:11.78,Default,,0,0,0,,pour it over your head and you're blessed
+Dialogue: 0,0:49:11.78,0:49:23.44,Default,,0,0,0,,you're dead yes doctor Hawkins I have a very painful and just debilitating nerve
+Dialogue: 0,0:49:23.44,0:49:29.51,Default,,0,0,0,,disorder in my head and I wonder if this is a karmic debt or perhaps if
+Dialogue: 0,0:49:29.51,0:49:36.13,Default,,0,0,0,,increasing my level of consciousness will promote healing she sent me with a
+Dialogue: 0,0:49:36.13,0:49:44.15,Default,,0,0,0,,broadside speak slowly what is it problem I have a very painful and I have
+Dialogue: 0,0:49:44.15,0:49:49.73,Default,,0,0,0,,a very painful and debilitating nerve disorder in my head a painful nervous
+Dialogue: 0,0:49:49.73,0:49:57.59,Default,,0,0,0,,disorder in your head a nerve disorder a nervous nerve disorder in my head you
+Dialogue: 0,0:49:57.59,0:50:05.11,Default,,0,0,0,,got a nervous order several different specialists from UCLA to Vancouver it's
+Dialogue: 0,0:50:05.11,0:50:08.53,Default,,0,0,0,,called a typical on dantell g it's the nerve disorder of the trigeminal
+Dialogue: 0,0:50:08.53,0:50:10.94,Default,,0,0,0,,trigeminal neuralgia family a
+Dialogue: 0,0:50:12.73,0:50:14.59,Default,,0,0,0,,nerve disorder
+Dialogue: 0,0:50:14.59,0:50:20.30,Default,,0,0,0,,Like a neuritis. I have a burst nerve in my cheek that runs all through
+Dialogue: 0,0:50:20.92,0:50:27.53,Default,,0,0,0,,The trigeminal nerve area and it's extremely painful and I have 24 7 pain and nausea
+Dialogue: 0,0:50:28.23,0:50:31.46,Default,,0,0,0,,You get a pain and what's out of your head?
+Dialogue: 0,0:50:32.15,0:50:37.69,Default,,0,0,0,,Yes, yes one side of the head, but it run no now. It's running over to this side as well
+Dialogue: 0,0:50:37.69,0:50:45.38,Default,,0,0,0,,But it's the channel is bilateral. Yes, but it's mostly here. All right. It's not hemicranium because the hemicrania is
+Dialogue: 0,0:50:46.48,0:50:51.01,Default,,0,0,0,,Unilateral this is bilateral. I have a burst nerve in this area
+Dialogue: 0,0:50:57.51,0:50:59.51,Default,,0,0,0,,Who told you that
+Dialogue: 0,0:51:00.36,0:51:06.86,Default,,0,0,0,,I've been diagnosed by a burst nerve. Yes. I have atypical ondontalgia
+Dialogue: 0,0:51:06.86,0:51:08.25,Default,,0,0,0,,ondontalgia
+Dialogue: 0,0:51:08.25,0:51:10.75,Default,,0,0,0,,Which is a nerve?
+Dialogue: 0,0:51:11.48,0:51:18.19,Default,,0,0,0,,Burst in my trigeminal neuralgia this entire nerve is I get what you got. Yeah. Yeah, okay
+Dialogue: 0,0:51:18.80,0:51:25.38,Default,,0,0,0,,So I'm wondering if this is perhaps a karmic debt or perhaps if I increase my level of consciousness
+Dialogue: 0,0:51:25.38,0:51:31.57,Default,,0,0,0,,It will help promote healing and just any suggestions you might have to help me cope
+Dialogue: 0,0:51:32.17,0:51:37.21,Default,,0,0,0,,You merely do all your spiritual work the same as usual and pray
+Dialogue: 0,0:51:37.78,0:51:40.19,Default,,0,0,0,,And that's all you can do
+Dialogue: 0,0:51:40.36,0:51:44.03,Default,,0,0,0,,Okay, will you touch my head?
+Dialogue: 0,0:51:48.15,0:51:49.36,Default,,0,0,0,,Yes
+Dialogue: 0,0:51:52.11,0:51:59.88,Default,,0,0,0,,Show me where it is, please. I have permission
+Dialogue: 0,0:52:01.17,0:52:05.44,Default,,0,0,0,,resist you
+Dialogue: 0,0:52:05.44,0:52:07.44,Default,,0,0,0,,heal you
+Dialogue: 0,0:52:07.82,0:52:11.86,Default,,0,0,0,,We ask for a miracle in thy name. Oh Lord
+Dialogue: 0,0:52:13.59,0:52:16.55,Default,,0,0,0,,Jesus Christ. Oh psych, please crush yourself
+Dialogue: 0,0:52:17.13,0:52:35.36,Default,,0,0,0,,Please crush yourself. Thank you sign this. Let's have the arm
+Dialogue: 0,0:52:35.94,0:52:38.65,Default,,0,0,0,,hurrah
+Dialogue: 0,0:52:38.65,0:52:41.03,Default,,0,0,0,,Vascular disorder in a skull is better
+Dialogue: 0,0:52:41.53,0:52:42.73,Default,,0,0,0,,There's this
+Dialogue: 0,0:52:42.73,0:52:51.55,Default,,0,0,0,,All right. Hi. I just wanted to hold your hand and have my picture taken
+Dialogue: 0,0:52:54.55,0:52:58.03,Default,,0,0,0,,You're a celebrity
+Dialogue: 0,0:53:01.46,0:53:06.86,Default,,0,0,0,,My god, you got cold hands, holy smokes. What have you been holding ice cubes?
+Dialogue: 0,0:53:10.73,0:53:12.73,Default,,0,0,0,,Your hands are cold
+Dialogue: 0,0:53:12.75,0:53:14.75,Default,,0,0,0,,Warm heart I hope
+Dialogue: 0,0:53:14.75,0:53:22.23,Default,,0,0,0,,Yes, that's what they say cold hands warm heart. I want to make sure she wasn't nipping on my Genji's water
+Dialogue: 0,0:53:24.80,0:53:33.07,Default,,0,0,0,,Nip on this and bye-bye. I want to put it where I'm not gonna forget it. Hello. Dr. Hawkins. I don't have a question
+Dialogue: 0,0:53:33.07,0:53:40.80,Default,,0,0,0,,I just want to express my deepest gratitude for your teachings and have a picture taken with you and Susan. I can't hear what she said
+Dialogue: 0,0:53:46.76,0:53:48.76,Default,,0,0,0,,Oh, okay picture
+Dialogue: 0,0:53:51.01,0:53:54.67,Default,,0,0,0,,Smile
+Dialogue: 0,0:53:55.09,0:53:59.76,Default,,0,0,0,,Wow
+Dialogue: 0,0:53:59.76,0:54:02.65,Default,,0,0,0,,I
+Dialogue: 0,0:54:02.65,0:54:04.65,Default,,0,0,0,,These are pictures of myself
+Dialogue: 0,0:54:06.17,0:54:08.17,Default,,0,0,0,,Yeah me
+Dialogue: 0,0:54:08.69,0:54:13.26,Default,,0,0,0,,I never paid attention
+Dialogue: 0,0:54:16.59,0:54:18.59,Default,,0,0,0,,These are all the same guy
+Dialogue: 0,0:54:19.17,0:54:27.13,Default,,0,0,0,,I'll be darned. Well
+Dialogue: 0,0:54:28.59,0:54:32.53,Default,,0,0,0,,I'm very grateful for this opportunity. Thank you
+Dialogue: 0,0:54:33.42,0:54:35.63,Default,,0,0,0,,I'd like to hold your hand
+Dialogue: 0,0:54:36.44,0:54:37.84,Default,,0,0,0,,if possible
+Dialogue: 0,0:54:37.84,0:54:42.07,Default,,0,0,0,,for a silent transmission and your blessing, please
+Dialogue: 0,0:54:42.84,0:54:45.07,Default,,0,0,0,,Sure, so hold your hand for a silence
+Dialogue: 0,0:54:47.11,0:54:53.11,Default,,0,0,0,,And a blessing that's greedy
+Dialogue: 0,0:54:59.67,0:55:01.67,Default,,0,0,0,,Trying to get all areas covered
+Dialogue: 0,0:55:05.46,0:55:14.75,Default,,0,0,0,,Are these all your books?
+Dialogue: 0,0:55:16.40,0:55:18.86,Default,,0,0,0,,Okay, I have all your books at home
+Dialogue: 0,0:55:19.51,0:55:22.30,Default,,0,0,0,,Well have it come around them here
+Dialogue: 0,0:55:22.38,0:55:24.38,Default,,0,0,0,,One second
+Dialogue: 0,0:55:24.38,0:55:35.25,Default,,0,0,0,,I don't know if I can see I can't see what I'm doing. Well, God could see where it is
+Dialogue: 0,0:55:36.82,0:55:38.82,Default,,0,0,0,,Yes, madam
+Dialogue: 0,0:55:38.82,0:55:41.82,Default,,0,0,0,,She's gonna hold your hand. She wants to hold your hand over here. Oh
+Dialogue: 0,0:55:49.48,0:55:51.48,Default,,0,0,0,,Man, what cold hands
+Dialogue: 0,0:55:51.59,0:55:55.15,Default,,0,0,0,,Holy cats, where have you been sitting on the refrigerator?
+Dialogue: 0,0:55:56.48,0:55:58.48,Default,,0,0,0,,Thank you, honey
+Dialogue: 0,0:55:58.71,0:56:01.96,Default,,0,0,0,,Warm hands think of warmth flowing into your hands
+Dialogue: 0,0:56:02.82,0:56:05.86,Default,,0,0,0,,Think of God's love as a warm toaster oven
+Dialogue: 0,0:56:06.59,0:56:10.13,Default,,0,0,0,,imagine warming and toasting these cold little fingers
+Dialogue: 0,0:56:11.21,0:56:13.55,Default,,0,0,0,,Good
+Dialogue: 0,0:56:17.76,0:56:20.30,Default,,0,0,0,,For sure
+Dialogue: 0,0:56:20.30,0:56:22.92,Default,,0,0,0,,Yeah, I feel your hands on something, is it me or her?
+Dialogue: 0,0:56:23.28,0:56:24.48,Default,,0,0,0,,Yes
+Dialogue: 0,0:56:24.48,0:56:26.30,Default,,0,0,0,,But I wonder if you can
+Dialogue: 0,0:56:26.30,0:56:33.86,Default,,0,0,0,,just calibrate if it's in the highest good for me to remain at the sang that I belong to
+Dialogue: 0,0:56:34.86,0:56:36.73,Default,,0,0,0,,the spiritual group
+Dialogue: 0,0:56:36.73,0:56:38.32,Default,,0,0,0,,Yes, I've been
+Dialogue: 0,0:56:38.32,0:56:40.42,Default,,0,0,0,,wants to know if she should remain with
+Dialogue: 0,0:56:40.42,0:56:42.36,Default,,0,0,0,,the same, a spiritual group that
+Dialogue: 0,0:56:42.36,0:56:43.73,Default,,0,0,0,,she belongs to.
+Dialogue: 0,0:56:45.44,0:56:47.00,Default,,0,0,0,,Let's see. We have
+Dialogue: 0,0:56:47.00,0:56:48.07,Default,,0,0,0,,permission to ask this.
+Dialogue: 0,0:56:48.92,0:56:51.01,Default,,0,0,0,,It's in her highest good to
+Dialogue: 0,0:56:51.01,0:56:53.17,Default,,0,0,0,,remain with her spiritual group.
+Dialogue: 0,0:56:53.69,0:56:55.98,Default,,0,0,0,,Resist. Yep.
+Dialogue: 0,0:56:56.69,0:56:57.21,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:56:58.36,0:57:11.71,Default,,0,0,0,,Hello. I just
+Dialogue: 0,0:57:11.71,0:57:13.63,Default,,0,0,0,,would like to request a blessing and
+Dialogue: 0,0:57:13.63,0:57:14.42,Default,,0,0,0,,to hold your hand.
+Dialogue: 0,0:57:15.94,0:57:17.38,Default,,0,0,0,,What type of blessing?
+Dialogue: 0,0:57:18.61,0:57:19.96,Default,,0,0,0,,Blessing for me.
+Dialogue: 0,0:57:24.53,0:57:25.80,Default,,0,0,0,,God bless you, sweetheart.
+Dialogue: 0,0:57:26.63,0:57:27.05,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:57:28.84,0:57:29.92,Default,,0,0,0,,Are your hands cold, too?
+Dialogue: 0,0:57:30.00,0:57:31.13,Default,,0,0,0,,Her hands are not cold, though.
+Dialogue: 0,0:57:34.09,0:57:35.48,Default,,0,0,0,,No, her hands are cold.
+Dialogue: 0,0:57:35.55,0:57:37.21,Default,,0,0,0,,No, her hands are warm. The other people,
+Dialogue: 0,0:57:38.53,0:57:39.61,Default,,0,0,0,,I don't know where they are.
+Dialogue: 0,0:57:39.61,0:57:40.96,Default,,0,0,0,,They're sitting on an ice cube.
+Dialogue: 0,0:57:51.13,0:57:51.71,Default,,0,0,0,,Dr. Hopkins.
+Dialogue: 0,0:57:51.71,0:57:52.71,Default,,0,0,0,,There we are. Yes.
+Dialogue: 0,0:57:53.84,0:57:56.40,Default,,0,0,0,,Thank you. First of all, I just want to say
+Dialogue: 0,0:57:56.40,0:57:58.53,Default,,0,0,0,,thank you for sharing the gift
+Dialogue: 0,0:57:58.53,0:58:00.51,Default,,0,0,0,,that you have with all of us.
+Dialogue: 0,0:58:01.44,0:58:02.67,Default,,0,0,0,,It means a lot to me.
+Dialogue: 0,0:58:02.67,0:58:03.78,Default,,0,0,0,,I can't hear what you're saying.
+Dialogue: 0,0:58:05.65,0:58:07.67,Default,,0,0,0,,My question is about raising levels of
+Dialogue: 0,0:58:07.67,0:58:08.19,Default,,0,0,0,,consciousness.
+Dialogue: 0,0:58:08.40,0:58:10.09,Default,,0,0,0,,Levels of consciousness.
+Dialogue: 0,0:58:10.34,0:58:12.48,Default,,0,0,0,,Sit back a little bit, because that will pick you up.
+Dialogue: 0,0:58:12.78,0:58:14.82,Default,,0,0,0,,Okay. Sometimes when
+Dialogue: 0,0:58:14.82,0:58:16.92,Default,,0,0,0,,I'm listening to a beautiful piece
+Dialogue: 0,0:58:16.92,0:58:18.65,Default,,0,0,0,,of music, or I'm performing
+Dialogue: 0,0:58:18.65,0:58:20.88,Default,,0,0,0,,a beautiful piece of music, or I'm praying
+Dialogue: 0,0:58:20.88,0:58:23.07,Default,,0,0,0,,to God, I feel these very intense
+Dialogue: 0,0:58:23.07,0:58:24.51,Default,,0,0,0,,feelings of love and bliss.
+Dialogue: 0,0:58:24.98,0:58:26.92,Default,,0,0,0,,I'm wondering if when I feel those kinds
+Dialogue: 0,0:58:26.92,0:58:28.90,Default,,0,0,0,,of feelings, if that is raising my
+Dialogue: 0,0:58:28.90,0:58:31.05,Default,,0,0,0,,consciousness level, and if so,
+Dialogue: 0,0:58:31.15,0:58:32.57,Default,,0,0,0,,if it is just a temporary
+Dialogue: 0,0:58:32.57,0:58:35.17,Default,,0,0,0,,rise of a consciousness level,
+Dialogue: 0,0:58:35.65,0:58:36.90,Default,,0,0,0,,or is that just feeling
+Dialogue: 0,0:58:36.90,0:58:38.82,Default,,0,0,0,,What?
+Dialogue: 0,0:58:38.82,0:58:38.96,Default,,0,0,0,,What?
+Dialogue: 0,0:58:39.46,0:58:41.00,Default,,0,0,0,,She wants to know if
+Dialogue: 0,0:58:41.00,0:58:43.55,Default,,0,0,0,,whenever she listens to a beautiful
+Dialogue: 0,0:58:43.55,0:58:45.00,Default,,0,0,0,,piece of music, she feels her
+Dialogue: 0,0:58:45.00,0:58:47.26,Default,,0,0,0,,you know, the consciousness
+Dialogue: 0,0:58:47.26,0:58:48.82,Default,,0,0,0,,level rising. Yes.
+Dialogue: 0,0:58:49.40,0:58:51.03,Default,,0,0,0,,And is it just temporary,
+Dialogue: 0,0:58:51.57,0:58:53.13,Default,,0,0,0,,or is it actually? Yeah, it's temporary.
+Dialogue: 0,0:58:53.48,0:58:55.65,Default,,0,0,0,,But is it actually rising?
+Dialogue: 0,0:58:56.05,0:58:57.15,Default,,0,0,0,,Is it actually raising my consciousness level?
+Dialogue: 0,0:58:57.15,0:58:59.07,Default,,0,0,0,,You're the one that just told me that it is.
+Dialogue: 0,0:59:01.78,0:59:03.34,Default,,0,0,0,,And so, praying and listening
+Dialogue: 0,0:59:03.34,0:59:05.36,Default,,0,0,0,,to music raises consciousness level?
+Dialogue: 0,0:59:06.67,0:59:08.11,Default,,0,0,0,,So, would praying
+Dialogue: 0,0:59:08.11,0:59:09.61,Default,,0,0,0,,and listening to music raise your
+Dialogue: 0,0:59:09.61,0:59:11.42,Default,,0,0,0,,consciousness level? Sure.
+Dialogue: 0,0:59:12.07,0:59:14.17,Default,,0,0,0,,People have been doing that for thousands
+Dialogue: 0,0:59:14.17,0:59:16.80,Default,,0,0,0,,of years. And would that be
+Dialogue: 0,0:59:16.80,0:59:18.09,Default,,0,0,0,,the way that someone would
+Dialogue: 0,0:59:18.09,0:59:20.71,Default,,0,0,0,,be able to write a work that
+Dialogue: 0,0:59:20.71,0:59:22.57,Default,,0,0,0,,calibrates higher than they themselves
+Dialogue: 0,0:59:22.57,0:59:26.01,Default,,0,0,0,,calibrate? Maybe I didn't hear
+Dialogue: 0,0:59:26.01,0:59:27.86,Default,,0,0,0,,it right. Did you say that you...
+Dialogue: 0,0:59:27.86,0:59:29.78,Default,,0,0,0,,If someone has a very
+Dialogue: 0,0:59:29.78,0:59:31.59,Default,,0,0,0,,high experience,
+Dialogue: 0,0:59:32.76,0:59:33.76,Default,,0,0,0,,it's possible
+Dialogue: 0,0:59:33.76,0:59:35.86,Default,,0,0,0,,that they can write a work
+Dialogue: 0,0:59:35.86,0:59:38.00,Default,,0,0,0,,about that, and it would calibrate
+Dialogue: 0,0:59:38.00,0:59:38.65,Default,,0,0,0,,quite high.
+Dialogue: 0,0:59:40.88,0:59:42.17,Default,,0,0,0,,On the other end,
+Dialogue: 0,0:59:42.17,0:59:43.82,Default,,0,0,0,,if they can't live,
+Dialogue: 0,0:59:43.84,0:59:45.82,Default,,0,0,0,,walk the walk, or talk the talk,
+Dialogue: 0,0:59:45.90,0:59:47.90,Default,,0,0,0,,then they will not remain
+Dialogue: 0,0:59:47.90,0:59:49.78,Default,,0,0,0,,there in that area.
+Dialogue: 0,0:59:50.40,0:59:50.96,Default,,0,0,0,,Okay.
+Dialogue: 0,0:59:52.34,0:59:53.34,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:59:54.34,0:59:56.48,Default,,0,0,0,,You have to be loving towards all
+Dialogue: 0,0:59:56.48,0:59:59.05,Default,,0,0,0,,beings, and
+Dialogue: 0,0:59:59.05,1:00:00.50,Default,,0,0,0,,not think negatively
+Dialogue: 0,1:00:00.50,1:00:03.17,Default,,0,0,0,,of those fumbling idiots.
+Dialogue: 0,1:00:09.15,1:00:09.96,Default,,0,0,0,,So, keeping...
+Dialogue: 0,1:00:09.96,1:00:11.28,Default,,0,0,0,,Well, that's a good way of putting it.
+Dialogue: 0,1:00:12.03,1:00:15.32,Default,,0,0,0,,Thank you. Thank you very much.
+Dialogue: 0,1:00:15.88,1:00:17.61,Default,,0,0,0,,Compassion towards all of life
+Dialogue: 0,1:00:17.61,1:00:19.57,Default,,0,0,0,,in all of its expressions.
+Dialogue: 0,1:00:35.80,1:00:36.07,Default,,0,0,0,,Yes.
+Dialogue: 0,1:00:36.07,1:00:36.30,Default,,0,0,0,,Hi.
+Dialogue: 0,1:00:49.65,1:00:55.13,Default,,0,0,0,,Yes.
+Dialogue: 0,1:00:55.65,1:00:57.03,Default,,0,0,0,,Hello. How are you?
+Dialogue: 0,1:00:58.53,1:01:00.76,Default,,0,0,0,,I'd like to ask about
+Dialogue: 0,1:01:00.76,1:01:02.80,Default,,0,0,0,,if there's such thing as
+Dialogue: 0,1:01:02.80,1:01:04.11,Default,,0,0,0,,original sin.
+Dialogue: 0,1:01:04.78,1:01:06.65,Default,,0,0,0,,Is there such a thing as original sin?
+Dialogue: 0,1:01:07.59,1:01:09.11,Default,,0,0,0,,I don't know anything about
+Dialogue: 0,1:01:09.11,1:01:11.53,Default,,0,0,0,,original sin, sweetheart. That's
+Dialogue: 0,1:01:11.53,1:01:13.01,Default,,0,0,0,,some kind of religious
+Dialogue: 0,1:01:13.01,1:01:14.15,Default,,0,0,0,,belief system.
+Dialogue: 0,1:01:17.30,1:01:19.36,Default,,0,0,0,,I mean, there was nobody around,
+Dialogue: 0,1:01:19.88,1:01:22.07,Default,,0,0,0,,so where would the sin originate
+Dialogue: 0,1:01:22.07,1:01:24.48,Default,,0,0,0,,from? I don't know.
+Dialogue: 0,1:01:25.75,1:01:27.46,Default,,0,0,0,,And then
+Dialogue: 0,1:01:27.46,1:01:28.67,Default,,0,0,0,,she would like your blessing.
+Dialogue: 0,1:01:29.21,1:01:31.51,Default,,0,0,0,,That's something different.
+Dialogue: 0,1:01:31.51,1:01:32.21,Default,,0,0,0,,God bless you.
+Dialogue: 0,1:01:32.21,1:01:34.26,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:01:34.26,1:01:39.61,Default,,0,0,0,,Well, that was a good question.
+Dialogue: 0,1:01:39.61,1:01:41.69,Default,,0,0,0,,Original sin is a whole big dissertation.
+Dialogue: 0,1:01:42.71,1:01:44.32,Default,,0,0,0,,It would take me an hour to explain it all.
+Dialogue: 0,1:01:55.82,1:01:57.38,Default,,0,0,0,,What did you say? Is somebody here?
+Dialogue: 0,1:02:07.11,1:02:07.40,Default,,0,0,0,,Hello.
+Dialogue: 0,1:02:08.55,1:02:10.94,Default,,0,0,0,,Thank you for your work. It's helped me a lot
+Dialogue: 0,1:02:10.94,1:02:12.42,Default,,0,0,0,,personally and professionally.
+Dialogue: 0,1:02:13.38,1:02:15.05,Default,,0,0,0,,Thank you for getting him to do it.
+Dialogue: 0,1:02:20.59,1:02:21.71,Default,,0,0,0,,I'm a psychiatrist
+Dialogue: 0,1:02:21.71,1:02:23.01,Default,,0,0,0,,in southwest Georgia,
+Dialogue: 0,1:02:23.36,1:02:24.84,Default,,0,0,0,,and I know you've already
+Dialogue: 0,1:02:24.84,1:02:26.63,Default,,0,0,0,,spoken some about practices
+Dialogue: 0,1:02:26.63,1:02:28.82,Default,,0,0,0,,today, but I wanted to ask you
+Dialogue: 0,1:02:28.82,1:02:29.59,Default,,0,0,0,,if you had any
+Dialogue: 0,1:02:29.59,1:02:32.69,Default,,0,0,0,,spiritual or practical advice.
+Dialogue: 0,1:02:33.07,1:02:34.96,Default,,0,0,0,,I've still got a lot of years
+Dialogue: 0,1:02:34.96,1:02:36.90,Default,,0,0,0,,ahead of me, assuming the world doesn't end today,
+Dialogue: 0,1:02:37.28,1:02:38.78,Default,,0,0,0,,and it's after 3 o'clock, so I think
+Dialogue: 0,1:02:38.78,1:02:39.69,Default,,0,0,0,,it's probably not going to end.
+Dialogue: 0,1:02:41.53,1:02:42.84,Default,,0,0,0,,Do you have any
+Dialogue: 0,1:02:42.84,1:02:44.90,Default,,0,0,0,,suggestions for someone
+Dialogue: 0,1:02:44.90,1:02:46.96,Default,,0,0,0,,practicing in psychiatry now?
+Dialogue: 0,1:02:47.11,1:02:48.61,Default,,0,0,0,,You're practicing psychiatry?
+Dialogue: 0,1:02:49.44,1:02:50.94,Default,,0,0,0,,You need God's help around
+Dialogue: 0,1:02:50.94,1:02:51.44,Default,,0,0,0,,the clock.
+Dialogue: 0,1:02:51.44,1:02:53.57,Default,,0,0,0,,I agree.
+Dialogue: 0,1:02:55.00,1:02:58.44,Default,,0,0,0,,No, I was always thankful
+Dialogue: 0,1:02:58.44,1:03:01.11,Default,,0,0,0,,to be a psychiatrist
+Dialogue: 0,1:03:01.11,1:03:03.11,Default,,0,0,0,,because it was a greater
+Dialogue: 0,1:03:03.11,1:03:05.00,Default,,0,0,0,,dimension than just the physical
+Dialogue: 0,1:03:05.00,1:03:07.36,Default,,0,0,0,,body. I can include
+Dialogue: 0,1:03:07.36,1:03:09.44,Default,,0,0,0,,the person and their personhood
+Dialogue: 0,1:03:09.44,1:03:10.84,Default,,0,0,0,,and
+Dialogue: 0,1:03:10.84,1:03:13.44,Default,,0,0,0,,appreciate them as
+Dialogue: 0,1:03:13.44,1:03:15.03,Default,,0,0,0,,a being, you know what I mean?
+Dialogue: 0,1:03:15.55,1:03:17.11,Default,,0,0,0,,And I had some wonderfully
+Dialogue: 0,1:03:17.11,1:03:19.19,Default,,0,0,0,,interesting patients over the years
+Dialogue: 0,1:03:19.19,1:03:24.00,Default,,0,0,0,,in which we had a very positive
+Dialogue: 0,1:03:24.00,1:03:26.21,Default,,0,0,0,,transference and
+Dialogue: 0,1:03:26.21,1:03:27.13,Default,,0,0,0,,counter-transference.
+Dialogue: 0,1:03:28.36,1:03:30.09,Default,,0,0,0,,I would look forward to seeing them
+Dialogue: 0,1:03:30.09,1:03:33.17,Default,,0,0,0,,and one of them asked me for a picture of myself
+Dialogue: 0,1:03:33.17,1:03:35.17,Default,,0,0,0,,to hang on the wall because every time he looked
+Dialogue: 0,1:03:35.17,1:03:35.96,Default,,0,0,0,,at it, he felt better.
+Dialogue: 0,1:03:41.05,1:03:42.84,Default,,0,0,0,,And a couple of patients
+Dialogue: 0,1:03:42.84,1:03:45.19,Default,,0,0,0,,were very old and they'd been
+Dialogue: 0,1:03:45.19,1:03:46.51,Default,,0,0,0,,with me for many years
+Dialogue: 0,1:03:46.51,1:03:49.55,Default,,0,0,0,,and I did not retire until they died.
+Dialogue: 0,1:03:50.82,1:03:51.78,Default,,0,0,0,,I thought I'll
+Dialogue: 0,1:03:51.78,1:03:54.26,Default,,0,0,0,,stay with them to the end.
+Dialogue: 0,1:03:57.76,1:03:58.42,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:04:10.50,1:04:12.15,Default,,0,0,0,,Each of the patients I had,
+Dialogue: 0,1:04:12.23,1:04:15.94,Default,,0,0,0,,I loved, not in a personal
+Dialogue: 0,1:04:15.94,1:04:18.57,Default,,0,0,0,,way, but I loved
+Dialogue: 0,1:04:18.57,1:04:18.59,Default,,0,0,0,,them.
+Dialogue: 0,1:04:18.61,1:04:19.59,Default,,0,0,0,,Each and every one.
+Dialogue: 0,1:04:36.80,1:04:39.32,Default,,0,0,0,,Potato chips? No.
+Dialogue: 0,1:04:41.82,1:04:42.76,Default,,0,0,0,,What doc
+Dialogue: 0,1:04:42.76,1:04:44.46,Default,,0,0,0,,doesn't tell you is that a lot of the
+Dialogue: 0,1:04:44.46,1:04:46.48,Default,,0,0,0,,patients couldn't afford the fees and he would
+Dialogue: 0,1:04:46.48,1:04:47.90,Default,,0,0,0,,see them for coffee.
+Dialogue: 0,1:04:49.94,1:04:50.61,Default,,0,0,0,,Free coffee.
+Dialogue: 0,1:04:50.76,1:04:53.11,Default,,0,0,0,,They would bring him coffee
+Dialogue: 0,1:04:53.11,1:04:55.69,Default,,0,0,0,,for the bill. They'd bring me coffee
+Dialogue: 0,1:04:55.69,1:04:56.92,Default,,0,0,0,,and I'd take care of it.
+Dialogue: 0,1:05:01.03,1:05:02.71,Default,,0,0,0,,I didn't have to
+Dialogue: 0,1:05:02.71,1:05:04.07,Default,,0,0,0,,have to buy coffee for a year.
+Dialogue: 0,1:05:06.94,1:05:08.42,Default,,0,0,0,,Did we sign all these?
+Dialogue: 0,1:05:08.42,1:05:13.32,Default,,0,0,0,,Oh, well, if they didn't have money,
+Dialogue: 0,1:05:13.32,1:05:15.55,Default,,0,0,0,,I'd say I'd see them
+Dialogue: 0,1:05:15.55,1:05:17.00,Default,,0,0,0,,for coffee.
+Dialogue: 0,1:05:19.19,1:05:19.55,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:05:22.05,1:05:24.34,Default,,0,0,0,,Thanks for being my teacher.
+Dialogue: 0,1:05:26.42,1:05:28.90,Default,,0,0,0,,We have a study group that
+Dialogue: 0,1:05:29.03,1:05:30.96,Default,,0,0,0,,meets at our house.
+Dialogue: 0,1:05:31.76,1:05:34.07,Default,,0,0,0,,Where study group that he
+Dialogue: 0,1:05:34.07,1:05:36.03,Default,,0,0,0,,lives in Plainto, Texas, and he is
+Dialogue: 0,1:05:36.03,1:05:38.21,Default,,0,0,0,,a study Plano meets at
+Dialogue: 0,1:05:38.21,1:05:40.48,Default,,0,0,0,,his house. Oh, yes. We have a lot
+Dialogue: 0,1:05:40.48,1:05:42.15,Default,,0,0,0,,of people from Plano. Yes. Uh huh.
+Dialogue: 0,1:05:42.82,1:05:43.61,Default,,0,0,0,,We asked for your
+Dialogue: 0,1:05:43.63,1:05:44.90,Default,,0,0,0,,blessings. Yes.
+Dialogue: 0,1:05:45.59,1:05:48.30,Default,,0,0,0,,God bless you. Thank you.
+Dialogue: 0,1:05:48.67,1:05:50.38,Default,,0,0,0,,Yeah, we got a number of people from Plano.
+Dialogue: 0,1:05:52.65,1:05:53.88,Default,,0,0,0,,How many people do we have in our
+Dialogue: 0,1:05:53.88,1:05:55.96,Default,,0,0,0,,study group? It varies
+Dialogue: 0,1:05:55.96,1:05:58.07,Default,,0,0,0,,between. We had 15
+Dialogue: 0,1:05:58.07,1:05:59.96,Default,,0,0,0,,in the beginning, then it goes
+Dialogue: 0,1:05:59.96,1:06:01.03,Default,,0,0,0,,up and down. Oh, yeah.
+Dialogue: 0,1:06:01.76,1:06:04.00,Default,,0,0,0,,Oh, yeah. It's a great blessing.
+Dialogue: 0,1:06:04.11,1:06:05.50,Default,,0,0,0,,Your teaching is so wonderful. Yes.
+Dialogue: 0,1:06:05.63,1:06:07.73,Default,,0,0,0,,Plano Texas, right? The path is long,
+Dialogue: 0,1:06:07.84,1:06:09.59,Default,,0,0,0,,so we ask for your continued blessings.
+Dialogue: 0,1:06:09.94,1:06:11.01,Default,,0,0,0,,Uh huh. Uh huh.
+Dialogue: 0,1:06:12.15,1:06:13.98,Default,,0,0,0,,Thank you. Thank you.
+Dialogue: 0,1:06:14.98,1:06:16.05,Default,,0,0,0,,May we have a picture?
+Dialogue: 0,1:06:16.61,1:06:17.80,Default,,0,0,0,,Of course. What?
+Dialogue: 0,1:06:18.53,1:06:19.71,Default,,0,0,0,,Do you want a photo?
+Dialogue: 0,1:06:20.28,1:06:21.32,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,1:06:21.32,1:06:44.28,Default,,0,0,0,,Can I touch your hand?
+Dialogue: 0,1:06:45.15,1:06:46.57,Default,,0,0,0,,Can I touch your hand? Yes.
+Dialogue: 0,1:06:46.98,1:06:50.19,Default,,0,0,0,,Thank you. Thank you.
+Dialogue: 0,1:06:57.51,1:07:00.36,Default,,0,0,0,,Bless my arm,
+Dialogue: 0,1:07:00.73,1:07:02.88,Default,,0,0,0,,please. Bless my arm.
+Dialogue: 0,1:07:04.82,1:07:05.96,Default,,0,0,0,,Dear God, I ask for thy
+Dialogue: 0,1:07:05.96,1:07:08.69,Default,,0,0,0,,blessing. Dear thy love.
+Dialogue: 0,1:07:09.11,1:07:09.38,Default,,0,0,0,,Amen.
+Dialogue: 0,1:07:11.26,1:07:11.86,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:07:13.80,1:07:18.21,Default,,0,0,0,,I ask for
+Dialogue: 0,1:07:18.21,1:07:19.36,Default,,0,0,0,,your blessing.
+Dialogue: 0,1:07:20.40,1:07:21.94,Default,,0,0,0,,She asks for your blessing.
+Dialogue: 0,1:07:27.13,1:07:28.00,Default,,0,0,0,,God bless you.
+Dialogue: 0,1:07:28.28,1:07:34.90,Default,,0,0,0,,I have a question.
+Dialogue: 0,1:07:35.51,1:07:36.13,Default,,0,0,0,,Yes, what's it?
+Dialogue: 0,1:07:37.09,1:07:38.44,Default,,0,0,0,,Please me
+Dialogue: 0,1:07:38.44,1:07:40.19,Default,,0,0,0,,a phrase to
+Dialogue: 0,1:07:40.19,1:07:41.46,Default,,0,0,0,,meditate.
+Dialogue: 0,1:07:44.09,1:07:45.36,Default,,0,0,0,,Please me
+Dialogue: 0,1:07:45.36,1:07:46.92,Default,,0,0,0,,a phrase
+Dialogue: 0,1:07:46.92,1:07:48.98,Default,,0,0,0,,to meditation, meditate
+Dialogue: 0,1:07:48.98,1:07:51.19,Default,,0,0,0,,on specific to me
+Dialogue: 0,1:07:51.19,1:07:52.51,Default,,0,0,0,,that I can
+Dialogue: 0,1:07:52.51,1:07:55.03,Default,,0,0,0,,contemplate all my life.
+Dialogue: 0,1:07:58.17,1:07:58.50,Default,,0,0,0,,What?
+Dialogue: 0,1:08:01.38,1:08:03.80,Default,,0,0,0,,She wants a mantra that she can
+Dialogue: 0,1:08:03.80,1:08:05.55,Default,,0,0,0,,use throughout her life,
+Dialogue: 0,1:08:05.55,1:08:06.65,Default,,0,0,0,,and we don't do that.
+Dialogue: 0,1:08:07.94,1:08:09.28,Default,,0,0,0,,I've never done that.
+Dialogue: 0,1:08:09.28,1:08:15.26,Default,,0,0,0,,No, I've never done that.
+Dialogue: 0,1:08:15.26,1:08:18.27,Default,,0,0,0,,No, no, no.
+Dialogue: 0,1:08:18.27,1:08:18.97,Default,,0,0,0,,Do something else.
+Dialogue: 0,1:08:18.97,1:08:22.31,Default,,0,0,0,,Pray so.
+Dialogue: 0,1:08:22.31,1:08:24.10,Default,,0,0,0,,So what would she do?
+Dialogue: 0,1:08:24.10,1:08:25.02,Default,,0,0,0,,What type?
+Dialogue: 0,1:08:25.02,1:08:28.73,Default,,0,0,0,,What can she do to, um,
+Dialogue: 0,1:08:28.73,1:08:30.35,Default,,0,0,0,,that would help her in her
+Dialogue: 0,1:08:30.35,1:08:33.25,Default,,0,0,0,,meditation?
+Dialogue: 0,1:08:33.25,1:08:35.88,Default,,0,0,0,,Why don't you just meditate
+Dialogue: 0,1:08:35.88,1:08:36.73,Default,,0,0,0,,and pray?
+Dialogue: 0,1:08:36.73,1:08:40.09,Default,,0,0,0,,Why don't you just pray and meditate?
+Dialogue: 0,1:08:40.09,1:08:41.75,Default,,0,0,0,,Just pray and meditate.
+Dialogue: 0,1:08:41.75,1:08:43.43,Default,,0,0,0,,You don't have to do something special.
+Dialogue: 0,1:08:43.43,1:08:45.44,Default,,0,0,0,,You know, dress up or stand on your head
+Dialogue: 0,1:08:45.44,1:08:46.40,Default,,0,0,0,,or do a dance or anything.
+Dialogue: 0,1:08:46.77,1:08:48.81,Default,,0,0,0,,Just pray and meditate.
+Dialogue: 0,1:08:48.81,1:08:51.21,Default,,0,0,0,,Dear God, this and that and the other thing.
+Dialogue: 0,1:08:51.21,1:08:52.27,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:08:52.27,1:08:56.02,Default,,0,0,0,,It's like you talk to God in your mind.
+Dialogue: 0,1:08:56.02,1:08:58.42,Default,,0,0,0,,All right.
+Dialogue: 0,1:08:58.42,1:08:59.35,Default,,0,0,0,,All right.
+Dialogue: 0,1:08:59.35,1:09:00.19,Default,,0,0,0,,Okay.
+Dialogue: 0,1:09:00.19,1:09:01.38,Default,,0,0,0,,Ah, geez.
+Dialogue: 0,1:09:01.38,1:09:02.22,Default,,0,0,0,,All right.
+Dialogue: 0,1:09:02.22,1:09:04.42,Default,,0,0,0,,So, so if you want her to do it,
+Dialogue: 0,1:09:04.42,1:09:06.39,Default,,0,0,0,,it's just, um,
+Dialogue: 0,1:09:06.39,1:09:08.73,Default,,0,0,0,,meditate and then in her mind,
+Dialogue: 0,1:09:08.73,1:09:12.65,Default,,0,0,0,,ask for the blessings or whatever it is
+Dialogue: 0,1:09:12.65,1:09:15.92,Default,,0,0,0,,that she wants God to help her with.
+Dialogue: 0,1:09:15.92,1:09:17.14,Default,,0,0,0,,Tell God what you want.
+Dialogue: 0,1:09:17.14,1:09:17.97,Default,,0,0,0,,Yes.
+Dialogue: 0,1:09:17.97,1:09:18.84,Default,,0,0,0,,And what the problem is,
+Dialogue: 0,1:09:18.84,1:09:21.61,Default,,0,0,0,,and confide in, confide in God.
+Dialogue: 0,1:09:21.61,1:09:23.52,Default,,0,0,0,,Yes.
+Dialogue: 0,1:09:23.52,1:09:24.39,Default,,0,0,0,,This is what I think.
+Dialogue: 0,1:09:24.39,1:09:26.36,Default,,0,0,0,,This is what I worry about.
+Dialogue: 0,1:09:26.36,1:09:28.18,Default,,0,0,0,,And I pray that it will be okay
+Dialogue: 0,1:09:28.18,1:09:31.52,Default,,0,0,0,,and whatever you want.
+Dialogue: 0,1:09:31.52,1:09:34.53,Default,,0,0,0,,But there doesn't have to be anything special to do.
+Dialogue: 0,1:09:34.53,1:09:35.38,Default,,0,0,0,,Just that.
+Dialogue: 0,1:09:35.38,1:09:36.81,Default,,0,0,0,,No, no.
+Dialogue: 0,1:09:36.81,1:09:38.89,Default,,0,0,0,,Usually you wait till something arises
+Dialogue: 0,1:09:38.89,1:09:40.93,Default,,0,0,0,,that you start doing that.
+Dialogue: 0,1:09:40.93,1:09:41.94,Default,,0,0,0,,But then after a while,
+Dialogue: 0,1:09:41.94,1:09:43.14,Default,,0,0,0,,you get to be in the habit.
+Dialogue: 0,1:09:43.14,1:09:45.01,Default,,0,0,0,,Most people pray in the morning when they get up
+Dialogue: 0,1:09:45.01,1:09:46.81,Default,,0,0,0,,and they pray at night when they go to bed.
+Dialogue: 0,1:09:46.81,1:09:49.97,Default,,0,0,0,,Do you do that?
+Dialogue: 0,1:09:49.97,1:09:51.06,Default,,0,0,0,,Do you do that?
+Dialogue: 0,1:09:51.06,1:09:51.89,Default,,0,0,0,,Okay.
+Dialogue: 0,1:09:51.89,1:09:53.39,Default,,0,0,0,,She has, she has,
+Dialogue: 0,1:09:53.39,1:09:54.23,Default,,0,0,0,,What?
+Dialogue: 0,1:09:54.23,1:09:56.06,Default,,0,0,0,,She has, she's having a language problem here.
+Dialogue: 0,1:09:56.06,1:09:56.89,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:09:56.89,1:09:58.47,Default,,0,0,0,,So you pray in the morning?
+Dialogue: 0,1:09:58.47,1:10:00.88,Default,,0,0,0,,It says to pray in the morning.
+Dialogue: 0,1:10:00.88,1:10:01.72,Default,,0,0,0,,Yes.
+Dialogue: 0,1:10:01.72,1:10:03.14,Default,,0,0,0,,And then pray at night.
+Dialogue: 0,1:10:03.14,1:10:04.30,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:10:04.30,1:10:06.27,Default,,0,0,0,,So this would help you.
+Dialogue: 0,1:10:06.27,1:10:07.11,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:10:07.11,1:10:07.96,Default,,0,0,0,,You have to talk slow
+Dialogue: 0,1:10:07.96,1:10:10.03,Default,,0,0,0,,because she can't understand.
+Dialogue: 0,1:10:10.03,1:10:13.22,Default,,0,0,0,,This would help you in your meditation.
+Dialogue: 0,1:10:13.22,1:10:15.47,Default,,0,0,0,,So if you get up in the morning
+Dialogue: 0,1:10:15.47,1:10:17.85,Default,,0,0,0,,and you, and you pray and meditate,
+Dialogue: 0,1:10:17.85,1:10:21.72,Default,,0,0,0,,say for 20 minutes and then pray and meditate,
+Dialogue: 0,1:10:21.72,1:10:23.64,Default,,0,0,0,,say at night for 20 minutes,
+Dialogue: 0,1:10:23.64,1:10:26.85,Default,,0,0,0,,that this would help you in, on your path.
+Dialogue: 0,1:10:26.85,1:10:28.31,Default,,0,0,0,,Yes.
+Dialogue: 0,1:10:28.31,1:10:29.15,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:10:29.15,1:10:30.00,Default,,0,0,0,,Okay.
+Dialogue: 0,1:10:30.00,1:10:33.52,Default,,0,0,0,,Oh, my nephew is born just today.
+Dialogue: 0,1:10:33.52,1:10:38.52,Default,,0,0,0,,So could you, could you blessing my nephew and his family?
+Dialogue: 0,1:10:38.89,1:10:42.50,Default,,0,0,0,,Oh, she has, is it your brother or sister?
+Dialogue: 0,1:10:42.50,1:10:45.15,Default,,0,0,0,,My younger sister, younger brother, younger brother.
+Dialogue: 0,1:10:45.15,1:10:46.92,Default,,0,0,0,,Her brother just had a baby today.
+Dialogue: 0,1:10:46.92,1:10:49.07,Default,,0,0,0,,So can you bless her nephew?
+Dialogue: 0,1:10:49.07,1:10:50.22,Default,,0,0,0,,No, no, no.
+Dialogue: 0,1:10:50.22,1:10:51.42,Default,,0,0,0,,No?
+Dialogue: 0,1:10:51.42,1:10:53.88,Default,,0,0,0,,Can you send a blessing their way?
+Dialogue: 0,1:10:53.88,1:10:55.22,Default,,0,0,0,,The way of whom?
+Dialogue: 0,1:10:55.22,1:10:56.52,Default,,0,0,0,,Of her new nephew.
+Dialogue: 0,1:10:56.52,1:10:57.35,Default,,0,0,0,,She has a new nephew.
+Dialogue: 0,1:10:57.35,1:10:58.19,Default,,0,0,0,,A new nephew.
+Dialogue: 0,1:10:58.19,1:11:00.72,Default,,0,0,0,,I can't even handle the people next door
+Dialogue: 0,1:11:00.72,1:11:01.96,Default,,0,0,0,,and you want a new nephew?
+Dialogue: 0,1:11:05.78,1:11:10.52,Default,,0,0,0,,Complete stranger, meaningless to me.
+Dialogue: 0,1:11:10.52,1:11:13.56,Default,,0,0,0,,A good idea, maybe.
+Dialogue: 0,1:11:13.56,1:11:14.85,Default,,0,0,0,,Email us a picture.
+Dialogue: 0,1:11:14.85,1:11:16.53,Default,,0,0,0,,We'll have him bless it.
+Dialogue: 0,1:11:16.53,1:11:17.85,Default,,0,0,0,,Oh, she has a picture.
+Dialogue: 0,1:11:17.85,1:11:19.30,Default,,0,0,0,,Oh, good.
+Dialogue: 0,1:11:19.30,1:11:21.11,Default,,0,0,0,,Today, today born.
+Dialogue: 0,1:11:21.11,1:11:21.96,Default,,0,0,0,,Okay.
+Dialogue: 0,1:11:21.96,1:11:22.80,Default,,0,0,0,,Okay, fine.
+Dialogue: 0,1:11:24.56,1:11:25.39,Default,,0,0,0,,Oh, he's adorable.
+Dialogue: 0,1:11:25.39,1:11:26.35,Default,,0,0,0,,Look.
+Dialogue: 0,1:11:26.35,1:11:28.88,Default,,0,0,0,,Oh, that is cute.
+Dialogue: 0,1:11:28.88,1:11:30.81,Default,,0,0,0,,God bless his little baby.
+Dialogue: 0,1:11:30.81,1:11:32.07,Default,,0,0,0,,Amen.
+Dialogue: 0,1:11:32.07,1:11:32.92,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:11:38.73,1:11:40.00,Default,,0,0,0,,Now that's a baby.
+Dialogue: 0,1:11:41.73,1:11:43.34,Default,,0,0,0,,Oh, thank you.
+Dialogue: 0,1:11:43.34,1:11:44.18,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:11:44.18,1:11:45.15,Default,,0,0,0,,Take a picture, please.
+Dialogue: 0,1:11:45.15,1:11:48.44,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:11:48.44,1:11:51.56,Default,,0,0,0,,That was a little tiny thing.
+Dialogue: 0,1:11:51.56,1:11:53.18,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:11:53.18,1:11:54.05,Default,,0,0,0,,Yes.
+Dialogue: 0,1:11:58.35,1:11:59.55,Default,,0,0,0,,Thank you very much.
+Dialogue: 0,1:11:59.55,1:12:04.06,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:12:04.06,1:12:08.35,Default,,0,0,0,,Oops.
+Dialogue: 0,1:12:08.35,1:12:10.30,Default,,0,0,0,,Bless that and pray for it, okay?
+Dialogue: 0,1:12:10.30,1:12:11.97,Default,,0,0,0,,Thank you, honey.
+Dialogue: 0,1:12:11.97,1:12:14.34,Default,,0,0,0,,My arm.
+Dialogue: 0,1:12:14.50,1:12:18.61,Default,,0,0,0,,Pain and weakness under her head before, eh?
+Dialogue: 0,1:12:18.61,1:12:22.71,Default,,0,0,0,,We ask for thy blessing on this left arm.
+Dialogue: 0,1:12:22.71,1:12:23.81,Default,,0,0,0,,Amen.
+Dialogue: 0,1:12:23.81,1:12:24.96,Default,,0,0,0,,Okay.
+Dialogue: 0,1:12:24.96,1:12:26.26,Default,,0,0,0,,Yes, for a miracle, God.
+Dialogue: 0,1:12:26.26,1:12:27.10,Default,,0,0,0,,Amen.
+Dialogue: 0,1:12:27.10,1:12:27.93,Default,,0,0,0,,Yes, ma'am.
+Dialogue: 0,1:12:27.93,1:12:31.26,Default,,0,0,0,,I'd like to thank you for all of your inspiration
+Dialogue: 0,1:12:31.26,1:12:34.56,Default,,0,0,0,,and I'd like to have a blessing and a picture.
+Dialogue: 0,1:12:34.56,1:12:35.39,Default,,0,0,0,,And she'd like what?
+Dialogue: 0,1:12:35.39,1:12:41.28,Default,,0,0,0,,A blessing and a picture.
+Dialogue: 0,1:12:41.28,1:12:42.21,Default,,0,0,0,,You okay?
+Dialogue: 0,1:12:42.21,1:12:44.76,Default,,0,0,0,,And Cracker Jack, too?
+Dialogue: 0,1:12:48.27,1:12:49.68,Default,,0,0,0,,I like the kid, everybody.
+Dialogue: 0,1:12:49.68,1:12:52.36,Default,,0,0,0,,Keep them all laughing.
+Dialogue: 0,1:12:52.36,1:12:53.36,Default,,0,0,0,,Keep laughing.
+Dialogue: 0,1:12:53.36,1:12:54.52,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:12:54.52,1:12:56.03,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:12:56.03,1:12:59.27,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:12:59.27,1:13:00.27,Default,,0,0,0,,Hi.
+Dialogue: 0,1:13:00.27,1:13:14.50,Default,,0,0,0,,We just want to say how deeply grateful we are for your work and your presence.
+Dialogue: 0,1:13:14.50,1:13:32.46,Default,,0,0,0,,And we love you very much.
+Dialogue: 0,1:13:32.46,1:13:33.75,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:13:33.75,1:13:34.75,Default,,0,0,0,,Thank you so much.
+Dialogue: 0,1:13:34.75,1:13:35.75,Default,,0,0,0,,Thank you very much.
+Dialogue: 0,1:13:35.75,1:13:36.75,Default,,0,0,0,,Thank you very much for all you're doing for the population.
+Dialogue: 0,1:13:36.75,1:13:37.77,Default,,0,0,0,,It's so great.
+Dialogue: 0,1:13:37.77,1:13:38.77,Default,,0,0,0,,God bless you.
+Dialogue: 0,1:13:38.77,1:13:40.06,Default,,0,0,0,,God bless you.
+Dialogue: 0,1:13:40.06,1:13:41.06,Default,,0,0,0,,Yes.
+Dialogue: 0,1:13:41.06,1:13:42.06,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:42.06,1:13:43.42,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:43.42,1:13:44.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:44.89,1:13:45.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:45.89,1:13:46.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:46.89,1:13:47.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:47.89,1:13:48.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:48.89,1:13:49.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:49.89,1:13:50.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:50.89,1:13:52.06,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:52.06,1:13:53.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:53.89,1:13:54.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:54.89,1:13:55.89,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:55.89,1:13:58.17,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:58.17,1:13:59.17,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:13:59.17,1:14:02.09,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:14:02.09,1:14:03.09,Default,,0,0,0,,Yes, indeed.
+Dialogue: 0,1:14:03.09,1:14:04.09,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:14:04.09,1:14:07.90,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:14:07.90,1:14:09.71,Default,,0,0,0,,God bless you.
+Dialogue: 0,1:14:09.71,1:14:10.71,Default,,0,0,0,,Can you do any better?
+Dialogue: 0,1:14:10.71,1:14:18.19,Default,,0,0,0,,I think so.
+Dialogue: 0,1:14:18.19,1:14:33.38,Default,,0,0,0,,I do have a question for you.
+Dialogue: 0,1:14:33.38,1:14:36.38,Default,,0,0,0,,Do you have to go to church to worship God?
+Dialogue: 0,1:14:36.38,1:14:40.05,Default,,0,0,0,,Do you have to go to church to worship God?
+Dialogue: 0,1:14:40.05,1:14:41.55,Default,,0,0,0,,To work with God?
+Dialogue: 0,1:14:41.55,1:14:43.05,Default,,0,0,0,,To worship God.
+Dialogue: 0,1:14:43.05,1:14:44.05,Default,,0,0,0,,No.
+Dialogue: 0,1:14:44.05,1:14:46.05,Default,,0,0,0,,But it's an embellishment.
+Dialogue: 0,1:14:46.05,1:14:51.76,Default,,0,0,0,,It's an indication of the degree of sincerity.
+Dialogue: 0,1:14:51.76,1:14:53.97,Default,,0,0,0,,to a certain degree, you're like
+Dialogue: 0,1:14:53.97,1:14:56.07,Default,,0,0,0,,imploring divinity
+Dialogue: 0,1:14:56.07,1:14:58.77,Default,,0,0,0,,through your own dedication
+Dialogue: 0,1:14:58.77,1:14:59.53,Default,,0,0,0,,and effort.
+Dialogue: 0,1:15:02.14,1:15:04.57,Default,,0,0,0,,Thank you. We recently went
+Dialogue: 0,1:15:04.57,1:15:06.65,Default,,0,0,0,,to a lovely church for a very formal
+Dialogue: 0,1:15:06.65,1:15:09.14,Default,,0,0,0,,occasion. There were a thousand
+Dialogue: 0,1:15:09.14,1:15:10.63,Default,,0,0,0,,people at the church
+Dialogue: 0,1:15:10.63,1:15:12.89,Default,,0,0,0,,and two wonderful
+Dialogue: 0,1:15:12.89,1:15:15.52,Default,,0,0,0,,bishops.
+Dialogue: 0,1:15:16.06,1:15:18.22,Default,,0,0,0,,Two bishops. We had a
+Dialogue: 0,1:15:18.22,1:15:19.98,Default,,0,0,0,,wonderful time with the bishops and with the
+Dialogue: 0,1:15:19.98,1:15:21.78,Default,,0,0,0,,congregation and with the beautiful
+Dialogue: 0,1:15:21.78,1:15:24.53,Default,,0,0,0,,cathedral and the
+Dialogue: 0,1:15:24.53,1:15:26.26,Default,,0,0,0,,stained glass windows and the
+Dialogue: 0,1:15:26.26,1:15:27.77,Default,,0,0,0,,totality of the occasion.
+Dialogue: 0,1:15:29.15,1:15:32.67,Default,,0,0,0,,Yeah? Thank you.
+Dialogue: 0,1:15:33.78,1:15:34.93,Default,,0,0,0,,Can I have your picture too?
+Dialogue: 0,1:15:35.97,1:15:36.57,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,1:15:45.22,1:15:46.92,Default,,0,0,0,,Gary and Marisha Schreiber.
+Dialogue: 0,1:15:47.42,1:15:48.68,Default,,0,0,0,,What? They're up in
+Dialogue: 0,1:15:48.68,1:15:51.15,Default,,0,0,0,,D.C. B.C.
+Dialogue: 0,1:15:51.38,1:15:53.42,Default,,0,0,0,,Gary and Marisha
+Dialogue: 0,1:15:53.42,1:15:54.11,Default,,0,0,0,,Schneider.
+Dialogue: 0,1:15:55.09,1:15:57.36,Default,,0,0,0,,They went to AA and they met at our group.
+Dialogue: 0,1:15:57.51,1:15:59.27,Default,,0,0,0,,Yes. Yeah.
+Dialogue: 0,1:15:59.27,1:16:00.52,Default,,0,0,0,,Way back when we were at
+Dialogue: 0,1:16:00.52,1:16:01.75,Default,,0,0,0,,Creative Life Center.
+Dialogue: 0,1:16:02.44,1:16:03.51,Default,,0,0,0,,Oh, oh, yes.
+Dialogue: 0,1:16:03.51,1:16:05.32,Default,,0,0,0,,Oh, oh.
+Dialogue: 0,1:16:06.69,1:16:08.10,Default,,0,0,0,,We get e-mails from everyone.
+Dialogue: 0,1:16:08.15,1:16:10.31,Default,,0,0,0,,Yeah, you better be careful when you
+Dialogue: 0,1:16:10.31,1:16:14.02,Default,,0,0,0,,start coming to these meetings single.
+Dialogue: 0,1:16:14.23,1:16:15.39,Default,,0,0,0,,Next thing you know, you're married.
+Dialogue: 0,1:16:18.06,1:16:19.94,Default,,0,0,0,,Thank you very much.
+Dialogue: 0,1:16:20.21,1:16:21.21,Default,,0,0,0,,Yeah. Thank you.
+Dialogue: 0,1:16:25.98,1:16:26.43,Default,,0,0,0,,Hi.
+Dialogue: 0,1:16:26.86,1:16:28.02,Default,,0,0,0,,Hi, Susan. Hi, Dr. Mollis.
+Dialogue: 0,1:16:28.02,1:16:28.68,Default,,0,0,0,,Yes, hi.
+Dialogue: 0,1:16:29.31,1:16:31.64,Default,,0,0,0,,First, I wanted to say with what you said
+Dialogue: 0,1:16:31.64,1:16:33.18,Default,,0,0,0,,about the cookies and the cookie store
+Dialogue: 0,1:16:33.18,1:16:35.59,Default,,0,0,0,,that the cookie monster in me is in heaven
+Dialogue: 0,1:16:35.59,1:16:35.90,Default,,0,0,0,,today.
+Dialogue: 0,1:16:35.90,1:16:41.94,Default,,0,0,0,,I was here in January and told you that
+Dialogue: 0,1:16:41.94,1:16:44.64,Default,,0,0,0,,I am, will be moving very soon to India.
+Dialogue: 0,1:16:45.25,1:16:45.89,Default,,0,0,0,,To India?
+Dialogue: 0,1:16:46.32,1:16:48.32,Default,,0,0,0,,India. I'm going to be staying at Ramana
+Dialogue: 0,1:16:48.32,1:16:48.82,Default,,0,0,0,,Maharshi's.
+Dialogue: 0,1:16:48.82,1:16:49.68,Default,,0,0,0,,That's south of Ohio, huh?
+Dialogue: 0,1:16:50.47,1:16:51.72,Default,,0,0,0,,A little bit. Yeah. A little west.
+Dialogue: 0,1:16:52.44,1:16:53.28,Default,,0,0,0,,You're going to be staying where?
+Dialogue: 0,1:16:53.44,1:16:54.97,Default,,0,0,0,,At Ramana Maharshi's ashram.
+Dialogue: 0,1:16:55.28,1:16:55.68,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,1:16:55.86,1:16:58.44,Default,,0,0,0,,And very possibly will have an opportunity
+Dialogue: 0,1:16:58.44,1:17:01.44,Default,,0,0,0,,to serve as a missionary with Mother
+Dialogue: 0,1:17:01.44,1:17:02.89,Default,,0,0,0,,Teresa's organization.
+Dialogue: 0,1:17:03.52,1:17:05.47,Default,,0,0,0,,So that leads to a question and a blessing.
+Dialogue: 0,1:17:06.36,1:17:07.01,Default,,0,0,0,,Question of what?
+Dialogue: 0,1:17:07.01,1:17:09.39,Default,,0,0,0,,The question would be as far as vows.
+Dialogue: 0,1:17:10.17,1:17:11.93,Default,,0,0,0,,There are vows which would be
+Dialogue: 0,1:17:11.94,1:17:13.63,Default,,0,0,0,,asked of me if I want to join the
+Dialogue: 0,1:17:13.63,1:17:14.05,Default,,0,0,0,,missionary.
+Dialogue: 0,1:17:14.36,1:17:14.71,Default,,0,0,0,,Yes.
+Dialogue: 0,1:17:15.63,1:17:18.28,Default,,0,0,0,,Poverty, chastity, obedience, and
+Dialogue: 0,1:17:18.28,1:17:20.47,Default,,0,0,0,,wholehearted service to the poorest of
+Dialogue: 0,1:17:20.47,1:17:20.86,Default,,0,0,0,,the poor.
+Dialogue: 0,1:17:21.10,1:17:21.39,Default,,0,0,0,,Yes.
+Dialogue: 0,1:17:21.56,1:17:23.02,Default,,0,0,0,,Is there anything wrong with taking
+Dialogue: 0,1:17:23.02,1:17:23.68,Default,,0,0,0,,those vows?
+Dialogue: 0,1:17:25.26,1:17:26.30,Default,,0,0,0,,I mean, in the highest good, it's
+Dialogue: 0,1:17:26.30,1:17:26.84,Default,,0,0,0,,altruistic.
+Dialogue: 0,1:17:26.92,1:17:28.93,Default,,0,0,0,,Another friend made a vow, altruistic.
+Dialogue: 0,1:17:29.27,1:17:30.42,Default,,0,0,0,,So it's altruistic.
+Dialogue: 0,1:17:30.57,1:17:31.52,Default,,0,0,0,,So what is the question?
+Dialogue: 0,1:17:31.77,1:17:33.60,Default,,0,0,0,,Is that okay to take those vows?
+Dialogue: 0,1:17:33.68,1:17:35.50,Default,,0,0,0,,I know you've said at times, I think,
+Dialogue: 0,1:17:36.07,1:17:38.22,Default,,0,0,0,,to take vows, you know, don't take vows.
+Dialogue: 0,1:17:38.35,1:17:39.50,Default,,0,0,0,,Oh, I see what you're saying.
+Dialogue: 0,1:17:39.73,1:17:39.97,Default,,0,0,0,,Okay.
+Dialogue: 0,1:17:40.46,1:17:42.50,Default,,0,0,0,,It would be appropriate for him to take
+Dialogue: 0,1:17:42.50,1:17:45.52,Default,,0,0,0,,these vows with Ramana Maharshi's
+Dialogue: 0,1:17:45.52,1:17:50.03,Default,,0,0,0,,ashram, is this for you at this time?
+Dialogue: 0,1:17:50.18,1:17:51.02,Default,,0,0,0,,The answer is yes.
+Dialogue: 0,1:17:52.55,1:17:52.86,Default,,0,0,0,,Okay.
+Dialogue: 0,1:17:54.02,1:17:57.98,Default,,0,0,0,,Oh, since this is or could be the last
+Dialogue: 0,1:17:57.98,1:17:59.51,Default,,0,0,0,,time I get to be in your presence,
+Dialogue: 0,1:17:59.51,1:18:01.52,Default,,0,0,0,,based on what you said earlier today,
+Dialogue: 0,1:18:01.63,1:18:04.71,Default,,0,0,0,,too, would it be okay if first you said
+Dialogue: 0,1:18:04.71,1:18:05.89,Default,,0,0,0,,to tip Jesus on the way?
+Dialogue: 0,1:18:06.63,1:18:07.72,Default,,0,0,0,,I'll give you a little tip.
+Dialogue: 0,1:18:08.68,1:18:14.17,Default,,0,0,0,,And since it's my tip to Jesus, to you.
+Dialogue: 0,1:18:15.18,1:18:17.05,Default,,0,0,0,,It's not much.
+Dialogue: 0,1:18:17.14,1:18:17.43,Default,,0,0,0,,I've got.
+Dialogue: 0,1:18:26.36,1:18:28.82,Default,,0,0,0,,He passes on the root of all evil to me.
+Dialogue: 0,1:18:31.46,1:18:33.65,Default,,0,0,0,,But it's in God we trust, right?
+Dialogue: 0,1:18:33.72,1:18:35.23,Default,,0,0,0,,But it says in God we trust on him.
+Dialogue: 0,1:18:36.27,1:18:36.71,Default,,0,0,0,,I don't know.
+Dialogue: 0,1:18:36.97,1:18:38.25,Default,,0,0,0,,No, that's very nice of you.
+Dialogue: 0,1:18:38.25,1:18:40.52,Default,,0,0,0,,I have a certain place I put such things, yes.
+Dialogue: 0,1:18:40.67,1:18:44.02,Default,,0,0,0,,Would it be okay if I look into your eyes
+Dialogue: 0,1:18:44.02,1:18:45.85,Default,,0,0,0,,and hold your hand, possibly one last time
+Dialogue: 0,1:18:45.85,1:18:48.64,Default,,0,0,0,,in this lifetime, to see divinity reflecting back?
+Dialogue: 0,1:18:49.39,1:18:51.56,Default,,0,0,0,,He wants to hold your hand and get a blessing
+Dialogue: 0,1:18:51.56,1:18:52.31,Default,,0,0,0,,from you as he does.
+Dialogue: 0,1:18:52.39,1:18:55.75,Default,,0,0,0,,He takes his journey on to life, onward into his life.
+Dialogue: 0,1:18:56.31,1:18:57.67,Default,,0,0,0,,His journey onward where?
+Dialogue: 0,1:18:58.36,1:18:58.67,Default,,0,0,0,,Well.
+Dialogue: 0,1:18:58.71,1:19:00.10,Default,,0,0,0,,He's going to India and maybe.
+Dialogue: 0,1:19:00.39,1:19:02.06,Default,,0,0,0,,To Ramana Maharishi's ashram?
+Dialogue: 0,1:19:02.09,1:19:02.35,Default,,0,0,0,,Right.
+Dialogue: 0,1:19:02.47,1:19:05.59,Default,,0,0,0,,And maybe working with Mother Teresa's ashram.
+Dialogue: 0,1:19:06.06,1:19:10.56,Default,,0,0,0,,I've had some, over the last year, some very high.
+Dialogue: 0,1:19:10.57,1:19:11.46,Default,,0,0,0,,You're a spiritual idealist.
+Dialogue: 0,1:19:11.52,1:19:11.96,Default,,0,0,0,,Come over here.
+Dialogue: 0,1:19:12.14,1:19:12.57,Default,,0,0,0,,Come over here.
+Dialogue: 0,1:19:12.97,1:19:13.00,Default,,0,0,0,,Okay.
+Dialogue: 0,1:19:16.22,1:19:18.02,Default,,0,0,0,,You're a spiritual idealist.
+Dialogue: 0,1:19:18.57,1:19:18.97,Default,,0,0,0,,Okay?
+Dialogue: 0,1:19:19.77,1:19:21.18,Default,,0,0,0,,And may your dreams come true.
+Dialogue: 0,1:19:21.64,1:19:21.92,Default,,0,0,0,,Okay?
+Dialogue: 0,1:19:22.42,1:19:22.96,Default,,0,0,0,,God bless you.
+Dialogue: 0,1:19:23.84,1:19:25.14,Default,,0,0,0,,He's got cold hands, too.
+Dialogue: 0,1:19:25.50,1:19:25.88,Default,,0,0,0,,He does, too.
+Dialogue: 0,1:19:25.93,1:19:26.80,Default,,0,0,0,,He gets cold hands.
+Dialogue: 0,1:19:27.57,1:19:28.34,Default,,0,0,0,,Cold hands.
+Dialogue: 0,1:19:28.42,1:19:29.43,Default,,0,0,0,,He gets his cold hands.
+Dialogue: 0,1:19:30.52,1:19:31.76,Default,,0,0,0,,Must be the meeting hall.
+Dialogue: 0,1:19:33.14,1:19:34.77,Default,,0,0,0,,Well, we're up here on stage and it's warm.
+Dialogue: 0,1:19:35.96,1:19:36.35,Default,,0,0,0,,Okay.
+Dialogue: 0,1:19:36.50,1:19:37.30,Default,,0,0,0,,That's very good.
+Dialogue: 0,1:19:41.93,1:19:47.43,Default,,0,0,0,,Hi, Dr. Hawkins.
+Dialogue: 0,1:19:47.48,1:19:47.72,Default,,0,0,0,,Hello.
+Dialogue: 0,1:19:48.67,1:19:50.85,Default,,0,0,0,,I just want to wish you guys much happiness
+Dialogue: 0,1:19:50.85,1:19:52.02,Default,,0,0,0,,and many, many blessings.
+Dialogue: 0,1:19:53.77,1:19:56.71,Default,,0,0,0,,My question is, what's the difference
+Dialogue: 0,1:19:56.71,1:19:59.21,Default,,0,0,0,,between an archangel and an angel
+Dialogue: 0,1:19:59.21,1:20:03.63,Default,,0,0,0,,and why an archangel calibrates so much happiness?
+Dialogue: 0,1:20:03.63,1:20:06.27,Default,,0,0,0,,Why is it that an archangel calibrates so much happiness?
+Dialogue: 0,1:20:06.27,1:20:08.43,Default,,0,0,0,,Well, the question is obvious.
+Dialogue: 0,1:20:11.34,1:20:13.19,Default,,0,0,0,,There's a hierarchy, correct?
+Dialogue: 0,1:20:15.72,1:20:16.44,Default,,0,0,0,,Is that correct?
+Dialogue: 0,1:20:16.71,1:20:16.98,Default,,0,0,0,,Yes.
+Dialogue: 0,1:20:17.17,1:20:17.43,Default,,0,0,0,,Yes.
+Dialogue: 0,1:20:18.06,1:20:22.85,Default,,0,0,0,,So, obviously, a bishop would be higher than a clergyman
+Dialogue: 0,1:20:22.85,1:20:25.55,Default,,0,0,0,,and a cardinal would be higher than a bishop.
+Dialogue: 0,1:20:27.15,1:20:30.46,Default,,0,0,0,,So, I guess, and the pope would be higher than a cardinal.
+Dialogue: 0,1:20:31.93,1:20:38.30,Default,,0,0,0,,It's just rank and order as a human custom, you know?
+Dialogue: 0,1:20:39.02,1:20:39.46,Default,,0,0,0,,Okay.
+Dialogue: 0,1:20:41.23,1:20:42.43,Default,,0,0,0,,And then I was going to ask you,
+Dialogue: 0,1:20:42.43,1:20:44.52,Default,,0,0,0,,if you could bless these for my four children
+Dialogue: 0,1:20:44.52,1:20:45.69,Default,,0,0,0,,and bless this book.
+Dialogue: 0,1:20:45.89,1:20:47.96,Default,,0,0,0,,I never read any of your books,
+Dialogue: 0,1:20:48.34,1:20:50.11,Default,,0,0,0,,but I know all about them
+Dialogue: 0,1:20:50.11,1:20:52.72,Default,,0,0,0,,because I have a dear friend that would read them to me
+Dialogue: 0,1:20:52.72,1:20:54.06,Default,,0,0,0,,and then explain them to me.
+Dialogue: 0,1:20:54.46,1:20:55.18,Default,,0,0,0,,Oh, that's nice.
+Dialogue: 0,1:20:55.19,1:20:56.56,Default,,0,0,0,,Because to me, they're very hard reading.
+Dialogue: 0,1:20:56.92,1:20:59.38,Default,,0,0,0,,And maybe you could put a little spell on this
+Dialogue: 0,1:20:59.38,1:21:00.88,Default,,0,0,0,,that I could read this myself.
+Dialogue: 0,1:21:07.60,1:21:09.05,Default,,0,0,0,,I don't get what she's asking.
+Dialogue: 0,1:21:09.56,1:21:11.14,Default,,0,0,0,,She wants you to bless the...
+Dialogue: 0,1:21:11.89,1:21:13.05,Default,,0,0,0,,The what?
+Dialogue: 0,1:21:13.05,1:21:16.27,Default,,0,0,0,,The little bracelets for her children.
+Dialogue: 0,1:21:16.39,1:21:18.73,Default,,0,0,0,,And bless the book.
+Dialogue: 0,1:21:22.67,1:21:23.71,Default,,0,0,0,,We've got to get them all in there.
+Dialogue: 0,1:21:23.89,1:21:24.01,Default,,0,0,0,,Here.
+Dialogue: 0,1:21:25.52,1:21:26.35,Default,,0,0,0,,Oh, that's...
+Dialogue: 0,1:21:26.35,1:21:27.89,Default,,0,0,0,,I don't know how we can do this.
+Dialogue: 0,1:21:27.98,1:21:28.81,Default,,0,0,0,,Oh, no, no, no.
+Dialogue: 0,1:21:28.85,1:21:29.56,Default,,0,0,0,,You don't sign it.
+Dialogue: 0,1:21:29.64,1:21:31.43,Default,,0,0,0,,Just put your hand on here and bless it.
+Dialogue: 0,1:21:31.43,1:21:34.40,Default,,0,0,0,,Oh, God bless these beads in thy name, O Lord.
+Dialogue: 0,1:21:34.98,1:21:35.21,Default,,0,0,0,,Okay.
+Dialogue: 0,1:21:35.77,1:21:36.17,Default,,0,0,0,,Okay.
+Dialogue: 0,1:21:36.17,1:21:37.89,Default,,0,0,0,,Because those are going to your children and in the book.
+Dialogue: 0,1:21:37.89,1:21:38.09,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:21:38.28,1:21:38.90,Default,,0,0,0,,I see.
+Dialogue: 0,1:21:39.06,1:21:39.32,Default,,0,0,0,,Yes.
+Dialogue: 0,1:21:39.43,1:21:39.77,Default,,0,0,0,,Okay.
+Dialogue: 0,1:21:40.78,1:21:41.18,Default,,0,0,0,,Okay.
+Dialogue: 0,1:21:41.36,1:21:42.39,Default,,0,0,0,,Now I get what you're saying.
+Dialogue: 0,1:21:42.55,1:21:42.86,Default,,0,0,0,,Yes.
+Dialogue: 0,1:21:45.97,1:21:46.90,Default,,0,0,0,,Bum, bum, bum, bum.
+Dialogue: 0,1:21:49.06,1:21:49.56,Default,,0,0,0,,He does that.
+Dialogue: 0,1:21:49.56,1:21:50.69,Default,,0,0,0,,Our bird does it now.
+Dialogue: 0,1:21:51.75,1:21:52.52,Default,,0,0,0,,Our bird goes,
+Dialogue: 0,1:21:52.67,1:21:53.39,Default,,0,0,0,,bum, bum, bum, bum.
+Dialogue: 0,1:21:55.10,1:21:55.82,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:21:56.09,1:21:56.48,Default,,0,0,0,,Yes.
+Dialogue: 0,1:21:59.48,1:22:00.40,Default,,0,0,0,,Bum, bum, bum, bum.
+Dialogue: 0,1:22:02.43,1:22:04.56,Default,,0,0,0,,Yeah, my African great parrot says,
+Dialogue: 0,1:22:04.89,1:22:05.68,Default,,0,0,0,,bum, bum, bum, bum.
+Dialogue: 0,1:22:06.52,1:22:07.39,Default,,0,0,0,,Bum, bum, bum, bum.
+Dialogue: 0,1:22:10.60,1:22:11.69,Default,,0,0,0,,That's very pretty.
+Dialogue: 0,1:22:12.57,1:22:13.02,Default,,0,0,0,,Hi.
+Dialogue: 0,1:22:13.46,1:22:13.85,Default,,0,0,0,,Yes.
+Dialogue: 0,1:22:15.42,1:22:16.11,Default,,0,0,0,,Thank you, honey.
+Dialogue: 0,1:22:16.47,1:22:16.92,Default,,0,0,0,,Hi.
+Dialogue: 0,1:22:17.47,1:22:18.43,Default,,0,0,0,,My name is Mary,
+Dialogue: 0,1:22:18.57,1:22:21.47,Default,,0,0,0,,and I really just wanted to thank you
+Dialogue: 0,1:22:21.47,1:22:22.43,Default,,0,0,0,,for the teachings
+Dialogue: 0,1:22:22.43,1:22:23.72,Default,,0,0,0,,and the way they've changed my life.
+Dialogue: 0,1:22:24.34,1:22:26.64,Default,,0,0,0,,And I really just wanted to spend a few moments
+Dialogue: 0,1:22:26.64,1:22:27.38,Default,,0,0,0,,in your presence,
+Dialogue: 0,1:22:27.38,1:22:29.00,Default,,0,0,0,,and I want to give you both a hug,
+Dialogue: 0,1:22:29.06,1:22:30.57,Default,,0,0,0,,but I know that that's not really allowed.
+Dialogue: 0,1:22:31.30,1:22:33.82,Default,,0,0,0,,So could I get a hug from you
+Dialogue: 0,1:22:33.82,1:22:34.89,Default,,0,0,0,,and a blessing from you?
+Dialogue: 0,1:22:35.22,1:22:36.43,Default,,0,0,0,,Just come over here a moment.
+Dialogue: 0,1:22:36.60,1:22:36.81,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:22:37.01,1:22:37.68,Default,,0,0,0,,Hold your hands.
+Dialogue: 0,1:22:37.75,1:22:38.01,Default,,0,0,0,,Okay.
+Dialogue: 0,1:22:44.07,1:22:45.22,Default,,0,0,0,,Oh, God bless you.
+Dialogue: 0,1:22:45.56,1:22:46.38,Default,,0,0,0,,God bless you.
+Dialogue: 0,1:22:46.47,1:22:46.96,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:22:47.19,1:22:47.60,Default,,0,0,0,,Beautiful.
+Dialogue: 0,1:22:48.98,1:22:50.14,Default,,0,0,0,,Those are indeed beautiful.
+Dialogue: 0,1:22:50.71,1:22:51.10,Default,,0,0,0,,Yes.
+Dialogue: 0,1:22:51.36,1:22:51.89,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:22:52.39,1:22:55.82,Default,,0,0,0,,Oh, here.
+Dialogue: 0,1:22:56.36,1:22:57.10,Default,,0,0,0,,Did you want him silent?
+Dialogue: 0,1:22:57.10,1:22:57.40,Default,,0,0,0,,Yes.
+Dialogue: 0,1:22:57.56,1:22:57.72,Default,,0,0,0,,All right.
+Dialogue: 0,1:23:01.00,1:23:02.00,Default,,0,0,0,,Okay, I did it.
+Dialogue: 0,1:23:02.06,1:23:02.65,Default,,0,0,0,,Oh, okay.
+Dialogue: 0,1:23:02.65,1:23:03.00,Default,,0,0,0,,Okay.
+Dialogue: 0,1:23:03.00,1:23:04.46,Default,,0,0,0,,Thank you very, very much.
+Dialogue: 0,1:23:14.30,1:23:14.88,Default,,0,0,0,,Did you want to?
+Dialogue: 0,1:23:14.88,1:23:17.00,Default,,0,0,0,,It's 4 o'clock,
+Dialogue: 0,1:23:17.11,1:23:18.65,Default,,0,0,0,,and we have to stop at 4.30,
+Dialogue: 0,1:23:19.02,1:23:21.50,Default,,0,0,0,,so we can go into the 15 minutes
+Dialogue: 0,1:23:21.50,1:23:24.07,Default,,0,0,0,,and then do our ending if you want.
+Dialogue: 0,1:23:24.34,1:23:25.77,Default,,0,0,0,,All right, 20 minutes, whatever.
+Dialogue: 0,1:23:26.30,1:23:26.47,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:23:27.94,1:23:29.47,Default,,0,0,0,,This arm is feeling better.
+Dialogue: 0,1:23:29.93,1:23:30.44,Default,,0,0,0,,Oh, good.
+Dialogue: 0,1:23:37.00,1:23:37.77,Default,,0,0,0,,Hello, doctor.
+Dialogue: 0,1:23:38.02,1:23:38.34,Default,,0,0,0,,Hello.
+Dialogue: 0,1:23:38.69,1:23:39.42,Default,,0,0,0,,Hello, Susan.
+Dialogue: 0,1:23:39.61,1:23:39.73,Default,,0,0,0,,Hi.
+Dialogue: 0,1:23:42.72,1:23:43.84,Default,,0,0,0,,Every time I...
+Dialogue: 0,1:23:44.56,1:23:45.56,Default,,0,0,0,,It's my fourth time here,
+Dialogue: 0,1:23:45.57,1:23:46.42,Default,,0,0,0,,and every time I think
+Dialogue: 0,1:23:46.42,1:23:47.47,Default,,0,0,0,,I'm going to ask you a question,
+Dialogue: 0,1:23:47.72,1:23:48.69,Default,,0,0,0,,I look into your eyes.
+Dialogue: 0,1:23:48.72,1:23:49.77,Default,,0,0,0,,I have no question for you.
+Dialogue: 0,1:23:51.14,1:23:51.82,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:23:51.82,1:23:52.25,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:23:52.97,1:23:59.22,Default,,0,0,0,,And during the lecture,
+Dialogue: 0,1:23:59.56,1:24:01.38,Default,,0,0,0,,you said you liked coffee ice cream,
+Dialogue: 0,1:24:01.43,1:24:02.85,Default,,0,0,0,,and then I heard toffee ice cream,
+Dialogue: 0,1:24:02.97,1:24:04.27,Default,,0,0,0,,so I got you both.
+Dialogue: 0,1:24:04.69,1:24:13.35,Default,,0,0,0,,And I got one.
+Dialogue: 0,1:24:13.48,1:24:14.51,Default,,0,0,0,,It's caramel sutra.
+Dialogue: 0,1:24:14.75,1:24:15.13,Default,,0,0,0,,I'm not...
+Dialogue: 0,1:24:15.13,1:24:16.01,Default,,0,0,0,,Oh, he loves that.
+Dialogue: 0,1:24:16.02,1:24:16.94,Default,,0,0,0,,Caramel sutra.
+Dialogue: 0,1:24:19.35,1:24:20.82,Default,,0,0,0,,Oh, truly wonderful.
+Dialogue: 0,1:24:22.02,1:24:23.97,Default,,0,0,0,,And on one of your videos,
+Dialogue: 0,1:24:25.56,1:24:28.03,Default,,0,0,0,,in handling my major crisis,
+Dialogue: 0,1:24:28.23,1:24:30.02,Default,,0,0,0,,you said that you were making
+Dialogue: 0,1:24:30.02,1:24:31.80,Default,,0,0,0,,chicken livers for your cat,
+Dialogue: 0,1:24:32.19,1:24:32.80,Default,,0,0,0,,and then...
+Dialogue: 0,1:24:33.07,1:24:35.19,Default,,0,0,0,,And you transcended the belief system
+Dialogue: 0,1:24:35.19,1:24:37.31,Default,,0,0,0,,about how you can't eat chicken livers.
+Dialogue: 0,1:24:37.50,1:24:39.27,Default,,0,0,0,,Well, I got you chicken livers, too.
+Dialogue: 0,1:24:41.61,1:24:43.76,Default,,0,0,0,,And there's a lot of ice in here,
+Dialogue: 0,1:24:43.84,1:24:46.10,Default,,0,0,0,,and I'm willing to carry it to your car,
+Dialogue: 0,1:24:46.22,1:24:46.89,Default,,0,0,0,,to your house.
+Dialogue: 0,1:24:47.03,1:24:48.14,Default,,0,0,0,,I will cook the livers.
+Dialogue: 0,1:24:49.36,1:24:50.28,Default,,0,0,0,,I will scoop the ice cream.
+Dialogue: 0,1:24:50.28,1:24:51.44,Default,,0,0,0,,We'll take it to the car,
+Dialogue: 0,1:24:51.52,1:24:52.98,Default,,0,0,0,,and we will take it home this evening.
+Dialogue: 0,1:24:54.22,1:24:55.42,Default,,0,0,0,,Thank you very much.
+Dialogue: 0,1:24:56.07,1:24:57.18,Default,,0,0,0,,That's so sweet of you.
+Dialogue: 0,1:24:57.19,1:24:58.00,Default,,0,0,0,,Is it possible to...
+Dialogue: 0,1:24:58.00,1:24:59.10,Default,,0,0,0,,It is indeed, yeah.
+Dialogue: 0,1:24:59.10,1:25:01.03,Default,,0,0,0,,Just to come and just touch you both.
+Dialogue: 0,1:25:01.03,1:25:01.89,Default,,0,0,0,,You can write a letter.
+Dialogue: 0,1:25:01.89,1:25:02.97,Default,,0,0,0,,Is that okay?
+Dialogue: 0,1:25:03.81,1:25:06.03,Default,,0,0,0,,That's so sweet that you thought of the ice cream.
+Dialogue: 0,1:25:07.31,1:25:09.50,Default,,0,0,0,,We'd have to have somebody show him where to put it.
+Dialogue: 0,1:25:10.26,1:25:11.38,Default,,0,0,0,,I don't know where to put it.
+Dialogue: 0,1:25:12.56,1:25:13.65,Default,,0,0,0,,He wants to...
+Dialogue: 0,1:25:13.65,1:25:14.81,Default,,0,0,0,,I don't know where to put it.
+Dialogue: 0,1:25:15.22,1:25:15.46,Default,,0,0,0,,What?
+Dialogue: 0,1:25:16.93,1:25:17.64,Default,,0,0,0,,We're okay.
+Dialogue: 0,1:25:17.77,1:25:18.63,Default,,0,0,0,,It's in a cooler chest.
+Dialogue: 0,1:25:18.68,1:25:18.98,Default,,0,0,0,,All right.
+Dialogue: 0,1:25:19.02,1:25:20.17,Default,,0,0,0,,His hands are very cold.
+Dialogue: 0,1:25:21.44,1:25:23.86,Default,,0,0,0,,He's been handling ice cream.
+Dialogue: 0,1:25:25.75,1:25:27.05,Default,,0,0,0,,Ours, cold hands.
+Dialogue: 0,1:25:29.55,1:25:30.36,Default,,0,0,0,,God bless you.
+Dialogue: 0,1:25:30.85,1:25:32.60,Default,,0,0,0,,I remember you.
+Dialogue: 0,1:25:33.72,1:25:34.78,Default,,0,0,0,,This is from the Ganges.
+Dialogue: 0,1:25:36.73,1:25:38.93,Default,,0,0,0,,One day, my father told me,
+Dialogue: 0,1:25:39.53,1:25:40.73,Default,,0,0,0,,he fell asleep.
+Dialogue: 0,1:25:41.35,1:25:42.43,Default,,0,0,0,,And when he fell asleep,
+Dialogue: 0,1:25:43.23,1:25:44.18,Default,,0,0,0,,he didn't realize it,
+Dialogue: 0,1:25:44.22,1:25:45.43,Default,,0,0,0,,but his hand was like this.
+Dialogue: 0,1:25:46.31,1:25:48.02,Default,,0,0,0,,Anyway, he woke up in the middle of the night,
+Dialogue: 0,1:25:48.17,1:25:50.60,Default,,0,0,0,,and he felt this ice-cold hand around his throat.
+Dialogue: 0,1:25:51.17,1:25:54.64,Default,,0,0,0,,He was afraid to move for 20 minutes.
+Dialogue: 0,1:25:56.56,1:25:57.92,Default,,0,0,0,,It was his own hand.
+Dialogue: 0,1:26:00.28,1:26:03.97,Default,,0,0,0,,Hi, Dr. Hawkins and Susan.
+Dialogue: 0,1:26:04.89,1:26:06.60,Default,,0,0,0,,I'm very happy to see you.
+Dialogue: 0,1:26:07.75,1:26:10.36,Default,,0,0,0,,I wanted to give you a present for you.
+Dialogue: 0,1:26:10.36,1:26:12.30,Default,,0,0,0,,It's money.
+Dialogue: 0,1:26:12.84,1:26:14.68,Default,,0,0,0,,From 10 countries.
+Dialogue: 0,1:26:15.67,1:26:16.28,Default,,0,0,0,,It's what?
+Dialogue: 0,1:26:16.72,1:26:18.32,Default,,0,0,0,,Money from 10 countries.
+Dialogue: 0,1:26:18.55,1:26:20.05,Default,,0,0,0,,Money from 10 countries.
+Dialogue: 0,1:26:20.93,1:26:21.39,Default,,0,0,0,,Yes.
+Dialogue: 0,1:26:21.75,1:26:25.86,Default,,0,0,0,,And all countries are calibrated over 300.
+Dialogue: 0,1:26:26.27,1:26:26.88,Default,,0,0,0,,Oh, good.
+Dialogue: 0,1:26:27.11,1:26:27.42,Default,,0,0,0,,Yes.
+Dialogue: 0,1:26:27.88,1:26:29.18,Default,,0,0,0,,Oh, thank you.
+Dialogue: 0,1:26:30.72,1:26:32.85,Default,,0,0,0,,This is money from different countries,
+Dialogue: 0,1:26:32.97,1:26:34.43,Default,,0,0,0,,and they all calibrate over 300.
+Dialogue: 0,1:26:35.31,1:26:38.31,Default,,0,0,0,,So they're different denominations of money.
+Dialogue: 0,1:26:39.02,1:26:39.56,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,1:26:39.59,1:26:41.25,Default,,0,0,0,,They come from all these different countries.
+Dialogue: 0,1:26:41.25,1:26:42.22,Default,,0,0,0,,Oh, I see.
+Dialogue: 0,1:26:42.35,1:26:42.63,Default,,0,0,0,,Yes.
+Dialogue: 0,1:26:42.82,1:26:44.27,Default,,0,0,0,,Currency of the different countries.
+Dialogue: 0,1:26:44.51,1:26:45.01,Default,,0,0,0,,Yes.
+Dialogue: 0,1:26:45.01,1:26:46.47,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:26:46.47,1:26:47.47,Default,,0,0,0,,Oh, they're so colorful.
+Dialogue: 0,1:26:47.47,1:26:47.97,Default,,0,0,0,,Yes.
+Dialogue: 0,1:26:47.97,1:26:48.47,Default,,0,0,0,,Currency.
+Dialogue: 0,1:26:48.47,1:26:48.97,Default,,0,0,0,,Yes.
+Dialogue: 0,1:26:48.97,1:26:49.56,Default,,0,0,0,,Oh.
+Dialogue: 0,1:26:49.56,1:26:50.06,Default,,0,0,0,,Oh.
+Dialogue: 0,1:26:50.06,1:26:50.56,Default,,0,0,0,,Wow.
+Dialogue: 0,1:26:50.56,1:26:52.10,Default,,0,0,0,,Just beautiful.
+Dialogue: 0,1:26:52.10,1:26:53.10,Default,,0,0,0,,Different currency.
+Dialogue: 0,1:26:53.10,1:26:53.60,Default,,0,0,0,,Yes.
+Dialogue: 0,1:26:53.60,1:26:55.60,Default,,0,0,0,,A beautiful, beautiful works of art.
+Dialogue: 0,1:26:55.60,1:26:56.60,Default,,0,0,0,,They are.
+Dialogue: 0,1:26:56.60,1:26:58.60,Default,,0,0,0,,Thank you so much.
+Dialogue: 0,1:26:58.60,1:27:02.60,Default,,0,0,0,,I love beautiful works of art with a thousand in front of them.
+Dialogue: 0,1:27:07.53,1:27:08.53,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:27:08.53,1:27:09.53,Default,,0,0,0,,That was a very nice gift.
+Dialogue: 0,1:27:09.53,1:27:10.53,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:27:10.53,1:27:14.53,Default,,0,0,0,,And may I ask you for blessing me on my way?
+Dialogue: 0,1:27:14.53,1:27:15.53,Default,,0,0,0,,Yes.
+Dialogue: 0,1:27:15.53,1:27:17.53,Default,,0,0,0,,He wants a blessing for his way.
+Dialogue: 0,1:27:17.53,1:27:18.03,Default,,0,0,0,,For what?
+Dialogue: 0,1:27:18.03,1:27:20.03,Default,,0,0,0,,Why don't you come over here and we'll bless you.
+Dialogue: 0,1:27:20.03,1:27:21.03,Default,,0,0,0,,Blessing for what?
+Dialogue: 0,1:27:21.03,1:27:22.03,Default,,0,0,0,,Along the way.
+Dialogue: 0,1:27:22.03,1:27:23.03,Default,,0,0,0,,He wants a blessing for him on his way, you know.
+Dialogue: 0,1:27:23.03,1:27:24.03,Default,,0,0,0,,God bless you on your way.
+Dialogue: 0,1:27:24.03,1:27:25.03,Default,,0,0,0,,I don't know what on your way means.
+Dialogue: 0,1:27:25.03,1:27:26.03,Default,,0,0,0,,God bless you on your way, whatever that means.
+Dialogue: 0,1:27:26.03,1:27:27.03,Default,,0,0,0,,He's right here.
+Dialogue: 0,1:27:27.03,1:27:28.22,Default,,0,0,0,,On your way.
+Dialogue: 0,1:27:28.22,1:27:29.22,Default,,0,0,0,,There he is.
+Dialogue: 0,1:27:29.22,1:27:31.64,Default,,0,0,0,,Here.
+Dialogue: 0,1:27:31.64,1:27:32.64,Default,,0,0,0,,God bless you.
+Dialogue: 0,1:27:32.64,1:27:33.93,Default,,0,0,0,,All right.
+Dialogue: 0,1:27:33.93,1:27:34.93,Default,,0,0,0,,I know what you mean.
+Dialogue: 0,1:27:34.93,1:27:35.93,Default,,0,0,0,,Okay.
+Dialogue: 0,1:27:35.93,1:27:37.40,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:27:37.40,1:27:38.40,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:27:38.40,1:27:39.40,Default,,0,0,0,,There.
+Dialogue: 0,1:27:39.40,1:27:40.40,Default,,0,0,0,,Good.
+Dialogue: 0,1:27:40.40,1:27:41.40,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:27:41.40,1:27:43.34,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:27:43.34,1:27:44.34,Default,,0,0,0,,Where's my ice cream?
+Dialogue: 0,1:27:44.34,1:27:47.69,Default,,0,0,0,,Have a spoon.
+Dialogue: 0,1:27:47.69,1:27:48.69,Default,,0,0,0,,Hi.
+Dialogue: 0,1:27:48.69,1:27:53.35,Default,,0,0,0,,Hi.
+Dialogue: 0,1:27:53.35,1:27:54.35,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:27:54.35,1:27:59.26,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:27:59.26,1:28:00.38,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:00.38,1:28:02.65,Default,,0,0,0,,Hi.
+Dialogue: 0,1:28:02.65,1:28:04.65,Default,,0,0,0,,I want to thank you for all your help.
+Dialogue: 0,1:28:04.65,1:28:07.05,Default,,0,0,0,,You've helped me a lot.
+Dialogue: 0,1:28:07.05,1:28:14.23,Default,,0,0,0,,And I would like to ask your blessing for our spiritual group and our teacher.
+Dialogue: 0,1:28:14.23,1:28:16.34,Default,,0,0,0,,Oh, where is your spiritual group?
+Dialogue: 0,1:28:16.34,1:28:18.34,Default,,0,0,0,,It's in Rochester, New York.
+Dialogue: 0,1:28:18.34,1:28:19.34,Default,,0,0,0,,Rochester.
+Dialogue: 0,1:28:19.34,1:28:20.34,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,1:28:20.34,1:28:21.34,Default,,0,0,0,,Well, God bless you.
+Dialogue: 0,1:28:21.34,1:28:24.36,Default,,0,0,0,,What kind of spiritual work do you do?
+Dialogue: 0,1:28:24.36,1:28:26.36,Default,,0,0,0,,We study the Course in Miracles.
+Dialogue: 0,1:28:26.36,1:28:27.36,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,1:28:27.36,1:28:28.36,Default,,0,0,0,,I should let her talk.
+Dialogue: 0,1:28:28.36,1:28:29.36,Default,,0,0,0,,She's the teacher.
+Dialogue: 0,1:28:29.36,1:28:31.36,Default,,0,0,0,,We've been working on the Course in Miracles for quite a few years.
+Dialogue: 0,1:28:31.36,1:28:32.36,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,1:28:32.36,1:28:33.36,Default,,0,0,0,,That's great.
+Dialogue: 0,1:28:33.36,1:28:34.36,Default,,0,0,0,,Including your work in it, too.
+Dialogue: 0,1:28:34.36,1:28:35.36,Default,,0,0,0,,What's our lesson for today, again?
+Dialogue: 0,1:28:35.36,1:28:36.36,Default,,0,0,0,,What is your lesson for the day?
+Dialogue: 0,1:28:36.36,1:28:37.36,Default,,0,0,0,,We forgot.
+Dialogue: 0,1:28:37.36,1:28:38.36,Default,,0,0,0,,You got it.
+Dialogue: 0,1:28:38.36,1:28:39.36,Default,,0,0,0,,No, there is no love but God's.
+Dialogue: 0,1:28:39.36,1:28:40.36,Default,,0,0,0,,Oh, there is no love but God's.
+Dialogue: 0,1:28:40.36,1:28:41.36,Default,,0,0,0,,It's perfect.
+Dialogue: 0,1:28:41.36,1:28:42.36,Default,,0,0,0,,Okay.
+Dialogue: 0,1:28:42.36,1:28:43.36,Default,,0,0,0,,Yeah, that's a good way.
+Dialogue: 0,1:28:43.36,1:28:44.36,Default,,0,0,0,,I believe that in the Course in Miracles, there's a way of life.
+Dialogue: 0,1:28:44.36,1:28:45.36,Default,,0,0,0,,Every day you're dedicated to some spiritual principle.
+Dialogue: 0,1:28:45.36,1:28:46.36,Default,,0,0,0,,And I think it's a wonderful way to live.
+Dialogue: 0,1:28:46.36,1:28:47.36,Default,,0,0,0,,And I think it's a wonderful way to live.
+Dialogue: 0,1:28:47.36,1:28:48.36,Default,,0,0,0,,That's right.
+Dialogue: 0,1:28:48.36,1:28:49.36,Default,,0,0,0,,And I think it's a wonderful way to live.
+Dialogue: 0,1:28:49.36,1:28:50.56,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:50.56,1:28:51.56,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:51.56,1:28:52.56,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:52.56,1:28:53.59,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:53.59,1:28:54.59,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:54.59,1:28:55.59,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:55.59,1:28:57.06,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:57.06,1:28:58.06,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:58.06,1:28:59.06,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:28:59.06,1:29:00.06,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:29:00.86,1:29:03.56,Default,,0,0,0,,And I think that's a wonderful way to live a spiritual principle.
+Dialogue: 0,1:29:03.56,1:29:13.40,Default,,0,0,0,,And I think it's a wonderful addition to one's life.
+Dialogue: 0,1:29:13.40,1:29:14.43,Default,,0,0,0,,Can we have our glasses?
+Dialogue: 0,1:29:14.43,1:29:22.07,Default,,0,0,0,,Yes.
+Dialogue: 0,1:29:22.07,1:29:23.07,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:29:23.07,1:29:24.65,Default,,0,0,0,,Right here.
+Dialogue: 0,1:29:24.65,1:29:25.65,Default,,0,0,0,,Oh, okay.
+Dialogue: 0,1:29:25.65,1:29:26.65,Default,,0,0,0,,Here?
+Dialogue: 0,1:29:26.65,1:29:27.65,Default,,0,0,0,,Okay.
+Dialogue: 0,1:29:27.65,1:29:28.65,Default,,0,0,0,,See, the women want you.
+Dialogue: 0,1:29:28.65,1:29:31.00,Default,,0,0,0,,The women, they're after me again.
+Dialogue: 0,1:29:31.00,1:29:33.38,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:29:33.38,1:29:34.57,Default,,0,0,0,,Now, they're after my heart.
+Dialogue: 0,1:29:40.36,1:29:40.85,Default,,0,0,0,,Bless you.
+Dialogue: 0,1:29:40.85,1:29:41.59,Default,,0,0,0,,You came one way.
+Dialogue: 0,1:29:41.59,1:29:44.51,Default,,0,0,0,,Okay, I'm going to ...
+Dialogue: 0,1:29:50.46,1:29:52.02,Default,,0,0,0,,You used to be there after me.
+Dialogue: 0,1:29:52.02,1:29:52.03,Default,,0,0,0,,That's not my problem.
+Dialogue: 0,1:29:52.06,1:30:13.01,Default,,0,0,0,,little body I'm Pepe I'm on the final run and I wrote my question down just to
+Dialogue: 0,1:30:13.01,1:30:17.90,Default,,0,0,0,,be a little bit more concise it's the issue of communication between the
+Dialogue: 0,1:30:17.90,1:30:23.85,Default,,0,0,0,,physical brain where consciousness and the etheric brain when one is just
+Dialogue: 0,1:30:23.85,1:30:28.25,Default,,0,0,0,,awakened and trying to read function again in the world by our consciousness
+Dialogue: 0,1:30:28.25,1:30:33.72,Default,,0,0,0,,my question is is this information now available from an attractive field to a
+Dialogue: 0,1:30:33.72,1:30:39.36,Default,,0,0,0,,newly awakened non-person at a more rapid pace than let's say then might
+Dialogue: 0,1:30:39.36,1:30:44.52,Default,,0,0,0,,have that it took you it took you several years and is now you know more
+Dialogue: 0,1:30:44.52,1:30:49.31,Default,,0,0,0,,people have been enlightened and and now is this available at a more rapid pace
+Dialogue: 0,1:30:49.31,1:30:53.93,Default,,0,0,0,,I'm 73 years old if it happens to me I don't have all the
+Dialogue: 0,1:30:53.93,1:30:58.05,Default,,0,0,0,,time in the world to to wait that long if I can't if I have to refunction again
+Dialogue: 0,1:30:58.05,1:31:15.52,Default,,0,0,0,,what's the question is when you are when you are in the final run is and you know
+Dialogue: 0,1:31:15.52,1:31:24.11,Default,,0,0,0,,there is a time when you have to reawaken themselves and so he's
+Dialogue: 0,1:31:24.11,1:31:29.34,Default,,0,0,0,,wondering is there a faster way of doing that or no no you have to refunction
+Dialogue: 0,1:31:29.34,1:31:33.34,Default,,0,0,0,,in the world again when you have to go into function in the world again after
+Dialogue: 0,1:31:33.34,1:31:41.15,Default,,0,0,0,,you've been to a very high state faster way of that happening faster well the
+Dialogue: 0,1:31:41.15,1:31:47.34,Default,,0,0,0,,communications between consciousness the etheric brain and the human brain in
+Dialogue: 0,1:31:47.34,1:31:51.11,Default,,0,0,0,,order to refunction again since the mind has gone silent no it all it all
+Dialogue: 0,1:31:51.11,1:31:56.11,Default,,0,0,0,,integrates itself it integrates itself and since that information is now in an
+Dialogue: 0,1:31:56.11,1:31:59.76,Default,,0,0,0,,attractive field it's available via you and maybe other folks
+Dialogue: 0,1:31:59.88,1:32:04.38,Default,,0,0,0,,is it is it available at a more rapid pace now it's not like we're breaking
+Dialogue: 0,1:32:04.38,1:32:10.43,Default,,0,0,0,,new ground in other words no it moves at its own rate and this karmic influences
+Dialogue: 0,1:32:10.43,1:32:15.11,Default,,0,0,0,,that determine many things karmic yeah so it's an individual thing some people
+Dialogue: 0,1:32:15.11,1:32:24.05,Default,,0,0,0,,got it already other people years go by and they're still working on it right so
+Dialogue: 0,1:32:24.05,1:32:33.10,Default,,0,0,0,,it's a matter of readiness and karmic propensity and divine favor divine
+Dialogue: 0,1:32:33.10,1:32:40.09,Default,,0,0,0,,favor god seems to like some people better than others I looked at this guy
+Dialogue: 0,1:32:40.09,1:32:45.88,Default,,0,0,0,,says I don't know Howard they're just something about you that pisses me off
+Dialogue: 0,1:32:45.88,1:33:05.06,Default,,0,0,0,,hopefully I've been a good boy yeah thank goodness God has a sense of humor
+Dialogue: 0,1:33:05.06,1:33:14.97,Default,,0,0,0,,yeah hi dr. Hawkins oh it's great to see you again dr. Hawkins my name is dr.
+Dialogue: 0,1:33:14.97,1:33:15.02,Default,,0,0,0,,Hawkins hello it's great to see you again dr. Hawkins my name is dr. Hawkins my name is dr.
+Dialogue: 0,1:33:15.02,1:33:21.21,Default,,0,0,0,,to see you again. It's been a while since I've asked a question and I want to ask a question
+Dialogue: 0,1:33:21.21,1:33:30.85,Default,,0,0,0,,about marriage. I have a boyfriend that wants to get married real bad and I sometimes do and I
+Dialogue: 0,1:33:30.85,1:33:41.25,Default,,0,0,0,,sometimes don't so I don't know what to do. What is her problem? What is her problem? Her problem
+Dialogue: 0,1:33:41.25,1:33:46.64,Default,,0,0,0,,is she doesn't know whether to get married or not get married. Oh that's simple. Yeah. Don't do
+Dialogue: 0,1:33:46.64,1:33:52.14,Default,,0,0,0,,anything about it. Just leave it alone. Don't do anything about it? No. You'll get the answer
+Dialogue: 0,1:33:52.14,1:34:03.06,Default,,0,0,0,,eventually. In this lifetime? Is this guy poor mean and ugly? No he's beautiful and sweet. What
+Dialogue: 0,1:34:03.06,1:34:14.81,Default,,0,0,0,,is your problem? Commitment. Oh no you're too infantile to get involved in a marriage. Too
+Dialogue: 0,1:34:14.81,1:34:17.93,Default,,0,0,0,,infantile? Yes. I'm too infantile?
+Dialogue: 0,1:34:18.11,1:34:25.14,Default,,0,0,0,,Yes. Oh okay. You're not even old enough to make an adult commitment. That's like you're not really
+Dialogue: 0,1:34:25.14,1:34:33.06,Default,,0,0,0,,out of the juvenile years yet. So then I shouldn't get married then? Well you better wait till you're
+Dialogue: 0,1:34:33.06,1:34:49.27,Default,,0,0,0,,old enough to make a commitment. Whatever that means I'll take it. Well it means I love you and
+Dialogue: 0,1:34:49.27,1:34:56.00,Default,,0,0,0,,accept you as my adorable sweet wife and I want to live with you and be with you. Amen. Isn't that
+Dialogue: 0,1:34:56.02,1:35:05.60,Default,,0,0,0,,easy? Yeah that's easy. There you go. Okay. Can I just shake your hand? It means that you love
+Dialogue: 0,1:35:05.60,1:35:12.50,Default,,0,0,0,,somebody enough that you want to be with them you know to the exclusion of others. Thank you. Yeah
+Dialogue: 0,1:35:12.50,1:35:27.72,Default,,0,0,0,,that's an easy one. This would be the last one. Yeah no it's not an easy one because of the
+Dialogue: 0,1:35:27.72,1:35:35.61,Default,,0,0,0,,incapacity to make that kind of a commitment. Yes. Yes. Hi we're from the Cleveland group.
+Dialogue: 0,1:35:35.97,1:35:37.59,Default,,0,0,0,,The Cleveland group.
+Dialogue: 0,1:35:37.77,1:36:11.61,Default,,0,0,0,,Cleveland. Cleveland, Ohio. Ohio. We spoke. Oh he oh he oh he oh. Yes. Okay. They send their love and thanks and we ask you to bless us. God bless you. Thank you. God bless you. And could we have a handshake and a picture? What did she want? Handshake and picture. Okay. Have we been in Cleveland? Yep. Oh yeah. We've been everywhere so we must have been in Cleveland.
+Dialogue: 0,1:36:14.77,1:37:07.51,Default,,0,0,0,,Thank you. I don't think that worked. There it goes. We were just looking at it the other day and we've spoken in 90 cities. 90 cities. That's a lot of moving around. A lot of airports. A lot of bus terminals. Yes. Okay. God bless us all. Dear God we give thanks. God bless you all. We give you a deepest thanks.
+Dialogue: 0,1:37:07.52,1:38:19.93,Default,,0,0,0,,In the name of God almighty we bless you and thank you and we pray for you now and forever. Amen. Is this where we jump off the cliff here? No. I just thought we'd bring you up a little way so they can get some photos. Oh photos. Okay. I give thanks to almighty God for all of you here for you are my blessing for which I am very grateful. I am blessed by your presence.
+Dialogue: 0,1:38:20.06,1:39:06.18,Default,,0,0,0,,And uplifted by your goodwill. And I pray that that intention flows back and uplifts everyone here. I guess it wasn't the end of the world today after all. I thought hell honey it's going to be a big day. It's going to be the end of the world today. Oh well. We're all still here. What can you do? Oh enjoy your ice cream right. Oh look at that. They all look green. Everybody looks green on that side of the room.
+Dialogue: 0,1:39:06.47,1:39:50.43,Default,,0,0,0,,I thought these were the green people. You have to be very serious about life as you can tell by my demeanor. Life is a grim tough business and you got to really knuckle down and not fool around you know what I'm saying. No frivolity please. Thank you again. God bless you. Amen.
+Dialogue: 0,1:39:52.11,1:39:59.56,Default,,0,0,0,,They made an excuse to get kissed again.
+Dialogue: 0,1:39:59.56,1:40:12.72,Default,,0,0,0,,Wow.
+Dialogue: 0,1:40:12.72,1:40:12.86,Default,,0,0,0,,Wow.
+Dialogue: 0,1:40:12.86,1:40:15.31,Default,,0,0,0,,Thank you so much.
+Dialogue: 0,1:40:15.31,1:40:29.77,Default,,0,0,0,,We're trying to put our books up on Amazon so you can download them now onto Kindle so we don't have to do all the shipping for you that are out of country so we're trying to put all the books up on that.
+Dialogue: 0,1:40:29.84,1:40:30.56,Default,,0,0,0,,Safe travel.
+Dialogue: 0,1:40:31.11,1:40:34.68,Default,,0,0,0,,Hopefully we're also going to get some of our DVDs up there eventually.
+Dialogue: 0,1:40:34.69,1:40:37.38,Default,,0,0,0,,So you can download them directly.
+Dialogue: 0,1:40:37.73,1:40:38.35,Default,,0,0,0,,Safe travel.
+Dialogue: 0,1:40:38.80,1:40:39.00,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:40:39.34,1:40:44.89,Default,,0,0,0,,We're trying to save you on all your shipping charges so hopefully we'll get that done in the next year.
+Dialogue: 0,1:40:45.56,1:40:45.92,Default,,0,0,0,,Yes.
+Dialogue: 0,1:40:49.92,1:40:50.88,Default,,0,0,0,,All right.
+Dialogue: 0,1:40:51.11,1:40:51.81,Default,,0,0,0,,Come on sweetheart.
+Dialogue: 0,1:40:52.31,1:40:52.56,Default,,0,0,0,,Help.
+Dialogue: 0,1:40:53.97,1:40:54.23,Default,,0,0,0,,Help.
+Dialogue: 0,1:40:54.84,1:40:55.14,Default,,0,0,0,,Help.
+Dialogue: 0,1:40:57.32,1:40:57.56,Default,,0,0,0,,Help.

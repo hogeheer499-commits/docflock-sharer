@@ -1,0 +1,1724 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.26,0:00:09.62,Default,,0,0,0,,I've been a physician and a psychiatrist for 35 years.
+Dialogue: 0,0:00:10.26,0:00:15.02,Default,,0,0,0,,I've worked in the field of psychoanalysis and psychotherapy and group therapy,
+Dialogue: 0,0:00:15.74,0:00:18.64,Default,,0,0,0,,psychodynamics of the various schools.
+Dialogue: 0,0:00:19.34,0:00:23.88,Default,,0,0,0,,I've done a lot of research on nutrition and its relationship to brain chemistry
+Dialogue: 0,0:00:23.88,0:00:27.78,Default,,0,0,0,,and its relationship to mental illness and emotions.
+Dialogue: 0,0:00:28.80,0:00:33.22,Default,,0,0,0,,For the last 10 years, I've been doing research into the nature of consciousness itself
+Dialogue: 0,0:00:33.22,0:00:38.14,Default,,0,0,0,,and the applications of that knowledge that came out of that research
+Dialogue: 0,0:00:38.14,0:00:41.84,Default,,0,0,0,,to an understanding of that field of knowledge which the world calls spiritual.
+Dialogue: 0,0:00:42.93,0:00:45.75,Default,,0,0,0,,And so, inherent in what we're talking about today
+Dialogue: 0,0:00:45.75,0:00:49.91,Default,,0,0,0,,is that relationship between body, mind, and spirit.
+Dialogue: 0,0:00:50.59,0:00:52.05,Default,,0,0,0,,And what does that really mean?
+Dialogue: 0,0:00:52.05,0:00:55.37,Default,,0,0,0,,Is that something scientific that we can clinically verify?
+Dialogue: 0,0:00:55.93,0:00:58.15,Default,,0,0,0,,Or is that some kind of a New Age fantasy?
+Dialogue: 0,0:00:59.00,0:01:02.44,Default,,0,0,0,,Our talk for today will be about the prevention of stress.
+Dialogue: 0,0:01:03.14,0:01:03.18,Default,,0,0,0,,Stress.
+Dialogue: 0,0:01:03.34,0:01:03.70,Default,,0,0,0,,Stress.
+Dialogue: 0,0:01:03.88,0:01:06.12,Default,,0,0,0,,A subject about which we read so much.
+Dialogue: 0,0:01:06.60,0:01:08.14,Default,,0,0,0,,Its implications for health.
+Dialogue: 0,0:01:08.30,0:01:11.48,Default,,0,0,0,,Its implications for emotional and psychological health.
+Dialogue: 0,0:01:12.20,0:01:13.66,Default,,0,0,0,,Its meaning in industry.
+Dialogue: 0,0:01:14.28,0:01:15.38,Default,,0,0,0,,Its meaning in business.
+Dialogue: 0,0:01:16.00,0:01:19.30,Default,,0,0,0,,The realization now of wide areas in our culture
+Dialogue: 0,0:01:19.30,0:01:22.38,Default,,0,0,0,,of being aware of what stress means,
+Dialogue: 0,0:01:22.96,0:01:24.46,Default,,0,0,0,,what's implied in this disorder.
+Dialogue: 0,0:01:25.91,0:01:30.59,Default,,0,0,0,,And so today we will need to look closely at what this relationship is
+Dialogue: 0,0:01:30.59,0:01:33.51,Default,,0,0,0,,between the body and its response to stress.
+Dialogue: 0,0:01:33.63,0:01:36.99,Default,,0,0,0,,The mind and how this relates to spirit.
+Dialogue: 0,0:01:38.80,0:01:42.98,Default,,0,0,0,,So we'll be covering today how stress results from a point of view.
+Dialogue: 0,0:01:43.52,0:01:46.22,Default,,0,0,0,,It results from what we are holding in mind.
+Dialogue: 0,0:01:46.62,0:01:48.24,Default,,0,0,0,,From our attitudes and our beliefs.
+Dialogue: 0,0:01:48.92,0:01:51.88,Default,,0,0,0,,So we'll see that the source of stress is within ourselves.
+Dialogue: 0,0:01:52.12,0:01:55.06,Default,,0,0,0,,It's really not in the world at all.
+Dialogue: 0,0:01:55.64,0:01:58.62,Default,,0,0,0,,There is no such thing as escaping stress
+Dialogue: 0,0:01:58.62,0:02:02.88,Default,,0,0,0,,because its source, its cause, is within us.
+Dialogue: 0,0:02:03.76,0:02:04.48,Default,,0,0,0,,Its source.
+Dialogue: 0,0:02:04.50,0:02:06.40,Default,,0,0,0,,Its source is not within the world.
+Dialogue: 0,0:02:07.00,0:02:11.06,Default,,0,0,0,,And so we'll be reversing the way the mind usually looks at things
+Dialogue: 0,0:02:11.06,0:02:13.42,Default,,0,0,0,,about cause and effect.
+Dialogue: 0,0:02:13.82,0:02:16.32,Default,,0,0,0,,We'll see that cause is not in the world
+Dialogue: 0,0:02:16.32,0:02:19.26,Default,,0,0,0,,and effect in mind, but vice versa.
+Dialogue: 0,0:02:19.74,0:02:22.32,Default,,0,0,0,,That the level of power, the level of cause,
+Dialogue: 0,0:02:22.80,0:02:23.92,Default,,0,0,0,,is held in mind.
+Dialogue: 0,0:02:24.58,0:02:28.70,Default,,0,0,0,,And this brings about our experiences of what happens in the world.
+Dialogue: 0,0:02:30.20,0:02:32.62,Default,,0,0,0,,Our folklore intuitively knows this
+Dialogue: 0,0:02:32.62,0:02:34.18,Default,,0,0,0,,because it says,
+Dialogue: 0,0:02:34.18,0:02:37.02,Default,,0,0,0,,one man's meat is another man's poison.
+Dialogue: 0,0:02:37.48,0:02:39.60,Default,,0,0,0,,One man's meat is another man's poison.
+Dialogue: 0,0:02:40.22,0:02:43.42,Default,,0,0,0,,And in that we have the secret of what we're looking at today.
+Dialogue: 0,0:02:44.14,0:02:46.18,Default,,0,0,0,,The power is not in the event.
+Dialogue: 0,0:02:46.68,0:02:49.18,Default,,0,0,0,,The power is not something out there.
+Dialogue: 0,0:02:49.86,0:02:52.38,Default,,0,0,0,,The power of creating our experience
+Dialogue: 0,0:02:52.38,0:02:54.80,Default,,0,0,0,,of all events in life
+Dialogue: 0,0:02:54.80,0:02:56.38,Default,,0,0,0,,lie within us.
+Dialogue: 0,0:02:56.64,0:02:58.92,Default,,0,0,0,,And it's by reowning our power then
+Dialogue: 0,0:02:58.92,0:03:02.52,Default,,0,0,0,,that we can learn how to prevent stress.
+Dialogue: 0,0:03:02.52,0:03:03.72,Default,,0,0,0,,So we will be talking about
+Dialogue: 0,0:03:04.18,0:03:07.18,Default,,0,0,0,,methods of precluding stress
+Dialogue: 0,0:03:07.18,0:03:10.18,Default,,0,0,0,,instead of treating its aftermath.
+Dialogue: 0,0:03:10.18,0:03:13.18,Default,,0,0,0,,The so-called stress reduction programs
+Dialogue: 0,0:03:13.18,0:03:17.18,Default,,0,0,0,,which are so commonly available in our society today
+Dialogue: 0,0:03:17.18,0:03:20.18,Default,,0,0,0,,are really methods of handling
+Dialogue: 0,0:03:20.18,0:03:24.18,Default,,0,0,0,,the effects of stress once it's already happened.
+Dialogue: 0,0:03:24.18,0:03:26.18,Default,,0,0,0,,The relaxation programs
+Dialogue: 0,0:03:26.18,0:03:28.18,Default,,0,0,0,,to relieve the tension within the body.
+Dialogue: 0,0:03:28.18,0:03:30.18,Default,,0,0,0,,You might say,
+Dialogue: 0,0:03:30.18,0:03:32.18,Default,,0,0,0,,the horse is already out of the barn.
+Dialogue: 0,0:03:32.18,0:03:34.14,Default,,0,0,0,,We'll be looking at ways
+Dialogue: 0,0:03:34.14,0:03:36.14,Default,,0,0,0,,to offset this
+Dialogue: 0,0:03:36.14,0:03:39.14,Default,,0,0,0,,so that the tension never arises in the body.
+Dialogue: 0,0:03:39.14,0:03:42.14,Default,,0,0,0,,These various ways of handling stress
+Dialogue: 0,0:03:42.14,0:03:44.17,Default,,0,0,0,,in the medical model.
+Dialogue: 0,0:03:44.17,0:03:47.17,Default,,0,0,0,,I recently got a brochure, in fact this week.
+Dialogue: 0,0:03:47.17,0:03:49.17,Default,,0,0,0,,It says stress and heart disease.
+Dialogue: 0,0:03:49.17,0:03:51.17,Default,,0,0,0,,Stress and heart disease.
+Dialogue: 0,0:03:51.17,0:03:54.17,Default,,0,0,0,,And right there we have a whole program.
+Dialogue: 0,0:03:54.17,0:03:57.17,Default,,0,0,0,,We have a whole program which the mind has bought.
+Dialogue: 0,0:03:57.17,0:03:59.17,Default,,0,0,0,,That stress is something out there.
+Dialogue: 0,0:03:59.17,0:04:02.17,Default,,0,0,0,,Stress is something inherent in life.
+Dialogue: 0,0:04:02.17,0:04:03.17,Default,,0,0,0,,That the result of stress,
+Dialogue: 0,0:04:03.17,0:04:06.17,Default,,0,0,0,,is going to affect the heart.
+Dialogue: 0,0:04:06.17,0:04:10.06,Default,,0,0,0,,The heart with all its symbolic meaning to us.
+Dialogue: 0,0:04:10.06,0:04:12.06,Default,,0,0,0,,The various papers then had to do
+Dialogue: 0,0:04:12.06,0:04:14.06,Default,,0,0,0,,really with heart disease.
+Dialogue: 0,0:04:14.06,0:04:16.06,Default,,0,0,0,,The consequence of stress.
+Dialogue: 0,0:04:16.06,0:04:20.06,Default,,0,0,0,,Coming about through our levels of consciousness
+Dialogue: 0,0:04:20.06,0:04:22.06,Default,,0,0,0,,and manifesting within the body.
+Dialogue: 0,0:04:22.06,0:04:24.86,Default,,0,0,0,,Because all things are experienced
+Dialogue: 0,0:04:24.86,0:04:26.86,Default,,0,0,0,,within consciousness then today,
+Dialogue: 0,0:04:26.86,0:04:28.86,Default,,0,0,0,,we'll be looking at that relationship
+Dialogue: 0,0:04:28.86,0:04:30.86,Default,,0,0,0,,between body, mind and spirit.
+Dialogue: 0,0:04:30.86,0:04:33.86,Default,,0,0,0,,And in this talk, as we have in other talks,
+Dialogue: 0,0:04:33.86,0:04:35.86,Default,,0,0,0,,we want to go back
+Dialogue: 0,0:04:35.86,0:04:37.86,Default,,0,0,0,,and carefully define
+Dialogue: 0,0:04:37.86,0:04:39.86,Default,,0,0,0,,things that you can verify
+Dialogue: 0,0:04:39.86,0:04:41.86,Default,,0,0,0,,through your own experience.
+Dialogue: 0,0:04:41.86,0:04:43.86,Default,,0,0,0,,And in this talk as well as the other talks
+Dialogue: 0,0:04:43.86,0:04:45.86,Default,,0,0,0,,we're going to be talking about
+Dialogue: 0,0:04:45.86,0:04:48.86,Default,,0,0,0,,clinical verifiable experience.
+Dialogue: 0,0:04:48.86,0:04:51.86,Default,,0,0,0,,Coming from the viewpoint of the skeptical scientist
+Dialogue: 0,0:04:51.86,0:04:54.86,Default,,0,0,0,,who believes only what can be clinically repeated
+Dialogue: 0,0:04:54.86,0:04:59.28,Default,,0,0,0,,and which he can verify through his own inner experience.
+Dialogue: 0,0:04:59.28,0:05:02.28,Default,,0,0,0,,And so we invite you during this talk
+Dialogue: 0,0:05:02.28,0:05:04.28,Default,,0,0,0,,to find out within yourself
+Dialogue: 0,0:05:04.28,0:05:07.28,Default,,0,0,0,,the truth of all that we are talking about.
+Dialogue: 0,0:05:07.28,0:05:09.44,Default,,0,0,0,,To begin with we notice that
+Dialogue: 0,0:05:09.44,0:05:11.44,Default,,0,0,0,,the body itself,
+Dialogue: 0,0:05:11.44,0:05:13.44,Default,,0,0,0,,a characteristic of the body,
+Dialogue: 0,0:05:13.44,0:05:15.44,Default,,0,0,0,,is that it is insentient.
+Dialogue: 0,0:05:15.44,0:05:18.44,Default,,0,0,0,,That is, the body has no capacity
+Dialogue: 0,0:05:18.44,0:05:20.44,Default,,0,0,0,,to experience itself.
+Dialogue: 0,0:05:20.44,0:05:22.44,Default,,0,0,0,,What do we mean by that?
+Dialogue: 0,0:05:22.44,0:05:24.44,Default,,0,0,0,,I mean that the arm in and of itself
+Dialogue: 0,0:05:24.44,0:05:27.44,Default,,0,0,0,,cannot experience its own existence.
+Dialogue: 0,0:05:27.44,0:05:30.44,Default,,0,0,0,,It cannot experience its own armness.
+Dialogue: 0,0:05:30.44,0:05:32.44,Default,,0,0,0,,It cannot experience that it is
+Dialogue: 0,0:05:32.44,0:05:34.44,Default,,0,0,0,,much less where it is,
+Dialogue: 0,0:05:34.44,0:05:35.44,Default,,0,0,0,,or how big it is,
+Dialogue: 0,0:05:35.44,0:05:38.56,Default,,0,0,0,,or what it's doing.
+Dialogue: 0,0:05:38.56,0:05:40.56,Default,,0,0,0,,How do we know what's going on with the body?
+Dialogue: 0,0:05:40.56,0:05:42.56,Default,,0,0,0,,We know because of the senses.
+Dialogue: 0,0:05:42.56,0:05:44.56,Default,,0,0,0,,So we don't experience the body,
+Dialogue: 0,0:05:44.56,0:05:49.04,Default,,0,0,0,,we experience the senses reporting this of the body.
+Dialogue: 0,0:05:49.04,0:05:52.04,Default,,0,0,0,,The senses themselves have no capacity
+Dialogue: 0,0:05:52.04,0:05:55.04,Default,,0,0,0,,to experience themselves.
+Dialogue: 0,0:05:55.04,0:05:58.04,Default,,0,0,0,,An ear, the vibrations going through the eighth nerve,
+Dialogue: 0,0:05:58.04,0:06:01.04,Default,,0,0,0,,vibrating the tympanic membrane, etc.,
+Dialogue: 0,0:06:01.04,0:06:04.20,Default,,0,0,0,,has no way to experience itself.
+Dialogue: 0,0:06:04.20,0:06:06.20,Default,,0,0,0,,Where does experience of the body
+Dialogue: 0,0:06:06.20,0:06:07.20,Default,,0,0,0,,take place?
+Dialogue: 0,0:06:07.20,0:06:09.20,Default,,0,0,0,,It takes place in something greater than that,
+Dialogue: 0,0:06:09.20,0:06:11.20,Default,,0,0,0,,and that we call mind.
+Dialogue: 0,0:06:11.20,0:06:13.20,Default,,0,0,0,,It's because of mind.
+Dialogue: 0,0:06:13.20,0:06:16.20,Default,,0,0,0,,So all experience of the body is occurring
+Dialogue: 0,0:06:16.20,0:06:19.20,Default,,0,0,0,,in an energy field, in a level,
+Dialogue: 0,0:06:19.20,0:06:22.06,Default,,0,0,0,,that we call mind.
+Dialogue: 0,0:06:22.06,0:06:24.06,Default,,0,0,0,,Mind itself, very curiously,
+Dialogue: 0,0:06:24.06,0:06:27.06,Default,,0,0,0,,has no capacity to experience itself.
+Dialogue: 0,0:06:27.06,0:06:30.13,Default,,0,0,0,,An amazing thought until you look into it.
+Dialogue: 0,0:06:30.13,0:06:32.13,Default,,0,0,0,,You'll see that a thought,
+Dialogue: 0,0:06:32.13,0:06:34.13,Default,,0,0,0,,of and by itself,
+Dialogue: 0,0:06:34.13,0:06:37.45,Default,,0,0,0,,has no capacity to experience its own thoughtness.
+Dialogue: 0,0:06:37.45,0:06:39.45,Default,,0,0,0,,A memory has no capacity
+Dialogue: 0,0:06:39.45,0:06:40.45,Default,,0,0,0,,in and of itself
+Dialogue: 0,0:06:40.45,0:06:42.45,Default,,0,0,0,,to experience its own memoryness.
+Dialogue: 0,0:06:42.45,0:06:44.45,Default,,0,0,0,,A fantasy about the future
+Dialogue: 0,0:06:44.45,0:06:45.45,Default,,0,0,0,,has no capacity.
+Dialogue: 0,0:06:45.45,0:06:48.45,Default,,0,0,0,,Our imagination, our emotions,
+Dialogue: 0,0:06:48.45,0:06:50.45,Default,,0,0,0,,all that goes on in mind
+Dialogue: 0,0:06:50.45,0:06:52.45,Default,,0,0,0,,is only experienced
+Dialogue: 0,0:06:52.45,0:06:54.45,Default,,0,0,0,,because of a greater and larger
+Dialogue: 0,0:06:54.45,0:06:56.45,Default,,0,0,0,,energy field than mind,
+Dialogue: 0,0:06:56.45,0:06:58.45,Default,,0,0,0,,and that is what we call consciousness.
+Dialogue: 0,0:06:58.45,0:07:00.45,Default,,0,0,0,,An energy field more diffuse
+Dialogue: 0,0:07:00.45,0:07:02.45,Default,,0,0,0,,and formless,
+Dialogue: 0,0:07:02.45,0:07:05.45,Default,,0,0,0,,capable of experiencing change,
+Dialogue: 0,0:07:05.45,0:07:07.45,Default,,0,0,0,,capable of experiencing
+Dialogue: 0,0:07:07.45,0:07:08.45,Default,,0,0,0,,any phenomena.
+Dialogue: 0,0:07:08.45,0:07:11.12,Default,,0,0,0,,It is because of consciousness
+Dialogue: 0,0:07:11.12,0:07:12.12,Default,,0,0,0,,that we're aware
+Dialogue: 0,0:07:12.12,0:07:14.12,Default,,0,0,0,,of what is going on in mind.
+Dialogue: 0,0:07:14.12,0:07:15.12,Default,,0,0,0,,It is because of mind
+Dialogue: 0,0:07:15.12,0:07:18.12,Default,,0,0,0,,we're aware of what is going on with sensations.
+Dialogue: 0,0:07:18.12,0:07:19.12,Default,,0,0,0,,Because of sensations
+Dialogue: 0,0:07:19.12,0:07:20.12,Default,,0,0,0,,we're aware of what goes on
+Dialogue: 0,0:07:20.12,0:07:22.12,Default,,0,0,0,,with the physical body.
+Dialogue: 0,0:07:22.12,0:07:23.63,Default,,0,0,0,,Curiously enough,
+Dialogue: 0,0:07:23.63,0:07:25.63,Default,,0,0,0,,even consciousness itself
+Dialogue: 0,0:07:25.63,0:07:27.63,Default,,0,0,0,,cannot report what is going on
+Dialogue: 0,0:07:27.63,0:07:28.63,Default,,0,0,0,,within itself
+Dialogue: 0,0:07:28.63,0:07:30.63,Default,,0,0,0,,except for a field which is infinite
+Dialogue: 0,0:07:30.63,0:07:32.63,Default,,0,0,0,,and without dimension
+Dialogue: 0,0:07:32.63,0:07:35.63,Default,,0,0,0,,and called the absolute knowingness
+Dialogue: 0,0:07:35.63,0:07:37.63,Default,,0,0,0,,or awareness.
+Dialogue: 0,0:07:37.63,0:07:40.63,Default,,0,0,0,,It is because of awareness,
+Dialogue: 0,0:07:40.63,0:07:42.63,Default,,0,0,0,,it is because of that quality
+Dialogue: 0,0:07:42.63,0:07:45.63,Default,,0,0,0,,of awareness which goes with our existence.
+Dialogue: 0,0:07:45.63,0:07:47.63,Default,,0,0,0,,It goes with our beingness.
+Dialogue: 0,0:07:47.63,0:07:49.63,Default,,0,0,0,,It's because we are,
+Dialogue: 0,0:07:49.63,0:07:51.63,Default,,0,0,0,,we're capable of awareness.
+Dialogue: 0,0:07:51.63,0:07:53.63,Default,,0,0,0,,Out of awareness then comes
+Dialogue: 0,0:07:53.63,0:07:55.63,Default,,0,0,0,,the knowingness of what goes on
+Dialogue: 0,0:07:55.63,0:07:56.63,Default,,0,0,0,,within consciousness.
+Dialogue: 0,0:07:56.63,0:07:58.63,Default,,0,0,0,,Consciousness reporting to us
+Dialogue: 0,0:07:58.63,0:08:00.63,Default,,0,0,0,,what is going on within mind.
+Dialogue: 0,0:08:00.63,0:08:02.63,Default,,0,0,0,,Mind reporting what goes on
+Dialogue: 0,0:08:02.63,0:08:05.63,Default,,0,0,0,,with sensations about the body.
+Dialogue: 0,0:08:05.63,0:08:06.63,Default,,0,0,0,,And so we can see
+Dialogue: 0,0:08:06.63,0:08:08.63,Default,,0,0,0,,that that which we are,
+Dialogue: 0,0:08:08.63,0:08:10.63,Default,,0,0,0,,when we say I or me
+Dialogue: 0,0:08:10.63,0:08:12.63,Default,,0,0,0,,in its highest and greatest sense,
+Dialogue: 0,0:08:12.63,0:08:14.63,Default,,0,0,0,,we're talking about the capacity
+Dialogue: 0,0:08:14.63,0:08:16.63,Default,,0,0,0,,for awareness.
+Dialogue: 0,0:08:16.63,0:08:19.66,Default,,0,0,0,,It is on this energy field,
+Dialogue: 0,0:08:19.66,0:08:20.66,Default,,0,0,0,,in this energy field
+Dialogue: 0,0:08:20.66,0:08:22.66,Default,,0,0,0,,and level of consciousness
+Dialogue: 0,0:08:22.66,0:08:25.66,Default,,0,0,0,,that we'll be talking today.
+Dialogue: 0,0:08:25.66,0:08:27.66,Default,,0,0,0,,It is within consciousness itself
+Dialogue: 0,0:08:27.66,0:08:30.66,Default,,0,0,0,,that all experience is being experienced.
+Dialogue: 0,0:08:30.66,0:08:33.66,Default,,0,0,0,,Thereby to address ourselves directly
+Dialogue: 0,0:08:33.66,0:08:35.66,Default,,0,0,0,,to the source and the place
+Dialogue: 0,0:08:35.66,0:08:36.66,Default,,0,0,0,,of the experience
+Dialogue: 0,0:08:36.66,0:08:39.66,Default,,0,0,0,,will bring us to the capabilities
+Dialogue: 0,0:08:39.66,0:08:42.66,Default,,0,0,0,,of precluding the sources of stress.
+Dialogue: 0,0:08:42.66,0:08:46.20,Default,,0,0,0,,In doing this we'll be talking about
+Dialogue: 0,0:08:46.20,0:08:47.20,Default,,0,0,0,,a map of consciousness
+Dialogue: 0,0:08:47.20,0:08:48.20,Default,,0,0,0,,which we've referred to
+Dialogue: 0,0:08:48.20,0:08:50.20,Default,,0,0,0,,in these other talks.
+Dialogue: 0,0:08:50.20,0:08:53.20,Default,,0,0,0,,It's a mathematical model.
+Dialogue: 0,0:08:53.20,0:08:55.20,Default,,0,0,0,,Not purely mathematical
+Dialogue: 0,0:08:55.20,0:08:58.20,Default,,0,0,0,,but it is based upon energy fields,
+Dialogue: 0,0:08:58.20,0:09:00.20,Default,,0,0,0,,levels of consciousness
+Dialogue: 0,0:09:00.20,0:09:01.20,Default,,0,0,0,,and these energy fields
+Dialogue: 0,0:09:01.20,0:09:03.20,Default,,0,0,0,,have been calibrated
+Dialogue: 0,0:09:03.20,0:09:05.20,Default,,0,0,0,,as to their relative power.
+Dialogue: 0,0:09:05.20,0:09:07.74,Default,,0,0,0,,These are the energy fields
+Dialogue: 0,0:09:07.74,0:09:09.74,Default,,0,0,0,,here which are labeled
+Dialogue: 0,0:09:09.74,0:09:11.74,Default,,0,0,0,,according to common human experience.
+Dialogue: 0,0:09:11.74,0:09:13.74,Default,,0,0,0,,Easily understood
+Dialogue: 0,0:09:13.74,0:09:14.74,Default,,0,0,0,,and as you look at it
+Dialogue: 0,0:09:14.74,0:09:15.74,Default,,0,0,0,,you will find that
+Dialogue: 0,0:09:15.74,0:09:17.74,Default,,0,0,0,,it's easily understandable.
+Dialogue: 0,0:09:17.74,0:09:18.74,Default,,0,0,0,,At the very bottom for instance
+Dialogue: 0,0:09:18.74,0:09:21.16,Default,,0,0,0,,we have guilt
+Dialogue: 0,0:09:21.16,0:09:24.16,Default,,0,0,0,,which is in its form of self-hatred,
+Dialogue: 0,0:09:24.16,0:09:26.16,Default,,0,0,0,,a destructive negative emotion.
+Dialogue: 0,0:09:26.16,0:09:28.16,Default,,0,0,0,,We know that from guilt
+Dialogue: 0,0:09:28.16,0:09:29.16,Default,,0,0,0,,the world is seen
+Dialogue: 0,0:09:29.16,0:09:31.16,Default,,0,0,0,,as a place of suffering.
+Dialogue: 0,0:09:31.16,0:09:34.16,Default,,0,0,0,,Guiltiness has an energy field of 30.
+Dialogue: 0,0:09:34.16,0:09:37.16,Default,,0,0,0,,These are states that come close to death.
+Dialogue: 0,0:09:37.16,0:09:39.16,Default,,0,0,0,,Death we calibrate at zero.
+Dialogue: 0,0:09:39.16,0:09:41.16,Default,,0,0,0,,If we start with death at zero
+Dialogue: 0,0:09:41.16,0:09:44.16,Default,,0,0,0,,then to be of a very high consciousness
+Dialogue: 0,0:09:44.16,0:09:45.16,Default,,0,0,0,,to become enlightened
+Dialogue: 0,0:09:45.16,0:09:48.16,Default,,0,0,0,,calibrates out at 600.
+Dialogue: 0,0:09:48.16,0:09:50.77,Default,,0,0,0,,Guilt you'll see in apathy
+Dialogue: 0,0:09:50.77,0:09:51.77,Default,,0,0,0,,and grief and fear
+Dialogue: 0,0:09:51.77,0:09:53.77,Default,,0,0,0,,and desire and anger and pride.
+Dialogue: 0,0:09:53.77,0:09:55.77,Default,,0,0,0,,All these negative energy fields
+Dialogue: 0,0:09:55.77,0:09:57.77,Default,,0,0,0,,all have a negative
+Dialogue: 0,0:09:57.77,0:10:00.77,Default,,0,0,0,,or a destructive direction.
+Dialogue: 0,0:10:00.77,0:10:02.77,Default,,0,0,0,,You'll notice that their calibrations
+Dialogue: 0,0:10:02.77,0:10:04.77,Default,,0,0,0,,are low in number.
+Dialogue: 0,0:10:04.77,0:10:06.77,Default,,0,0,0,,For instance apathy at 50
+Dialogue: 0,0:10:06.77,0:10:08.77,Default,,0,0,0,,has half the power of fear
+Dialogue: 0,0:10:08.77,0:10:10.77,Default,,0,0,0,,which calibrates out at 100.
+Dialogue: 0,0:10:10.77,0:10:14.77,Default,,0,0,0,,Fear at 100 has half the energy of courage
+Dialogue: 0,0:10:14.77,0:10:17.77,Default,,0,0,0,,which calibrates out at 200.
+Dialogue: 0,0:10:17.77,0:10:20.77,Default,,0,0,0,,Desire has half the energy
+Dialogue: 0,0:10:20.77,0:10:22.77,Default,,0,0,0,,of that state called neutral
+Dialogue: 0,0:10:22.77,0:10:24.77,Default,,0,0,0,,or being detached.
+Dialogue: 0,0:10:24.77,0:10:26.77,Default,,0,0,0,,So we can calibrate the energy fields
+Dialogue: 0,0:10:26.77,0:10:29.77,Default,,0,0,0,,and these can be reduplicated by anybody
+Dialogue: 0,0:10:29.77,0:10:31.77,Default,,0,0,0,,using very common techniques
+Dialogue: 0,0:10:31.77,0:10:33.77,Default,,0,0,0,,for instance kinesiology.
+Dialogue: 0,0:10:33.77,0:10:35.77,Default,,0,0,0,,Anybody in their own home can
+Dialogue: 0,0:10:35.77,0:10:36.77,Default,,0,0,0,,verify themselves
+Dialogue: 0,0:10:36.77,0:10:38.77,Default,,0,0,0,,the relative energies
+Dialogue: 0,0:10:38.77,0:10:40.77,Default,,0,0,0,,and the directions of the field.
+Dialogue: 0,0:10:40.77,0:10:42.77,Default,,0,0,0,,These fields which go to the left
+Dialogue: 0,0:10:42.77,0:10:44.77,Default,,0,0,0,,if you hold in mind
+Dialogue: 0,0:10:44.77,0:10:46.77,Default,,0,0,0,,a thought which is angry
+Dialogue: 0,0:10:46.77,0:10:48.77,Default,,0,0,0,,a thought about something you regret
+Dialogue: 0,0:10:48.77,0:10:50.77,Default,,0,0,0,,something you are sad about
+Dialogue: 0,0:10:50.77,0:10:52.77,Default,,0,0,0,,or something you fear
+Dialogue: 0,0:10:52.77,0:10:54.77,Default,,0,0,0,,and if you press down on the person's arm
+Dialogue: 0,0:10:54.77,0:10:56.77,Default,,0,0,0,,you will see they instantly go weak.
+Dialogue: 0,0:10:56.77,0:10:59.77,Default,,0,0,0,,The cerebral hemispheres become desynchronized
+Dialogue: 0,0:10:59.77,0:11:01.77,Default,,0,0,0,,the acupuncture energy system
+Dialogue: 0,0:11:01.77,0:11:03.77,Default,,0,0,0,,goes out of kilt
+Dialogue: 0,0:11:03.77,0:11:05.77,Default,,0,0,0,,and the person instantly goes to sleep.
+Dialogue: 0,0:11:05.77,0:11:07.77,Default,,0,0,0,,The person instantly loses their power
+Dialogue: 0,0:11:07.77,0:11:08.77,Default,,0,0,0,,and their energy.
+Dialogue: 0,0:11:08.77,0:11:10.77,Default,,0,0,0,,If we go above the level of courage
+Dialogue: 0,0:11:10.77,0:11:12.77,Default,,0,0,0,,and you'll see the energy field now
+Dialogue: 0,0:11:12.77,0:11:14.77,Default,,0,0,0,,which was in this direction
+Dialogue: 0,0:11:14.77,0:11:15.77,Default,,0,0,0,,now goes neutral
+Dialogue: 0,0:11:15.77,0:11:17.77,Default,,0,0,0,,the needle swings to the middle.
+Dialogue: 0,0:11:17.77,0:11:19.77,Default,,0,0,0,,By telling the truth
+Dialogue: 0,0:11:19.77,0:11:21.77,Default,,0,0,0,,by telling the truth about things
+Dialogue: 0,0:11:21.77,0:11:24.77,Default,,0,0,0,,by moving towards that which is true
+Dialogue: 0,0:11:24.77,0:11:26.77,Default,,0,0,0,,the energy field now swings to the right
+Dialogue: 0,0:11:26.77,0:11:28.77,Default,,0,0,0,,into that which is positive.
+Dialogue: 0,0:11:28.77,0:11:30.77,Default,,0,0,0,,That which is positive
+Dialogue: 0,0:11:30.77,0:11:34.77,Default,,0,0,0,,is that which supports and reinforces life
+Dialogue: 0,0:11:34.77,0:11:36.77,Default,,0,0,0,,that energy of aliveness.
+Dialogue: 0,0:11:36.77,0:11:38.77,Default,,0,0,0,,It is aligned with the truth.
+Dialogue: 0,0:11:38.77,0:11:40.77,Default,,0,0,0,,And so the great beings of great wisdom
+Dialogue: 0,0:11:40.77,0:11:42.77,Default,,0,0,0,,who have walked this earth
+Dialogue: 0,0:11:42.77,0:11:44.77,Default,,0,0,0,,when we calibrate their energy fields
+Dialogue: 0,0:11:44.77,0:11:46.77,Default,,0,0,0,,they run up into the 600s
+Dialogue: 0,0:11:46.77,0:11:47.77,Default,,0,0,0,,and the great avatars
+Dialogue: 0,0:11:47.77,0:11:49.77,Default,,0,0,0,,the great saviors of mankind
+Dialogue: 0,0:11:49.77,0:11:51.77,Default,,0,0,0,,their energy fields
+Dialogue: 0,0:11:51.77,0:11:54.77,Default,,0,0,0,,run from the 700s on up into infinity.
+Dialogue: 0,0:11:54.77,0:11:57.90,Default,,0,0,0,,So you might say the truth
+Dialogue: 0,0:11:57.90,0:12:00.90,Default,,0,0,0,,begins at this energy field of 200
+Dialogue: 0,0:12:00.90,0:12:02.90,Default,,0,0,0,,and expands ever upward
+Dialogue: 0,0:12:02.90,0:12:04.90,Default,,0,0,0,,into an ever increasing lovingness
+Dialogue: 0,0:12:04.90,0:12:06.90,Default,,0,0,0,,alignment with truth
+Dialogue: 0,0:12:06.90,0:12:09.90,Default,,0,0,0,,and health follows the same pattern.
+Dialogue: 0,0:12:09.90,0:12:12.90,Default,,0,0,0,,The farther we go up in our energy fields
+Dialogue: 0,0:12:12.90,0:12:14.90,Default,,0,0,0,,the more automatic becomes the health
+Dialogue: 0,0:12:14.90,0:12:16.90,Default,,0,0,0,,until finally there is a joy
+Dialogue: 0,0:12:16.90,0:12:18.90,Default,,0,0,0,,in the aliveness
+Dialogue: 0,0:12:18.90,0:12:20.90,Default,,0,0,0,,the exquisite pleasure of the body
+Dialogue: 0,0:12:20.90,0:12:22.90,Default,,0,0,0,,which automatically becomes healthy
+Dialogue: 0,0:12:22.90,0:12:25.90,Default,,0,0,0,,and it automatically heals its own diseases
+Dialogue: 0,0:12:25.90,0:12:29.90,Default,,0,0,0,,because at an energy field of about 540
+Dialogue: 0,0:12:29.90,0:12:32.90,Default,,0,0,0,,which is the energy field of healing
+Dialogue: 0,0:12:32.90,0:12:34.93,Default,,0,0,0,,healing automatically
+Dialogue: 0,0:12:34.93,0:12:36.93,Default,,0,0,0,,begins to take place in the body
+Dialogue: 0,0:12:36.93,0:12:40.60,Default,,0,0,0,,at an energy field of 540.
+Dialogue: 0,0:12:40.60,0:12:42.60,Default,,0,0,0,,So as we talk about stress
+Dialogue: 0,0:12:42.60,0:12:44.60,Default,,0,0,0,,it's obvious that we're going to be
+Dialogue: 0,0:12:44.60,0:12:47.60,Default,,0,0,0,,looking at these conditions
+Dialogue: 0,0:12:47.60,0:12:49.60,Default,,0,0,0,,these pre-existing conditions
+Dialogue: 0,0:12:49.60,0:12:52.60,Default,,0,0,0,,within the consciousness of the person
+Dialogue: 0,0:12:52.60,0:12:54.60,Default,,0,0,0,,which set the person up
+Dialogue: 0,0:12:54.60,0:12:57.60,Default,,0,0,0,,to experience life in a stressful way.
+Dialogue: 0,0:12:57.60,0:12:59.60,Default,,0,0,0,,It's obvious that a person
+Dialogue: 0,0:12:59.60,0:13:02.60,Default,,0,0,0,,who is identified with this energy field
+Dialogue: 0,0:13:02.60,0:13:05.60,Default,,0,0,0,,is going to experience a world
+Dialogue: 0,0:13:05.60,0:13:08.60,Default,,0,0,0,,which is going to make them feel constantly guilty.
+Dialogue: 0,0:13:08.60,0:13:11.98,Default,,0,0,0,,It's obvious that a person who identifies
+Dialogue: 0,0:13:11.98,0:13:14.98,Default,,0,0,0,,on this energy field here
+Dialogue: 0,0:13:14.98,0:13:16.98,Default,,0,0,0,,one of hopelessness and despair
+Dialogue: 0,0:13:16.98,0:13:20.98,Default,,0,0,0,,is going to experience the world as hopeless
+Dialogue: 0,0:13:20.98,0:13:22.98,Default,,0,0,0,,and all of life's experiences
+Dialogue: 0,0:13:22.98,0:13:26.18,Default,,0,0,0,,are going to be colored by that expectation.
+Dialogue: 0,0:13:26.18,0:13:28.18,Default,,0,0,0,,As we move up to grief
+Dialogue: 0,0:13:28.18,0:13:31.18,Default,,0,0,0,,we'll see that the person who is full of regret
+Dialogue: 0,0:13:31.18,0:13:33.18,Default,,0,0,0,,and concern with loss in the past
+Dialogue: 0,0:13:33.18,0:13:36.18,Default,,0,0,0,,is going to see this as a sad world.
+Dialogue: 0,0:13:36.18,0:13:37.18,Default,,0,0,0,,And if there is a God
+Dialogue: 0,0:13:37.18,0:13:39.18,Default,,0,0,0,,He would be a God who doesn't love you
+Dialogue: 0,0:13:39.18,0:13:40.18,Default,,0,0,0,,who doesn't care for you
+Dialogue: 0,0:13:40.18,0:13:42.18,Default,,0,0,0,,and ignores you.
+Dialogue: 0,0:13:42.18,0:13:44.21,Default,,0,0,0,,As we move up to the energy field of fear
+Dialogue: 0,0:13:44.21,0:13:47.21,Default,,0,0,0,,we see that coming out of the suppressed energy
+Dialogue: 0,0:13:47.21,0:13:49.21,Default,,0,0,0,,which has been held throughout life
+Dialogue: 0,0:13:49.21,0:13:51.21,Default,,0,0,0,,held unconsciously
+Dialogue: 0,0:13:51.21,0:13:53.21,Default,,0,0,0,,of fearfulness
+Dialogue: 0,0:13:53.21,0:13:57.21,Default,,0,0,0,,the preoccupation with anxiety about the future
+Dialogue: 0,0:13:57.21,0:14:00.21,Default,,0,0,0,,the person who is constantly worrying
+Dialogue: 0,0:14:00.21,0:14:02.21,Default,,0,0,0,,the world looks to that person
+Dialogue: 0,0:14:02.21,0:14:04.21,Default,,0,0,0,,like a frightening place.
+Dialogue: 0,0:14:04.21,0:14:05.21,Default,,0,0,0,,The God of such a world
+Dialogue: 0,0:14:05.21,0:14:08.46,Default,,0,0,0,,would then be punitive.
+Dialogue: 0,0:14:08.46,0:14:09.46,Default,,0,0,0,,And so therefore
+Dialogue: 0,0:14:09.46,0:14:11.46,Default,,0,0,0,,all that person's experience now
+Dialogue: 0,0:14:11.46,0:14:14.46,Default,,0,0,0,,is coming forth in the form of fright.
+Dialogue: 0,0:14:14.46,0:14:16.46,Default,,0,0,0,,The person who is always wanting
+Dialogue: 0,0:14:16.46,0:14:19.46,Default,,0,0,0,,experiences this as a frustrating world.
+Dialogue: 0,0:14:19.46,0:14:20.46,Default,,0,0,0,,The angry person
+Dialogue: 0,0:14:20.46,0:14:23.46,Default,,0,0,0,,is always running into conflict and war.
+Dialogue: 0,0:14:23.46,0:14:24.46,Default,,0,0,0,,The prideful person
+Dialogue: 0,0:14:24.46,0:14:27.46,Default,,0,0,0,,is always experiencing challenges
+Dialogue: 0,0:14:27.46,0:14:30.46,Default,,0,0,0,,and therefore assumes a defensive posture.
+Dialogue: 0,0:14:30.46,0:14:32.46,Default,,0,0,0,,So that's just a brief look at
+Dialogue: 0,0:14:32.46,0:14:35.46,Default,,0,0,0,,we'll be coming back to this map of consciousness
+Dialogue: 0,0:14:35.46,0:14:37.46,Default,,0,0,0,,in greater detail
+Dialogue: 0,0:14:37.46,0:14:38.46,Default,,0,0,0,,and see how it operates
+Dialogue: 0,0:14:38.46,0:14:40.46,Default,,0,0,0,,in the automatic setting up
+Dialogue: 0,0:14:40.46,0:14:43.75,Default,,0,0,0,,and setting us up for stress.
+Dialogue: 0,0:14:43.75,0:14:45.75,Default,,0,0,0,,We begin to suspect now
+Dialogue: 0,0:14:45.75,0:14:46.75,Default,,0,0,0,,from that statement
+Dialogue: 0,0:14:46.75,0:14:49.75,Default,,0,0,0,,that one man's meat is another man's poison
+Dialogue: 0,0:14:49.75,0:14:52.75,Default,,0,0,0,,that the setup for stress then
+Dialogue: 0,0:14:52.75,0:14:54.75,Default,,0,0,0,,is coming out of our own values.
+Dialogue: 0,0:14:54.75,0:14:57.75,Default,,0,0,0,,It's coming out of our own position about life.
+Dialogue: 0,0:14:57.75,0:14:59.75,Default,,0,0,0,,It's coming out of the programs
+Dialogue: 0,0:14:59.75,0:15:00.75,Default,,0,0,0,,that we're holding operative
+Dialogue: 0,0:15:00.75,0:15:03.75,Default,,0,0,0,,within our own consciousness.
+Dialogue: 0,0:15:03.75,0:15:04.75,Default,,0,0,0,,And we begin to look now
+Dialogue: 0,0:15:04.75,0:15:06.75,Default,,0,0,0,,for the source of stress
+Dialogue: 0,0:15:06.75,0:15:07.75,Default,,0,0,0,,not in the world
+Dialogue: 0,0:15:07.75,0:15:11.75,Default,,0,0,0,,but in what is it we are holding in consciousness
+Dialogue: 0,0:15:11.75,0:15:15.75,Default,,0,0,0,,that assigns to a given event
+Dialogue: 0,0:15:15.75,0:15:20.68,Default,,0,0,0,,the experience of it as stress.
+Dialogue: 0,0:15:20.68,0:15:21.68,Default,,0,0,0,,In looking at this
+Dialogue: 0,0:15:21.68,0:15:24.68,Default,,0,0,0,,we'll look now at some attitudes
+Dialogue: 0,0:15:24.68,0:15:26.68,Default,,0,0,0,,some ways of being with life
+Dialogue: 0,0:15:26.68,0:15:29.68,Default,,0,0,0,,that set us up for this kind of an experience.
+Dialogue: 0,0:15:29.68,0:15:31.78,Default,,0,0,0,,And we'll cite some examples
+Dialogue: 0,0:15:31.78,0:15:34.78,Default,,0,0,0,,which are available to all of us.
+Dialogue: 0,0:15:34.78,0:15:35.78,Default,,0,0,0,,I had an in-law
+Dialogue: 0,0:15:35.78,0:15:36.78,Default,,0,0,0,,for instance
+Dialogue: 0,0:15:36.78,0:15:38.78,Default,,0,0,0,,who used to come out
+Dialogue: 0,0:15:38.78,0:15:40.78,Default,,0,0,0,,and visit my house in the country
+Dialogue: 0,0:15:40.78,0:15:41.78,Default,,0,0,0,,at the time I lived in the middle
+Dialogue: 0,0:15:41.78,0:15:43.78,Default,,0,0,0,,of a hundred acres of woods
+Dialogue: 0,0:15:43.78,0:15:46.78,Default,,0,0,0,,thirty miles from New York City.
+Dialogue: 0,0:15:46.78,0:15:49.35,Default,,0,0,0,,And there there was only stillness.
+Dialogue: 0,0:15:49.35,0:15:50.35,Default,,0,0,0,,In fact the only thing you could hear
+Dialogue: 0,0:15:50.35,0:15:52.35,Default,,0,0,0,,was the rustling of the leaves
+Dialogue: 0,0:15:52.35,0:15:54.35,Default,,0,0,0,,and the song of the birds.
+Dialogue: 0,0:15:54.35,0:15:56.35,Default,,0,0,0,,And she was a somewhat elderly lady
+Dialogue: 0,0:15:56.35,0:15:58.35,Default,,0,0,0,,and she'd lived most of her life
+Dialogue: 0,0:15:58.35,0:15:59.35,Default,,0,0,0,,in New York City
+Dialogue: 0,0:15:59.35,0:16:00.35,Default,,0,0,0,,you know on East 28th Street
+Dialogue: 0,0:16:00.35,0:16:01.35,Default,,0,0,0,,around that area.
+Dialogue: 0,0:16:01.35,0:16:03.86,Default,,0,0,0,,And she would hate to come out to the house
+Dialogue: 0,0:16:03.86,0:16:05.86,Default,,0,0,0,,and when she had to
+Dialogue: 0,0:16:05.86,0:16:07.86,Default,,0,0,0,,she would stay as briefly as possible.
+Dialogue: 0,0:16:07.86,0:16:09.86,Default,,0,0,0,,In fact two or three days
+Dialogue: 0,0:16:09.86,0:16:10.86,Default,,0,0,0,,was all she could stand.
+Dialogue: 0,0:16:10.86,0:16:12.86,Default,,0,0,0,,And the peace and the silence
+Dialogue: 0,0:16:12.86,0:16:13.86,Default,,0,0,0,,drove her crazy.
+Dialogue: 0,0:16:13.86,0:16:15.86,Default,,0,0,0,,And she just couldn't stand it.
+Dialogue: 0,0:16:15.86,0:16:18.86,Default,,0,0,0,,And she couldn't wait to get back to the city
+Dialogue: 0,0:16:18.86,0:16:20.86,Default,,0,0,0,,where she would sigh with relief.
+Dialogue: 0,0:16:20.86,0:16:22.86,Default,,0,0,0,,And her apartment in the city
+Dialogue: 0,0:16:22.86,0:16:24.86,Default,,0,0,0,,you know faced the street.
+Dialogue: 0,0:16:24.86,0:16:25.86,Default,,0,0,0,,And so from her open window
+Dialogue: 0,0:16:25.86,0:16:27.86,Default,,0,0,0,,she could talk to everybody
+Dialogue: 0,0:16:27.86,0:16:29.86,Default,,0,0,0,,she could hear the hustle and bustle of the city.
+Dialogue: 0,0:16:29.86,0:16:31.86,Default,,0,0,0,,And she felt secure.
+Dialogue: 0,0:16:31.86,0:16:32.86,Default,,0,0,0,,So in the midst of
+Dialogue: 0,0:16:32.86,0:16:34.86,Default,,0,0,0,,you know it was mugger land
+Dialogue: 0,0:16:34.86,0:16:36.86,Default,,0,0,0,,the Lower East Side, etc.
+Dialogue: 0,0:16:36.86,0:16:38.86,Default,,0,0,0,,all those areas of the city at that time
+Dialogue: 0,0:16:38.86,0:16:40.86,Default,,0,0,0,,were ripe with muggings.
+Dialogue: 0,0:16:40.86,0:16:41.86,Default,,0,0,0,,So here she was
+Dialogue: 0,0:16:41.86,0:16:43.86,Default,,0,0,0,,you know in a situation
+Dialogue: 0,0:16:43.86,0:16:46.86,Default,,0,0,0,,which another person might consider as stressful.
+Dialogue: 0,0:16:46.86,0:16:48.86,Default,,0,0,0,,A lot of people might
+Dialogue: 0,0:16:48.86,0:16:51.86,Default,,0,0,0,,consider that part of the city scary indeed.
+Dialogue: 0,0:16:51.86,0:16:54.86,Default,,0,0,0,,So what she experienced as security
+Dialogue: 0,0:16:54.86,0:16:57.86,Default,,0,0,0,,being there in the throngs of people
+Dialogue: 0,0:16:57.86,0:16:59.86,Default,,0,0,0,,and the sound of the garbage cans in the morning
+Dialogue: 0,0:16:59.86,0:17:00.86,Default,,0,0,0,,and the garbage trucks
+Dialogue: 0,0:17:00.86,0:17:02.86,Default,,0,0,0,,making their racket at 5 a.m.
+Dialogue: 0,0:17:02.86,0:17:04.86,Default,,0,0,0,,to her was reassurance.
+Dialogue: 0,0:17:04.86,0:17:06.86,Default,,0,0,0,,Being safe and secure
+Dialogue: 0,0:17:06.86,0:17:08.86,Default,,0,0,0,,in the middle of 100 acres of woods
+Dialogue: 0,0:17:08.86,0:17:11.89,Default,,0,0,0,,to her was a threat.
+Dialogue: 0,0:17:11.89,0:17:14.89,Default,,0,0,0,,We look at the interesting experience then
+Dialogue: 0,0:17:14.89,0:17:15.89,Default,,0,0,0,,of Devil's Island
+Dialogue: 0,0:17:15.89,0:17:17.89,Default,,0,0,0,,the French penal colony.
+Dialogue: 0,0:17:17.89,0:17:19.89,Default,,0,0,0,,And of course this is well documented
+Dialogue: 0,0:17:19.89,0:17:21.89,Default,,0,0,0,,that when the French government
+Dialogue: 0,0:17:21.89,0:17:23.89,Default,,0,0,0,,out of protest
+Dialogue: 0,0:17:23.89,0:17:26.89,Default,,0,0,0,,coming from the humanism movement
+Dialogue: 0,0:17:26.89,0:17:28.89,Default,,0,0,0,,out of social protest
+Dialogue: 0,0:17:28.89,0:17:31.92,Default,,0,0,0,,closed this disgraceful colony
+Dialogue: 0,0:17:31.92,0:17:33.92,Default,,0,0,0,,what happened was that
+Dialogue: 0,0:17:33.92,0:17:34.92,Default,,0,0,0,,they allowed the prisoners
+Dialogue: 0,0:17:34.92,0:17:36.92,Default,,0,0,0,,to go loose on the island.
+Dialogue: 0,0:17:36.92,0:17:38.92,Default,,0,0,0,,They released them from these animal cages.
+Dialogue: 0,0:17:38.92,0:17:41.92,Default,,0,0,0,,Torture cages is what they really were.
+Dialogue: 0,0:17:41.92,0:17:43.92,Default,,0,0,0,,And so the prisoners were now allowed
+Dialogue: 0,0:17:43.92,0:17:45.92,Default,,0,0,0,,the freedom of the island.
+Dialogue: 0,0:17:45.92,0:17:48.92,Default,,0,0,0,,The freedom to walk around at will.
+Dialogue: 0,0:17:48.92,0:17:50.92,Default,,0,0,0,,And so what did the prisoners do?
+Dialogue: 0,0:17:50.92,0:17:53.92,Default,,0,0,0,,Much to the surprise of the authorities
+Dialogue: 0,0:17:53.92,0:17:56.92,Default,,0,0,0,,the prisoners had been in these cells for many years
+Dialogue: 0,0:17:56.92,0:17:59.92,Default,,0,0,0,,at night they went back to their prison cells to sleep.
+Dialogue: 0,0:17:59.92,0:18:04.11,Default,,0,0,0,,They felt frightened and lonely and insecure
+Dialogue: 0,0:18:04.11,0:18:07.11,Default,,0,0,0,,even though for the first time in all these years
+Dialogue: 0,0:18:07.11,0:18:10.11,Default,,0,0,0,,they had the freedom which they so ostensibly
+Dialogue: 0,0:18:10.11,0:18:13.11,Default,,0,0,0,,had cried for and demanded over the years.
+Dialogue: 0,0:18:13.11,0:18:15.11,Default,,0,0,0,,The sense of security then came from
+Dialogue: 0,0:18:15.11,0:18:18.11,Default,,0,0,0,,the feeling of being back in the jail cell.
+Dialogue: 0,0:18:18.11,0:18:21.11,Default,,0,0,0,,So to some of us a jail cell would be
+Dialogue: 0,0:18:21.11,0:18:23.11,Default,,0,0,0,,the maximum threat.
+Dialogue: 0,0:18:23.11,0:18:26.11,Default,,0,0,0,,Nothing, no greater horror could befall us.
+Dialogue: 0,0:18:26.11,0:18:29.11,Default,,0,0,0,,And what have other people done in a prison cell?
+Dialogue: 0,0:18:29.11,0:18:32.11,Default,,0,0,0,,They've written prize winning novels.
+Dialogue: 0,0:18:32.11,0:18:34.11,Default,,0,0,0,,They've written staggering pieces
+Dialogue: 0,0:18:34.11,0:18:36.11,Default,,0,0,0,,of literature.
+Dialogue: 0,0:18:36.11,0:18:39.11,Default,,0,0,0,,Things written in jail cells and prisons
+Dialogue: 0,0:18:39.11,0:18:42.11,Default,,0,0,0,,have changed the course and the history of mankind
+Dialogue: 0,0:18:42.11,0:18:44.11,Default,,0,0,0,,for better or for worse.
+Dialogue: 0,0:18:44.11,0:18:47.11,Default,,0,0,0,,Adolf Hitler after all wrote Mein Kampf
+Dialogue: 0,0:18:47.11,0:18:49.11,Default,,0,0,0,,while in prison.
+Dialogue: 0,0:18:49.11,0:18:51.11,Default,,0,0,0,,Another interesting example
+Dialogue: 0,0:18:51.11,0:18:53.11,Default,,0,0,0,,in contrast to Devil's Island
+Dialogue: 0,0:18:53.11,0:18:56.11,Default,,0,0,0,,is exemplified by the movie Lost Horizon.
+Dialogue: 0,0:18:56.11,0:18:58.14,Default,,0,0,0,,You'll remember in that movie
+Dialogue: 0,0:18:58.14,0:19:00.14,Default,,0,0,0,,which I remember well from childhood
+Dialogue: 0,0:19:00.14,0:19:02.14,Default,,0,0,0,,I saw it a number of times
+Dialogue: 0,0:19:02.14,0:19:03.14,Default,,0,0,0,,Ronald Coleman.
+Dialogue: 0,0:19:03.14,0:19:05.14,Default,,0,0,0,,The other passengers of the plane
+Dialogue: 0,0:19:05.14,0:19:09.14,Default,,0,0,0,,you know land in the Himalayas
+Dialogue: 0,0:19:09.14,0:19:11.14,Default,,0,0,0,,and they go through a pass
+Dialogue: 0,0:19:11.14,0:19:13.14,Default,,0,0,0,,and they come into Shangri-La
+Dialogue: 0,0:19:13.14,0:19:15.14,Default,,0,0,0,,which represents a heavenly
+Dialogue: 0,0:19:15.14,0:19:18.14,Default,,0,0,0,,almost a heavenly condition.
+Dialogue: 0,0:19:18.14,0:19:21.14,Default,,0,0,0,,Its energy field is very high.
+Dialogue: 0,0:19:21.14,0:19:23.14,Default,,0,0,0,,Probably up in the 600s.
+Dialogue: 0,0:19:23.14,0:19:26.14,Default,,0,0,0,,A place of unconditional love
+Dialogue: 0,0:19:26.14,0:19:28.14,Default,,0,0,0,,of unending bliss.
+Dialogue: 0,0:19:28.14,0:19:30.14,Default,,0,0,0,,And although Ronald Coleman was ready
+Dialogue: 0,0:19:30.14,0:19:33.14,Default,,0,0,0,,for the experience and himself benefited God
+Dialogue: 0,0:19:33.14,0:19:36.59,Default,,0,0,0,,greatly and expanded his own consciousness
+Dialogue: 0,0:19:36.59,0:19:40.59,Default,,0,0,0,,the other members of the passengers
+Dialogue: 0,0:19:40.59,0:19:42.59,Default,,0,0,0,,took it in a different way.
+Dialogue: 0,0:19:42.59,0:19:45.59,Default,,0,0,0,,It was interesting to watch of six different people
+Dialogue: 0,0:19:45.59,0:19:47.59,Default,,0,0,0,,the six different reactions.
+Dialogue: 0,0:19:47.59,0:19:48.59,Default,,0,0,0,,A couple of them weren't quite ready
+Dialogue: 0,0:19:48.59,0:19:50.59,Default,,0,0,0,,for the experience.
+Dialogue: 0,0:19:50.59,0:19:52.59,Default,,0,0,0,,Experienced it as sort of stress
+Dialogue: 0,0:19:52.59,0:19:56.46,Default,,0,0,0,,due to its newness and its strangeness.
+Dialogue: 0,0:19:56.46,0:19:58.46,Default,,0,0,0,,They felt stressed for a while
+Dialogue: 0,0:19:58.46,0:20:00.46,Default,,0,0,0,,but then adjusted to it and accepted
+Dialogue: 0,0:20:00.46,0:20:02.46,Default,,0,0,0,,sort of a heavenly condition in their life.
+Dialogue: 0,0:20:02.46,0:20:04.46,Default,,0,0,0,,But several of the people were acutely
+Dialogue: 0,0:20:04.46,0:20:05.46,Default,,0,0,0,,disturbed by it.
+Dialogue: 0,0:20:05.46,0:20:06.46,Default,,0,0,0,,Remember the person who played
+Dialogue: 0,0:20:06.46,0:20:09.46,Default,,0,0,0,,Ronald Coleman's brother in the movie
+Dialogue: 0,0:20:09.46,0:20:12.46,Default,,0,0,0,,became almost paranoid and agitated.
+Dialogue: 0,0:20:12.46,0:20:14.46,Default,,0,0,0,,Demanded to return to the real world.
+Dialogue: 0,0:20:14.46,0:20:18.46,Default,,0,0,0,,And a person who was stranded there
+Dialogue: 0,0:20:18.46,0:20:20.46,Default,,0,0,0,,from a previous plane accident
+Dialogue: 0,0:20:20.46,0:20:23.46,Default,,0,0,0,,by that time had actually become paranoid
+Dialogue: 0,0:20:23.46,0:20:26.46,Default,,0,0,0,,delusional and psychotic.
+Dialogue: 0,0:20:26.46,0:20:29.46,Default,,0,0,0,,And so how it was experienced
+Dialogue: 0,0:20:29.46,0:20:31.46,Default,,0,0,0,,by these different people then
+Dialogue: 0,0:20:31.46,0:20:34.46,Default,,0,0,0,,represented not a reaction to where
+Dialogue: 0,0:20:34.46,0:20:37.46,Default,,0,0,0,,they were but a reaction to their own position.
+Dialogue: 0,0:20:37.46,0:20:39.46,Default,,0,0,0,,And what they were talking about then
+Dialogue: 0,0:20:39.46,0:20:41.46,Default,,0,0,0,,was not what's out there
+Dialogue: 0,0:20:41.46,0:20:43.46,Default,,0,0,0,,but their own level of consciousness.
+Dialogue: 0,0:20:43.46,0:20:48.26,Default,,0,0,0,,I remember one time I was flying out of Ecuador
+Dialogue: 0,0:20:48.26,0:20:50.26,Default,,0,0,0,,and at that time there were only two planes
+Dialogue: 0,0:20:50.26,0:20:52.42,Default,,0,0,0,,a week going out of Ecuador.
+Dialogue: 0,0:20:52.42,0:20:55.42,Default,,0,0,0,,And so I got there for the Thursday plane
+Dialogue: 0,0:20:55.42,0:20:58.42,Default,,0,0,0,,and of course I had reservations
+Dialogue: 0,0:20:58.42,0:21:00.42,Default,,0,0,0,,many months in advance.
+Dialogue: 0,0:21:00.42,0:21:02.42,Default,,0,0,0,,When I got there the first thing they told me
+Dialogue: 0,0:21:02.42,0:21:04.42,Default,,0,0,0,,was that my name wasn't on the list.
+Dialogue: 0,0:21:04.42,0:21:06.67,Default,,0,0,0,,And the next thing they said was that
+Dialogue: 0,0:21:06.67,0:21:09.67,Default,,0,0,0,,the plane was not leaving on Thursday this week anyway.
+Dialogue: 0,0:21:09.67,0:21:11.67,Default,,0,0,0,,It wasn't leaving until Saturday.
+Dialogue: 0,0:21:11.67,0:21:15.02,Default,,0,0,0,,Well, for some reason it just seemed to be humorous.
+Dialogue: 0,0:21:15.02,0:21:17.02,Default,,0,0,0,,It seemed to be hilarious.
+Dialogue: 0,0:21:17.02,0:21:19.02,Default,,0,0,0,,Somehow when you're in Ecuador
+Dialogue: 0,0:21:19.02,0:21:22.02,Default,,0,0,0,,at 10,000 feet altitude and above
+Dialogue: 0,0:21:22.02,0:21:24.02,Default,,0,0,0,,the fact that the plane is going to be late
+Dialogue: 0,0:21:24.02,0:21:26.02,Default,,0,0,0,,in three days just doesn't mean a thing.
+Dialogue: 0,0:21:26.02,0:21:28.02,Default,,0,0,0,,Nobody got upset about it.
+Dialogue: 0,0:21:28.02,0:21:31.02,Default,,0,0,0,,And the interesting thing about the clock
+Dialogue: 0,0:21:31.02,0:21:34.57,Default,,0,0,0,,in the airport which hung in the middle of the ceiling
+Dialogue: 0,0:21:34.57,0:21:36.57,Default,,0,0,0,,was that the clock had stopped many years ago
+Dialogue: 0,0:21:36.57,0:21:38.57,Default,,0,0,0,,and nobody had even bothered to fix it.
+Dialogue: 0,0:21:38.57,0:21:41.57,Default,,0,0,0,,So you see the expectation then
+Dialogue: 0,0:21:41.57,0:21:44.57,Default,,0,0,0,,what is stressful coming out of this attitude.
+Dialogue: 0,0:21:44.57,0:21:47.57,Default,,0,0,0,,And so we had an easy going social attitude
+Dialogue: 0,0:21:47.57,0:21:50.57,Default,,0,0,0,,in which precision within the material world
+Dialogue: 0,0:21:50.57,0:21:52.57,Default,,0,0,0,,wasn't considered to be important.
+Dialogue: 0,0:21:52.57,0:21:56.57,Default,,0,0,0,,Human values were of greater importance.
+Dialogue: 0,0:21:56.57,0:21:58.57,Default,,0,0,0,,And because human values
+Dialogue: 0,0:21:58.57,0:22:01.57,Default,,0,0,0,,because of the convenience of the crew, etc.
+Dialogue: 0,0:22:01.57,0:22:03.57,Default,,0,0,0,,that was more important.
+Dialogue: 0,0:22:03.57,0:22:05.57,Default,,0,0,0,,And so nobody seemed to mind.
+Dialogue: 0,0:22:05.57,0:22:08.57,Default,,0,0,0,,If that had happened in a different social setting
+Dialogue: 0,0:22:08.57,0:22:10.57,Default,,0,0,0,,LaGuardia airport let's say
+Dialogue: 0,0:22:10.57,0:22:13.57,Default,,0,0,0,,that your Thursday plane is not leaving until Saturday
+Dialogue: 0,0:22:13.57,0:22:16.57,Default,,0,0,0,,you would have experienced it as stress.
+Dialogue: 0,0:22:16.57,0:22:19.57,Default,,0,0,0,,So the set and the setting, the expectation
+Dialogue: 0,0:22:19.57,0:22:22.57,Default,,0,0,0,,the cultural attitude that you buy into.
+Dialogue: 0,0:22:22.57,0:22:25.57,Default,,0,0,0,,In a different culture we buy a different attitude
+Dialogue: 0,0:22:25.57,0:22:27.57,Default,,0,0,0,,and in that culture
+Dialogue: 0,0:22:27.57,0:22:32.70,Default,,0,0,0,,this event was not even experienced as stressful.
+Dialogue: 0,0:22:32.70,0:22:34.70,Default,,0,0,0,,As a matter of fact
+Dialogue: 0,0:22:34.70,0:22:36.70,Default,,0,0,0,,when I got there for the Saturday noon plane
+Dialogue: 0,0:22:36.70,0:22:39.70,Default,,0,0,0,,it was due to leave at quarter to twelve.
+Dialogue: 0,0:22:39.70,0:22:41.70,Default,,0,0,0,,There was some kind of delay.
+Dialogue: 0,0:22:41.70,0:22:43.70,Default,,0,0,0,,It was the only plane on the runway.
+Dialogue: 0,0:22:43.70,0:22:45.70,Default,,0,0,0,,And the plane sat there
+Dialogue: 0,0:22:45.70,0:22:47.70,Default,,0,0,0,,and then suddenly it was twelve o'clock.
+Dialogue: 0,0:22:47.70,0:22:50.70,Default,,0,0,0,,At twelve o'clock they shut down for siesta.
+Dialogue: 0,0:22:50.70,0:22:53.70,Default,,0,0,0,,So not only did the Thursday plane not leave until Saturday
+Dialogue: 0,0:22:53.70,0:22:55.70,Default,,0,0,0,,it didn't leave at quarter to twelve
+Dialogue: 0,0:22:55.70,0:22:56.70,Default,,0,0,0,,it left at three o'clock.
+Dialogue: 0,0:22:56.70,0:22:58.70,Default,,0,0,0,,And so the plane sat there
+Dialogue: 0,0:22:58.70,0:23:00.70,Default,,0,0,0,,while everybody took a siesta.
+Dialogue: 0,0:23:00.70,0:23:01.70,Default,,0,0,0,,When the siesta was over
+Dialogue: 0,0:23:01.70,0:23:02.70,Default,,0,0,0,,everybody gathered their stuff
+Dialogue: 0,0:23:02.70,0:23:04.70,Default,,0,0,0,,got on the plane and away we went.
+Dialogue: 0,0:23:04.70,0:23:06.70,Default,,0,0,0,,Nobody upset.
+Dialogue: 0,0:23:06.70,0:23:09.70,Default,,0,0,0,,Everybody sort of totally relaxed at ease
+Dialogue: 0,0:23:09.70,0:23:10.70,Default,,0,0,0,,at peace.
+Dialogue: 0,0:23:10.70,0:23:12.73,Default,,0,0,0,,How can you be at peace
+Dialogue: 0,0:23:12.73,0:23:14.73,Default,,0,0,0,,with a three day delay in your plane?
+Dialogue: 0,0:23:14.73,0:23:17.73,Default,,0,0,0,,So within these experiences that we have cited
+Dialogue: 0,0:23:17.73,0:23:18.73,Default,,0,0,0,,is the key
+Dialogue: 0,0:23:18.73,0:23:21.73,Default,,0,0,0,,the key to the understanding of stress.
+Dialogue: 0,0:23:21.73,0:23:23.73,Default,,0,0,0,,Because when we talk about stress
+Dialogue: 0,0:23:23.73,0:23:25.73,Default,,0,0,0,,what we're really talking about then
+Dialogue: 0,0:23:25.73,0:23:29.73,Default,,0,0,0,,is the experience of what is stressful within consciousness.
+Dialogue: 0,0:23:29.73,0:23:31.73,Default,,0,0,0,,To consider the body
+Dialogue: 0,0:23:31.73,0:23:33.73,Default,,0,0,0,,as part of a stress response
+Dialogue: 0,0:23:33.73,0:23:35.73,Default,,0,0,0,,is a very late reaction.
+Dialogue: 0,0:23:35.73,0:23:39.30,Default,,0,0,0,,The body is only responding
+Dialogue: 0,0:23:39.30,0:23:41.30,Default,,0,0,0,,to what is held in mind.
+Dialogue: 0,0:23:41.30,0:23:44.30,Default,,0,0,0,,The body is only responding to that which is held in mind.
+Dialogue: 0,0:23:44.30,0:23:47.30,Default,,0,0,0,,And so by altering what we hold in mind
+Dialogue: 0,0:23:47.30,0:23:50.30,Default,,0,0,0,,our expectations, our way of being with life
+Dialogue: 0,0:23:50.30,0:23:53.30,Default,,0,0,0,,we can preclude the development of stress.
+Dialogue: 0,0:23:53.30,0:23:56.30,Default,,0,0,0,,I didn't have to go to a relaxation program
+Dialogue: 0,0:23:56.30,0:23:58.30,Default,,0,0,0,,to handle the stress
+Dialogue: 0,0:23:58.30,0:24:00.30,Default,,0,0,0,,of the plane being three days late.
+Dialogue: 0,0:24:00.30,0:24:02.30,Default,,0,0,0,,I didn't have to go to some kind of
+Dialogue: 0,0:24:02.30,0:24:05.30,Default,,0,0,0,,coronary exercise program
+Dialogue: 0,0:24:05.30,0:24:07.30,Default,,0,0,0,,to protect my heart from stress.
+Dialogue: 0,0:24:07.30,0:24:09.30,Default,,0,0,0,,There wasn't any stress.
+Dialogue: 0,0:24:09.30,0:24:12.30,Default,,0,0,0,,Consequently, the real approach to stress then
+Dialogue: 0,0:24:12.30,0:24:14.30,Default,,0,0,0,,is to prevent it in the first place.
+Dialogue: 0,0:24:14.30,0:24:15.30,Default,,0,0,0,,To preclude it.
+Dialogue: 0,0:24:15.30,0:24:17.30,Default,,0,0,0,,To understand how it arises
+Dialogue: 0,0:24:17.30,0:24:19.30,Default,,0,0,0,,and where it arises.
+Dialogue: 0,0:24:19.30,0:24:21.30,Default,,0,0,0,,So our first understanding
+Dialogue: 0,0:24:21.30,0:24:23.30,Default,,0,0,0,,and I think it's rather obvious by now
+Dialogue: 0,0:24:23.30,0:24:25.69,Default,,0,0,0,,from the examples we've given
+Dialogue: 0,0:24:25.69,0:24:28.69,Default,,0,0,0,,is that the source of what we experience as stress
+Dialogue: 0,0:24:28.69,0:24:30.69,Default,,0,0,0,,is within ourself.
+Dialogue: 0,0:24:30.69,0:24:32.69,Default,,0,0,0,,It does not exist in the world.
+Dialogue: 0,0:24:32.69,0:24:34.69,Default,,0,0,0,,It doesn't exist in plane schedules.
+Dialogue: 0,0:24:34.69,0:24:37.69,Default,,0,0,0,,It doesn't exist in prison cells.
+Dialogue: 0,0:24:37.69,0:24:39.69,Default,,0,0,0,,Nowhere does it exist
+Dialogue: 0,0:24:39.69,0:24:41.69,Default,,0,0,0,,except within our own consciousness.
+Dialogue: 0,0:24:41.69,0:24:44.69,Default,,0,0,0,,And so we need to go back then to this map
+Dialogue: 0,0:24:44.69,0:24:46.69,Default,,0,0,0,,to this field of consciousness
+Dialogue: 0,0:24:46.69,0:24:49.69,Default,,0,0,0,,and understand it a little bit more closely
+Dialogue: 0,0:24:49.69,0:24:51.69,Default,,0,0,0,,and then our awareness of this subject
+Dialogue: 0,0:24:51.69,0:24:53.69,Default,,0,0,0,,will advance rather rapidly
+Dialogue: 0,0:24:53.69,0:24:55.69,Default,,0,0,0,,because what we're talking about
+Dialogue: 0,0:24:55.69,0:24:56.69,Default,,0,0,0,,is really easy to get.
+Dialogue: 0,0:24:56.69,0:24:58.69,Default,,0,0,0,,It's something you really know already.
+Dialogue: 0,0:24:58.69,0:25:02.23,Default,,0,0,0,,It's just that we're going to bring it into awareness.
+Dialogue: 0,0:25:02.23,0:25:05.23,Default,,0,0,0,,We said that these energy fields
+Dialogue: 0,0:25:05.23,0:25:07.23,Default,,0,0,0,,on the bottom which are
+Dialogue: 0,0:25:07.23,0:25:09.23,Default,,0,0,0,,you might say adverse to life
+Dialogue: 0,0:25:09.23,0:25:11.23,Default,,0,0,0,,destructive of life
+Dialogue: 0,0:25:11.23,0:25:13.23,Default,,0,0,0,,we would call them stress
+Dialogue: 0,0:25:13.23,0:25:15.23,Default,,0,0,0,,just by their own nature
+Dialogue: 0,0:25:15.23,0:25:18.23,Default,,0,0,0,,that the energy field indicates a stressful direction.
+Dialogue: 0,0:25:18.23,0:25:20.23,Default,,0,0,0,,That we move above it to neutral
+Dialogue: 0,0:25:20.23,0:25:22.23,Default,,0,0,0,,we move in a positive direction
+Dialogue: 0,0:25:22.23,0:25:24.23,Default,,0,0,0,,to that which is unstressful.
+Dialogue: 0,0:25:24.23,0:25:27.23,Default,,0,0,0,,So that Shangri-La would be up here.
+Dialogue: 0,0:25:27.23,0:25:29.23,Default,,0,0,0,,All things are experienced
+Dialogue: 0,0:25:29.23,0:25:31.23,Default,,0,0,0,,in their beauty and perfection
+Dialogue: 0,0:25:31.23,0:25:33.23,Default,,0,0,0,,the oneness of life
+Dialogue: 0,0:25:33.23,0:25:35.23,Default,,0,0,0,,the unconditional love
+Dialogue: 0,0:25:35.23,0:25:36.23,Default,,0,0,0,,and the lovingness.
+Dialogue: 0,0:25:36.23,0:25:38.74,Default,,0,0,0,,So out of these energy fields
+Dialogue: 0,0:25:38.74,0:25:40.74,Default,,0,0,0,,out of these energy fields
+Dialogue: 0,0:25:40.74,0:25:43.74,Default,,0,0,0,,which are calibrated as to their relative power
+Dialogue: 0,0:25:43.74,0:25:45.74,Default,,0,0,0,,to the right of it we see
+Dialogue: 0,0:25:45.74,0:25:48.74,Default,,0,0,0,,the emotions that come out of that position
+Dialogue: 0,0:25:48.74,0:25:50.74,Default,,0,0,0,,that way of being with life.
+Dialogue: 0,0:25:50.74,0:25:53.74,Default,,0,0,0,,We see that those who are prone to guiltiness
+Dialogue: 0,0:25:53.74,0:25:54.74,Default,,0,0,0,,for instance
+Dialogue: 0,0:25:54.74,0:25:56.74,Default,,0,0,0,,the emotion is one of self-hatred.
+Dialogue: 0,0:25:56.74,0:25:59.74,Default,,0,0,0,,The experience of life is that it is destructive
+Dialogue: 0,0:25:59.74,0:26:00.74,Default,,0,0,0,,and as we said
+Dialogue: 0,0:26:00.74,0:26:03.74,Default,,0,0,0,,what they see is a world of suffering.
+Dialogue: 0,0:26:03.74,0:26:05.74,Default,,0,0,0,,They see a world of suffering.
+Dialogue: 0,0:26:05.74,0:26:08.84,Default,,0,0,0,,The person who is holding this position
+Dialogue: 0,0:26:08.84,0:26:10.84,Default,,0,0,0,,of apathy about life
+Dialogue: 0,0:26:10.84,0:26:13.84,Default,,0,0,0,,the emotion is one of hopelessness.
+Dialogue: 0,0:26:13.84,0:26:14.84,Default,,0,0,0,,Life is hopeless.
+Dialogue: 0,0:26:14.84,0:26:16.84,Default,,0,0,0,,Life is despair.
+Dialogue: 0,0:26:16.84,0:26:18.84,Default,,0,0,0,,There is a loss of energy.
+Dialogue: 0,0:26:18.84,0:26:20.84,Default,,0,0,0,,The world is seen as hopeless
+Dialogue: 0,0:26:20.84,0:26:23.84,Default,,0,0,0,,and the god of such a world is dead.
+Dialogue: 0,0:26:23.84,0:26:26.58,Default,,0,0,0,,If we move out of apathy
+Dialogue: 0,0:26:26.58,0:26:29.58,Default,,0,0,0,,if we pour enough energy into a person in apathy
+Dialogue: 0,0:26:29.58,0:26:31.58,Default,,0,0,0,,we can get them up to grief.
+Dialogue: 0,0:26:31.58,0:26:34.58,Default,,0,0,0,,Grief is a state in which you can express emotion.
+Dialogue: 0,0:26:34.58,0:26:37.58,Default,,0,0,0,,It has a certain biologic purpose.
+Dialogue: 0,0:26:37.58,0:26:39.58,Default,,0,0,0,,The expression of grief
+Dialogue: 0,0:26:39.58,0:26:41.58,Default,,0,0,0,,like the crying of the child brings the mother
+Dialogue: 0,0:26:41.58,0:26:44.58,Default,,0,0,0,,has a certain biologic purpose.
+Dialogue: 0,0:26:44.58,0:26:46.58,Default,,0,0,0,,Those who are in that energy field
+Dialogue: 0,0:26:46.58,0:26:48.58,Default,,0,0,0,,are looking to the past
+Dialogue: 0,0:26:48.58,0:26:50.58,Default,,0,0,0,,and they see their life
+Dialogue: 0,0:26:50.58,0:26:52.58,Default,,0,0,0,,filled with regret and loss.
+Dialogue: 0,0:26:52.58,0:26:54.58,Default,,0,0,0,,They become dispirited.
+Dialogue: 0,0:26:54.58,0:26:57.58,Default,,0,0,0,,They experience this as a sad world
+Dialogue: 0,0:26:57.58,0:27:00.58,Default,,0,0,0,,and the god of that world ignores you.
+Dialogue: 0,0:27:00.58,0:27:02.58,Default,,0,0,0,,We said that the person who is coming from
+Dialogue: 0,0:27:02.58,0:27:05.58,Default,,0,0,0,,the suppressed energy field of fear
+Dialogue: 0,0:27:05.58,0:27:07.58,Default,,0,0,0,,is looking to life
+Dialogue: 0,0:27:07.58,0:27:10.58,Default,,0,0,0,,filled with worry and anxiety.
+Dialogue: 0,0:27:10.58,0:27:14.18,Default,,0,0,0,,They experience life as frightening.
+Dialogue: 0,0:27:14.18,0:27:16.18,Default,,0,0,0,,Now what is life?
+Dialogue: 0,0:27:16.18,0:27:18.18,Default,,0,0,0,,This is a view of the world.
+Dialogue: 0,0:27:18.18,0:27:19.18,Default,,0,0,0,,The view of life.
+Dialogue: 0,0:27:19.18,0:27:20.18,Default,,0,0,0,,What is it?
+Dialogue: 0,0:27:20.18,0:27:23.18,Default,,0,0,0,,What is the thing in and of itself?
+Dialogue: 0,0:27:23.18,0:27:26.18,Default,,0,0,0,,Is it coming out of the event?
+Dialogue: 0,0:27:26.18,0:27:29.18,Default,,0,0,0,,We see then that these fields of energy
+Dialogue: 0,0:27:29.18,0:27:31.18,Default,,0,0,0,,are really portholes.
+Dialogue: 0,0:27:31.18,0:27:34.18,Default,,0,0,0,,They are ways in which we see the world.
+Dialogue: 0,0:27:34.18,0:27:37.18,Default,,0,0,0,,It is the color of the glasses that we put on.
+Dialogue: 0,0:27:37.18,0:27:40.18,Default,,0,0,0,,If we put on gray glasses coming out of grief
+Dialogue: 0,0:27:40.18,0:27:42.18,Default,,0,0,0,,everything looks sad.
+Dialogue: 0,0:27:42.18,0:27:44.73,Default,,0,0,0,,A person walking down the street
+Dialogue: 0,0:27:44.73,0:27:47.73,Default,,0,0,0,,who is coming from this energy field
+Dialogue: 0,0:27:47.73,0:27:50.73,Default,,0,0,0,,sees everything on the street as hopeless.
+Dialogue: 0,0:27:50.73,0:27:52.73,Default,,0,0,0,,He looks at man and man's conditions.
+Dialogue: 0,0:27:52.73,0:27:55.73,Default,,0,0,0,,He opens the paper and he sees hopelessness.
+Dialogue: 0,0:27:55.73,0:27:57.73,Default,,0,0,0,,Man's condition is hopeless.
+Dialogue: 0,0:27:57.73,0:27:59.73,Default,,0,0,0,,As he walks down the street
+Dialogue: 0,0:27:59.73,0:28:00.73,Default,,0,0,0,,he looks at the old people
+Dialogue: 0,0:28:00.73,0:28:03.73,Default,,0,0,0,,and he sees how hopeless their condition is.
+Dialogue: 0,0:28:03.73,0:28:05.73,Default,,0,0,0,,He looks at the children
+Dialogue: 0,0:28:05.73,0:28:07.73,Default,,0,0,0,,and he sees how hopeless it is.
+Dialogue: 0,0:28:07.73,0:28:08.73,Default,,0,0,0,,They are going to have to grow up
+Dialogue: 0,0:28:08.73,0:28:10.73,Default,,0,0,0,,in a world of hopelessness.
+Dialogue: 0,0:28:10.73,0:28:12.73,Default,,0,0,0,,The person who is sad
+Dialogue: 0,0:28:12.73,0:28:13.73,Default,,0,0,0,,walks down the street
+Dialogue: 0,0:28:13.73,0:28:15.73,Default,,0,0,0,,and they literally experience
+Dialogue: 0,0:28:15.73,0:28:17.73,Default,,0,0,0,,their perception is one of sadness.
+Dialogue: 0,0:28:17.73,0:28:19.73,Default,,0,0,0,,When they open the newspaper
+Dialogue: 0,0:28:19.73,0:28:21.73,Default,,0,0,0,,they see all that there is
+Dialogue: 0,0:28:21.73,0:28:23.73,Default,,0,0,0,,to be sad about in the world.
+Dialogue: 0,0:28:23.73,0:28:24.73,Default,,0,0,0,,As they walk down the street
+Dialogue: 0,0:28:24.73,0:28:27.73,Default,,0,0,0,,they see the sadness of man's condition.
+Dialogue: 0,0:28:27.73,0:28:29.73,Default,,0,0,0,,They see the trash on the street.
+Dialogue: 0,0:28:29.73,0:28:30.73,Default,,0,0,0,,They look at the old people
+Dialogue: 0,0:28:30.73,0:28:31.73,Default,,0,0,0,,and they think how sad,
+Dialogue: 0,0:28:31.73,0:28:33.73,Default,,0,0,0,,how sad aging is.
+Dialogue: 0,0:28:33.73,0:28:34.73,Default,,0,0,0,,They look at the children
+Dialogue: 0,0:28:34.73,0:28:36.73,Default,,0,0,0,,and they feel sorry for them.
+Dialogue: 0,0:28:36.73,0:28:38.73,Default,,0,0,0,,They think how sad.
+Dialogue: 0,0:28:38.73,0:28:39.73,Default,,0,0,0,,They pity the children,
+Dialogue: 0,0:28:39.73,0:28:40.73,Default,,0,0,0,,the kind of a world
+Dialogue: 0,0:28:40.73,0:28:42.73,Default,,0,0,0,,they are going to have to grow up in.
+Dialogue: 0,0:28:42.73,0:28:44.73,Default,,0,0,0,,You know the pain of life.
+Dialogue: 0,0:28:44.73,0:28:45.73,Default,,0,0,0,,They are holding so much pain
+Dialogue: 0,0:28:45.73,0:28:47.73,Default,,0,0,0,,that the pity expresses itself now.
+Dialogue: 0,0:28:47.73,0:28:49.73,Default,,0,0,0,,How sad for these children.
+Dialogue: 0,0:28:49.73,0:28:52.53,Default,,0,0,0,,The person who is coming from
+Dialogue: 0,0:28:52.53,0:28:54.53,Default,,0,0,0,,the energy field of fear
+Dialogue: 0,0:28:54.53,0:28:56.53,Default,,0,0,0,,sees and experiences
+Dialogue: 0,0:28:56.53,0:28:57.53,Default,,0,0,0,,and creates in his world
+Dialogue: 0,0:28:57.53,0:28:59.53,Default,,0,0,0,,the experience of that which is fearful.
+Dialogue: 0,0:29:00.53,0:29:03.53,Default,,0,0,0,,So the person opens the newspaper.
+Dialogue: 0,0:29:03.53,0:29:05.53,Default,,0,0,0,,He reads the same newspaper
+Dialogue: 0,0:29:05.53,0:29:08.53,Default,,0,0,0,,and he sees how fearful this world is.
+Dialogue: 0,0:29:08.53,0:29:09.53,Default,,0,0,0,,Killings and murder
+Dialogue: 0,0:29:09.53,0:29:11.53,Default,,0,0,0,,and muggings and war and bombings.
+Dialogue: 0,0:29:11.53,0:29:14.17,Default,,0,0,0,,He walks down the street
+Dialogue: 0,0:29:14.17,0:29:16.17,Default,,0,0,0,,and he sees how frightening is the world.
+Dialogue: 0,0:29:16.17,0:29:18.17,Default,,0,0,0,,He sees the, you know,
+Dialogue: 0,0:29:18.17,0:29:19.17,Default,,0,0,0,,the chance for accidents.
+Dialogue: 0,0:29:19.17,0:29:21.17,Default,,0,0,0,,He sees people can twist their
+Dialogue: 0,0:29:21.17,0:29:22.17,Default,,0,0,0,,ankle on the curb.
+Dialogue: 0,0:29:22.17,0:29:25.17,Default,,0,0,0,,There should be warning signs all over.
+Dialogue: 0,0:29:25.17,0:29:26.17,Default,,0,0,0,,The person who sees this
+Dialogue: 0,0:29:26.17,0:29:27.17,Default,,0,0,0,,as a frightening world
+Dialogue: 0,0:29:27.17,0:29:29.17,Default,,0,0,0,,double locks everything.
+Dialogue: 0,0:29:29.17,0:29:30.17,Default,,0,0,0,,You know I know people
+Dialogue: 0,0:29:30.17,0:29:32.17,Default,,0,0,0,,who double lock their car
+Dialogue: 0,0:29:32.17,0:29:33.17,Default,,0,0,0,,within their own double lock garage,
+Dialogue: 0,0:29:33.17,0:29:35.17,Default,,0,0,0,,within their own double lock yard
+Dialogue: 0,0:29:35.17,0:29:38.17,Default,,0,0,0,,in an area which has never had a robbery.
+Dialogue: 0,0:29:38.17,0:29:42.46,Default,,0,0,0,,Anyway, the fear then is coming from within
+Dialogue: 0,0:29:42.46,0:29:44.46,Default,,0,0,0,,and it projects onto the world
+Dialogue: 0,0:29:44.46,0:29:46.46,Default,,0,0,0,,a frightening appearance.
+Dialogue: 0,0:29:46.46,0:29:48.46,Default,,0,0,0,,If you have got fear colored glasses,
+Dialogue: 0,0:29:48.46,0:29:50.46,Default,,0,0,0,,everything looks like fear.
+Dialogue: 0,0:29:50.46,0:29:52.46,Default,,0,0,0,,And if you search for God,
+Dialogue: 0,0:29:52.46,0:29:54.46,Default,,0,0,0,,you would see a fearful God, you know.
+Dialogue: 0,0:29:54.46,0:29:56.46,Default,,0,0,0,,The God of a frightening world
+Dialogue: 0,0:29:56.46,0:29:58.46,Default,,0,0,0,,is someone to be afraid of.
+Dialogue: 0,0:29:58.46,0:30:01.19,Default,,0,0,0,,The person who moves up in the street
+Dialogue: 0,0:30:01.19,0:30:03.19,Default,,0,0,0,,into a higher energy field
+Dialogue: 0,0:30:03.19,0:30:05.19,Default,,0,0,0,,of desiringness and wantingness,
+Dialogue: 0,0:30:05.19,0:30:08.19,Default,,0,0,0,,often this comes about merely by education.
+Dialogue: 0,0:30:08.19,0:30:10.19,Default,,0,0,0,,Let's say people at the bottom
+Dialogue: 0,0:30:10.19,0:30:13.19,Default,,0,0,0,,into hopelessness through television,
+Dialogue: 0,0:30:13.19,0:30:15.19,Default,,0,0,0,,the whole third world,
+Dialogue: 0,0:30:15.19,0:30:18.19,Default,,0,0,0,,segments of the lowest socioeconomic groups
+Dialogue: 0,0:30:18.19,0:30:20.19,Default,,0,0,0,,in our society in the last 20 years,
+Dialogue: 0,0:30:20.19,0:30:21.19,Default,,0,0,0,,or 30 years.
+Dialogue: 0,0:30:21.19,0:30:23.19,Default,,0,0,0,,When television came along,
+Dialogue: 0,0:30:23.19,0:30:26.22,Default,,0,0,0,,began to see that which other people have.
+Dialogue: 0,0:30:26.22,0:30:30.38,Default,,0,0,0,,What came up out of that was desire, desire.
+Dialogue: 0,0:30:30.38,0:30:32.38,Default,,0,0,0,,This is felt in the emotional field then,
+Dialogue: 0,0:30:32.38,0:30:34.38,Default,,0,0,0,,as wanting and craving.
+Dialogue: 0,0:30:34.38,0:30:36.38,Default,,0,0,0,,This expresses itself in its fullest
+Dialogue: 0,0:30:36.38,0:30:38.38,Default,,0,0,0,,in the addictions.
+Dialogue: 0,0:30:38.38,0:30:40.38,Default,,0,0,0,,The process going on in consciousness
+Dialogue: 0,0:30:40.38,0:30:42.38,Default,,0,0,0,,is one of entrapment
+Dialogue: 0,0:30:42.38,0:30:44.38,Default,,0,0,0,,because once you desire something,
+Dialogue: 0,0:30:44.38,0:30:46.38,Default,,0,0,0,,you begin to want it,
+Dialogue: 0,0:30:46.38,0:30:49.38,Default,,0,0,0,,you then experience this world as frustrating.
+Dialogue: 0,0:30:49.38,0:30:53.38,Default,,0,0,0,,So the stress then that this person experiences
+Dialogue: 0,0:30:53.38,0:30:55.38,Default,,0,0,0,,is the endless frustration
+Dialogue: 0,0:30:55.38,0:30:57.38,Default,,0,0,0,,because coming out of that sort of
+Dialogue: 0,0:30:57.38,0:30:59.38,Default,,0,0,0,,solar plexus endless wantingness,
+Dialogue: 0,0:30:59.38,0:31:02.38,Default,,0,0,0,,it's the person who is never satisfied,
+Dialogue: 0,0:31:02.38,0:31:04.38,Default,,0,0,0,,no matter what they get.
+Dialogue: 0,0:31:04.38,0:31:07.38,Default,,0,0,0,,They're always wanting something more.
+Dialogue: 0,0:31:07.38,0:31:09.38,Default,,0,0,0,,If they get you to concede to their wishes,
+Dialogue: 0,0:31:09.38,0:31:11.38,Default,,0,0,0,,they bring up more wishes.
+Dialogue: 0,0:31:11.38,0:31:13.38,Default,,0,0,0,,It seems like it's an endless control
+Dialogue: 0,0:31:13.38,0:31:15.38,Default,,0,0,0,,that they want over life.
+Dialogue: 0,0:31:15.38,0:31:17.38,Default,,0,0,0,,They see this as a very frustrating world
+Dialogue: 0,0:31:17.38,0:31:20.38,Default,,0,0,0,,and so as they walk down the street,
+Dialogue: 0,0:31:20.38,0:31:22.38,Default,,0,0,0,,they see all the things they want.
+Dialogue: 0,0:31:22.38,0:31:24.38,Default,,0,0,0,,They see the cars that they want,
+Dialogue: 0,0:31:24.38,0:31:26.38,Default,,0,0,0,,they see the kind of appearance,
+Dialogue: 0,0:31:26.38,0:31:28.38,Default,,0,0,0,,they see the appurtenances that they want,
+Dialogue: 0,0:31:28.38,0:31:30.38,Default,,0,0,0,,they see the addresses that they want.
+Dialogue: 0,0:31:30.38,0:31:32.38,Default,,0,0,0,,As they open the newspaper,
+Dialogue: 0,0:31:32.38,0:31:34.38,Default,,0,0,0,,they're seeing all the things that they want.
+Dialogue: 0,0:31:34.38,0:31:37.38,Default,,0,0,0,,They want to change the world they want to get.
+Dialogue: 0,0:31:37.38,0:31:40.74,Default,,0,0,0,,So this endless addiction to getting this
+Dialogue: 0,0:31:40.74,0:31:42.74,Default,,0,0,0,,then creates an endless stress.
+Dialogue: 0,0:31:42.74,0:31:44.74,Default,,0,0,0,,This stress, as you see,
+Dialogue: 0,0:31:44.74,0:31:46.74,Default,,0,0,0,,is coming from within the self.
+Dialogue: 0,0:31:46.74,0:31:49.74,Default,,0,0,0,,There is no refusal on the part of the world
+Dialogue: 0,0:31:49.74,0:31:51.74,Default,,0,0,0,,to come to you.
+Dialogue: 0,0:31:51.74,0:31:55.44,Default,,0,0,0,,It's your endless desiringness for it.
+Dialogue: 0,0:31:55.44,0:31:58.44,Default,,0,0,0,,The person who, out of this frustration then,
+Dialogue: 0,0:31:58.44,0:31:59.44,Default,,0,0,0,,moves up to anger,
+Dialogue: 0,0:31:59.44,0:32:02.44,Default,,0,0,0,,begins to experience this as an angry world.
+Dialogue: 0,0:32:02.44,0:32:04.44,Default,,0,0,0,,They're full of resentment,
+Dialogue: 0,0:32:04.44,0:32:07.44,Default,,0,0,0,,they're boiling over with hate and grievance.
+Dialogue: 0,0:32:07.44,0:32:09.44,Default,,0,0,0,,What happens with a person like this
+Dialogue: 0,0:32:09.44,0:32:13.44,Default,,0,0,0,,is the suppressed energy now of the angriness
+Dialogue: 0,0:32:13.44,0:32:17.44,Default,,0,0,0,,is ready to spill forth in any event.
+Dialogue: 0,0:32:17.44,0:32:20.44,Default,,0,0,0,,They see this world as competitive.
+Dialogue: 0,0:32:20.44,0:32:21.44,Default,,0,0,0,,So to this person,
+Dialogue: 0,0:32:21.44,0:32:24.44,Default,,0,0,0,,because of the kind of glasses they're wearing,
+Dialogue: 0,0:32:24.44,0:32:26.44,Default,,0,0,0,,they're wearing angry glasses,
+Dialogue: 0,0:32:26.44,0:32:28.54,Default,,0,0,0,,when they open the newspaper,
+Dialogue: 0,0:32:28.54,0:32:31.54,Default,,0,0,0,,their stomach churns with wrath and indignation
+Dialogue: 0,0:32:31.54,0:32:34.54,Default,,0,0,0,,and anger over the events that they're reading about.
+Dialogue: 0,0:32:34.54,0:32:36.70,Default,,0,0,0,,As they walk down the street,
+Dialogue: 0,0:32:36.70,0:32:38.70,Default,,0,0,0,,they see many things to be angry about.
+Dialogue: 0,0:32:38.70,0:32:39.70,Default,,0,0,0,,All the conditions,
+Dialogue: 0,0:32:39.70,0:32:41.70,Default,,0,0,0,,the conditions of the street signs,
+Dialogue: 0,0:32:41.70,0:32:42.70,Default,,0,0,0,,the conditions of the street,
+Dialogue: 0,0:32:42.70,0:32:45.70,Default,,0,0,0,,the newspapers there on the street now make them angry.
+Dialogue: 0,0:32:45.70,0:32:48.70,Default,,0,0,0,,They look at the children, that makes them angry.
+Dialogue: 0,0:32:48.70,0:32:49.70,Default,,0,0,0,,They look at the old folks.
+Dialogue: 0,0:32:49.70,0:32:52.70,Default,,0,0,0,,They think of their conditions and they become angry.
+Dialogue: 0,0:32:52.70,0:32:54.70,Default,,0,0,0,,So they live in a world of injustice,
+Dialogue: 0,0:32:54.70,0:32:56.70,Default,,0,0,0,,indignation,
+Dialogue: 0,0:32:56.70,0:32:58.70,Default,,0,0,0,,a competitive world,
+Dialogue: 0,0:32:58.70,0:33:00.70,Default,,0,0,0,,if they have a used car lot,
+Dialogue: 0,0:33:00.70,0:33:01.70,Default,,0,0,0,,you know, sell used cars.
+Dialogue: 0,0:33:01.70,0:33:04.70,Default,,0,0,0,,If somebody else opens another used car lot down the street,
+Dialogue: 0,0:33:04.70,0:33:06.70,Default,,0,0,0,,they consider this competition.
+Dialogue: 0,0:33:06.70,0:33:08.70,Default,,0,0,0,,They look at it like lose,
+Dialogue: 0,0:33:08.70,0:33:09.70,Default,,0,0,0,,they're going to lose
+Dialogue: 0,0:33:09.70,0:33:13.70,Default,,0,0,0,,because these people live in a win-lose world.
+Dialogue: 0,0:33:13.70,0:33:16.70,Default,,0,0,0,,Therefore, the stomach is always tense.
+Dialogue: 0,0:33:16.70,0:33:21.70,Default,,0,0,0,,They haven't moved up to a higher level of harmony and cooperation.
+Dialogue: 0,0:33:21.70,0:33:23.86,Default,,0,0,0,,Consequently, they don't realize
+Dialogue: 0,0:33:23.86,0:33:25.86,Default,,0,0,0,,that the more used car lots on the street,
+Dialogue: 0,0:33:25.86,0:33:26.86,Default,,0,0,0,,the better for business.
+Dialogue: 0,0:33:26.86,0:33:28.86,Default,,0,0,0,,They would see it as competition.
+Dialogue: 0,0:33:28.86,0:33:31.86,Default,,0,0,0,,So the world becomes a threatening place.
+Dialogue: 0,0:33:31.86,0:33:33.86,Default,,0,0,0,,The god of that kind of a universe
+Dialogue: 0,0:33:33.86,0:33:36.02,Default,,0,0,0,,would be the god of war.
+Dialogue: 0,0:33:36.02,0:33:38.02,Default,,0,0,0,,So out of this angriness,
+Dialogue: 0,0:33:38.02,0:33:41.02,Default,,0,0,0,,these are warlike people ready for combat.
+Dialogue: 0,0:33:41.02,0:33:43.02,Default,,0,0,0,,They have a chip on their shoulder.
+Dialogue: 0,0:33:43.02,0:33:47.69,Default,,0,0,0,,That anger is ready to burst forth.
+Dialogue: 0,0:33:47.69,0:33:49.69,Default,,0,0,0,,The world is very stressful then.
+Dialogue: 0,0:33:49.69,0:33:50.69,Default,,0,0,0,,Why?
+Dialogue: 0,0:33:50.69,0:33:52.69,Default,,0,0,0,,Because of the suppressed anger.
+Dialogue: 0,0:33:52.69,0:33:55.69,Default,,0,0,0,,So somebody should back into their fender in the parking lot.
+Dialogue: 0,0:33:55.69,0:33:57.69,Default,,0,0,0,,Up comes the anger.
+Dialogue: 0,0:33:57.69,0:33:58.69,Default,,0,0,0,,Up comes the cursing.
+Dialogue: 0,0:33:58.69,0:34:00.69,Default,,0,0,0,,Up comes the threat of the lawsuit,
+Dialogue: 0,0:34:00.69,0:34:02.69,Default,,0,0,0,,the angriness.
+Dialogue: 0,0:34:02.69,0:34:04.88,Default,,0,0,0,,If a person can move up to pride,
+Dialogue: 0,0:34:04.88,0:34:06.88,Default,,0,0,0,,and there's a lot of energy in pride,
+Dialogue: 0,0:34:06.88,0:34:09.88,Default,,0,0,0,,you see these are all negative destructive emotions.
+Dialogue: 0,0:34:09.88,0:34:12.88,Default,,0,0,0,,Pride, although we like to think of it as constructive,
+Dialogue: 0,0:34:12.88,0:34:14.88,Default,,0,0,0,,in essence it is really destructive.
+Dialogue: 0,0:34:14.88,0:34:15.88,Default,,0,0,0,,Why?
+Dialogue: 0,0:34:15.88,0:34:19.88,Default,,0,0,0,,Because pride is denial.
+Dialogue: 0,0:34:19.88,0:34:22.88,Default,,0,0,0,,Its expression is really one of arrogance and contempt.
+Dialogue: 0,0:34:22.88,0:34:25.88,Default,,0,0,0,,And because the process going on in consciousness
+Dialogue: 0,0:34:25.88,0:34:27.88,Default,,0,0,0,,is one of inflation.
+Dialogue: 0,0:34:27.88,0:34:32.88,Default,,0,0,0,,The prideful person then becomes very polarized in his positions.
+Dialogue: 0,0:34:32.88,0:34:35.88,Default,,0,0,0,,He's prideful like the angry person.
+Dialogue: 0,0:34:35.88,0:34:40.88,Default,,0,0,0,,His position is right and they live in a world of right and wrong.
+Dialogue: 0,0:34:40.88,0:34:42.88,Default,,0,0,0,,It's a world of win-lose.
+Dialogue: 0,0:34:42.88,0:34:46.88,Default,,0,0,0,,Therefore there is always a stress going on within that person
+Dialogue: 0,0:34:46.88,0:34:50.88,Default,,0,0,0,,because they see all relationships and interactions and transactions
+Dialogue: 0,0:34:50.88,0:34:52.88,Default,,0,0,0,,in terms of win-lose.
+Dialogue: 0,0:34:52.88,0:34:55.88,Default,,0,0,0,,And the win-lose is about status.
+Dialogue: 0,0:34:55.88,0:34:57.88,Default,,0,0,0,,It has to do with
+Dialogue: 0,0:34:57.88,0:34:59.88,Default,,0,0,0,,ownership.
+Dialogue: 0,0:34:59.88,0:35:03.23,Default,,0,0,0,,So that person, when he reads the newspaper,
+Dialogue: 0,0:35:03.23,0:35:06.23,Default,,0,0,0,,is seeing the status of all that is involved.
+Dialogue: 0,0:35:06.23,0:35:09.23,Default,,0,0,0,,The status of the people that is being written about.
+Dialogue: 0,0:35:09.23,0:35:13.23,Default,,0,0,0,,When he walks down the street, he sees nothing but symbols of status.
+Dialogue: 0,0:35:13.23,0:35:15.23,Default,,0,0,0,,The labels on clothes,
+Dialogue: 0,0:35:15.23,0:35:16.23,Default,,0,0,0,,the addresses,
+Dialogue: 0,0:35:16.23,0:35:19.23,Default,,0,0,0,,all these things about life now become status.
+Dialogue: 0,0:35:19.23,0:35:21.23,Default,,0,0,0,,And they're very interested in who you are
+Dialogue: 0,0:35:21.23,0:35:23.23,Default,,0,0,0,,from a status viewpoint.
+Dialogue: 0,0:35:23.23,0:35:26.23,Default,,0,0,0,,These are all vulnerable positions as you can see.
+Dialogue: 0,0:35:26.23,0:35:27.23,Default,,0,0,0,,They're all positions
+Dialogue: 0,0:35:27.23,0:35:29.23,Default,,0,0,0,,of victim really
+Dialogue: 0,0:35:29.23,0:35:33.23,Default,,0,0,0,,because all of these positions below the level of truth
+Dialogue: 0,0:35:33.23,0:35:36.23,Default,,0,0,0,,project the source of happiness as outside yourself.
+Dialogue: 0,0:35:36.23,0:35:38.23,Default,,0,0,0,,It gives your power away.
+Dialogue: 0,0:35:38.23,0:35:41.23,Default,,0,0,0,,It says the source of meaning,
+Dialogue: 0,0:35:41.23,0:35:43.23,Default,,0,0,0,,the source of happiness,
+Dialogue: 0,0:35:43.23,0:35:46.23,Default,,0,0,0,,the source of value is something outside myself.
+Dialogue: 0,0:35:46.23,0:35:48.23,Default,,0,0,0,,It's somewhere out there.
+Dialogue: 0,0:35:48.23,0:35:51.23,Default,,0,0,0,,It's coming from lack because it's saying if it's out there
+Dialogue: 0,0:35:51.23,0:35:53.23,Default,,0,0,0,,it's something I have to get.
+Dialogue: 0,0:35:53.23,0:35:56.23,Default,,0,0,0,,If it's something I have to get it means I lack it.
+Dialogue: 0,0:35:56.23,0:35:59.23,Default,,0,0,0,,It means something could stand in my way.
+Dialogue: 0,0:35:59.23,0:36:03.23,Default,,0,0,0,,And so to live in that kind of a world is to always live in danger.
+Dialogue: 0,0:36:03.23,0:36:05.23,Default,,0,0,0,,Always live under threat
+Dialogue: 0,0:36:05.23,0:36:08.23,Default,,0,0,0,,because something outside of yourself,
+Dialogue: 0,0:36:08.23,0:36:09.23,Default,,0,0,0,,you can be blocked from it.
+Dialogue: 0,0:36:09.23,0:36:10.23,Default,,0,0,0,,It can be taken away.
+Dialogue: 0,0:36:10.23,0:36:12.23,Default,,0,0,0,,The world of victimhood.
+Dialogue: 0,0:36:12.23,0:36:15.23,Default,,0,0,0,,Victimhood because we've given away our power to the world.
+Dialogue: 0,0:36:15.23,0:36:19.23,Default,,0,0,0,,We say that the source of happiness is out there.
+Dialogue: 0,0:36:19.23,0:36:22.36,Default,,0,0,0,,The source of stress is out there.
+Dialogue: 0,0:36:22.36,0:36:25.36,Default,,0,0,0,,There's no hope for relieving stress by changing the world.
+Dialogue: 0,0:36:25.36,0:36:27.36,Default,,0,0,0,,Why is that?
+Dialogue: 0,0:36:27.36,0:36:30.36,Default,,0,0,0,,Because stress doesn't exist in the world.
+Dialogue: 0,0:36:30.36,0:36:33.36,Default,,0,0,0,,Stress is an inexperience within consciousness itself.
+Dialogue: 0,0:36:33.36,0:36:38.36,Default,,0,0,0,,There's no way you can change the world to relieve stress.
+Dialogue: 0,0:36:38.36,0:36:39.71,Default,,0,0,0,,What can we do?
+Dialogue: 0,0:36:39.71,0:36:42.71,Default,,0,0,0,,We can own, begin to own the truth about it,
+Dialogue: 0,0:36:42.71,0:36:44.71,Default,,0,0,0,,to have the courage to look at the facts.
+Dialogue: 0,0:36:44.71,0:36:47.71,Default,,0,0,0,,The minute we do that we change the energy field.
+Dialogue: 0,0:36:47.71,0:36:50.71,Default,,0,0,0,,We see that the needle now goes to neutral.
+Dialogue: 0,0:36:50.71,0:36:53.71,Default,,0,0,0,,We're coming out of destructive on our way into positive.
+Dialogue: 0,0:36:53.71,0:36:56.35,Default,,0,0,0,,When we're willing to face something,
+Dialogue: 0,0:36:56.35,0:36:57.35,Default,,0,0,0,,face the facts,
+Dialogue: 0,0:36:57.35,0:36:59.35,Default,,0,0,0,,to face, cope and handle it,
+Dialogue: 0,0:36:59.35,0:37:01.35,Default,,0,0,0,,what happens is we become re-empowered.
+Dialogue: 0,0:37:01.35,0:37:05.35,Default,,0,0,0,,That means we begin to own back the power to ourself now.
+Dialogue: 0,0:37:05.35,0:37:08.96,Default,,0,0,0,,We're coming closer to the truth.
+Dialogue: 0,0:37:08.96,0:37:10.96,Default,,0,0,0,,And a prisoner who's on the level of courage,
+Dialogue: 0,0:37:10.96,0:37:13.96,Default,,0,0,0,,what kind of a world does that person see?
+Dialogue: 0,0:37:13.96,0:37:16.96,Default,,0,0,0,,They see a world of challenge, of growth and of opportunity.
+Dialogue: 0,0:37:16.96,0:37:18.96,Default,,0,0,0,,An exciting, fun world.
+Dialogue: 0,0:37:18.96,0:37:20.96,Default,,0,0,0,,A place where you're glad to be alive.
+Dialogue: 0,0:37:20.96,0:37:23.96,Default,,0,0,0,,And so that same person opens the newspaper
+Dialogue: 0,0:37:23.96,0:37:26.96,Default,,0,0,0,,and he sees all the tremendous opportunities
+Dialogue: 0,0:37:26.96,0:37:30.96,Default,,0,0,0,,for man to move into and solve and resolve this problem.
+Dialogue: 0,0:37:30.96,0:37:32.96,Default,,0,0,0,,And he has all kinds of problems,
+Dialogue: 0,0:37:32.96,0:37:34.96,Default,,0,0,0,,you know, solving things in his own mind.
+Dialogue: 0,0:37:34.96,0:37:36.96,Default,,0,0,0,,He just wishes he could try.
+Dialogue: 0,0:37:36.96,0:37:40.96,Default,,0,0,0,,So it becomes an exciting world then of opportunity and growth,
+Dialogue: 0,0:37:40.96,0:37:41.96,Default,,0,0,0,,which he begins to ask,
+Dialogue: 0,0:37:41.96,0:37:42.96,Default,,0,0,0,,where can I fit in?
+Dialogue: 0,0:37:42.96,0:37:45.96,Default,,0,0,0,,Where can I start expressing myself
+Dialogue: 0,0:37:45.96,0:37:48.96,Default,,0,0,0,,and experiencing some of these opportunities?
+Dialogue: 0,0:37:48.96,0:37:50.96,Default,,0,0,0,,The kind of a God that he experiences
+Dialogue: 0,0:37:50.96,0:37:52.96,Default,,0,0,0,,of this world of opportunity
+Dialogue: 0,0:37:52.96,0:37:55.96,Default,,0,0,0,,is a God of open-mindedness.
+Dialogue: 0,0:37:55.96,0:37:58.96,Default,,0,0,0,,So the open mind now begins to change,
+Dialogue: 0,0:37:58.96,0:38:01.96,Default,,0,0,0,,obviously, that which is stressful.
+Dialogue: 0,0:38:01.96,0:38:03.96,Default,,0,0,0,,That which is stressful down here
+Dialogue: 0,0:38:03.96,0:38:06.96,Default,,0,0,0,,becomes perhaps an object of curiosity
+Dialogue: 0,0:38:06.96,0:38:10.96,Default,,0,0,0,,and an opportunity for growth to a person here.
+Dialogue: 0,0:38:10.96,0:38:14.57,Default,,0,0,0,,Moving up to the next energy field we call neutral,
+Dialogue: 0,0:38:14.57,0:38:17.57,Default,,0,0,0,,where the energy calibrates out at 250.
+Dialogue: 0,0:38:17.57,0:38:19.57,Default,,0,0,0,,Look how much more power we have
+Dialogue: 0,0:38:19.57,0:38:21.57,Default,,0,0,0,,than these positions up down below.
+Dialogue: 0,0:38:21.57,0:38:23.57,Default,,0,0,0,,Not only more power, but we see that
+Dialogue: 0,0:38:23.57,0:38:26.57,Default,,0,0,0,,that power is now being used in a constructive,
+Dialogue: 0,0:38:26.57,0:38:28.57,Default,,0,0,0,,positive direction.
+Dialogue: 0,0:38:28.57,0:38:30.57,Default,,0,0,0,,It's as though down here our antenna
+Dialogue: 0,0:38:30.57,0:38:32.57,Default,,0,0,0,,is tuned to the negative.
+Dialogue: 0,0:38:32.57,0:38:34.57,Default,,0,0,0,,Here it's turned to neutral.
+Dialogue: 0,0:38:34.57,0:38:37.57,Default,,0,0,0,,Now we're tuning our antenna to the positive.
+Dialogue: 0,0:38:37.57,0:38:41.57,Default,,0,0,0,,We begin to experience life in a positive direction
+Dialogue: 0,0:38:41.57,0:38:43.57,Default,,0,0,0,,because we are the experiencer.
+Dialogue: 0,0:38:43.57,0:38:45.57,Default,,0,0,0,,The experiencer is not out there.
+Dialogue: 0,0:38:45.57,0:38:47.57,Default,,0,0,0,,It is within our own consciousness.
+Dialogue: 0,0:38:47.57,0:38:49.57,Default,,0,0,0,,That person is willing to let go
+Dialogue: 0,0:38:49.57,0:38:51.57,Default,,0,0,0,,a lot of their positions.
+Dialogue: 0,0:38:51.57,0:38:53.57,Default,,0,0,0,,A lot of the positions that make this person
+Dialogue: 0,0:38:53.57,0:38:55.57,Default,,0,0,0,,and person's life hell,
+Dialogue: 0,0:38:55.57,0:38:57.57,Default,,0,0,0,,the sense of being always defensive
+Dialogue: 0,0:38:57.57,0:38:59.57,Default,,0,0,0,,due to his pridefulness, his importance,
+Dialogue: 0,0:38:59.57,0:39:01.57,Default,,0,0,0,,the sense of always being right,
+Dialogue: 0,0:39:01.57,0:39:03.57,Default,,0,0,0,,the position of either the atheist
+Dialogue: 0,0:39:03.57,0:39:05.57,Default,,0,0,0,,or the bigot or the zealot
+Dialogue: 0,0:39:05.57,0:39:07.57,Default,,0,0,0,,that leads to all the religious wars.
+Dialogue: 0,0:39:07.57,0:39:09.57,Default,,0,0,0,,You know, my position is right,
+Dialogue: 0,0:39:09.57,0:39:12.14,Default,,0,0,0,,therefore your position is wrong.
+Dialogue: 0,0:39:12.14,0:39:14.14,Default,,0,0,0,,The willingness to let that go,
+Dialogue: 0,0:39:14.14,0:39:17.14,Default,,0,0,0,,the person becomes somewhat unattached.
+Dialogue: 0,0:39:17.14,0:39:20.14,Default,,0,0,0,,They begin to transcend their vulnerability to the world.
+Dialogue: 0,0:39:20.14,0:39:22.14,Default,,0,0,0,,The process going on in consciousness
+Dialogue: 0,0:39:22.14,0:39:24.14,Default,,0,0,0,,is that they're released.
+Dialogue: 0,0:39:24.14,0:39:26.14,Default,,0,0,0,,The world begins to look
+Dialogue: 0,0:39:26.14,0:39:28.14,Default,,0,0,0,,okay to them.
+Dialogue: 0,0:39:28.14,0:39:30.14,Default,,0,0,0,,The god of such a world now
+Dialogue: 0,0:39:30.14,0:39:32.27,Default,,0,0,0,,is the god of freedom.
+Dialogue: 0,0:39:32.27,0:39:34.27,Default,,0,0,0,,How is that okayness expressed?
+Dialogue: 0,0:39:34.27,0:39:36.27,Default,,0,0,0,,Well, a person on this level,
+Dialogue: 0,0:39:36.27,0:39:38.27,Default,,0,0,0,,on the way to a job interview,
+Dialogue: 0,0:39:38.27,0:39:40.27,Default,,0,0,0,,would say, you know, if I get this job
+Dialogue: 0,0:39:40.27,0:39:42.27,Default,,0,0,0,,it'll be great.
+Dialogue: 0,0:39:42.27,0:39:44.27,Default,,0,0,0,,And if I don't, that's okay too
+Dialogue: 0,0:39:44.27,0:39:46.27,Default,,0,0,0,,because there's other job opportunities
+Dialogue: 0,0:39:46.27,0:39:48.27,Default,,0,0,0,,I would really like to look at.
+Dialogue: 0,0:39:48.27,0:39:50.27,Default,,0,0,0,,And so he's not stuck, he hasn't put his
+Dialogue: 0,0:39:50.27,0:39:52.27,Default,,0,0,0,,survival on any one particular thing.
+Dialogue: 0,0:39:52.27,0:39:54.27,Default,,0,0,0,,Beginning to own
+Dialogue: 0,0:39:54.27,0:39:56.27,Default,,0,0,0,,that the power is within myself.
+Dialogue: 0,0:39:56.27,0:39:58.27,Default,,0,0,0,,As we move into willingness,
+Dialogue: 0,0:39:58.27,0:40:00.27,Default,,0,0,0,,we add something else now
+Dialogue: 0,0:40:00.27,0:40:02.27,Default,,0,0,0,,from the process of consciousness.
+Dialogue: 0,0:40:02.27,0:40:04.27,Default,,0,0,0,,We add intention.
+Dialogue: 0,0:40:04.27,0:40:06.27,Default,,0,0,0,,It means a yes-ness, a joining,
+Dialogue: 0,0:40:06.27,0:40:08.27,Default,,0,0,0,,an alignment, an agreement with life.
+Dialogue: 0,0:40:08.27,0:40:10.43,Default,,0,0,0,,And such a person
+Dialogue: 0,0:40:10.43,0:40:12.43,Default,,0,0,0,,begins to see the world
+Dialogue: 0,0:40:12.43,0:40:14.43,Default,,0,0,0,,as friendly.
+Dialogue: 0,0:40:14.43,0:40:16.43,Default,,0,0,0,,So when these people walk down the street,
+Dialogue: 0,0:40:16.43,0:40:18.43,Default,,0,0,0,,the god of that kind of a world
+Dialogue: 0,0:40:18.43,0:40:20.43,Default,,0,0,0,,would become promising and hopeful.
+Dialogue: 0,0:40:20.43,0:40:22.43,Default,,0,0,0,,Their experience now
+Dialogue: 0,0:40:22.43,0:40:24.43,Default,,0,0,0,,in the newspaper
+Dialogue: 0,0:40:24.43,0:40:26.43,Default,,0,0,0,,is they begin to open it up
+Dialogue: 0,0:40:26.43,0:40:28.43,Default,,0,0,0,,and they see all the evidences
+Dialogue: 0,0:40:28.43,0:40:30.43,Default,,0,0,0,,of man's cooperation,
+Dialogue: 0,0:40:30.43,0:40:32.43,Default,,0,0,0,,man's struggle to solve its own problems.
+Dialogue: 0,0:40:32.43,0:40:34.43,Default,,0,0,0,,They see what this person sees as destruction
+Dialogue: 0,0:40:34.43,0:40:36.43,Default,,0,0,0,,as merely the process,
+Dialogue: 0,0:40:36.43,0:40:38.43,Default,,0,0,0,,the working out of the balance of forces.
+Dialogue: 0,0:40:38.43,0:40:40.43,Default,,0,0,0,,They begin to see
+Dialogue: 0,0:40:40.43,0:40:42.43,Default,,0,0,0,,a friendlier world.
+Dialogue: 0,0:40:42.43,0:40:44.43,Default,,0,0,0,,And so when they walk down the street
+Dialogue: 0,0:40:44.43,0:40:46.43,Default,,0,0,0,,they see a friendly look.
+Dialogue: 0,0:40:46.43,0:40:48.43,Default,,0,0,0,,You see their perception has changed.
+Dialogue: 0,0:40:48.43,0:40:50.43,Default,,0,0,0,,They see the friendliness of old people.
+Dialogue: 0,0:40:50.43,0:40:52.43,Default,,0,0,0,,Old people who no longer have to make it
+Dialogue: 0,0:40:52.43,0:40:54.43,Default,,0,0,0,,in the world, you know, very often
+Dialogue: 0,0:40:54.43,0:40:56.43,Default,,0,0,0,,are much more open to be friendly.
+Dialogue: 0,0:40:56.43,0:40:58.43,Default,,0,0,0,,Simple to walk up to most older people
+Dialogue: 0,0:40:58.43,0:41:00.43,Default,,0,0,0,,and strike up a conversation instantly.
+Dialogue: 0,0:41:00.43,0:41:02.43,Default,,0,0,0,,They don't look at you with that paranoid distrust
+Dialogue: 0,0:41:02.43,0:41:04.43,Default,,0,0,0,,or size you up and down to see where you stand
+Dialogue: 0,0:41:04.43,0:41:06.43,Default,,0,0,0,,in a competitive, prideful world.
+Dialogue: 0,0:41:06.43,0:41:08.85,Default,,0,0,0,,They begin to see
+Dialogue: 0,0:41:08.85,0:41:10.85,Default,,0,0,0,,the old people as friendly.
+Dialogue: 0,0:41:10.85,0:41:12.85,Default,,0,0,0,,They see the friendliness of the young children.
+Dialogue: 0,0:41:12.85,0:41:14.85,Default,,0,0,0,,They become conscious of the fact
+Dialogue: 0,0:41:14.85,0:41:16.85,Default,,0,0,0,,that children are friendly.
+Dialogue: 0,0:41:16.85,0:41:19.01,Default,,0,0,0,,It's easy to strike up a relationship with them.
+Dialogue: 0,0:41:19.01,0:41:21.01,Default,,0,0,0,,And so moving up
+Dialogue: 0,0:41:21.01,0:41:23.01,Default,,0,0,0,,into acceptance then,
+Dialogue: 0,0:41:23.01,0:41:25.01,Default,,0,0,0,,you really begin to accept that one
+Dialogue: 0,0:41:25.01,0:41:27.01,Default,,0,0,0,,is the source of one's own experience of life.
+Dialogue: 0,0:41:27.01,0:41:29.01,Default,,0,0,0,,As we've said in other talks,
+Dialogue: 0,0:41:29.01,0:41:31.01,Default,,0,0,0,,a person who's reached
+Dialogue: 0,0:41:31.01,0:41:33.01,Default,,0,0,0,,this level of awareness,
+Dialogue: 0,0:41:33.01,0:41:35.01,Default,,0,0,0,,who's owned the power back over his own life,
+Dialogue: 0,0:41:35.01,0:41:37.01,Default,,0,0,0,,realizes that no matter where you put him,
+Dialogue: 0,0:41:37.01,0:41:39.01,Default,,0,0,0,,he's going to somehow make do.
+Dialogue: 0,0:41:39.01,0:41:41.01,Default,,0,0,0,,You put him on a desert island,
+Dialogue: 0,0:41:41.01,0:41:43.01,Default,,0,0,0,,you come back a year later,
+Dialogue: 0,0:41:43.01,0:41:45.01,Default,,0,0,0,,you know he's carving coconuts,
+Dialogue: 0,0:41:45.01,0:41:47.04,Default,,0,0,0,,and he's got a tree house.
+Dialogue: 0,0:41:47.04,0:41:49.04,Default,,0,0,0,,You put him in a jail cell,
+Dialogue: 0,0:41:49.04,0:41:51.04,Default,,0,0,0,,he'll write a novel,
+Dialogue: 0,0:41:51.04,0:41:53.04,Default,,0,0,0,,or he'll sit cross-legged and go into meditation,
+Dialogue: 0,0:41:53.04,0:41:55.04,Default,,0,0,0,,or he'll become a jailhouse lawyer
+Dialogue: 0,0:41:55.04,0:41:57.04,Default,,0,0,0,,and get a law degree.
+Dialogue: 0,0:41:57.04,0:41:59.04,Default,,0,0,0,,The power to create
+Dialogue: 0,0:41:59.04,0:42:01.04,Default,,0,0,0,,my experience of life is within me.
+Dialogue: 0,0:42:01.04,0:42:03.04,Default,,0,0,0,,The person has re-owned
+Dialogue: 0,0:42:03.04,0:42:05.04,Default,,0,0,0,,their own power.
+Dialogue: 0,0:42:05.04,0:42:07.04,Default,,0,0,0,,Consequently, such a God,
+Dialogue: 0,0:42:07.04,0:42:09.04,Default,,0,0,0,,the God of that kind of a world
+Dialogue: 0,0:42:09.04,0:42:11.04,Default,,0,0,0,,and universe of experience,
+Dialogue: 0,0:42:11.04,0:42:13.04,Default,,0,0,0,,becomes not only promising and hopeful,
+Dialogue: 0,0:42:13.04,0:42:15.04,Default,,0,0,0,,but merciful.
+Dialogue: 0,0:42:15.04,0:42:17.04,Default,,0,0,0,,A merciful God no longer to be feared.
+Dialogue: 0,0:42:17.04,0:42:19.04,Default,,0,0,0,,That person is adequate and confident.
+Dialogue: 0,0:42:19.04,0:42:21.04,Default,,0,0,0,,We want that kind of a person
+Dialogue: 0,0:42:21.04,0:42:23.04,Default,,0,0,0,,to go out after the big contract.
+Dialogue: 0,0:42:23.04,0:42:25.04,Default,,0,0,0,,So that person is able to accept
+Dialogue: 0,0:42:25.04,0:42:27.04,Default,,0,0,0,,the upside and the downside
+Dialogue: 0,0:42:27.04,0:42:29.04,Default,,0,0,0,,and the realities of life
+Dialogue: 0,0:42:29.04,0:42:31.04,Default,,0,0,0,,and can accept their own limitations.
+Dialogue: 0,0:42:31.04,0:42:33.04,Default,,0,0,0,,You see, a person coming out of pride
+Dialogue: 0,0:42:33.04,0:42:35.04,Default,,0,0,0,,can't accept that they are limited
+Dialogue: 0,0:42:35.04,0:42:37.04,Default,,0,0,0,,and they have to come from a prideful,
+Dialogue: 0,0:42:37.04,0:42:39.42,Default,,0,0,0,,macho position.
+Dialogue: 0,0:42:39.42,0:42:41.42,Default,,0,0,0,,The person in acceptance,
+Dialogue: 0,0:42:41.42,0:42:43.42,Default,,0,0,0,,when the company says,
+Dialogue: 0,0:42:43.42,0:42:45.42,Default,,0,0,0,,we'd like you to go to Venezuela
+Dialogue: 0,0:42:45.42,0:42:47.58,Default,,0,0,0,,and close such and such a deal,
+Dialogue: 0,0:42:47.58,0:42:49.58,Default,,0,0,0,,a person who is adequate and confident
+Dialogue: 0,0:42:49.58,0:42:51.58,Default,,0,0,0,,could say, you know,
+Dialogue: 0,0:42:51.58,0:42:53.58,Default,,0,0,0,,I don't get along with that company
+Dialogue: 0,0:42:53.58,0:42:55.58,Default,,0,0,0,,and I don't get along with that particular man.
+Dialogue: 0,0:42:55.58,0:42:57.58,Default,,0,0,0,,You know, I do much better in Belgium.
+Dialogue: 0,0:42:57.58,0:42:59.58,Default,,0,0,0,,You know, I can sell twice as much in Belgium.
+Dialogue: 0,0:42:59.58,0:43:01.58,Default,,0,0,0,,Why don't you let Jim go down to Venezuela?
+Dialogue: 0,0:43:01.58,0:43:03.58,Default,,0,0,0,,The willingness then to accept
+Dialogue: 0,0:43:03.58,0:43:05.58,Default,,0,0,0,,how the world works.
+Dialogue: 0,0:43:05.58,0:43:07.58,Default,,0,0,0,,They don't get into indignation.
+Dialogue: 0,0:43:07.58,0:43:09.58,Default,,0,0,0,,You know, the IRS has its way
+Dialogue: 0,0:43:09.58,0:43:11.58,Default,,0,0,0,,of being in the world.
+Dialogue: 0,0:43:11.58,0:43:13.58,Default,,0,0,0,,They get out of right and wrong.
+Dialogue: 0,0:43:13.58,0:43:15.58,Default,,0,0,0,,They just accept that's how it is in this world
+Dialogue: 0,0:43:15.58,0:43:17.58,Default,,0,0,0,,and they go with it.
+Dialogue: 0,0:43:17.58,0:43:19.58,Default,,0,0,0,,So, the beginning of transformation
+Dialogue: 0,0:43:19.58,0:43:21.58,Default,,0,0,0,,of consciousness then
+Dialogue: 0,0:43:21.58,0:43:23.58,Default,,0,0,0,,is the real realization
+Dialogue: 0,0:43:23.58,0:43:25.58,Default,,0,0,0,,that I am the source
+Dialogue: 0,0:43:25.58,0:43:27.58,Default,,0,0,0,,and therefore the world begins to look
+Dialogue: 0,0:43:27.58,0:43:30.16,Default,,0,0,0,,harmonious and merciful.
+Dialogue: 0,0:43:30.16,0:43:32.16,Default,,0,0,0,,That empowerment moves a person up then
+Dialogue: 0,0:43:32.16,0:43:34.16,Default,,0,0,0,,to the next energy field of love.
+Dialogue: 0,0:43:36.16,0:43:38.16,Default,,0,0,0,,What do we mean by love?
+Dialogue: 0,0:43:38.16,0:43:40.16,Default,,0,0,0,,We don't mean the sentimental emotionalism
+Dialogue: 0,0:43:40.16,0:43:42.16,Default,,0,0,0,,that comes out of the solar plexus attachment
+Dialogue: 0,0:43:42.16,0:43:44.16,Default,,0,0,0,,of what Hollywood calls love.
+Dialogue: 0,0:43:46.16,0:43:48.16,Default,,0,0,0,,That emotionalism
+Dialogue: 0,0:43:48.16,0:43:50.16,Default,,0,0,0,,coming out of a possessive ownership
+Dialogue: 0,0:43:50.16,0:43:52.16,Default,,0,0,0,,of the other person
+Dialogue: 0,0:43:52.16,0:43:54.16,Default,,0,0,0,,and that back and forth control.
+Dialogue: 0,0:43:54.16,0:43:56.16,Default,,0,0,0,,The subtle power struggles
+Dialogue: 0,0:43:56.16,0:43:58.16,Default,,0,0,0,,that go on.
+Dialogue: 0,0:43:58.16,0:44:00.16,Default,,0,0,0,,That enamored coming out of a song
+Dialogue: 0,0:44:00.16,0:44:02.16,Default,,0,0,0,,that if you leave me I'll die kind of thing.
+Dialogue: 0,0:44:02.16,0:44:04.32,Default,,0,0,0,,If you leave me I will die.
+Dialogue: 0,0:44:04.32,0:44:06.32,Default,,0,0,0,,This is all coming out of an attachment
+Dialogue: 0,0:44:06.32,0:44:08.32,Default,,0,0,0,,which has nothing to do with love.
+Dialogue: 0,0:44:08.32,0:44:10.32,Default,,0,0,0,,We're talking about here unconditional love.
+Dialogue: 0,0:44:10.32,0:44:12.32,Default,,0,0,0,,A way of being with life
+Dialogue: 0,0:44:12.32,0:44:14.32,Default,,0,0,0,,that nurtures, supports
+Dialogue: 0,0:44:14.32,0:44:16.32,Default,,0,0,0,,which is of its own nature forgiving.
+Dialogue: 0,0:44:16.32,0:44:18.32,Default,,0,0,0,,It's the beginning of the revelation
+Dialogue: 0,0:44:18.32,0:44:20.32,Default,,0,0,0,,of some of the truth of life
+Dialogue: 0,0:44:20.32,0:44:22.32,Default,,0,0,0,,because within the brain
+Dialogue: 0,0:44:22.32,0:44:24.32,Default,,0,0,0,,there's the release of endorphins.
+Dialogue: 0,0:44:24.32,0:44:26.32,Default,,0,0,0,,Endorphins allow
+Dialogue: 0,0:44:26.32,0:44:28.32,Default,,0,0,0,,a certain inner state
+Dialogue: 0,0:44:28.32,0:44:30.32,Default,,0,0,0,,to occur, a way of being with oneself
+Dialogue: 0,0:44:30.32,0:44:32.32,Default,,0,0,0,,and one's body and the world.
+Dialogue: 0,0:44:32.32,0:44:34.32,Default,,0,0,0,,And now the world
+Dialogue: 0,0:44:34.32,0:44:36.32,Default,,0,0,0,,starts to appear loving.
+Dialogue: 0,0:44:36.32,0:44:38.32,Default,,0,0,0,,So that person walks down the street
+Dialogue: 0,0:44:38.32,0:44:40.32,Default,,0,0,0,,feeling somewhat mellow.
+Dialogue: 0,0:44:40.32,0:44:42.32,Default,,0,0,0,,They see the lovingness
+Dialogue: 0,0:44:42.32,0:44:44.32,Default,,0,0,0,,that really goes on
+Dialogue: 0,0:44:44.32,0:44:46.32,Default,,0,0,0,,underneath the apparent trivialities
+Dialogue: 0,0:44:46.32,0:44:48.32,Default,,0,0,0,,they really see the lovingness
+Dialogue: 0,0:44:48.32,0:44:50.32,Default,,0,0,0,,that holds all of mankind together.
+Dialogue: 0,0:44:50.32,0:44:52.32,Default,,0,0,0,,They're moving into a higher energy field.
+Dialogue: 0,0:44:52.32,0:44:54.86,Default,,0,0,0,,Seeing life as harmonious
+Dialogue: 0,0:44:54.86,0:44:56.86,Default,,0,0,0,,seeing life as loving
+Dialogue: 0,0:44:56.86,0:44:58.86,Default,,0,0,0,,you can see how much stress now
+Dialogue: 0,0:44:58.86,0:45:00.86,Default,,0,0,0,,this person is vulnerable to
+Dialogue: 0,0:45:00.86,0:45:02.86,Default,,0,0,0,,because they are coming
+Dialogue: 0,0:45:02.86,0:45:04.86,Default,,0,0,0,,from a forgivingness.
+Dialogue: 0,0:45:04.86,0:45:07.41,Default,,0,0,0,,That forgivingness
+Dialogue: 0,0:45:07.41,0:45:09.41,Default,,0,0,0,,the coming out of the intention
+Dialogue: 0,0:45:09.41,0:45:11.41,Default,,0,0,0,,of that feel which you choose for yourself
+Dialogue: 0,0:45:11.41,0:45:13.41,Default,,0,0,0,,we call it lovingness.
+Dialogue: 0,0:45:13.41,0:45:15.41,Default,,0,0,0,,We know that the person
+Dialogue: 0,0:45:15.41,0:45:17.41,Default,,0,0,0,,coming out of lovingness
+Dialogue: 0,0:45:17.41,0:45:19.41,Default,,0,0,0,,is loving towards all things
+Dialogue: 0,0:45:19.41,0:45:21.41,Default,,0,0,0,,at all times.
+Dialogue: 0,0:45:21.41,0:45:23.41,Default,,0,0,0,,Loving towards mankind.
+Dialogue: 0,0:45:23.41,0:45:25.41,Default,,0,0,0,,Loving and nurturing towards oneself.
+Dialogue: 0,0:45:25.41,0:45:27.41,Default,,0,0,0,,You see the difference
+Dialogue: 0,0:45:27.41,0:45:29.41,Default,,0,0,0,,in how these people would view themselves.
+Dialogue: 0,0:45:29.41,0:45:31.41,Default,,0,0,0,,The harshness
+Dialogue: 0,0:45:31.41,0:45:33.41,Default,,0,0,0,,of the perfectionist
+Dialogue: 0,0:45:33.41,0:45:35.41,Default,,0,0,0,,puts him always at stress
+Dialogue: 0,0:45:35.41,0:45:37.41,Default,,0,0,0,,with his own human nature.
+Dialogue: 0,0:45:37.41,0:45:39.41,Default,,0,0,0,,The unforgivingness
+Dialogue: 0,0:45:39.41,0:45:41.41,Default,,0,0,0,,the capacity to judge and condemn
+Dialogue: 0,0:45:41.41,0:45:43.41,Default,,0,0,0,,the self-hatred and guilt
+Dialogue: 0,0:45:43.41,0:45:45.41,Default,,0,0,0,,means for that person
+Dialogue: 0,0:45:45.41,0:45:47.41,Default,,0,0,0,,to breathe in and out
+Dialogue: 0,0:45:47.41,0:45:49.41,Default,,0,0,0,,is to be in a state of stress.
+Dialogue: 0,0:45:49.41,0:45:51.41,Default,,0,0,0,,If he gets up late
+Dialogue: 0,0:45:51.41,0:45:53.41,Default,,0,0,0,,he blames himself for getting up late.
+Dialogue: 0,0:45:53.41,0:45:55.41,Default,,0,0,0,,The stress is there
+Dialogue: 0,0:45:55.41,0:45:57.41,Default,,0,0,0,,coming out of the perfectionism
+Dialogue: 0,0:45:57.41,0:45:59.41,Default,,0,0,0,,the inflexibility
+Dialogue: 0,0:45:59.41,0:46:01.41,Default,,0,0,0,,the capacity for self-condemnation.
+Dialogue: 0,0:46:01.41,0:46:03.41,Default,,0,0,0,,And so the stress you see
+Dialogue: 0,0:46:03.41,0:46:05.41,Default,,0,0,0,,is internally generated.
+Dialogue: 0,0:46:05.41,0:46:07.41,Default,,0,0,0,,The open-minded person
+Dialogue: 0,0:46:07.41,0:46:09.41,Default,,0,0,0,,that starts to become more easy with himself
+Dialogue: 0,0:46:09.41,0:46:11.41,Default,,0,0,0,,begins to become accepting
+Dialogue: 0,0:46:11.41,0:46:13.41,Default,,0,0,0,,of his own humaneness.
+Dialogue: 0,0:46:13.41,0:46:15.41,Default,,0,0,0,,And as we move up to forgiveness
+Dialogue: 0,0:46:15.41,0:46:17.41,Default,,0,0,0,,we have that mental attitude
+Dialogue: 0,0:46:17.41,0:46:19.41,Default,,0,0,0,,of the readiness
+Dialogue: 0,0:46:19.41,0:46:21.41,Default,,0,0,0,,to allow the humaneness
+Dialogue: 0,0:46:21.41,0:46:23.41,Default,,0,0,0,,and when we do that
+Dialogue: 0,0:46:23.41,0:46:25.92,Default,,0,0,0,,we allow our own humaneness.
+Dialogue: 0,0:46:25.92,0:46:27.92,Default,,0,0,0,,We move up then
+Dialogue: 0,0:46:27.92,0:46:29.92,Default,,0,0,0,,to an even higher energy field
+Dialogue: 0,0:46:29.92,0:46:31.92,Default,,0,0,0,,of joyfulness
+Dialogue: 0,0:46:31.92,0:46:33.92,Default,,0,0,0,,which is approaching the beginning awareness
+Dialogue: 0,0:46:33.92,0:46:35.92,Default,,0,0,0,,of the reality of that
+Dialogue: 0,0:46:35.92,0:46:37.92,Default,,0,0,0,,in which you really are.
+Dialogue: 0,0:46:37.92,0:46:39.92,Default,,0,0,0,,That you are not the experience
+Dialogue: 0,0:46:39.92,0:46:41.92,Default,,0,0,0,,you are the experiencer.
+Dialogue: 0,0:46:41.92,0:46:43.92,Default,,0,0,0,,You are not at the effect of the world
+Dialogue: 0,0:46:43.92,0:46:45.92,Default,,0,0,0,,you are the one that is determining
+Dialogue: 0,0:46:45.92,0:46:47.92,Default,,0,0,0,,the way you experience it.
+Dialogue: 0,0:46:47.92,0:46:49.92,Default,,0,0,0,,And so you develop a certain inner serenity
+Dialogue: 0,0:46:49.92,0:46:51.92,Default,,0,0,0,,and out of this
+Dialogue: 0,0:46:51.92,0:46:53.92,Default,,0,0,0,,passion towards all of life.
+Dialogue: 0,0:46:53.92,0:46:55.92,Default,,0,0,0,,The beginning to see the incredible
+Dialogue: 0,0:46:55.92,0:46:57.92,Default,,0,0,0,,beauty and perfection.
+Dialogue: 0,0:46:57.92,0:46:59.92,Default,,0,0,0,,The experiencing of the oneness
+Dialogue: 0,0:46:59.92,0:47:01.92,Default,,0,0,0,,and the unity of all life.
+Dialogue: 0,0:47:01.92,0:47:03.92,Default,,0,0,0,,And so that one
+Dialogue: 0,0:47:03.92,0:47:05.92,Default,,0,0,0,,so that person opens the newspaper
+Dialogue: 0,0:47:05.92,0:47:07.92,Default,,0,0,0,,you see and experiences
+Dialogue: 0,0:47:07.92,0:47:09.92,Default,,0,0,0,,the totality of man's lovingness
+Dialogue: 0,0:47:09.92,0:47:11.92,Default,,0,0,0,,seeing that despite
+Dialogue: 0,0:47:11.92,0:47:13.92,Default,,0,0,0,,his humaneness which is what is making
+Dialogue: 0,0:47:13.92,0:47:15.92,Default,,0,0,0,,all the articles appear
+Dialogue: 0,0:47:15.92,0:47:17.92,Default,,0,0,0,,in the paper.
+Dialogue: 0,0:47:17.92,0:47:19.92,Default,,0,0,0,,The experience of that onward movement
+Dialogue: 0,0:47:19.92,0:47:21.92,Default,,0,0,0,,the expression of the onward movement
+Dialogue: 0,0:47:21.92,0:47:23.92,Default,,0,0,0,,and evolution of man's consciousness.
+Dialogue: 0,0:47:23.92,0:47:26.24,Default,,0,0,0,,And so when that person walks down
+Dialogue: 0,0:47:26.24,0:47:28.24,Default,,0,0,0,,the same street
+Dialogue: 0,0:47:28.24,0:47:30.24,Default,,0,0,0,,he experiences only
+Dialogue: 0,0:47:30.24,0:47:32.24,Default,,0,0,0,,the incredible beauty of it.
+Dialogue: 0,0:47:32.24,0:47:34.24,Default,,0,0,0,,Experiencing the beauty of life
+Dialogue: 0,0:47:34.24,0:47:36.24,Default,,0,0,0,,in all its magnificent expression.
+Dialogue: 0,0:47:36.24,0:47:38.24,Default,,0,0,0,,As though you see
+Dialogue: 0,0:47:38.24,0:47:40.24,Default,,0,0,0,,a rose in the middle of its unfoldingness.
+Dialogue: 0,0:47:40.24,0:47:42.24,Default,,0,0,0,,See the perfectionist
+Dialogue: 0,0:47:42.24,0:47:44.24,Default,,0,0,0,,would look at the half unfolded rose
+Dialogue: 0,0:47:44.24,0:47:46.24,Default,,0,0,0,,and say I don't want that
+Dialogue: 0,0:47:46.24,0:47:48.75,Default,,0,0,0,,that's an imperfect rose.
+Dialogue: 0,0:47:48.75,0:47:50.75,Default,,0,0,0,,The person on this level
+Dialogue: 0,0:47:50.75,0:47:52.75,Default,,0,0,0,,sees the perfection of the evolution of life
+Dialogue: 0,0:47:52.75,0:47:54.75,Default,,0,0,0,,itself and sees all of life
+Dialogue: 0,0:47:54.75,0:47:56.75,Default,,0,0,0,,as that half unfolded rose.
+Dialogue: 0,0:47:56.75,0:47:58.75,Default,,0,0,0,,That in one second
+Dialogue: 0,0:47:58.75,0:48:00.75,Default,,0,0,0,,there is only a cross section
+Dialogue: 0,0:48:00.75,0:48:02.75,Default,,0,0,0,,but projects forward in time
+Dialogue: 0,0:48:02.75,0:48:04.75,Default,,0,0,0,,and sees the unfoldingness
+Dialogue: 0,0:48:04.75,0:48:06.75,Default,,0,0,0,,and the incredible beauty and precision
+Dialogue: 0,0:48:06.75,0:48:08.75,Default,,0,0,0,,and becomes aware
+Dialogue: 0,0:48:08.75,0:48:10.75,Default,,0,0,0,,inwardly of the inner sacredness
+Dialogue: 0,0:48:10.75,0:48:13.90,Default,,0,0,0,,of all life.
+Dialogue: 0,0:48:13.90,0:48:15.90,Default,,0,0,0,,It's obvious then as we talk about
+Dialogue: 0,0:48:15.90,0:48:17.90,Default,,0,0,0,,these energy fields
+Dialogue: 0,0:48:17.90,0:48:19.90,Default,,0,0,0,,as these levels of consciousness
+Dialogue: 0,0:48:19.90,0:48:21.90,Default,,0,0,0,,that they are determining
+Dialogue: 0,0:48:21.90,0:48:23.90,Default,,0,0,0,,how we experience life.
+Dialogue: 0,0:48:23.90,0:48:25.90,Default,,0,0,0,,They are determining
+Dialogue: 0,0:48:25.90,0:48:27.90,Default,,0,0,0,,what kind of a God we think
+Dialogue: 0,0:48:27.90,0:48:29.90,Default,,0,0,0,,exists in the universe.
+Dialogue: 0,0:48:29.90,0:48:31.90,Default,,0,0,0,,These energy fields are determining
+Dialogue: 0,0:48:31.90,0:48:33.90,Default,,0,0,0,,the kind of emotions
+Dialogue: 0,0:48:33.90,0:48:35.90,Default,,0,0,0,,which we are expressing.
+Dialogue: 0,0:48:35.90,0:48:37.90,Default,,0,0,0,,All of this expressing
+Dialogue: 0,0:48:37.90,0:48:39.90,Default,,0,0,0,,a process going on
+Dialogue: 0,0:48:39.90,0:48:42.03,Default,,0,0,0,,within consciousness itself.
+Dialogue: 0,0:48:42.03,0:48:44.03,Default,,0,0,0,,It certainly is very clear to us now
+Dialogue: 0,0:48:44.03,0:48:46.03,Default,,0,0,0,,that there is nothing
+Dialogue: 0,0:48:46.03,0:48:48.03,Default,,0,0,0,,out there
+Dialogue: 0,0:48:48.03,0:48:50.03,Default,,0,0,0,,that has the power
+Dialogue: 0,0:48:50.03,0:48:52.03,Default,,0,0,0,,to create stress.
+Dialogue: 0,0:48:52.03,0:48:54.03,Default,,0,0,0,,That we ourselves
+Dialogue: 0,0:48:54.03,0:48:56.03,Default,,0,0,0,,are the creators of stress
+Dialogue: 0,0:48:56.03,0:48:58.03,Default,,0,0,0,,by the positions
+Dialogue: 0,0:48:58.03,0:49:00.16,Default,,0,0,0,,by our attitudes.
+Dialogue: 0,0:49:00.16,0:49:02.16,Default,,0,0,0,,It's obvious that the open minded
+Dialogue: 0,0:49:02.16,0:49:04.16,Default,,0,0,0,,easy going person
+Dialogue: 0,0:49:04.16,0:49:06.16,Default,,0,0,0,,doesn't experience stress
+Dialogue: 0,0:49:06.16,0:49:09.18,Default,,0,0,0,,when somebody backs into his fender
+Dialogue: 0,0:49:09.18,0:49:11.18,Default,,0,0,0,,in the parking lot.
+Dialogue: 0,0:49:11.18,0:49:13.18,Default,,0,0,0,,What happens, you've experienced it yourself
+Dialogue: 0,0:49:13.18,0:49:15.18,Default,,0,0,0,,when you're in a good mood.
+Dialogue: 0,0:49:15.18,0:49:17.18,Default,,0,0,0,,You see what is stressful in one mood
+Dialogue: 0,0:49:17.18,0:49:19.44,Default,,0,0,0,,is not stressful in another.
+Dialogue: 0,0:49:19.44,0:49:21.44,Default,,0,0,0,,And so I came out myself
+Dialogue: 0,0:49:21.44,0:49:23.57,Default,,0,0,0,,one day to the parking lot
+Dialogue: 0,0:49:23.57,0:49:25.57,Default,,0,0,0,,and there was somebody
+Dialogue: 0,0:49:25.57,0:49:27.57,Default,,0,0,0,,who was the only offender.
+Dialogue: 0,0:49:27.57,0:49:29.57,Default,,0,0,0,,And the person was very upset.
+Dialogue: 0,0:49:29.57,0:49:31.57,Default,,0,0,0,,And frankly my only concern
+Dialogue: 0,0:49:31.57,0:49:33.57,Default,,0,0,0,,was the upsetness of this person.
+Dialogue: 0,0:49:33.57,0:49:35.57,Default,,0,0,0,,And I kept telling them
+Dialogue: 0,0:49:35.57,0:49:37.57,Default,,0,0,0,,there's nothing to be upset about.
+Dialogue: 0,0:49:37.57,0:49:39.57,Default,,0,0,0,,I mean it's only offender.
+Dialogue: 0,0:49:39.57,0:49:41.57,Default,,0,0,0,,We both got insurance.
+Dialogue: 0,0:49:41.57,0:49:43.57,Default,,0,0,0,,It's no big deal.
+Dialogue: 0,0:49:43.57,0:49:45.76,Default,,0,0,0,,So it's a little nuisance
+Dialogue: 0,0:49:45.76,0:49:47.76,Default,,0,0,0,,you've got to take your car
+Dialogue: 0,0:49:47.76,0:49:49.76,Default,,0,0,0,,to the body shop and get it fixed.
+Dialogue: 0,0:49:49.76,0:49:51.76,Default,,0,0,0,,But it's really no big deal.
+Dialogue: 0,0:49:51.76,0:49:53.76,Default,,0,0,0,,So it was the getting
+Dialogue: 0,0:49:53.76,0:49:55.76,Default,,0,0,0,,and the desire to heal that upset
+Dialogue: 0,0:49:55.76,0:49:57.76,Default,,0,0,0,,that arose in the field
+Dialogue: 0,0:49:57.76,0:50:00.34,Default,,0,0,0,,of my own consciousness.
+Dialogue: 0,0:50:00.34,0:50:02.34,Default,,0,0,0,,So whether it's something
+Dialogue: 0,0:50:02.34,0:50:04.34,Default,,0,0,0,,that sends you into self pity
+Dialogue: 0,0:50:04.34,0:50:06.34,Default,,0,0,0,,about what an unjust world this is
+Dialogue: 0,0:50:06.34,0:50:08.34,Default,,0,0,0,,that people back into your fender.
+Dialogue: 0,0:50:08.34,0:50:10.34,Default,,0,0,0,,Whether you want to punch the guy
+Dialogue: 0,0:50:10.34,0:50:12.34,Default,,0,0,0,,in the nose because you've got
+Dialogue: 0,0:50:12.34,0:50:14.34,Default,,0,0,0,,so much anger in yourself.
+Dialogue: 0,0:50:14.34,0:50:16.34,Default,,0,0,0,,Whether you're concerned
+Dialogue: 0,0:50:16.34,0:50:18.34,Default,,0,0,0,,in just handling the facts involved
+Dialogue: 0,0:50:18.34,0:50:20.34,Default,,0,0,0,,with no particular feeling.
+Dialogue: 0,0:50:20.34,0:50:22.53,Default,,0,0,0,,The detached person would just handle
+Dialogue: 0,0:50:22.53,0:50:24.53,Default,,0,0,0,,this with no particular feeling.
+Dialogue: 0,0:50:24.53,0:50:26.53,Default,,0,0,0,,They just want to support life
+Dialogue: 0,0:50:26.53,0:50:28.53,Default,,0,0,0,,and relieve their anxiety and their fear.
+Dialogue: 0,0:50:28.53,0:50:30.53,Default,,0,0,0,,All of that you see is coming out
+Dialogue: 0,0:50:30.53,0:50:32.53,Default,,0,0,0,,of who you are.
+Dialogue: 0,0:50:32.53,0:50:34.53,Default,,0,0,0,,It doesn't exist in the world.
+Dialogue: 0,0:50:34.53,0:50:36.53,Default,,0,0,0,,A dented fender therefore has no power
+Dialogue: 0,0:50:36.53,0:50:38.53,Default,,0,0,0,,over your life.
+Dialogue: 0,0:50:38.53,0:50:40.53,Default,,0,0,0,,We've just taken its power away.
+Dialogue: 0,0:50:40.53,0:50:42.53,Default,,0,0,0,,We've just owned it back within ourself.
+Dialogue: 0,0:50:42.53,0:50:44.53,Default,,0,0,0,,And we've just precluded
+Dialogue: 0,0:50:44.53,0:50:46.53,Default,,0,0,0,,the sources of stress
+Dialogue: 0,0:50:46.53,0:50:48.53,Default,,0,0,0,,by just the realization
+Dialogue: 0,0:50:48.53,0:50:50.53,Default,,0,0,0,,about what we've talked about thus far.
+Dialogue: 0,0:50:50.53,0:50:52.53,Default,,0,0,0,,A certain state of inner peace then
+Dialogue: 0,0:50:52.53,0:50:54.53,Default,,0,0,0,,automatically comes up
+Dialogue: 0,0:50:54.53,0:50:56.53,Default,,0,0,0,,of our willingness to give up
+Dialogue: 0,0:50:56.53,0:50:58.53,Default,,0,0,0,,certain positions.
+Dialogue: 0,0:50:58.53,0:51:00.53,Default,,0,0,0,,Our willingness to give up judging others.
+Dialogue: 0,0:51:00.53,0:51:02.53,Default,,0,0,0,,Making them wrong.
+Dialogue: 0,0:51:02.53,0:51:04.53,Default,,0,0,0,,Our willingness then to come from
+Dialogue: 0,0:51:04.53,0:51:06.53,Default,,0,0,0,,a forgiving understanding position.
+Dialogue: 0,0:51:06.53,0:51:08.53,Default,,0,0,0,,You see, right or wrong
+Dialogue: 0,0:51:08.53,0:51:10.53,Default,,0,0,0,,doesn't really solve anything, does it?
+Dialogue: 0,0:51:10.53,0:51:12.53,Default,,0,0,0,,The willingness to accept people
+Dialogue: 0,0:51:12.53,0:51:14.53,Default,,0,0,0,,as they are.
+Dialogue: 0,0:51:14.53,0:51:16.53,Default,,0,0,0,,If we come from this position here
+Dialogue: 0,0:51:16.53,0:51:18.53,Default,,0,0,0,,making them wrong
+Dialogue: 0,0:51:18.53,0:51:20.53,Default,,0,0,0,,we live in a world of win-lose.
+Dialogue: 0,0:51:20.53,0:51:22.53,Default,,0,0,0,,The people at the bottom here
+Dialogue: 0,0:51:22.53,0:51:24.53,Default,,0,0,0,,are coming from a world
+Dialogue: 0,0:51:24.53,0:51:26.53,Default,,0,0,0,,of lose-lose.
+Dialogue: 0,0:51:26.53,0:51:28.53,Default,,0,0,0,,This is a world where I lose
+Dialogue: 0,0:51:28.53,0:51:30.53,Default,,0,0,0,,and the company loses.
+Dialogue: 0,0:51:30.53,0:51:32.53,Default,,0,0,0,,In the middle of the
+Dialogue: 0,0:51:32.53,0:51:34.53,Default,,0,0,0,,energy field here
+Dialogue: 0,0:51:34.53,0:51:36.53,Default,,0,0,0,,we come from positions
+Dialogue: 0,0:51:36.53,0:51:38.53,Default,,0,0,0,,which result in
+Dialogue: 0,0:51:38.53,0:51:40.88,Default,,0,0,0,,win-lose.
+Dialogue: 0,0:51:40.88,0:51:42.88,Default,,0,0,0,,It means if I win, you lose, etc.
+Dialogue: 0,0:51:42.88,0:51:44.88,Default,,0,0,0,,It's stressful
+Dialogue: 0,0:51:44.88,0:51:46.88,Default,,0,0,0,,by the context.
+Dialogue: 0,0:51:46.88,0:51:48.88,Default,,0,0,0,,It's stressful in the very way
+Dialogue: 0,0:51:48.88,0:51:50.88,Default,,0,0,0,,that it's set up.
+Dialogue: 0,0:51:50.88,0:51:52.88,Default,,0,0,0,,Because even if you win
+Dialogue: 0,0:51:52.88,0:51:54.88,Default,,0,0,0,,you have to go through the anxiety of losing.
+Dialogue: 0,0:51:54.88,0:51:56.88,Default,,0,0,0,,So even winning doesn't win.
+Dialogue: 0,0:51:56.88,0:51:58.88,Default,,0,0,0,,Even winning doesn't win.
+Dialogue: 0,0:51:58.88,0:52:01.07,Default,,0,0,0,,We know that people, for instance,
+Dialogue: 0,0:52:01.07,0:52:03.07,Default,,0,0,0,,who say, I want to have a lot of money
+Dialogue: 0,0:52:03.07,0:52:05.07,Default,,0,0,0,,what happens to them
+Dialogue: 0,0:52:05.07,0:52:07.07,Default,,0,0,0,,when you give them a lot of money?
+Dialogue: 0,0:52:07.07,0:52:09.07,Default,,0,0,0,,Well, some interesting research has been done
+Dialogue: 0,0:52:09.07,0:52:11.07,Default,,0,0,0,,on people who win
+Dialogue: 0,0:52:11.07,0:52:13.07,Default,,0,0,0,,millions of dollars
+Dialogue: 0,0:52:13.07,0:52:15.07,Default,,0,0,0,,in big lotteries and all.
+Dialogue: 0,0:52:15.07,0:52:17.07,Default,,0,0,0,,We find out that within five years
+Dialogue: 0,0:52:17.07,0:52:19.07,Default,,0,0,0,,a five-year follow-up
+Dialogue: 0,0:52:19.07,0:52:21.07,Default,,0,0,0,,that the degree of happiness in this group of people
+Dialogue: 0,0:52:21.07,0:52:23.07,Default,,0,0,0,,was dismal.
+Dialogue: 0,0:52:23.07,0:52:25.07,Default,,0,0,0,,The suicide rate,
+Dialogue: 0,0:52:25.07,0:52:27.07,Default,,0,0,0,,the divorce rate,
+Dialogue: 0,0:52:27.07,0:52:29.26,Default,,0,0,0,,the sickness rate,
+Dialogue: 0,0:52:29.26,0:52:31.26,Default,,0,0,0,,the addiction to drugs
+Dialogue: 0,0:52:31.26,0:52:33.26,Default,,0,0,0,,had risen spectacularly in these people
+Dialogue: 0,0:52:33.26,0:52:35.26,Default,,0,0,0,,who had gotten ostensibly
+Dialogue: 0,0:52:35.26,0:52:37.26,Default,,0,0,0,,the very thing they wanted.
+Dialogue: 0,0:52:37.26,0:52:39.26,Default,,0,0,0,,The reason they played the lottery
+Dialogue: 0,0:52:39.26,0:52:41.26,Default,,0,0,0,,was to win.
+Dialogue: 0,0:52:41.26,0:52:43.26,Default,,0,0,0,,The win-lose game, you see,
+Dialogue: 0,0:52:43.26,0:52:45.26,Default,,0,0,0,,because if you structure things as win-lose
+Dialogue: 0,0:52:45.26,0:52:47.26,Default,,0,0,0,,then to win in itself
+Dialogue: 0,0:52:47.26,0:52:49.26,Default,,0,0,0,,means to defeat others.
+Dialogue: 0,0:52:49.26,0:52:51.26,Default,,0,0,0,,To defeat others brings up what?
+Dialogue: 0,0:52:51.26,0:52:53.26,Default,,0,0,0,,Brings up guilt.
+Dialogue: 0,0:52:53.26,0:52:55.26,Default,,0,0,0,,And so you can't even be happy in winning
+Dialogue: 0,0:52:55.26,0:52:57.26,Default,,0,0,0,,or losing.
+Dialogue: 0,0:52:57.26,0:52:59.26,Default,,0,0,0,,In the win-lose context,
+Dialogue: 0,0:52:59.26,0:53:01.26,Default,,0,0,0,,if I win, then you are defeated
+Dialogue: 0,0:53:01.26,0:53:03.26,Default,,0,0,0,,and I have to put up with the guilt of that defeat.
+Dialogue: 0,0:53:03.26,0:53:05.26,Default,,0,0,0,,If I win in competition,
+Dialogue: 0,0:53:05.26,0:53:07.26,Default,,0,0,0,,I then have to go into fear
+Dialogue: 0,0:53:07.26,0:53:09.26,Default,,0,0,0,,because in competition
+Dialogue: 0,0:53:09.26,0:53:11.26,Default,,0,0,0,,I then expect retaliation
+Dialogue: 0,0:53:11.26,0:53:13.26,Default,,0,0,0,,from my enemy, from my opponent.
+Dialogue: 0,0:53:13.26,0:53:15.26,Default,,0,0,0,,So I may have defeated him this time
+Dialogue: 0,0:53:15.26,0:53:17.26,Default,,0,0,0,,but now I worry whether his friends
+Dialogue: 0,0:53:17.26,0:53:19.26,Default,,0,0,0,,are out to get me.
+Dialogue: 0,0:53:19.26,0:53:21.26,Default,,0,0,0,,And so these are really sort of paranoid positions,
+Dialogue: 0,0:53:21.26,0:53:23.87,Default,,0,0,0,,depressed, paranoid positions.
+Dialogue: 0,0:53:23.87,0:53:25.87,Default,,0,0,0,,At the bottom of the box,
+Dialogue: 0,0:53:25.87,0:53:27.87,Default,,0,0,0,,that is a hopeless, sinful world.
+Dialogue: 0,0:53:27.87,0:53:29.97,Default,,0,0,0,,In the middle,
+Dialogue: 0,0:53:29.97,0:53:31.97,Default,,0,0,0,,we have win-lose with the anxiety,
+Dialogue: 0,0:53:31.97,0:53:33.97,Default,,0,0,0,,the stress that automatically comes out of
+Dialogue: 0,0:53:33.97,0:53:36.61,Default,,0,0,0,,a win-lose position.
+Dialogue: 0,0:53:36.61,0:53:38.61,Default,,0,0,0,,As we move towards the top of the box,
+Dialogue: 0,0:53:38.61,0:53:40.61,Default,,0,0,0,,those positions of great success
+Dialogue: 0,0:53:40.61,0:53:42.61,Default,,0,0,0,,and power in the world automatically
+Dialogue: 0,0:53:42.61,0:53:44.61,Default,,0,0,0,,come to those who think in terms of
+Dialogue: 0,0:53:44.61,0:53:46.70,Default,,0,0,0,,win-win.
+Dialogue: 0,0:53:46.70,0:53:48.70,Default,,0,0,0,,Because they are coming from that position,
+Dialogue: 0,0:53:48.70,0:53:50.70,Default,,0,0,0,,they then set up
+Dialogue: 0,0:53:50.70,0:53:52.70,Default,,0,0,0,,within their own mind
+Dialogue: 0,0:53:52.70,0:53:54.70,Default,,0,0,0,,a way of being in the world
+Dialogue: 0,0:53:54.70,0:53:56.70,Default,,0,0,0,,and a way for others to be in their life
+Dialogue: 0,0:53:56.70,0:53:59.28,Default,,0,0,0,,and automatically win-win.
+Dialogue: 0,0:53:59.28,0:54:01.28,Default,,0,0,0,,What kind of stress then
+Dialogue: 0,0:54:01.28,0:54:03.28,Default,,0,0,0,,does the person experience
+Dialogue: 0,0:54:03.28,0:54:05.28,Default,,0,0,0,,who is setting up everything
+Dialogue: 0,0:54:05.28,0:54:08.30,Default,,0,0,0,,as win-win?
+Dialogue: 0,0:54:08.30,0:54:10.30,Default,,0,0,0,,The person wins if they come over to your house
+Dialogue: 0,0:54:10.30,0:54:12.30,Default,,0,0,0,,and they win if they don't.
+Dialogue: 0,0:54:12.30,0:54:14.30,Default,,0,0,0,,If they come over to your house,
+Dialogue: 0,0:54:14.30,0:54:16.30,Default,,0,0,0,,what you hold is how much
+Dialogue: 0,0:54:16.30,0:54:18.30,Default,,0,0,0,,you're going to enjoy their friendship
+Dialogue: 0,0:54:18.30,0:54:20.30,Default,,0,0,0,,and their presence.
+Dialogue: 0,0:54:20.30,0:54:22.37,Default,,0,0,0,,And at the same time you let them know
+Dialogue: 0,0:54:22.37,0:54:24.37,Default,,0,0,0,,if you can't make it, that's great
+Dialogue: 0,0:54:24.37,0:54:26.37,Default,,0,0,0,,because I've got a book I'm working on
+Dialogue: 0,0:54:26.37,0:54:28.37,Default,,0,0,0,,and I can use the time.
+Dialogue: 0,0:54:28.37,0:54:30.37,Default,,0,0,0,,The other person in your life now
+Dialogue: 0,0:54:30.37,0:54:32.37,Default,,0,0,0,,wins either way.
+Dialogue: 0,0:54:32.37,0:54:34.37,Default,,0,0,0,,If they come for dinner,
+Dialogue: 0,0:54:34.37,0:54:36.37,Default,,0,0,0,,you're delighted with their presence.
+Dialogue: 0,0:54:36.37,0:54:38.37,Default,,0,0,0,,If they don't come for dinner,
+Dialogue: 0,0:54:38.37,0:54:40.37,Default,,0,0,0,,you've given them the free time
+Dialogue: 0,0:54:40.37,0:54:42.37,Default,,0,0,0,,to do something that you know
+Dialogue: 0,0:54:42.37,0:54:44.37,Default,,0,0,0,,will enhance their life.
+Dialogue: 0,0:54:44.37,0:54:46.37,Default,,0,0,0,,So everybody wins.
+Dialogue: 0,0:54:46.37,0:54:48.37,Default,,0,0,0,,So to hold all one's positions
+Dialogue: 0,0:54:48.37,0:54:50.37,Default,,0,0,0,,in business for instance,
+Dialogue: 0,0:54:50.37,0:54:52.37,Default,,0,0,0,,in a situation,
+Dialogue: 0,0:54:52.37,0:54:54.37,Default,,0,0,0,,you can imagine how successful it is.
+Dialogue: 0,0:54:54.37,0:54:56.37,Default,,0,0,0,,If my position is,
+Dialogue: 0,0:54:56.37,0:54:58.37,Default,,0,0,0,,the marketer wins,
+Dialogue: 0,0:54:58.37,0:55:00.37,Default,,0,0,0,,the magazine wins,
+Dialogue: 0,0:55:00.37,0:55:02.37,Default,,0,0,0,,all of our bank accounts win,
+Dialogue: 0,0:55:02.37,0:55:04.37,Default,,0,0,0,,our status wins,
+Dialogue: 0,0:55:04.37,0:55:06.37,Default,,0,0,0,,the alliance wins,
+Dialogue: 0,0:55:06.37,0:55:08.37,Default,,0,0,0,,if I set it up so that everybody wins
+Dialogue: 0,0:55:08.37,0:55:10.37,Default,,0,0,0,,then I have no enemies.
+Dialogue: 0,0:55:10.37,0:55:12.37,Default,,0,0,0,,Because I have no enemies,
+Dialogue: 0,0:55:12.37,0:55:14.37,Default,,0,0,0,,you see, there is no negative energy
+Dialogue: 0,0:55:14.37,0:55:16.37,Default,,0,0,0,,opposing the direction of the positive support of life.
+Dialogue: 0,0:55:16.37,0:55:18.37,Default,,0,0,0,,Then that flourishes,
+Dialogue: 0,0:55:18.37,0:55:20.37,Default,,0,0,0,,that flows forth.
+Dialogue: 0,0:55:20.37,0:55:22.37,Default,,0,0,0,,So all of life then is experienced
+Dialogue: 0,0:55:22.37,0:55:24.43,Default,,0,0,0,,as an enhancement of life.
+Dialogue: 0,0:55:24.43,0:55:26.43,Default,,0,0,0,,To hold life then from a win-win position.
+Dialogue: 0,0:55:26.43,0:55:28.43,Default,,0,0,0,,So one of the things,
+Dialogue: 0,0:55:28.43,0:55:30.43,Default,,0,0,0,,one of the good implications
+Dialogue: 0,0:55:30.43,0:55:32.43,Default,,0,0,0,,for a well- escuelaed brand
+Dialogue: 0,0:55:32.43,0:55:55.59,Default,,0,0,0,,is that there's a lot of
+Dialogue: 0,0:55:55.59,0:56:01.77,Default,,0,0,0,,win-win situation all around and one of acknowledged great success way to become
+Dialogue: 0,0:56:01.77,0:56:06.67,Default,,0,0,0,,a success is to make your boss a success instead of going into competition with
+Dialogue: 0,0:56:06.67,0:56:12.09,Default,,0,0,0,,them you see in which somebody is bound to lose making your boss a success moves
+Dialogue: 0,0:56:12.09,0:56:17.09,Default,,0,0,0,,him up the ladder and creates a space for you to move up to come from a
+Dialogue: 0,0:56:17.09,0:56:22.01,Default,,0,0,0,,competitive position would mean to defeat the boss that would bring up the
+Dialogue: 0,0:56:22.01,0:56:28.13,Default,,0,0,0,,unconscious anxiety distress of the fear of retaliation in a war as you
+Dialogue: 0,0:56:28.13,0:56:31.67,Default,,0,0,0,,picture it a war then you've defeated the opponent and of course now his
+Dialogue: 0,0:56:31.67,0:56:35.27,Default,,0,0,0,,friends are going to come and get you and so you would have to live ever after
+Dialogue: 0,0:56:35.27,0:56:39.41,Default,,0,0,0,,in a position of danger and defensiveness so there's willingness
+Dialogue: 0,0:56:39.41,0:56:44.97,Default,,0,0,0,,then to give up the adversary position to become more easygoing you can see the
+Dialogue: 0,0:56:44.97,0:56:50.83,Default,,0,0,0,,amount of stress experienced by the easygoing person does easygoing mean
+Dialogue: 0,0:56:50.83,0:56:51.43,Default,,0,0,0,,vulnerable
+Dialogue: 0,0:56:52.17,0:56:58.87,Default,,0,0,0,,does it mean being stupid not at all the easygoing person see the person up
+Dialogue: 0,0:56:58.87,0:57:04.23,Default,,0,0,0,,here on the level of acceptance sort of accepts what new human nature is like
+Dialogue: 0,0:57:04.23,0:57:11.35,Default,,0,0,0,,accepts what the world is like and prepares prepares for the alternates to
+Dialogue: 0,0:57:11.35,0:57:17.30,Default,,0,0,0,,come up I remember one time in fact several times three times already I was
+Dialogue: 0,0:57:17.30,0:57:22.82,Default,,0,0,0,,audited by the IRS so a lot of people go into a terrible state of fear at this
+Dialogue: 0,0:57:22.84,0:57:28.08,Default,,0,0,0,,prospect and they go into an adversary position and all kinds of stress comes
+Dialogue: 0,0:57:28.08,0:57:32.50,Default,,0,0,0,,up now as we said stress does not exist in the outer world but your attitude
+Dialogue: 0,0:57:32.50,0:57:37.79,Default,,0,0,0,,about it hmm I had a different reaction I was sort of excited I'd never been
+Dialogue: 0,0:57:37.79,0:57:42.23,Default,,0,0,0,,audited before I don't know why they never audited me but for 30 years when I
+Dialogue: 0,0:57:42.23,0:57:45.35,Default,,0,0,0,,was making pretty good money in the world nobody bothered to audit me and
+Dialogue: 0,0:57:45.35,0:57:50.63,Default,,0,0,0,,then one year the computer picked it out so I thought well here's a chance to
+Dialogue: 0,0:57:50.63,0:57:52.59,Default,,0,0,0,,find out you know how well I've been doing
+Dialogue: 0,0:57:53.42,0:57:57.56,Default,,0,0,0,,I sort of looked at it sort of happily I thought here's a chance to find out you
+Dialogue: 0,0:57:57.56,0:58:02.96,Default,,0,0,0,,know if I'm doing things correctly and if not what I can do about it and so I
+Dialogue: 0,0:58:02.96,0:58:05.78,Default,,0,0,0,,really prepared for this I really spent a couple of weeks I went out and I
+Dialogue: 0,0:58:05.78,0:58:09.98,Default,,0,0,0,,bought fancy notebooks in which I had everything prepared for him and I put it
+Dialogue: 0,0:58:09.98,0:58:13.82,Default,,0,0,0,,in celluloid pages so that you know the accountant told me what he would be
+Dialogue: 0,0:58:13.82,0:58:19.02,Default,,0,0,0,,interested in so then I had labels on the front of it and I had coffee ready
+Dialogue: 0,0:58:19.02,0:58:22.06,Default,,0,0,0,,and when he got there it was he was like an honored guest you know and I
+Dialogue: 0,0:58:22.06,0:58:23.56,Default,,0,0,0,,escorted him into the library
+Dialogue: 0,0:58:23.58,0:58:28.26,Default,,0,0,0,,and gave him you know the best desk and the best coffee and the best cup and
+Dialogue: 0,0:58:28.26,0:58:32.34,Default,,0,0,0,,saucer not out of bettering up buttering him up but really respect for his
+Dialogue: 0,0:58:32.34,0:58:36.30,Default,,0,0,0,,position because I could see you know how painful it must be to be a tax
+Dialogue: 0,0:58:36.30,0:58:39.90,Default,,0,0,0,,auditor you know everybody hates you everybody's frightened of you so my
+Dialogue: 0,0:58:39.90,0:58:44.28,Default,,0,0,0,,heart sort of went out to the guy and I really wanted his day to be a good day
+Dialogue: 0,0:58:44.28,0:58:49.14,Default,,0,0,0,,so everything was you know ready for him and I really treated him you know like
+Dialogue: 0,0:58:49.14,0:58:53.56,Default,,0,0,0,,an honored guest well he was so pleased and as the day went on I
+Dialogue: 0,0:58:53.74,0:58:58.64,Default,,0,0,0,,had my way of looking at things he had his way of looking at things and we had
+Dialogue: 0,0:58:58.64,0:59:02.42,Default,,0,0,0,,sort of a friendly talk at it and we sort of did a swap and so at the end of
+Dialogue: 0,0:59:02.42,0:59:06.86,Default,,0,0,0,,the day he folded his things and he got to leave early he got to leave early
+Dialogue: 0,0:59:06.86,0:59:10.10,Default,,0,0,0,,because I didn't have and hand him a box full of receipts which would be
+Dialogue: 0,0:59:10.10,0:59:14.72,Default,,0,0,0,,unloving and disrespectful I didn't have him and him a box of stuff you know it's
+Dialogue: 0,0:59:14.72,0:59:19.88,Default,,0,0,0,,up to you to find it I prepared it for him you see and so he had a great day
+Dialogue: 0,0:59:19.88,0:59:23.76,Default,,0,0,0,,and by making his day a great day I had an enjoyable day and I had a great day
+Dialogue: 0,0:59:23.96,0:59:27.14,Default,,0,0,0,,he had an enjoyable day he said you know I really hate to leave three o'clock in
+Dialogue: 0,0:59:27.14,0:59:31.52,Default,,0,0,0,,the afternoon he said but you know frankly we're all done now the computer
+Dialogue: 0,0:59:31.52,0:59:35.24,Default,,0,0,0,,picked me up again the following year and we went through the same process and
+Dialogue: 0,0:59:35.24,0:59:39.68,Default,,0,0,0,,again the auditor and I agreed on everything in both years I got a letter
+Dialogue: 0,0:59:39.68,0:59:44.48,Default,,0,0,0,,that accepted the return as filed and it's always been that way with the IRS
+Dialogue: 0,0:59:44.48,0:59:50.70,Default,,0,0,0,,I've always experienced them as very friendly very helpful very positive in
+Dialogue: 0,0:59:50.70,0:59:54.36,Default,,0,0,0,,their attitude and I suppose it's because that's how
+Dialogue: 0,0:59:54.48,0:59:59.46,Default,,0,0,0,,it's being held in consciousness itself to treat everybody who comes into your
+Dialogue: 0,0:59:59.46,1:00:04.80,Default,,0,0,0,,life as a guest and to treat them as well as you can to treat them royally if
+Dialogue: 0,1:00:04.80,1:00:11.58,Default,,0,0,0,,possible and so to become easygoing then is not to see danger in the world to get
+Dialogue: 0,1:00:11.58,1:00:17.14,Default,,0,0,0,,out of the habit of seeing danger but the person says who worships fear and
+Dialogue: 0,1:00:17.14,1:00:20.86,Default,,0,0,0,,thinks his fear you know fear is what's kept them alive in this planet what
+Dialogue: 0,1:00:20.86,1:00:25.15,Default,,0,0,0,,about the downside of life well we said the easygoing person
+Dialogue: 0,1:00:25.21,1:00:30.25,Default,,0,0,0,,the one who is really confident and adequate is able to accept the downside
+Dialogue: 0,1:00:30.25,1:00:36.19,Default,,0,0,0,,is able to accept the possibility of the downside of human nature and doesn't
+Dialogue: 0,1:00:36.19,1:00:42.08,Default,,0,0,0,,have to deny it and so what is looking at the downside then it's preparing for
+Dialogue: 0,1:00:42.08,1:00:48.32,Default,,0,0,0,,what if it's preparing for what if the plane doesn't leave on Thursday it's
+Dialogue: 0,1:00:48.32,1:00:54.32,Default,,0,0,0,,preparing for the what-ifs in life for creating an opportunity to handle the
+Dialogue: 0,1:00:54.32,1:00:55.26,Default,,0,0,0,,other side the opportunity to handle the other side the opportunity to handle the
+Dialogue: 0,1:00:55.28,1:00:59.78,Default,,0,0,0,,opportunities that would arise now the way to find out the source of stress
+Dialogue: 0,1:00:59.78,1:01:04.50,Default,,0,0,0,,very easily is to take along a book that you are really into reading or a
+Dialogue: 0,1:01:04.50,1:01:09.26,Default,,0,0,0,,magazine article when you're driving to work you know on the parkway and the city
+Dialogue: 0,1:01:09.26,1:01:15.16,Default,,0,0,0,,traffic the stress of the endless delays in traffic most people will tell you you
+Dialogue: 0,1:01:15.16,1:01:19.66,Default,,0,0,0,,know the terrible stress of driving in New York City the terrible stress of
+Dialogue: 0,1:01:19.66,1:01:24.68,Default,,0,0,0,,driving in Phoenix I never experienced it as stressful on the contrary I always
+Dialogue: 0,1:01:24.68,1:01:25.82,Default,,0,0,0,,have something next to me that I can't handle and I can't handle and I can't
+Dialogue: 0,1:01:25.82,1:01:27.74,Default,,0,0,0,,handle and I can't handle and I can't handle and I'm just dying to read so if
+Dialogue: 0,1:01:27.74,1:01:30.38,Default,,0,0,0,,I'm just dying to read so if you want to see how fast time goes in a traffic
+Dialogue: 0,1:01:30.38,1:01:32.08,Default,,0,0,0,,you want to see how fast time goes in a traffic delay have something that you're
+Dialogue: 0,1:01:32.08,1:01:33.50,Default,,0,0,0,,delay have something that you're reading the minute the light turns red
+Dialogue: 0,1:01:33.50,1:01:34.88,Default,,0,0,0,,reading the minute the light turns red you pull it out and you start reading it
+Dialogue: 0,1:01:34.88,1:01:37.52,Default,,0,0,0,,you pull it out and you start reading it it's always in no time it seems like
+Dialogue: 0,1:01:37.52,1:01:39.34,Default,,0,0,0,,it's always in no time it seems like half a second the darn thing is green
+Dialogue: 0,1:01:39.34,1:01:42.30,Default,,0,0,0,,half a second the darn thing is green again it used to be that the red was
+Dialogue: 0,1:01:42.30,1:01:44.72,Default,,0,0,0,,again it used to be that the red was stressful now the green is stressful
+Dialogue: 0,1:01:44.72,1:01:48.00,Default,,0,0,0,,stressful now the green is stressful isn't that interesting same stoplight is
+Dialogue: 0,1:01:48.00,1:01:50.28,Default,,0,0,0,,isn't that interesting same stoplight is the red stressful or is the green
+Dialogue: 0,1:01:50.28,1:01:53.60,Default,,0,0,0,,the red stressful or is the green stressful huh that gives us a key on how
+Dialogue: 0,1:01:53.60,1:02:00.30,Default,,0,0,0,,to get rid of stress. And there is the secret. When my car was getting fixed, you know, I
+Dialogue: 0,1:02:00.30,1:02:06.69,Default,,0,0,0,,had an office in New York City and I lived out on Long Island. And there was a time when
+Dialogue: 0,1:02:06.69,1:02:11.31,Default,,0,0,0,,I was putting in a new transmission on a nice old Imperial. I didn't want to junk it. So
+Dialogue: 0,1:02:11.31,1:02:16.95,Default,,0,0,0,,anyway, it was up on the rack for weeks. And during that time, I had to stand in the long
+Dialogue: 0,1:02:16.95,1:02:22.09,Default,,0,0,0,,queues. I had to take the bus. The bus took you to the subway. The subway took you to
+Dialogue: 0,1:02:22.09,1:02:27.36,Default,,0,0,0,,another subway. The other subway took you uptown. Lots of delays and waiting, you know,
+Dialogue: 0,1:02:27.36,1:02:31.80,Default,,0,0,0,,the endless queue waiting for the bus. But I always had a pocketbook that I was dying
+Dialogue: 0,1:02:31.80,1:02:37.06,Default,,0,0,0,,to read. And so while other people were champing and feeling the terrible stress, the delay
+Dialogue: 0,1:02:37.06,1:02:42.78,Default,,0,0,0,,of the bus and all, you know, time just flew by because I was enjoying the novel so much.
+Dialogue: 0,1:02:43.44,1:02:48.64,Default,,0,0,0,,And during that two or three weeks, I guess it was close to a month even, I read more
+Dialogue: 0,1:02:48.64,1:02:52.14,Default,,0,0,0,,books than I've ever read in my life. I read three books a day. I read a book a week a
+Dialogue: 0,1:02:52.14,1:02:52.16,Default,,0,0,0,,day. I read a book a week a week. I read a book a week a week. I read a book a week a
+Dialogue: 0,1:02:52.16,1:02:55.40,Default,,0,0,0,,on the way in on the subway in a way a book on the way home on this that way
+Dialogue: 0,1:02:55.40,1:02:59.54,Default,,0,0,0,,and another book in the evening and I knocked off about 50 books over there
+Dialogue: 0,1:02:59.54,1:03:03.80,Default,,0,0,0,,and I was really sad when they finally fixed the car I felt a loss I thought oh
+Dialogue: 0,1:03:03.80,1:03:08.60,Default,,0,0,0,,there goes my opportunity to do all that wonderful reading that I've been looking
+Dialogue: 0,1:03:08.60,1:03:14.88,Default,,0,0,0,,forward to all this time and so you see the capacity then within us to create an
+Dialogue: 0,1:03:14.88,1:03:18.86,Default,,0,0,0,,enjoyable because I really enjoyed waiting for the bus I really look
+Dialogue: 0,1:03:18.86,1:03:22.76,Default,,0,0,0,,forward to it every morning I go out there and now conflict free because
+Dialogue: 0,1:03:22.76,1:03:26.72,Default,,0,0,0,,after all there wasn't anything else I could be doing I had a conflict free
+Dialogue: 0,1:03:26.72,1:03:32.92,Default,,0,0,0,,area in which I could enjoy myself catch up on things really enjoy life so
+Dialogue: 0,1:03:32.92,1:03:37.76,Default,,0,0,0,,instead of feeling stress you know blowing out my acupuncture meridians in a
+Dialogue: 0,1:03:37.76,1:03:42.44,Default,,0,0,0,,frustration trying to change the world change life what was created was an
+Dialogue: 0,1:03:42.44,1:03:48.42,Default,,0,0,0,,opportunity to experience another aspect of life when we go into a neighborhood
+Dialogue: 0,1:03:48.42,1:03:49.32,Default,,0,0,0,,and we see
+Dialogue: 0,1:03:49.56,1:03:55.00,Default,,0,0,0,,you know the zoning sign that says no children or pets what does that mean no
+Dialogue: 0,1:03:55.00,1:03:59.80,Default,,0,0,0,,children or pets it means that we have adopted within ourself we people who
+Dialogue: 0,1:03:59.80,1:04:05.08,Default,,0,0,0,,live in the no children or pets and neighborhood the idea that children and
+Dialogue: 0,1:04:05.08,1:04:11.59,Default,,0,0,0,,pets are stressful hmm that's merely a point of view is it not there are other
+Dialogue: 0,1:04:11.59,1:04:17.09,Default,,0,0,0,,people who would consider the lack of children and pets stressful to have no
+Dialogue: 0,1:04:17.09,1:04:19.39,Default,,0,0,0,,children note the sound of no children around
+Dialogue: 0,1:04:19.39,1:04:24.13,Default,,0,0,0,,they have no pets to greet you when you walk in the door at night at night would
+Dialogue: 0,1:04:24.13,1:04:28.45,Default,,0,0,0,,be considered stressful people come home to their part to an empty apartment so I
+Dialogue: 0,1:04:28.45,1:04:32.39,Default,,0,0,0,,know people say I can't stand coming home to an empty apartment you know
+Dialogue: 0,1:04:32.39,1:04:37.60,Default,,0,0,0,,drives me crazy they have to have the TV on the radio on the lights going a lot
+Dialogue: 0,1:04:37.60,1:04:44.02,Default,,0,0,0,,of action in their life to another person that would be very stressful some
+Dialogue: 0,1:04:44.02,1:04:48.12,Default,,0,0,0,,people like silence you know some people never turn on the television never turn
+Dialogue: 0,1:04:48.12,1:04:50.26,Default,,0,0,0,,on the radio that constant noise in the background that's not a good part of your life
+Dialogue: 0,1:04:50.32,1:04:55.00,Default,,0,0,0,,to them interferes with their concentration people who are into sort
+Dialogue: 0,1:04:55.00,1:05:00.92,Default,,0,0,0,,of contemplative type of lives these distractions would then be experienced
+Dialogue: 0,1:05:00.92,1:05:05.68,Default,,0,0,0,,as stressful the presence of small children the playing of the TV would
+Dialogue: 0,1:05:05.68,1:05:12.39,Default,,0,0,0,,drive them crazy another source of stress is coming from that which is
+Dialogue: 0,1:05:12.39,1:05:18.03,Default,,0,0,0,,unexpected in other words to not look at the alternatives and to provide for them
+Dialogue: 0,1:05:18.03,1:05:22.65,Default,,0,0,0,,if we look at what is the downside of a situation what if the contract falls
+Dialogue: 0,1:05:22.65,1:05:27.27,Default,,0,0,0,,through what if the person I'm going to meet isn't on the street corner to
+Dialogue: 0,1:05:27.27,1:05:33.43,Default,,0,0,0,,provide for the alternatives so to offset this source of stress in the very
+Dialogue: 0,1:05:33.43,1:05:40.15,Default,,0,0,0,,beginning so often the unexpected is experienced as stress we didn't expect
+Dialogue: 0,1:05:40.15,1:05:45.79,Default,,0,0,0,,that to happen the open-minded person sees the many alternatives of what could
+Dialogue: 0,1:05:45.79,1:05:47.91,Default,,0,0,0,,be and provides how to handle
+Dialogue: 0,1:05:47.91,1:05:48.01,Default,,0,0,0,,you
+Dialogue: 0,1:05:48.03,1:05:54.68,Default,,0,0,0,,, the unexpected before it occurs we were talking about whether music is
+Dialogue: 0,1:05:54.68,1:05:59.74,Default,,0,0,0,,experienced as stressful or not and we come upon a law called the law of
+Dialogue: 0,1:05:59.74,1:06:06.17,Default,,0,0,0,,initial stimulus the law of initial value correction the law of
+Dialogue: 0,1:06:06.17,1:06:12.31,Default,,0,0,0,,initial value states that the power you see is not in the stimulus but has to do
+Dialogue: 0,1:06:12.31,1:06:18.71,Default,,0,0,0,,with the setup of the organism the pre-existing condition
+Dialogue: 0,1:06:18.71,1:06:26.61,Default,,0,0,0,,of the function of the patient so the response then depends not just on the
+Dialogue: 0,1:06:26.61,1:06:32.39,Default,,0,0,0,,intensity of the stimulus but on the position of the organism with which it's
+Dialogue: 0,1:06:32.39,1:06:36.63,Default,,0,0,0,,interacting for instance in pharmacology it would be senseless than
+Dialogue: 0,1:06:36.63,1:06:41.88,Default,,0,0,0,,to ask you know what is the effect of 25 milligrams of or Tik the effect of 25
+Dialogue: 0,1:06:41.88,1:06:46.07,Default,,0,0,0,,milligrams of or team would depend on the pre-existing condition of the patient did the person was somewhat in Apathy and dull.
+Dialogue: 0,1:06:46.07,1:06:48.75,Default,,0,0,0,,27 kilograms or 15 milligrams of 21 milligrams of intimacy would야 Sudden body energy.
+Dialogue: 0,1:06:48.75,1:06:54.46,Default,,0,0,0,,25 milligrams of Thorazine may put them out and unconscious for three days.
+Dialogue: 0,1:06:54.46,1:07:00.86,Default,,0,0,0,,If the person was in a terribly agitated state, 25 milligrams of Thorazine may have no effect.
+Dialogue: 0,1:07:00.86,1:07:05.94,Default,,0,0,0,,If the person is in a state of mild anxiety, 25 milligrams of Thorazine might be quite
+Dialogue: 0,1:07:05.94,1:07:07.44,Default,,0,0,0,,effective.
+Dialogue: 0,1:07:07.44,1:07:13.46,Default,,0,0,0,,So what we're saying then is the preset condition, the amount of suppressed energy that the person
+Dialogue: 0,1:07:13.46,1:07:19.34,Default,,0,0,0,,is holding, their attitudes, their belief systems, determine then what the effect will
+Dialogue: 0,1:07:19.34,1:07:22.05,Default,,0,0,0,,be of the same stimulus.
+Dialogue: 0,1:07:22.05,1:07:24.47,Default,,0,0,0,,Some people say loud music drives me crazy.
+Dialogue: 0,1:07:24.47,1:07:29.53,Default,,0,0,0,,Well, we look at teenagers, they put on earphones, they lie down, they turn the volume way up
+Dialogue: 0,1:07:29.53,1:07:32.01,Default,,0,0,0,,and they go into a state of delight.
+Dialogue: 0,1:07:32.01,1:07:34.87,Default,,0,0,0,,So is loud music stressful or not?
+Dialogue: 0,1:07:34.87,1:07:41.05,Default,,0,0,0,,So we come down to a real basic principle then of what is stress.
+Dialogue: 0,1:07:41.05,1:07:43.59,Default,,0,0,0,,We don't experience stress when it's what we want.
+Dialogue: 0,1:07:43.59,1:07:48.78,Default,,0,0,0,,And we experience it as stress when we don't want it.
+Dialogue: 0,1:07:48.78,1:07:53.94,Default,,0,0,0,,Consequently, when you're in the mood for loud music, you're in a high state, you turn
+Dialogue: 0,1:07:53.94,1:07:58.94,Default,,0,0,0,,it up and you want to dance around the living room, get all ready for a party, loud music
+Dialogue: 0,1:07:58.94,1:08:04.22,Default,,0,0,0,,contributes to your state of joy and aliveness.
+Dialogue: 0,1:08:04.22,1:08:08.16,Default,,0,0,0,,If on the other hand you're tired and exhausted and you've had a hard day at the office, the
+Dialogue: 0,1:08:08.16,1:08:12.87,Default,,0,0,0,,same loud music would be experienced as stressful.
+Dialogue: 0,1:08:12.87,1:08:15.87,Default,,0,0,0,,The fact that you want it, that you desire it, is what determines it.
+Dialogue: 0,1:08:15.87,1:08:19.34,Default,,0,0,0,,It determines whether a thing is stressful or not.
+Dialogue: 0,1:08:19.34,1:08:26.97,Default,,0,0,0,,So we can repeat that to ourself and start to move beyond the vulnerability to stress.
+Dialogue: 0,1:08:26.97,1:08:34.22,Default,,0,0,0,,We can say to ourself, it's really very simple, stress is resisting what I don't want and not
+Dialogue: 0,1:08:34.22,1:08:37.03,Default,,0,0,0,,stress is getting what I want.
+Dialogue: 0,1:08:37.03,1:08:42.33,Default,,0,0,0,,We move into sort of an easy going attitude then because now we realize that really the
+Dialogue: 0,1:08:42.33,1:08:46.65,Default,,0,0,0,,problem is within ourselves to merely shift our attitude.
+Dialogue: 0,1:08:46.65,1:08:52.41,Default,,0,0,0,,And one way we can shift it is to move up into this field up here, a certain, the choosing
+Dialogue: 0,1:08:52.41,1:08:59.67,Default,,0,0,0,,of a lovingness towards life because around the middle of the 500 energy field at around
+Dialogue: 0,1:08:59.67,1:09:03.97,Default,,0,0,0,,550 we have an energy field called humor.
+Dialogue: 0,1:09:03.97,1:09:10.97,Default,,0,0,0,,Humor at 550, the capacity to laugh at ourself, to laugh at the nature of life itself, to
+Dialogue: 0,1:09:10.97,1:09:15.89,Default,,0,0,0,,love and laugh at the comedy of it all, that's the value of the great humorous.
+Dialogue: 0,1:09:15.89,1:09:20.12,Default,,0,0,0,,And the great humorous tend to be long-lived.
+Dialogue: 0,1:09:20.12,1:09:26.54,Default,,0,0,0,,The capacity to hold lightly, to see with enjoyment the qualities of life.
+Dialogue: 0,1:09:26.54,1:09:33.66,Default,,0,0,0,,So a person coming from that position then opens the newspaper and breaks it into laughter.
+Dialogue: 0,1:09:33.66,1:09:36.16,Default,,0,0,0,,I mean the comedy of it all.
+Dialogue: 0,1:09:36.16,1:09:40.78,Default,,0,0,0,,The futility with which people are trying to solve certain types of problems because
+Dialogue: 0,1:09:40.78,1:09:45.00,Default,,0,0,0,,now that you understand something about the nature of consciousness, you see that all
+Dialogue: 0,1:09:45.00,1:09:46.00,Default,,0,0,0,,is being reflected out.
+Dialogue: 0,1:09:46.02,1:09:50.90,Default,,0,0,0,,You see that there is an energy field, that they are like Don Quixote, fighting their
+Dialogue: 0,1:09:50.90,1:09:53.06,Default,,0,0,0,,own projections in the world.
+Dialogue: 0,1:09:53.06,1:09:58.84,Default,,0,0,0,,This is really their own negative viewpoints that they project on the world and they then
+Dialogue: 0,1:09:58.84,1:10:04.35,Default,,0,0,0,,spend the rest of their life battling that which they have projected out there.
+Dialogue: 0,1:10:04.35,1:10:09.09,Default,,0,0,0,,So the comedy of it all, that's the basis of all humor, you know, laughing at those
+Dialogue: 0,1:10:09.09,1:10:16.39,Default,,0,0,0,,qualities of life, holding them from a position which exposes the paradox.
+Dialogue: 0,1:10:16.39,1:10:26.92,Default,,0,0,0,,Because humor is seeing the paradox, the funniness of it, the humor of it, to hold lightly.
+Dialogue: 0,1:10:26.92,1:10:31.78,Default,,0,0,0,,We don't have to become at the effect then of anything out there whatsoever.
+Dialogue: 0,1:10:31.78,1:10:39.42,Default,,0,0,0,,It's we ourselves who determine by our attitudes, by our position, whether life is experienced
+Dialogue: 0,1:10:39.42,1:10:47.51,Default,,0,0,0,,as joyful and harmonious, easygoing, or whether we experience it as our enemy.
+Dialogue: 0,1:10:47.51,1:10:48.59,Default,,0,0,0,,The willingness to go with it.
+Dialogue: 0,1:10:48.59,1:10:50.35,Default,,0,0,0,,Go with it.
+Dialogue: 0,1:10:50.35,1:10:54.07,Default,,0,0,0,,We begin to admire people who are capable and easygoing.
+Dialogue: 0,1:10:54.07,1:11:00.58,Default,,0,0,0,,You see, the objection comes up, well, the easygoing person, aren't they a pushover,
+Dialogue: 0,1:11:00.58,1:11:01.86,Default,,0,0,0,,you know, in business?
+Dialogue: 0,1:11:01.86,1:11:05.18,Default,,0,0,0,,The misunderstanding of what easygoingness means.
+Dialogue: 0,1:11:05.18,1:11:08.16,Default,,0,0,0,,No, easygoing means acceptance.
+Dialogue: 0,1:11:08.16,1:11:09.58,Default,,0,0,0,,It means to be adequate.
+Dialogue: 0,1:11:09.58,1:11:15.88,Default,,0,0,0,,If you can see the humor of life, if you feel adequate and solid within yourself, if you
+Dialogue: 0,1:11:15.88,1:11:19.08,Default,,0,0,0,,realize that you're the source of how you experience life.
+Dialogue: 0,1:11:19.14,1:11:24.90,Default,,0,0,0,,Then you can handle those things which the world considers difficult with ease.
+Dialogue: 0,1:11:24.90,1:11:30.02,Default,,0,0,0,,You can be the boss, and if the janitor doesn't show up, it doesn't bother you at all.
+Dialogue: 0,1:11:30.02,1:11:33.92,Default,,0,0,0,,When the business closes for the day, you take off your coat, roll up your sleeves, and
+Dialogue: 0,1:11:33.92,1:11:35.61,Default,,0,0,0,,you sweep it out.
+Dialogue: 0,1:11:35.61,1:11:37.11,Default,,0,0,0,,It doesn't make any difference.
+Dialogue: 0,1:11:37.11,1:11:38.11,Default,,0,0,0,,Why?
+Dialogue: 0,1:11:38.11,1:11:41.76,Default,,0,0,0,,Because that which I am is unaffected by all that.
+Dialogue: 0,1:11:41.76,1:11:45.66,Default,,0,0,0,,The truth is that I am that which experiences experience.
+Dialogue: 0,1:11:45.66,1:11:48.66,Default,,0,0,0,,The realization that I am the experiencer of experience.
+Dialogue: 0,1:11:48.66,1:11:49.66,Default,,0,0,0,,That that's where I live.
+Dialogue: 0,1:11:49.66,1:11:52.78,Default,,0,0,0,,I live within my consciousness.
+Dialogue: 0,1:11:52.78,1:11:55.10,Default,,0,0,0,,It doesn't make any difference.
+Dialogue: 0,1:11:55.10,1:11:59.68,Default,,0,0,0,,Whether I surround myself with appurtenances that look important, or whether I roll up
+Dialogue: 0,1:11:59.68,1:12:05.60,Default,,0,0,0,,my sleeves and I sweep out the office myself, that which I am is totally unaffected.
+Dialogue: 0,1:12:05.60,1:12:10.12,Default,,0,0,0,,That which I am is just enjoying the experience of its own existence.
+Dialogue: 0,1:12:10.12,1:12:14.22,Default,,0,0,0,,Enjoying one's own inner aliveness.
+Dialogue: 0,1:12:14.22,1:12:18.84,Default,,0,0,0,,Stress just doesn't exist in that kind of a position about the world, where we clearly
+Dialogue: 0,1:12:18.84,1:12:21.60,Default,,0,0,0,,identify who we really are.
+Dialogue: 0,1:12:21.60,1:12:27.78,Default,,0,0,0,,When we stop identifying with the body as being who we are, we pointed out right in the
+Dialogue: 0,1:12:27.78,1:12:34.62,Default,,0,0,0,,very beginning, the body is half a dozen times removed from the reality of who we are.
+Dialogue: 0,1:12:34.62,1:12:38.90,Default,,0,0,0,,When we stop identifying with the events out there, when we stop giving them power over
+Dialogue: 0,1:12:38.90,1:12:42.80,Default,,0,0,0,,our life, then comes an inner serenity.
+Dialogue: 0,1:12:42.80,1:12:47.12,Default,,0,0,0,,You know, it's like the solar plexus can relax at last.
+Dialogue: 0,1:12:47.12,1:12:47.84,Default,,0,0,0,,We're out of danger.
+Dialogue: 0,1:12:47.84,1:12:48.84,Default,,0,0,0,,We're out of danger.
+Dialogue: 0,1:12:48.84,1:12:51.76,Default,,0,0,0,,We've sort of transcended the world.
+Dialogue: 0,1:12:51.76,1:12:55.32,Default,,0,0,0,,We've learned what the source of stress is.
+Dialogue: 0,1:12:55.32,1:13:01.74,Default,,0,0,0,,Just knowing what the source of stress is already makes us immune to it, already moves
+Dialogue: 0,1:13:01.74,1:13:07.60,Default,,0,0,0,,us into a different way of being with life, allows us to see it as our own creation.

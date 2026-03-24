@@ -1,0 +1,1014 @@
+[Script Info]
+; Source: Whisper Large V3
+Title: DocFlock Subtitles
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,3,0,4,2,30,30,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:06:18.42,0:06:19.37,Default,,0,0,0,,Only God knows.
+Dialogue: 0,0:06:22.49,0:06:23.76,Default,,0,0,0,,We're going to resume the lecture.
+Dialogue: 0,0:06:25.06,0:06:33.76,Default,,0,0,0,,Well, my guiding angels are here today, both in and out of body.
+Dialogue: 0,0:06:37.92,0:06:39.75,Default,,0,0,0,,I have permission to ask what I'm going to ask.
+Dialogue: 0,0:06:42.60,0:06:44.01,Default,,0,0,0,,My guiding angels are here.
+Dialogue: 0,0:06:45.67,0:06:47.87,Default,,0,0,0,,So my guiding angels are here.
+Dialogue: 0,0:06:50.13,0:06:52.47,Default,,0,0,0,,So I don't take credit for anything I say.
+Dialogue: 0,0:06:52.47,0:07:11.85,Default,,0,0,0,,So acknowledging the presence of divinity tends to reinforce when you affirm the presence
+Dialogue: 0,0:07:11.85,0:07:20.12,Default,,0,0,0,,of divinity and give thanks to the Lord, you strengthen the guidance that you get from
+Dialogue: 0,0:07:20.12,0:07:20.60,Default,,0,0,0,,the Lord.
+Dialogue: 0,0:07:22.99,0:07:24.11,Default,,0,0,0,,That's true.
+Dialogue: 0,0:07:24.11,0:07:24.64,Default,,0,0,0,,Resist.
+Dialogue: 0,0:07:26.12,0:07:26.36,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:07:26.95,0:07:27.72,Default,,0,0,0,,So acknowledging...
+Dialogue: 0,0:07:28.10,0:07:32.27,Default,,0,0,0,,Acknowledging divinity as the source of your existence and thanking God.
+Dialogue: 0,0:07:32.43,0:07:41.76,Default,,0,0,0,,So giving thanks to God and acknowledging God tends to reinforce the divine energy within
+Dialogue: 0,0:07:41.76,0:07:43.43,Default,,0,0,0,,your own psyche.
+Dialogue: 0,0:07:44.08,0:07:44.31,Default,,0,0,0,,Yes.
+Dialogue: 0,0:07:55.55,0:07:58.92,Default,,0,0,0,,So even in the pits of hell...
+Dialogue: 0,0:07:59.69,0:08:02.16,Default,,0,0,0,,Where I was, like, forsaken forever.
+Dialogue: 0,0:08:04.10,0:08:05.25,Default,,0,0,0,,I mean, it was forever.
+Dialogue: 0,0:08:05.50,0:08:06.04,Default,,0,0,0,,Unbelievable.
+Dialogue: 0,0:08:07.14,0:08:08.81,Default,,0,0,0,,I mean, forever more.
+Dialogue: 0,0:08:09.32,0:08:18.13,Default,,0,0,0,,Eternally, you would be cut off from love or salvation forever.
+Dialogue: 0,0:08:19.63,0:08:23.39,Default,,0,0,0,,In the word forever, you got what forever means.
+Dialogue: 0,0:08:24.42,0:08:26.06,Default,,0,0,0,,And that was terrifying.
+Dialogue: 0,0:08:26.06,0:08:27.95,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:27.95,0:08:29.50,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:30.80,0:08:31.43,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:31.43,0:08:31.75,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:31.75,0:08:31.77,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:31.80,0:08:32.41,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:32.41,0:08:32.51,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:32.51,0:08:32.82,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:32.84,0:08:32.86,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:32.86,0:08:32.98,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:32.98,0:08:33.01,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:33.01,0:08:33.13,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:33.13,0:08:33.51,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:33.53,0:08:33.60,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:33.63,0:08:45.39,Default,,0,0,0,,And that's when a voice from within me said,
+Dialogue: 0,0:08:45.79,0:08:48.15,Default,,0,0,0,,if there is a God, I ask him for help.
+Dialogue: 0,0:08:58.28,0:09:03.25,Default,,0,0,0,,And then all of hell disappeared
+Dialogue: 0,0:09:03.25,0:09:05.48,Default,,0,0,0,,and I was suddenly in a radiance
+Dialogue: 0,0:09:05.48,0:09:11.15,Default,,0,0,0,,in which the divinity of all that exists
+Dialogue: 0,0:09:11.15,0:09:15.96,Default,,0,0,0,,shone forth like a radiant light from all that exists.
+Dialogue: 0,0:09:21.87,0:09:25.35,Default,,0,0,0,,That was over 800.
+Dialogue: 0,0:09:25.73,0:09:26.59,Default,,0,0,0,,900.
+Dialogue: 0,0:09:27.21,0:09:27.85,Default,,0,0,0,,950.
+Dialogue: 0,0:09:29.19,0:09:29.78,Default,,0,0,0,,945.
+Dialogue: 0,0:09:30.42,0:09:30.99,Default,,0,0,0,,950.
+Dialogue: 0,0:09:31.64,0:09:33.87,Default,,0,0,0,,That moment was 945, yeah.
+Dialogue: 0,0:09:35.14,0:09:40.29,Default,,0,0,0,,From minus 500 or whatever it was.
+Dialogue: 0,0:09:42.20,0:09:49.36,Default,,0,0,0,,From 945's negative to 945's positive.
+Dialogue: 0,0:09:49.36,0:09:53.36,Default,,0,0,0,,I think you're joking.
+Dialogue: 0,0:09:57.36,0:10:00.36,Default,,0,0,0,,The divinity revealed itself as all that exists.
+Dialogue: 0,0:10:01.37,0:10:01.63,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:10:03.38,0:10:06.28,Default,,0,0,0,,To know that you are an expression of divinity
+Dialogue: 0,0:10:06.37,0:10:09.01,Default,,0,0,0,,as you.
+Dialogue: 0,0:10:10.08,0:10:11.70,Default,,0,0,0,,You are an expression of divinity as you.
+Dialogue: 0,0:10:13.37,0:10:16.95,Default,,0,0,0,,I am an expression of divinity as you.
+Dialogue: 0,0:10:17.42,0:10:18.75,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:10:19.00,0:10:20.16,Default,,0,0,0,,So if I can love God,
+Dialogue: 0,0:10:34.87,0:10:39.09,Default,,0,0,0,,the beauty of the translator shines forth.
+Dialogue: 0,0:10:40.54,0:10:41.30,Default,,0,0,0,,Unmistakable.
+Dialogue: 0,0:10:46.74,0:10:50.39,Default,,0,0,0,,The beauty of the translator is shown as it is.
+Dialogue: 0,0:10:51.13,0:10:52.29,Default,,0,0,0,,There is no room for misunderstanding.
+Dialogue: 0,0:10:52.29,0:10:52.53,Default,,0,0,0,,There is no room for misunderstanding.
+Dialogue: 0,0:10:53.37,0:10:53.65,Default,,0,0,0,,So,
+Dialogue: 0,0:10:53.89,0:10:56.14,Default,,0,0,0,,you're very blessed.
+Dialogue: 0,0:10:56.26,0:10:57.07,Default,,0,0,0,,I'm very blessed to have you today.
+Dialogue: 0,0:10:57.52,0:11:00.30,Default,,0,0,0,,We are very blessed to have you with us today.
+Dialogue: 0,0:11:01.21,0:11:09.12,Default,,0,0,0,,And Dr. Moon and all our visitors
+Dialogue: 0,0:11:09.12,0:11:13.12,Default,,0,0,0,,because of them, this occasion arose.
+Dialogue: 0,0:11:13.45,0:11:24.26,Default,,0,0,0,,And the charm of the Korean people came with you.
+Dialogue: 0,0:11:24.45,0:11:24.88,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:25.23,0:11:25.59,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:25.59,0:11:28.11,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:28.11,0:11:29.23,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:29.23,0:11:29.28,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:29.28,0:11:29.35,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:29.35,0:11:29.85,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:29.85,0:11:29.87,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:29.87,0:11:30.42,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:30.42,0:11:30.92,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:30.92,0:11:31.11,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:31.11,0:11:31.14,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:31.14,0:11:31.16,Default,,0,0,0,,The charm.
+Dialogue: 0,0:11:31.16,0:11:34.40,Default,,0,0,0,,Okay, we'll go back to the slides, back to the mundane.
+Dialogue: 0,0:11:35.59,0:11:42.79,Default,,0,0,0,,From the sublime to the mundane, yeah?
+Dialogue: 0,0:11:46.79,0:11:51.47,Default,,0,0,0,,Well, to become educated about the levels of consciousness
+Dialogue: 0,0:11:51.47,0:11:57.97,Default,,0,0,0,,and the subject of our lectures is a very singular discovery.
+Dialogue: 0,0:11:57.97,0:12:20.36,Default,,0,0,0,,Oh, let's see.
+Dialogue: 0,0:12:25.83,0:12:27.73,Default,,0,0,0,,I think this is very interesting,
+Dialogue: 0,0:12:27.90,0:12:32.29,Default,,0,0,0,,the levels of consciousness and social problems,
+Dialogue: 0,0:12:32.29,0:12:37.59,Default,,0,0,0,,because it's always presumed because of political gain,
+Dialogue: 0,0:12:37.66,0:12:38.73,Default,,0,0,0,,the political gain,
+Dialogue: 0,0:12:39.28,0:12:43.30,Default,,0,0,0,,to blame it on society or blame it on a certain culture.
+Dialogue: 0,0:12:44.46,0:12:46.82,Default,,0,0,0,,Yeah, it's the culture's fault.
+Dialogue: 0,0:12:47.69,0:12:48.99,Default,,0,0,0,,It's the culture's fault.
+Dialogue: 0,0:12:49.16,0:12:50.50,Default,,0,0,0,,Well, if it was the culture's fault,
+Dialogue: 0,0:12:50.62,0:12:52.52,Default,,0,0,0,,then everybody who grew up poor would be poor.
+Dialogue: 0,0:12:53.28,0:12:56.40,Default,,0,0,0,,No, many people grew up poor, and they transcend to that.
+Dialogue: 0,0:12:58.49,0:13:01.64,Default,,0,0,0,,People that grew up rich often also become poor.
+Dialogue: 0,0:13:01.64,0:13:03.48,Default,,0,0,0,,So, yeah?
+Dialogue: 0,0:13:05.03,0:13:05.60,Default,,0,0,0,,What?
+Dialogue: 0,0:13:06.76,0:13:09.50,Default,,0,0,0,,Oh, yes, I keep forgetting he's there.
+Dialogue: 0,0:13:10.40,0:13:11.37,Default,,0,0,0,,Oh, okay.
+Dialogue: 0,0:13:13.20,0:13:14.08,Default,,0,0,0,,He is.
+Dialogue: 0,0:13:22.51,0:13:26.70,Default,,0,0,0,,The levels of consciousness and the relationships of these things
+Dialogue: 0,0:13:26.70,0:13:27.91,Default,,0,0,0,,are very interesting.
+Dialogue: 0,0:13:28.17,0:13:30.12,Default,,0,0,0,,Because for political gain,
+Dialogue: 0,0:13:30.98,0:13:36.32,Default,,0,0,0,,politicians keep on adding to the causes of culture or certain things.
+Dialogue: 0,0:13:36.32,0:13:41.34,Default,,0,0,0,,But that doesn't make sense.
+Dialogue: 0,0:13:42.15,0:13:45.75,Default,,0,0,0,,That's why it's very interesting to study this relationship.
+Dialogue: 0,0:13:45.75,0:13:47.32,Default,,0,0,0,,It's very interesting.
+Dialogue: 0,0:13:47.32,0:13:47.53,Default,,0,0,0,,It's very interesting.
+Dialogue: 0,0:13:47.53,0:13:47.55,Default,,0,0,0,,It's very interesting.
+Dialogue: 0,0:13:47.55,0:14:03.58,Default,,0,0,0,,It's very interesting.
+Dialogue: 0,0:14:03.58,0:14:08.36,Default,,0,0,0,,So, from this slide, we can stop blaming social conditions.
+Dialogue: 0,0:14:09.34,0:14:14.39,Default,,0,0,0,,You know, the world is full of political gain
+Dialogue: 0,0:14:14.39,0:14:17.17,Default,,0,0,0,,by blaming one group for another group, you see?
+Dialogue: 0,0:14:17.17,0:14:19.53,Default,,0,0,0,,So, if we study these things,
+Dialogue: 0,0:14:20.36,0:14:27.27,Default,,0,0,0,,we can stop adding social responsibility to other things.
+Dialogue: 0,0:14:29.37,0:14:32.44,Default,,0,0,0,,But all the difficulties,
+Dialogue: 0,0:14:33.57,0:14:34.95,Default,,0,0,0,,the social difficulties,
+Dialogue: 0,0:14:35.04,0:14:35.19,Default,,0,0,0,,the political difficulties,
+Dialogue: 0,0:14:35.19,0:14:40.92,Default,,0,0,0,,can be overcome by personal integrity and striving.
+Dialogue: 0,0:14:41.38,0:14:41.62,Default,,0,0,0,,Yes.
+Dialogue: 0,0:14:41.62,0:14:55.69,Default,,0,0,0,,All right.
+Dialogue: 0,0:14:57.37,0:15:00.67,Default,,0,0,0,,Does anybody have any questions about this level that you see that
+Dialogue: 0,0:15:00.67,0:15:06.57,Default,,0,0,0,,experientially what the people are doing is living out their own level of consciousness?
+Dialogue: 0,0:15:06.57,0:15:06.80,Default,,0,0,0,,Yes.
+Dialogue: 0,0:15:06.80,0:15:08.30,Default,,0,0,0,,Do you have any questions about this?
+Dialogue: 0,0:15:08.30,0:15:13.80,Default,,0,0,0,,What people are experiencing is their own level of consciousness.
+Dialogue: 0,0:15:13.80,0:15:17.57,Default,,0,0,0,,They are experiencing it as their own level of consciousness.
+Dialogue: 0,0:15:17.57,0:15:18.07,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:15:18.85,0:15:26.52,Default,,0,0,0,,So, and this is why we say that you influence the world by what you are.
+Dialogue: 0,0:15:27.75,0:15:33.80,Default,,0,0,0,,So, what you are, then, is what influences the world,
+Dialogue: 0,0:15:34.21,0:15:36.61,Default,,0,0,0,,not by what you do or you say,
+Dialogue: 0,0:15:36.61,0:15:37.62,Default,,0,0,0,,but by what you do.
+Dialogue: 0,0:15:37.62,0:15:39.00,Default,,0,0,0,,But by what you become.
+Dialogue: 0,0:15:39.62,0:15:54.50,Default,,0,0,0,,So, the best thing we can do for our children, then,
+Dialogue: 0,0:15:55.13,0:15:58.75,Default,,0,0,0,,is to try to provide for the advancement of their level of consciousness.
+Dialogue: 0,0:15:58.75,0:16:14.21,Default,,0,0,0,,So, there's a great benefit to a religious upbringing,
+Dialogue: 0,0:16:14.21,0:16:18.61,Default,,0,0,0,,spiritual upbringing, spiritual integrus,
+Dialogue: 0,0:16:19.04,0:16:25.04,Default,,0,0,0,,whether it's Confucianism or Taoism or Buddhism or Christianity or Hindu,
+Dialogue: 0,0:16:25.57,0:16:31.04,Default,,0,0,0,,they all acknowledge a higher power and a gradient of being.
+Dialogue: 0,0:16:31.07,0:16:36.25,Default,,0,0,0,,That you can become better than you are through endeavor and meditation and service to others.
+Dialogue: 0,0:16:36.35,0:16:36.47,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:16:36.99,0:16:37.19,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:16:37.19,0:17:00.40,Default,,0,0,0,,So, like a cork in water, you rise to your own level of buoyancy.
+Dialogue: 0,0:17:00.40,0:17:01.57,Default,,0,0,0,,Right.
+Dialogue: 0,0:17:01.76,0:17:15.38,Default,,0,0,0,,So, to be loving towards all of life in all of its expressions
+Dialogue: 0,0:17:15.38,0:17:19.23,Default,,0,0,0,,is the greatest gift you can give to the world.
+Dialogue: 0,0:17:19.23,0:17:30.34,Default,,0,0,0,,So, when you see the little beetle,
+Dialogue: 0,0:17:30.99,0:17:32.65,Default,,0,0,0,,I was talking about my little black beetle.
+Dialogue: 0,0:17:32.67,0:17:38.04,Default,,0,0,0,,When you see the little black beetle down there in the alley,
+Dialogue: 0,0:17:38.71,0:17:40.95,Default,,0,0,0,,and you step around the beetle like that,
+Dialogue: 0,0:17:41.69,0:17:45.15,Default,,0,0,0,,the world is now a better place than if you went,
+Dialogue: 0,0:17:45.30,0:17:49.46,Default,,0,0,0,,I always like to talk about this cockroach.
+Dialogue: 0,0:17:50.35,0:17:51.38,Default,,0,0,0,,When the cockroach is on the ground,
+Dialogue: 0,0:17:51.98,0:17:53.18,Default,,0,0,0,,if you avoid it a little bit,
+Dialogue: 0,0:17:53.53,0:17:55.98,Default,,0,0,0,,the world becomes a better place because of it.
+Dialogue: 0,0:17:58.16,0:18:00.00,Default,,0,0,0,,Rather than stepping on it.
+Dialogue: 0,0:18:01.00,0:18:06.98,Default,,0,0,0,,Next slide, Eddie.
+Dialogue: 0,0:18:08.16,0:18:09.03,Default,,0,0,0,,Next slide, yeah.
+Dialogue: 0,0:18:09.51,0:18:09.94,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:18:19.68,0:18:23.29,Default,,0,0,0,,So, you can tell our students, they always walk over beetles.
+Dialogue: 0,0:18:24.44,0:18:27.53,Default,,0,0,0,,Anybody who's been in these classes, they always step over the beetle.
+Dialogue: 0,0:18:35.59,0:18:37.83,Default,,0,0,0,,Okay.
+Dialogue: 0,0:18:39.27,0:18:43.70,Default,,0,0,0,,So, this is just reading the levels of consciousness
+Dialogue: 0,0:18:43.70,0:18:47.96,Default,,0,0,0,,and the incidence.
+Dialogue: 0,0:18:48.00,0:18:49.81,Default,,0,0,0,,So, we'll go to the next one, yeah.
+Dialogue: 0,0:18:53.82,0:18:54.25,Default,,0,0,0,,Right?
+Dialogue: 0,0:18:56.52,0:18:57.00,Default,,0,0,0,,Yes.
+Dialogue: 0,0:18:57.21,0:19:00.45,Default,,0,0,0,,So, the next section is on spiritual teachers
+Dialogue: 0,0:19:00.45,0:19:02.39,Default,,0,0,0,,about which there's a great deal of discussion.
+Dialogue: 0,0:19:02.39,0:19:07.39,Default,,0,0,0,,The next section is about spiritual teachers.
+Dialogue: 0,0:19:10.72,0:19:13.48,Default,,0,0,0,,Because of all the books and all the gurus
+Dialogue: 0,0:19:13.48,0:19:16.61,Default,,0,0,0,,and the famous and infamous teachers,
+Dialogue: 0,0:19:17.74,0:19:21.79,Default,,0,0,0,,the student is often confused which way to go.
+Dialogue: 0,0:19:22.45,0:19:25.82,Default,,0,0,0,,Because the reason that we need to know this is
+Dialogue: 0,0:19:25.82,0:19:30.30,Default,,0,0,0,,because students and students of spiritual books
+Dialogue: 0,0:19:30.30,0:19:33.89,Default,,0,0,0,,are always confused about spiritual teachers.
+Dialogue: 0,0:19:33.89,0:19:34.39,Default,,0,0,0,,Yes.
+Dialogue: 0,0:19:34.91,0:19:37.45,Default,,0,0,0,,And many questions we get in the mail, you know,
+Dialogue: 0,0:19:37.49,0:19:39.43,Default,,0,0,0,,asked about a certain teacher, you know.
+Dialogue: 0,0:19:41.02,0:19:43.06,Default,,0,0,0,,So, what we try to do is
+Dialogue: 0,0:19:43.06,0:19:45.93,Default,,0,0,0,,we publish the list of 100
+Dialogue: 0,0:19:45.93,0:19:48.84,Default,,0,0,0,,integrous teachers over time.
+Dialogue: 0,0:19:49.21,0:19:50.86,Default,,0,0,0,,We have a list of teachers
+Dialogue: 0,0:19:50.86,0:19:52.10,Default,,0,0,0,,that we ask to measure.
+Dialogue: 0,0:19:52.10,0:19:52.75,Default,,0,0,0,,There are 20 teachers.
+Dialogue: 0,0:19:52.75,0:20:06.77,Default,,0,0,0,,And what level of, what is the level of their teaching, say, what is the level of their teaching?
+Dialogue: 0,0:20:10.83,0:20:17.83,Default,,0,0,0,,So, a higher number doesn't necessarily mean that that teacher is better for you right now.
+Dialogue: 0,0:20:22.83,0:20:38.44,Default,,0,0,0,,Because a teacher who calibrates at 500 would be better for you than a teacher who calibrates at 800, but you don't understand anything he's saying.
+Dialogue: 0,0:20:50.44,0:20:54.98,Default,,0,0,0,,Alright, so we wanted to print out,
+Dialogue: 0,0:20:55.98,0:20:59.98,Default,,0,0,0,,what are the characteristics that define the excellence of a teacher,
+Dialogue: 0,0:21:01.14,0:21:08.14,Default,,0,0,0,,so that the student can become independent of the calibrated levels that they can learn for themselves?
+Dialogue: 0,0:21:09.35,0:21:10.35,Default,,0,0,0,,Yes.
+Dialogue: 0,0:21:26.51,0:21:44.50,Default,,0,0,0,,Alright, so we say that truth is not limited to the possession of only certain teachers or people, that it's really open to everyone. Truth is all-inclusive.
+Dialogue: 0,0:21:44.50,0:21:57.24,Default,,0,0,0,,Truth is not a possession of one particular teacher, and that it contains everything.
+Dialogue: 0,0:21:57.24,0:21:59.24,Default,,0,0,0,,And that it is available to everything.
+Dialogue: 0,0:21:59.24,0:22:10.05,Default,,0,0,0,,Yeah, so truth is all-inclusive, and it's not given out as a secret.
+Dialogue: 0,0:22:19.39,0:22:21.82,Default,,0,0,0,,And it's non-sectarian.
+Dialogue: 0,0:22:24.13,0:22:29.93,Default,,0,0,0,,It's not the exclusive property of any one religion or spiritual pathway.
+Dialogue: 0,0:22:33.91,0:22:44.18,Default,,0,0,0,,So there are great teachers in all the world's bona fide religions.
+Dialogue: 0,0:22:45.15,0:22:47.54,Default,,0,0,0,,The great teachers can be of any religion.
+Dialogue: 0,0:22:47.54,0:22:54.19,Default,,0,0,0,,So there are great teachers in all the world's bona fide religions.
+Dialogue: 0,0:22:56.50,0:23:02.88,Default,,0,0,0,,No secrets to be revealed, hidden, sold, magical formulas or mysteries.
+Dialogue: 0,0:23:04.16,0:23:06.90,Default,,0,0,0,,People say for $10,000, I will tell you,
+Dialogue: 0,0:23:06.92,0:23:12.94,Default,,0,0,0,,there are no secrets to be revealed, hidden, sold, magical formulas or mysteries.
+Dialogue: 0,0:23:13.40,0:23:19.51,Default,,0,0,0,,People say for $10,000, I will tell you,
+Dialogue: 0,0:23:19.51,0:23:30.38,Default,,0,0,0,,there are no secrets to be revealed, hidden, sold, magical formulas or mysteries.
+Dialogue: 0,0:23:30.38,0:23:35.74,Default,,0,0,0,,There are no secrets to be revealed, hidden, sold, magical formulas or mysteries.
+Dialogue: 0,0:23:35.74,0:23:40.11,Default,,0,0,0,,So, availability.
+Dialogue: 0,0:23:40.79,0:23:41.33,Default,,0,0,0,,Open to all.
+Dialogue: 0,0:23:41.35,0:23:43.35,Default,,0,0,0,,Non-exclusive.
+Dialogue: 0,0:23:43.35,0:23:50.93,Default,,0,0,0,,No secrets to be revealed, hidden, or sold, magical formulas, so.
+Dialogue: 0,0:23:50.93,0:24:10.28,Default,,0,0,0,,There are teachers out there that for $5,000 will tell you the secrets.
+Dialogue: 0,0:24:10.28,0:24:15.74,Default,,0,0,0,,There are teachers out there that for $5,000 will tell you the secrets.
+Dialogue: 0,0:24:15.74,0:24:16.18,Default,,0,0,0,,I'll do it for $4,000.
+Dialogue: 0,0:24:16.18,0:24:21.08,Default,,0,0,0,,I'll do it for $4,000.
+Dialogue: 0,0:24:21.08,0:24:23.03,Default,,0,0,0,,I'll buy it.
+Dialogue: 0,0:24:23.03,0:24:29.70,Default,,0,0,0,,They say they'll do it for $4,000.
+Dialogue: 0,0:24:29.70,0:24:35.49,Default,,0,0,0,,So then, you need compassion for the teacher,
+Dialogue: 0,0:24:35.49,0:24:40.20,Default,,0,0,0,,who is not fully developed as a teacher.
+Dialogue: 0,0:24:40.20,0:24:44.40,Default,,0,0,0,,So, you pray for the teacher that will reach full enlightenment.
+Dialogue: 0,0:24:44.40,0:24:51.40,Default,,0,0,0,,So, you need compassion for the teacher that will reach full enlightenment.
+Dialogue: 0,0:24:51.40,0:24:52.40,Default,,0,0,0,,All right.
+Dialogue: 0,0:24:52.40,0:24:55.03,Default,,0,0,0,,So, a true teacher,
+Dialogue: 0,0:24:55.03,0:24:56.39,Default,,0,0,0,,So, a true teacher, there is,
+Dialogue: 0,0:24:56.39,0:24:58.13,Default,,0,0,0,,nothing to gain or lose
+Dialogue: 0,0:24:58.13,0:25:03.49,Default,,0,0,0,,there's no profit
+Dialogue: 0,0:25:03.49,0:25:06.47,Default,,0,0,0,,no gain or loss
+Dialogue: 0,0:25:06.47,0:25:10.63,Default,,0,0,0,,if you think he's great
+Dialogue: 0,0:25:10.63,0:25:11.43,Default,,0,0,0,,that's fine
+Dialogue: 0,0:25:11.43,0:25:14.61,Default,,0,0,0,,and if you don't think
+Dialogue: 0,0:25:14.61,0:25:16.09,Default,,0,0,0,,he's great that's fine
+Dialogue: 0,0:25:16.09,0:25:22.74,Default,,0,0,0,,because the spiritual
+Dialogue: 0,0:25:22.74,0:25:24.75,Default,,0,0,0,,ego is the only thing that would make you
+Dialogue: 0,0:25:24.75,0:25:26.11,Default,,0,0,0,,create fame and fortune
+Dialogue: 0,0:25:26.11,0:25:28.10,Default,,0,0,0,,and to be famous
+Dialogue: 0,0:25:28.10,0:25:30.08,Default,,0,0,0,,and all over the world
+Dialogue: 0,0:25:30.08,0:25:33.18,Default,,0,0,0,,because
+Dialogue: 0,0:25:33.18,0:25:35.42,Default,,0,0,0,,only the spiritual ego
+Dialogue: 0,0:25:35.42,0:25:37.00,Default,,0,0,0,,is trying to become famous
+Dialogue: 0,0:25:37.00,0:25:39.07,Default,,0,0,0,,and want to be praised
+Dialogue: 0,0:25:39.07,0:25:42.89,Default,,0,0,0,,to a true teacher
+Dialogue: 0,0:25:42.89,0:25:44.60,Default,,0,0,0,,there's nothing to gain or lose
+Dialogue: 0,0:25:44.60,0:25:52.07,Default,,0,0,0,,because
+Dialogue: 0,0:25:52.07,0:25:55.03,Default,,0,0,0,,that which you know
+Dialogue: 0,0:25:55.03,0:25:56.05,Default,,0,0,0,,with the capital
+Dialogue: 0,0:25:56.05,0:25:58.31,Default,,0,0,0,,capital K
+Dialogue: 0,0:25:58.31,0:26:00.05,Default,,0,0,0,,is beyond approval
+Dialogue: 0,0:26:00.05,0:26:00.85,Default,,0,0,0,,disapproval
+Dialogue: 0,0:26:00.85,0:26:01.46,Default,,0,0,0,,agreement
+Dialogue: 0,0:26:01.46,0:26:02.35,Default,,0,0,0,,disagreement
+Dialogue: 0,0:26:02.35,0:26:02.85,Default,,0,0,0,,money
+Dialogue: 0,0:26:02.85,0:26:03.35,Default,,0,0,0,,fame
+Dialogue: 0,0:26:03.35,0:26:08.96,Default,,0,0,0,,all those things are foolish
+Dialogue: 0,0:26:08.96,0:26:14.25,Default,,0,0,0,,because what you know
+Dialogue: 0,0:26:14.25,0:26:18.70,Default,,0,0,0,,is beyond profit and honor
+Dialogue: 0,0:26:18.70,0:26:21.43,Default,,0,0,0,,alright
+Dialogue: 0,0:26:21.43,0:26:23.93,Default,,0,0,0,,we have a lot of things that define truth here
+Dialogue: 0,0:26:23.93,0:26:26.26,Default,,0,0,0,,it's independent of opinion
+Dialogue: 0,0:26:26.26,0:26:28.48,Default,,0,0,0,,independent of opinion
+Dialogue: 0,0:26:28.48,0:26:29.77,Default,,0,0,0,,so
+Dialogue: 0,0:26:29.77,0:26:30.81,Default,,0,0,0,,you know I got to get
+Dialogue: 0,0:26:30.81,0:26:35.18,Default,,0,0,0,,ourself emails of people's various opinions
+Dialogue: 0,0:26:35.18,0:26:37.18,Default,,0,0,0,,and I don't pay any attention to them
+Dialogue: 0,0:26:37.18,0:26:38.88,Default,,0,0,0,,because
+Dialogue: 0,0:26:38.88,0:26:42.88,Default,,0,0,0,,they're not talking about anything having to do with truth or reality
+Dialogue: 0,0:26:42.88,0:26:45.88,Default,,0,0,0,,they're talking about their own perception
+Dialogue: 0,0:26:45.88,0:26:47.88,Default,,0,0,0,,and perception
+Dialogue: 0,0:26:47.88,0:26:51.51,Default,,0,0,0,,is not of any particular interest
+Dialogue: 0,0:26:51.51,0:26:54.51,Default,,0,0,0,,the truth has nothing to do with opinions
+Dialogue: 0,0:26:54.51,0:26:59.51,Default,,0,0,0,,so I get a lot of emails from many people
+Dialogue: 0,0:26:59.51,0:27:01.51,Default,,0,0,0,,but I don't care about that at all
+Dialogue: 0,0:27:01.51,0:27:01.83,Default,,0,0,0,,they only care about their opinions and opinions so I don't care about that at all
+Dialogue: 0,0:27:01.83,0:27:01.85,Default,,0,0,0,,so I don't care about that at all
+Dialogue: 0,0:27:01.85,0:27:05.01,Default,,0,0,0,,they're only talking about their own perception
+Dialogue: 0,0:27:05.01,0:27:08.18,Default,,0,0,0,,yeah see truth is independent of opinion
+Dialogue: 0,0:27:08.18,0:27:13.24,Default,,0,0,0,,it's not anti-anything
+Dialogue: 0,0:27:13.24,0:27:17.00,Default,,0,0,0,,and falsehood is not its enemy
+Dialogue: 0,0:27:17.00,0:27:20.00,Default,,0,0,0,,but really the absence of truth
+Dialogue: 0,0:27:20.00,0:27:27.00,Default,,0,0,0,,so truth is either present or not present
+Dialogue: 0,0:27:27.00,0:27:28.00,Default,,0,0,0,,so truth has to do with opinion
+Dialogue: 0,0:27:28.00,0:27:31.00,Default,,0,0,0,,the truth is either present or not present
+Dialogue: 0,0:27:31.00,0:27:32.35,Default,,0,0,0,,so truth has to do with opinion
+Dialogue: 0,0:27:32.35,0:27:36.35,Default,,0,0,0,,truth has to do with the essence of things
+Dialogue: 0,0:27:36.35,0:27:39.35,Default,,0,0,0,,falsehood has to do with perception of things
+Dialogue: 0,0:27:39.35,0:27:40.35,Default,,0,0,0,,truth has to do with the essence of things
+Dialogue: 0,0:27:40.35,0:27:49.96,Default,,0,0,0,,falsehood has to do with perception of things
+Dialogue: 0,0:27:49.96,0:27:54.99,Default,,0,0,0,,now to convey the truth or to teach the truth or to make it available
+Dialogue: 0,0:27:54.99,0:28:01.03,Default,,0,0,0,,there are no required memberships or dues
+Dialogue: 0,0:28:01.03,0:28:03.45,Default,,0,0,0,,there's no regulations
+Dialogue: 0,0:28:03.45,0:28:06.93,Default,,0,0,0,,you don't have to dress in some funny way
+Dialogue: 0,0:28:06.93,0:28:08.93,Default,,0,0,0,,you don't have to take any oaths
+Dialogue: 0,0:28:08.93,0:28:11.31,Default,,0,0,0,,there's no rules
+Dialogue: 0,0:28:11.31,0:28:15.00,Default,,0,0,0,,no conditions
+Dialogue: 0,0:28:15.00,0:28:17.00,Default,,0,0,0,,and you don't
+Dialogue: 0,0:28:17.00,0:28:20.00,Default,,0,0,0,,there's no conditions, no oaths, no rules
+Dialogue: 0,0:28:20.00,0:28:23.24,Default,,0,0,0,,no requirements, no demands
+Dialogue: 0,0:28:23.24,0:28:26.24,Default,,0,0,0,,to make truth available
+Dialogue: 0,0:28:26.24,0:28:28.24,Default,,0,0,0,,you don't have to demand anything
+Dialogue: 0,0:28:28.24,0:28:30.24,Default,,0,0,0,,you don't have to make any rules
+Dialogue: 0,0:28:30.24,0:28:32.24,Default,,0,0,0,,you don't have to make any conditions
+Dialogue: 0,0:28:32.24,0:28:34.24,Default,,0,0,0,,you don't have to make any conditions
+Dialogue: 0,0:28:34.24,0:28:38.00,Default,,0,0,0,,that sounds pretty good doesn't it
+Dialogue: 0,0:28:38.00,0:28:39.00,Default,,0,0,0,,I'll go for that
+Dialogue: 0,0:28:39.00,0:28:41.00,Default,,0,0,0,,I'll go for that
+Dialogue: 0,0:28:41.00,0:28:42.00,Default,,0,0,0,,I'll go for that
+Dialogue: 0,0:28:42.00,0:28:43.00,Default,,0,0,0,,I'll go for that
+Dialogue: 0,0:28:43.00,0:28:45.09,Default,,0,0,0,,okay
+Dialogue: 0,0:28:45.09,0:28:48.09,Default,,0,0,0,,no requirement, no regulations
+Dialogue: 0,0:28:48.09,0:28:51.39,Default,,0,0,0,,no oaths, no rules
+Dialogue: 0,0:28:51.39,0:28:54.39,Default,,0,0,0,,no conditions
+Dialogue: 0,0:28:54.39,0:28:58.96,Default,,0,0,0,,to know the truth then is volitional only
+Dialogue: 0,0:28:58.96,0:29:08.46,Default,,0,0,0,,nothing is required
+Dialogue: 0,0:29:08.46,0:29:09.75,Default,,0,0,0,,all right
+Dialogue: 0,0:29:09.75,0:29:12.75,Default,,0,0,0,,so the conveyor of truth is non-controlling
+Dialogue: 0,0:29:12.75,0:29:17.83,Default,,0,0,0,,not interested in controlling people
+Dialogue: 0,0:29:17.83,0:29:20.83,Default,,0,0,0,,spiritual purity has no interest
+Dialogue: 0,0:29:20.83,0:29:26.11,Default,,0,0,0,,in the personal lives of students
+Dialogue: 0,0:29:26.11,0:29:31.38,Default,,0,0,0,,the conveyor of truth is not interested in control
+Dialogue: 0,0:29:31.38,0:29:41.64,Default,,0,0,0,,and spiritual purity is not interested in the personal lives of students
+Dialogue: 0,0:29:41.64,0:29:43.64,Default,,0,0,0,,now in Sedona we had a spiritual teacher
+Dialogue: 0,0:29:43.64,0:29:45.89,Default,,0,0,0,,who is now left
+Dialogue: 0,0:29:45.89,0:29:48.89,Default,,0,0,0,,but it was the exact opposite of this
+Dialogue: 0,0:29:48.89,0:29:50.89,Default,,0,0,0,,told everybody what they must do
+Dialogue: 0,0:29:50.89,0:29:51.89,Default,,0,0,0,,who they could go to bed with
+Dialogue: 0,0:29:51.89,0:29:53.89,Default,,0,0,0,,who they could ride in a car with
+Dialogue: 0,0:29:53.89,0:29:54.89,Default,,0,0,0,,to give them the money
+Dialogue: 0,0:29:54.89,0:29:56.89,Default,,0,0,0,,sign over all their property to him
+Dialogue: 0,0:29:56.89,0:29:58.89,Default,,0,0,0,,now there is no one in Sedona
+Dialogue: 0,0:29:58.89,0:30:00.89,Default,,0,0,0,,who is against this at all
+Dialogue: 0,0:30:00.89,0:30:02.89,Default,,0,0,0,,who has to sleep with someone
+Dialogue: 0,0:30:02.89,0:30:03.89,Default,,0,0,0,,who has to wear certain clothes
+Dialogue: 0,0:30:03.89,0:30:04.89,Default,,0,0,0,,who has to drive certain cars
+Dialogue: 0,0:30:04.89,0:30:06.89,Default,,0,0,0,,he controlled all of this
+Dialogue: 0,0:30:06.89,0:30:07.89,Default,,0,0,0,,yeah
+Dialogue: 0,0:30:07.89,0:30:08.89,Default,,0,0,0,,what you should eat
+Dialogue: 0,0:30:08.89,0:30:10.89,Default,,0,0,0,,what you should dress
+Dialogue: 0,0:30:10.89,0:30:12.89,Default,,0,0,0,,all about your sex life
+Dialogue: 0,0:30:12.89,0:30:14.89,Default,,0,0,0,,all about your money
+Dialogue: 0,0:30:14.89,0:30:16.89,Default,,0,0,0,,what your family should do
+Dialogue: 0,0:30:16.89,0:30:19.89,Default,,0,0,0,,what kind of car you should drive in
+Dialogue: 0,0:30:19.89,0:30:25.89,Default,,0,0,0,,now what in the world would anybody who is spiritually advanced care about all that
+Dialogue: 0,0:30:32.89,0:30:33.89,Default,,0,0,0,,all right
+Dialogue: 0,0:30:33.89,0:30:35.36,Default,,0,0,0,,so
+Dialogue: 0,0:30:35.36,0:30:40.72,Default,,0,0,0,,two spiritual teachings are free of force or intimidation
+Dialogue: 0,0:30:40.72,0:30:43.72,Default,,0,0,0,,no force or intimidation
+Dialogue: 0,0:30:44.72,0:30:50.72,Default,,0,0,0,,no brainwashing
+Dialogue: 0,0:30:50.72,0:30:53.28,Default,,0,0,0,,worship of the leader
+Dialogue: 0,0:30:53.28,0:30:55.28,Default,,0,0,0,,indoctrination
+Dialogue: 0,0:30:55.28,0:30:58.08,Default,,0,0,0,,rituals
+Dialogue: 0,0:30:58.08,0:31:03.08,Default,,0,0,0,,intrusions into private life
+Dialogue: 0,0:31:10.64,0:31:13.64,Default,,0,0,0,,so the true spiritual teacher then
+Dialogue: 0,0:31:13.64,0:31:15.64,Default,,0,0,0,,teaches by content
+Dialogue: 0,0:31:15.64,0:31:17.35,Default,,0,0,0,,what we talk about
+Dialogue: 0,0:31:17.35,0:31:21.65,Default,,0,0,0,,but teaches primarily by the radiation
+Dialogue: 0,0:31:21.65,0:31:23.86,Default,,0,0,0,,of the energy field of that
+Dialogue: 0,0:31:23.86,0:31:26.19,Default,,0,0,0,,which the teacher is in truth.
+Dialogue: 0,0:31:26.19,0:31:29.84,Default,,0,0,0,,영적인 스승은
+Dialogue: 0,0:31:29.84,0:31:31.76,Default,,0,0,0,,내용으로도 가리키지만
+Dialogue: 0,0:31:31.76,0:31:35.50,Default,,0,0,0,,1차적으로는
+Dialogue: 0,0:31:35.50,0:31:38.27,Default,,0,0,0,,그가 방사하는 영적인 에너지로서
+Dialogue: 0,0:31:38.27,0:31:39.97,Default,,0,0,0,,가르침을 펼칩니다.
+Dialogue: 0,0:31:40.30,0:31:42.36,Default,,0,0,0,,It comes through as a radiation
+Dialogue: 0,0:31:42.36,0:31:44.23,Default,,0,0,0,,from the aura of the teacher
+Dialogue: 0,0:31:44.23,0:31:46.02,Default,,0,0,0,,to the aura of the student.
+Dialogue: 0,0:31:46.02,0:31:48.32,Default,,0,0,0,,그의 가르침은
+Dialogue: 0,0:31:48.32,0:31:50.23,Default,,0,0,0,,스승의 오라로부터
+Dialogue: 0,0:31:50.23,0:31:52.30,Default,,0,0,0,,학생의 오라로 전달됩니다.
+Dialogue: 0,0:31:52.84,0:31:54.21,Default,,0,0,0,,광이로서 전달됩니다.
+Dialogue: 0,0:31:54.21,0:31:57.02,Default,,0,0,0,,And the aura does not belong to the teacher
+Dialogue: 0,0:31:57.02,0:31:58.78,Default,,0,0,0,,그 오라는 스승에게
+Dialogue: 0,0:31:58.78,0:32:00.78,Default,,0,0,0,,귀속되지 않습니다.
+Dialogue: 0,0:32:00.82,0:32:03.15,Default,,0,0,0,,Because that energy that the teacher has
+Dialogue: 0,0:32:03.15,0:32:04.95,Default,,0,0,0,,came from his teacher.
+Dialogue: 0,0:32:05.75,0:32:06.06,Default,,0,0,0,,왜냐하면
+Dialogue: 0,0:32:06.06,0:32:09.01,Default,,0,0,0,,그 스승이 가진 에너지는
+Dialogue: 0,0:32:09.01,0:32:11.03,Default,,0,0,0,,그 스승의 스승에게로부터
+Dialogue: 0,0:32:11.03,0:32:11.81,Default,,0,0,0,,왔기 때문입니다.
+Dialogue: 0,0:32:12.20,0:32:15.01,Default,,0,0,0,,That which radiates forth
+Dialogue: 0,0:32:15.01,0:32:16.03,Default,,0,0,0,,from the consciousness
+Dialogue: 0,0:32:16.03,0:32:16.92,Default,,0,0,0,,of the teacher
+Dialogue: 0,0:32:16.92,0:32:19.38,Default,,0,0,0,,was already a gift to the teacher.
+Dialogue: 0,0:32:20.11,0:32:21.27,Default,,0,0,0,,그의 의식에서
+Dialogue: 0,0:32:21.27,0:32:24.61,Default,,0,0,0,,발현되는 그것은
+Dialogue: 0,0:32:24.61,0:32:27.18,Default,,0,0,0,,이미 다른 스승으로부터의
+Dialogue: 0,0:32:27.18,0:32:28.57,Default,,0,0,0,,선물이었습니다.
+Dialogue: 0,0:32:28.66,0:32:29.48,Default,,0,0,0,,So the teacher
+Dialogue: 0,0:32:29.48,0:32:31.23,Default,,0,0,0,,out of humility
+Dialogue: 0,0:32:31.23,0:32:32.36,Default,,0,0,0,,is grateful
+Dialogue: 0,0:32:32.36,0:32:34.41,Default,,0,0,0,,that he has been allowed
+Dialogue: 0,0:32:34.41,0:32:36.26,Default,,0,0,0,,to serve such a function.
+Dialogue: 0,0:32:36.89,0:32:37.43,Default,,0,0,0,,그러므로
+Dialogue: 0,0:32:37.43,0:32:39.41,Default,,0,0,0,,겸손함을 가지고
+Dialogue: 0,0:32:39.41,0:32:40.36,Default,,0,0,0,,그 스승은
+Dialogue: 0,0:32:40.36,0:32:41.80,Default,,0,0,0,,이제 스승의 역할을
+Dialogue: 0,0:32:41.80,0:32:42.99,Default,,0,0,0,,할 수 있다는 것에 대해서
+Dialogue: 0,0:32:42.99,0:32:43.99,Default,,0,0,0,,감사하게 여깁니다.
+Dialogue: 0,0:32:44.49,0:32:46.38,Default,,0,0,0,,So it creates
+Dialogue: 0,0:32:47.00,0:32:48.03,Default,,0,0,0,,greater humility
+Dialogue: 0,0:32:48.03,0:32:49.27,Default,,0,0,0,,rather than
+Dialogue: 0,0:32:49.27,0:32:51.50,Default,,0,0,0,,magnifying the ego.
+Dialogue: 0,0:32:52.59,0:32:53.05,Default,,0,0,0,,You say,
+Dialogue: 0,0:32:53.24,0:32:53.75,Default,,0,0,0,,Dear Lord,
+Dialogue: 0,0:32:53.98,0:32:55.20,Default,,0,0,0,,I give thanks to Thee
+Dialogue: 0,0:32:55.20,0:32:57.23,Default,,0,0,0,,that I have been assigned
+Dialogue: 0,0:32:57.23,0:32:57.93,Default,,0,0,0,,this mission
+Dialogue: 0,0:32:57.93,0:32:59.73,Default,,0,0,0,,by which I may serve Thee
+Dialogue: 0,0:32:59.73,0:33:00.65,Default,,0,0,0,,and my fellow men.
+Dialogue: 0,0:33:00.78,0:33:01.00,Default,,0,0,0,,Amen.
+Dialogue: 0,0:33:02.08,0:33:03.84,Default,,0,0,0,,이러한 것에 대한 이해는
+Dialogue: 0,0:33:03.84,0:33:06.78,Default,,0,0,0,,애고를 강화시키는 것 대신
+Dialogue: 0,0:33:06.78,0:33:08.80,Default,,0,0,0,,겸손함을 강화시키고
+Dialogue: 0,0:33:08.80,0:33:11.63,Default,,0,0,0,,제가 당신의 가르침을
+Dialogue: 0,0:33:11.63,0:33:12.86,Default,,0,0,0,,제 동료 인간에게
+Dialogue: 0,0:33:12.86,0:33:14.32,Default,,0,0,0,,전달할 수 있게 되신 것에 대해서
+Dialogue: 0,0:33:14.32,0:33:15.56,Default,,0,0,0,,신에게 감사를 드리게 됩니다.
+Dialogue: 0,0:33:16.06,0:33:16.32,Default,,0,0,0,,Okay.
+Dialogue: 0,0:33:16.58,0:33:17.04,Default,,0,0,0,,So then,
+Dialogue: 0,0:33:17.45,0:33:18.48,Default,,0,0,0,,you become
+Dialogue: 0,0:33:18.48,0:33:19.42,Default,,0,0,0,,the teacher becomes
+Dialogue: 0,0:33:19.42,0:33:20.51,Default,,0,0,0,,aligned with serving
+Dialogue: 0,0:33:20.51,0:33:22.85,Default,,0,0,0,,God and his fellow man
+Dialogue: 0,0:33:22.85,0:33:23.85,Default,,0,0,0,,serving others
+Dialogue: 0,0:33:23.85,0:33:25.96,Default,,0,0,0,,by virtue of that
+Dialogue: 0,0:33:25.96,0:33:27.22,Default,,0,0,0,,what he has become
+Dialogue: 0,0:33:27.22,0:33:29.98,Default,,0,0,0,,to be that.
+Dialogue: 0,0:33:29.98,0:33:32.98,Default,,0,0,0,,자신이 된 그것으로서
+Dialogue: 0,0:33:32.98,0:33:36.21,Default,,0,0,0,,신과 동료 인간과
+Dialogue: 0,0:33:36.93,0:33:38.73,Default,,0,0,0,,정렬되게 됩니다.
+Dialogue: 0,0:33:39.75,0:33:41.52,Default,,0,0,0,,가르침으로서 정렬시켜줍니다.
+Dialogue: 0,0:33:42.13,0:33:42.26,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:33:42.65,0:33:42.99,Default,,0,0,0,,Okay.
+Dialogue: 0,0:33:43.30,0:33:44.13,Default,,0,0,0,,So the next slide.
+Dialogue: 0,0:33:47.03,0:33:48.25,Default,,0,0,0,,I can't read anything.
+Dialogue: 0,0:33:48.85,0:33:50.38,Default,,0,0,0,,Oh, non-binding.
+Dialogue: 0,0:33:51.98,0:33:53.68,Default,,0,0,0,,I remember when I was young,
+Dialogue: 0,0:33:53.79,0:33:55.31,Default,,0,0,0,,I was invited to become
+Dialogue: 0,0:33:55.31,0:33:56.74,Default,,0,0,0,,a member of a certain group
+Dialogue: 0,0:33:56.74,0:33:58.70,Default,,0,0,0,,and I found out
+Dialogue: 0,0:33:58.70,0:34:00.01,Default,,0,0,0,,that you had to take an oath.
+Dialogue: 0,0:34:00.81,0:34:01.64,Default,,0,0,0,,제가 어릴 때
+Dialogue: 0,0:34:01.64,0:34:04.66,Default,,0,0,0,,어떤 사람들과 어울리기 위해서
+Dialogue: 0,0:34:04.66,0:34:06.16,Default,,0,0,0,,그들 외에 멤버가 되기 위해서는
+Dialogue: 0,0:34:06.16,0:34:08.21,Default,,0,0,0,,어떤 선서를 해야 된다는 것을
+Dialogue: 0,0:34:08.21,0:34:08.92,Default,,0,0,0,,알게 되었습니다.
+Dialogue: 0,0:34:10.00,0:34:11.92,Default,,0,0,0,,And yet, at age 12,
+Dialogue: 0,0:34:12.09,0:34:13.19,Default,,0,0,0,,I think I was 12,
+Dialogue: 0,0:34:14.07,0:34:15.07,Default,,0,0,0,,열두 살 때였는데요.
+Dialogue: 0,0:34:15.07,0:34:16.73,Default,,0,0,0,,I knew better than to take an oath.
+Dialogue: 0,0:34:17.21,0:34:18.76,Default,,0,0,0,,저는 그 선서를 해서는
+Dialogue: 0,0:34:18.76,0:34:19.71,Default,,0,0,0,,안 된다는 것을 알았습니다.
+Dialogue: 0,0:34:20.07,0:34:22.46,Default,,0,0,0,,Okay.
+Dialogue: 0,0:34:24.40,0:34:25.78,Default,,0,0,0,,So I can discuss,
+Dialogue: 0,0:34:25.96,0:34:27.21,Default,,0,0,0,,I can reveal this result.
+Dialogue: 0,0:34:28.28,0:34:28.88,Default,,0,0,0,,이것에 대해서
+Dialogue: 0,0:34:28.88,0:34:29.57,Default,,0,0,0,,Is it okay?
+Dialogue: 0,0:34:30.61,0:34:30.84,Default,,0,0,0,,Yes.
+Dialogue: 0,0:34:31.78,0:34:31.98,Default,,0,0,0,,Alright.
+Dialogue: 0,0:34:32.15,0:34:33.44,Default,,0,0,0,,Because oaths are binding
+Dialogue: 0,0:34:33.44,0:34:36.30,Default,,0,0,0,,from one lifetime to the next.
+Dialogue: 0,0:34:36.90,0:34:39.32,Default,,0,0,0,,왜냐하면 선서를 하지 않아야 하는 것은
+Dialogue: 0,0:34:39.32,0:34:42.07,Default,,0,0,0,,선서는 생을 거듭해서
+Dialogue: 0,0:34:42.07,0:34:43.50,Default,,0,0,0,,그 사람을 묶기 때문입니다.
+Dialogue: 0,0:34:44.34,0:34:47.28,Default,,0,0,0,,So a true teacher wants you to be free
+Dialogue: 0,0:34:47.28,0:34:48.26,Default,,0,0,0,,and not bound.
+Dialogue: 0,0:34:48.63,0:34:50.11,Default,,0,0,0,,진정한 스승은 당신이
+Dialogue: 0,0:34:50.69,0:34:51.61,Default,,0,0,0,,자유롭기를 원하지
+Dialogue: 0,0:34:51.61,0:34:52.90,Default,,0,0,0,,묶이기를 원하지 않습니다.
+Dialogue: 0,0:34:53.11,0:34:55.03,Default,,0,0,0,,So, therefore,
+Dialogue: 0,0:34:55.86,0:34:57.90,Default,,0,0,0,,students are free to come and go
+Dialogue: 0,0:34:57.90,0:35:00.78,Default,,0,0,0,,without trying to persuade them,
+Dialogue: 0,0:35:00.92,0:35:02.21,Default,,0,0,0,,coerce them, threaten them,
+Dialogue: 0,0:35:02.30,0:35:03.07,Default,,0,0,0,,intimidate them,
+Dialogue: 0,0:35:03.78,0:35:04.86,Default,,0,0,0,,excommunicate them,
+Dialogue: 0,0:35:05.15,0:35:05.71,Default,,0,0,0,,tax them,
+Dialogue: 0,0:35:06.36,0:35:07.44,Default,,0,0,0,,or chop their heads off.
+Dialogue: 0,0:35:09.13,0:35:09.80,Default,,0,0,0,,그렇기 때문에
+Dialogue: 0,0:35:09.80,0:35:13.07,Default,,0,0,0,,스승은 학생들이 자유롭게 오가길 원합니다.
+Dialogue: 0,0:35:13.42,0:35:14.17,Default,,0,0,0,,설득하지도 않고,
+Dialogue: 0,0:35:14.53,0:35:15.82,Default,,0,0,0,,강제력을 행사하지도 않고,
+Dialogue: 0,0:35:15.92,0:35:16.67,Default,,0,0,0,,겁을 주지도 않고,
+Dialogue: 0,0:35:17.30,0:35:18.13,Default,,0,0,0,,세금을 매기지도 않고,
+Dialogue: 0,0:35:18.28,0:35:19.67,Default,,0,0,0,,머리를 잘라버리지도 않습니다.
+Dialogue: 0,0:35:19.67,0:35:21.88,Default,,0,0,0,,There are people who make converts
+Dialogue: 0,0:35:21.88,0:35:23.84,Default,,0,0,0,,by giving you your choice,
+Dialogue: 0,0:35:23.84,0:35:24.69,Default,,0,0,0,,to either join them
+Dialogue: 0,0:35:24.69,0:35:26.38,Default,,0,0,0,,or become beheaded.
+Dialogue: 0,0:35:30.61,0:35:34.46,Default,,0,0,0,,그 스승을 따르게 되는 사람 중에는
+Dialogue: 0,0:35:34.46,0:35:37.32,Default,,0,0,0,,여기 들어오든지,
+Dialogue: 0,0:35:37.44,0:35:39.53,Default,,0,0,0,,아니면 머리가 잘리든지의 선택권에서
+Dialogue: 0,0:35:39.53,0:35:41.40,Default,,0,0,0,,그렇게 결정한 사람들도 있습니다.
+Dialogue: 0,0:35:43.17,0:35:46.36,Default,,0,0,0,,So, real integrity allows for freedom,
+Dialogue: 0,0:35:47.13,0:35:49.32,Default,,0,0,0,,allows you to say yes or no
+Dialogue: 0,0:35:49.32,0:35:51.65,Default,,0,0,0,,without any consequences.
+Dialogue: 0,0:35:52.59,0:35:54.11,Default,,0,0,0,,And if a person declines,
+Dialogue: 0,0:35:55.11,0:35:57.98,Default,,0,0,0,,then the proper thing for the teacher
+Dialogue: 0,0:35:57.98,0:36:00.86,Default,,0,0,0,,is to pray for that person's enlightenment.
+Dialogue: 0,0:36:01.51,0:36:05.73,Default,,0,0,0,,그래서 진정한 스승은 자유를 허락하고
+Dialogue: 0,0:36:05.73,0:36:10.13,Default,,0,0,0,,그에게 yes나 no를 선택할 기회를 주고
+Dialogue: 0,0:36:10.13,0:36:11.42,Default,,0,0,0,,그들이 만약 거부한다면
+Dialogue: 0,0:36:11.42,0:36:12.57,Default,,0,0,0,,그들을 위해서
+Dialogue: 0,0:36:12.57,0:36:16.57,Default,,0,0,0,,그들이 알만한 적당한 길을 선택하도록 기도해 줍니다.
+Dialogue: 0,0:36:17.80,0:36:18.30,Default,,0,0,0,,All right.
+Dialogue: 0,0:36:19.98,0:36:21.86,Default,,0,0,0,,So the teacher is inspirational.
+Dialogue: 0,0:36:21.86,0:36:26.11,Default,,0,0,0,,Truth avoids glamorization, seduction,
+Dialogue: 0,0:36:26.53,0:36:27.96,Default,,0,0,0,,and theatrics.
+Dialogue: 0,0:36:29.09,0:36:32.44,Default,,0,0,0,,진실은 영감을 고치시키고
+Dialogue: 0,0:36:32.44,0:36:37.76,Default,,0,0,0,,어떤 유혹하는 것이나
+Dialogue: 0,0:36:37.76,0:36:40.88,Default,,0,0,0,,그 다음에 어떤 과시하는 것
+Dialogue: 0,0:36:40.88,0:36:43.09,Default,,0,0,0,,이런 것을 모두 피합니다.
+Dialogue: 0,0:36:45.63,0:36:49.76,Default,,0,0,0,,Truth is devoid of neediness of worldly wealth,
+Dialogue: 0,0:36:50.50,0:36:53.88,Default,,0,0,0,,prestige, titles, pomp, edifices.
+Dialogue: 0,0:36:53.88,0:36:57.90,Default,,0,0,0,,진실은 세상적인 부와
+Dialogue: 0,0:36:58.76,0:37:02.86,Default,,0,0,0,,명성과 어떤 거대한 구조물
+Dialogue: 0,0:37:02.86,0:37:04.82,Default,,0,0,0,,이런 것들을 모두 필요로 하지 않습니다.
+Dialogue: 0,0:37:05.55,0:37:05.82,Default,,0,0,0,,All right.
+Dialogue: 0,0:37:05.92,0:37:07.98,Default,,0,0,0,,So truth stands on its own.
+Dialogue: 0,0:37:08.21,0:37:10.03,Default,,0,0,0,,진실은 그 자체로 섭니다.
+Dialogue: 0,0:37:10.03,0:37:16.00,Default,,0,0,0,,Without formalities, theatrics, drum and bugle,
+Dialogue: 0,0:37:16.53,0:37:19.03,Default,,0,0,0,,orchestras, and dancing girls.
+Dialogue: 0,0:37:21.23,0:37:23.73,Default,,0,0,0,,진실은 어떤 과대 포장이라든지
+Dialogue: 0,0:37:24.67,0:37:29.13,Default,,0,0,0,,오케스트라 뮤직이라든지
+Dialogue: 0,0:37:29.13,0:37:31.17,Default,,0,0,0,,아니면 춤추는 여인들 없이도
+Dialogue: 0,0:37:31.17,0:37:32.98,Default,,0,0,0,,스스로 그 자체로서 섭니다.
+Dialogue: 0,0:37:32.98,0:37:35.01,Default,,0,0,0,,And I think in its higher form
+Dialogue: 0,0:37:35.01,0:37:38.09,Default,,0,0,0,,it also avoids extremes of asceticism.
+Dialogue: 0,0:37:39.00,0:37:40.82,Default,,0,0,0,,그리고 또 한 가지는
+Dialogue: 0,0:37:40.82,0:37:45.38,Default,,0,0,0,,어떤 극단주의적인 금욕주의도 거부합니다.
+Dialogue: 0,0:37:45.38,0:37:47.61,Default,,0,0,0,,Yeah, that occurs in the Hindu tradition.
+Dialogue: 0,0:37:47.98,0:37:48.67,Default,,0,0,0,,그것은
+Dialogue: 0,0:37:48.67,0:37:49.28,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:37:49.57,0:37:52.13,Default,,0,0,0,,Asceticism to an extreme degree
+Dialogue: 0,0:37:52.13,0:37:54.38,Default,,0,0,0,,where you're profoundly emaciated
+Dialogue: 0,0:37:54.38,0:37:56.67,Default,,0,0,0,,and falling over from hunger and weakness
+Dialogue: 0,0:37:57.40,0:37:58.86,Default,,0,0,0,,is not a necessity.
+Dialogue: 0,0:37:58.86,0:37:59.92,Default,,0,0,0,,I think.
+Dialogue: 0,0:38:00.13,0:38:03.48,Default,,0,0,0,,힌두 전통에서 발생한
+Dialogue: 0,0:38:03.48,0:38:05.96,Default,,0,0,0,,아주 극단주의적인 어떤 금욕주의
+Dialogue: 0,0:38:05.96,0:38:09.15,Default,,0,0,0,,배고픔으로 인해서 바짝 말라서 쓰러지는
+Dialogue: 0,0:38:09.15,0:38:11.92,Default,,0,0,0,,그러한 것은 결코 필요하지 않습니다.
+Dialogue: 0,0:38:14.05,0:38:16.28,Default,,0,0,0,,Truth itself fulfilling and complete.
+Dialogue: 0,0:38:16.84,0:38:19.48,Default,,0,0,0,,It is already total and complete.
+Dialogue: 0,0:38:20.30,0:38:22.96,Default,,0,0,0,,Has no need to proselytize,
+Dialogue: 0,0:38:23.46,0:38:26.25,Default,,0,0,0,,gain adherence, sign up members, followers,
+Dialogue: 0,0:38:27.67,0:38:28.84,Default,,0,0,0,,send in dues.
+Dialogue: 0,0:38:29.80,0:38:30.65,Default,,0,0,0,,진실은 자기 전통에서
+Dialogue: 0,0:38:30.67,0:38:31.61,Default,,0,0,0,,충족적이며
+Dialogue: 0,0:38:31.61,0:38:32.88,Default,,0,0,0,,이미 완전하고
+Dialogue: 0,0:38:32.88,0:38:34.82,Default,,0,0,0,,완전 무결하기 때문에
+Dialogue: 0,0:38:34.82,0:38:37.26,Default,,0,0,0,,전도할 필요도 없고
+Dialogue: 0,0:38:37.26,0:38:40.71,Default,,0,0,0,,추종자들을 얻으려고 노력하거나
+Dialogue: 0,0:38:40.71,0:38:43.15,Default,,0,0,0,,멤버들을 이렇게
+Dialogue: 0,0:38:43.15,0:38:44.59,Default,,0,0,0,,사인업 시키지도 않습니다.
+Dialogue: 0,0:38:44.59,0:38:45.00,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:38:46.07,0:38:46.42,Default,,0,0,0,,Now,
+Dialogue: 0,0:38:48.32,0:38:51.38,Default,,0,0,0,,there is non-involvement in worldly affairs.
+Dialogue: 0,0:38:56.09,0:38:58.28,Default,,0,0,0,,So you're in the world
+Dialogue: 0,0:38:58.28,0:38:59.44,Default,,0,0,0,,but not of it.
+Dialogue: 0,0:39:02.01,0:39:04.57,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:39:04.57,0:39:07.36,Default,,0,0,0,,I'm in the world but not of the world.
+Dialogue: 0,0:39:07.78,0:39:10.07,Default,,0,0,0,,세상에 있기지만 세상적이지는 않습니다.
+Dialogue: 0,0:39:10.32,0:39:11.94,Default,,0,0,0,,The world is as it is.
+Dialogue: 0,0:39:12.23,0:39:13.59,Default,,0,0,0,,The world is as it is.
+Dialogue: 0,0:39:13.80,0:39:16.03,Default,,0,0,0,,있는 그대로 있을 뿐입니다.
+Dialogue: 0,0:39:16.65,0:39:19.15,Default,,0,0,0,,So there's no need to control others.
+Dialogue: 0,0:39:19.55,0:39:22.46,Default,,0,0,0,,You see how much of the conflicts of the world
+Dialogue: 0,0:39:22.46,0:39:27.38,Default,,0,0,0,,are due to one group or person trying to control others.
+Dialogue: 0,0:39:28.59,0:39:31.67,Default,,0,0,0,,If I think this way, you have to think this way.
+Dialogue: 0,0:39:32.92,0:39:34.15,Default,,0,0,0,,Seeking agreement.
+Dialogue: 0,0:39:34.15,0:39:37.15,Default,,0,0,0,,Why does the world seek agreement?
+Dialogue: 0,0:39:40.61,0:39:41.28,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:39:41.28,0:39:42.71,Default,,0,0,0,,세상에 많은 문제는
+Dialogue: 0,0:39:42.71,0:39:46.28,Default,,0,0,0,,누군가를 통제하려고 하는 것 때문에 일어납니다.
+Dialogue: 0,0:39:46.28,0:39:48.65,Default,,0,0,0,,모두 자신이 하고자 하는 것에
+Dialogue: 0,0:39:48.65,0:39:50.32,Default,,0,0,0,,동의를 구하려고 하기 때문에
+Dialogue: 0,0:39:50.32,0:39:54.30,Default,,0,0,0,,이러한 폭력들이 발생합니다.
+Dialogue: 0,0:39:54.30,0:39:56.69,Default,,0,0,0,,You have to think the way they think.
+Dialogue: 0,0:39:56.69,0:40:00.57,Default,,0,0,0,,Why is it people insist that you think the way they must think?
+Dialogue: 0,0:40:00.57,0:40:05.19,Default,,0,0,0,,우리는 상대방이 생각하는 대로 생각하도록 강요받습니다.
+Dialogue: 0,0:40:05.19,0:40:06.73,Default,,0,0,0,,왜 우리가 그래야 할까요?
+Dialogue: 0,0:40:06.73,0:40:11.59,Default,,0,0,0,,Okay, so you can believe in Christmas or not.
+Dialogue: 0,0:40:12.19,0:40:14.84,Default,,0,0,0,,당신은 크리스마스를 믿어도 되고 믿지 않아도 됩니다.
+Dialogue: 0,0:40:15.07,0:40:18.38,Default,,0,0,0,,If I believe in Christmas, you don't have to.
+Dialogue: 0,0:40:19.07,0:40:21.86,Default,,0,0,0,,제가 크리스마스를 믿는다고 해서 당신이 꼭 그래야 할 필요는 없습니다.
+Dialogue: 0,0:40:21.86,0:40:22.44,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:40:23.19,0:40:27.42,Default,,0,0,0,,If I don't believe in Christmas, you don't have to stop believing in Christmas
+Dialogue: 0,0:40:27.42,0:40:28.86,Default,,0,0,0,,because I don't believe in Christmas.
+Dialogue: 0,0:40:29.13,0:40:30.86,Default,,0,0,0,,제가 크리스마스를 믿지 않는다고 해서
+Dialogue: 0,0:40:30.86,0:40:33.42,Default,,0,0,0,,당신이 크리스마스를 믿는 것을 그만둬야 할 필요도 없습니다.
+Dialogue: 0,0:40:34.30,0:40:35.61,Default,,0,0,0,,So you see how interesting.
+Dialogue: 0,0:40:35.61,0:40:39.48,Default,,0,0,0,,The daily news is when you see it goes back and forth
+Dialogue: 0,0:40:39.48,0:40:41.88,Default,,0,0,0,,for these groups trying to force other people
+Dialogue: 0,0:40:41.88,0:40:45.32,Default,,0,0,0,,to think and see and perceive the way they do.
+Dialogue: 0,0:40:45.88,0:40:47.67,Default,,0,0,0,,그래서 이러한 것을 이해하게 되면
+Dialogue: 0,0:40:47.67,0:40:50.01,Default,,0,0,0,,우리가 매일 신문에서 보는 것처럼
+Dialogue: 0,0:40:50.01,0:40:52.34,Default,,0,0,0,,다른 사람이 자기가 생각하는 대로
+Dialogue: 0,0:40:52.34,0:40:53.90,Default,,0,0,0,,자신이 지각하는 대로
+Dialogue: 0,0:40:53.90,0:40:55.96,Default,,0,0,0,,자신이 믿는 대로 다른 사람들에게 강요하는 것이
+Dialogue: 0,0:40:55.96,0:40:57.28,Default,,0,0,0,,얼마나 우습다는 것을 알 수 있습니다.
+Dialogue: 0,0:40:58.21,0:41:01.01,Default,,0,0,0,,Now you say, why is the human that way?
+Dialogue: 0,0:41:01.80,0:41:04.01,Default,,0,0,0,,That he wants everybody to agree with him.
+Dialogue: 0,0:41:04.01,0:41:04.69,Default,,0,0,0,,Why?
+Dialogue: 0,0:41:05.67,0:41:10.75,Default,,0,0,0,,인간은 다른 사람들이 자신과 똑같이
+Dialogue: 0,0:41:10.75,0:41:12.59,Default,,0,0,0,,생각하고 행동하기를 원하는 것일까요?
+Dialogue: 0,0:41:13.13,0:41:15.36,Default,,0,0,0,,Why must everybody agree with you?
+Dialogue: 0,0:41:15.86,0:41:19.76,Default,,0,0,0,,왜 모든 사람이 당신에게 동의해야 합니까?
+Dialogue: 0,0:41:19.76,0:41:23.55,Default,,0,0,0,,So the core of that which is anti-God
+Dialogue: 0,0:41:23.55,0:41:25.90,Default,,0,0,0,,and anti-freedom
+Dialogue: 0,0:41:25.90,0:41:29.63,Default,,0,0,0,,is the narcissistic core of the ego.
+Dialogue: 0,0:41:30.25,0:41:34.17,Default,,0,0,0,,신에게 부정적인 것의 핵심은
+Dialogue: 0,0:41:34.71,0:41:37.17,Default,,0,0,0,,자기애적인 애고의 애고입니다.
+Dialogue: 0,0:41:37.90,0:41:38.17,Default,,0,0,0,,Everybody has...
+Dialogue: 0,0:41:38.78,0:41:40.30,Default,,0,0,0,,He has to see it my way.
+Dialogue: 0,0:41:40.55,0:41:43.21,Default,,0,0,0,,모든 사람들이 내가 보는 것처럼 봐야 되죠.
+Dialogue: 0,0:41:43.50,0:41:46.19,Default,,0,0,0,,Because I am right and you are wrong.
+Dialogue: 0,0:41:46.61,0:41:49.55,Default,,0,0,0,,왜냐하면 내가 옳고 당신은 그르기 때문입니다.
+Dialogue: 0,0:41:49.92,0:41:51.26,Default,,0,0,0,,So that's egotism.
+Dialogue: 0,0:41:51.63,0:41:54.36,Default,,0,0,0,,이러한 것이 바로 자기중심주의입니다.
+Dialogue: 0,0:41:54.71,0:41:58.69,Default,,0,0,0,,So the opposite of God, the enemy of God
+Dialogue: 0,0:41:58.69,0:42:02.01,Default,,0,0,0,,is the narcissistic core of the ego.
+Dialogue: 0,0:42:02.65,0:42:07.42,Default,,0,0,0,,그렇기 때문에 신에게 반대하는 것
+Dialogue: 0,0:42:07.42,0:42:09.26,Default,,0,0,0,,그리고 신에게 반대하는 것이
+Dialogue: 0,0:42:09.28,0:42:11.53,Default,,0,0,0,,신에게 대항하는 것은
+Dialogue: 0,0:42:11.53,0:42:14.07,Default,,0,0,0,,자기애적인 애고의 핵심입니다.
+Dialogue: 0,0:42:15.32,0:42:18.94,Default,,0,0,0,,So the core of the ego is me, me, me, me, me.
+Dialogue: 0,0:42:18.94,0:42:19.94,Default,,0,0,0,,그래서 애고의 핵심은
+Dialogue: 0,0:42:20.73,0:42:22.92,Default,,0,0,0,,나, 나, 나를 찾는 바로 그것입니다.
+Dialogue: 0,0:42:22.92,0:42:22.98,Default,,0,0,0,,Yeah, me, me, me.
+Dialogue: 0,0:42:25.15,0:42:26.38,Default,,0,0,0,,Vote for me.
+Dialogue: 0,0:42:27.75,0:42:28.34,Default,,0,0,0,,Buy me.
+Dialogue: 0,0:42:29.30,0:42:30.03,Default,,0,0,0,,Photograph me.
+Dialogue: 0,0:42:30.76,0:42:31.38,Default,,0,0,0,,Worship me.
+Dialogue: 0,0:42:32.92,0:42:33.78,Default,,0,0,0,,Send your money.
+Dialogue: 0,0:42:35.05,0:42:35.94,Default,,0,0,0,,Send your emails.
+Dialogue: 0,0:42:37.32,0:42:37.88,Default,,0,0,0,,Send your...
+Dialogue: 0,0:42:37.88,0:42:39.75,Default,,0,0,0,,That machine that they talk on.
+Dialogue: 0,0:42:39.76,0:42:40.71,Default,,0,0,0,,Blogs.
+Dialogue: 0,0:42:40.71,0:42:41.55,Default,,0,0,0,,Send me your blogs.
+Dialogue: 0,0:42:41.78,0:42:43.11,Default,,0,0,0,,블로그도 좀 보내주시고.
+Dialogue: 0,0:42:46.32,0:42:48.46,Default,,0,0,0,,The world is suffocating with blogism.
+Dialogue: 0,0:42:49.40,0:42:52.78,Default,,0,0,0,,세상은 지금 블로그리즘에 의해서 아주 숨막힐 지경입니다.
+Dialogue: 0,0:42:53.55,0:42:56.13,Default,,0,0,0,,So all that people do when they make an utterance
+Dialogue: 0,0:42:56.13,0:42:58.01,Default,,0,0,0,,is a verbalized blog.
+Dialogue: 0,0:42:59.26,0:43:02.11,Default,,0,0,0,,그래서 어떤 사람이 무언가를 얘기할 때
+Dialogue: 0,0:43:02.11,0:43:05.51,Default,,0,0,0,,You mean blog?
+Dialogue: 0,0:43:10.38,0:43:10.98,Default,,0,0,0,,블로그.
+Dialogue: 0,0:43:11.01,0:43:11.30,Default,,0,0,0,,Blog.
+Dialogue: 0,0:43:14.38,0:43:14.65,Default,,0,0,0,,Blog.
+Dialogue: 0,0:43:15.65,0:43:18.50,Default,,0,0,0,,사람들이 말할 때 블로그리즘.
+Dialogue: 0,0:43:18.50,0:43:19.21,Default,,0,0,0,,블로그리즘.
+Dialogue: 0,0:43:19.21,0:43:21.90,Default,,0,0,0,,우리가 블로그로 하는 그런 것들이 언어와되고 있는 것이나 마찬가지입니다.
+Dialogue: 0,0:43:22.53,0:43:25.15,Default,,0,0,0,,So when you boil it down,
+Dialogue: 0,0:43:25.50,0:43:27.32,Default,,0,0,0,,there's only God and blogs.
+Dialogue: 0,0:43:30.86,0:43:34.40,Default,,0,0,0,,그래서 이것을 바닥까지 들여다보게 되면
+Dialogue: 0,0:43:34.40,0:43:37.32,Default,,0,0,0,,신과 블로그만 남게 됩니다.
+Dialogue: 0,0:43:40.46,0:43:43.94,Default,,0,0,0,,Now, God doesn't know how to work a computer.
+Dialogue: 0,0:43:44.61,0:43:46.94,Default,,0,0,0,,그런데 신은 컴퓨터를 사용할지 모릅니다.
+Dialogue: 0,0:43:47.13,0:43:48.55,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:49.96,0:43:51.03,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.03,0:43:51.11,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.11,0:43:51.17,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.17,0:43:51.21,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.21,0:43:51.23,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.23,0:43:51.28,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.28,0:43:51.30,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.30,0:43:51.36,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.36,0:43:51.40,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.40,0:43:51.46,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:51.46,0:43:51.48,Default,,0,0,0,,He doesn't know how to text.
+Dialogue: 0,0:43:52.34,0:43:54.17,Default,,0,0,0,,문자를 보낼 수 있는 능력이 없습니다.
+Dialogue: 0,0:44:00.44,0:44:04.17,Default,,0,0,0,,So you break the world, the tragedies of the world down,
+Dialogue: 0,0:44:05.05,0:44:09.09,Default,,0,0,0,,and you begin to see them as humor and absurdity.
+Dialogue: 0,0:44:12.76,0:44:16.30,Default,,0,0,0,,세상의 문제들을 이렇게 차근차근 나열해 보게 되면
+Dialogue: 0,0:44:16.30,0:44:21.17,Default,,0,0,0,,거기서 휴머를 보게 되고 이것이 부조리하다는 것을 알게 됩니다.
+Dialogue: 0,0:44:23.84,0:44:27.57,Default,,0,0,0,,So then there is only knowing the truth and ignorance.
+Dialogue: 0,0:44:28.44,0:44:29.53,Default,,0,0,0,,그렇기 때문에 결국에는
+Dialogue: 0,0:44:29.53,0:44:32.65,Default,,0,0,0,,진실을 아는 것과 무지만이 남게 됩니다.
+Dialogue: 0,0:44:32.65,0:44:39.46,Default,,0,0,0,,So Jesus Christ said that there is only one source of sin
+Dialogue: 0,0:44:39.46,0:44:42.48,Default,,0,0,0,,and there is only one sin and that is of ignorance.
+Dialogue: 0,0:44:43.11,0:44:48.44,Default,,0,0,0,,그래서 예수님께서는 죄의 근원은 단 하나이고
+Dialogue: 0,0:44:48.44,0:44:50.86,Default,,0,0,0,,그것은 무지라고 말했습니다.
+Dialogue: 0,0:44:51.19,0:44:52.21,Default,,0,0,0,,There is only ignorance.
+Dialogue: 0,0:44:53.01,0:44:54.53,Default,,0,0,0,,오로지 무지만이 있을 뿐입니다.
+Dialogue: 0,0:44:55.13,0:44:59.21,Default,,0,0,0,,And that which we consider evil and all that is all profound ignorance.
+Dialogue: 0,0:45:00.09,0:45:03.36,Default,,0,0,0,,그래서 우리가 악마라고 여기는 그러한 것들은
+Dialogue: 0,0:45:03.36,0:45:07.44,Default,,0,0,0,,사실은 아주 심온한 무지일 뿐입니다.
+Dialogue: 0,0:45:07.84,0:45:09.65,Default,,0,0,0,,The Buddha said the same thing.
+Dialogue: 0,0:45:10.13,0:45:11.73,Default,,0,0,0,,부처님도 같은 말씀을 하셨습니다.
+Dialogue: 0,0:45:11.73,0:45:14.73,Default,,0,0,0,,Krishna said the same thing.
+Dialogue: 0,0:45:15.30,0:45:16.46,Default,,0,0,0,,I say the same thing.
+Dialogue: 0,0:45:16.90,0:45:18.15,Default,,0,0,0,,박사님도 같은 말씀을 하셨습니다.
+Dialogue: 0,0:45:31.00,0:45:33.84,Default,,0,0,0,,A lot of them out there are just plain stupid.
+Dialogue: 0,0:45:35.71,0:45:39.82,Default,,0,0,0,,세상에 많은 사람들은 그냥 어리석은 짓을 하고 있을 뿐입니다.
+Dialogue: 0,0:45:42.25,0:45:45.59,Default,,0,0,0,,The karmically earn the right to hear the truth
+Dialogue: 0,0:45:45.59,0:45:47.44,Default,,0,0,0,,and be exposed to the truth
+Dialogue: 0,0:45:47.44,0:45:51.75,Default,,0,0,0,,just as one karmically evolves to the place
+Dialogue: 0,0:45:51.75,0:45:55.07,Default,,0,0,0,,that they can comprehend the truth and recognize the truth.
+Dialogue: 0,0:45:56.32,0:46:00.53,Default,,0,0,0,,진실을 배우고 진실에 노출되기 위해서
+Dialogue: 0,0:46:00.53,0:46:03.65,Default,,0,0,0,,사람은 카르마적으로 그것을 획득해야 됩니다.
+Dialogue: 0,0:46:04.55,0:46:07.92,Default,,0,0,0,,So the Buddha said many can listen but few can hear.
+Dialogue: 0,0:46:07.92,0:46:11.92,Default,,0,0,0,,그래서 부처님은 많은 사람들이 진실을
+Dialogue: 0,0:46:13.34,0:46:15.30,Default,,0,0,0,,들을 수는 있지만 진정으로
+Dialogue: 0,0:46:15.30,0:46:17.07,Default,,0,0,0,,들은 사람들은 적다고 말했습니다.
+Dialogue: 0,0:46:18.09,0:46:19.76,Default,,0,0,0,,Many listen but few can hear.
+Dialogue: 0,0:46:22.07,0:46:24.03,Default,,0,0,0,,많은 사람들이 들을 수는 있으나
+Dialogue: 0,0:46:24.03,0:46:29.69,Default,,0,0,0,,아주 소수만이 이해할 수 있다고 했습니다.
+Dialogue: 0,0:46:30.46,0:46:34.78,Default,,0,0,0,,So the Buddha spoke to those who are able to hear.
+Dialogue: 0,0:46:35.21,0:46:38.67,Default,,0,0,0,,To those who can hear, he spoke the Buddha.
+Dialogue: 0,0:46:39.86,0:46:46.71,Default,,0,0,0,,The Buddha spoke to those who can hear.
+Dialogue: 0,0:46:48.78,0:46:50.92,Default,,0,0,0,,부처님은 들을 수 있는 사람들은
+Dialogue: 0,0:46:50.94,0:46:53.40,Default,,0,0,0,,이해할 수 있는 사람들에게 말했습니다.
+Dialogue: 0,0:46:54.03,0:46:59.88,Default,,0,0,0,,So a wise prayer is to pray to be able to hear.
+Dialogue: 0,0:47:00.46,0:47:05.65,Default,,0,0,0,,그래서 현명한 기도는 이해할 수 있도록 해달라고 기도하는 것입니다.
+Dialogue: 0,0:47:07.90,0:47:10.19,Default,,0,0,0,,And then your guiding angels get your willingness
+Dialogue: 0,0:47:10.19,0:47:14.19,Default,,0,0,0,,and see to it that you come into the presence of a teacher
+Dialogue: 0,0:47:14.19,0:47:16.69,Default,,0,0,0,,who will explain what you need to know
+Dialogue: 0,0:47:16.69,0:47:18.63,Default,,0,0,0,,and willing to know and able to grasp.
+Dialogue: 0,0:47:19.57,0:47:21.50,Default,,0,0,0,,그렇게 기도하게 되면 당신의 안내를
+Dialogue: 0,0:47:21.50,0:47:22.59,Default,,0,0,0,,당신의 안내를 알 수 있습니다.
+Dialogue: 0,0:47:22.59,0:47:26.15,Default,,0,0,0,,당신의 안내 천사가 당신이
+Dialogue: 0,0:47:26.15,0:47:31.11,Default,,0,0,0,,그것을 진실을 이해할 수 있고
+Dialogue: 0,0:47:31.11,0:47:34.86,Default,,0,0,0,,듣고 이해할 수 있도록 전달해 줄 수 있는
+Dialogue: 0,0:47:34.86,0:47:38.11,Default,,0,0,0,,스승의 현존에 있게끔 해줍니다.
+Dialogue: 0,0:47:39.13,0:47:43.11,Default,,0,0,0,,Yeah, so the Buddha was a great teacher.
+Dialogue: 0,0:47:43.48,0:47:44.50,Default,,0,0,0,,He spoke from wisdom.
+Dialogue: 0,0:47:45.46,0:47:48.92,Default,,0,0,0,,부처는 지혜로부터 지혜의 말씀을 하신
+Dialogue: 0,0:47:48.92,0:47:50.34,Default,,0,0,0,,훌륭한 스승이었습니다.
+Dialogue: 0,0:47:50.78,0:47:53.15,Default,,0,0,0,,He said, let those who can hear, hear.
+Dialogue: 0,0:47:53.15,0:47:54.15,Default,,0,0,0,,들을 수 있는 자만이 이해할 수 있는 사람들에게
+Dialogue: 0,0:47:54.15,0:47:55.15,Default,,0,0,0,,들을 수 있는 자만이 이해할 수 있는 사람들에게
+Dialogue: 0,0:47:55.19,0:47:57.48,Default,,0,0,0,,들을 수 있는 자만이 듣도록 들어라.
+Dialogue: 0,0:47:57.86,0:47:58.36,Default,,0,0,0,,라고 말했습니다.
+Dialogue: 0,0:47:58.76,0:48:00.13,Default,,0,0,0,,Let those who can hear, hear.
+Dialogue: 0,0:48:00.28,0:48:00.76,Default,,0,0,0,,I like that.
+Dialogue: 0,0:48:02.42,0:48:03.98,Default,,0,0,0,,들을 수 있는 자만이 들어라.
+Dialogue: 0,0:48:04.09,0:48:04.55,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:48:04.76,0:48:05.90,Default,,0,0,0,,호케스 밥스님이 좋아하시는 겁니다.
+Dialogue: 0,0:48:06.19,0:48:06.73,Default,,0,0,0,,Then you're here.
+Dialogue: 0,0:48:07.59,0:48:10.07,Default,,0,0,0,,Because that's non-controlling, you know.
+Dialogue: 0,0:48:10.07,0:48:13.84,Default,,0,0,0,,And he's acknowledging that your capacity to hear
+Dialogue: 0,0:48:13.84,0:48:17.25,Default,,0,0,0,,is considerably your own karmic inheritance.
+Dialogue: 0,0:48:17.78,0:48:20.15,Default,,0,0,0,,You may not be able to hear, and it's not your fault
+Dialogue: 0,0:48:20.15,0:48:22.30,Default,,0,0,0,,because at this point you cannot hear yet.
+Dialogue: 0,0:48:22.94,0:48:23.03,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:48:23.98,0:48:25.07,Default,,0,0,0,,왜냐하면 그러한 것은 통제하는 것이 아니니까요.
+Dialogue: 0,0:48:25.07,0:48:25.80,Default,,0,0,0,,왜냐하면 그러한 것은 통제하는 것이 아니니까요.
+Dialogue: 0,0:48:25.82,0:48:28.78,Default,,0,0,0,,부처님께서는 당신이 들을 수 있는 능력은
+Dialogue: 0,0:48:28.78,0:48:31.53,Default,,0,0,0,,당신의 카르마적인 어떤 자산이라는 것을
+Dialogue: 0,0:48:31.53,0:48:33.03,Default,,0,0,0,,인정하셨습니다.
+Dialogue: 0,0:48:34.69,0:48:35.42,Default,,0,0,0,,All right.
+Dialogue: 0,0:48:35.59,0:48:42.46,Default,,0,0,0,,So, truth then tries to inspire and lead people
+Dialogue: 0,0:48:42.46,0:48:47.01,Default,,0,0,0,,to the truth or to the conditions that allow you
+Dialogue: 0,0:48:47.01,0:48:48.05,Default,,0,0,0,,to hear the truth.
+Dialogue: 0,0:48:48.94,0:48:51.92,Default,,0,0,0,,So that's why humility is constantly stressed
+Dialogue: 0,0:48:52.46,0:48:54.71,Default,,0,0,0,,in all spiritual teachings.
+Dialogue: 0,0:48:54.86,0:48:55.94,Default,,0,0,0,,Humility, yes.
+Dialogue: 0,0:48:55.94,0:48:56.94,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:48:56.94,0:48:57.44,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:48:57.44,0:48:58.90,Default,,0,0,0,,진실은, uh-huh.
+Dialogue: 0,0:48:58.92,0:49:06.34,Default,,0,0,0,,진실은 당신에게, 당신이 그것을 이해할 수 있는 조건들을
+Dialogue: 0,0:49:06.34,0:49:09.84,Default,,0,0,0,,허락해 주기 때문에, 그래서 겸손함이라는 것이
+Dialogue: 0,0:49:09.84,0:49:11.53,Default,,0,0,0,,계속해서 강조되는 이유입니다.
+Dialogue: 0,0:49:17.40,0:49:20.98,Default,,0,0,0,,So truth does not seek to control others.
+Dialogue: 0,0:49:21.53,0:49:23.80,Default,,0,0,0,,진실은 다른 이들을 통제하려 하지 않습니다.
+Dialogue: 0,0:49:24.84,0:49:29.09,Default,,0,0,0,,It doesn't want to have to convince others or force others.
+Dialogue: 0,0:49:30.05,0:49:33.51,Default,,0,0,0,,진실은 다른 사람을 확신시키려고 하지도 않고
+Dialogue: 0,0:49:33.51,0:49:33.53,Default,,0,0,0,,진실은 다른 사람을 확신시키려고 하지도 않고
+Dialogue: 0,0:49:34.53,0:49:35.80,Default,,0,0,0,,강제하지도 않습니다.
+Dialogue: 0,0:49:37.53,0:49:39.30,Default,,0,0,0,,You will go to the next slide.
+Dialogue: 0,0:49:40.59,0:49:48.23,Default,,0,0,0,,And, uh, there are no issues or positionalities.
+Dialogue: 0,0:49:49.15,0:49:51.48,Default,,0,0,0,,어떤 문제도 없고 위치성도 있지 않습니다.
+Dialogue: 0,0:49:53.11,0:49:54.42,Default,,0,0,0,,God doesn't need help.
+Dialogue: 0,0:49:55.03,0:49:56.59,Default,,0,0,0,,신은 도움을 필요로 하지 않습니다.
+Dialogue: 0,0:49:57.19,0:49:59.88,Default,,0,0,0,,People, I think, they're helping God.
+Dialogue: 0,0:50:00.94,0:50:03.71,Default,,0,0,0,,I will, if you don't believe the way I believe,
+Dialogue: 0,0:50:03.71,0:50:04.69,Default,,0,0,0,,I'll cut your head off.
+Dialogue: 0,0:50:05.21,0:50:07.05,Default,,0,0,0,,And he thinks that way you're helping God.
+Dialogue: 0,0:50:08.78,0:50:17.32,Default,,0,0,0,,So we have to become humble and realize
+Dialogue: 0,0:50:17.32,0:50:18.67,Default,,0,0,0,,God doesn't need your help.
+Dialogue: 0,0:50:19.32,0:50:23.94,Default,,0,0,0,,그렇기 때문에 우리는 신이 우리의 도움을 필요로 하지 않는다는 것을
+Dialogue: 0,0:50:23.94,0:50:26.26,Default,,0,0,0,,느끼고 겸손해져야 합니다.
+Dialogue: 0,0:50:26.78,0:50:28.96,Default,,0,0,0,,God's made it this far without your help.
+Dialogue: 0,0:50:28.96,0:50:33.65,Default,,0,0,0,,신은 당신의 도움 없이도 이렇게 훌륭하십니다.
+Dialogue: 0,0:50:36.84,0:50:41.09,Default,,0,0,0,,Yeah, so the more sophisticated,
+Dialogue: 0,0:50:41.59,0:50:43.76,Default,,0,0,0,,we become, we become aware that
+Dialogue: 0,0:50:43.76,0:50:48.01,Default,,0,0,0,,divinity is like an infinite source of energy,
+Dialogue: 0,0:50:49.46,0:50:52.61,Default,,0,0,0,,infinitely powerful source of energy,
+Dialogue: 0,0:50:54.61,0:50:56.88,Default,,0,0,0,,and that within that field,
+Dialogue: 0,0:50:57.09,0:51:01.09,Default,,0,0,0,,you are free to move about or come or go.
+Dialogue: 0,0:51:01.46,0:51:01.71,Default,,0,0,0,,Yes.
+Dialogue: 0,0:51:01.71,0:51:05.88,Default,,0,0,0,,우리가 점점 더 진보함에 따라서 우리는 신성이라고 하는 것이
+Dialogue: 0,0:51:05.88,0:51:09.71,Default,,0,0,0,,에너지의 무한한 근원이라는 것을 이해하고
+Dialogue: 0,0:51:10.38,0:51:12.80,Default,,0,0,0,,그 안에서 우리는 자유롭게 움직일 수 있습니다.
+Dialogue: 0,0:51:13.17,0:51:19.38,Default,,0,0,0,,All right, so that which all spiritual truth,
+Dialogue: 0,0:51:19.51,0:51:22.76,Default,,0,0,0,,infinite spiritual truth is beyond proof.
+Dialogue: 0,0:51:23.34,0:51:28.38,Default,,0,0,0,,모든 영적인 진실은 증명을 넘어서 있습니다.
+Dialogue: 0,0:51:29.61,0:51:33.94,Default,,0,0,0,,That which is provable is within the linear domain,
+Dialogue: 0,0:51:34.17,0:51:36.17,Default,,0,0,0,,the Newtonian domain.
+Dialogue: 0,0:51:36.86,0:51:41.82,Default,,0,0,0,,증명할 수 있는 것은 선형적인 뉴톤적 영역에 속하는 것입니다.
+Dialogue: 0,0:51:41.82,0:51:43.92,Default,,0,0,0,,All right, that which is provable,
+Dialogue: 0,0:51:44.67,0:51:48.01,Default,,0,0,0,,is obviously not divine.
+Dialogue: 0,0:51:48.73,0:51:53.96,Default,,0,0,0,,그렇기 때문에 분명히 증명할 수 있는 것은 신성한 것이 아닙니다.
+Dialogue: 0,0:51:55.03,0:51:57.67,Default,,0,0,0,,There's no way you can prove the infinite.
+Dialogue: 0,0:51:59.44,0:52:02.28,Default,,0,0,0,,무한을 증명할 수 있는 방법은 존재하지 않습니다.
+Dialogue: 0,0:52:05.13,0:52:09.30,Default,,0,0,0,,Many of the journals having to do with religion and things
+Dialogue: 0,0:52:09.30,0:52:12.53,Default,,0,0,0,,calibrate in the 300s.
+Dialogue: 0,0:52:12.53,0:52:15.76,Default,,0,0,0,,They're all about theology and God and all this.
+Dialogue: 0,0:52:16.48,0:52:17.40,Default,,0,0,0,,When you calibrate them,
+Dialogue: 0,0:52:17.48,0:52:18.30,Default,,0,0,0,,they're like in the 300s.
+Dialogue: 0,0:52:18.32,0:52:23.36,Default,,0,0,0,,So what they're talking about is not the reality,
+Dialogue: 0,0:52:23.84,0:52:26.48,Default,,0,0,0,,but intellectualizations about the reality.
+Dialogue: 0,0:52:27.82,0:52:32.15,Default,,0,0,0,,종교나 그러한 신학에 관한 그러한 학술 잡지들은
+Dialogue: 0,0:52:32.15,0:52:34.19,Default,,0,0,0,,측정을 해본다면 300대로 측정됩니다.
+Dialogue: 0,0:52:34.30,0:52:40.05,Default,,0,0,0,,이 사실이 말하는 것은 그들은 신성이라고 하는 것을
+Dialogue: 0,0:52:40.05,0:52:45.19,Default,,0,0,0,,실상이 아닌 단지 주지화하고 있는 것입니다.
+Dialogue: 0,0:52:45.19,0:52:46.61,Default,,0,0,0,,All right.
+Dialogue: 0,0:52:47.57,0:52:48.57,Default,,0,0,0,,Now, this one is...
+Dialogue: 0,0:52:49.25,0:52:55.82,Default,,0,0,0,,One of the basics to know that is that life is not subject to death.
+Dialogue: 0,0:52:56.17,0:53:01.48,Default,,0,0,0,,Now, there's the law of the preservation of energy.
+Dialogue: 0,0:53:02.23,0:53:03.90,Default,,0,0,0,,Energy cannot be destroyed.
+Dialogue: 0,0:53:05.03,0:53:06.59,Default,,0,0,0,,It can only change form.
+Dialogue: 0,0:53:08.21,0:53:10.19,Default,,0,0,0,,Matter cannot be destroyed.
+Dialogue: 0,0:53:10.46,0:53:12.44,Default,,0,0,0,,It can only change form.
+Dialogue: 0,0:53:15.69,0:53:19.78,Default,,0,0,0,,알아야 하실 아주 기본적인 것은 생명이 파괴될 수 없다는 것입니다.
+Dialogue: 0,0:53:20.09,0:53:21.57,Default,,0,0,0,,진량 보존의 법칙과 에너지 법칙,
+Dialogue: 0,0:53:21.73,0:53:26.21,Default,,0,0,0,,보존의 법칙이 있듯이 에너지가 오로지 형상만을 바꿀 수 있듯이 생명도 그러합니다.
+Dialogue: 0,0:53:26.50,0:53:26.78,Default,,0,0,0,,All right.
+Dialogue: 0,0:53:26.96,0:53:31.98,Default,,0,0,0,,Now, more recently discovered is the third principle.
+Dialogue: 0,0:53:31.98,0:53:41.78,Default,,0,0,0,,That is, the truth cannot be, life cannot be destroyed.
+Dialogue: 0,0:53:41.92,0:53:42.32,Default,,0,0,0,,Resist.
+Dialogue: 0,0:53:43.61,0:53:45.84,Default,,0,0,0,,Life cannot be destroyed.
+Dialogue: 0,0:53:47.03,0:53:49.11,Default,,0,0,0,,So matter cannot be destroyed.
+Dialogue: 0,0:53:49.96,0:53:51.71,Default,,0,0,0,,Energy cannot be destroyed.
+Dialogue: 0,0:53:53.51,0:53:57.48,Default,,0,0,0,,And now, the third great discovery is that,
+Dialogue: 0,0:53:57.48,0:53:59.23,Default,,0,0,0,,that life cannot be destroyed.
+Dialogue: 0,0:54:01.21,0:54:05.50,Default,,0,0,0,,Material can only change form from one form to another.
+Dialogue: 0,0:54:07.42,0:54:10.61,Default,,0,0,0,,Energy can only change from one form to another,
+Dialogue: 0,0:54:10.78,0:54:12.44,Default,,0,0,0,,but you cannot destroy energy.
+Dialogue: 0,0:54:14.61,0:54:15.25,Default,,0,0,0,,생명이...
+Dialogue: 0,0:54:15.25,0:54:15.55,Default,,0,0,0,,What?
+Dialogue: 0,0:54:15.96,0:54:22.71,Default,,0,0,0,,Oh, oh, I forgot about it.
+Dialogue: 0,0:54:23.90,0:54:29.07,Default,,0,0,0,,에너지가 소멸될 수 없고, 진량이, 물질이 소멸될 수 없듯이,
+Dialogue: 0,0:54:29.07,0:54:34.86,Default,,0,0,0,,세 번째 위대한 발견은 생명도 파괴될 수 없다는 것입니다.
+Dialogue: 0,0:54:35.80,0:54:42.86,Default,,0,0,0,,So we're all familiar with the basic concept that matter cannot be destroyed.
+Dialogue: 0,0:54:42.86,0:54:45.75,Default,,0,0,0,,It can only change form.
+Dialogue: 0,0:54:46.19,0:54:52.59,Default,,0,0,0,,우리는 모두 물질이 파괴될 수 없고, 단지 형태만을 바꿀 수 있다는 것을 잘 알고 있습니다.
+Dialogue: 0,0:54:53.44,0:54:55.69,Default,,0,0,0,,And energy cannot be destroyed.
+Dialogue: 0,0:54:55.96,0:54:57.23,Default,,0,0,0,,It can only change form.
+Dialogue: 0,0:54:58.07,0:55:03.03,Default,,0,0,0,,에너지도 파괴될 수 없고, 오로지 형상만을 바꿀 수 있습니다.
+Dialogue: 0,0:55:04.15,0:55:05.98,Default,,0,0,0,,And now, a third discovery.
+Dialogue: 0,0:55:05.98,0:55:06.98,Default,,0,0,0,,세 번째,
+Dialogue: 0,0:55:07.01,0:55:07.90,Default,,0,0,0,,세 번째 발견입니다.
+Dialogue: 0,0:55:07.90,0:55:08.40,Default,,0,0,0,,The third discovery.
+Dialogue: 0,0:55:09.19,0:55:10.96,Default,,0,0,0,,What is the third discovery again?
+Dialogue: 0,0:55:16.51,0:55:18.42,Default,,0,0,0,,Life cannot be destroyed.
+Dialogue: 0,0:55:18.71,0:55:19.96,Default,,0,0,0,,It can only change form.
+Dialogue: 0,0:55:20.44,0:55:25.63,Default,,0,0,0,,세 번째 발견은 생명도 파괴될 수 없고, 단지 형상만을 바꿀 수 있을 뿐입니다.
+Dialogue: 0,0:55:26.13,0:55:26.36,Default,,0,0,0,,Okay.
+Dialogue: 0,0:55:26.86,0:55:31.90,Default,,0,0,0,,So, known before was that matter and energy cannot be destroyed.
+Dialogue: 0,0:55:33.26,0:55:37.03,Default,,0,0,0,,But nowhere have I ever read that life cannot be destroyed.
+Dialogue: 0,0:55:37.90,0:55:39.76,Default,,0,0,0,,이전에 에너지와 물질이,
+Dialogue: 0,0:55:39.76,0:55:39.86,Default,,0,0,0,,에너지와 물질이,
+Dialogue: 0,0:55:39.86,0:55:43.13,Default,,0,0,0,,파괴될 수 없다는 것은 모두 알고 있었지만,
+Dialogue: 0,0:55:43.67,0:55:48.55,Default,,0,0,0,,누구도 생명이 파괴될 수 없고, 오로지 형상만을 바꿀 수 있다는 것은 들어본 적이 없을 것입니다.
+Dialogue: 0,0:55:48.88,0:55:50.40,Default,,0,0,0,,Alright. Like matter and energy,
+Dialogue: 0,0:55:51.01,0:55:54.44,Default,,0,0,0,,life can only change form, but you cannot destroy life.
+Dialogue: 0,0:55:54.61,0:55:55.76,Default,,0,0,0,,Life cannot be destroyed.
+Dialogue: 0,0:55:56.94,0:56:02.23,Default,,0,0,0,,에너지와 물질과 마찬가지로 생명은 파괴될 수 없고, 오로지 형상만을 바꿀 수 있습니다.
+Dialogue: 0,0:56:03.34,0:56:05.40,Default,,0,0,0,,Life cannot be destroyed. Resist.
+Dialogue: 0,0:56:06.11,0:56:07.80,Default,,0,0,0,,It can only change form.
+Dialogue: 0,0:56:07.80,0:56:09.44,Default,,0,0,0,,So,
+Dialogue: 0,0:56:09.44,0:56:17.46,Default,,0,0,0,,the only thing that can happen if they chop off your head is that you leave your physical body and there you are in your etheric body.
+Dialogue: 0,0:56:17.46,0:56:24.28,Default,,0,0,0,,그렇기 때문에, 누군가 당신의 머리를 잘라낸다면, 육체성은 사라지지만, 당신은 이제 이 에테르체에 있게 됩니다.
+Dialogue: 0,0:56:25.30,0:56:28.65,Default,,0,0,0,,So, I've been in my physical body and thought that's me.
+Dialogue: 0,0:56:30.01,0:56:34.48,Default,,0,0,0,,저는 육체 없이 에테르체에 있었습니다.
+Dialogue: 0,0:56:34.76,0:56:35.44,Default,,0,0,0,,있어본 적이 있습니다.
+Dialogue: 0,0:56:35.63,0:56:37.13,Default,,0,0,0,,Then I've been out of my body.
+Dialogue: 0,0:56:37.38,0:56:38.84,Default,,0,0,0,,저는 육체를 벗어난 적도 있습니다.
+Dialogue: 0,0:56:38.84,0:56:41.59,Default,,0,0,0,,And the body was over there.
+Dialogue: 0,0:56:41.59,0:56:42.84,Default,,0,0,0,,육체는 저기에 있었고.
+Dialogue: 0,0:56:42.84,0:56:46.88,Default,,0,0,0,,And consciousness says, this is me.
+Dialogue: 0,0:56:46.88,0:56:50.36,Default,,0,0,0,,의식은, 이게 나다 라고 말했습니다.
+Dialogue: 0,0:56:50.36,0:56:55.17,Default,,0,0,0,,Well, the body is there and me is here. How can that be?
+Dialogue: 0,0:56:55.17,0:56:58.28,Default,,0,0,0,,육체는 저기 있고, 저는 여기 있고. 이것이 어떻게 가능할까요?
+Dialogue: 0,0:56:58.28,0:57:00.28,Default,,0,0,0,,Because you also have an etheric body.
+Dialogue: 0,0:57:00.28,0:57:04.53,Default,,0,0,0,,왜냐하면 당신은 또한 에테르체도 가지고 있기 때문입니다.
+Dialogue: 0,0:57:04.53,0:57:08.53,Default,,0,0,0,,The spirit, the soul, that which leaves the body at the point of death, yeah.
+Dialogue: 0,0:57:08.53,0:57:13.53,Default,,0,0,0,,영과 영혼은 육신이 죽을 때 몸을 떠납니다.
+Dialogue: 0,0:57:13.53,0:57:21.21,Default,,0,0,0,,So, a third great teaching is that life cannot be destroyed, it can only change form.
+Dialogue: 0,0:57:21.21,0:57:28.21,Default,,0,0,0,,그러므로 세 번째 위대한 가르침은, 생명은 파괴될 수 없고 오로지 형상만을 바꿀 수 있다는 것입니다.
+Dialogue: 0,0:57:28.21,0:57:32.84,Default,,0,0,0,,That's true at the level of the absolute resist.
+Dialogue: 0,0:57:32.84,0:57:40.44,Default,,0,0,0,,That is true at the level of the absolute, life cannot be destroyed, it can only change form.
+Dialogue: 0,0:57:40.63,0:57:43.15,Default,,0,0,0,,Isn't that good news?
+Dialogue: 0,0:57:43.15,0:57:45.19,Default,,0,0,0,,좋은 소식 아닌가요?
+Dialogue: 0,0:57:45.19,0:57:54.36,Default,,0,0,0,,If you don't like being a human being, you can come back. Hop, hop, hop, bunny, bunny. Hop, hop, bunny, bunny.
+Dialogue: 0,0:57:54.36,0:57:57.36,Default,,0,0,0,,사람이 되기 싫으면 말로 태어나실 수도 있습니다.
+Dialogue: 0,0:57:57.36,0:58:02.42,Default,,0,0,0,,새로 태어나실 수도 있고요.
+Dialogue: 0,0:58:02.42,0:58:13.76,Default,,0,0,0,,I thought it would be great to be an eagle. Go up a mile in the sky, and ten miles away you can spot a mouse.
+Dialogue: 0,0:58:15.28,0:58:17.28,Default,,0,0,0,,Wow, that must be something.
+Dialogue: 0,0:58:17.28,0:58:20.28,Default,,0,0,0,,독수리가 된다는 것은 굉장히 멋질 거라고 생각했습니다.
+Dialogue: 0,0:58:20.28,0:58:26.28,Default,,0,0,0,,한 천 미터도 넘게 올라가서 쥐를 볼 수 있는 능력을 갖는다.
+Dialogue: 0,0:58:26.28,0:58:28.28,Default,,0,0,0,,You don't even need glasses.
+Dialogue: 0,0:58:28.28,0:58:31.07,Default,,0,0,0,,안경도 필요 없습니다.
+Dialogue: 0,0:58:31.07,0:58:37.07,Default,,0,0,0,,The eagle, miles away, can spot a mouse from over a thousand feet.
+Dialogue: 0,0:58:37.07,0:58:44.82,Default,,0,0,0,,Now, let's see. I think that's the last of the slides, and then we're going to go on to more interesting things.
+Dialogue: 0,0:58:44.82,0:58:47.82,Default,,0,0,0,,I don't know what they are, but that's what they say.
+Dialogue: 0,0:58:47.82,0:58:50.19,Default,,0,0,0,,What was the end of this?
+Dialogue: 0,0:58:50.19,0:58:53.07,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,0:58:53.07,0:58:55.57,Default,,0,0,0,,Simplicity.
+Dialogue: 0,0:58:55.57,0:59:01.57,Default,,0,0,0,,One sees the intrinsic beauty of that which is beyond appearance and form.
+Dialogue: 0,0:59:01.57,0:59:11.57,Default,,0,0,0,,So, in a moment of mystical revelation, the overwhelming beauty of what exists, you're knocked out by the beauty, beauty.
+Dialogue: 0,0:59:11.57,0:59:15.76,Default,,0,0,0,,그렇기 때문에
+Dialogue: 0,0:59:15.76,0:59:23.76,Default,,0,0,0,,압도적인 드러남의 상태에서 모든 것에 내지 않은 본질적인 아름다움이 당신을 쓰러트려 버립니다.
+Dialogue: 0,0:59:23.76,0:59:30.19,Default,,0,0,0,,Truth does not do anything. It just is.
+Dialogue: 0,0:59:30.19,0:59:35.63,Default,,0,0,0,,And its influence is as a consequence of that which it is.
+Dialogue: 0,0:59:35.63,0:59:45.63,Default,,0,0,0,,진실은 어떤 것도 하지 않으며, 모든 것을 그저 그것의 존재로서 영향을 미칩니다. 모든 것에.
+Dialogue: 0,0:59:45.63,0:59:46.63,Default,,0,0,0,,Okay.
+Dialogue: 0,0:59:46.63,0:59:48.63,Default,,0,0,0,,And truth is not emotional.
+Dialogue: 0,0:59:48.63,0:59:53.44,Default,,0,0,0,,Emotionality is based on perception.
+Dialogue: 0,0:59:53.44,0:59:56.44,Default,,0,0,0,,진실은 감정적이지 않습니다.
+Dialogue: 0,0:59:56.44,0:59:59.96,Default,,0,0,0,,감정성이라는 것은 지각에 근거한 것입니다.
+Dialogue: 0,0:59:59.96,1:00:04.96,Default,,0,0,0,,Truth is sought, is found through freedom, rather than rules and restrictions.
+Dialogue: 0,1:00:04.96,1:00:15.21,Default,,0,0,0,,진실은 자유를 통해서 따르게 되며, 따르게 되지, 룰이나 이런 것으로 인해서 지켜지지 않습니다.
+Dialogue: 0,1:00:15.21,1:00:18.78,Default,,0,0,0,,And true spiritual teachers are respected,
+Dialogue: 0,1:00:18.78,1:00:22.84,Default,,0,0,0,,but they reject personal adulation or specialness.
+Dialogue: 0,1:00:22.84,1:00:31.84,Default,,0,0,0,,진정한 스승은 존경되기는 하나, 개인적인 찬양은 거절합니다.
+Dialogue: 0,1:00:31.84,1:00:34.84,Default,,0,0,0,,The recognition of truth is natural.
+Dialogue: 0,1:00:34.84,1:00:38.84,Default,,0,0,0,,It's devoid of induced, altered states of consciousness,
+Dialogue: 0,1:00:38.84,1:00:45.84,Default,,0,0,0,,various manipulating energies up and down the spine,
+Dialogue: 0,1:00:45.84,1:00:49.00,Default,,0,0,0,,and magical breathing,
+Dialogue: 0,1:00:49.00,1:00:52.59,Default,,0,0,0,,and the power of the mind.
+Dialogue: 0,1:00:52.59,1:00:55.78,Default,,0,0,0,,Let's do this one.
+Dialogue: 0,1:00:55.78,1:01:02.34,Default,,0,0,0,,That calibrates over 190, 195.
+Dialogue: 0,1:01:02.34,1:01:07.01,Default,,0,0,0,,Think of those students all over the planet doing,
+Dialogue: 0,1:01:07.01,1:01:09.01,Default,,0,0,0,,calibrates at 190.
+Dialogue: 0,1:01:09.01,1:01:12.23,Default,,0,0,0,,You're dumber than when you started it.
+Dialogue: 0,1:01:12.23,1:01:22.19,Default,,0,0,0,,이 호흡법은 195로 측정되며, 이걸 하게 되면 당신이 시작하기 전보다 더 어리석게 되죠.
+Dialogue: 0,1:01:22.19,1:01:24.19,Default,,0,0,0,,So, alright, we're almost done.
+Dialogue: 0,1:01:24.19,1:01:26.61,Default,,0,0,0,,It's wise then,
+Dialogue: 0,1:01:26.61,1:01:30.61,Default,,0,0,0,,to really check out the integrity of a teacher,
+Dialogue: 0,1:01:30.61,1:01:33.61,Default,,0,0,0,,a teaching, a method,
+Dialogue: 0,1:01:33.61,1:01:35.61,Default,,0,0,0,,the fact that it's called yoga.
+Dialogue: 0,1:01:35.61,1:01:38.96,Default,,0,0,0,,Oh, it's yoga.
+Dialogue: 0,1:01:38.96,1:01:39.96,Default,,0,0,0,,I'll give you a yoga.
+Dialogue: 0,1:01:39.96,1:01:42.17,Default,,0,0,0,,Try this yoga.
+Dialogue: 0,1:01:42.17,1:01:43.17,Default,,0,0,0,,Try that yoga.
+Dialogue: 0,1:01:43.17,1:01:45.40,Default,,0,0,0,,Try this yoga.
+Dialogue: 0,1:01:45.40,1:01:49.32,Default,,0,0,0,,The fact that it's called a yoga,
+Dialogue: 0,1:01:49.32,1:01:52.32,Default,,0,0,0,,it's a mystical, magical,
+Dialogue: 0,1:01:52.32,1:02:05.76,Default,,0,0,0,,better than butter is yoga.
+Dialogue: 0,1:02:05.76,1:02:10.73,Default,,0,0,0,,Yoga spread.
+Dialogue: 0,1:02:10.73,1:02:13.38,Default,,0,0,0,,Yoga talks.
+Dialogue: 0,1:02:13.38,1:02:14.40,Default,,0,0,0,,Yoga socks.
+Dialogue: 0,1:02:14.40,1:02:16.73,Default,,0,0,0,,Yoga shoes.
+Dialogue: 0,1:02:16.73,1:02:19.40,Default,,0,0,0,,Yoga flowers.
+Dialogue: 0,1:02:33.15,1:02:35.15,Default,,0,0,0,,Okay, I'll do all over.
+Dialogue: 0,1:02:35.15,1:02:44.07,Default,,0,0,0,,Thank you so much.
+Dialogue: 0,1:02:44.07,1:02:45.63,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:02:45.63,1:02:46.63,Default,,0,0,0,,It was my pleasure.
+Dialogue: 0,1:02:46.63,1:02:48.63,Default,,0,0,0,,Thank you for being our translator.
+Dialogue: 0,1:02:48.63,1:03:00.00,Default,,0,0,0,,And tell the people what are we going to do.
+Dialogue: 0,1:03:00.00,1:03:02.00,Default,,0,0,0,,I don't know what we're going to do.
+Dialogue: 0,1:03:02.00,1:03:04.00,Default,,0,0,0,,We're going to take a 15-minute break here.
+Dialogue: 0,1:03:04.00,1:03:06.00,Default,,0,0,0,,And anyone who has a question,
+Dialogue: 0,1:03:06.00,1:03:08.00,Default,,0,0,0,,if they will please line up on this side.
+Dialogue: 0,1:03:08.00,1:03:09.00,Default,,0,0,0,,Oh.
+Dialogue: 0,1:03:09.00,1:03:10.00,Default,,0,0,0,,The auditorium.
+Dialogue: 0,1:03:10.00,1:03:12.00,Default,,0,0,0,,Anyone who needs book signing,
+Dialogue: 0,1:03:12.00,1:03:14.00,Default,,0,0,0,,we did sign a lot of the books.
+Dialogue: 0,1:03:14.00,1:03:16.00,Default,,0,0,0,,But if you want something signed,
+Dialogue: 0,1:03:16.00,1:03:18.00,Default,,0,0,0,,take it to this side of the auditorium.
+Dialogue: 0,1:03:18.00,1:03:21.00,Default,,0,0,0,,And we'll resume in about 15 minutes.
+Dialogue: 0,1:03:21.00,1:03:23.00,Default,,0,0,0,,We're a little bit over,
+Dialogue: 0,1:03:23.00,1:03:25.00,Default,,0,0,0,,so we'll probably run over a little bit in the break.
+Dialogue: 0,1:03:25.00,1:03:27.00,Default,,0,0,0,,But we're a little bit over.
+Dialogue: 0,1:03:27.00,1:03:30.00,Default,,0,0,0,,And this lady over here that's in the Korean costume,
+Dialogue: 0,1:03:30.00,1:03:31.00,Default,,0,0,0,,come here.
+Dialogue: 0,1:03:31.00,1:03:35.00,Default,,0,0,0,,This is typical of the Korean dress.
+Dialogue: 0,1:03:35.00,1:03:36.00,Default,,0,0,0,,It's so beautiful.
+Dialogue: 0,1:03:36.00,1:03:38.00,Default,,0,0,0,,And I wanted all of you to take a look.
+Dialogue: 0,1:03:38.00,1:03:40.00,Default,,0,0,0,,Take a good look at it.
+Dialogue: 0,1:03:40.00,1:03:42.84,Default,,0,0,0,,Come here.
+Dialogue: 0,1:03:42.84,1:03:45.84,Default,,0,0,0,,I want them to see your dress.
+Dialogue: 0,1:03:45.84,1:03:48.84,Default,,0,0,0,,A lot of the people here in the U.S.
+Dialogue: 0,1:03:48.84,1:03:50.84,Default,,0,0,0,,haven't seen the traditional Korean.
+Dialogue: 0,1:03:50.84,1:03:51.84,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:03:51.84,1:03:53.84,Default,,0,0,0,,Thank you for your playing.
+Dialogue: 0,1:03:53.84,1:03:55.84,Default,,0,0,0,,Isn't that beautiful?
+Dialogue: 0,1:03:55.84,1:03:59.21,Default,,0,0,0,,Thank you.
+Dialogue: 0,1:03:59.21,1:04:01.21,Default,,0,0,0,,Thank you so much.
+Dialogue: 0,1:04:01.21,1:04:02.21,Default,,0,0,0,,Okay.
+Dialogue: 0,1:04:02.21,1:04:05.21,Default,,0,0,0,,We'll resume in about 15 minutes then.
