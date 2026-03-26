@@ -531,8 +531,8 @@ function showBackendOffline() {
     el.innerHTML = `
       <div class="offline-box">
         <h2>Backend is off.</h2>
-        <p>Step 1: Pray</p>
-        <p>Step 2: Ask Jesse or Bram to turn it back on.</p>
+        <p><strong>Step 1:</strong> Pray</p>
+        <p><strong>Step 2:</strong> Ask Jesse or Bram to turn it back on.</p>
       </div>
     `;
     document.body.appendChild(el);
