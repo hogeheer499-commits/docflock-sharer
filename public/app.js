@@ -502,13 +502,47 @@ function stopPolling() {
   stopLocalTimer();
 }
 
+let backendDown = false;
+
 async function fetchStatus() {
   try {
     const resp = await api("/api/status");
     const data = await resp.json();
     lastStatus = data;
     updateStatusUI(data);
-  } catch {}
+    if (backendDown) {
+      backendDown = false;
+      hideBackendOffline();
+    }
+  } catch {
+    if (!backendDown) {
+      backendDown = true;
+      showBackendOffline();
+    }
+  }
+}
+
+function showBackendOffline() {
+  let el = document.getElementById("backend-offline");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "backend-offline";
+    el.className = "backend-offline";
+    el.innerHTML = `
+      <div class="offline-box">
+        <h2>Backend is off.</h2>
+        <p>Step 1: Pray</p>
+        <p>Step 2: Ask Jesse or Bram to turn it back on.</p>
+      </div>
+    `;
+    document.body.appendChild(el);
+  }
+  el.classList.remove("hidden");
+}
+
+function hideBackendOffline() {
+  const el = document.getElementById("backend-offline");
+  if (el) el.classList.add("hidden");
 }
 
 // --- Resume state ---
