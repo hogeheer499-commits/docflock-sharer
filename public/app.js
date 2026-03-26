@@ -530,7 +530,7 @@ function showBackendOffline() {
     el.className = "backend-offline";
     el.innerHTML = `
       <div class="offline-box">
-        <h2>Backend is off.</h2>
+        <h2>Backend is turned off.</h2>
         <p><strong>Step 1:</strong> Pray</p>
         <p><strong>Step 2:</strong> Ask Jesse or Bram to turn it back on.</p>
       </div>
