@@ -57,6 +57,11 @@ async def api_videos():
     return scan_videos()
 
 
+@app.get("/api/videos/multilang")
+async def api_videos_multilang():
+    return [v for v in scan_videos() if len(v.get("languages", [])) > 1]
+
+
 @app.get("/api/clips")
 async def api_clips():
     return scan_clips()

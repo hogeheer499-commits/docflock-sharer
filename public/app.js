@@ -102,11 +102,13 @@ async function doLogin() {
 
 // --- Video list ---
 const videoSelect = document.getElementById("video-select");
+const multilangSelect = document.getElementById("multilang-select");
 const clipsSelect = document.getElementById("clips-select");
 const musicSelect = document.getElementById("music-select");
 const ytSelect = document.getElementById("yt-select");
 let ytCache = [];
 let clipsCache = [];
+let multilangCache = [];
 const langGroup = document.getElementById("lang-group");
 const langCheckboxes = document.getElementById("lang-checkboxes");
 const playBtn = document.getElementById("play-btn");
@@ -131,6 +133,33 @@ async function loadVideos() {
       opt.value = v.id;
       opt.textContent = v.title;
       (optgroup || videoSelect).appendChild(opt);
+    }
+  } catch {}
+
+  try {
+    const respML = await api("/api/videos/multilang");
+    multilangCache = await respML.json();
+    const multilangGroup = document.getElementById("multilang-group");
+    if (multilangCache.length > 0) {
+      multilangSelect.innerHTML = '<option value="">Select a lecture...</option>';
+      let currentSeries = "";
+      let optgroup = null;
+      for (const v of multilangCache) {
+        if (v.series && v.series !== currentSeries) {
+          currentSeries = v.series;
+          optgroup = document.createElement("optgroup");
+          optgroup.label = currentSeries;
+          multilangSelect.appendChild(optgroup);
+        }
+        const langList = v.languages.map(l => l.toUpperCase()).join(", ");
+        const opt = document.createElement("option");
+        opt.value = v.id;
+        opt.textContent = `${v.title} [${langList}]`;
+        (optgroup || multilangSelect).appendChild(opt);
+      }
+      multilangGroup.classList.remove("hidden");
+    } else {
+      multilangGroup.classList.add("hidden");
     }
   } catch {}
 
@@ -184,28 +213,22 @@ async function loadVideos() {
 }
 
 // Only one dropdown active at a time
-videoSelect.addEventListener("change", () => {
-  if (videoSelect.value) { clipsSelect.value = ""; musicSelect.value = ""; ytSelect.value = ""; }
-  onSelectionChange();
-});
+const allSelects = [videoSelect, multilangSelect, clipsSelect, musicSelect, ytSelect];
 
-clipsSelect.addEventListener("change", () => {
-  if (clipsSelect.value) { videoSelect.value = ""; musicSelect.value = ""; ytSelect.value = ""; }
-  onSelectionChange();
-});
+function clearOtherSelects(active) {
+  for (const s of allSelects) {
+    if (s !== active) s.value = "";
+  }
+}
 
-musicSelect.addEventListener("change", () => {
-  if (musicSelect.value) { videoSelect.value = ""; clipsSelect.value = ""; ytSelect.value = ""; }
-  onSelectionChange();
-});
-
-ytSelect.addEventListener("change", () => {
-  if (ytSelect.value) { videoSelect.value = ""; clipsSelect.value = ""; musicSelect.value = ""; }
-  onSelectionChange();
-});
+videoSelect.addEventListener("change", () => { if (videoSelect.value) clearOtherSelects(videoSelect); onSelectionChange(); });
+multilangSelect.addEventListener("change", () => { if (multilangSelect.value) clearOtherSelects(multilangSelect); onSelectionChange(); });
+clipsSelect.addEventListener("change", () => { if (clipsSelect.value) clearOtherSelects(clipsSelect); onSelectionChange(); });
+musicSelect.addEventListener("change", () => { if (musicSelect.value) clearOtherSelects(musicSelect); onSelectionChange(); });
+ytSelect.addEventListener("change", () => { if (ytSelect.value) clearOtherSelects(ytSelect); onSelectionChange(); });
 
 function getSelectedId() {
-  return videoSelect.value || clipsSelect.value || musicSelect.value || ytSelect.value || "";
+  return videoSelect.value || multilangSelect.value || clipsSelect.value || musicSelect.value || ytSelect.value || "";
 }
 
 function onSelectionChange() {
@@ -217,6 +240,7 @@ function onSelectionChange() {
   }
 
   const video = videosCache.find((v) => v.id === videoId)
+    || multilangCache.find((v) => v.id === videoId)
     || clipsCache.find((v) => v.id === videoId)
     || ytCache.find((v) => v.id === videoId);
   if (video && video.languages.length > 0) {
