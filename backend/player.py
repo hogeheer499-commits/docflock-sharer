@@ -1,4 +1,5 @@
 import asyncio
+import logging
 import os
 import re
 import signal
@@ -7,6 +8,8 @@ from enum import Enum
 from pathlib import Path
 
 from config import V4L2_DEVICE, PULSE_SINK, VIDEOS_DIR
+
+log = logging.getLogger(__name__)
 
 
 class State(str, Enum):
@@ -42,7 +45,7 @@ class PlayerStatus:
 # All bottom-aligned, stacked with different margins and colors
 _STYLE_MAP = {
     0: {"Alignment": 2, "MarginV": 50},   # Primary: white, bottom
-    1: {"Alignment": 2, "MarginV": 180, "PrimaryColour": "&H00FFCC66"},  # Secondary: light blue, above
+    1: {"Alignment": 2, "MarginV": 180, "PrimaryColour": "&H0000FFFF"},  # Secondary: bright yellow, above
     2: {"Alignment": 2, "MarginV": 310, "PrimaryColour": "&H0066FFCC"},  # Tertiary: light green, above
 }
 
@@ -395,6 +398,45 @@ def _build_subtitle_filter(video: dict, languages: list[str]) -> str:
     return ",".join(filters)
 
 
+async def _ensure_v4l2_device() -> bool:
+    """Check if v4l2loopback device exists, reload module if not."""
+    if Path(V4L2_DEVICE).exists():
+        return True
+
+    log.warning("v4l2loopback device %s missing, attempting reload...", V4L2_DEVICE)
+    # Extract device number from path (e.g. /dev/video2 -> 2)
+    m = re.search(r"(\d+)$", V4L2_DEVICE)
+    video_nr = m.group(1) if m else "2"
+
+    proc = await asyncio.create_subprocess_exec(
+        "sudo", "-n", "modprobe", "-r", "v4l2loopback",
+        stdout=asyncio.subprocess.DEVNULL,
+        stderr=asyncio.subprocess.DEVNULL,
+    )
+    await proc.communicate()
+
+    proc = await asyncio.create_subprocess_exec(
+        "sudo", "-n", "modprobe", "v4l2loopback",
+        f"video_nr={video_nr}",
+        'card_label=DocFlock Virtual Cam',
+        "exclusive_caps=1",
+        "max_width=1280",
+        "max_height=720",
+        stdout=asyncio.subprocess.DEVNULL,
+        stderr=asyncio.subprocess.DEVNULL,
+    )
+    await proc.communicate()
+
+    await asyncio.sleep(0.5)  # Wait for device to appear
+
+    if Path(V4L2_DEVICE).exists():
+        log.info("v4l2loopback device %s restored", V4L2_DEVICE)
+        return True
+
+    log.error("Failed to restore v4l2loopback device %s", V4L2_DEVICE)
+    return False
+
+
 class Player:
     def __init__(self):
         self.status = PlayerStatus()
@@ -408,6 +450,14 @@ class Player:
     async def play(self, video_id: str, languages: list[str] | None = None, start_at: float = 0):
         """Start playback of a local video with optional subtitles."""
         await self.stop()
+
+        # Auto-recover v4l2loopback if device disappeared
+        if not await _ensure_v4l2_device():
+            self.status = PlayerStatus(
+                state=State.STOPPED,
+                error="v4l2loopback device niet gevonden. Herstart Zoom na fix.",
+            )
+            return
 
         video = get_video(video_id)
         if not video:
