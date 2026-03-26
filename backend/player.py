@@ -665,6 +665,11 @@ class Player:
     def get_status(self) -> dict:
         d = self.status.to_dict()
         d["autoplay"] = self.autoplay
+        # Include available languages for the current video
+        if self.status.video_id:
+            video = get_video(self.status.video_id)
+            if video:
+                d["available_languages"] = video.get("languages", [])
         return d
 
 

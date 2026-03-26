@@ -40,6 +40,10 @@ class PlayUrlRequest(BaseModel):
     languages: list[str] = ["en"]
 
 
+class LanguageRequest(BaseModel):
+    languages: list[str]
+
+
 class SeekRequest(BaseModel):
     position: float
 
@@ -126,6 +130,17 @@ async def api_play(req: PlayRequest):
     if player.status.error:
         raise HTTPException(500, player.status.error)
     return {"status": player.status.state.value, "title": player.status.title}
+
+
+@app.post("/api/languages")
+async def api_languages(req: LanguageRequest):
+    """Change subtitle languages while playing, resuming at current position."""
+    if not player.status.video_id:
+        raise HTTPException(400, "Nothing playing")
+    pos = player.status.current_time or 0
+    vid_id = player.status.video_id
+    await player.play(vid_id, req.languages, start_at=pos)
+    return {"status": player.status.state.value, "languages": req.languages}
 
 
 @app.post("/api/pause")

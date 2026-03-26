@@ -264,6 +264,19 @@ function onSelectionChange() {
   playBtn.disabled = false;
 }
 
+// --- Live language switch ---
+document.getElementById("live-lang-apply").addEventListener("click", async () => {
+  const selected = [...document.querySelectorAll('input[name="live-lang"]:checked')]
+    .map((cb) => cb.value);
+  try {
+    await api("/api/languages", {
+      method: "POST",
+      body: JSON.stringify({ languages: selected }),
+    });
+    fetchStatus();
+  } catch {}
+});
+
 // --- YouTube URL ---
 document.getElementById("yt-play-btn").addEventListener("click", playYouTubeUrl);
 document.getElementById("yt-url").addEventListener("keydown", (e) => {
@@ -608,6 +621,33 @@ function updateStatusUI(data) {
 
   if (data.autoplay !== undefined) {
     document.getElementById("autoplay-cb").checked = data.autoplay;
+  }
+
+  // Live language switcher
+  const liveLangGroup = document.getElementById("live-lang-group");
+  const liveLangCbs = document.getElementById("live-lang-checkboxes");
+  if (data.available_languages && data.available_languages.length > 0 && data.state !== "stopped") {
+    // Only rebuild checkboxes if languages changed
+    const availKey = data.available_languages.join(",");
+    if (liveLangGroup.dataset.avail !== availKey) {
+      liveLangGroup.dataset.avail = availKey;
+      liveLangCbs.innerHTML = "";
+      for (const lang of data.available_languages) {
+        const label = document.createElement("label");
+        label.className = "lang-option";
+        const cb = document.createElement("input");
+        cb.type = "checkbox";
+        cb.value = lang;
+        cb.name = "live-lang";
+        if (data.languages && data.languages.includes(lang)) cb.checked = true;
+        label.appendChild(cb);
+        label.appendChild(document.createTextNode(lang.toUpperCase()));
+        liveLangCbs.appendChild(label);
+      }
+    }
+    liveLangGroup.classList.remove("hidden");
+  } else {
+    liveLangGroup.classList.add("hidden");
   }
 
   if (data.error) showError(data.error);

@@ -280,7 +280,16 @@ body {
 
 .btn-primary:hover { background: var(--accent-hover); }
 .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-small { padding: 6px 14px; font-size: 0.85rem; }
 .btn-full { width: 100%; }
+
+.live-lang-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  flex-wrap: wrap;
+}
 
 /* Status card */
 .status-card {
