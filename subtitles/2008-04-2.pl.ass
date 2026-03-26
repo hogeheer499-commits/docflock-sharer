@@ -12,548 +12,539 @@ Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:03.76,0:00:11.36,Default,,0,0,0,,Hej, wróć tutaj.  Wróć tutaj. Ci z was, którzy próbują uciec.\NCi z was, którzy próbują uciec. Wróć tutaj.  Mamy twój numer.
-Dialogue: 0,0:00:11.36,0:00:18.56,Default,,0,0,0,,Wróć tutaj.  Mamy twój numer. Numer 292, dostaniesz to.\NNumer 292, dostaniesz to. Wyobraź sobie, że jesteś częścią
-Dialogue: 0,0:00:18.56,0:00:22.88,Default,,0,0,0,,Wyobraź sobie, że jesteś częścią festiwalu olimpijskiego, 7000 osób, i\Nfestiwalu olimpijskiego, 7000 osób, i każdy porusza się w ten sposób, a ty w inny
-Dialogue: 0,0:00:22.88,0:00:36.00,Default,,0,0,0,,każdy porusza się w ten sposób, a ty w inny .\N. Nigdy więcej o mnie nie słyszano.
-Dialogue: 0,0:00:36.00,0:00:39.76,Default,,0,0,0,,motywacja jest niezwykle ważna. Tak.\NTak. Wymyśliliśmy dwie zabawne historie albo jedną
-Dialogue: 0,0:00:39.76,0:00:45.44,Default,,0,0,0,,Wymyśliliśmy dwie zabawne historie albo jedną zabawną historię.  Właśnie tam\Nzabawną historię.  Właśnie tam przechodzi parada z okazji Czwartego Lipca i wszyscy
-Dialogue: 0,0:00:45.44,0:00:51.84,Default,,0,0,0,,przechodzi parada z okazji Czwartego Lipca i wszyscy w Ameryce.  Parada z okazji Czwartego Lipca\Nw Ameryce.  Parada z okazji Czwartego Lipca przechodzi obok żołnierzy,
-Dialogue: 0,0:00:51.84,0:00:56.16,Default,,0,0,0,,przechodzi obok żołnierzy, a jeden idiota nie pasuje do reszty\Na jeden idiota nie pasuje do reszty .  A matka siedząca na
-Dialogue: 0,0:00:56.16,0:01:09.43,Default,,0,0,0,,.  A matka siedząca na widowni mówi: „Patrzcie, wszyscy są\Nwidowni mówi: „Patrzcie, wszyscy są nie w rytmie, oprócz Herberta.
-Dialogue: 0,0:01:09.43,0:01:22.15,Default,,0,0,0,,To jest Ameryka. Ameryka. Wszyscy są poza zasięgiem wzroku, oprócz Herberta.\NIntencja jest niezwykle ważna”.   No cóż
-Dialogue: 0,0:01:22.15,0:01:28.08,Default,,0,0,0,,, sportowiec, oczywiście, jaka jest jego motywacja?\Njaka jest jego motywacja? Teraz zrozumieliśmy, że tłum miał być częścią jedności
-Dialogue: 0,0:01:28.08,0:01:36.15,Default,,0,0,0,,Teraz zrozumieliśmy, że tłum miał być częścią jedności .  Widzisz, ale czy ten sportowiec nie\N.  Widzisz, ale czy ten sportowiec nie szuka po prostu mnie?  No cóż, i
-Dialogue: 0,0:01:36.15,0:01:47.36,Default,,0,0,0,,szuka po prostu mnie?  No cóż, i wtedy dokonaliśmy wielkiego odkrycia.  Sportowiec,\Nwtedy dokonaliśmy wielkiego odkrycia.  Sportowiec,
-Dialogue: 0,0:01:47.36,0:01:54.24,Default,,0,0,0,,który biega dla dobra swojego kraju, swojej uczelni,\Nswojego kraju, swojej uczelni, swojej klasy, swojej żony, swoich dzieci,
-Dialogue: 0,0:01:54.24,0:02:00.95,Default,,0,0,0,,swojej klasy, swojej żony, swoich dzieci, sportowiec, który biega dla\Nsportowiec, który biega dla dobra wyższego.  Widzisz nazwę uniwersytetu,
-Dialogue: 0,0:02:00.95,0:02:09.59,Default,,0,0,0,,dobra wyższego.  Widzisz nazwę uniwersytetu,\Neee kraju, w którym sportowiec będzie się uczył
-Dialogue: 0,0:02:09.59,0:02:18.08,Default,,0,0,0,,sportowiec będzie się uczył .  Zawodnik, który biegnie dla\N.  Zawodnik, który biegnie dla dobra innych, ma przewagę ponad 8
-Dialogue: 0,0:02:18.08,0:02:23.76,Default,,0,0,0,,dobra innych, ma przewagę ponad 8 sekund. 9\Nsekund. 9 sekund i 1 sekunda dają mu 9/10 sekundy
-Dialogue: 0,0:02:23.76,0:02:30.48,Default,,0,0,0,,sekund i 1 sekunda dają mu 9/10 sekundy przewagi.  Widzisz więc dwóch biegaczy, jeden\Nprzewagi.  Widzisz więc dwóch biegaczy, jeden biegnie dla uniwersytetu, drugi
-Dialogue: 0,0:02:30.48,0:02:35.84,Default,,0,0,0,,biegnie dla uniwersytetu, drugi dla Chin, trzeci dla dumy\Ndla Chin, trzeci dla dumy Niemiec, obojętnie.
-Dialogue: 0,0:02:35.84,0:02:40.40,Default,,0,0,0,,Niemiec, obojętnie. A gdy tylko wystrzelił sygnał startowy, ten z\NA gdy tylko wystrzelił sygnał startowy, ten z większą motywacją miał już 9/10
-Dialogue: 0,0:02:40.40,0:02:44.00,Default,,0,0,0,,większą motywacją miał już 9/10 sekundy przewagi.  Czyż to nie jest coś, o czym warto\Nsekundy przewagi.  Czyż to nie jest coś, o czym warto wiedzieć?   Tak
-Dialogue: 0,0:02:44.00,0:02:46.80,Default,,0,0,0,,wiedzieć?   Tak .   Tak\N.   Tak .   No to zaczynamy
-Dialogue: 0,0:02:46.80,0:03:02.00,Default,,0,0,0,,.   No to zaczynamy .\NWięc ma to wpływ na naszą wydajność. Intencja.  Jeśli więc przyjrzysz się
-Dialogue: 0,0:03:02.00,0:03:07.20,Default,,0,0,0,,Intencja.  Jeśli więc przyjrzysz się intencji stojącej za twoimi działaniami,\Nintencji stojącej za twoimi działaniami, zawsze szukaj wyższego dobra, z którym
-Dialogue: 0,0:03:07.20,0:03:12.95,Default,,0,0,0,,zawsze szukaj wyższego dobra, z którym możesz się połączyć,\Nmożesz się połączyć, zwiększając w ten sposób swoją radość, znaczenie
-Dialogue: 0,0:03:12.95,0:03:18.08,Default,,0,0,0,,zwiększając w ten sposób swoją radość, znaczenie i sens tego, co robisz.\Ni sens tego, co robisz. Widzisz, jeśli wymyślisz zły lub lepszy
-Dialogue: 0,0:03:18.08,0:03:23.59,Default,,0,0,0,,Widzisz, jeśli wymyślisz zły lub lepszy gadżet, to po to, żeby uszczęśliwić innych ludzi\Ngadżet, to po to, żeby uszczęśliwić innych ludzi , żeby było wygodnie, żeby było miłe dla
-Dialogue: 0,0:03:23.59,0:03:29.04,Default,,0,0,0,,, żeby było wygodnie, żeby było miłe dla palców gospodyń domowych, cokolwiek.  Jeśli\Npalców gospodyń domowych, cokolwiek.  Jeśli helikopter ją potnie, to ona nie potnie sobie
-Dialogue: 0,0:03:29.04,0:03:34.00,Default,,0,0,0,,helikopter ją potnie, to ona nie potnie sobie palców.  Pomyśl więc o wszystkich\Npalców.  Pomyśl więc o wszystkich żonach, które nie chciałyby pokroić noża
-Dialogue: 0,0:03:34.00,0:03:38.08,Default,,0,0,0,,żonach, które nie chciałyby pokroić noża tą maszynką.  Innymi\Ntą maszynką.  Innymi słowy, staraj się utrzymywać najwyższą
-Dialogue: 0,0:03:38.08,0:03:45.59,Default,,0,0,0,,słowy, staraj się utrzymywać najwyższą motywację, na jaką cię stać, we wszystkich twoich\Nmotywację, na jaką cię stać, we wszystkich twoich wysiłkach, aby czynić to dla chwały Bożej. To
-Dialogue: 0,0:03:45.59,0:03:49.76,Default,,0,0,0,,wysiłkach, aby czynić to dla chwały Bożej. To oczywiście jest najwyższa motywacja ze wszystkich.  Więc\Noczywiście jest najwyższa motywacja ze wszystkich.  Więc ci, którzy poświęcają Ci całą swoją energię
-Dialogue: 0,0:03:49.76,0:03:59.59,Default,,0,0,0,,ci, którzy poświęcają Ci całą swoją energię i wysiłki,\No Panie Najwyższy. Kiedy więc wygłaszamy ten wykład, czynimy to
-Dialogue: 0,0:03:59.59,0:04:06.23,Default,,0,0,0,,Kiedy więc wygłaszamy ten wykład, czynimy to w imię Najwyższego Pana.\Nw imię Najwyższego Pana. O Panie najwyższy!  Więc na samym
-Dialogue: 0,0:04:06.23,0:04:11.92,Default,,0,0,0,,O Panie najwyższy!  Więc na samym początku oświadczamy, że składamy deklarację\Npoczątku oświadczamy, że składamy deklarację naszej intencji, aby
-Dialogue: 0,0:04:11.92,0:04:18.72,Default,,0,0,0,,naszej intencji, aby taka grupa spotykała się dla chwały Boga i\Ntaka grupa spotykała się dla chwały Boga i odzwierciedlała tę chwałę na wszystkich Jego
-Dialogue: 0,0:04:18.72,0:04:26.96,Default,,0,0,0,,odzwierciedlała tę chwałę na wszystkich Jego drogach, i wnosimy to do codziennego\Ndrogach, i wnosimy to do codziennego świata poprzez szacunek dla samego życia.
-Dialogue: 0,0:04:26.96,0:04:32.72,Default,,0,0,0,,świata poprzez szacunek dla samego życia. Mamy więc punkt odniesienia dla wszystkiego\NMamy więc punkt odniesienia dla wszystkiego , co istnieje, nawet jeśli
-Dialogue: 0,0:04:32.72,0:04:38.16,Default,,0,0,0,,, co istnieje, nawet jeśli nie rozumiemy, dlaczego to istnieje.  Nie\Nnie rozumiemy, dlaczego to istnieje.  Nie wiem, dlaczego smok z Komody jest taki, jaki
-Dialogue: 0,0:04:38.16,0:04:46.80,Default,,0,0,0,,wiem, dlaczego smok z Komody jest taki, jaki jest, ale pełni tam jakąś\Njest, ale pełni tam jakąś funkcję ewolucyjną.  I tak oddajemy
-Dialogue: 0,0:04:46.80,0:04:52.24,Default,,0,0,0,,funkcję ewolucyjną.  I tak oddajemy cześć całemu życiu i wszystkim jego\Ncześć całemu życiu i wszystkim jego przejawom, a dzięki temu
-Dialogue: 0,0:04:52.24,0:04:56.72,Default,,0,0,0,,przejawom, a dzięki temu piękno wszystkiego, co istnieje,\Npiękno wszystkiego, co istnieje, ujawnia się
-Dialogue: 0,0:04:56.72,0:05:03.12,Default,,0,0,0,,ujawnia się w tym życiu.  Piękno wszystkiego, co\Nw tym życiu.  Piękno wszystkiego, co istnieje, ujawniło się nagle,
-Dialogue: 0,0:05:03.12,0:05:07.91,Default,,0,0,0,,istnieje, ujawniło się nagle, bardzo nagle, ze zwykłego stanu\Nbardzo nagle, ze zwykłego stanu świadomości.  To było tak, jakby zasłona została
-Dialogue: 0,0:05:07.91,0:05:11.75,Default,,0,0,0,,świadomości.  To było tak, jakby zasłona została zdjęta, a ja byłem oszołomiony, bez słowa i\Nzdjęta, a ja byłem oszołomiony, bez słowa i myśli.
-Dialogue: 0,0:05:11.75,0:05:19.44,Default,,0,0,0,,myśli. Trzeba było lat, żeby to przemyśleć.\NTrzeba było lat, żeby to przemyśleć. Zastanów się jeszcze raz.  Tak.  Wtedy zacząłem zdawać sobie
-Dialogue: 0,0:05:19.44,0:05:33.84,Default,,0,0,0,,Zastanów się jeszcze raz.  Tak.  Wtedy zacząłem zdawać sobie sprawę, że nawet myśli mogą mieć\Nsprawę, że nawet myśli mogą mieć wyższy cel i że myślenie jest w porządku.
-Dialogue: 0,0:05:33.84,0:05:40.40,Default,,0,0,0,,Ile osób tutaj zna Wang Po?  O, dobrze ci tak.  Idziesz\NWang Po?  O, dobrze ci tak.  Idziesz do nieba.  Jak wiele osób
-Dialogue: 0,0:05:40.40,0:05:59.03,Default,,0,0,0,,do nieba.  Jak wiele osób nie zna Wang Poe?  Buu buu buu buu\Nnie zna Wang Poe?  Buu buu buu buu
-Dialogue: 0,0:05:59.03,0:06:03.44,Default,,0,0,0,,Cóż, Hang Po był jednym z moich bohaterów, gdy byłem młody.\Nbyłem młody. Sokrates i
-Dialogue: 0,0:06:03.44,0:06:11.52,Default,,0,0,0,,Sokrates i Huang Po byli moimi bohaterami.\NHuang Po byli moimi bohaterami. Myślę, że inni też interesowali się baseballem.
-Dialogue: 0,0:06:11.52,0:06:16.96,Default,,0,0,0,,Myślę, że inni też interesowali się baseballem. Skarpety naszego autorstwa Opowiedziałem ci o moim\NSkarpety naszego autorstwa Opowiedziałem ci o moim dzieciństwie.  Wiesz, trener kazał mi nie wchodzić na
-Dialogue: 0,0:06:16.96,0:06:26.56,Default,,0,0,0,,dzieciństwie.  Wiesz, trener kazał mi nie wchodzić na boisko.\NPowiedział: „Rozbiją cię, rozbiją na małe kawałki, już przy pierwszym ataku”.
-Dialogue: 0,0:06:26.56,0:06:32.24,Default,,0,0,0,,na małe kawałki, już przy pierwszym ataku”. I dlatego zabroniono mi wychodzić na\NI dlatego zabroniono mi wychodzić na boisko podczas uprawiania sportów kontaktowych,
-Dialogue: 0,0:06:32.24,0:06:36.24,Default,,0,0,0,,boisko podczas uprawiania sportów kontaktowych, wiesz,\Nwiesz, i lekarz nie wyraził na to zgody.
-Dialogue: 0,0:06:36.24,0:06:40.16,Default,,0,0,0,,i lekarz nie wyraził na to zgody. Powiedział, że z takimi obojczykami\NPowiedział, że z takimi obojczykami pękną, gdy ktoś cię pierwszy raz kopnie.
-Dialogue: 0,0:06:40.16,0:06:45.68,Default,,0,0,0,,pękną, gdy ktoś cię pierwszy raz kopnie. Więc\NWięc zostałem z Wang Poe,
-Dialogue: 0,0:06:45.68,0:06:53.75,Default,,0,0,0,,zostałem z Wang Poe, Platonem, Sokratesem,\NPlatonem, Sokratesem, Uripidesem i wszystkimi tymi staromodnymi
-Dialogue: 0,0:06:53.75,0:06:58.72,Default,,0,0,0,,Uripidesem i wszystkimi tymi staromodnymi ludźmi.  Tak.  Ja.\Nludźmi.  Tak.  Ja. Cóż, mogę powiedzieć tylko tyle, że cieszę się, że nie kandyduję na żadne
-Dialogue: 0,0:06:58.72,0:07:03.36,Default,,0,0,0,,Cóż, mogę powiedzieć tylko tyle, że cieszę się, że nie kandyduję na żadne stanowisko,\Nstanowisko, ponieważ rozumiem, jeśli jesteś pomarszczony
-Dialogue: 0,0:07:03.36,0:07:13.75,Default,,0,0,0,,ponieważ rozumiem, jeśli jesteś pomarszczony i stary.\NNajbardziej podobały mi się blogi o tematyce politycznej.  On jest stary,
-Dialogue: 0,0:07:13.75,0:07:18.00,Default,,0,0,0,,blogi o tematyce politycznej.  On jest stary, pomarszczony\Npomarszczony i ma białe włosy.  Więc nie chcesz
-Dialogue: 0,0:07:18.00,0:07:21.28,Default,,0,0,0,,i ma białe włosy.  Więc nie chcesz głosować na kogoś, kto ma siwe włosy,\Ngłosować na kogoś, kto ma siwe włosy, jest stary i pomarszczony.  Oczywiście, że nie.
-Dialogue: 0,0:07:21.28,0:07:26.00,Default,,0,0,0,,jest stary i pomarszczony.  Oczywiście, że nie. Wiesz, ale wydało mi się to\NWiesz, ale wydało mi się to zabawne.  Wiesz, że pozbylibyśmy się
-Dialogue: 0,0:07:26.00,0:07:29.19,Default,,0,0,0,,zabawne.  Wiesz, że pozbylibyśmy się wszystkich najwybitniejszych umysłów w\Nwszystkich najwybitniejszych umysłów w historii.  Więc kiedy pojawią się zmarszczki,
-Dialogue: 0,0:07:29.19,0:07:44.88,Default,,0,0,0,,historii.  Więc kiedy pojawią się zmarszczki, wyrzucają cię.\Nwyrzucają cię. Dlatego chodzę do salonu piękności.
-Dialogue: 0,0:07:44.88,0:07:51.91,Default,,0,0,0,,O tak. Więc rozmawialiśmy, rozmawialiśmy już wcześniej,\NWięc rozmawialiśmy, rozmawialiśmy już wcześniej, o wierności.
-Dialogue: 0,0:07:51.91,0:07:56.24,Default,,0,0,0,,o wierności. Lojalność\NLojalność nie jest już związana z prawdą.  Lojalność jest związana z
-Dialogue: 0,0:07:56.24,0:08:00.87,Default,,0,0,0,,nie jest już związana z prawdą.  Lojalność jest związana z popularnością.\Npopularnością. A mówiąc bardziej szczegółowo, jest to
-Dialogue: 0,0:08:00.87,0:08:06.16,Default,,0,0,0,,A mówiąc bardziej szczegółowo, jest to poświęcenie pewnemu izmowi.\Npoświęcenie pewnemu izmowi. Ekologia.
-Dialogue: 0,0:08:06.16,0:08:12.16,Default,,0,0,0,,Ekologia. Ekologia.\NEkologia.
-Dialogue: 0,0:08:12.16,0:08:18.08,Default,,0,0,0,,Jeśli ruch ekologiczny zostanie doprowadzony do ostateczności, ostatecznie zabije wszelkie życie na planecie .\N. Cały ten dwutlenek węgla i atmosfera są
-Dialogue: 0,0:08:18.08,0:08:28.16,Default,,0,0,0,,Cały ten dwutlenek węgla i atmosfera są dobre.  Gdyby nie węgiel,\Ndobre.  Gdyby nie węgiel, calatus i prerie,
-Dialogue: 0,0:08:28.16,0:08:35.76,Default,,0,0,0,,życie by się skończyło.  Uważam, że to zabawne.  W każdym razie, jestem religijny wobec izmów\Nzabawne.  W każdym razie, jestem religijny wobec izmów i podkreślam, że pojawia się to w wielu wykładach,
-Dialogue: 0,0:08:35.76,0:08:40.88,Default,,0,0,0,,i podkreślam, że pojawia się to w wielu wykładach, wiesz, w książce „Niezwykłe,\Nwiesz, w książce „Niezwykłe, niezwykłe, popularne urojenia w
-Dialogue: 0,0:08:40.88,0:08:46.56,Default,,0,0,0,,niezwykłe, popularne urojenia w szaleństwie tłumów”, wiesz, ze\Nszaleństwie tłumów”, wiesz, ze względu na powtarzające się znaczenie.
-Dialogue: 0,0:08:46.56,0:08:50.95,Default,,0,0,0,,względu na powtarzające się znaczenie. Fakt, że wszyscy w to wierzą, nie\NFakt, że wszyscy w to wierzą, nie ma nic wspólnego z tym, czy
-Dialogue: 0,0:08:50.95,0:08:54.72,Default,,0,0,0,,ma nic wspólnego z tym, czy jest to prawdą, czy nie, wiecie, a\Njest to prawdą, czy nie, wiecie, a globalne ocieplenie jest prawdopodobnie
-Dialogue: 0,0:08:54.72,0:09:00.56,Default,,0,0,0,,globalne ocieplenie jest prawdopodobnie największą obecną iluzją.  Jest to bardzo\Nnajwiększą obecną iluzją.  Jest to bardzo popularne wydarzenie, więc każdy może się w nim wziąć udział.  No cóż, oczywiście to, czego
-Dialogue: 0,0:09:00.56,0:09:03.51,Default,,0,0,0,,popularne wydarzenie, więc każdy może się w nim wziąć udział.  No cóż, oczywiście to, czego uczyliśmy na poprzednich\Nuczyliśmy na poprzednich wykładach, jest teraz naukowo
-Dialogue: 0,0:09:03.51,0:09:08.56,Default,,0,0,0,,wykładach, jest teraz naukowo potwierdzone.  W tym tygodniu stwierdzono, że\Npotwierdzone.  W tym tygodniu stwierdzono, że temperatura Ziemi wynika z
-Dialogue: 0,0:09:08.56,0:09:14.16,Default,,0,0,0,,temperatura Ziemi wynika z cyklicznych zmian aktywności magnetycznej powierzchni\Ncyklicznych zmian aktywności magnetycznej powierzchni Słońca.  Mówiliśmy o tym
-Dialogue: 0,0:09:14.16,0:09:18.80,Default,,0,0,0,,Słońca.  Mówiliśmy o tym kilka lat temu.  Więc po prostu chcę, żebyś widział\Nkilka lat temu.  Więc po prostu chcę, żebyś widział potwierdzenie, bo inaczej zabrzmisz
-Dialogue: 0,0:09:18.80,0:09:25.51,Default,,0,0,0,,potwierdzenie, bo inaczej zabrzmisz jak szaleniec.\Njak szaleniec. Brzmisz jak wariat.  A ja jestem
-Dialogue: 0,0:09:25.51,0:09:31.36,Default,,0,0,0,,Brzmisz jak wariat.  A ja jestem szanowanym wariatem.  Posiadam tytuł doktora.\Nszanowanym wariatem.  Posiadam tytuł doktora. Inną popularną obecnie rzeczą są
-Dialogue: 0,0:09:31.36,0:09:36.08,Default,,0,0,0,,Inną popularną obecnie rzeczą są te niezwykłe urojenia, które\Nte niezwykłe urojenia, które stają się bardzo popularne i
-Dialogue: 0,0:09:36.08,0:09:42.95,Default,,0,0,0,,stają się bardzo popularne i dominujące.  Zastanawiasz się, jak społeczeństwo w ogóle\Ndominujące.  Zastanawiasz się, jak społeczeństwo w ogóle przetrwało.  Cóż, nie zdarza się to
-Dialogue: 0,0:09:42.95,0:09:50.64,Default,,0,0,0,,przetrwało.  Cóż, nie zdarza się to często.  Nie, nie.\Nczęsto.  Nie, nie. Ludzkość jest w stanie wojny przez 93%
-Dialogue: 0,0:09:50.64,0:09:55.76,Default,,0,0,0,,Ludzkość jest w stanie wojny przez 93% czasu.  Jednym z aktualnie\Nczasu.  Jednym z aktualnie popularnych złudzeń dotyczących
-Dialogue: 0,0:09:55.76,0:10:01.20,Default,,0,0,0,,popularnych złudzeń dotyczących ekologii\Nekologii jest marksizm kulturowy.  Obecnie marksizm kulturowy
-Dialogue: 0,0:10:01.20,0:10:10.00,Default,,0,0,0,,jest marksizm kulturowy.  Obecnie marksizm kulturowy jest bardzo popularny i opiera się na\Njest bardzo popularny i opiera się na iluzji ofiary-sprawcy.  Chodzi
-Dialogue: 0,0:10:10.00,0:10:14.95,Default,,0,0,0,,iluzji ofiary-sprawcy.  Chodzi o znaki drogowe, które widać na\No znaki drogowe, które widać na skalibrowanych poziomach świadomości –
-Dialogue: 0,0:10:14.95,0:10:22.80,Default,,0,0,0,,skalibrowanych poziomach świadomości –\Nwszystkie są w okolicach 400-450, a znaki są skalibrowane na 130, co sprawia, że ​​wyróżnia się
-Dialogue: 0,0:10:22.80,0:10:29.68,Default,,0,0,0,,znaki są skalibrowane na 130, co sprawia, że ​​wyróżnia się jak bolący kciuk,\Njak bolący kciuk, a marksizm kulturowy jest teraz
-Dialogue: 0,0:10:29.68,0:10:36.32,Default,,0,0,0,,a marksizm kulturowy jest teraz udoskonalonym marksizmem, z którego usunięto nazwę „marksista”,\Nudoskonalonym marksizmem, z którego usunięto nazwę „marksista”, a który jest teraz produktem
-Dialogue: 0,0:10:36.32,0:10:41.51,Default,,0,0,0,,a który jest teraz produktem szkoły filozoficznej – niemieckiej\Nszkoły filozoficznej – niemieckiej szkoły filozoficznej, szkoły frankfurckiej.
-Dialogue: 0,0:10:41.51,0:10:46.24,Default,,0,0,0,,szkoły filozoficznej, szkoły frankfurckiej. Szkoła frankfurcka uczyła więc wszystkiego.\NSzkoła frankfurcka uczyła więc wszystkiego. Współczesne uniwersytety
-Dialogue: 0,0:10:46.24,0:10:54.39,Default,,0,0,0,,Współczesne uniwersytety są więc produktem marksizmu kulturowego.\Nsą więc produktem marksizmu kulturowego. Hm, dzięki Herbertowi Marcusowi.  Wszystkie
-Dialogue: 0,0:10:54.39,0:11:00.16,Default,,0,0,0,,Hm, dzięki Herbertowi Marcusowi.  Wszystkie z nich są skalibrowane na 180 lub 190.\Nz nich są skalibrowane na 180 lub 190. Widzisz więc nowoczesny uniwersytet.
-Dialogue: 0,0:11:00.16,0:11:04.32,Default,,0,0,0,,Widzisz więc nowoczesny uniwersytet. To wyjątkowy uniwersytet.  To\NTo wyjątkowy uniwersytet.  To jest
-Dialogue: 0,0:11:04.32,0:11:11.04,Default,,0,0,0,,jest wydział NAU i odkryliśmy, że\Nwydział NAU i odkryliśmy, że szkoły wyższe obecnie kalibrują się na poziomie
-Dialogue: 0,0:11:11.04,0:11:16.39,Default,,0,0,0,,szkoły wyższe obecnie kalibrują się na poziomie 400, a wielkie uniwersytety\N400, a wielkie uniwersytety kalibrują się poniżej 200.
-Dialogue: 0,0:11:16.39,0:11:21.83,Default,,0,0,0,,kalibrują się poniżej 200. Wszystkie wielkie uniwersytety o\NWszystkie wielkie uniwersytety o wielkich nazwach kalibrują się poniżej 300.
-Dialogue: 0,0:11:21.83,0:11:26.80,Default,,0,0,0,,wielkich nazwach kalibrują się poniżej 300. Zobaczmy, czy to prawda.\NZobaczmy, czy to prawda. Wszystkie te wspaniałe nazwy, jak nazywacie
-Dialogue: 0,0:11:26.80,0:11:34.00,Default,,0,0,0,,Wszystkie te wspaniałe nazwy, jak nazywacie te uniwersytety?  elitarna Ivy League,\Nte uniwersytety?  elitarna Ivy League, wszystkie kalibrowane poniżej 200, opierają się
-Dialogue: 0,0:11:34.00,0:11:40.80,Default,,0,0,0,,wszystkie kalibrowane poniżej 200, opierają się wszystkim kalibrowanym poniżej 200.\Nwszystkim kalibrowanym poniżej 200. Wzrost i upadek cywilizacji
-Dialogue: 0,0:11:40.80,0:11:52.64,Default,,0,0,0,,Wzrost i upadek cywilizacji staje się wtedy oczywisty, że nowe masowe\Nstaje się wtedy oczywisty, że nowe masowe złudzenie ogarnia społeczeństwo.
-Dialogue: 0,0:11:52.64,0:12:02.39,Default,,0,0,0,,Harvard, Yale, Princeton,\Nwszystkie wielkie uniwersytety mają wskaźnik poniżej 200. Cieszę się, że
-Dialogue: 0,0:12:02.39,0:12:09.51,Default,,0,0,0,,wskaźnik poniżej 200. Cieszę się, że nie mam dzieci w wieku studenckim\Nnie mam dzieci w wieku studenckim .
-Dialogue: 0,0:12:09.51,0:12:15.20,Default,,0,0,0,,Ale gdybym chciał, wysłałbym go na tę uczelnię.  Tak.  Ponieważ ta uczelnia ma\Nuczelnię.  Tak.  Ponieważ ta uczelnia ma skalę około 440.
-Dialogue: 0,0:12:15.20,0:12:22.07,Default,,0,0,0,,skalę około 440.\NNie chcę więc być populistą.  Więc obierają sobie za cel te świetne uniwersytety ze względu
-Dialogue: 0,0:12:22.07,0:12:26.88,Default,,0,0,0,,te świetne uniwersytety ze względu na siłę ich nazwy.  Więc\Nna siłę ich nazwy.  Więc propagandziści wiedzą, że nazwa Harvard zrobi
-Dialogue: 0,0:12:26.88,0:12:34.32,Default,,0,0,0,,propagandziści wiedzą, że nazwa Harvard zrobi wrażenie na wielu ludziach.  Yale,\Nwrażenie na wielu ludziach.  Yale, Princeton, widzicie,
-Dialogue: 0,0:12:34.32,0:12:38.88,Default,,0,0,0,,Princeton, widzicie, jak nazywa się ta uczelnia?   Co\Njak nazywa się ta uczelnia?   Co ?
-Dialogue: 0,0:12:38.88,0:12:43.68,Default,,0,0,0,,? Kolegium Yavapai.  Czy mógłbyś zostać wybrany na\NKolegium Yavapai.  Czy mógłbyś zostać wybrany na prezydenta, gdybyś studiował w Gavapai
-Dialogue: 0,0:12:43.68,0:12:58.16,Default,,0,0,0,,prezydenta, gdybyś studiował w Gavapai College?   Nie pasowałbyś\Ndo popularnego świata.  Popularny świat kalibruje 170.
-Dialogue: 0,0:12:58.16,0:13:09.36,Default,,0,0,0,,świata.  Popularny świat kalibruje 170. Stal się nie topi.  Kalibracja na 160.\NNienawidzę tego mówić, ale stal się topi. Tak właśnie produkuje się podkłady kolejowe.
-Dialogue: 0,0:13:09.36,0:13:15.27,Default,,0,0,0,,Tak właśnie produkuje się podkłady kolejowe. Tory kolejowe.  Uhuh.\NTory kolejowe.  Uhuh. Widzimy więc tę niekończącą się walkę o
-Dialogue: 0,0:13:15.27,0:13:20.07,Default,,0,0,0,,Widzimy więc tę niekończącą się walkę o dominację\Ndominację i kontrolę.  Polityka jest więc
-Dialogue: 0,0:13:20.07,0:13:26.32,Default,,0,0,0,,i kontrolę.  Polityka jest więc walką o dominację i\Nwalką o dominację i kontrolę.  A oczywiście, gdy już
-Dialogue: 0,0:13:26.32,0:13:30.07,Default,,0,0,0,,kontrolę.  A oczywiście, gdy już zdominujesz, będziesz walczyć i będziesz mieć\Nzdominujesz, będziesz walczyć i będziesz mieć kontrolę, możesz wydoić to mleko, za które dostaniesz
-Dialogue: 0,0:13:30.07,0:13:37.44,Default,,0,0,0,,kontrolę, możesz wydoić to mleko, za które dostaniesz miliony dolarów.  I to jest to, co\Nmiliony dolarów.  I to jest to, co zawsze mnie zadziwia, to to, że ten polityk
-Dialogue: 0,0:13:37.44,0:13:44.16,Default,,0,0,0,,zawsze mnie zadziwia, to to, że ten polityk został, wiesz, pozwany,\Nzostał, wiesz, pozwany, aresztowany, osadzony itd. za, no
-Dialogue: 0,0:13:44.16,0:13:49.60,Default,,0,0,0,,aresztowany, osadzony itd. za, no wiesz, przyjmowanie ogromnych łapówek,\Nwiesz, przyjmowanie ogromnych łapówek, wiesz, na Alasce, powiedzmy, albo w jakimś innym miejscu, a
-Dialogue: 0,0:13:49.60,0:13:55.12,Default,,0,0,0,,wiesz, na Alasce, powiedzmy, albo w jakimś innym miejscu, a potem, co mnie zadziwia, to to, że po kolejnych\Npotem, co mnie zadziwia, to to, że po kolejnych wyborach został ponownie wybrany i osadzony
-Dialogue: 0,0:13:55.12,0:14:02.72,Default,,0,0,0,,wyborach został ponownie wybrany i osadzony za oszustwa, machinacje,\Nza oszustwa, machinacje,
-Dialogue: 0,0:14:02.72,0:14:15.19,Default,,0,0,0,,poważne przestępstwa i wykroczenia, a mimo to został ponownie wybrany.\NDlatego też twierdzenie Sokratesa jest takie, że demokracja nie może trwać dłużej niż
-Dialogue: 0,0:14:15.19,0:14:20.63,Default,,0,0,0,,demokracja nie może trwać dłużej niż paręset lat.  Nasza demokracja ma\Nparęset lat.  Nasza demokracja ma 300 lat.
-Dialogue: 0,0:14:20.63,0:14:25.04,Default,,0,0,0,,300 lat. że rzadko, a właściwie praktycznie\Nże rzadko, a właściwie praktycznie nigdy, demokracja nie trwa dłużej niż
-Dialogue: 0,0:14:25.04,0:14:30.63,Default,,0,0,0,,nigdy, demokracja nie trwa dłużej niż dwieście czy trzydzieści lat, gdyż\Ndwieście czy trzydzieści lat, gdyż ludzie nie potrafią odróżnić prawdy od fałszu,
-Dialogue: 0,0:14:30.63,0:14:36.39,Default,,0,0,0,,ludzie nie potrafią odróżnić prawdy od fałszu, gdyż tak łatwo dają się zwieść\Ngdyż tak łatwo dają się zwieść wilkowi i owczej skórze.   Jeśli
-Dialogue: 0,0:14:36.39,0:14:40.88,Default,,0,0,0,,wilkowi i owczej skórze.   Jeśli coś jest prawdopodobne, a zwłaszcza biorąc pod uwagę\Ncoś jest prawdopodobne, a zwłaszcza biorąc pod uwagę dzisiejsze media, możesz zostać poddany
-Dialogue: 0,0:14:40.88,0:14:45.04,Default,,0,0,0,,dzisiejsze media, możesz zostać poddany praniu mózgu, nieświadomie\Npraniu mózgu, nieświadomie myjąc zęby.
-Dialogue: 0,0:14:45.04,0:14:48.95,Default,,0,0,0,,myjąc zęby. Albo myjesz zęby, ktoś ci pranie\NAlbo myjesz zęby, ktoś ci pranie mózgu.
-Dialogue: 0,0:14:48.95,0:14:57.76,Default,,0,0,0,,mózgu. Zawsze wyłączaj telewizor, kiedy\NZawsze wyłączaj telewizor, kiedy myjesz zęby,
-Dialogue: 0,0:14:57.76,0:15:04.32,Default,,0,0,0,,bo w ten sposób chcesz kontrolować innych, jesteś manipulowany.  Tak więc umysł współczesnego\Nmanipulowany.  Tak więc umysł współczesnego człowieka nie tylko upadł do
-Dialogue: 0,0:15:04.32,0:15:12.07,Default,,0,0,0,,człowieka nie tylko upadł do poziomu krytycznego, ale stał się podatny, a dzieje się tak z\Npoziomu krytycznego, ale stał się podatny, a dzieje się tak z powodu niewinnej, wewnętrznej
-Dialogue: 0,0:15:12.07,0:15:18.39,Default,,0,0,0,,powodu niewinnej, wewnętrznej niewinności dziecka.\Nniewinności dziecka. Niewinność dziecka.  Więc ludzkość to intuicyjnie wyczuła
-Dialogue: 0,0:15:18.39,0:15:24.56,Default,,0,0,0,,Niewinność dziecka.  Więc ludzkość to intuicyjnie wyczuła i dostrzegała na przestrzeni dziejów\Ni dostrzegała na przestrzeni dziejów .  Cóż, wielcy
-Dialogue: 0,0:15:24.56,0:15:32.63,Default,,0,0,0,,.  Cóż, wielcy nauczyciele to: Jezus Chrystus,\Nnauczyciele to: Jezus Chrystus, Sokrates, Budda, Mojżesz
-Dialogue: 0,0:15:32.63,0:15:38.63,Default,,0,0,0,,Sokrates, Budda, Mojżesz i wszyscy inni\Ni wszyscy inni wielcy nauczyciele wszech czasów.
-Dialogue: 0,0:15:38.63,0:15:46.88,Default,,0,0,0,,wielcy nauczyciele wszech czasów. Kiedy więc czczono tradycyjną mądrość, człowiek\NKiedy więc czczono tradycyjną mądrość, człowiek był w pewnym sensie chroniony przed współczesnymi
-Dialogue: 0,0:15:46.88,0:15:51.60,Default,,0,0,0,,był w pewnym sensie chroniony przed współczesnymi błędami i nonsensami,\Nbłędami i nonsensami, ponieważ zawsze w głębi umysłu porównywano ją
-Dialogue: 0,0:15:51.60,0:15:57.19,Default,,0,0,0,,ponieważ zawsze w głębi umysłu porównywano ją z naukami\Nz naukami Jezusa Chrystusa, powiedzmy, albo Sokratesa, albo
-Dialogue: 0,0:15:57.19,0:16:02.88,Default,,0,0,0,,Jezusa Chrystusa, powiedzmy, albo Sokratesa, albo jakiejś wielkiej istoty.\Njakiejś wielkiej istoty. No i bez tradycyjnego wykształcenia
-Dialogue: 0,0:16:02.88,0:16:08.95,Default,,0,0,0,,No i bez tradycyjnego wykształcenia nie ma już wewnętrznych wytycznych.\Nnie ma już wewnętrznych wytycznych. Nie ma wewnętrznych wytycznych.
-Dialogue: 0,0:16:08.95,0:16:15.51,Default,,0,0,0,,Nie ma wewnętrznych wytycznych. Widzimy więc, że ideologia marksistowska rozprzestrzenia się\NWidzimy więc, że ideologia marksistowska rozprzestrzenia się na całe społeczeństwo.
-Dialogue: 0,0:16:15.51,0:16:27.83,Default,,0,0,0,,na całe społeczeństwo. Marksistowska dwoistość to sprawca i\NMarksistowska dwoistość to sprawca i ofiara.  A w tym systemie indoktrynacji
-Dialogue: 0,0:16:27.83,0:16:34.63,Default,,0,0,0,,mniejszość zawsze jest ofiarą większości.   Tak właśnie\Nwiększości.   Tak właśnie patrzył na to Markx.
-Dialogue: 0,0:16:34.63,0:16:42.24,Default,,0,0,0,,patrzył na to Markx. Mamy już ofiarę.  Wiktymologia\NMamy już ofiarę.  Wiktymologia i wyższość moralna polegają na uznaniu
-Dialogue: 0,0:16:42.24,0:16:47.04,Default,,0,0,0,,i wyższość moralna polegają na uznaniu siebie za większą ofiarę niż ktoś\Nsiebie za większą ofiarę niż ktoś inny.   Cieszę
-Dialogue: 0,0:16:47.04,0:17:00.07,Default,,0,0,0,,inny.   Cieszę się więc, że pomarszczeni starcy stają się\Nsię więc, że pomarszczeni starcy stają się ofiarami.  Daje mi szansę.
-Dialogue: 0,0:17:00.07,0:17:04.95,Default,,0,0,0,,Daje mi to szansę na zostanie ofiarą.  O kurczę. Musiałem długo czekać, żeby stać się ofiarą,\NMusiałem długo czekać, żeby stać się ofiarą, wiesz.
-Dialogue: 0,0:17:04.95,0:17:08.48,Default,,0,0,0,,wiesz. Oh.   W\NOh.   W porządku.  Więc co w tym atrakcyjnego?  Co
-Dialogue: 0,0:17:08.48,0:17:12.95,Default,,0,0,0,,porządku.  Więc co w tym atrakcyjnego?  Co mówisz do siebie?  Na czym polega atrakcyjność\Nmówisz do siebie?  Na czym polega atrakcyjność polityki?  Oprócz korzyści, które
-Dialogue: 0,0:17:12.95,0:17:19.03,Default,,0,0,0,,polityki?  Oprócz korzyści, które z tego czerpią, jest to oczywiście\Nz tego czerpią, jest to oczywiście walka o dominację i wewnętrzny
-Dialogue: 0,0:17:19.03,0:17:23.91,Default,,0,0,0,,walka o dominację i wewnętrzny narcyzm rzutowany na\Nnarcyzm rzutowany na świat.
-Dialogue: 0,0:17:23.91,0:17:28.31,Default,,0,0,0,,świat. Wspomnieliśmy o 9/10enach drugiej\NWspomnieliśmy o 9/10enach drugiej zalety.  Tak.  Tak, wspominaliśmy o tym
-Dialogue: 0,0:17:28.31,0:17:36.72,Default,,0,0,0,,zalety.  Tak.  Tak, wspominaliśmy o tym .  Tak.  Chciałem mieć pewność, że o tym nie\N.  Tak.  Chciałem mieć pewność, że o tym nie zapomnę.  Oczywiście, to
-Dialogue: 0,0:17:36.72,0:17:43.03,Default,,0,0,0,,, czy jesteś liberałem, czy konserwatystą, częściowo zależy od\Nkonserwatystą, częściowo zależy od twojego wieku.  Widzisz, jeśli nie jesteś
-Dialogue: 0,0:17:43.03,0:17:46.64,Default,,0,0,0,,twojego wieku.  Widzisz, jeśli nie jesteś liberałem, gdy jesteś młody, to nie masz\Nliberałem, gdy jesteś młody, to nie masz serca.  Jeśli na starość nadal jesteś liberałem
-Dialogue: 0,0:17:46.64,0:18:09.28,Default,,0,0,0,,serca.  Jeśli na starość nadal jesteś liberałem , to nie masz mózgu.\NPonieważ umysł zostaje uderzony blaskiem przyczyn.  Załóżmy więc, że
-Dialogue: 0,0:18:09.28,0:18:14.32,Default,,0,0,0,,blaskiem przyczyn.  Załóżmy więc, że ochrona środowiska\Nochrona środowiska jest szlachetną sprawą i każdy chce
-Dialogue: 0,0:18:14.32,0:18:19.28,Default,,0,0,0,,jest szlachetną sprawą i każdy chce przyłączyć się do akcji\Nprzyłączyć się do akcji i zapobiec wydalaniu gazów przez bydło na pokładzie samolotu
-Dialogue: 0,0:18:19.28,0:18:33.44,Default,,0,0,0,,i zapobiec wydalaniu gazów przez bydło na pokładzie samolotu .   Oczywiście,\Npotajemnie puszczają metan, więc ekolodzy chcą, żebyśmy
-Dialogue: 0,0:18:33.44,0:18:44.96,Default,,0,0,0,,więc ekolodzy chcą, żebyśmy wszyscy zostali wegetarianami, a to\Nwszyscy zostali wegetarianami, a to zapobiegnie
-Dialogue: 0,0:18:44.96,0:19:01.44,Default,,0,0,0,,zanieczyszczeniu gazów jelitowych u bydła, i nie wiem, co robisz w wagonie metra, ale cóż.\NDobrze.  Chodzi więc o dowód kontra fałsz. Dowód kontra fałsz.
-Dialogue: 0,0:19:01.44,0:19:07.28,Default,,0,0,0,,Dowód kontra fałsz. Media są ekspertami w dziedzinie parodii i\NMedia są ekspertami w dziedzinie parodii i programowania odbiorców tak, aby uwierzyli w coś
-Dialogue: 0,0:19:07.28,0:19:11.60,Default,,0,0,0,,programowania odbiorców tak, aby uwierzyli w coś dokładnie odwrotnego od prawdy.\Ndokładnie odwrotnego od prawdy. A gdy już wiesz, jak to
-Dialogue: 0,0:19:11.60,0:19:16.24,Default,,0,0,0,,A gdy już wiesz, jak to wszystko skalibrować, to oczywiście fajnie jest oglądać\Nwszystko skalibrować, to oczywiście fajnie jest oglądać codzienne wiadomości i oceniać, jaki jest
-Dialogue: 0,0:19:16.24,0:19:22.08,Default,,0,0,0,,codzienne wiadomości i oceniać, jaki jest poziom zeznań danego świadka.   Czy\Npoziom zeznań danego świadka.   Czy ta osoba popełniła tę zbrodnię czy
-Dialogue: 0,0:19:22.08,0:19:26.96,Default,,0,0,0,,ta osoba popełniła tę zbrodnię czy nie?  Czy są winni czy niewinni?  Czy\Nnie?  Czy są winni czy niewinni?  Czy ciało znajduje się pod płytą cementową?  Rozumiesz, o
-Dialogue: 0,0:19:26.96,0:19:34.72,Default,,0,0,0,,ciało znajduje się pod płytą cementową?  Rozumiesz, o czym mówię?\NOczywiście, nie możesz powiedzieć innym o swoim odkryciu.  Tak więc,
-Dialogue: 0,0:19:34.72,0:19:38.08,Default,,0,0,0,,odkryciu.  Tak więc, inną rzeczą dotyczącą naszej techniki\Ninną rzeczą dotyczącą naszej techniki mówienia prawdy od ogółu jest
-Dialogue: 0,0:19:38.08,0:19:43.91,Default,,0,0,0,,mówienia prawdy od ogółu jest dyskrecja.  Ludzie\Ndyskrecja.  Ludzie nie lubią prawdy.
-Dialogue: 0,0:19:43.91,0:19:49.03,Default,,0,0,0,,nie lubią prawdy. Ludzie nie lubią prawdy.\NLudzie nie lubią prawdy. Akceptują to,
-Dialogue: 0,0:19:49.03,0:19:54.00,Default,,0,0,0,,Akceptują to, w co inwestują narcystycznie.\Nw co inwestują narcystycznie. Prawda ich nie interesuje.
-Dialogue: 0,0:19:54.00,0:19:57.91,Default,,0,0,0,,Prawda ich nie interesuje. A jeśli chcesz się zabić, po prostu\NA jeśli chcesz się zabić, po prostu wszędzie, gdzie pójdziesz, rozgłaszaj prawdę
-Dialogue: 0,0:19:57.91,0:20:08.55,Default,,0,0,0,,wszędzie, gdzie pójdziesz, rozgłaszaj prawdę .   Będziesz miał\N.   Będziesz miał szczęście, jeśli uda ci się przejść przez ten pokój.
-Dialogue: 0,0:20:08.55,0:20:15.44,Default,,0,0,0,,Prawda nie jest popularna.  Nie. Popularne jest to, co popularne.  Oh okej.\Njest to, co popularne.  Oh okej. Co jest popularne?  Więc każdy chce być
-Dialogue: 0,0:20:15.44,0:20:22.24,Default,,0,0,0,,Co jest popularne?  Więc każdy chce być częścią tłumu.  U każdego tak jest,\Nczęścią tłumu.  U każdego tak jest, to tak naprawdę instynkt stadny.  Jeśli więc
-Dialogue: 0,0:20:22.24,0:20:26.24,Default,,0,0,0,,to tak naprawdę instynkt stadny.  Jeśli więc spojrzymy na ludzkość z uwzględnieniem jej ograniczeń\Nspojrzymy na ludzkość z uwzględnieniem jej ograniczeń i tego, jak wyewoluowała ze
-Dialogue: 0,0:20:26.24,0:20:31.03,Default,,0,0,0,,i tego, jak wyewoluowała ze świata zwierząt.\Nświata zwierząt. Następnie widzimy, że tym, co najbardziej fascynuje umysły
-Dialogue: 0,0:20:31.03,0:20:37.76,Default,,0,0,0,,Następnie widzimy, że tym, co najbardziej fascynuje umysły większości ludzi, jest\Nwiększości ludzi, jest instynkt stadny.  Jeśli każdy w
-Dialogue: 0,0:20:37.76,0:20:44.40,Default,,0,0,0,,instynkt stadny.  Jeśli każdy w to wierzy, jeśli każdy wierzy, że katalus\Nto wierzy, jeśli każdy wierzy, że katalus doprowadzi do
-Dialogue: 0,0:20:44.40,0:20:53.44,Default,,0,0,0,,doprowadzi do zatrzymania się planety, to wtedy stajesz się\Nzatrzymania się planety, to wtedy stajesz się wegetarianinem.  Tak.
-Dialogue: 0,0:20:53.44,0:21:03.52,Default,,0,0,0,,Jaki jest wskaźnik śmiertelności wśród wegetarian? Wszyscy wegetarianie, których znałem, nie\NWszyscy wegetarianie, których znałem, nie żyją.  No więc nie wiem.
-Dialogue: 0,0:21:03.52,0:21:07.44,Default,,0,0,0,,Przyzwyczaili się do wszystkich fanatyków zdrowego żywienia, jakich znałem.  To fakt.  każdy z nich.\Nznałem.  To fakt.  każdy z nich. I już ci o nich
-Dialogue: 0,0:21:07.44,0:21:10.24,Default,,0,0,0,,I już ci o nich wcześniej opowiadałem.  Nazywaliśmy ich „brązowymi\Nwcześniej opowiadałem.  Nazywaliśmy ich „brązowymi pakowaczami”.
-Dialogue: 0,0:21:10.24,0:21:13.67,Default,,0,0,0,,pakowaczami”. Wszyscy siedzieli z tyłu\NWszyscy siedzieli z tyłu sali jadalnej i mieli ze sobą
-Dialogue: 0,0:21:13.67,0:21:18.55,Default,,0,0,0,,sali jadalnej i mieli ze sobą brązową torbę.  A tam był\Nbrązową torbę.  A tam był brązowy ryż ekologiczny.
-Dialogue: 0,0:21:18.55,0:21:24.24,Default,,0,0,0,,brązowy ryż ekologiczny. A potem wychodzili pobiegać.  Zatem jeśli chodzi o\NA potem wychodzili pobiegać.  Zatem jeśli chodzi o brązowy ryż organiczny i jogging,
-Dialogue: 0,0:21:24.24,0:21:31.03,Default,,0,0,0,,brązowy ryż organiczny i jogging, wszystkie te metody są nieskuteczne.\Nwszystkie te metody są nieskuteczne. Wszyscy moi koledzy z Brown Baggers nie
-Dialogue: 0,0:21:31.03,0:21:49.44,Default,,0,0,0,,Wszyscy moi koledzy z Brown Baggers nie żyją.  Oprzeć się.\Nżyją.  Oprzeć się. Wszystkie.   Wszyscy nie
-Dialogue: 0,0:21:49.44,0:22:03.36,Default,,0,0,0,,żyją.  Co? Jeśli wierzysz, że wszystko, co się dzieje, cię\NJeśli wierzysz, że wszystko, co się dzieje, cię zabije, to tak się stanie.   W
-Dialogue: 0,0:22:03.36,0:22:09.52,Default,,0,0,0,,Dobra.  Tak więc wiarygodność autorytetu jest również, eee, dzisiaj autorytet jest traktowany z\Nrównież, eee, dzisiaj autorytet jest traktowany z wielką podejrzliwością i ważniejsze jest, aby
-Dialogue: 0,0:22:09.52,0:22:15.28,Default,,0,0,0,,wielką podejrzliwością i ważniejsze jest, aby popierać jakąś sprawę, a\Npopierać jakąś sprawę, a inna rzecz, że ludzie duchowi
-Dialogue: 0,0:22:15.28,0:22:20.88,Default,,0,0,0,,inna rzecz, że ludzie duchowi muszą trzymać się pułapki.  Widzisz,\Nmuszą trzymać się pułapki.  Widzisz, jest tam spacer przez bagna
-Dialogue: 0,0:22:20.88,0:22:27.44,Default,,0,0,0,,jest tam spacer przez bagna i jest przedstawienie duszy,\Ni jest przedstawienie duszy, ewoluującej duszy, spacerującej przez bagna,
-Dialogue: 0,0:22:27.44,0:22:32.72,Default,,0,0,0,,ewoluującej duszy, spacerującej przez bagna, a uwodzenie jest po jednej stronie i\Na uwodzenie jest po jednej stronie i uwodzenie po drugiej.  Uwodzenia, przez które
-Dialogue: 0,0:22:32.72,0:22:39.36,Default,,0,0,0,,uwodzenie po drugiej.  Uwodzenia, przez które przechodzisz, to\Nprzechodzisz, to uwodzenie astralnego cyrku, a
-Dialogue: 0,0:22:39.36,0:22:44.79,Default,,0,0,0,,uwodzenie astralnego cyrku, a astralny cyrk jest również pełen\Nastralny cyrk jest również pełen uroku i ludzi, którzy łączą się z różnymi
-Dialogue: 0,0:22:44.79,0:22:50.08,Default,,0,0,0,,uroku i ludzi, którzy łączą się z różnymi bytami itd.\Nbytami itd. I nie ma znaczenia, czy to robią, czy nie.
-Dialogue: 0,0:22:50.08,0:22:53.91,Default,,0,0,0,,I nie ma znaczenia, czy to robią, czy nie. Czasami jest to Integris.  Jest\NCzasami jest to Integris.  Jest jeden bardzo sławny.  Jej moc wynosi
-Dialogue: 0,0:22:53.91,0:23:00.64,Default,,0,0,0,,jeden bardzo sławny.  Jej moc wynosi około 350 i jest ona naprawdę bardzo jasnowidząca\Nokoło 350 i jest ona naprawdę bardzo jasnowidząca .  To jest możliwe.
-Dialogue: 0,0:23:00.64,0:23:05.91,Default,,0,0,0,,.  To jest możliwe. Ale jeśli chodzi o istotę po drugiej stronie, to\NAle jeśli chodzi o istotę po drugiej stronie, to zawsze mówię, że gdyby była to istota rozwinięta,
-Dialogue: 0,0:23:05.91,0:23:11.12,Default,,0,0,0,,zawsze mówię, że gdyby była to istota rozwinięta, nie kręciłaby się tu i nie próbowała\Nnie kręciłaby się tu i nie próbowała kontrolować ludzi na planecie.  Wolałbym udać się
-Dialogue: 0,0:23:11.12,0:23:16.55,Default,,0,0,0,,kontrolować ludzi na planecie.  Wolałbym udać się do wyższego wymiaru,\Ndo wyższego wymiaru, niż przemawiać przez jakieś medium trans.
-Dialogue: 0,0:23:16.55,0:23:23.03,Default,,0,0,0,,niż przemawiać przez jakieś medium trans. Robiłem więc rzeczy, które pojawiały się w\NRobiłem więc rzeczy, które pojawiały się w dość nienaturalny sposób, a potem bardzo często
-Dialogue: 0,0:23:23.03,0:23:27.84,Default,,0,0,0,,dość nienaturalny sposób, a potem bardzo często służyły jakiemuś innemu celowi i naprawdę trzeba było\Nsłużyły jakiemuś innemu celowi i naprawdę trzeba było skalibrować ich integralność.
-Dialogue: 0,0:23:27.84,0:23:31.52,Default,,0,0,0,,skalibrować ich integralność. Nie chodzi tylko o byt po drugiej stronie,\NNie chodzi tylko o byt po drugiej stronie, ale o to, na ile byt po drugiej
-Dialogue: 0,0:23:31.52,0:23:41.44,Default,,0,0,0,,ale o to, na ile byt po drugiej stronie dokonuje kalibracji?\NNajlepiej więc unikać tego, co jest urokiem wyjątkowości.  Urok
-Dialogue: 0,0:23:41.44,0:23:47.84,Default,,0,0,0,,urokiem wyjątkowości.  Urok wyjątkowości.  Wiesz, że słucham\Nwyjątkowości.  Wiesz, że słucham Yogi Baby po drugiej stronie.  Wiesz, że był
-Dialogue: 0,0:23:47.84,0:23:54.48,Default,,0,0,0,,Yogi Baby po drugiej stronie.  Wiesz, że był tam przez 10 000 lat i\Ntam przez 10 000 lat i teraz co,
-Dialogue: 0,0:23:54.48,0:24:01.76,Default,,0,0,0,,teraz co, istota po drugiej stronie\Nistota po drugiej stronie otrzymuje witalizację dzięki władzy nad
-Dialogue: 0,0:24:01.76,0:24:08.40,Default,,0,0,0,,otrzymuje witalizację dzięki władzy nad innymi.  zmusili wszystkich tych głupich\Ninnymi.  zmusili wszystkich tych głupich ludzi do posłuchania ich rad.
-Dialogue: 0,0:24:08.40,0:24:12.95,Default,,0,0,0,,ludzi do posłuchania ich rad. Jeśli więc po drugiej stronie masz nauczyciela,\NJeśli więc po drugiej stronie masz nauczyciela, zawsze dostosuj go do swoich potrzeb.  Nie chodzi o to, że po
-Dialogue: 0,0:24:12.95,0:24:22.88,Default,,0,0,0,,zawsze dostosuj go do swoich potrzeb.  Nie chodzi o to, że po\Ndrugiej stronie nie ma dobrych nauczycieli, ale powinieneś wiedzieć, że
-Dialogue: 0,0:24:22.88,0:24:30.24,Default,,0,0,0,,po drugiej stronie jest podmiot, którego satysfakcjonuje kontrolowanie ludzi.  I zawsze, zawsze\Nkontrolowanie ludzi.  I zawsze, zawsze powinieneś kalibrować dowód Master
-Dialogue: 0,0:24:30.24,0:24:39.44,Default,,0,0,0,,powinieneś kalibrować dowód Master Hoo\Nw stosunku do oszustwa.  Dobra.  Jako atrakcja cyrku astralnego.
-Dialogue: 0,0:24:39.44,0:24:45.44,Default,,0,0,0,,atrakcja cyrku astralnego. No i oczywiście, wiesz, jest to przedstawiane\NNo i oczywiście, wiesz, jest to przedstawiane naiwnym ludziom jako nowy aizm.
-Dialogue: 0,0:24:45.44,0:24:51.91,Default,,0,0,0,,naiwnym ludziom jako nowy aizm. Kiedy jesteśmy nowicjuszami w\NKiedy jesteśmy nowicjuszami w świecie duchowym, uderza nas
-Dialogue: 0,0:24:51.91,0:24:56.64,Default,,0,0,0,,świecie duchowym, uderza nas pewna rzeczywistość zjawisk paranormalnych,\Npewna rzeczywistość zjawisk paranormalnych, rzeczy, które nie podlegają
-Dialogue: 0,0:24:56.64,0:25:04.00,Default,,0,0,0,,rzeczy, które nie podlegają dowodom naukowym i fakt, że\Ndowodom naukowym i fakt, że istnieją rzeczy niewytłumaczalne.
-Dialogue: 0,0:25:04.00,0:25:09.52,Default,,0,0,0,,istnieją rzeczy niewytłumaczalne. Tak więc Biblia mówi i zgadza się, że\NTak więc Biblia mówi i zgadza się, że istnieją rzeczy wykraczające poza zjawiska
-Dialogue: 0,0:25:09.52,0:25:14.55,Default,,0,0,0,,istnieją rzeczy wykraczające poza zjawiska paranormalne,\Nparanormalne, i ich nie potępia.  Mówi tylko, żeby
-Dialogue: 0,0:25:14.55,0:25:19.60,Default,,0,0,0,,i ich nie potępia.  Mówi tylko, żeby tam nie iść.  Nie idź tam.\Ntam nie iść.  Nie idź tam. Nie jesteś przygotowany.  Nie jesteś przygotowany do
-Dialogue: 0,0:25:19.60,0:25:25.12,Default,,0,0,0,,Nie jesteś przygotowany.  Nie jesteś przygotowany do obsługi bytów z innych wymiarów.\Nobsługi bytów z innych wymiarów. Nikt tutaj nie jest przygotowany do radzenia sobie z
-Dialogue: 0,0:25:25.12,0:25:31.03,Default,,0,0,0,,Nikt tutaj nie jest przygotowany do radzenia sobie z bytami z innych wymiarów.\Nbytami z innych wymiarów. Sprawdźmy czy to fakt.  Nikt tutaj nie jest
-Dialogue: 0,0:25:31.03,0:25:36.88,Default,,0,0,0,,Sprawdźmy czy to fakt.  Nikt tutaj nie jest przygotowany do radzenia sobie z bytami z innych\Nprzygotowany do radzenia sobie z bytami z innych wymiarów.  Oprzeć się.
-Dialogue: 0,0:25:36.88,0:25:43.20,Default,,0,0,0,,wymiarów.  Oprzeć się. Zatem z pokory nauczyciel mówi, abyś\NZatem z pokory nauczyciel mówi, abyś unikał tego, co wykracza poza twoje
-Dialogue: 0,0:25:43.20,0:25:48.48,Default,,0,0,0,,unikał tego, co wykracza poza twoje pojmowanie, ponieważ pochodzą oni z\Npojmowanie, ponieważ pochodzą oni z innych wymiarów, a ich pojęcie
-Dialogue: 0,0:25:48.48,0:25:54.15,Default,,0,0,0,,innych wymiarów, a ich pojęcie rzeczywistości, motywacje i\Nrzeczywistości, motywacje i styl działania całkowicie wykraczają poza
-Dialogue: 0,0:25:54.15,0:25:58.79,Default,,0,0,0,,styl działania całkowicie wykraczają poza twoją domenę,\Ntwoją domenę, a założenia, które wysuwasz, są
-Dialogue: 0,0:25:58.79,0:26:04.64,Default,,0,0,0,,a założenia, które wysuwasz, są pozorne.  rzutowałeś to na\Npozorne.  rzutowałeś to na byt.  Nie ma tu szczególnego zainteresowania
-Dialogue: 0,0:26:04.64,0:26:10.48,Default,,0,0,0,,byt.  Nie ma tu szczególnego zainteresowania twoim przetrwaniem, twoją duchową\Ntwoim przetrwaniem, twoją duchową ewolucją czy oświeceniem.
-Dialogue: 0,0:26:10.48,0:26:15.44,Default,,0,0,0,,ewolucją czy oświeceniem. Uczeń, który odnosił sukcesy,\NUczeń, który odnosił sukcesy, szybko porzuciłby nauczyciela
-Dialogue: 0,0:26:15.44,0:26:19.36,Default,,0,0,0,,szybko porzuciłby nauczyciela .  Więc ostatnią rzeczą, jakiej może dopuścić się nauczyciel\N.  Więc ostatnią rzeczą, jakiej może dopuścić się nauczyciel po drugiej stronie, jest to, abyś stał się
-Dialogue: 0,0:26:19.36,0:26:31.52,Default,,0,0,0,,po drugiej stronie, jest to, abyś stał się duchowym arystokratą, bo właśnie\Nduchowym arystokratą, bo właśnie stracił swojego naśladowcę.
-Dialogue: 0,0:26:31.52,0:26:36.64,Default,,0,0,0,,Tak, to prawda. Jesteśmy ślepi na paradygmaty.  Jesteśmy\NJesteśmy ślepi na paradygmaty.  Jesteśmy ślepi na paradygmaty.  Inną trudnością, z jaką zmaga się
-Dialogue: 0,0:26:36.64,0:26:40.79,Default,,0,0,0,,ślepi na paradygmaty.  Inną trudnością, z jaką zmaga się ludzki umysł, jest nie tylko\Nludzki umysł, jest nie tylko narcyzm, ufne
-Dialogue: 0,0:26:40.79,0:26:46.64,Default,,0,0,0,,narcyzm, ufne dziecko, ufne\Ndziecko, ufne dziecko wewnątrz nas, ale także to, co nazywamy
-Dialogue: 0,0:26:46.64,0:26:51.36,Default,,0,0,0,,dziecko wewnątrz nas, ale także to, co nazywamy ślepotą paradygmatyczną.\Nślepotą paradygmatyczną. To, co jest prawdą w jednym paradygmacie, nie musi być prawdą
-Dialogue: 0,0:26:51.36,0:26:57.12,Default,,0,0,0,,To, co jest prawdą w jednym paradygmacie, nie musi być prawdą w innym.\Nw innym. A paradygmat obejmuje ogólny
-Dialogue: 0,0:26:57.12,0:27:02.15,Default,,0,0,0,,A paradygmat obejmuje ogólny poziom świadomości.\Npoziom świadomości. To, co jest prawdą w jednym paradygmacie, nie musi być prawdą
-Dialogue: 0,0:27:02.15,0:27:09.03,Default,,0,0,0,,To, co jest prawdą w jednym paradygmacie, nie musi być prawdą w innym.  Tak więc trudność\Nw innym.  Tak więc trudność tradycyjnego sceptyka, osoby wątpiącej,
-Dialogue: 0,0:27:09.03,0:27:14.96,Default,,0,0,0,,tradycyjnego sceptyka, osoby wątpiącej, wynika zwykle z niższego stanu umysłu, który\Nwynika zwykle z niższego stanu umysłu, który zajmuje się jedynie liniową, liniową
-Dialogue: 0,0:27:14.96,0:27:21.44,Default,,0,0,0,,zajmuje się jedynie liniową, liniową dowodliwością,\Ndowodliwością, a wymiary duchowe są nieliniowe i
-Dialogue: 0,0:27:21.44,0:27:26.32,Default,,0,0,0,,a wymiary duchowe są nieliniowe i niemożliwe do udowodnienia.\Nniemożliwe do udowodnienia. To, co da się udowodnić,
-Dialogue: 0,0:27:26.32,0:27:30.79,Default,,0,0,0,,To, co da się udowodnić, ma inny wymiar.\Nma inny wymiar. Nie można więc obalić tezy
-Dialogue: 0,0:27:30.79,0:27:37.03,Default,,0,0,0,,Nie można więc obalić tezy nieliniowej, powołując się na argumenty\Nnieliniowej, powołując się na argumenty liniowe.  I dlatego sceptyk
-Dialogue: 0,0:27:37.03,0:27:42.24,Default,,0,0,0,,liniowe.  I dlatego sceptyk kalibruje tylko około 170. A spośród wszystkich\Nkalibruje tylko około 170. A spośród wszystkich demaskatorów, tylko jeden lub dwóch
-Dialogue: 0,0:27:42.24,0:27:45.91,Default,,0,0,0,,demaskatorów, tylko jeden lub dwóch demaskatorów jest naprawdę uczciwych.   Jest ich\Ndemaskatorów jest naprawdę uczciwych.   Jest ich tylko kilka.  Reszta z
-Dialogue: 0,0:27:45.91,0:27:51.91,Default,,0,0,0,,tylko kilka.  Reszta z nich po prostu czerpie satysfakcję z prób\Nnich po prostu czerpie satysfakcję z prób naśladowania tego, co prawdziwe.  A ponieważ
-Dialogue: 0,0:27:51.91,0:27:58.55,Default,,0,0,0,,naśladowania tego, co prawdziwe.  A ponieważ naśladowali teorię, zakładają, że\Nnaśladowali teorię, zakładają, że ją obalili.  Tak.  To, że potrafisz
-Dialogue: 0,0:27:58.55,0:28:02.48,Default,,0,0,0,,ją obalili.  Tak.  To, że potrafisz coś naśladować, nie oznacza, że ​​to\Ncoś naśladować, nie oznacza, że ​​to obaliłeś.  Oznacza to po prostu, że nauczyłeś się
-Dialogue: 0,0:28:02.48,0:28:07.67,Default,,0,0,0,,obaliłeś.  Oznacza to po prostu, że nauczyłeś się naśladować daną rzecz.  A\Nnaśladować daną rzecz.  A wielki Randy, na przykład, jest
-Dialogue: 0,0:28:07.67,0:28:17.76,Default,,0,0,0,,wielki Randy, na przykład, jest magikiem scenicznym.  Magik sceniczny.\NTak więc, wychodząc od założenia liniowego, nie można ani udowodnić, ani obalić założenia
-Dialogue: 0,0:28:17.76,0:28:23.36,Default,,0,0,0,,nie można ani udowodnić, ani obalić założenia nieliniowego.  W całej rzeczywistości duchowej,\Nnieliniowego.  W całej rzeczywistości duchowej, całe pojmowanie boskości i
-Dialogue: 0,0:28:23.36,0:28:28.00,Default,,0,0,0,,całe pojmowanie boskości i prawdy duchowej, jak wiadomo, ma\Nprawdy duchowej, jak wiadomo, ma inny wymiar niż liniowy.  Zjawisko
-Dialogue: 0,0:28:28.00,0:28:34.55,Default,,0,0,0,,inny wymiar niż liniowy.  Zjawisko liniowe jest udowodnione i demonstrowalne.   To, co\Nliniowe jest udowodnione i demonstrowalne.   To, co nieliniowe, jest głębsze i bardziej
-Dialogue: 0,0:28:34.55,0:28:39.60,Default,,0,0,0,,nieliniowe, jest głębsze i bardziej rozproszone, i oczywiście ulega znacznym zmianom.\Nrozproszone, i oczywiście ulega znacznym zmianom. Można pokazać jego efekt, wyświetlając
-Dialogue: 0,0:28:39.60,0:28:45.76,Default,,0,0,0,,Można pokazać jego efekt, wyświetlając czas startu przy wystrzale startowym.\Nczas startu przy wystrzale startowym. 9/10 sekundy to spore opóźnienie.  Spore
-Dialogue: 0,0:28:45.76,0:28:50.79,Default,,0,0,0,,9/10 sekundy to spore opóźnienie.  Spore opóźnienie, gdy biegniesz na 100 jardów.\Nopóźnienie, gdy biegniesz na 100 jardów. 9/10 sekundy wystarczy, żeby przegrać wyścig.   Ma to
-Dialogue: 0,0:28:50.79,0:28:55.12,Default,,0,0,0,,9/10 sekundy wystarczy, żeby przegrać wyścig.   Ma to zatem ogromny wpływ na nasze\Nzatem ogromny wpływ na nasze zachowanie i rozumienie naszych
-Dialogue: 0,0:28:55.12,0:28:59.44,Default,,0,0,0,,zachowanie i rozumienie naszych motywacji.\Nmotywacji. Najsilniejszą
-Dialogue: 0,0:28:59.44,0:29:05.67,Default,,0,0,0,,Najsilniejszą motywacją jest chęć życia w\Nmotywacją jest chęć życia w życzliwości i miłości wobec wszystkich żywych
-Dialogue: 0,0:29:05.67,0:29:12.00,Default,,0,0,0,,życzliwości i miłości wobec wszystkich żywych istot.  Próbujesz zrozumieć, i nawet w\Nistot.  Próbujesz zrozumieć, i nawet w rzeczach, których nie pochwalamy, potrafisz
-Dialogue: 0,0:29:12.00,0:29:20.24,Default,,0,0,0,,rzeczach, których nie pochwalamy, potrafisz rozpoznać intencję.\Nrozpoznać intencję. Jeśli Chiny biorą pod uwagę konformizm,
-Dialogue: 0,0:29:20.24,0:29:25.44,Default,,0,0,0,,Jeśli Chiny biorą pod uwagę konformizm, uległość,\Nuległość, poświęcenie osobiste dla
-Dialogue: 0,0:29:25.44,0:29:31.76,Default,,0,0,0,,poświęcenie osobiste dla dobra kraju, to\Ndobra kraju, to krytykowanie go brzmi nieco egoistycznie i krytycznie
-Dialogue: 0,0:29:31.76,0:29:38.32,Default,,0,0,0,,krytykowanie go brzmi nieco egoistycznie i krytycznie .  Dlatego nie zgodziłem się z żadnymi\N.  Dlatego nie zgodziłem się z żadnymi negatywnymi komentarzami ani naganami, jakie
-Dialogue: 0,0:29:38.32,0:29:45.12,Default,,0,0,0,,negatywnymi komentarzami ani naganami, jakie wypowiedzieli uczestnicy, ponieważ\Nwypowiedzieli uczestnicy, ponieważ mówiliście o innej kulturze,
-Dialogue: 0,0:29:45.12,0:29:49.60,Default,,0,0,0,,mówiliście o innej kulturze, a zatem mamy pewien\Na zatem mamy pewien wewnętrzny szacunek dla wszystkich
-Dialogue: 0,0:29:49.60,0:29:53.91,Default,,0,0,0,,wewnętrzny szacunek dla wszystkich kultur.\Nkultur. Im więcej wiesz o danej kulturze, tym
-Dialogue: 0,0:29:53.91,0:30:00.24,Default,,0,0,0,,Im więcej wiesz o danej kulturze, tym większy szacunek ją darzysz.\Nwiększy szacunek ją darzysz. Kultura rdzennych Amerykanów jest niezwykle pełna czci.
-Dialogue: 0,0:30:00.24,0:30:06.79,Default,,0,0,0,,Kultura rdzennych Amerykanów jest niezwykle pełna czci.\NMożna powiedzieć, że są po prostu niewykształconymi dzikusami.  Co oni wiedzą?
-Dialogue: 0,0:30:06.79,0:30:12.88,Default,,0,0,0,,niewykształconymi dzikusami.  Co oni wiedzą? Ale są one głęboko duchowe.\NAle są one głęboko duchowe. Zanim więc zabijesz jelenia, przeproś go
-Dialogue: 0,0:30:12.88,0:30:18.00,Default,,0,0,0,,Zanim więc zabijesz jelenia, przeproś go .  Poświęcasz to najwyższemu\N.  Poświęcasz to najwyższemu dobru.  A zatem ze względu na
-Dialogue: 0,0:30:18.00,0:30:23.91,Default,,0,0,0,,dobru.  A zatem ze względu na intencję zabicie jelenia w celu zdobycia\Nintencję zabicie jelenia w celu zdobycia pożywienia, wiesz, nie jest już
-Dialogue: 0,0:30:23.91,0:30:31.03,Default,,0,0,0,,pożywienia, wiesz, nie jest już aktem negatywnym, ale staje się czymś\Naktem negatywnym, ale staje się czymś duchowym.  Duchowość
-Dialogue: 0,0:30:31.03,0:30:35.84,Default,,0,0,0,,duchowym.  Duchowość rdzennych Amerykanów jest zatem niezwykle wysoka\Nrdzennych Amerykanów jest zatem niezwykle wysoka i oczywiście cała ludzkość
-Dialogue: 0,0:30:35.84,0:30:46.64,Default,,0,0,0,,i oczywiście cała ludzkość od zarania dziejów intuicyjnie wyczuwała istnienie wyższej siły.\Nod zarania dziejów intuicyjnie wyczuwała istnienie wyższej siły.
-Dialogue: 0,0:30:46.64,0:30:51.67,Default,,0,0,0,,Wszystkie kultury i cywilizacje, nawet jeśli są od siebie oddzielone\Nnawet jeśli są od siebie oddzielone w czasie i przestrzeni,
-Dialogue: 0,0:30:51.67,0:30:57.84,Default,,0,0,0,,w czasie i przestrzeni, uznają boskość swojej boskości.\Nuznają boskość swojej boskości. Nie ma istniejącej, odnoszącej sukcesy
-Dialogue: 0,0:30:57.84,0:31:03.27,Default,,0,0,0,,Nie ma istniejącej, odnoszącej sukcesy kultury, która nie uznawałaby\Nkultury, która nie uznawałaby boskości Boga.
-Dialogue: 0,0:31:03.27,0:31:08.72,Default,,0,0,0,,boskości Boga. A niektórzy próbują zastąpić to\NA niektórzy próbują zastąpić to państwem.  A co oni czczą?
-Dialogue: 0,0:31:08.72,0:31:13.03,Default,,0,0,0,,państwem.  A co oni czczą? Oni czczą państwo.  Bez względu na to, czy\NOni czczą państwo.  Bez względu na to, czy czcisz komunizm, państwo
-Dialogue: 0,0:31:13.03,0:31:18.24,Default,,0,0,0,,czcisz komunizm, państwo komunistyczne, czy też czcisz\Nkomunistyczne, czy też czcisz bóstwo, nadal czcisz
-Dialogue: 0,0:31:18.24,0:31:23.44,Default,,0,0,0,,bóstwo, nadal czcisz coś większego niż twoje własne „ja”\Ncoś większego niż twoje własne „ja” .  Więc to już jest krok, nawet jeśli
-Dialogue: 0,0:31:23.44,0:31:30.64,Default,,0,0,0,,.  Więc to już jest krok, nawet jeśli robisz to w imię ideału komunistycznego.  Wtedy\Nrobisz to w imię ideału komunistycznego.  Wtedy pracownicy, nie macie nic do stracenia, ale
-Dialogue: 0,0:31:30.64,0:31:39.67,Default,,0,0,0,,pracownicy, nie macie nic do stracenia, ale wasze łańcuchy stają się coraz bardziej budujące\Nwasze łańcuchy stają się coraz bardziej budujące .  Rzecz sama w sobie nie jest ani tym,
-Dialogue: 0,0:31:39.67,0:31:45.12,Default,,0,0,0,,.  Rzecz sama w sobie nie jest ani tym, ani tamtym,\Nani tamtym, ale tym, co z nią zrobimy, jak
-Dialogue: 0,0:31:45.12,0:31:50.96,Default,,0,0,0,,ale tym, co z nią zrobimy, jak ją pojmiemy i jak\Nją pojmiemy i jak ją kontekstualizujemy.  Kontekst ma więc ogromne znaczenie.
-Dialogue: 0,0:31:50.96,0:32:00.00,Default,,0,0,0,,ją kontekstualizujemy.  Kontekst ma więc ogromne znaczenie. To kontekst ma znaczenie, jeśli chodzi o\NTo kontekst ma znaczenie, jeśli chodzi o
-Dialogue: 0,0:32:00.00,0:32:05.36,Default,,0,0,0,,opóźnienie wynoszące 9/10 sekundy.  Wiesz, że kiedy pistolet wystrzeliwuje po 9/10 sekundy, to znaczy, że właśnie przegapiłeś\N9/10 sekundy, to znaczy, że właśnie przegapiłeś wygraną w wyścigu.  Właśnie to przegapiłem.
-Dialogue: 0,0:32:05.36,0:32:10.55,Default,,0,0,0,,wygraną w wyścigu.  Właśnie to przegapiłem. Zaledwie\NZaledwie 9 9/10 sekundy dzieli Cię od przegranego biegu na
-Dialogue: 0,0:32:10.55,0:32:18.00,Default,,0,0,0,,9 9/10 sekundy dzieli Cię od przegranego biegu na 100 jardów.  Co?  Jak więc\N100 jardów.  Co?  Jak więc ludzkość popadła w tak
-Dialogue: 0,0:32:18.00,0:32:26.32,Default,,0,0,0,,ludzkość popadła w tak trudną interpretację?\Ntrudną interpretację? Ułomność rodzaju ludzkiego
-Dialogue: 0,0:32:26.32,0:32:32.32,Default,,0,0,0,,Ułomność rodzaju ludzkiego sprawia, że ​​stajemy się pokorni.   Oto\Nsprawia, że ​​stajemy się pokorni.   Oto przykład tego, co nazywam
-Dialogue: 0,0:32:32.32,0:32:37.44,Default,,0,0,0,,przykład tego, co nazywam kłamliwymi oczami.\Nkłamliwymi oczami. Jeśli weźmiesz świadków przestępstwa i
-Dialogue: 0,0:32:37.44,0:32:43.27,Default,,0,0,0,,Jeśli weźmiesz świadków przestępstwa i zrobisz to, wiesz, że pokażą ci\Nzrobisz to, wiesz, że pokażą ci zdjęcia wszystkich tych przestępców, a
-Dialogue: 0,0:32:43.27,0:32:52.64,Default,,0,0,0,,zdjęcia wszystkich tych przestępców, a identyfikacja winnego w\Nidentyfikacja winnego w 50% przypadków będzie błędna.
-Dialogue: 0,0:32:52.64,0:32:58.55,Default,,0,0,0,,50% przypadków będzie błędna. Był świetny projekt mający na celu uwolnienie\NBył świetny projekt mający na celu uwolnienie więźniów skazanych na śmierć, i to było
-Dialogue: 0,0:32:58.55,0:33:03.27,Default,,0,0,0,,więźniów skazanych na śmierć, i to było bardzo ważne, ponieważ ten facet trafił do\Nbardzo ważne, ponieważ ten facet trafił do celi śmierci, bo rozpoznało go
-Dialogue: 0,0:33:03.27,0:33:10.24,Default,,0,0,0,,celi śmierci, bo rozpoznało go dwóch lub trzech świadków.  Potem okazało się, że\Ndwóch lub trzech świadków.  Potem okazało się, że wszyscy kłamali.
-Dialogue: 0,0:33:10.24,0:33:15.60,Default,,0,0,0,,wszyscy kłamali. Kłamliwe oczy zdarzają się,\NKłamliwe oczy zdarzają się, sprawdźmy, w jakim procencie przypadków
-Dialogue: 0,0:33:15.60,0:33:23.44,Default,,0,0,0,,sprawdźmy, w jakim procencie przypadków identyfikacja podejrzanych\Nidentyfikacja podejrzanych świadków jest błędna. 50% przypadków
-Dialogue: 0,0:33:23.44,0:33:29.91,Default,,0,0,0,,świadków jest błędna. 50% przypadków 50% przypadków 55\N50% przypadków 55 % przypadków 50% przypadków 50%
-Dialogue: 0,0:33:29.91,0:33:36.79,Default,,0,0,0,,% przypadków 50% przypadków 50% przypadków Trzy\Nprzypadków Trzy osoby mówią: Widziałem, jak on to robił, teraz jest w
-Dialogue: 0,0:33:36.79,0:33:44.72,Default,,0,0,0,,osoby mówią: Widziałem, jak on to robił, teraz jest w więzieniu i w 50% przypadków się myli.\Nwięzieniu i w 50% przypadków się myli. Nawet swojemu własnemu postrzeganiu nie możesz
-Dialogue: 0,0:33:44.72,0:33:56.24,Default,,0,0,0,,Nawet swojemu własnemu postrzeganiu nie możesz ufać.\NWszyscy będą w rozsypce po tym wykładzie.
-Dialogue: 0,0:33:56.24,0:34:09.52,Default,,0,0,0,,Nie sposób odróżnić prawdy od fałszu.  Nie możesz wierzyć własnym oczom.\NNie można ufać pomarszczonym starcom.  Nie wiem.   W
-Dialogue: 0,0:34:09.52,0:34:20.63,Default,,0,0,0,,porządku.  Jak do tego doszliśmy? Cóż, istnieje kilka wyjaśnień.\NPrawdopodobnie najgłębszym i najbardziej dogłębnym z nich, z którym się zgadzam,
-Dialogue: 0,0:34:20.63,0:34:31.59,Default,,0,0,0,,z nich, z którym się zgadzam, jest kwestia wpływu karmy.  Tak.\Njest kwestia wpływu karmy.  Tak. Najpoważniejszym skutkiem jest karma.
-Dialogue: 0,0:34:31.59,0:34:37.44,Default,,0,0,0,,Najpoważniejszym skutkiem jest karma. Najpoważniejszym skutkiem jest karma.\NNajpoważniejszym skutkiem jest karma. i powiedzieć: „Cóż, chrześcijaństwo nie
-Dialogue: 0,0:34:37.44,0:34:42.87,Default,,0,0,0,,i powiedzieć: „Cóż, chrześcijaństwo nie wierzy w karmę. Cywilizacja zachodnia\Nwierzy w karmę. Cywilizacja zachodnia nie wierzy w karmę”.
-Dialogue: 0,0:34:42.87,0:34:48.15,Default,,0,0,0,,nie wierzy w karmę”. Chrześcijaństwo wierzy w karmę.  To z\NChrześcijaństwo wierzy w karmę.  To z powodu Ogrodu Eden.  Gdyby
-Dialogue: 0,0:34:48.15,0:34:52.63,Default,,0,0,0,,powodu Ogrodu Eden.  Gdyby nie ogród i upadek człowieka\Nnie ogród i upadek człowieka w Ogrodzie Eden, nie potrzebowalibyście
-Dialogue: 0,0:34:52.63,0:35:00.07,Default,,0,0,0,,w Ogrodzie Eden, nie potrzebowalibyście zbawiciela.  Nie byłoby grzechu.\Nzbawiciela.  Nie byłoby grzechu. Ale jaki był problem w
-Dialogue: 0,0:35:00.07,0:35:09.35,Default,,0,0,0,,Ale jaki był problem w Ogrodzie Eden?  Problem ten jest zazwyczaj\NOgrodzie Eden?  Problem ten jest zazwyczaj przedstawiany jako nieposłuszeństwo wobec Bożego nakazu, aby
-Dialogue: 0,0:35:09.35,0:35:23.35,Default,,0,0,0,,przedstawiany jako nieposłuszeństwo wobec Bożego nakazu, aby nie jeść owocu drzewa mądrości.  Tak.\Nnie jeść owocu drzewa mądrości.  Tak. Ale wąż przyszedł i
-Dialogue: 0,0:35:23.35,0:35:27.59,Default,,0,0,0,,powiedział do kobiety: „Jedz. Wszystko w porządku. Wszystko będzie dobrze”.\Nbędzie dobrze”. I tak zrobiła.
-Dialogue: 0,0:35:27.59,0:35:32.80,Default,,0,0,0,,I tak zrobiła. To był upadek człowieka.  A potem\NTo był upadek człowieka.  A potem zauważyli, że nie mieli na sobie ubrań.
-Dialogue: 0,0:35:32.80,0:35:38.24,Default,,0,0,0,,zauważyli, że nie mieli na sobie ubrań. i byli nadzy i skryli się ze wstydu.\Ni byli nadzy i skryli się ze wstydu. Jak więc do tego doszło?  Jak
-Dialogue: 0,0:35:38.24,0:35:44.80,Default,,0,0,0,,Jak więc do tego doszło?  Jak wytłumaczyć upadek człowieka w tej\Nwytłumaczyć upadek człowieka w tej historycznej tradycji?   Czy
-Dialogue: 0,0:35:44.80,0:35:50.96,Default,,0,0,0,,historycznej tradycji?   Czy to jest złe?  Czy to było nieposłuszeństwo?  Nie.\Nto jest złe?  Czy to było nieposłuszeństwo?  Nie. Widzę niewinność Ewy.
-Dialogue: 0,0:35:50.96,0:35:57.20,Default,,0,0,0,,Widzę niewinność Ewy. Wąż znał niewinność,\NWąż znał niewinność, wewnętrzną niewinność dziecka.
-Dialogue: 0,0:35:57.20,0:36:03.28,Default,,0,0,0,,wewnętrzną niewinność dziecka. Wąż powiedział: „Och, wszystko będzie dobrze.\NWąż powiedział: „Och, wszystko będzie dobrze. Zaufaj mi, to dobra rzecz do
-Dialogue: 0,0:36:03.28,0:36:12.40,Default,,0,0,0,,Zaufaj mi, to dobra rzecz do zrobienia”. A zatem wąż nie mówił o\Nzrobienia”. A zatem wąż nie mówił o sprzeciwianiu się Bogu. Wąż mówił do
-Dialogue: 0,0:36:12.40,0:36:19.59,Default,,0,0,0,,sprzeciwianiu się Bogu. Wąż mówił do wewnętrznego dziecka i Ewy: „Zaufaj mi,\Nwewnętrznego dziecka i Ewy: „Zaufaj mi, wszystko będzie dobrze”. Tak. I to
-Dialogue: 0,0:36:19.59,0:36:25.11,Default,,0,0,0,,wszystko będzie dobrze”. Tak. I to był początek\Nbył początek tradycji chrześcijańskiej. Kiedy więc mówią, że
-Dialogue: 0,0:36:25.11,0:36:28.72,Default,,0,0,0,,tradycji chrześcijańskiej. Kiedy więc mówią, że chrześcijaństwo nie wierzy w karmę,\Nchrześcijaństwo nie wierzy w karmę, nie wierz im. Gdyby nie
-Dialogue: 0,0:36:28.72,0:36:40.16,Default,,0,0,0,,nie wierz im. Gdyby nie grzech pierworodny i Ogród Eden, nie\Ngrzech pierworodny i Ogród Eden, nie byłoby potrzeby pokuty. Nie byłoby
-Dialogue: 0,0:36:40.16,0:36:44.00,Default,,0,0,0,,potrzeby pokuty. Nie byłoby powodu do poczucia winy\Ndo poczucia winy i wszyscy bylibyśmy oświeceni. Wszyscy bylibyśmy
-Dialogue: 0,0:36:44.00,0:36:49.11,Default,,0,0,0,,i wszyscy bylibyśmy oświeceni. Wszyscy bylibyśmy oświeceni.\Noświeceni. Zatem wąż był
-Dialogue: 0,0:36:49.11,0:36:57.28,Default,,0,0,0,,Zatem wąż był źródłem fałszu. Fałsz\Nźródłem fałszu. Fałsz wszedł i udawał niewinność Ewy.
-Dialogue: 0,0:36:57.28,0:37:03.20,Default,,0,0,0,,wszedł i udawał niewinność Ewy. A będąc niewinną kobietą, dlaczego\NA będąc niewinną kobietą, dlaczego miałaby podejrzewać, że wąż ma
-Dialogue: 0,0:37:03.20,0:37:09.52,Default,,0,0,0,,miałaby podejrzewać, że wąż ma jakieś nikczemne zamiary?\Njakieś nikczemne zamiary? Dlatego nauczam o wężu,
-Dialogue: 0,0:37:09.52,0:37:15.35,Default,,0,0,0,,Dlatego nauczam o wężu, aby strzegł się węża.\Naby strzegł się węża. Strzeż się węża, ponieważ to, co
-Dialogue: 0,0:37:15.35,0:37:20.96,Default,,0,0,0,,Strzeż się węża, ponieważ to, co jest przebiegłe i  Przebiegły i zwodniczy ma\Njest przebiegłe i  Przebiegły i zwodniczy ma tendencję do wyczuwania, gdzie jesteś
-Dialogue: 0,0:37:20.96,0:37:28.64,Default,,0,0,0,,tendencję do wyczuwania, gdzie jesteś podatny. A ta podatność\Npodatny. A ta podatność znowu polega na tym, że wszyscy z natury mamy
-Dialogue: 0,0:37:28.64,0:37:34.80,Default,,0,0,0,,znowu polega na tym, że wszyscy z natury mamy w sobie niewinność dziecka.\Nw sobie niewinność dziecka. Czystą subiektywność
-Dialogue: 0,0:37:34.80,0:37:39.52,Default,,0,0,0,,Czystą subiektywność samej świadomości.\Nsamej świadomości. Struktura umysłu jest taka, że
-Dialogue: 0,0:37:39.52,0:37:46.40,Default,,0,0,0,,Struktura umysłu jest taka, że nie potrafi odróżnić jednego od drugiego.\Nnie potrafi odróżnić jednego od drugiego. Komputer, komputer umysłu, może
-Dialogue: 0,0:37:46.40,0:37:52.88,Default,,0,0,0,,Komputer, komputer umysłu, może równie łatwo zostać zaprogramowany fałszem. Zatem\Nrównie łatwo zostać zaprogramowany fałszem. Zatem wszyscy z natury mamy niewinność
-Dialogue: 0,0:37:52.88,0:37:57.44,Default,,0,0,0,,wszyscy z natury mamy niewinność komputera. Komputer nie\Nkomputera. Komputer nie mówi: „Och, myślę, że to zapiszę, a
-Dialogue: 0,0:37:57.44,0:38:03.11,Default,,0,0,0,,mówi: „Och, myślę, że to zapiszę, a tego nie zapiszę”.\Ntego nie zapiszę”. Komputer ludzkiego umysłu
-Dialogue: 0,0:38:03.11,0:38:09.76,Default,,0,0,0,,Komputer ludzkiego umysłu automatycznie\Nautomatycznie rejestruje wszystko, co mu się przedstawia, niezależnie od tego, czy
-Dialogue: 0,0:38:09.76,0:38:16.56,Default,,0,0,0,,rejestruje wszystko, co mu się przedstawia, niezależnie od tego, czy jest to pozorne, czy prawdziwe. Nie ma\Njest to pozorne, czy prawdziwe. Nie ma możliwości rozróżnienia.
-Dialogue: 0,0:38:16.56,0:38:21.76,Default,,0,0,0,,możliwości rozróżnienia. Ewolucja duchowa pochodzi zatem ze\NEwolucja duchowa pochodzi zatem ze studiowania zaawansowanych nauk duchowych i
-Dialogue: 0,0:38:21.76,0:38:27.92,Default,,0,0,0,,studiowania zaawansowanych nauk duchowych i postępu dzięki intencji. Zatem dzięki\Npostępu dzięki intencji. Zatem dzięki intencji człowiek
-Dialogue: 0,0:38:27.92,0:38:32.55,Default,,0,0,0,,intencji człowiek już robi postępy dzięki\Njuż robi postępy dzięki intencji, a następnie, gdy osiągnie pewien poziom świadomości, to, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym,
-Dialogue: 0,0:38:32.55,0:38:46.32,Default,,0,0,0,,intencji, a następnie, gdy osiągnie pewien poziom świadomości, to, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym,\Nco jest niewinnością, staje się oczywiste. To jest na poziomie 600. Na
-Dialogue: 0,0:38:46.32,0:38:51.20,Default,,0,0,0,,staje się oczywiste. To jest na poziomie 600. Na poziomie 600 trzecie oko…\Npoziomie 600 trzecie oko… Ciało Buddy, tak to się klasycznie nazywa.
-Dialogue: 0,0:38:51.20,0:38:55.68,Default,,0,0,0,,Ciało Buddy, tak to się klasycznie nazywa. Wtedy otwierają się ciała eteryczne obu\NWtedy otwierają się ciała eteryczne obu czakr korony
-Dialogue: 0,0:38:55.68,0:39:02.16,Default,,0,0,0,,czakr korony i od razu można\Ni od razu można rozpoznać fałsz i oszustwo. Tak.
-Dialogue: 0,0:39:02.16,0:39:07.44,Default,,0,0,0,,rozpoznać fałsz i oszustwo. Tak. Od tego momentu jesteś chroniony.\NOd tego momentu jesteś chroniony. Jesteś chroniony przez obecność
-Dialogue: 0,0:39:07.44,0:39:13.44,Default,,0,0,0,,Jesteś chroniony przez obecność ducha boskiego, który potrafi\Nducha boskiego, który potrafi rozróżnić istotę. Oto
-Dialogue: 0,0:39:13.44,0:39:18.24,Default,,0,0,0,,rozróżnić istotę. Oto historia ogrodu\Nhistoria ogrodu Eden. Z
-Dialogue: 0,0:39:18.24,0:39:26.88,Default,,0,0,0,,Eden. Z powodu niewinności. Z powodu\Npowodu niewinności. Z powodu niewinności. Następnie Chrystus nauczał, że
-Dialogue: 0,0:39:26.88,0:39:34.48,Default,,0,0,0,,niewinności. Następnie Chrystus nauczał, że grzech to nic innego jak przede wszystkim ignorancja.\Ngrzech to nic innego jak przede wszystkim ignorancja. Grzech to ignorancja. Grzech to błąd. Zatem
-Dialogue: 0,0:39:34.48,0:39:42.00,Default,,0,0,0,,Grzech to ignorancja. Grzech to błąd. Zatem pierwotne znaczenie terminu grzech to\Npierwotne znaczenie terminu grzech to błąd. Błąd. Być błędem.
-Dialogue: 0,0:39:42.00,0:39:46.96,Default,,0,0,0,,błąd. Błąd. Być błędem. Uświadomić sobie niewinność wewnętrznego\NUświadomić sobie niewinność wewnętrznego dziecka każdego, kto istnieje.
-Dialogue: 0,0:39:46.96,0:39:54.07,Default,,0,0,0,,dziecka każdego, kto istnieje. Daje nam to zdolność\NDaje nam to zdolność do wybaczania wszystkim ludziom, bez
-Dialogue: 0,0:39:54.07,0:40:00.48,Default,,0,0,0,,do wybaczania wszystkim ludziom, bez względu na wszystko. Więc osoba, która myśli,\Nwzględu na wszystko. Więc osoba, która myśli, że wyświadcza Bogu przysługę, oddając Mu cześć,
-Dialogue: 0,0:40:00.48,0:40:07.52,Default,,0,0,0,,że wyświadcza Bogu przysługę, oddając Mu cześć, zabijając mnie,\Nzabijając mnie, bo jestem niewierzący,
-Dialogue: 0,0:40:07.52,0:40:14.48,Default,,0,0,0,,bo jestem niewierzący, nadal uznaje, no wiesz,\Nnadal uznaje, no wiesz, słuszność jego intencji. Jeśli sposobem
-Dialogue: 0,0:40:14.48,0:40:18.40,Default,,0,0,0,,słuszność jego intencji. Jeśli sposobem oddawania czci Bogu jest zabicie wszystkich\Noddawania czci Bogu jest zabicie wszystkich niewierzących,
-Dialogue: 0,0:40:18.40,0:40:24.40,Default,,0,0,0,,niewierzących, to widzę niewinność, ale nie zgadzam się\Nto widzę niewinność, ale nie zgadzam się z słusznością.  tego, ale
-Dialogue: 0,0:40:24.40,0:40:28.48,Default,,0,0,0,,z słusznością.  tego, ale widzę niewinność.\Nwidzę niewinność. Więc
-Dialogue: 0,0:40:28.48,0:40:34.00,Default,,0,0,0,,Więc jeśli cię zabije, po prostu powiedz, że to w porządku.\Njeśli cię zabije, po prostu powiedz, że to w porządku. Rozumiem.
-Dialogue: 0,0:40:34.00,0:40:39.11,Default,,0,0,0,,Rozumiem. Tak właśnie zrobiliśmy. Zrobiliśmy to.\NTak właśnie zrobiliśmy. Zrobiliśmy to. Opowiedziałem ci o poprzednim życiu, które pamiętam
-Dialogue: 0,0:40:39.11,0:40:43.52,Default,,0,0,0,,Opowiedziałem ci o poprzednim życiu, które pamiętam z czasów wypraw krzyżowych. Ta sama\Nz czasów wypraw krzyżowych. Ta sama istota i ja mieliśmy interakcje przez
-Dialogue: 0,0:40:43.52,0:40:48.64,Default,,0,0,0,,istota i ja mieliśmy interakcje przez wiele wcieleń.\Nwiele wcieleń. Zabiłem go dla Jezusa, a on zabił
-Dialogue: 0,0:40:48.64,0:40:57.11,Default,,0,0,0,,Zabiłem go dla Jezusa, a on zabił mnie dla Allaha.\NTo było podczas wypraw krzyżowych, na wskroś, na wskroś, na wskroś, na wskroś, na wskroś, i
-Dialogue: 0,0:40:57.11,0:41:02.40,Default,,0,0,0,,i obaj upadliśmy, nasze ciała wyleciały z\Nobaj upadliśmy, nasze ciała wyleciały z fizycznego ciała i wybuchnęliśmy
-Dialogue: 0,0:41:02.40,0:41:06.56,Default,,0,0,0,,fizycznego ciała i wybuchnęliśmy śmiechem.\Nśmiechem. Powiedział: „Zrobiłem to dla Allaha”. A ja
-Dialogue: 0,0:41:06.56,0:41:11.28,Default,,0,0,0,,Powiedział: „Zrobiłem to dla Allaha”. A ja odpowiedziałem: „Zrobiłem to dla Jezusa”. I potem\Nodpowiedziałem: „Zrobiłem to dla Jezusa”. I potem śmialiśmy się i śmialiśmy, i
-Dialogue: 0,0:41:11.28,0:41:17.35,Default,,0,0,0,,śmialiśmy się i śmialiśmy, i naiwność ludzkiego umysłu, z powodu\Nnaiwność ludzkiego umysłu, z powodu jego oddania Bogu, zabił mnie, a
-Dialogue: 0,0:41:17.35,0:41:24.07,Default,,0,0,0,,jego oddania Bogu, zabił mnie, a ja to uznałem i dlatego mam\Nja to uznałem i dlatego mam wielki szacunek dla tej istoty i, eee,
-Dialogue: 0,0:41:24.07,0:41:31.52,Default,,0,0,0,,wielki szacunek dla tej istoty i, eee, zabiliśmy się nawzajem dla Boga,\Nzabiliśmy się nawzajem dla Boga, więc nawet tym, którzy nas wysadzają w powietrze, nawet tym,
-Dialogue: 0,0:41:31.52,0:41:40.00,Default,,0,0,0,,więc nawet tym, którzy nas wysadzają w powietrze, nawet tym, którzy nas wysadzają w powietrze, jeśli robią to z\Nktórzy nas wysadzają w powietrze, jeśli robią to z taką intencją, mogę wybaczyć.
-Dialogue: 0,0:41:40.00,0:41:52.24,Default,,0,0,0,,taką intencją, mogę wybaczyć. Jednak nie zamierzam się z nimi spotykać\NJednak nie zamierzam się z nimi spotykać
-Dialogue: 0,0:41:52.24,0:41:56.56,Default,,0,0,0,,Co właściwie mamy robić?  Co zrobić z tymi ludźmi? Jest w tym jakaś\Ntymi ludźmi? Jest w tym jakaś poprawność polityczna. Mamy
-Dialogue: 0,0:41:56.56,0:42:01.11,Default,,0,0,0,,poprawność polityczna. Mamy im sprostać. Tak. Dobrze.\Nim sprostać. Tak. Dobrze. Dobrze. Niech inni się do
-Dialogue: 0,0:42:01.11,0:42:03.92,Default,,0,0,0,,Dobrze. Niech inni się do nich dostosują. Szczerze mówiąc, zjem to w\Nnich dostosują. Szczerze mówiąc, zjem to w innej restauracji niż ta, w której
-Dialogue: 0,0:42:03.92,0:42:07.11,Default,,0,0,0,,innej restauracji niż ta, w której przesiadują.\Nprzesiadują. To może być dzień, w którym wysadzą
-Dialogue: 0,0:42:07.11,0:42:11.52,Default,,0,0,0,,To może być dzień, w którym wysadzą restaurację w powietrze, żeby się ich wszystkich pozbyć\Nrestaurację w powietrze, żeby się ich wszystkich pozbyć .
-Dialogue: 0,0:42:11.52,0:42:18.72,Default,,0,0,0,,. Prawda zależy więc od kontekstu.\NPrawda zależy więc od kontekstu. Ogólny zamiar wyznacza
-Dialogue: 0,0:42:18.72,0:42:23.68,Default,,0,0,0,,Ogólny zamiar wyznacza ogólne pole. Tak więc nieliniowość wyznacza\Nogólne pole. Tak więc nieliniowość wyznacza pole, a tego, czy coś jest dobre, czy złe,
-Dialogue: 0,0:42:23.68,0:42:29.59,Default,,0,0,0,,pole, a tego, czy coś jest dobre, czy złe, nie da się rozróżnić patrząc na\Nnie da się rozróżnić patrząc na samą rzecz, ale tylko w kontekście. Tylko
-Dialogue: 0,0:42:29.59,0:42:34.24,Default,,0,0,0,,samą rzecz, ale tylko w kontekście. Tylko w kontekście.\Nw kontekście. Aha,
-Dialogue: 0,0:42:34.24,0:42:39.76,Default,,0,0,0,,Aha, i oczywiście mamy w dzisiejszym społeczeństwie\Ni oczywiście mamy w dzisiejszym społeczeństwie zwolenników teorii spiskowych i urojeniowe
-Dialogue: 0,0:42:39.76,0:42:44.96,Default,,0,0,0,,zwolenników teorii spiskowych i urojeniowe zaburzenia logicznego dowodu. Tak\Nzaburzenia logicznego dowodu. Tak wiele problemów społecznych, o których mówisz,
-Dialogue: 0,0:42:44.96,0:42:51.20,Default,,0,0,0,,wiele problemów społecznych, o których mówisz, zamknęli szpitale psychiatryczne wiele lat\Nzamknęli szpitale psychiatryczne wiele lat temu, to również marksizm kulturowy, który pojawił się
-Dialogue: 0,0:42:51.20,0:42:56.16,Default,,0,0,0,,temu, to również marksizm kulturowy, który pojawił się dzięki facetowi o nazwisku Thomas Zaz, który\Ndzięki facetowi o nazwisku Thomas Zaz, który spopularyzował to, mówiąc, że
-Dialogue: 0,0:42:56.16,0:43:00.31,Default,,0,0,0,,spopularyzował to, mówiąc, że choroba psychiczna to tylko etykieta\Nchoroba psychiczna to tylko etykieta i dlatego zamknęli wszystkie
-Dialogue: 0,0:43:00.31,0:43:07.68,Default,,0,0,0,,i dlatego zamknęli wszystkie szpitale psychiatryczne. Więc wszyscy niebezpieczni ludzie\Nszpitale psychiatryczne. Więc wszyscy niebezpieczni ludzie
-Dialogue: 0,0:43:07.68,0:43:13.92,Default,,0,0,0,,teraz błąkają się po ulicach i zabijają ludzi na prawo i lewo. Więc kiedyś to było\Nzabijają ludzi na prawo i lewo. Więc kiedyś to było z litości, że…  Ty
-Dialogue: 0,0:43:13.92,0:43:18.31,Default,,0,0,0,,z litości, że…  Ty chroniłeś ludzi przed ich własnymi\Nchroniłeś ludzi przed ich własnymi ograniczeniami.
-Dialogue: 0,0:43:18.31,0:43:21.92,Default,,0,0,0,,ograniczeniami. Mógłbym im powiedzieć, że gdybym wypuścił tego faceta\NMógłbym im powiedzieć, że gdybym wypuścił tego faceta , wiedziałbym dokładnie, co
-Dialogue: 0,0:43:21.92,0:43:28.40,Default,,0,0,0,,, wiedziałbym dokładnie, co zrobi. Nie chodzi więc tylko o bezpieczeństwo\Nzrobi. Nie chodzi więc tylko o bezpieczeństwo innych. Kryterium było to, że ta
-Dialogue: 0,0:43:28.40,0:43:34.96,Default,,0,0,0,,innych. Kryterium było to, że ta osoba jest bezpieczna sama ze sobą, że jest w\Nosoba jest bezpieczna sama ze sobą, że jest w stanie przetrwać i zaspokoić swoje
-Dialogue: 0,0:43:34.96,0:43:40.64,Default,,0,0,0,,stanie przetrwać i zaspokoić swoje podstawowe potrzeby. Więc niektórych trzymaliśmy w\Npodstawowe potrzeby. Więc niektórych trzymaliśmy w szpitalu, aż wyzdrowieli na tyle, by mogli
-Dialogue: 0,0:43:40.64,0:43:45.44,Default,,0,0,0,,szpitalu, aż wyzdrowieli na tyle, by mogli samodzielnie przetrwać, że\Nsamodzielnie przetrwać, że mieli wystarczająco dużo rozumu, by móc
-Dialogue: 0,0:43:45.44,0:43:52.00,Default,,0,0,0,,mieli wystarczająco dużo rozumu, by móc samodzielnie przetrwać. Nie chodziło tylko\Nsamodzielnie przetrwać. Nie chodziło tylko o etykietowanie, chodziło o przetrwanie. Więc
-Dialogue: 0,0:43:52.00,0:43:58.40,Default,,0,0,0,,o etykietowanie, chodziło o przetrwanie. Więc teraz uzależniają się od narkotyków,\Nteraz uzależniają się od narkotyków, włóczą się po chodnikach, popełniają
-Dialogue: 0,0:43:58.40,0:44:03.28,Default,,0,0,0,,włóczą się po chodnikach, popełniają przestępstwa, zostają zamordowani i mordują się\Nprzestępstwa, zostają zamordowani i mordują się nawzajem, i wszyscy lądują w więzieniu.
-Dialogue: 0,0:44:03.28,0:44:07.44,Default,,0,0,0,,nawzajem, i wszyscy lądują w więzieniu. Widzieliśmy więc na dole listy\NWidzieliśmy więc na dole listy poziomów świadomości.
-Dialogue: 0,0:44:07.44,0:44:12.88,Default,,0,0,0,,poziomów świadomości. Średni poziom świadomości w więzieniu wynosi\NŚredni poziom świadomości w więzieniu wynosi około 65. Tak. Zgadza się?
-Dialogue: 0,0:44:12.88,0:44:18.16,Default,,0,0,0,,około 65. Tak. Zgadza się? Średni poziom świadomości w więzieniu wynosi\NŚredni poziom świadomości w więzieniu wynosi około 65. Tak, to prawidłowa liczba.
-Dialogue: 0,0:44:18.16,0:44:24.16,Default,,0,0,0,,około 65. Tak, to prawidłowa liczba. Poziom świadomości 65. Czy\NPoziom świadomości 65. Czy osoba z
-Dialogue: 0,0:44:24.16,0:44:29.76,Default,,0,0,0,,osoba z poziomem świadomości 65 może przetrwać na wolności?\Npoziomem świadomości 65 może przetrwać na wolności? Ze względów humanitarnych powiedzielibyśmy, że
-Dialogue: 0,0:44:29.76,0:44:34.80,Default,,0,0,0,,Ze względów humanitarnych powiedzielibyśmy, że ta osoba potrzebuje…  być chronionym,\Nta osoba potrzebuje…  być chronionym, dopóki nie będą w stanie lepiej chronić
-Dialogue: 0,0:44:34.80,0:44:38.56,Default,,0,0,0,,dopóki nie będą w stanie lepiej chronić samych siebie, pamiętając o przyjmowaniu\Nsamych siebie, pamiętając o przyjmowaniu leków, pamiętając o
-Dialogue: 0,0:44:38.56,0:44:45.11,Default,,0,0,0,,leków, pamiętając o wizytach u lekarza, unikając przestępczości\Nwizytach u lekarza, unikając przestępczości itd. Tak. Zatem intencją jest
-Dialogue: 0,0:44:45.11,0:44:50.07,Default,,0,0,0,,itd. Tak. Zatem intencją jest dobro i dobrobyt ogółu. Dobro\Ndobro i dobrobyt ogółu. Dobro i dobrobyt ogółu. Z życzliwości.
-Dialogue: 0,0:44:50.07,0:44:56.80,Default,,0,0,0,,i dobrobyt ogółu. Z życzliwości. Zatem jedynym duchowym nakazem, którego się trzymamy,\NZatem jedynym duchowym nakazem, którego się trzymamy, jest miłość, troska i
-Dialogue: 0,0:44:56.80,0:45:02.64,Default,,0,0,0,,jest miłość, troska i szacunek dla wszelkiego życia. I niech to\Nszacunek dla wszelkiego życia. I niech to będzie ogólny kontekst waszego własnego
-Dialogue: 0,0:45:02.64,0:45:07.20,Default,,0,0,0,,będzie ogólny kontekst waszego własnego uznania.\Nuznania. Powodem, dla którego robimy wszystko, co robimy, jest
-Dialogue: 0,0:45:07.20,0:45:13.52,Default,,0,0,0,,Powodem, dla którego robimy wszystko, co robimy, jest dobro ogółu. Ludzie\Ndobro ogółu. Ludzie pytają: „Co mogę zrobić, żeby, no wiesz,
-Dialogue: 0,0:45:13.52,0:45:19.68,Default,,0,0,0,,pytają: „Co mogę zrobić, żeby, no wiesz, pomóc światu?”. I cóż, możesz\Npomóc światu?”. I cóż, możesz trzymać się z daleka.
-Dialogue: 0,0:45:19.68,0:45:25.92,Default,,0,0,0,,trzymać się z daleka. Zjechać z autostrady. Nie,\NZjechać z autostrady. Nie, intencja, a potem intencja,
-Dialogue: 0,0:45:25.92,0:45:30.07,Default,,0,0,0,,intencja, a potem intencja, to to, kim się stałeś. Pokazaliśmy to\Nto to, kim się stałeś. Pokazaliśmy to na wykresie, który pokazaliśmy z
-Dialogue: 0,0:45:30.07,0:45:36.31,Default,,0,0,0,,na wykresie, który pokazaliśmy z piramidą. To, kim się stałeś,\Npiramidą. To, kim się stałeś, rekompensuje negatywność.
-Dialogue: 0,0:45:36.31,0:45:40.56,Default,,0,0,0,,rekompensuje negatywność. Negatywność świata byłaby więc\NNegatywność świata byłaby więc tak przytłaczająca. Zniszczyłaby
-Dialogue: 0,0:45:40.56,0:45:46.07,Default,,0,0,0,,tak przytłaczająca. Zniszczyłaby ludzkość, gdyby nie ludzie tacy jak\Nludzkość, gdyby nie ludzie tacy jak wy, którzy tu teraz siedzą. Zdajesz sobie sprawę,
-Dialogue: 0,0:45:46.07,0:45:53.28,Default,,0,0,0,,wy, którzy tu teraz siedzą. Zdajesz sobie sprawę, że bez ciebie,  Miliony by umarły.\Nże bez ciebie,  Miliony by umarły. Miliony. Tak. Bez tego tłumu tu
-Dialogue: 0,0:45:53.28,0:45:58.88,Default,,0,0,0,,Miliony. Tak. Bez tego tłumu tu zgromadzonego. Tego tłumu tu zgromadzonego.\Nzgromadzonego. Tego tłumu tu zgromadzonego. Mam pozwolenie, żeby o to zapytać. Miliony
-Dialogue: 0,0:45:58.88,0:46:05.68,Default,,0,0,0,,Mam pozwolenie, żeby o to zapytać. Miliony by umarły.\Nby umarły. Miliony by umarły, gdyby nie to, że
-Dialogue: 0,0:46:05.68,0:46:09.52,Default,,0,0,0,,Miliony by umarły, gdyby nie to, że w piramidzie jest ten mały wierzchołek.\Nw piramidzie jest ten mały wierzchołek. Potem jest równowaga, ta
-Dialogue: 0,0:46:09.52,0:46:15.35,Default,,0,0,0,,Potem jest równowaga, ta mała piramida tutaj i wielka\Nmała piramida tutaj i wielka masa ludzkości tutaj, aby nadać większą
-Dialogue: 0,0:46:15.35,0:46:20.56,Default,,0,0,0,,masa ludzkości tutaj, aby nadać większą wartość i wartość. Ta twoja\Nwartość i wartość. Ta twoja praca duchowa, wiesz, nie służy tylko twojemu własnemu
-Dialogue: 0,0:46:20.56,0:46:24.00,Default,,0,0,0,,praca duchowa, wiesz, nie służy tylko twojemu własnemu duchowemu\Nduchowemu rozwojowi.
-Dialogue: 0,0:46:24.00,0:46:30.16,Default,,0,0,0,,rozwojowi. Ale poszukując prawdy duchowej,\NAle poszukując prawdy duchowej, służysz całej ludzkości
-Dialogue: 0,0:46:30.16,0:46:36.00,Default,,0,0,0,,służysz całej ludzkości poprzez własne poszukiwanie oświecenia i\Npoprzez własne poszukiwanie oświecenia i prawdy duchowej. Służysz całej
-Dialogue: 0,0:46:36.00,0:46:42.07,Default,,0,0,0,,prawdy duchowej. Służysz całej ludzkości.\Nludzkości. Miliony umarłyby, gdyby nie ty.
-Dialogue: 0,0:46:42.07,0:46:49.28,Default,,0,0,0,,Miliony umarłyby, gdyby nie ty. Poprzez własne poszukiwanie oświecenia,\NPoprzez własne poszukiwanie oświecenia, przynosisz korzyść całej ludzkości.
-Dialogue: 0,0:46:49.28,0:46:59.83,Default,,0,0,0,,przynosisz korzyść całej ludzkości. Przynosisz korzyść całej ludzkości.\NObraz medytacji buddyjskiej, wpatrywania się we własny umysł,
-Dialogue: 0,0:46:59.83,0:47:05.76,Default,,0,0,0,,medytacji buddyjskiej, wpatrywania się we własny umysł, jest błędny.\Njest błędny. To dla dobra i dobrobytu
-Dialogue: 0,0:47:05.76,0:47:11.83,Default,,0,0,0,,To dla dobra i dobrobytu całej ludzkości poszukujemy najwyższej\Ncałej ludzkości poszukujemy najwyższej prawdy i dążymy do zjednoczenia się z
-Dialogue: 0,0:47:11.83,0:47:18.24,Default,,0,0,0,,prawdy i dążymy do zjednoczenia się z tą prawdą. Dążymy do tego, by stać się\Ntą prawdą. Dążymy do tego, by stać się wyrazem tej prawdy. Tak więc, gdy
-Dialogue: 0,0:47:18.24,0:47:23.28,Default,,0,0,0,,wyrazem tej prawdy. Tak więc, gdy wszystko wydaje się piękne,\Nwszystko wydaje się piękne, dostrzegasz ich piękno i na
-Dialogue: 0,0:47:23.28,0:47:26.88,Default,,0,0,0,,dostrzegasz ich piękno i na pewnym poziomie świadomości musisz\Npewnym poziomie świadomości musisz być ostrożny, musisz naprawdę…  Unikaj
-Dialogue: 0,0:47:26.88,0:47:31.68,Default,,0,0,0,,być ostrożny, musisz naprawdę…  Unikaj tego, bo piękno rzeczy po prostu cię\Ntego, bo piękno rzeczy po prostu cię powala. Jak pełne miłości
-Dialogue: 0,0:47:31.68,0:47:35.35,Default,,0,0,0,,powala. Jak pełne miłości spojrzenie między dwojgiem ludzi. Po prostu\Nspojrzenie między dwojgiem ludzi. Po prostu nie możesz tego znieść. To po prostu sprawia, że
-Dialogue: 0,0:47:35.35,0:47:40.16,Default,,0,0,0,,nie możesz tego znieść. To po prostu sprawia, że płaczesz. I uważasz, żeby nie patrzeć\Npłaczesz. I uważasz, żeby nie patrzeć na kwiaty, bo są oszałamiającą
-Dialogue: 0,0:47:40.16,0:47:56.24,Default,,0,0,0,,na kwiaty, bo są oszałamiającą doskonałością.\Ndoskonałością. O Boże. Och,
-Dialogue: 0,0:47:56.24,0:48:01.59,Default,,0,0,0,,to zostało stworzone przez Boga. To zostało stworzone przez Boga.\NTo zostało stworzone przez Boga. Ten kwiat
-Dialogue: 0,0:48:01.59,0:48:12.31,Default,,0,0,0,,Ten kwiat został stworzony przez Boga.\NWięc czujesz boskość w całym stworzeniu.
-Dialogue: 0,0:48:12.31,0:48:16.80,Default,,0,0,0,,w całym stworzeniu. I z szacunku dla boskości,\NI z szacunku dla boskości, czcisz całe
-Dialogue: 0,0:48:16.80,0:48:29.68,Default,,0,0,0,,czcisz całe stworzenie,\Npoprzednie życie. I mówisz katowi: nie miej wyrzutów sumienia z powodu tego,
-Dialogue: 0,0:48:29.68,0:48:33.83,Default,,0,0,0,,katowi: nie miej wyrzutów sumienia z powodu tego, co robisz. To twój obowiązek wobec\Nco robisz. To twój obowiązek wobec korony.
-Dialogue: 0,0:48:33.83,0:48:39.92,Default,,0,0,0,,korony. Więc kładziesz głowę na pieńku, a kiedy\NWięc kładziesz głowę na pieńku, a kiedy kat schodzi, błogosławisz go.
-Dialogue: 0,0:48:39.92,0:48:44.80,Default,,0,0,0,,kat schodzi, błogosławisz go. Wykonujesz swój obowiązek. Uznajesz, że to\NWykonujesz swój obowiązek. Uznajesz, że to jego honor. To jego honor, że
-Dialogue: 0,0:48:44.80,0:48:50.48,Default,,0,0,0,,jego honor. To jego honor, że służy koronie\Nsłuży koronie i ludziom tamtej epoki. To był zaszczyt
-Dialogue: 0,0:48:50.48,0:48:56.55,Default,,0,0,0,,i ludziom tamtej epoki. To był zaszczyt służyć koronie, a nie sobie samemu\Nsłużyć koronie, a nie sobie samemu . Więc nawet gdy zakręci ci się w
-Dialogue: 0,0:48:56.55,0:49:03.59,Default,,0,0,0,,. Więc nawet gdy zakręci ci się w głowie, kiedy podejdzie, możesz go pobłogosławić\Ngłowie, kiedy podejdzie, możesz go pobłogosławić
-Dialogue: 0,0:49:03.59,0:49:09.59,Default,,0,0,0,,i powiedzieć mu: nie miej wyrzutów sumienia z powodu Co robisz? Jesteś człowiekiem honoru\NCo robisz? Jesteś człowiekiem honoru i służysz koronie.
-Dialogue: 0,0:49:09.59,0:49:19.52,Default,,0,0,0,,i służysz koronie. Wraca do domu szczęśliwy.\NWraca do domu szczęśliwy. Jej
-Dialogue: 0,0:49:19.52,0:49:32.55,Default,,0,0,0,,żona pyta: „Harold, jak poszło dzisiaj?”.\NOdpowiedział: „To była jej odpowiedź.  Jak poszło dzisiaj,
-Dialogue: 0,0:49:32.55,0:49:38.24,Default,,0,0,0,,„To była jej odpowiedź.  Jak poszło dzisiaj, Haroldzie?"\NHaroldzie?" Pstryk. Zaczyna się. Wiesz,
-Dialogue: 0,0:49:38.24,0:49:44.07,Default,,0,0,0,,Pstryk. Zaczyna się. Wiesz, pokazaliśmy, że jeśli żyjesz w\Npokazaliśmy, że jeśli żyjesz w chwili obecnej, żaden
-Dialogue: 0,0:49:44.07,0:49:49.28,Default,,0,0,0,,chwili obecnej, żaden problem nie może się pojawić.\Nproblem nie może się pojawić. Każda chwila jest kompletna i totalna sama w
-Dialogue: 0,0:49:49.28,0:49:54.40,Default,,0,0,0,,Każda chwila jest kompletna i totalna sama w sobie. Żaden\Nsobie. Żaden problem nie może istnieć w
-Dialogue: 0,0:49:54.40,0:49:58.55,Default,,0,0,0,,problem nie może istnieć w teraźniejszości.\Nteraźniejszości. Jesteś chory. Czy to
-Dialogue: 0,0:49:58.55,0:50:02.00,Default,,0,0,0,,Jesteś chory. Czy to cię teraz zabije? Nie. Więc nad czym\Ncię teraz zabije? Nie. Więc nad czym szlochasz i płaczesz? Rozumiesz, o co
-Dialogue: 0,0:50:02.00,0:50:12.07,Default,,0,0,0,,szlochasz i płaczesz? Rozumiesz, o co mi chodzi?\NJeśli żyjesz w tej chwili, w tej chwili teraz, nie jesteś zdolny do
-Dialogue: 0,0:50:12.07,0:50:17.76,Default,,0,0,0,,chwili teraz, nie jesteś zdolny do problemu. Tylko wtedy, gdy projektujesz\Nproblemu. Tylko wtedy, gdy projektujesz siebie w przyszłość, strach i
-Dialogue: 0,0:50:17.76,0:50:24.16,Default,,0,0,0,,siebie w przyszłość, strach i kontrolę albo projektujesz siebie w\Nkontrolę albo projektujesz siebie w przeszłość z żalem, winą i poczuciem winy. Jeśli
-Dialogue: 0,0:50:24.16,0:50:31.28,Default,,0,0,0,,przeszłość z żalem, winą i poczuciem winy. Jeśli żyjesz w tej chwili,\Nżyjesz w tej chwili, żaden problem nie jest możliwy w tej chwili.
-Dialogue: 0,0:50:31.28,0:50:37.59,Default,,0,0,0,,żaden problem nie jest możliwy w tej chwili. Zobaczmy, czy to fakt.\NZobaczmy, czy to fakt. To fakt. Pan
-Dialogue: 0,0:50:37.59,0:50:50.31,Default,,0,0,0,,To fakt. Pan Bóg powiedział,\Nco? Tak. W każdym razie,
-Dialogue: 0,0:50:50.31,0:50:55.04,Default,,0,0,0,,Tak. W każdym razie, rozumiejąc, rozumiesz, rozumiejąc\Nrozumiejąc, rozumiesz, rozumiejąc przyczynowość,
-Dialogue: 0,0:50:55.04,0:51:01.20,Default,,0,0,0,,przyczynowość, że wszystko powstaje z\Nże wszystko powstaje z mocy tego, czym jest. I
-Dialogue: 0,0:51:01.20,0:51:06.31,Default,,0,0,0,,mocy tego, czym jest. I widzisz, cały naukowy pogląd na\Nwidzisz, cały naukowy pogląd na przyczynowość
-Dialogue: 0,0:51:06.31,0:51:11.44,Default,,0,0,0,,przyczynowość jest taki, że istnieje to, co powoduje to, co powoduje to, co się cofa.\Njest taki, że istnieje to, co powoduje to, co powoduje to, co się cofa. w czasie. A
-Dialogue: 0,0:51:11.44,0:51:17.68,Default,,0,0,0,,w czasie. A jeśli to sprawdzisz, odkryjesz, że każde pojedyncze\Njeśli to sprawdzisz, odkryjesz, że każde pojedyncze zdarzenie ma 10 milionów przyczyn. Gdyby
-Dialogue: 0,0:51:17.68,0:51:20.55,Default,,0,0,0,,zdarzenie ma 10 milionów przyczyn. Gdyby nie ten pokój, nie byłoby tego\Nnie ten pokój, nie byłoby tego tutaj. Nie byłoby mnie tutaj. Nie
-Dialogue: 0,0:51:20.55,0:51:24.31,Default,,0,0,0,,tutaj. Nie byłoby mnie tutaj. Nie rozmawialibyśmy. Nie byłbyś w stanie usłyszeć mojego\Nrozmawialibyśmy. Nie byłbyś w stanie usłyszeć mojego głosu itd.
-Dialogue: 0,0:51:24.31,0:51:30.96,Default,,0,0,0,,głosu itd. Potrzeba 10 milionów elementów, aby wyjaśnić\NPotrzeba 10 milionów elementów, aby wyjaśnić każde zdarzenie.
-Dialogue: 0,0:51:30.96,0:51:35.35,Default,,0,0,0,,każde zdarzenie. Wszystkie zdarzenia dzieją się\NWszystkie zdarzenia dzieją się spontanicznie, jako konsekwencja
-Dialogue: 0,0:51:35.35,0:51:41.11,Default,,0,0,0,,spontanicznie, jako konsekwencja ewolucji świadomości, jako\Newolucji świadomości, jako konsekwencji tego, kim jesteś.
-Dialogue: 0,0:51:41.11,0:51:46.16,Default,,0,0,0,,konsekwencji tego, kim jesteś. Zatem ostatecznym uświadomieniem sobie lub\NZatem ostatecznym uświadomieniem sobie lub celem naszego
-Dialogue: 0,0:51:46.16,0:51:52.72,Default,,0,0,0,,celem naszego nauczania jest uświadomienie ci,\Nnauczania jest uświadomienie ci, że nie ma nikogo, kto robi to, co się
-Dialogue: 0,0:51:52.72,0:51:59.76,Default,,0,0,0,,że nie ma nikogo, kto robi to, co się dzieje. Założenie ego jest takie, że\Ndzieje. Założenie ego jest takie, że istnieje „ja”, oddzielne oko, które
-Dialogue: 0,0:51:59.76,0:52:05.44,Default,,0,0,0,,istnieje „ja”, oddzielne oko, które powoduje, że to się dzieje.\Npowoduje, że to się dzieje. Bardziej zaawansowana świadomość. Jeśli
-Dialogue: 0,0:52:05.44,0:52:11.59,Default,,0,0,0,,Bardziej zaawansowana świadomość. Jeśli to zrozumiesz, zdasz sobie sprawę, że to\Nto zrozumiesz, zdasz sobie sprawę, że to wydarzyło się samo z siebie. Nie ma
-Dialogue: 0,0:52:11.59,0:52:35.11,Default,,0,0,0,,wydarzyło się samo z siebie. Nie ma osobistego „ja”.\NCzy to moje osobiste „ja”? Spójrz w lustro. Spójrz na to. Czy
-Dialogue: 0,0:52:35.11,0:52:44.31,Default,,0,0,0,,Spójrz w lustro. Spójrz na to. Czy to ja?\NWszystko dzieje się autonomicznie, jako konsekwencja tego, kim się
-Dialogue: 0,0:52:44.31,0:52:50.64,Default,,0,0,0,,jako konsekwencja tego, kim się stałeś. To jest treść, a\Nstałeś. To jest treść, a kontekst to poziom świadomości.
-Dialogue: 0,0:52:50.64,0:52:57.20,Default,,0,0,0,,kontekst to poziom świadomości. Nie ma osobistego, oddzielnego „ja”,\NNie ma osobistego, oddzielnego „ja”, oddzielonego od…  Jeden.
-Dialogue: 0,0:52:57.20,0:53:02.40,Default,,0,0,0,,oddzielonego od…  Jeden. To jeden z powodów, dla których, gdy stajesz się\NTo jeden z powodów, dla których, gdy stajesz się częścią pokazu olimpijskiego,
-Dialogue: 0,0:53:02.40,0:53:07.59,Default,,0,0,0,,częścią pokazu olimpijskiego, odczuwasz euforię,\Nodczuwasz euforię, ponieważ przynajmniej na chwilę
-Dialogue: 0,0:53:07.59,0:53:13.76,Default,,0,0,0,,ponieważ przynajmniej na chwilę unikniesz narcystycznego egoizmu\Nunikniesz narcystycznego egoizmu i ograniczeń związanych z osobistym okiem jako
-Dialogue: 0,0:53:13.76,0:53:20.64,Default,,0,0,0,,i ograniczeń związanych z osobistym okiem jako gwiazdą. Tak. To, co się\Ngwiazdą. Tak. To, co się teraz dzieje, to bezinteresowność – jaźń z
-Dialogue: 0,0:53:20.64,0:53:26.72,Default,,0,0,0,,teraz dzieje, to bezinteresowność – jaźń z dużej litery, która\Ndużej litery, która ewoluuje, więc wszystko powstaje
-Dialogue: 0,0:53:26.72,0:53:32.40,Default,,0,0,0,,ewoluuje, więc wszystko powstaje jako konsekwencja całości\Njako konsekwencja całości wszystkiego, co kiedykolwiek istniało, w tym tego, kim się
-Dialogue: 0,0:53:32.40,0:53:37.28,Default,,0,0,0,,wszystkiego, co kiedykolwiek istniało, w tym tego, kim się stałeś. Wszystko\Nstałeś. Wszystko dzieje się spontanicznie.
-Dialogue: 0,0:53:37.28,0:53:42.80,Default,,0,0,0,,dzieje się spontanicznie. Nie ma osobistego ja, które byłoby przyczyną\NNie ma osobistego ja, które byłoby przyczyną czegokolwiek.
-Dialogue: 0,0:53:42.80,0:53:48.07,Default,,0,0,0,,czegokolwiek. Jeśli nie ma osobistego ja, które byłoby przyczyną\NJeśli nie ma osobistego ja, które byłoby przyczyną czegokolwiek, to czym jest
-Dialogue: 0,0:53:48.07,0:53:54.00,Default,,0,0,0,,czegokolwiek, to czym jest karma? Co dzieje się z rozwlekłymi\Nkarma? Co dzieje się z rozwlekłymi karmicznymi konsekwencjami?
-Dialogue: 0,0:53:54.00,0:53:58.31,Default,,0,0,0,,karmicznymi konsekwencjami? Nie ma żadnych.\NNie ma żadnych. Opuszczasz ten świat głupi, wracasz
-Dialogue: 0,0:53:58.31,0:54:08.96,Default,,0,0,0,,Opuszczasz ten świat głupi, wracasz do następnego życia głupi. W\Ndo następnego życia głupi. W czym problem?
-Dialogue: 0,0:54:08.96,0:54:14.55,Default,,0,0,0,,Ewolucja postępuje więc przez ogromne przestrzenie czasu. Duże przestrzenie\Nprzestrzenie czasu. Duże przestrzenie czasu. A karmiczne dziedzictwo karmiczne
-Dialogue: 0,0:54:14.55,0:54:23.35,Default,,0,0,0,,czasu. A karmiczne dziedzictwo karmiczne\Njest skłonnością. Skłonnością. Nikt nie jest do niczego zmuszany. Masz do czynienia
-Dialogue: 0,0:54:23.35,0:54:28.48,Default,,0,0,0,,jest do niczego zmuszany. Masz do czynienia z prawdopodobieństwem. Więc\Nz prawdopodobieństwem. Więc karmiczne skłonności. Zawsze…  Nie
-Dialogue: 0,0:54:28.48,0:54:32.64,Default,,0,0,0,,karmiczne skłonności. Zawsze…  Nie mówię o karmie. Zawsze mówię o karmicznej\Nmówię o karmie. Zawsze mówię o karmicznej skłonności.
-Dialogue: 0,0:54:32.64,0:54:39.92,Default,,0,0,0,,skłonności. Skłonność jest taka, żeby się zemścić na sukinsynu\NSkłonność jest taka, żeby się zemścić na sukinsynu . Zasłużył na to.
-Dialogue: 0,0:54:39.92,0:54:45.92,Default,,0,0,0,,. Zasłużył na to. A potem, z powodu duchowego treningu\NA potem, z powodu duchowego treningu i ingerencji, pojawia się wahanie.
-Dialogue: 0,0:54:45.92,0:54:53.28,Default,,0,0,0,,i ingerencji, pojawia się wahanie. Być może można spojrzeć\NByć może można spojrzeć na to inaczej.
-Dialogue: 0,0:54:53.28,0:54:59.28,Default,,0,0,0,,Kazanie na górze przelatuje przez twój umysł, wybaczasz mu i\Ntwój umysł, wybaczasz mu i mówisz: „Nie pociągnę za spust”. Tak,
-Dialogue: 0,0:54:59.28,0:55:05.35,Default,,0,0,0,,mówisz: „Nie pociągnę za spust”. Tak, nie pociągnę za spust.\Nnie pociągnę za spust. Wszystko dzieje się samo w sobie.
-Dialogue: 0,0:55:05.35,0:55:10.72,Default,,0,0,0,,Wszystko dzieje się samo w sobie. Możesz więc wyobrazić sobie siebie.\NMożesz więc wyobrazić sobie siebie. Lubię wyobrażać sobie siebie jako
-Dialogue: 0,0:55:10.72,0:55:17.20,Default,,0,0,0,,Lubię wyobrażać sobie siebie jako magnetyczny opiłek, a wola Boga –\Nmagnetyczny opiłek, a wola Boga – całe pole świadomości
-Dialogue: 0,0:55:17.20,0:55:24.96,Default,,0,0,0,,całe pole świadomości jest nieskończone i nieograniczone, a zatem to,\Njest nieskończone i nieograniczone, a zatem to, co się dzieje i co dzieje się w tobie,
-Dialogue: 0,0:55:24.96,0:55:30.80,Default,,0,0,0,,co się dzieje i co dzieje się w tobie, wokół ciebie i z tobą, jest\Nwokół ciebie i z tobą, jest konsekwencją tego, kim się stałeś, wchodząc w
-Dialogue: 0,0:55:30.80,0:55:34.88,Default,,0,0,0,,konsekwencją tego, kim się stałeś, wchodząc w interakcje w polu. Oto więc\Ninterakcje w polu. Oto więc potężne pole magnetyczne, w którym wszyscy
-Dialogue: 0,0:55:34.88,0:55:39.20,Default,,0,0,0,,potężne pole magnetyczne, w którym wszyscy jesteśmy spolaryzowani. To nasza dobra strona,\Njesteśmy spolaryzowani. To nasza dobra strona, strona dobrej karmy lub strona złej karmy
-Dialogue: 0,0:55:39.20,0:55:44.00,Default,,0,0,0,,strona dobrej karmy lub strona złej karmy . Mówimy: „pieprzyć cię”. Schodzimy w\N. Mówimy: „pieprzyć cię”. Schodzimy w stronę złej karmy. Mówimy: „O tak,
-Dialogue: 0,0:55:44.00,0:55:47.35,Default,,0,0,0,,stronę złej karmy. Mówimy: „O tak, ale nie mogłeś się powstrzymać”. Teraz przechodzimy do…\Nale nie mogłeś się powstrzymać”. Teraz przechodzimy do… Dobra karma. Więc stale
-Dialogue: 0,0:55:47.35,0:55:52.72,Default,,0,0,0,,Dobra karma. Więc stale poruszamy się w tym nieskończonym polu.\Nporuszamy się w tym nieskończonym polu. To pole skłonności i
-Dialogue: 0,0:55:52.72,0:55:56.55,Default,,0,0,0,,To pole skłonności i prawdopodobieństw. To nie pole\Nprawdopodobieństw. To nie pole przyczynowości.
-Dialogue: 0,0:55:56.55,0:56:01.52,Default,,0,0,0,,przyczynowości. Nawet jeśli masz karmę czegoś\NNawet jeśli masz karmę czegoś bardzo negatywnego, nie jesteś do tego
-Dialogue: 0,0:56:01.52,0:56:08.55,Default,,0,0,0,,bardzo negatywnego, nie jesteś do tego zmuszony. Nie musisz. Wszyscy\Nzmuszony. Nie musisz. Wszyscy mamy więc w sobie duchową wolność.
-Dialogue: 0,0:56:08.55,0:56:13.68,Default,,0,0,0,,mamy więc w sobie duchową wolność. Zawsze możemy wybrać\NZawsze możemy wybrać inaczej, tym razem. Zobaczmy, czy
-Dialogue: 0,0:56:13.68,0:56:33.44,Default,,0,0,0,,inaczej, tym razem. Zobaczmy, czy to prawda. Zawsze istniejemy w\Nto prawda. Zawsze istniejemy w stanie ciągłej duchowej wolności.
-Dialogue: 0,0:56:33.44,0:56:39.35,Default,,0,0,0,,Wszyscy żyjemy w stanie absolutnej wewnętrznej wolności\Nwolności w polu energetycznym nieskończonej mocy.
-Dialogue: 0,0:56:39.35,0:56:44.55,Default,,0,0,0,,w polu energetycznym nieskończonej mocy. A kiedy dostrajamy się do tej mocy,\NA kiedy dostrajamy się do tej mocy, promieniujemy dobrocią na świat,
-Dialogue: 0,0:56:44.55,0:56:50.96,Default,,0,0,0,,promieniujemy dobrocią na świat, która przynosi korzyści całej ludzkości.\Nktóra przynosi korzyści całej ludzkości. Zatem dzięki dostosowaniu i intencji,
-Dialogue: 0,0:56:50.96,0:56:56.00,Default,,0,0,0,,Zatem dzięki dostosowaniu i intencji, grupa taka jak ta ma głęboki\Ngrupa taka jak ta ma głęboki wpływ na życie milionów
-Dialogue: 0,0:56:56.00,0:57:00.24,Default,,0,0,0,,wpływ na życie milionów ludzi.\Nludzi. To powinno pozbyć się pytania:
-Dialogue: 0,0:57:00.24,0:57:07.76,Default,,0,0,0,,To powinno pozbyć się pytania: co mogę zrobić, aby pomóc światu?\Nco mogę zrobić, aby pomóc światu? Nic nie rób.
-Dialogue: 0,0:57:07.76,0:57:12.55,Default,,0,0,0,,Nic nie rób. Po prostu bądź tym, kim jesteś, w pełni swoich\NPo prostu bądź tym, kim jesteś, w pełni swoich możliwości. I w ten sposób
-Dialogue: 0,0:57:12.55,0:57:18.24,Default,,0,0,0,,możliwości. I w ten sposób wypełniasz wolę Boga. Zobaczmy,\Nwypełniasz wolę Boga. Zobaczmy, czy  To fakt. To wypełnianie
-Dialogue: 0,0:57:18.24,0:57:22.88,Default,,0,0,0,,czy  To fakt. To wypełnianie woli Bożej względem ciebie. Aby każdy człowiek\Nwoli Bożej względem ciebie. Aby każdy człowiek stał się tym, kim może
-Dialogue: 0,0:57:22.88,0:57:27.68,Default,,0,0,0,,stał się tym, kim może być.\Nbyć. Realizując swój potencjał,
-Dialogue: 0,0:57:27.68,0:57:33.68,Default,,0,0,0,,Realizując swój potencjał, służysz Bogu i bliźnim,\Nsłużysz Bogu i bliźnim, robisz wszystko, co
-Dialogue: 0,0:57:33.68,0:57:39.52,Default,,0,0,0,,robisz wszystko, co możesz dla ludzkości. A jeśli to nie jest dla\Nmożesz dla ludzkości. A jeśli to nie jest dla was powodem do dumy, dzieciaki,
-Dialogue: 0,0:57:39.52,0:57:45.59,Default,,0,0,0,,was powodem do dumy, dzieciaki, to powinno wystarczyć do obiadu.\Nto powinno wystarczyć do obiadu. Wszyscy tam, ratujący
-Dialogue: 0,0:57:45.59,0:57:50.00,Default,,0,0,0,,Wszyscy tam, ratujący świat. O\Nświat. O której wracamy, kochanie?
-Dialogue: 0,0:57:50.00,0:57:58.72,Default,,0,0,0,,której wracamy, kochanie? Wracamy o 14:00. Wracamy o\NWracamy o 14:00. Wracamy o 14:00. Wracamy o 14:00 i unikamy wszelkiego
-Dialogue: 0,0:57:58.72,0:58:03.72,Default,,0,0,0,,14:00. Wracamy o 14:00 i unikamy wszelkiego grzechu do tej pory.
+Dialogue: 0,0:00:03.76,0:00:11.36,Default,,0,0,0,,Ci z was, którzy próbują uciec.\NWróć tutaj.  Mamy twój numer.
+Dialogue: 0,0:00:11.36,0:00:18.56,Default,,0,0,0,,Numer 292, dostaniesz to.\NWyobraź sobie, że jesteś częścią
+Dialogue: 0,0:00:18.56,0:00:22.88,Default,,0,0,0,,festiwalu olimpijskiego, 7000 osób, i\Nkażdy porusza się w ten sposób, a ty w inny
+Dialogue: 0,0:00:22.88,0:00:36.00,Default,,0,0,0,,.\NNigdy więcej o mnie nie słyszano.
+Dialogue: 0,0:00:36.00,0:00:39.76,Default,,0,0,0,,Tak.\NWymyśliliśmy dwie zabawne historie albo jedną
+Dialogue: 0,0:00:39.76,0:00:45.44,Default,,0,0,0,,zabawną historię.  Właśnie tam\Nprzechodzi parada z okazji Czwartego Lipca i wszyscy
+Dialogue: 0,0:00:45.44,0:00:51.84,Default,,0,0,0,,w Ameryce.  Parada z okazji Czwartego Lipca\Nprzechodzi obok żołnierzy,
+Dialogue: 0,0:00:51.84,0:00:56.16,Default,,0,0,0,,a jeden idiota nie pasuje do reszty\N.  A matka siedząca na
+Dialogue: 0,0:00:56.16,0:01:09.43,Default,,0,0,0,,widowni mówi: „Patrzcie, wszyscy są\Nnie w rytmie, oprócz Herberta.
+Dialogue: 0,0:01:09.43,0:01:22.15,Default,,0,0,0,,wzroku, oprócz Herberta.\NIntencja jest niezwykle ważna”.   No cóż
+Dialogue: 0,0:01:22.15,0:01:28.08,Default,,0,0,0,,jaka jest jego motywacja?\NTeraz zrozumieliśmy, że tłum miał być częścią jedności
+Dialogue: 0,0:01:28.08,0:01:36.15,Default,,0,0,0,,.  Widzisz, ale czy ten sportowiec nie\Nszuka po prostu mnie?  No cóż, i
+Dialogue: 0,0:01:36.15,0:01:50.64,Default,,0,0,0,,wtedy dokonaliśmy wielkiego odkrycia.  Sportowiec,\Nswojego kraju, swojej uczelni,
+Dialogue: 0,0:01:50.64,0:01:57.52,Default,,0,0,0,,swojej klasy, swojej żony, swoich dzieci,\Nsportowiec, który biega dla
+Dialogue: 0,0:01:57.52,0:02:09.59,Default,,0,0,0,,dobra wyższego.  Widzisz nazwę uniwersytetu,\Nsportowiec będzie się uczył
+Dialogue: 0,0:02:09.59,0:02:18.08,Default,,0,0,0,,.  Zawodnik, który biegnie dla\Ndobra innych, ma przewagę ponad 8
+Dialogue: 0,0:02:18.08,0:02:23.76,Default,,0,0,0,,sekund. 9\Nsekund i 1 sekunda dają mu 9/10 sekundy
+Dialogue: 0,0:02:23.76,0:02:30.48,Default,,0,0,0,,przewagi.  Widzisz więc dwóch biegaczy, jeden\Nbiegnie dla uniwersytetu, drugi
+Dialogue: 0,0:02:30.48,0:02:35.84,Default,,0,0,0,,dla Chin, trzeci dla dumy\NNiemiec, obojętnie.
+Dialogue: 0,0:02:35.84,0:02:40.40,Default,,0,0,0,,A gdy tylko wystrzelił sygnał startowy, ten z\Nwiększą motywacją miał już 9/10
+Dialogue: 0,0:02:40.40,0:02:44.00,Default,,0,0,0,,sekundy przewagi.  Czyż to nie jest coś, o czym warto\Nwiedzieć?   Tak
+Dialogue: 0,0:02:44.00,0:02:46.80,Default,,0,0,0,,.   Tak\N.   No to zaczynamy
+Dialogue: 0,0:02:46.80,0:03:02.00,Default,,0,0,0,,.\NIntencja.  Jeśli więc przyjrzysz się
+Dialogue: 0,0:03:02.00,0:03:07.20,Default,,0,0,0,,intencji stojącej za twoimi działaniami,\Nzawsze szukaj wyższego dobra, z którym
+Dialogue: 0,0:03:07.20,0:03:12.95,Default,,0,0,0,,możesz się połączyć,\Nzwiększając w ten sposób swoją radość, znaczenie
+Dialogue: 0,0:03:12.95,0:03:18.08,Default,,0,0,0,,i sens tego, co robisz.\NWidzisz, jeśli wymyślisz zły lub lepszy
+Dialogue: 0,0:03:18.08,0:03:23.59,Default,,0,0,0,,gadżet, to po to, żeby uszczęśliwić innych ludzi\N, żeby było wygodnie, żeby było miłe dla
+Dialogue: 0,0:03:23.59,0:03:29.04,Default,,0,0,0,,palców gospodyń domowych, cokolwiek.  Jeśli\Nhelikopter ją potnie, to ona nie potnie sobie
+Dialogue: 0,0:03:29.04,0:03:34.00,Default,,0,0,0,,palców.  Pomyśl więc o wszystkich\Nżonach, które nie chciałyby pokroić noża
+Dialogue: 0,0:03:34.00,0:03:38.08,Default,,0,0,0,,tą maszynką.  Innymi\Nsłowy, staraj się utrzymywać najwyższą
+Dialogue: 0,0:03:38.08,0:03:45.59,Default,,0,0,0,,motywację, na jaką cię stać, we wszystkich twoich\Nwysiłkach, aby czynić to dla chwały Bożej. To
+Dialogue: 0,0:03:45.59,0:03:49.76,Default,,0,0,0,,oczywiście jest najwyższa motywacja ze wszystkich.  Więc\Nci, którzy poświęcają Ci całą swoją energię
+Dialogue: 0,0:03:49.76,0:03:59.59,Default,,0,0,0,,i wysiłki,\NKiedy więc wygłaszamy ten wykład, czynimy to
+Dialogue: 0,0:03:59.59,0:04:06.23,Default,,0,0,0,,w imię Najwyższego Pana.\NO Panie najwyższy!  Więc na samym
+Dialogue: 0,0:04:06.23,0:04:11.92,Default,,0,0,0,,początku oświadczamy, że składamy deklarację\Nnaszej intencji, aby
+Dialogue: 0,0:04:11.92,0:04:18.72,Default,,0,0,0,,taka grupa spotykała się dla chwały Boga i\Nodzwierciedlała tę chwałę na wszystkich Jego
+Dialogue: 0,0:04:18.72,0:04:26.96,Default,,0,0,0,,drogach, i wnosimy to do codziennego\Nświata poprzez szacunek dla samego życia.
+Dialogue: 0,0:04:26.96,0:04:32.72,Default,,0,0,0,,Mamy więc punkt odniesienia dla wszystkiego\N, co istnieje, nawet jeśli
+Dialogue: 0,0:04:32.72,0:04:38.16,Default,,0,0,0,,nie rozumiemy, dlaczego to istnieje.  Nie\Nwiem, dlaczego smok z Komody jest taki, jaki
+Dialogue: 0,0:04:38.16,0:04:46.80,Default,,0,0,0,,jest, ale pełni tam jakąś\Nfunkcję ewolucyjną.  I tak oddajemy
+Dialogue: 0,0:04:46.80,0:04:52.24,Default,,0,0,0,,cześć całemu życiu i wszystkim jego\Nprzejawom, a dzięki temu
+Dialogue: 0,0:04:52.24,0:04:56.72,Default,,0,0,0,,piękno wszystkiego, co istnieje,\Nujawnia się
+Dialogue: 0,0:04:56.72,0:05:03.12,Default,,0,0,0,,w tym życiu.  Piękno wszystkiego, co\Nistnieje, ujawniło się nagle,
+Dialogue: 0,0:05:03.12,0:05:07.91,Default,,0,0,0,,bardzo nagle, ze zwykłego stanu\Nświadomości.  To było tak, jakby zasłona została
+Dialogue: 0,0:05:07.91,0:05:11.75,Default,,0,0,0,,zdjęta, a ja byłem oszołomiony, bez słowa i\Nmyśli.
+Dialogue: 0,0:05:11.75,0:05:19.44,Default,,0,0,0,,Trzeba było lat, żeby to przemyśleć.\NZastanów się jeszcze raz.  Tak.  Wtedy zacząłem zdawać sobie
+Dialogue: 0,0:05:19.44,0:05:33.84,Default,,0,0,0,,sprawę, że nawet myśli mogą mieć\Nwyższy cel i że myślenie jest w porządku.
+Dialogue: 0,0:05:33.84,0:05:40.40,Default,,0,0,0,,Wang Po?  O, dobrze ci tak.  Idziesz\Ndo nieba.  Jak wiele osób
+Dialogue: 0,0:05:40.40,0:06:00.96,Default,,0,0,0,,nie zna Wang Poe?  Buu buu buu buu\Nbyłem młody.
+Dialogue: 0,0:06:00.96,0:06:06.80,Default,,0,0,0,,Sokrates i\NHuang Po byli moimi bohaterami.
+Dialogue: 0,0:06:06.80,0:06:14.63,Default,,0,0,0,,Myślę, że inni też interesowali się baseballem.\NSkarpety naszego autorstwa Opowiedziałem ci o moim
+Dialogue: 0,0:06:14.63,0:06:23.91,Default,,0,0,0,,dzieciństwie.  Wiesz, trener kazał mi nie wchodzić na\Nboisko.
+Dialogue: 0,0:06:23.91,0:06:28.96,Default,,0,0,0,,na małe kawałki, już przy pierwszym ataku”.\NI dlatego zabroniono mi wychodzić na
+Dialogue: 0,0:06:28.96,0:06:34.40,Default,,0,0,0,,boisko podczas uprawiania sportów kontaktowych,\Nwiesz,
+Dialogue: 0,0:06:34.40,0:06:37.84,Default,,0,0,0,,i lekarz nie wyraził na to zgody.\NPowiedział, że z takimi obojczykami
+Dialogue: 0,0:06:37.84,0:06:42.31,Default,,0,0,0,,pękną, gdy ktoś cię pierwszy raz kopnie.\NWięc
+Dialogue: 0,0:06:42.31,0:06:49.19,Default,,0,0,0,,zostałem z Wang Poe,\NPlatonem, Sokratesem,
+Dialogue: 0,0:06:49.19,0:06:57.12,Default,,0,0,0,,Uripidesem i wszystkimi tymi staromodnymi\Nludźmi.  Tak.  Ja.
+Dialogue: 0,0:06:57.12,0:07:01.59,Default,,0,0,0,,Cóż, mogę powiedzieć tylko tyle, że cieszę się, że nie kandyduję na żadne\Nstanowisko,
+Dialogue: 0,0:07:01.59,0:07:10.56,Default,,0,0,0,,ponieważ rozumiem, jeśli jesteś pomarszczony\Ni stary.
+Dialogue: 0,0:07:10.56,0:07:15.44,Default,,0,0,0,,blogi o tematyce politycznej.  On jest stary,\Npomarszczony
+Dialogue: 0,0:07:15.44,0:07:19.59,Default,,0,0,0,,i ma białe włosy.  Więc nie chcesz\Ngłosować na kogoś, kto ma siwe włosy,
+Dialogue: 0,0:07:19.59,0:07:23.12,Default,,0,0,0,,jest stary i pomarszczony.  Oczywiście, że nie.\NWiesz, ale wydało mi się to
+Dialogue: 0,0:07:23.12,0:07:27.59,Default,,0,0,0,,zabawne.  Wiesz, że pozbylibyśmy się\Nwszystkich najwybitniejszych umysłów w
+Dialogue: 0,0:07:27.59,0:07:32.56,Default,,0,0,0,,historii.  Więc kiedy pojawią się zmarszczki,\Nwyrzucają cię.
+Dialogue: 0,0:07:32.56,0:07:49.36,Default,,0,0,0,,Dlatego chodzę do salonu piękności.\NWięc rozmawialiśmy, rozmawialiśmy już wcześniej,
+Dialogue: 0,0:07:49.36,0:07:53.44,Default,,0,0,0,,o wierności.\NLojalność
+Dialogue: 0,0:07:53.44,0:07:58.47,Default,,0,0,0,,nie jest już związana z prawdą.  Lojalność jest związana z\Npopularnością.
+Dialogue: 0,0:07:58.47,0:08:04.40,Default,,0,0,0,,A mówiąc bardziej szczegółowo, jest to\Npoświęcenie pewnemu izmowi.
+Dialogue: 0,0:08:04.40,0:08:16.00,Default,,0,0,0,,Ekologia.\N.
+Dialogue: 0,0:08:16.00,0:08:20.08,Default,,0,0,0,,Cały ten dwutlenek węgla i atmosfera są\Ndobre.  Gdyby nie węgiel,
+Dialogue: 0,0:08:20.08,0:08:33.20,Default,,0,0,0,,calatus i prerie,\Nzabawne.  W każdym razie, jestem religijny wobec izmów
+Dialogue: 0,0:08:33.20,0:08:38.64,Default,,0,0,0,,i podkreślam, że pojawia się to w wielu wykładach,\Nwiesz, w książce „Niezwykłe,
+Dialogue: 0,0:08:38.64,0:08:43.68,Default,,0,0,0,,niezwykłe, popularne urojenia w\Nszaleństwie tłumów”, wiesz, ze
+Dialogue: 0,0:08:43.68,0:08:49.44,Default,,0,0,0,,względu na powtarzające się znaczenie.\NFakt, że wszyscy w to wierzą, nie
+Dialogue: 0,0:08:49.44,0:08:52.56,Default,,0,0,0,,ma nic wspólnego z tym, czy\Njest to prawdą, czy nie, wiecie, a
+Dialogue: 0,0:08:52.56,0:08:56.95,Default,,0,0,0,,globalne ocieplenie jest prawdopodobnie\Nnajwiększą obecną iluzją.  Jest to bardzo
+Dialogue: 0,0:08:56.95,0:09:02.00,Default,,0,0,0,,popularne wydarzenie, więc każdy może się w nim wziąć udział.  No cóż, oczywiście to, czego\Nuczyliśmy na poprzednich
+Dialogue: 0,0:09:02.00,0:09:06.64,Default,,0,0,0,,wykładach, jest teraz naukowo\Npotwierdzone.  W tym tygodniu stwierdzono, że
+Dialogue: 0,0:09:06.64,0:09:11.92,Default,,0,0,0,,temperatura Ziemi wynika z\Ncyklicznych zmian aktywności magnetycznej powierzchni
+Dialogue: 0,0:09:11.92,0:09:16.95,Default,,0,0,0,,Słońca.  Mówiliśmy o tym\Nkilka lat temu.  Więc po prostu chcę, żebyś widział
+Dialogue: 0,0:09:16.95,0:09:22.32,Default,,0,0,0,,potwierdzenie, bo inaczej zabrzmisz\Njak szaleniec.
+Dialogue: 0,0:09:22.32,0:09:30.08,Default,,0,0,0,,Brzmisz jak wariat.  A ja jestem\Nszanowanym wariatem.  Posiadam tytuł doktora.
+Dialogue: 0,0:09:30.08,0:09:33.92,Default,,0,0,0,,Inną popularną obecnie rzeczą są\Nte niezwykłe urojenia, które
+Dialogue: 0,0:09:33.92,0:09:38.56,Default,,0,0,0,,stają się bardzo popularne i\Ndominujące.  Zastanawiasz się, jak społeczeństwo w ogóle
+Dialogue: 0,0:09:38.56,0:09:45.36,Default,,0,0,0,,przetrwało.  Cóż, nie zdarza się to\Nczęsto.  Nie, nie.
+Dialogue: 0,0:09:45.36,0:09:54.00,Default,,0,0,0,,Ludzkość jest w stanie wojny przez 93%\Nczasu.  Jednym z aktualnie
+Dialogue: 0,0:09:54.00,0:09:57.36,Default,,0,0,0,,popularnych złudzeń dotyczących\Nekologii
+Dialogue: 0,0:09:57.36,0:10:05.92,Default,,0,0,0,,jest marksizm kulturowy.  Obecnie marksizm kulturowy\Njest bardzo popularny i opiera się na
+Dialogue: 0,0:10:05.92,0:10:13.44,Default,,0,0,0,,iluzji ofiary-sprawcy.  Chodzi\No znaki drogowe, które widać na
+Dialogue: 0,0:10:13.44,0:10:22.80,Default,,0,0,0,,skalibrowanych poziomach świadomości –\Nznaki są skalibrowane na 130, co sprawia, że ​​wyróżnia się
+Dialogue: 0,0:10:22.80,0:10:29.68,Default,,0,0,0,,jak bolący kciuk,\Na marksizm kulturowy jest teraz
+Dialogue: 0,0:10:29.68,0:10:36.32,Default,,0,0,0,,udoskonalonym marksizmem, z którego usunięto nazwę „marksista”,\Na który jest teraz produktem
+Dialogue: 0,0:10:36.32,0:10:41.51,Default,,0,0,0,,szkoły filozoficznej – niemieckiej\Nszkoły filozoficznej, szkoły frankfurckiej.
+Dialogue: 0,0:10:41.51,0:10:46.24,Default,,0,0,0,,Szkoła frankfurcka uczyła więc wszystkiego.\NWspółczesne uniwersytety
+Dialogue: 0,0:10:46.24,0:10:54.39,Default,,0,0,0,,są więc produktem marksizmu kulturowego.\NHm, dzięki Herbertowi Marcusowi.  Wszystkie
+Dialogue: 0,0:10:54.39,0:11:00.16,Default,,0,0,0,,z nich są skalibrowane na 180 lub 190.\NWidzisz więc nowoczesny uniwersytet.
+Dialogue: 0,0:11:00.16,0:11:04.32,Default,,0,0,0,,To wyjątkowy uniwersytet.  To\Njest
+Dialogue: 0,0:11:04.32,0:11:11.04,Default,,0,0,0,,wydział NAU i odkryliśmy, że\Nszkoły wyższe obecnie kalibrują się na poziomie
+Dialogue: 0,0:11:11.04,0:11:16.39,Default,,0,0,0,,400, a wielkie uniwersytety\Nkalibrują się poniżej 200.
+Dialogue: 0,0:11:16.39,0:11:21.83,Default,,0,0,0,,Wszystkie wielkie uniwersytety o\Nwielkich nazwach kalibrują się poniżej 300.
+Dialogue: 0,0:11:21.83,0:11:26.80,Default,,0,0,0,,Zobaczmy, czy to prawda.\NWszystkie te wspaniałe nazwy, jak nazywacie
+Dialogue: 0,0:11:26.80,0:11:34.00,Default,,0,0,0,,te uniwersytety?  elitarna Ivy League,\Nwszystkie kalibrowane poniżej 200, opierają się
+Dialogue: 0,0:11:34.00,0:11:40.80,Default,,0,0,0,,wszystkim kalibrowanym poniżej 200.\NWzrost i upadek cywilizacji
+Dialogue: 0,0:11:40.80,0:11:52.64,Default,,0,0,0,,staje się wtedy oczywisty, że nowe masowe\Nzłudzenie ogarnia społeczeństwo.
+Dialogue: 0,0:11:52.64,0:12:02.39,Default,,0,0,0,,Princeton,\Nwskaźnik poniżej 200. Cieszę się, że
+Dialogue: 0,0:12:02.39,0:12:09.51,Default,,0,0,0,,nie mam dzieci w wieku studenckim\N.
+Dialogue: 0,0:12:09.51,0:12:19.44,Default,,0,0,0,,uczelnię.  Tak.  Ponieważ ta uczelnia ma\Nskalę około 440.
+Dialogue: 0,0:12:19.44,0:12:24.63,Default,,0,0,0,,te świetne uniwersytety ze względu\Nna siłę ich nazwy.  Więc
+Dialogue: 0,0:12:24.63,0:12:30.32,Default,,0,0,0,,propagandziści wiedzą, że nazwa Harvard zrobi\Nwrażenie na wielu ludziach.  Yale,
+Dialogue: 0,0:12:30.32,0:12:37.76,Default,,0,0,0,,Princeton, widzicie,\Njak nazywa się ta uczelnia?   Co
+Dialogue: 0,0:12:37.76,0:12:42.07,Default,,0,0,0,,?\NKolegium Yavapai.  Czy mógłbyś zostać wybrany na
+Dialogue: 0,0:12:42.07,0:12:54.56,Default,,0,0,0,,prezydenta, gdybyś studiował w Gavapai\NCollege?   Nie pasowałbyś
+Dialogue: 0,0:12:54.56,0:13:07.27,Default,,0,0,0,,świata.  Popularny świat kalibruje 170.\NStal się nie topi.  Kalibracja na 160.
+Dialogue: 0,0:13:07.27,0:13:13.04,Default,,0,0,0,,Tak właśnie produkuje się podkłady kolejowe.\NTory kolejowe.  Uhuh.
+Dialogue: 0,0:13:13.04,0:13:17.27,Default,,0,0,0,,Widzimy więc tę niekończącą się walkę o\Ndominację
+Dialogue: 0,0:13:17.27,0:13:23.44,Default,,0,0,0,,i kontrolę.  Polityka jest więc\Nwalką o dominację i
+Dialogue: 0,0:13:23.44,0:13:28.00,Default,,0,0,0,,kontrolę.  A oczywiście, gdy już\Nzdominujesz, będziesz walczyć i będziesz mieć
+Dialogue: 0,0:13:28.00,0:13:33.92,Default,,0,0,0,,kontrolę, możesz wydoić to mleko, za które dostaniesz\Nmiliony dolarów.  I to jest to, co
+Dialogue: 0,0:13:33.92,0:13:40.39,Default,,0,0,0,,zawsze mnie zadziwia, to to, że ten polityk\Nzostał, wiesz, pozwany,
+Dialogue: 0,0:13:40.39,0:13:47.36,Default,,0,0,0,,aresztowany, osadzony itd. za, no\Nwiesz, przyjmowanie ogromnych łapówek,
+Dialogue: 0,0:13:47.36,0:13:51.60,Default,,0,0,0,,wiesz, na Alasce, powiedzmy, albo w jakimś innym miejscu, a\Npotem, co mnie zadziwia, to to, że po kolejnych
+Dialogue: 0,0:13:51.60,0:14:02.72,Default,,0,0,0,,wyborach został ponownie wybrany i osadzony\Nza oszustwa, machinacje,
+Dialogue: 0,0:14:02.72,0:14:15.19,Default,,0,0,0,,a mimo to został ponownie wybrany.\Ndemokracja nie może trwać dłużej niż
+Dialogue: 0,0:14:15.19,0:14:20.63,Default,,0,0,0,,paręset lat.  Nasza demokracja ma\N300 lat.
+Dialogue: 0,0:14:20.63,0:14:25.04,Default,,0,0,0,,że rzadko, a właściwie praktycznie\Nnigdy, demokracja nie trwa dłużej niż
+Dialogue: 0,0:14:25.04,0:14:30.63,Default,,0,0,0,,dwieście czy trzydzieści lat, gdyż\Nludzie nie potrafią odróżnić prawdy od fałszu,
+Dialogue: 0,0:14:30.63,0:14:36.39,Default,,0,0,0,,gdyż tak łatwo dają się zwieść\Nwilkowi i owczej skórze.   Jeśli
+Dialogue: 0,0:14:36.39,0:14:40.88,Default,,0,0,0,,coś jest prawdopodobne, a zwłaszcza biorąc pod uwagę\Ndzisiejsze media, możesz zostać poddany
+Dialogue: 0,0:14:40.88,0:14:45.04,Default,,0,0,0,,praniu mózgu, nieświadomie\Nmyjąc zęby.
+Dialogue: 0,0:14:45.04,0:14:48.95,Default,,0,0,0,,Albo myjesz zęby, ktoś ci pranie\Nmózgu.
+Dialogue: 0,0:14:48.95,0:14:57.76,Default,,0,0,0,,Zawsze wyłączaj telewizor, kiedy\Nmyjesz zęby,
+Dialogue: 0,0:14:57.76,0:15:04.32,Default,,0,0,0,,manipulowany.  Tak więc umysł współczesnego\Nczłowieka nie tylko upadł do
+Dialogue: 0,0:15:04.32,0:15:12.07,Default,,0,0,0,,poziomu krytycznego, ale stał się podatny, a dzieje się tak z\Npowodu niewinnej, wewnętrznej
+Dialogue: 0,0:15:12.07,0:15:18.39,Default,,0,0,0,,niewinności dziecka.\NNiewinność dziecka.  Więc ludzkość to intuicyjnie wyczuła
+Dialogue: 0,0:15:18.39,0:15:24.56,Default,,0,0,0,,i dostrzegała na przestrzeni dziejów\N.  Cóż, wielcy
+Dialogue: 0,0:15:24.56,0:15:32.63,Default,,0,0,0,,nauczyciele to: Jezus Chrystus,\NSokrates, Budda, Mojżesz
+Dialogue: 0,0:15:32.63,0:15:38.63,Default,,0,0,0,,i wszyscy inni\Nwielcy nauczyciele wszech czasów.
+Dialogue: 0,0:15:38.63,0:15:46.88,Default,,0,0,0,,Kiedy więc czczono tradycyjną mądrość, człowiek\Nbył w pewnym sensie chroniony przed współczesnymi
+Dialogue: 0,0:15:46.88,0:15:51.60,Default,,0,0,0,,błędami i nonsensami,\Nponieważ zawsze w głębi umysłu porównywano ją
+Dialogue: 0,0:15:51.60,0:15:57.19,Default,,0,0,0,,z naukami\NJezusa Chrystusa, powiedzmy, albo Sokratesa, albo
+Dialogue: 0,0:15:57.19,0:16:02.88,Default,,0,0,0,,jakiejś wielkiej istoty.\NNo i bez tradycyjnego wykształcenia
+Dialogue: 0,0:16:02.88,0:16:08.95,Default,,0,0,0,,nie ma już wewnętrznych wytycznych.\NNie ma wewnętrznych wytycznych.
+Dialogue: 0,0:16:08.95,0:16:15.51,Default,,0,0,0,,Widzimy więc, że ideologia marksistowska rozprzestrzenia się\Nna całe społeczeństwo.
+Dialogue: 0,0:16:15.51,0:16:27.83,Default,,0,0,0,,Marksistowska dwoistość to sprawca i\Nofiara.  A w tym systemie indoktrynacji
+Dialogue: 0,0:16:27.83,0:16:34.63,Default,,0,0,0,,większości.   Tak właśnie\Npatrzył na to Markx.
+Dialogue: 0,0:16:34.63,0:16:42.24,Default,,0,0,0,,Mamy już ofiarę.  Wiktymologia\Ni wyższość moralna polegają na uznaniu
+Dialogue: 0,0:16:42.24,0:16:47.04,Default,,0,0,0,,siebie za większą ofiarę niż ktoś\Ninny.   Cieszę
+Dialogue: 0,0:16:47.04,0:17:00.07,Default,,0,0,0,,się więc, że pomarszczeni starcy stają się\Nofiarami.  Daje mi szansę.
+Dialogue: 0,0:17:00.07,0:17:04.95,Default,,0,0,0,,Musiałem długo czekać, żeby stać się ofiarą,\Nwiesz.
+Dialogue: 0,0:17:04.95,0:17:08.48,Default,,0,0,0,,Oh.   W\Nporządku.  Więc co w tym atrakcyjnego?  Co
+Dialogue: 0,0:17:08.48,0:17:12.95,Default,,0,0,0,,mówisz do siebie?  Na czym polega atrakcyjność\Npolityki?  Oprócz korzyści, które
+Dialogue: 0,0:17:12.95,0:17:19.03,Default,,0,0,0,,z tego czerpią, jest to oczywiście\Nwalka o dominację i wewnętrzny
+Dialogue: 0,0:17:19.03,0:17:23.91,Default,,0,0,0,,narcyzm rzutowany na\Nświat.
+Dialogue: 0,0:17:23.91,0:17:28.31,Default,,0,0,0,,Wspomnieliśmy o 9/10enach drugiej\Nzalety.  Tak.  Tak, wspominaliśmy o tym
+Dialogue: 0,0:17:28.31,0:17:36.72,Default,,0,0,0,,.  Tak.  Chciałem mieć pewność, że o tym nie\Nzapomnę.  Oczywiście, to
+Dialogue: 0,0:17:36.72,0:17:43.03,Default,,0,0,0,,konserwatystą, częściowo zależy od\Ntwojego wieku.  Widzisz, jeśli nie jesteś
+Dialogue: 0,0:17:43.03,0:17:46.64,Default,,0,0,0,,liberałem, gdy jesteś młody, to nie masz\Nserca.  Jeśli na starość nadal jesteś liberałem
+Dialogue: 0,0:17:46.64,0:18:09.28,Default,,0,0,0,,, to nie masz mózgu.\Nblaskiem przyczyn.  Załóżmy więc, że
+Dialogue: 0,0:18:09.28,0:18:14.32,Default,,0,0,0,,ochrona środowiska\Njest szlachetną sprawą i każdy chce
+Dialogue: 0,0:18:14.32,0:18:19.28,Default,,0,0,0,,przyłączyć się do akcji\Ni zapobiec wydalaniu gazów przez bydło na pokładzie samolotu
+Dialogue: 0,0:18:19.28,0:18:33.44,Default,,0,0,0,,.   Oczywiście,\Nwięc ekolodzy chcą, żebyśmy
+Dialogue: 0,0:18:33.44,0:18:44.96,Default,,0,0,0,,wszyscy zostali wegetarianami, a to\Nzapobiegnie
+Dialogue: 0,0:18:44.96,0:19:01.44,Default,,0,0,0,,robisz w wagonie metra, ale cóż.\NDowód kontra fałsz.
+Dialogue: 0,0:19:01.44,0:19:07.28,Default,,0,0,0,,Media są ekspertami w dziedzinie parodii i\Nprogramowania odbiorców tak, aby uwierzyli w coś
+Dialogue: 0,0:19:07.28,0:19:11.60,Default,,0,0,0,,dokładnie odwrotnego od prawdy.\NA gdy już wiesz, jak to
+Dialogue: 0,0:19:11.60,0:19:16.24,Default,,0,0,0,,wszystko skalibrować, to oczywiście fajnie jest oglądać\Ncodzienne wiadomości i oceniać, jaki jest
+Dialogue: 0,0:19:16.24,0:19:22.08,Default,,0,0,0,,poziom zeznań danego świadka.   Czy\Nta osoba popełniła tę zbrodnię czy
+Dialogue: 0,0:19:22.08,0:19:26.96,Default,,0,0,0,,nie?  Czy są winni czy niewinni?  Czy\Nciało znajduje się pod płytą cementową?  Rozumiesz, o
+Dialogue: 0,0:19:26.96,0:19:34.72,Default,,0,0,0,,czym mówię?\Nodkryciu.  Tak więc,
+Dialogue: 0,0:19:34.72,0:19:38.08,Default,,0,0,0,,inną rzeczą dotyczącą naszej techniki\Nmówienia prawdy od ogółu jest
+Dialogue: 0,0:19:38.08,0:19:43.91,Default,,0,0,0,,dyskrecja.  Ludzie\Nnie lubią prawdy.
+Dialogue: 0,0:19:43.91,0:19:49.03,Default,,0,0,0,,Ludzie nie lubią prawdy.\NAkceptują to,
+Dialogue: 0,0:19:49.03,0:19:54.00,Default,,0,0,0,,w co inwestują narcystycznie.\NPrawda ich nie interesuje.
+Dialogue: 0,0:19:54.00,0:19:57.91,Default,,0,0,0,,A jeśli chcesz się zabić, po prostu\Nwszędzie, gdzie pójdziesz, rozgłaszaj prawdę
+Dialogue: 0,0:19:57.91,0:20:08.55,Default,,0,0,0,,.   Będziesz miał\Nszczęście, jeśli uda ci się przejść przez ten pokój.
+Dialogue: 0,0:20:08.55,0:20:15.44,Default,,0,0,0,,jest to, co popularne.  Oh okej.\NCo jest popularne?  Więc każdy chce być
+Dialogue: 0,0:20:15.44,0:20:22.24,Default,,0,0,0,,częścią tłumu.  U każdego tak jest,\Nto tak naprawdę instynkt stadny.  Jeśli więc
+Dialogue: 0,0:20:22.24,0:20:26.24,Default,,0,0,0,,spojrzymy na ludzkość z uwzględnieniem jej ograniczeń\Ni tego, jak wyewoluowała ze
+Dialogue: 0,0:20:26.24,0:20:31.03,Default,,0,0,0,,świata zwierząt.\NNastępnie widzimy, że tym, co najbardziej fascynuje umysły
+Dialogue: 0,0:20:31.03,0:20:37.76,Default,,0,0,0,,większości ludzi, jest\Ninstynkt stadny.  Jeśli każdy w
+Dialogue: 0,0:20:37.76,0:20:44.40,Default,,0,0,0,,to wierzy, jeśli każdy wierzy, że katalus\Ndoprowadzi do
+Dialogue: 0,0:20:44.40,0:20:53.44,Default,,0,0,0,,zatrzymania się planety, to wtedy stajesz się\Nwegetarianinem.  Tak.
+Dialogue: 0,0:20:53.44,0:21:03.52,Default,,0,0,0,,Wszyscy wegetarianie, których znałem, nie\Nżyją.  No więc nie wiem.
+Dialogue: 0,0:21:03.52,0:21:07.44,Default,,0,0,0,,znałem.  To fakt.  każdy z nich.\NI już ci o nich
+Dialogue: 0,0:21:07.44,0:21:10.24,Default,,0,0,0,,wcześniej opowiadałem.  Nazywaliśmy ich „brązowymi\Npakowaczami”.
+Dialogue: 0,0:21:10.24,0:21:13.67,Default,,0,0,0,,Wszyscy siedzieli z tyłu\Nsali jadalnej i mieli ze sobą
+Dialogue: 0,0:21:13.67,0:21:18.55,Default,,0,0,0,,brązową torbę.  A tam był\Nbrązowy ryż ekologiczny.
+Dialogue: 0,0:21:18.55,0:21:24.24,Default,,0,0,0,,A potem wychodzili pobiegać.  Zatem jeśli chodzi o\Nbrązowy ryż organiczny i jogging,
+Dialogue: 0,0:21:24.24,0:21:31.03,Default,,0,0,0,,wszystkie te metody są nieskuteczne.\NWszyscy moi koledzy z Brown Baggers nie
+Dialogue: 0,0:21:31.03,0:21:49.44,Default,,0,0,0,,żyją.  Oprzeć się.\NWszystkie.   Wszyscy nie
+Dialogue: 0,0:21:49.44,0:22:03.36,Default,,0,0,0,,Jeśli wierzysz, że wszystko, co się dzieje, cię\Nzabije, to tak się stanie.   W
+Dialogue: 0,0:22:03.36,0:22:09.52,Default,,0,0,0,,również, eee, dzisiaj autorytet jest traktowany z\Nwielką podejrzliwością i ważniejsze jest, aby
+Dialogue: 0,0:22:09.52,0:22:15.28,Default,,0,0,0,,popierać jakąś sprawę, a\Ninna rzecz, że ludzie duchowi
+Dialogue: 0,0:22:15.28,0:22:20.88,Default,,0,0,0,,muszą trzymać się pułapki.  Widzisz,\Njest tam spacer przez bagna
+Dialogue: 0,0:22:20.88,0:22:27.44,Default,,0,0,0,,i jest przedstawienie duszy,\Newoluującej duszy, spacerującej przez bagna,
+Dialogue: 0,0:22:27.44,0:22:32.72,Default,,0,0,0,,a uwodzenie jest po jednej stronie i\Nuwodzenie po drugiej.  Uwodzenia, przez które
+Dialogue: 0,0:22:32.72,0:22:39.36,Default,,0,0,0,,przechodzisz, to\Nuwodzenie astralnego cyrku, a
+Dialogue: 0,0:22:39.36,0:22:44.79,Default,,0,0,0,,astralny cyrk jest również pełen\Nuroku i ludzi, którzy łączą się z różnymi
+Dialogue: 0,0:22:44.79,0:22:50.08,Default,,0,0,0,,bytami itd.\NI nie ma znaczenia, czy to robią, czy nie.
+Dialogue: 0,0:22:50.08,0:22:53.91,Default,,0,0,0,,Czasami jest to Integris.  Jest\Njeden bardzo sławny.  Jej moc wynosi
+Dialogue: 0,0:22:53.91,0:23:00.64,Default,,0,0,0,,około 350 i jest ona naprawdę bardzo jasnowidząca\N.  To jest możliwe.
+Dialogue: 0,0:23:00.64,0:23:05.91,Default,,0,0,0,,Ale jeśli chodzi o istotę po drugiej stronie, to\Nzawsze mówię, że gdyby była to istota rozwinięta,
+Dialogue: 0,0:23:05.91,0:23:11.12,Default,,0,0,0,,nie kręciłaby się tu i nie próbowała\Nkontrolować ludzi na planecie.  Wolałbym udać się
+Dialogue: 0,0:23:11.12,0:23:16.55,Default,,0,0,0,,do wyższego wymiaru,\Nniż przemawiać przez jakieś medium trans.
+Dialogue: 0,0:23:16.55,0:23:23.03,Default,,0,0,0,,Robiłem więc rzeczy, które pojawiały się w\Ndość nienaturalny sposób, a potem bardzo często
+Dialogue: 0,0:23:23.03,0:23:27.84,Default,,0,0,0,,służyły jakiemuś innemu celowi i naprawdę trzeba było\Nskalibrować ich integralność.
+Dialogue: 0,0:23:27.84,0:23:31.52,Default,,0,0,0,,Nie chodzi tylko o byt po drugiej stronie,\Nale o to, na ile byt po drugiej
+Dialogue: 0,0:23:31.52,0:23:41.44,Default,,0,0,0,,stronie dokonuje kalibracji?\Nurokiem wyjątkowości.  Urok
+Dialogue: 0,0:23:41.44,0:23:47.84,Default,,0,0,0,,wyjątkowości.  Wiesz, że słucham\NYogi Baby po drugiej stronie.  Wiesz, że był
+Dialogue: 0,0:23:47.84,0:23:54.48,Default,,0,0,0,,tam przez 10 000 lat i\Nteraz co,
+Dialogue: 0,0:23:54.48,0:24:01.76,Default,,0,0,0,,istota po drugiej stronie\Notrzymuje witalizację dzięki władzy nad
+Dialogue: 0,0:24:01.76,0:24:08.40,Default,,0,0,0,,innymi.  zmusili wszystkich tych głupich\Nludzi do posłuchania ich rad.
+Dialogue: 0,0:24:08.40,0:24:17.90,Default,,0,0,0,,Jeśli więc po drugiej stronie masz nauczyciela,\Nzawsze dostosuj go do swoich potrzeb.  Nie chodzi o to, że po
+Dialogue: 0,0:24:17.90,0:24:24.79,Default,,0,0,0,,drugiej stronie nie ma dobrych nauczycieli, ale powinieneś wiedzieć, że\Nkontrolowanie ludzi.  I zawsze, zawsze
+Dialogue: 0,0:24:24.79,0:24:36.48,Default,,0,0,0,,powinieneś kalibrować dowód Master\NHoo
+Dialogue: 0,0:24:36.48,0:24:41.91,Default,,0,0,0,,atrakcja cyrku astralnego.\NNo i oczywiście, wiesz, jest to przedstawiane
+Dialogue: 0,0:24:41.91,0:24:48.08,Default,,0,0,0,,naiwnym ludziom jako nowy aizm.\NKiedy jesteśmy nowicjuszami w
+Dialogue: 0,0:24:48.08,0:24:54.96,Default,,0,0,0,,świecie duchowym, uderza nas\Npewna rzeczywistość zjawisk paranormalnych,
+Dialogue: 0,0:24:54.96,0:25:01.12,Default,,0,0,0,,rzeczy, które nie podlegają\Ndowodom naukowym i fakt, że
+Dialogue: 0,0:25:01.12,0:25:07.12,Default,,0,0,0,,istnieją rzeczy niewytłumaczalne.\NTak więc Biblia mówi i zgadza się, że
+Dialogue: 0,0:25:07.12,0:25:12.32,Default,,0,0,0,,istnieją rzeczy wykraczające poza zjawiska\Nparanormalne,
+Dialogue: 0,0:25:12.32,0:25:17.67,Default,,0,0,0,,i ich nie potępia.  Mówi tylko, żeby\Ntam nie iść.  Nie idź tam.
+Dialogue: 0,0:25:17.67,0:25:22.96,Default,,0,0,0,,Nie jesteś przygotowany.  Nie jesteś przygotowany do\Nobsługi bytów z innych wymiarów.
+Dialogue: 0,0:25:22.96,0:25:27.91,Default,,0,0,0,,Nikt tutaj nie jest przygotowany do radzenia sobie z\Nbytami z innych wymiarów.
+Dialogue: 0,0:25:27.91,0:25:33.84,Default,,0,0,0,,Sprawdźmy czy to fakt.  Nikt tutaj nie jest\Nprzygotowany do radzenia sobie z bytami z innych
+Dialogue: 0,0:25:33.84,0:25:41.20,Default,,0,0,0,,wymiarów.  Oprzeć się.\NZatem z pokory nauczyciel mówi, abyś
+Dialogue: 0,0:25:41.20,0:25:45.76,Default,,0,0,0,,unikał tego, co wykracza poza twoje\Npojmowanie, ponieważ pochodzą oni z
+Dialogue: 0,0:25:45.76,0:25:50.88,Default,,0,0,0,,innych wymiarów, a ich pojęcie\Nrzeczywistości, motywacje i
+Dialogue: 0,0:25:50.88,0:25:56.79,Default,,0,0,0,,styl działania całkowicie wykraczają poza\Ntwoją domenę,
+Dialogue: 0,0:25:56.79,0:26:01.27,Default,,0,0,0,,a założenia, które wysuwasz, są\Npozorne.  rzutowałeś to na
+Dialogue: 0,0:26:01.27,0:26:07.76,Default,,0,0,0,,byt.  Nie ma tu szczególnego zainteresowania\Ntwoim przetrwaniem, twoją duchową
+Dialogue: 0,0:26:07.76,0:26:13.52,Default,,0,0,0,,ewolucją czy oświeceniem.\NUczeń, który odnosił sukcesy,
+Dialogue: 0,0:26:13.52,0:26:17.27,Default,,0,0,0,,szybko porzuciłby nauczyciela\N.  Więc ostatnią rzeczą, jakiej może dopuścić się nauczyciel
+Dialogue: 0,0:26:17.27,0:26:21.76,Default,,0,0,0,,po drugiej stronie, jest to, abyś stał się\Nduchowym arystokratą, bo właśnie
+Dialogue: 0,0:26:21.76,0:26:33.60,Default,,0,0,0,,stracił swojego naśladowcę.\NJesteśmy ślepi na paradygmaty.  Jesteśmy
+Dialogue: 0,0:26:33.60,0:26:38.88,Default,,0,0,0,,ślepi na paradygmaty.  Inną trudnością, z jaką zmaga się\Nludzki umysł, jest nie tylko
+Dialogue: 0,0:26:38.88,0:26:43.67,Default,,0,0,0,,narcyzm, ufne\Ndziecko, ufne
+Dialogue: 0,0:26:43.67,0:26:48.15,Default,,0,0,0,,dziecko wewnątrz nas, ale także to, co nazywamy\Nślepotą paradygmatyczną.
+Dialogue: 0,0:26:48.15,0:26:53.67,Default,,0,0,0,,To, co jest prawdą w jednym paradygmacie, nie musi być prawdą\Nw innym.
+Dialogue: 0,0:26:53.67,0:26:59.44,Default,,0,0,0,,A paradygmat obejmuje ogólny\Npoziom świadomości.
+Dialogue: 0,0:26:59.44,0:27:04.79,Default,,0,0,0,,To, co jest prawdą w jednym paradygmacie, nie musi być prawdą\Nw innym.  Tak więc trudność
+Dialogue: 0,0:27:04.79,0:27:11.76,Default,,0,0,0,,tradycyjnego sceptyka, osoby wątpiącej,\Nwynika zwykle z niższego stanu umysłu, który
+Dialogue: 0,0:27:11.76,0:27:17.44,Default,,0,0,0,,zajmuje się jedynie liniową, liniową\Ndowodliwością,
+Dialogue: 0,0:27:17.44,0:27:23.76,Default,,0,0,0,,a wymiary duchowe są nieliniowe i\Nniemożliwe do udowodnienia.
+Dialogue: 0,0:27:23.76,0:27:28.79,Default,,0,0,0,,To, co da się udowodnić,\Nma inny wymiar.
+Dialogue: 0,0:27:28.79,0:27:34.08,Default,,0,0,0,,Nie można więc obalić tezy\Nnieliniowej, powołując się na argumenty
+Dialogue: 0,0:27:34.08,0:27:40.24,Default,,0,0,0,,liniowe.  I dlatego sceptyk\Nkalibruje tylko około 170. A spośród wszystkich
+Dialogue: 0,0:27:40.24,0:27:43.91,Default,,0,0,0,,demaskatorów, tylko jeden lub dwóch\Ndemaskatorów jest naprawdę uczciwych.   Jest ich
+Dialogue: 0,0:27:43.91,0:27:49.03,Default,,0,0,0,,tylko kilka.  Reszta z\Nnich po prostu czerpie satysfakcję z prób
+Dialogue: 0,0:27:49.03,0:27:54.79,Default,,0,0,0,,naśladowania tego, co prawdziwe.  A ponieważ\Nnaśladowali teorię, zakładają, że
+Dialogue: 0,0:27:54.79,0:28:00.55,Default,,0,0,0,,ją obalili.  Tak.  To, że potrafisz\Ncoś naśladować, nie oznacza, że ​​to
+Dialogue: 0,0:28:00.55,0:28:05.27,Default,,0,0,0,,obaliłeś.  Oznacza to po prostu, że nauczyłeś się\Nnaśladować daną rzecz.  A
+Dialogue: 0,0:28:05.27,0:28:15.67,Default,,0,0,0,,wielki Randy, na przykład, jest\Nmagikiem scenicznym.  Magik sceniczny.
+Dialogue: 0,0:28:15.67,0:28:21.52,Default,,0,0,0,,nie można ani udowodnić, ani obalić założenia\Nnieliniowego.  W całej rzeczywistości duchowej,
+Dialogue: 0,0:28:21.52,0:28:25.60,Default,,0,0,0,,całe pojmowanie boskości i\Nprawdy duchowej, jak wiadomo, ma
+Dialogue: 0,0:28:25.60,0:28:31.36,Default,,0,0,0,,inny wymiar niż liniowy.  Zjawisko\Nliniowe jest udowodnione i demonstrowalne.   To, co
+Dialogue: 0,0:28:31.36,0:28:37.84,Default,,0,0,0,,nieliniowe, jest głębsze i bardziej\Nrozproszone, i oczywiście ulega znacznym zmianom.
+Dialogue: 0,0:28:37.84,0:28:42.72,Default,,0,0,0,,Można pokazać jego efekt, wyświetlając\Nczas startu przy wystrzale startowym.
+Dialogue: 0,0:28:42.72,0:28:47.91,Default,,0,0,0,,9/10 sekundy to spore opóźnienie.  Spore\Nopóźnienie, gdy biegniesz na 100 jardów.
+Dialogue: 0,0:28:47.91,0:28:53.20,Default,,0,0,0,,9/10 sekundy wystarczy, żeby przegrać wyścig.   Ma to\Nzatem ogromny wpływ na nasze
+Dialogue: 0,0:28:53.20,0:28:57.52,Default,,0,0,0,,zachowanie i rozumienie naszych\Nmotywacji.
+Dialogue: 0,0:28:57.52,0:29:03.36,Default,,0,0,0,,Najsilniejszą\Nmotywacją jest chęć życia w
+Dialogue: 0,0:29:03.36,0:29:09.36,Default,,0,0,0,,życzliwości i miłości wobec wszystkich żywych\Nistot.  Próbujesz zrozumieć, i nawet w
+Dialogue: 0,0:29:09.36,0:29:16.64,Default,,0,0,0,,rzeczach, których nie pochwalamy, potrafisz\Nrozpoznać intencję.
+Dialogue: 0,0:29:16.64,0:29:21.91,Default,,0,0,0,,Jeśli Chiny biorą pod uwagę konformizm,\Nuległość,
+Dialogue: 0,0:29:21.91,0:29:28.72,Default,,0,0,0,,poświęcenie osobiste dla\Ndobra kraju, to
+Dialogue: 0,0:29:28.72,0:29:35.52,Default,,0,0,0,,krytykowanie go brzmi nieco egoistycznie i krytycznie\N.  Dlatego nie zgodziłem się z żadnymi
+Dialogue: 0,0:29:35.52,0:29:42.24,Default,,0,0,0,,negatywnymi komentarzami ani naganami, jakie\Nwypowiedzieli uczestnicy, ponieważ
+Dialogue: 0,0:29:42.24,0:29:47.60,Default,,0,0,0,,mówiliście o innej kulturze,\Na zatem mamy pewien
+Dialogue: 0,0:29:47.60,0:29:51.84,Default,,0,0,0,,wewnętrzny szacunek dla wszystkich\Nkultur.
+Dialogue: 0,0:29:51.84,0:29:56.24,Default,,0,0,0,,Im więcej wiesz o danej kulturze, tym\Nwiększy szacunek ją darzysz.
+Dialogue: 0,0:29:56.24,0:30:06.79,Default,,0,0,0,,Kultura rdzennych Amerykanów jest niezwykle pełna czci.\Nniewykształconymi dzikusami.  Co oni wiedzą?
+Dialogue: 0,0:30:06.79,0:30:12.88,Default,,0,0,0,,Ale są one głęboko duchowe.\NZanim więc zabijesz jelenia, przeproś go
+Dialogue: 0,0:30:12.88,0:30:18.00,Default,,0,0,0,,.  Poświęcasz to najwyższemu\Ndobru.  A zatem ze względu na
+Dialogue: 0,0:30:18.00,0:30:23.91,Default,,0,0,0,,intencję zabicie jelenia w celu zdobycia\Npożywienia, wiesz, nie jest już
+Dialogue: 0,0:30:23.91,0:30:31.03,Default,,0,0,0,,aktem negatywnym, ale staje się czymś\Nduchowym.  Duchowość
+Dialogue: 0,0:30:31.03,0:30:35.84,Default,,0,0,0,,rdzennych Amerykanów jest zatem niezwykle wysoka\Ni oczywiście cała ludzkość
+Dialogue: 0,0:30:35.84,0:30:48.96,Default,,0,0,0,,od zarania dziejów intuicyjnie wyczuwała istnienie wyższej siły.\Nnawet jeśli są od siebie oddzielone
+Dialogue: 0,0:30:48.96,0:30:55.44,Default,,0,0,0,,w czasie i przestrzeni,\Nuznają boskość swojej boskości.
+Dialogue: 0,0:30:55.44,0:31:00.55,Default,,0,0,0,,Nie ma istniejącej, odnoszącej sukcesy\Nkultury, która nie uznawałaby
+Dialogue: 0,0:31:00.55,0:31:06.32,Default,,0,0,0,,boskości Boga.\NA niektórzy próbują zastąpić to
+Dialogue: 0,0:31:06.32,0:31:11.20,Default,,0,0,0,,państwem.  A co oni czczą?\NOni czczą państwo.  Bez względu na to, czy
+Dialogue: 0,0:31:11.20,0:31:15.67,Default,,0,0,0,,czcisz komunizm, państwo\Nkomunistyczne, czy też czcisz
+Dialogue: 0,0:31:15.67,0:31:20.15,Default,,0,0,0,,bóstwo, nadal czcisz\Ncoś większego niż twoje własne „ja”
+Dialogue: 0,0:31:20.15,0:31:28.72,Default,,0,0,0,,.  Więc to już jest krok, nawet jeśli\Nrobisz to w imię ideału komunistycznego.  Wtedy
+Dialogue: 0,0:31:28.72,0:31:35.84,Default,,0,0,0,,pracownicy, nie macie nic do stracenia, ale\Nwasze łańcuchy stają się coraz bardziej budujące
+Dialogue: 0,0:31:35.84,0:31:42.64,Default,,0,0,0,,.  Rzecz sama w sobie nie jest ani tym,\Nani tamtym,
+Dialogue: 0,0:31:42.64,0:31:47.84,Default,,0,0,0,,ale tym, co z nią zrobimy, jak\Nją pojmiemy i jak
+Dialogue: 0,0:31:47.84,0:32:00.00,Default,,0,0,0,,ją kontekstualizujemy.  Kontekst ma więc ogromne znaczenie.\NTo kontekst ma znaczenie, jeśli chodzi o
+Dialogue: 0,0:32:00.00,0:32:05.36,Default,,0,0,0,,9/10 sekundy, to znaczy, że właśnie przegapiłeś\Nwygraną w wyścigu.  Właśnie to przegapiłem.
+Dialogue: 0,0:32:05.36,0:32:10.55,Default,,0,0,0,,Zaledwie\N9 9/10 sekundy dzieli Cię od przegranego biegu na
+Dialogue: 0,0:32:10.55,0:32:18.00,Default,,0,0,0,,100 jardów.  Co?  Jak więc\Nludzkość popadła w tak
+Dialogue: 0,0:32:18.00,0:32:26.32,Default,,0,0,0,,trudną interpretację?\NUłomność rodzaju ludzkiego
+Dialogue: 0,0:32:26.32,0:32:32.32,Default,,0,0,0,,sprawia, że ​​stajemy się pokorni.   Oto\Nprzykład tego, co nazywam
+Dialogue: 0,0:32:32.32,0:32:37.44,Default,,0,0,0,,kłamliwymi oczami.\NJeśli weźmiesz świadków przestępstwa i
+Dialogue: 0,0:32:37.44,0:32:43.27,Default,,0,0,0,,zrobisz to, wiesz, że pokażą ci\Nzdjęcia wszystkich tych przestępców, a
+Dialogue: 0,0:32:43.27,0:32:52.64,Default,,0,0,0,,identyfikacja winnego w\N50% przypadków będzie błędna.
+Dialogue: 0,0:32:52.64,0:32:58.55,Default,,0,0,0,,Był świetny projekt mający na celu uwolnienie\Nwięźniów skazanych na śmierć, i to było
+Dialogue: 0,0:32:58.55,0:33:03.27,Default,,0,0,0,,bardzo ważne, ponieważ ten facet trafił do\Nceli śmierci, bo rozpoznało go
+Dialogue: 0,0:33:03.27,0:33:10.24,Default,,0,0,0,,dwóch lub trzech świadków.  Potem okazało się, że\Nwszyscy kłamali.
+Dialogue: 0,0:33:10.24,0:33:15.60,Default,,0,0,0,,Kłamliwe oczy zdarzają się,\Nsprawdźmy, w jakim procencie przypadków
+Dialogue: 0,0:33:15.60,0:33:23.44,Default,,0,0,0,,identyfikacja podejrzanych\Nświadków jest błędna. 50% przypadków
+Dialogue: 0,0:33:23.44,0:33:29.91,Default,,0,0,0,,50% przypadków 55\N% przypadków 50% przypadków 50%
+Dialogue: 0,0:33:29.91,0:33:36.79,Default,,0,0,0,,przypadków Trzy\Nosoby mówią: Widziałem, jak on to robił, teraz jest w
+Dialogue: 0,0:33:36.79,0:33:44.72,Default,,0,0,0,,więzieniu i w 50% przypadków się myli.\NNawet swojemu własnemu postrzeganiu nie możesz
+Dialogue: 0,0:33:44.72,0:33:56.24,Default,,0,0,0,,ufać.\Ntym wykładzie.
+Dialogue: 0,0:33:56.24,0:34:09.52,Default,,0,0,0,,wierzyć własnym oczom.\Nwiem.   W
+Dialogue: 0,0:34:09.52,0:34:20.63,Default,,0,0,0,,Cóż, istnieje kilka wyjaśnień.\Nz nich, z którym się zgadzam,
+Dialogue: 0,0:34:20.63,0:34:34.80,Default,,0,0,0,,jest kwestia wpływu karmy.  Tak.\NNajpoważniejszym skutkiem jest karma.
+Dialogue: 0,0:34:34.80,0:34:40.48,Default,,0,0,0,,i powiedzieć: „Cóż, chrześcijaństwo nie\Nwierzy w karmę. Cywilizacja zachodnia
+Dialogue: 0,0:34:40.48,0:34:45.67,Default,,0,0,0,,nie wierzy w karmę”.\NChrześcijaństwo wierzy w karmę.  To z
+Dialogue: 0,0:34:45.67,0:34:50.00,Default,,0,0,0,,powodu Ogrodu Eden.  Gdyby\Nnie ogród i upadek człowieka
+Dialogue: 0,0:34:50.00,0:34:56.96,Default,,0,0,0,,w Ogrodzie Eden, nie potrzebowalibyście\Nzbawiciela.  Nie byłoby grzechu.
+Dialogue: 0,0:34:56.96,0:35:04.56,Default,,0,0,0,,Ale jaki był problem w\NOgrodzie Eden?  Problem ten jest zazwyczaj
+Dialogue: 0,0:35:04.56,0:35:13.76,Default,,0,0,0,,przedstawiany jako nieposłuszeństwo wobec Bożego nakazu, aby\Nnie jeść owocu drzewa mądrości.  Tak.
+Dialogue: 0,0:35:13.76,0:35:25.59,Default,,0,0,0,,Ale wąż przyszedł i\Nbędzie dobrze”.
+Dialogue: 0,0:35:25.59,0:35:29.68,Default,,0,0,0,,I tak zrobiła.\NTo był upadek człowieka.  A potem
+Dialogue: 0,0:35:29.68,0:35:36.24,Default,,0,0,0,,zauważyli, że nie mieli na sobie ubrań.\Ni byli nadzy i skryli się ze wstydu.
+Dialogue: 0,0:35:36.24,0:35:42.00,Default,,0,0,0,,Jak więc do tego doszło?  Jak\Nwytłumaczyć upadek człowieka w tej
+Dialogue: 0,0:35:42.00,0:35:48.32,Default,,0,0,0,,historycznej tradycji?   Czy\Nto jest złe?  Czy to było nieposłuszeństwo?  Nie.
+Dialogue: 0,0:35:48.32,0:35:53.76,Default,,0,0,0,,Widzę niewinność Ewy.\NWąż znał niewinność,
+Dialogue: 0,0:35:53.76,0:35:59.83,Default,,0,0,0,,wewnętrzną niewinność dziecka.\NWąż powiedział: „Och, wszystko będzie dobrze.
+Dialogue: 0,0:35:59.83,0:36:08.07,Default,,0,0,0,,Zaufaj mi, to dobra rzecz do\Nzrobienia”. A zatem wąż nie mówił o
+Dialogue: 0,0:36:08.07,0:36:16.24,Default,,0,0,0,,sprzeciwianiu się Bogu. Wąż mówił do\Nwewnętrznego dziecka i Ewy: „Zaufaj mi,
+Dialogue: 0,0:36:16.24,0:36:21.28,Default,,0,0,0,,wszystko będzie dobrze”. Tak. I to\Nbył początek
+Dialogue: 0,0:36:21.28,0:36:26.96,Default,,0,0,0,,tradycji chrześcijańskiej. Kiedy więc mówią, że\Nchrześcijaństwo nie wierzy w karmę,
+Dialogue: 0,0:36:26.96,0:36:33.11,Default,,0,0,0,,nie wierz im. Gdyby nie\Ngrzech pierworodny i Ogród Eden, nie
+Dialogue: 0,0:36:33.11,0:36:41.59,Default,,0,0,0,,byłoby potrzeby pokuty. Nie byłoby\Ndo poczucia winy
+Dialogue: 0,0:36:41.59,0:36:46.07,Default,,0,0,0,,i wszyscy bylibyśmy oświeceni. Wszyscy bylibyśmy\Noświeceni.
+Dialogue: 0,0:36:46.07,0:36:52.07,Default,,0,0,0,,Zatem wąż był\Nźródłem fałszu. Fałsz
+Dialogue: 0,0:36:52.07,0:36:59.76,Default,,0,0,0,,wszedł i udawał niewinność Ewy.\NA będąc niewinną kobietą, dlaczego
+Dialogue: 0,0:36:59.76,0:37:07.04,Default,,0,0,0,,miałaby podejrzewać, że wąż ma\Njakieś nikczemne zamiary?
+Dialogue: 0,0:37:07.04,0:37:12.80,Default,,0,0,0,,Dlatego nauczam o wężu,\Naby strzegł się węża.
+Dialogue: 0,0:37:12.80,0:37:18.40,Default,,0,0,0,,Strzeż się węża, ponieważ to, co\Njest przebiegłe i  Przebiegły i zwodniczy ma
+Dialogue: 0,0:37:18.40,0:37:24.32,Default,,0,0,0,,tendencję do wyczuwania, gdzie jesteś\Npodatny. A ta podatność
+Dialogue: 0,0:37:24.32,0:37:31.92,Default,,0,0,0,,znowu polega na tym, że wszyscy z natury mamy\Nw sobie niewinność dziecka.
+Dialogue: 0,0:37:31.92,0:37:36.32,Default,,0,0,0,,Czystą subiektywność\Nsamej świadomości.
+Dialogue: 0,0:37:36.32,0:37:43.04,Default,,0,0,0,,Struktura umysłu jest taka, że\Nnie potrafi odróżnić jednego od drugiego.
+Dialogue: 0,0:37:43.04,0:37:50.48,Default,,0,0,0,,Komputer, komputer umysłu, może\Nrównie łatwo zostać zaprogramowany fałszem. Zatem
+Dialogue: 0,0:37:50.48,0:37:55.52,Default,,0,0,0,,wszyscy z natury mamy niewinność\Nkomputera. Komputer nie
+Dialogue: 0,0:37:55.52,0:37:59.20,Default,,0,0,0,,mówi: „Och, myślę, że to zapiszę, a\Ntego nie zapiszę”.
+Dialogue: 0,0:37:59.20,0:38:05.44,Default,,0,0,0,,Komputer ludzkiego umysłu\Nautomatycznie
+Dialogue: 0,0:38:05.44,0:38:13.68,Default,,0,0,0,,rejestruje wszystko, co mu się przedstawia, niezależnie od tego, czy\Njest to pozorne, czy prawdziwe. Nie ma
+Dialogue: 0,0:38:13.68,0:38:18.96,Default,,0,0,0,,możliwości rozróżnienia.\NEwolucja duchowa pochodzi zatem ze
+Dialogue: 0,0:38:18.96,0:38:24.56,Default,,0,0,0,,studiowania zaawansowanych nauk duchowych i\Npostępu dzięki intencji. Zatem dzięki
+Dialogue: 0,0:38:24.56,0:38:29.68,Default,,0,0,0,,intencji człowiek\Njuż robi postępy dzięki
+Dialogue: 0,0:38:29.68,0:38:46.32,Default,,0,0,0,,intencji, a następnie, gdy osiągnie pewien poziom świadomości, to, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym, co jest tym,\Nstaje się oczywiste. To jest na poziomie 600. Na
+Dialogue: 0,0:38:46.32,0:38:51.20,Default,,0,0,0,,poziomie 600 trzecie oko…\NCiało Buddy, tak to się klasycznie nazywa.
+Dialogue: 0,0:38:51.20,0:38:55.68,Default,,0,0,0,,Wtedy otwierają się ciała eteryczne obu\Nczakr korony
+Dialogue: 0,0:38:55.68,0:39:02.16,Default,,0,0,0,,i od razu można\Nrozpoznać fałsz i oszustwo. Tak.
+Dialogue: 0,0:39:02.16,0:39:07.44,Default,,0,0,0,,Od tego momentu jesteś chroniony.\NJesteś chroniony przez obecność
+Dialogue: 0,0:39:07.44,0:39:13.44,Default,,0,0,0,,ducha boskiego, który potrafi\Nrozróżnić istotę. Oto
+Dialogue: 0,0:39:13.44,0:39:18.24,Default,,0,0,0,,historia ogrodu\NEden. Z
+Dialogue: 0,0:39:18.24,0:39:26.88,Default,,0,0,0,,powodu niewinności. Z powodu\Nniewinności. Następnie Chrystus nauczał, że
+Dialogue: 0,0:39:26.88,0:39:34.48,Default,,0,0,0,,grzech to nic innego jak przede wszystkim ignorancja.\NGrzech to ignorancja. Grzech to błąd. Zatem
+Dialogue: 0,0:39:34.48,0:39:42.00,Default,,0,0,0,,pierwotne znaczenie terminu grzech to\Nbłąd. Błąd. Być błędem.
+Dialogue: 0,0:39:42.00,0:39:46.96,Default,,0,0,0,,Uświadomić sobie niewinność wewnętrznego\Ndziecka każdego, kto istnieje.
+Dialogue: 0,0:39:46.96,0:39:54.07,Default,,0,0,0,,Daje nam to zdolność\Ndo wybaczania wszystkim ludziom, bez
+Dialogue: 0,0:39:54.07,0:40:00.48,Default,,0,0,0,,względu na wszystko. Więc osoba, która myśli,\Nże wyświadcza Bogu przysługę, oddając Mu cześć,
+Dialogue: 0,0:40:00.48,0:40:07.52,Default,,0,0,0,,zabijając mnie,\Nbo jestem niewierzący,
+Dialogue: 0,0:40:07.52,0:40:14.48,Default,,0,0,0,,nadal uznaje, no wiesz,\Nsłuszność jego intencji. Jeśli sposobem
+Dialogue: 0,0:40:14.48,0:40:18.40,Default,,0,0,0,,oddawania czci Bogu jest zabicie wszystkich\Nniewierzących,
+Dialogue: 0,0:40:18.40,0:40:24.40,Default,,0,0,0,,to widzę niewinność, ale nie zgadzam się\Nz słusznością.  tego, ale
+Dialogue: 0,0:40:24.40,0:40:28.48,Default,,0,0,0,,widzę niewinność.\NWięc
+Dialogue: 0,0:40:28.48,0:40:34.00,Default,,0,0,0,,jeśli cię zabije, po prostu powiedz, że to w porządku.\NRozumiem.
+Dialogue: 0,0:40:34.00,0:40:39.11,Default,,0,0,0,,Tak właśnie zrobiliśmy. Zrobiliśmy to.\NOpowiedziałem ci o poprzednim życiu, które pamiętam
+Dialogue: 0,0:40:39.11,0:40:43.52,Default,,0,0,0,,z czasów wypraw krzyżowych. Ta sama\Nistota i ja mieliśmy interakcje przez
+Dialogue: 0,0:40:43.52,0:40:48.64,Default,,0,0,0,,wiele wcieleń.\NZabiłem go dla Jezusa, a on zabił
+Dialogue: 0,0:40:48.64,0:40:57.11,Default,,0,0,0,,mnie dla Allaha.\Ni
+Dialogue: 0,0:40:57.11,0:41:02.40,Default,,0,0,0,,obaj upadliśmy, nasze ciała wyleciały z\Nfizycznego ciała i wybuchnęliśmy
+Dialogue: 0,0:41:02.40,0:41:06.56,Default,,0,0,0,,śmiechem.\NPowiedział: „Zrobiłem to dla Allaha”. A ja
+Dialogue: 0,0:41:06.56,0:41:11.28,Default,,0,0,0,,odpowiedziałem: „Zrobiłem to dla Jezusa”. I potem\Nśmialiśmy się i śmialiśmy, i
+Dialogue: 0,0:41:11.28,0:41:17.35,Default,,0,0,0,,naiwność ludzkiego umysłu, z powodu\Njego oddania Bogu, zabił mnie, a
+Dialogue: 0,0:41:17.35,0:41:24.07,Default,,0,0,0,,ja to uznałem i dlatego mam\Nwielki szacunek dla tej istoty i, eee,
+Dialogue: 0,0:41:24.07,0:41:31.52,Default,,0,0,0,,zabiliśmy się nawzajem dla Boga,\Nwięc nawet tym, którzy nas wysadzają w powietrze, nawet tym,
+Dialogue: 0,0:41:31.52,0:41:40.00,Default,,0,0,0,,którzy nas wysadzają w powietrze, jeśli robią to z\Ntaką intencją, mogę wybaczyć.
+Dialogue: 0,0:41:40.00,0:41:55.04,Default,,0,0,0,,Jednak nie zamierzam się z nimi spotykać\Ntymi ludźmi? Jest w tym jakaś
+Dialogue: 0,0:41:55.04,0:41:59.28,Default,,0,0,0,,poprawność polityczna. Mamy\Nim sprostać. Tak. Dobrze.
+Dialogue: 0,0:41:59.28,0:42:02.64,Default,,0,0,0,,Dobrze. Niech inni się do\Nnich dostosują. Szczerze mówiąc, zjem to w
+Dialogue: 0,0:42:02.64,0:42:05.83,Default,,0,0,0,,innej restauracji niż ta, w której\Nprzesiadują.
+Dialogue: 0,0:42:05.83,0:42:08.80,Default,,0,0,0,,To może być dzień, w którym wysadzą\Nrestaurację w powietrze, żeby się ich wszystkich pozbyć
+Dialogue: 0,0:42:08.80,0:42:15.20,Default,,0,0,0,,.\NPrawda zależy więc od kontekstu.
+Dialogue: 0,0:42:15.20,0:42:21.28,Default,,0,0,0,,Ogólny zamiar wyznacza\Nogólne pole. Tak więc nieliniowość wyznacza
+Dialogue: 0,0:42:21.28,0:42:26.24,Default,,0,0,0,,pole, a tego, czy coś jest dobre, czy złe,\Nnie da się rozróżnić patrząc na
+Dialogue: 0,0:42:26.24,0:42:31.92,Default,,0,0,0,,samą rzecz, ale tylko w kontekście. Tylko\Nw kontekście.
+Dialogue: 0,0:42:31.92,0:42:36.40,Default,,0,0,0,,Aha,\Ni oczywiście mamy w dzisiejszym społeczeństwie
+Dialogue: 0,0:42:36.40,0:42:42.88,Default,,0,0,0,,zwolenników teorii spiskowych i urojeniowe\Nzaburzenia logicznego dowodu. Tak
+Dialogue: 0,0:42:42.88,0:42:46.64,Default,,0,0,0,,wiele problemów społecznych, o których mówisz,\Nzamknęli szpitale psychiatryczne wiele lat
+Dialogue: 0,0:42:46.64,0:42:53.44,Default,,0,0,0,,temu, to również marksizm kulturowy, który pojawił się\Ndzięki facetowi o nazwisku Thomas Zaz, który
+Dialogue: 0,0:42:53.44,0:42:58.64,Default,,0,0,0,,spopularyzował to, mówiąc, że\Nchoroba psychiczna to tylko etykieta
+Dialogue: 0,0:42:58.64,0:43:07.68,Default,,0,0,0,,i dlatego zamknęli wszystkie\Nszpitale psychiatryczne. Więc wszyscy niebezpieczni ludzie
+Dialogue: 0,0:43:07.68,0:43:13.92,Default,,0,0,0,,zabijają ludzi na prawo i lewo. Więc kiedyś to było\Nz litości, że…  Ty
+Dialogue: 0,0:43:13.92,0:43:18.31,Default,,0,0,0,,chroniłeś ludzi przed ich własnymi\Nograniczeniami.
+Dialogue: 0,0:43:18.31,0:43:21.92,Default,,0,0,0,,Mógłbym im powiedzieć, że gdybym wypuścił tego faceta\N, wiedziałbym dokładnie, co
+Dialogue: 0,0:43:21.92,0:43:28.40,Default,,0,0,0,,zrobi. Nie chodzi więc tylko o bezpieczeństwo\Ninnych. Kryterium było to, że ta
+Dialogue: 0,0:43:28.40,0:43:34.96,Default,,0,0,0,,osoba jest bezpieczna sama ze sobą, że jest w\Nstanie przetrwać i zaspokoić swoje
+Dialogue: 0,0:43:34.96,0:43:40.64,Default,,0,0,0,,podstawowe potrzeby. Więc niektórych trzymaliśmy w\Nszpitalu, aż wyzdrowieli na tyle, by mogli
+Dialogue: 0,0:43:40.64,0:43:45.44,Default,,0,0,0,,samodzielnie przetrwać, że\Nmieli wystarczająco dużo rozumu, by móc
+Dialogue: 0,0:43:45.44,0:43:52.00,Default,,0,0,0,,samodzielnie przetrwać. Nie chodziło tylko\No etykietowanie, chodziło o przetrwanie. Więc
+Dialogue: 0,0:43:52.00,0:43:58.40,Default,,0,0,0,,teraz uzależniają się od narkotyków,\Nwłóczą się po chodnikach, popełniają
+Dialogue: 0,0:43:58.40,0:44:03.28,Default,,0,0,0,,przestępstwa, zostają zamordowani i mordują się\Nnawzajem, i wszyscy lądują w więzieniu.
+Dialogue: 0,0:44:03.28,0:44:07.44,Default,,0,0,0,,Widzieliśmy więc na dole listy\Npoziomów świadomości.
+Dialogue: 0,0:44:07.44,0:44:12.88,Default,,0,0,0,,Średni poziom świadomości w więzieniu wynosi\Nokoło 65. Tak. Zgadza się?
+Dialogue: 0,0:44:12.88,0:44:18.16,Default,,0,0,0,,Średni poziom świadomości w więzieniu wynosi\Nokoło 65. Tak, to prawidłowa liczba.
+Dialogue: 0,0:44:18.16,0:44:24.16,Default,,0,0,0,,Poziom świadomości 65. Czy\Nosoba z
+Dialogue: 0,0:44:24.16,0:44:29.76,Default,,0,0,0,,poziomem świadomości 65 może przetrwać na wolności?\NZe względów humanitarnych powiedzielibyśmy, że
+Dialogue: 0,0:44:29.76,0:44:34.80,Default,,0,0,0,,ta osoba potrzebuje…  być chronionym,\Ndopóki nie będą w stanie lepiej chronić
+Dialogue: 0,0:44:34.80,0:44:38.56,Default,,0,0,0,,samych siebie, pamiętając o przyjmowaniu\Nleków, pamiętając o
+Dialogue: 0,0:44:38.56,0:44:45.11,Default,,0,0,0,,wizytach u lekarza, unikając przestępczości\Nitd. Tak. Zatem intencją jest
+Dialogue: 0,0:44:45.11,0:44:50.07,Default,,0,0,0,,dobro i dobrobyt ogółu. Dobro\Ni dobrobyt ogółu. Z życzliwości.
+Dialogue: 0,0:44:50.07,0:44:56.80,Default,,0,0,0,,Zatem jedynym duchowym nakazem, którego się trzymamy,\Njest miłość, troska i
+Dialogue: 0,0:44:56.80,0:45:02.64,Default,,0,0,0,,szacunek dla wszelkiego życia. I niech to\Nbędzie ogólny kontekst waszego własnego
+Dialogue: 0,0:45:02.64,0:45:07.20,Default,,0,0,0,,uznania.\NPowodem, dla którego robimy wszystko, co robimy, jest
+Dialogue: 0,0:45:07.20,0:45:13.52,Default,,0,0,0,,dobro ogółu. Ludzie\Npytają: „Co mogę zrobić, żeby, no wiesz,
+Dialogue: 0,0:45:13.52,0:45:19.68,Default,,0,0,0,,pomóc światu?”. I cóż, możesz\Ntrzymać się z daleka.
+Dialogue: 0,0:45:19.68,0:45:25.92,Default,,0,0,0,,Zjechać z autostrady. Nie,\Nintencja, a potem intencja,
+Dialogue: 0,0:45:25.92,0:45:30.07,Default,,0,0,0,,to to, kim się stałeś. Pokazaliśmy to\Nna wykresie, który pokazaliśmy z
+Dialogue: 0,0:45:30.07,0:45:36.31,Default,,0,0,0,,piramidą. To, kim się stałeś,\Nrekompensuje negatywność.
+Dialogue: 0,0:45:36.31,0:45:40.56,Default,,0,0,0,,Negatywność świata byłaby więc\Ntak przytłaczająca. Zniszczyłaby
+Dialogue: 0,0:45:40.56,0:45:46.07,Default,,0,0,0,,ludzkość, gdyby nie ludzie tacy jak\Nwy, którzy tu teraz siedzą. Zdajesz sobie sprawę,
+Dialogue: 0,0:45:46.07,0:45:53.28,Default,,0,0,0,,że bez ciebie,  Miliony by umarły.\NMiliony. Tak. Bez tego tłumu tu
+Dialogue: 0,0:45:53.28,0:45:58.88,Default,,0,0,0,,zgromadzonego. Tego tłumu tu zgromadzonego.\NMam pozwolenie, żeby o to zapytać. Miliony
+Dialogue: 0,0:45:58.88,0:46:05.68,Default,,0,0,0,,by umarły.\NMiliony by umarły, gdyby nie to, że
+Dialogue: 0,0:46:05.68,0:46:09.52,Default,,0,0,0,,w piramidzie jest ten mały wierzchołek.\NPotem jest równowaga, ta
+Dialogue: 0,0:46:09.52,0:46:15.35,Default,,0,0,0,,mała piramida tutaj i wielka\Nmasa ludzkości tutaj, aby nadać większą
+Dialogue: 0,0:46:15.35,0:46:20.56,Default,,0,0,0,,wartość i wartość. Ta twoja\Npraca duchowa, wiesz, nie służy tylko twojemu własnemu
+Dialogue: 0,0:46:20.56,0:46:24.00,Default,,0,0,0,,duchowemu\Nrozwojowi.
+Dialogue: 0,0:46:24.00,0:46:30.16,Default,,0,0,0,,Ale poszukując prawdy duchowej,\Nsłużysz całej ludzkości
+Dialogue: 0,0:46:30.16,0:46:36.00,Default,,0,0,0,,poprzez własne poszukiwanie oświecenia i\Nprawdy duchowej. Służysz całej
+Dialogue: 0,0:46:36.00,0:46:42.07,Default,,0,0,0,,ludzkości.\NMiliony umarłyby, gdyby nie ty.
+Dialogue: 0,0:46:42.07,0:46:49.28,Default,,0,0,0,,Poprzez własne poszukiwanie oświecenia,\Nprzynosisz korzyść całej ludzkości.
+Dialogue: 0,0:46:49.28,0:46:59.83,Default,,0,0,0,,Przynosisz korzyść całej ludzkości.\Nmedytacji buddyjskiej, wpatrywania się we własny umysł,
+Dialogue: 0,0:46:59.83,0:47:05.76,Default,,0,0,0,,jest błędny.\NTo dla dobra i dobrobytu
+Dialogue: 0,0:47:05.76,0:47:11.83,Default,,0,0,0,,całej ludzkości poszukujemy najwyższej\Nprawdy i dążymy do zjednoczenia się z
+Dialogue: 0,0:47:11.83,0:47:18.24,Default,,0,0,0,,tą prawdą. Dążymy do tego, by stać się\Nwyrazem tej prawdy. Tak więc, gdy
+Dialogue: 0,0:47:18.24,0:47:23.28,Default,,0,0,0,,wszystko wydaje się piękne,\Ndostrzegasz ich piękno i na
+Dialogue: 0,0:47:23.28,0:47:26.88,Default,,0,0,0,,pewnym poziomie świadomości musisz\Nbyć ostrożny, musisz naprawdę…  Unikaj
+Dialogue: 0,0:47:26.88,0:47:31.68,Default,,0,0,0,,tego, bo piękno rzeczy po prostu cię\Npowala. Jak pełne miłości
+Dialogue: 0,0:47:31.68,0:47:35.35,Default,,0,0,0,,spojrzenie między dwojgiem ludzi. Po prostu\Nnie możesz tego znieść. To po prostu sprawia, że
+Dialogue: 0,0:47:35.35,0:47:40.16,Default,,0,0,0,,płaczesz. I uważasz, żeby nie patrzeć\Nna kwiaty, bo są oszałamiającą
+Dialogue: 0,0:47:40.16,0:47:56.24,Default,,0,0,0,,doskonałością.\NO Boże. Och,
+Dialogue: 0,0:47:56.24,0:48:01.59,Default,,0,0,0,,To zostało stworzone przez Boga.\NTen kwiat
+Dialogue: 0,0:48:01.59,0:48:12.31,Default,,0,0,0,,został stworzony przez Boga.\Nw całym stworzeniu.
+Dialogue: 0,0:48:12.31,0:48:16.80,Default,,0,0,0,,I z szacunku dla boskości,\Nczcisz całe
+Dialogue: 0,0:48:16.80,0:48:29.68,Default,,0,0,0,,stworzenie,\Nkatowi: nie miej wyrzutów sumienia z powodu tego,
+Dialogue: 0,0:48:29.68,0:48:33.83,Default,,0,0,0,,co robisz. To twój obowiązek wobec\Nkorony.
+Dialogue: 0,0:48:33.83,0:48:39.92,Default,,0,0,0,,Więc kładziesz głowę na pieńku, a kiedy\Nkat schodzi, błogosławisz go.
+Dialogue: 0,0:48:39.92,0:48:44.80,Default,,0,0,0,,Wykonujesz swój obowiązek. Uznajesz, że to\Njego honor. To jego honor, że
+Dialogue: 0,0:48:44.80,0:48:50.48,Default,,0,0,0,,służy koronie\Ni ludziom tamtej epoki. To był zaszczyt
+Dialogue: 0,0:48:50.48,0:48:56.55,Default,,0,0,0,,służyć koronie, a nie sobie samemu\N. Więc nawet gdy zakręci ci się w
+Dialogue: 0,0:48:56.55,0:49:06.00,Default,,0,0,0,,głowie, kiedy podejdzie, możesz go pobłogosławić\NCo robisz? Jesteś człowiekiem honoru
+Dialogue: 0,0:49:06.00,0:49:13.83,Default,,0,0,0,,i służysz koronie.\NWraca do domu szczęśliwy.
+Dialogue: 0,0:49:13.83,0:49:30.24,Default,,0,0,0,,Jej\Njak poszło dzisiaj?”.
+Dialogue: 0,0:49:30.24,0:49:35.35,Default,,0,0,0,,„To była jej odpowiedź.  Jak poszło dzisiaj,\NHaroldzie?"
+Dialogue: 0,0:49:35.35,0:49:40.88,Default,,0,0,0,,Pstryk. Zaczyna się. Wiesz,\Npokazaliśmy, że jeśli żyjesz w
+Dialogue: 0,0:49:40.88,0:49:46.96,Default,,0,0,0,,chwili obecnej, żaden\Nproblem nie może się pojawić.
+Dialogue: 0,0:49:46.96,0:49:51.44,Default,,0,0,0,,Każda chwila jest kompletna i totalna sama w\Nsobie. Żaden
+Dialogue: 0,0:49:51.44,0:49:56.16,Default,,0,0,0,,problem nie może istnieć w\Nteraźniejszości.
+Dialogue: 0,0:49:56.16,0:50:00.64,Default,,0,0,0,,Jesteś chory. Czy to\Ncię teraz zabije? Nie. Więc nad czym
+Dialogue: 0,0:50:00.64,0:50:08.24,Default,,0,0,0,,szlochasz i płaczesz? Rozumiesz, o co\Nmi chodzi?
+Dialogue: 0,0:50:08.24,0:50:14.55,Default,,0,0,0,,chwili teraz, nie jesteś zdolny do\Nproblemu. Tylko wtedy, gdy projektujesz
+Dialogue: 0,0:50:14.55,0:50:20.00,Default,,0,0,0,,siebie w przyszłość, strach i\Nkontrolę albo projektujesz siebie w
+Dialogue: 0,0:50:20.00,0:50:26.80,Default,,0,0,0,,przeszłość z żalem, winą i poczuciem winy. Jeśli\Nżyjesz w tej chwili,
+Dialogue: 0,0:50:26.80,0:50:34.88,Default,,0,0,0,,żaden problem nie jest możliwy w tej chwili.\NZobaczmy, czy to fakt.
+Dialogue: 0,0:50:34.88,0:50:46.31,Default,,0,0,0,,To fakt. Pan\NBóg powiedział,
+Dialogue: 0,0:50:46.31,0:50:53.35,Default,,0,0,0,,Tak. W każdym razie,\Nrozumiejąc, rozumiesz, rozumiejąc
+Dialogue: 0,0:50:53.35,0:50:57.59,Default,,0,0,0,,przyczynowość,\Nże wszystko powstaje z
+Dialogue: 0,0:50:57.59,0:51:04.72,Default,,0,0,0,,mocy tego, czym jest. I\Nwidzisz, cały naukowy pogląd na
+Dialogue: 0,0:51:04.72,0:51:08.48,Default,,0,0,0,,przyczynowość\Njest taki, że istnieje to, co powoduje to, co powoduje to, co się cofa.
+Dialogue: 0,0:51:08.48,0:51:13.83,Default,,0,0,0,,w czasie. A\Njeśli to sprawdzisz, odkryjesz, że każde pojedyncze
+Dialogue: 0,0:51:13.83,0:51:19.11,Default,,0,0,0,,zdarzenie ma 10 milionów przyczyn. Gdyby\Nnie ten pokój, nie byłoby tego
+Dialogue: 0,0:51:19.11,0:51:22.55,Default,,0,0,0,,tutaj. Nie byłoby mnie tutaj. Nie\Nrozmawialibyśmy. Nie byłbyś w stanie usłyszeć mojego
+Dialogue: 0,0:51:22.55,0:51:28.24,Default,,0,0,0,,głosu itd.\NPotrzeba 10 milionów elementów, aby wyjaśnić
+Dialogue: 0,0:51:28.24,0:51:32.64,Default,,0,0,0,,każde zdarzenie.\NWszystkie zdarzenia dzieją się
+Dialogue: 0,0:51:32.64,0:51:38.00,Default,,0,0,0,,spontanicznie, jako konsekwencja\Newolucji świadomości, jako
+Dialogue: 0,0:51:38.00,0:51:43.52,Default,,0,0,0,,konsekwencji tego, kim jesteś.\NZatem ostatecznym uświadomieniem sobie lub
+Dialogue: 0,0:51:43.52,0:51:49.92,Default,,0,0,0,,celem naszego\Nnauczania jest uświadomienie ci,
+Dialogue: 0,0:51:49.92,0:51:56.07,Default,,0,0,0,,że nie ma nikogo, kto robi to, co się\Ndzieje. Założenie ego jest takie, że
+Dialogue: 0,0:51:56.07,0:52:03.35,Default,,0,0,0,,istnieje „ja”, oddzielne oko, które\Npowoduje, że to się dzieje.
+Dialogue: 0,0:52:03.35,0:52:08.55,Default,,0,0,0,,Bardziej zaawansowana świadomość. Jeśli\Nto zrozumiesz, zdasz sobie sprawę, że to
+Dialogue: 0,0:52:08.55,0:52:33.04,Default,,0,0,0,,wydarzyło się samo z siebie. Nie ma\Nosobistego „ja”.
+Dialogue: 0,0:52:33.04,0:52:42.00,Default,,0,0,0,,Spójrz w lustro. Spójrz na to. Czy\Nto ja?
+Dialogue: 0,0:52:42.00,0:52:47.68,Default,,0,0,0,,jako konsekwencja tego, kim się\Nstałeś. To jest treść, a
+Dialogue: 0,0:52:47.68,0:52:54.55,Default,,0,0,0,,kontekst to poziom świadomości.\NNie ma osobistego, oddzielnego „ja”,
+Dialogue: 0,0:52:54.55,0:53:00.16,Default,,0,0,0,,oddzielonego od…  Jeden.\NTo jeden z powodów, dla których, gdy stajesz się
+Dialogue: 0,0:53:00.16,0:53:04.88,Default,,0,0,0,,częścią pokazu olimpijskiego,\Nodczuwasz euforię,
+Dialogue: 0,0:53:04.88,0:53:10.64,Default,,0,0,0,,ponieważ przynajmniej na chwilę\Nunikniesz narcystycznego egoizmu
+Dialogue: 0,0:53:10.64,0:53:16.80,Default,,0,0,0,,i ograniczeń związanych z osobistym okiem jako\Ngwiazdą. Tak. To, co się
+Dialogue: 0,0:53:16.80,0:53:23.52,Default,,0,0,0,,teraz dzieje, to bezinteresowność – jaźń z\Ndużej litery, która
+Dialogue: 0,0:53:23.52,0:53:29.92,Default,,0,0,0,,ewoluuje, więc wszystko powstaje\Njako konsekwencja całości
+Dialogue: 0,0:53:29.92,0:53:34.96,Default,,0,0,0,,wszystkiego, co kiedykolwiek istniało, w tym tego, kim się\Nstałeś. Wszystko
+Dialogue: 0,0:53:34.96,0:53:40.96,Default,,0,0,0,,dzieje się spontanicznie.\NNie ma osobistego ja, które byłoby przyczyną
+Dialogue: 0,0:53:40.96,0:53:45.11,Default,,0,0,0,,czegokolwiek.\NJeśli nie ma osobistego ja, które byłoby przyczyną
+Dialogue: 0,0:53:45.11,0:53:51.11,Default,,0,0,0,,czegokolwiek, to czym jest\Nkarma? Co dzieje się z rozwlekłymi
+Dialogue: 0,0:53:51.11,0:53:56.88,Default,,0,0,0,,karmicznymi konsekwencjami?\NNie ma żadnych.
+Dialogue: 0,0:53:56.88,0:54:00.80,Default,,0,0,0,,Opuszczasz ten świat głupi, wracasz\Ndo następnego życia głupi. W
+Dialogue: 0,0:54:00.80,0:54:12.00,Default,,0,0,0,,czym problem?\Nprzestrzenie czasu. Duże przestrzenie
+Dialogue: 0,0:54:12.00,0:54:23.35,Default,,0,0,0,,czasu. A karmiczne dziedzictwo karmiczne\Njest do niczego zmuszany. Masz do czynienia
+Dialogue: 0,0:54:23.35,0:54:28.48,Default,,0,0,0,,z prawdopodobieństwem. Więc\Nkarmiczne skłonności. Zawsze…  Nie
+Dialogue: 0,0:54:28.48,0:54:32.64,Default,,0,0,0,,mówię o karmie. Zawsze mówię o karmicznej\Nskłonności.
+Dialogue: 0,0:54:32.64,0:54:39.92,Default,,0,0,0,,Skłonność jest taka, żeby się zemścić na sukinsynu\N. Zasłużył na to.
+Dialogue: 0,0:54:39.92,0:54:45.92,Default,,0,0,0,,A potem, z powodu duchowego treningu\Ni ingerencji, pojawia się wahanie.
+Dialogue: 0,0:54:45.92,0:54:53.28,Default,,0,0,0,,Być może można spojrzeć\Nna to inaczej.
+Dialogue: 0,0:54:53.28,0:54:59.28,Default,,0,0,0,,twój umysł, wybaczasz mu i\Nmówisz: „Nie pociągnę za spust”. Tak,
+Dialogue: 0,0:54:59.28,0:55:05.35,Default,,0,0,0,,nie pociągnę za spust.\NWszystko dzieje się samo w sobie.
+Dialogue: 0,0:55:05.35,0:55:10.72,Default,,0,0,0,,Możesz więc wyobrazić sobie siebie.\NLubię wyobrażać sobie siebie jako
+Dialogue: 0,0:55:10.72,0:55:17.20,Default,,0,0,0,,magnetyczny opiłek, a wola Boga –\Ncałe pole świadomości
+Dialogue: 0,0:55:17.20,0:55:24.96,Default,,0,0,0,,jest nieskończone i nieograniczone, a zatem to,\Nco się dzieje i co dzieje się w tobie,
+Dialogue: 0,0:55:24.96,0:55:30.80,Default,,0,0,0,,wokół ciebie i z tobą, jest\Nkonsekwencją tego, kim się stałeś, wchodząc w
+Dialogue: 0,0:55:30.80,0:55:34.88,Default,,0,0,0,,interakcje w polu. Oto więc\Npotężne pole magnetyczne, w którym wszyscy
+Dialogue: 0,0:55:34.88,0:55:39.20,Default,,0,0,0,,jesteśmy spolaryzowani. To nasza dobra strona,\Nstrona dobrej karmy lub strona złej karmy
+Dialogue: 0,0:55:39.20,0:55:44.00,Default,,0,0,0,,. Mówimy: „pieprzyć cię”. Schodzimy w\Nstronę złej karmy. Mówimy: „O tak,
+Dialogue: 0,0:55:44.00,0:55:47.35,Default,,0,0,0,,ale nie mogłeś się powstrzymać”. Teraz przechodzimy do…\NDobra karma. Więc stale
+Dialogue: 0,0:55:47.35,0:55:52.72,Default,,0,0,0,,poruszamy się w tym nieskończonym polu.\NTo pole skłonności i
+Dialogue: 0,0:55:52.72,0:55:56.55,Default,,0,0,0,,prawdopodobieństw. To nie pole\Nprzyczynowości.
+Dialogue: 0,0:55:56.55,0:56:01.52,Default,,0,0,0,,Nawet jeśli masz karmę czegoś\Nbardzo negatywnego, nie jesteś do tego
+Dialogue: 0,0:56:01.52,0:56:08.55,Default,,0,0,0,,zmuszony. Nie musisz. Wszyscy\Nmamy więc w sobie duchową wolność.
+Dialogue: 0,0:56:08.55,0:56:13.68,Default,,0,0,0,,Zawsze możemy wybrać\Ninaczej, tym razem. Zobaczmy, czy
+Dialogue: 0,0:56:13.68,0:56:33.44,Default,,0,0,0,,to prawda. Zawsze istniejemy w\Nstanie ciągłej duchowej wolności.
+Dialogue: 0,0:56:33.44,0:56:39.35,Default,,0,0,0,,wolności\Nw polu energetycznym nieskończonej mocy.
+Dialogue: 0,0:56:39.35,0:56:44.55,Default,,0,0,0,,A kiedy dostrajamy się do tej mocy,\Npromieniujemy dobrocią na świat,
+Dialogue: 0,0:56:44.55,0:56:50.96,Default,,0,0,0,,która przynosi korzyści całej ludzkości.\NZatem dzięki dostosowaniu i intencji,
+Dialogue: 0,0:56:50.96,0:56:56.00,Default,,0,0,0,,grupa taka jak ta ma głęboki\Nwpływ na życie milionów
+Dialogue: 0,0:56:56.00,0:57:00.24,Default,,0,0,0,,ludzi.\NTo powinno pozbyć się pytania:
+Dialogue: 0,0:57:00.24,0:57:07.76,Default,,0,0,0,,co mogę zrobić, aby pomóc światu?\NNic nie rób.
+Dialogue: 0,0:57:07.76,0:57:12.55,Default,,0,0,0,,Po prostu bądź tym, kim jesteś, w pełni swoich\Nmożliwości. I w ten sposób
+Dialogue: 0,0:57:12.55,0:57:18.24,Default,,0,0,0,,wypełniasz wolę Boga. Zobaczmy,\Nczy  To fakt. To wypełnianie
+Dialogue: 0,0:57:18.24,0:57:22.88,Default,,0,0,0,,woli Bożej względem ciebie. Aby każdy człowiek\Nstał się tym, kim może
+Dialogue: 0,0:57:22.88,0:57:27.68,Default,,0,0,0,,być.\NRealizując swój potencjał,
+Dialogue: 0,0:57:27.68,0:57:33.68,Default,,0,0,0,,służysz Bogu i bliźnim,\Nrobisz wszystko, co
+Dialogue: 0,0:57:33.68,0:57:39.52,Default,,0,0,0,,możesz dla ludzkości. A jeśli to nie jest dla\Nwas powodem do dumy, dzieciaki,
+Dialogue: 0,0:57:39.52,0:57:45.59,Default,,0,0,0,,to powinno wystarczyć do obiadu.\NWszyscy tam, ratujący
+Dialogue: 0,0:57:45.59,0:57:50.00,Default,,0,0,0,,świat. O\Nktórej wracamy, kochanie?
+Dialogue: 0,0:57:50.00,0:57:58.72,Default,,0,0,0,,Wracamy o 14:00. Wracamy o\N14:00. Wracamy o 14:00 i unikamy wszelkiego
+Dialogue: 0,0:57:58.72,0:58:03.72,Default,,0,0,0,,grzechu do tej pory.
