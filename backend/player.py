@@ -111,7 +111,7 @@ def scan_videos() -> list[dict]:
 
         meta = library.get(lecture_key)
         if meta:
-            title = f"{meta['title']} (Part {part_num})"
+            title = f"{meta['title']} (Part {part_num})" if meta.get("parts", 1) > 1 else meta["title"]
             sort_key = f"{meta['year']}-{meta['num']:02d}-{part_num}"
         else:
             title = entry.name.replace("-", " ").replace("_", " ").title()
@@ -446,6 +446,7 @@ class Player:
         self._target_position: float | None = None
         self.audio_delay_ms: int = 0  # Extra audio delay on top of buffer
         self.autoplay: bool = True
+        self.queue: list[dict] = []  # Temporary session queue: [{"video_id": ..., "languages": [...], "title": ...}]
 
     async def play(self, video_id: str, languages: list[str] | None = None, start_at: float = 0):
         """Start playback of a local video with optional subtitles."""
@@ -578,12 +579,18 @@ class Player:
                 except (OSError, ValueError):
                     pass
 
-            # FFmpeg exited — autoplay or stop
+            # FFmpeg exited — play next from queue, autoplay, or stop
             if self.status.state in (State.PLAYING, State.LOADING):
+                # Queue takes priority over regular autoplay
+                if self.queue:
+                    next_item = self.queue.pop(0)
+                    asyncio.get_event_loop().create_task(
+                        self._autoplay_next(next_item["video_id"], next_item.get("languages", self.status.languages))
+                    )
+                    return
                 if self.autoplay and self.status.video_id:
                     next_vid = get_next_video(self.status.video_id)
                     if next_vid:
-                        # Schedule autoplay outside this task to avoid self-cancellation
                         asyncio.get_event_loop().create_task(
                             self._autoplay_next(next_vid["id"], self.status.languages)
                         )
@@ -665,6 +672,7 @@ class Player:
     def get_status(self) -> dict:
         d = self.status.to_dict()
         d["autoplay"] = self.autoplay
+        d["queue"] = self.queue
         # Include available languages for the current video
         if self.status.video_id:
             video = get_video(self.status.video_id)

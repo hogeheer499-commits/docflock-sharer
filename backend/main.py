@@ -206,6 +206,43 @@ async def api_stop():
     return {"status": "stopped"}
 
 
+# --- Queue ---
+
+class QueueAddRequest(BaseModel):
+    video_id: str
+    languages: list[str] = []
+
+
+@app.get("/api/queue")
+async def api_queue():
+    return player.queue
+
+
+@app.post("/api/queue/add")
+async def api_queue_add(req: QueueAddRequest):
+    video = get_video(req.video_id)
+    if not video:
+        raise HTTPException(404, "Video niet gevonden")
+    player.queue.append({
+        "video_id": req.video_id,
+        "languages": req.languages,
+        "title": video["title"],
+    })
+    return {"queue": player.queue, "length": len(player.queue)}
+
+
+@app.post("/api/queue/remove")
+async def api_queue_remove(req: QueueAddRequest):
+    player.queue = [q for q in player.queue if q["video_id"] != req.video_id]
+    return {"queue": player.queue, "length": len(player.queue)}
+
+
+@app.post("/api/queue/clear")
+async def api_queue_clear():
+    player.queue.clear()
+    return {"queue": [], "length": 0}
+
+
 @app.get("/api/status")
 async def api_status():
     return player.get_status()

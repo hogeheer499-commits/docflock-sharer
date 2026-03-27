@@ -236,6 +236,7 @@ function onSelectionChange() {
   if (!videoId) {
     langGroup.classList.add("hidden");
     playBtn.disabled = true;
+    queueBtn.disabled = true;
     return;
   }
 
@@ -262,6 +263,7 @@ function onSelectionChange() {
     langGroup.classList.add("hidden");
   }
   playBtn.disabled = false;
+  queueBtn.disabled = false;
 }
 
 // --- Live language switch ---
@@ -343,6 +345,73 @@ async function playYouTubeUrl() {
     showError(e.message);
     statusEl.classList.add("hidden");
     btn.disabled = false;
+  }
+}
+
+// --- Queue ---
+const queueBtn = document.getElementById("queue-btn");
+const queueCard = document.getElementById("queue-card");
+const queueList = document.getElementById("queue-list");
+const queueCount = document.getElementById("queue-count");
+
+queueBtn.addEventListener("click", addToQueue);
+document.getElementById("queue-clear").addEventListener("click", clearQueue);
+
+async function addToQueue() {
+  const videoId = getSelectedId();
+  if (!videoId) return;
+  const selected = [...document.querySelectorAll('input[name="lang"]:checked')]
+    .map((cb) => cb.value);
+  try {
+    const resp = await api("/api/queue/add", {
+      method: "POST",
+      body: JSON.stringify({ video_id: videoId, languages: selected }),
+    });
+    const data = await resp.json();
+    updateQueueUI(data.queue);
+  } catch {}
+}
+
+async function removeFromQueue(videoId) {
+  try {
+    const resp = await api("/api/queue/remove", {
+      method: "POST",
+      body: JSON.stringify({ video_id: videoId }),
+    });
+    const data = await resp.json();
+    updateQueueUI(data.queue);
+  } catch {}
+}
+
+async function clearQueue() {
+  try {
+    const resp = await api("/api/queue/clear", { method: "POST" });
+    const data = await resp.json();
+    updateQueueUI(data.queue);
+  } catch {}
+}
+
+function updateQueueUI(queue) {
+  if (!queue || queue.length === 0) {
+    queueCard.classList.add("hidden");
+    queueCount.textContent = "0";
+    return;
+  }
+  queueCard.classList.remove("hidden");
+  queueCount.textContent = queue.length;
+  queueList.innerHTML = "";
+  for (const item of queue) {
+    const li = document.createElement("li");
+    const span = document.createElement("span");
+    span.textContent = item.title;
+    const btn = document.createElement("button");
+    btn.className = "queue-remove";
+    btn.textContent = "\u00d7";
+    btn.title = "Remove";
+    btn.addEventListener("click", () => removeFromQueue(item.video_id));
+    li.appendChild(span);
+    li.appendChild(btn);
+    queueList.appendChild(li);
   }
 }
 
@@ -685,6 +754,9 @@ function updateStatusUI(data) {
   }
 
   if (data.error) showError(data.error);
+
+  // Sync queue UI from server state
+  if (data.queue !== undefined) updateQueueUI(data.queue);
 
   saveResumeState(data);
 }

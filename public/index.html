@@ -97,7 +97,19 @@
           <div id="lang-checkboxes" class="lang-checkboxes"></div>
         </div>
 
-        <button id="play-btn" class="btn-primary btn-full" disabled>Play</button>
+        <div class="play-row">
+          <button id="play-btn" class="btn-primary btn-full" disabled>Play</button>
+          <button id="queue-btn" class="btn-queue" disabled title="Add to queue">+ Queue</button>
+        </div>
+
+        <!-- Queue display -->
+        <div id="queue-card" class="queue-card hidden">
+          <div class="queue-header">
+            <label>Queue (<span id="queue-count">0</span>)</label>
+            <button id="queue-clear" class="btn-dismiss">Clear</button>
+          </div>
+          <ol id="queue-list" class="queue-list"></ol>
+        </div>
 
         <!-- Player card -->
         <div id="status-card" class="status-card hidden">
