@@ -41,77 +41,7 @@
           </div>
         </div>
 
-        <!-- Lecture selector -->
-        <div class="select-group">
-          <label for="video-select">All Lectures</label>
-          <select id="video-select">
-            <option value="">Select a lecture...</option>
-          </select>
-        </div>
-
-        <!-- Multi-language lectures -->
-        <div id="multilang-group" class="select-group hidden">
-          <label for="multilang-select">Lectures with Multiple Language Subtitles</label>
-          <select id="multilang-select">
-            <option value="">Select a lecture...</option>
-          </select>
-        </div>
-
-        <!-- Short Doc Clips selector -->
-        <div id="clips-group" class="select-group hidden">
-          <label for="clips-select">Short Doc Clips</label>
-          <select id="clips-select">
-            <option value="">Select a clip...</option>
-          </select>
-        </div>
-
-        <!-- Music selector -->
-        <div class="select-group">
-          <label for="music-select">Music</label>
-          <select id="music-select">
-            <option value="">Select a song...</option>
-          </select>
-        </div>
-
-        <!-- YouTube cached -->
-        <div id="yt-cache-group" class="select-group hidden">
-          <label for="yt-select">YouTube Downloads</label>
-          <select id="yt-select">
-            <option value="">Select a download...</option>
-          </select>
-        </div>
-
-        <!-- YouTube URL -->
-        <div class="url-group">
-          <label>YouTube URL</label>
-          <div class="url-row">
-            <input type="url" id="yt-url" placeholder="Paste YouTube URL..." autocomplete="off">
-            <button id="yt-play-btn" class="btn-primary">Download</button>
-          </div>
-          <div id="yt-status" class="yt-status hidden"></div>
-        </div>
-
-        <!-- Language selector -->
-        <div id="lang-group" class="lang-group hidden">
-          <label>Subtitles</label>
-          <div id="lang-checkboxes" class="lang-checkboxes"></div>
-        </div>
-
-        <div class="play-row">
-          <button id="play-btn" class="btn-primary btn-full" disabled>Play</button>
-          <button id="queue-btn" class="btn-queue" disabled title="Add to queue">+ Queue</button>
-        </div>
-
-        <!-- Queue display -->
-        <div id="queue-card" class="queue-card hidden">
-          <div class="queue-header">
-            <label>Queue (<span id="queue-count">0</span>)</label>
-            <button id="queue-clear" class="btn-dismiss">Clear</button>
-          </div>
-          <ol id="queue-list" class="queue-list"></ol>
-        </div>
-
-        <!-- Player card -->
+        <!-- Player card (now playing) -->
         <div id="status-card" class="status-card hidden">
           <div class="status-title" id="status-title"></div>
           <div class="status-meta">
@@ -192,6 +122,76 @@
             </label>
             <button id="stop-btn" class="btn-stop" title="Stop playback">Stop</button>
           </div>
+        </div>
+
+        <!-- Lecture selector -->
+        <div class="select-group">
+          <label for="video-select">All Lectures</label>
+          <select id="video-select">
+            <option value="">Select a lecture...</option>
+          </select>
+        </div>
+
+        <!-- Multi-language lectures -->
+        <div id="multilang-group" class="select-group hidden">
+          <label for="multilang-select">Lectures with Multiple Language Subtitles</label>
+          <select id="multilang-select">
+            <option value="">Select a lecture...</option>
+          </select>
+        </div>
+
+        <!-- Short Doc Clips selector -->
+        <div id="clips-group" class="select-group hidden">
+          <label for="clips-select">Short Doc Clips</label>
+          <select id="clips-select">
+            <option value="">Select a clip...</option>
+          </select>
+        </div>
+
+        <!-- Music selector -->
+        <div class="select-group">
+          <label for="music-select">Music</label>
+          <select id="music-select">
+            <option value="">Select a song...</option>
+          </select>
+        </div>
+
+        <!-- YouTube cached -->
+        <div id="yt-cache-group" class="select-group hidden">
+          <label for="yt-select">YouTube Downloads</label>
+          <select id="yt-select">
+            <option value="">Select a download...</option>
+          </select>
+        </div>
+
+        <!-- YouTube URL -->
+        <div class="url-group">
+          <label>YouTube URL</label>
+          <div class="url-row">
+            <input type="url" id="yt-url" placeholder="Paste YouTube URL..." autocomplete="off">
+            <button id="yt-play-btn" class="btn-primary">Download</button>
+          </div>
+          <div id="yt-status" class="yt-status hidden"></div>
+        </div>
+
+        <!-- Language selector -->
+        <div id="lang-group" class="lang-group hidden">
+          <label>Subtitles</label>
+          <div id="lang-checkboxes" class="lang-checkboxes"></div>
+        </div>
+
+        <div class="play-row">
+          <button id="play-btn" class="btn-primary btn-full" disabled>Play</button>
+          <button id="queue-btn" class="btn-queue" disabled title="Add to queue">+ Queue</button>
+        </div>
+
+        <!-- Queue display -->
+        <div id="queue-card" class="queue-card hidden">
+          <div class="queue-header">
+            <label>Queue (<span id="queue-count">0</span>)</label>
+            <button id="queue-clear" class="btn-dismiss">Clear</button>
+          </div>
+          <ol id="queue-list" class="queue-list"></ol>
         </div>
 
         <div id="error-msg" class="error hidden"></div>
