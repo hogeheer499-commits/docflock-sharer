@@ -131,6 +131,17 @@ body {
 
 .top-spacer { width: 32px; }
 
+.section-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-secondary, #666);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 16px 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
 .app-title {
   font-size: 22px;
   font-weight: 700;
