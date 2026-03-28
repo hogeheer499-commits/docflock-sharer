@@ -124,6 +124,15 @@
           </div>
         </div>
 
+        <!-- Queue display -->
+        <div id="queue-card" class="queue-card hidden">
+          <div class="queue-header">
+            <label>Queue (<span id="queue-count">0</span>)</label>
+            <button id="queue-clear" class="btn-dismiss">Clear</button>
+          </div>
+          <ol id="queue-list" class="queue-list"></ol>
+        </div>
+
         <!-- Lecture selector -->
         <div class="select-group">
           <label for="video-select">All Lectures</label>
@@ -183,15 +192,6 @@
         <div class="play-row">
           <button id="play-btn" class="btn-primary btn-full" disabled>Play</button>
           <button id="queue-btn" class="btn-queue" disabled title="Add to queue">+ Queue</button>
-        </div>
-
-        <!-- Queue display -->
-        <div id="queue-card" class="queue-card hidden">
-          <div class="queue-header">
-            <label>Queue (<span id="queue-count">0</span>)</label>
-            <button id="queue-clear" class="btn-dismiss">Clear</button>
-          </div>
-          <ol id="queue-list" class="queue-list"></ol>
         </div>
 
         <div id="error-msg" class="error hidden"></div>
