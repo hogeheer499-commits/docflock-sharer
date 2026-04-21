@@ -12,60 +12,68 @@ Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:23.27,0:00:30.24,Default,,0,0,0,,sur la table ce matin.\NDonc, le reste des annonces est…
-Dialogue: 0,0:00:30.24,0:00:35.04,Default,,0,0,0,,euh… nous devons partir précisément à cinq\Nheures.  Donc, euh, il y a un autre événement
-Dialogue: 0,0:00:35.04,0:00:40.07,Default,,0,0,0,,ici à 19h ce soir.  Les Quatre Filles du Docteur March, ils\Nmontent la pièce Les Quatre Filles du Docteur March.  Euh,
-Dialogue: 0,0:00:40.07,0:00:45.28,Default,,0,0,0,,donc, euh, nous devrons partir précisément à\N17h00.  Euh, si possible, assurez-vous de nettoyer
-Dialogue: 0,0:00:45.28,0:00:48.87,Default,,0,0,0,,autour de vos sièges car\Nil y a un autre événement et si nous pouvons
-Dialogue: 0,0:00:48.87,0:00:54.07,Default,,0,0,0,,les aider en nettoyant, ce serait d'une aide précieuse\N.  Euh, il y a des précommandes
-Dialogue: 0,0:00:54.07,0:00:59.52,Default,,0,0,0,,pour la conférence d'aujourd'hui à la librairie.\NDonc, si vous souhaitez en remplir un, nous
-Dialogue: 0,0:00:59.52,0:01:05.68,Default,,0,0,0,,vous en enverrons un par la poste dès\Nqu'ils seront disponibles.  Et, euh, le programme pour
-Dialogue: 0,0:01:05.68,0:01:12.47,Default,,0,0,0,,2010 est également disponible à la librairie.  Donc, si\Nvous voulez les récupérer.  Et, euh, laissez-
-Dialogue: 0,0:01:12.47,0:01:15.28,Default,,0,0,0,,moi voir.  Je crois que c'est tout.\NBien.   D'accord
-Dialogue: 0,0:01:15.28,0:01:28.08,Default,,0,0,0,,.   D'accord\Noublié de mentionner que je
-Dialogue: 0,0:01:28.08,0:01:42.32,Default,,0,0,0,,suis né accro à la nicotine.\NJe suis née accro à la nicotine
-Dialogue: 0,0:01:42.32,0:01:53.36,Default,,0,0,0,,parce que\Nquand j'étais toute petite,
+Dialogue: 0,0:00:20.24,0:00:26.40,Default,,0,0,0,,Bonjour.  Euh, j'avais les mauvaises annonces\Nsur la table ce matin.
+Dialogue: 0,0:00:26.40,0:00:32.07,Default,,0,0,0,,Donc, le reste des annonces est…\Neuh… nous devons partir précisément à cinq
+Dialogue: 0,0:00:32.07,0:00:37.44,Default,,0,0,0,,heures.  Donc, euh, il y a un autre événement\Nici à 19h ce soir.  Les Quatre Filles du Docteur March, ils
+Dialogue: 0,0:00:37.44,0:00:42.96,Default,,0,0,0,,montent la pièce Les Quatre Filles du Docteur March.  Euh,\Ndonc, euh, nous devrons partir précisément à
+Dialogue: 0,0:00:42.96,0:00:47.12,Default,,0,0,0,,17h00.  Euh, si possible, assurez-vous de nettoyer\Nautour de vos sièges car
+Dialogue: 0,0:00:47.12,0:00:50.96,Default,,0,0,0,,il y a un autre événement et si nous pouvons\Nles aider en nettoyant, ce serait d'une aide précieuse
+Dialogue: 0,0:00:50.96,0:00:57.84,Default,,0,0,0,,.  Euh, il y a des précommandes\Npour la conférence d'aujourd'hui à la librairie.
+Dialogue: 0,0:00:57.84,0:01:01.92,Default,,0,0,0,,Donc, si vous souhaitez en remplir un, nous\Nvous en enverrons un par la poste dès
+Dialogue: 0,0:01:01.92,0:01:08.47,Default,,0,0,0,,qu'ils seront disponibles.  Et, euh, le programme pour\N2010 est également disponible à la librairie.  Donc, si
+Dialogue: 0,0:01:08.47,0:01:14.72,Default,,0,0,0,,vous voulez les récupérer.  Et, euh, laissez-\Nmoi voir.  Je crois que c'est tout.
+Dialogue: 0,0:01:14.72,0:01:18.28,Default,,0,0,0,,Bien.   D'accord\N.   D'accord
+Dialogue: 0,0:01:21.84,0:01:28.08,Default,,0,0,0,,.  Au cours du processus de naissance, j'ai\Noublié de mentionner que je
+Dialogue: 0,0:01:28.08,0:01:39.11,Default,,0,0,0,,suis né accro à la nicotine.\NC'est un fait.
+Dialogue: 0,0:01:39.11,0:01:44.15,Default,,0,0,0,,Je suis née accro à la nicotine\Nparce que
+Dialogue: 0,0:01:44.15,0:01:53.36,Default,,0,0,0,,quand j'étais toute petite,\Neuh, toutes les femmes fumaient et euh, le
 Dialogue: 0,0:01:53.36,0:02:00.88,Default,,0,0,0,,président fumait, tout le monde fumait.\NC'était le résultat d'une certaine
-Dialogue: 0,0:02:00.88,0:02:10.80,Default,,0,0,0,,époque du\Net tout le monde fumait à cette époque, donc
-Dialogue: 0,0:02:10.80,0:02:17.59,Default,,0,0,0,,ma mère fumait aussi.  C'était une garçonne,\Nelle était moderne et elle fumait.
-Dialogue: 0,0:02:17.59,0:02:21.28,Default,,0,0,0,,Les femmes n'y ont donc pas prêté attention,\Ncar la fumée ne descend qu'ici et
-Dialogue: 0,0:02:21.28,0:02:28.95,Default,,0,0,0,,le bébé est en bas.  Alors, quel est le\Nproblème ?
-Dialogue: 0,0:02:28.95,0:02:49.59,Default,,0,0,0,,souhaitée, c'était que quelqu'un puisse fumer.\NOn peut naître dépendant à la nicotine
+Dialogue: 0,0:02:00.88,0:02:07.68,Default,,0,0,0,,époque du\Ndéveloppement américain,
+Dialogue: 0,0:02:07.68,0:02:13.04,Default,,0,0,0,,et tout le monde fumait à cette époque, donc\Nma mère fumait aussi.  C'était une garçonne,
+Dialogue: 0,0:02:13.04,0:02:19.20,Default,,0,0,0,,elle était moderne et elle fumait.\NLes femmes n'y ont donc pas prêté attention,
+Dialogue: 0,0:02:19.20,0:02:23.04,Default,,0,0,0,,car la fumée ne descend qu'ici et\Nle bébé est en bas.  Alors, quel est le
+Dialogue: 0,0:02:23.04,0:02:28.95,Default,,0,0,0,,problème ?\NAlors, quand je suis né, la première chose que j'ai
+Dialogue: 0,0:02:28.95,0:02:41.64,Default,,0,0,0,,souhaitée, c'était que quelqu'un puisse fumer.\ND'accord,
+Dialogue: 0,0:02:43.59,0:02:49.59,Default,,0,0,0,,c'est un fait.  Résister.  C'est un fait.\NOn peut naître dépendant à la nicotine
 Dialogue: 0,0:02:49.59,0:02:54.64,Default,,0,0,0,,avant même d'avoir fumé sa première cigarette.  Dès ma\Nnaissance, il y avait tous ces
-Dialogue: 0,0:02:54.64,0:03:08.87,Default,,0,0,0,,bruits forts et ces lumières vives, et j'avais\Nbesoin de fumer.
-Dialogue: 0,0:03:08.87,0:03:14.87,Default,,0,0,0,,vie.  Vous savez, à cette époque, tout le monde\Nfumait et ma famille était entièrement
-Dialogue: 0,0:03:14.87,0:03:18.80,Default,,0,0,0,,victorienne.\NMes grands-parents étaient tous de l'époque victorienne.  À
-Dialogue: 0,0:03:18.80,0:03:24.08,Default,,0,0,0,,l'époque victorienne, tout le monde fumait tout\Nle temps, partout, sauf mes deux
-Dialogue: 0,0:03:24.08,0:03:29.04,Default,,0,0,0,,grands-mères.  Les grands-mères âgées pouvaient se permettre de\Nne pas fumer.
-Dialogue: 0,0:03:29.04,0:03:33.12,Default,,0,0,0,,Mais j'avais une grand-mère plus\Nmoderne, qui disait : « Je vais fumer une
-Dialogue: 0,0:03:33.12,0:03:42.48,Default,,0,0,0,,cigarette avec toi pour être sociable. »\Nj'imagine que les cigarettes n'étaient pas si mauvaises à l'époque
-Dialogue: 0,0:03:42.48,0:03:54.31,Default,,0,0,0,,.   D'accord\NEuh, c'est quoi un slide ?  D'accord.
-Dialogue: 0,0:03:54.31,0:03:59.36,Default,,0,0,0,,Euh, d'accord.  Tous ces éléments\Npourraient faire l'objet d'une conférence.  Chacune de ces
-Dialogue: 0,0:03:59.36,0:04:04.72,Default,,0,0,0,,choses dont nous parlons,\Neuh, évidemment votre vocation et vos
-Dialogue: 0,0:04:04.72,0:04:09.92,Default,,0,0,0,,relations amoureuses.\NEuh, la qualité du mariage, la qualité
-Dialogue: 0,0:04:09.92,0:04:14.15,Default,,0,0,0,,du mariage.  Si vous vous considérez comme\Ndes partenaires, si vous vous voyez comme une collaboration
-Dialogue: 0,0:04:14.15,0:04:19.60,Default,,0,0,0,,mutuellement bénéfique,\Nvous êtes engagés dans le partenariat.  Et
-Dialogue: 0,0:04:19.60,0:04:26.56,Default,,0,0,0,,euh, si vous avez de la chance, vous trouverez une bonne épouse\Net euh, un bon mari.  Et si vous n'avez pas cette
-Dialogue: 0,0:04:26.56,0:04:43.04,Default,,0,0,0,,chance, votre vie est un enfer, fait de\Ninfluencent la réussite.
-Dialogue: 0,0:04:43.04,0:04:46.80,Default,,0,0,0,,Euh,\Ncroire en soi, avoir confiance en
-Dialogue: 0,0:04:46.80,0:04:50.08,Default,,0,0,0,,soi.\NEuh, il est important de croire en
-Dialogue: 0,0:04:50.08,0:04:55.36,Default,,0,0,0,,soi.  Peu importe où vous en êtes dans votre\Nvie,
-Dialogue: 0,0:04:55.36,0:04:59.36,Default,,0,0,0,,je souhaite que vous ayez une attitude positive à cet égard\N.
-Dialogue: 0,0:04:59.36,0:05:04.63,Default,,0,0,0,,Imaginons que vous ayez tout fait de travers, que\Nvous soyez en prison, que tout le monde vous poursuive en justice
-Dialogue: 0,0:05:04.63,0:05:10.56,Default,,0,0,0,,et que tout le monde vous ait abandonné.\NTu as connu un grand succès
-Dialogue: 0,0:05:10.56,0:05:22.40,Default,,0,0,0,,car tu as maintenant appris ce qui ne\Nfonctionne pas dans ce monde.
+Dialogue: 0,0:02:54.64,0:03:02.59,Default,,0,0,0,,bruits forts et ces lumières vives, et j'avais\Nbesoin de fumer.
+Dialogue: 0,0:03:06.56,0:03:12.56,Default,,0,0,0,,Voilà donc les vicissitudes de la\Nvie.  Vous savez, à cette époque, tout le monde
+Dialogue: 0,0:03:12.56,0:03:16.80,Default,,0,0,0,,fumait et ma famille était entièrement\Nvictorienne.
+Dialogue: 0,0:03:16.80,0:03:21.59,Default,,0,0,0,,Mes grands-parents étaient tous de l'époque victorienne.  À\Nl'époque victorienne, tout le monde fumait tout
+Dialogue: 0,0:03:21.59,0:03:26.72,Default,,0,0,0,,le temps, partout, sauf mes deux\Ngrands-mères.  Les grands-mères âgées pouvaient se permettre de
+Dialogue: 0,0:03:26.72,0:03:30.87,Default,,0,0,0,,ne pas fumer.\NMais j'avais une grand-mère plus
+Dialogue: 0,0:03:30.87,0:03:37.15,Default,,0,0,0,,moderne, qui disait : « Je vais fumer une\Ncigarette avec toi pour être sociable. »
+Dialogue: 0,0:03:37.44,0:03:42.48,Default,,0,0,0,,Et ils ont tous vécu jusqu'à environ 95 ans, alors\Nj'imagine que les cigarettes n'étaient pas si mauvaises à l'époque
+Dialogue: 0,0:03:42.48,0:03:49.76,Default,,0,0,0,,.   D'accord\N.  Alors, où en étions-nous ?
+Dialogue: 0,0:03:49.76,0:03:57.43,Default,,0,0,0,,Euh, c'est quoi un slide ?  D'accord.\NEuh, d'accord.  Tous ces éléments
+Dialogue: 0,0:03:57.43,0:04:02.08,Default,,0,0,0,,pourraient faire l'objet d'une conférence.  Chacune de ces\Nchoses dont nous parlons,
+Dialogue: 0,0:04:02.08,0:04:07.20,Default,,0,0,0,,euh, évidemment votre vocation et vos\Nrelations amoureuses.
+Dialogue: 0,0:04:07.20,0:04:12.31,Default,,0,0,0,,Euh, la qualité du mariage, la qualité\Ndu mariage.  Si vous vous considérez comme
+Dialogue: 0,0:04:12.31,0:04:16.56,Default,,0,0,0,,des partenaires, si vous vous voyez comme une collaboration\Nmutuellement bénéfique,
+Dialogue: 0,0:04:16.56,0:04:23.28,Default,,0,0,0,,vous êtes engagés dans le partenariat.  Et\Neuh, si vous avez de la chance, vous trouverez une bonne épouse
+Dialogue: 0,0:04:23.28,0:04:31.16,Default,,0,0,0,,et euh, un bon mari.  Et si vous n'avez pas cette\Nchance, votre vie est un enfer, fait de
+Dialogue: 0,0:04:32.72,0:04:40.08,Default,,0,0,0,,meurtres et de suicides.  Par ailleurs,\Nnous avons examiné tous les facteurs qui
+Dialogue: 0,0:04:40.08,0:04:44.72,Default,,0,0,0,,influencent la réussite.\NEuh,
+Dialogue: 0,0:04:44.72,0:04:48.40,Default,,0,0,0,,croire en soi, avoir confiance en\Nsoi.
+Dialogue: 0,0:04:48.40,0:04:52.96,Default,,0,0,0,,Euh, il est important de croire en\Nsoi.  Peu importe où vous en êtes dans votre
+Dialogue: 0,0:04:52.96,0:04:57.44,Default,,0,0,0,,vie,\Nje souhaite que vous ayez une attitude positive à cet égard
+Dialogue: 0,0:04:57.44,0:05:01.84,Default,,0,0,0,,.\NImaginons que vous ayez tout fait de travers, que
+Dialogue: 0,0:05:01.84,0:05:07.75,Default,,0,0,0,,vous soyez en prison, que tout le monde vous poursuive en justice\Net que tout le monde vous ait abandonné.
+Dialogue: 0,0:05:07.75,0:05:12.80,Default,,0,0,0,,Tu as connu un grand succès\Ncar tu as maintenant appris ce qui ne
+Dialogue: 0,0:05:12.80,0:05:22.40,Default,,0,0,0,,fonctionne pas dans ce monde.\NCependant, certaines personnes sont
 Dialogue: 0,0:05:22.40,0:05:27.19,Default,,0,0,0,,naturellement incapables d'apprendre ce qui ne\Nfonctionne pas dans ce monde.
 Dialogue: 0,0:05:27.19,0:05:31.36,Default,,0,0,0,,Nous avons un ami qui\Nexamine des personnes faisant des allers-retours chroniques en
-Dialogue: 0,0:05:31.36,0:05:44.47,Default,,0,0,0,,prison,\Net il établit un pronostic. Il y a des gens qui ne le comprennent tout simplement jamais, c'est congénital\h: ils n'ont ni
-Dialogue: 0,0:05:44.47,0:05:50.96,Default,,0,0,0,,intérêt, ni l'\Nincapacité d'apprendre de l'expérience.
-Dialogue: 0,0:05:50.96,0:05:57.03,Default,,0,0,0,,Nous sommes donc contents que,\Nmême en cas de mauvaise expérience, le consommateur moyen
-Dialogue: 0,0:05:57.03,0:06:01.52,Default,,0,0,0,,comprenne qu'il ne faut pas suivre cette\Nvoie.
-Dialogue: 0,0:06:01.52,0:06:06.47,Default,,0,0,0,,Nous sommes ce que la personne moyenne apprend.  Cette\Nméthode ne fonctionne pas.  Mais certaines
-Dialogue: 0,0:06:06.47,0:06:11.03,Default,,0,0,0,,personnes sont intrinsèquement incapables d'\Napprendre de l'expérience.
-Dialogue: 0,0:06:11.03,0:06:15.12,Default,,0,0,0,,Qu'avons-nous dit ?  Ils représentaient à une époque 6 % de la\Npopulation.  Voyons si
-Dialogue: 0,0:06:15.12,0:06:20.16,Default,,0,0,0,,c'est toujours exact.  Certaines personnes sont\Nincapables d'apprendre de l'expérience, et cela
-Dialogue: 0,0:06:20.16,0:06:26.80,Default,,0,0,0,,représente environ 6 % de la population. 7 %\N6 %
-Dialogue: 0,0:06:26.80,0:06:36.31,Default,,0,0,0,,6 % de la population est incapable, de façon\Ncongénitale,
+Dialogue: 0,0:05:31.36,0:05:42.16,Default,,0,0,0,,prison,\Net il établit un pronostic. Il y a des gens qui ne le comprennent tout simplement jamais, c'est congénital : ils n'ont ni
+Dialogue: 0,0:05:42.16,0:05:46.72,Default,,0,0,0,,la capacité, ni l'\Nintérêt, ni l'
+Dialogue: 0,0:05:46.72,0:05:54.08,Default,,0,0,0,,incapacité d'apprendre de l'expérience.\NNous sommes donc contents que,
+Dialogue: 0,0:05:54.08,0:05:59.60,Default,,0,0,0,,même en cas de mauvaise expérience, le consommateur moyen\Ncomprenne qu'il ne faut pas suivre cette
+Dialogue: 0,0:05:59.60,0:06:03.84,Default,,0,0,0,,voie.\NNous sommes ce que la personne moyenne apprend.  Cette
+Dialogue: 0,0:06:03.84,0:06:08.80,Default,,0,0,0,,méthode ne fonctionne pas.  Mais certaines\Npersonnes sont intrinsèquement incapables d'
+Dialogue: 0,0:06:08.80,0:06:13.19,Default,,0,0,0,,apprendre de l'expérience.\NQu'avons-nous dit ?  Ils représentaient à une époque 6 % de la
+Dialogue: 0,0:06:13.19,0:06:17.60,Default,,0,0,0,,population.  Voyons si\Nc'est toujours exact.  Certaines personnes sont
+Dialogue: 0,0:06:17.60,0:06:24.63,Default,,0,0,0,,incapables d'apprendre de l'expérience, et cela\Nreprésente environ 6 % de la population. 7 %
+Dialogue: 0,0:06:24.63,0:06:29.68,Default,,0,0,0,,6 %\N6 % de la population est incapable, de façon
+Dialogue: 0,0:06:29.68,0:06:36.31,Default,,0,0,0,,congénitale,\Nd'apprendre de l'expérience.
 Dialogue: 0,0:06:36.31,0:06:41.68,Default,,0,0,0,,Et vous voyez, le criminel qui reçoit fait\Ncela.  Il se retrouve en prison.  Il sort et
 Dialogue: 0,0:06:41.68,0:06:46.00,Default,,0,0,0,,la première chose qu'il fait est celle qui l'avait conduit\Nen prison juste avant.   Avant,
 Dialogue: 0,0:06:46.00,0:06:53.28,Default,,0,0,0,,on avait des agresseurs sexuels\Nqui s'en prenaient aux enfants, et dès qu'ils les laissaient
@@ -104,38 +112,42 @@ Dialogue: 0,0:09:37.51,0:09:41.12,Default,,0,0,0,,guérison.  C'est bien son nom
 Dialogue: 0,0:09:41.12,0:09:44.32,Default,,0,0,0,,Hein?\NGuérison et rétablissement.
 Dialogue: 0,0:09:44.32,0:09:46.39,Default,,0,0,0,,Quel est son nom ?\NNotre livre.   Celui
 Dialogue: 0,0:09:46.39,0:09:48.48,Default,,0,0,0,,sur la santé et la guérison.  C'est\Nle titre du livre ?
-Dialogue: 0,0:09:48.48,0:10:04.39,Default,,0,0,0,,Guérison et rétablissement.\Nqui a récemment publié un excellent livre
-Dialogue: 0,0:10:04.39,0:10:15.27,Default,,0,0,0,,Euh, j'y inclus moi-même beaucoup d'expériences personnelles\Nsystème de santé en général, sur des problèmes de santé spécifiques
-Dialogue: 0,0:10:15.27,0:10:20.56,Default,,0,0,0,,en particulier et sur certains\Nmédecins, etc.
-Dialogue: 0,0:10:20.56,0:10:26.95,Default,,0,0,0,,Je conseillerais toujours d'utiliser le bras avec n'importe quel médecin que\Nvous consultez.  Vous voyez, les médecins
-Dialogue: 0,0:10:26.95,0:10:31.44,Default,,0,0,0,,semblent avoir perdu un certain sens de la\Nbienveillance qui était autrefois monnaie courante dans la
-Dialogue: 0,0:10:31.44,0:10:35.68,Default,,0,0,0,,profession.  Pendant mes\Nétudes de médecine, et bien sûr j'ai fréquenté une
-Dialogue: 0,0:10:35.68,0:10:43.83,Default,,0,0,0,,université jésuite, l'attention portée au\Npatient était extrêmement importante.  Et
-Dialogue: 0,0:10:43.83,0:10:47.68,Default,,0,0,0,,lorsque j'avais une très grande clinique, nous avons constaté\Nque
-Dialogue: 0,0:10:47.68,0:10:52.95,Default,,0,0,0,,les médecins, nous avions beaucoup de médecins\Ndans l'équipe, et que certains médecins avaient des
-Dialogue: 0,0:10:52.95,0:10:58.39,Default,,0,0,0,,taux de guérison très élevés et d'autres des\Ntaux de guérison très faibles.  Et
-Dialogue: 0,0:10:58.39,0:11:03.60,Default,,0,0,0,,nous avons découvert que les médecins qui affichaient des\Ntaux de guérison élevés se souciaient de leurs
-Dialogue: 0,0:11:03.60,0:11:08.72,Default,,0,0,0,,patients.  Ils se souciaient d'eux.  Cela ne\Nsignifie pas qu'il existe un contre-
-Dialogue: 0,0:11:08.72,0:11:13.76,Default,,0,0,0,,transfert positif.  Cela signifie simplement qu'en tant\Nqu'êtres humains, ils se soucient des autres.  Ils se soucient de
-Dialogue: 0,0:11:13.76,0:11:18.32,Default,,0,0,0,,votre rétablissement.  Ils se soucient de\Nvotre bonheur.  Ils se soucient de savoir si vous avez
-Dialogue: 0,0:11:18.32,0:11:24.24,Default,,0,0,0,,cessé de souffrir.  Il est donc extrêmement important d'avoir un\Nmédecin attentionné.  Vous
-Dialogue: 0,0:11:24.24,0:11:34.72,Default,,0,0,0,,pourriez donc utiliser votre bras, utiliser votre bras et\Nconsulter votre médecin.
+Dialogue: 0,0:09:48.48,0:09:53.48,Default,,0,0,0,,Guérison et rétablissement.\NGuérison et rétablissement.
+Dialogue: 0,0:09:53.92,0:10:04.39,Default,,0,0,0,,qui a récemment publié un excellent livre\Nintitulé « Guérison et rétablissement ».
+Dialogue: 0,0:10:04.39,0:10:12.16,Default,,0,0,0,,Euh, j'y inclus moi-même beaucoup d'expériences personnelles\Net j'ai appris beaucoup de choses sur le
+Dialogue: 0,0:10:12.16,0:10:18.00,Default,,0,0,0,,système de santé en général, sur des problèmes de santé spécifiques\Nen particulier et sur certains
+Dialogue: 0,0:10:18.00,0:10:22.72,Default,,0,0,0,,médecins, etc.\NJe conseillerais toujours d'utiliser le bras avec n'importe quel médecin que
+Dialogue: 0,0:10:22.72,0:10:28.80,Default,,0,0,0,,vous consultez.  Vous voyez, les médecins\Nsemblent avoir perdu un certain sens de la
+Dialogue: 0,0:10:28.80,0:10:33.76,Default,,0,0,0,,bienveillance qui était autrefois monnaie courante dans la\Nprofession.  Pendant mes
+Dialogue: 0,0:10:33.76,0:10:39.68,Default,,0,0,0,,études de médecine, et bien sûr j'ai fréquenté une\Nuniversité jésuite, l'attention portée au
+Dialogue: 0,0:10:39.68,0:10:46.00,Default,,0,0,0,,patient était extrêmement importante.  Et\Nlorsque j'avais une très grande clinique, nous avons constaté
+Dialogue: 0,0:10:46.00,0:10:50.00,Default,,0,0,0,,que\Nles médecins, nous avions beaucoup de médecins
+Dialogue: 0,0:10:50.00,0:10:55.20,Default,,0,0,0,,dans l'équipe, et que certains médecins avaient des\Ntaux de guérison très élevés et d'autres des
+Dialogue: 0,0:10:55.20,0:11:00.24,Default,,0,0,0,,taux de guérison très faibles.  Et\Nnous avons découvert que les médecins qui affichaient des
+Dialogue: 0,0:11:00.24,0:11:06.95,Default,,0,0,0,,taux de guérison élevés se souciaient de leurs\Npatients.  Ils se souciaient d'eux.  Cela ne
+Dialogue: 0,0:11:06.95,0:11:11.04,Default,,0,0,0,,signifie pas qu'il existe un contre-\Ntransfert positif.  Cela signifie simplement qu'en tant
+Dialogue: 0,0:11:11.04,0:11:15.76,Default,,0,0,0,,qu'êtres humains, ils se soucient des autres.  Ils se soucient de\Nvotre rétablissement.  Ils se soucient de
+Dialogue: 0,0:11:15.76,0:11:21.20,Default,,0,0,0,,votre bonheur.  Ils se soucient de savoir si vous avez\Ncessé de souffrir.  Il est donc extrêmement important d'avoir un
+Dialogue: 0,0:11:21.20,0:11:27.27,Default,,0,0,0,,médecin attentionné.  Vous\Npourriez donc utiliser votre bras, utiliser votre bras et
+Dialogue: 0,0:11:27.27,0:11:34.72,Default,,0,0,0,,consulter votre médecin.\NC'est un médecin attentionné et donc un
 Dialogue: 0,0:11:34.72,0:11:41.68,Default,,0,0,0,,bon médecin à consulter.\NCertaines personnes avaient des
 Dialogue: 0,0:11:41.68,0:11:47.20,Default,,0,0,0,,entraînements très intensifs et ont obtenu des résultats extraordinaires.\NEt d'autres avaient de petits cabinets
 Dialogue: 0,0:11:47.20,0:11:53.60,Default,,0,0,0,,et pratiquaient oralement.  Et\Ntoute la différence résidait dans la bienveillance.
 Dialogue: 0,0:11:53.60,0:12:00.80,Default,,0,0,0,,Bienveillance.  quand on tient à quelqu'un.  Donc, la même\Nchose s'applique à euh toute votre vie.  Se
 Dialogue: 0,0:12:00.80,0:12:05.27,Default,,0,0,0,,soucier de ses voisins, de\Nses animaux de compagnie, de l'apparence de sa pelouse
 Dialogue: 0,0:12:05.27,0:12:11.68,Default,,0,0,0,,, de soi-même, d'avoir une apparence présentable en sortant\N, de ne pas être trop
-Dialogue: 0,0:12:11.68,0:12:18.56,Default,,0,0,0,,laid et de ne pas faire peur aux\Ngens.   Il arrive
-Dialogue: 0,0:12:18.56,0:12:34.80,Default,,0,0,0,,une chirurgie esthétique du visage.  Vous savez, je veux dire, tout simplement de la\Nbienveillance envers ses semblables.
+Dialogue: 0,0:12:11.68,0:12:16.36,Default,,0,0,0,,laid et de ne pas faire peur aux\Ngens.   Il arrive
+Dialogue: 0,0:12:17.36,0:12:21.04,Default,,0,0,0,,un moment où il faut envisager\Nune chirurgie esthétique du visage.  Vous savez, je veux dire, tout simplement de la
+Dialogue: 0,0:12:21.04,0:12:34.80,Default,,0,0,0,,bienveillance envers ses semblables.\NSe soucier de la vie car l'essence
 Dialogue: 0,0:12:34.80,0:12:39.92,Default,,0,0,0,,de la vie, l'essence de toute vie, est la\Ndivinité.
 Dialogue: 0,0:12:39.92,0:12:44.48,Default,,0,0,0,,Toute vie est l'expression du\Ndivin.
 Dialogue: 0,0:12:44.48,0:12:50.72,Default,,0,0,0,,Toute vie est une expression du\Ndivin.  Résistez à tout ce que la vie est Dieu.
 Dialogue: 0,0:12:50.72,0:12:55.51,Default,,0,0,0,,Résister.\NToute la vie est Dieu.  Vous vous souciez donc de cela
 Dialogue: 0,0:12:55.51,0:12:58.63,Default,,0,0,0,,pour votre jardin.  Vous vous souciez de\Nvos reins.  Tu portes
 Dialogue: 0,0:12:58.63,0:13:03.76,Default,,0,0,0,,ça sur les chiens.  Les\Ncolibris sont de retour en ce moment.  J'espère que vous avez mis de la
-Dialogue: 0,0:13:03.76,0:13:15.51,Default,,0,0,0,,nourriture pour colibris.  Je les entends dehors\N.  Ils font de
-Dialogue: 0,0:13:15.51,0:13:24.72,Default,,0,0,0,,tirez pas sur les colibris.  Non.\Nquelque part.
+Dialogue: 0,0:13:03.76,0:13:09.39,Default,,0,0,0,,nourriture pour colibris.  Je les entends dehors\N.  Ils font de
+Dialogue: 0,0:13:13.12,0:13:19.88,Default,,0,0,0,,petits colibris.  Ils sont trop mignons.   Ne\Ntirez pas sur les colibris.  Non.
+Dialogue: 0,0:13:20.07,0:13:24.72,Default,,0,0,0,,Je suis sûr qu'il y a des tueurs de colibris\Nquelque part.
 Dialogue: 0,0:13:24.72,0:13:27.51,Default,,0,0,0,,Tout être vivant, vous trouverez toujours\Nquelqu'un qui voudra le traquer et lui
 Dialogue: 0,0:13:27.51,0:13:32.24,Default,,0,0,0,,tirer dessus.\NOuais.
 Dialogue: 0,0:13:32.24,0:13:37.51,Default,,0,0,0,,Je n'ai jamais été très passionné par la\Nchasse.
@@ -149,31 +161,32 @@ Dialogue: 0,0:14:08.16,0:14:13.92,Default,,0,0,0,,Une\Nfièvre du cerf.  Vous re
 Dialogue: 0,0:14:13.92,0:14:18.16,Default,,0,0,0,,viseurs télescopiques et vous voyez cette créature incroyable,\Nincroyable.
 Dialogue: 0,0:14:18.16,0:14:22.00,Default,,0,0,0,,Et nous avons un petit endroit où nous allons en\Nété.  Et ces
 Dialogue: 0,0:14:22.00,0:14:26.63,Default,,0,0,0,,créatures incroyables, avec leurs petites oreilles rigolotes,\Nsont là, tranquilles, et l'idée de tuer
-Dialogue: 0,0:14:26.63,0:14:39.44,Default,,0,0,0,,Bambi est tout simplement inconcevable.\NComment peut-on tuer Bambi ?   D'accord
-Dialogue: 0,0:14:39.44,0:14:44.24,Default,,0,0,0,,.  Voilà comment les conditions de votre monde\Nnous affectent.  Notre richesse, notre
-Dialogue: 0,0:14:44.24,0:14:50.80,Default,,0,0,0,,santé, notre zone de confort financière.   La\Nzone de confort est simple.  Dépenser
-Dialogue: 0,0:14:50.80,0:14:57.51,Default,,0,0,0,,moins que ce que l'on gagne.  C'est simple.\NConcept simple.
-Dialogue: 0,0:14:57.51,0:15:02.00,Default,,0,0,0,,Personne ne vit selon ce principe.  C'est comme ça qu'on a les\Ncartes de crédit, n'est-ce pas ?  Aujourd'hui, vous devez donc déterminer
-Dialogue: 0,0:15:02.00,0:15:05.60,Default,,0,0,0,,combien vous pouvez vous permettre de payer\Npar mois avec votre carte de crédit.  Et cela
-Dialogue: 0,0:15:05.60,0:15:10.24,Default,,0,0,0,,détermine votre niveau de vie.  En vieillissant,\Nvous allez bien sûr traverser toutes
-Dialogue: 0,0:15:10.24,0:15:15.68,Default,,0,0,0,,sortes de phénomènes.  Le vieillissement a un\Neffet profond.  Euh, les années 80 ne
-Dialogue: 0,0:15:15.68,0:15:21.51,Default,,0,0,0,,sont certainement pas les années 60, ni les années\N40, ni les années 30.  Nous
-Dialogue: 0,0:15:21.51,0:15:26.56,Default,,0,0,0,,prenons donc en compte beaucoup de choses, et je me dis\Nà moi-même.  Eh bien, c'est parce que j'ai
-Dialogue: 0,0:15:26.56,0:15:32.24,Default,,0,0,0,,vécu longtemps que je vois les choses ainsi.\NBon, ce n'est pas vraiment politique.  Ce n'est
-Dialogue: 0,0:15:32.24,0:15:37.36,Default,,0,0,0,,pas vraiment intellectuel.  C'est juste que\Nj'appartiens à une tranche d'âge différente.
-Dialogue: 0,0:15:37.36,0:15:40.63,Default,,0,0,0,,Ma génération a vécu certaines\Nchoses que les personnes de générations différentes
-Dialogue: 0,0:15:40.63,0:15:46.39,Default,,0,0,0,,n'ont pas vécues,\Ncar je ne les ai pas vécues.  Leur
-Dialogue: 0,0:15:46.39,0:15:49.75,Default,,0,0,0,,compréhension de la chose est différente de la\Nmienne.
-Dialogue: 0,0:15:49.75,0:15:55.51,Default,,0,0,0,,Euh, notre position philosophique…\Ncertaines personnes sont des intellectuels, leur niveau intellectuel se situe autour de
-Dialogue: 0,0:15:55.51,0:16:01.51,Default,,0,0,0,,400, ils dévorent la\Nphilosophie et adorent lire des livres.   Avant,
-Dialogue: 0,0:16:01.51,0:16:07.19,Default,,0,0,0,,je lisais 500 livres par an, 500\Nlivres par an pendant des décennies.  J'ai pris
-Dialogue: 0,0:16:07.19,0:16:14.32,Default,,0,0,0,,des notes sur chaque livre et je les ai toutes\Narchivées.  Euh, 500 livres par an.  Alors, combien de
-Dialogue: 0,0:16:14.32,0:16:18.48,Default,,0,0,0,,livres lisez-vous par an ?  Cela dépend du\Ntemps dont vous disposez et de votre
-Dialogue: 0,0:16:18.48,0:16:22.95,Default,,0,0,0,,curiosité intellectuelle.\NMais j'ai trouvé par exemple des œuvres philosophiques issues des
-Dialogue: 0,0:16:22.95,0:16:27.44,Default,,0,0,0,,grands livres du monde occidental\N.  J'ai oublié le nom de l'
-Dialogue: 0,0:16:27.44,0:16:33.44,Default,,0,0,0,,université.  C'est à l'ouest de la Californie\Nque se trouve tout le programme scolaire, comment s'appelle-t-il déjà
-Dialogue: 0,0:16:33.44,0:16:36.39,Default,,0,0,0,,?\NThomas de
-Dialogue: 0,0:16:36.39,0:16:42.88,Default,,0,0,0,,Saint-Jean,\NThomas d'Aquin,
+Dialogue: 0,0:14:26.63,0:14:36.00,Default,,0,0,0,,Bambi est tout simplement inconcevable.\NComment peut-on tuer Bambi ?  Droite.
+Dialogue: 0,0:14:36.00,0:14:42.00,Default,,0,0,0,,Comment peut-on tuer Bambi ?   D'accord\N.  Voilà comment les conditions de votre monde
+Dialogue: 0,0:14:42.00,0:14:48.48,Default,,0,0,0,,nous affectent.  Notre richesse, notre\Nsanté, notre zone de confort financière.   La
+Dialogue: 0,0:14:48.48,0:14:55.36,Default,,0,0,0,,zone de confort est simple.  Dépenser\Nmoins que ce que l'on gagne.  C'est simple.
+Dialogue: 0,0:14:55.36,0:14:59.27,Default,,0,0,0,,Concept simple.\NPersonne ne vit selon ce principe.  C'est comme ça qu'on a les
+Dialogue: 0,0:14:59.27,0:15:03.68,Default,,0,0,0,,cartes de crédit, n'est-ce pas ?  Aujourd'hui, vous devez donc déterminer\Ncombien vous pouvez vous permettre de payer
+Dialogue: 0,0:15:03.68,0:15:08.72,Default,,0,0,0,,par mois avec votre carte de crédit.  Et cela\Ndétermine votre niveau de vie.  En vieillissant,
+Dialogue: 0,0:15:08.72,0:15:12.24,Default,,0,0,0,,vous allez bien sûr traverser toutes\Nsortes de phénomènes.  Le vieillissement a un
+Dialogue: 0,0:15:12.24,0:15:17.68,Default,,0,0,0,,effet profond.  Euh, les années 80 ne\Nsont certainement pas les années 60, ni les années
+Dialogue: 0,0:15:17.68,0:15:24.56,Default,,0,0,0,,40, ni les années 30.  Nous\Nprenons donc en compte beaucoup de choses, et je me dis
+Dialogue: 0,0:15:24.56,0:15:30.32,Default,,0,0,0,,à moi-même.  Eh bien, c'est parce que j'ai\Nvécu longtemps que je vois les choses ainsi.
+Dialogue: 0,0:15:30.32,0:15:34.00,Default,,0,0,0,,Bon, ce n'est pas vraiment politique.  Ce n'est\Npas vraiment intellectuel.  C'est juste que
+Dialogue: 0,0:15:34.00,0:15:39.12,Default,,0,0,0,,j'appartiens à une tranche d'âge différente.\NMa génération a vécu certaines
+Dialogue: 0,0:15:39.12,0:15:43.44,Default,,0,0,0,,choses que les personnes de générations différentes\Nn'ont pas vécues,
+Dialogue: 0,0:15:43.44,0:15:48.16,Default,,0,0,0,,car je ne les ai pas vécues.  Leur\Ncompréhension de la chose est différente de la
+Dialogue: 0,0:15:48.16,0:15:53.68,Default,,0,0,0,,mienne.\NEuh, notre position philosophique…
+Dialogue: 0,0:15:53.68,0:15:58.16,Default,,0,0,0,,certaines personnes sont des intellectuels, leur niveau intellectuel se situe autour de\N400, ils dévorent la
+Dialogue: 0,0:15:58.16,0:16:04.16,Default,,0,0,0,,philosophie et adorent lire des livres.   Avant,\Nje lisais 500 livres par an, 500
+Dialogue: 0,0:16:04.16,0:16:10.80,Default,,0,0,0,,livres par an pendant des décennies.  J'ai pris\Ndes notes sur chaque livre et je les ai toutes
+Dialogue: 0,0:16:10.80,0:16:16.95,Default,,0,0,0,,archivées.  Euh, 500 livres par an.  Alors, combien de\Nlivres lisez-vous par an ?  Cela dépend du
+Dialogue: 0,0:16:16.95,0:16:20.72,Default,,0,0,0,,temps dont vous disposez et de votre\Ncuriosité intellectuelle.
+Dialogue: 0,0:16:20.72,0:16:24.56,Default,,0,0,0,,Mais j'ai trouvé par exemple des œuvres philosophiques issues des\Ngrands livres du monde occidental
+Dialogue: 0,0:16:24.56,0:16:30.00,Default,,0,0,0,,.  J'ai oublié le nom de l'\Nuniversité.  C'est à l'ouest de la Californie
+Dialogue: 0,0:16:30.00,0:16:35.36,Default,,0,0,0,,que se trouve tout le programme scolaire, comment s'appelle-t-il déjà\N?
+Dialogue: 0,0:16:35.36,0:16:37.19,Default,,0,0,0,,Thomas de\NSaint-Jean,
+Dialogue: 0,0:16:37.19,0:16:42.88,Default,,0,0,0,,Thomas d'Aquin,\NJean de
 Dialogue: 0,0:16:42.88,0:16:48.56,Default,,0,0,0,,Saint-Jean, c'est exact, Saint-Jean, euh,\Ntout le programme est constitué des grands livres du
 Dialogue: 0,0:16:48.56,0:16:53.44,Default,,0,0,0,,monde occidental.  C'est vraiment assez\Nprofond, n'est-ce pas ?  C'est assez remarquable qu'ils en aient fait
 Dialogue: 0,0:16:53.44,0:16:56.95,Default,,0,0,0,,un programme d'études complet.  Ce\Nserait un endroit formidable où aller ou où envoyer
@@ -187,93 +200,97 @@ Dialogue: 0,0:17:27.91,0:17:34.48,Default,,0,0,0,,Être un ambervert serait\Npar
 Dialogue: 0,0:17:34.48,0:17:39.44,Default,,0,0,0,,et ce n'est pas grave non plus si vous êtes\Nentouré(e) de gens.  Votre
 Dialogue: 0,0:17:39.44,0:17:42.55,Default,,0,0,0,,apparence physique a bien sûr un effet sur les\Ngens, consciemment et
 Dialogue: 0,0:17:42.55,0:17:45.76,Default,,0,0,0,,inconsciemment.\NSi tu es tout simplement laid, tu dois
-Dialogue: 0,0:17:45.76,0:17:54.32,Default,,0,0,0,,apprendre à vivre avec.\Nles femmes.  Ils en veulent tous à ton
-Dialogue: 0,0:17:54.32,0:18:05.20,Default,,0,0,0,,petit corps.\Nle suivant.
+Dialogue: 0,0:17:45.76,0:17:51.67,Default,,0,0,0,,apprendre à vivre avec.\NSi vous êtes irrésistible, vous devez repousser
+Dialogue: 0,0:17:51.67,0:17:57.55,Default,,0,0,0,,les femmes.  Ils en veulent tous à ton\Npetit corps.
+Dialogue: 0,0:17:59.76,0:18:05.20,Default,,0,0,0,,Je trouve ça hilarant.  D'accord,\Nle suivant.
 Dialogue: 0,0:18:05.20,0:18:09.91,Default,,0,0,0,,Oh, quelle est la diapositive suivante ?   Y a-t-il\Nquelque chose sur lequel nous devons revenir
 Dialogue: 0,0:18:09.91,0:18:13.67,Default,,0,0,0,,?  Bon, on fera une séance de questions-\Nréponses plus tard, mais si quelqu'un a une
 Dialogue: 0,0:18:13.67,0:18:17.44,Default,,0,0,0,,question vraiment urgente qu'il veut\Nposer, euh, ça ne me dérange pas si vous
 Dialogue: 0,0:18:17.44,0:18:24.24,Default,,0,0,0,,levez la main et que vous criez.\NVous pouvez poser une question, ça ne me dérange pas.
 Dialogue: 0,0:18:24.24,0:18:28.48,Default,,0,0,0,,Euh, oui.\NAinsi, chaque niveau de conscience, comme
 Dialogue: 0,0:18:28.48,0:18:34.64,Default,,0,0,0,,vous pouvez le constater d'après ce que nous avons dit ce\Nmatin, possède son propre niveau de réalité.
-Dialogue: 0,0:18:34.64,0:18:45.20,Default,,0,0,0,,La réalité est donc une présomption mentale subjective, à la\Net la réalité est une chose.  La vérité, c'est ce que
-Dialogue: 0,0:18:45.20,0:18:50.64,Default,,0,0,0,,vous en dites.\NPar conséquent, après de nombreuses années
-Dialogue: 0,0:18:50.64,0:18:55.67,Default,,0,0,0,,de méditation et d'étude, vous finissez par vous poser\Nla question suivante : ce que
-Dialogue: 0,0:18:55.67,0:19:02.72,Default,,0,0,0,,je considère comme moi-même,\Nou moi, est-il réel ?
-Dialogue: 0,0:19:02.72,0:19:10.16,Default,,0,0,0,,C'est une expérience, mais est-ce une réalité\Nou le produit d'une mentalisation ?
-Dialogue: 0,0:19:10.16,0:19:14.64,Default,,0,0,0,,Existe-t-il un véritable œil ?  Et si c'est quoi\Nl'œil ?
-Dialogue: 0,0:19:14.64,0:19:18.72,Default,,0,0,0,,Parce que nous changeons votre éducation, vous\Nrestez moi.  Tu enlèves une jambe, tu
-Dialogue: 0,0:19:18.72,0:19:21.67,Default,,0,0,0,,restes moi.\NTout le monde part, tu te retrouves seul
-Dialogue: 0,0:19:21.67,0:19:26.40,Default,,0,0,0,,, tu es toujours moi.  Quoi qu'il\Narrive, tu sembles être coincé avec
-Dialogue: 0,0:19:26.40,0:19:32.55,Default,,0,0,0,,quelque chose que tu appelles « je ».\NQu'est-ce que c'est que ce « je » ?
-Dialogue: 0,0:19:32.55,0:19:38.24,Default,,0,0,0,,S'agit-il d'une entité indépendante\h?  Comment cela se\Nproduit-il ?
-Dialogue: 0,0:19:38.24,0:19:42.16,Default,,0,0,0,,Finalement, lorsqu'on recherche l'\Nillumination,
-Dialogue: 0,0:19:42.16,0:19:49.76,Default,,0,0,0,,on commence à examiner ce que l'on\Nconsidère comme soi-même, sa réalité.
-Dialogue: 0,0:19:49.76,0:19:56.08,Default,,0,0,0,,Que se passe-t-il ? Qui suis-je ?  La réalité est-elle une\Nprésomption mentale subjective ?
-Dialogue: 0,0:19:56.08,0:20:02.00,Default,,0,0,0,,Euh, c'est réel ou pas ?   La\Nréalité est-elle une vérité ?  Est-ce moi qui suis
-Dialogue: 0,0:20:02.00,0:20:08.32,Default,,0,0,0,,réel ?  Qui ou quoi est le Je ?\NOn pourrait dire : « Eh bien, je suis celui qui fait l'
-Dialogue: 0,0:20:08.32,0:20:12.00,Default,,0,0,0,,expérience. »\NPar conséquent, je pense que l'explication la plus courante
-Dialogue: 0,0:20:12.00,0:20:17.60,Default,,0,0,0,,est que je suis celui qui vit l'expérience.\NÀ différents niveaux, les gens diront : «
-Dialogue: 0,0:20:17.60,0:20:23.36,Default,,0,0,0,,Eh bien, c'est moi qui prends les\Ndécisions. »  Je suis celui qui se souvient.  Je
-Dialogue: 0,0:20:23.36,0:20:30.00,Default,,0,0,0,,suis celui qui imagine les choses.  Je suis ce\Nqui est heureux ou malheureux.
-Dialogue: 0,0:20:30.00,0:20:35.44,Default,,0,0,0,,Le sens de la vue devient alors vague\Net diffus, et peut recouvrir presque n'importe
-Dialogue: 0,0:20:35.44,0:20:40.40,Default,,0,0,0,,quoi grâce à la\Nméditation.  L'un des plus grands
-Dialogue: 0,0:20:40.40,0:20:46.55,Default,,0,0,0,,bienfaits de la méditation est que ce que vous\Nchoisissez d'appeler « je » devient progressivement
-Dialogue: 0,0:20:46.55,0:20:52.24,Default,,0,0,0,,plus clair, puis finit par se dissoudre\Ncomplètement,
-Dialogue: 0,0:20:52.24,0:20:58.40,Default,,0,0,0,,et la seule réalité qui\Nsubsiste est l'existence du divin.
-Dialogue: 0,0:20:58.40,0:21:04.55,Default,,0,0,0,,Donc moi, en tant que sujet de l'expérience, je suis le sujet de l'expérience\Nde mon propre sujet.
-Dialogue: 0,0:21:04.55,0:21:09.91,Default,,0,0,0,,On peut le définir comme celui qui prend les\Ndécisions.  Voilà ce qu'on met en prison :
-Dialogue: 0,0:21:09.91,0:21:16.96,Default,,0,0,0,,l'œil qui a pris une mauvaise décision.\NNous disons que le « je » est la source de notre
-Dialogue: 0,0:21:16.96,0:21:21.91,Default,,0,0,0,,volonté.\NNous disons que le « je » est une certaine forme de
-Dialogue: 0,0:21:21.91,0:21:28.24,Default,,0,0,0,,personnalité sociale.  Ce que le monde appelle « je », c'est ce qu'il\Nperçoit.  Une autre personne
-Dialogue: 0,0:21:28.24,0:21:35.44,Default,,0,0,0,,dirait : « Eh bien, cela dépend de ce que je\Nressens et de mes pensées. »
-Dialogue: 0,0:21:35.44,0:21:41.12,Default,,0,0,0,,Vous pouvez donc constater que votre perception de vous-même,\Nvotre sens de la réalité, votre
-Dialogue: 0,0:21:41.12,0:21:46.00,Default,,0,0,0,,identification, sont en constante évolution\N.  Vous êtes tellement habitué à ce que cela
-Dialogue: 0,0:21:46.00,0:21:50.00,Default,,0,0,0,,change et évolue que vous ne le\Nremarquez même plus.  Ce que vous ressentez, c'est un regard instantané
-Dialogue: 0,0:21:50.00,0:21:54.24,Default,,0,0,0,,.  Le prochain instant où vous regardez, c'est ce à quoi\Nvous pensez.  Le prochain instantané que nous
-Dialogue: 0,0:21:54.24,0:21:58.40,Default,,0,0,0,,voyons, c'est ce que nous imaginons du\Nfutur.  L'œil suivant se perd dans les souvenirs
-Dialogue: 0,0:21:58.40,0:22:03.28,Default,,0,0,0,,du passé.  Alors pourquoi ai-je fait\Nça ?
-Dialogue: 0,0:22:03.28,0:22:10.15,Default,,0,0,0,,Donc, le sentiment que j'ai de « je » est en perpétuelle évolution,\Ndiffus et peu fiable.
-Dialogue: 0,0:22:10.15,0:22:16.64,Default,,0,0,0,,Quand vous dites « je », de quoi parlez-vous\N?  Euh, de quoi parlez-vous ?  Moi en tant que
-Dialogue: 0,0:22:16.64,0:22:22.79,Default,,0,0,0,,personne sociale, moi en tant que contribuable.\NMoi, en tant qu'Américain.   D'accord
-Dialogue: 0,0:22:22.79,0:22:28.48,Default,,0,0,0,,.  Je suis comme des sentiments ou des pensées.\NFinalement, on devient plus
-Dialogue: 0,0:22:28.48,0:22:35.91,Default,,0,0,0,,sophistiqué et on se dit : « Eh bien, c'est\Nsoit tous, soit aucun. »
-Dialogue: 0,0:22:35.91,0:22:41.36,Default,,0,0,0,,Le moi est donc un écran vierge\Nsur lequel tout ce qui précède peut se
-Dialogue: 0,0:22:41.36,0:22:45.67,Default,,0,0,0,,refléter.\NVous savez, ce qui passe à la télé aujourd'hui, c'est ce que
-Dialogue: 0,0:22:45.67,0:22:51.44,Default,,0,0,0,,vous êtes, vos sentiments et\Nvos pensées, aujourd'hui.
-Dialogue: 0,0:22:51.44,0:22:58.24,Default,,0,0,0,,Le soi devient alors l'écran, non plus\Nle programme diffusé sur le téléviseur, mais le téléviseur lui-
-Dialogue: 0,0:22:58.24,0:23:05.36,Default,,0,0,0,,même, capable de diffuser n'importe quel programme.\NLe soi n'est donc
-Dialogue: 0,0:23:05.36,0:23:10.40,Default,,0,0,0,,pas seulement le contenu de ce qui se passe en\Nvous, mais bien tout le contexte,
-Dialogue: 0,0:23:10.40,0:23:14.40,Default,,0,0,0,,tout le phénomène au sein duquel le\Nsubjectif
-Dialogue: 0,0:23:14.40,0:23:21.44,Default,,0,0,0,,apparaît et revient.\NRepos interne versus repos externe.
-Dialogue: 0,0:23:21.44,0:23:26.64,Default,,0,0,0,,Decart disait qu'il y a ce moi intérieur, la\Nréalité intérieure telle que vous la percevez, et puis il y a
-Dialogue: 0,0:23:26.64,0:23:31.12,Default,,0,0,0,,la réalité extérieure telle qu'elle\Nest.   C'est
-Dialogue: 0,0:23:31.12,0:23:37.03,Default,,0,0,0,,votre vision personnelle du\Nmonde, votre vision intérieure.  Voici comment je vois le monde.  Je
-Dialogue: 0,0:23:37.03,0:23:41.84,Default,,0,0,0,,crois ceci.\NEt puis il y a le monde tel qu'il est,
-Dialogue: 0,0:23:41.84,0:23:47.20,Default,,0,0,0,,qui n'a rien à voir avec vous.   Cela ne\Nvous concerne pas.
-Dialogue: 0,0:23:47.20,0:23:53.44,Default,,0,0,0,,Ainsi, lorsque nous utilisons le bras pour découvrir un\Nfait sur quelque chose, nous essayons de
-Dialogue: 0,0:23:53.44,0:23:57.12,Default,,0,0,0,,transcender le\Nrepos intérieur
-Dialogue: 0,0:23:57.12,0:24:04.32,Default,,0,0,0,,et de découvrir ce qui est hors du repos extérieur.\NQuelle est la réalité du monde lui-même ?
-Dialogue: 0,0:24:04.32,0:24:09.52,Default,,0,0,0,,Je sais ce que je pense d'un certain\Nhomme politique.  Je sais ce que je pense de ce
-Dialogue: 0,0:24:09.52,0:24:15.36,Default,,0,0,0,,politicien.  Quelle part de tout cela est réelle ?  Alors\Non interroge le bras.  Nous indiquons si tel ou tel appareil
-Dialogue: 0,0:24:15.36,0:24:22.88,Default,,0,0,0,,est calibré au-dessus de 200 ou non au-dessus de 200, et\Nnous obtenons ainsi une lecture objective.  L'
-Dialogue: 0,0:24:22.88,0:24:27.27,Default,,0,0,0,,objectif du calibrage est donc de\Nvous permettre de vérifier votre propre
-Dialogue: 0,0:24:27.27,0:24:33.20,Default,,0,0,0,,perception de la réalité et de déterminer si vous êtes\Ntrompé ou non.
-Dialogue: 0,0:24:33.20,0:24:38.15,Default,,0,0,0,,Qu'est-il arrivé au loup déguisé en agneau\N?  C'était quoi déjà ?   Qu'est-ce que
-Dialogue: 0,0:24:38.15,0:24:44.64,Default,,0,0,0,,c'était ?  C'était quoi cette diapositive ?\NAinsi, le soi sait
-Dialogue: 0,0:24:44.64,0:24:50.15,Default,,0,0,0,,et l'esprit pense\Nque ce qui constitue le soi
-Dialogue: 0,0:24:50.15,0:24:55.20,Default,,0,0,0,,est une connaissance automatique à\Nlaquelle on ne pense pas.  L'esprit est
-Dialogue: 0,0:24:55.20,0:25:00.88,Default,,0,0,0,,séparé de cela.  L'esprit\Npense aux choses et le moi
-Dialogue: 0,0:25:00.88,0:25:17.44,Default,,0,0,0,,les connaît simplement.  Je sais qu'il y a plus à dire sur ce sujet, mais je ne vais pas m'y fier aveuglément.\Nse souvient de tout ce qui a trait
+Dialogue: 0,0:18:34.64,0:18:42.72,Default,,0,0,0,,La réalité est donc une présomption mentale subjective, à la\Nfois linéaire et non linéaire,
+Dialogue: 0,0:18:42.72,0:18:47.36,Default,,0,0,0,,et la réalité est une chose.  La vérité, c'est ce que\Nvous en dites.
+Dialogue: 0,0:18:47.36,0:18:53.84,Default,,0,0,0,,Par conséquent, après de nombreuses années\Nde méditation et d'étude, vous finissez par vous poser
+Dialogue: 0,0:18:53.84,0:18:58.88,Default,,0,0,0,,la question suivante : ce que\Nje considère comme moi-même,
+Dialogue: 0,0:18:58.88,0:19:06.32,Default,,0,0,0,,ou moi, est-il réel ?\NC'est une expérience, mais est-ce une réalité
+Dialogue: 0,0:19:06.32,0:19:12.79,Default,,0,0,0,,ou le produit d'une mentalisation ?\NExiste-t-il un véritable œil ?  Et si c'est quoi
+Dialogue: 0,0:19:12.79,0:19:16.64,Default,,0,0,0,,l'œil ?\NParce que nous changeons votre éducation, vous
+Dialogue: 0,0:19:16.64,0:19:20.48,Default,,0,0,0,,restez moi.  Tu enlèves une jambe, tu\Nrestes moi.
+Dialogue: 0,0:19:20.48,0:19:23.67,Default,,0,0,0,,Tout le monde part, tu te retrouves seul\N, tu es toujours moi.  Quoi qu'il
+Dialogue: 0,0:19:23.67,0:19:29.52,Default,,0,0,0,,arrive, vous semblez être coincé avec\Nquelque chose que vous appelez « je ».
+Dialogue: 0,0:19:29.52,0:19:36.00,Default,,0,0,0,,Qu'est-ce que c'est que ce « je » ?\NS'agit-il d'une entité indépendante ?  Comment cela se
+Dialogue: 0,0:19:36.00,0:19:40.40,Default,,0,0,0,,produit-il ?\NFinalement, lorsqu'on recherche l'
+Dialogue: 0,0:19:40.40,0:19:45.36,Default,,0,0,0,,illumination,\Non commence à examiner ce que l'on
+Dialogue: 0,0:19:45.36,0:19:53.36,Default,,0,0,0,,considère comme soi-même, sa réalité.\NQue se passe-t-il ? Qui suis-je ?  La réalité est-elle une
+Dialogue: 0,0:19:53.36,0:19:59.36,Default,,0,0,0,,présomption mentale subjective ?\NEuh, c'est réel ou pas ?   La
+Dialogue: 0,0:19:59.36,0:20:06.32,Default,,0,0,0,,réalité est-elle une vérité ?  Est-ce moi qui suis\Nréel ?  Qui ou quoi est le Je ?
+Dialogue: 0,0:20:06.32,0:20:10.00,Default,,0,0,0,,On pourrait dire : « Eh bien, je suis celui qui fait l'\Nexpérience. »
+Dialogue: 0,0:20:10.00,0:20:15.76,Default,,0,0,0,,Par conséquent, je pense que l'explication la plus courante\Nest que je suis celui qui vit l'expérience.
+Dialogue: 0,0:20:15.76,0:20:19.67,Default,,0,0,0,,À différents niveaux, les gens diront : «\NEh bien, c'est moi qui prends les
+Dialogue: 0,0:20:19.67,0:20:26.40,Default,,0,0,0,,décisions. »  Je suis celui qui se souvient.  Je\Nsuis celui qui imagine les choses.  Je suis ce
+Dialogue: 0,0:20:26.40,0:20:32.48,Default,,0,0,0,,qui est heureux ou malheureux.\NLe sens de la vue devient alors vague
+Dialogue: 0,0:20:32.48,0:20:37.03,Default,,0,0,0,,et diffus, et peut recouvrir presque n'importe\Nquoi grâce à la
+Dialogue: 0,0:20:37.03,0:20:43.44,Default,,0,0,0,,méditation.  L'un des plus grands\Nbienfaits de la méditation est que ce que vous
+Dialogue: 0,0:20:43.44,0:20:50.32,Default,,0,0,0,,choisissez d'appeler « je » devient progressivement\Nplus clair, puis finit par se dissoudre
+Dialogue: 0,0:20:50.32,0:20:54.48,Default,,0,0,0,,complètement,\Net la seule réalité qui
+Dialogue: 0,0:20:54.48,0:21:01.44,Default,,0,0,0,,subsiste est l'existence du divin.\NDonc moi, en tant que sujet de l'expérience, je suis le sujet de l'expérience
+Dialogue: 0,0:21:01.44,0:21:07.28,Default,,0,0,0,,de mon propre sujet.\NOn peut le définir comme celui qui prend les
+Dialogue: 0,0:21:07.28,0:21:13.44,Default,,0,0,0,,décisions.  Voilà ce qu'on met en prison :\Nl'œil qui a pris une mauvaise décision.
+Dialogue: 0,0:21:13.44,0:21:19.03,Default,,0,0,0,,Nous disons que le « je » est la source de notre\Nvolonté.
+Dialogue: 0,0:21:19.03,0:21:25.03,Default,,0,0,0,,Nous disons que le « je » est une certaine\Npersonnalité sociale.  Ce que le monde appelle « je », c'est ce qu'il
+Dialogue: 0,0:21:25.03,0:21:31.52,Default,,0,0,0,,perçoit.  Une autre personne dirait : « Eh\Nbien, ce que je veux dire dépend de ce que je ressens
+Dialogue: 0,0:21:31.52,0:21:38.55,Default,,0,0,0,,et de mes pensées. »\NVous pouvez donc constater que votre perception de vous-même,
+Dialogue: 0,0:21:38.55,0:21:43.20,Default,,0,0,0,,votre sens de la réalité, votre\Nidentification, sont en constante évolution
+Dialogue: 0,0:21:43.20,0:21:47.52,Default,,0,0,0,,.  Vous êtes tellement habitué à ce que cela\Nchange et évolue que vous ne le
+Dialogue: 0,0:21:47.52,0:21:52.32,Default,,0,0,0,,remarquez même plus.  Ce que vous ressentez, c'est un regard instantané\N.  Le prochain instant où vous regardez, c'est ce à quoi
+Dialogue: 0,0:21:52.32,0:21:56.15,Default,,0,0,0,,vous pensez.  Le prochain instantané,\Nc'est ce qu'il imagine du
+Dialogue: 0,0:21:56.15,0:22:00.48,Default,,0,0,0,,futur.  L'œil suivant se perd dans les souvenirs\Ndu passé.  Alors pourquoi ai-je fait
+Dialogue: 0,0:22:00.48,0:22:07.03,Default,,0,0,0,,ça ?\NDonc, le sentiment que j'ai de « je » est en perpétuelle évolution,
+Dialogue: 0,0:22:07.03,0:22:12.24,Default,,0,0,0,,diffus et peu fiable.\NQuand vous dites « je », de quoi parlez-vous
+Dialogue: 0,0:22:12.24,0:22:20.40,Default,,0,0,0,,?  Euh, de quoi parlez-vous ?  Moi en tant que\Npersonne sociale, moi en tant que contribuable.
+Dialogue: 0,0:22:20.40,0:22:26.79,Default,,0,0,0,,Moi, en tant qu'Américain.   D'accord\N.  Je suis comme des sentiments ou des pensées.
+Dialogue: 0,0:22:26.79,0:22:31.76,Default,,0,0,0,,Finalement, on devient plus\Nsophistiqué et on se dit : « Eh bien, c'est
+Dialogue: 0,0:22:31.76,0:22:38.96,Default,,0,0,0,,soit tous, soit aucun. »\NLe moi est donc un écran vierge
+Dialogue: 0,0:22:38.96,0:22:42.96,Default,,0,0,0,,sur lequel tout ce qui précède peut se\Nrefléter.
+Dialogue: 0,0:22:42.96,0:22:48.79,Default,,0,0,0,,Vous savez, ce qui passe à la télé aujourd'hui, c'est ce que\Nvous êtes, vos sentiments et
+Dialogue: 0,0:22:48.79,0:22:54.64,Default,,0,0,0,,vos pensées, aujourd'hui.\NLe soi devient alors l'écran, non plus
+Dialogue: 0,0:22:54.64,0:23:02.15,Default,,0,0,0,,le programme diffusé sur le téléviseur, mais le téléviseur lui-\Nmême, capable de diffuser n'importe quel programme.
+Dialogue: 0,0:23:02.15,0:23:07.36,Default,,0,0,0,,Le soi n'est donc\Npas seulement le contenu de ce qui se passe en
+Dialogue: 0,0:23:07.36,0:23:12.88,Default,,0,0,0,,vous, mais bien tout le contexte,\Ntout le phénomène au sein duquel le
+Dialogue: 0,0:23:12.88,0:23:18.48,Default,,0,0,0,,subjectif\Napparaît et revient.
+Dialogue: 0,0:23:18.48,0:23:24.08,Default,,0,0,0,,Repos interne versus repos externe.\NDecart disait qu'il y a ce moi intérieur, la
+Dialogue: 0,0:23:24.08,0:23:28.88,Default,,0,0,0,,réalité intérieure telle que vous la percevez, et puis il y a\Nla réalité extérieure telle qu'elle
+Dialogue: 0,0:23:28.88,0:23:33.60,Default,,0,0,0,,est.   C'est\Nvotre vision personnelle du
+Dialogue: 0,0:23:33.60,0:23:38.88,Default,,0,0,0,,monde, votre vision intérieure.  Voici comment je vois le monde.  Je\Ncrois ceci.
+Dialogue: 0,0:23:38.88,0:23:44.96,Default,,0,0,0,,Et puis il y a le monde tel qu'il est,\Nqui n'a rien à voir avec vous.   Cela ne
+Dialogue: 0,0:23:44.96,0:23:49.67,Default,,0,0,0,,vous concerne pas.\NAinsi, lorsque nous utilisons le bras pour découvrir un
+Dialogue: 0,0:23:49.67,0:23:55.12,Default,,0,0,0,,fait sur quelque chose, nous essayons de\Ntranscender le
+Dialogue: 0,0:23:55.12,0:24:00.96,Default,,0,0,0,,repos intérieur\Net de découvrir ce qui est hors du repos extérieur.
+Dialogue: 0,0:24:00.96,0:24:06.55,Default,,0,0,0,,Quelle est la réalité du monde lui-même ?\NJe sais ce que je pense d'un certain
+Dialogue: 0,0:24:06.55,0:24:12.72,Default,,0,0,0,,homme politique.  Je sais ce que je pense de ce\Npoliticien.  Quelle part de tout cela est réelle ?  Alors
+Dialogue: 0,0:24:12.72,0:24:18.88,Default,,0,0,0,,on interroge le bras.  Nous indiquons si tel ou tel appareil\Nest calibré au-dessus de 200 ou non au-dessus de 200, et
+Dialogue: 0,0:24:18.88,0:24:24.64,Default,,0,0,0,,nous obtenons ainsi une lecture objective.  L'\Nobjectif du calibrage est donc de
+Dialogue: 0,0:24:24.64,0:24:29.84,Default,,0,0,0,,vous permettre de vérifier votre propre\Nperception de la réalité et de déterminer si vous êtes
+Dialogue: 0,0:24:29.84,0:24:34.88,Default,,0,0,0,,trompé ou non.\NQu'est-il arrivé au loup déguisé en agneau
+Dialogue: 0,0:24:34.88,0:24:42.00,Default,,0,0,0,,?  C'était quoi déjà ?   Qu'est-ce que\Nc'était ?  C'était quoi cette diapositive ?
+Dialogue: 0,0:24:42.00,0:24:47.20,Default,,0,0,0,,Ainsi, le soi sait\Net l'esprit pense
+Dialogue: 0,0:24:47.20,0:24:53.03,Default,,0,0,0,,que ce qui constitue le soi\Nest une connaissance automatique à
+Dialogue: 0,0:24:53.03,0:24:58.08,Default,,0,0,0,,laquelle on ne pense pas.  L'esprit est\Nséparé de cela.  L'esprit
+Dialogue: 0,0:24:58.08,0:25:06.40,Default,,0,0,0,,pense aux choses et le moi\Nles connaît simplement.  Je sais qu'il y a plus à dire sur ce sujet, mais je ne vais pas m'y fier aveuglément.
+Dialogue: 0,0:25:12.08,0:25:17.44,Default,,0,0,0,,Je sais simplement que c'est là parce que le moi\Nse souvient de tout ce qui a trait
 Dialogue: 0,0:25:17.44,0:25:21.84,Default,,0,0,0,,à votre sécurité et, au fond de\Nvotre esprit, vous avertit lorsque vous vous approchez
-Dialogue: 0,0:25:21.84,0:25:31.60,Default,,0,0,0,,trop du bord de la scène.  Oui.   D'accord\N.
-Dialogue: 0,0:25:31.60,0:25:37.91,Default,,0,0,0,,essence et l'apparence.\NEuh, l'essence et l'apparence.
-Dialogue: 0,0:25:37.91,0:25:42.48,Default,,0,0,0,,Qu'est-il arrivé à nos... qu'est-il arrivé à\Nnos vêtements de loup et de mouton ?  Quels
-Dialogue: 0,0:25:42.48,0:25:51.60,Default,,0,0,0,,numéros, quel numéro de diapositive est-ce ?\N.  La
-Dialogue: 0,0:25:51.60,0:26:01.44,Default,,0,0,0,,différence entre l'\Net le vêtement de mouton réside donc dans l'
-Dialogue: 0,0:26:01.44,0:26:06.15,Default,,0,0,0,,apparence.\NC'est très utile pour comprendre le
-Dialogue: 0,0:26:06.15,0:26:11.67,Default,,0,0,0,,monde politique.  Si vous ne comprenez pas\Ncela, vous ne pouvez pas comprendre pourquoi les
-Dialogue: 0,0:26:11.67,0:26:17.36,Default,,0,0,0,,phénomènes qui se produisent se\Nproduisent, car à l'intérieur de ce mouton se cachait en
-Dialogue: 0,0:26:17.36,0:26:31.27,Default,,0,0,0,,réalité le loup qui les payait.\NSi vous voulez obtenir ce que vous voulez d'eux, il faut
+Dialogue: 0,0:25:21.84,0:25:28.52,Default,,0,0,0,,trop du bord de la scène.  Oui.   D'accord\N.
+Dialogue: 0,0:25:29.67,0:25:34.00,Default,,0,0,0,,Nous devons connaître la différence entre l'\Nessence et l'apparence.
+Dialogue: 0,0:25:34.00,0:25:40.64,Default,,0,0,0,,Euh, l'essence et l'apparence.\NQu'est-il arrivé à nos... qu'est-il arrivé à
+Dialogue: 0,0:25:40.64,0:25:47.48,Default,,0,0,0,,nos vêtements de loup et de mouton ?  Quels\Nnuméros, quel numéro de diapositive est-ce ?
+Dialogue: 0,0:25:47.67,0:25:51.60,Default,,0,0,0,,Nous y voilà.   D'accord\N.  La
+Dialogue: 0,0:25:51.60,0:25:59.36,Default,,0,0,0,,différence entre l'\Nessence
+Dialogue: 0,0:25:59.36,0:26:03.67,Default,,0,0,0,,et le vêtement de mouton réside donc dans l'\Napparence.
+Dialogue: 0,0:26:03.67,0:26:08.40,Default,,0,0,0,,C'est très utile pour comprendre le\Nmonde politique.  Si vous ne comprenez pas
+Dialogue: 0,0:26:08.40,0:26:14.24,Default,,0,0,0,,cela, vous ne pouvez pas comprendre pourquoi les\Nphénomènes qui se produisent se
+Dialogue: 0,0:26:14.24,0:26:22.84,Default,,0,0,0,,produisent, car à l'intérieur de ce mouton se cachait en\Nréalité le loup qui les payait.
+Dialogue: 0,0:26:24.79,0:26:31.27,Default,,0,0,0,,Si vous voulez obtenir ce que vous voulez d'eux, il faut\Napparemment trouver un moyen de les soudoyer.  D'accord.  J'ai bien ri en lisant les
 Dialogue: 0,0:26:31.27,0:26:35.27,Default,,0,0,0,,infos de ces derniers jours.  Ces\Ntypes sont censés surveiller Bernie.
 Dialogue: 0,0:26:35.27,0:26:38.79,Default,,0,0,0,,Quel est son prénom?  Et ils\Nregardent tous de la pornographie sur leurs ordinateurs.
 Dialogue: 0,0:26:38.79,0:26:44.72,Default,,0,0,0,,Je trouve ça hilarant.\NLes contribuables paient ces types pour
@@ -281,8 +298,9 @@ Dialogue: 0,0:26:44.72,0:26:49.84,Default,,0,0,0,,surveiller l'investissement et
 Dialogue: 0,0:26:49.84,0:26:54.48,Default,,0,0,0,,C'est hilarant !  C'est pas\Ndrôle ?   Très
 Dialogue: 0,0:26:54.48,0:27:01.44,Default,,0,0,0,,bien, passons à autre chose alors.\NJe trouve ça hilarant.
 Dialogue: 0,0:27:01.44,0:27:05.36,Default,,0,0,0,,Effondrement du système bancaire et des\Nsociétés d'investissement, etc., parce qu'ils sont
-Dialogue: 0,0:27:05.36,0:27:13.27,Default,,0,0,0,,tous occupés à regarder de la pornographie.  C'est\Nhilarant.
-Dialogue: 0,0:27:13.27,0:27:23.12,Default,,0,0,0,,savez quoi?   D'accord\NAlice au pays des merveilles.  Nous parlons d'
+Dialogue: 0,0:27:05.36,0:27:10.03,Default,,0,0,0,,tous occupés à regarder de la pornographie.  C'est\Nhilarant.
+Dialogue: 0,0:27:11.27,0:27:16.44,Default,,0,0,0,,C'est comme s'ils n'en recevaient pas assez.  Vous\Nsavez quoi?   D'accord
+Dialogue: 0,0:27:18.88,0:27:23.12,Default,,0,0,0,,.\NAlice au pays des merveilles.  Nous parlons d'
 Dialogue: 0,0:27:23.12,0:27:27.76,Default,,0,0,0,,opinion, de\Nla réalité virtuelle des médias, du
 Dialogue: 0,0:27:27.76,0:27:31.36,Default,,0,0,0,,visionnage des médias.  Nous sommes donc soumis\Nà quelque chose auquel les gens n'étaient pas soumis avec autant d'
 Dialogue: 0,0:27:31.36,0:27:34.48,Default,,0,0,0,,intensité quand j'étais enfant\N.
@@ -294,24 +312,26 @@ Dialogue: 0,0:27:53.67,0:27:58.96,Default,,0,0,0,,conclusion et elle a déjà r�
 Dialogue: 0,0:27:58.96,0:28:03.36,Default,,0,0,0,,vous donner envie de voter pour lui.  Dans le\Nmonde d'aujourd'hui, il y a des manifestants
 Dialogue: 0,0:28:03.36,0:28:07.12,Default,,0,0,0,,partout.  Si vous n'êtes pas un manifestant,\Nvous n'êtes apparemment personne.  Il faut
 Dialogue: 0,0:28:07.12,0:28:11.27,Default,,0,0,0,,trouver une cause à défendre pour ensuite\Npouvoir aller sur le terrain et se faire
-Dialogue: 0,0:28:11.27,0:28:20.96,Default,,0,0,0,,arrêter et frapper.\NSinon, tu ne risques pas de te faire frapper au
-Dialogue: 0,0:28:20.96,0:28:25.67,Default,,0,0,0,,visage et d'être maltraité par la police,\Netc. Donc
-Dialogue: 0,0:28:25.67,0:28:30.79,Default,,0,0,0,,, tu deviens un héros en sortant\Net en t'exprimant.  La vieille
-Dialogue: 0,0:28:30.79,0:28:35.20,Default,,0,0,0,,tradition américaine consiste à s'exprimer.  Je ne comprends pas\Npourquoi tout le monde veut
-Dialogue: 0,0:28:35.20,0:28:39.44,Default,,0,0,0,,s'exprimer.\NFranchement,
-Dialogue: 0,0:28:39.44,0:28:48.08,Default,,0,0,0,,leurs opinions ne m'intéressent pas.\Nmanifestent et protestent,
-Dialogue: 0,0:28:48.08,0:28:57.84,Default,,0,0,0,,et je me fiche complètement de ce qu'elles\Npensent.
-Dialogue: 0,0:28:57.84,0:29:00.64,Default,,0,0,0,,Ce qu'ils pensent avoir disparu\Ndemain.  Ils penseront à autre chose.
-Dialogue: 0,0:29:00.64,0:29:05.44,Default,,0,0,0,,Parce qu'ils adorent les\Nmanifestations.
-Dialogue: 0,0:29:05.44,0:29:10.24,Default,,0,0,0,,Les gens adorent les manifestations.  Nous\Npensons qu'ils sont tous des héros.  Nous
-Dialogue: 0,0:29:10.24,0:29:14.72,Default,,0,0,0,,pensons que tous ces manifestants sont dehors\N.  Vous savez, ces grands
-Dialogue: 0,0:29:14.72,0:29:21.44,Default,,0,0,0,,Américains, les valeurs américaines, la liberté, la\Nlutte pour les valeurs américaines.
-Dialogue: 0,0:29:21.44,0:29:28.96,Default,,0,0,0,,La plupart des manifestants sont là pour le\Nplaisir égocentrique de protester.  Résister.
-Dialogue: 0,0:29:28.96,0:29:34.79,Default,,0,0,0,,La plupart des manifestants pro-manifestation le font par pur\Nplaisir égocentrique.
-Dialogue: 0,0:29:34.79,0:29:38.55,Default,,0,0,0,,Résister.\NAh !
-Dialogue: 0,0:29:38.55,0:29:42.00,Default,,0,0,0,,Alors la prochaine fois que vous laisserez\Nvotre opinion être influencée par la foule
-Dialogue: 0,0:29:42.00,0:29:45.20,Default,,0,0,0,,présente à telle ou telle\Nconvention, rappelez-vous qu'ils sont
-Dialogue: 0,0:29:45.20,0:29:52.32,Default,,0,0,0,,tous là parce qu'ils y prennent du plaisir\N.
+Dialogue: 0,0:28:11.27,0:28:18.64,Default,,0,0,0,,arrêter et frapper.\NIl faut aller manifester.
+Dialogue: 0,0:28:18.64,0:28:24.39,Default,,0,0,0,,Sinon, tu ne risques pas de te faire frapper au\Nvisage et d'être maltraité par la police,
+Dialogue: 0,0:28:24.39,0:28:28.24,Default,,0,0,0,,etc. Donc\N, tu deviens un héros en sortant
+Dialogue: 0,0:28:28.24,0:28:33.52,Default,,0,0,0,,et en t'exprimant.  La vieille\Ntradition américaine consiste à s'exprimer.  Je ne comprends pas
+Dialogue: 0,0:28:33.52,0:28:37.20,Default,,0,0,0,,pourquoi tout le monde veut\Ns'exprimer.
+Dialogue: 0,0:28:37.20,0:28:42.60,Default,,0,0,0,,Franchement,\Nleurs opinions ne m'intéressent pas.
+Dialogue: 0,0:28:43.36,0:28:48.08,Default,,0,0,0,,Il y a 10 000 personnes qui\Nmanifestent et protestent,
+Dialogue: 0,0:28:48.08,0:28:53.48,Default,,0,0,0,,et je me fiche complètement de ce qu'elles\Npensent.
+Dialogue: 0,0:28:54.32,0:28:59.27,Default,,0,0,0,,Pourquoi devrais-je me soucier de ce qu'ils pensent ?\NCe qu'ils pensent avoir disparu
+Dialogue: 0,0:28:59.27,0:29:03.20,Default,,0,0,0,,demain.  Ils penseront à autre chose.\NParce qu'ils adorent les
+Dialogue: 0,0:29:03.20,0:29:07.84,Default,,0,0,0,,manifestations.\NLes gens adorent les manifestations.  Nous
+Dialogue: 0,0:29:07.84,0:29:12.00,Default,,0,0,0,,pensons qu'ils sont tous des héros.  Nous\Npensons que tous ces manifestants sont dehors
+Dialogue: 0,0:29:12.00,0:29:17.36,Default,,0,0,0,,.  Vous savez, ces grands\NAméricains, les valeurs américaines, la liberté, la
+Dialogue: 0,0:29:17.36,0:29:24.55,Default,,0,0,0,,lutte pour les valeurs américaines.\NLa plupart des manifestants sont là pour le
+Dialogue: 0,0:29:24.55,0:29:31.20,Default,,0,0,0,,plaisir égocentrique de protester.  Résister.\NLa plupart des manifestants pro-manifestation le font par pur
+Dialogue: 0,0:29:31.20,0:29:36.88,Default,,0,0,0,,plaisir égocentrique.\NRésister.
+Dialogue: 0,0:29:36.88,0:29:40.00,Default,,0,0,0,,Ah !\NAlors la prochaine fois que vous laisserez
+Dialogue: 0,0:29:40.00,0:29:43.60,Default,,0,0,0,,votre opinion être influencée par la foule\Nprésente à telle ou telle
+Dialogue: 0,0:29:43.60,0:29:46.48,Default,,0,0,0,,convention, rappelez-vous qu'ils sont\Ntous là parce qu'ils y prennent du plaisir
+Dialogue: 0,0:29:46.48,0:29:52.32,Default,,0,0,0,,.\NSi vous changez l'objet de la manifestation
 Dialogue: 0,0:29:52.32,0:29:57.91,Default,,0,0,0,,, ce sont toujours les mêmes personnes qui y vont.\NSi vous photographiez des manifestants,
 Dialogue: 0,0:29:57.91,0:30:02.08,Default,,0,0,0,,vous constaterez que le même groupe apparaît\Npartout.  Ils manifestent
 Dialogue: 0,0:30:02.08,0:30:06.32,Default,,0,0,0,,ici contre cela.  Ils protestent là-bas.  Ce sont toujours les mêmes\Nmanifestants qui se présentent, car ils sont
@@ -320,52 +340,56 @@ Dialogue: 0,0:30:10.08,0:30:14.08,Default,,0,0,0,,quel plaisir de sortir, de cri
 Dialogue: 0,0:30:14.08,0:30:17.91,Default,,0,0,0,,n'importe quoi.  À bas tout ce que\Nvous verrez aujourd'hui !  À bas les Républicains !   À
 Dialogue: 0,0:30:17.91,0:30:22.88,Default,,0,0,0,,bas les démocrates, à bas les vierges, à\Nbas les vieux, à bas la
 Dialogue: 0,0:30:22.88,0:30:27.36,Default,,0,0,0,,sécurité sociale, à bas le gouvernement, à bas\Nle président, à bas le
-Dialogue: 0,0:30:27.36,0:30:35.44,Default,,0,0,0,,Congrès, à bas le système « Tout le\Nmanifester.
-Dialogue: 0,0:30:35.44,0:30:41.52,Default,,0,0,0,,Ils adorent donc manifester.\NC'est bon à savoir.  Vous n'êtes donc pas
-Dialogue: 0,0:30:41.52,0:30:46.15,Default,,0,0,0,,naïf et vous ne pensez pas qu'il s'agit réellement d'une\Ndémonstration de l'opinion humaine.
-Dialogue: 0,0:30:46.15,0:30:51.03,Default,,0,0,0,,L'opinion moderne ne l'est pas.  C'est simplement une\Nmanifestation.
-Dialogue: 0,0:30:51.03,0:30:55.76,Default,,0,0,0,,Et les règles des manifestations de protestation ont été\Nfixées il y a des années par les communistes.
-Dialogue: 0,0:30:55.76,0:30:59.12,Default,,0,0,0,,Et vous pouvez organiser une\Nmanifestation n'importe où pour 50 dollars
-Dialogue: 0,0:30:59.12,0:31:03.84,Default,,0,0,0,,en moins de 20 minutes.  Donnez-moi 50 dollars dans\N20 minutes et je
-Dialogue: 0,0:31:03.84,0:31:09.67,Default,,0,0,0,,vous organiserai une manifestation.  À vingt\Nheures vingt, vous vous dirigez vers le bar le plus proche.  Tu
-Dialogue: 0,0:31:09.67,0:31:20.55,Default,,0,0,0,,dis : « Folo,\N. »
+Dialogue: 0,0:30:27.36,0:30:33.36,Default,,0,0,0,,Congrès, à bas le système « Tout le\Nmonde jouit ».  Ils adorent
+Dialogue: 0,0:30:33.36,0:30:39.67,Default,,0,0,0,,manifester.\NIls adorent donc manifester.
+Dialogue: 0,0:30:39.67,0:30:43.44,Default,,0,0,0,,C'est bon à savoir.  Vous n'êtes donc pas\Nnaïf et vous ne pensez pas qu'il s'agit réellement d'une
+Dialogue: 0,0:30:43.44,0:30:48.88,Default,,0,0,0,,démonstration de l'opinion humaine.\NL'opinion moderne ne l'est pas.  C'est simplement une
+Dialogue: 0,0:30:48.88,0:30:53.12,Default,,0,0,0,,manifestation.\NEt les règles des manifestations de protestation ont été
+Dialogue: 0,0:30:53.12,0:30:57.27,Default,,0,0,0,,fixées il y a des années par les communistes.\NEt vous pouvez organiser une
+Dialogue: 0,0:30:57.27,0:31:02.24,Default,,0,0,0,,manifestation n'importe où pour 50 dollars\Nen moins de 20 minutes.  Donnez-moi 50 dollars dans
+Dialogue: 0,0:31:02.24,0:31:06.79,Default,,0,0,0,,20 minutes et je\Nvous organiserai une manifestation.  À vingt
+Dialogue: 0,0:31:06.79,0:31:12.76,Default,,0,0,0,,heures vingt, vous vous dirigez vers le bar le plus proche.  Tu\Ndis : « Folo,
+Dialogue: 0,0:31:15.84,0:31:20.55,Default,,0,0,0,,tout le monde veut boire un verre. C'est moi qui offre\N. »
 Dialogue: 0,0:31:20.55,0:31:24.79,Default,,0,0,0,,Il y a un fils de [ __ ] là-bas, dans le même endroit où\Nil faut sortir et exprimer
-Dialogue: 0,0:31:24.79,0:31:31.60,Default,,0,0,0,,notre mécontentement.  Et puis vous leur expliquez à tous\Nvous vous rendez compte qu'ils sont tous en train de halluciner
-Dialogue: 0,0:31:31.60,0:31:34.96,Default,,0,0,0,,.  Quand vous retournerez au\Nbar, on vous offrira un double.  De retour
-Dialogue: 0,0:31:34.96,0:31:40.08,Default,,0,0,0,,du bar, ils ont pris un double.  Avec 50 dollars, on\Npeut organiser une manifestation quasiment
-Dialogue: 0,0:31:40.08,0:31:46.72,Default,,0,0,0,,partout dans le monde.\NVoilà qui dissipe notre naïveté à ce sujet.
-Dialogue: 0,0:31:46.72,0:31:50.32,Default,,0,0,0,,Tu vas juste au bar le plus proche, tu peux\Nlouer plein de filles pour 50 dollars.
-Dialogue: 0,0:31:50.32,0:31:54.08,Default,,0,0,0,,Ils protesteront contre n'importe quoi.  À votre\Nretour, nous vous servirons une double dose dans un
-Dialogue: 0,0:31:54.08,0:32:03.84,Default,,0,0,0,,miroir.   Avant,\Nune pause à une certaine heure, je
+Dialogue: 0,0:31:24.79,0:31:30.55,Default,,0,0,0,,notre mécontentement.  Et puis vous leur expliquez à tous\Ncontre qui vous vouliez protester, si cette personne est mauvaise, etc. Et là,
+Dialogue: 0,0:31:30.55,0:31:32.79,Default,,0,0,0,,vous vous rendez compte qu'ils sont tous en train de halluciner\N.  Quand vous retournerez au
+Dialogue: 0,0:31:32.79,0:31:37.60,Default,,0,0,0,,bar, on vous offrira un double.  De retour\Ndu bar, ils ont pris un double.  Avec 50 dollars, on
+Dialogue: 0,0:31:37.60,0:31:42.55,Default,,0,0,0,,peut organiser une manifestation quasiment\Npartout dans le monde.
+Dialogue: 0,0:31:42.55,0:31:48.24,Default,,0,0,0,,Voilà qui dissipe notre naïveté à ce sujet.\NTu vas juste au bar le plus proche, tu peux
+Dialogue: 0,0:31:48.24,0:31:52.64,Default,,0,0,0,,louer plein de filles pour 50 dollars.\NIls protesteront contre n'importe quoi.  À votre
+Dialogue: 0,0:31:52.64,0:31:57.08,Default,,0,0,0,,retour, nous vous servirons une double dose dans un\Nmiroir.   Avant,
+Dialogue: 0,0:31:57.12,0:32:03.84,Default,,0,0,0,,je travaillais dans une usine automobile et il y avait\Nune pause à une certaine heure, je
 Dialogue: 0,0:32:03.84,0:32:08.55,Default,,0,0,0,,crois.  Ouais.  J'étais certain que la cloche avait sonné et que\Nl'usine se trouvait juste en face d'un grand
 Dialogue: 0,0:32:08.55,0:32:13.27,Default,,0,0,0,,bar.  C'était un bar vraiment très long et\Nil avait une centaine de verres de bière et de
 Dialogue: 0,0:32:13.27,0:32:16.88,Default,,0,0,0,,shots prêts à servir.  Tout le bar proposait deux\Nshots et une bière, deux shots et une bière.
 Dialogue: 0,0:32:16.88,0:32:21.03,Default,,0,0,0,,Deux verres et une bière.  Vous aviez 20 minutes.\NTout le monde traverse la rue en courant, jette
-Dialogue: 0,0:32:21.03,0:32:29.76,Default,,0,0,0,,un dollar sur le comptoir, et\Nretourne travailler
-Dialogue: 0,0:32:29.76,0:32:34.64,Default,,0,0,0,,fastidieux.  Sans deux doses d'alcool dans une bière,\Ntu mourrais.  Mourir d'ennui.  Cette
-Dialogue: 0,0:32:34.64,0:32:46.96,Default,,0,0,0,,pièce automobile est suspendue à ce support, et\Narrive jusqu'à vous, puis
+Dialogue: 0,0:32:21.03,0:32:27.08,Default,,0,0,0,,un dollar sur le comptoir, et\Nretourne travailler
+Dialogue: 0,0:32:27.51,0:32:31.51,Default,,0,0,0,,à la chaîne, ce qui est très\Nfastidieux.  Sans deux doses d'alcool dans une bière,
+Dialogue: 0,0:32:31.51,0:32:40.84,Default,,0,0,0,,tu mourrais.  Mourir d'ennui.  Cette\Npièce automobile est suspendue à ce support, et
+Dialogue: 0,0:32:42.24,0:32:46.96,Default,,0,0,0,,vous devez attendre 30 secondes que la pièce\Narrive jusqu'à vous, puis
 Dialogue: 0,0:32:46.96,0:32:52.32,Default,,0,0,0,,vous procédez, et c'est terminé pour 30 secondes.  L'\Nennui vous rendrait fou.
-Dialogue: 0,0:32:52.32,0:33:02.39,Default,,0,0,0,,Si tu ne buvais pas, tu ne pourrais pas le\Nsupporter.  Certaines
-Dialogue: 0,0:33:02.39,0:33:08.55,Default,,0,0,0,,prédisposition congénitale à l'alcoolisme.\NPlus vos ancêtres
-Dialogue: 0,0:33:08.55,0:33:14.55,Default,,0,0,0,,viennent du nord, plus le risque de\Ndépendance à l'alcool est élevé.
-Dialogue: 0,0:33:14.55,0:33:18.55,Default,,0,0,0,,Donc, si vous souffrez\Nvous-même d'alcoolisme ou si un membre de votre famille en souffre, il faut regarder d'
-Dialogue: 0,0:33:18.55,0:33:21.60,Default,,0,0,0,,où vient l'alcoolisme dans votre famille.  Si votre\Nfamille est originaire des environs de la
-Dialogue: 0,0:33:21.60,0:33:25.20,Default,,0,0,0,,Méditerranée, du\Nsud de l'Italie, d'Espagne, dans les environs
-Dialogue: 0,0:33:25.20,0:33:32.32,Default,,0,0,0,,, le niveau est très bas.  Mais si elle\Nvient du nord, de Finlande, de Suède,
-Dialogue: 0,0:33:32.32,0:33:38.55,Default,,0,0,0,,des Inuits, des Amérindiens, plus\Non se rapproche du pôle terrestre, plus
-Dialogue: 0,0:33:38.55,0:33:43.76,Default,,0,0,0,,le risque d'alcoolisme est élevé.  L'\Nalcoolisme est donc à la fois génétique
-Dialogue: 0,0:33:43.76,0:33:48.79,Default,,0,0,0,,et environnemental.\NEt euh, si c'est héréditaire dans votre famille, il y a de
-Dialogue: 0,0:33:48.79,0:33:52.88,Default,,0,0,0,,fortes chances que vous\Ndeveniez vous aussi dépendant.  Voilà donc quelques
-Dialogue: 0,0:33:52.88,0:33:57.44,Default,,0,0,0,,facteurs à prendre en compte durant l'enfance.  De nos jours, les gens\Nsont plus sophistiqués.  Vous dites à l'
-Dialogue: 0,0:33:57.44,0:34:02.72,Default,,0,0,0,,enfant : « Je ne veux pas que tu boives, c'est de\Nfamille. »  Notre famille a une
-Dialogue: 0,0:34:02.72,0:34:08.72,Default,,0,0,0,,prédisposition génétique.\NNous présentons une déficience d'une enzyme appelée
-Dialogue: 0,0:34:08.72,0:34:13.52,Default,,0,0,0,,alcool déshydrogénase.   On observe\Nune déficience en alcool
-Dialogue: 0,0:34:13.52,0:34:17.76,Default,,0,0,0,,déshydrogénase chez\Nles Inuits, les Indiens d'Amérique du Nord, les
-Dialogue: 0,0:34:17.76,0:34:24.32,Default,,0,0,0,,Scandinaves et les\Npopulations d'origine nord-européenne.
-Dialogue: 0,0:34:24.32,0:34:29.35,Default,,0,0,0,,Et cette propension disparaît à mesure que votre\Npeuple se rapproche de plus en plus de
-Dialogue: 0,0:34:29.35,0:34:33.83,Default,,0,0,0,,l'équateur.  Alors, au lieu de considérer cela comme\Nune question morale, on commence à réaliser que ce n'est
-Dialogue: 0,0:34:33.83,0:34:39.76,Default,,0,0,0,,pas seulement social, ce n'est pas seulement\Nmoral, c'est une prédisposition génétique.
-Dialogue: 0,0:34:39.76,0:34:53.04,Default,,0,0,0,,Euh, oui.\Navons vu le loup déguisé en agneau,
+Dialogue: 0,0:32:52.32,0:32:58.12,Default,,0,0,0,,Si tu ne buvais pas, tu ne pourrais pas le\Nsupporter.  Certaines
+Dialogue: 0,0:33:00.24,0:33:04.96,Default,,0,0,0,,personnes ont donc une\Nprédisposition congénitale à l'alcoolisme.
+Dialogue: 0,0:33:04.96,0:33:11.36,Default,,0,0,0,,Plus vos ancêtres\Nviennent du nord, plus le risque de
+Dialogue: 0,0:33:11.36,0:33:16.39,Default,,0,0,0,,dépendance à l'alcool est élevé.\NDonc, si vous souffrez
+Dialogue: 0,0:33:16.39,0:33:20.24,Default,,0,0,0,,vous-même d'alcoolisme ou si un membre de votre famille en souffre, il faut regarder d'\Noù vient l'alcoolisme dans votre famille.  Si votre
+Dialogue: 0,0:33:20.24,0:33:23.12,Default,,0,0,0,,famille est originaire des environs de la\NMéditerranée, du
+Dialogue: 0,0:33:23.12,0:33:27.60,Default,,0,0,0,,sud de l'Italie, d'Espagne, dans les environs\N, le niveau est très bas.  Mais si elle
+Dialogue: 0,0:33:27.60,0:33:35.36,Default,,0,0,0,,vient du nord, de Finlande, de Suède,\Ndes Inuits, des Amérindiens, plus
+Dialogue: 0,0:33:35.36,0:33:41.44,Default,,0,0,0,,on se rapproche du pôle terrestre, plus\Nle risque d'alcoolisme est élevé.  L'
+Dialogue: 0,0:33:41.44,0:33:46.48,Default,,0,0,0,,alcoolisme est donc à la fois génétique\Net environnemental.
+Dialogue: 0,0:33:46.48,0:33:50.72,Default,,0,0,0,,Et euh, si c'est héréditaire dans votre famille, il y a de fortes\Nchances que vous
+Dialogue: 0,0:33:50.72,0:33:55.67,Default,,0,0,0,,deveniez vous aussi dépendant.  Voilà donc quelques\Nfacteurs à prendre en compte durant l'enfance.  De nos jours, les gens
+Dialogue: 0,0:33:55.67,0:33:59.84,Default,,0,0,0,,sont plus sophistiqués.  Vous dites à l'\Nenfant : « Je ne veux pas que tu boives, c'est de
+Dialogue: 0,0:33:59.84,0:34:05.76,Default,,0,0,0,,famille. »  Notre famille a une\Nprédisposition génétique.
+Dialogue: 0,0:34:05.76,0:34:11.52,Default,,0,0,0,,Nous présentons une déficience d'une enzyme appelée\Nalcool déshydrogénase.   On observe
+Dialogue: 0,0:34:11.52,0:34:15.28,Default,,0,0,0,,une déficience en alcool\Ndéshydrogénase chez
+Dialogue: 0,0:34:15.28,0:34:21.44,Default,,0,0,0,,les Inuits, les Indiens d'Amérique du Nord, les\NScandinaves et les
+Dialogue: 0,0:34:21.44,0:34:27.04,Default,,0,0,0,,populations d'origine nord-européenne.\NEt cette propension disparaît à mesure que votre
+Dialogue: 0,0:34:27.04,0:34:32.00,Default,,0,0,0,,peuple se rapproche de plus en plus de\Nl'équateur.  Alors, au lieu de considérer cela comme
+Dialogue: 0,0:34:32.00,0:34:35.52,Default,,0,0,0,,une question morale, on commence à réaliser que ce n'est\Npas seulement social, ce n'est pas seulement
+Dialogue: 0,0:34:35.52,0:34:42.48,Default,,0,0,0,,moral, c'est une prédisposition génétique.\NEuh, oui.
+Dialogue: 0,0:34:45.52,0:34:53.04,Default,,0,0,0,,La réalité comme essence contre apparence.  Nous\Navons vu le loup déguisé en agneau,
 Dialogue: 0,0:34:53.04,0:34:58.64,Default,,0,0,0,,Alice au pays des merveilles.  Alors la vie est\Nce que votre opinion en est.  Si c'est le cas, c'est
 Dialogue: 0,0:34:58.64,0:35:03.11,Default,,0,0,0,,parce que je le dis.  Si je dis que c'est ainsi,\Nc'est ainsi.  Et si je ne le dis pas, c'est que ce n'est pas vrai
 Dialogue: 0,0:35:03.11,0:35:07.59,Default,,0,0,0,,.  C'est un monde agréable à vivre\N. J'aimerais vivre au pays des
@@ -375,51 +399,56 @@ Dialogue: 0,0:35:17.35,0:35:22.56,Default,,0,0,0,,Euh, oui.   Ce que\Nnous édit
 Dialogue: 0,0:35:22.56,0:35:28.64,Default,,0,0,0,,boussole.  Réalités alternatives au-dessus ou en\Ndessous du niveau 200.
 Dialogue: 0,0:35:28.64,0:35:36.56,Default,,0,0,0,,L'erreur de 55 % aux États-Unis.  Nous\Nconstatons que seulement 45 % des personnes
 Dialogue: 0,0:35:36.56,0:35:43.52,Default,,0,0,0,,calibrées à 200 ou plus, soit\Nseulement 45 % des personnes aux
-Dialogue: 0,0:35:43.52,0:35:56.48,Default,,0,0,0,,États-Unis, sont capables\Nde discerner la réalité.
-Dialogue: 0,0:35:56.48,0:36:02.40,Default,,0,0,0,,pays pourtant très sophistiqué,\Nest capable de distinguer le réel
-Dialogue: 0,0:36:02.40,0:36:06.16,Default,,0,0,0,,de l'irréel.\NHein?   Cela
-Dialogue: 0,0:36:06.16,0:36:11.20,Default,,0,0,0,,diminue donc nos attentes vis-à-vis du\Nmonde.  Nous ne sommes donc pas tous constamment
-Dialogue: 0,0:36:11.20,0:36:14.96,Default,,0,0,0,,désillusionnés.  Nos espoirs sont\Nanéantis.
-Dialogue: 0,0:36:14.96,0:36:21.68,Default,,0,0,0,,45% de la population n'en a pas la\Ncapacité, n'a pas la matière grise,
-Dialogue: 0,0:36:21.68,0:36:30.88,Default,,0,0,0,,euh\Ngénétique, euh
+Dialogue: 0,0:35:43.52,0:35:52.96,Default,,0,0,0,,États-Unis, sont capables\Nde discerner la réalité.
+Dialogue: 0,0:35:52.96,0:35:59.52,Default,,0,0,0,,Seulement 45 % de la population américaine, un\Npays pourtant très sophistiqué,
+Dialogue: 0,0:35:59.52,0:36:04.48,Default,,0,0,0,,est capable de distinguer le réel\Nde l'irréel.
+Dialogue: 0,0:36:04.48,0:36:08.40,Default,,0,0,0,,Hein?   Cela\Ndiminue donc nos attentes vis-à-vis du
+Dialogue: 0,0:36:08.40,0:36:13.20,Default,,0,0,0,,monde.  Nous ne sommes donc pas tous constamment\Ndésillusionnés.  Nos espoirs sont
+Dialogue: 0,0:36:13.20,0:36:18.24,Default,,0,0,0,,anéantis.\N45% de la population n'en a pas la
+Dialogue: 0,0:36:18.24,0:36:23.44,Default,,0,0,0,,capacité, n'a pas la matière grise,\Neuh
+Dialogue: 0,0:36:23.44,0:36:30.88,Default,,0,0,0,,génétique, euh\Nl'esprit est sans boussole.  Ensuite,
 Dialogue: 0,0:36:30.88,0:36:35.76,Default,,0,0,0,,des réalités alternatives au-dessus ou en dessous du\Nniveau 200, avec une marge
 Dialogue: 0,0:36:35.76,0:36:42.64,Default,,0,0,0,,d'erreur de 55 % aux États-Unis.\NPar conséquent, la politisation des
 Dialogue: 0,0:36:42.64,0:36:47.04,Default,,0,0,0,,croyances, vous voyez bien à quel point c'est un piège\N.
 Dialogue: 0,0:36:47.04,0:36:52.96,Default,,0,0,0,,À la politisation et à l'\Nendoctrinement qui s'opèrent s'ajoute un
-Dialogue: 0,0:36:52.96,0:37:01.04,Default,,0,0,0,,narcissisme sous-jacent.\Nnarcissique.  On parlait l'autre
-Dialogue: 0,0:37:01.04,0:37:07.68,Default,,0,0,0,,jour de la culpabilité\Net, vous savez, les gens pensent qu'il est
-Dialogue: 0,0:37:07.68,0:37:12.32,Default,,0,0,0,,important d'aller à l'église pour\Nconfesser ses péchés et se sentir coupables.
-Dialogue: 0,0:37:12.32,0:37:22.48,Default,,0,0,0,,Nous nous sommes alors interrogés sur la culpabilité et nous avons\Ndécouvert qu'elle est en réalité de l'égocentrisme.
+Dialogue: 0,0:36:52.96,0:36:58.88,Default,,0,0,0,,narcissisme sous-jacent.\NAujourd'hui, on pourrait considérer n'importe quel sentiment comme
+Dialogue: 0,0:36:58.88,0:37:04.24,Default,,0,0,0,,narcissique.  On parlait l'autre\Njour de la culpabilité
+Dialogue: 0,0:37:04.24,0:37:09.28,Default,,0,0,0,,et, vous savez, les gens pensent qu'il est\Nimportant d'aller à l'église pour
+Dialogue: 0,0:37:09.28,0:37:15.28,Default,,0,0,0,,confesser ses péchés et se sentir coupables.\NNous nous sommes alors interrogés sur la culpabilité et nous avons
+Dialogue: 0,0:37:15.28,0:37:22.48,Default,,0,0,0,,découvert qu'elle est en réalité de l'égocentrisme.   Il\Nfaut renoncer à quelque chose parce que c'est
 Dialogue: 0,0:37:22.48,0:37:27.35,Default,,0,0,0,,une mauvaise idée, et non parce qu'on s'en sent coupable\N.  On apprend à l'éviter parce qu'on s'en
 Dialogue: 0,0:37:27.35,0:37:32.48,Default,,0,0,0,,sent coupable.\NEt on en tire en quelque sorte un petit morceau de
-Dialogue: 0,0:37:32.48,0:37:44.32,Default,,0,0,0,,vertu.  Se sentir vertueux.  Au\Nmoins, j'en éprouvais de la culpabilité.   La
-Dialogue: 0,0:37:44.32,0:37:48.00,Default,,0,0,0,,J'ai mal agi.  J'aurais dû le savoir.\NJe vais faire mieux.  Je ferai
-Dialogue: 0,0:37:48.00,0:37:53.92,Default,,0,0,0,,mieux la prochaine fois.  La raison pour laquelle j'ai fait cela, c'est à\Ncause de ça.  Et au
-Dialogue: 0,0:37:53.92,0:37:58.56,Default,,0,0,0,,lieu de culpabiliser et de nourrir votre\Nego à ce sujet, vous réalisez que c'est
-Dialogue: 0,0:37:58.56,0:38:04.48,Default,,0,0,0,,narcissique.   Personne ne se soucie de savoir\Npourquoi vous vous sentez coupable.
-Dialogue: 0,0:38:04.48,0:38:08.00,Default,,0,0,0,,C'est votre choix.  Si vous voulez vous sentir\Ncoupable, allez-y.
-Dialogue: 0,0:38:08.00,0:38:11.68,Default,,0,0,0,,Euh,\Ndonc ce n'est pas vraiment une
-Dialogue: 0,0:38:11.68,0:38:15.83,Default,,0,0,0,,vertu.   Quand on\Ngrandit dans une
-Dialogue: 0,0:38:15.83,0:38:20.80,Default,,0,0,0,,société judéo-chrétienne chrétienne, on a l'\Nillusion que la culpabilité est en quelque sorte quelque chose de
-Dialogue: 0,0:38:20.80,0:38:24.72,Default,,0,0,0,,remarquable.  Eh bien, je suis content qu'il se sente\Ncoupable.  Il est en prison maintenant et
-Dialogue: 0,0:38:24.72,0:38:32.48,Default,,0,0,0,,j'espère qu'il se sent coupable.\Nautopunition pour un mauvais comportement.  C'est donc
+Dialogue: 0,0:37:32.48,0:37:40.76,Default,,0,0,0,,vertu.  Se sentir vertueux.  Au\Nmoins, j'en éprouvais de la culpabilité.   La
+Dialogue: 0,0:37:41.20,0:37:46.48,Default,,0,0,0,,culpabilité ne tourne qu'autour de moi.\NJ'ai mal agi.  J'aurais dû le savoir.
+Dialogue: 0,0:37:46.48,0:37:50.40,Default,,0,0,0,,Je vais faire mieux.  Je ferai\Nmieux la prochaine fois.  La raison pour laquelle j'ai fait cela, c'est à
+Dialogue: 0,0:37:50.40,0:37:56.80,Default,,0,0,0,,cause de ça.  Et au\Nlieu de culpabiliser et de nourrir votre
+Dialogue: 0,0:37:56.80,0:38:00.40,Default,,0,0,0,,ego à ce sujet, vous réalisez que c'est\Nnarcissique.   Personne ne se soucie de savoir
+Dialogue: 0,0:38:00.40,0:38:05.76,Default,,0,0,0,,pourquoi vous vous sentez coupable.\NC'est votre choix.  Si vous voulez vous sentir
+Dialogue: 0,0:38:05.76,0:38:09.52,Default,,0,0,0,,coupable, allez-y.\NEuh,
+Dialogue: 0,0:38:09.52,0:38:13.59,Default,,0,0,0,,donc ce n'est pas vraiment une\Nvertu.   Quand on
+Dialogue: 0,0:38:13.59,0:38:19.20,Default,,0,0,0,,grandit dans une\Nsociété judéo-chrétienne chrétienne, on a l'
+Dialogue: 0,0:38:19.20,0:38:23.11,Default,,0,0,0,,illusion que la culpabilité est en quelque sorte quelque chose de\Nremarquable.  Eh bien, je suis content qu'il se sente
+Dialogue: 0,0:38:23.11,0:38:28.28,Default,,0,0,0,,coupable.  Il est en prison maintenant et\Nj'espère qu'il se sent coupable.
+Dialogue: 0,0:38:28.64,0:38:32.48,Default,,0,0,0,,Nous pensons alors que la culpabilité est une forme d'\Nautopunition pour un mauvais comportement.  C'est donc
 Dialogue: 0,0:38:32.48,0:38:36.96,Default,,0,0,0,,votre parent intérieur.  Votre\Nparent intérieur va maintenant vous punir.  J'ai fait
 Dialogue: 0,0:38:36.96,0:38:41.59,Default,,0,0,0,,ceci et cela.  Disons que ta mère/ton\Npère intérieur va te faire
-Dialogue: 0,0:38:41.59,0:39:02.40,Default,,0,0,0,,culpabiliser et te punir.  Donc,\Nd'égocentrisme, c'est-à-dire d'un endoctrinement narcissique qui l'
+Dialogue: 0,0:38:41.59,0:38:52.88,Default,,0,0,0,,culpabiliser et te punir.  Donc,\Nnous constatons donc qu'il s'agit essentiellement
+Dialogue: 0,0:38:52.88,0:39:02.40,Default,,0,0,0,,d'égocentrisme, c'est-à-dire d'un endoctrinement narcissique qui l'\Nemporte sur la réalité, comme nous l'avons déjà évoqué
 Dialogue: 0,0:39:02.40,0:39:09.11,Default,,0,0,0,,.  Toutes les informations sont présumées.\NTout ce que vous pensez être vrai ne l'est que présumément
 Dialogue: 0,0:39:09.11,0:39:15.35,Default,,0,0,0,,.\NEt inscrivez vos enfants au Yavapai College.   Le
 Dialogue: 0,0:39:15.35,0:39:19.35,Default,,0,0,0,,collège Yavapai s'en est très bien sorti.\N440.
 Dialogue: 0,0:39:19.35,0:39:23.28,Default,,0,0,0,,C'est un bon endroit où aller.  On ne\Ntrouve plus guère d'établissement d'enseignement supérieur dont le niveau
 Dialogue: 0,0:39:23.28,0:39:30.48,Default,,0,0,0,,dépasse 200, et encore moins 440.\NCertains de nos amis sont allés au Yavapai
 Dialogue: 0,0:39:30.48,0:39:34.24,Default,,0,0,0,,College et ils ont rapporté que c'était bien… comment s'appelle déjà\Ncet autre
-Dialogue: 0,0:39:34.24,0:39:39.68,Default,,0,0,0,,établissement qui enseigne les grands classiques de la littérature\Noccidentale\h?  Saint-Jean, comme
+Dialogue: 0,0:39:34.24,0:39:39.68,Default,,0,0,0,,établissement qui enseigne les grands classiques de la littérature\Noccidentale ?  Saint-Jean, comme
 Dialogue: 0,0:39:39.68,0:39:43.76,Default,,0,0,0,,quelqu'un l'a mentionné auparavant.\NEn tout cas, pour les gens qui vivent dans les environs
-Dialogue: 0,0:39:43.76,0:39:56.24,Default,,0,0,0,,, c'est bon à savoir que le\NYavapai College se calibre à 440 et que beaucoup d'établissements prestigieux de l'
-Dialogue: 0,0:39:56.24,0:40:02.64,Default,,0,0,0,,endoctrinement par le livre explique clairement cet\Nendoctrinement.  L'endoctrinement
-Dialogue: 0,0:40:02.64,0:40:07.83,Default,,0,0,0,,auquel les enfants sont\Nsoumis aujourd'hui.  Vous envoyez votre enfant à l'
-Dialogue: 0,0:40:07.83,0:40:12.24,Default,,0,0,0,,université et il revient en parlant un\Nlangage étrange, un
-Dialogue: 0,0:40:12.24,0:40:16.96,Default,,0,0,0,,système de croyances particulier, et vous vous demandez comment il a pu acquérir\Ncela ?  Euh, et c'est expliqué dans le livre "
-Dialogue: 0,0:40:16.96,0:40:26.80,Default,,0,0,0,,Endoctrinement".\Nprésomption subjective.
+Dialogue: 0,0:39:43.76,0:39:51.83,Default,,0,0,0,,, c'est bon à savoir que le\NYavapai College se calibre à 440 et que beaucoup d'établissements prestigieux de l'
+Dialogue: 0,0:39:51.83,0:39:59.35,Default,,0,0,0,,Est se calibrent autour de 180. L'\Nendoctrinement par le livre explique clairement cet
+Dialogue: 0,0:39:59.35,0:40:05.52,Default,,0,0,0,,endoctrinement.  L'endoctrinement\Nauquel les enfants sont
+Dialogue: 0,0:40:05.52,0:40:10.40,Default,,0,0,0,,soumis aujourd'hui.  Vous envoyez votre enfant à l'\Nuniversité et il revient en parlant un
+Dialogue: 0,0:40:10.40,0:40:13.76,Default,,0,0,0,,langage étrange, un\Nsystème de croyances particulier, et vous vous demandez comment il a pu acquérir
+Dialogue: 0,0:40:13.76,0:40:19.96,Default,,0,0,0,,cela ?  Euh, et c'est expliqué dans le livre "\NEndoctrinement".
+Dialogue: 0,0:40:21.04,0:40:26.80,Default,,0,0,0,,Protagoras est un dicton.  La réalité est une\Nprésomption subjective.
 Dialogue: 0,0:40:26.80,0:40:33.92,Default,,0,0,0,,Protagoras est un dicton.\NLa réalité est une présomption subjective.
 Dialogue: 0,0:40:33.92,0:40:41.35,Default,,0,0,0,,Nous présumons donc tous que la réalité telle que nous la\Npercevons est la réalité telle qu'elle est.   Vu
 Dialogue: 0,0:40:41.35,0:40:46.72,Default,,0,0,0,,la façon dont je perçois toutes les personnes présentes dans cette\Npièce en ce moment, mon esprit ne peut que présumer
@@ -430,39 +459,45 @@ Dialogue: 0,0:41:03.59,0:41:07.52,Default,,0,0,0,,commence à réaliser qu'on é
 Dialogue: 0,0:41:07.52,0:41:12.88,Default,,0,0,0,,un côté à l'autre.\NL'extrême gauche, l'extrême droite, chacune
 Dialogue: 0,0:41:12.88,0:41:17.76,Default,,0,0,0,,a un ensemble de programmes qu'elle\Nessaie de vous vendre ou un système de
 Dialogue: 0,0:41:17.76,0:41:22.07,Default,,0,0,0,,valeurs différent.\Nun ensemble de valeurs différent.   Très
-Dialogue: 0,0:41:22.07,0:41:44.07,Default,,0,0,0,,bien, passons à la diapositive suivante.\NPassons maintenant à la diapositive suivante.
-Dialogue: 0,0:41:44.07,0:41:48.40,Default,,0,0,0,,spiritualité pratique au quotidien, sans pour autant atteindre\Nl'illumination ni entrer dans un
-Dialogue: 0,0:41:48.40,0:41:54.56,Default,,0,0,0,,monastère.\NQu'est-ce qui est pratique dans le monde d'aujourd'hui ?
-Dialogue: 0,0:41:54.56,0:41:59.52,Default,,0,0,0,,Comment peut-on être une personne spirituellement orientée\Net réussir dans le
-Dialogue: 0,0:41:59.52,0:42:04.40,Default,,0,0,0,,monde d'aujourd'hui, et faire en sorte que les deux soient\Ncompatibles ?  Faut-il adhérer au
-Dialogue: 0,0:42:04.40,0:42:08.56,Default,,0,0,0,,laïcisme total\Nou faut-il réintégrer un couvent ou
-Dialogue: 0,0:42:08.56,0:42:18.80,Default,,0,0,0,,rejoindre une\Ncommunauté de personnes religieuses à orientation spirituelle ?
+Dialogue: 0,0:41:22.07,0:41:30.72,Default,,0,0,0,,bien, passons à la diapositive suivante.\NPassons maintenant à la diapositive suivante.
+Dialogue: 0,0:41:30.72,0:41:37.24,Default,,0,0,0,,Passons maintenant à la diapositive suivante.\NPassons maintenant à la diapositive suivante.
+Dialogue: 0,0:41:42.07,0:41:46.88,Default,,0,0,0,,Nous voulons ensuite parler de\Nspiritualité pratique au quotidien, sans pour autant atteindre
+Dialogue: 0,0:41:46.88,0:41:50.24,Default,,0,0,0,,l'illumination ni entrer dans un\Nmonastère.
+Dialogue: 0,0:41:50.24,0:41:57.28,Default,,0,0,0,,Euh, qu'est-ce qui est pratique dans le monde d'aujourd'hui ?\NComment peut-on être une personne spirituellement orientée
+Dialogue: 0,0:41:57.28,0:42:02.00,Default,,0,0,0,,et réussir dans le\Nmonde d'aujourd'hui, et faire en sorte que les deux soient
+Dialogue: 0,0:42:02.00,0:42:06.31,Default,,0,0,0,,compatibles ?  Faut-il adhérer au\Nlaïcisme total
+Dialogue: 0,0:42:06.31,0:42:10.64,Default,,0,0,0,,ou faut-il réintégrer un couvent ou\Nrejoindre une
+Dialogue: 0,0:42:10.64,0:42:18.80,Default,,0,0,0,,communauté de personnes religieuses à orientation spirituelle ?\NVoici donc les règles de base pour rester
 Dialogue: 0,0:42:18.80,0:42:23.35,Default,,0,0,0,,en bonne compagnie.  Fréquentez les bonnes\Ncompagnies.
 Dialogue: 0,0:42:23.35,0:42:28.72,Default,,0,0,0,,Pourquoi?  Car le champ énergétique de l'aura\Némise par les
 Dialogue: 0,0:42:28.72,0:42:38.24,Default,,0,0,0,,personnes vous influence.  Euh, donc en ce moment, ce\Npublic, ce public, euh, se
-Dialogue: 0,0:42:38.24,0:42:52.40,Default,,0,0,0,,qualifierait de résistance de la Sainte Compagnie.   Dieu\Nmerci pour les
-Dialogue: 0,0:42:52.40,0:42:58.07,Default,,0,0,0,,recherche de la vérité spirituelle.\Ndes personnes qui préfèrent vraiment aller au paradis
-Dialogue: 0,0:42:58.07,0:43:10.16,Default,,0,0,0,,après leur mort plutôt qu'ailleurs.   Bon, alors il y a ce que\Neffet de champ énergétique.  L'effet de champ énergétique fait que
+Dialogue: 0,0:42:38.24,0:42:45.00,Default,,0,0,0,,qualifierait de résistance de la Sainte Compagnie.   Dieu\Nmerci pour les
+Dialogue: 0,0:42:49.76,0:42:55.83,Default,,0,0,0,,personnes qui s'intéressent aux personnes éclairées et à la\Nrecherche de la vérité spirituelle.
+Dialogue: 0,0:42:55.83,0:43:02.35,Default,,0,0,0,,des personnes qui préfèrent vraiment aller au paradis\Naprès leur mort plutôt qu'ailleurs.   Bon, alors il y a ce que
+Dialogue: 0,0:43:05.59,0:43:10.16,Default,,0,0,0,,j'appelle l'\Neffet de champ énergétique.  L'effet de champ énergétique fait que
 Dialogue: 0,0:43:10.16,0:43:15.04,Default,,0,0,0,,nous sommes tous profondément\Ninfluencés par le champ énergétique de
 Dialogue: 0,0:43:15.04,0:43:18.56,Default,,0,0,0,,la foule.\NLe maître spirituel, le champ énergétique
-Dialogue: 0,0:43:18.56,0:43:28.88,Default,,0,0,0,,du maître spirituel, ce n'est pas ce que le\Nchercheur de vérité qui rend visite à un maître spirituel recherche\h: il ne cherche pas
-Dialogue: 0,0:43:28.88,0:43:32.40,Default,,0,0,0,,sont les enseignements de ce maître spirituel.\NBien que cela puisse être un
-Dialogue: 0,0:43:32.40,0:43:39.68,Default,,0,0,0,,effet secondaire agréable à avoir aussi.  Mais ce\Nqu'ils désirent, c'est le champ énergétique émanant
-Dialogue: 0,0:43:39.68,0:43:46.07,Default,,0,0,0,,de l'esprit du maître spirituel.\NCe n'est pas l'enseignement.
-Dialogue: 0,0:43:46.07,0:43:51.52,Default,,0,0,0,,Euh, ce n'est pas l'enseignement en lui-même, bien que l'\Nenseignement soit
-Dialogue: 0,0:43:51.52,0:43:58.88,Default,,0,0,0,,important, mais le fait que ce\Nchamp énergétique soit transmis via l'aura, c'est ce que cela
-Dialogue: 0,0:43:58.88,0:44:04.24,Default,,0,0,0,,signifie. Le Bouddha,\Nlorsqu'il a
-Dialogue: 0,0:44:04.24,0:44:14.72,Default,,0,0,0,,transmis la vérité à celui dont j'ai oublié le\Nnom, avec une fleur… enfin,
+Dialogue: 0,0:43:18.56,0:43:26.56,Default,,0,0,0,,du maître spirituel, ce n'est pas ce que le\Nchercheur de vérité qui rend visite à un maître spirituel recherche : il ne cherche pas
+Dialogue: 0,0:43:26.56,0:43:30.72,Default,,0,0,0,,à comprendre quels\Nsont les enseignements de ce maître spirituel.
+Dialogue: 0,0:43:30.72,0:43:36.07,Default,,0,0,0,,Bien que cela puisse être un\Neffet secondaire agréable à avoir aussi.  Mais ce
+Dialogue: 0,0:43:36.07,0:43:43.68,Default,,0,0,0,,qu'ils désirent, c'est le champ énergétique émanant\Nde l'esprit du maître spirituel.
+Dialogue: 0,0:43:43.68,0:43:48.88,Default,,0,0,0,,Ce n'est pas l'enseignement.\NEuh, ce n'est pas l'enseignement en lui-même, bien que l'
+Dialogue: 0,0:43:48.88,0:43:55.11,Default,,0,0,0,,enseignement soit\Nimportant, mais le fait que ce
+Dialogue: 0,0:43:55.11,0:44:01.76,Default,,0,0,0,,champ énergétique soit transmis via l'aura, c'est ce que cela\Nsignifie. Le Bouddha,
+Dialogue: 0,0:44:01.76,0:44:07.28,Default,,0,0,0,,lorsqu'il a\Ntransmis la vérité à celui dont j'ai oublié le
+Dialogue: 0,0:44:07.28,0:44:14.72,Default,,0,0,0,,nom, avec une fleur… enfin,\Nlorsque le Bouddha a transmis la
 Dialogue: 0,0:44:14.72,0:44:19.20,Default,,0,0,0,,vérité à son premier\Ndisciple avancé…  J'ai tendance à oublier son nom
 Dialogue: 0,0:44:19.20,0:44:23.04,Default,,0,0,0,,.  Bref, il a passé une fleur,\Nn'est-ce pas ?
 Dialogue: 0,0:44:23.04,0:44:26.96,Default,,0,0,0,,Et les gens pensent que c'était à cause de la\Nfleur.  Non, c'était le champ énergétique
-Dialogue: 0,0:44:26.96,0:44:38.31,Default,,0,0,0,,du Bouddha que son disciple a capté.\NJ'ai oublié le nom de l'élève.   Bon,
-Dialogue: 0,0:44:38.31,0:44:47.20,Default,,0,0,0,,Mahaka.\NOuais.
-Dialogue: 0,0:44:47.20,0:44:55.83,Default,,0,0,0,,salle\Nqui se souviendrait de ces choses-là.   Ce qui
-Dialogue: 0,0:44:55.83,0:45:02.64,Default,,0,0,0,,côtoyez des personnes saintes, vous captez\Nleur aura.  Tu deviens cela.  Alors les gens
-Dialogue: 0,0:45:02.64,0:45:06.48,Default,,0,0,0,,étudient ça, les gens lisent des articles à ce sujet, les gens\Nessaient,
-Dialogue: 0,0:45:06.48,0:45:12.31,Default,,0,0,0,,mais en réalité, c'est le champ énergétique\Nque l'on capte.
-Dialogue: 0,0:45:12.31,0:45:24.31,Default,,0,0,0,,le respect de la vie.  Nous avons donc affirmé que les\Nmédecins soucieux de la vie de
+Dialogue: 0,0:44:26.96,0:44:35.83,Default,,0,0,0,,du Bouddha que son disciple a capté.\NJ'ai oublié le nom de l'élève.   Bon,
+Dialogue: 0,0:44:35.83,0:44:40.00,Default,,0,0,0,,Dieu me pardonnera.\NMahaka.
+Dialogue: 0,0:44:40.00,0:44:47.20,Default,,0,0,0,,Ouais.\NJe savais qu'il y aurait un bon élève dans la
+Dialogue: 0,0:44:47.20,0:44:53.16,Default,,0,0,0,,salle\Nqui se souviendrait de ces choses-là.   Ce qui
+Dialogue: 0,0:44:53.92,0:44:58.07,Default,,0,0,0,,est important, c'est que lorsque vous\Ncôtoyez des personnes saintes, vous captez
+Dialogue: 0,0:44:58.07,0:45:04.96,Default,,0,0,0,,leur aura.  Tu deviens cela.  Alors les gens\Nétudient ça, les gens lisent des articles à ce sujet, les gens
+Dialogue: 0,0:45:04.96,0:45:10.31,Default,,0,0,0,,essaient,\Nmais en réalité, c'est le champ énergétique
+Dialogue: 0,0:45:10.31,0:45:16.64,Default,,0,0,0,,que l'on capte.\Nle respect de la vie.  Nous avons donc affirmé que les
+Dialogue: 0,0:45:16.64,0:45:24.31,Default,,0,0,0,,médecins soucieux de la vie de\Nleurs patients obtiennent un taux de guérison bien plus élevé.  D'où leur vient cette
 Dialogue: 0,0:45:24.31,0:45:30.00,Default,,0,0,0,,bienveillance ?\NOn suppose qu'ils ont grandi et évolué au sein d'une
 Dialogue: 0,0:45:30.00,0:45:35.83,Default,,0,0,0,,famille où la bienveillance était\Nun facteur environnemental dominant
 Dialogue: 0,0:45:35.83,0:45:40.07,Default,,0,0,0,,.\NCertains médecins ont des taux de guérison élevés, d'
@@ -475,23 +510,24 @@ Dialogue: 0,0:46:11.83,0:46:15.76,Default,,0,0,0,,vraiment autorisé à me conce
 Dialogue: 0,0:46:15.76,0:46:18.31,Default,,0,0,0,,mes phares, on va entrer\Net ensuite tu dois dégager d'
 Dialogue: 0,0:46:18.31,0:46:21.92,Default,,0,0,0,,ici. »\NJ'ai éteint mes phares et je suis entré par là
 Dialogue: 0,0:46:21.92,0:46:26.48,Default,,0,0,0,,.  Ils ressortent dans l'autre sens, comme si on raccrochait, rallumait les\Nlumières et me voilà de nouveau
-Dialogue: 0,0:46:26.48,0:46:35.11,Default,,0,0,0,,dans ma bulle.\Ndans le noir.  Je les y ai donc emmenés pour qu'ils soient
-Dialogue: 0,0:46:35.11,0:46:41.28,Default,,0,0,0,,juste devant leur\Nporte d'entrée.  Eh bien, prendre soin des animaux, c'est l'un des
-Dialogue: 0,0:46:41.28,0:46:45.92,Default,,0,0,0,,grands avantages d'avoir des\Nanimaux de compagnie : on apprend à prendre soin des autres.
-Dialogue: 0,0:46:45.92,0:46:50.72,Default,,0,0,0,,Je pense donc que chaque enfant bénéficie d'\Nun animal de compagnie, même s'il s'agit d'un canari, d'un ver ou d'
-Dialogue: 0,0:46:50.72,0:46:56.64,Default,,0,0,0,,insectes.  J'avais tous les animaux de compagnie\Nquand j'étais enfant.  J'avais des
-Dialogue: 0,0:46:56.64,0:47:01.52,Default,,0,0,0,,araignées de compagnie et un\Npetit pipi de compagnie.  Vous savez, j'avais le pipi
-Dialogue: 0,0:47:01.52,0:47:06.07,Default,,0,0,0,,dans les mains comme ça, et le petit\Ncaneton, à sa
-Dialogue: 0,0:47:06.07,0:47:12.16,Default,,0,0,0,,naissance, pensait que j'étais sa mère.\NAlors j'allais dans le jardin et
-Dialogue: 0,0:47:12.16,0:47:18.48,Default,,0,0,0,,Pee Peep traversait la\Npelouse en courant comme ça pour essayer de m'atteindre.  Je le ramasserais donc
-Dialogue: 0,0:47:18.48,0:47:23.28,Default,,0,0,0,,comme ceci.  Et pour ce qui\Nétait du caneton, j'étais sa
-Dialogue: 0,0:47:23.28,0:47:28.24,Default,,0,0,0,,mère.  Et j'adore ce petit\Ncaneton.  Alors je l'emmènerais à la chasse.  On allait
-Dialogue: 0,0:47:28.24,0:47:34.40,Default,,0,0,0,,dans le garage chasser les araignées.\NIl se baladait comme ça dans mes mains et on
-Dialogue: 0,0:47:34.40,0:47:38.56,Default,,0,0,0,,allait au garage. Les fenêtres étaient généralement couvertes de toiles d'\Naraignée et il y avait une belle
-Dialogue: 0,0:47:38.56,0:47:45.04,Default,,0,0,0,,grosse araignée. Il faisait pipi\Net il avait presque toute l'araignée, sauf
-Dialogue: 0,0:47:45.04,0:47:49.04,Default,,0,0,0,,les quelques pattes qui dépassaient encore\Nde son bec.
-Dialogue: 0,0:47:49.04,0:47:53.68,Default,,0,0,0,,Elle essaie donc d'avaler l'araignée,\Net quelques pattes de l'araignée
-Dialogue: 0,0:47:53.68,0:48:04.80,Default,,0,0,0,,tremblent encore.\Nempreinte.  Maintenant, je dirais que les personnes qui s'occupaient de moi
+Dialogue: 0,0:46:26.48,0:46:32.00,Default,,0,0,0,,dans ma bulle.\NMais je ne voulais pas qu'il rentre seul à pied
+Dialogue: 0,0:46:32.00,0:46:36.64,Default,,0,0,0,,dans le noir.  Je les y ai donc emmenés pour qu'ils soient\Njuste devant leur
+Dialogue: 0,0:46:36.64,0:46:42.80,Default,,0,0,0,,porte d'entrée.  Eh bien, prendre soin des animaux, c'est l'un des\Ngrands avantages d'avoir des
+Dialogue: 0,0:46:42.80,0:46:47.68,Default,,0,0,0,,animaux de compagnie : on apprend à prendre soin des autres.\NJe pense donc que chaque enfant bénéficie d'
+Dialogue: 0,0:46:47.68,0:46:55.04,Default,,0,0,0,,un animal de compagnie, même s'il s'agit d'un canari, d'un ver ou d'\Ninsectes.  J'avais tous les animaux de compagnie
+Dialogue: 0,0:46:55.04,0:46:59.35,Default,,0,0,0,,quand j'étais enfant.  J'avais des\Naraignées de compagnie et un
+Dialogue: 0,0:46:59.35,0:47:03.68,Default,,0,0,0,,petit pipi.  Vous savez, j'avais le pipi\Ndans les mains comme ça, et le petit
+Dialogue: 0,0:47:03.68,0:47:09.59,Default,,0,0,0,,caneton, à sa\Nnaissance, pensait que j'étais sa mère.
+Dialogue: 0,0:47:09.59,0:47:14.72,Default,,0,0,0,,Alors j'allais dans le jardin et\NPee Peep traversait la
+Dialogue: 0,0:47:14.72,0:47:21.04,Default,,0,0,0,,pelouse en courant comme ça pour essayer de m'atteindre.  Je le ramasserais donc\Ncomme ceci.  Et pour ce qui
+Dialogue: 0,0:47:21.04,0:47:26.16,Default,,0,0,0,,était du caneton, j'étais sa\Nmère.  Et j'adore ce petit
+Dialogue: 0,0:47:26.16,0:47:32.80,Default,,0,0,0,,caneton.  Alors je l'emmènerais à la chasse.  On allait\Ndans le garage chasser les araignées.
+Dialogue: 0,0:47:32.80,0:47:36.56,Default,,0,0,0,,Il se baladait comme ça dans mes mains et on\Nallait au garage. Les fenêtres étaient généralement couvertes de toiles d'
+Dialogue: 0,0:47:36.56,0:47:43.11,Default,,0,0,0,,araignée et il y avait une belle\Ngrosse araignée. Il faisait pipi
+Dialogue: 0,0:47:43.11,0:47:46.96,Default,,0,0,0,,et il avait presque toute l'araignée, sauf\Nles quelques pattes qui dépassaient encore
+Dialogue: 0,0:47:46.96,0:47:52.07,Default,,0,0,0,,de son bec.\NElle essaie donc d'avaler l'araignée,
+Dialogue: 0,0:47:52.07,0:47:57.07,Default,,0,0,0,,et quelques pattes de l'araignée\Ntremblent encore.
+Dialogue: 0,0:47:57.44,0:48:04.80,Default,,0,0,0,,Le petit caneton s'est donc imprégné.  Nous laissons donc notre\Nempreinte.  Maintenant, je dirais que les personnes qui s'occupaient de moi
 Dialogue: 0,0:48:04.80,0:48:12.40,Default,,0,0,0,,quand j'étais jeune, euh, quand j'étais encore un\Nbébé, étaient toutes deux noires et
 Dialogue: 0,0:48:12.40,0:48:20.07,Default,,0,0,0,,blanches.  J'ai eu la chance,\Nquand j'étais bébé, d'avoir des personnes qui s'occupaient de moi, certaines
 Dialogue: 0,0:48:20.07,0:48:24.40,Default,,0,0,0,,noires et d'autres blanches.  Je n'ai jamais eu de\Nmal à éprouver une grande affection
@@ -510,61 +546,64 @@ Dialogue: 0,0:49:16.96,0:49:22.96,Default,,0,0,0,,ils sont adorables, euh, là, 
 Dialogue: 0,0:49:22.96,0:49:27.04,Default,,0,0,0,,vous avez des difficultés, mettez-les mentalement dans votre\Nesprit.  Si vous avez du mal à apprécier les
 Dialogue: 0,0:49:27.04,0:49:31.76,Default,,0,0,0,,Noirs, aimez-les simplement comme je\Nles aime et dites : « Mon Dieu, qu'ils sont
 Dialogue: 0,0:49:31.76,0:49:35.92,Default,,0,0,0,,attachants ! »  Oui.  Ou, si vous avez du mal à\Naimer les Blancs, dites-vous qu'ils
-Dialogue: 0,0:49:35.92,0:49:46.07,Default,,0,0,0,,sont probablement aimables si vous apprenez à les connaître.\Nimprégner artificiellement.
-Dialogue: 0,0:49:46.07,0:49:52.40,Default,,0,0,0,,Et euh, les groupes auxquels vous choisissez de vous\Nassocier.  Je me souviens que lorsque j'étais
-Dialogue: 0,0:49:52.40,0:49:58.31,Default,,0,0,0,,jeune, il n'y avait pas d'endroit pour danser\Nprès de chez moi, à l'exception d'une salle de bal située à
-Dialogue: 0,0:49:58.31,0:50:03.83,Default,,0,0,0,,une courte distance.  Et j'aime\Nla musique, j'adore danser
-Dialogue: 0,0:50:03.83,0:50:08.55,Default,,0,0,0,,et j'ai toujours été une bonne danseuse.  Bref\N, où pourrait-on aller danser sur
-Dialogue: 0,0:50:08.55,0:50:13.44,Default,,0,0,0,,cette super musique ?  Il n'y avait qu'une seule boîte\Nde nuit dans un rayon de cinq ou dix miles.  Et tout
-Dialogue: 0,0:50:13.44,0:50:20.96,Default,,0,0,0,,était noir.  Je veux dire, à 100%.\NUne foule immense.  100% noir.  Et je suis entré,
-Dialogue: 0,0:50:20.96,0:50:24.64,Default,,0,0,0,,et la musique était tellement\Nfantastique.  J'ai commencé, tu veux danser ?
-Dialogue: 0,0:50:24.64,0:50:30.24,Default,,0,0,0,,Ouais.  J'ai dansé toute la nuit.  Je n'ai pas\Nvu un seul Blanc de toute la soirée.
-Dialogue: 0,0:50:30.24,0:50:35.11,Default,,0,0,0,,Pas une seule personne noire n'a eu la moindre\Nidée qu'elle l'avait même remarqué.
-Dialogue: 0,0:50:35.11,0:50:41.20,Default,,0,0,0,,Personne n'a posé de questions du genre « Pourquoi es-tu là ? », «\NEs-tu dans le bon quartier ? »,
-Dialogue: 0,0:50:41.20,0:50:44.40,Default,,0,0,0,,personne n'a rien dit.  Toutes les dames ont\Ndansé avec moi, tous les messieurs ont été
-Dialogue: 0,0:50:44.40,0:50:49.28,Default,,0,0,0,,respectueux et nous avons passé un moment fantastique.\N100% de personnes noires.  J'imagine que beaucoup de
-Dialogue: 0,0:50:49.28,0:50:53.28,Default,,0,0,0,,gens ont eu peur en entrant et en\Ndécouvrant un endroit rempli uniquement de personnes noires.  Et puis, quand
-Dialogue: 0,0:50:53.28,0:50:57.04,Default,,0,0,0,,j'habitais à New York, j'allais à\NHarlem et c'était là que se trouvait la meilleure musique, la
-Dialogue: 0,0:50:57.04,0:51:01.20,Default,,0,0,0,,meilleure raison d'y aller, c'est que c'était là qu'il y avait le plus d'\Nargent et la meilleure musique, je veux dire
-Dialogue: 0,0:51:01.20,0:51:06.80,Default,,0,0,0,,.  Et donc, vous transcendez les\Nidentifications raciales,
-Dialogue: 0,0:51:06.80,0:51:14.55,Default,,0,0,0,,euh, les identifications raciales, le sexe, euh, l'\Nhérédité, la position sociale et tous les
-Dialogue: 0,0:51:14.55,0:51:19.04,Default,,0,0,0,,titres\Neuh, vous
-Dialogue: 0,0:51:19.04,0:51:24.31,Default,,0,0,0,,restez avec la Sainte Compagnie\Nparce que vous obtenez un effet de champ énergétique, vous captez
-Dialogue: 0,0:51:24.31,0:51:29.52,Default,,0,0,0,,l'aura\Net nous avons découvert, vous savez, on a découvert que les
-Dialogue: 0,0:51:29.52,0:51:35.35,Default,,0,0,0,,gens qui allaient aux\NAA devenaient sobres et partaient, et s'ils partaient,
-Dialogue: 0,0:51:35.35,0:51:41.92,Default,,0,0,0,,ils avaient un taux de rechute élevé, ils avaient\Nbesoin du champ énergétique des AA eux-mêmes, qui est
-Dialogue: 0,0:51:41.92,0:51:45.35,Default,,0,0,0,,calibré à un niveau extrêmement élevé.  J'ai\Noublié de quoi il s'agit exactement, mais j'y ai
-Dialogue: 0,0:51:45.35,0:51:53.20,Default,,0,0,0,,déjà fait référence.  Donc, le\Nchamp énergétique d'un tel endroit… Ils diraient même que
-Dialogue: 0,0:51:53.20,0:51:56.64,Default,,0,0,0,,même si vous ne croyez rien de ce qu'ils disent,\Nallez simplement aux réunions, car si vous y allez,
-Dialogue: 0,0:51:56.64,0:52:02.07,Default,,0,0,0,,vous capterez leur\Nénergie.  Et effectivement, je n'ai pas cru un mot de ce qu'ils ont
-Dialogue: 0,0:52:02.07,0:52:06.40,Default,,0,0,0,,dit.  J'ai continué à boire.\NJ'allais à une réunion des Alcooliques Anonymes et je restais allongé au fond
-Dialogue: 0,0:52:06.40,0:52:10.64,Default,,0,0,0,,de la salle.  Allongez-vous sur le sol, au\Nfond de la pièce.  Imaginez,
-Dialogue: 0,0:52:10.64,0:52:16.16,Default,,0,0,0,,vous l'assimilez par osmose.  Et effectivement\N, au final, vous finissez par devenir sobre.
-Dialogue: 0,0:52:16.16,0:52:21.83,Default,,0,0,0,,Il y a ce lien fraternel, ces\Nparadigmes culturels de la réalité.  Nous sommes tous
-Dialogue: 0,0:52:21.83,0:52:26.55,Default,,0,0,0,,influencés par ce que chacun considère comme\Nimportant et réel.  Il y a ensuite bien sûr des méthodes
-Dialogue: 0,0:52:26.55,0:52:35.52,Default,,0,0,0,,un peu plus\Nsophistiquées pour déceler les influences karmiques, ainsi que
+Dialogue: 0,0:49:35.92,0:49:43.20,Default,,0,0,0,,sont probablement aimables si vous apprenez à les connaître.\NVous apprenez donc à imprégner votre peau.  Vous apprenez à vous
+Dialogue: 0,0:49:43.20,0:49:48.72,Default,,0,0,0,,imprégner artificiellement.\NEt euh, les groupes auxquels vous choisissez de vous
+Dialogue: 0,0:49:48.72,0:49:53.83,Default,,0,0,0,,associer.  Je me souviens que lorsque j'étais\Njeune, il n'y avait pas d'endroit pour danser
+Dialogue: 0,0:49:53.83,0:50:00.96,Default,,0,0,0,,près de chez moi, à l'exception d'une salle de bal située à\Nune courte distance.  Et j'aime
+Dialogue: 0,0:50:00.96,0:50:06.88,Default,,0,0,0,,la musique, j'adore danser\Net j'ai toujours été une bonne danseuse.  Bref
+Dialogue: 0,0:50:06.88,0:50:10.07,Default,,0,0,0,,, où pourrait-on aller danser sur\Ncette super musique ?  Il n'y avait qu'une seule boîte
+Dialogue: 0,0:50:10.07,0:50:16.88,Default,,0,0,0,,de nuit dans un rayon de cinq ou dix miles.  Et tout\Nétait noir.  Je veux dire, à 100%.
+Dialogue: 0,0:50:16.88,0:50:22.40,Default,,0,0,0,,Une foule immense.  100% noir.  Et je suis entré,\Net la musique était tellement
+Dialogue: 0,0:50:22.40,0:50:26.88,Default,,0,0,0,,fantastique.  J'ai commencé, tu veux danser ?\NOuais.  J'ai dansé toute la nuit.  Je n'ai pas
+Dialogue: 0,0:50:26.88,0:50:32.40,Default,,0,0,0,,vu un seul Blanc de toute la soirée.\NPas une seule personne noire n'a eu la moindre
+Dialogue: 0,0:50:32.40,0:50:38.31,Default,,0,0,0,,idée qu'elle l'avait même remarqué.\NPersonne n'a posé de questions du genre « Pourquoi es-tu là ? », «
+Dialogue: 0,0:50:38.31,0:50:42.88,Default,,0,0,0,,Es-tu dans le bon quartier ? »,\Npersonne n'a rien dit.  Toutes les dames ont
+Dialogue: 0,0:50:42.88,0:50:47.35,Default,,0,0,0,,dansé avec moi, tous les messieurs ont été\Nrespectueux et nous avons passé un moment fantastique.
+Dialogue: 0,0:50:47.35,0:50:50.64,Default,,0,0,0,,100% de personnes noires.  J'imagine que beaucoup de\Ngens ont eu peur en entrant et en
+Dialogue: 0,0:50:50.64,0:50:54.88,Default,,0,0,0,,découvrant un endroit rempli uniquement de personnes noires.  Et puis, quand\Nj'habitais à New York, j'allais à
+Dialogue: 0,0:50:54.88,0:50:58.48,Default,,0,0,0,,Harlem et c'était là que se trouvait la meilleure musique, la\Nmeilleure raison d'y aller, c'est que c'était là qu'il y avait le plus d'
+Dialogue: 0,0:50:58.48,0:51:04.16,Default,,0,0,0,,argent et la meilleure musique, je veux dire\N.  Et donc, vous transcendez les
+Dialogue: 0,0:51:04.16,0:51:11.83,Default,,0,0,0,,identifications raciales,\Neuh, les identifications raciales, le sexe, euh, l'
+Dialogue: 0,0:51:11.83,0:51:16.16,Default,,0,0,0,,hérédité, la position sociale et tous les\Ntitres
+Dialogue: 0,0:51:16.16,0:51:22.07,Default,,0,0,0,,euh, vous\Nrestez avec la Sainte Compagnie
+Dialogue: 0,0:51:22.07,0:51:27.28,Default,,0,0,0,,parce que vous obtenez un effet de champ énergétique, vous captez\Nl'aura
+Dialogue: 0,0:51:27.28,0:51:32.48,Default,,0,0,0,,et nous avons découvert, vous savez, on a découvert que les\Ngens qui allaient aux AA devenaient sobres
+Dialogue: 0,0:51:32.48,0:51:38.40,Default,,0,0,0,,et partaient, et s'ils partaient,\Nils avaient un taux de rechute élevé, ils avaient
+Dialogue: 0,0:51:38.40,0:51:43.83,Default,,0,0,0,,besoin du champ énergétique des AA eux-mêmes, qui est\Ncalibré à un niveau extrêmement élevé.  J'ai
+Dialogue: 0,0:51:43.83,0:51:49.20,Default,,0,0,0,,oublié de quoi il s'agit exactement, mais j'y ai\Ndéjà fait référence.  Donc, le
+Dialogue: 0,0:51:49.20,0:51:54.88,Default,,0,0,0,,champ énergétique d'un tel endroit… Ils diraient même que\Nmême si vous ne croyez rien de ce qu'ils disent,
+Dialogue: 0,0:51:54.88,0:51:59.35,Default,,0,0,0,,allez simplement aux réunions, car si vous y allez,\Nvous capterez leur
+Dialogue: 0,0:51:59.35,0:52:04.48,Default,,0,0,0,,énergie.  Et effectivement, je n'ai pas cru un mot de ce qu'ils ont\Ndit.  J'ai continué à boire.
+Dialogue: 0,0:52:04.48,0:52:08.55,Default,,0,0,0,,J'allais à une réunion des Alcooliques Anonymes et je restais allongé au fond\Nde la salle.  Allongez-vous sur le sol, au
+Dialogue: 0,0:52:08.55,0:52:12.88,Default,,0,0,0,,fond de la pièce.  Imaginez,\Nvous l'assimilez par osmose.  Et effectivement
+Dialogue: 0,0:52:12.88,0:52:19.59,Default,,0,0,0,,, à la fin, vous finissez par devenir sobre.\NIl y a ce lien fraternel, ces
+Dialogue: 0,0:52:19.59,0:52:23.68,Default,,0,0,0,,paradigmes culturels de la réalité.  Nous sommes tous\Ninfluencés par ce que chacun considère comme
+Dialogue: 0,0:52:23.68,0:52:28.00,Default,,0,0,0,,important et réel.  Il y a ensuite bien sûr des méthodes\Nun peu plus
+Dialogue: 0,0:52:28.00,0:52:35.52,Default,,0,0,0,,sophistiquées pour déceler les influences karmiques, ainsi que\Nl'importance de discerner le
 Dialogue: 0,0:52:35.52,0:52:40.40,Default,,0,0,0,,spirituel du religieux.  Cela peut être\Ntrès religieux
 Dialogue: 0,0:52:40.40,0:52:45.92,Default,,0,0,0,,et non spirituel.  Cela peut être très\Nreligieux et non spirituel.
 Dialogue: 0,0:52:45.92,0:52:49.68,Default,,0,0,0,,Et euh, nombre de problèmes survenus\Ndans certaines des principales
 Dialogue: 0,0:52:49.68,0:52:54.16,Default,,0,0,0,,religions du monde en sont de très bonnes illustrations\N.  Techniquement, ils avaient raison,
-Dialogue: 0,0:52:54.16,0:53:07.28,Default,,0,0,0,,mais euh, sur le plan opérationnel, ils avaient tort.\NEuh, c'est un domaine où l'utilisation du bras
-Dialogue: 0,0:53:07.28,0:53:12.88,Default,,0,0,0,,peut s'avérer éclairante pour certaines choses\N.
-Dialogue: 0,0:53:12.88,0:53:16.16,Default,,0,0,0,,Euh, et tu découvriras des choses sur\Ntoi-même et tu te diras, tu sais, dans une autre
-Dialogue: 0,0:53:16.16,0:53:20.16,Default,,0,0,0,,vie, il doit y avoir quelque chose d'autre\Ncomme ça, et tu utilises le bras et tu
-Dialogue: 0,0:53:20.16,0:53:26.80,Default,,0,0,0,,découvres que oui, c'est ça, alors\Ntu es trop radin pour euh, trop radin pour le ramener
-Dialogue: 0,0:53:26.80,0:53:31.44,Default,,0,0,0,,au port.  Vous les avez donc\Ntous fait marcher sur la planche
-Dialogue: 0,0:53:31.44,0:53:39.44,Default,,0,0,0,,parce que personne ne pouvait être aussi menteur.\NPersonne ne pourrait être aussi avide.  Ah oui,
-Dialogue: 0,0:53:39.44,0:53:42.80,Default,,0,0,0,,c'est moins cher de les noyer que de\Nles nourrir jusqu'au
-Dialogue: 0,0:53:42.80,0:53:47.83,Default,,0,0,0,,port.\NSpirituel versus religieux.  Les religions
-Dialogue: 0,0:53:47.83,0:53:56.96,Default,,0,0,0,,vont et viennent, mais la spiritualité, en tant qu'attitude générale…\Nvie dans son ensemble et toutes ses expressions.  La
+Dialogue: 0,0:52:54.16,0:53:04.40,Default,,0,0,0,,mais euh, sur le plan opérationnel, ils avaient tort.\NInfluences karmiques spirituelles versus religieuses.
+Dialogue: 0,0:53:04.40,0:53:11.20,Default,,0,0,0,,Euh, c'est un domaine où l'utilisation du bras\Npeut s'avérer éclairante pour certaines choses
+Dialogue: 0,0:53:11.20,0:53:14.48,Default,,0,0,0,,.\NEuh, et tu découvriras des choses sur
+Dialogue: 0,0:53:14.48,0:53:17.83,Default,,0,0,0,,toi-même et tu te diras, tu sais, dans une autre\Nvie, il doit y avoir quelque chose d'autre
+Dialogue: 0,0:53:17.83,0:53:23.28,Default,,0,0,0,,comme ça, et tu utilises le bras et tu\Ndécouvres que oui, c'est ça, alors
+Dialogue: 0,0:53:23.28,0:53:28.55,Default,,0,0,0,,tu es trop radin pour euh, trop radin pour le ramener\Nau port.  Vous les avez donc
+Dialogue: 0,0:53:28.55,0:53:34.40,Default,,0,0,0,,tous fait marcher sur la planche\Nparce que personne ne pouvait être aussi menteur.
+Dialogue: 0,0:53:34.40,0:53:41.28,Default,,0,0,0,,Personne ne pourrait être aussi avide.  Ah oui,\Nc'est moins cher de les noyer que de
+Dialogue: 0,0:53:41.28,0:53:44.48,Default,,0,0,0,,les nourrir jusqu'au\Nport.
+Dialogue: 0,0:53:44.48,0:53:52.00,Default,,0,0,0,,Spirituel versus religieux.  Les religions\Nvont et viennent, mais la spiritualité, en tant qu'attitude générale…
+Dialogue: 0,0:53:52.00,0:53:56.96,Default,,0,0,0,,Ainsi, la personne spirituelle valorise la\Nvie dans son ensemble et toutes ses expressions.  La
 Dialogue: 0,0:53:56.96,0:54:02.80,Default,,0,0,0,,personne spirituelle enjambe automatiquement l'\Naraignée plutôt que de l'écraser.
 Dialogue: 0,0:54:02.80,0:54:07.76,Default,,0,0,0,,La personne spirituelle contourne automatiquement\Nle problème plutôt que de le tuer
 Dialogue: 0,0:54:07.76,0:54:13.59,Default,,0,0,0,,.  Oui.  Vous voyez un insecte sur le trottoir,\Nvous le contournez, et une autre
-Dialogue: 0,0:54:13.59,0:54:23.11,Default,,0,0,0,,personne s'approche et le ramasse.\NAlors, dans la vie, il faut décider : est-ce que je vais affronter le
-Dialogue: 0,0:54:23.11,0:54:27.52,Default,,0,0,0,,je collectionnais les insectes.  J'avais une superbe\Ncollection d'insectes.
-Dialogue: 0,0:54:27.52,0:54:33.83,Default,,0,0,0,,Il a été remis aux professeurs d'\Nuniversité de l'État.  une superbe collection d'insectes.
-Dialogue: 0,0:54:33.83,0:54:38.16,Default,,0,0,0,,Donc, soit vous trouvez les insectes magnifiques\Net vous les aimez, vous les collectionnez parce que
-Dialogue: 0,0:54:38.16,0:55:01.11,Default,,0,0,0,,vous réalisez qu'ils expriment la vie.\ND'accord?  Alors, à force de vivre ainsi, on finit par réaliser, un jour ou l'autre, sans prévenir,
+Dialogue: 0,0:54:13.59,0:54:20.40,Default,,0,0,0,,personne s'approche et le ramasse.\NAlors, dans la vie, il faut décider : est-ce que je vais affronter le
+Dialogue: 0,0:54:20.40,0:54:25.68,Default,,0,0,0,,problème de front ou est-ce que je vais le contourner ?  Eh bien, j'aime les petits insectes.  Je disais que\Nje collectionnais les insectes.  J'avais une superbe
+Dialogue: 0,0:54:25.68,0:54:29.35,Default,,0,0,0,,collection d'insectes.\NIl a été remis aux professeurs d'
+Dialogue: 0,0:54:29.35,0:54:35.68,Default,,0,0,0,,université de l'État.  une superbe collection d'insectes.\NDonc, soit vous trouvez les insectes magnifiques
+Dialogue: 0,0:54:35.68,0:54:41.92,Default,,0,0,0,,et vous les aimez, vous les collectionnez parce que\Nvous réalisez qu'ils expriment la vie.
+Dialogue: 0,0:54:41.92,0:55:01.11,Default,,0,0,0,,D'accord?  Alors, à force de vivre ainsi, on finit par réaliser, un jour ou l'autre, sans prévenir,\Nque Dieu est le seul être qui existe.  Période.
 Dialogue: 0,0:55:01.11,0:55:08.40,Default,,0,0,0,,Rien n'existe en dehors de la divinité.\NDieu est l'essence de toute la création
 Dialogue: 0,0:55:08.40,0:55:13.44,Default,,0,0,0,,et de toutes ses expressions.\NVoilà donc l'expression de Dieu sous forme de scène.   L'
 Dialogue: 0,0:55:13.44,0:55:19.59,Default,,0,0,0,,expression de Dieu est un genou droit.\NL'expression de Dieu sous forme de quatre doigts.
@@ -572,16 +611,20 @@ Dialogue: 0,0:55:19.59,0:55:24.00,Default,,0,0,0,,Supposons qu'il n'existe qu'un
 Dialogue: 0,0:55:24.00,0:55:30.48,Default,,0,0,0,,fabriquées.  Et cette substance est appelée\Ndivinité.  Déesse, il n'y a qu'une seule chose
 Dialogue: 0,0:55:30.48,0:55:34.64,Default,,0,0,0,,possible\Net par conséquent l'univers entier n'est
 Dialogue: 0,0:55:34.64,0:55:39.04,Default,,0,0,0,,rien d'autre que l'expression physique de la\Ndivinité.
-Dialogue: 0,0:55:39.04,0:56:35.76,Default,,0,0,0,,Donc tout est Dieu.   Que\NDieu te bénisse.
-Dialogue: 0,0:56:35.76,0:56:37.76,Default,,0,0,0,,Gabe va aller chercher votre sac maintenant,\Ndocteur.
-Dialogue: 0,0:56:37.76,0:56:41.83,Default,,0,0,0,,Où dois-je aller ?\NVous allez enseigner.
-Dialogue: 0,0:56:41.83,0:56:44.72,Default,,0,0,0,,Où?  Où voulez-vous que j'aille ?   À vous\Nla chaise.
-Dialogue: 0,0:56:44.72,0:56:50.16,Default,,0,0,0,,Ah, voilà.  D'accord.\NOh, c'est suffisant.
-Dialogue: 0,0:56:50.16,0:56:58.00,Default,,0,0,0,,Que va-t-il se passer ensuite, chérie ?\NOui, il y en a un juste là.
-Dialogue: 0,0:56:58.00,0:57:05.51,Default,,0,0,0,,Ah, eh bien, je n'avais pas remarqué qu'il était là-haut\N.
-Dialogue: 0,0:57:05.51,0:57:12.55,Default,,0,0,0,,Tournez le dos une seconde.  Et puis, sans prévenir, j'ai cru qu'on avait fait de la\NFréquentez les bonnes compagnies.
-Dialogue: 0,0:57:12.55,0:57:15.04,Default,,0,0,0,,Oui, c'est le dernier\Nchamp d'énergie.   Le
-Dialogue: 0,0:57:15.04,0:57:44.07,Default,,0,0,0,,dernier.\NEuh, le dernier.
+Dialogue: 0,0:55:39.04,0:56:20.88,Default,,0,0,0,,Donc tout est Dieu.   Que\NDieu vous bénisse tous.  Que Dieu te bénisse.   Que
+Dialogue: 0,0:56:20.88,0:56:34.44,Default,,0,0,0,,Dieu te bénisse.\NOù dois-je aller, chérie ?
+Dialogue: 0,0:56:34.55,0:56:37.11,Default,,0,0,0,,Où dois-je aller ?\NGabe va aller chercher votre sac maintenant,
+Dialogue: 0,0:56:37.11,0:56:40.64,Default,,0,0,0,,docteur.\NOù dois-je aller ?
+Dialogue: 0,0:56:40.64,0:56:43.44,Default,,0,0,0,,Vous allez enseigner.\NOù?  Où voulez-vous que j'aille ?   À vous
+Dialogue: 0,0:56:43.44,0:56:47.76,Default,,0,0,0,,la chaise.\NAh, voilà.  D'accord.
+Dialogue: 0,0:56:47.76,0:56:53.52,Default,,0,0,0,,Oh, c'est suffisant.\NQue va-t-il se passer ensuite, chérie ?
+Dialogue: 0,0:56:54.16,0:56:58.00,Default,,0,0,0,,Vous avez dit qu'on avait une diapositive à faire ?\NOui, il y en a un juste là.
+Dialogue: 0,0:56:58.00,0:57:03.16,Default,,0,0,0,,Ah, eh bien, je n'avais pas remarqué qu'il était là-haut\N.
+Dialogue: 0,0:57:03.76,0:57:10.88,Default,,0,0,0,,Tournez le dos une seconde.  Et puis, sans prévenir, j'ai cru qu'on avait fait de la\Nspiritualité pratique.
+Dialogue: 0,0:57:10.88,0:57:13.44,Default,,0,0,0,,Fréquentez les bonnes compagnies.\NOui, c'est le dernier
+Dialogue: 0,0:57:13.44,0:57:16.24,Default,,0,0,0,,champ d'énergie.   Le\Ndernier.
+Dialogue: 0,0:57:16.24,0:57:23.64,Default,,0,0,0,,Euh, le dernier.\NNon, d'accord
+Dialogue: 0,0:57:34.96,0:57:44.07,Default,,0,0,0,,.  Quel est\Nnotre alignement avec l'enseignant principal ?
 Dialogue: 0,0:57:44.07,0:57:48.79,Default,,0,0,0,,Oh, ce sont des règles générales.\Nspiritualité pratique.   Tout d'abord
 Dialogue: 0,0:57:48.79,0:57:54.79,Default,,0,0,0,,, vous trouvez un\Nenseignant principal que vous jugez compétent et dont vous savez qu'il est
 Dialogue: 0,0:57:54.79,0:58:00.72,Default,,0,0,0,,de bonne foi, et vous pouvez consulter la liste\Ndes enseignants.  Euh, ils sont tous calibrés
@@ -596,8 +639,9 @@ Dialogue: 0,0:58:35.44,0:58:40.24,Default,,0,0,0,,étaient très élevés, ils n
 Dialogue: 0,0:58:40.24,0:58:44.40,Default,,0,0,0,,Évitez donc les entités canalisées.  Pourquoi?\NParce que la plupart d'entre eux veulent vraiment avoir le
 Dialogue: 0,0:58:44.40,0:58:50.79,Default,,0,0,0,,contrôle.  La plupart d'entre eux prennent simplement leur\Npied à contrôler les gens.
 Dialogue: 0,0:58:50.79,0:58:57.11,Default,,0,0,0,,Et euh, des\Nmaîtres autoproclamés.
-Dialogue: 0,0:58:57.11,0:59:06.79,Default,,0,0,0,,Ouais.  Nul ne peut se déclarer\Nmaître.  Je suis le maître Bumbleaboo.
-Dialogue: 0,0:59:06.79,0:59:19.11,Default,,0,0,0,,Et qui a désigné un maître ?  Il l'a fait.\NAlors, tenez-vous-en à ce que vous pouvez vérifier,
+Dialogue: 0,0:58:57.11,0:59:03.96,Default,,0,0,0,,Ouais.  Nul ne peut se déclarer\Nmaître.  Je suis le maître Bumbleaboo.
+Dialogue: 0,0:59:04.24,0:59:11.88,Default,,0,0,0,,Maître bourdon.\NEt qui a désigné un maître ?  Il l'a fait.
+Dialogue: 0,0:59:13.83,0:59:19.11,Default,,0,0,0,,Autoproclamé.\NAlors, tenez-vous-en à ce que vous pouvez vérifier,
 Dialogue: 0,0:59:19.11,0:59:22.72,Default,,0,0,0,,calibrer,\Net si vous ne savez pas, demandez à des
 Dialogue: 0,0:59:22.72,0:59:26.31,Default,,0,0,0,,personnes qui possèdent un certain degré de\Nconnaissances en la matière.
 Dialogue: 0,0:59:26.31,0:59:27.83,Default,,0,0,0,,Deux diapositives supplémentaires.\NHein?
@@ -605,20 +649,22 @@ Dialogue: 0,0:59:27.83,0:59:29.92,Default,,0,0,0,,Deux diapositives supplémenta
 Dialogue: 0,0:59:29.92,0:59:32.16,Default,,0,0,0,,elle avait tort.  Vous pensiez qu'il y en avait un,\Nmais il y en a deux.
 Dialogue: 0,0:59:32.16,0:59:35.11,Default,,0,0,0,,Ah, je vois.  D'accord.\NMaintenant, attendez.
 Dialogue: 0,0:59:35.11,0:59:38.72,Default,,0,0,0,,Maintenant, vous allez me dire la vérité,\Nn'est-ce pas ?
-Dialogue: 0,0:59:38.72,0:59:50.55,Default,,0,0,0,,Vous voyez, les menaces fonctionnent.   D'accord\Nméditation sur les enseignements de tout
-Dialogue: 0,0:59:50.55,0:59:56.16,Default,,0,0,0,,maître spirituel.  Et bien sûr,\Ngénéralement les gens en lisent plusieurs et
-Dialogue: 0,0:59:56.16,1:00:01.52,Default,,0,0,0,,on trouve des vérifications croisées.\NVous trouvez la vérification croisée.
-Dialogue: 0,1:00:01.52,1:00:07.44,Default,,0,0,0,,Alors vous voudrez faire appel à la raison.  Mais il faut aussi trouver un\Néquilibre avec la foi.
-Dialogue: 0,1:00:07.44,1:00:11.68,Default,,0,0,0,,Vous voulez devenir ce que\Nvous avez étudié, et non pas seulement en avoir connaissance
-Dialogue: 0,1:00:11.68,1:00:18.16,Default,,0,0,0,,.  Le connaître est\Ndifférent de le devenir.  Évitez toutes les
-Dialogue: 0,1:00:18.16,1:00:34.88,Default,,0,0,0,,doctrines de haine.\NJe déteste toutes les doctrines de haine.
-Dialogue: 0,1:00:34.88,1:00:42.07,Default,,0,0,0,,l'idée que je connais, je connais,\Net les gens s'efforcent de se
+Dialogue: 0,0:59:38.72,0:59:48.31,Default,,0,0,0,,Vous voyez, les menaces fonctionnent.   D'accord\N.  Étude, contemplation et
+Dialogue: 0,0:59:48.31,0:59:54.00,Default,,0,0,0,,méditation sur les enseignements de tout\Nmaître spirituel.  Et bien sûr,
+Dialogue: 0,0:59:54.00,0:59:58.24,Default,,0,0,0,,généralement les gens en lisent plusieurs et\Non trouve des vérifications croisées.
+Dialogue: 0,0:59:58.24,1:00:04.96,Default,,0,0,0,,Vous trouvez la vérification croisée.\NAlors vous voudrez faire appel à la raison.  Mais il faut aussi trouver un
+Dialogue: 0,1:00:04.96,1:00:09.83,Default,,0,0,0,,équilibre avec la foi.\NVous voulez devenir ce que
+Dialogue: 0,1:00:09.83,1:00:14.96,Default,,0,0,0,,vous avez étudié, et non pas seulement en avoir connaissance\N.  Le connaître est
+Dialogue: 0,1:00:14.96,1:00:20.64,Default,,0,0,0,,différent de le devenir.  Évitez toutes les\Ndoctrines de haine.
+Dialogue: 0,1:00:20.64,1:00:34.88,Default,,0,0,0,,Je déteste toutes les doctrines de haine.\NPrenez garde à l'ego spirituel.   Voilà
+Dialogue: 0,1:00:34.88,1:00:42.07,Default,,0,0,0,,l'idée que je connais,\Nje connais, et les gens s'efforcent de se
 Dialogue: 0,1:00:42.07,1:00:46.72,Default,,0,0,0,,débarrasser de leur ego et développent à la place\Nun ego spirituel,
 Dialogue: 0,1:00:46.72,1:00:53.35,Default,,0,0,0,,puis utilisent l'inspiration, la\Nmusique, les cathédrales, la beauté de la
-Dialogue: 0,1:00:53.35,1:01:04.72,Default,,0,0,0,,nature, la beauté de la musique.\Nactuel que récent
-Dialogue: 0,1:01:04.72,1:01:09.92,Default,,0,0,0,,.\NLes religions se laissent emporter par elles-
-Dialogue: 0,1:01:09.92,1:01:14.16,Default,,0,0,0,,mêmes.\NIls s'imprègnent alors de ce que j'appelle le
-Dialogue: 0,1:01:14.16,1:01:21.92,Default,,0,0,0,,religiisme.\Npratiques religieuses.
+Dialogue: 0,1:00:53.35,1:01:01.92,Default,,0,0,0,,nature, la beauté de la musique.\NSoyez vigilants face au religiosité, tant
+Dialogue: 0,1:01:01.92,1:01:07.92,Default,,0,0,0,,actuel que récent\N.
+Dialogue: 0,1:01:07.92,1:01:11.83,Default,,0,0,0,,Les religions se laissent emporter par elles-\Nmêmes.
+Dialogue: 0,1:01:11.83,1:01:17.16,Default,,0,0,0,,Ils finissent par s'imprégner de ce que j'appelle le\Nreligiisme.
+Dialogue: 0,1:01:17.68,1:01:21.92,Default,,0,0,0,,La valeur de l'intention et des\Npratiques religieuses.
 Dialogue: 0,1:01:21.92,1:01:28.40,Default,,0,0,0,,Nous avons calibré la plupart des\Npratiques religieuses couramment utilisées dans chacun d'eux.   La
 Dialogue: 0,1:01:28.40,1:01:32.48,Default,,0,0,0,,pratique des vertus\Net la pratique des grands
 Dialogue: 0,1:01:32.48,1:01:38.72,Default,,0,0,0,,commandements.\NÉviter les sept péchés capitaux.
@@ -632,134 +678,155 @@ Dialogue: 0,1:02:14.96,1:02:21.20,Default,,0,0,0,,prophéties actuelles continue
 Dialogue: 0,1:02:21.20,1:02:26.40,Default,,0,0,0,,gourous aux tarifs exorbitants qui prétendent être des spécialistes.\NOuais, ils font parler d'eux dans
 Dialogue: 0,1:02:26.40,1:02:33.68,Default,,0,0,0,,les médias et les gens dépensent des milliers\Nde dollars pour passer quelques heures
 Dialogue: 0,1:02:33.68,1:02:37.92,Default,,0,0,0,,avec un gourou qui vous dit ce que j'aurais pu\Nvous dire gratuitement au
-Dialogue: 0,1:02:37.92,1:02:50.48,Default,,0,0,0,,téléphone.\NÉvitez de céder à la séduction du glamour.
-Dialogue: 0,1:02:50.48,1:02:54.24,Default,,0,0,0,,Donc, le glamour, c'est, vous savez, la\Nglorification d'un maître spirituel
-Dialogue: 0,1:02:54.24,1:03:01.11,Default,,0,0,0,,avec de grands crucifix, des robes, de longs\Ncheveux blancs flottants, des sandales et
-Dialogue: 0,1:03:01.11,1:03:07.76,Default,,0,0,0,,tout le parcours de Jésus, vous savez,\Nun cheminement vers les miracles.
-Dialogue: 0,1:03:07.76,1:03:13.52,Default,,0,0,0,,Un cours en miracles, la direction intérieure\Nest apparue par la direction intérieure.  Il n'a pas été
-Dialogue: 0,1:03:13.52,1:03:18.40,Default,,0,0,0,,canalisé.\NEt j'ai rencontré la dame qui avait fait cela, et c'était
-Dialogue: 0,1:03:18.40,1:03:24.24,Default,,0,0,0,,une voix intérieure qui lui était parvenue en\Nvertu d'un accord préalable de sa
-Dialogue: 0,1:03:24.24,1:03:30.40,Default,,0,0,0,,part.  Cela venait de la Confrérie Blanche\Net d'un accord personnel de sa
-Dialogue: 0,1:03:30.40,1:03:35.59,Default,,0,0,0,,part.  Et j'ai eu la chance de la rencontrer.  Elle s'appelait\NHelen, je crois.
-Dialogue: 0,1:03:35.59,1:03:42.79,Default,,0,0,0,,Et euh, j'ai fait sa connaissance.  J'ai donc dû\Ncertifier comment elle l'avait obtenu.  C'était par le biais d'une
-Dialogue: 0,1:03:42.79,1:03:47.52,Default,,0,0,0,,voix intérieure.\NEuh, oui.
-Dialogue: 0,1:03:47.52,1:04:00.00,Default,,0,0,0,,C'est bon à savoir.   D'accord\NEuh, ce que nous allons faire,
+Dialogue: 0,1:02:37.92,1:02:47.28,Default,,0,0,0,,téléphone.\NEuh, évitez le mal.
+Dialogue: 0,1:02:47.28,1:02:52.16,Default,,0,0,0,,Évitez de céder à la séduction du glamour.\NDonc, le glamour, c'est, vous savez, la
+Dialogue: 0,1:02:52.16,1:02:57.52,Default,,0,0,0,,glorification d'un maître spirituel\Navec de grands crucifix, des robes, de longs
+Dialogue: 0,1:02:57.52,1:03:05.20,Default,,0,0,0,,cheveux blancs flottants, des sandales et\Ntout le parcours de Jésus, vous savez,
+Dialogue: 0,1:03:05.20,1:03:10.48,Default,,0,0,0,,un cheminement vers les miracles.\NUn cours en miracles, la direction intérieure
+Dialogue: 0,1:03:10.48,1:03:15.11,Default,,0,0,0,,est apparue par la direction intérieure.  Il n'a pas été\Ncanalisé.
+Dialogue: 0,1:03:15.11,1:03:21.68,Default,,0,0,0,,Et j'ai rencontré la dame qui avait fait cela, et c'était\Nune voix intérieure qui lui était parvenue en
+Dialogue: 0,1:03:21.68,1:03:27.11,Default,,0,0,0,,vertu d'un accord préalable de sa\Npart.  Cela venait de la Confrérie Blanche
+Dialogue: 0,1:03:27.11,1:03:32.79,Default,,0,0,0,,et d'un accord personnel de sa\Npart.  Et j'ai eu la chance de la rencontrer.  Elle s'appelait
+Dialogue: 0,1:03:32.79,1:03:39.11,Default,,0,0,0,,Helen, je crois.\NEt euh, j'ai fait sa connaissance.  J'ai donc dû
+Dialogue: 0,1:03:39.11,1:03:45.52,Default,,0,0,0,,certifier comment elle l'avait obtenu.  C'était par le biais d'une\Nvoix intérieure.
+Dialogue: 0,1:03:45.52,1:03:51.31,Default,,0,0,0,,Euh, oui.\NC'est bon à savoir.   D'accord
+Dialogue: 0,1:03:54.55,1:04:00.00,Default,,0,0,0,,.  Où allons-nous à partir de maintenant ?\NEuh, ce que nous allons faire,
 Dialogue: 0,1:04:00.00,1:04:04.16,Default,,0,0,0,,c'est changer de scène\Nparce que nous devons partir d'ici à 17h.
 Dialogue: 0,1:04:04.16,1:04:09.20,Default,,0,0,0,,La séance de questions-réponses.  Beaucoup de gens\Nveulent faire ça.  Alors, si vous commencez à faire la queue
 Dialogue: 0,1:04:09.20,1:04:14.00,Default,,0,0,0,,pour la séance de questions-réponses…\NLes personnes qui ont déjà posé une
-Dialogue: 0,1:04:14.00,1:04:33.44,Default,,0,0,0,,question sont priées de ne pas faire la queue.\Net de prendre soin de nous.
-Dialogue: 0,1:04:33.44,1:04:40.96,Default,,0,0,0,,Euh, je devrais commencer ma question en disant\Nque je crois en un
-Dialogue: 0,1:04:40.96,1:04:44.00,Default,,0,0,0,,Dieu sans forme.\NVous croyez en quoi ?
-Dialogue: 0,1:04:44.00,1:04:47.68,Default,,0,0,0,,Dieu étant sans forme.\NOui.
-Dialogue: 0,1:04:47.68,1:04:54.16,Default,,0,0,0,,Mais euh, et que\Ntout est un.
-Dialogue: 0,1:04:54.16,1:05:02.40,Default,,0,0,0,,Mais je lisais la Bhagavad Gita et\Nil y avait un passage qui m'a perturbé.  Je ne savais pas trop comment l'
-Dialogue: 0,1:05:02.40,1:05:17.44,Default,,0,0,0,,interpréter.  Et c'est là qu'Arjun\Nforme de Krishna.
+Dialogue: 0,1:04:14.00,1:04:30.72,Default,,0,0,0,,question sont priées de ne pas faire la queue.\NMerci de nous aimer
+Dialogue: 0,1:04:30.72,1:04:36.72,Default,,0,0,0,,et de prendre soin de nous.\NEuh, je devrais commencer ma question en disant
+Dialogue: 0,1:04:36.72,1:04:43.03,Default,,0,0,0,,que je crois en un\NDieu sans forme.
+Dialogue: 0,1:04:43.03,1:04:46.88,Default,,0,0,0,,Vous croyez en quoi ?\NDieu étant sans forme.
+Dialogue: 0,1:04:46.88,1:04:51.92,Default,,0,0,0,,Oui.\NMais euh, et que
+Dialogue: 0,1:04:51.92,1:04:57.76,Default,,0,0,0,,tout est un.\NMais je lisais la Bhagavad Gita et
+Dialogue: 0,1:04:57.76,1:05:10.40,Default,,0,0,0,,il y avait un passage qui m'a perturbé.  Je ne savais pas trop comment l'\Ninterpréter.  Et c'est là qu'Arjun
+Dialogue: 0,1:05:10.40,1:05:17.44,Default,,0,0,0,,demande à voir la\Nforme de Krishna.
 Dialogue: 0,1:05:17.44,1:05:21.11,Default,,0,0,0,,Oui.  Quoi?\NDemande à voir la forme de Krishna.  Sa forme.
 Dialogue: 0,1:05:21.11,1:05:26.40,Default,,0,0,0,,Oh oui.  Oui.\NEt je pratique le bhakti yoga,
 Dialogue: 0,1:05:26.40,1:05:33.11,Default,,0,0,0,,qui considère Krishna comme un dieu.\NEt euh,
 Dialogue: 0,1:05:33.11,1:05:37.03,Default,,0,0,0,,Krishna change alors d'avis :\NKrishna n'est
-Dialogue: 0,1:05:37.03,1:05:50.16,Default,,0,0,0,,pas Dieu.  Krishna, c'est\NJésus-Christ.  Krishna,
+Dialogue: 0,1:05:37.03,1:05:44.72,Default,,0,0,0,,pas Dieu.  Krishna, c'est\Nquoi ?  Qu'est-ce que Krishna ?
+Dialogue: 0,1:05:44.72,1:05:50.16,Default,,0,0,0,,Jésus-Christ.  Krishna,\Nle Bouddha.
 Dialogue: 0,1:05:50.16,1:05:54.55,Default,,0,0,0,,Que sont-ils tous,\Nles Bouddhas ?  Dieu.   Eh
-Dialogue: 0,1:05:54.55,1:05:58.88,Default,,0,0,0,,bien, je suppose que tout est Dieu.   C'est ce que\Nvous avez dit précédemment.   D'accord
-Dialogue: 0,1:05:58.88,1:06:16.55,Default,,0,0,0,,.  D'accord, vous m'avez eu là.\Nparce que Dieu vous a répondu.
+Dialogue: 0,1:05:54.55,1:05:58.88,Default,,0,0,0,,bien, je suppose que tout est de Dieu.   C'est ce que\Nvous avez dit précédemment.   D'accord
+Dialogue: 0,1:05:58.88,1:06:06.31,Default,,0,0,0,,.  D'accord, vous m'avez eu là.\NMais euh, c'est
+Dialogue: 0,1:06:06.31,1:06:16.55,Default,,0,0,0,,parce que Dieu vous a répondu.\NEh bien, qui a pris la parole ?   Eh bien
 Dialogue: 0,1:06:16.55,1:06:24.16,Default,,0,0,0,,, ce qui m'a perturbé, c'est que\NKrishna a changé de forme pour prendre une forme opulente aux avant-bras musclés
 Dialogue: 0,1:06:24.16,1:06:28.88,Default,,0,0,0,,.\NKrishna a pris forme pour quoi ?
-Dialogue: 0,1:06:28.88,1:06:41.68,Default,,0,0,0,,Il changea de forme pour avoir quatre bras et brandit\Nune sorte de masse, un disque et d'autres objets,
-Dialogue: 0,1:06:41.68,1:06:48.55,Default,,0,0,0,,forme universelle suprême. »  Et il dit : «\NEuh… personne n’a jamais vu cette
-Dialogue: 0,1:06:48.55,1:06:54.16,Default,,0,0,0,,forme suprême qui est la mienne. »  Même les\Ndémagogues désirent voir cette forme si chère à leur cœur,
-Dialogue: 0,1:06:54.16,1:06:58.72,Default,,0,0,0,,et\Nje crois que Dieu est sans forme et
-Dialogue: 0,1:06:58.72,1:06:59.83,Default,,0,0,0,,que\Nnous sommes tous…
-Dialogue: 0,1:06:59.83,1:07:02.16,Default,,0,0,0,,Vous croyez que Dieu est quoi ?\NInforme.
-Dialogue: 0,1:07:02.16,1:07:06.07,Default,,0,0,0,,Informe.  Oui.  D'accord.\NEt que nous sommes tous Dieu.  Mais ce
-Dialogue: 0,1:07:06.07,1:07:12.48,Default,,0,0,0,,passage m'a perturbé et je ne savais pas\Ncomment l'interpréter.  Ma
-Dialogue: 0,1:07:12.48,1:07:23.44,Default,,0,0,0,,question porterait donc sur la nature exacte de\Nce formulaire et sur le fait d'en faire partie ou non.
+Dialogue: 0,1:06:28.88,1:06:37.59,Default,,0,0,0,,Il changea de forme pour avoir quatre bras et brandit\Nune sorte de masse, un disque et d'autres objets,
+Dialogue: 0,1:06:37.59,1:06:45.76,Default,,0,0,0,,et il dit à Arjun : « Contemple ma\Nforme universelle suprême. »  Et il dit : «
+Dialogue: 0,1:06:45.76,1:06:51.68,Default,,0,0,0,,Euh… personne n’a jamais vu cette\Nforme suprême qui est la mienne. »  Même les
+Dialogue: 0,1:06:51.68,1:06:56.31,Default,,0,0,0,,démagogues désirent voir cette forme si chère à leur cœur,\Net
+Dialogue: 0,1:06:56.31,1:06:59.44,Default,,0,0,0,,je crois que Dieu est sans forme et\Nque
+Dialogue: 0,1:06:59.44,1:07:01.44,Default,,0,0,0,,nous sommes tous…\NVous croyez que Dieu est quoi ?
+Dialogue: 0,1:07:01.44,1:07:03.44,Default,,0,0,0,,Informe.\NInforme.  Oui.  D'accord.
+Dialogue: 0,1:07:03.44,1:07:08.24,Default,,0,0,0,,Et que nous sommes tous Dieu.  Mais ce\Npassage m'a perturbé et je ne savais pas
+Dialogue: 0,1:07:08.24,1:07:15.20,Default,,0,0,0,,comment l'interpréter.  Ma\Nquestion porterait donc sur la nature exacte de
+Dialogue: 0,1:07:15.20,1:07:23.44,Default,,0,0,0,,ce formulaire et sur le fait d'en faire partie ou non.\NEst-ce que c'est juste ça, qu'est-ce qui est
 Dialogue: 0,1:07:23.44,1:07:26.64,Default,,0,0,0,,assis sur la chaise ?\NUn formulaire.
-Dialogue: 0,1:07:26.64,1:07:33.59,Default,,0,0,0,,Merci.   D'accord\NDonc, euh,
-Dialogue: 0,1:07:33.59,1:07:38.24,Default,,0,0,0,,pour entrer dans\Nce domaine, pour participer à
-Dialogue: 0,1:07:38.24,1:07:42.40,Default,,0,0,0,,ce domaine\Nde ce qui est la forme, il faut
-Dialogue: 0,1:07:42.40,1:07:46.96,Default,,0,0,0,,que vous adoptiez temporairement la forme.  L'important\Nest de ne pas se bercer d'illusions et de croire
-Dialogue: 0,1:07:46.96,1:07:52.16,Default,,0,0,0,,que l'on est ce que l'on a choisi de vivre comme\Nexpérience.
-Dialogue: 0,1:07:52.16,1:08:04.96,Default,,0,0,0,,Ce n'est pas parce que tu te déguises pour une fête que\Ntu deviens un elfe, tu sais.
+Dialogue: 0,1:07:26.64,1:07:32.96,Default,,0,0,0,,Merci.   D'accord\N.
+Dialogue: 0,1:07:32.96,1:07:36.00,Default,,0,0,0,,Donc, euh,\Npour entrer dans
+Dialogue: 0,1:07:36.00,1:07:40.00,Default,,0,0,0,,ce domaine, pour participer à\Nce domaine
+Dialogue: 0,1:07:40.00,1:07:45.03,Default,,0,0,0,,de ce qui est la forme, il faut\Nque vous adoptiez temporairement la forme.  L'important
+Dialogue: 0,1:07:45.03,1:07:49.28,Default,,0,0,0,,est de ne pas se bercer d'illusions et de croire\Nque l'on est ce que l'on a choisi de vivre comme
+Dialogue: 0,1:07:49.28,1:07:54.00,Default,,0,0,0,,expérience.\NCe n'est pas parce que tu te déguises pour une fête que
+Dialogue: 0,1:07:54.00,1:08:04.96,Default,,0,0,0,,tu deviens un elfe, tu sais.\NMais c'est pratique, vous savez.  C'est
 Dialogue: 0,1:08:04.96,1:08:08.16,Default,,0,0,0,,pratique d'avoir un corps quand tout le monde\Nsemble en avoir un.  Vous voyez ce que
 Dialogue: 0,1:08:08.16,1:08:09.83,Default,,0,0,0,,je veux dire ?\NDroite.
 Dialogue: 0,1:08:09.83,1:08:14.96,Default,,0,0,0,,Tu ne seras pas le seul sans\Ncorps.  Vous savez ce que je veux dire?
 Dialogue: 0,1:08:14.96,1:08:19.12,Default,,0,0,0,,Alors je suppose que c'est une pensée dualiste de\Npenser que j'avais peur que cela ne
-Dialogue: 0,1:08:19.12,1:08:30.48,Default,,0,0,0,,crée un dualisme,\Nmais euh, si je pouvais,
-Dialogue: 0,1:08:30.48,1:08:40.64,Default,,0,0,0,,mais euh,\Nce sera un dollar. J'ai
+Dialogue: 0,1:08:19.12,1:08:29.52,Default,,0,0,0,,crée un dualisme,\Nmais euh, si je pouvais,
+Dialogue: 0,1:08:29.52,1:08:33.67,Default,,0,0,0,,j'aimerais vous demander une photo, une photo,\Nmais euh,
+Dialogue: 0,1:08:33.67,1:08:40.64,Default,,0,0,0,,ce sera un dollar. J'ai\Nsuivi la
 Dialogue: 0,1:08:40.64,1:08:47.19,Default,,0,0,0,,tradition indienne et étudié la\Nreligion indienne, et euh, j'aimerais vous demander,
 Dialogue: 0,1:08:47.19,1:08:50.31,Default,,0,0,0,,avant d'avoir une photo, si je pouvais toucher\Nvos pieds.
 Dialogue: 0,1:08:50.31,1:08:53.67,Default,,0,0,0,,Pourrait-il avoir une photo ?\NIl veut toucher vos pieds
 Dialogue: 0,1:08:53.67,1:08:58.31,Default,,0,0,0,,parce qu'il suit l'Indien.\NAh, je vois.  Vous vous orientez vers les
 Dialogue: 0,1:08:58.31,1:09:01.92,Default,,0,0,0,,traditions spirituelles indiennes telles qu'elles se pratiquent en\NInde.  Oui en effet.  Oui.
-Dialogue: 0,1:09:01.92,1:09:31.52,Default,,0,0,0,,Parce qu'il les étudie.\NOui.  Vous dites ça dans le style de « Voilà ! »   Hum hum
-Dialogue: 0,1:09:31.52,1:10:08.23,Default,,0,0,0,,Amen.\NJe parie dans une minute.
-Dialogue: 0,1:10:08.23,1:10:11.52,Default,,0,0,0,,Bonjour.\NOh mon Dieu.  Celui-ci est très lu.
-Dialogue: 0,1:10:11.52,1:10:15.12,Default,,0,0,0,,Celui-ci aussi.\NOui.
-Dialogue: 0,1:10:15.12,1:10:20.56,Default,,0,0,0,,Je voulais tout d'abord exprimer ma\Nprofonde gratitude pour vos enseignements et
-Dialogue: 0,1:10:20.56,1:10:26.00,Default,,0,0,0,,votre présence.\NEt ma demande était simplement de vous tenir la
-Dialogue: 0,1:10:26.00,1:10:30.48,Default,,0,0,0,,main et de recevoir votre bénédiction.  Et\Nsi vous aviez quelque chose que vous ressentiez le
-Dialogue: 0,1:10:30.48,1:10:32.80,Default,,0,0,0,,besoin de me dire, que Dieu\Nvous bénisse.
-Dialogue: 0,1:10:32.80,1:10:47.04,Default,,0,0,0,,Vous êtes au bon endroit et vous faites ce qu'il faut\N.
+Dialogue: 0,1:09:01.92,1:09:08.44,Default,,0,0,0,,Parce qu'il les étudie.\NOui.  Vous dites ça dans le style de « Voilà ! »   Hum hum
+Dialogue: 0,1:09:15.12,1:09:27.15,Default,,0,0,0,,.\NOui.   Que
+Dialogue: 0,1:09:27.19,1:09:33.44,Default,,0,0,0,,Dieu te bénisse.  Que Dieu te bénisse.\NAmen.
+Dialogue: 0,1:09:33.44,1:09:41.40,Default,,0,0,0,,Je parie dans une minute.\NAh, ici.
+Dialogue: 0,1:09:53.44,1:10:07.15,Default,,0,0,0,,Merci.\NNous y voilà.
+Dialogue: 0,1:10:07.19,1:10:08.96,Default,,0,0,0,,Bonjour, Dr Hawkins.\NBonjour.
+Dialogue: 0,1:10:08.96,1:10:14.64,Default,,0,0,0,,Oh mon Dieu.  Celui-ci est très lu.\NCelui-ci aussi.
+Dialogue: 0,1:10:14.64,1:10:18.48,Default,,0,0,0,,Oui.\NJe voulais tout d'abord exprimer ma
+Dialogue: 0,1:10:18.48,1:10:22.48,Default,,0,0,0,,profonde gratitude pour vos enseignements et\Nvotre présence.
+Dialogue: 0,1:10:22.48,1:10:28.40,Default,,0,0,0,,Et ma demande était simplement de vous tenir la\Nmain et de recevoir votre bénédiction.  Et
+Dialogue: 0,1:10:28.40,1:10:31.19,Default,,0,0,0,,si vous aviez quelque chose que vous ressentiez le\Nbesoin de me dire, que Dieu
+Dialogue: 0,1:10:31.19,1:10:35.52,Default,,0,0,0,,vous bénisse.\NVous êtes au bon endroit et vous faites ce qu'il faut
+Dialogue: 0,1:10:35.52,1:10:47.04,Default,,0,0,0,,.\NMerci beaucoup.
 Dialogue: 0,1:10:47.04,1:10:51.28,Default,,0,0,0,,Regardez ça.\NLes autres enfants jouent tous au
-Dialogue: 0,1:10:51.28,1:11:09.12,Default,,0,0,0,,stickball.   Eh\NMerci beaucoup.
+Dialogue: 0,1:10:51.28,1:11:01.44,Default,,0,0,0,,stickball.   Eh\Nbien, c'est merveilleux de jouer avec vous.
+Dialogue: 0,1:11:01.44,1:11:09.12,Default,,0,0,0,,Merci beaucoup.\NTrès difficile à voir ici.
 Dialogue: 0,1:11:09.12,1:11:12.32,Default,,0,0,0,,C'est exact.\NAvec la lumière actuelle, l'ombre de ma
 Dialogue: 0,1:11:12.32,1:11:16.23,Default,,0,0,0,,main se projette exactement là où j'essaie d'\Nécrire.  Je n'y peux rien.
 Dialogue: 0,1:11:16.23,1:11:20.88,Default,,0,0,0,,Alors,\Narrêtez de vous plaindre.  Oh, mais j'ai envie de me
 Dialogue: 0,1:11:20.88,1:11:25.36,Default,,0,0,0,,plaindre.\NVous n'avez pas le droit de vous plaindre avant d'être rentré
-Dialogue: 0,1:11:25.36,1:11:34.08,Default,,0,0,0,,chez vous.  D'accord.\Nje vous demander si je peux vous tenir la main et vous demander
-Dialogue: 0,1:11:34.08,1:11:37.36,Default,,0,0,0,,une bénédiction ?\NEh bien, faisons ça plus tard.  Posez une
-Dialogue: 0,1:11:37.36,1:11:46.56,Default,,0,0,0,,question.   D'accord\N.  Euh,
+Dialogue: 0,1:11:25.36,1:11:32.32,Default,,0,0,0,,chez vous.  D'accord.\NBonjour, Susan.  Docteur Hawkins.  Euh, tout d'abord, puis-
+Dialogue: 0,1:11:32.32,1:11:35.67,Default,,0,0,0,,je vous demander si je peux vous tenir la main et vous demander\Nune bénédiction ?
+Dialogue: 0,1:11:35.67,1:11:38.08,Default,,0,0,0,,Eh bien, faisons ça plus tard.  Posez une\Nquestion.   D'accord
+Dialogue: 0,1:11:38.08,1:11:46.56,Default,,0,0,0,,.  Euh,\Noui.  Ma question concerne la
 Dialogue: 0,1:11:46.56,1:11:50.56,Default,,0,0,0,,motivation et la motivation intrinsèque, comme la volonté\Nde réussir.
 Dialogue: 0,1:11:50.56,1:11:54.80,Default,,0,0,0,,Je n'entends toujours pas correctement.  La motivation,\Neuh, la
 Dialogue: 0,1:11:54.80,1:12:00.40,Default,,0,0,0,,volonté d'atteindre l'excellence.   La\Nmotivation et la réussite, vous en avez parlé
-Dialogue: 0,1:12:00.40,1:12:19.44,Default,,0,0,0,,précédemment.\Npersonnes qui essaient d'être les meilleures possibles pour, en gros,
+Dialogue: 0,1:12:00.40,1:12:05.60,Default,,0,0,0,,précédemment.\NVous avez parlé plus tôt de ces
+Dialogue: 0,1:12:05.60,1:12:19.44,Default,,0,0,0,,personnes qui essaient d'être les meilleures possibles pour, en gros,\Nvivre la meilleure vie possible.
 Dialogue: 0,1:12:19.44,1:12:24.23,Default,,0,0,0,,Et\Neuh, j'ai constaté que je pouvais le comprendre intellectuellement,
 Dialogue: 0,1:12:24.23,1:12:29.44,Default,,0,0,0,,mais il me manquait cette\Nmotivation intérieure, cette raison de le faire.  Voilà une
 Dialogue: 0,1:12:29.44,1:12:36.15,Default,,0,0,0,,raison d'exister.  Je me\Ndemandais donc comment on pouvait trouver cette véritable
 Dialogue: 0,1:12:36.15,1:12:43.36,Default,,0,0,0,,raison, cette véritable motivation à exceller\Net à réaliser tout son potentiel.
-Dialogue: 0,1:12:43.36,1:12:52.15,Default,,0,0,0,,Vous avez envie de faire quelque chose, mais pas suffisamment\Npour le faire.   Je ne sais pas. C'est ce que
-Dialogue: 0,1:12:52.15,1:12:56.08,Default,,0,0,0,,Tu veux devenir un dévot, mais\Ntu es trop paresseux.
-Dialogue: 0,1:12:56.08,1:12:59.28,Default,,0,0,0,,Euh…\Ntoutes ces prières, ces agenouillements et ces
-Dialogue: 0,1:12:59.28,1:13:05.12,Default,,0,0,0,,méditations…   Même pas\Nça.  C'est… c'est quoi
+Dialogue: 0,1:12:43.36,1:12:50.00,Default,,0,0,0,,Vous avez envie de faire quelque chose, mais pas suffisamment\Npour le faire.   Je ne sais pas. C'est ce que
+Dialogue: 0,1:12:50.00,1:12:54.23,Default,,0,0,0,,vous dites ?\NTu veux devenir un dévot, mais
+Dialogue: 0,1:12:54.23,1:12:56.56,Default,,0,0,0,,tu es trop paresseux.\NEuh…
+Dialogue: 0,1:12:56.56,1:12:59.76,Default,,0,0,0,,toutes ces prières, ces agenouillements et ces\Nméditations…   Même pas
+Dialogue: 0,1:12:59.76,1:13:05.12,Default,,0,0,0,,ça.  C'est… c'est quoi\Nla vérité ?
 Dialogue: 0,1:13:05.12,1:13:09.44,Default,,0,0,0,,C'est plutôt comme dans tout.\NC'est comme s'il y avait juste une raison d'
 Dialogue: 0,1:13:09.44,1:13:12.56,Default,,0,0,0,,exister, mais aucune raison de faire\Nquoi que ce soit d'autre que d'exister.
 Dialogue: 0,1:13:12.56,1:13:15.19,Default,,0,0,0,,Eh bien, pour toi, l'existence est\Nsuffisante.   D'accord
-Dialogue: 0,1:13:15.19,1:13:24.08,Default,,0,0,0,,.\N.  D'accord.   Qu'est-
-Dialogue: 0,1:13:24.08,1:13:28.56,Default,,0,0,0,,ce qui vous apporte satisfaction ?\NEuh, je ne sais pas encore vraiment
-Dialogue: 0,1:13:28.56,1:13:32.32,Default,,0,0,0,,.  C'est\Nbien que tu sois devenu un
-Dialogue: 0,1:13:32.32,1:13:36.64,Default,,0,0,0,,dévot spirituel.  Cela vous apporte donc une\Nsatisfaction spirituelle, n'est-ce pas ?
-Dialogue: 0,1:13:36.64,1:13:39.76,Default,,0,0,0,,C'est une quête à réaliser,\Nmais cela ne paraît pas évident.  Vous
-Dialogue: 0,1:13:39.76,1:13:45.60,Default,,0,0,0,,essayez peut-être d'en faire quelque chose d'obscur\Net d'intellectuel
-Dialogue: 0,1:13:45.60,1:13:48.71,Default,,0,0,0,,.\NQu'est-ce que c'est que ça ?
-Dialogue: 0,1:13:48.71,1:13:52.08,Default,,0,0,0,,C'est une table et une nappe.\NC'est une table.  Ouais.  Qu'est-ce que c'est que ça
-Dialogue: 0,1:13:52.08,1:13:53.60,Default,,0,0,0,,?\NC'est un tissu.
-Dialogue: 0,1:13:53.60,1:13:56.23,Default,,0,0,0,,Oh, vous voyez comme la vie est simple ?  Qu'est ce que c'est\N?
-Dialogue: 0,1:13:56.23,1:13:59.60,Default,,0,0,0,,C'est une boîte de...\NQuel est le but de ceci ?   Cela
-Dialogue: 0,1:13:59.60,1:14:03.19,Default,,0,0,0,,dépend de ce que vous en faites.  Supposons que\Nvous le buviez.
-Dialogue: 0,1:14:03.19,1:14:09.36,Default,,0,0,0,,Très bien.  À quoi sert ce\Npapier de soie ?
-Dialogue: 0,1:14:09.36,1:14:17.84,Default,,0,0,0,,Il va obtenir son diplôme dans environ 3\Nminutes.
+Dialogue: 0,1:13:15.19,1:13:22.08,Default,,0,0,0,,.\NDonc ce n'est pas si grave.   D'accord
+Dialogue: 0,1:13:22.08,1:13:26.48,Default,,0,0,0,,.  D'accord.   Qu'est-\Nce qui vous apporte satisfaction ?
+Dialogue: 0,1:13:26.48,1:13:30.40,Default,,0,0,0,,Euh, je ne sais pas encore vraiment\N.  C'est
+Dialogue: 0,1:13:30.40,1:13:34.71,Default,,0,0,0,,bien que tu sois devenu un\Ndévot spirituel.  Cela vous apporte donc une
+Dialogue: 0,1:13:34.71,1:13:37.92,Default,,0,0,0,,satisfaction spirituelle, n'est-ce pas ?\NC'est une quête à réaliser,
+Dialogue: 0,1:13:37.92,1:13:43.19,Default,,0,0,0,,mais cela ne paraît pas évident.  Vous\Nessayez peut-être d'en faire quelque chose d'obscur
+Dialogue: 0,1:13:43.19,1:13:46.32,Default,,0,0,0,,et d'intellectuel\N.
+Dialogue: 0,1:13:46.32,1:13:50.08,Default,,0,0,0,,Qu'est-ce que c'est que ça ?\NC'est une table et une nappe.
+Dialogue: 0,1:13:50.08,1:13:52.56,Default,,0,0,0,,C'est une table.  Ouais.  Qu'est-ce que c'est que ça\N?
+Dialogue: 0,1:13:52.56,1:13:55.84,Default,,0,0,0,,C'est un tissu.\NOh, vous voyez comme la vie est simple ?  Qu'est ce que c'est
+Dialogue: 0,1:13:55.84,1:13:57.36,Default,,0,0,0,,?\NC'est une boîte de...
+Dialogue: 0,1:13:57.36,1:14:01.76,Default,,0,0,0,,Quel est le but de ceci ?   Cela\Ndépend de ce que vous en faites.  Supposons que
+Dialogue: 0,1:14:01.76,1:14:06.56,Default,,0,0,0,,vous le buviez.\NTrès bien.  À quoi sert ce
+Dialogue: 0,1:14:06.56,1:14:11.19,Default,,0,0,0,,papier de soie ?\NIl va obtenir son diplôme dans environ 3
+Dialogue: 0,1:14:11.19,1:14:17.84,Default,,0,0,0,,minutes.\NTu es compliqué(e).
 Dialogue: 0,1:14:17.84,1:14:21.28,Default,,0,0,0,,Peut être.\NOuais.  Vous cherchez des gens qui pensent
 Dialogue: 0,1:14:21.28,1:14:26.64,Default,,0,0,0,,que les choses spirituelles et\Nmystiques sont obscures.
-Dialogue: 0,1:14:26.64,1:14:54.96,Default,,0,0,0,,Non, le véritablement mystique est évident.\NDonc, je peux te toucher la main.
+Dialogue: 0,1:14:26.64,1:14:35.88,Default,,0,0,0,,Non, le véritablement mystique est évident.\NDonc, il y a quelque chose d'évident qui m'échappe.   Je
+Dialogue: 0,1:14:37.92,1:14:45.04,Default,,0,0,0,,suppose que oui.\NOuais.
+Dialogue: 0,1:14:45.04,1:14:54.96,Default,,0,0,0,,Donc, je peux te toucher la main.\NLes gens recherchent le mystique.  Ils veulent
 Dialogue: 0,1:14:54.96,1:15:01.12,Default,,0,0,0,,quelque chose d'obscur\Net de sophistiqué,
 Dialogue: 0,1:15:01.12,1:15:06.96,Default,,0,0,0,,comme un brouillard coloré et magique qui flotte\Ndevant leurs yeux.
-Dialogue: 0,1:15:06.96,1:15:27.60,Default,,0,0,0,,Et ils réalisent que ce brouillard mystique est\Nen réalité Dieu.
+Dialogue: 0,1:15:06.96,1:15:12.84,Default,,0,0,0,,Et ils réalisent que ce brouillard mystique est\Nen réalité Dieu.
+Dialogue: 0,1:15:14.32,1:15:27.60,Default,,0,0,0,,Comment se fait-il que ça soit Dieu et pas ça ?\NBonjour, Dr Hawkins.
 Dialogue: 0,1:15:27.60,1:15:30.88,Default,,0,0,0,,Oui.\NEuh, je n'ai pas de question, mais je
 Dialogue: 0,1:15:30.88,1:15:35.28,Default,,0,0,0,,voulais juste exprimer ma gratitude pour m'avoir\Nenseigné le droit
-Dialogue: 0,1:15:35.28,1:15:45.84,Default,,0,0,0,,chemin.  Merci beaucoup.\NMerci.
+Dialogue: 0,1:15:35.28,1:15:40.36,Default,,0,0,0,,chemin.  Merci beaucoup.\NMerci.
+Dialogue: 0,1:15:40.40,1:15:45.84,Default,,0,0,0,,Merci.\NOui, les gens recherchent le côté plutôt
 Dialogue: 0,1:15:45.84,1:15:49.76,Default,,0,0,0,,obscur et enchanteur de\NM.
 Dialogue: 0,1:15:49.76,1:15:54.80,Default,,0,0,0,,Dr. Hawkins, et toutes les personnes présentes aujourd'hui ont\Nété un véritable cadeau et un rêve devenu réalité.   Je
 Dialogue: 0,1:15:54.80,1:16:00.40,Default,,0,0,0,,vous aime et je vous aime.  Euh… c'est quoi\Nça ?
 Dialogue: 0,1:16:00.40,1:16:03.67,Default,,0,0,0,,Que s'est-il passé ?\NEh bien, il a simplement dit qu'il aimait tout.
 Dialogue: 0,1:16:03.67,1:16:06.15,Default,,0,0,0,,C'est tout simplement génial d'être ici.\NC'est tout ce que je dis.
-Dialogue: 0,1:16:06.15,1:16:14.56,Default,,0,0,0,,Oh d'accord.\Nqu'une partie de notre tâche consiste à rester en
-Dialogue: 0,1:16:14.56,1:16:19.28,Default,,0,0,0,,bonne compagnie et à être conscients de l'\Neffet du champ énergétique.
-Dialogue: 0,1:16:19.28,1:16:23.84,Default,,0,0,0,,J'enseigne à l'école\Net j'enseigne aux élèves issus de milieux socio-économiques défavorisés (programme d'aide aux enseignants).
-Dialogue: 0,1:16:23.84,1:16:28.23,Default,,0,0,0,,J'enseigne aux\Nenfants les aspects sociaux et économiques.
-Dialogue: 0,1:16:28.23,1:16:33.44,Default,,0,0,0,,Autrement dit, les enfants qui… n’ont\Npas lu votre livre.
-Dialogue: 0,1:16:33.44,1:16:36.56,Default,,0,0,0,,Des enfants qui sont quoi ?  des enfants qui n'ont\Npas lu vos livres.
-Dialogue: 0,1:16:36.56,1:16:40.48,Default,,0,0,0,,Oh,\Névidemment.
-Dialogue: 0,1:16:40.48,1:16:53.36,Default,,0,0,0,,Oh d'accord.  Alors,\Nma humble question
+Dialogue: 0,1:16:06.15,1:16:12.32,Default,,0,0,0,,Oh d'accord.\NDans votre conférence d'aujourd'hui, vous avez dit
+Dialogue: 0,1:16:12.32,1:16:17.12,Default,,0,0,0,,qu'une partie de notre tâche consiste à rester en\Nbonne compagnie et à être conscients de l'
+Dialogue: 0,1:16:17.12,1:16:21.04,Default,,0,0,0,,effet du champ énergétique.\NJ'enseigne à l'école
+Dialogue: 0,1:16:21.04,1:16:25.52,Default,,0,0,0,,et j'enseigne aux élèves issus de milieux socio-économiques défavorisés (programme d'aide aux enseignants).\NJ'enseigne aux
+Dialogue: 0,1:16:25.52,1:16:30.56,Default,,0,0,0,,enfants les aspects sociaux et économiques.\NAutrement dit, les enfants qui… n’ont
+Dialogue: 0,1:16:30.56,1:16:35.28,Default,,0,0,0,,pas lu votre livre.\NDes enfants qui sont quoi ?  des enfants qui n'ont
+Dialogue: 0,1:16:35.28,1:16:38.80,Default,,0,0,0,,pas lu vos livres.\NOh,
+Dialogue: 0,1:16:38.80,1:16:44.48,Default,,0,0,0,,évidemment.\NOh d'accord.  Alors,
+Dialogue: 0,1:16:44.48,1:16:53.36,Default,,0,0,0,,ma humble question\Nest la suivante : que faire si, de
 Dialogue: 0,1:16:53.36,1:17:00.48,Default,,0,0,0,,par sa profession, on vous ordonne d'\Naller encore et encore dans un
 Dialogue: 0,1:17:00.48,1:17:05.52,Default,,0,0,0,,champ énergétique compromis ?\NJe ne comprends pas la question.
 Dialogue: 0,1:17:05.52,1:17:10.48,Default,,0,0,0,,Que voulez-vous dire par un champ énergétique compromis\N?  Moi non plus, je ne comprends pas.
@@ -769,42 +836,49 @@ Dialogue: 0,1:17:21.76,1:17:24.64,Default,,0,0,0,,Ouais.  Votre emploi consiste 
 Dialogue: 0,1:17:24.64,1:17:31.67,Default,,0,0,0,,Dans les champs de faible énergie.\NMa question n'est pas valable.  Non. Non. Euh,
 Dialogue: 0,1:17:31.67,1:17:35.44,Default,,0,0,0,,en gros,\Nvous parlez d'enseigner à
 Dialogue: 0,1:17:35.44,1:17:37.28,Default,,0,0,0,,des enfants défavorisés.\NOui.  Oui Monsieur.
-Dialogue: 0,1:17:37.28,1:17:43.19,Default,,0,0,0,,Pourquoi ne pas le dire tout simplement ?\NOh.
-Dialogue: 0,1:17:43.19,1:17:47.44,Default,,0,0,0,,.  Alors, quelle est votre question ?  Ma\Nquestion est donc de savoir si
-Dialogue: 0,1:17:47.44,1:17:52.80,Default,,0,0,0,,c'est une simple perception, probablement de ma\Nfaute, que je constate une baisse d'
-Dialogue: 0,1:17:52.80,1:17:56.96,Default,,0,0,0,,énergie\Nau quotidien.
-Dialogue: 0,1:17:56.96,1:18:01.92,Default,,0,0,0,,Que dois-je faire pour savoir\Ncomment cela va affecter les choses\h?
-Dialogue: 0,1:18:01.92,1:18:07.04,Default,,0,0,0,,Par exemple, les gens qui sont ici veulent\Nêtre ici, alors ils écoutent chaque mot
-Dialogue: 0,1:18:07.04,1:18:11.36,Default,,0,0,0,,et nous, on est tout simplement… vous savez, emplis de\Ngratitude.  Mais
-Dialogue: 0,1:18:11.36,1:18:14.48,Default,,0,0,0,,le champ énergétique plus faible des personnes\Navec lesquelles vous interagissez ne va pas
-Dialogue: 0,1:18:14.48,1:18:15.84,Default,,0,0,0,,vous entraîner vers le bas.   D'accord\N.
-Dialogue: 0,1:18:15.84,1:18:21.12,Default,,0,0,0,,Au contraire,\Nvotre intérêt et votre sollicitude à leur égard.
-Dialogue: 0,1:18:21.12,1:18:26.32,Default,,0,0,0,,C'est pourquoi j'ai insisté sur la bienveillance\Nplus tôt.  Ils reçoivent votre bienveillance.  Quoi que
-Dialogue: 0,1:18:26.32,1:18:32.32,Default,,0,0,0,,vous disiez, soit vous vous en souciez et\Nils le comprennent, soit vous vous en fichez et ils le comprennent
-Dialogue: 0,1:18:32.32,1:18:36.96,Default,,0,0,0,,aussi.  Ainsi, beaucoup d'enfants scolarisés dans des\Nétablissements spécialisés ne réussissent pas vraiment
-Dialogue: 0,1:18:36.96,1:18:41.28,Default,,0,0,0,,mieux car les personnes qui\Ns'occupent d'eux ne s'en soucient pas vraiment.   Soit
-Dialogue: 0,1:18:41.28,1:18:47.36,Default,,0,0,0,,ils sont payés pour ce travail, soit\Nj'enseigne à des enfants handicapés.  Los Angeles,
-Dialogue: 0,1:18:47.36,1:18:52.08,Default,,0,0,0,,mais ils s'en fichent royalement de\Nce gamin.  Si vous tenez vraiment à l'
-Dialogue: 0,1:18:52.08,1:18:56.08,Default,,0,0,0,,enfant, cela se voit.  Et un enfant sait\Nsi vous vous souciez de lui ou non.  Vous n'allez pas les
-Dialogue: 0,1:18:56.08,1:19:02.08,Default,,0,0,0,,tromper.  Mon chien le sait.  Ainsi, si\Nmes chats et mon chien savent cela,
-Dialogue: 0,1:19:02.08,1:19:09.12,Default,,0,0,0,,vous pouvez être sûr que l'esprit d'un enfant comprendra\Naussi, que vous soyez là
-Dialogue: 0,1:19:09.12,1:19:15.12,Default,,0,0,0,,pour participer avec lui à une\Nexpérience passionnante ou non.   D'accord
-Dialogue: 0,1:19:15.12,1:19:30.00,Default,,0,0,0,,.  Merci.\NOuais.
+Dialogue: 0,1:17:37.28,1:17:41.44,Default,,0,0,0,,Pourquoi ne pas le dire tout simplement ?\NOh.
+Dialogue: 0,1:17:41.76,1:17:44.96,Default,,0,0,0,,Merci.  D'accord.   D'accord\N.  Alors, quelle est votre question ?  Ma
+Dialogue: 0,1:17:44.96,1:17:49.92,Default,,0,0,0,,question est donc de savoir si\Nc'est une simple perception, probablement de ma
+Dialogue: 0,1:17:49.92,1:17:54.48,Default,,0,0,0,,faute, que je constate une baisse d'\Nénergie
+Dialogue: 0,1:17:54.48,1:18:00.80,Default,,0,0,0,,au quotidien.\NQue dois-je faire pour savoir
+Dialogue: 0,1:18:00.80,1:18:04.08,Default,,0,0,0,,comment cela va affecter les choses ?\NPar exemple, les gens qui sont ici veulent
+Dialogue: 0,1:18:04.08,1:18:08.88,Default,,0,0,0,,être ici, alors ils écoutent chaque mot\Net nous, on est tout simplement… vous savez, emplis de
+Dialogue: 0,1:18:08.88,1:18:12.96,Default,,0,0,0,,gratitude.  Mais\Nle champ énergétique plus faible des personnes
+Dialogue: 0,1:18:12.96,1:18:15.36,Default,,0,0,0,,avec lesquelles vous interagissez ne va pas\Nvous entraîner vers le bas.   D'accord
+Dialogue: 0,1:18:15.36,1:18:17.92,Default,,0,0,0,,.\NAu contraire,
+Dialogue: 0,1:18:17.92,1:18:22.88,Default,,0,0,0,,votre intérêt et votre sollicitude à leur égard.\NC'est pourquoi j'ai insisté sur la bienveillance
+Dialogue: 0,1:18:22.88,1:18:29.76,Default,,0,0,0,,plus tôt.  Ils reçoivent votre bienveillance.  Quoi que\Nvous disiez, soit vous vous en souciez et
+Dialogue: 0,1:18:29.76,1:18:34.96,Default,,0,0,0,,ils le comprennent, soit vous vous en fichez et ils le comprennent\Naussi.  Ainsi, beaucoup d'enfants scolarisés dans des
+Dialogue: 0,1:18:34.96,1:18:39.52,Default,,0,0,0,,établissements spécialisés ne réussissent pas vraiment\Nmieux car les personnes qui
+Dialogue: 0,1:18:39.52,1:18:43.60,Default,,0,0,0,,s'occupent d'eux ne s'en soucient pas vraiment.   Soit\Nils sont payés pour ce travail, soit
+Dialogue: 0,1:18:43.60,1:18:49.28,Default,,0,0,0,,j'enseigne à des enfants handicapés.  Los Angeles,\Nmais ils s'en fichent royalement de
+Dialogue: 0,1:18:49.28,1:18:54.64,Default,,0,0,0,,ce gamin.  Si vous tenez vraiment à l'\Nenfant, cela se voit.  Et un enfant sait
+Dialogue: 0,1:18:54.64,1:18:59.36,Default,,0,0,0,,si vous vous souciez de lui ou non.  Vous n'allez pas les\Ntromper.  Mon chien le sait.  Ainsi, si
+Dialogue: 0,1:18:59.36,1:19:05.60,Default,,0,0,0,,mes chats et mon chien savent cela,\Nvous pouvez être sûr que l'esprit d'un enfant comprendra
+Dialogue: 0,1:19:05.60,1:19:11.76,Default,,0,0,0,,aussi, que vous soyez là\Npour participer avec lui à une
+Dialogue: 0,1:19:11.76,1:19:17.12,Default,,0,0,0,,expérience passionnante ou non.   D'accord\N.  Merci.
+Dialogue: 0,1:19:17.12,1:19:30.00,Default,,0,0,0,,Ouais.\NSi vous considérez les enfants comme de
 Dialogue: 0,1:19:30.00,1:19:34.56,Default,,0,0,0,,petits imbéciles,\Ncela indique que vous n'avez pas
-Dialogue: 0,1:19:34.56,1:19:46.64,Default,,0,0,0,,la bonne attitude.\Nau lieu d'une question, je veux une bénédiction.
-Dialogue: 0,1:19:46.64,1:19:52.40,Default,,0,0,0,,Vous voulez une bénédiction ?\NOui.
-Dialogue: 0,1:19:52.40,1:19:57.84,Default,,0,0,0,,Euh… Est-ce que c'est ce que\Nvous voulez, une bénédiction\h?   D'accord
+Dialogue: 0,1:19:34.56,1:19:42.71,Default,,0,0,0,,la bonne attitude.\NEuh,
+Dialogue: 0,1:19:42.71,1:19:48.23,Default,,0,0,0,,au lieu d'une question, je veux une bénédiction.\NVous voulez une bénédiction ?
+Dialogue: 0,1:19:48.23,1:19:52.40,Default,,0,0,0,,Oui.\NOui.
+Dialogue: 0,1:19:52.40,1:19:57.84,Default,,0,0,0,,Euh… Est-ce que c'est ce que\Nvous voulez, une bénédiction ?   D'accord
 Dialogue: 0,1:19:57.84,1:20:01.19,Default,,0,0,0,,.\NJe vous bénis au nom du Seigneur.
-Dialogue: 0,1:20:01.19,1:20:37.12,Default,,0,0,0,,Amen.\NAnanda, c'était ça ?
-Dialogue: 0,1:20:37.12,1:20:46.00,Default,,0,0,0,,plus de 500 ans, mais je me suis perdu.  Apprenez-moi, s'il vous plaît.\N?  Comment faire ?
-Dialogue: 0,1:20:46.00,1:20:53.84,Default,,0,0,0,,Je ne peux pas vous apprendre à\Ncomposer de la bonne musique.
+Dialogue: 0,1:20:01.19,1:20:08.19,Default,,0,0,0,,Amen.\NSoit.
+Dialogue: 0,1:20:09.28,1:20:27.92,Default,,0,0,0,,C'est ça.   À\Nqui Bouddha a-t-il donné la fleur ?
+Dialogue: 0,1:20:27.92,1:20:37.12,Default,,0,0,0,,Ananda, c'était ça ?\NEuh, il dit qu'il veut composer de la musique pour
+Dialogue: 0,1:20:37.12,1:20:44.15,Default,,0,0,0,,plus de 500 ans, mais je me suis perdu.  Apprenez-moi, s'il vous plaît.\NM'apprendre quoi ?   Comment
+Dialogue: 0,1:20:44.15,1:20:48.00,Default,,0,0,0,,?  Comment faire ?\NJe ne peux pas vous apprendre à
+Dialogue: 0,1:20:48.00,1:20:53.84,Default,,0,0,0,,composer de la bonne musique.\NJe ne peux pas vous apprendre à composer de la bonne
 Dialogue: 0,1:20:53.84,1:21:00.40,Default,,0,0,0,,musique.  Votre inspiration\Nimprègne tous vos produits créatifs
 Dialogue: 0,1:21:00.40,1:21:06.56,Default,,0,0,0,,, qu'il s'agisse de sculpture, de\Npeinture, de musique, de danse, d'
 Dialogue: 0,1:21:06.56,1:21:13.28,Default,,0,0,0,,enseignement\Nou d'écriture.  Ouais.
 Dialogue: 0,1:21:13.28,1:21:19.67,Default,,0,0,0,,Votre énergie s'exprime à travers l'\Nexpression que vous choisissez.
-Dialogue: 0,1:21:19.67,1:21:31.44,Default,,0,0,0,,Vous pouvez écrire, enseigner, danser, peindre,\Nfaire tout cela en même temps.
-Dialogue: 0,1:21:31.44,1:21:46.64,Default,,0,0,0,,Je veux dire, quand je fabriquais une porte, c'était une\Nporte.
-Dialogue: 0,1:21:46.64,1:21:54.00,Default,,0,0,0,,.\NSalut.
+Dialogue: 0,1:21:19.67,1:21:27.64,Default,,0,0,0,,Vous pouvez écrire, enseigner, danser, peindre,\Nfaire tout cela en même temps.
+Dialogue: 0,1:21:28.08,1:21:33.28,Default,,0,0,0,,Charpenterie.  J'adorais aussi la menuiserie.\NJe veux dire, quand je fabriquais une porte, c'était une
+Dialogue: 0,1:21:33.28,1:21:45.15,Default,,0,0,0,,porte.\NOui.
+Dialogue: 0,1:21:45.19,1:21:49.80,Default,,0,0,0,,Faites tout votre possible, du mieux que vous pouvez\N.
+Dialogue: 0,1:21:53.04,1:21:54.00,Default,,0,0,0,,Bonjour Docteur.\NSalut.
 Dialogue: 0,1:21:54.00,1:21:55.84,Default,,0,0,0,,Bonjour Dr H.\NOui.
 Dialogue: 0,1:21:55.84,1:22:00.48,Default,,0,0,0,,Euh, je me demandais quel est le meilleur moyen\Nd'encourager la croissance spirituelle de mes
 Dialogue: 0,1:22:00.48,1:22:01.76,Default,,0,0,0,,enfants ?\NJe n'entends pas.
@@ -812,15 +886,17 @@ Dialogue: 0,1:22:01.76,1:22:07.28,Default,,0,0,0,,Euh, quel est le meilleur moye
 Dialogue: 0,1:22:07.28,1:22:11.92,Default,,0,0,0,,bien, par exemple,\Nla plupart des enfants de notre société sont emmenés
 Dialogue: 0,1:22:11.92,1:22:17.36,Default,,0,0,0,,à l'église.\NEuh, ils vont à l'école du dimanche.
 Dialogue: 0,1:22:17.36,1:22:22.32,Default,,0,0,0,,Ils visitent des lieux saints, des cathédrales et des\Néglises, et
-Dialogue: 0,1:22:22.32,1:22:32.48,Default,,0,0,0,,ils observent le respect manifesté par\Nleurs parents.
-Dialogue: 0,1:22:32.48,1:22:35.44,Default,,0,0,0,,passons et que nous descendons.  Et j'ai tellement hâte d'\Navoir l'occasion d'y aller, de
-Dialogue: 0,1:22:35.44,1:22:42.08,Default,,0,0,0,,voir à quoi ça ressemble, etc.\NPuis-je me faire prendre en photo avec vous ?
+Dialogue: 0,1:22:22.32,1:22:27.63,Default,,0,0,0,,ils observent le respect manifesté par\Nleurs parents.
+Dialogue: 0,1:22:30.48,1:22:34.00,Default,,0,0,0,,Il y a une nouvelle grande église catholique devant laquelle nous\Npassons et que nous descendons.  Et j'ai tellement hâte d'
+Dialogue: 0,1:22:34.00,1:22:38.96,Default,,0,0,0,,avoir l'occasion d'y aller, de\Nvoir à quoi ça ressemble, etc.
+Dialogue: 0,1:22:38.96,1:22:42.08,Default,,0,0,0,,Ouais.\NPuis-je me faire prendre en photo avec vous ?
 Dialogue: 0,1:22:42.08,1:22:44.00,Default,,0,0,0,,Hein?\NPuisse-t-il avoir Oui.
 Dialogue: 0,1:22:44.00,1:22:47.60,Default,,0,0,0,,Puis-je me faire prendre en photo avec vous ?\NIl veut savoir s'il peut se faire
 Dialogue: 0,1:22:47.60,1:22:50.48,Default,,0,0,0,,prendre en photo avec vous.\NOh, bien sûr.  Je ne comprends pas.  Il y a
 Dialogue: 0,1:22:50.48,1:22:55.04,Default,,0,0,0,,un problème avec ses commentaires.\NÇa ne vient pas de ce micro-
 Dialogue: 0,1:22:55.04,1:22:58.00,Default,,0,0,0,,là.   C'est le genre de\Nchoses que j'entends là où il est.
-Dialogue: 0,1:22:58.00,1:23:24.23,Default,,0,0,0,,Ça ne fonctionne pas comme ça.\NJe n'entends pas ce qu'il dit.
+Dialogue: 0,1:22:58.00,1:23:04.19,Default,,0,0,0,,Ça ne fonctionne pas comme ça.\NJe n'entends pas ce qu'il dit.
+Dialogue: 0,1:23:13.28,1:23:24.23,Default,,0,0,0,,Oui.\NBonjour.
 Dialogue: 0,1:23:24.23,1:23:31.19,Default,,0,0,0,,Euh, je suis venu principalement pour recevoir l'\Nénergie de l'aura.
 Dialogue: 0,1:23:31.19,1:23:34.56,Default,,0,0,0,,Vous quoi ?  Je suis venu principalement\Npour recevoir de l'énergie.
 Dialogue: 0,1:23:34.56,1:23:35.92,Default,,0,0,0,,Ah, l'énergie\Ndu pétrole !
@@ -830,68 +906,82 @@ Dialogue: 0,1:23:42.71,1:23:48.15,Default,,0,0,0,,Oh ouais.\NEst-il prématuré 
 Dialogue: 0,1:23:48.15,1:23:52.15,Default,,0,0,0,,ou devriez-vous vous attendre à ce que cela se produise ?\NVous n'avez pas besoin d'en savoir quoi que ce soit avant que
 Dialogue: 0,1:23:52.15,1:23:55.28,Default,,0,0,0,,le moment venu, et à mesure qu'il\Napproche, vous le saurez.
 Dialogue: 0,1:23:55.28,1:23:58.40,Default,,0,0,0,,Ouais.   Il\Nfaut donc se
-Dialogue: 0,1:23:58.40,1:24:05.52,Default,,0,0,0,,concentrer avant.\NC'est comme si vous étiez face à une mort certaine.
-Dialogue: 0,1:24:05.52,1:24:10.71,Default,,0,0,0,,manière générale sur le pardon.\NOui.  Vous devriez vous concentrer sur les enseignements, car
-Dialogue: 0,1:24:10.71,1:24:14.23,Default,,0,0,0,,vous savez que nous ne serons pas tous confrontés à\Ncet examen final.
-Dialogue: 0,1:24:14.23,1:24:17.52,Default,,0,0,0,,Ouais.  Ouais.   Il n'est\Ndonc pas nécessaire de s'y attarder.
-Dialogue: 0,1:24:17.52,1:24:21.28,Default,,0,0,0,,Non. Mais il voulait que vous sachiez à quoi vous attendre\Nlorsque vous y serez confronté.  C'est pourquoi
-Dialogue: 0,1:24:21.28,1:24:27.52,Default,,0,0,0,,il nous en a parlé.  Donc, nous n'allons pas tous y arriver de notre\Nvie,
+Dialogue: 0,1:23:58.40,1:24:02.88,Default,,0,0,0,,concentrer avant.\NC'est comme si vous étiez face à une mort certaine.
+Dialogue: 0,1:24:03.67,1:24:07.92,Default,,0,0,0,,Jusqu'à ce point, il faudrait donc se concentrer de\Nmanière générale sur le pardon.
+Dialogue: 0,1:24:07.92,1:24:12.96,Default,,0,0,0,,Oui.  Vous devriez vous concentrer sur les enseignements, car\Nvous savez que nous ne serons pas tous confrontés à
+Dialogue: 0,1:24:12.96,1:24:16.00,Default,,0,0,0,,cet examen final.\NOuais.  Ouais.   Il n'est
+Dialogue: 0,1:24:16.00,1:24:19.28,Default,,0,0,0,,donc pas nécessaire de s'y attarder.\NNon. Mais il voulait que vous sachiez à quoi vous attendre
+Dialogue: 0,1:24:19.28,1:24:24.88,Default,,0,0,0,,lorsque vous y serez confronté.  C'est pourquoi\Nil nous en a parlé.  Donc, nous n'allons pas tous y arriver de notre
+Dialogue: 0,1:24:24.88,1:24:27.52,Default,,0,0,0,,vivant, nécessairement.  Dans cette\Nvie,
 Dialogue: 0,1:24:27.52,1:24:29.84,Default,,0,0,0,,nous posons les bases pour\Npouvoir
-Dialogue: 0,1:24:29.84,1:24:38.96,Default,,0,0,0,,Mhm.\Ndemeure dans votre aura même si vous
-Dialogue: 0,1:24:38.96,1:24:46.48,Default,,0,0,0,,renaissez.\NOuais.
+Dialogue: 0,1:24:29.84,1:24:36.08,Default,,0,0,0,,Mhm.\NCar l'énergie de cet enseignement
+Dialogue: 0,1:24:36.08,1:24:40.00,Default,,0,0,0,,demeure dans votre aura même si vous\Nrenaissez.
+Dialogue: 0,1:24:40.00,1:24:46.48,Default,,0,0,0,,Ouais.\NMhm.
 Dialogue: 0,1:24:46.48,1:24:51.52,Default,,0,0,0,,Alors, comment je m'en sors ?\NSon nom y figure-t-il ou
 Dialogue: 0,1:24:51.52,1:24:54.15,Default,,0,0,0,,quelque chose du genre ?\NJe ne sais pas.  Ce microphone ne
 Dialogue: 0,1:24:54.15,1:24:57.12,Default,,0,0,0,,fonctionne pas très bien pour moi.  Je veux que votre nom y figure\N.
 Dialogue: 0,1:24:57.12,1:24:58.96,Default,,0,0,0,,Je n'ai pas compris ce qu'il disait.  Je suis\Ndésolé.
 Dialogue: 0,1:24:58.96,1:25:01.36,Default,,0,0,0,,Ce que vous dites?  Je suis désolé.\NEuh, comment je m'en sors ?   Comment va-t-il
 Dialogue: 0,1:25:01.36,1:25:04.08,Default,,0,0,0,,?\NComment se porte-t-il en vue de
-Dialogue: 0,1:25:04.08,1:25:15.04,Default,,0,0,0,,cette course ?\NEn route pour cette course.
-Dialogue: 0,1:25:15.04,1:25:20.40,Default,,0,0,0,,mystifié.\NSi le moment approche, vous n'avez pas besoin qu'on vous le
-Dialogue: 0,1:25:20.40,1:25:27.52,Default,,0,0,0,,rappelle\Npieds.
+Dialogue: 0,1:25:04.08,1:25:09.32,Default,,0,0,0,,cette course ?\NEn route pour cette course.
+Dialogue: 0,1:25:13.52,1:25:18.08,Default,,0,0,0,,Je ne serais pas attiré par son côté\Nmystifié.
+Dialogue: 0,1:25:18.08,1:25:23.80,Default,,0,0,0,,Si le moment approche, vous n'avez pas besoin qu'on vous le\Nrappelle
+Dialogue: 0,1:25:24.15,1:25:27.52,Default,,0,0,0,,car la peur vous saisit de la tête aux\Npieds.
 Dialogue: 0,1:25:27.52,1:25:31.12,Default,,0,0,0,,Ouais.\NEt vous réalisez que vous êtes sur le point de cesser d'
 Dialogue: 0,1:25:31.12,1:25:34.56,Default,,0,0,0,,exister.\NC'est terrifiant.
-Dialogue: 0,1:25:34.56,1:25:46.63,Default,,0,0,0,,Vous n'aurez donc pas besoin que quelqu'un vous tape sur l'épaule\Net vous dise : « Hé, il est temps d'avoir peur. »
-Dialogue: 0,1:25:46.63,1:25:50.08,Default,,0,0,0,,terreur.\NOui.
-Dialogue: 0,1:25:50.08,1:26:18.00,Default,,0,0,0,,C'était comme la terreur.\N.  Donc
+Dialogue: 0,1:25:34.56,1:25:41.40,Default,,0,0,0,,Vous n'aurez donc pas besoin que quelqu'un vous tape sur l'épaule\Net vous dise : « Hé, il est temps d'avoir peur. »
+Dialogue: 0,1:25:44.96,1:25:47.67,Default,,0,0,0,,Je dirais que c'était proche de la\Nterreur.
+Dialogue: 0,1:25:47.67,1:25:50.08,Default,,0,0,0,,Oui.\NOui.
+Dialogue: 0,1:25:50.08,1:25:58.19,Default,,0,0,0,,C'était comme la terreur.\NMerci.
+Dialogue: 0,1:26:00.40,1:26:06.52,Default,,0,0,0,,Je n'aurais jamais dû en parler.  Je l'ai fait\N.  Donc
+Dialogue: 0,1:26:10.15,1:26:18.00,Default,,0,0,0,,oui.\NBonjour Dr Hawkins.  Salut.
 Dialogue: 0,1:26:18.00,1:26:22.32,Default,,0,0,0,,Alors\Neuh, je suis dentiste et je viens de Corée.
 Dialogue: 0,1:26:22.32,1:26:24.08,Default,,0,0,0,,Dentiste.\NOui.   D'accord
 Dialogue: 0,1:26:24.08,1:26:28.40,Default,,0,0,0,,.\NAlors tout d'abord, euh, merci d'être
 Dialogue: 0,1:26:28.40,1:26:34.88,Default,,0,0,0,,mon maître spirituel.\NEuh, oui.  Et euh… je n’ai pas été très
 Dialogue: 0,1:26:34.88,1:26:42.88,Default,,0,0,0,,heureuse au fil des années.  Mais je suis de plus en plus\Nheureux.
 Dialogue: 0,1:26:42.88,1:26:52.40,Default,,0,0,0,,Euh, quand je saurai ce qu'est\Nl'ego, tu me l'apprendras.
-Dialogue: 0,1:26:52.40,1:27:00.63,Default,,0,0,0,,Alors euh, je voudrais juste te tenir les\Nmains et euh, te regarder dans les yeux pour une
-Dialogue: 0,1:27:00.63,1:27:21.12,Default,,0,0,0,,transmission silencieuse.\NEh bien, c'est l'intention du chercheur
+Dialogue: 0,1:26:52.40,1:27:00.63,Default,,0,0,0,,Alors euh, je voudrais juste te prendre les\Nmains et euh, te regarder dans les yeux pour une
+Dialogue: 0,1:27:00.63,1:27:08.36,Default,,0,0,0,,transmission silencieuse.\NC'est déjà arrivé.
+Dialogue: 0,1:27:14.88,1:27:21.12,Default,,0,0,0,,Eh bien, c'est l'intention du chercheur\Nqui
 Dialogue: 0,1:27:21.12,1:27:24.08,Default,,0,0,0,,déclenche la\Ntransmission.
 Dialogue: 0,1:27:24.08,1:27:28.63,Default,,0,0,0,,Ma femme a une question, pourriez-vous donc la soulever\Npour moi ?
-Dialogue: 0,1:27:28.63,1:27:38.63,Default,,0,0,0,,Je n'ai pas mes lunettes.\Nmettre ici.  D'accord.  Il dit : « J'ai
-Dialogue: 0,1:27:38.63,1:27:42.96,Default,,0,0,0,,récemment réalisé que je vivais un état de\Nsamate
-Dialogue: 0,1:27:42.96,1:27:49.84,Default,,0,0,0,,depuis mon adolescence et que je suis en\Nsamati. Dans l'état de samadei, tout à coup,
-Dialogue: 0,1:27:49.84,1:27:53.12,Default,,0,0,0,,tout\Ndevient silencieux. »
-Dialogue: 0,1:27:53.12,1:27:54.96,Default,,0,0,0,,Oui.\NEt je n'entends rien.
-Dialogue: 0,1:27:54.96,1:27:59.04,Default,,0,0,0,,Oui.\NJ'ai l'impression de plonger dans un
-Dialogue: 0,1:27:59.04,1:28:01.60,Default,,0,0,0,,endroit profond en moi.\NOui.
-Dialogue: 0,1:28:01.60,1:28:08.48,Default,,0,0,0,,Et l'espace autour de moi devient infini.\NOui.  Et mon esprit devient limpide.
-Dialogue: 0,1:28:08.48,1:28:13.36,Default,,0,0,0,,Oui.\NEt sans jugement, sans comparaison d'
-Dialogue: 0,1:28:13.36,1:28:20.88,Default,,0,0,0,,aucune sorte, juste très différent de la\Njoie débordante que je ressens intérieurement.
-Dialogue: 0,1:28:20.88,1:28:22.88,Default,,0,0,0,,Oui.\NQuand je prie Dieu.
-Dialogue: 0,1:28:22.88,1:28:25.60,Default,,0,0,0,,Euh, oui.\NMa question est la suivante : pourquoi le statut de
-Dialogue: 0,1:28:25.60,1:28:38.08,Default,,0,0,0,,maman que je vis actuellement ne me procure-t-il\Npas la même joie que celle que je ressens lorsque je prie ?
+Dialogue: 0,1:27:28.63,1:27:36.08,Default,,0,0,0,,Je n'ai pas mes lunettes.\NIci, tout est de couleur sombre.  Je vais le
+Dialogue: 0,1:27:36.08,1:27:40.56,Default,,0,0,0,,mettre ici.  D'accord.  Il dit : « J'ai\Nrécemment réalisé que je vivais un état de
+Dialogue: 0,1:27:40.56,1:27:46.32,Default,,0,0,0,,samate\Ndepuis mon adolescence et que je suis en
+Dialogue: 0,1:27:46.32,1:27:51.67,Default,,0,0,0,,samati. Dans l'état de samadei, tout à coup,\Ntout
+Dialogue: 0,1:27:51.67,1:27:53.60,Default,,0,0,0,,devient silencieux. »\NOui.
+Dialogue: 0,1:27:53.60,1:27:55.36,Default,,0,0,0,,Et je n'entends rien.\NOui.
+Dialogue: 0,1:27:55.36,1:28:01.04,Default,,0,0,0,,J'ai l'impression de plonger dans un\Nendroit profond en moi.
+Dialogue: 0,1:28:01.04,1:28:05.44,Default,,0,0,0,,Oui.\NEt l'espace autour de moi devient infini.
+Dialogue: 0,1:28:05.44,1:28:08.96,Default,,0,0,0,,Oui.  Et mon esprit devient limpide.\NOui.
+Dialogue: 0,1:28:08.96,1:28:18.00,Default,,0,0,0,,Et sans jugement, sans comparaison d'\Naucune sorte, juste très différent de la
+Dialogue: 0,1:28:18.00,1:28:21.28,Default,,0,0,0,,joie débordante que je ressens intérieurement.\NOui.
+Dialogue: 0,1:28:21.28,1:28:23.28,Default,,0,0,0,,Quand je prie Dieu.\NEuh, oui.
+Dialogue: 0,1:28:23.28,1:28:30.15,Default,,0,0,0,,Ma question est la suivante : pourquoi le statut de\Nmaman que je vis actuellement ne me procure-t-il
+Dialogue: 0,1:28:30.15,1:28:38.08,Default,,0,0,0,,pas la même joie que celle que je ressens lorsque je prie ?\NPourquoi Samati est-il
 Dialogue: 0,1:28:38.08,1:28:43.28,Default,,0,0,0,,privé de la joie qu'il ressent ?   Ce sont\Ndeux États différents.  La joie est un
 Dialogue: 0,1:28:43.28,1:28:50.71,Default,,0,0,0,,état, le samati en est un autre.  Samati est\Nplus élevé et plus encore,
-Dialogue: 0,1:28:50.71,1:29:00.88,Default,,0,0,0,,c'est un état de conscience supérieur.\Nà la joie.  N'oubliez pas que, sur une échelle calibrée
-Dialogue: 0,1:29:00.88,1:29:07.12,Default,,0,0,0,,de conscience, la joie se situe autour de... euh... j'ai\Noublié le chiffre exact, mais en tout cas, ce n'est pas aussi
-Dialogue: 0,1:29:07.12,1:29:18.15,Default,,0,0,0,,élevé que la paix infinie.\NLorsque vous atteindrez le stade de la paix infinie,
+Dialogue: 0,1:28:50.71,1:28:57.28,Default,,0,0,0,,c'est un état de conscience supérieur.\NSami est un état de conscience supérieur
+Dialogue: 0,1:28:57.28,1:29:04.23,Default,,0,0,0,,à la joie.  N'oubliez pas que, sur une échelle calibrée\Nde conscience, la joie se situe autour de... euh... j'ai
+Dialogue: 0,1:29:04.23,1:29:12.63,Default,,0,0,0,,oublié le chiffre exact, mais en tout cas, ce n'est pas aussi\Nélevé que la paix infinie.
+Dialogue: 0,1:29:12.63,1:29:18.15,Default,,0,0,0,,Lorsque vous atteindrez le stade de la paix infinie,\Nvous pourrez quitter votre corps.  Tu pourrais tout simplement
 Dialogue: 0,1:29:18.15,1:29:23.52,Default,,0,0,0,,disparaître si tu le voulais, c'est une\Nsorte de karma que tu restes
 Dialogue: 0,1:29:23.52,1:29:28.56,Default,,0,0,0,,ou que tu partes.\NLa joie est un état complètement différent.
-Dialogue: 0,1:29:28.56,1:29:37.28,Default,,0,0,0,,Ouais.   D'accord\NLa deuxième question est la suivante : si l'état
-Dialogue: 0,1:29:37.28,1:29:42.32,Default,,0,0,0,,de samadei devient plus fréquent, serai-je\Ncapable de fonctionner dans le monde ?
-Dialogue: 0,1:29:42.32,1:29:49.44,Default,,0,0,0,,Parfois, j'ai peur et je me dis : «\NNon, tu ne pourrais pas. »
-Dialogue: 0,1:29:49.44,1:29:54.71,Default,,0,0,0,,Non. Tôt ou tard, vous devrez\Nchoisir entre le monde et l'État.
-Dialogue: 0,1:29:54.71,1:30:06.48,Default,,0,0,0,,Euh, oui.\Nou
-Dialogue: 0,1:30:06.48,1:30:38.15,Default,,0,0,0,,est samani néant ou tout.\NOuais.  Le tout et le néant sont un seul et
-Dialogue: 0,1:30:38.15,1:30:43.52,Default,,0,0,0,,même état.\NC'est tout, et en étant tout, ce n'est rien
-Dialogue: 0,1:30:43.52,1:30:58.15,Default,,0,0,0,,.  Il ne s'agit donc pas de chose.\NVous confondrez le vide avec le
-Dialogue: 0,1:30:58.15,1:31:09.76,Default,,0,0,0,,néant.\NSalut.
+Dialogue: 0,1:29:28.56,1:29:34.96,Default,,0,0,0,,Ouais.   D'accord\N.
+Dialogue: 0,1:29:34.96,1:29:40.32,Default,,0,0,0,,La deuxième question est la suivante : si l'état\Nde samadei devient plus fréquent, serai-je
+Dialogue: 0,1:29:40.32,1:29:46.63,Default,,0,0,0,,capable de fonctionner dans le monde ?\NParfois, j'ai peur et je me dis : «
+Dialogue: 0,1:29:46.63,1:29:51.04,Default,,0,0,0,,Non, tu ne pourrais pas. »\NNon. Tôt ou tard, vous devrez
+Dialogue: 0,1:29:51.04,1:29:57.19,Default,,0,0,0,,choisir entre le monde et l'État.\NEuh, oui.
+Dialogue: 0,1:29:57.36,1:30:05.67,Default,,0,0,0,,Le docteur\Nest néant ou tout,
+Dialogue: 0,1:30:05.67,1:30:11.32,Default,,0,0,0,,ou\Nest samani néant ou tout.
+Dialogue: 0,1:30:11.76,1:30:24.60,Default,,0,0,0,,C'est les deux.\NMerci.
+Dialogue: 0,1:30:28.63,1:30:35.28,Default,,0,0,0,,Voyez les contraires disparaître.\NLes contraires disparaissent chez une personne.
+Dialogue: 0,1:30:35.28,1:30:40.71,Default,,0,0,0,,Ouais.  Le tout et le néant sont un seul et\Nmême état.
+Dialogue: 0,1:30:40.71,1:30:47.71,Default,,0,0,0,,C'est tout, et en étant tout, ce n'est rien\N.  Il ne s'agit donc pas de chose.
+Dialogue: 0,1:30:48.56,1:30:56.48,Default,,0,0,0,,Elle est également nulle\Ncar elle est nulle.  Tout est inclus.
+Dialogue: 0,1:30:56.48,1:31:01.15,Default,,0,0,0,,Vous confondrez le vide avec le\Nnéant.
+Dialogue: 0,1:31:08.15,1:31:09.76,Default,,0,0,0,,Bonjour.\NSalut.
 Dialogue: 0,1:31:09.76,1:31:18.71,Default,,0,0,0,,Salut.  Euh, j'avais une question.  Euh, je\Nressens beaucoup de paix intérieure et de joie,
 Dialogue: 0,1:31:18.71,1:31:25.67,Default,,0,0,0,,mais il m'arrive aussi parfois de ressentir une\Nénergie plus lourde.
 Dialogue: 0,1:31:25.67,1:31:29.44,Default,,0,0,0,,Bien sûr.\NEt je sais que si je suis, vous savez, dans
@@ -901,43 +991,50 @@ Dialogue: 0,1:31:40.88,1:31:43.67,Default,,0,0,0,,va et vient, et j'ai juste une
 Dialogue: 0,1:31:43.67,1:31:46.88,Default,,0,0,0,,Quelle est la question ?\NEssentiellement, il s'agit de transcender cela.
 Dialogue: 0,1:31:46.88,1:31:51.76,Default,,0,0,0,,Oui.  Ce n'est qu'une phase.\NIl s'agit simplement d'une phase transitoire où l'on passe d'
 Dialogue: 0,1:31:51.76,1:31:58.08,Default,,0,0,0,,un niveau à un autre.\NFinalement, vous vous identifiez au
-Dialogue: 0,1:31:58.08,1:32:12.96,Default,,0,0,0,,niveau supérieur et le niveau inférieur disparaît.\Nfamilier.  Mhm.
+Dialogue: 0,1:31:58.08,1:32:06.48,Default,,0,0,0,,niveau supérieur et le niveau inférieur disparaît.\NC'est comme revenir à ce qui nous est
+Dialogue: 0,1:32:06.48,1:32:12.96,Default,,0,0,0,,familier.  Mhm.\NSi vous sortez de votre corps, celui-ci exerce une
 Dialogue: 0,1:32:12.96,1:32:17.12,Default,,0,0,0,,certaine attraction sur vous car il vous est\Ntrès familier.  Alors on apprend à être à l'
-Dialogue: 0,1:32:17.12,1:32:31.44,Default,,0,0,0,,aise hors de son corps et celui-ci ne nous attire plus\Nà fonctionner dans ce monde.  Il vaut mieux
-Dialogue: 0,1:32:31.44,1:32:39.28,Default,,0,0,0,,occupait le corps.\Nautre côté.  Vous savez ce qui est vraiment
-Dialogue: 0,1:32:39.28,1:32:51.19,Default,,0,0,0,,inquiétant ?\NTu sais,
-Dialogue: 0,1:32:51.19,1:33:13.92,Default,,0,0,0,,15 avril, n'est-ce pas ?\NNon, c'est le jour de la déclaration de revenus.  Oh d'accord.
-Dialogue: 0,1:33:13.92,1:33:24.23,Default,,0,0,0,,destinée karmique.  Ouais.  Mhm.\NMerci d'être là.
-Dialogue: 0,1:33:24.23,1:33:27.92,Default,,0,0,0,,niveau d'abandon plus profond, mais mon ego semble refuser de lâcher prise sur mes\Nespoirs
-Dialogue: 0,1:33:27.92,1:33:32.71,Default,,0,0,0,,et mes rêves.  Que puis-je faire pour\Nréfléchir ?  Il doit ralentir.  Quoi?  Mon
-Dialogue: 0,1:33:32.71,1:33:36.08,Default,,0,0,0,,ego refuse d'abandonner mes\Nespoirs et mes rêves.
-Dialogue: 0,1:33:36.08,1:33:38.32,Default,,0,0,0,,Lâcher prise sur quoi ?\NEspoirs et rêves.
-Dialogue: 0,1:33:38.32,1:33:42.15,Default,,0,0,0,,Espoirs et rêves.  Oh oui.\NVous savez, des choses positives,
-Dialogue: 0,1:33:42.15,1:33:45.04,Default,,0,0,0,,mais il y a toujours des obsessions et des\Ndésirs.
-Dialogue: 0,1:33:45.04,1:33:48.80,Default,,0,0,0,,Je me demande donc ce que je peux faire pour parvenir à une plus\Ngrande soumission à Dieu
-Dialogue: 0,1:33:48.80,1:33:51.84,Default,,0,0,0,,pendant que je traite avec\Nvous.  Continuez simplement dans la direction où
-Dialogue: 0,1:33:51.84,1:33:56.23,Default,,0,0,0,,vous allez.   Il suffit de tout\Nremettre entre les mains de
-Dialogue: 0,1:33:56.23,1:34:01.19,Default,,0,0,0,,Dieu et finalement, cela se produit de soi-\Nmême,
-Dialogue: 0,1:34:01.19,1:34:06.32,Default,,0,0,0,,et puis on finit par réaliser qu'il n'y a personne qui\Nprenne cette
-Dialogue: 0,1:34:06.32,1:34:11.04,Default,,0,0,0,,décision, que cela se produit\Nde soi-même en vertu de notre propre
-Dialogue: 0,1:34:11.04,1:34:16.71,Default,,0,0,0,,intention.\NCes phénomènes se produisent de manière autonome,
-Dialogue: 0,1:34:16.71,1:34:23.84,Default,,0,0,0,,il n'y a pas de « moi » qui en soit responsable.\NAu contraire,
-Dialogue: 0,1:34:23.84,1:34:52.40,Default,,0,0,0,,cela se produit\Nspontanément, de soi-même.
-Dialogue: 0,1:34:52.40,1:34:58.08,Default,,0,0,0,,Bonjour.\NEuh, en ce qui concerne les pensées
-Dialogue: 0,1:34:58.08,1:35:03.67,Default,,0,0,0,,ou les voix dans ma tête, existe-t-il un\Nmoyen précis de distinguer
-Dialogue: 0,1:35:03.67,1:35:14.88,Default,,0,0,0,,ce qui relève de l'ego, ce qui relève du\Nsoi et ce qui relève des anges gardiens\h?
+Dialogue: 0,1:32:17.12,1:32:29.67,Default,,0,0,0,,aise hors de son corps et celui-ci ne nous attire plus\Nà fonctionner dans ce monde.  Il vaut mieux
+Dialogue: 0,1:32:29.67,1:32:35.40,Default,,0,0,0,,identifier, vous savez, au moins celui qui\Noccupait le corps.
+Dialogue: 0,1:32:36.00,1:32:39.28,Default,,0,0,0,,Je me dis toujours que l'éternité m'attend de l'\Nautre côté.  Vous savez ce qui est vraiment
+Dialogue: 0,1:32:39.28,1:32:45.04,Default,,0,0,0,,inquiétant ?\NNous n'avons pas besoin de le terminer d'ici août.
+Dialogue: 0,1:32:45.04,1:32:51.19,Default,,0,0,0,,Tu sais,\Nta dernière chance.  Votre dernière chance est le
+Dialogue: 0,1:32:51.19,1:32:58.84,Default,,0,0,0,,15 avril, n'est-ce pas ?\NNon, c'est le jour de la déclaration de revenus.  Oh d'accord.
+Dialogue: 0,1:33:00.96,1:33:13.92,Default,,0,0,0,,Merci.\NVous avez l'opportunité d'accomplir votre
+Dialogue: 0,1:33:13.92,1:33:20.44,Default,,0,0,0,,destinée karmique.  Ouais.  Mhm.\NMerci d'être là.
+Dialogue: 0,1:33:22.56,1:33:26.32,Default,,0,0,0,,J'essaie de passer à la troisième étape, à un\Nniveau d'abandon plus profond, mais mon ego semble refuser de lâcher prise sur mes
+Dialogue: 0,1:33:26.32,1:33:30.23,Default,,0,0,0,,espoirs\Net mes rêves.  Que puis-je faire pour
+Dialogue: 0,1:33:30.23,1:33:34.56,Default,,0,0,0,,réfléchir ?  Il doit ralentir.  Quoi?  Mon\Nego refuse d'abandonner mes
+Dialogue: 0,1:33:34.56,1:33:37.04,Default,,0,0,0,,espoirs et mes rêves.\NLâcher prise sur quoi ?
+Dialogue: 0,1:33:37.04,1:33:40.15,Default,,0,0,0,,Espoirs et rêves.\NEspoirs et rêves.  Oh oui.
+Dialogue: 0,1:33:40.15,1:33:43.60,Default,,0,0,0,,Vous savez, des choses positives,\Nmais il y a toujours des obsessions et des
+Dialogue: 0,1:33:43.60,1:33:46.63,Default,,0,0,0,,désirs.\NJe me demande donc ce que je peux faire pour parvenir à une plus
+Dialogue: 0,1:33:46.63,1:33:50.40,Default,,0,0,0,,grande soumission à Dieu\Npendant que je traite avec
+Dialogue: 0,1:33:50.40,1:33:54.56,Default,,0,0,0,,vous.  Continuez simplement dans la direction où\Nvous allez.   Il suffit de tout
+Dialogue: 0,1:33:54.56,1:33:59.28,Default,,0,0,0,,remettre entre les mains de\NDieu et finalement, cela se produit de soi-
+Dialogue: 0,1:33:59.28,1:34:02.71,Default,,0,0,0,,même,\Net puis on finit par réaliser qu'il n'y a personne qui
+Dialogue: 0,1:34:02.71,1:34:09.12,Default,,0,0,0,,prenne cette\Ndécision, que cela se produit
+Dialogue: 0,1:34:09.12,1:34:12.56,Default,,0,0,0,,de soi-même en vertu de notre propre\Nintention.
+Dialogue: 0,1:34:12.56,1:34:20.40,Default,,0,0,0,,Ces phénomènes se produisent de manière autonome,\Nil n'y a pas de « moi » qui en soit responsable.
+Dialogue: 0,1:34:20.40,1:34:28.32,Default,,0,0,0,,Au contraire,\Ncela se produit
+Dialogue: 0,1:34:28.32,1:34:38.28,Default,,0,0,0,,spontanément, de soi-même.\NJ'ai eu un bon pressentiment.  Merci.
+Dialogue: 0,1:34:51.92,1:34:54.15,Default,,0,0,0,,Oui.\NBonjour.
+Dialogue: 0,1:34:54.15,1:35:00.80,Default,,0,0,0,,Euh, en ce qui concerne les pensées\Nou les voix dans ma tête, existe-t-il un
+Dialogue: 0,1:35:00.80,1:35:07.19,Default,,0,0,0,,moyen précis de distinguer\Nce qui relève de l'ego, ce qui relève du
+Dialogue: 0,1:35:07.19,1:35:14.88,Default,,0,0,0,,soi et ce qui relève des anges gardiens ?\NVoulez-vous connaître l'origine de
 Dialogue: 0,1:35:14.88,1:35:17.67,Default,,0,0,0,,cette idée ?\NOui.
 Dialogue: 0,1:35:17.67,1:35:22.71,Default,,0,0,0,,Euh,\Ncomment vous semblent les pensées ordinaires, les
 Dialogue: 0,1:35:22.71,1:35:25.67,Default,,0,0,0,,pensées quotidiennes ?\NCompulsif.
-Dialogue: 0,1:35:25.67,1:35:34.00,Default,,0,0,0,,Ils ont l'air d'aller bien.\NVous voulez un verre d'eau ?  Vous ne
-Dialogue: 0,1:35:34.00,1:35:36.63,Default,,0,0,0,,voulez pas penser à boire de l'eau.  Que\Nveux-tu?  Comment vas-tu te procurer
-Dialogue: 0,1:35:36.63,1:35:39.92,Default,,0,0,0,,de l'eau ?\NIl ne perçoit pas cela comme
-Dialogue: 0,1:35:39.92,1:35:43.52,Default,,0,0,0,,une pensée.\NIl ne perçoit pas cela comme une pensée.
-Dialogue: 0,1:35:43.52,1:35:49.52,Default,,0,0,0,,Boire un verre d'eau.\NOuais.  Oh.  Oh.  Oh.  Euh, oui.  Donc si vous pensez à
-Dialogue: 0,1:35:49.52,1:35:52.80,Default,,0,0,0,,boire de l'eau, c'est différent.  C'est\Nexact ?
-Dialogue: 0,1:35:52.80,1:35:56.08,Default,,0,0,0,,Ouais.  Je veux dire, c'est\Nbon.  Dans le meilleur des mondes possibles, selon votre point de
-Dialogue: 0,1:35:56.08,1:36:01.52,Default,,0,0,0,,vue, tout se déroule de\Nmanière autonome, sans que vous ayez à y penser.
-Dialogue: 0,1:36:01.52,1:36:07.04,Default,,0,0,0,,Cela vous conviendrait-il ?\NPas nécessairement.  C'est juste que… Enfin
+Dialogue: 0,1:35:25.67,1:35:32.15,Default,,0,0,0,,Ils ont l'air d'aller bien.\NQuoi?
+Dialogue: 0,1:35:32.15,1:35:35.60,Default,,0,0,0,,Vous voulez un verre d'eau ?  Vous ne\Nvoulez pas penser à boire de l'eau.  Que
+Dialogue: 0,1:35:35.60,1:35:37.19,Default,,0,0,0,,veux-tu?  Comment vas-tu te procurer\Nde l'eau ?
+Dialogue: 0,1:35:37.19,1:35:41.67,Default,,0,0,0,,Il ne perçoit pas cela comme\Nune pensée.
+Dialogue: 0,1:35:41.67,1:35:45.19,Default,,0,0,0,,Il ne perçoit pas cela comme une pensée.\NBoire un verre d'eau.
+Dialogue: 0,1:35:45.19,1:35:52.15,Default,,0,0,0,,Ouais.  Oh.  Oh.  Oh.  Euh, oui.  Donc si vous pensez à\Nboire de l'eau, c'est différent.  C'est
+Dialogue: 0,1:35:52.15,1:35:53.76,Default,,0,0,0,,exact ?\NOuais.  Je veux dire, c'est
+Dialogue: 0,1:35:53.76,1:35:58.23,Default,,0,0,0,,bon.  Dans le meilleur des mondes possibles, selon votre point de\Nvue, tout se déroule de
+Dialogue: 0,1:35:58.23,1:36:03.28,Default,,0,0,0,,manière autonome, sans que vous ayez à y penser.\NCela vous conviendrait-il ?
+Dialogue: 0,1:36:03.28,1:36:07.04,Default,,0,0,0,,Pas nécessairement.  C'est juste que… Enfin\N, vous dites que la pensée se produit sans que vous ayez l'
 Dialogue: 0,1:36:07.04,1:36:09.52,Default,,0,0,0,,intention de penser\N, n'est-ce pas ?
 Dialogue: 0,1:36:09.52,1:36:12.08,Default,,0,0,0,,Oui.   D'accord\N.  Malgré tous vos efforts pour croire que
 Dialogue: 0,1:36:12.08,1:36:13.60,Default,,0,0,0,,cela se produit.\NOuais.
@@ -946,8 +1043,9 @@ Dialogue: 0,1:36:19.12,1:36:22.48,Default,,0,0,0,,si elle provient du soi, par\N
 Dialogue: 0,1:36:22.48,1:36:25.67,Default,,0,0,0,,Euh, comment sait-il quand l'\Nidée lui vient ?
 Dialogue: 0,1:36:25.67,1:36:31.19,Default,,0,0,0,,Oh ouais.  Est-ce son ego ou est-ce quelque chose qu'on lui a\Nappris ?
 Dialogue: 0,1:36:31.19,1:36:34.32,Default,,0,0,0,,Ouais.\NEh bien, il y a un sentiment d'appropriation, le fait que ce soit
-Dialogue: 0,1:36:34.32,1:36:40.63,Default,,0,0,0,,votre propre pensée.  Il y a comme un\Nsentiment d'altérité quand
-Dialogue: 0,1:36:40.63,1:36:59.11,Default,,0,0,0,,cela ne fait pas partie de vos pensées.  Vous dites avoir eu l'\Nidée
+Dialogue: 0,1:36:34.32,1:36:40.63,Default,,0,0,0,,votre propre pensée.  Euh, il y a\Nune sensation d'altérité quand
+Dialogue: 0,1:36:40.63,1:36:49.08,Default,,0,0,0,,cela ne fait pas partie de vos pensées.  Vous dites avoir eu l'\Nidée
+Dialogue: 0,1:36:50.56,1:36:59.11,Default,,0,0,0,,de prendre un cheeseburger.\NC'est différent de « J'ai envie d'un
 Dialogue: 0,1:36:59.11,1:37:04.88,Default,,0,0,0,,cheeseburger ».\NLes pensées surgissent donc de manière autonome.
 Dialogue: 0,1:37:04.88,1:37:09.76,Default,,0,0,0,,La seule façon de se libérer de tout cela est donc de\Nlaisser les phénomènes
 Dialogue: 0,1:37:09.76,1:37:15.76,Default,,0,0,0,,être des phénomènes.\NLaissez-les simplement être ce qu'ils sont et ne
@@ -958,28 +1056,31 @@ Dialogue: 0,1:37:32.80,1:37:37.28,Default,,0,0,0,,je vais expirer. »  Je veux d
 Dialogue: 0,1:37:37.28,1:37:43.36,Default,,0,0,0,,.  Il faut donc laisser libre cours à son\Nesprit, jusqu'à se laisser distraire par des bavardages incessants
 Dialogue: 0,1:37:43.36,1:37:50.00,Default,,0,0,0,,.  Ça jacasse.\NElle lutte pour sa survie.
 Dialogue: 0,1:37:50.00,1:37:55.44,Default,,0,0,0,,Alors vous laissez faire, vous ignorez que c'est\Nstupide et vous restez dans un coin avec un
-Dialogue: 0,1:37:55.44,1:38:03.44,Default,,0,0,0,,bonnet d'âne.\Nidée est donc en réalité sans importance.
-Dialogue: 0,1:38:03.44,1:38:06.15,Default,,0,0,0,,Qu'ont-ils dit ?\NAlors, que dites-vous encore ?
-Dialogue: 0,1:38:06.15,1:38:10.15,Default,,0,0,0,,L'origine de cette pensée est\Nsans importance.  D'où vient-il ?   L'
-Dialogue: 0,1:38:10.15,1:38:27.60,Default,,0,0,0,,origine de l'idée est sans importance.\NOuais.  Qui s'en soucie?
-Dialogue: 0,1:38:27.60,1:38:31.92,Default,,0,0,0,,parce qu'ils ont été entraînés pendant des\Nmilliards d'années d'évolution.   Il y a
-Dialogue: 0,1:38:31.92,1:38:37.04,Default,,0,0,0,,donc le\Nfonctionnement physiologique autonome.
-Dialogue: 0,1:38:37.04,1:38:47.19,Default,,0,0,0,,Et pour transcender tout cela, il faut\Ngénéralement plusieurs années de discipline spirituelle.
+Dialogue: 0,1:37:55.44,1:38:01.44,Default,,0,0,0,,bonnet d'âne.\NL'origine de l'
+Dialogue: 0,1:38:01.44,1:38:04.88,Default,,0,0,0,,idée est donc en réalité sans importance.\NQu'ont-ils dit ?
+Dialogue: 0,1:38:04.88,1:38:08.40,Default,,0,0,0,,Alors, que dites-vous encore ?   L'\Norigine de cette pensée est
+Dialogue: 0,1:38:08.40,1:38:13.11,Default,,0,0,0,,sans importance.  D'où vient-il ?   L'\Norigine de l'idée est sans importance.
+Dialogue: 0,1:38:13.11,1:38:21.80,Default,,0,0,0,,Ouais.  Qui s'en soucie?\NVous n'avez pas à payer de taxes dessus.   Eh
+Dialogue: 0,1:38:24.32,1:38:28.96,Default,,0,0,0,,bien, les neurones s'activent à plein régime\Nparce qu'ils ont été entraînés pendant des
+Dialogue: 0,1:38:28.96,1:38:34.48,Default,,0,0,0,,milliards d'années d'évolution.   Il y a\Ndonc le
+Dialogue: 0,1:38:34.48,1:38:39.19,Default,,0,0,0,,fonctionnement physiologique autonome.\NEt pour transcender tout cela, il faut
+Dialogue: 0,1:38:39.19,1:38:47.19,Default,,0,0,0,,généralement plusieurs années de discipline spirituelle.\NEt bien sûr, le moyen d'en éliminer de larges
 Dialogue: 0,1:38:47.19,1:38:53.36,Default,,0,0,0,,pans est d'éliminer l'\Némotion ou l'ambition sous-jacente.
 Dialogue: 0,1:38:53.36,1:38:56.71,Default,,0,0,0,,Quand on ne souhaite plus être riche, l'\Nargent ne nous préoccupe
-Dialogue: 0,1:38:56.71,1:39:06.00,Default,,0,0,0,,plus.\Ntoujours penser à trouver
-Dialogue: 0,1:39:06.00,1:39:12.96,Default,,0,0,0,,un partenaire quelque part dans le monde, tu\Nsais.  La satisfaction est donc si satisfaisante.
-Dialogue: 0,1:39:12.96,1:39:18.23,Default,,0,0,0,,Comme le dit le professeur, vous pouvez soit les laisser partir\Net vous en remettre à eux, soit
-Dialogue: 0,1:39:18.23,1:39:23.36,Default,,0,0,0,,les satisfaire.\NJ'ai oublié qui a dit ça, Roman ou
-Dialogue: 0,1:39:23.36,1:39:34.23,Default,,0,0,0,,quelqu'un d'autre.\Ndans la vie.  Il existe une école scientifique, euh
+Dialogue: 0,1:38:56.71,1:39:03.67,Default,,0,0,0,,plus.\NVotre vie personnelle est heureuse.  Tu ne vas pas
+Dialogue: 0,1:39:03.67,1:39:07.92,Default,,0,0,0,,toujours penser à trouver\Nun partenaire quelque part dans le monde, tu
+Dialogue: 0,1:39:07.92,1:39:16.56,Default,,0,0,0,,sais.  La satisfaction est donc si satisfaisante.\NComme le dit le professeur, vous pouvez soit les laisser partir
+Dialogue: 0,1:39:16.56,1:39:21.11,Default,,0,0,0,,et vous en remettre à eux, soit\Nles satisfaire.
+Dialogue: 0,1:39:21.11,1:39:26.36,Default,,0,0,0,,J'ai oublié qui a dit ça, Roman ou\Nquelqu'un d'autre.
+Dialogue: 0,1:39:28.96,1:39:34.23,Default,,0,0,0,,J'ai une question concernant notre mission\Ndans la vie.  Il existe une école scientifique, euh
 Dialogue: 0,1:39:34.23,1:39:39.19,Default,,0,0,0,,spirituelle, en Roumanie, d'où nous\Nvenons, et euh, cette école est également
 Dialogue: 0,1:39:39.19,1:39:43.36,Default,,0,0,0,,basée sur la kinésiologie.  Ils utilisent le\Ntest musculaire pour obtenir des réponses
 Dialogue: 0,1:39:43.36,1:39:48.48,Default,,0,0,0,,sur la réalité spirituelle et euh, ils ont\Ncalibré cela. Outre le fait que
 Dialogue: 0,1:39:48.48,1:39:53.44,Default,,0,0,0,,nous venons ici pour évoluer, nous venons aussi ici\Navec des missions spécifiques, comme,
 Dialogue: 0,1:39:53.44,1:39:58.48,Default,,0,0,0,,je ne sais pas, peut-être construire une\Nécole, écrire un livre ou, je ne sais pas, faire quelque chose de
 Dialogue: 0,1:39:58.48,1:40:04.88,Default,,0,0,0,,précis. Et je me\Ndemandais si c'est… enfin, d'une certaine manière, il
-Dialogue: 0,1:40:04.88,1:40:07.52,Default,,0,0,0,,semble…\Nvous savez, quelle est la question\h?
-Dialogue: 0,1:40:07.52,1:40:11.67,Default,,0,0,0,,Oui, c'est quoi\h?\NElle dit que certaines
+Dialogue: 0,1:40:04.88,1:40:07.52,Default,,0,0,0,,semble…\Nvous savez, quelle est la question ?
+Dialogue: 0,1:40:07.52,1:40:11.67,Default,,0,0,0,,Oui, c'est quoi ?\NElle dit que certaines
 Dialogue: 0,1:40:11.67,1:40:15.92,Default,,0,0,0,,personnes viennent ici pour évoluer et que d'autres\Nviennent ici en mission,
 Dialogue: 0,1:40:15.92,1:40:17.92,Default,,0,0,0,,elles ont un devoir à\Naccomplir.
 Dialogue: 0,1:40:17.92,1:40:20.96,Default,,0,0,0,,Vous voulez dire revenir sur Terre ?\NOuais.
@@ -998,9 +1099,10 @@ Dialogue: 0,1:41:06.80,1:41:10.56,Default,,0,0,0,,pour nous, en tant que famille
 Dialogue: 0,1:41:10.56,1:41:13.04,Default,,0,0,0,,Oui,\Nc'est un garçon.
 Dialogue: 0,1:41:13.04,1:41:17.67,Default,,0,0,0,,Comment savez-vous?  Il n'est même pas encore arrivé.\NEh bien, nous l'avons mesuré.  Pourrions-nous effectuer un
 Dialogue: 0,1:41:17.67,1:41:21.76,Default,,0,0,0,,test musculaire ?\NIls ont effectué un test pour déterminer son sexe.
-Dialogue: 0,1:41:21.76,1:41:31.11,Default,,0,0,0,,Oh, c'est astucieux.\N.  Vous pensez que c'est un garçon.
-Dialogue: 0,1:41:31.11,1:41:34.32,Default,,0,0,0,,Ouais.\NElle était donc une bénédiction.   D'accord
-Dialogue: 0,1:41:34.32,1:41:37.28,Default,,0,0,0,,.\NOuais.  Si vous parvenez même à le toucher.
-Dialogue: 0,1:41:37.28,1:41:40.88,Default,,0,0,0,,Ouais.\NAllons-y, caressons le bébé, hein ?
-Dialogue: 0,1:41:40.88,1:41:45.28,Default,,0,0,0,,Oh, c'est très gentil, chérie.  Que Dieu te\Nbénisse.  Que Dieu bénisse le bébé.   Que
-Dialogue: 0,1:41:45.28,1:41:50.28,Default,,0,0,0,,Dieu te bénisse.  Que Dieu bénisse le bébé.   D'accord
+Dialogue: 0,1:41:21.76,1:41:29.19,Default,,0,0,0,,Oh, c'est astucieux.\NTu sais, tu dis qu'il a un petit côté rebelle
+Dialogue: 0,1:41:29.19,1:41:32.63,Default,,0,0,0,,.  Vous pensez que c'est un garçon.\NOuais.
+Dialogue: 0,1:41:32.63,1:41:35.52,Default,,0,0,0,,Elle était donc une bénédiction.   D'accord\N.
+Dialogue: 0,1:41:35.52,1:41:38.96,Default,,0,0,0,,Ouais.  Si vous parvenez même à le toucher.\NOuais.
+Dialogue: 0,1:41:38.96,1:41:43.04,Default,,0,0,0,,Allons-y, caressons le bébé, hein ?\NOh, c'est très gentil, chérie.  Que Dieu te
+Dialogue: 0,1:41:43.04,1:41:49.63,Default,,0,0,0,,bénisse.  Que Dieu bénisse le bébé.   Que\NDieu te bénisse.  Que Dieu bénisse le bébé.   D'accord
+Dialogue: 0,1:41:50.56,1:41:54.67,Default,,0,0,0,,.  Merci.

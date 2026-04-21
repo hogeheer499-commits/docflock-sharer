@@ -12,697 +12,746 @@ Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:08.63,0:00:14.16,Default,,0,0,0,,Vamos a tener un pequeño\Ndiálogo esta tarde.  ¿Puedes
-Dialogue: 0,0:00:14.16,0:00:18.56,Default,,0,0,0,,oírme?  Bueno.  Oh, aquí estamos.  Bueno,\Nvamos a hablar de vivir
-Dialogue: 0,0:00:18.56,0:00:24.08,Default,,0,0,0,,el presente y de cómo se\Nvive el presente.  No en el
-Dialogue: 0,0:00:24.08,0:00:29.67,Default,,0,0,0,,futuro, ni en el pasado, sino viviendo con\Nlo que está sucediendo ahora mismo en tu vida.
-Dialogue: 0,0:00:29.67,0:00:32.64,Default,,0,0,0,,Así que vamos a\Ndialogar un poco sobre eso.
-Dialogue: 0,0:00:32.64,0:00:36.48,Default,,0,0,0,,Bueno, a la gente le gustó el diálogo que hicimos\Nantes, así que pensamos en
-Dialogue: 0,0:00:36.48,0:00:38.87,Default,,0,0,0,,intentar\Nrepetirlo y ver si todavía les gusta.
-Dialogue: 0,0:00:38.87,0:00:58.07,Default,,0,0,0,,Y si no,\Nescabulliremos en silencio.
-Dialogue: 0,0:00:58.07,0:01:07.36,Default,,0,0,0,,cómo se deja ir el pasado?   ¿\NCómo te liberas del pasado, digamos, de
-Dialogue: 0,0:01:07.36,0:01:12.15,Default,,0,0,0,,los efectos del pasado?  ¿Cómo se\Nsuperan las consecuencias que el pasado ha
-Dialogue: 0,0:01:12.15,0:01:32.47,Default,,0,0,0,,tenido en la vida de uno?\NBueno, tú lo ves como karma instantáneo.
-Dialogue: 0,0:01:32.47,0:01:36.40,Default,,0,0,0,,mismo ha creado?  Claro, siempre le echas la\Nculpa a otra persona, ¿
-Dialogue: 0,0:01:36.40,0:01:37.43,Default,,0,0,0,,verdad?   Ya\Nsabes,
-Dialogue: 0,0:01:37.43,0:01:41.11,Default,,0,0,0,,uno tiende a decir siempre: "Bueno,\Nsi no hubieras hecho eso, no me habría
-Dialogue: 0,0:01:41.11,0:01:44.32,Default,,0,0,0,,pasado esto".\NEso es cierto.  Sí.  Quieres librarte
-Dialogue: 0,0:01:44.32,0:01:47.36,Default,,0,0,0,,de la responsabilidad, ¿\Nverdad?
-Dialogue: 0,0:01:47.36,0:01:50.32,Default,,0,0,0,,Sí.\NY la única manera que he
-Dialogue: 0,0:01:50.32,0:01:55.68,Default,,0,0,0,,descubierto es que la mente se quede en\Nsilencio.
-Dialogue: 0,0:01:55.68,0:02:10.00,Default,,0,0,0,,Y cuando la mente está en silencio,\Neso resuelve todo el problema.
-Dialogue: 0,0:02:10.00,0:02:13.68,Default,,0,0,0,,panorama, ya sabes, sigue adelante.\NToda esta imagen que tienes en el fondo de tu
-Dialogue: 0,0:02:13.68,0:02:17.59,Default,,0,0,0,,mente sigue ocurriendo.  ¿Cómo se hace\Nfuncionar la mente?  Bueno, como dijiste, la
-Dialogue: 0,0:02:17.59,0:02:21.76,Default,,0,0,0,,imagen es una muestra de la anticipación del\Nfuturo.  La mente nunca pierde en el
+Dialogue: 0,0:00:02.24,0:00:08.63,Default,,0,0,0,,Muchas gracias.\NOh querido. Oh querido. ¿Y ahora qué?
+Dialogue: 0,0:00:08.63,0:00:14.16,Default,,0,0,0,,>> Vamos a hacer un poco de\Ndialogando con um esta tarde. ¿puedes
+Dialogue: 0,0:00:14.16,0:00:18.56,Default,,0,0,0,,¿me escuchas? Bueno. Ah, ahí estamos. Um y\Nvamos a estar hablando de vivir
+Dialogue: 0,0:00:18.56,0:00:24.08,Default,,0,0,0,,en el presente y cómo te comportas\Nviviendo en el presente. Ah, no en el
+Dialogue: 0,0:00:24.08,0:00:29.67,Default,,0,0,0,,futuro, no en el pasado, sino viviendo con\Nlo que está pasando ahora mismo en tu vida.
+Dialogue: 0,0:00:29.67,0:00:32.64,Default,,0,0,0,,Entonces, vamos a hacer un poco\Nde dialogar sobre eso.
+Dialogue: 0,0:00:32.64,0:00:36.48,Default,,0,0,0,,>> Bueno, a la gente le gustó el diálogo que hicimos.\Nantes, así que pensamos que
+Dialogue: 0,0:00:36.48,0:00:38.87,Default,,0,0,0,,>> intentar\N>> repítelo y mira si todavía les gusta.
+Dialogue: 0,0:00:38.87,0:00:46.96,Default,,0,0,0,,Y si no,\Nsi no, plegaremos nuestra tienda y
+Dialogue: 0,0:00:46.96,0:00:58.07,Default,,0,0,0,,escabullirse silenciosamente.\N>> Está bien. Entonces, ¿cómo se hace?
+Dialogue: 0,0:00:58.07,0:01:07.36,Default,,0,0,0,,¿Cómo se deja atrás el pasado?\N¿Cómo dejas ir el pasado?
+Dialogue: 0,0:01:07.36,0:01:12.15,Default,,0,0,0,,oh los efectos del pasado? ¿Cómo lo haces?\Ndejar ir los efectos que tiene el pasado
+Dialogue: 0,0:01:12.15,0:01:19.79,Default,,0,0,0,,tenido en la vida?\N>> Bueno, lo ves como karma instantáneo.
+Dialogue: 0,0:01:21.84,0:01:32.47,Default,,0,0,0,,Acabas de cometer un error. Ahora sufres. ¿Eh?\NEntonces, ¿por qué protestar por el sufrimiento que
+Dialogue: 0,0:01:32.47,0:01:36.40,Default,,0,0,0,,¿Tú mismo creaste? Por supuesto que siempre\Necharle la culpa a alguien más,
+Dialogue: 0,0:01:36.40,0:01:37.43,Default,,0,0,0,,>> ¿verdad?\N>> Ya sabes,
+Dialogue: 0,0:01:37.43,0:01:41.11,Default,,0,0,0,,>> tienes una tendencia a decir siempre, bueno,\Nsi no hubieras hecho eso, yo no lo haría
+Dialogue: 0,0:01:41.11,0:01:44.32,Default,,0,0,0,,me han pasado a mi.\N>> Eso es cierto. Sí. quieres deshacerte
+Dialogue: 0,0:01:44.32,0:01:47.36,Default,,0,0,0,,de la responsabilidad,\N>> ¿verdad?
+Dialogue: 0,0:01:47.36,0:01:50.32,Default,,0,0,0,,>> Sí.\NY la única manera en que lo he hecho
+Dialogue: 0,0:01:50.32,0:01:55.68,Default,,0,0,0,,descubierto es es uh es para que la mente\Nquedarse en silencio.
+Dialogue: 0,0:01:55.68,0:02:03.15,Default,,0,0,0,,Y cuando la mente está en silencio,\Nuh, eso responde a todo el problema.
+Dialogue: 0,0:02:03.75,0:02:10.00,Default,,0,0,0,,>> Está bien. ¿Cómo silencias la mente?\N>> Porque seguimos ejecutando todo esto
+Dialogue: 0,0:02:10.00,0:02:13.68,Default,,0,0,0,,imagen, ya sabes, continúa.\NToda esta foto en la parte de atrás de tu
+Dialogue: 0,0:02:13.68,0:02:17.59,Default,,0,0,0,,la mente sigue sucediendo. Entonces, ¿cómo se hace?\Nla mente va? Bueno, como dijiste, el
+Dialogue: 0,0:02:17.59,0:02:21.76,Default,,0,0,0,,La imagen es la anticipación de\Nel futuro. La mente nunca pierde en el
 Dialogue: 0,0:02:21.76,0:02:25.04,Default,,0,0,0,,presente.\NPara sobrevivir, tiene que
-Dialogue: 0,0:02:25.04,0:02:31.20,Default,,0,0,0,,anticiparse al futuro y\Nlamentar el pasado.  Entonces, si rechazas esas
-Dialogue: 0,0:02:31.20,0:02:37.20,Default,,0,0,0,,recompensas, entonces esas son recompensas.\NY para propagarse,
-Dialogue: 0,0:02:37.20,0:02:42.72,Default,,0,0,0,,lo que el ego odia es no tener nada que\Nhacer porque entonces teme dejar de
-Dialogue: 0,0:02:42.72,0:02:47.59,Default,,0,0,0,,existir.\NAsí que se mantiene ocupada imaginando
-Dialogue: 0,0:02:47.59,0:02:53.12,Default,,0,0,0,,problemas para el futuro e inventando\Nmotivos de arrepentimiento por el pasado.  Por supuesto,
-Dialogue: 0,0:02:53.12,0:02:58.95,Default,,0,0,0,,ninguno de los dos tiene realidad alguna\Ny, por lo tanto, uno permanece en un estado de
-Dialogue: 0,0:02:58.95,0:03:04.56,Default,,0,0,0,,no-realidad.\NLa única manera de que todo esto termine
-Dialogue: 0,0:03:04.56,0:03:09.44,Default,,0,0,0,,es renunciar al deseo de pensar, lo que\Nsignifica renunciar a la recompensa que supone
-Dialogue: 0,0:03:09.44,0:03:13.12,Default,,0,0,0,,pensar.\NY la mente dice: bueno, si no
-Dialogue: 0,0:03:13.12,0:03:17.76,Default,,0,0,0,,piensas ni planificas, no sobrevivirás.  Así que, en cierto modo, tienen que\Nrenunciar a
-Dialogue: 0,0:03:17.76,0:03:23.68,Default,,0,0,0,,la voluntad de sobrevivir.\NY o sobrevives o no.  Y ese es
-Dialogue: 0,0:03:23.68,0:03:31.92,Default,,0,0,0,,problema de Dios.\N.  Así que tienes que asumir la
-Dialogue: 0,0:03:31.92,0:03:34.79,Default,,0,0,0,,responsabilidad.\NAsí que hay que recordárselo de vez en
-Dialogue: 0,0:03:34.79,0:03:40.31,Default,,0,0,0,,cuando.  No recuerdo haber pedido ser\Ncreado, ¿sabes?
-Dialogue: 0,0:03:40.31,0:03:54.79,Default,,0,0,0,,Fue idea tuya.  ¿Usted sabe lo que quiero decir?\NBueno, no fue idea mía.
-Dialogue: 0,0:03:54.79,0:04:01.92,Default,,0,0,0,,Eso me parece un poco demasiado ambicioso\N.
-Dialogue: 0,0:04:01.92,0:04:11.59,Default,,0,0,0,,un buen día.\Nun evento trágico que sucedió en tu
-Dialogue: 0,0:04:11.59,0:04:14.72,Default,,0,0,0,,vida, la repetición,\Nentonces sabes que tu mente tiene la tendencia a
-Dialogue: 0,0:04:14.72,0:04:18.56,Default,,0,0,0,,querer reproducir eso.\NAsí que estamos sacando provecho de eso, lo
-Dialogue: 0,0:04:18.56,0:04:21.68,Default,,0,0,0,,reproduce.\NAsí que, en realidad, se trata de la voluntad de renunciar
-Dialogue: 0,0:04:21.68,0:04:25.36,Default,,0,0,0,,al zumo.\NLa recompensa es el jugo.
-Dialogue: 0,0:04:25.36,0:04:28.40,Default,,0,0,0,,Bueno.\NY ese es el único combustible que tiene el ego: el
-Dialogue: 0,0:04:28.40,0:04:33.68,Default,,0,0,0,,jugo.\NEntonces, cuando la privas de jugo al estar
-Dialogue: 0,0:04:33.68,0:04:39.36,Default,,0,0,0,,dispuesto a dejarla ir,\Nentonces las facultades de la mente se quedan
-Dialogue: 0,0:04:39.36,0:04:45.91,Default,,0,0,0,,sin jugo y cuando se queda sin jugo se\Ndetiene, abandona todo
-Dialogue: 0,0:04:45.91,0:04:51.91,Default,,0,0,0,,y vives en silencio.  uh la\Nmente interior está en silencio
-Dialogue: 0,0:04:51.91,0:04:57.04,Default,,0,0,0,,y uh entonces dejas de identificarte con la\Ncharla
-Dialogue: 0,0:04:57.04,0:05:02.47,Default,,0,0,0,,y ves que te conviertes en el testigo entonces\Ndiré que dejas de
-Dialogue: 0,0:05:02.47,0:05:08.16,Default,,0,0,0,,participar en el diálogo te conviertes en\Nel testigo del diálogo quiero decir, ¿quién se
-Dialogue: 0,0:05:08.16,0:05:11.36,Default,,0,0,0,,queja del pasado o del\Npresente? ¿
-Dialogue: 0,0:05:11.36,0:05:17.19,Default,,0,0,0,,Quién es el que se queja?\NBueno, ¿y cómo sabes lo que está pasando?
-Dialogue: 0,0:05:17.19,0:05:22.56,Default,,0,0,0,,Deja de identificarte con el\Ndiálogo y deja de identificarte con la
-Dialogue: 0,0:05:22.56,0:05:30.24,Default,,0,0,0,,mente y conviértete en el testigo de la mente.\NEntonces te alejas de identificarte con
-Dialogue: 0,0:05:30.24,0:05:36.00,Default,,0,0,0,,toda la charla\Ny te das cuenta de cómo sé qué es esto, cómo sé
-Dialogue: 0,0:05:36.00,0:05:42.47,Default,,0,0,0,,siquiera que hay charla\Nocurriendo.  Es por culpa del observador.
-Dialogue: 0,0:05:42.47,0:05:46.40,Default,,0,0,0,,Así que siempre digo que la salida del ego\Nes retroceder a través del
-Dialogue: 0,0:05:46.40,0:05:53.68,Default,,0,0,0,,observador testigo observador.\NPorque eso no es difícil de hacer.
-Dialogue: 0,0:05:53.68,0:05:59.19,Default,,0,0,0,,Puedes empezar a darte cuenta de\Nque yo soy el testigo, el observador
-Dialogue: 0,0:05:59.19,0:06:03.44,Default,,0,0,0,,y no el participante.  Porque, ¿cómo\Nsabes que eres un participante?  Porque lo
-Dialogue: 0,0:06:03.44,0:06:09.19,Default,,0,0,0,,presencias y lo observas.  Entonces, volvemos a\Nidentificarnos con
-Dialogue: 0,0:06:09.19,0:06:15.36,Default,,0,0,0,,el observador testigo y luego\Npasamos del observador testigo a cómo
-Dialogue: 0,0:06:15.36,0:06:19.28,Default,,0,0,0,,sabemos qué se está presenciando y\Nobservando,
-Dialogue: 0,0:06:19.28,0:06:24.40,Default,,0,0,0,,y luego volvemos a la consciencia\Nmisma.   De lo
-Dialogue: 0,0:06:24.40,0:06:28.63,Default,,0,0,0,,único que eres consciente es de la\Nconciencia.  De lo único que eres consciente es de la
-Dialogue: 0,0:06:28.63,0:06:32.96,Default,,0,0,0,,conciencia misma.   Ya\Nsabes, la conciencia de lo que es
-Dialogue: 0,0:06:32.96,0:06:38.00,Default,,0,0,0,,irrelevante porque siempre hay\Nalgo de lo que puedes ser consciente.
-Dialogue: 0,0:06:38.00,0:06:43.28,Default,,0,0,0,,Recuerdo esa caricatura\Nde hace muchos años.  Creo que era un
-Dialogue: 0,0:06:43.28,0:06:49.91,Default,,0,0,0,,dibujo animado de chicles Fleer.  El chicle Fleer's venía\Ncon una caricatura del rapero, y en ella se
-Dialogue: 0,0:06:49.91,0:06:54.63,Default,,0,0,0,,veía a un niño sentado en la\Nacera con un envoltorio de chicle Fleer's.   Está
-Dialogue: 0,0:06:54.63,0:06:57.68,Default,,0,0,0,,tan aburrido que está leyendo al\Nrapero y está leyendo todos los
-Dialogue: 0,0:06:57.68,0:07:07.12,Default,,0,0,0,,ingredientes de este\Nchicle, ya sabes, leyendo, ya
-Dialogue: 0,0:07:07.12,0:07:10.63,Default,,0,0,0,,ingredientes de este chicle, ya sabes,\Nporque está muy aburrido.  Él no
-Dialogue: 0,0:07:10.63,0:07:14.80,Default,,0,0,0,,quiere, tiene que mantener su mente ocupada.  Así que\Nincluso el envoltorio de un chicle de esos que se venden por ahí resulta
-Dialogue: 0,0:07:14.80,0:07:20.00,Default,,0,0,0,,interesante cuando uno está terriblemente\Naburrido.
-Dialogue: 0,0:07:20.00,0:07:28.63,Default,,0,0,0,,Entonces, cuando tu mente comienza a reproducir\Nesta tragedia y comienzas a sentir
-Dialogue: 0,0:07:28.63,0:07:33.36,Default,,0,0,0,,lástima por lo que ha sucedido, entonces lo que estás\Ndiciendo es que
-Dialogue: 0,0:07:33.36,0:07:40.96,Default,,0,0,0,,debes dejar que siga su curso o tratar de\Ndetenerlo antes de que comience.  Bueno, una vez que te
-Dialogue: 0,0:07:40.96,0:07:45.12,Default,,0,0,0,,das cuenta de que lo que hace el ego\Nes constantemente exprimir las cosas,
-Dialogue: 0,0:07:45.12,0:07:50.08,Default,,0,0,0,,exprimir los temas, exprimir el pasado\Ny el arrepentimiento por el pasado y
-Dialogue: 0,0:07:50.08,0:07:56.72,Default,,0,0,0,,exprimir el futuro.\NEh, igual que le encanta la controversia
-Dialogue: 0,0:07:56.72,0:08:01.44,Default,,0,0,0,,porque la controversia está llena de uh\Njugo de ego.
-Dialogue: 0,0:08:01.44,0:08:06.80,Default,,0,0,0,,Y uh, si realmente estás interesado\Nen alcanzar la iluminación, entonces
-Dialogue: 0,0:08:06.80,0:08:14.31,Default,,0,0,0,,significa dejar ir la mente.  sí mismo.  Deja de lado\Ntodo pensamiento conceptual.
-Dialogue: 0,0:08:14.31,0:08:19.44,Default,,0,0,0,,Dejen de hablar de fenómenos.\NDeja de expresarlo con
-Dialogue: 0,0:08:19.44,0:08:35.03,Default,,0,0,0,,palabras, de imaginarlo.  Y te conviertes en ti mismo, tú mismo, de vuelta al\NPresencia silenciosa de qué?  El silencio, la presencia del
-Dialogue: 0,0:08:35.03,0:08:40.24,Default,,0,0,0,,observador, el aspecto testigo de la\Nconciencia misma.  Finalmente te
-Dialogue: 0,0:08:40.24,0:08:43.83,Default,,0,0,0,,das cuenta de que aquello que es la\Nconciencia, aquello que es el yo
-Dialogue: 0,0:08:43.83,0:08:48.95,Default,,0,0,0,,con mayúscula, son una y la misma\Ncosa.   El
-Dialogue: 0,0:08:48.95,0:08:52.95,Default,,0,0,0,,yo no es más que un reflejo de un aspecto\Nde la conciencia, ya
-Dialogue: 0,0:08:52.95,0:08:58.95,Default,,0,0,0,,sabes, en una definición específica.\NEn otras palabras, deja de hablar o
-Dialogue: 0,0:08:58.95,0:09:03.60,Default,,0,0,0,,pensar en la iluminación y empieza a\Nexperimentarla.
-Dialogue: 0,0:09:03.60,0:09:06.08,Default,,0,0,0,,Bueno, estás intentando dejar de\Npensar, ¿
-Dialogue: 0,0:09:06.08,0:09:11.68,Default,,0,0,0,,verdad?  Entonces, eh, lo que haces es\Nensayarlo.  Hay que volver a
-Dialogue: 0,0:09:11.68,0:09:14.00,Default,,0,0,0,,la historia completa, ¿\Nverdad?
-Dialogue: 0,0:09:14.00,0:09:18.00,Default,,0,0,0,,Hay algunas palabras nuevas en nuestro\Nvocabulario.  La narrativa es una de ellas.
-Dialogue: 0,0:09:18.00,0:09:21.60,Default,,0,0,0,,Y si antes todos crecimos con la historia\Nde las cosas, ahora es una narración.  Ya
-Dialogue: 0,0:09:21.60,0:09:29.36,Default,,0,0,0,,sabes, está más de moda.\NY me gusta ir a la moda.
-Dialogue: 0,0:09:29.36,0:09:33.04,Default,,0,0,0,,Quieres vivir el presente.\NQuiero ser yo misma, ya no quiero más historias
-Dialogue: 0,0:09:33.04,0:09:43.20,Default,,0,0,0,,.  Solo quiero la historia.   Se oye\NAlgo nuevo, ya sabes, narrativa.
-Dialogue: 0,0:09:43.20,0:09:47.76,Default,,0,0,0,,Constantemente aparecen palabras nuevas que\Nno existían cuando yo era joven.  Existe
-Dialogue: 0,0:09:47.76,0:09:50.95,Default,,0,0,0,,otro método común en política llamado "\Nverificación de antecedentes".  Bueno, aún no ha pasado por el proceso de verificación
-Dialogue: 0,0:09:50.95,0:09:54.64,Default,,0,0,0,,.  O esperar a que lo investiguen a fondo.  No\Ncreo que ni siquiera esté en el diccionario.   ¿
-Dialogue: 0,0:09:54.64,0:09:59.12,Default,,0,0,0,,Ha sido verificado?  Nunca había oído hablar de ello.\NViví 80 años sin haber escuchado jamás la
-Dialogue: 0,0:09:59.12,0:10:03.04,Default,,0,0,0,,palabra "verificado".  Y de repente\Ntodo tiene que ser examinado y este
-Dialogue: 0,0:10:03.04,0:10:09.20,Default,,0,0,0,,candidato tiene que ser examinado y hay que esperar hasta que lo hagan\N.  ¿Esa palabra existe?   ¿
-Dialogue: 0,0:10:09.20,0:10:14.07,Default,,0,0,0,,Esa es una palabra real?\NSí, lo es.  Veo que alguien está sacudiendo la
-Dialogue: 0,0:10:14.07,0:10:18.16,Default,,0,0,0,,cabeza.  Sí.   No sé\Ndónde se inventó.   ¿
-Dialogue: 0,0:10:18.16,0:10:24.48,Default,,0,0,0,,Crees que está en el diccionario?\NVerificado.  Sí.   ¿
-Dialogue: 0,0:10:24.48,0:10:27.27,Default,,0,0,0,,Está verificado o tiene intereses creados?\NNo. Verificado.  Verificado.
-Dialogue: 0,0:10:27.27,0:10:30.88,Default,,0,0,0,,Verificado.\Ncon una T.
-Dialogue: 0,0:10:30.88,0:10:34.72,Default,,0,0,0,,No lo sé.  Creo que es un\Nneologismo.
-Dialogue: 0,0:10:34.72,0:10:42.64,Default,,0,0,0,,Creo que es un neologismo sin un\NBueno, has inventado algunas
-Dialogue: 0,0:10:42.64,0:10:51.92,Default,,0,0,0,,palabras nuevas, como hermenéutica.\NEpistemología.
-Dialogue: 0,0:10:51.92,0:11:08.24,Default,,0,0,0,,Oh,\Nla hermenéutica de la epistemología relativista!
-Dialogue: 0,0:11:08.24,0:11:11.51,Default,,0,0,0,,.\NBueno, esas son palabras reales.  Esas son
-Dialogue: 0,0:11:11.51,0:11:22.72,Default,,0,0,0,,palabras reales.  Esos no son neologismos\Ncomo "vetting" (verificación).   ¿
-Dialogue: 0,0:11:22.72,0:11:26.95,Default,,0,0,0,,en el diccionario.\NOh, sí lo es.  Bueno.  Tienes que conseguir uno de
-Dialogue: 0,0:11:26.95,0:11:30.80,Default,,0,0,0,,esos grandes para buscar esto.\NLa verificación está incluida.   No sé
-Dialogue: 0,0:11:30.80,0:11:34.88,Default,,0,0,0,,.   Voy a hablar\Ncon mi congresista sobre esto, ya que
-Dialogue: 0,0:11:34.88,0:11:38.95,Default,,0,0,0,,su proceso de verificación es\Nrealmente la forma estadounidense de proceder.  No me
-Dialogue: 0,0:11:38.95,0:11:44.64,Default,,0,0,0,,suena a estadounidense.\NEntonces, volviendo al pasado, vivimos en el presente. Entonces,
-Dialogue: 0,0:11:44.64,0:11:49.36,Default,,0,0,0,,para ello\Ntenemos que entrenarnos para vivir en
-Dialogue: 0,0:11:49.36,0:11:54.48,Default,,0,0,0,,el presente,\Nno en el pasado, no en el futuro, sino
-Dialogue: 0,0:11:54.48,0:11:59.20,Default,,0,0,0,,solo en el presente.\NY si hacemos eso, ¿estamos
-Dialogue: 0,0:11:59.20,0:12:03.68,Default,,0,0,0,,viviendo en el presente de la alegría?\NBueno, yo no diría que es el regalo de
-Dialogue: 0,0:12:03.68,0:12:07.83,Default,,0,0,0,,nada.  Se trata simplemente de vivir el\Npresente.  Y vivir en el presente es estar
-Dialogue: 0,0:12:07.83,0:12:11.36,Default,,0,0,0,,libre de emociones negativas.\NBueno.
-Dialogue: 0,0:12:11.36,0:12:14.32,Default,,0,0,0,,Porque no estás anticipando\Nnada.  No quieres cambiar
-Dialogue: 0,0:12:14.32,0:12:17.76,Default,,0,0,0,,nada.\NTienes que dejar ir constantemente para
-Dialogue: 0,0:12:17.76,0:12:24.39,Default,,0,0,0,,cambiar las cosas o hacerlas diferentes\Ny eh rechazar la oferta del ego de tratar
-Dialogue: 0,0:12:24.39,0:12:27.60,Default,,0,0,0,,de exprimirlas.\NEl ego siempre intenta sacarle el máximo provecho a las
-Dialogue: 0,0:12:27.60,0:12:32.88,Default,,0,0,0,,cosas.  Por eso existe esta\Nlucha constante por la superioridad moral.
-Dialogue: 0,0:12:32.88,0:12:36.88,Default,,0,0,0,,Sabes, mis padres estaban más equivocados que los\Ntuyos.  Oh sí.  Oh, Dios mío, los míos estaban equivocados.
-Dialogue: 0,0:12:36.88,0:12:42.72,Default,,0,0,0,,Más equivocado que el tuyo.  Me refiero a\Nla lucha por la superioridad moral.  ¿Quiénes son
-Dialogue: 0,0:12:42.72,0:12:46.48,Default,,0,0,0,,los más perjudicados?  Porque si eres el que\Nmás se equivoca, entonces eres el que más
-Dialogue: 0,0:12:46.48,0:12:57.60,Default,,0,0,0,,motivos tiene para odiar.\NSí.  Como le gustas más a mamá.   Oh, oh
-Dialogue: 0,0:12:57.60,0:13:01.36,Default,,0,0,0,,Eres el favorito de mamá.   Oh, oh\Nrefiero.  Ese es el
-Dialogue: 0,0:13:01.36,0:13:03.92,Default,,0,0,0,,tipo de cosas en las que, ya sabes, tu mente\Nquiere quedarse pensando
-Dialogue: 0,0:13:03.92,0:13:06.32,Default,,0,0,0,,.\NSí.
-Dialogue: 0,0:13:06.32,0:13:10.80,Default,,0,0,0,,Bueno, si te preguntas, ¿qué es qué, qué,\Nqué obtiene el ego de todo
-Dialogue: 0,0:13:10.80,0:13:13.60,Default,,0,0,0,,esto?\NBueno.  Ya sabes, es puro
-Dialogue: 0,0:13:13.60,0:13:17.68,Default,,0,0,0,,narcisismo,\Ntratando de exprimir tanto el futuro como
-Dialogue: 0,0:13:17.68,0:13:21.92,Default,,0,0,0,,el pasado\Npara obtener emoción, entre otras cosas.   ¿
-Dialogue: 0,0:13:21.92,0:13:26.39,Default,,0,0,0,,Puedes vivir sin la emoción de\Nanticipar el peor efecto posible,
-Dialogue: 0,0:13:26.39,0:13:33.36,Default,,0,0,0,,sabes?  Sí.  Y eh, ¿qué es lo que\Ntienes que soltar para que
-Dialogue: 0,0:13:33.36,0:13:38.00,Default,,0,0,0,,la mente del tiempo se detenga?\NBueno,
-Dialogue: 0,0:13:38.00,0:13:46.24,Default,,0,0,0,,recomiendo aburrirse con ello.\Nveces, uno termina aburriéndose un poco.
-Dialogue: 0,0:13:46.24,0:13:48.07,Default,,0,0,0,,Sabes,\Nestoy aburrido de esto, quiero
-Dialogue: 0,0:13:48.07,0:13:51.68,Default,,0,0,0,,decir, incluso tú, después de escuchar lo\Nmismo, empieza a pensar de la misma manera
-Dialogue: 0,0:13:51.68,0:13:53.51,Default,,0,0,0,,y de repente,\Nbueno, te
-Dialogue: 0,0:13:53.51,0:13:57.27,Default,,0,0,0,,preguntas, ahora que estoy aburrido de\Nesto, ¿por qué lo estoy repensando?
-Dialogue: 0,0:13:57.27,0:13:58.56,Default,,0,0,0,,Bien.\NAjá.
-Dialogue: 0,0:13:58.56,0:14:00.80,Default,,0,0,0,,Bueno.\NBueno, esa es una mente sin entrenar.
-Dialogue: 0,0:14:00.80,0:14:06.95,Default,,0,0,0,,Inexperto.\NBueno.  Entonces, una mente entrenada puede decidir
-Dialogue: 0,0:14:06.95,0:14:13.51,Default,,0,0,0,,interrumpir\Ndiscusión,
-Dialogue: 0,0:14:13.51,0:14:19.19,Default,,0,0,0,,pero vea lo que la mente teme entonces: la\Nnada
-Dialogue: 0,0:14:19.19,0:14:24.00,Default,,0,0,0,,y el camino de la negación, ya sabe, el\Ncamino de la
-Dialogue: 0,0:14:24.00,0:14:31.92,Default,,0,0,0,,negación consiste en dejar ir todo\Npensamiento contextual o conceptual, dejar de intentar
-Dialogue: 0,0:14:31.92,0:14:40.24,Default,,0,0,0,,describir, pensar, cambiar, etc. Dejar\Nir todo pensamiento conceptual.  Si
-Dialogue: 0,0:14:40.24,0:14:44.39,Default,,0,0,0,,haces esto, si sigues el camino que estamos\Ndiscutiendo,
-Dialogue: 0,0:14:44.39,0:14:49.19,Default,,0,0,0,,eventualmente terminarás, ya sabes,\Nusando el camino de la negación, ni esto,
-Dialogue: 0,0:14:49.19,0:14:53.36,Default,,0,0,0,,ni aquello,\Nterminarás en el vacío en el que no hay
-Dialogue: 0,0:14:53.36,0:14:58.16,Default,,0,0,0,,nada y nadie y no\Nsucede nada, en el que no hay ni futuro
+Dialogue: 0,0:02:25.04,0:02:31.20,Default,,0,0,0,,anticipar el futuro y tiene que\Narrepentirse del pasado. Entonces, si rechazas esos
+Dialogue: 0,0:02:31.20,0:02:37.20,Default,,0,0,0,,pagos, entonces esos son pagos.\NY para propagarse,
+Dialogue: 0,0:02:37.20,0:02:42.72,Default,,0,0,0,,Lo que el ego odia es no tener nada que hacer.\Nhacerlo porque entonces tiene miedo de que no lo haga
+Dialogue: 0,0:02:42.72,0:02:47.59,Default,,0,0,0,,ya no existen.\NAsí que se mantiene ocupado soñando
+Dialogue: 0,0:02:47.59,0:02:53.12,Default,,0,0,0,,problemas para el futuro e inventar\Narrepentimientos por el pasado. Por supuesto,
+Dialogue: 0,0:02:53.12,0:02:58.95,Default,,0,0,0,,ninguno de los dos tiene realidad\Ny por lo tanto te quedas en un estado de
+Dialogue: 0,0:02:58.95,0:03:04.56,Default,,0,0,0,,no realidad.\NLa única manera de dejar que todo se detenga
+Dialogue: 0,0:03:04.56,0:03:09.44,Default,,0,0,0,,es dejar ir las ganas de pensar, que\Nsignifica dejar ir la recompensa de
+Dialogue: 0,0:03:09.44,0:03:13.12,Default,,0,0,0,,pensamiento.\NY la mente dice, bueno, si no lo haces
+Dialogue: 0,0:03:13.12,0:03:17.76,Default,,0,0,0,,piensa y planifica, no sobrevivirás. Entonces,\NRealmente tienen que darse por vencidos de alguna manera.
+Dialogue: 0,0:03:17.76,0:03:23.68,Default,,0,0,0,,la voluntad de sobrevivir.\NY o sobrevives o no. y
+Dialogue: 0,0:03:23.68,0:03:30.79,Default,,0,0,0,,uh, ese es el problema de Dios.\NBueno, Dios te creó, ¿no? Entonces,
+Dialogue: 0,0:03:30.79,0:03:33.36,Default,,0,0,0,,está bien. Entonces, tienes que tomar\Nresponsabilidad.
+Dialogue: 0,0:03:33.36,0:03:37.44,Default,,0,0,0,,>> Entonces, tienes que recordarle de vez en cuando\Nmientras. No recuerdo haber pedido ser
+Dialogue: 0,0:03:37.44,0:03:45.08,Default,,0,0,0,,creado, ya sabes.\NFue idea tuya. ¿Usted sabe lo que quiero decir?
+Dialogue: 0,0:03:47.44,0:03:51.72,Default,,0,0,0,,>> Está bien.\N>> Bueno, no fue idea mía.
+Dialogue: 0,0:03:52.79,0:03:56.95,Default,,0,0,0,,>> Para crear un mundo.\N>> Eso suena demasiado ambicioso para
+Dialogue: 0,0:03:56.95,0:04:01.92,Default,,0,0,0,,a mí.\NSi puedo llegar de aquí para allá, creo
+Dialogue: 0,0:04:01.92,0:04:09.59,Default,,0,0,0,,es un buen día.\NEntonces, cuando tu mente siga repitiendo, di un
+Dialogue: 0,0:04:09.59,0:04:12.56,Default,,0,0,0,,Um, un evento trágico que sucedió en tu\Nvida la repetición
+Dialogue: 0,0:04:12.56,0:04:16.16,Default,,0,0,0,,>> para que sepas que tu mente tiene tendencia a\NQuiero reproducir eso.
+Dialogue: 0,0:04:16.16,0:04:19.84,Default,,0,0,0,,>> Entonces estamos sacando jugo de eso\Nlo reproduce.
+Dialogue: 0,0:04:19.84,0:04:23.52,Default,,0,0,0,,>> Entonces es realmente la voluntad de dar.\Nhasta el jugo.
+Dialogue: 0,0:04:23.52,0:04:26.00,Default,,0,0,0,,>> La recompensa es el jugo.\N>> Está bien.
+Dialogue: 0,0:04:26.00,0:04:30.40,Default,,0,0,0,,>> Y ese es el único combustible que el ego\Ntiene es jugo.
+Dialogue: 0,0:04:30.40,0:04:37.12,Default,,0,0,0,,Así que cuando le privas de jugo siendo\Ndispuesto a dejarlo ir uh y y luego
+Dialogue: 0,0:04:37.12,0:04:42.16,Default,,0,0,0,,entonces las facultades de la mente se vuelven\Nsin jugo y cuando no tiene jugo
+Dialogue: 0,0:04:42.16,0:04:49.68,Default,,0,0,0,,se detiene, lo abandona todo.\Ny vives en silencio. eh el interior
+Dialogue: 0,0:04:49.68,0:04:55.12,Default,,0,0,0,,la mente está en silencio\Ny uh para que dejes de identificarte con el
+Dialogue: 0,0:04:55.12,0:04:59.60,Default,,0,0,0,,hablar\Ny ves que te conviertes en el testigo así
+Dialogue: 0,0:04:59.60,0:05:05.68,Default,,0,0,0,,Diré que dejes de participar en el\Nparticipando en el diálogo en el que te conviertes
+Dialogue: 0,0:05:05.68,0:05:09.75,Default,,0,0,0,,el testigo del diálogo me refiero a quién es\Nquejarse del pasado o del
+Dialogue: 0,0:05:09.75,0:05:15.12,Default,,0,0,0,,presente\N¿Quién es el que se queja?
+Dialogue: 0,0:05:15.12,0:05:20.32,Default,,0,0,0,,estas bien y como sabes lo que es\Npasando a dejar ir la identificación con el
+Dialogue: 0,0:05:20.32,0:05:27.91,Default,,0,0,0,,dialogar y dejarnos identificar con el\Nmente y conviértete en el testigo de la mente.
+Dialogue: 0,0:05:27.91,0:05:32.63,Default,,0,0,0,,Así que dejas de identificarte con\Ntoda la charla
+Dialogue: 0,0:05:32.63,0:05:38.08,Default,,0,0,0,,>> y te das cuenta como se que es esto\N¿Cómo sé siquiera que hay charlas?
+Dialogue: 0,0:05:38.08,0:05:44.47,Default,,0,0,0,,pasando? Es por el observador.\NPor eso siempre digo la salida del ego
+Dialogue: 0,0:05:44.47,0:05:49.68,Default,,0,0,0,,es retroceder a través del testigo\Nobservador testigo-observador.
+Dialogue: 0,0:05:49.68,0:05:55.60,Default,,0,0,0,,Uh porque eso no es difícil de hacer.\NPuedes empezar a darte cuenta de que
+Dialogue: 0,0:05:55.60,0:06:01.60,Default,,0,0,0,,lo que soy es el testigo, el observador\Ny no el participante. Porque ¿cómo
+Dialogue: 0,0:06:01.60,0:06:06.31,Default,,0,0,0,,¿Sabes que eres participante? porque\Nlo presencias y lo observas. Así que de vuelta
+Dialogue: 0,0:06:06.31,0:06:12.24,Default,,0,0,0,,en identificarse con\Nuh, el observador testigo y luego tú
+Dialogue: 0,0:06:12.24,0:06:17.19,Default,,0,0,0,,luego pasas del observador testigo a cómo\N¿Sabes lo que se está presenciando y
+Dialogue: 0,0:06:17.19,0:06:22.72,Default,,0,0,0,,observado\Ny luego regresas a la conciencia
+Dialogue: 0,0:06:22.72,0:06:26.00,Default,,0,0,0,,¿sí mismo?\NLo único de lo que eres consciente es
+Dialogue: 0,0:06:26.00,0:06:31.03,Default,,0,0,0,,conciencia. Eso es todo lo que sabes es\Nconciencia misma.
+Dialogue: 0,0:06:31.03,0:06:35.12,Default,,0,0,0,,Ya sabes, la conciencia de lo que es\Nirrelevante porque siempre hay
+Dialogue: 0,0:06:35.12,0:06:41.68,Default,,0,0,0,,algo de lo que puedes ser consciente.\NRecuerdo esa caricatura
+Dialogue: 0,0:06:41.68,0:06:46.56,Default,,0,0,0,,desde hace muchos años. creo que fue un\NDibujos animados de chicle de Fleer. Llegó el chicle de Fleer
+Dialogue: 0,0:06:46.56,0:06:52.24,Default,,0,0,0,,con una caricatura sobre el rapero y y\Nmuestra a este niño y está sentado en el
+Dialogue: 0,0:06:52.24,0:06:56.16,Default,,0,0,0,,acera y tiene un envoltorio de chicle Fleer's.\NEstá tan aburrido que está leyendo el
+Dialogue: 0,0:06:56.16,0:07:00.00,Default,,0,0,0,,rapero y está leyendo todos los\Ningredientes en este
+Dialogue: 0,0:07:00.00,0:07:07.12,Default,,0,0,0,,el chicle, ya sabes, leyendo,\Nya sabes, entonces él está leyendo todos los
+Dialogue: 0,0:07:07.12,0:07:10.63,Default,,0,0,0,,Ingredientes de este chicle, ya sabes,\Nporque está muy aburrido. el no el
+Dialogue: 0,0:07:10.63,0:07:14.80,Default,,0,0,0,,quiere mantener su mente ocupada. entonces\NIncluso el envoltorio de chicle de un aviador es
+Dialogue: 0,0:07:14.80,0:07:20.00,Default,,0,0,0,,interesante cuando estás frenéticamente\Naburrido.
+Dialogue: 0,0:07:20.00,0:07:28.63,Default,,0,0,0,,Entonces, cuando tu mente comienza a reproducir\Nesta tragedia y empiezas a sentir
+Dialogue: 0,0:07:28.63,0:07:33.36,Default,,0,0,0,,Perdón por lo que pasó, entonces ¿qué?\Ntu lo que estas diciendo es que tu
+Dialogue: 0,0:07:33.36,0:07:40.96,Default,,0,0,0,,debería dejar que siga su curso o intentarlo\Ny detenerlo antes de que comience. Bueno, una vez
+Dialogue: 0,0:07:40.96,0:07:45.12,Default,,0,0,0,,Te das cuenta de que lo que es el ego\Nhacer es exprimir las cosas constantemente,
+Dialogue: 0,0:07:45.12,0:07:50.08,Default,,0,0,0,,exprimir sujetos, es exprimir el pasado\Ny arrepentimiento por el pasado y es
+Dialogue: 0,0:07:50.08,0:07:56.72,Default,,0,0,0,,jugo del futuro.\NUh, al igual que le encanta la controversia.
+Dialogue: 0,0:07:56.72,0:08:01.44,Default,,0,0,0,,>> porque la controversia está llena de uh ego\Njugo.
+Dialogue: 0,0:08:01.44,0:08:06.80,Default,,0,0,0,,Y uh cuando si estás realmente interesado\Nen iluminarse, entonces
+Dialogue: 0,0:08:06.80,0:08:14.31,Default,,0,0,0,,significa dejar ir la mente. sí mismo. dejar\NVaya todo pensamiento conceptual.
+Dialogue: 0,0:08:14.31,0:08:19.44,Default,,0,0,0,,Deja de hablar de fenómenos.\Ndetenerte
+Dialogue: 0,0:08:19.44,0:08:28.87,Default,,0,0,0,,redactándolo, imaginándolo. Y te conviertes\Ntu tu retrocedes hacia
+Dialogue: 0,0:08:28.87,0:08:35.03,Default,,0,0,0,,El yo como presencia silenciosa. silencioso\N¿presencia de qué? Silencio presencia de
+Dialogue: 0,0:08:35.03,0:08:40.24,Default,,0,0,0,,el aspecto testigo observador de\Nconciencia misma. eventualmente tu
+Dialogue: 0,0:08:40.24,0:08:43.83,Default,,0,0,0,,darse cuenta de que eso que es\NConciencia, aquello que es el yo.
+Dialogue: 0,0:08:43.83,0:08:48.95,Default,,0,0,0,,con S mayúscula son lo mismo\Ncosa.
+Dialogue: 0,0:08:48.95,0:08:52.95,Default,,0,0,0,,El yo no es más que un reflejo de aspecto.\Nde conciencia,
+Dialogue: 0,0:08:52.95,0:08:58.95,Default,,0,0,0,,ya sabes, en una definición específica.\N>> Entonces, en otras palabras, deja de verbalizar o
+Dialogue: 0,0:08:58.95,0:09:03.60,Default,,0,0,0,,pensando en la iluminación y comenzar\Nexperimentándolo.
+Dialogue: 0,0:09:03.60,0:09:06.08,Default,,0,0,0,,>> Bueno, estás tratando de salir del\Npensamiento,
+Dialogue: 0,0:09:06.08,0:09:11.68,Default,,0,0,0,,>> ¿verdad? Entonces, um, lo que haces eres tú.\Nensayarlo. Tienes que volver a
+Dialogue: 0,0:09:11.68,0:09:14.00,Default,,0,0,0,,toda la narrativa,\N>> ¿verdad?
+Dialogue: 0,0:09:14.00,0:09:18.00,Default,,0,0,0,,>> Hay algunas palabras nuevas en nuestro\Nvocabulario. La narrativa es una de ellas.
+Dialogue: 0,0:09:18.00,0:09:21.60,Default,,0,0,0,,Y cuando todos crecimos con la historia\Nde las cosas, ahora es una narrativa. tu
+Dialogue: 0,0:09:21.60,0:09:27.80,Default,,0,0,0,,Ya sabes, está más de moda.\NY me gusta estar a la moda.
+Dialogue: 0,0:09:28.08,0:09:30.39,Default,,0,0,0,,Decir con narrativa.\N>> Quieres estar en el presente.
+Dialogue: 0,0:09:30.39,0:09:37.08,Default,,0,0,0,,>> Quiero ser No quiero historias\Nya no. Sólo quiero la narrativa.
+Dialogue: 0,0:09:38.08,0:09:43.20,Default,,0,0,0,,Lo escuchas todo el tiempo.\N>> Algo nuevo, ya sabes, narrativa.
+Dialogue: 0,0:09:43.20,0:09:47.76,Default,,0,0,0,,Hay nuevas palabras todo el tiempo que\NNo existía cuando crecí. hay
+Dialogue: 0,0:09:47.76,0:09:50.95,Default,,0,0,0,,otro común en política llamado\Ninvestigación de antecedentes. Bueno, no ha sido examinado.
+Dialogue: 0,0:09:50.95,0:09:54.64,Default,,0,0,0,,todavía. O esperar hasta que lo investiguen. yo\NNi siquiera creas que esté en el diccionario.
+Dialogue: 0,0:09:54.64,0:09:59.12,Default,,0,0,0,,¿Está examinado? Nunca oí hablar de eso. yo\NVivió 80 años sin escuchar nunca la
+Dialogue: 0,0:09:59.12,0:10:03.04,Default,,0,0,0,,palabra examinada. Y de repente es\Ntodo tiene que ser examinado y esto
+Dialogue: 0,0:10:03.04,0:10:09.20,Default,,0,0,0,,El candidato debe ser examinado y esperar hasta\Nlo examinan. ¿Es esa una palabra real?
+Dialogue: 0,0:10:09.20,0:10:14.07,Default,,0,0,0,,¿Es esa una palabra real?\N>> Sí, lo es. Veo que alguien esta temblando
+Dialogue: 0,0:10:14.07,0:10:18.16,Default,,0,0,0,,su cabeza afuera. Sí.\N>> No sé dónde se inventó.
+Dialogue: 0,0:10:18.16,0:10:23.76,Default,,0,0,0,,>> ¿Crees que está en el diccionario?\N>> Adquirido.
+Dialogue: 0,0:10:23.76,0:10:26.07,Default,,0,0,0,,>> Examinado. Sí.\N>> ¿Está examinado o adquirido?
+Dialogue: 0,0:10:26.07,0:10:27.68,Default,,0,0,0,,>> No. Examinado. Examinado.\N>> Examinado.
+Dialogue: 0,0:10:27.68,0:10:30.88,Default,,0,0,0,,>> Examinado.\Ncon una T.
+Dialogue: 0,0:10:30.88,0:10:34.72,Default,,0,0,0,,>> No lo sé. creo que es un creo\Nes un neologismo.
+Dialogue: 0,0:10:34.72,0:10:39.68,Default,,0,0,0,,>> Creo que es un neologismo\Nsin realidad histórica intrínseca
+Dialogue: 0,0:10:39.68,0:10:42.64,Default,,0,0,0,,punto de vista del vocabulario.\N>> Bueno, has salido con algunos nuevos
+Dialogue: 0,0:10:42.64,0:10:49.56,Default,,0,0,0,,palabras como hermenéutica.\NEpistemología.
+Dialogue: 0,0:10:50.39,0:10:53.04,Default,,0,0,0,,>> La hermenéutica.\N>> Oh,
+Dialogue: 0,0:10:53.04,0:10:57.68,Default,,0,0,0,,>> la hermenéutica del relativista\Nepistemología.
+Dialogue: 0,0:10:57.68,0:11:08.24,Default,,0,0,0,,Bueno, eso es inglés normal.\N>> Sí. ¿Alguien tiene un diccionario? mira
+Dialogue: 0,0:11:08.24,0:11:11.51,Default,,0,0,0,,ese arriba.\N>> Bueno, esas son palabras reales. esos son
+Dialogue: 0,0:11:11.51,0:11:17.39,Default,,0,0,0,,palabras reales. Esos no son neologismos.\Ncomo investigación de antecedentes.
+Dialogue: 0,0:11:19.44,0:11:24.56,Default,,0,0,0,,>> I ¿Qué es la epistemología?\N>> Está en el diccionario.
+Dialogue: 0,0:11:24.56,0:11:29.44,Default,,0,0,0,,>> Oh, lo es. Bueno. Tienes que conseguir uno de\Nesos grandes para buscarlos.
+Dialogue: 0,0:11:29.44,0:11:33.27,Default,,0,0,0,,>> La investigación de antecedentes está ahí.\N>> No lo sé.
+Dialogue: 0,0:11:33.27,0:11:37.20,Default,,0,0,0,,>> Voy a hablarlo con mi congresista.\Ncon su investigación de antecedentes es
+Dialogue: 0,0:11:37.20,0:11:41.92,Default,,0,0,0,,>> realmente al estilo americano. no lo hace\NMe suena americano.
+Dialogue: 0,0:11:41.92,0:11:47.04,Default,,0,0,0,,>> Entonces, volviendo a aquel entonces, vivimos en el\NEntonces, para
+Dialogue: 0,0:11:47.04,0:11:51.60,Default,,0,0,0,,tenemos que entrenarnos para vivir en\Nel presente,
+Dialogue: 0,0:11:51.60,0:11:56.64,Default,,0,0,0,,no en el pasado, no en el futuro, pero\Nsolo en el presente.
+Dialogue: 0,0:11:56.64,0:12:02.07,Default,,0,0,0,,Y si hacemos eso, entonces ¿estamos?\N¿Vivir en el presente de alegría?
+Dialogue: 0,0:12:02.07,0:12:05.20,Default,,0,0,0,,>> Bueno, no diría que es el presente de\Ncualquier cosa. Es simplemente vivir en el
+Dialogue: 0,0:12:05.20,0:12:11.04,Default,,0,0,0,,presente. Y vivir en el presente\NEstá libre de emociones negativas.
+Dialogue: 0,0:12:11.04,0:12:12.72,Default,,0,0,0,,>> Está bien.\N>> Porque no estás anticipando
+Dialogue: 0,0:12:12.72,0:12:15.92,Default,,0,0,0,,cualquier cosa. No estas queriendo cambiar\Ncualquier cosa.
+Dialogue: 0,0:12:15.92,0:12:20.56,Default,,0,0,0,,Tienes que dejar de ir constantemente\Ncambiar las cosas o hacerlas diferentes
+Dialogue: 0,0:12:20.56,0:12:26.07,Default,,0,0,0,,y um rechazar la oferta del ego de intentarlo\Npara exprimirlo.
+Dialogue: 0,0:12:26.07,0:12:30.24,Default,,0,0,0,,>> El ego siempre está tratando de exprimir\Ncosas. Es por eso que tenemos tal
+Dialogue: 0,0:12:30.24,0:12:34.88,Default,,0,0,0,,Lucha por la superioridad moral.\NSabes, mis padres estaban más equivocados que
+Dialogue: 0,0:12:34.88,0:12:40.39,Default,,0,0,0,,tuyo. Oh sí. Oh, los míos estaban equivocados.\NMás equivocado que el tuyo. quiero decir
+Dialogue: 0,0:12:40.39,0:12:45.04,Default,,0,0,0,,la lucha por la superioridad moral. quien es\N¿El más agraviado? Porque si eres el
+Dialogue: 0,0:12:45.04,0:12:48.00,Default,,0,0,0,,más equivocado, entonces eres el más\Njustificado en el odio.
+Dialogue: 0,0:12:48.00,0:12:51.04,Default,,0,0,0,,>> Sí. Como si a mamá le gustas más.\N>> Eh
+Dialogue: 0,0:12:51.04,0:12:57.60,Default,,0,0,0,,>> ah.\N>> Eres el favorito de mamá.
+Dialogue: 0,0:12:57.60,0:12:59.92,Default,,0,0,0,,>> Eh\N>> ah. Ahora estás en problemas.
+Dialogue: 0,0:12:59.92,0:13:02.88,Default,,0,0,0,,>> Mira, eso es lo que quiero decir. esos son los\Ntipo de cosas que, ya sabes, tu mente
+Dialogue: 0,0:13:02.88,0:13:05.68,Default,,0,0,0,,quiere\N>> cuelga.
+Dialogue: 0,0:13:05.68,0:13:08.88,Default,,0,0,0,,>> Sí.\N>> Bueno, te preguntas, ¿qué es qué?
+Dialogue: 0,0:13:08.88,0:13:11.68,Default,,0,0,0,,¿De qué está saliendo el ego?\N¿este?
+Dialogue: 0,0:13:11.68,0:13:15.12,Default,,0,0,0,,>> Está bien. Ya sabes, es estrictamente\Nnarcisismo
+Dialogue: 0,0:13:15.12,0:13:19.60,Default,,0,0,0,,tratando de exprimir tanto el futuro como\Nel pasado
+Dialogue: 0,0:13:19.60,0:13:23.76,Default,,0,0,0,,uh, por emoción, por un lado.\N>> ¿Puedes vivir sin la emoción de
+Dialogue: 0,0:13:23.76,0:13:31.04,Default,,0,0,0,,anticipando el peor efecto posible,\N¿sabes? Sí. Y uh entonces ¿qué es?
+Dialogue: 0,0:13:31.04,0:13:36.39,Default,,0,0,0,,es lo que tienes que soltar para hacer\N¿El tiempo se detiene?
+Dialogue: 0,0:13:36.39,0:13:42.51,Default,,0,0,0,,Bueno,\NRecomiendo aburrirse de ello.
+Dialogue: 0,0:13:42.80,0:13:46.24,Default,,0,0,0,,Bueno, después de escuchar esta historia tantas\NA veces te aburres un poco.
+Dialogue: 0,0:13:46.24,0:13:48.07,Default,,0,0,0,,Ya sabes,\N>> Estoy aburrido de esto con el
+Dialogue: 0,0:13:48.07,0:13:51.68,Default,,0,0,0,,>> Quiero decir, incluso tú mismo, después de escuchar\Nlo mismo, empieza en lo mismo
+Dialogue: 0,0:13:51.68,0:13:53.51,Default,,0,0,0,,pensamiento aburrido y de repente,\Nestá bien,
+Dialogue: 0,0:13:53.51,0:13:57.27,Default,,0,0,0,,>> te preguntas, ahora que estoy aburrido\Ncon eso, ¿por qué lo estoy repensando?
+Dialogue: 0,0:13:57.27,0:13:58.56,Default,,0,0,0,,>> Correcto.\N>> Ajá.
+Dialogue: 0,0:13:58.56,0:14:00.80,Default,,0,0,0,,>> Está bien.\N>> Bueno, esa es una mente no entrenada.
+Dialogue: 0,0:14:00.80,0:14:06.95,Default,,0,0,0,,Inexperto.\N>> Está bien. Entonces una mente entrenada puede decidir
+Dialogue: 0,0:14:06.95,0:14:09.60,Default,,0,0,0,,uh para descontinuar eso\N>> correcto
+Dialogue: 0,0:14:09.60,0:14:13.51,Default,,0,0,0,,>> esa línea particular de investigación o\Ndiscusión
+Dialogue: 0,0:14:13.51,0:14:19.19,Default,,0,0,0,,y mira lo que la mente teme entonces\Nla nada
+Dialogue: 0,0:14:19.19,0:14:24.00,Default,,0,0,0,,y el camino de la negación que conoces\Npoe colgado o el camino de
+Dialogue: 0,0:14:24.00,0:14:31.92,Default,,0,0,0,,La negación es dejar de lado todo contexto.\Ncon pensamiento conceptual para dejar de intentar
+Dialogue: 0,0:14:31.92,0:14:40.24,Default,,0,0,0,,describir, pensar, cambiar, etc.\Nir de todo pensamiento conceptual. si si tu
+Dialogue: 0,0:14:40.24,0:14:44.39,Default,,0,0,0,,haz esto, si haces la pista que estamos\Ndiscutiendo,
+Dialogue: 0,0:14:44.39,0:14:49.19,Default,,0,0,0,,eventualmente terminarás en, ya sabes,\Nusando el camino de la negación, no este,
+Dialogue: 0,0:14:49.19,0:14:53.36,Default,,0,0,0,,eso no,\NUh, terminarás en el vacío en el que
+Dialogue: 0,0:14:53.36,0:14:58.16,Default,,0,0,0,,no hay nada ni nadie y nada\Nsucediendo, que no hay ni futuro
 Dialogue: 0,0:14:58.16,0:15:02.63,Default,,0,0,0,,ni pasado ni nada imbécil como\Nahora.
-Dialogue: 0,0:15:02.63,0:15:04.39,Default,,0,0,0,,Eh,\Nla sola idea del ahora es
-Dialogue: 0,0:15:04.39,0:15:07.76,Default,,0,0,0,,imbécil.  Pero\Nesto es popular en este momento.  Esto tiene algo que ver con
-Dialogue: 0,0:15:07.76,0:15:11.19,Default,,0,0,0,,el mismo tema.\NHoy estabas hablando un poco
-Dialogue: 0,0:15:11.19,0:15:18.72,Default,,0,0,0,,sobre que la\Ngente no tiene límites y creo que es porque la
-Dialogue: 0,0:15:18.72,0:15:23.27,Default,,0,0,0,,gente no se respeta tanto como antes\N.   Por eso,
-Dialogue: 0,0:15:23.27,0:15:26.39,Default,,0,0,0,,las fronteras ya no existen\N.
-Dialogue: 0,0:15:26.39,0:15:31.27,Default,,0,0,0,,Quiero decir, ¿no crees que\Nel problema podría ser que no nos enseñan a
-Dialogue: 0,0:15:31.27,0:15:36.63,Default,,0,0,0,,respetar?  Bueno, ciertamente en los\Nmedios de comunicación modernos, eh, no existe tal cosa como el
-Dialogue: 0,0:15:36.63,0:15:40.32,Default,,0,0,0,,respeto.   Quiero decir\N, los blogueros publican allí
-Dialogue: 0,0:15:40.32,0:15:44.88,Default,,0,0,0,,los comentarios más insultantes.  Nunca he\Noído cosas tan increíbles como las que la gente
-Dialogue: 0,0:15:44.88,0:15:52.32,Default,,0,0,0,,pone en la web, en el\Nsistema web.  Y no solo eso,
-Dialogue: 0,0:15:52.32,0:15:55.27,Default,,0,0,0,,internet,\Ncomo sea que lo llamen, el
-Dialogue: 0,0:15:55.27,0:16:03.19,Default,,0,0,0,,mundo de los blogueros, no solo dirán\Nalgo que es uh blasfemo e uh
-Dialogue: 0,0:16:03.19,0:16:07.36,Default,,0,0,0,,incorrecto\Ny erróneo, uh sino que incluso indicarán
-Dialogue: 0,0:16:07.36,0:16:12.07,Default,,0,0,0,,quién lo dijo.\NEs decir, si hubiera dicho algo así, me cambiaría el nombre y me mudaría
-Dialogue: 0,0:16:12.07,0:16:18.48,Default,,0,0,0,,a otro país\N.  Y, bueno, prosperan gracias a ello.  Mhm.
-Dialogue: 0,0:16:18.48,0:16:23.19,Default,,0,0,0,,Así pues, tenemos una cultura en la que la gente\Nse hace famosa y rica
-Dialogue: 0,0:16:23.19,0:16:28.32,Default,,0,0,0,,a través del odio.\NHay sitios web muy importantes que son citados
-Dialogue: 0,0:16:28.32,0:16:30.88,Default,,0,0,0,,constantemente.\NEntonces, ¿cómo cambiamos eso?
-Dialogue: 0,0:16:30.88,0:16:36.07,Default,,0,0,0,,Oh, no quiero cambiarlo.   ¿Y\Ncómo podemos evitar eso?  ¿Cómo podemos, eh, quiero
-Dialogue: 0,0:16:36.07,0:16:39.75,Default,,0,0,0,,decir, desalentar esa\Nacción?   No
-Dialogue: 0,0:16:39.75,0:16:44.24,Default,,0,0,0,,quiero desincentivarlo.\NPorque para desalentarlo, te
-Dialogue: 0,0:16:44.24,0:16:47.19,Default,,0,0,0,,involucras en ello.\NBueno, sí.  Y no quiero involucrarme en eso.  ¿
-Dialogue: 0,0:16:47.19,0:16:50.48,Default,,0,0,0,,Sabes?, ¿cómo\Nquieres eliminar todo el arsénico de
-Dialogue: 0,0:16:50.48,0:16:54.07,Default,,0,0,0,,la sopa?  Bueno, tienes que meter las\Nmanos en la sopa para conseguirlo.
-Dialogue: 0,0:16:54.07,0:16:57.36,Default,,0,0,0,,Así que dejas que toda esta gente haga lo que quiera\Naquí haciendo todas estas cosas, sea lo que sea que
-Dialogue: 0,0:16:57.36,0:17:00.95,Default,,0,0,0,,estén haciendo.\NSí.  Eso no es cierto y no lo va a ser,
-Dialogue: 0,0:17:00.95,0:17:05.03,Default,,0,0,0,,pero está afectando, ya sabes, a millones\Nde personas, pero todo es como bla bla bla bla bla bla bla
-Dialogue: 0,0:17:05.03,0:17:08.55,Default,,0,0,0,,bla.  Y la mitad\Nde eso no es cierto y se supone que debemos
-Dialogue: 0,0:17:08.55,0:17:16.88,Default,,0,0,0,,dejar que eso continúe.\NBueno, eso es lo que se llama libertad.   No me
-Dialogue: 0,0:17:16.88,0:17:26.00,Default,,0,0,0,,Sí.   Como\Nlibertad absoluta, estás dando rienda suelta al mal
-Dialogue: 0,0:17:26.00,0:17:33.12,Default,,0,0,0,,y otorgándole permiso y poder.  En una\Nsociedad en la que más del 50% de las personas
-Dialogue: 0,0:17:33.12,0:17:38.55,Default,,0,0,0,,calibran 200, ¿qué tipo de sociedad\Nvas a crear?  Si se
-Dialogue: 0,0:17:38.55,0:17:44.24,Default,,0,0,0,,da igualdad a todos y la\Nmayoría está por debajo de 200, se producirá
-Dialogue: 0,0:17:44.24,0:17:47.76,Default,,0,0,0,,una degradación de la sociedad.\NSí.
-Dialogue: 0,0:17:47.76,0:17:55.84,Default,,0,0,0,,Mhm.\Npersonas con una conciencia muy avanzada
-Dialogue: 0,0:17:55.84,0:18:00.16,Default,,0,0,0,,sustentan la conciencia de toda la\Nhumanidad, la humanidad se habría
-Dialogue: 0,0:18:00.16,0:18:06.08,Default,,0,0,0,,autodestruido hace siglos.\NSi dependiera del voto popular,
-Dialogue: 0,0:18:06.08,0:18:11.84,Default,,0,0,0,,si supiéramos que nuestra supervivencia dependiera del\Nvoto popular, no duraríamos hasta el próximo
-Dialogue: 0,0:18:11.84,0:18:15.44,Default,,0,0,0,,fin de semana.\NPero soy de la cultura,
-Dialogue: 0,0:18:15.44,0:18:20.96,Default,,0,0,0,,supongo que se podría decir que, ya sabes, cuando\Nves un error,
-Dialogue: 0,0:18:20.96,0:18:23.44,Default,,0,0,0,,quieres corregirlo\N.
-Dialogue: 0,0:18:23.44,0:18:26.64,Default,,0,0,0,,Sí.   Así que resulta\Ndifícil quedarse de brazos cruzados
-Dialogue: 0,0:18:26.64,0:18:33.20,Default,,0,0,0,,y ver cómo una injusticia continúa hasta el punto de volverse\Nincontrolable.  ¿Cuál es su
-Dialogue: 0,0:18:33.20,0:18:35.67,Default,,0,0,0,,obligación?  ¿Cuál es su\Nobligación?   ¿
-Dialogue: 0,0:18:35.67,0:18:38.48,Default,,0,0,0,,Cuál es tu\Nobligación moral y ética?   ¿
-Dialogue: 0,0:18:38.48,0:18:42.32,Default,,0,0,0,,Qué significa\Nllamar a las cosas por su nombre?
-Dialogue: 0,0:18:42.32,0:18:48.16,Default,,0,0,0,,Bueno, no es popular llamar a las cosas por su nombre\N.  Lo que está de moda es mentir sobre
-Dialogue: 0,0:18:48.16,0:18:53.84,Default,,0,0,0,,algo.  Llamar a las cosas por su nombre significa\Nconfrontar una afirmación con la
-Dialogue: 0,0:18:53.84,0:18:57.03,Default,,0,0,0,,realidad objetiva.\NAh, así que llamas corazón a las cosas por su nombre.
-Dialogue: 0,0:18:57.03,0:19:03.28,Default,,0,0,0,,No, podrías llamar a las cosas por su nombre por\Ntu amor a la humanidad.  Sí.
-Dialogue: 0,0:19:03.28,0:19:08.32,Default,,0,0,0,,Vamos a ver.  ¿Deberíamos votar por él como\Npresidente vitalicio?  ¿Usted sabe lo que quiero
-Dialogue: 0,0:19:08.32,0:19:14.08,Default,,0,0,0,,decir?\NTodos los dictadores que rodeaban a Castro, toda esta
-Dialogue: 0,0:19:14.08,0:19:17.36,Default,,0,0,0,,gente.\NBueno, en algún momento consiguen la
-Dialogue: 0,0:19:17.36,0:19:21.91,Default,,0,0,0,,lealtad de todo el pueblo porque\Npopularizan algún ismo
-Dialogue: 0,0:19:21.91,0:19:25.91,Default,,0,0,0,,y llegan al poder gracias a algún tipo de\Nismo.
-Dialogue: 0,0:19:25.91,0:19:34.55,Default,,0,0,0,,Normalmente se trata de un resentimiento justificado\Nhace siglos o en alguna otra parte
-Dialogue: 0,0:19:34.55,0:19:40.40,Default,,0,0,0,,del mundo y lo explotas\Npara justificarlo.
-Dialogue: 0,0:19:40.40,0:19:44.79,Default,,0,0,0,,Sí.   Eso es lo que\Nhace el ego para
-Dialogue: 0,0:19:44.79,0:19:52.16,Default,,0,0,0,,sobrevivir.  Crea problemas y se\Nnutre de ellos.  Le encantan, le encantan todos
-Dialogue: 0,0:19:52.16,0:19:58.48,Default,,0,0,0,,los ismos y le encanta la discordia porque de ahí\Nsaca su jugo.
-Dialogue: 0,0:19:58.48,0:20:02.79,Default,,0,0,0,,Egotismo.\NSí.  Y el narcisismo
-Dialogue: 0,0:20:02.79,0:20:07.84,Default,,0,0,0,,mantiene la mente activa porque la\Npersona promedio teme al vacío.  La
-Dialogue: 0,0:20:07.84,0:20:15.20,Default,,0,0,0,,persona promedio lo teme, piensa que es\Ncomo la muerte.  Uh, teme que su mente se detenga.   ¿
-Dialogue: 0,0:20:15.20,0:20:20.00,Default,,0,0,0,,Y qué piensan si la mente\Nse detiene? ¿Y entonces qué?  Así que plantea la cuestión de la
-Dialogue: 0,0:20:20.00,0:20:24.96,Default,,0,0,0,,supervivencia.  Plantea el tema de la supervivencia.  Así que\Nsiguen pensando y lamentando vivir en
-Dialogue: 0,0:20:24.96,0:20:30.96,Default,,0,0,0,,el pasado y el futuro para\Nasegurar su propia supervivencia de su propia
-Dialogue: 0,0:20:30.96,0:20:37.20,Default,,0,0,0,,mente y egoísmo sin algo en qué\Npensar la mente se quedaría en silencio.
-Dialogue: 0,0:20:37.20,0:20:40.72,Default,,0,0,0,,La mayoría de la gente temería eso.  La mayoría de la\Ngente considera que está
-Dialogue: 0,0:20:40.72,0:20:43.91,Default,,0,0,0,,bien que haga\Nel vacío, ya sabes, si sigues
-Dialogue: 0,0:20:43.91,0:20:49.60,Default,,0,0,0,,el camino de la negación,\Nno esto, no aquello, dejar ir el deseo,
-Dialogue: 0,0:20:49.60,0:20:54.08,Default,,0,0,0,,dejar ir la atracción y\Ndejar ir la aversión.  Si dejas de lado la
-Dialogue: 0,0:20:54.08,0:20:58.55,Default,,0,0,0,,atracción y la aversión, con el tiempo la\Nmente se aquietará.
-Dialogue: 0,0:20:58.55,0:21:04.88,Default,,0,0,0,,Y ahí estás, en un\Nestado infinito.  Extremadamente impresionante,
-Dialogue: 0,0:21:04.88,0:21:10.64,Default,,0,0,0,,sencillamente magnífico.\NY estás seguro de que este es el
-Dialogue: 0,0:21:10.64,0:21:15.12,Default,,0,0,0,,estado supremo que los grandes gurús y\Nseres iluminados han descrito a lo largo de
-Dialogue: 0,0:21:15.12,0:21:20.64,Default,,0,0,0,,los siglos.\NY en esta vida, a los tres años, ese
-Dialogue: 0,0:21:20.64,0:21:27.28,Default,,0,0,0,,fue el estado que prevaleció,\Nque surgió de la
-Dialogue: 0,0:21:27.28,0:21:31.52,Default,,0,0,0,,nada absoluta e infinita para\Nexistir.
-Dialogue: 0,0:21:31.52,0:21:37.28,Default,,0,0,0,,Y fue una sorpresa fantástica, salir del\Nsilencio infinito
-Dialogue: 0,0:21:37.28,0:21:43.67,Default,,0,0,0,,de la nada infinita donde debería haberme\Nquedado para decirte la verdad.
-Dialogue: 0,0:21:43.67,0:21:49.03,Default,,0,0,0,,No, te necesitamos aquí.\NLlegó la asombrosa conciencia de la
-Dialogue: 0,0:21:49.03,0:21:54.24,Default,,0,0,0,,existencia.  Tenía tres años\Ny este pequeño cuerpo estaba sentado en este
-Dialogue: 0,0:21:54.24,0:22:00.64,Default,,0,0,0,,pequeño carrito en un día soleado\Ny de repente, del infinito
-Dialogue: 0,0:22:00.64,0:22:05.03,Default,,0,0,0,,silencio de la nada, surgió\Nla asombrosa conciencia de la
-Dialogue: 0,0:22:05.03,0:22:10.88,Default,,0,0,0,,existencia\Ny la confrontación con el enigma de la
-Dialogue: 0,0:22:10.88,0:22:16.88,Default,,0,0,0,,verdad infinita, el\Nestado infinito, la nada o la totalidad.
-Dialogue: 0,0:22:16.88,0:22:24.08,Default,,0,0,0,,Y me llevó unos 30 años de\Nvida superar eso.  ¿Es la
-Dialogue: 0,0:22:24.08,0:22:30.55,Default,,0,0,0,,nada o la totalidad?\NEse es el nivel 850 de la nada contra la
-Dialogue: 0,0:22:30.55,0:22:36.79,Default,,0,0,0,,totalidad.  Entonces, lo que sucede al intentar\Nvivir el presente es que uno se queda
-Dialogue: 0,0:22:36.79,0:22:42.15,Default,,0,0,0,,atrapado en el parloteo de la mente,\Nque necesita hacerlo para
-Dialogue: 0,0:22:42.15,0:22:47.12,Default,,0,0,0,,sobrevivir.  Y si intentas detenerlo, surge\Nel miedo al vacío, a no ser
-Dialogue: 0,0:22:47.12,0:22:51.20,Default,,0,0,0,,nada.   ¿\NY cómo afrontar ese vacío?  Lo menciono
-Dialogue: 0,0:22:51.20,0:22:56.48,Default,,0,0,0,,porque eso es lo que impide que mucha\Ngente llegue hasta el final: se topan con la
-Dialogue: 0,0:22:56.48,0:23:01.52,Default,,0,0,0,,nada y con su miedo a la\Nnada.  Si no tengo opiniones, si
-Dialogue: 0,0:23:01.52,0:23:06.88,Default,,0,0,0,,no tengo conversación, si no hay\Npresente, futuro ni pasado,
-Dialogue: 0,0:23:06.88,0:23:14.24,Default,,0,0,0,,entonces llego a un vacío infinito, a\Nuna nada y un vacío infinitos,
-Dialogue: 0,0:23:14.24,0:23:23.60,Default,,0,0,0,,que, como sabes, la mente pondrá en marcha\Npara sobrevivir, ¿sabes?
-Dialogue: 0,0:23:23.60,0:23:29.20,Default,,0,0,0,,veces, de angustia de tipo familiar.  Mhm.\NEste miembro, la familia hizo o dijo
-Dialogue: 0,0:23:29.20,0:23:33.36,Default,,0,0,0,,eso, este miembro.\NAsí pues, la familia sirve para mantener las cosas
-Dialogue: 0,0:23:33.36,0:23:37.44,Default,,0,0,0,,agitadas.\NEl propósito de tu familia es impedir que alcances la
-Dialogue: 0,0:23:37.44,0:23:42.00,Default,,0,0,0,,iluminación manteniéndote agitado, ya que\Nel deber de todas las
-Dialogue: 0,0:23:42.00,0:23:45.91,Default,,0,0,0,,madres, suegras, padres, suegros,\Ncuñadas
-Dialogue: 0,0:23:45.91,0:23:49.60,Default,,0,0,0,,y hermanos es mantenerte lo suficientemente\Nagitado como para que no alcances la
-Dialogue: 0,0:23:49.60,0:23:59.60,Default,,0,0,0,,iluminación, lo que los dejaría rezagados\N.
-Dialogue: 0,0:23:59.60,0:24:03.03,Default,,0,0,0,,?\NBueno, cuando te paras a pensarlo, hay
-Dialogue: 0,0:24:03.03,0:24:06.72,Default,,0,0,0,,mucho, ya sabes, en la familia\Ny
-Dialogue: 0,0:24:06.72,0:24:11.67,Default,,0,0,0,,sí.  Mantiene la olla removida todo el\Ntiempo.
-Dialogue: 0,0:24:11.67,0:24:28.15,Default,,0,0,0,,Mantiene la olla removida.\Nno?   No sé
-Dialogue: 0,0:24:28.15,0:24:30.88,Default,,0,0,0,,chiste de la suegra, ¿sabes?\NSí.
-Dialogue: 0,0:24:30.88,0:24:40.64,Default,,0,0,0,,El estereotipo típico de la\Nsuegra.  Eh,
-Dialogue: 0,0:24:40.64,0:24:50.55,Default,,0,0,0,,?  Ya sabes,\Ny una sensación de vitalidad.  No quiero dejar de
-Dialogue: 0,0:24:50.55,0:24:56.24,Default,,0,0,0,,pensar en esto, ¿sabes\N?  Hay una sensación de vitalidad, de estar
-Dialogue: 0,0:24:56.24,0:24:59.84,Default,,0,0,0,,vivo a través de la\Nconsciencia.
-Dialogue: 0,0:24:59.84,0:25:06.24,Default,,0,0,0,,Entonces, es un aspecto de ser consciente\Nde que eres consciente de tu existencia
-Dialogue: 0,0:25:06.24,0:25:11.03,Default,,0,0,0,,en virtud del hecho de que\Nentras en el diálogo social y nos
-Dialogue: 0,0:25:11.03,0:25:18.24,Default,,0,0,0,,importa la política y discutimos.  Mhm.\NMi padre, recuerdo que en la
-Dialogue: 0,0:25:18.24,0:25:23.76,Default,,0,0,0,,cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena cena\Ndespotricaba y se desahogaba sobre política y
-Dialogue: 0,0:25:23.76,0:25:29.76,Default,,0,0,0,,mi madre se sentaba allí y decía Ray\NRay los niños estoy bomba bomba momento
-Dialogue: 0,0:25:29.76,0:25:34.40,Default,,0,0,0,,él está hablando y se ponía rojo\Nla cara y su cena se
-Dialogue: 0,0:25:34.40,0:25:41.52,Default,,0,0,0,,enfriaba y él seguía hablando de política\Ny los políticos y uh
-Dialogue: 0,0:25:41.52,0:25:46.55,Default,,0,0,0,,y entonces yo estaba tratando de recordar ¿era\Npro-Roosevelaf o anti-Russeld?  No podía
-Dialogue: 0,0:25:46.55,0:25:51.03,Default,,0,0,0,,recordarlo.\NDespués de meses y años de escucharlo
-Dialogue: 0,0:25:51.03,0:25:58.08,Default,,0,0,0,,despotricar sobre la WPA, el socialismo\Ny los sindicatos, y
-Dialogue: 0,0:25:58.08,0:26:02.79,Default,,0,0,0,,años todas las noches en la cena,\Nno podía recordar si estaba a favor o en
-Dialogue: 0,0:26:02.79,0:26:06.96,Default,,0,0,0,,contra de FDR.\NRecuerdo que tuve que usar el brazo.
-Dialogue: 0,0:26:06.96,0:26:09.91,Default,,0,0,0,,Sí, él estaba en contra.  ¿Lo era?\NSí.  Aquí, usemos el brazo.  Tengo
-Dialogue: 0,0:26:09.91,0:26:17.27,Default,,0,0,0,,permiso para preguntar por mi padre.  Era un opositor a\NFDR.  Bueno.
-Dialogue: 0,0:26:17.27,0:26:21.20,Default,,0,0,0,,Recuerdo la intensidad de la emoción.  Recuerdo que se\Npuso rojo.  Mi madre decía:
-Dialogue: 0,0:26:21.20,0:26:31.76,Default,,0,0,0,,"Ray, Ray, tu cena se está enfriando.\NLos niños, ya saben,
-Dialogue: 0,0:26:31.76,0:26:33.76,Default,,0,0,0,,Así que, al final, realmente no hay\Nninguna diferencia.
-Dialogue: 0,0:26:33.76,0:26:38.88,Default,,0,0,0,,Bueno, eso es lo que estoy diciendo.\NFue la emotividad y los desvaríos.
-Dialogue: 0,0:26:38.88,0:26:42.48,Default,,0,0,0,,Y ni siquiera recuerdo si es\Nanti o pro, ¿sabes?  Mira, tuve que usar
-Dialogue: 0,0:26:42.48,0:26:46.64,Default,,0,0,0,,el brazo\Ndespués de todos esos años, uno pensaría que sin duda lo
-Dialogue: 0,0:26:46.64,0:26:51.03,Default,,0,0,0,,sabrías.  ¿Odiaba a Roosevelt o\Npensaba que Roosevelt era el salvador de la
-Dialogue: 0,0:26:51.03,0:26:52.32,Default,,0,0,0,,sociedad?\NEntonces,
-Dialogue: 0,0:26:52.32,0:26:54.40,Default,,0,0,0,,y no podía recordar hacia dónde\Nera.
-Dialogue: 0,0:26:54.40,0:27:00.15,Default,,0,0,0,,Entonces, cuando vas a soltar esto y\Nhacer que la mente se calle, lo que estamos
-Dialogue: 0,0:27:00.15,0:27:03.67,Default,,0,0,0,,haciendo es, ya sabes, has hablado\Nvarias veces de que el pensamiento viene
-Dialogue: 0,0:27:03.67,0:27:09.36,Default,,0,0,0,,como una ola.  Sí.  Y ya sabes, ya\Nsabes, el perro vagabundo,
-Dialogue: 0,0:27:09.36,0:27:11.20,Default,,0,0,0,,el vagabundo es golpeado y tú vienes y\Nvienes, crece
-Dialogue: 0,0:27:11.20,0:27:15.91,Default,,0,0,0,,y crece y crece.  Lo que hay que\Nhacer es intentar atajarlo de raíz
-Dialogue: 0,0:27:15.91,0:27:18.32,Default,,0,0,0,,antes de que siquiera empiece.\NSí.
-Dialogue: 0,0:27:18.32,0:27:21.60,Default,,0,0,0,,En otras palabras, el pensamiento del perro viene\Na tu mente y lo bloqueas.
-Dialogue: 0,0:27:21.60,0:27:25.27,Default,,0,0,0,,Sí.  Empieza a subir.  Todavía no es\Nun perro del todo, pero cuanto más
-Dialogue: 0,0:27:25.27,0:27:28.48,Default,,0,0,0,,esperes, más se convertirá en un perro.  Luego se convierte en el\Nviejo Rover y luego en cómo el viejo
-Dialogue: 0,0:27:28.48,0:27:30.72,Default,,0,0,0,,Rover fue atropellado y\Nluego tú
-Dialogue: 0,0:27:30.72,0:27:34.88,Default,,0,0,0,,y toda una triste historia.  Sí.  Así que si\Ndescartas ese pensamiento, otro
-Dialogue: 0,0:27:34.88,0:27:36.24,Default,,0,0,0,,simplemente aparece.\NSí.
-Dialogue: 0,0:27:36.24,0:27:39.84,Default,,0,0,0,,De algo.  Y tú también descartas ese pensamiento\N.  Sí.  Y entonces surge otro pensamiento
-Dialogue: 0,0:27:39.84,0:27:41.60,Default,,0,0,0,,. Sigues dejando caer esos\Npensamientos.   Entonces,
-Dialogue: 0,0:27:41.60,0:27:48.40,Default,,0,0,0,,si recibes una\Ninspiración divina, te das cuenta de que la mente,
-Dialogue: 0,0:27:48.40,0:27:52.48,Default,,0,0,0,,a pesar de todo ese aparente parloteo, en\Nrealidad está en silencio todo el
-Dialogue: 0,0:27:52.48,0:27:54.32,Default,,0,0,0,,tiempo.\NBueno.
-Dialogue: 0,0:27:54.32,0:27:58.79,Default,,0,0,0,,Aunque creas que tu mente habla\Ny piensa, en realidad no lo hace.   ¿
-Dialogue: 0,0:27:58.79,0:28:02.24,Default,,0,0,0,,Bien?\NLa mente en realidad no está haciendo nada.
-Dialogue: 0,0:28:02.24,0:28:06.32,Default,,0,0,0,,Los fenómenos se están presenciando y\Nuno se identifica con eso y piensa que eso es
-Dialogue: 0,0:28:06.32,0:28:09.76,Default,,0,0,0,,pensar.\NEl único que piensa que eso es
-Dialogue: 0,0:28:09.76,0:28:13.44,Default,,0,0,0,,pensar eres tú.   ¿\NBueno?  el universo piensa que es así que
-Dialogue: 0,0:28:13.44,0:28:17.76,Default,,0,0,0,,en otras palabras entras en una\Nespecie de contemplación,
-Dialogue: 0,0:28:17.76,0:28:21.84,Default,,0,0,0,,solo que es como si todo esto estuviera\Nsucediendo aquí, pero en realidad estás
-Dialogue: 0,0:28:21.84,0:28:28.08,Default,,0,0,0,,contemplando\Nla paz aquí o ni siquiera la estás
-Dialogue: 0,0:28:28.08,0:28:33.84,Default,,0,0,0,,contemplando, la estás\Nsiendo. Ahora mismo, mientras
-Dialogue: 0,0:28:33.84,0:28:40.08,Default,,0,0,0,,silencio,\Nla charla está haciendo su charla de forma
-Dialogue: 0,0:28:40.08,0:28:46.32,Default,,0,0,0,,autónoma. Yo mismo\Nno estoy pensando ni siquiera estoy interesado
-Dialogue: 0,0:28:46.32,0:28:52.64,Default,,0,0,0,,en pensar, quiero decir, pensar esto\Nperturbaría la paz y el silencio interior, así que
-Dialogue: 0,0:28:52.64,0:28:57.36,Default,,0,0,0,,la charla que está ocurriendo en la\Nsuperficie de la mente no es realmente quién
-Dialogue: 0,0:28:57.36,0:29:02.79,Default,,0,0,0,,soy ni dónde estoy. Quién soy y dónde estoy ni siquiera está\Naquí, y ahora te digo
-Dialogue: 0,0:29:02.79,0:29:06.96,Default,,0,0,0,,la verdad, no tiene lugar en el tiempo, ni\Nposición, ni lugar,
-Dialogue: 0,0:29:06.96,0:29:10.79,Default,,0,0,0,,así que dirías que estás\Nentrenando tu mente para hacer esto. Y es por eso que
-Dialogue: 0,0:29:10.79,0:29:16.39,Default,,0,0,0,,siempre nos dices que vayamos a contemplar, ya\Nsabes, cuando dices que
-Dialogue: 0,0:29:16.39,0:29:19.27,Default,,0,0,0,,tienes un versículo, que estás\Nhaciendo el curso de los milagros
-Dialogue: 0,0:29:19.27,0:29:22.88,Default,,0,0,0,,y tienes ese versículo para ese día\Ny se supone que debes repetir ese versículo
-Dialogue: 0,0:29:22.88,0:29:26.55,Default,,0,0,0,,una y otra vez.  En otras palabras,\Nmientras
-Dialogue: 0,0:29:26.55,0:29:30.08,Default,,0,0,0,,lees o haces cualquier otra cosa, ese\Nversículo está en tu mente y lo
-Dialogue: 0,0:29:30.08,0:29:33.84,Default,,0,0,0,,repites una y\Notra vez.  Así que, en realidad, estás intentando
-Dialogue: 0,0:29:33.84,0:29:37.12,Default,,0,0,0,,dividir tu mente en dos\Nsecciones diferentes para poder acceder a ese
-Dialogue: 0,0:29:37.12,0:29:42.48,Default,,0,0,0,,estado espiritual elevado.  Es como si\Nla mente tuviera diferentes capas.  Primero lo más
-Dialogue: 0,0:29:42.48,0:29:48.39,Default,,0,0,0,,superficial y luego lo más profundo.  Entonces, lo que\Nsucede es que dejas de lado la diversión
-Dialogue: 0,0:29:48.39,0:29:51.60,Default,,0,0,0,,porque lo que la mente está haciendo te\Ndivierte todo el tiempo.  Es divertido.
-Dialogue: 0,0:29:51.60,0:29:55.52,Default,,0,0,0,,Eso es todo lo que está haciendo.  Te cuenta una\Nlarga y triste historia o una aterradora
-Dialogue: 0,0:29:55.52,0:30:02.55,Default,,0,0,0,,sobre el futuro y todo eso.  Pero\Ndentro de toda la charla hay
-Dialogue: 0,0:30:02.55,0:30:07.27,Default,,0,0,0,,un silencio infinito.\NDije que la gente le teme a ese silencio
-Dialogue: 0,0:30:07.27,0:30:11.91,Default,,0,0,0,,por miedo a caer en el vacío.\NEh, tienen miedo de caer al
-Dialogue: 0,0:30:11.91,0:30:17.91,Default,,0,0,0,,vacío y por eso\Nintentan ocultarlo.  La forma más sencilla de
-Dialogue: 0,0:30:17.91,0:30:22.39,Default,,0,0,0,,describirlo desde un\Npunto de vista clínico práctico
-Dialogue: 0,0:30:22.39,0:30:30.48,Default,,0,0,0,,es que el silencio no está en sintonía\Ncon la mente.  Está debajo de la mente,
-Dialogue: 0,0:30:30.48,0:30:35.36,Default,,0,0,0,,debajo de toda la palabrería, como esta\Nmente está hablando ahora mismo.  Bueno, eso es solo
-Dialogue: 0,0:30:35.36,0:30:41.36,Default,,0,0,0,,el servicio de la mente.  La\Nmente verdadera, cuanto más cerca de lo que soy, en
-Dialogue: 0,0:30:41.36,0:30:46.08,Default,,0,0,0,,silencio.  Ni siquiera le interesa\Nlo que está pasando, lo que está sucediendo.  Es
-Dialogue: 0,0:30:46.08,0:30:52.79,Default,,0,0,0,,simplemente un estado de ser y de ser.\NEs como un gran coliseo vacío, ¿
-Dialogue: 0,0:30:52.79,0:30:55.91,Default,,0,0,0,,sabes?, y luego, en un rincón\Ndel coliseo, se oye a gente hablando
-Dialogue: 0,0:30:55.91,0:31:02.88,Default,,0,0,0,,, pero soy consciente de que el coliseo está\Nvacío en un 99,9%.  No está pasando nada.
-Dialogue: 0,0:31:02.88,0:31:07.76,Default,,0,0,0,,Así que debajo de las olas en la superficie\Ndel mar,
-Dialogue: 0,0:31:07.76,0:31:13.36,Default,,0,0,0,,el mar se extiende a miles de pies de\Nsilencio y esta conversación solo existe en
-Dialogue: 0,0:31:13.36,0:31:18.24,Default,,0,0,0,,la superficie.\NAsí que, incluso mientras hablo ahora, incluso mientras
-Dialogue: 0,0:31:18.24,0:31:24.72,Default,,0,0,0,,escuchas ahora, es solo la\Nsuperficie de tu mente la que está escuchando o
-Dialogue: 0,0:31:24.72,0:31:29.76,Default,,0,0,0,,pensando en ello.  No me molestaría en\Nescucharlo ni en pensar en ello en absoluto
-Dialogue: 0,0:31:29.76,0:31:36.39,Default,,0,0,0,,.  Debajo de la escucha\Nhay un silencio infinito.  Y si le pregunto a
-Dialogue: 0,0:31:36.39,0:31:42.15,Default,,0,0,0,,tu verdadero yo qué se acaba de decir, ni siquiera lo\Nsabrás.  Tu verdadero yo no sabe lo que se acaba de
-Dialogue: 0,0:31:42.15,0:31:49.84,Default,,0,0,0,,decir.  Ni siquiera está\Ninvolucrado.  Si le pregunto al mar, a 600 pies de
-Dialogue: 0,0:31:49.84,0:31:57.76,Default,,0,0,0,,profundidad, ¿qué acaba de ocurrir en la\Nsuperficie?  El mar dice, ¿qué me importa?
-Dialogue: 0,0:31:57.76,0:32:03.03,Default,,0,0,0,,Donde yo vivo, no hay olas.\NNo hay pájaros volando por aquí.
-Dialogue: 0,0:32:03.03,0:32:05.12,Default,,0,0,0,,Vale,\Nno hay basura flotando en el
-Dialogue: 0,0:32:05.12,0:32:09.27,Default,,0,0,0,,océano.\NLo que soy permanece inmóvil e imperturbable ante
-Dialogue: 0,0:32:09.27,0:32:13.51,Default,,0,0,0,,todo eso.  Todo eso es superficial, algo que\Nviene y va con el viento y las
-Dialogue: 0,0:32:13.51,0:32:17.76,Default,,0,0,0,,mareas.\NAsí que este tipo de meditación, esta
-Dialogue: 0,0:32:17.76,0:32:24.32,Default,,0,0,0,,contemplación, el tipo de meditación que\Npuedes hacer incluso mientras realizas los
-Dialogue: 0,0:32:24.32,0:32:29.76,Default,,0,0,0,,eventos diarios y una vez que te\Nentrenas para hacerlo,
-Dialogue: 0,0:32:29.76,0:32:35.27,Default,,0,0,0,,siempre puedes tener esto bajo la superficie y\Npuedes hacerlo incluso mientras
-Dialogue: 0,0:32:35.27,0:32:40.08,Default,,0,0,0,,preparas la cena o lavas, ¿\Nverdad?  Entonces, esta mente, esta mente, lo que el
-Dialogue: 0,0:32:40.08,0:32:44.32,Default,,0,0,0,,mundo llamaría esta mente, lo está haciendo ahora mismo\Nmientras hablamos
-Dialogue: 0,0:32:44.32,0:32:54.88,Default,,0,0,0,,mientras hablamos, lo que realmente soy no está perturbado ni impedido,\Nno es lineal porque hablar es lineal, ¿
-Dialogue: 0,0:32:54.88,0:33:01.03,Default,,0,0,0,,verdad? Estás conceptualizando\Ny lo que somos no es lineal, así que
-Dialogue: 0,0:33:01.03,0:33:05.84,Default,,0,0,0,,tu ser infinito tampoco\Nestá escuchando realmente, es solo
-Dialogue: 0,0:33:05.84,0:33:09.12,Default,,0,0,0,,nuestro hablar el que se escucha mutuamente\N.
-Dialogue: 0,0:33:09.12,0:33:13.36,Default,,0,0,0,,Entonces, estás diciendo que\Nel espíritu mismo, aunque todas estas
-Dialogue: 0,0:33:13.36,0:33:16.88,Default,,0,0,0,,cosas sucedan en tu vida, todos estos, ya\Nsabes, diferentes eventos suceden en
-Dialogue: 0,0:33:16.88,0:33:21.76,Default,,0,0,0,,tu vida, el verdadero espíritu, realmente\Nno lo afecta como la
-Dialogue: 0,0:33:21.76,0:33:25.91,Default,,0,0,0,,profundidad del mar, tu espíritu no se ve\Nafectado por todo esto que está sucediendo
-Dialogue: 0,0:33:25.91,0:33:29.20,Default,,0,0,0,,aquí arriba.\NSolo se complica cuando se
-Dialogue: 0,0:33:29.20,0:33:33.44,Default,,0,0,0,,identifica con eso y piensa que es quien\Nes.
-Dialogue: 0,0:33:33.44,0:33:40.00,Default,,0,0,0,,Cuando piensa que yo soy el yo\Ncon el pequeño yo,
-Dialogue: 0,0:33:40.00,0:33:45.20,Default,,0,0,0,,si se identifica con él, entonces se\Nconfunde, pero el verdadero yo con
-Dialogue: 0,0:33:45.20,0:33:49.27,Default,,0,0,0,,S mayúscula ni siquiera está interesado en tales\Ncosas, no hay nada que
-Dialogue: 0,0:33:49.27,0:33:53.60,Default,,0,0,0,,ganar ni\Nnada que perder, así que ¿por qué estaría
-Dialogue: 0,0:33:53.60,0:33:58.15,Default,,0,0,0,,interesado?\NNo necesita novedad
-Dialogue: 0,0:33:58.15,0:34:09.35,Default,,0,0,0,,porque solo el ego quiere diversión constante.\Naburrimiento.
-Dialogue: 0,0:34:09.35,0:34:13.11,Default,,0,0,0,,Creo que lo peor es que no\Npasa nada.
-Dialogue: 0,0:34:13.11,0:34:18.32,Default,,0,0,0,,Alguien pregunta qué está pasando y yo digo bueno,\Npara serte sincero, absolutamente
-Dialogue: 0,0:34:18.32,0:34:28.00,Default,,0,0,0,,nada.\Npregunté cómo lo sabes.  Entonces, en
-Dialogue: 0,0:34:28.00,0:34:33.04,Default,,0,0,0,,realidad es como si a los 27 años te enseñaras\Na tener esta contemplación, pero
-Dialogue: 0,0:34:33.04,0:34:37.35,Default,,0,0,0,,que aún puedes lidiar con el día a día\Naquí en la superficie, pero sin embargo,
-Dialogue: 0,0:34:37.35,0:34:43.28,Default,,0,0,0,,constantemente estás contemplando\Nel ser espiritual que está debajo de eso, la
-Dialogue: 0,0:34:43.28,0:34:52.32,Default,,0,0,0,,identificación con la realidad infinita que está\Nla personalidad y todo
-Dialogue: 0,0:34:52.32,0:34:56.72,Default,,0,0,0,,para no perder de vista eso.  No perder eso de\Nvista.
-Dialogue: 0,0:34:56.72,0:35:08.32,Default,,0,0,0,,Guau.  Aprendí algo.\NFelicidades.
-Dialogue: 0,0:35:08.32,0:35:11.28,Default,,0,0,0,,.\NBueno.
-Dialogue: 0,0:35:11.28,0:35:14.07,Default,,0,0,0,,No quiero que se perturbe la tranquilidad de nadie\N.
-Dialogue: 0,0:35:14.07,0:35:19.44,Default,,0,0,0,,Pues no lo es.  Es que estamos\Npermitiendo que todo lo externo intente influir
-Dialogue: 0,0:35:19.44,0:35:23.44,Default,,0,0,0,,y, ya sabes, estamos tratando de filtrarlo\Ntodo.   Está bien
-Dialogue: 0,0:35:23.44,0:35:28.07,Default,,0,0,0,,.  Así pues, la libertad llega con la\Ncomprensión de que no tienes por qué hacerlo.  La
-Dialogue: 0,0:35:28.07,0:35:31.52,Default,,0,0,0,,persona promedio piensa: bueno, tengo que\Nestar molesto por lo que dijo mi madre o mi
-Dialogue: 0,0:35:31.52,0:35:35.92,Default,,0,0,0,,suegra, lo que dijo el gobierno\No algún político.   Ya
-Dialogue: 0,0:35:35.92,0:35:39.28,Default,,0,0,0,,sabes, es como si estuvieras obligado.\NMhm.
-Dialogue: 0,0:35:39.28,0:35:44.24,Default,,0,0,0,,Y podrías liberarte de esa\Nobligación presunta.   Les
-Dialogue: 0,0:35:44.24,0:35:50.07,Default,,0,0,0,,pregunté a todos: ¿Alguna vez han hecho un\Nvoto de quedarse, ya saben, para servir al
-Dialogue: 0,0:35:50.07,0:35:58.64,Default,,0,0,0,,ego, para ser su sirviente?\NBueno, la gente se aferra a ello como si
-Dialogue: 0,0:35:58.64,0:36:07.68,Default,,0,0,0,,fuera un voto y como si su vida dependiera\Nde ello.  Ya sabes,
-Dialogue: 0,0:36:07.68,0:36:18.72,Default,,0,0,0,,aun así sobrevivir.\Nentonces podría aburrirme!  Puedes ver que
-Dialogue: 0,0:36:18.72,0:36:26.72,Default,,0,0,0,,la mente va a decir inmediatamente:\N"Sí, pero entonces me aburriré".   El
-Dialogue: 0,0:36:26.72,0:36:32.07,Default,,0,0,0,,ego ve la nada\Ncomo aburrimiento.
-Dialogue: 0,0:36:32.07,0:36:35.83,Default,,0,0,0,,Bueno, incluso cuando ves la televisión, muchas\Nveces dices: "Oh, quiero encender
-Dialogue: 0,0:36:35.83,0:36:41.04,Default,,0,0,0,,la televisión y relajarme, ¿\Nsabes?, y todo esto está pasando
-Dialogue: 0,0:36:41.04,0:36:45.35,Default,,0,0,0,,en la televisión y tú y yo pensamos que si me\Npreguntaras qué programa es
-Dialogue: 0,0:36:45.35,0:37:03.20,Default,,0,0,0,,, no podría decírtelo porque no soy...\NCamioneros de Ice Ice Road.  ¿A qué le
-Dialogue: 0,0:37:03.20,0:37:08.48,Default,,0,0,0,,No tienes que pensar en absoluto.\NY estos tipos grandes y fornidos simplemente hacen lo suyo, lo típico de
-Dialogue: 0,0:37:08.48,0:37:14.88,Default,,0,0,0,,Alaska.  Cocina todo.\NY puedes ver el mismo programa una
-Dialogue: 0,0:37:14.88,0:37:19.59,Default,,0,0,0,,y otra vez sin aburrirte jamás.\NNo sé qué tiene Ice Roads
-Dialogue: 0,0:37:19.59,0:37:23.44,Default,,0,0,0,,Trucker.   He\Nvisto algunos de los mismos episodios
-Dialogue: 0,0:37:23.44,0:37:27.52,Default,,0,0,0,,cinco o seis veces y nunca me aburro\N.
-Dialogue: 0,0:37:27.52,0:37:31.68,Default,,0,0,0,,Aparece Alex, todo músculos y\Ntatuajes,
-Dialogue: 0,0:37:31.68,0:37:35.76,Default,,0,0,0,,y es muy religioso, muy católico.\NMe gusta Alex.  Él es un
-Dialogue: 0,0:37:35.76,0:37:39.92,Default,,0,0,0,,y\Nluego el sacerdote bendice a Alex.
-Dialogue: 0,0:37:39.92,0:37:41.83,Default,,0,0,0,,Sí.\NPorque tiene toda una familia e
-Dialogue: 0,0:37:41.83,0:37:44.64,Default,,0,0,0,,hijos.\NEs un buen católico.
-Dialogue: 0,0:37:44.64,0:37:49.76,Default,,0,0,0,,Sí.  Católico muy grande.  Y no tiene ningún reparo en decirlo\N.  Así que si lo amas,
-Dialogue: 0,0:37:49.76,0:37:54.40,Default,,0,0,0,,también amas su catolicismo.\NY luego está el oso, que es como
-Dialogue: 0,0:37:54.40,0:38:11.44,Default,,0,0,0,,un tipo grande y corpulento que hace como bip bip\Nestán silenciando.
-Dialogue: 0,0:38:11.44,0:38:19.44,Default,,0,0,0,,están tan llenos de\Ndos palabras estuvieran censuradas, ¿sabes?
-Dialogue: 0,0:38:19.44,0:38:28.80,Default,,0,0,0,,Como en el servicio, ya sabes, cuando\Npasas por el café, ya sabes,
-Dialogue: 0,0:38:28.80,0:38:33.92,Default,,0,0,0,,café, maldito.  Tú\Ny el maldito pan y la [ __ ]
-Dialogue: 0,0:38:33.92,0:38:39.52,Default,,0,0,0,,mantequilla y es\Nsolo parte del argot de ese
-Dialogue: 0,0:38:39.52,0:38:49.76,Default,,0,0,0,,tipo de mundo machista, ¿sabes?\NSí,
-Dialogue: 0,0:38:49.76,0:38:54.32,Default,,0,0,0,,ahora que sabemos cómo contemplar y\Nsabemos cómo
-Dialogue: 0,0:38:54.32,0:38:59.83,Default,,0,0,0,,canalizar nuestra mente en diferentes direcciones\Ny eh,
-Dialogue: 0,0:38:59.83,0:39:03.83,Default,,0,0,0,,hemos hablado de eh, ¿qué más quieres\Nhablar?
-Dialogue: 0,0:39:03.83,0:39:08.00,Default,,0,0,0,,Oh, nada.\NNada.  Bueno.   Acabo de
-Dialogue: 0,0:39:08.00,0:39:12.00,Default,,0,0,0,,terminar mi tesis doctoral\Nsobre la nada.
-Dialogue: 0,0:39:12.00,0:39:16.48,Default,,0,0,0,,Sí.   Acabo de hacerlo\N.
-Dialogue: 0,0:39:16.48,0:39:20.00,Default,,0,0,0,,Bueno, ya lo hicimos, ya hemos tenido este\Ndiálogo antes, y lo hicimos sobre la oración
-Dialogue: 0,0:39:20.00,0:39:22.32,Default,,0,0,0,,y lo hicimos sobre la culpa.\NSí.   Ya
-Dialogue: 0,0:39:22.32,0:39:26.56,Default,,0,0,0,,sabes, y lo hemos hecho con esto, así que\Nestaba tratando de pensar en otra cosa
-Dialogue: 0,0:39:26.56,0:39:41.59,Default,,0,0,0,,.  ¿Hay algún otro tema sobre el que les\Ngustaría que dialogáramos?
-Dialogue: 0,0:39:41.59,0:39:48.40,Default,,0,0,0,,al vacío o puedes saltarte\Nel vacío?  No puedes pasar por encima porque no hay
-Dialogue: 0,0:39:48.40,0:39:52.24,Default,,0,0,0,,nada que pasar por encima porque está\Nvacío
-Dialogue: 0,0:39:52.24,0:40:04.32,Default,,0,0,0,,y no hay nadie a quien pasar por encima.\NEs un estado del camino de la negación al que te
-Dialogue: 0,0:40:04.32,0:40:08.64,Default,,0,0,0,,lleva allí donde no hay\Nnadie, nada
-Dialogue: 0,0:40:08.64,0:40:12.88,Default,,0,0,0,,que observar, nada que sucede y que no es\Nni formado ni
-Dialogue: 0,0:40:12.88,0:40:16.40,Default,,0,0,0,,informe.\NY
-Dialogue: 0,0:40:16.40,0:40:20.88,Default,,0,0,0,,la persona promedio que llega a ese punto lo\Nconsidera un estado de iluminación.
-Dialogue: 0,0:40:20.88,0:40:26.56,Default,,0,0,0,,Creen que este es el estado porque se\Nparece mucho a lo que han oído
-Dialogue: 0,0:40:26.56,0:40:32.16,Default,,0,0,0,,o leído sobre él, o a lo que han creído, y\Nque este debe ser el estado de
-Dialogue: 0,0:40:32.16,0:40:36.56,Default,,0,0,0,,iluminación del que hablan Buda y todos los demás\N.
-Dialogue: 0,0:40:36.56,0:40:41.28,Default,,0,0,0,,La única forma de\Nsaber que ese
-Dialogue: 0,0:40:41.28,0:40:48.24,Default,,0,0,0,,no era el estado final era estar en el montón de\Nnieve cuando era niño, cuando era
-Dialogue: 0,0:40:48.24,0:40:54.56,Default,,0,0,0,,adolescente.   Todo se\Ndetuvo en silencio
-Dialogue: 0,0:40:54.56,0:41:00.16,Default,,0,0,0,,y todo se volvió infinito, más allá del\Ntiempo, sin principio ni fin.
-Dialogue: 0,0:41:00.16,0:41:07.20,Default,,0,0,0,,Pero estaba irradiado de un amor por tal\Nperfección y dimensión.
+Dialogue: 0,0:15:02.63,0:15:04.39,Default,,0,0,0,,>> Mmm,\N>> el pensamiento del ahora es en sí mismo es
+Dialogue: 0,0:15:04.39,0:15:07.76,Default,,0,0,0,,imbécil. pero\N>> y esto es popular en este momento. esto
+Dialogue: 0,0:15:07.76,0:15:11.19,Default,,0,0,0,,es algo así como sobre el mismo tema. tu\Nhoy estuviste hablando un poquito
+Dialogue: 0,0:15:11.19,0:15:18.72,Default,,0,0,0,,acerca de um\NLa gente no tiene límites y creo.
+Dialogue: 0,0:15:18.72,0:15:23.27,Default,,0,0,0,,es que la gente no le tiene respeto\Nunos a otros tanto como lo que hicieron.
+Dialogue: 0,0:15:23.27,0:15:26.39,Default,,0,0,0,,Por eso los límites ya no están\Nallá.
+Dialogue: 0,0:15:26.39,0:15:31.27,Default,,0,0,0,,>> Quiero decir, ¿no sientes que eso podría ser?\Nel problema es que no nos enseñan
+Dialogue: 0,0:15:31.27,0:15:36.63,Default,,0,0,0,,respeto. Bueno, ciertamente en el mundo moderno.\Nmedios de comunicación, eh, no existe tal cosa como
+Dialogue: 0,0:15:36.63,0:15:40.32,Default,,0,0,0,,respeto.\N>> Quiero decir, los bloggers se llevan bien con
+Dialogue: 0,0:15:40.32,0:15:44.88,Default,,0,0,0,,el más insultante. yo nunca he\NEscuché cosas tan increíbles como personas.
+Dialogue: 0,0:15:44.88,0:15:52.32,Default,,0,0,0,,lo pondré en realidad lo pondré en la web uh web\Nuh sistema allí. Y no sólo eso,
+Dialogue: 0,0:15:52.32,0:15:55.27,Default,,0,0,0,,>> internet,\N>> como quieras llamarlo, el blogger
+Dialogue: 0,0:15:55.27,0:16:03.19,Default,,0,0,0,,mundo blogger, no sólo dirán\Nalgo que es uh blasfemo y uh
+Dialogue: 0,0:16:03.19,0:16:07.36,Default,,0,0,0,,>> incorrecto\N>> y mal, eh pero hasta significaran
+Dialogue: 0,0:16:07.36,0:16:12.07,Default,,0,0,0,,¿Quién es el que lo dijo?\N>> Quiero decir, cambiaría mi nombre y me mudaría
+Dialogue: 0,0:16:12.07,0:16:18.48,Default,,0,0,0,,a un país diferente habiendo dicho tal\Nuna cosa. Y ellos prosperan con eso. Mmmm.
+Dialogue: 0,0:16:18.48,0:16:23.19,Default,,0,0,0,,>> Entonces, tenemos una cultura en la que la gente\Nhacerse famoso y rico
+Dialogue: 0,0:16:23.19,0:16:28.32,Default,,0,0,0,,a través del odio.\NHay sitios web importantes que son citados
+Dialogue: 0,0:16:28.32,0:16:30.88,Default,,0,0,0,,todo el tiempo.\N>> Entonces, ¿cómo cambiamos eso?
+Dialogue: 0,0:16:30.88,0:16:36.07,Default,,0,0,0,,>> Oh, no quiero cambiarlo.\N>> Bueno, ¿cómo desalentamos eso? ¿Nosotros?
+Dialogue: 0,0:16:36.07,0:16:39.75,Default,,0,0,0,,um, quiero decir, ¿cómo desalientas eso?\N¿acción?
+Dialogue: 0,0:16:39.75,0:16:44.24,Default,,0,0,0,,>> No quiero desalentarlo.\N>> Porque para desanimarlo, te vuelves
+Dialogue: 0,0:16:44.24,0:16:47.19,Default,,0,0,0,,involucrado con ello.\N>> Bueno, sí. Y no quiero convertirme
+Dialogue: 0,0:16:47.19,0:16:50.48,Default,,0,0,0,,involucrado con ello. Ya sabes, ¿cómo\NQuiero deshacerme de todo el arsénico que hay en
+Dialogue: 0,0:16:50.48,0:16:54.07,Default,,0,0,0,,la sopa? Bueno, tienes que poner tu\Nmanos en la sopa para conseguir
+Dialogue: 0,0:16:54.07,0:16:57.36,Default,,0,0,0,,>> Entonces, dejaste que toda esta gente hiciera un desastre\Naquí haciendo todas estas cosas
+Dialogue: 0,0:16:57.36,0:17:00.95,Default,,0,0,0,,>> lo que sea que estén haciendo, lo están haciendo.\N>> Sí. Eso no es cierto y no lo será.
+Dialogue: 0,0:17:00.95,0:17:05.03,Default,,0,0,0,,pero está afectando, ya sabes, a millones\Nde gente, pero todo es como bla, bla.
+Dialogue: 0,0:17:05.03,0:17:08.55,Default,,0,0,0,,Bla, bla, bla, bla, bla. y es la mitad\Nde que no es verdad y se supone que debemos
+Dialogue: 0,0:17:08.55,0:17:15.79,Default,,0,0,0,,deja que eso continúe.\N>> Uh bueno, eso es lo que se llama libertad.
+Dialogue: 0,0:17:15.83,0:17:19.88,Default,,0,0,0,,No me gusta.\N>> Sí.
+Dialogue: 0,0:17:20.72,0:17:26.00,Default,,0,0,0,,>> Ves cuando garantizas\NLibertad total, estás desenmascarando el mal.
+Dialogue: 0,0:17:26.00,0:17:33.12,Default,,0,0,0,,y dándole permiso y poder. en un\Nsociedad en la que más del 50% de la población
+Dialogue: 0,0:17:33.12,0:17:38.55,Default,,0,0,0,,Calibre 200, ¿qué tipo de sociedad?\Nvas a crear? si obtienes si
+Dialogue: 0,0:17:38.55,0:17:44.24,Default,,0,0,0,,das igualdad a todos y\Nla mayoría está por debajo de 200
+Dialogue: 0,0:17:44.24,0:17:47.76,Default,,0,0,0,,>> obtendrás una degradación de la sociedad.\NSí.
+Dialogue: 0,0:17:47.76,0:17:53.67,Default,,0,0,0,,>> Mmm.\N>> Si no fuera por el hecho de que los pocos
+Dialogue: 0,0:17:53.67,0:17:57.60,Default,,0,0,0,,personas de conciencia muy avanzada\Napoyar la conciencia de todos
+Dialogue: 0,0:17:57.60,0:18:03.76,Default,,0,0,0,,humanidad, la humanidad habría destruido\Nél mismo hace siglos.
+Dialogue: 0,0:18:03.76,0:18:08.72,Default,,0,0,0,,Si lo dejaras en manos del voto popular,\Nsi sabes que la supervivencia depende del
+Dialogue: 0,0:18:08.72,0:18:12.64,Default,,0,0,0,,voto popular, no duraríamos hasta el próximo\Nfin de semana.
+Dialogue: 0,0:18:12.64,0:18:17.67,Default,,0,0,0,,>> Pero yo soy de la cultura, yo\NSupongo que dirías eso, ya sabes, cuando
+Dialogue: 0,0:18:17.67,0:18:23.03,Default,,0,0,0,,ves un mal,\N>> quieres, ya sabes, corregir eso
+Dialogue: 0,0:18:23.03,0:18:24.55,Default,,0,0,0,,equivocado.\N>> Sí.
+Dialogue: 0,0:18:24.55,0:18:30.16,Default,,0,0,0,,>> Entonces, es un poco difícil mantenerse al margen.\Ny ver un mal continuar hasta el punto
+Dialogue: 0,0:18:30.16,0:18:35.28,Default,,0,0,0,,donde está adelantando. cual es tu\N¿obligación? ¿Cuál es tu ¿Cuál es el
+Dialogue: 0,0:18:35.28,0:18:37.12,Default,,0,0,0,,¿obligación?\N>> ¿Cuál es tu moraleja?
+Dialogue: 0,0:18:37.12,0:18:39.60,Default,,0,0,0,,>> obligación ética?\N>> ¿Qué es?
+Dialogue: 0,0:18:39.60,0:18:44.64,Default,,0,0,0,,>> llamar a las cosas por su nombre?\N>> Bueno, no es popular llamar a las cosas por su nombre
+Dialogue: 0,0:18:44.64,0:18:51.28,Default,,0,0,0,,pala. Uh, lo que es popular es mentir\Nalgo. Llamar a las cosas por su nombre significa
+Dialogue: 0,0:18:51.28,0:18:54.48,Default,,0,0,0,,confrontar una declaración con objetivos\Nrealidad.
+Dialogue: 0,0:18:54.48,0:19:00.16,Default,,0,0,0,,>> Oh, entonces llamas corazón a las cosas por su nombre.\N>> No, podrías llamar a las cosas por su nombre.
+Dialogue: 0,0:19:00.16,0:19:05.67,Default,,0,0,0,,de tu amor por la humanidad. Sí.\N>> Veamos. ¿Deberíamos votar por él como
+Dialogue: 0,0:19:05.67,0:19:10.88,Default,,0,0,0,,presidente vitalicio? ¿Sabes lo que yo\N¿significar?
+Dialogue: 0,0:19:10.88,0:19:15.84,Default,,0,0,0,,>> Todos los dictadores que rodean a Castro, todos\Nestas todas estas personas.
+Dialogue: 0,0:19:15.84,0:19:19.52,Default,,0,0,0,,>> Bueno, en un momento obtienen el\Nlealtad de todo el pueblo porque
+Dialogue: 0,0:19:19.52,0:19:24.16,Default,,0,0,0,,Popularizan algún ismo.\N>> y viajar hasta el poder en algún tipo de
+Dialogue: 0,0:19:24.16,0:19:28.08,Default,,0,0,0,,un ismo.\N>> Por lo general, es algo que ya sabes justificado.
+Dialogue: 0,0:19:28.08,0:19:32.32,Default,,0,0,0,,resentimiento\Nsobre el pasado. sabes lo que pasó
+Dialogue: 0,0:19:32.32,0:19:37.44,Default,,0,0,0,,hace siglos u otro alguna otra parte\Ndel mundo y le das jugo, le das jugo
+Dialogue: 0,0:19:37.44,0:19:42.08,Default,,0,0,0,,para justificación.\NSí.
+Dialogue: 0,0:19:42.08,0:19:48.40,Default,,0,0,0,,Eso es lo que hace el ego para\Nsobrevivir. Crea problemas y
+Dialogue: 0,0:19:48.40,0:19:55.67,Default,,0,0,0,,prospera en los problemas. ama ama a todos\Nlos ismos y ama la contienda porque
+Dialogue: 0,0:19:55.67,0:20:00.00,Default,,0,0,0,,de ahí saca su jugo.\NEgotismo.
+Dialogue: 0,0:20:00.00,0:20:04.88,Default,,0,0,0,,Sí. y el narcisismo\Nuh mantiene la mente activa porque el
+Dialogue: 0,0:20:04.88,0:20:09.44,Default,,0,0,0,,La persona promedio teme el vacío. el\Nla persona promedio teme pensar que es
+Dialogue: 0,0:20:09.44,0:20:16.88,Default,,0,0,0,,como la muerte. Uh teme que la mente se detenga.\N>> Y luego qué piensan si la mente
+Dialogue: 0,0:20:16.88,0:20:23.20,Default,,0,0,0,,se detiene y luego que? Entonces surge\Nsupervivencia. Plantea la supervivencia. Entonces ellos
+Dialogue: 0,0:20:23.20,0:20:27.44,Default,,0,0,0,,Sigue pensando y arrepintiéndote de vivir en\Nel pasado y el futuro para
+Dialogue: 0,0:20:27.44,0:20:33.20,Default,,0,0,0,,asegurar su propia supervivencia\Nuh mente y egoísmo sin algo que
+Dialogue: 0,0:20:33.20,0:20:38.64,Default,,0,0,0,,pensar en la mente se quedaría en silencio.\NLa mayoría de la gente temería eso. Mayoría
+Dialogue: 0,0:20:38.64,0:20:42.00,Default,,0,0,0,,la gente considera el\N>> está bien, eso hace
+Dialogue: 0,0:20:42.00,0:20:46.40,Default,,0,0,0,,>> el vacío uh sabes si lo mantienes\Nhaciendo el camino de la negación
+Dialogue: 0,0:20:46.40,0:20:51.52,Default,,0,0,0,,No esto no aquello dejar ir deseando\Ndejar ir atracción y
+Dialogue: 0,0:20:51.52,0:20:56.00,Default,,0,0,0,,dejando ir la aversión. si lo dejas ir\Natracción y aversión, eventualmente la
+Dialogue: 0,0:20:56.00,0:21:01.20,Default,,0,0,0,,la mente se volverá silenciosa.\NY ahí estás en un infinito en un
+Dialogue: 0,0:21:01.20,0:21:07.44,Default,,0,0,0,,estado infinito. Extremadamente impresionante,\Nextremadamente genial.
+Dialogue: 0,0:21:07.44,0:21:13.12,Default,,0,0,0,,Y estás seguro de que este es el\Nestado último que los grandes gurús y
+Dialogue: 0,0:21:13.12,0:21:17.12,Default,,0,0,0,,seres iluminados han descrito más de\Nlos siglos.
+Dialogue: 0,0:21:17.12,0:21:23.76,Default,,0,0,0,,Y en esta vida, a los tres años, eso\Nfue el estado que prevaleció
+Dialogue: 0,0:21:23.76,0:21:29.44,Default,,0,0,0,,que vino de lo absoluto\Nnada infinita
+Dialogue: 0,0:21:29.44,0:21:34.96,Default,,0,0,0,,a la existencia.\NY fue un shock fantástico, fuera del
+Dialogue: 0,0:21:34.96,0:21:40.24,Default,,0,0,0,,silencio infinito\Nde la nada infinita donde debería
+Dialogue: 0,0:21:40.24,0:21:47.03,Default,,0,0,0,,Me he quedado para decirte la verdad.\N>> No, te necesitamos aquí.
+Dialogue: 0,0:21:47.03,0:21:52.32,Default,,0,0,0,,vino la sorprendente conciencia de\Nexistencia. yo tenía tres años
+Dialogue: 0,0:21:52.32,0:21:58.24,Default,,0,0,0,,y este cuerpecito está sentado en esto\Npequeño carro en un día soleado
+Dialogue: 0,0:21:58.24,0:22:02.96,Default,,0,0,0,,y de repente fuera del infinito\Nsilencio de la nada
+Dialogue: 0,0:22:02.96,0:22:07.03,Default,,0,0,0,,Hubo una sorprendente conciencia de\Nexistencia
+Dialogue: 0,0:22:07.03,0:22:12.96,Default,,0,0,0,,y la confrontación con el enigma\Nes la verdad infinita, la infinita
+Dialogue: 0,0:22:12.96,0:22:19.52,Default,,0,0,0,,estado, nada o totalidad.\NY esto llevó unos 30 años
+Dialogue: 0,0:22:19.52,0:22:26.96,Default,,0,0,0,,vida para trascender eso. ¿Es\N¿la nada o la totalidad?
+Dialogue: 0,0:22:26.96,0:22:34.40,Default,,0,0,0,,Ese es el nivel 850 de la nada versus\Ntotalidad. Entonces, ¿qué sucede al intentar
+Dialogue: 0,0:22:34.40,0:22:40.32,Default,,0,0,0,,vivir en el ahora es uno obtiene uno obtiene\NAtascado en el habla de la mente.
+Dialogue: 0,0:22:40.32,0:22:45.12,Default,,0,0,0,,que necesita hacer eso para\Nsobrevivir. Y si intentas detenerlo, arriba
+Dialogue: 0,0:22:45.12,0:22:48.79,Default,,0,0,0,,Viene el miedo al vacío, al ser.\Nnada.
+Dialogue: 0,0:22:48.79,0:22:54.00,Default,,0,0,0,,¿Y entonces cómo manejar el vacío? menciono\Nporque eso es lo que detiene a muchos
+Dialogue: 0,0:22:54.00,0:22:58.72,Default,,0,0,0,,la gente de recorrer todo el camino es que\Nllegar a la nada y su miedo a
+Dialogue: 0,0:22:58.72,0:23:03.36,Default,,0,0,0,,nada. Si no tengo opiniones, si\Nno tener conversación, si no hay
+Dialogue: 0,0:23:03.36,0:23:10.55,Default,,0,0,0,,presente o futuro o pasado,\Nluego llego a un vacío infinito,
+Dialogue: 0,0:23:10.55,0:23:16.40,Default,,0,0,0,,una nada y un vacío infinitos,\Nque sabes que la mente luego comenzará
+Dialogue: 0,0:23:16.40,0:23:23.60,Default,,0,0,0,,para sobrevivir, ya sabes.\N>> Pero de lo que estás hablando es mucho
+Dialogue: 0,0:23:23.60,0:23:29.20,Default,,0,0,0,,de veces angustia de tipo familiar. Mmmm.\N>> Este miembro, la familia hizo o dijo
+Dialogue: 0,0:23:29.20,0:23:33.36,Default,,0,0,0,,eso, este miembro.\N>> Entonces, la familia sirve para conservar las cosas.
+Dialogue: 0,0:23:33.36,0:23:37.44,Default,,0,0,0,,agitado.\N>> El propósito de tu familia es prevenir
+Dialogue: 0,0:23:37.44,0:23:42.00,Default,,0,0,0,,evitar que te ilumine manteniendo\Nte agitaste como deber de todos
+Dialogue: 0,0:23:42.00,0:23:45.91,Default,,0,0,0,,madres, suegras,\N>> padres, suegros, cuñadas,
+Dialogue: 0,0:23:45.91,0:23:49.60,Default,,0,0,0,,y hermanos es mantenerte lo suficientemente\Nagitado que no te convertirás
+Dialogue: 0,0:23:49.60,0:23:55.40,Default,,0,0,0,,iluminados, lo que los dejaría\Ndetrás.
+Dialogue: 0,0:23:56.48,0:24:01.52,Default,,0,0,0,,Eso es cierto. quiero decir,\N>> ¿es eso?
+Dialogue: 0,0:24:01.52,0:24:05.60,Default,,0,0,0,,>> Bueno, cuando te detienes a pensar en ello,\Nque hay mucho, ya sabes, en la familia
+Dialogue: 0,0:24:05.60,0:24:09.52,Default,,0,0,0,,y\N>> Sí. mantiene la olla revuelta todo el
+Dialogue: 0,0:24:09.52,0:24:15.40,Default,,0,0,0,,tiempo.\N>> Mantiene la olla revuelta.
+Dialogue: 0,0:24:16.72,0:24:21.48,Default,,0,0,0,,>> Para eso están las suegras,\N¿no es así?
+Dialogue: 0,0:24:22.88,0:24:28.15,Default,,0,0,0,,>> No lo sé. Todavía no lo soy.\NBueno, sólo estoy pensando en el viejo
+Dialogue: 0,0:24:28.15,0:24:30.88,Default,,0,0,0,,Broma de suegra, ya sabes.\N>> Sí.
+Dialogue: 0,0:24:30.88,0:24:37.55,Default,,0,0,0,,>> Estándar, el estereotipo del\Nsuegra. Eh,
+Dialogue: 0,0:24:37.84,0:24:45.48,Default,,0,0,0,,>> mantiene la mente en marcha. ¿Y viste?\N¿Qué vestía? Ya sabes,
+Dialogue: 0,0:24:45.76,0:24:50.55,Default,,0,0,0,,>> entonces hay una recompensa de emoción\N>> y una sensación de vitalidad. no quiero
+Dialogue: 0,0:24:50.55,0:24:56.24,Default,,0,0,0,,Para poner, ya sabes, pensando en esto,\N>> ¿verdad? hay una sensación de vitalidad
+Dialogue: 0,0:24:56.24,0:24:59.84,Default,,0,0,0,,que eres vida a través de\Nconciencia.
+Dialogue: 0,0:24:59.84,0:25:06.24,Default,,0,0,0,,Entonces es un aspecto de ser consciente\Nque eres consciente de tu existencia
+Dialogue: 0,0:25:06.24,0:25:11.03,Default,,0,0,0,,en virtud del hecho de que lo haces\Nentrar en el diálogo social y
+Dialogue: 0,0:25:11.03,0:25:18.24,Default,,0,0,0,,Nos preocupamos por la política y discutimos. Mmmm.\N>> Mi mi padre lo recuerdo en el
+Dialogue: 0,0:25:18.24,0:25:18.72,Default,,0,0,0,,cena cena cena cena cena\Ncena cena cena cena cena
+Dialogue: 0,0:25:18.72,0:25:18.72,Default,,0,0,0,,cena cena cena cena cena\Ncena cena cena cena cena
+Dialogue: 0,0:25:18.72,0:25:23.76,Default,,0,0,0,,cena cena mesa mi padre\Ndespotricaba y deliraba sobre la política y
+Dialogue: 0,0:25:23.76,0:25:29.76,Default,,0,0,0,,mi madre se sentaba ahí y decía Ray\NRay los niños Soy momento bomba bomba
+Dialogue: 0,0:25:29.76,0:25:34.40,Default,,0,0,0,,él está pasando y se pondría rojo\Nla cara y su cena se estarían poniendo
+Dialogue: 0,0:25:34.40,0:25:41.52,Default,,0,0,0,,frio y esta hablando de politica\Ny los políticos y uh
+Dialogue: 0,0:25:41.52,0:25:46.55,Default,,0,0,0,,y luego estaba tratando de recordar ¿era él?\N¿Pro-Roosevelaf o anti-Russeld? yo
+Dialogue: 0,0:25:46.55,0:25:51.03,Default,,0,0,0,,No podía recordar.\NDespués de meses y años de escuchar
+Dialogue: 0,0:25:51.03,0:25:58.08,Default,,0,0,0,,él despotrica sobre la WPA y el socialismo\Ny los sindicatos y
+Dialogue: 0,0:25:58.08,0:26:02.79,Default,,0,0,0,,años todas las noches en la cena y podía\NNo recuerdo si es pro o pro o
+Dialogue: 0,0:26:02.79,0:26:06.96,Default,,0,0,0,,contra FDR.\NRecuerdo que tuve que usar el brazo.
+Dialogue: 0,0:26:06.96,0:26:09.91,Default,,0,0,0,,>> Sí, él estaba en contra. ¿Lo era?\N>> Sí. Aquí, usemos el brazo. tengo
+Dialogue: 0,0:26:09.91,0:26:17.27,Default,,0,0,0,,permiso para preguntar por mi papá. el era\Nresistencia anti-FDR. Bueno.
+Dialogue: 0,0:26:17.27,0:26:21.20,Default,,0,0,0,,Recuerdo la emotividad. lo recuerdo\Nse pone rojo. Mi madre diría,
+Dialogue: 0,0:26:21.20,0:26:26.91,Default,,0,0,0,,"Ray, Ray, tu cena se está enfriando.\NLos niños, ya sabes,
+Dialogue: 0,0:26:27.76,0:26:33.12,Default,,0,0,0,,FTR era el rey del mal en este mundo".\N>> Entonces, al final, realmente no sirve
+Dialogue: 0,0:26:33.12,0:26:36.08,Default,,0,0,0,,cualquier diferencia.\N>> Bueno, eso es lo que estoy diciendo.
+Dialogue: 0,0:26:36.08,0:26:40.32,Default,,0,0,0,,>> Fue la emotividad y los desvaríos.\NY ni siquiera puedo recordar si es
+Dialogue: 0,0:26:40.32,0:26:44.55,Default,,0,0,0,,anti o pro, ya sabes. Mira, tuve que usar\Nel brazo para
+Dialogue: 0,0:26:44.55,0:26:49.52,Default,,0,0,0,,Después de todos esos años, uno pensaría que\Nciertamente lo sé. ¿Odiaba a Roosevelt o
+Dialogue: 0,0:26:49.52,0:26:51.91,Default,,0,0,0,,Creo que Roosevelt fue el salvador de\N¿sociedad?
+Dialogue: 0,0:26:51.91,0:26:53.67,Default,,0,0,0,,>> Entonces,\N>> y no podía recordar en qué dirección
+Dialogue: 0,0:26:53.67,0:26:56.79,Default,,0,0,0,,era.\N>> Entonces, cuando vayas a dejar ir esto y
+Dialogue: 0,0:26:56.79,0:27:02.00,Default,,0,0,0,,hacer que la mente se quede en silencio, entonces lo que estamos\Nhacer es, ya sabes, has hablado
+Dialogue: 0,0:27:02.00,0:27:07.20,Default,,0,0,0,,varias veces sobre el pensamiento que viene\Narriba como una ola. Sí. Y sabes, tu
+Dialogue: 0,0:27:07.20,0:27:10.79,Default,,0,0,0,,ya sabes, el perro rover,\N>> el rover es golpeado y tú te acercas y
+Dialogue: 0,0:27:10.79,0:27:13.27,Default,,0,0,0,,tu vienes,\N>> crece y crece y crece. ¿Y qué?
+Dialogue: 0,0:27:13.27,0:27:17.84,Default,,0,0,0,,lo que haces es intentar cortarlo de raíz\N>> incluso antes de que comience.
+Dialogue: 0,0:27:17.84,0:27:19.84,Default,,0,0,0,,>> Sí.\N>> En otras palabras, el pensamiento del perro viene
+Dialogue: 0,0:27:19.84,0:27:23.27,Default,,0,0,0,,en tu mente y lo bloqueas.\N>> Sí. Empieza a subir. no lo es
+Dialogue: 0,0:27:23.27,0:27:26.79,Default,,0,0,0,,bastante perro todavía, pero cuanto más tiempo\NEspera, se convierte en un perro. Entonces se convierte
+Dialogue: 0,0:27:26.79,0:27:30.08,Default,,0,0,0,,viejo rover y luego se vuelve ¿cuánto viejo?\NRover fue atropellado y
+Dialogue: 0,0:27:30.08,0:27:33.36,Default,,0,0,0,,>> Entonces entonces tu\N>> y toda una historia triste. Sí. Así que si tu
+Dialogue: 0,0:27:33.36,0:27:35.84,Default,,0,0,0,,Deja ese pensamiento y luego otro pensamiento.\Nsimplemente aparece.
+Dialogue: 0,0:27:35.84,0:27:38.40,Default,,0,0,0,,>> Sí.\N>> De algo. Y dejas ese pensamiento
+Dialogue: 0,0:27:38.40,0:27:41.20,Default,,0,0,0,,también. Sí. Y luego otro pensamiento\Nentra. Sigues dejando caer esos
+Dialogue: 0,0:27:41.20,0:27:45.12,Default,,0,0,0,,pensamientos.\N>> Entonces entonces si obtienes un divino
+Dialogue: 0,0:27:45.12,0:27:50.40,Default,,0,0,0,,inspiración, notas que la mente\Na pesar de toda esta aparente charlatanería,
+Dialogue: 0,0:27:50.40,0:27:53.36,Default,,0,0,0,,La mente en realidad está en silencio todo el tiempo.\Ntiempo.
+Dialogue: 0,0:27:53.36,0:27:55.91,Default,,0,0,0,,>> Está bien.\N>> Aunque creas que tu mente está hablando
+Dialogue: 0,0:27:55.91,0:27:59.76,Default,,0,0,0,,y pensar, en realidad no lo es.\N>> ¿Verdad?
+Dialogue: 0,0:27:59.76,0:28:04.64,Default,,0,0,0,,>> La mente en realidad no está haciendo nada.\NLos fenómenos están siendo presenciados y
+Dialogue: 0,0:28:04.64,0:28:08.24,Default,,0,0,0,,te estás identificando con eso y piensas\Neso es pensar.
+Dialogue: 0,0:28:08.24,0:28:12.15,Default,,0,0,0,,El único que piensa que eso es\Nel pensamiento eres tú.
+Dialogue: 0,0:28:12.15,0:28:15.12,Default,,0,0,0,,>> ¿Está bien? el universo piensa que es\N>> entonces, en otras palabras, entras en
+Dialogue: 0,0:28:15.12,0:28:19.84,Default,,0,0,0,,como que entras en una contemplación\Nsólo que es como si todo esto fuera
+Dialogue: 0,0:28:19.84,0:28:24.55,Default,,0,0,0,,sucediendo aquí pero en realidad estás\Ncontemplando
+Dialogue: 0,0:28:24.55,0:28:29.67,Default,,0,0,0,,uh la tranquilidad aquí o el\N>> ni siquiera lo estás contemplando, estás
+Dialogue: 0,0:28:29.67,0:28:31.20,Default,,0,0,0,,siendolo\N>> correcto
+Dialogue: 0,0:28:31.20,0:28:35.76,Default,,0,0,0,,>> mientras estamos hablando ahora mi mente está\Nsilencioso
+Dialogue: 0,0:28:35.76,0:28:44.15,Default,,0,0,0,,>> la locución está haciendo su locución\Nautónomamente yo mismo
+Dialogue: 0,0:28:44.15,0:28:49.44,Default,,0,0,0,,No estoy pensando ni siquiera me interesa.\Nal pensar me refiero a pensar que esto sería
+Dialogue: 0,0:28:49.44,0:28:54.79,Default,,0,0,0,,perturbar la paz interior y el silencio para\Nla conversación está sucediendo en el
+Dialogue: 0,0:28:54.79,0:29:00.64,Default,,0,0,0,,La superficie de la mente no es realmente quien yo\Nsoy o donde estoy en quien soy y donde
+Dialogue: 0,0:29:00.64,0:29:05.84,Default,,0,0,0,,Estoy en ni siquiera aquí y ahora te lo digo.\Nla verdad no tiene lugar en el tiempo ni
+Dialogue: 0,0:29:05.84,0:29:08.32,Default,,0,0,0,,posición o lugar\N>> Entonces, ¿dirías que eres una especie de
+Dialogue: 0,0:29:08.32,0:29:14.15,Default,,0,0,0,,entrenar tu mente para hacer esto y eso es\Npor qué siempre nos dices que vayamos a contemplar
+Dialogue: 0,0:29:14.15,0:29:17.84,Default,,0,0,0,,um sabes cuando dices sabes decir\Ntienes un verso
+Dialogue: 0,0:29:17.84,0:29:21.12,Default,,0,0,0,,>> di que estas haciendo el curso de los milagros\Ny tienes ese verso para ese día
+Dialogue: 0,0:29:21.12,0:29:25.03,Default,,0,0,0,,>> y se supone que debes repetir ese verso\Nuna y otra vez. Entonces en otras palabras
+Dialogue: 0,0:29:25.03,0:29:28.39,Default,,0,0,0,,mientras lo haces\N>> leer o hacer algo más que
+Dialogue: 0,0:29:28.39,0:29:32.00,Default,,0,0,0,,El verso está en el fondo de tu mente y\NSigues repitiendo eso una y otra vez.
+Dialogue: 0,0:29:32.00,0:29:35.36,Default,,0,0,0,,encima. Entonces en realidad estás tratando de\Ndivide tu mente en dos diferentes
+Dialogue: 0,0:29:35.36,0:29:40.00,Default,,0,0,0,,secciones para que puedas entrar en eso\Nalto lugar espiritual. es como si hubiera
+Dialogue: 0,0:29:40.00,0:29:45.67,Default,,0,0,0,,diferentes capas de la mente. lo mas\Nsuperficial y luego lo más profundo. ¿Y qué?
+Dialogue: 0,0:29:45.67,0:29:49.91,Default,,0,0,0,,Lo que pasa es que dejas ir la diversión.\Nporque lo que hace la mente es
+Dialogue: 0,0:29:49.91,0:29:53.36,Default,,0,0,0,,divirtiéndote todo el tiempo. Es divertido.\NEso es todo lo que está haciendo. te da esto
+Dialogue: 0,0:29:53.36,0:29:59.76,Default,,0,0,0,,narrativa larga y triste o esta aterradora\Nsobre el futuro y todo. Ah pero con
+Dialogue: 0,0:29:59.76,0:30:05.27,Default,,0,0,0,,dentro de toda la charla\Nuh es un silencio infinito.
+Dialogue: 0,0:30:05.27,0:30:10.32,Default,,0,0,0,,Dije que la gente tiene miedo de ese silencio.\Npor miedo a que caigan al vacío.
+Dialogue: 0,0:30:10.32,0:30:15.20,Default,,0,0,0,,Tienen miedo de caer en\Nel vacío y por lo tanto
+Dialogue: 0,0:30:15.20,0:30:20.79,Default,,0,0,0,,intentan encubrirlo. La manera más fácil\NLo describo desde una práctica clínica.
+Dialogue: 0,0:30:20.79,0:30:26.32,Default,,0,0,0,,punto de vista\Nes que el silencio no esta en secuencia
+Dialogue: 0,0:30:26.32,0:30:32.79,Default,,0,0,0,,con la mente. Está debajo de la mente\N>> debajo de toda esa charla como esta
+Dialogue: 0,0:30:32.79,0:30:37.84,Default,,0,0,0,,La mente está hablando ahora mismo. Bueno, eso es\Nsólo el servicio de la mente. lo real
+Dialogue: 0,0:30:37.84,0:30:43.36,Default,,0,0,0,,mente, cuanto más cerca de lo que soy estoy\Nsilencioso. Ni siquiera le interesa
+Dialogue: 0,0:30:43.36,0:30:49.44,Default,,0,0,0,,qué está pasando qué está pasando. es\Nsimplemente en un estado de eseidad y de seridad.
+Dialogue: 0,0:30:49.44,0:30:54.08,Default,,0,0,0,,Entonces, es como un gran coliseo vacío.\Nya sabes, y luego en la esquina de
+Dialogue: 0,0:30:54.08,0:30:59.03,Default,,0,0,0,,En el coliseo, hay algunas conversaciones.\Nencendido, pero soy consciente de que el coliseo está
+Dialogue: 0,0:30:59.03,0:31:05.27,Default,,0,0,0,,99,9% vacío. No pasa nada.\NEntonces debajo de las olas en la superficie
+Dialogue: 0,0:31:05.27,0:31:09.91,Default,,0,0,0,,del mar\Nel mar se hunde miles de pies de
+Dialogue: 0,0:31:09.91,0:31:15.20,Default,,0,0,0,,El silencio y esta conversación es sólo en\Nla superficie.
+Dialogue: 0,0:31:15.20,0:31:21.36,Default,,0,0,0,,Así es incluso mientras estoy hablando ahora incluso cuando\Nestás escuchando ahora es sólo la parte superior
+Dialogue: 0,0:31:21.36,0:31:27.52,Default,,0,0,0,,superficie de tu mente que está escuchando o\Npensando en ello. no me molestaría
+Dialogue: 0,0:31:27.52,0:31:33.67,Default,,0,0,0,,escuchándolo o pensando en ello en\Ntodo. Debajo de la escucha
+Dialogue: 0,0:31:33.67,0:31:38.55,Default,,0,0,0,,Es un silencio infinito. Y si le pregunto al\NRealmente eres lo que se acaba de decir, no lo harás.
+Dialogue: 0,0:31:38.55,0:31:45.03,Default,,0,0,0,,siquiera lo sé. Tu verdadero yo no lo sabe\Nlo que se acaba de decir. ni siquiera es
+Dialogue: 0,0:31:45.03,0:31:52.55,Default,,0,0,0,,involucrado. Si le digo al mar 600 pies\Nabajo, ¿qué acaba de pasar en el
+Dialogue: 0,0:31:52.55,0:32:00.96,Default,,0,0,0,,¿superficie? El mar dice, ¿a mí qué me importa?\NDonde vivo no hay olas.
+Dialogue: 0,0:32:00.96,0:32:03.44,Default,,0,0,0,,No hay pájaros volando por ahí.\N>> Está bien,
+Dialogue: 0,0:32:03.44,0:32:06.72,Default,,0,0,0,,>> no hay basura flotando en el\Nocéano.
+Dialogue: 0,0:32:06.72,0:32:11.91,Default,,0,0,0,,Lo que soy está quieto y no perturbado por\Ntodo lo que. Todo eso es superficial.
+Dialogue: 0,0:32:11.91,0:32:15.03,Default,,0,0,0,,va y viene con el viento y el\Nmareas.
+Dialogue: 0,0:32:15.03,0:32:20.79,Default,,0,0,0,,Así que este tipo de meditación\Ncontemplación el tipo de meditación que
+Dialogue: 0,0:32:20.79,0:32:27.76,Default,,0,0,0,,puedes hacer aunque seas\Nprocediendo en los acontecimientos diarios y tú una vez
+Dialogue: 0,0:32:27.76,0:32:31.91,Default,,0,0,0,,te entrenas que puedes\Nsiempre tenga esto debajo de la superficie y
+Dialogue: 0,0:32:31.91,0:32:37.36,Default,,0,0,0,,Puedes hacer esto aunque estés uh\Npreparar la cena o lavar
+Dialogue: 0,0:32:37.36,0:32:41.91,Default,,0,0,0,,>> correcto. Así que esta mente esta mente lo que el\NEl mundo llamaría a esto la mente lo está haciendo.
+Dialogue: 0,0:32:41.91,0:32:48.08,Default,,0,0,0,,ahora mismo mientras hablamos\Nmientras hablamos lo que realmente soy es
+Dialogue: 0,0:32:48.08,0:32:51.91,Default,,0,0,0,,imperturbable\Nsin obstáculos
+Dialogue: 0,0:32:51.91,0:32:54.88,Default,,0,0,0,,>> entonces dirías\N>> no lineal porque hablar es lineal
+Dialogue: 0,0:32:54.88,0:33:01.03,Default,,0,0,0,,cierto, estás conceptualizando\N>> y lo que somos no es lineal entonces
+Dialogue: 0,0:33:01.03,0:33:05.84,Default,,0,0,0,,tu yo infinito\NRealmente tampoco está escuchando, es solo
+Dialogue: 0,0:33:05.84,0:33:09.12,Default,,0,0,0,,nuestra habla que es escuchar a cada uno\Notro.
+Dialogue: 0,0:33:09.12,0:33:13.36,Default,,0,0,0,,>> Entonces estás, estás, estás diciendo eso.\Nel espíritu mismo, aunque todos estos
+Dialogue: 0,0:33:13.36,0:33:16.88,Default,,0,0,0,,pasan cosas en tu vida, todas estas,\Nya sabes, diferentes eventos suceden en
+Dialogue: 0,0:33:16.88,0:33:21.76,Default,,0,0,0,,tu vida, el verdadero espíritu, realmente\Nno lo afecta como el como el
+Dialogue: 0,0:33:21.76,0:33:25.91,Default,,0,0,0,,profundidad del mar, tu espíritu no está\Nafectado por todo esto que esta pasando
+Dialogue: 0,0:33:25.91,0:33:29.20,Default,,0,0,0,,aquí en la cima.\N>> Sólo se estropea cuando
+Dialogue: 0,0:33:29.20,0:33:33.44,Default,,0,0,0,,se identifica con eso y piensa que quien\Nes quien es.
+Dialogue: 0,0:33:33.44,0:33:40.00,Default,,0,0,0,,cuando piensa que yo soy el yo\N>> con el pequeño yo
+Dialogue: 0,0:33:40.00,0:33:45.20,Default,,0,0,0,,>> si se identifica con él entonces obtiene\Nen mal estado, pero el yo real con un
+Dialogue: 0,0:33:45.20,0:33:49.27,Default,,0,0,0,,La capital S ni siquiera está interesada en tales\Ncosas
+Dialogue: 0,0:33:49.27,0:33:53.60,Default,,0,0,0,,no hay nada que ganar y\NNo hay nada que perder, ¿por qué sería así?
+Dialogue: 0,0:33:53.60,0:33:58.15,Default,,0,0,0,,interesado\Nno necesita novedad
+Dialogue: 0,0:33:58.15,0:34:02.64,Default,,0,0,0,,>> porque solo el ego quiere constante\Ndiversión
+Dialogue: 0,0:34:03.76,0:34:09.35,Default,,0,0,0,,Entonces ves cómo la mente teme.\N>> uh aburrimiento.
+Dialogue: 0,0:34:09.35,0:34:13.11,Default,,0,0,0,,Creo que lo que odia peor es que nada.\Nestá sucediendo.
+Dialogue: 0,0:34:13.11,0:34:18.32,Default,,0,0,0,,Alguien dice lo que esta pasando y yo digo\NBueno, para decirte la verdad, uh absolutamente.
+Dialogue: 0,0:34:18.32,0:34:25.35,Default,,0,0,0,,nada.\N>> Bien, eso lo explica. yo siempre fui
+Dialogue: 0,0:34:25.35,0:34:30.80,Default,,0,0,0,,preguntándome cómo es que lo sabes. entonces\Nen realidad es como 27 Tú enseñas
+Dialogue: 0,0:34:30.80,0:34:35.28,Default,,0,0,0,,tú mismo para tener esta contemplación, pero\Ncon el que todavía puedes lidiar todos los días
+Dialogue: 0,0:34:35.28,0:34:40.07,Default,,0,0,0,,aquí en la superficie, pero aún así\Nconstantemente están contemplando
+Dialogue: 0,0:34:40.07,0:34:46.00,Default,,0,0,0,,el yo espiritual debajo de eso\N>> a la identificación con el infinito
+Dialogue: 0,0:34:46.00,0:34:50.39,Default,,0,0,0,,realidad\N>> debajo de la mente y el pensamiento y
+Dialogue: 0,0:34:50.39,0:34:55.04,Default,,0,0,0,,la personalidad y todo\N>> para no perder eso de vista. para no perder
+Dialogue: 0,0:34:55.04,0:34:58.72,Default,,0,0,0,,vista de eso.\N>> Vaya. Aprendí algo.
+Dialogue: 0,0:34:58.72,0:35:08.32,Default,,0,0,0,,Felicidades.\N>> No, no quiero tu tranquilidad
+Dialogue: 0,0:35:08.32,0:35:11.28,Default,,0,0,0,,perturbado.\N>> Está bien.
+Dialogue: 0,0:35:11.28,0:35:14.07,Default,,0,0,0,,>> No quiero la tranquilidad de nadie\Nperturbado.
+Dialogue: 0,0:35:14.07,0:35:19.44,Default,,0,0,0,,>> Bueno, no lo es. Es solo que estamos\Npermitiendo que todas las cosas externas prueben
+Dialogue: 0,0:35:19.44,0:35:23.44,Default,,0,0,0,,y, ya sabes, estamos tratando de filtrarlo\Ncompletamente.
+Dialogue: 0,0:35:23.44,0:35:28.07,Default,,0,0,0,,>> Está bien. Entonces, la libertad viene con la\Ndarse cuenta de que no es necesario. el
+Dialogue: 0,0:35:28.07,0:35:31.52,Default,,0,0,0,,la persona promedio piensa, bueno, tengo que\Nestar molesto por lo que dijo mi madre o mi
+Dialogue: 0,0:35:31.52,0:35:35.92,Default,,0,0,0,,suegra dijo, lo que el gobierno\Ndijo, o dijo algún político.
+Dialogue: 0,0:35:35.92,0:35:39.28,Default,,0,0,0,,>> Ya sabes, es como si estuvieras obligado.\N>> Mmm.
+Dialogue: 0,0:35:39.28,0:35:44.24,Default,,0,0,0,,>> Y podrías liberarte de eso\Nobligación presuntiva.
+Dialogue: 0,0:35:44.24,0:35:50.07,Default,,0,0,0,,Le pregunté a alguien, ¿alguna vez has tomado un\NPromete quedarte, sabes servir al
+Dialogue: 0,0:35:50.07,0:35:55.76,Default,,0,0,0,,ego, para ser su sirviente?\NNo.
+Dialogue: 0,0:35:55.76,0:36:00.64,Default,,0,0,0,,Bueno, la gente lo sigue como si\Nera un voto y que su vida dependía
+Dialogue: 0,0:36:00.64,0:36:07.68,Default,,0,0,0,,en ello. Ya sabes,\N>> es posible apagar el televisor y
+Dialogue: 0,0:36:07.68,0:36:15.76,Default,,0,0,0,,aún sobrevive.\N>> Sí, pero entonces podría aburrirme. Oh dios,
+Dialogue: 0,0:36:15.76,0:36:20.40,Default,,0,0,0,,entonces tal vez me aburra. Puedes ver eso\Nla mente va a decir instantáneamente,
+Dialogue: 0,0:36:20.40,0:36:26.72,Default,,0,0,0,,"Sí, pero entonces me aburriré".\NEl aburrimiento es la forma en que es la forma en que
+Dialogue: 0,0:36:26.72,0:36:32.07,Default,,0,0,0,,El ego mira la nada.\Ncomo aburrimiento.
+Dialogue: 0,0:36:32.07,0:36:35.83,Default,,0,0,0,,Bueno, incluso cuando miras televisión, muchas\Nveces dices: "Oh, solo quiero girar
+Dialogue: 0,0:36:35.83,0:36:41.04,Default,,0,0,0,,en la televisión y solo verduras,\Nya sabes, y todo esto está sonando
+Dialogue: 0,0:36:41.04,0:36:45.35,Default,,0,0,0,,en la tele así y tú y yo pensamos\NSi siquiera me preguntaras qué programa es
+Dialogue: 0,0:36:45.35,0:36:50.07,Default,,0,0,0,,fue, no podría decírtelo porque no lo soy\Nes como sin sentido
+Dialogue: 0,0:36:50.07,0:36:57.72,Default,,0,0,0,,A veces hay charlas de fondo."\NCamioneros de la carretera de hielo. ¿Qué es?
+Dialogue: 0,0:36:58.96,0:37:06.24,Default,,0,0,0,,>> A Dave le encantan los camioneros de Ice Road.\N>> No tienes que pensar en absoluto.
+Dialogue: 0,0:37:06.24,0:37:12.88,Default,,0,0,0,,Y estos tipos grandes y corpulentos simplemente hacen lo suyo.\Ngran cosa corpulenta de Alaska. Cocina todo.
+Dialogue: 0,0:37:12.88,0:37:17.76,Default,,0,0,0,,Y puedes ver el mismo programa\Nuna y otra vez y nunca te aburrirás. yo
+Dialogue: 0,0:37:17.76,0:37:21.68,Default,,0,0,0,,No sé de qué se trata Ice Roads\NCamionero.
+Dialogue: 0,0:37:21.68,0:37:25.35,Default,,0,0,0,,He visto algunos de los mismos episodios.\Ncinco, seis veces y nunca me aburro
+Dialogue: 0,0:37:25.35,0:37:29.83,Default,,0,0,0,,él.\NAlex viene y es todo músculos y
+Dialogue: 0,0:37:29.83,0:37:34.24,Default,,0,0,0,,tatuajes\N>> y es muy religioso, muy católico.
+Dialogue: 0,0:37:34.24,0:37:37.83,Default,,0,0,0,,>> Me gusta Álex. el es un\N>> y
+Dialogue: 0,0:37:37.83,0:37:40.40,Default,,0,0,0,,Luego el sacerdote bendice a Alex.\N>> Sí.
+Dialogue: 0,0:37:40.40,0:37:43.28,Default,,0,0,0,,>> Porque tiene toda una familia y\Nniños.
+Dialogue: 0,0:37:43.28,0:37:47.76,Default,,0,0,0,,>> Es un buen católico.\N>> Sí. Católico muy grande. Y él hace
+Dialogue: 0,0:37:47.76,0:37:52.64,Default,,0,0,0,,No hay dudas al respecto. Así que si lo amas,\Ntú también amas su catolicismo.
+Dialogue: 0,0:37:52.64,0:37:58.40,Default,,0,0,0,,>> Y luego tienes el oso, que es como\Nun tipo grande y corpulento que es como un pitido
+Dialogue: 0,0:37:58.40,0:38:04.00,Default,,0,0,0,,pitido\Nmientras habla.
+Dialogue: 0,0:38:04.00,0:38:11.44,Default,,0,0,0,,Están emitiendo un pitido.\N>> Sí. Su lengua, los camioneros.
+Dialogue: 0,0:38:11.44,0:38:13.35,Default,,0,0,0,,están tan llenos de\N>> camioneros,
+Dialogue: 0,0:38:13.35,0:38:19.44,Default,,0,0,0,,>> palabrotas que es como todo\NSe oyó otra palabra, ¿sabes?
+Dialogue: 0,0:38:19.44,0:38:25.72,Default,,0,0,0,,Como en el servicio, ya sabes, cuando\Npasa el café de ya sabes,
+Dialogue: 0,0:38:27.28,0:38:32.32,Default,,0,0,0,,>> no hay café. solo hay\NMaldito café. tu
+Dialogue: 0,0:38:32.32,0:38:36.32,Default,,0,0,0,,y el maldito pan y el maldito pan\Nmantequilla y
+Dialogue: 0,0:38:36.32,0:38:42.24,Default,,0,0,0,,es solo parte de la jerga de eso que\NUna especie de mundo machista, ya sabes.
+Dialogue: 0,0:38:42.24,0:38:49.76,Default,,0,0,0,,>> Sí,\N>> eso es sólo parte de la jerga. Entonces, entonces
+Dialogue: 0,0:38:49.76,0:38:54.32,Default,,0,0,0,,ahora que sabemos contemplar y\Nsabemos como
+Dialogue: 0,0:38:54.32,0:38:59.83,Default,,0,0,0,,Canalizar nuestra mente en diferentes direcciones.\Ny em
+Dialogue: 0,0:38:59.83,0:39:03.83,Default,,0,0,0,,Hemos discutido qué más quieres hacer.\N¿conversar?
+Dialogue: 0,0:39:03.83,0:39:08.00,Default,,0,0,0,,>> Oh nada.\N>> La nada. Bueno.
+Dialogue: 0,0:39:08.00,0:39:12.00,Default,,0,0,0,,>> Acabo de completar mi tesis\Nsobre la nada.
+Dialogue: 0,0:39:12.00,0:39:16.48,Default,,0,0,0,,>> Sí.\N>> Acabo de hacerlo.
+Dialogue: 0,0:39:16.48,0:39:20.00,Default,,0,0,0,,Bueno, lo hicimos, ya sabes, hemos hecho esto.\NDiálogo antes y lo hicimos en oración.
+Dialogue: 0,0:39:20.00,0:39:22.32,Default,,0,0,0,,y lo hicimos por culpa.\N>> Sí.
+Dialogue: 0,0:39:22.32,0:39:26.56,Default,,0,0,0,,>> Ya sabes, y lo hemos hecho en esto y\Nentonces estaba tratando de pensar en algo
+Dialogue: 0,0:39:26.56,0:39:32.35,Default,,0,0,0,,demás. ¿Hay algo más que alguien\N¿Le gustaría que dialogáramos?
+Dialogue: 0,0:39:39.68,0:39:44.40,Default,,0,0,0,,>> Um, la pregunta es, ¿tienes que irte?\Nal vacío o puedes saltarte
+Dialogue: 0,0:39:44.40,0:39:49.92,Default,,0,0,0,,el vacío? No puedes pasar por encima porque\Nno hay nada que pasar por alto porque
+Dialogue: 0,0:39:49.92,0:39:56.76,Default,,0,0,0,,esta vacío\Ny no hay nadie a quien pasar por encima.
+Dialogue: 0,0:39:58.96,0:40:04.32,Default,,0,0,0,,>> Entonces tienes que ir allí, ¿verdad?\N>> Es un estado del camino de la negación.
+Dialogue: 0,0:40:04.32,0:40:08.64,Default,,0,0,0,,te lleva allí\N>> en el que no hay nadie, nada
+Dialogue: 0,0:40:08.64,0:40:12.88,Default,,0,0,0,,observar que no pasa nada y\Nni está formado ni
+Dialogue: 0,0:40:12.88,0:40:16.40,Default,,0,0,0,,informe.\Ny
+Dialogue: 0,0:40:16.40,0:40:20.88,Default,,0,0,0,,la persona promedio que llega allí\Nlo considera un estado de iluminación.
+Dialogue: 0,0:40:20.88,0:40:26.56,Default,,0,0,0,,Creen que este es el Estado porque\NSe parece mucho a lo que han oído.
+Dialogue: 0,0:40:26.56,0:40:32.16,Default,,0,0,0,,o leyó sobre ello o creyó sobre ello\Nque este debe ser el estado de
+Dialogue: 0,0:40:32.16,0:40:36.56,Default,,0,0,0,,iluminación que el Buda y todos\Nhablar de.
+Dialogue: 0,0:40:36.56,0:40:41.28,Default,,0,0,0,,la unica manera\Nestaba el conocimiento de que eso era
+Dialogue: 0,0:40:41.28,0:40:48.24,Default,,0,0,0,,no el estado último estaba en el\Nbanco de nieve cuando era niño cuando era yo como un
+Dialogue: 0,0:40:48.24,0:40:54.56,Default,,0,0,0,,adolescente.\NTodo se detuvo en silencio
+Dialogue: 0,0:40:54.56,0:41:00.16,Default,,0,0,0,,y todo era infinito más allá de todo\Ntiempo sin principio ni fin.
+Dialogue: 0,0:41:00.16,0:41:07.20,Default,,0,0,0,,Pero estaba irradiado por un amor tan\Nperfección y dimensión.
 Dialogue: 0,0:41:07.20,0:41:13.35,Default,,0,0,0,,Fue la infusión de amor infinito.\NEn ese momento, tienes permiso para
-Dialogue: 0,0:41:13.35,0:41:16.72,Default,,0,0,0,,abandonar el cuerpo.  Y cada vez que se\Nrepite,
-Dialogue: 0,0:41:16.72,0:41:22.72,Default,,0,0,0,,eh, está la tentación, el deseo\Ny el permiso para abandonar el cuerpo.
-Dialogue: 0,0:41:22.72,0:41:26.24,Default,,0,0,0,,Una vez sucedió justo durante una\Nclase.  Estaba caminando por el pasillo.
-Dialogue: 0,0:41:26.24,0:41:30.40,Default,,0,0,0,,Fue en una de nuestras clases.\NEl estado se encendió
-Dialogue: 0,0:41:30.40,0:41:35.11,Default,,0,0,0,,y un pequeño rincón de la mente\Nque permití sobrevivir dijo: ahora eso
-Dialogue: 0,0:41:35.11,0:41:38.48,Default,,0,0,0,,va a ser ridículo, te\Nderrumbaste y moriste justo delante de
-Dialogue: 0,0:41:38.48,0:41:57.28,Default,,0,0,0,,toda tu audiencia, ¿\Nqué clase de profesor sería ese?, empezaría, empezaría a
-Dialogue: 0,0:41:57.28,0:42:02.24,Default,,0,0,0,,pero esos estados y vamos.\NOcurrió otra vez cuando me corté el
-Dialogue: 0,0:42:02.24,0:42:08.96,Default,,0,0,0,,pulgar y me quedé tirado en el suelo.\NY en ese momento oí a los ángeles
-Dialogue: 0,0:42:08.96,0:42:14.80,Default,,0,0,0,,cantar en el coro de los milagros.\NEstaba allí tumbado y tenía permiso
-Dialogue: 0,0:42:14.80,0:42:22.72,Default,,0,0,0,,para irme y oí como un\Ncoro que cantaba en mi mente, un coro angelical que
-Dialogue: 0,0:42:22.72,0:42:27.76,Default,,0,0,0,,decía: No soy un cuerpo.  Soy un espíritu.  Yo\Nno soy un cuerpo.
-Dialogue: 0,0:42:27.76,0:42:33.11,Default,,0,0,0,,eh, para reforzar que tenía\Npermiso para abandonar el cuerpo.
-Dialogue: 0,0:42:33.11,0:42:36.88,Default,,0,0,0,,Pero pensé en aquellos que aún\Ndependían de mí y decidí volver a respirar
-Dialogue: 0,0:42:36.88,0:42:42.40,Default,,0,0,0,,.  Y cada vez que ha sucedido, cuando ha\Nsucedido con mi padre, no podía
-Dialogue: 0,0:42:42.40,0:42:48.96,Default,,0,0,0,,dejar que mi padre pensara que por su culpa\Nyo había muerto en la nieve, en el hielo.  Eh, entonces volví a
-Dialogue: 0,0:42:48.96,0:42:55.11,Default,,0,0,0,,respirar.  Y una vez lo hice\Ncon un practicante de renacimiento llamado Ren.
-Dialogue: 0,0:42:55.11,0:43:00.40,Default,,0,0,0,,Y de nuevo prevaleció el mismo estado y\Npensé que tendría que respirar de nuevo, de lo
-Dialogue: 0,0:43:00.40,0:43:07.28,Default,,0,0,0,,contrario Ren pensaría que su primer\Ncliente de renacimiento murió por su culpa
-Dialogue: 0,0:43:07.28,0:43:12.00,Default,,0,0,0,,y se quedaría atrapado con la culpa.   Eso, en cierto modo, arruinaría\Nsu
-Dialogue: 0,0:43:12.00,0:43:27.83,Default,,0,0,0,,negocio de renacimiento y lo mandaría al infierno.\Npermitía que el amor se convirtiera en un
-Dialogue: 0,0:43:27.83,0:43:32.96,Default,,0,0,0,,apego y sabía que lo estaba\Npermitiendo, pero estaba permitiendo que el amor
-Dialogue: 0,0:43:32.96,0:43:39.20,Default,,0,0,0,,actuara en forma de desapego.\NNo estaba obligado a hacerlo.  Fue una
-Dialogue: 0,0:43:39.20,0:43:42.24,Default,,0,0,0,,elección.\NAsí que cuando entras en esto,
-Dialogue: 0,0:43:42.24,0:43:46.40,Default,,0,0,0,,si realmente estuviera iluminado, los habría dejado a\Ntodos sentir culpables.
-Dialogue: 0,0:43:46.40,0:43:49.28,Default,,0,0,0,,Buena respiración.  Deja el mundo y la\Nculpa será tu problema, amigo.
-Dialogue: 0,0:43:49.28,0:43:53.35,Default,,0,0,0,,No, aún tenías trabajo que hacer.\NNo podías dejarnos todavía.  Bueno.  Si
-Dialogue: 0,0:43:53.35,0:43:56.07,Default,,0,0,0,,entras en el vacío.\NSí.   ¿
-Dialogue: 0,0:43:56.07,0:43:59.68,Default,,0,0,0,,Qué te saca de ese vacío?\NNada te detiene.
-Dialogue: 0,0:43:59.68,0:44:03.20,Default,,0,0,0,,Amar.   ¿\NEs amor lo que sientes cuando estás en
-Dialogue: 0,0:44:03.20,0:44:06.48,Default,,0,0,0,,ese vacío lo que te impulsa a salir adelante\N?  ¿Qué te ayuda a salir adelante
-Dialogue: 0,0:44:06.48,0:44:11.52,Default,,0,0,0,,?   Lo\Nrechazo como estado absoluto.
-Dialogue: 0,0:44:11.52,0:44:14.07,Default,,0,0,0,,Bien.   He\Ncaído en el vacío muchas veces.
-Dialogue: 0,0:44:14.07,0:44:17.28,Default,,0,0,0,,Llegué a esta vida ya en\Nel vacío
-Dialogue: 0,0:44:17.28,0:44:22.72,Default,,0,0,0,,y entonces tuve la experiencia de la\Ntotalidad.  ¿Ves? Eso no es nada.  Lo
-Dialogue: 0,0:44:22.72,0:44:29.44,Default,,0,0,0,,opuesto a la nada es la totalidad.  Así pues, la\Nnada es el vacío.  Pero la totalidad
-Dialogue: 0,0:44:29.44,0:44:35.04,Default,,0,0,0,,incluye el amor de Dios,\Ncuyo resplandor es abrumadoramente profundo,
-Dialogue: 0,0:44:35.04,0:44:42.56,Default,,0,0,0,,más allá del tiempo, más allá de toda limitación\Ny para siempre.  Por lo tanto, la ausencia de
-Dialogue: 0,0:44:42.56,0:44:49.04,Default,,0,0,0,,ese amor divino infinito es la razón por la que\Nrechacé el vacío la última vez que se presentó
-Dialogue: 0,0:44:49.04,0:44:52.31,Default,,0,0,0,,.\NBueno.  Entonces, cuando estás en el vacío, ¿qué
-Dialogue: 0,0:44:52.31,0:44:57.04,Default,,0,0,0,,buscas para llegar al otro lado?\NPara superar el vacío,
-Dialogue: 0,0:44:57.04,0:45:01.35,Default,,0,0,0,,no hay nada que tú debas hacer.  Ya lo\Nsé, pero ¿qué es lo que buscas?  ¿Cuál es
-Dialogue: 0,0:45:01.35,0:45:06.24,Default,,0,0,0,,el detonante?  ¿Qué palabra clave nos puedes\Ndar para decir "Oh, sí"?  Bueno, ya estoy
-Dialogue: 0,0:45:06.24,0:45:10.96,Default,,0,0,0,,allí, en el vacío.  ¿Qué hacemos, ya sabes, cómo\Noramos?  ¿Qué hacemos?
-Dialogue: 0,0:45:10.96,0:45:17.28,Default,,0,0,0,,No, ya les he dicho a todos cómo\Nsuperar los 850. Es decir, rechazándolo.  Y
-Dialogue: 0,0:45:17.28,0:45:25.20,Default,,0,0,0,,en lugar de la nada y el vacío,\Nmasticad la plenitud del amor de Dios.
-Dialogue: 0,0:45:25.20,0:45:28.07,Default,,0,0,0,,Totalidad.\NPor lo tanto, Dios no es la nada.  Dios es
-Dialogue: 0,0:45:28.07,0:45:32.88,Default,,0,0,0,,omnisciencia.\NEntonces el vacío es que no hay nada.  ¿Ver?
-Dialogue: 0,0:45:32.88,0:45:36.24,Default,,0,0,0,,Sí.\NY los fenómenos ocurren por sí mismos,
-Dialogue: 0,0:45:36.24,0:45:40.56,Default,,0,0,0,,pero todos son simplemente fenomenales.  Y\Npuedes ver que solo son fenómenos.  No
-Dialogue: 0,0:45:40.56,0:45:44.07,Default,,0,0,0,,tienen, no tienen otra realidad\Nque su
-Dialogue: 0,0:45:44.07,0:45:50.96,Default,,0,0,0,,fenomenalidad transitoria.  Podría decirse que existe\Nuna realidad superior.
-Dialogue: 0,0:45:50.96,0:45:56.07,Default,,0,0,0,,La realidad más elevada es aquella en la que el\Namor de Dios lo reemplaza todo y lo es
-Dialogue: 0,0:45:56.07,0:46:02.56,Default,,0,0,0,,todo, sin principio ni fin.\NY a menos que ese estado exista,
-Dialogue: 0,0:46:02.56,0:46:10.16,Default,,0,0,0,,no es el estado definitivo.  Sí.  Así pues, el\Nestado infinito es la totalidad.  Resistir.
-Dialogue: 0,0:46:10.16,0:46:11.04,Default,,0,0,0,,Gracias.\NBueno.
-Dialogue: 0,0:46:11.04,0:46:17.59,Default,,0,0,0,,El estado infinito es la totalidad en la que\Nirradia la presencia de Dios.
-Dialogue: 0,0:46:17.59,0:46:20.88,Default,,0,0,0,,Lo otro que acompaña a ese\Nresplandor
-Dialogue: 0,0:46:20.88,0:46:27.44,Default,,0,0,0,,es como el desvelamiento de\Ntodo lo que existe: la divinidad.
-Dialogue: 0,0:46:27.44,0:46:32.80,Default,,0,0,0,,En ese estado, la belleza de\Ntodo resulta abrumadoramente impresionante.
-Dialogue: 0,0:46:32.80,0:46:36.80,Default,,0,0,0,,Esta mesa, este mantel, incluso ahora, es\Nasí, y si permito que el estado
-Dialogue: 0,0:46:36.80,0:46:43.04,Default,,0,0,0,,continúe, no podré hablar porque\Nla belleza de cada cosa es infinita y
-Dialogue: 0,0:46:43.04,0:46:46.80,Default,,0,0,0,,abrumadora.   Quiero decir,\Nincluso ahora esto me está molestando mucho
-Dialogue: 0,0:46:46.80,0:47:27.92,Default,,0,0,0,,.  A menos que logre escapar de esto, quiero\Ndesaparecer en él.
-Dialogue: 0,0:47:27.92,0:47:33.68,Default,,0,0,0,,Verás, cuando empiezas a alcanzar estos\Nestados, como si no me protegiera ahora, lo que
-Dialogue: 0,0:47:33.68,0:47:41.11,Default,,0,0,0,,soy se disolverá en la\Ninfinita maravilla y alegría de ti y nos
-Dialogue: 0,0:47:41.11,0:47:46.31,Default,,0,0,0,,fusionaremos en uno solo y ya no habrá dos\Npersonas con las que dialogar.  Así que tengo que
-Dialogue: 0,0:47:46.31,0:47:51.59,Default,,0,0,0,,mantener\Nuna actitud mezquina y un tanto ingenua para que el
-Dialogue: 0,0:47:51.59,0:47:56.00,Default,,0,0,0,,diálogo pueda continuar.   Te voy a\Npellizcar.
-Dialogue: 0,0:47:56.00,0:48:23.28,Default,,0,0,0,,Oh, me encanta.\NPellízcame, cariño.  Sé que
-Dialogue: 0,0:48:23.28,0:48:29.76,Default,,0,0,0,,?\NEsta flor expresa la belleza de Dios.
-Dialogue: 0,0:48:29.76,0:48:39.92,Default,,0,0,0,,Y quieres ir y arrugarlo.   Te voy a\Nretener aquí.
-Dialogue: 0,0:48:39.92,0:48:44.64,Default,,0,0,0,,empiezas a darte cuenta, a medida que te das cuenta,\Nde que la mente siempre te está arrastrando hacia
-Dialogue: 0,0:48:44.64,0:48:47.59,Default,,0,0,0,,atrás, pero no tienes por qué dejar que lo haga.   ¿\NBueno?
-Dialogue: 0,0:48:47.59,0:48:51.11,Default,,0,0,0,,No tienes por qué permitirlo.  Es una\Nopción.  Mira, porque por lo que
-Dialogue: 0,0:48:51.11,0:48:53.52,Default,,0,0,0,,decías antes, parece que estás\Natado a eso, ¿
-Dialogue: 0,0:48:53.52,0:48:56.64,Default,,0,0,0,,verdad?\NNo, no estás obligado.  Una vez que te das cuenta
-Dialogue: 0,0:48:56.64,0:49:02.31,Default,,0,0,0,,de que tienes la libertad de estar de acuerdo con\Nello o rechazarlo,
-Dialogue: 0,0:49:02.31,0:49:09.11,Default,,0,0,0,,puedes seguir con esa\Nforma.  Así que puedes mantenerte
-Dialogue: 0,0:49:09.11,0:49:13.28,Default,,0,0,0,,en forma es validativo.  No tienes por qué mantener la\Nforma.
-Dialogue: 0,0:49:13.28,0:49:20.07,Default,,0,0,0,,No hay obligación\Nde ver las cosas como separadas o como
-Dialogue: 0,0:49:20.07,0:49:24.72,Default,,0,0,0,,con los adjetivos.  Eso no es una\Nobligación.  Pero la mente de alguna manera
-Dialogue: 0,0:49:24.72,0:49:31.76,Default,,0,0,0,,presume que está\Nobligada a hacer todas estas cosas y actuar
-Dialogue: 0,0:49:31.76,0:49:37.20,Default,,0,0,0,,de esta manera.  No es obligatorio.  Es una\Nopción.
-Dialogue: 0,0:49:37.20,0:50:01.44,Default,,0,0,0,,El micrófono puede apagarse en cualquier momento.\Nopción.  Está bien.
-Dialogue: 0,0:50:01.44,0:50:05.28,Default,,0,0,0,,Sí.\NEl primer impulso es que tengo que hacerla
-Dialogue: 0,0:50:05.28,0:50:09.28,Default,,0,0,0,,feliz, complacerla y hacer lo que ella\Nquiere que haga.  Al mismo tiempo, se
-Dialogue: 0,0:50:09.28,0:50:12.72,Default,,0,0,0,,reconoce que esa es simplemente\Nuna opción.
-Dialogue: 0,0:50:12.72,0:50:19.28,Default,,0,0,0,,Y bueno,\Nen cierto modo, es aceptar que hay
-Dialogue: 0,0:50:19.28,0:50:23.92,Default,,0,0,0,,una mayor libertad al lidiar\Ncon tu mente que lo que crees.  La
-Dialogue: 0,0:50:23.92,0:50:27.44,Default,,0,0,0,,persona promedio se ve a sí misma como\Nvíctima de la mente.
-Dialogue: 0,0:50:27.44,0:50:31.35,Default,,0,0,0,,No, no tienes por qué ser víctima de\Nla mente.  Eres víctima de la
-Dialogue: 0,0:50:31.35,0:50:35.83,Default,,0,0,0,,mente solo porque aceptas\Nserlo porque obtienes
-Dialogue: 0,0:50:35.83,0:50:40.07,Default,,0,0,0,,suficiente provecho de ella para que valga la\Npena.  indignación, autocompasión
-Dialogue: 0,0:50:40.07,0:50:47.11,Default,,0,0,0,,y grandilocuencia moral, ya sabes, salvar\Nel mundo, etc.
-Dialogue: 0,0:50:47.11,0:50:53.35,Default,,0,0,0,,Salvar las conchas marinas.\NBueno, ya sabes, todo el mundo quiere salvar
-Dialogue: 0,0:50:53.35,0:50:57.20,Default,,0,0,0,,el árbol, ya sabes, los ecologistas.\NSalvemos el árbol.
-Dialogue: 0,0:50:57.20,0:51:00.07,Default,,0,0,0,,Oh, ya lo sé.   Ya\Nsabes, quieren sentir
-Dialogue: 0,0:51:00.07,0:51:05.11,Default,,0,0,0,,que están haciendo un cambio.\NBueno, bueno, ya
-Dialogue: 0,0:51:05.11,0:51:11.59,Default,,0,0,0,,sabes, hay una cierta\Nsatisfacción personal al decir que ayudé a hacer
-Dialogue: 0,0:51:11.59,0:51:15.44,Default,,0,0,0,,ese cambio.  Ya sabes, ahí en un Y\Nahí vuelves al ego.   Sí
-Dialogue: 0,0:51:15.44,0:51:21.35,Default,,0,0,0,,, lo has entendido.   ¿\NCómo es posible que el bosque sobreviviera durante
-Dialogue: 0,0:51:21.35,0:51:31.35,Default,,0,0,0,,millones de años hasta que llegaste tú?\NOh, maravilloso amante de los árboles.
-Dialogue: 0,0:51:31.35,0:51:35.20,Default,,0,0,0,,Bueno, y luego dicen: "Bueno, lo\Nsalvamos de, ya sabes, las
-Dialogue: 0,0:51:35.20,0:51:38.96,Default,,0,0,0,,motosierras que iban a cortarlo\N. Sí. Sí.
-Dialogue: 0,0:51:38.96,0:51:43.44,Default,,0,0,0,,Pero si no fuera por las motosierras, ¿quién\Nplantaría un árbol nuevo? Nadie. Así que, la
-Dialogue: 0,0:51:43.44,0:51:47.92,Default,,0,0,0,,única forma en que los arbolitos renacen\Nes que alguien los corte y los venda".
-Dialogue: 0,0:51:47.92,0:51:54.00,Default,,0,0,0,,Mi padre tenía una plantación de árboles.  Y\Neh, tenía un montón de árboles en el norte de
-Dialogue: 0,0:51:54.00,0:51:59.20,Default,,0,0,0,,Wisconsin.  Ya sabes, 160 acres de árboles.\NEso son muchos árboles.
-Dialogue: 0,0:51:59.20,0:52:03.52,Default,,0,0,0,,Sí.  160 acres.  Todas deben ser\Ndesenterradas, plantadas y trasplantadas.
-Dialogue: 0,0:52:03.52,0:52:06.80,Default,,0,0,0,,Mhm.\NY eso mantuvo la industria en marcha, porque
-Dialogue: 0,0:52:06.80,0:52:10.40,Default,,0,0,0,,cortaban los árboles, pero\Ntambién replantaban un árbol por cada
-Dialogue: 0,0:52:10.40,0:52:14.80,Default,,0,0,0,,árbol que cortaban.   Sí\N, tenía una plantación de árboles.  Y la
-Dialogue: 0,0:52:14.80,0:52:18.64,Default,,0,0,0,,razón de plantar esos árboles era reemplazar\Nlos que habían sido talados por los
-Dialogue: 0,0:52:18.64,0:52:29.44,Default,,0,0,0,,leñadores.\N, ¿verdad?  Oh,
-Dialogue: 0,0:52:29.44,0:52:32.07,Default,,0,0,0,,creo que todo el mundo debería plantar algunos\Nárboles en algún lugar.
-Dialogue: 0,0:52:32.07,0:52:35.44,Default,,0,0,0,,Oh, estoy de acuerdo.\NCultívalas en tu ventana.  Ya sabes,
-Dialogue: 0,0:52:35.44,0:52:38.24,Default,,0,0,0,,empiezas con un arbolito, ¿sabes?, y\Nluego se convierte en un
-Dialogue: 0,0:52:38.24,0:52:47.35,Default,,0,0,0,,árbol cada vez más grande y más grande, y luego se lo das a\Ntu suegra para el Día de la Madre
-Dialogue: 0,0:52:47.35,0:52:52.88,Default,,0,0,0,,Sí.  Haz que a tu primo le guste, ponlo para él\N.   Está bien
-Dialogue: 0,0:52:52.88,0:52:58.55,Default,,0,0,0,,.  Entonces, lo\Ninteresante es darse cuenta de que tienes
-Dialogue: 0,0:52:58.55,0:53:04.16,Default,,0,0,0,,mucha más libertad y opción de no\Nser controlado por
-Dialogue: 0,0:53:04.16,0:53:08.88,Default,,0,0,0,,tus pensamientos, al permitirte ser dominado por ellos\N.   La
-Dialogue: 0,0:53:08.88,0:53:13.59,Default,,0,0,0,,gente se deja\Ndominar por el egoísmo de la
-Dialogue: 0,0:53:13.59,0:53:16.96,Default,,0,0,0,,mentalización\Ny no se da cuenta de que tiene la
-Dialogue: 0,0:53:16.96,0:53:23.76,Default,,0,0,0,,libertad de rechazarlo.\NTienes la libertad de dejar de pensar.
-Dialogue: 0,0:53:23.76,0:53:28.40,Default,,0,0,0,,Y si te pregunto qué sabes,\Nrespondes honestamente que en
-Dialogue: 0,0:53:28.40,0:53:34.16,Default,,0,0,0,,realidad no sé nada.\NLa única manera de conocer algo de verdad es
-Dialogue: 0,0:53:34.16,0:53:39.11,Default,,0,0,0,,serlo.\NAsí que no conozco esas puertas de allí.   Tendría que
-Dialogue: 0,0:53:39.11,0:53:44.96,Default,,0,0,0,,ser ellos para conocerlos, porque\Nel único conocimiento verdadero se obtiene a través de la
-Dialogue: 0,0:53:44.96,0:53:48.55,Default,,0,0,0,,identidad.\NComo ya he señalado en mi historia sobre
-Dialogue: 0,0:53:48.55,0:53:51.59,Default,,0,0,0,,el gato, solo el gato sabe lo que es un gato\N.   ¿
-Dialogue: 0,0:53:51.59,0:53:56.40,Default,,0,0,0,,Era allí donde transcurría el antiguo y sabio paseo\N?  No deberías criticar hasta que no te
-Dialogue: 0,0:53:56.40,0:53:58.40,Default,,0,0,0,,pongas en su lugar, ¿sabes?   ¿\NAh,
-Dialogue: 0,0:53:58.40,0:54:02.16,Default,,0,0,0,,es de ahí de donde viene esa vieja frase?\NSin duda, tiene algo que ver con eso, ¿
-Dialogue: 0,0:54:02.16,0:54:05.35,Default,,0,0,0,,no?  Sí.\NPorque, ya sabes, dicen que nunca hay que
-Dialogue: 0,0:54:05.35,0:54:07.76,Default,,0,0,0,,criticar a otra persona hasta que no te hayas puesto\Nen su lugar.   Me puse
-Dialogue: 0,0:54:07.76,0:54:12.40,Default,,0,0,0,,en su lugar.  Sí.\NEse es un antiguo dicho de los nativos americanos.
-Dialogue: 0,0:54:12.40,0:54:15.28,Default,,0,0,0,,Sí.\NOh, creo que eran mocasines.
-Dialogue: 0,0:54:15.28,0:54:25.76,Default,,0,0,0,,Mocasines.\Nsentido, ¿sabes?
-Dialogue: 0,0:54:25.76,0:54:30.72,Default,,0,0,0,,Entonces, eh, tal vez\Ntodos deberíamos tener un poco más de
-Dialogue: 0,0:54:30.72,0:54:34.64,Default,,0,0,0,,compasión por las personas que nos rodean\N.
-Dialogue: 0,0:54:34.64,0:54:45.04,Default,,0,0,0,,Sí.  Experimental en lugar de perceptivo\Nverdad?  es su realidad en lugar de tu
-Dialogue: 0,0:54:45.04,0:54:47.04,Default,,0,0,0,,percepción de esa realidad.   ¿\NBien?
-Dialogue: 0,0:54:47.04,0:54:52.00,Default,,0,0,0,,Esa es la diferencia entre conocer la\Nesencia y la apariencia.
-Dialogue: 0,0:54:52.00,0:54:58.24,Default,,0,0,0,,Entonces, la mente verdadera se ocupa de la\Nrealidad de la esencia y se desprende de las
-Dialogue: 0,0:54:58.24,0:55:08.80,Default,,0,0,0,,apariencias porque sabe que es demasiado\Nsofisticada para dejarse engañar por ellas
-Dialogue: 0,0:55:08.80,0:55:12.07,Default,,0,0,0,,Así que puedes saber que te pueden\Ndecir lo maravilloso que
-Dialogue: 0,0:55:12.07,0:55:17.68,Default,,0,0,0,,es este medicamento.  Al mismo tiempo, te das cuenta de que,\Nfrancamente, te matará.  Al mismo tiempo,
-Dialogue: 0,0:55:17.68,0:55:22.72,Default,,0,0,0,,captaron al niño en bicicleta y al\Nperro ladrando feliz con la cola meneándose,
-Dialogue: 0,0:55:22.72,0:55:25.28,Default,,0,0,0,,que es el mensaje.\NMhm.
-Dialogue: 0,0:55:25.28,0:55:30.31,Default,,0,0,0,,Ese es el mensaje.\NSi se trata de un niño inocente montando en
-Dialogue: 0,0:55:30.31,0:55:38.00,Default,,0,0,0,,bicicleta con un perro feliz que ladra.\NNo. Francamente, es letal.
-Dialogue: 0,0:55:38.00,0:55:42.40,Default,,0,0,0,,Por supuesto, es letal y podría\Nmatarte y podrías quedarte ciego y mudo y
-Dialogue: 0,0:55:42.40,0:55:48.55,Default,,0,0,0,,todo eso, pero guau guau guau guau guau, ya\Nsabes, es muy difícil.  Estamos
-Dialogue: 0,0:55:48.55,0:55:57.11,Default,,0,0,0,,bombardeados por anuncios y mensajes, y\Nmensajes sobre mensajes, y
-Dialogue: 0,0:55:57.11,0:56:01.04,Default,,0,0,0,,muchas veces es muy difícil discernir\N, ¿sabes?, pero cuando
-Dialogue: 0,0:56:01.04,0:56:07.11,Default,,0,0,0,,lo presentas, entonces es mucho más fácil de ver.  Quiero\Ndecir, los anuncios todos los días dicen: "Oh, compra esto. Lo
-Dialogue: 0,0:56:07.11,0:56:12.24,Default,,0,0,0,,curará todo, ¿sabes?", y\Nluego, cuando lo analizas, piensas:
-Dialogue: 0,0:56:12.24,0:56:16.64,Default,,0,0,0,,"Oh,\Neh,
-Dialogue: 0,0:56:16.64,0:56:21.83,Default,,0,0,0,,yo podría escribir anuncios mucho mejores".\NMe frustran mucho los
-Dialogue: 0,0:56:21.83,0:56:26.24,Default,,0,0,0,,departamentos de publicidad de muchas\Nempresas; podrían sacar mucho
-Dialogue: 0,0:56:26.24,0:56:32.79,Default,,0,0,0,,más provecho de su dinero.  Quiero decir,\Nrealmente consiguen, ya
-Dialogue: 0,0:56:32.79,0:56:35.11,Default,,0,0,0,,sabes,\Npagan una enorme cantidad de dinero y cuando
-Dialogue: 0,0:56:35.11,0:56:38.48,Default,,0,0,0,,ves lo ineficaz que es el anuncio, ya\Nsabes, el
-Dialogue: 0,0:56:38.48,0:56:44.24,Default,,0,0,0,,mundo entonces ya sabes, deberíamos\Nllevar todos los problemas y todo
-Dialogue: 0,0:56:44.24,0:56:47.28,Default,,0,0,0,,como una prenda ligera,\Ncreo que sí,
-Dialogue: 0,0:56:47.28,0:56:50.64,Default,,0,0,0,,y\Nolvidarnos de todo el dolor y el
-Dialogue: 0,0:56:50.64,0:56:53.52,Default,,0,0,0,,sufrimiento y saber que no vamos\Na cambiar eso, que ha estado en el
-Dialogue: 0,0:56:53.52,0:56:57.92,Default,,0,0,0,,mundo durante muchos, muchos años, ese es el\Nkarma de ser un ser humano.
-Dialogue: 0,0:56:57.92,0:57:03.44,Default,,0,0,0,,Pero podemos hacer que su sufrimiento sea tal vez más\Nfácil y eso es lo mejor que podemos
-Dialogue: 0,0:57:03.44,0:57:07.92,Default,,0,0,0,,hacer debido a su potencial kármico\Nsi aceptamos que así es como
-Dialogue: 0,0:57:07.92,0:57:13.92,Default,,0,0,0,,es el mundo y que el mundo en realidad está\Ncumpliendo su propósito todo el tiempo.
-Dialogue: 0,0:57:13.92,0:57:21.68,Default,,0,0,0,,Me refiero a que es evolutivo\Ny la voluntad de Dios se expresa a través
-Dialogue: 0,0:57:21.68,0:57:28.31,Default,,0,0,0,,del mundo y su evolución.\NAsí pues, la conciencia y la humanidad son todas
-Dialogue: 0,0:57:28.31,0:57:33.20,Default,,0,0,0,,evolutivas\Ny, al ser evolutivas, constituyen el
-Dialogue: 0,0:57:33.20,0:57:39.83,Default,,0,0,0,,cumplimiento perfecto de la voluntad de\NDios.  ¿Acaso no es la voluntad de Dios estar
-Dialogue: 0,0:57:39.83,0:57:44.07,Default,,0,0,0,,constantemente aprendiendo, expandiéndose, eh\Nevolucionando?
-Dialogue: 0,0:57:44.07,0:57:49.20,Default,,0,0,0,,Eh, así es como parece que fuimos\Ncreados.  No nos quedamos
-Dialogue: 0,0:57:49.20,0:57:53.11,Default,,0,0,0,,quietos ni dos segundos.  Estamos en\Nconstante movimiento y evolución.
-Dialogue: 0,0:57:53.11,0:57:58.31,Default,,0,0,0,,Entonces, cuando la Madre Teresa, me refiero a ella, ya\Nsaben, ella fue a las profundidades de
-Dialogue: 0,0:57:58.31,0:58:06.55,Default,,0,0,0,,Calcuta y salvó, bueno, no salvó, en\Nrealidad salvó almas, no vidas, eso es
-Dialogue: 0,0:58:06.55,0:58:11.83,Default,,0,0,0,,básicamente lo que estaba haciendo.  Ella estaba\Ndejando que el alma cruzara.
-Dialogue: 0,0:58:11.83,0:58:16.00,Default,,0,0,0,,Ella estaba en paz consigo misma\Nporque trabajaba entre los más
-Dialogue: 0,0:58:16.00,0:58:19.68,Default,,0,0,0,,enfermos.  Sí, efectivamente.\NNo tenían nada.  Quiero decir,
-Dialogue: 0,0:58:19.68,0:58:22.96,Default,,0,0,0,,no hay\Ngente que se haya ido por completo y no haya nadie que esté
-Dialogue: 0,0:58:22.96,0:58:26.16,Default,,0,0,0,,con ellos.  Así que estuvo con ellos hasta el\Nfinal.
-Dialogue: 0,0:58:26.16,0:58:30.31,Default,,0,0,0,,Así pues, supieron que fueron amados\Nhasta el último momento.
-Dialogue: 0,0:58:30.31,0:58:37.28,Default,,0,0,0,,Mhm.\Ndecir, no pudo salvar el cuerpo,
-Dialogue: 0,0:58:37.28,0:58:43.76,Default,,0,0,0,,pero estaba salvando el alma?\NSí.  Porque cuando uno mira dentro de ese
-Dialogue: 0,0:58:43.76,0:58:49.20,Default,,0,0,0,,ser y conecta con la realidad de\Nsu ser, entonces saben que se
-Dialogue: 0,0:58:49.20,0:58:55.59,Default,,0,0,0,,reconoce quiénes son.\NY recuerdo a los pacientes que traían envueltos
-Dialogue: 0,0:58:55.59,0:59:00.55,Default,,0,0,0,,en cuerdas y quién sabe qué más, arrojados\Nal suelo del
-Dialogue: 0,0:59:00.55,0:59:05.76,Default,,0,0,0,,hospital, y la desesperanza y\Nla agonía.  Y entonces, al mirarlos
-Dialogue: 0,0:59:05.76,0:59:09.59,Default,,0,0,0,,,\Nsurge en su interior un sentimiento de cariño.
-Dialogue: 0,0:59:09.59,0:59:15.35,Default,,0,0,0,,Es impersonal y la identidad de la\Notra persona se realza porque ha sido
-Dialogue: 0,0:59:15.35,0:59:21.68,Default,,0,0,0,,reconocida.  Entonces ves que su\Nsufrimiento ha cesado.
-Dialogue: 0,0:59:21.68,0:59:25.44,Default,,0,0,0,,El sufrimiento cesa en ese instante.  Se ha reconocido la\Nrealidad de quiénes son
-Dialogue: 0,0:59:25.44,0:59:26.64,Default,,0,0,0,,.\NAsí que
-Dialogue: 0,0:59:26.64,0:59:30.55,Default,,0,0,0,,estoy segura de que eso fue lo que le pasó a ella.   Así que,\Naunque quizás no haya salvado
-Dialogue: 0,0:59:30.55,0:59:35.59,Default,,0,0,0,,el cuerpo, en realidad salvó el alma.\NSí.  Eso es lo único que importa.  ¿Qué le
-Dialogue: 0,0:59:35.59,0:59:40.48,Default,,0,0,0,,sucedió al cuerpo?\NUn trabajo que puedes conseguir al otro lado es el de
-Dialogue: 0,0:59:40.48,0:59:45.68,Default,,0,0,0,,recepcionista.\NEs un buen trabajo ser recepcionista.
-Dialogue: 0,0:59:45.68,0:59:50.40,Default,,0,0,0,,Y a medida que la gente se acerca,\Nles aseguras que no están
-Dialogue: 0,0:59:50.40,0:59:56.55,Default,,0,0,0,,muertos, que están donde son amados\Ny que son como un anfitrión en la
-Dialogue: 0,0:59:56.55,1:00:03.59,Default,,0,0,0,,puerta del cielo.  Ya sabes, puedes\Nponer un cartel que diga "recepcionista".   ¿
-Dialogue: 0,1:00:03.59,1:00:06.96,Default,,0,0,0,,Oh sí.  He trabajado como recepcionista.  Nunca he\Nestado allí.
-Dialogue: 0,1:00:06.96,1:00:10.48,Default,,0,0,0,,Creo que ser recepcionista, bueno, he sido\Nrecepcionista en este mundo, ¿sabes?
-Dialogue: 0,1:00:10.48,1:00:15.11,Default,,0,0,0,,De todos modos, ser recepcionista es muy\Ngratificante porque la gente muere en agonía
-Dialogue: 0,1:00:15.11,1:00:22.00,Default,,0,0,0,,por Lauren, abandono, toda esperanza, eh,\Nodio a sí misma, no merezco ser salvada, dolor
-Dialogue: 0,1:00:22.00,1:00:28.64,Default,,0,0,0,,por, ¿por qué hice esto?, y así la mayoría de ustedes\Nmucha gente muere en un estado de agonía,
-Dialogue: 0,1:00:28.64,1:00:34.40,Default,,0,0,0,,pero es una agonía espiritual.\NAgonía espiritual.  Y cuando los saludas con la
-Dialogue: 0,1:00:34.40,1:00:38.96,Default,,0,0,0,,verdad de quiénes son realmente y\Nreconoces su verdadera identidad, entonces la
-Dialogue: 0,1:00:38.96,1:00:43.44,Default,,0,0,0,,alegría vuelve a brotar.  Entonces, el alma\Nque está tan
-Dialogue: 0,1:00:43.44,1:00:48.31,Default,,0,0,0,,deprimida y desesperanzada y, ya\Nsabes,
-Dialogue: 0,1:00:48.31,1:00:53.52,Default,,0,0,0,,es reconocida por su realidad.\NPor eso creo que ser recepcionista al otro
-Dialogue: 0,1:00:53.52,1:00:58.00,Default,,0,0,0,,lado es uno de los mejores trabajos que se pueden\Nconseguir.
-Dialogue: 0,1:00:58.00,1:01:01.35,Default,,0,0,0,,El coche los atropella y ellos\Ngritan de dolor y agonía y oh Dios, ¿
-Dialogue: 0,1:01:01.35,1:01:04.96,Default,,0,0,0,,cómo pudiste abandonarme?  Y de\Nrepente caen en los brazos de un
-Dialogue: 0,1:01:04.96,1:01:10.64,Default,,0,0,0,,ángel que los recibe y les dice: "Bueno, aquí\Nestán. Dios los bendiga. Lo lograron".   O
-Dialogue: 0,1:01:10.64,1:01:15.04,Default,,0,0,0,,sea, es un gran alivio, ¿sabes?   Es\Nhora.  Ups.  Lo lamento.
-Dialogue: 0,1:01:15.04,1:01:24.55,Default,,0,0,0,,Dices que nos preocupaste por un\Nsegundo, pero llegaste a la cruz.   Está bien
-Dialogue: 0,1:01:24.55,1:01:30.00,Default,,0,0,0,,Sí.  Eh, reanudaremos la transmisión alrededor de las\N3:15, tal vez un poco más tarde ya que la
-Dialogue: 0,1:01:30.00,1:01:35.20,Default,,0,0,0,,terminamos un poco más tarde, pero eh, y luego continuaremos\Ncon preguntas y respuestas.
-Dialogue: 0,1:01:35.20,1:01:42.88,Default,,0,0,0,,Las preguntas están en este lado de la sala.\NLa firma de libros será de este lado.
-Dialogue: 0,1:01:42.88,1:01:55.04,Default,,0,0,0,,Pensé que ya habíamos terminado por hoy.\NNo lo somos.
-Dialogue: 0,1:01:55.04,1:02:00.04,Default,,0,0,0,,no es así.  Oh, bien.
+Dialogue: 0,0:41:13.35,0:41:16.72,Default,,0,0,0,,abandonar el cuerpo. Y cada vez que es\Nrecurrente,
+Dialogue: 0,0:41:16.72,0:41:22.72,Default,,0,0,0,,uh ahí está la tentación, el deseo,\Ny el permiso para abandonar el cuerpo.
+Dialogue: 0,0:41:22.72,0:41:26.24,Default,,0,0,0,,Una vez sucedió justo durante un\Nclase. Estaba caminando por el pasillo.
+Dialogue: 0,0:41:26.24,0:41:30.40,Default,,0,0,0,,>> Fue en una de nuestras conferencias.\N>> El estado apareció
+Dialogue: 0,0:41:30.40,0:41:35.11,Default,,0,0,0,,y tú algún pequeño rincón de la mente\Nque permití sobrevivir dijo ahora
+Dialogue: 0,0:41:35.11,0:41:38.48,Default,,0,0,0,,eso va a ser ridículo\NSe desplomó y murió justo en frente de
+Dialogue: 0,0:41:38.48,0:41:45.92,Default,,0,0,0,,toda tu audiencia\N¿Qué clase de maestro sería ese?
+Dialogue: 0,0:41:45.92,0:41:53.88,Default,,0,0,0,,comenzaría\Nempezaría a chismear así
+Dialogue: 0,0:41:54.24,0:42:00.64,Default,,0,0,0,,por eso uh reposeí el cuerpo\Npero esos estados y vamos. eso
+Dialogue: 0,0:42:00.64,0:42:05.35,Default,,0,0,0,,Pasó otra vez cuando corté el\NQuita el pulgar y uh y recuéstate en el suelo.
+Dialogue: 0,0:42:05.35,0:42:13.04,Default,,0,0,0,,Y esa vez escuché a los ángeles\Ncanto del coro de los milagros.
+Dialogue: 0,0:42:13.04,0:42:18.40,Default,,0,0,0,,Estaba acostado allí y tenía permiso.\Npara irme y escuché como un canto
+Dialogue: 0,0:42:18.40,0:42:25.11,Default,,0,0,0,,coro en mi en mi mente coro angelical\NDijo que no soy un cuerpo. Soy un espíritu. yo
+Dialogue: 0,0:42:25.11,0:42:30.56,Default,,0,0,0,,¿No soy un cuerpo?\Num para reforzar lo que tuve
+Dialogue: 0,0:42:30.56,0:42:34.96,Default,,0,0,0,,permiso para abandonar el cuerpo.\NPero pensé en aquellos que todavía
+Dialogue: 0,0:42:34.96,0:42:39.59,Default,,0,0,0,,dependió de mí y eligió respirar\Nde nuevo. Y cada vez ha sucedido cuando
+Dialogue: 0,0:42:39.59,0:42:45.28,Default,,0,0,0,,pasó con mi padre, no pude\Nque mi padre piense que por su culpa
+Dialogue: 0,0:42:45.28,0:42:52.07,Default,,0,0,0,,Había muerto en la nieve en el hielo. Eh entonces\NRespiré de nuevo. Y una vez lo hice
+Dialogue: 0,0:42:52.07,0:42:58.56,Default,,0,0,0,,con un renacedor llamado Ren.\NY nuevamente prevaleció el mismo estado y yo
+Dialogue: 0,0:42:58.56,0:43:03.52,Default,,0,0,0,,Pensé que tendré que respirar de nuevo.\NDe lo contrario, Ren pensará que su primera
+Dialogue: 0,0:43:03.52,0:43:10.48,Default,,0,0,0,,El cliente del renacimiento murió a causa de él.\Ny estaría atrapado en la culpa.
+Dialogue: 0,0:43:10.48,0:43:16.35,Default,,0,0,0,,Sería como si le arruinara la vida.\Nmuñeca de negocios renacida al infierno.
+Dialogue: 0,0:43:21.59,0:43:27.83,Default,,0,0,0,,Así que cada vez\Nuh, permití que el amor se convirtiera en un
+Dialogue: 0,0:43:27.83,0:43:32.96,Default,,0,0,0,,apego y supe que estaba\Npermitiendo pero yo estaba permitiendo que el amor
+Dialogue: 0,0:43:32.96,0:43:39.20,Default,,0,0,0,,actuar en forma de destacamento.\NNo estaba obligado a hacerlo. fue un
+Dialogue: 0,0:43:39.20,0:43:42.24,Default,,0,0,0,,elección.\N>> Entonces, cuando entras en esto
+Dialogue: 0,0:43:42.24,0:43:46.40,Default,,0,0,0,,>> si estuviera realmente iluminado lo habría hecho\Nque todos se sientan culpables.
+Dialogue: 0,0:43:46.40,0:43:49.28,Default,,0,0,0,,>> Buena respiración. Deja el mundo y\NLa culpa es tu problema, amigo.
+Dialogue: 0,0:43:49.28,0:43:53.35,Default,,0,0,0,,>> No, todavía tenías trabajo por hacer. tu\NNo podía dejarnos todavía. Bueno. si tu si
+Dialogue: 0,0:43:53.35,0:43:56.07,Default,,0,0,0,,vas al vacío.\N>> Sí.
+Dialogue: 0,0:43:56.07,0:43:59.68,Default,,0,0,0,,>> ¿Qué te saca de ese vacío?\N>> Nada te detiene.
+Dialogue: 0,0:43:59.68,0:44:03.20,Default,,0,0,0,,>> Amor.\N¿Es amor lo que sientes cuando estás dentro?
+Dialogue: 0,0:44:03.20,0:44:06.48,Default,,0,0,0,,ese vacío que te arrastra hacia el\Notro lado? ¿Qué te lleva a
+Dialogue: 0,0:44:06.48,0:44:11.52,Default,,0,0,0,,el otro lado?\N>> Lo rechazo como estado absoluto.
+Dialogue: 0,0:44:11.52,0:44:14.07,Default,,0,0,0,,>> Correcto.\N>> Me he lanzado al vacío muchas veces. yo
+Dialogue: 0,0:44:14.07,0:44:17.28,Default,,0,0,0,,vino a esta vida ya en\Nel vacío
+Dialogue: 0,0:44:17.28,0:44:22.72,Default,,0,0,0,,>> y luego tuve la experiencia de\Ntotalidad. Mira, eso es la nada. el
+Dialogue: 0,0:44:22.72,0:44:29.44,Default,,0,0,0,,Lo opuesto a la nada es la totalidad. entonces\Nla nada es el vacío. Pero la totalidad
+Dialogue: 0,0:44:29.44,0:44:35.04,Default,,0,0,0,,incluye el amor de Dios, el resplandor\Nde los cuales es abrumadoramente profundo
+Dialogue: 0,0:44:35.04,0:44:42.56,Default,,0,0,0,,más allá del tiempo, más allá de toda limitación\Ny para siempre. Por tanto, la ausencia de
+Dialogue: 0,0:44:42.56,0:44:49.04,Default,,0,0,0,,ese amor divino infinito es por lo que yo\NRechazó el vacío la última vez que vino.
+Dialogue: 0,0:44:49.04,0:44:52.31,Default,,0,0,0,,arriba.\N>> Está bien. Entonces, cuando estás en el vacío, ¿qué
+Dialogue: 0,0:44:52.31,0:44:57.04,Default,,0,0,0,,¿Buscas pasar al otro lado?\NPara pasar el vacío,
+Dialogue: 0,0:44:57.04,0:45:01.35,Default,,0,0,0,,>> no tienes nada que hacer. Entonces,\N>> Lo sé, pero ¿qué buscas? ¿Qué es?
+Dialogue: 0,0:45:01.35,0:45:06.24,Default,,0,0,0,,el gatillo? ¿Qué palabra desencadenante puedes\Ndanos eso Oh, sí. Bueno, ya lo he
+Dialogue: 0,0:45:06.24,0:45:10.96,Default,,0,0,0,,allí en el vacío. ¿Qué hacemos, ya sabes?\Noramos? ¿Qué hacemos?
+Dialogue: 0,0:45:10.96,0:45:17.28,Default,,0,0,0,,>> No, ya les he dicho a todos cómo\Nsuperar los 850. Eso es rechazarlo. y
+Dialogue: 0,0:45:17.28,0:45:25.20,Default,,0,0,0,,en lugar de nada y vacío,\N>> mastica por la plenitud del amor de Dios.
+Dialogue: 0,0:45:25.20,0:45:28.07,Default,,0,0,0,,Totalidad.\N>> Entonces Dios no es la nada. dios es
+Dialogue: 0,0:45:28.07,0:45:32.88,Default,,0,0,0,,totalidad.\N>> Entonces el vacío es que no hay nada. ¿Ver?
+Dialogue: 0,0:45:32.88,0:45:36.24,Default,,0,0,0,,>> Sí.\NAnd the phenomena occur of their own,
+Dialogue: 0,0:45:36.24,0:45:40.56,Default,,0,0,0,,pero todos son simplemente fenomenales. y\NPuedes ver que son sólo fenómenos. ellos
+Dialogue: 0,0:45:40.56,0:45:44.07,Default,,0,0,0,,tienen solo no tienen otra realidad\Naparte de su fenomenal
+Dialogue: 0,0:45:44.07,0:45:50.96,Default,,0,0,0,,fenomenalidad transitoria. podrías decir\Nhay una realidad superior.
+Dialogue: 0,0:45:50.96,0:45:56.07,Default,,0,0,0,,La realidad más elevada es aquella en la que el\Nel amor de Dios reemplaza todo y es
+Dialogue: 0,0:45:56.07,0:46:02.56,Default,,0,0,0,,todo sin principio ni fin.\NY a menos que ese estado esté ahí, es
+Dialogue: 0,0:46:02.56,0:46:10.16,Default,,0,0,0,,no el estado último. Sí. Entonces el\NEl estado infinito es la totalidad. Resistir. gracias
+Dialogue: 0,0:46:10.16,0:46:11.04,Default,,0,0,0,,tú.\N>> Está bien.
+Dialogue: 0,0:46:11.04,0:46:17.59,Default,,0,0,0,,>> El estado infinito es la totalidad en la que\Nla presencia de Dios irradia.
+Dialogue: 0,0:46:17.59,0:46:20.88,Default,,0,0,0,,La otra cosa que acompaña a eso\Nresplandor
+Dialogue: 0,0:46:20.88,0:46:27.44,Default,,0,0,0,,es como una revelación de\Ntodo lo que existe es divinidad.
+Dialogue: 0,0:46:27.44,0:46:32.80,Default,,0,0,0,,Ahora en ese estado la belleza de\Ntodo es abrumadoramente impresionante.
+Dialogue: 0,0:46:32.80,0:46:36.80,Default,,0,0,0,,Esta mesa, este mantel, incluso ahora es\Ntal y si permito que el estado
+Dialogue: 0,0:46:36.80,0:46:43.04,Default,,0,0,0,,continúa no podré hablar porque\Nla belleza de cada cosa es infinita y
+Dialogue: 0,0:46:43.04,0:46:46.80,Default,,0,0,0,,abrumador.\NQuiero decir, incluso ahora esto es realmente molesto.
+Dialogue: 0,0:46:46.80,0:46:53.40,Default,,0,0,0,,a mí. A menos que lo consiga, quiero\Ndesaparecer en esto.
+Dialogue: 0,0:46:57.44,0:47:27.92,Default,,0,0,0,,Oh, cariño.\NVerás, tienes que cuidarte.
+Dialogue: 0,0:47:27.92,0:47:33.68,Default,,0,0,0,,Verás cuando empieces a alcanzar estos\Ndice como si no me protegiera ahora
+Dialogue: 0,0:47:33.68,0:47:41.11,Default,,0,0,0,,lo que soy se disolverá en el\Ninfinita maravilla y alegría de ti y de nosotros
+Dialogue: 0,0:47:41.11,0:47:46.31,Default,,0,0,0,,infundirse en uno y no hay dos\Nla gente ya no dialoga. Entonces tengo que
+Dialogue: 0,0:47:46.31,0:47:51.59,Default,,0,0,0,,mantener\Nuna mezquindad y una unice para que el
+Dialogue: 0,0:47:51.59,0:47:56.00,Default,,0,0,0,,el diálogo puede continuar.\N>> Te pellizcaré.
+Dialogue: 0,0:47:56.00,0:48:03.96,Default,,0,0,0,,>> Oh, me encanta.\NPellizcame, cariño. yo
+Dialogue: 0,0:48:21.59,0:48:25.92,Default,,0,0,0,,Sé que quieres matar esa flor, ¿no?\N¿tú?
+Dialogue: 0,0:48:25.92,0:48:33.68,Default,,0,0,0,,Esta flor expresa la belleza de Dios.\NY quieres ir y arrugarlo.
+Dialogue: 0,0:48:33.68,0:48:39.92,Default,,0,0,0,,>> Te mantendré aquí.\N>> Sí, eso es correcto. En otras palabras, usted
+Dialogue: 0,0:48:39.92,0:48:44.64,Default,,0,0,0,,empiezas a notar a medida que te vas dando cuenta\Nque la mente siempre te esta tirando
+Dialogue: 0,0:48:44.64,0:48:47.59,Default,,0,0,0,,atrás, pero no tienes que dejarlo.\N>> ¿Está bien?
+Dialogue: 0,0:48:47.59,0:48:51.11,Default,,0,0,0,,>> No tienes que dejarlo. es un\Nopción. Mira, porque lo que eras
+Dialogue: 0,0:48:51.11,0:48:53.52,Default,,0,0,0,,diciendo antes, suenas como si estuvieras\Nobligado por eso,
+Dialogue: 0,0:48:53.52,0:48:56.64,Default,,0,0,0,,>> ¿verdad?\N>> No, no estás obligado. Una vez que te das cuenta
+Dialogue: 0,0:48:56.64,0:49:02.31,Default,,0,0,0,,que tienes la libertad de estar de acuerdo con\No rechazarlo,
+Dialogue: 0,0:49:02.31,0:49:09.11,Default,,0,0,0,,Puedes aguantar con eso, eh, tú.\NSé que es su forma. Para que puedas colgar
+Dialogue: 0,0:49:09.11,0:49:13.28,Default,,0,0,0,,en forma es valicional. tu no\NTengo que mantener la forma.
+Dialogue: 0,0:49:13.28,0:49:20.07,Default,,0,0,0,,>> No hay obligación\Nuh para ver las cosas como separadas uh o como
+Dialogue: 0,0:49:20.07,0:49:24.72,Default,,0,0,0,,con adjetivos. Eso no es un\Nobligación. Pero la mente
+Dialogue: 0,0:49:24.72,0:49:31.76,Default,,0,0,0,,supone que está obligado\NObligado a hacer todas estas cosas y actuar.
+Dialogue: 0,0:49:31.76,0:49:37.20,Default,,0,0,0,,de este modo. No está obligado. es un\Nopción.
+Dialogue: 0,0:49:37.20,0:50:00.16,Default,,0,0,0,,>> El micrófono puede detenerse en cualquier momento.\NSólo quería demostrar que tienes una
+Dialogue: 0,0:50:00.16,0:50:03.28,Default,,0,0,0,,opción. Está bien.\N>> Sí.
+Dialogue: 0,0:50:03.28,0:50:06.88,Default,,0,0,0,,El primer impulso es que tengo que hacer.\Nella feliz y complacerla y hacer lo que ella
+Dialogue: 0,0:50:06.88,0:50:10.72,Default,,0,0,0,,quiere que haga. Al mismo tiempo,\Nhay conciencia de que eso es estrictamente
+Dialogue: 0,0:50:10.72,0:50:14.88,Default,,0,0,0,,una opción.\Ny eh
+Dialogue: 0,0:50:14.88,0:50:22.24,Default,,0,0,0,,Así que en cierto modo es aceptar que hay\Nes una mayor libertad uh para aguantar
+Dialogue: 0,0:50:22.24,0:50:25.68,Default,,0,0,0,,con tu mente que lo que piensas. el\Npersona promedio se ve a sí misma como la
+Dialogue: 0,0:50:25.68,0:50:29.11,Default,,0,0,0,,víctima de la mente.\N>> No, no tienes que ser víctima de
+Dialogue: 0,0:50:29.11,0:50:32.96,Default,,0,0,0,,la mente. Eres sólo la víctima de la\Nimporta porque estás de acuerdo en que eres
+Dialogue: 0,0:50:32.96,0:50:37.59,Default,,0,0,0,,aceptar ser así porque estás consiguiendo\Nsuficiente jugo para hacerlo
+Dialogue: 0,0:50:37.59,0:50:43.83,Default,,0,0,0,,vale la pena. indignación y autocompasión\Ny grandiosidad moral, ya sabes, salvar
+Dialogue: 0,0:50:43.83,0:50:50.07,Default,,0,0,0,,el mundo,etc.\NGuarda las conchas.
+Dialogue: 0,0:50:50.07,0:50:55.68,Default,,0,0,0,,>> Bueno, ya sabes, todo el mundo quiere ahorrar.\Nel árbol, ya sabes, los abrazadores de árboles.
+Dialogue: 0,0:50:55.68,0:50:58.07,Default,,0,0,0,,Salvemos el árbol.\N>> Oh, lo sé.
+Dialogue: 0,0:50:58.07,0:51:04.64,Default,,0,0,0,,>> Ya sabes, ellos quieren, quieren sentir.\Nque están haciendo un cambio.
+Dialogue: 0,0:51:04.64,0:51:08.55,Default,,0,0,0,,Bueno, bueno,\N>> ya sabes, hay cierta autosatisfacción
+Dialogue: 0,0:51:08.55,0:51:14.00,Default,,0,0,0,,satisfacción de decir que ayudé a hacer\Nese cambio. Ya sabes, allí en un Y
+Dialogue: 0,0:51:14.00,0:51:18.24,Default,,0,0,0,,ahí vuelves al ego.\N>> Sí, lo tienes.
+Dialogue: 0,0:51:18.24,0:51:24.88,Default,,0,0,0,,¿Cómo sobrevivió el bosque durante\Nmillones de años hasta que llegaste aquí?
+Dialogue: 0,0:51:24.88,0:51:31.35,Default,,0,0,0,,Oh, maravilloso abrazador de árboles.\NNadie ama a los árboles más que yo.
+Dialogue: 0,0:51:31.35,0:51:35.20,Default,,0,0,0,,Bueno, y luego dicen: "Bueno, nosotros\NLo salvamos de, ya sabes, el
+Dialogue: 0,0:51:35.20,0:51:38.96,Default,,0,0,0,,motosierras que iban a cortar\N>> Sí. Sí.
+Dialogue: 0,0:51:38.96,0:51:43.44,Default,,0,0,0,,>> Pero si no fuera por las motosierras, ¿quién\Nplantaría un árbol nuevo? Nadie. Entonces, el
+Dialogue: 0,0:51:43.44,0:51:47.92,Default,,0,0,0,,la única manera de que los arbolitos renazcan\Nsi alguien los corta y los vende".
+Dialogue: 0,0:51:47.92,0:51:54.00,Default,,0,0,0,,Mi padre solía dirigir una granja de árboles. y\Nuh, tenía tropecientos árboles en el norte
+Dialogue: 0,0:51:54.00,0:51:59.20,Default,,0,0,0,,Wisconsin. Ya sabes, 160 acres de árboles.\N>> Son muchos árboles.
+Dialogue: 0,0:51:59.20,0:52:03.52,Default,,0,0,0,,>> Sí. 160 acres. Todos tienen que ser excavados.\Narriba, plantado y trasplantado.
+Dialogue: 0,0:52:03.52,0:52:06.80,Default,,0,0,0,,>> Mmm.\N>> Y eso mantuvo a la industria en marcha porque
+Dialogue: 0,0:52:06.80,0:52:10.40,Default,,0,0,0,,talarían los árboles, pero luego\NTambién replantaron un árbol por cada
+Dialogue: 0,0:52:10.40,0:52:14.80,Default,,0,0,0,,árbol que fue talado.\N>> Entonces sí, dirigió una granja de árboles. y el
+Dialogue: 0,0:52:14.80,0:52:18.64,Default,,0,0,0,,La razón de esos árboles fue reemplazar\Nlos árboles que habían sido talados por el
+Dialogue: 0,0:52:18.64,0:52:26.31,Default,,0,0,0,,madereros.\N>> Entonces todos deberíamos iniciar granjas de árboles si
+Dialogue: 0,0:52:26.31,0:52:31.04,Default,,0,0,0,,Quiero ser un abrazador de árboles, ¿verdad? Oh, yo\NCreo que todos deberían cultivar algunos
+Dialogue: 0,0:52:31.04,0:52:33.04,Default,,0,0,0,,árboles en algún lugar.\N>> Oh, estoy de acuerdo.
+Dialogue: 0,0:52:33.04,0:52:36.88,Default,,0,0,0,,>> Cultívalos en tu ventana. ya sabes, tu\Nempieza con un arbolito, ya sabes, y
+Dialogue: 0,0:52:36.88,0:52:40.88,Default,,0,0,0,,entonces se vuelve cada vez más grande\Ny árbol más grande y luego se lo das a
+Dialogue: 0,0:52:40.88,0:52:47.35,Default,,0,0,0,,tu suegra para el día de la madre\N>> y luego ella tiene que lidiar con eso, ¿verdad?
+Dialogue: 0,0:52:47.35,0:52:52.88,Default,,0,0,0,,>> Sí. Haz que tu primo lo cave, tócalo.\Npara.
+Dialogue: 0,0:52:52.88,0:52:58.55,Default,,0,0,0,,>> Está bien. Entonces entonces la cosa de\NLo que te interesa es darte cuenta de que tienes
+Dialogue: 0,0:52:58.55,0:53:04.16,Default,,0,0,0,,mucha mayor libertad y opciones sobre\Nsiendo uh controlado por tu permiso
+Dialogue: 0,0:53:04.16,0:53:08.88,Default,,0,0,0,,ser dominado por tu\Nmentalizaciones.
+Dialogue: 0,0:53:08.88,0:53:13.59,Default,,0,0,0,,Uh la gente se permite ser\Ndominado por el egoísmo de
+Dialogue: 0,0:53:13.59,0:53:16.96,Default,,0,0,0,,mentalización\Ny no se dan cuenta que tienen la
+Dialogue: 0,0:53:16.96,0:53:23.76,Default,,0,0,0,,libertad para rechazarlo.\NTienes la libertad de dejar de pensar.
+Dialogue: 0,0:53:23.76,0:53:28.40,Default,,0,0,0,,Y si te pregunto ¿qué sabes?\Nresponder honestamente
+Dialogue: 0,0:53:28.40,0:53:34.16,Default,,0,0,0,,En realidad no sé nada.\NLa única manera de saber realmente algo es
+Dialogue: 0,0:53:34.16,0:53:39.11,Default,,0,0,0,,serlo.\NAsí que no conozco esas puertas de allí.
+Dialogue: 0,0:53:39.11,0:53:44.96,Default,,0,0,0,,Tendría que ser ellos para conocerlos porque\Nel único conocimiento verdadero es a través de
+Dialogue: 0,0:53:44.96,0:53:48.55,Default,,0,0,0,,identidad.\NComo he señalado en mi historia sobre
+Dialogue: 0,0:53:48.55,0:53:51.59,Default,,0,0,0,,el gato, sólo el gato sabe lo que es un gato\Nes.
+Dialogue: 0,0:53:51.59,0:53:56.40,Default,,0,0,0,,>> ¿Fue ahí donde camina el viejo cuento sabio?\N¿caminar? No deberías criticar hasta que
+Dialogue: 0,0:53:56.40,0:53:58.40,Default,,0,0,0,,camina en sus zapatos, ya sabes.\N>> Oh,
+Dialogue: 0,0:53:58.40,0:54:02.16,Default,,0,0,0,,>> ¿Es de ahí de donde viene esa vieja línea?\N>> Ciertamente tiene una superposición con eso,
+Dialogue: 0,0:54:02.16,0:54:05.35,Default,,0,0,0,,¿no es así? Sí.\N>> Porque, ya sabes, dicen que nunca
+Dialogue: 0,0:54:05.35,0:54:07.76,Default,,0,0,0,,criticar a otra persona hasta que hayas\Ncaminaba en sus zapatos.
+Dialogue: 0,0:54:07.76,0:54:12.40,Default,,0,0,0,,>> Caminó una milla con sus zapatos. Sí.\N>> Ese es un viejo dicho de los nativos americanos.
+Dialogue: 0,0:54:12.40,0:54:15.28,Default,,0,0,0,,>> Sí.\N>> Oh, creo que fueron mocasines.
+Dialogue: 0,0:54:15.28,0:54:22.64,Default,,0,0,0,,>> Mocasines.\NPero, ya sabes, es como y lo hace
+Dialogue: 0,0:54:22.64,0:54:29.11,Default,,0,0,0,,tiene sentido, ya sabes.\N>> Entonces, tal vez deberíamos
+Dialogue: 0,0:54:29.11,0:54:33.83,Default,,0,0,0,,todos deberían tener un poco más\Ncompasión por las personas que um son
+Dialogue: 0,0:54:33.83,0:54:40.04,Default,,0,0,0,,a nuestro alrededor.\N>> Sí. Experiencial en lugar de perceptual
+Dialogue: 0,0:54:40.40,0:54:45.04,Default,,0,0,0,,>> para experimentar lo que es eso,\N>> ¿verdad? su realidad en lugar de la tuya
+Dialogue: 0,0:54:45.04,0:54:47.04,Default,,0,0,0,,percepción de esa realidad.\N>> ¿Verdad?
+Dialogue: 0,0:54:47.04,0:54:52.00,Default,,0,0,0,,>> Entonces esa es la diferencia entre saber\Nesencia y apariencia.
+Dialogue: 0,0:54:52.00,0:54:58.24,Default,,0,0,0,,Entonces la mente real se ocupa entonces de la\Nrealidad de la esencia y se suelta
+Dialogue: 0,0:54:58.24,0:55:02.80,Default,,0,0,0,,apariencia porque sabe que es demasiado\Nsofisticado para enamorarse de la apariencia
+Dialogue: 0,0:55:02.80,0:55:08.80,Default,,0,0,0,,más\Ny sólo se centra en la esencia.
+Dialogue: 0,0:55:08.80,0:55:12.07,Default,,0,0,0,,Así que puedes, puedes, sabes que ellos pueden.\Ndecirte que medicamento tan maravilloso
+Dialogue: 0,0:55:12.07,0:55:17.68,Default,,0,0,0,,esto es. Al mismo tiempo ves\NFrancamente, te matará. al mismo tiempo
+Dialogue: 0,0:55:17.68,0:55:22.72,Default,,0,0,0,,subieron al niño a la bicicleta y al\Nperro feliz ladrando y moviendo la cola
+Dialogue: 0,0:55:22.72,0:55:25.28,Default,,0,0,0,,cual es el mensaje.\N>> Mmm.
+Dialogue: 0,0:55:25.28,0:55:30.31,Default,,0,0,0,,>> Cual es el mensaje.\NSi se está llevando esto a un niño inocente montando
+Dialogue: 0,0:55:30.31,0:55:38.00,Default,,0,0,0,,su bicicleta con un perro feliz que ladra.\NNo. Francamente, es letal.
+Dialogue: 0,0:55:38.00,0:55:42.40,Default,,0,0,0,,Por supuesto, es letal y podría matar.\Ntú y tú podrían volverse ciegos y mudos y
+Dialogue: 0,0:55:42.40,0:55:48.55,Default,,0,0,0,,todos, menos guau guau guau guau guau,\N>> ya sabes, es muy difícil. estamos
+Dialogue: 0,0:55:48.55,0:55:57.11,Default,,0,0,0,,bombardeado por um anuncios y mensajes y\N>> mensajes encima de mensajes y um es
+Dialogue: 0,0:55:57.11,0:56:01.04,Default,,0,0,0,,muy difícil discernir muchos\Nveces, ya sabes, pero cuando presentas
+Dialogue: 0,0:56:01.04,0:56:07.11,Default,,0,0,0,,entonces es mucho más fácil de ver. yo\NEs decir, los anuncios de todos los días dicen: "Oh, compra esto".
+Dialogue: 0,0:56:07.11,0:56:12.24,Default,,0,0,0,,Lo curará todo, ya sabes, y\Nluego cuando tú y luego lo derribas,
+Dialogue: 0,0:56:12.24,0:56:16.64,Default,,0,0,0,,es algo así como: "Oh,\Nes eh
+Dialogue: 0,0:56:16.64,0:56:21.83,Default,,0,0,0,,>> Podría escribir anuncios mucho mejores.\N>> Me siento muy frustrado con el
+Dialogue: 0,0:56:21.83,0:56:26.24,Default,,0,0,0,,departamentos de publicidad de muchos\Nempresas y podrían conseguir mucho
+Dialogue: 0,0:56:26.24,0:56:32.79,Default,,0,0,0,,más kilometraje por su dinero. quiero decir\Nellos realmente entienden
+Dialogue: 0,0:56:32.79,0:56:35.11,Default,,0,0,0,,ya sabes\N>> pagan una enorme cantidad de dinero y cuando
+Dialogue: 0,0:56:35.11,0:56:38.48,Default,,0,0,0,,miras que ineficaz es el anuncio\Nsaber
+Dialogue: 0,0:56:38.48,0:56:44.24,Default,,0,0,0,,>> el mundo entonces sabes que deberíamos\Nllevar todos los problemas y el todo
+Dialogue: 0,0:56:44.24,0:56:47.28,Default,,0,0,0,,como una prenda ligera\N>> Eso creo
+Dialogue: 0,0:56:47.28,0:56:50.64,Default,,0,0,0,,>> y\N>> olvídate de todo el dolor y
+Dialogue: 0,0:56:50.64,0:56:53.52,Default,,0,0,0,,>> sufrir y saber que no vamos\Npara cambiar eso que ha estado en el
+Dialogue: 0,0:56:53.52,0:56:57.92,Default,,0,0,0,,mundo durante muchos, muchos años, ese es el\Nkarma de ser humano
+Dialogue: 0,0:56:57.92,0:57:03.44,Default,,0,0,0,,Pero podemos hacer que su sufrimiento tal vez\Nmás fácil y eso es lo mejor que podemos
+Dialogue: 0,0:57:03.44,0:57:07.92,Default,,0,0,0,,hacer debido a su potencial kármico\N>> si aceptamos que así es como
+Dialogue: 0,0:57:07.92,0:57:13.92,Default,,0,0,0,,el mundo es y que el mundo es en realidad\Ncumpliendo su propósito todo el tiempo.
+Dialogue: 0,0:57:13.92,0:57:21.68,Default,,0,0,0,,Quiero decir que es evolutivo.\Ny uh la voluntad de Dios se expresa como
+Dialogue: 0,0:57:21.68,0:57:28.31,Default,,0,0,0,,como el mundo y su evolución.\NEntonces la conciencia y la humanidad son todos
+Dialogue: 0,0:57:28.31,0:57:33.20,Default,,0,0,0,,evolutivo\Ny al ser evolutivos son los
+Dialogue: 0,0:57:33.20,0:57:39.83,Default,,0,0,0,,por el perfecto cumplimiento de la voluntad de\NDios. ¿No es la voluntad de Dios ser
+Dialogue: 0,0:57:39.83,0:57:44.07,Default,,0,0,0,,constantemente aprendiendo, expandiéndose, uh\Nevolucionando.
+Dialogue: 0,0:57:44.07,0:57:49.20,Default,,0,0,0,,>> Eh\Nasí es como parece que fuimos creados. nosotros
+Dialogue: 0,0:57:49.20,0:57:53.11,Default,,0,0,0,,No te quedes quieto ni dos segundos. estamos\Nen constante movimiento, evolucionando.
+Dialogue: 0,0:57:53.11,0:57:58.31,Default,,0,0,0,,Entonces, cuando Madre Teresa me refiero a ella, tú\NSé que ella entró en las profundidades de
+Dialogue: 0,0:57:58.31,0:58:06.55,Default,,0,0,0,,Kolkata yy salvó bien, no salvó uh\Nella en realidad salvó almas, no vidas
+Dialogue: 0,0:58:06.55,0:58:11.83,Default,,0,0,0,,>> es básicamente lo que ella estaba haciendo. ella era\Ndejando que el alma cruce.
+Dialogue: 0,0:58:11.83,0:58:16.00,Default,,0,0,0,,>> Ella estaba con su alma.\N>> cierto porque ella trabajó entre los muy
+Dialogue: 0,0:58:16.00,0:58:19.68,Default,,0,0,0,,enfermo. Sí, de hecho.\N>> No tenían nada. Quiero decir, hay
+Dialogue: 0,0:58:19.68,0:58:22.96,Default,,0,0,0,,no\N>> la gente se ha ido por completo y no hay nadie
+Dialogue: 0,0:58:22.96,0:58:26.16,Default,,0,0,0,,con ellos. Entonces, ella estuvo con ellos hasta el\Nfin.
+Dialogue: 0,0:58:26.16,0:58:30.31,Default,,0,0,0,,>> Entonces, sabían que eran amados.\Nhasta el final.
+Dialogue: 0,0:58:30.31,0:58:35.59,Default,,0,0,0,,>> Mmm.\N>> Entonces, en otras palabras, ¿no crees que ella
+Dialogue: 0,0:58:35.59,0:58:41.04,Default,,0,0,0,,¿Quiero decir que ella no pudo salvar el cuerpo?\Npero ella estaba salvando el alma.
+Dialogue: 0,0:58:41.04,0:58:46.24,Default,,0,0,0,,>> Sí. Porque cuando miras dentro de eso\Nser y conectar con la realidad de
+Dialogue: 0,0:58:46.24,0:58:52.40,Default,,0,0,0,,ellos mismos, entonces saben que quiénes son\Nestamos siendo reconocidos.
+Dialogue: 0,0:58:52.40,0:58:58.64,Default,,0,0,0,,Y puedo recordar a los pacientes criados\NEnvuelto en cuerdas y Dios sabe qué
+Dialogue: 0,0:58:58.64,0:59:03.28,Default,,0,0,0,,traído y arrojado al suelo de\Nel hospital y la desesperanza y
+Dialogue: 0,0:59:03.28,0:59:07.35,Default,,0,0,0,,la agonía de Cristo. Y luego cuando miraste\Nellos,
+Dialogue: 0,0:59:07.35,0:59:12.72,Default,,0,0,0,,el cariño surge desde dentro.\NEs impersonal y el yo del
+Dialogue: 0,0:59:12.72,0:59:18.16,Default,,0,0,0,,otra persona se levanta porque ha sido\Nadmitido. Entonces ves que sus
+Dialogue: 0,0:59:18.16,0:59:24.00,Default,,0,0,0,,el sufrimiento ha cesado.\N>> El sufrimiento cesa en ese instante. el
+Dialogue: 0,0:59:24.00,0:59:26.16,Default,,0,0,0,,La realidad de quiénes son ha sido\Nconocido.
+Dialogue: 0,0:59:26.16,0:59:28.48,Default,,0,0,0,,>> entonces\N>> Estoy seguro de que eso es lo que pasó con ella.
+Dialogue: 0,0:59:28.48,0:59:33.52,Default,,0,0,0,,>> Entonces, aunque ella no haya salvado\Nel cuerpo, en realidad salvó el alma.
+Dialogue: 0,0:59:33.52,0:59:38.55,Default,,0,0,0,,>> Sí. Eso es todo lo que importa. que\N¿Le pasó al cuerpo?
+Dialogue: 0,0:59:38.55,0:59:42.72,Default,,0,0,0,,Un trabajo que puedes conseguir del otro lado es\Nser un saludador.
+Dialogue: 0,0:59:42.72,0:59:48.31,Default,,0,0,0,,Es un buen trabajo ser saludador.\NY cuando la gente se cruza,
+Dialogue: 0,0:59:48.31,0:59:53.28,Default,,0,0,0,,les aseguras que no lo son\Nmuertos, que están donde se les quiere
+Dialogue: 0,0:59:53.28,0:59:57.83,Default,,0,0,0,,y sabes como un saludador en el\Npuerta del cielo. Ya sabes, puedes
+Dialogue: 0,0:59:57.83,1:00:03.59,Default,,0,0,0,,tiene un cartel que dice saludador.\N>> ¿Estarás ahí para todos nosotros?
+Dialogue: 0,1:00:03.59,1:00:06.96,Default,,0,0,0,,>> Ah, sí. He sido un saludador. nunca he\Nestado.
+Dialogue: 0,1:00:06.96,1:00:10.48,Default,,0,0,0,,Creo que ser un saludador, bueno, he sido\Nun saludador en este mundo, ya sabes.
+Dialogue: 0,1:00:10.48,1:00:15.11,Default,,0,0,0,,De todos modos, ser un saludador es muy\NSatisfactorio porque la gente muere en agonía.
+Dialogue: 0,1:00:15.11,1:00:22.00,Default,,0,0,0,,Para Lauren, el abandono, toda esperanza, uh.\NOdio a mí mismo, no valgo la pena salvarme, pena.
+Dialogue: 0,1:00:22.00,1:00:28.64,Default,,0,0,0,,terminado, ¿por qué hice esto? Y por eso la mayoría de ustedes\Nmucha gente muere en estado de agonía,
+Dialogue: 0,1:00:28.64,1:00:34.40,Default,,0,0,0,,pero es agonía espiritual. Espiritual\Nagonía. Y cuando los saludas con la
+Dialogue: 0,1:00:34.40,1:00:38.96,Default,,0,0,0,,verdad de quiénes son realmente y la\Nreconocimiento de quiénes son, entonces el
+Dialogue: 0,1:00:38.96,1:00:43.44,Default,,0,0,0,,la alegría brota de nuevo. entonces el alma\Neso es asi
+Dialogue: 0,1:00:43.44,1:00:48.31,Default,,0,0,0,,deprimido y desesperado y para ti\Nsaber,
+Dialogue: 0,1:00:48.31,1:00:53.52,Default,,0,0,0,,es reconocido por su realidad.\N>> Así que creo que ser un saludador por el otro
+Dialogue: 0,1:00:53.52,1:00:58.00,Default,,0,0,0,,lado es uno de los mejores trabajos que puedes\Nconseguir.
+Dialogue: 0,1:00:58.00,1:01:01.35,Default,,0,0,0,,El coche los atropella y\Ngritando de dolor y agonía y oh Dios,
+Dialogue: 0,1:01:01.35,1:01:04.96,Default,,0,0,0,,¿Cómo pudiste abandonarme? Y todo de un\NDe repente caen en los brazos de un
+Dialogue: 0,1:01:04.96,1:01:10.64,Default,,0,0,0,,ángel que me saludó y dijo: "Bueno, aquí estás".\Nson. Dios te bendiga. Lo lograste."
+Dialogue: 0,1:01:10.64,1:01:15.04,Default,,0,0,0,,Quiero decir, es un gran alivio, ¿sabes?\N>> Es hora. Ups. Lo lamento. es
+Dialogue: 0,1:01:15.04,1:01:21.16,Default,,0,0,0,,>> Dices que nos tenías preocupados allí por un tiempo.\Nsegundo, pero llegaste a la cruz.
+Dialogue: 0,1:01:21.76,1:01:27.76,Default,,0,0,0,,>> Está bien. Entonces, ¿llegamos a nuestro fin ahora?\N>> Sí. Um, reanudaremos aproximadamente a la cuarta parte.
+Dialogue: 0,1:01:27.76,1:01:32.31,Default,,0,0,0,,después de las 3, tal vez un poco más tarde ya que\NSe detuvo un poco más tarde, pero um, y luego
+Dialogue: 0,1:01:32.31,1:01:39.11,Default,,0,0,0,,Continuaremos con preguntas y respuestas.\NPreguntas de este lado de la sala. Eh,
+Dialogue: 0,1:01:39.11,1:01:44.64,Default,,0,0,0,,La firma de libros será de este lado.\N>> Pensé que ya habíamos terminado por hoy.
+Dialogue: 0,1:01:44.64,1:01:55.04,Default,,0,0,0,,No lo somos.\N>> Oh, bien. Pensé que habíamos terminado y
+Dialogue: 0,1:01:55.04,1:02:00.04,Default,,0,0,0,,no hemos terminado. Ah, bien.

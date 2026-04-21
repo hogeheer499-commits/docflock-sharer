@@ -25,164 +25,166 @@
   <!-- Main App -->
   <div id="app-screen" class="screen hidden">
     <div class="container">
+      <!-- Header -->
       <div class="top-bar">
         <button id="refresh-btn" class="btn-refresh" title="Refresh">&#x21bb;</button>
         <h1 class="app-title">Doc Flock Remote</h1>
         <div class="top-spacer"></div>
       </div>
 
-      <div class="player-section">
-        <!-- Resume prompt -->
-        <div id="resume-prompt" class="resume-prompt hidden">
-          <span id="resume-text"></span>
-          <div class="resume-actions">
-            <button id="resume-btn" class="btn-primary">Resume</button>
-            <button id="resume-dismiss" class="btn-dismiss">Dismiss</button>
-          </div>
+      <!-- Zoom Controls -->
+      <div class="zoom-controls">
+        <button id="zoom-join-btn" class="zoom-btn zoom-join" title="Join Doc Flock on Zoom">
+          <img src="data:image/png;base64,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" width="22" height="22" alt="Zoom" style="border-radius:4px">
+          <span>Join Zoom</span>
+        </button>
+        <button id="zoom-mic-btn" class="zoom-btn zoom-toggle" title="Sound On/Off">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"/><path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/></svg>
+          <span>Sound On/Off</span>
+        </button>
+        <button id="zoom-cam-btn" class="zoom-btn zoom-toggle" title="Video On/Off">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg>
+          <span>Video On/Off</span>
+        </button>
+      </div>
+
+      <!-- Resume prompt -->
+      <div id="resume-prompt" class="resume-prompt hidden">
+        <span id="resume-text"></span>
+        <div class="resume-actions">
+          <button id="resume-btn" class="btn-primary">Resume</button>
+          <button id="resume-dismiss" class="btn-dismiss">Dismiss</button>
+        </div>
+      </div>
+
+      <!-- Now Playing -->
+      <div id="status-card" class="status-card hidden">
+        <div class="status-title" id="status-title"></div>
+        <div class="status-meta">
+          <span class="status-state" id="status-state"></span>
+          <span class="status-langs" id="status-langs"></span>
         </div>
 
-        <!-- Player card (now playing) -->
-        <div id="status-card" class="status-card hidden">
-          <div class="status-title" id="status-title"></div>
-          <div class="status-meta">
-            <span class="status-state" id="status-state"></span>
-            <span class="status-langs" id="status-langs"></span>
-          </div>
-
-          <!-- Live language switcher -->
-          <div id="live-lang-group" class="live-lang-group hidden">
-            <div id="live-lang-checkboxes" class="lang-checkboxes"></div>
-            <button id="live-lang-apply" class="btn-primary btn-small">Apply</button>
-          </div>
-
-          <!-- Seekable progress bar -->
-          <div class="progress-row">
-            <span class="time-label" id="time-current">0:00</span>
-            <div class="progress-bar" id="progress-bar">
-              <div class="progress-fill" id="progress-fill"></div>
-            </div>
-            <span class="time-label" id="time-total">0:00</span>
-          </div>
-
-          <!-- Player controls -->
-          <div class="player-controls">
-            <button class="btn-skip" id="skip-back-30" title="-30s">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/></svg>
-              <span>30</span>
-            </button>
-            <button class="btn-skip" id="skip-back-10" title="-10s">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/></svg>
-              <span>10</span>
-            </button>
-
-            <button id="pause-btn" class="btn-play-pause" title="Pause / Resume">
-              <svg id="pause-icon" viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
-                <rect x="6" y="4" width="4" height="16"/>
-                <rect x="14" y="4" width="4" height="16"/>
-              </svg>
-              <svg id="play-icon" viewBox="0 0 24 24" width="32" height="32" fill="currentColor" class="hidden">
-                <polygon points="5,3 19,12 5,21"/>
-              </svg>
-            </button>
-
-            <button class="btn-skip" id="skip-fwd-10" title="+10s">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/></svg>
-              <span>10</span>
-            </button>
-            <button class="btn-skip" id="skip-fwd-30" title="+30s">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/></svg>
-              <span>30</span>
-            </button>
-          </div>
-
-          <!-- Advanced settings -->
-          <details class="advanced-section">
-            <summary>Advanced</summary>
-            <div class="sync-row">
-              <label>Audio sync</label>
-              <button class="btn-sync" id="sync-m50">-50</button>
-              <button class="btn-sync" id="sync-m10">-10</button>
-              <span id="delay-value" class="sync-value">0ms</span>
-              <button class="btn-sync" id="sync-p10">+10</button>
-              <button class="btn-sync" id="sync-p50">+50</button>
-            </div>
-          </details>
-
-          <!-- Prev / Next -->
-          <div class="track-controls">
-            <button id="prev-btn" class="btn-track" title="Previous">&#x23EE; Previous</button>
-            <button id="next-btn" class="btn-track" title="Next">Next &#x23ED;</button>
-          </div>
-
-          <!-- Autoplay + Stop -->
-          <div class="bottom-controls">
-            <label class="autoplay-toggle">
-              <input type="checkbox" id="autoplay-cb" checked>
-              <span>Autoplay next</span>
-            </label>
-            <button id="stop-btn" class="btn-stop" title="Stop playback">Stop</button>
-          </div>
+        <!-- Live subtitle chips (instant apply) -->
+        <div id="live-lang-group" class="live-lang-group hidden">
+          <div id="live-lang-checkboxes"></div>
         </div>
 
-        <!-- Queue display -->
-        <div id="queue-card" class="queue-card hidden">
-          <div class="queue-header">
-            <label>Queue (<span id="queue-count">0</span>)</label>
-            <button id="queue-clear" class="btn-dismiss">Clear</button>
+        <!-- Progress bar -->
+        <div class="progress-row">
+          <span class="time-label" id="time-current">0:00</span>
+          <div class="progress-bar" id="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
           </div>
-          <ol id="queue-list" class="queue-list"></ol>
+          <span class="time-label" id="time-total">0:00</span>
         </div>
 
-        <h2 class="section-title">Browse & Play</h2>
-
-        <!-- Lecture selector -->
-        <div class="select-group">
-          <label for="video-select">All Lectures</label>
-          <select id="video-select">
-            <option value="">Select a lecture...</option>
-          </select>
+        <!-- Transport controls -->
+        <div class="player-controls">
+          <button class="btn-skip" id="skip-back-30" title="-30s (Shift+←)">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/></svg>
+            <span>30</span>
+          </button>
+          <button class="btn-skip" id="skip-back-10" title="-10s (←)">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/></svg>
+            <span>10</span>
+          </button>
+          <button id="pause-btn" class="btn-play-pause" title="Play/Pause (Space)">
+            <svg id="pause-icon" viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+              <rect x="6" y="4" width="4" height="16"/>
+              <rect x="14" y="4" width="4" height="16"/>
+            </svg>
+            <svg id="play-icon" viewBox="0 0 24 24" width="32" height="32" fill="currentColor" class="hidden">
+              <polygon points="5,3 19,12 5,21"/>
+            </svg>
+          </button>
+          <button class="btn-skip" id="skip-fwd-10" title="+10s (→)">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/></svg>
+            <span>10</span>
+          </button>
+          <button class="btn-skip" id="skip-fwd-30" title="+30s (Shift+→)">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/></svg>
+            <span>30</span>
+          </button>
         </div>
 
-        <!-- Multi-language lectures -->
-        <div id="multilang-group" class="select-group hidden">
-          <label for="multilang-select">Lectures with Multiple Language Subtitles</label>
-          <select id="multilang-select">
-            <option value="">Select a lecture...</option>
-          </select>
+        <!-- Prev/Next + Autoplay + Stop -->
+        <div class="track-controls">
+          <button id="prev-btn" class="btn-track" title="Previous (P)">&#x23EE; Previous</button>
+          <button id="next-btn" class="btn-track" title="Next (N)">Next &#x23ED;</button>
         </div>
 
-        <!-- Short Doc Clips selector -->
-        <div id="clips-group" class="select-group hidden">
-          <label for="clips-select">Short Doc Clips</label>
-          <select id="clips-select">
-            <option value="">Select a clip...</option>
-          </select>
+        <div class="bottom-controls">
+          <label class="autoplay-toggle">
+            <input type="checkbox" id="autoplay-cb" checked>
+            <span>Autoplay next</span>
+          </label>
+          <button id="stop-btn" class="btn-stop" title="Stop playback">Stop</button>
         </div>
 
-        <!-- Music selector -->
-        <div class="select-group">
-          <label for="music-select">Music</label>
-          <select id="music-select">
-            <option value="">Select a song...</option>
-          </select>
+        <!-- Advanced -->
+        <details class="advanced-section">
+          <summary>Advanced</summary>
+          <div class="sync-row">
+            <label>Audio sync</label>
+            <button class="btn-sync" id="sync-m50">-50</button>
+            <button class="btn-sync" id="sync-m10">-10</button>
+            <button class="btn-sync" id="sync-m5">-5</button>
+            <span id="delay-value" class="sync-value">0ms</span>
+            <button class="btn-sync" id="sync-p5">+5</button>
+            <button class="btn-sync" id="sync-p10">+10</button>
+            <button class="btn-sync" id="sync-p50">+50</button>
+          </div>
+        </details>
+      </div>
+
+      <!-- Queue -->
+      <div id="queue-card" class="queue-card hidden">
+        <div class="queue-header">
+          <label>Queue (<span id="queue-count">0</span>)</label>
+          <button id="queue-clear" class="btn-dismiss">Clear</button>
+        </div>
+        <ol id="queue-list" class="queue-list"></ol>
+      </div>
+
+      <!-- Browse & Play -->
+      <div class="browse-card">
+        <h2 class="browse-heading">Choose & Play</h2>
+        <div class="tab-bar">
+          <button class="tab-btn active" data-tab="all">Lectures</button>
+          <button class="tab-btn" data-tab="clips">Clips</button>
+          <button class="tab-btn" data-tab="music">Music</button>
+          <button class="tab-btn" data-tab="youtube">YouTube</button>
         </div>
 
-        <!-- YouTube cached -->
-        <div id="yt-cache-group" class="select-group hidden">
-          <label for="yt-select">YouTube Downloads</label>
-          <select id="yt-select">
-            <option value="">Select a download...</option>
-          </select>
+        <div id="tab-all" class="tab-panel active">
+          <input type="text" class="list-search" id="search-all" placeholder="Search lectures..." autocomplete="off">
+          <div class="item-list" id="list-all"></div>
         </div>
 
-        <!-- YouTube URL -->
-        <div class="url-group">
-          <label>YouTube URL</label>
+        <div id="tab-clips" class="tab-panel">
+          <input type="text" class="list-search" id="search-clips" placeholder="Search clips..." autocomplete="off">
+          <div class="item-list" id="list-clips"></div>
+        </div>
+
+        <div id="tab-music" class="tab-panel">
+          <input type="text" class="list-search" id="search-music" placeholder="Search music..." autocomplete="off">
+          <div class="item-list" id="list-music"></div>
+        </div>
+
+        <div id="tab-youtube" class="tab-panel">
           <div class="url-row">
-            <input type="url" id="yt-url" placeholder="Paste YouTube URL..." autocomplete="off">
-            <button id="yt-play-btn" class="btn-primary">Download</button>
+            <input type="url" id="yt-url" placeholder="Single video URL..." autocomplete="off">
+            <button id="yt-play-btn" class="btn-primary btn-small">Download</button>
           </div>
           <div id="yt-status" class="yt-status hidden"></div>
+          <div class="url-row">
+            <input type="url" id="yt-playlist-url" placeholder="Playlist URL..." autocomplete="off">
+            <button id="yt-playlist-btn" class="btn-primary btn-small">Playlist</button>
+          </div>
+          <div id="playlist-status" class="yt-status hidden"></div>
+          <input type="text" class="list-search" id="search-youtube" placeholder="Search downloads..." autocomplete="off">
+          <div class="item-list" id="list-youtube"></div>
         </div>
 
         <!-- Language selector -->
@@ -199,7 +201,40 @@
         <div id="error-msg" class="error hidden"></div>
       </div>
 
+      <p class="shortcuts-hint">Press <kbd>?</kbd> for keyboard shortcuts</p>
       <button id="logout-btn" class="logout-btn" title="Log out">Log out</button>
+
+      <details class="eric-proof-section">
+        <summary>Eric-proof...</summary>
+        <button id="end-zoom-btn" class="btn-end-zoom" type="button">
+          End meeting if Hoge heer became host
+        </button>
+      </details>
+    </div>
+  </div>
+
+  <!-- Toast container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Keyboard shortcuts overlay -->
+  <div id="shortcuts-overlay" class="shortcuts-overlay hidden">
+    <div class="shortcuts-box">
+      <h2>Keyboard Shortcuts</h2>
+      <h3>Playback</h3>
+      <div class="shortcut-row"><span>Play / Pause</span> <span class="shortcut-key">Space</span></div>
+      <div class="shortcut-row"><span>Rewind 10s</span> <span class="shortcut-key">&larr;</span></div>
+      <div class="shortcut-row"><span>Forward 10s</span> <span class="shortcut-key">&rarr;</span></div>
+      <div class="shortcut-row"><span>Rewind 30s</span> <span class="shortcut-key">Shift+&larr;</span></div>
+      <div class="shortcut-row"><span>Forward 30s</span> <span class="shortcut-key">Shift+&rarr;</span></div>
+      <div class="shortcut-row"><span>Next</span> <span class="shortcut-key">N</span></div>
+      <div class="shortcut-row"><span>Previous</span> <span class="shortcut-key">P</span></div>
+      <h3>Zoom</h3>
+      <div class="shortcut-row"><span>Toggle Sound</span> <span class="shortcut-key">M</span></div>
+      <div class="shortcut-row"><span>Toggle Video</span> <span class="shortcut-key">V</span></div>
+      <h3>General</h3>
+      <div class="shortcut-row"><span>This help</span> <span class="shortcut-key">?</span></div>
+      <div class="shortcut-row"><span>Close</span> <span class="shortcut-key">Esc</span></div>
+      <button class="shortcuts-close" id="shortcuts-close">Close</button>
     </div>
   </div>
 

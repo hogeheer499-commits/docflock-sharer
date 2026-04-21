@@ -84,6 +84,8 @@ def scan_videos() -> list[dict]:
     for entry in sorted(VIDEOS_DIR.iterdir()):
         if not entry.is_dir():
             continue
+        if entry.name in ("clips", "music"):
+            continue
 
         # Find video file
         video_file = None
@@ -111,7 +113,12 @@ def scan_videos() -> list[dict]:
 
         meta = library.get(lecture_key)
         if meta:
-            title = f"{meta['title']} (Part {part_num})" if meta.get("parts", 1) > 1 else meta["title"]
+            date_str = f"{meta['month']} {meta['year']}" if meta.get("month") else str(meta["year"])
+            parts = meta.get("parts", 1)
+            if parts > 1:
+                title = f"{meta['title']} - {part_num} of {parts} ({date_str})"
+            else:
+                title = f"{meta['title']} ({date_str})"
             sort_key = f"{meta['year']}-{meta['num']:02d}-{part_num}"
         else:
             title = entry.name.replace("-", " ").replace("_", " ").title()
@@ -253,6 +260,28 @@ def get_prev_video(video_id: str) -> dict | None:
 
 
 CACHE_DIR = VIDEOS_DIR / "youtube-cache"
+
+
+async def get_playlist_info(url: str) -> list[dict]:
+    """Get list of video IDs and titles from a YouTube playlist."""
+    deno_path = Path.home() / ".deno" / "bin"
+    env = {**os.environ, "PATH": f"{deno_path}:{os.environ.get('PATH', '')}"}
+
+    proc = await asyncio.create_subprocess_exec(
+        "yt-dlp", "--remote-components", "ejs:github",
+        "--flat-playlist", "--print", "%(id)s\t%(title)s",
+        url,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.DEVNULL,
+        env=env,
+    )
+    stdout, _ = await proc.communicate()
+    items = []
+    for line in stdout.decode().strip().split("\n"):
+        if "\t" in line:
+            vid_id, title = line.split("\t", 1)
+            items.append({"id": vid_id, "title": title})
+    return items
 
 
 async def download_youtube(url: str) -> dict | None:
@@ -441,15 +470,84 @@ class Player:
     def __init__(self):
         self.status = PlayerStatus()
         self._ffmpeg_proc: asyncio.subprocess.Process | None = None
+        self._idle_proc: asyncio.subprocess.Process | None = None
         self._progress_task: asyncio.Task | None = None
         self._seek_offset: float = 0
         self._target_position: float | None = None
-        self.audio_delay_ms: int = 0  # Extra audio delay on top of buffer
+        self.audio_delay_ms: int = -60  # Default: -60ms compensates for FFmpeg→v4l2 pipeline latency
         self.autoplay: bool = True
         self.queue: list[dict] = []  # Temporary session queue: [{"video_id": ..., "languages": [...], "title": ...}]
 
+    async def _kill_orphaned_ffmpeg(self):
+        """Kill any leftover ffmpeg processes writing to our v4l2 device."""
+        try:
+            proc = await asyncio.create_subprocess_exec(
+                "fuser", V4L2_DEVICE,
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.DEVNULL,
+            )
+            stdout, _ = await proc.communicate()
+            for pid_str in stdout.decode().split():
+                pid = int(pid_str.strip())
+                if pid == os.getpid():
+                    continue
+                # Check if it's an ffmpeg process
+                try:
+                    cmdline = Path(f"/proc/{pid}/comm").read_text().strip()
+                    if cmdline == "ffmpeg":
+                        os.kill(pid, 9)
+                        log.info("Killed orphaned ffmpeg pid %d on %s", pid, V4L2_DEVICE)
+                except (FileNotFoundError, ProcessLookupError):
+                    pass
+        except Exception:
+            pass
+
+    async def start_idle_screen(self):
+        """Show a 'ready to play' idle screen on the virtual cam."""
+        await self._stop_idle()
+        if not Path(V4L2_DEVICE).exists():
+            return
+        await self._kill_orphaned_ffmpeg()
+        emoji_path = str(Path(__file__).parent / "emoji_rofl.png")
+        self._idle_proc = await asyncio.create_subprocess_exec(
+            "ffmpeg", "-y",
+            "-f", "lavfi", "-i",
+            "color=c=#1a1a2e:s=1280x720:r=1,"
+            "drawtext=text='Ready to play':"
+            "fontsize=56:fontcolor=#e0e0ff:"
+            "x=(w-text_w)/2:y=(h-text_h)/2-40:"
+            "fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf,"
+            "drawtext=text='Do not make me host!':"
+            "fontsize=32:fontcolor=#ff6b6b:"
+            "x=(w-text_w)/2:y=(h-text_h)/2+30:"
+            "fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            "-i", emoji_path,
+            "-filter_complex",
+            "[1]scale=36:36[e];[0][e]overlay=x=820:y=380:format=auto",
+            "-f", "v4l2", "-video_size", "1280x720",
+            "-pix_fmt", "yuv420p",
+            V4L2_DEVICE,
+            stdout=asyncio.subprocess.DEVNULL,
+            stderr=asyncio.subprocess.DEVNULL,
+        )
+        log.info("Idle screen started on %s", V4L2_DEVICE)
+
+    async def _stop_idle(self):
+        """Stop the idle screen if running."""
+        if self._idle_proc and self._idle_proc.returncode is None:
+            try:
+                self._idle_proc.terminate()
+                await asyncio.wait_for(self._idle_proc.wait(), timeout=3)
+            except (ProcessLookupError, asyncio.TimeoutError):
+                try:
+                    self._idle_proc.kill()
+                except ProcessLookupError:
+                    pass
+            self._idle_proc = None
+
     async def play(self, video_id: str, languages: list[str] | None = None, start_at: float = 0):
         """Start playback of a local video with optional subtitles."""
+        await self._stop_idle()
         await self.stop()
 
         # Auto-recover v4l2loopback if device disappeared
@@ -517,11 +615,11 @@ class Player:
                 .replace(";", "\\;")
             )
             vf_parts.append(
-                f"drawbox=x=0:y=0:w=iw:h=30:color=black@0.7:t=fill,"
-                f"drawtext=text='{safe_title}':fontsize=16:fontcolor=white:"
+                f"drawbox=x=0:y=0:w=iw:h=36:color=black@0.7:t=fill,"
+                f"drawtext=text='{safe_title}':fontsize=20:fontcolor=white:"
                 f"x=(w-text_w)/2:y=8:fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf,"
-                f"drawtext=text='%{{eif\\:floor(t+{int(start_at)})/3600\\:d}}\\:%{{eif\\:mod(floor((t+{int(start_at)})/60)\\,60)\\:d\\:2}}\\:%{{eif\\:mod(floor(t+{int(start_at)})\\,60)\\:d\\:2}}':fontsize=14:fontcolor=white@0.8:"
-                f"x=w-text_w-10:y=9:fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+                f"drawtext=text='%{{eif\\:floor(t+{int(start_at)})/3600\\:d}}\\:%{{eif\\:mod(floor((t+{int(start_at)})/60)\\,60)\\:d\\:2}}\\:%{{eif\\:mod(floor(t+{int(start_at)})\\,60)\\:d\\:2}}':fontsize=16:fontcolor=white@0.8:"
+                f"x=w-text_w-10:y=10:fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
             )
 
             vf_parts.append("pad=1280:720:(ow-iw)/2:(oh-ih)/2")
@@ -531,12 +629,14 @@ class Player:
             # Video output → v4l2loopback
             cmd.extend(["-f", "v4l2", "-video_size", "1280x720", V4L2_DEVICE])
 
-            # Audio sync: positive = delay audio, negative = advance audio (via PTS shift)
+            # Audio: async resample to fill micro-gaps + optional delay
+            af_parts = ["aresample=async=1000"]
             if self.audio_delay_ms != 0:
                 shift_s = self.audio_delay_ms / 1000
-                cmd.extend(["-af", f"asetpts=PTS+{shift_s}/TB"])
+                af_parts.append(f"asetpts=PTS+{shift_s}/TB")
+            cmd.extend(["-af", ",".join(af_parts)])
 
-            # Audio output → PulseAudio virtual sink (minimal buffer for sync)
+            # Audio output → PulseAudio virtual sink
             cmd.extend(["-acodec", "pcm_s16le", "-ar", "48000", "-ac", "2",
                         "-f", "pulse", PULSE_SINK])
 
@@ -596,6 +696,7 @@ class Player:
                         )
                         return
                 self.status.state = State.STOPPED
+                asyncio.get_event_loop().create_task(self.start_idle_screen())
 
         except asyncio.CancelledError:
             pass
@@ -641,6 +742,7 @@ class Player:
 
         self._ffmpeg_proc = None
         self.status = PlayerStatus()
+        # Don't start idle here — callers like play() call stop() first
 
     async def seek(self, position: float):
         """Seek to absolute position (seconds). Restarts FFmpeg with -ss."""

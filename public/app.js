@@ -1,4 +1,4 @@
-// --- Auth ---
+// === Auth ===
 const TOKEN_KEY = "docflock_token";
 const EXPIRY_KEY = "docflock_expiry";
 let statusInterval = null;
@@ -38,7 +38,7 @@ async function api(path, options = {}) {
   return resp;
 }
 
-// --- Screens ---
+// === Screens ===
 const loginScreen = document.getElementById("login-screen");
 const appScreen = document.getElementById("app-screen");
 
@@ -66,7 +66,7 @@ async function loadDelay() {
   } catch {}
 }
 
-// --- Login ---
+// === Login ===
 document.getElementById("pin-submit").addEventListener("click", doLogin);
 document.getElementById("pin-input").addEventListener("keydown", (e) => {
   if (e.key === "Enter") doLogin();
@@ -100,135 +100,153 @@ async function doLogin() {
   }
 }
 
-// --- Video list ---
-const videoSelect = document.getElementById("video-select");
-const multilangSelect = document.getElementById("multilang-select");
-const clipsSelect = document.getElementById("clips-select");
-const musicSelect = document.getElementById("music-select");
-const ytSelect = document.getElementById("yt-select");
+// === Tabs ===
+const tabButtons = document.querySelectorAll(".tab-btn");
+const tabPanels = document.querySelectorAll(".tab-panel");
+
+tabButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    tabButtons.forEach((b) => b.classList.remove("active"));
+    tabPanels.forEach((p) => p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+  });
+});
+
+// === Video list ===
+let selectedId = "";
 let ytCache = [];
 let clipsCache = [];
 let multilangCache = [];
+let musicCache = [];
 const langGroup = document.getElementById("lang-group");
 const langCheckboxes = document.getElementById("lang-checkboxes");
 const playBtn = document.getElementById("play-btn");
-let musicCache = [];
+
+function selectItem(id) {
+  selectedId = id;
+  // Update all list row highlights
+  document.querySelectorAll(".item-list-row").forEach((row) => {
+    row.classList.toggle("selected", row.dataset.id === id);
+  });
+  onSelectionChange();
+}
+
+function getSelectedId() {
+  return selectedId;
+}
+
+function renderList(listId, items, opts = {}) {
+  const list = document.getElementById(listId);
+  list.innerHTML = "";
+  let currentSeries = "";
+  for (const item of items) {
+    if (opts.grouped && item.series && item.series !== currentSeries) {
+      currentSeries = item.series;
+      const header = document.createElement("div");
+      header.className = "item-list-group";
+      header.textContent = currentSeries;
+      list.appendChild(header);
+    }
+    const row = document.createElement("div");
+    row.className = "item-list-row";
+    row.dataset.id = item.id;
+    row.dataset.search = (item.title + " " + (item.series || "")).toLowerCase();
+    if (opts.showLangs && item.languages) {
+      row.textContent = item.title + " [" + item.languages.map((l) => l.toUpperCase()).join(", ") + "]";
+    } else {
+      row.textContent = item.title;
+    }
+    if (item.id === selectedId) row.classList.add("selected");
+    row.addEventListener("click", () => selectItem(item.id));
+    list.appendChild(row);
+  }
+  if (items.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "item-list-empty";
+    empty.textContent = "No items";
+    list.appendChild(empty);
+  }
+}
+
+function setupSearch(searchId, listId) {
+  const input = document.getElementById(searchId);
+  if (!input) return;
+  input.addEventListener("input", () => {
+    const query = input.value.toLowerCase().trim();
+    const list = document.getElementById(listId);
+    const rows = list.querySelectorAll(".item-list-row");
+    const groups = list.querySelectorAll(".item-list-group");
+    rows.forEach((row) => {
+      row.style.display = row.dataset.search.includes(query) ? "" : "none";
+    });
+    // Hide group headers if all their items are hidden
+    groups.forEach((group) => {
+      let next = group.nextElementSibling;
+      let anyVisible = false;
+      while (next && !next.classList.contains("item-list-group")) {
+        if (next.classList.contains("item-list-row") && next.style.display !== "none") {
+          anyVisible = true;
+        }
+        next = next.nextElementSibling;
+      }
+      group.style.display = anyVisible ? "" : "none";
+    });
+  });
+}
 
 async function loadVideos() {
   try {
     const resp = await api("/api/videos");
     videosCache = await resp.json();
-    videoSelect.innerHTML = '<option value="">Select a lecture...</option>';
-
-    let currentSeries = "";
-    let optgroup = null;
-    for (const v of videosCache) {
-      if (v.series && v.series !== currentSeries) {
-        currentSeries = v.series;
-        optgroup = document.createElement("optgroup");
-        optgroup.label = currentSeries;
-        videoSelect.appendChild(optgroup);
-      }
-      const opt = document.createElement("option");
-      opt.value = v.id;
-      opt.textContent = v.title;
-      (optgroup || videoSelect).appendChild(opt);
-    }
+    renderList("list-all", videosCache, { grouped: true });
+    setupSearch("search-all", "list-all");
+    updateTabCount("all", videosCache.length);
   } catch {}
 
   try {
     const respML = await api("/api/videos/multilang");
     multilangCache = await respML.json();
-    const multilangGroup = document.getElementById("multilang-group");
-    if (multilangCache.length > 0) {
-      multilangSelect.innerHTML = '<option value="">Select a lecture...</option>';
-      let currentSeries = "";
-      let optgroup = null;
-      for (const v of multilangCache) {
-        if (v.series && v.series !== currentSeries) {
-          currentSeries = v.series;
-          optgroup = document.createElement("optgroup");
-          optgroup.label = currentSeries;
-          multilangSelect.appendChild(optgroup);
-        }
-        const langList = v.languages.map(l => l.toUpperCase()).join(", ");
-        const opt = document.createElement("option");
-        opt.value = v.id;
-        opt.textContent = `${v.title} [${langList}]`;
-        (optgroup || multilangSelect).appendChild(opt);
-      }
-      multilangGroup.classList.remove("hidden");
-    } else {
-      multilangGroup.classList.add("hidden");
-    }
+    renderList("list-multilang", multilangCache, { grouped: true, showLangs: true });
+    setupSearch("search-multilang", "list-multilang");
+    updateTabCount("multilang", multilangCache.length);
   } catch {}
 
   try {
     const resp2 = await api("/api/clips");
     clipsCache = await resp2.json();
-    const clipsGroup = document.getElementById("clips-group");
-    if (clipsCache.length > 0) {
-      clipsSelect.innerHTML = '<option value="">Select a clip...</option>';
-      for (const c of clipsCache) {
-        const opt = document.createElement("option");
-        opt.value = c.id;
-        opt.textContent = c.title;
-        clipsSelect.appendChild(opt);
-      }
-      clipsGroup.classList.remove("hidden");
-    } else {
-      clipsGroup.classList.add("hidden");
-    }
+    renderList("list-clips", clipsCache);
+    setupSearch("search-clips", "list-clips");
+    updateTabCount("clips", clipsCache.length);
   } catch {}
 
   try {
     const resp = await api("/api/music");
     musicCache = await resp.json();
-    musicSelect.innerHTML = '<option value="">Select a song...</option>';
-    for (const m of musicCache) {
-      const opt = document.createElement("option");
-      opt.value = m.id;
-      opt.textContent = m.title;
-      musicSelect.appendChild(opt);
-    }
+    renderList("list-music", musicCache);
+    setupSearch("search-music", "list-music");
+    updateTabCount("music", musicCache.length);
   } catch {}
 
   try {
     const resp = await api("/api/youtube");
     ytCache = await resp.json();
-    const group = document.getElementById("yt-cache-group");
-    if (ytCache.length > 0) {
-      ytSelect.innerHTML = '<option value="">Select a download...</option>';
-      for (const v of ytCache) {
-        const opt = document.createElement("option");
-        opt.value = v.id;
-        opt.textContent = v.title;
-        ytSelect.appendChild(opt);
-      }
-      group.classList.remove("hidden");
-    } else {
-      group.classList.add("hidden");
-    }
+    renderList("list-youtube", ytCache);
+    setupSearch("search-youtube", "list-youtube");
+    updateTabCount("youtube", ytCache.length);
   } catch {}
 }
 
-// Only one dropdown active at a time
-const allSelects = [videoSelect, multilangSelect, clipsSelect, musicSelect, ytSelect];
-
-function clearOtherSelects(active) {
-  for (const s of allSelects) {
-    if (s !== active) s.value = "";
+function updateTabCount(tab, count) {
+  const btn = document.querySelector(`.tab-btn[data-tab="${tab}"]`);
+  if (!btn) return;
+  let span = btn.querySelector(".tab-count");
+  if (!span) {
+    span = document.createElement("span");
+    span.className = "tab-count";
+    btn.appendChild(span);
   }
-}
-
-videoSelect.addEventListener("change", () => { if (videoSelect.value) clearOtherSelects(videoSelect); onSelectionChange(); });
-multilangSelect.addEventListener("change", () => { if (multilangSelect.value) clearOtherSelects(multilangSelect); onSelectionChange(); });
-clipsSelect.addEventListener("change", () => { if (clipsSelect.value) clearOtherSelects(clipsSelect); onSelectionChange(); });
-musicSelect.addEventListener("change", () => { if (musicSelect.value) clearOtherSelects(musicSelect); onSelectionChange(); });
-ytSelect.addEventListener("change", () => { if (ytSelect.value) clearOtherSelects(ytSelect); onSelectionChange(); });
-
-function getSelectedId() {
-  return videoSelect.value || multilangSelect.value || clipsSelect.value || musicSelect.value || ytSelect.value || "";
+  span.textContent = `(${count})`;
 }
 
 function onSelectionChange() {
@@ -240,10 +258,11 @@ function onSelectionChange() {
     return;
   }
 
-  const video = videosCache.find((v) => v.id === videoId)
-    || multilangCache.find((v) => v.id === videoId)
-    || clipsCache.find((v) => v.id === videoId)
-    || ytCache.find((v) => v.id === videoId);
+  const video =
+    videosCache.find((v) => v.id === videoId) ||
+    multilangCache.find((v) => v.id === videoId) ||
+    clipsCache.find((v) => v.id === videoId) ||
+    ytCache.find((v) => v.id === videoId);
   if (video && video.languages.length > 0) {
     langCheckboxes.innerHTML = "";
     for (const lang of video.languages) {
@@ -266,20 +285,25 @@ function onSelectionChange() {
   queueBtn.disabled = false;
 }
 
-// --- Live language switch ---
-document.getElementById("live-lang-apply").addEventListener("click", async () => {
-  const selected = [...document.querySelectorAll('input[name="live-lang"]:checked')]
-    .map((cb) => cb.value);
-  try {
-    await api("/api/languages", {
-      method: "POST",
-      body: JSON.stringify({ languages: selected }),
-    });
-    fetchStatus();
-  } catch {}
-});
+// === Live language switch (instant apply — no Apply button) ===
+function applyLiveLanguages() {
+  const chips = document.querySelectorAll("#live-lang-checkboxes .lang-chip");
+  const selected = [];
+  chips.forEach((chip) => {
+    if (chip.classList.contains("active")) selected.push(chip.dataset.lang);
+  });
+  api("/api/languages", {
+    method: "POST",
+    body: JSON.stringify({ languages: selected }),
+  })
+    .then(() => {
+      fetchStatus();
+      showToast("Subtitles: " + (selected.length ? selected.map((l) => l.toUpperCase()).join(" + ") : "OFF"));
+    })
+    .catch(() => {});
+}
 
-// --- YouTube URL ---
+// === YouTube URL ===
 document.getElementById("yt-play-btn").addEventListener("click", playYouTubeUrl);
 document.getElementById("yt-url").addEventListener("keydown", (e) => {
   if (e.key === "Enter") playYouTubeUrl();
@@ -297,8 +321,7 @@ async function playYouTubeUrl() {
   statusEl.classList.remove("hidden");
   hideError();
 
-  videoSelect.value = "";
-  musicSelect.value = "";
+  selectedId = "";
 
   try {
     await api("/api/play-url", {
@@ -306,16 +329,16 @@ async function playYouTubeUrl() {
       body: JSON.stringify({ url }),
     });
 
-    // Poll download status
     const pollDl = setInterval(async () => {
       try {
         const resp = await api("/api/play-url/status");
         const data = await resp.json();
         if (data.state === "already" || data.state === "done") {
           clearInterval(pollDl);
-          const msg = data.state === "already"
-            ? `"${data.title}" is already downloaded.`
-            : `Downloaded "${data.title}"!`;
+          const msg =
+            data.state === "already"
+              ? `"${data.title}" is already downloaded.`
+              : `Downloaded "${data.title}"!`;
           statusEl.innerHTML = `${msg} <a href="#" id="yt-play-link">Click here to play it!</a>`;
           document.getElementById("yt-play-link").addEventListener("click", async (e) => {
             e.preventDefault();
@@ -326,6 +349,7 @@ async function playYouTubeUrl() {
               });
               statusEl.classList.add("hidden");
               pollStatus();
+              showToast("Now playing: " + data.title);
             } catch {}
           });
           input.value = "";
@@ -348,7 +372,7 @@ async function playYouTubeUrl() {
   }
 }
 
-// --- Queue ---
+// === Queue ===
 const queueBtn = document.getElementById("queue-btn");
 const queueCard = document.getElementById("queue-card");
 const queueList = document.getElementById("queue-list");
@@ -360,8 +384,7 @@ document.getElementById("queue-clear").addEventListener("click", clearQueue);
 async function addToQueue() {
   const videoId = getSelectedId();
   if (!videoId) return;
-  const selected = [...document.querySelectorAll('input[name="lang"]:checked')]
-    .map((cb) => cb.value);
+  const selected = [...document.querySelectorAll('input[name="lang"]:checked')].map((cb) => cb.value);
   try {
     const resp = await api("/api/queue/add", {
       method: "POST",
@@ -369,6 +392,7 @@ async function addToQueue() {
     });
     const data = await resp.json();
     updateQueueUI(data.queue);
+    showToast("Added to queue");
   } catch {}
 }
 
@@ -388,6 +412,7 @@ async function clearQueue() {
     const resp = await api("/api/queue/clear", { method: "POST" });
     const data = await resp.json();
     updateQueueUI(data.queue);
+    showToast("Queue cleared");
   } catch {}
 }
 
@@ -400,8 +425,11 @@ function updateQueueUI(queue) {
   queueCard.classList.remove("hidden");
   queueCount.textContent = queue.length;
   queueList.innerHTML = "";
-  for (const item of queue) {
+  queue.forEach((item, i) => {
     const li = document.createElement("li");
+    const pos = document.createElement("span");
+    pos.className = "queue-pos";
+    pos.textContent = i + 1;
     const span = document.createElement("span");
     span.textContent = item.title;
     const btn = document.createElement("button");
@@ -409,27 +437,36 @@ function updateQueueUI(queue) {
     btn.textContent = "\u00d7";
     btn.title = "Remove";
     btn.addEventListener("click", () => removeFromQueue(item.video_id));
+    li.appendChild(pos);
     li.appendChild(span);
     li.appendChild(btn);
     queueList.appendChild(li);
-  }
+  });
 }
 
-// --- Player ---
+// === Player ===
 playBtn.addEventListener("click", playVideo);
 document.getElementById("pause-btn").addEventListener("click", togglePause);
 document.getElementById("stop-btn").addEventListener("click", stopPlayback);
 document.getElementById("prev-btn").addEventListener("click", async () => {
-  try { await api("/api/prev", { method: "POST" }); fetchStatus(); } catch {}
+  try {
+    await api("/api/prev", { method: "POST" });
+    fetchStatus();
+  } catch {}
 });
 document.getElementById("next-btn").addEventListener("click", async () => {
-  try { await api("/api/next", { method: "POST" }); fetchStatus(); } catch {}
+  try {
+    await api("/api/next", { method: "POST" });
+    fetchStatus();
+  } catch {}
 });
 document.getElementById("autoplay-cb").addEventListener("change", async () => {
-  try { await api("/api/autoplay", { method: "POST" }); } catch {}
+  try {
+    await api("/api/autoplay", { method: "POST" });
+  } catch {}
 });
 
-// Audio sync buttons
+// Audio sync
 const delayValue = document.getElementById("delay-value");
 let currentDelay = 0;
 
@@ -446,6 +483,8 @@ async function adjustDelay(delta) {
 
 document.getElementById("sync-m50").addEventListener("click", () => adjustDelay(-50));
 document.getElementById("sync-m10").addEventListener("click", () => adjustDelay(-10));
+document.getElementById("sync-m5").addEventListener("click", () => adjustDelay(-5));
+document.getElementById("sync-p5").addEventListener("click", () => adjustDelay(5));
 document.getElementById("sync-p10").addEventListener("click", () => adjustDelay(10));
 document.getElementById("sync-p50").addEventListener("click", () => adjustDelay(50));
 document.getElementById("skip-back-30").addEventListener("click", () => skip(-30));
@@ -470,8 +509,7 @@ async function playVideo() {
   const videoId = getSelectedId();
   if (!videoId) return;
 
-  const selected = [...document.querySelectorAll('input[name="lang"]:checked')]
-    .map((cb) => cb.value);
+  const selected = [...document.querySelectorAll('input[name="lang"]:checked')].map((cb) => cb.value);
 
   playBtn.disabled = true;
   hideError();
@@ -487,6 +525,7 @@ async function playVideo() {
       return;
     }
     pollStatus();
+    showToast("Now playing: " + (data.title || ""));
   } catch (e) {
     showError(e.message);
   } finally {
@@ -504,11 +543,11 @@ async function stopPlayback() {
   try {
     await api("/api/stop", { method: "POST" });
     updateStatusUI({ state: "stopped" });
+    showToast("Playback stopped");
   } catch {}
 }
 
 async function seek(position) {
-  // Instantly update UI
   if (lastStatus) {
     lastStatus.current_time = position;
     updateStatusUI(lastStatus);
@@ -522,7 +561,6 @@ async function seek(position) {
 }
 
 async function skip(offset) {
-  // Instantly update UI
   if (lastStatus && lastStatus.current_time != null) {
     lastStatus.current_time = Math.max(0, lastStatus.current_time + offset);
     updateStatusUI(lastStatus);
@@ -535,12 +573,11 @@ async function skip(offset) {
   } catch {}
 }
 
-// --- Status polling ---
+// === Status polling ===
 function pollStatus() {
   stopPolling();
   fetchStatus();
   statusInterval = setInterval(fetchStatus, 3000);
-  // Start local timer for smooth UI updates
   startLocalTimer();
 }
 
@@ -572,6 +609,8 @@ function stopPolling() {
 }
 
 let backendDown = false;
+let failCount = 0;
+const FAIL_THRESHOLD = 3;
 
 async function fetchStatus() {
   try {
@@ -579,12 +618,14 @@ async function fetchStatus() {
     const data = await resp.json();
     lastStatus = data;
     updateStatusUI(data);
+    failCount = 0;
     if (backendDown) {
       backendDown = false;
       hideBackendOffline();
     }
   } catch {
-    if (!backendDown) {
+    failCount++;
+    if (!backendDown && failCount >= FAIL_THRESHOLD) {
       backendDown = true;
       showBackendOffline();
     }
@@ -614,18 +655,21 @@ function hideBackendOffline() {
   if (el) el.classList.add("hidden");
 }
 
-// --- Resume state ---
+// === Resume state ===
 const RESUME_KEY = "docflock_resume";
 
 function saveResumeState(data) {
   if (data.state === "playing" || data.state === "paused") {
-    localStorage.setItem(RESUME_KEY, JSON.stringify({
-      video_id: data.video_id,
-      title: data.title,
-      current_time: data.current_time,
-      languages: data.languages || [],
-      saved_at: Date.now(),
-    }));
+    localStorage.setItem(
+      RESUME_KEY,
+      JSON.stringify({
+        video_id: data.video_id,
+        title: data.title,
+        current_time: data.current_time,
+        languages: data.languages || [],
+        saved_at: Date.now(),
+      })
+    );
   }
 }
 
@@ -634,7 +678,6 @@ function showResumePrompt() {
   if (!raw) return;
   try {
     const resume = JSON.parse(raw);
-    // Only show if saved less than 7 days ago
     if (Date.now() - resume.saved_at > 7 * 24 * 60 * 60 * 1000) return;
     if (!resume.video_id || !resume.current_time) return;
 
@@ -651,7 +694,6 @@ function showResumePrompt() {
           method: "POST",
           body: JSON.stringify({ video_id: resume.video_id, languages: resume.languages }),
         });
-        // Wait for playback to start, then seek
         setTimeout(async () => {
           await api("/api/seek", {
             method: "POST",
@@ -659,6 +701,7 @@ function showResumePrompt() {
           });
         }, 2000);
         pollStatus();
+        showToast("Resumed: " + resume.title);
       } catch {}
     };
 
@@ -726,26 +769,40 @@ function updateStatusUI(data) {
     document.getElementById("autoplay-cb").checked = data.autoplay;
   }
 
-  // Live language switcher
+  // Update document title
+  if (data.state === "playing" && data.title) {
+    document.title = "\u25B6 " + data.title + " \u2014 Doc Flock Remote";
+  } else if (data.state === "paused" && data.title) {
+    document.title = "\u23F8 " + data.title + " \u2014 Doc Flock Remote";
+  } else {
+    document.title = "Doc Flock Remote";
+  }
+
+  // Live subtitle chips (instant apply)
   const liveLangGroup = document.getElementById("live-lang-group");
   const liveLangCbs = document.getElementById("live-lang-checkboxes");
   if (data.available_languages && data.available_languages.length > 0 && data.state !== "stopped") {
-    // Only rebuild checkboxes if languages changed
     const availKey = data.available_languages.join(",");
-    if (liveLangGroup.dataset.avail !== availKey) {
+    const activeKey = (data.languages || []).join(",");
+    const currentKey = liveLangGroup.dataset.avail + "|" + liveLangGroup.dataset.active;
+    const newKey = availKey + "|" + activeKey;
+    if (currentKey !== newKey) {
       liveLangGroup.dataset.avail = availKey;
+      liveLangGroup.dataset.active = activeKey;
       liveLangCbs.innerHTML = "";
       for (const lang of data.available_languages) {
-        const label = document.createElement("label");
-        label.className = "lang-option";
-        const cb = document.createElement("input");
-        cb.type = "checkbox";
-        cb.value = lang;
-        cb.name = "live-lang";
-        if (data.languages && data.languages.includes(lang)) cb.checked = true;
-        label.appendChild(cb);
-        label.appendChild(document.createTextNode(lang.toUpperCase()));
-        liveLangCbs.appendChild(label);
+        const chip = document.createElement("button");
+        chip.className = "lang-chip";
+        chip.dataset.lang = lang;
+        chip.textContent = lang.toUpperCase();
+        if (data.languages && data.languages.includes(lang)) {
+          chip.classList.add("active");
+        }
+        chip.addEventListener("click", () => {
+          chip.classList.toggle("active");
+          applyLiveLanguages();
+        });
+        liveLangCbs.appendChild(chip);
       }
     }
     liveLangGroup.classList.remove("hidden");
@@ -755,7 +812,6 @@ function updateStatusUI(data) {
 
   if (data.error) showError(data.error);
 
-  // Sync queue UI from server state
   if (data.queue !== undefined) updateQueueUI(data.queue);
 
   saveResumeState(data);
@@ -780,19 +836,238 @@ function hideError() {
   document.getElementById("error-msg").classList.add("hidden");
 }
 
-// --- Refresh ---
+// === Toast ===
+function showToast(msg) {
+  const container = document.getElementById("toast-container");
+  const toast = document.createElement("div");
+  toast.className = "toast";
+  toast.textContent = msg;
+  container.appendChild(toast);
+  setTimeout(() => toast.remove(), 3200);
+}
+
+// === Keyboard Shortcuts ===
+const shortcutsOverlay = document.getElementById("shortcuts-overlay");
+document.getElementById("shortcuts-close").addEventListener("click", () => {
+  shortcutsOverlay.classList.add("hidden");
+});
+
+document.addEventListener("keydown", (e) => {
+  // Don't capture when typing in inputs
+  if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.tagName === "SELECT") return;
+  // Don't capture if login screen is showing
+  if (!getToken()) return;
+
+  const key = e.key;
+
+  if (key === "?") {
+    e.preventDefault();
+    shortcutsOverlay.classList.toggle("hidden");
+    return;
+  }
+
+  if (key === "Escape") {
+    shortcutsOverlay.classList.add("hidden");
+    return;
+  }
+
+  if (key === " ") {
+    e.preventDefault();
+    togglePause();
+    return;
+  }
+
+  if (key === "ArrowLeft") {
+    e.preventDefault();
+    skip(e.shiftKey ? -30 : -10);
+    return;
+  }
+
+  if (key === "ArrowRight") {
+    e.preventDefault();
+    skip(e.shiftKey ? 30 : 10);
+    return;
+  }
+
+  if (key === "n" || key === "N") {
+    document.getElementById("next-btn").click();
+    return;
+  }
+
+  if (key === "p" || key === "P") {
+    document.getElementById("prev-btn").click();
+    return;
+  }
+
+  if (key === "m" || key === "M") {
+    zoomMicBtn.click();
+    return;
+  }
+
+  if (key === "v" && !e.ctrlKey && !e.metaKey) {
+    zoomCamBtn.click();
+    return;
+  }
+});
+
+// === Refresh ===
 document.getElementById("refresh-btn").addEventListener("click", () => {
   location.reload(true);
 });
 
-// --- Logout ---
+// === Logout ===
 document.getElementById("logout-btn").addEventListener("click", () => {
   localStorage.removeItem(TOKEN_KEY);
   localStorage.removeItem(EXPIRY_KEY);
   showLogin();
 });
 
-// --- Init ---
+// === Playlist download ===
+document.getElementById("yt-playlist-btn").addEventListener("click", downloadPlaylist);
+document.getElementById("yt-playlist-url").addEventListener("keydown", (e) => {
+  if (e.key === "Enter") downloadPlaylist();
+});
+
+async function downloadPlaylist() {
+  const input = document.getElementById("yt-playlist-url");
+  const url = input.value.trim();
+  if (!url) return;
+
+  const btn = document.getElementById("yt-playlist-btn");
+  const statusEl = document.getElementById("playlist-status");
+  btn.disabled = true;
+  statusEl.textContent = "Fetching playlist info...";
+  statusEl.classList.remove("hidden");
+
+  try {
+    await api("/api/playlist-url", {
+      method: "POST",
+      body: JSON.stringify({ url }),
+    });
+
+    const pollPl = setInterval(async () => {
+      try {
+        const resp = await api("/api/playlist-url/status");
+        const data = await resp.json();
+
+        if (data.state === "fetching") {
+          statusEl.textContent = data.message || "Fetching playlist info...";
+        } else if (data.state === "downloading") {
+          const pct = data.total ? Math.round((data.done / data.total) * 100) : 0;
+          statusEl.textContent = `Downloading ${data.done}/${data.total} (${pct}%) — ${data.current}`;
+        } else if (data.state === "done") {
+          clearInterval(pollPl);
+          const ok = data.results.filter((r) => r.status === "ok").length;
+          const cached = data.results.filter((r) => r.status === "cached").length;
+          const failed = data.results.filter((r) => r.status === "failed").length;
+          statusEl.textContent = `Done! ${ok} downloaded, ${cached} already cached, ${failed} failed`;
+          input.value = "";
+          btn.disabled = false;
+          loadVideos();
+          showToast(`Playlist complete: ${ok + cached}/${data.total} videos`);
+        } else if (data.state === "error") {
+          clearInterval(pollPl);
+          statusEl.textContent = "Error: " + (data.error || "Unknown error");
+          btn.disabled = false;
+        }
+      } catch {}
+    }, 2000);
+  } catch (e) {
+    statusEl.textContent = "Error: " + e.message;
+    btn.disabled = false;
+  }
+}
+
+// === Zoom controls ===
+const zoomJoinBtn = document.getElementById("zoom-join-btn");
+const zoomMicBtn = document.getElementById("zoom-mic-btn");
+const zoomCamBtn = document.getElementById("zoom-cam-btn");
+
+zoomJoinBtn.addEventListener("click", async () => {
+  zoomJoinBtn.disabled = true;
+  zoomJoinBtn.querySelector("span").textContent = "Joining...";
+  try {
+    await api("/api/zoom/join", { method: "POST" });
+    zoomJoinBtn.querySelector("span").textContent = "Joined!";
+    showToast("Joining Zoom meeting...");
+    setTimeout(() => {
+      zoomJoinBtn.querySelector("span").textContent = "Join Zoom";
+      zoomJoinBtn.disabled = false;
+    }, 3000);
+  } catch {
+    zoomJoinBtn.querySelector("span").textContent = "Join Zoom";
+    zoomJoinBtn.disabled = false;
+  }
+});
+
+function flashBtn(btn) {
+  btn.classList.add("flash");
+  setTimeout(() => btn.classList.remove("flash"), 300);
+}
+
+zoomMicBtn.addEventListener("click", async () => {
+  flashBtn(zoomMicBtn);
+  try {
+    await api("/api/zoom/mute", { method: "POST" });
+  } catch {}
+});
+
+zoomCamBtn.addEventListener("click", async () => {
+  flashBtn(zoomCamBtn);
+  try {
+    await api("/api/zoom/video", { method: "POST" });
+  } catch {}
+});
+
+// === Eric-proof: graceful End Meeting ===
+const endZoomBtn = document.getElementById("end-zoom-btn");
+endZoomBtn.addEventListener("click", async () => {
+  if (!confirm(
+    "END the Zoom meeting for everyone?\n\n" +
+    "This sends Alt+Q → 'End Meeting for All' to Zoom on the Beelink. " +
+    "Only use this if Hoge Heer accidentally became host and the meeting " +
+    "wasn't ended after everyone left."
+  )) return;
+  if (!confirm(
+    "Are you REALLY sure?\n\n" +
+    "All remaining participants will be disconnected."
+  )) return;
+
+  endZoomBtn.disabled = true;
+  const original = endZoomBtn.textContent;
+  let countdown = 15;
+  const render = () => {
+    endZoomBtn.textContent = `Ending meeting... ${countdown}s`;
+  };
+  render();
+  const tick = setInterval(() => {
+    countdown -= 1;
+    if (countdown <= 0) {
+      endZoomBtn.textContent = "Ending meeting...";
+      clearInterval(tick);
+    } else {
+      render();
+    }
+  }, 1000);
+
+  try {
+    await api("/api/zoom/end-meeting", { method: "POST" });
+    clearInterval(tick);
+    endZoomBtn.textContent = "End command sent";
+    showToast("Zoom end-meeting command sent");
+    setTimeout(() => {
+      endZoomBtn.textContent = original;
+      endZoomBtn.disabled = false;
+    }, 4000);
+  } catch (err) {
+    clearInterval(tick);
+    endZoomBtn.textContent = original;
+    endZoomBtn.disabled = false;
+    showToast("Failed to end meeting");
+  }
+});
+
+// === Init ===
 if (getToken()) {
   showApp();
 } else {

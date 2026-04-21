@@ -8,15 +8,17 @@ from fastapi.responses import Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from config import HOST, PORT
-from player import player, scan_videos, scan_clips, scan_music, scan_youtube_cache, get_video, get_next_video, get_prev_video, download_youtube
+from config import HOST, PORT, ZOOM_MEETING_ID, ZOOM_PASSCODE
+from player import player, scan_videos, scan_clips, scan_music, scan_youtube_cache, get_video, get_next_video, get_prev_video, download_youtube, get_playlist_info
 
 PUBLIC_DIR = Path(__file__).parent.parent / "public"
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    await player.start_idle_screen()
     yield
+    await player._stop_idle()
     await player.stop()
 
 
@@ -122,6 +124,68 @@ async def api_play_url_status():
     return _yt_download_status
 
 
+# --- Playlist download ---
+
+_playlist_status = {"state": "idle"}
+_playlist_task = None
+
+
+@app.post("/api/playlist-url")
+async def api_playlist_url(req: PlayUrlRequest):
+    global _playlist_task, _playlist_status
+
+    async def _download_playlist():
+        global _playlist_status
+        try:
+            _playlist_status = {"state": "fetching", "message": "Fetching playlist info..."}
+            items = await get_playlist_info(req.url)
+            if not items:
+                _playlist_status = {"state": "error", "error": "No videos found in playlist"}
+                return
+
+            _playlist_status = {
+                "state": "downloading",
+                "total": len(items),
+                "done": 0,
+                "current": "",
+                "results": [],
+            }
+
+            for i, item in enumerate(items):
+                _playlist_status["current"] = item["title"]
+                _playlist_status["done"] = i
+
+                video_url = f"https://www.youtube.com/watch?v={item['id']}"
+                try:
+                    video = await download_youtube(video_url)
+                    status = "cached" if video and video.get("cached") else ("ok" if video else "failed")
+                    _playlist_status["results"].append({
+                        "title": item["title"],
+                        "status": status,
+                    })
+                except Exception:
+                    _playlist_status["results"].append({
+                        "title": item["title"],
+                        "status": "failed",
+                    })
+
+            _playlist_status["state"] = "done"
+            _playlist_status["done"] = len(items)
+            _playlist_status["current"] = ""
+
+        except Exception as e:
+            _playlist_status = {"state": "error", "error": str(e)}
+
+    _playlist_status = {"state": "fetching", "message": "Starting..."}
+    _playlist_task = asyncio.ensure_future(_download_playlist())
+    return {"status": "started"}
+
+
+@app.get("/api/playlist-url/status")
+async def api_playlist_url_status():
+    return _playlist_status
+
+
 @app.post("/api/play")
 async def api_play(req: PlayRequest):
     if not req.video_id:
@@ -203,6 +267,7 @@ async def api_prev():
 @app.post("/api/stop")
 async def api_stop():
     await player.stop()
+    await player.start_idle_screen()
     return {"status": "stopped"}
 
 
@@ -246,6 +311,138 @@ async def api_queue_clear():
 @app.get("/api/status")
 async def api_status():
     return player.get_status()
+
+
+# --- Zoom controls ---
+
+_zoom_mic_muted = False
+_zoom_cam_off = False
+
+async def _xdotool_zoom_key(key: str):
+    """Send a key to the Zoom Meeting window via xdotool."""
+    import os
+    env = os.environ.copy()
+    env["DISPLAY"] = ":1"
+    # Find a Zoom window that accepts keyboard shortcuts
+    for name in ["Zoom Meeting", "Zoom Workplace"]:
+        find = await asyncio.create_subprocess_exec(
+            "xdotool", "search", "--name", name,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+            env=env,
+        )
+        stdout, _ = await find.communicate()
+        window_ids = [w for w in stdout.decode().strip().split("\n") if w]
+        if window_ids:
+            break
+    if not window_ids:
+        raise HTTPException(503, "Zoom window not found")
+    wid = window_ids[0]
+    proc = await asyncio.create_subprocess_exec(
+        "xdotool", "key", "--window", wid, key,
+        env=env,
+    )
+    await proc.wait()
+
+
+@app.post("/api/zoom/mute")
+async def api_zoom_mute():
+    global _zoom_mic_muted
+    await _xdotool_zoom_key("alt+a")
+    _zoom_mic_muted = not _zoom_mic_muted
+    return {"mic_muted": _zoom_mic_muted}
+
+
+@app.post("/api/zoom/video")
+async def api_zoom_video():
+    global _zoom_cam_off
+    await _xdotool_zoom_key("alt+v")
+    _zoom_cam_off = not _zoom_cam_off
+    return {"cam_off": _zoom_cam_off}
+
+
+@app.post("/api/zoom/join")
+async def api_zoom_join():
+    import os
+    env = os.environ.copy()
+    env["DISPLAY"] = ":1"
+    url = f"zoommtg://us02web.zoom.us/join?action=join&confno={ZOOM_MEETING_ID}&pwd={ZOOM_PASSCODE}"
+    proc = await asyncio.create_subprocess_exec(
+        "xdg-open", url,
+        env=env,
+    )
+    await proc.wait()
+    return {"joined": True, "meeting_id": ZOOM_MEETING_ID}
+
+
+@app.get("/api/zoom/status")
+async def api_zoom_status():
+    return {"mic_muted": _zoom_mic_muted, "cam_off": _zoom_cam_off}
+
+
+@app.post("/api/zoom/end-meeting")
+async def api_zoom_end_meeting():
+    """Gracefully end the Zoom meeting via Alt+Q dialog.
+
+    Backup for the case where Hoge Heer accidentally became host and the
+    meeting wasn't ended after everyone left. Sends Alt+Q to open Zoom's
+    End/Leave Meeting dialog, then Return to confirm the default-focused
+    button. When Hoge Heer is host, that button is "End Meeting for All"
+    and the meeting will end gracefully on Zoom's server side (no random
+    host reassignment, unlike a SIGKILL).
+
+    Note: assumes the default-focused button is "End Meeting for All".
+    If a Zoom version puts focus on Cancel by default, an extra Tab key
+    needs to be inserted before the Return below.
+    """
+    import os
+    env = os.environ.copy()
+    env["DISPLAY"] = ":1"
+
+    # Find Zoom main window
+    window_ids = []
+    for name in ["Zoom Meeting", "Zoom Workplace"]:
+        find = await asyncio.create_subprocess_exec(
+            "xdotool", "search", "--name", name,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+            env=env,
+        )
+        stdout, _ = await find.communicate()
+        window_ids = [w for w in stdout.decode().strip().split("\n") if w]
+        if window_ids:
+            break
+    if not window_ids:
+        raise HTTPException(503, "Zoom window not found")
+    wid = window_ids[0]
+
+    # Activate Zoom so Alt+Q is delivered to it (not stolen by another window)
+    activate = await asyncio.create_subprocess_exec(
+        "xdotool", "windowactivate", "--sync", wid,
+        stderr=asyncio.subprocess.DEVNULL,
+        env=env,
+    )
+    await activate.wait()
+
+    # Send Alt+Q → opens End/Leave Meeting dialog
+    proc = await asyncio.create_subprocess_exec(
+        "xdotool", "key", "alt+q",
+        env=env,
+    )
+    await proc.wait()
+
+    # Wait for the dialog to render
+    await asyncio.sleep(0.7)
+
+    # Press Return to activate the default-focused button.
+    # When host: that should be "End Meeting for All".
+    proc = await asyncio.create_subprocess_exec(
+        "xdotool", "key", "Return",
+        env=env,
+    )
+    await proc.wait()
+
+    return {"ended": True}
 
 
 @app.get("/api/preview")

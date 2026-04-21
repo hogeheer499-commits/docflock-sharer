@@ -12,86 +12,104 @@ Style: Default,Arial,52,&H00FFFFFF,&H0000CCFF,&H00000000,&H96000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:04.88,0:00:09.92,Default,,0,0,0,,dans la librairie, c'est une\Nveste noire et il y a un téléphone portable dans la
-Dialogue: 0,0:00:09.92,0:00:23.92,Default,,0,0,0,,poche.  Donc, si quelqu'un a perdu sa\Nveste, elle se trouve à la librairie.   Je te
-Dialogue: 0,0:00:23.92,0:00:31.43,Default,,0,0,0,,Euh, je vous remercie de m'avoir béni à\Ntravers vous
-Dialogue: 0,0:00:31.43,0:00:52.87,Default,,0,0,0,,et je vous aime, vous et toutes les personnes ici présentes.\NIl veut s'incliner devant vous.  Je
-Dialogue: 0,0:00:52.87,0:01:00.80,Default,,0,0,0,,comprends.\NOuais.
-Dialogue: 0,0:01:00.80,0:01:08.47,Default,,0,0,0,,Oui.   Que\NDieu te bénisse.  Amen.   Que
-Dialogue: 0,0:01:08.47,0:01:18.72,Default,,0,0,0,,C'est neuf fois.\NOh non.
-Dialogue: 0,0:01:18.72,0:02:07.04,Default,,0,0,0,,Oh,\Nbeaucoup de travail.   Que
-Dialogue: 0,0:02:07.04,0:02:38.48,Default,,0,0,0,,Dieu te bénisse.\NMerci.
-Dialogue: 0,0:02:38.48,0:02:45.84,Default,,0,0,0,,Bonjour.\NBonjour, docteur.
-Dialogue: 0,0:02:45.84,0:02:49.20,Default,,0,0,0,,Bonjour,\NDr Hawkins.  Je n'ai pas de question.
-Dialogue: 0,0:02:49.20,0:02:54.64,Default,,0,0,0,,Je voulais simplement vous dire que je remercie Dieu\Nchaque jour pour votre enseignement
-Dialogue: 0,0:02:54.64,0:03:02.15,Default,,0,0,0,,et pour l'effet qu'il a eu sur ma\Nvie.  Et maintenant, je tiens à vous remercier et à
-Dialogue: 0,0:03:02.15,0:03:07.59,Default,,0,0,0,,vous demander, s'il vous plaît, la permission d'être en votre\Nprésence, de vous tenir la main
-Dialogue: 0,0:03:07.59,0:03:14.08,Default,,0,0,0,,et simplement de vous dire merci.  Merci\Nbeaucoup.
-Dialogue: 0,0:03:14.08,0:03:24.23,Default,,0,0,0,,.\NOuais.  Faites le tour.  Vous êtes tous les deux petits.
-Dialogue: 0,0:03:24.23,0:03:29.68,Default,,0,0,0,,Dieu te bénisse, ma chérie.\NTu as une énergie incroyable.  Attendez,
-Dialogue: 0,0:03:29.68,0:03:40.79,Default,,0,0,0,,attendez, attendez.\NBonjour.
-Dialogue: 0,0:03:40.79,0:03:52.08,Default,,0,0,0,,Salut.\Nje n'allais pas pleurer, mais je
+Dialogue: 0,0:00:01.60,0:00:07.83,Default,,0,0,0,,Euh, rapidement, il reste une veste\Ndans la librairie, c'est une
+Dialogue: 0,0:00:07.83,0:00:12.80,Default,,0,0,0,,veste noire et il y a un téléphone portable dans la\Npoche.  Donc, si quelqu'un a perdu sa
+Dialogue: 0,0:00:12.80,0:00:22.19,Default,,0,0,0,,veste, elle se trouve à la librairie.   Je te\Ndonne un dollar pour un téléphone portable.
+Dialogue: 0,0:00:22.32,0:00:28.88,Default,,0,0,0,,Oui.\NEuh, je vous remercie de nous avoir bénis à
+Dialogue: 0,0:00:28.88,0:00:39.07,Default,,0,0,0,,travers vous\Net je vous aime, vous et toutes les personnes ici présentes.
+Dialogue: 0,0:00:43.28,0:00:52.87,Default,,0,0,0,,Euh, je voudrais vous saluer neuf fois.\NIl veut s'incliner devant vous.  Je
+Dialogue: 0,0:00:52.87,0:00:59.28,Default,,0,0,0,,comprends.\NOuais.
+Dialogue: 0,0:00:59.28,0:01:02.39,Default,,0,0,0,,Ouais.\NOui.   Que
+Dialogue: 0,0:01:02.39,0:01:08.47,Default,,0,0,0,,Dieu te bénisse.  Amen.   Que\NDieu te bénisse.
+Dialogue: 0,0:01:08.47,0:01:13.15,Default,,0,0,0,,C'est neuf fois.\NOh non.
+Dialogue: 0,0:01:16.40,0:01:21.72,Default,,0,0,0,,C'est difficile à parier.\NOh,
+Dialogue: 0,0:01:27.11,0:01:32.04,Default,,0,0,0,,si vous devenez chrétien, cela vous épargnera\Nbeaucoup de travail.   Que
+Dialogue: 0,0:02:04.71,0:02:10.60,Default,,0,0,0,,Dieu te bénisse.   Que\NDieu te bénisse.
+Dialogue: 0,0:02:17.36,0:02:22.36,Default,,0,0,0,,Merci.\NMerci.
+Dialogue: 0,0:02:30.64,0:02:38.48,Default,,0,0,0,,Merci beaucoup.\NBonjour.
+Dialogue: 0,0:02:38.48,0:02:44.72,Default,,0,0,0,,Bonjour.\NOuah.  Je ne sais pas si je peux parler.
+Dialogue: 0,0:02:44.72,0:02:46.16,Default,,0,0,0,,Bonjour, docteur.\NBonjour,
+Dialogue: 0,0:02:46.16,0:02:51.36,Default,,0,0,0,,Dr Hawkins.  Je n'ai pas de question.\NJe voulais simplement vous dire que je remercie Dieu
+Dialogue: 0,0:02:51.36,0:02:57.92,Default,,0,0,0,,chaque jour pour votre enseignement\Net pour l'effet qu'il a eu sur ma
+Dialogue: 0,0:02:57.92,0:03:05.04,Default,,0,0,0,,vie.  Et maintenant, je tiens à vous remercier et à\Nvous demander, s'il vous plaît, la permission d'être en votre
+Dialogue: 0,0:03:05.04,0:03:09.84,Default,,0,0,0,,présence, de vous tenir la main\Net simplement de vous dire merci.  Merci
+Dialogue: 0,0:03:09.84,0:03:14.08,Default,,0,0,0,,beaucoup.\NVous allez devoir faire le tour
+Dialogue: 0,0:03:14.08,0:03:19.31,Default,,0,0,0,,.\NOuais.  Faites le tour.  Vous êtes tous les deux petits.
+Dialogue: 0,0:03:23.51,0:03:26.64,Default,,0,0,0,,Merci.  Que\NDieu te bénisse, ma chérie.
+Dialogue: 0,0:03:26.64,0:03:32.92,Default,,0,0,0,,Tu as une énergie incroyable.  Attendez,\Nattendez, attendez.
+Dialogue: 0,0:03:38.87,0:03:40.23,Default,,0,0,0,,Oui.\NBonjour.
+Dialogue: 0,0:03:40.23,0:03:43.79,Default,,0,0,0,,Bonjour.\NSalut.
+Dialogue: 0,0:03:45.44,0:03:52.08,Default,,0,0,0,,Salut Susan.  Bonjour, Dr Hawkins.  Je suis désolé.  Je m'étais dit que\Nje n'allais pas pleurer, mais je
 Dialogue: 0,0:03:52.08,0:03:58.08,Default,,0,0,0,,voulais te remercier,\Nje voulais juste être ici en ta
 Dialogue: 0,0:03:58.08,0:04:03.12,Default,,0,0,0,,présence et te remercier pour tout.\NJe suis tellement reconnaissante de t'avoir trouvé à ce moment de
 Dialogue: 0,0:04:03.12,0:04:08.08,Default,,0,0,0,,ma vie et je t'aime\N.
-Dialogue: 0,0:04:08.08,0:04:26.47,Default,,0,0,0,,Merci d'être venu et d'avoir rencontré les\Nautres.
-Dialogue: 0,0:04:26.47,0:04:42.63,Default,,0,0,0,,.\NQu'est-ce que vous avez dit?
-Dialogue: 0,0:04:42.63,0:05:02.32,Default,,0,0,0,,Euh, oui.\Npour vos enseignements.  Et j'ai une
-Dialogue: 0,0:05:02.32,0:05:06.72,Default,,0,0,0,,question.  J'ai du mal avec le karma,\Nà comprendre le karma.   Existe-t-il
-Dialogue: 0,0:05:06.72,0:05:13.91,Default,,0,0,0,,un moment,\Ndans une incarnation, où l'on constate
-Dialogue: 0,0:05:13.91,0:05:18.72,Default,,0,0,0,,une démarcation entre le moment où l'on a\Ndépassé sa dette karmique ?
-Dialogue: 0,0:05:18.72,0:05:20.40,Default,,0,0,0,,Oui.   Nous\Nsommes désormais endettés karmiquement.
-Dialogue: 0,0:05:20.40,0:05:22.63,Default,,0,0,0,,C'est vrai.  Ouais.\NEst-ce vrai ?
-Dialogue: 0,0:05:22.63,0:05:26.72,Default,,0,0,0,,Oh ouais.  C'est là l'\Nun des grands objectifs de la
-Dialogue: 0,0:05:26.72,0:05:31.84,Default,,0,0,0,,réincarnation.\NDonc sans être informé
-Dialogue: 0,0:05:31.84,0:05:35.36,Default,,0,0,0,,que cela peut se produire pendant\NOui.  Ils aiment se libérer de ce karma
-Dialogue: 0,0:05:35.36,0:05:40.32,Default,,0,0,0,,sans nécessairement devenir légers.\NDroite.  Cela pourrait donc arriver.  Fantastique.
-Dialogue: 0,0:05:40.32,0:05:42.72,Default,,0,0,0,,C'était ma question.  Et pourrais-je\Navoir une photo aussi ?
-Dialogue: 0,0:05:42.72,0:06:06.40,Default,,0,0,0,,Vous pariez.\NOuais.  Merci.   D'accord
-Dialogue: 0,0:06:06.40,0:06:17.68,Default,,0,0,0,,.\NEuh, oui.
-Dialogue: 0,0:06:17.68,0:06:19.36,Default,,0,0,0,,Merci, Susan.\NOui.
-Dialogue: 0,0:06:19.36,0:06:22.47,Default,,0,0,0,,Je voudrais vous remercier de\Nnous avoir guidés dans cette vie et d'avoir rendu le quotidien un
-Dialogue: 0,0:06:22.47,0:06:27.36,Default,,0,0,0,,peu plus facile.\NMa question est la suivante : la dernière fois que j'étais ici, j'étais
-Dialogue: 0,0:06:27.36,0:06:31.28,Default,,0,0,0,,assis dans le public et je n'étais pas\Nsûr de pouvoir revenir
-Dialogue: 0,0:06:31.28,0:06:36.63,Default,,0,0,0,,.  J'essayais donc d'absorber autant que\Npossible de vous, car je regarde les
-Dialogue: 0,0:06:36.63,0:06:44.47,Default,,0,0,0,,conférences à chaque fois et je les écoute le lendemain.\NJe travaille comme
-Dialogue: 0,0:06:44.47,0:06:49.75,Default,,0,0,0,,hôtesse de l'air et, en essayant de remonter dans\Nl'avion et en rentrant, je ne pouvais pas
-Dialogue: 0,0:06:49.75,0:06:54.88,Default,,0,0,0,,regarder les gens en face, car je\Nressentais sans cesse ces émotions dans mon cœur.
-Dialogue: 0,0:06:54.88,0:07:00.56,Default,,0,0,0,,Et euh, quand je suis arrivée à l'hôtel, je n'arrivais pas à arrêter de\Npleurer, alors j'ai appelé
-Dialogue: 0,0:07:00.56,0:07:06.47,Default,,0,0,0,,tous les étudiants spirituels pour m'aider à\Ncomprendre ce qui se passait.  Le
-Dialogue: 0,0:07:06.47,0:07:12.24,Default,,0,0,0,,lendemain,\Nje me sentais engourdi, comme si je ne pouvais pas mettre en pratique tous
-Dialogue: 0,0:07:12.24,0:07:15.68,Default,,0,0,0,,les livres que j'avais lus, et je me demandais si je\Ndevais vraiment recommencer, si je devais relire tous ces
-Dialogue: 0,0:07:15.68,0:07:20.40,Default,,0,0,0,,livres une fois de plus ?  Je ne\Ncomprends pas ce qui se passe.  Mais le
-Dialogue: 0,0:07:20.40,0:07:27.19,Default,,0,0,0,,troisième jour, j'ai ressenti une excitation spirituelle que je ne\Npouvais contrôler, et le
-Dialogue: 0,0:07:27.19,0:07:46.00,Default,,0,0,0,,miracle continu se multiplie à\NIl a dit qu'il avait vécu
-Dialogue: 0,0:07:46.00,0:07:50.88,Default,,0,0,0,,le troisième jour, un miracle s'était produit,\Net que cela avait continué à se produire encore et encore,
-Dialogue: 0,0:07:50.88,0:07:55.68,Default,,0,0,0,,et qu'il était,\Nvous savez, confus parce qu'il ne
-Dialogue: 0,0:07:55.68,0:07:58.87,Default,,0,0,0,,savait pas vraiment pourquoi cela\Narrivait.   Il n'a
-Dialogue: 0,0:07:58.87,0:08:03.28,Default,,0,0,0,,pas besoin de savoir pourquoi.  Que\Nvoulez-vous savoir pour
-Dialogue: 0,0:08:03.28,0:08:05.84,Default,,0,0,0,,savoir où je vais aller ?\NHein?
-Dialogue: 0,0:08:05.84,0:08:09.75,Default,,0,0,0,,Pour voir où il va aller.\NVous essayez de contrôler tout le
-Dialogue: 0,0:08:09.75,0:08:18.72,Default,,0,0,0,,phénomène au lieu de le laisser se\Ndérouler naturellement.
+Dialogue: 0,0:04:08.08,0:04:12.51,Default,,0,0,0,,Merci d'être venu et d'avoir rencontré les\Nautres.
+Dialogue: 0,0:04:25.44,0:04:26.96,Default,,0,0,0,,C'est clair.   D'accord\N.
+Dialogue: 0,0:04:26.96,0:04:34.60,Default,,0,0,0,,Qu'est-ce que vous avez dit?\NJe laisse tomber.
+Dialogue: 0,0:04:36.47,0:04:42.63,Default,,0,0,0,,Merci.\NOh, merci.
+Dialogue: 0,0:04:42.63,0:04:59.60,Default,,0,0,0,,Euh, oui.\NAvant tout, je tiens à vous remercier
+Dialogue: 0,0:04:59.60,0:05:04.32,Default,,0,0,0,,pour vos enseignements.  Et j'ai une\Nquestion.  J'ai du mal avec le karma,
+Dialogue: 0,0:05:04.32,0:05:09.91,Default,,0,0,0,,à comprendre le karma.   Existe-t-il\Nun moment,
+Dialogue: 0,0:05:09.91,0:05:16.63,Default,,0,0,0,,dans une incarnation, où l'on constate\Nune démarcation entre le moment où l'on a
+Dialogue: 0,0:05:16.63,0:05:19.19,Default,,0,0,0,,dépassé sa dette karmique ?\NOui.   Nous
+Dialogue: 0,0:05:19.19,0:05:21.75,Default,,0,0,0,,sommes désormais endettés karmiquement.\NC'est vrai.  Ouais.
+Dialogue: 0,0:05:21.75,0:05:25.28,Default,,0,0,0,,Est-ce vrai ?\NOh ouais.  C'est là l'
+Dialogue: 0,0:05:25.28,0:05:28.40,Default,,0,0,0,,un des grands objectifs de la\Nréincarnation.
+Dialogue: 0,0:05:28.40,0:05:33.28,Default,,0,0,0,,Donc sans être informé\Nque cela peut se produire pendant
+Dialogue: 0,0:05:33.28,0:05:37.36,Default,,0,0,0,,Oui.  Ils aiment se libérer de ce karma\Nsans nécessairement devenir légers.
+Dialogue: 0,0:05:37.36,0:05:42.08,Default,,0,0,0,,Droite.  Cela pourrait donc arriver.  Fantastique.\NC'était ma question.  Et pourrais-je
+Dialogue: 0,0:05:42.08,0:05:43.19,Default,,0,0,0,,avoir une photo aussi ?\NVous pariez.
+Dialogue: 0,0:05:43.19,0:06:06.40,Default,,0,0,0,,Ouais.  Merci.   D'accord\N.   D'accord
+Dialogue: 0,0:06:06.40,0:06:10.19,Default,,0,0,0,,.\NEuh, oui.
+Dialogue: 0,0:06:16.40,0:06:18.72,Default,,0,0,0,,Merci, docteur.\NMerci, Susan.
+Dialogue: 0,0:06:18.72,0:06:20.63,Default,,0,0,0,,Oui.\NJe voudrais vous remercier de
+Dialogue: 0,0:06:20.63,0:06:24.88,Default,,0,0,0,,nous avoir guidés dans cette vie et d'avoir rendu le quotidien un\Npeu plus facile.
+Dialogue: 0,0:06:24.88,0:06:29.75,Default,,0,0,0,,Ma question est la suivante : la dernière fois que j'étais ici, j'étais\Nassis dans le public et je n'étais pas
+Dialogue: 0,0:06:29.75,0:06:34.00,Default,,0,0,0,,sûr de pouvoir revenir\N.  J'essayais donc d'absorber autant que
+Dialogue: 0,0:06:34.00,0:06:40.00,Default,,0,0,0,,possible de vous, car je regarde les\Nconférences à chaque fois et je les écoute le lendemain.
+Dialogue: 0,0:06:40.00,0:06:46.16,Default,,0,0,0,,Je travaille comme\Nhôtesse de l'air et, en essayant de remonter dans
+Dialogue: 0,0:06:46.16,0:06:51.75,Default,,0,0,0,,l'avion et en rentrant, je ne pouvais pas\Nregarder les gens en face, car je
+Dialogue: 0,0:06:51.75,0:06:58.40,Default,,0,0,0,,ressentais sans cesse ces émotions dans mon cœur.\NEt euh, quand je suis arrivée à l'hôtel, je n'arrivais pas à arrêter de
+Dialogue: 0,0:06:58.40,0:07:03.59,Default,,0,0,0,,pleurer, alors j'ai appelé\Ntous les étudiants spirituels pour
+Dialogue: 0,0:07:03.59,0:07:08.24,Default,,0,0,0,,m'aider à comprendre ce qui se passait.  Le\Nlendemain,
+Dialogue: 0,0:07:08.24,0:07:14.08,Default,,0,0,0,,je me sentais engourdi, comme si je ne pouvais pas mettre en pratique tous\Nles livres que j'avais lus, et je me demandais si je
+Dialogue: 0,0:07:14.08,0:07:17.68,Default,,0,0,0,,devais vraiment recommencer, si je devais relire tous ces\Nlivres une fois de plus ?  Je ne
+Dialogue: 0,0:07:17.68,0:07:23.84,Default,,0,0,0,,comprends pas ce qui se passe.  Mais le\Ntroisième jour, j'ai ressenti une excitation spirituelle que je ne
+Dialogue: 0,0:07:23.84,0:07:31.24,Default,,0,0,0,,pouvais contrôler, et le\Nmiracle continu se multiplie à
+Dialogue: 0,0:07:34.00,0:07:43.68,Default,,0,0,0,,vos yeux.  Pouvez-vous me le dire, s'il vous plaît ?\NIl a dit qu'il avait vécu
+Dialogue: 0,0:07:43.68,0:07:48.16,Default,,0,0,0,,toutes sortes de choses les trois premiers jours, et que\Nle troisième jour, un miracle s'était produit,
+Dialogue: 0,0:07:48.16,0:07:53.12,Default,,0,0,0,,et que cela avait continué à se produire encore et encore,\Net qu'il était,
+Dialogue: 0,0:07:53.12,0:07:58.16,Default,,0,0,0,,vous savez, confus parce qu'il ne\Nsavait pas vraiment pourquoi cela
+Dialogue: 0,0:07:58.16,0:08:00.56,Default,,0,0,0,,arrivait.   Il n'a\Npas besoin de savoir pourquoi.  Que
+Dialogue: 0,0:08:00.56,0:08:05.28,Default,,0,0,0,,voulez-vous savoir pour\Nsavoir où je vais aller ?
+Dialogue: 0,0:08:05.28,0:08:08.47,Default,,0,0,0,,Hein?\NPour voir où il va aller.
+Dialogue: 0,0:08:08.47,0:08:11.36,Default,,0,0,0,,Vous essayez de contrôler tout le\Nphénomène au lieu de le laisser se
+Dialogue: 0,0:08:11.36,0:08:18.72,Default,,0,0,0,,dérouler naturellement.\NMerci.  Pourrais-je avoir deux secondes de
 Dialogue: 0,0:08:18.72,0:08:20.40,Default,,0,0,0,,transmission ?\NHein?
 Dialogue: 0,0:08:20.40,0:08:24.80,Default,,0,0,0,,Il voulait simplement être avec toi.\NViens par ici.
 Dialogue: 0,0:08:24.80,0:08:27.52,Default,,0,0,0,,Euh, il veut juste être avec toi.\NOui, vous n'êtes pas obligé de comprendre
 Dialogue: 0,0:08:27.52,0:08:30.63,Default,,0,0,0,,ce qui se passe.\NMerci, docteur.   Tout d'abord
-Dialogue: 0,0:08:30.63,0:08:46.64,Default,,0,0,0,,, vous ne comprenez pas\Nce qui se passe.  Tu es trop bête.
+Dialogue: 0,0:08:30.63,0:08:35.80,Default,,0,0,0,,, vous ne comprenez pas\Nce qui se passe.  Tu es trop bête.
+Dialogue: 0,0:08:35.91,0:08:46.64,Default,,0,0,0,,Merci.  Je pense que tu devrais simplement te\Ndétendre.
 Dialogue: 0,0:08:46.64,0:08:51.60,Default,,0,0,0,,C'est parce que l'ego est stupide.  Il ne\Nparle que de son ego.  Il ne parle pas
 Dialogue: 0,0:08:51.60,0:08:57.83,Default,,0,0,0,,de son vrai moi, car c'est son vrai\Nmoi qui est concerné par tout cela.
-Dialogue: 0,0:08:57.83,0:09:11.04,Default,,0,0,0,,J'appelle toujours l'ego le moi stupide.  Tu\Nsais que c'est toi, l'idiot.   Je n'ai pas
+Dialogue: 0,0:08:57.83,0:09:03.39,Default,,0,0,0,,J'appelle toujours l'ego le moi stupide.  Tu\Nsais que c'est toi, l'idiot.   Je n'ai pas
+Dialogue: 0,0:09:04.24,0:09:11.04,Default,,0,0,0,,de question.   De\Nquoi avons-nous besoin ?
 Dialogue: 0,0:09:11.04,0:09:16.32,Default,,0,0,0,,Je n'ai pas de question.  Je voulais juste lui\Ntenir la main.
-Dialogue: 0,0:09:16.32,0:09:36.08,Default,,0,0,0,,Oui,\N.
+Dialogue: 0,0:09:16.32,0:09:25.88,Default,,0,0,0,,Oui,\Nnous y sommes.  Que Dieu te bénisse.
+Dialogue: 0,0:09:32.39,0:09:36.08,Default,,0,0,0,,D'accord, j'ai une autre annonce à faire.  Oups\N.
 Dialogue: 0,0:09:36.08,0:09:40.24,Default,,0,0,0,,Qu'est-ce qui ne va pas chez vous ?  Vous êtes en train de\Ntout perdre.  Je n'ai jamais eu autant d'
 Dialogue: 0,0:09:40.24,0:09:44.16,Default,,0,0,0,,annonces à faire en tout et pour tout le monde,\Nmais tout le monde continue d'en laisser
 Dialogue: 0,0:09:44.16,0:09:50.48,Default,,0,0,0,,.  Bon, maintenant on a les clés d'\Nune Saab dans
 Dialogue: 0,0:09:50.48,0:09:54.88,Default,,0,0,0,,la librairie.  Et il reste un pendule que\Nquelqu'un a laissé.  Donc, si vous pouviez aller
 Dialogue: 0,0:09:54.88,0:09:59.44,Default,,0,0,0,,à la librairie et le récupérer,\Nnous vous en serions reconnaissants.  Merci.
-Dialogue: 0,0:09:59.44,0:10:11.27,Default,,0,0,0,,J'aurais besoin d'un sous-marin supplémentaire.\Nquestions, mais je suis venu vous remercier
-Dialogue: 0,0:10:11.27,0:10:16.32,Default,,0,0,0,,.\NOui.   Il y a
+Dialogue: 0,0:09:59.44,0:10:09.27,Default,,0,0,0,,J'aurais besoin d'un sous-marin supplémentaire.\NDocteur Hawkins, je ne suis pas venu poser de
+Dialogue: 0,0:10:09.27,0:10:11.83,Default,,0,0,0,,questions, mais je suis venu vous remercier\N.
+Dialogue: 0,0:10:11.83,0:10:16.32,Default,,0,0,0,,Oui.   Il y a\Nenviron quatre ans, Dieu m'a guidé vers
 Dialogue: 0,0:10:16.32,0:10:20.00,Default,,0,0,0,,vous à Atlanta, et depuis, je viens\Nici trois ou quatre fois
 Dialogue: 0,0:10:20.00,0:10:24.00,Default,,0,0,0,,par an.  Mais je suis ici pour dire au revoir\Ncar je ne reviendrai pas.  Mais
 Dialogue: 0,0:10:24.00,0:10:27.51,Default,,0,0,0,,je vais utiliser les informations que j'ai obtenues\Nde vous.  Il y a un an, je
-Dialogue: 0,0:10:27.51,0:10:31.04,Default,,0,0,0,,vous demandais si je devais me présenter à la mairie de ma\Nville natale, celle de 12 000 habitants au
+Dialogue: 0,0:10:27.51,0:10:31.04,Default,,0,0,0,,vous demandais si je devais me présenter à la mairie de ma\Nville natale, celle de 12 000 habitants en
 Dialogue: 0,0:10:31.04,0:10:35.27,Default,,0,0,0,,pays cajun ?  Et votre réponse a été oui,\Nsans aucun doute.  Je vous présente donc ma
 Dialogue: 0,0:10:35.27,0:10:40.00,Default,,0,0,0,,carte de campagne.\NQu'est-ce que c'est?
 Dialogue: 0,0:10:40.00,0:10:42.88,Default,,0,0,0,,Carte de campagne.\NCarte de campagne.  Il se présente à la mairie
@@ -113,26 +131,30 @@ Dialogue: 0,0:11:24.64,0:11:27.92,Default,,0,0,0,,Ils ont aussi beaucoup découp
 Dialogue: 0,0:11:27.92,0:11:30.00,Default,,0,0,0,,Découpé en grande quantité.\NIls peuvent, ils peuvent découper un peu.
 Dialogue: 0,0:11:30.00,0:11:34.56,Default,,0,0,0,,Oh, le peuple cinjun.  Oui.  Mais je souhaite\Nvos bénédictions pour cette course
 Dialogue: 0,0:11:34.56,0:11:38.07,Default,,0,0,0,,électorale et peut-être aussi pour toutes\Nles personnes présentes ici.  Vous voyez, je veux maximiser mes
-Dialogue: 0,0:11:38.07,0:11:46.56,Default,,0,0,0,,chances.\Nici pour pouvoir fausser les jeux.
-Dialogue: 0,0:11:46.56,0:11:51.44,Default,,0,0,0,,Oh, je ne vais pas jouer.\NMerci.
-Dialogue: 0,0:11:51.44,0:11:55.68,Default,,0,0,0,,Eh bien, voilà un miroir joyeux et joyeux.\NSois un bon miroir.
-Dialogue: 0,0:11:55.68,0:11:57.76,Default,,0,0,0,,On va bien s'amuser.\NVous allez vous amuser.
-Dialogue: 0,0:11:57.76,0:12:01.60,Default,,0,0,0,,Tu vas être un miroir joyeux.\NMerci.
-Dialogue: 0,0:12:01.60,0:12:04.64,Default,,0,0,0,,Je n'ai quasiment jamais l'occasion de lire des articles sur la\Nrencontre avec un maire.
-Dialogue: 0,0:12:04.64,0:12:08.07,Default,,0,0,0,,Quoi?  Je peux prendre en charge tous ces professeurs.\NC'est le premier maire que je rencontre de toute l'
-Dialogue: 0,0:12:08.07,0:12:10.32,Default,,0,0,0,,année.   D'accord\N.  Hé, c'est une
-Dialogue: 0,0:12:10.32,0:12:14.00,Default,,0,0,0,,affirmation positive.  Il a dit : « Appelez-moi maire,\Ntout de suite. »
-Dialogue: 0,0:12:14.00,0:12:31.44,Default,,0,0,0,,Merci.\Nquestions.  Je tiens simplement à
-Dialogue: 0,0:12:31.44,0:12:36.48,Default,,0,0,0,,vous remercier tous les deux de m'avoir fait découvrir ces\Nenseignements et de m'avoir aidé à trouver tant de
-Dialogue: 0,0:12:36.48,0:12:40.48,Default,,0,0,0,,joie dans l'existence.\NUn véritable cadeau.  Merci.   D'accord
-Dialogue: 0,0:12:40.48,0:12:47.12,Default,,0,0,0,,.  Merci d'y avoir réfléchi.  Oui.\NMerci de nous avoir remerciés.
-Dialogue: 0,0:12:47.12,0:12:52.88,Default,,0,0,0,,Merci de m'avoir remercié.  Pour toi.\NMerci de nous avoir remerciés.  Pour
-Dialogue: 0,0:12:52.88,0:13:02.80,Default,,0,0,0,,vous remercier.  Pour nous avoir remerciés.   Au\NOui.
-Dialogue: 0,0:13:02.80,0:13:08.80,Default,,0,0,0,,Et merci à tous ici présents.  Merci.\NJe suis vraiment honoré de vous serrer la
-Dialogue: 0,0:13:08.80,0:13:13.51,Default,,0,0,0,,main et de prendre une photo.\NOui en effet.
-Dialogue: 0,0:13:13.51,0:13:46.07,Default,,0,0,0,,C'est mon plaisir.  Que Dieu te bénisse.\NPierre lorsque vous y serez arrivé.   D'accord
-Dialogue: 0,0:13:46.07,0:13:52.80,Default,,0,0,0,,une seconde.  Bien sûr.\NEuh, la librairie ferme.  Donc, si vous
-Dialogue: 0,0:13:52.80,0:14:04.63,Default,,0,0,0,,avez encore des objets perdus, ils vont rentrer chez vous\N.
+Dialogue: 0,0:11:38.07,0:11:44.80,Default,,0,0,0,,chances.\NIl veut la bénédiction de tout le monde
+Dialogue: 0,0:11:44.80,0:11:50.56,Default,,0,0,0,,ici pour pouvoir fausser les jeux.\NOh, je ne vais pas jouer.
+Dialogue: 0,0:11:50.56,0:11:54.64,Default,,0,0,0,,Merci.\NEh bien, voilà un miroir joyeux et joyeux.
+Dialogue: 0,0:11:54.64,0:11:56.80,Default,,0,0,0,,Sois un bon miroir.\NOn va bien s'amuser.
+Dialogue: 0,0:11:56.80,0:11:59.27,Default,,0,0,0,,Vous allez vous amuser.\NTu vas être un miroir joyeux.
+Dialogue: 0,0:11:59.27,0:12:03.60,Default,,0,0,0,,Merci.\NJe n'ai quasiment jamais l'occasion de lire des articles sur la
+Dialogue: 0,0:12:03.60,0:12:06.63,Default,,0,0,0,,rencontre avec un maire.\NQuoi?  Je peux prendre en charge tous ces professeurs.
+Dialogue: 0,0:12:06.63,0:12:08.56,Default,,0,0,0,,C'est le premier maire que je rencontre de toute l'\Nannée.   D'accord
+Dialogue: 0,0:12:08.56,0:12:11.68,Default,,0,0,0,,.  Hé, c'est une\Naffirmation positive.  Il a dit : « Appelez-moi maire,
+Dialogue: 0,0:12:11.68,0:12:17.24,Default,,0,0,0,,tout simplement. »\NMerci.
+Dialogue: 0,0:12:21.36,0:12:29.36,Default,,0,0,0,,Ouais.  Je ne rencontre jamais aucun maire.\NBonjour, Dr Hawkins.  Salut Susan.  Euh, je n'ai pas de
+Dialogue: 0,0:12:29.36,0:12:33.68,Default,,0,0,0,,questions.  Je tiens simplement à\Nvous remercier tous les deux de m'avoir fait découvrir ces
+Dialogue: 0,0:12:33.68,0:12:39.12,Default,,0,0,0,,enseignements et de m'avoir aidé à trouver tant de\Njoie dans l'existence.
+Dialogue: 0,0:12:39.12,0:12:45.12,Default,,0,0,0,,Un véritable cadeau.  Merci.   D'accord\N.  Merci d'y avoir réfléchi.  Oui.
+Dialogue: 0,0:12:45.12,0:12:51.20,Default,,0,0,0,,Merci de nous avoir remerciés.\NMerci de m'avoir remercié.  Pour toi.
+Dialogue: 0,0:12:51.20,0:12:56.68,Default,,0,0,0,,Merci de nous avoir remerciés.  Pour\Nvous remercier.  Pour nous avoir remerciés.   Au
+Dialogue: 0,0:12:56.95,0:13:02.39,Default,,0,0,0,,revoir.\NMerci, Dr Hawkins.
+Dialogue: 0,0:13:02.39,0:13:06.07,Default,,0,0,0,,Oui.\NEt merci à tous ici présents.  Merci.
+Dialogue: 0,0:13:06.07,0:13:11.27,Default,,0,0,0,,Je suis vraiment honoré de vous serrer la\Nmain et de prendre une photo.
+Dialogue: 0,0:13:11.27,0:13:18.51,Default,,0,0,0,,Oui en effet.\NC'est mon plaisir.  Que Dieu te bénisse.
+Dialogue: 0,0:13:30.95,0:13:36.44,Default,,0,0,0,,Vous pourrez montrer la photo à saint\NPierre lorsque vous y serez arrivé.   D'accord
+Dialogue: 0,0:13:43.27,0:13:49.27,Default,,0,0,0,,.  Euh,\Nune seconde.  Bien sûr.
+Dialogue: 0,0:13:49.27,0:13:55.04,Default,,0,0,0,,Euh, la librairie ferme.  Donc, si vous\Navez encore des objets perdus, ils vont rentrer chez vous
+Dialogue: 0,0:13:55.04,0:14:04.63,Default,,0,0,0,,.\NMerci beaucoup à vous deux.
 Dialogue: 0,0:14:04.63,0:14:10.07,Default,,0,0,0,,J'ai une question.  Ces dernières années,\Nj'ai ressenti de très violents tremblements
 Dialogue: 0,0:14:10.07,0:14:12.72,Default,,0,0,0,,dans mon corps.\NTrès puissant, monsieur.
 Dialogue: 0,0:14:12.72,0:14:15.76,Default,,0,0,0,,Tremblement.\NTremblement.  Oh.  Ces tremblements
@@ -140,16 +162,18 @@ Dialogue: 0,0:14:15.76,0:14:22.72,Default,,0,0,0,,s'accompagnent souvent d'émot
 Dialogue: 0,0:14:22.72,0:14:29.68,Default,,0,0,0,,douleurs physiques.  Euh, il m'arrive aussi de parler à\Nvoix haute dans une langue que je ne
 Dialogue: 0,0:14:29.68,0:14:36.24,Default,,0,0,0,,connais pas.  J'ai cherché un\Nsoutien médical et spirituel, mais les tremblements persistent
 Dialogue: 0,0:14:36.24,0:14:42.63,Default,,0,0,0,,.  Pouvez-vous m'aider à comprendre ce que\Nje vis ?  Auriez-vous des
-Dialogue: 0,0:14:42.63,0:14:50.32,Default,,0,0,0,,conseils pour soulager mes\Nsouffrances ?   D'accord
-Dialogue: 0,0:14:50.32,0:14:54.00,Default,,0,0,0,,.  Quel est le numéro un ?\NQue ressentez-vous ?
-Dialogue: 0,0:14:54.00,0:14:55.60,Default,,0,0,0,,Euh, je tremble.\NHein?
-Dialogue: 0,0:14:55.60,0:14:59.27,Default,,0,0,0,,Les secousses.   Je tremblais et j'avais mal\NVous connaissez la
-Dialogue: 0,0:14:59.27,0:15:09.68,Default,,0,0,0,,douleur et les tremblements.\NOuais.  Avez-vous un psychiatre ?
+Dialogue: 0,0:14:42.63,0:14:48.04,Default,,0,0,0,,conseils pour soulager mes\Nsouffrances ?   D'accord
+Dialogue: 0,0:14:48.56,0:14:52.72,Default,,0,0,0,,.  J'y ai ajouté plein de choses\N.  Quel est le numéro un ?
+Dialogue: 0,0:14:52.72,0:14:55.27,Default,,0,0,0,,Que ressentez-vous ?\NEuh, je tremble.
+Dialogue: 0,0:14:55.27,0:14:56.16,Default,,0,0,0,,Hein?\NLes secousses.
+Dialogue: 0,0:14:56.16,0:14:58.63,Default,,0,0,0,,Tremblements et\Nquelques douleurs.
+Dialogue: 0,0:14:58.63,0:15:02.68,Default,,0,0,0,,Vous connaissez la\Ndouleur et les tremblements.
+Dialogue: 0,0:15:02.88,0:15:09.68,Default,,0,0,0,,Euh, c'est ce que je pense.  Résister.\NOuais.  Avez-vous un psychiatre ?
 Dialogue: 0,0:15:09.68,0:15:12.56,Default,,0,0,0,,J'ai travaillé par le passé avec un\Npsychiatre.  Oui.  Ça remonte à un bon moment
 Dialogue: 0,0:15:12.56,0:15:14.07,Default,,0,0,0,,.\NElle a dit oui ou non.
 Dialogue: 0,0:15:14.07,0:15:17.12,Default,,0,0,0,,Elle n'en a pas pour le moment.\NC'est tout ce que je veux savoir.   Euh euh
 Dialogue: 0,0:15:17.12,0:15:22.16,Default,,0,0,0,,.\NAvez-vous déjà eu recours à l'hypnose ?
-Dialogue: 0,0:15:22.16,0:15:25.51,Default,,0,0,0,,Non. L'\Nhypnose a-t-elle été utile\h?
+Dialogue: 0,0:15:22.16,0:15:25.51,Default,,0,0,0,,Non. L'\Nhypnose a-t-elle été utile ?
 Dialogue: 0,0:15:25.51,0:15:30.32,Default,,0,0,0,,Non, elle n'a jamais été Hadès.   L'\Nhypnose pourrait aider.   D'accord
 Dialogue: 0,0:15:30.32,0:15:32.56,Default,,0,0,0,,.\NVous pourriez peut-être le guérir en une seule séance.
 Dialogue: 0,0:15:32.56,0:15:36.24,Default,,0,0,0,,Vraiment?\NOuais.
@@ -158,11 +182,12 @@ Dialogue: 0,0:15:40.63,0:15:45.60,Default,,0,0,0,,Paix, calme, détente.  Plus p
 Dialogue: 0,0:15:45.60,0:15:50.95,Default,,0,0,0,,Paix, calme, détente.  Plus profond, plus profond,\Nplus profond.
 Dialogue: 0,0:15:50.95,0:15:56.32,Default,,0,0,0,,Comme ça.\NJe confie cela à mon Seigneur Jésus pour qu'il
 Dialogue: 0,0:15:56.32,0:16:02.00,Default,,0,0,0,,guérisse avec paix et calme.  Voilà.\NEt si vous faites cela calmement et de façon répétée,
-Dialogue: 0,0:16:02.00,0:16:10.80,Default,,0,0,0,,cela disparaîtra.\NAmen.
-Dialogue: 0,0:16:10.80,0:16:14.63,Default,,0,0,0,,vous chasserez toutes les énergies négatives\Nque vous auriez pu accumuler.
-Dialogue: 0,0:16:14.63,0:16:16.88,Default,,0,0,0,,Oui.   Par\Ninadvertance.
-Dialogue: 0,0:16:16.88,0:16:18.80,Default,,0,0,0,,Ouais.  D'accord.   D'accord\N.
-Dialogue: 0,0:16:18.80,0:16:28.24,Default,,0,0,0,,Oui.  Merci.\NJ'ai été élevée par un père pasteur chrétien
+Dialogue: 0,0:16:02.00,0:16:07.72,Default,,0,0,0,,cela disparaîtra.\NAmen.
+Dialogue: 0,0:16:08.48,0:16:12.95,Default,,0,0,0,,Eh bien, en utilisant le nom de Jésus-Christ,\Nvous chasserez toutes les énergies négatives
+Dialogue: 0,0:16:12.95,0:16:15.44,Default,,0,0,0,,que vous auriez pu accumuler.\NOui.   Par
+Dialogue: 0,0:16:15.44,0:16:18.16,Default,,0,0,0,,inadvertance.\NOuais.  D'accord.   D'accord
+Dialogue: 0,0:16:18.16,0:16:22.44,Default,,0,0,0,,.\NOui.  Merci.
+Dialogue: 0,0:16:22.95,0:16:28.24,Default,,0,0,0,,Euh, je suis pasteur chrétien.\NJ'ai été élevée par un père pasteur chrétien
 Dialogue: 0,0:16:28.24,0:16:33.60,Default,,0,0,0,,.\NJ'ai vécu trois
 Dialogue: 0,0:16:33.60,0:16:41.44,Default,,0,0,0,,expériences incroyablement... effrayantes avec le diable.\NUne fois, quand j'avais six ans, pendant quatre jours.
 Dialogue: 0,0:16:41.44,0:16:47.04,Default,,0,0,0,,Une fois, j'avais 25 ans.\NEt je savais quoi faire.
@@ -171,14 +196,15 @@ Dialogue: 0,0:16:53.44,0:16:57.27,Default,,0,0,0,,Ah, je vois.  Droite.  Droite.
 Dialogue: 0,0:16:57.27,0:16:59.44,Default,,0,0,0,,pasteur.\NOuais.
 Dialogue: 0,0:16:59.44,0:17:06.48,Default,,0,0,0,,Ma question est : est-ce réel ?  Parce que je dois absolument\Nparler de ça.  Et quelle est sa
 Dialogue: 0,0:17:06.48,0:17:12.48,Default,,0,0,0,,signification dans mon propre parcours ?\NQue signifie le mot « réel » pour vous ?
-Dialogue: 0,0:17:12.48,0:17:21.60,Default,,0,0,0,,L'expérimenter dans mon propre corps.\NOuais.  Donc, c'est réel.  Je veux dire, c'est une sensation réelle
-Dialogue: 0,0:17:21.60,0:17:26.31,Default,,0,0,0,,Une entité astrale inférieure.  Résister.  D'accord.  Ça\Narrive.  Il le serre contre lui, rongé par la
-Dialogue: 0,0:17:26.31,0:17:30.88,Default,,0,0,0,,culpabilité.  Oui, tu attires une\Nénergie astrale inférieure à cause de la culpabilité.
-Dialogue: 0,0:17:30.88,0:17:36.00,Default,,0,0,0,,À six ans, c'était le diable en personne, avec ses\Ncornes et sa fourche.  À 25 ans, je
-Dialogue: 0,0:17:36.00,0:17:40.72,Default,,0,0,0,,pouvais percevoir une énergie démoniaque.\NBon, vous en retirez toutes les
-Dialogue: 0,0:17:40.72,0:17:47.28,Default,,0,0,0,,images que vous voulez,\Nmais c'est toujours la même culpabilité
-Dialogue: 0,0:17:47.28,0:17:52.64,Default,,0,0,0,,et euh…\Nvous savez… comment on appelle ça déjà\h?
-Dialogue: 0,0:17:52.64,0:18:07.36,Default,,0,0,0,,Le défi des esprits.\Ndroit et le pouvoir de leur ordonner de
+Dialogue: 0,0:17:12.48,0:17:19.12,Default,,0,0,0,,L'expérimenter dans mon propre corps.\NOuais.  Donc, c'est réel.  Je veux dire, c'est une sensation réelle
+Dialogue: 0,0:17:19.12,0:17:24.64,Default,,0,0,0,,et c'est probablement une entité astrale inférieure.\NUne entité astrale inférieure.  Résister.  D'accord.  Ça
+Dialogue: 0,0:17:24.64,0:17:28.88,Default,,0,0,0,,arrive.  Il le serre contre lui, rongé par la\Nculpabilité.  Oui, tu attires une
+Dialogue: 0,0:17:28.88,0:17:33.52,Default,,0,0,0,,énergie astrale inférieure à cause de la culpabilité.\NÀ six ans, c'était le diable en personne, avec ses
+Dialogue: 0,0:17:33.52,0:17:38.79,Default,,0,0,0,,cornes et sa fourche.  À 25 ans, je\Npouvais percevoir une énergie démoniaque.
+Dialogue: 0,0:17:38.79,0:17:42.48,Default,,0,0,0,,Bon, vous en retirez toutes les\Nimages que vous voulez,
+Dialogue: 0,0:17:42.48,0:17:49.84,Default,,0,0,0,,mais c'est toujours la même culpabilité\Net euh…
+Dialogue: 0,0:17:49.84,0:17:57.24,Default,,0,0,0,,vous savez… comment on appelle ça déjà ?\NLe défi des esprits.
+Dialogue: 0,0:18:00.88,0:18:07.36,Default,,0,0,0,,Et s’ils ne sont pas de Dieu, vous avez le\Ndroit et le pouvoir de leur ordonner de
 Dialogue: 0,0:18:07.36,0:18:13.84,Default,,0,0,0,,partir.  Cela vous est donné par notre Seigneur\Net par notre Seigneur Jésus-Christ.  Il a le
 Dialogue: 0,0:18:13.84,0:18:18.79,Default,,0,0,0,,pouvoir et le droit d'ordonner à ces\Nesprits de partir.
 Dialogue: 0,0:18:18.79,0:18:25.52,Default,,0,0,0,,Et ils doivent donc le faire.\NIls doivent le faire.
@@ -186,25 +212,31 @@ Dialogue: 0,0:18:25.52,0:18:28.96,Default,,0,0,0,,On appelle ça le truc des\Nes
 Dialogue: 0,0:18:28.96,0:18:33.28,Default,,0,0,0,,Quelque chose comme de l'alcool.  Le\Ndéfi des esprits.
 Dialogue: 0,0:18:33.28,0:18:39.60,Default,,0,0,0,,Si cela ne vient pas de mon Seigneur Jésus-Christ, je\Nvous ordonne de partir.  Et ils doivent alors
 Dialogue: 0,0:18:39.60,0:18:42.40,Default,,0,0,0,,obéir.   Le\Nfait que ces événements se
-Dialogue: 0,0:18:42.40,0:18:47.44,Default,,0,0,0,,produisent tous les 19 ans a-t-il une signification particulière\h?\NJe ne sais pas.  Vous savez, il faudrait y consacrer
+Dialogue: 0,0:18:42.40,0:18:47.44,Default,,0,0,0,,produisent tous les 19 ans a-t-il une signification particulière ?\NJe ne sais pas.  Vous savez, il faudrait y consacrer
 Dialogue: 0,0:18:47.44,0:18:53.28,Default,,0,0,0,,une séance entière.\NPourquoi ce cycle en particulier ? Vous savez, ça
-Dialogue: 0,0:18:53.28,0:18:59.67,Default,,0,0,0,,pourrait être une vie antérieure,\Nà l'âge de 19 ans, où vous êtes décédé et avez
-Dialogue: 0,0:18:59.67,0:19:18.64,Default,,0,0,0,,maudit quelqu'un ou quelque chose, attirant ainsi\Ncette entité négative.
+Dialogue: 0,0:18:53.28,0:18:59.67,Default,,0,0,0,,pourrait être une vie antérieure, à\Nl'âge de 19 ans, où vous êtes décédé et avez
+Dialogue: 0,0:18:59.67,0:19:05.32,Default,,0,0,0,,maudit quelqu'un ou quelque chose, attirant ainsi\Ncette entité négative.
+Dialogue: 0,0:19:06.32,0:19:18.64,Default,,0,0,0,,Il a maudit quelqu'un, d'\Naccord ? Pardonne-
 Dialogue: 0,0:19:18.64,0:19:21.91,Default,,0,0,0,,moi, Dieu. Oui.\NOuais.
-Dialogue: 0,0:19:21.91,0:19:47.76,Default,,0,0,0,,Merci.\NSalut.
+Dialogue: 0,0:19:21.91,0:19:34.12,Default,,0,0,0,,Merci.\NOui.
+Dialogue: 0,0:19:34.40,0:19:45.28,Default,,0,0,0,,Il vaut mieux ne pas insulter les gens.\NMerci.
+Dialogue: 0,0:19:45.28,0:19:47.76,Default,,0,0,0,,Salut.\NSalut.
 Dialogue: 0,0:19:47.76,0:19:55.12,Default,,0,0,0,,Je voulais vous demander, vous aviez dit dans une\Nvidéo que vous aviez passé 11 jours à lâcher prise, à vous
 Dialogue: 0,0:19:55.12,0:20:00.32,Default,,0,0,0,,abandonner à tout\N, et qu'ensuite, au
 Dialogue: 0,0:20:00.32,0:20:08.40,Default,,0,0,0,,restaurant Rothman's à Long Island,\Nvous aviez vécu une expérience profonde.
 Dialogue: 0,0:20:08.40,0:20:10.79,Default,,0,0,0,,Je me demandais justement si vous pouviez en parler\N.
-Dialogue: 0,0:20:10.79,0:20:29.67,Default,,0,0,0,,Non. Et si\NC'était moi ?
-Dialogue: 0,0:20:29.67,0:20:39.28,Default,,0,0,0,,Quoi ?\NC'était celui-là. C'était celui où ça s'est passé.
-Dialogue: 0,0:20:39.28,0:20:45.20,Default,,0,0,0,,Non, c'était un autre, je crois.\NOui, je me souviens de la gravité de l'
-Dialogue: 0,0:20:45.20,0:20:49.60,Default,,0,0,0,,incident, de son importance,\Nmais je ne me souviens plus exactement de quoi il s'agissait
-Dialogue: 0,0:20:49.60,0:20:52.48,Default,,0,0,0,,.   D'accord\N.
-Dialogue: 0,0:20:52.48,0:20:57.36,Default,,0,0,0,,Ouais.  Mais je me souviens du reste, je me souviens\Noù c'était.  Oui.  Et c'était plutôt
-Dialogue: 0,0:20:57.36,0:21:07.20,Default,,0,0,0,,profond, sauf que je l'ai oublié\Nmaintenant.   Que diriez-vous de lâcher prise
-Dialogue: 0,0:21:07.20,0:21:18.64,Default,,0,0,0,,jours ?  Pourriez-vous nous en parler ?\NNon.
-Dialogue: 0,0:21:18.64,0:21:24.96,Default,,0,0,0,,choses dont j'ai renoncé.   D'accord\Nc'est cool.   J'ai renoncé à vouloir
+Dialogue: 0,0:20:10.79,0:20:19.32,Default,,0,0,0,,Non. Et si\Nje vous donnais un dollar ?
+Dialogue: 0,0:20:24.72,0:20:29.67,Default,,0,0,0,,Je ne me souviens pas de cette expérience.\NC'était moi ?
+Dialogue: 0,0:20:29.67,0:20:37.67,Default,,0,0,0,,Quoi ?\NC'était celui-là. C'était celui où ça s'est passé.
+Dialogue: 0,0:20:37.67,0:20:41.67,Default,,0,0,0,,C'était bien celui-là ?\NNon, c'était un autre, je crois.
+Dialogue: 0,0:20:41.67,0:20:47.76,Default,,0,0,0,,Oui, je me souviens de la gravité de l'\Nincident, de son importance,
+Dialogue: 0,0:20:47.76,0:20:52.00,Default,,0,0,0,,mais je ne me souviens plus exactement de quoi il s'agissait\N.   D'accord
+Dialogue: 0,0:20:52.00,0:20:54.48,Default,,0,0,0,,.\NOuais.  Mais je me souviens du reste, je me souviens
+Dialogue: 0,0:20:54.48,0:20:58.96,Default,,0,0,0,,où c'était.  Oui.  Et c'était plutôt\Nprofond, sauf que je l'ai oublié
+Dialogue: 0,0:20:58.96,0:21:07.20,Default,,0,0,0,,maintenant.   Que diriez-vous de lâcher prise\Npendant 11
+Dialogue: 0,0:21:07.20,0:21:12.72,Default,,0,0,0,,jours ?  Pourriez-vous nous en parler ?\NNon.
+Dialogue: 0,0:21:16.15,0:21:22.28,Default,,0,0,0,,Vouloir plaire aux gens est une des\Nchoses dont j'ai renoncé.   D'accord
+Dialogue: 0,0:21:22.32,0:21:24.96,Default,,0,0,0,,,\Nc'est cool.   J'ai renoncé à vouloir
 Dialogue: 0,0:21:24.96,0:21:30.48,Default,,0,0,0,,satisfaire leur curiosité\N.
 Dialogue: 0,0:21:30.48,0:21:36.40,Default,,0,0,0,,Leur permettre de vivre une\Nexpérience similaire par eux-mêmes.  Je m'inspire vraiment de mon
 Dialogue: 0,0:21:36.40,0:21:40.24,Default,,0,0,0,,expérience.  Une source\Nd'inspiration.  Ouais.
@@ -212,91 +244,107 @@ Dialogue: 0,0:21:40.24,0:21:44.08,Default,,0,0,0,,Nous sommes donc une source d'
 Dialogue: 0,0:21:44.08,0:21:49.44,Default,,0,0,0,,Ouais.  Même si nous ne pouvons pas reproduire\Nexactement la même expérience.  Néanmoins,
 Dialogue: 0,0:21:49.44,0:21:55.28,Default,,0,0,0,,ce degré d'engagement\Nincite les autres à
 Dialogue: 0,0:21:55.28,0:22:00.40,Default,,0,0,0,,s'engager et à déployer des efforts encore plus grands, notamment\Nspirituels.  Alors on s'entraide d'
-Dialogue: 0,0:22:00.40,0:22:06.64,Default,,0,0,0,,une manière ou d'une autre.   D'accord\NMerci.
-Dialogue: 0,0:22:06.64,0:22:08.40,Default,,0,0,0,,Oui.\NPuis-je vous serrer la main ?   En effet
-Dialogue: 0,0:22:08.40,0:22:20.08,Default,,0,0,0,,.   Que\NDieu te bénisse.  Oui.
-Dialogue: 0,0:22:20.08,0:22:22.24,Default,,0,0,0,,Oui.\NSalut Susan.  Salut.
-Dialogue: 0,0:22:22.24,0:22:27.12,Default,,0,0,0,,C'est un grand honneur d'être ici et de\Nvous rencontrer, monsieur.  Euh, enchantée de vous rencontrer tous les deux et de rencontrer toutes
-Dialogue: 0,0:22:27.12,0:22:33.91,Default,,0,0,0,,ces personnes formidables.  Et merci à la\Npersonne qui a rendu les clés de la Toyota.  Euh,
-Dialogue: 0,0:22:33.91,0:22:36.55,Default,,0,0,0,,c'est vous.\NOui.
-Dialogue: 0,0:22:36.55,0:22:39.52,Default,,0,0,0,,Il dit : « Merci à la personne qui a rendu les\Nclés de la Toyota. »
-Dialogue: 0,0:22:39.52,0:22:40.96,Default,,0,0,0,,Oh.  Oh\Nouais.
-Dialogue: 0,0:22:40.96,0:22:47.03,Default,,0,0,0,,Euh, je voulais vous demander, car en étudiant vos\Nlivres et en aspirant
-Dialogue: 0,0:22:47.03,0:22:52.00,Default,,0,0,0,,spirituellement, je me demandais si\Nvous recommandiez ou si c'était bénéfique
-Dialogue: 0,0:22:52.00,0:22:57.20,Default,,0,0,0,,pour un aspirant de calibrer son\Npropre niveau de conscience ou si c'était
-Dialogue: 0,0:22:57.20,0:23:00.96,Default,,0,0,0,,quelque chose qui relèverait d'un\Ndésir égoïste.
-Dialogue: 0,0:23:00.96,0:23:04.24,Default,,0,0,0,,Peut-on calibrer son propre niveau de\Nconscience ?
-Dialogue: 0,0:23:04.24,0:23:09.52,Default,,0,0,0,,Pas vraiment.  Non, pas vraiment.   C'est un peu ce que\Nje
-Dialogue: 0,0:23:09.52,0:23:14.24,Default,,0,0,0,,pensais.  Ne serait-il pas\Npréférable de passer en revue les
-Dialogue: 0,0:23:14.24,0:23:17.36,Default,,0,0,0,,maîtres spirituels et de voir lesquels\Nvous conviendraient le mieux, ceux qui
-Dialogue: 0,0:23:17.36,0:23:22.64,Default,,0,0,0,,résonnent le plus en vous,\Ncar il n'y a pas
-Dialogue: 0,0:23:22.64,0:23:26.32,Default,,0,0,0,,forcément de corrélation mathématique, n'est-ce pas\N?
-Dialogue: 0,0:23:26.32,0:23:29.91,Default,,0,0,0,,Parce que vous pourriez être très compatible avec\Nce maître spirituel et moins
-Dialogue: 0,0:23:29.91,0:23:35.52,Default,,0,0,0,,compatible avec celui-ci, et que les chiffres\Npourraient ne pas correspondre à ce que vous imaginez.  Je
-Dialogue: 0,0:23:35.52,0:23:39.28,Default,,0,0,0,,vois.\NParce que certains professeurs vous inspireront,
-Dialogue: 0,0:23:39.28,0:23:44.88,Default,,0,0,0,,et d'autres non.  D'\Nautres peuvent paraître ennuyeux, vous savez.
-Dialogue: 0,0:23:44.88,0:23:47.60,Default,,0,0,0,,Droite.  Droite.\NParce que ce sont des imbéciles.
-Dialogue: 0,0:23:47.60,0:23:57.03,Default,,0,0,0,,Ouais.\Ncela.  Merci,
+Dialogue: 0,0:22:00.40,0:22:05.91,Default,,0,0,0,,une manière ou d'une autre.   D'accord\N.
+Dialogue: 0,0:22:05.91,0:22:07.12,Default,,0,0,0,,Merci.\NOui.
+Dialogue: 0,0:22:07.12,0:22:10.96,Default,,0,0,0,,Puis-je vous serrer la main ?   En effet\N.   Que
+Dialogue: 0,0:22:11.76,0:22:16.44,Default,,0,0,0,,Dieu te bénisse.   Que\NDieu te bénisse.  Oui.
+Dialogue: 0,0:22:18.96,0:22:20.64,Default,,0,0,0,,Bonjour, Dr Hawkins.\NOui.
+Dialogue: 0,0:22:20.64,0:22:24.24,Default,,0,0,0,,Salut Susan.  Salut.\NC'est un grand honneur d'être ici et de
+Dialogue: 0,0:22:24.24,0:22:28.88,Default,,0,0,0,,vous rencontrer, monsieur.  Euh, enchantée de vous rencontrer tous les deux et de rencontrer toutes\Nces personnes formidables.  Et merci à la
+Dialogue: 0,0:22:28.88,0:22:34.88,Default,,0,0,0,,personne qui a rendu les clés de la Toyota.  Euh,\Nc'est vous.
+Dialogue: 0,0:22:34.88,0:22:38.08,Default,,0,0,0,,Oui.\NIl dit : « Merci à la personne qui a rendu les
+Dialogue: 0,0:22:38.08,0:22:40.15,Default,,0,0,0,,clés de la Toyota. »\NOh.  Oh
+Dialogue: 0,0:22:40.15,0:22:43.28,Default,,0,0,0,,ouais.\NEuh, je voulais vous demander, car en étudiant vos
+Dialogue: 0,0:22:43.28,0:22:49.36,Default,,0,0,0,,livres et en aspirant\Nspirituellement, je me demandais si
+Dialogue: 0,0:22:49.36,0:22:55.12,Default,,0,0,0,,vous recommandiez ou si c'était bénéfique\Npour un aspirant de calibrer son
+Dialogue: 0,0:22:55.12,0:22:58.72,Default,,0,0,0,,propre niveau de conscience ou si c'était\Nquelque chose qui relèverait d'un
+Dialogue: 0,0:22:58.72,0:23:02.96,Default,,0,0,0,,désir égoïste.\NPeut-on calibrer son propre niveau de
+Dialogue: 0,0:23:02.96,0:23:07.52,Default,,0,0,0,,conscience ?\NPas vraiment.  Non, pas vraiment.   C'est un peu ce que
+Dialogue: 0,0:23:07.52,0:23:11.28,Default,,0,0,0,,je\Npensais.  Ne serait-il pas
+Dialogue: 0,0:23:11.28,0:23:16.08,Default,,0,0,0,,préférable de passer en revue les\Nmaîtres spirituels et de voir lesquels
+Dialogue: 0,0:23:16.08,0:23:19.28,Default,,0,0,0,,vous conviendraient le mieux, ceux qui\Nrésonnent le plus en vous,
+Dialogue: 0,0:23:19.28,0:23:25.36,Default,,0,0,0,,car il n'y a pas\Nforcément de corrélation mathématique, n'est-ce pas
+Dialogue: 0,0:23:25.36,0:23:28.24,Default,,0,0,0,,?\NParce que vous pourriez être très compatible avec
+Dialogue: 0,0:23:28.24,0:23:32.79,Default,,0,0,0,,ce maître spirituel et moins\Ncompatible avec celui-ci, et que les chiffres
+Dialogue: 0,0:23:32.79,0:23:35.84,Default,,0,0,0,,pourraient ne pas correspondre à ce que vous imaginez.  Je\Nvois.
+Dialogue: 0,0:23:35.84,0:23:42.72,Default,,0,0,0,,Parce que certains professeurs vous inspireront,\Net d'autres non.  D'
+Dialogue: 0,0:23:42.72,0:23:46.08,Default,,0,0,0,,autres peuvent paraître ennuyeux, vous savez.\NDroite.  Droite.
+Dialogue: 0,0:23:46.08,0:23:50.60,Default,,0,0,0,,Parce que ce sont des imbéciles.\NOuais.
+Dialogue: 0,0:23:54.15,0:23:57.03,Default,,0,0,0,,Eh bien, c'est parfait.  J'apprécie\Ncela.  Merci,
 Dialogue: 0,0:23:57.03,0:24:02.55,Default,,0,0,0,,monsieur.  Puis-je vous serrer la main ?\NOn est en quelque sorte attiré par le bon
 Dialogue: 0,0:24:02.55,0:24:05.84,Default,,0,0,0,,professeur.\NOui.  Plaisir.   Que
 Dialogue: 0,0:24:05.84,0:24:09.03,Default,,0,0,0,,Dieu te bénisse.   Que\NDieu te bénisse.
-Dialogue: 0,0:24:09.03,0:24:24.48,Default,,0,0,0,,Merci, Docteur\NEuh, tout d'abord, je tiens à vous remercier pour votre
-Dialogue: 0,0:24:24.48,0:24:31.36,Default,,0,0,0,,sens de l'humour absolument charmant.   Euh… j’ai\Nbeaucoup ri et j’ai l’impression que ça
-Dialogue: 0,0:24:31.36,0:24:36.72,Default,,0,0,0,,ouvre vraiment le\Ncœur, que ça permet d’être dans cet espace pour
-Dialogue: 0,0:24:36.72,0:24:42.15,Default,,0,0,0,,recevoir ce que tu dis.  Alors, merci infiniment d'\Nêtre qui vous êtes.
-Dialogue: 0,0:24:42.15,0:24:52.55,Default,,0,0,0,,Oui, je dis toujours que la joie est plus proche de Dieu\Nque la culpabilité.
+Dialogue: 0,0:24:09.03,0:24:21.52,Default,,0,0,0,,Merci, Docteur\NOups.
+Dialogue: 0,0:24:21.52,0:24:27.67,Default,,0,0,0,,Euh, tout d'abord, je tiens à vous remercier pour votre\Nsens de l'humour absolument charmant.   Euh… j’ai
+Dialogue: 0,0:24:27.67,0:24:33.91,Default,,0,0,0,,beaucoup ri et j’ai l’impression que ça\Nouvre vraiment le
+Dialogue: 0,0:24:33.91,0:24:40.15,Default,,0,0,0,,cœur, que ça permet d’être dans cet espace pour\Nrecevoir ce que tu dis.  Alors, merci infiniment d'
+Dialogue: 0,0:24:40.15,0:24:44.24,Default,,0,0,0,,être qui vous êtes.\NOui, je dis toujours que la joie est plus proche de Dieu
+Dialogue: 0,0:24:44.24,0:24:52.55,Default,,0,0,0,,que la culpabilité.\NBeaucoup de gens tentent d'atteindre Dieu par la
 Dialogue: 0,0:24:52.55,0:24:59.60,Default,,0,0,0,,culpabilité.  Seigneur, comme je suis indigne !  Quel\Nver !  Je suis un ver tellement indigne.  Au
-Dialogue: 0,0:24:59.60,0:25:08.00,Default,,0,0,0,,fond de lui, il entend Dieu chanter : «\NTu as raison. »
-Dialogue: 0,0:25:08.00,0:25:12.88,Default,,0,0,0,,ver ?  Merci.\NEuh,
-Dialogue: 0,0:25:12.88,0:25:26.00,Default,,0,0,0,,ma question est la suivante : je suis tellement consciente de\Nvouloir vivre ma vie selon mon cœur et
+Dialogue: 0,0:24:59.60,0:25:04.27,Default,,0,0,0,,fond de lui, il entend Dieu chanter : «\NTu as raison. »
+Dialogue: 0,0:25:06.48,0:25:11.44,Default,,0,0,0,,Revenir.  Renonceras-tu à être un\Nver ?  Merci.
+Dialogue: 0,0:25:11.44,0:25:16.79,Default,,0,0,0,,Euh,\Nma question est la suivante : je suis tellement consciente de
+Dialogue: 0,0:25:16.79,0:25:26.00,Default,,0,0,0,,vouloir vivre ma vie selon mon cœur et\Nje me demandais ce que vous me conseilleriez pour m'aider à
 Dialogue: 0,0:25:26.00,0:25:32.55,Default,,0,0,0,,maintenir cela et à être\Nplus en phase avec cet état d'esprit.
 Dialogue: 0,0:25:32.55,0:25:38.55,Default,,0,0,0,,Pourquoi vouloir l'améliorer ?\NEuh, parce que je sais que je ne suis pas toujours là,
 Dialogue: 0,0:25:38.55,0:25:42.79,Default,,0,0,0,,c'est ce que je veux dire.  Parce que quoi ?\NElle sait qu'elle n'y est pas toujours.
 Dialogue: 0,0:25:42.79,0:25:46.24,Default,,0,0,0,,Je ne parle pas toujours avec le cœur.\NElle ne parle pas toujours avec le cœur.
 Dialogue: 0,0:25:46.24,0:25:49.36,Default,,0,0,0,,Parfois oui.\NOh oui.  Tu es un être humain.  Oh oui.
-Dialogue: 0,0:25:49.36,0:25:57.84,Default,,0,0,0,,Droite.   Tout le\N.  Parfois, il faut
-Dialogue: 0,0:25:57.84,0:26:11.36,Default,,0,0,0,,leur dire : « On avait vraiment besoin de vous.\NJ'appelle mon avocat. »
+Dialogue: 0,0:25:49.36,0:25:56.08,Default,,0,0,0,,Droite.   Tout le\Nmonde ne mérite pas vos attentions sincères
+Dialogue: 0,0:25:56.08,0:26:00.00,Default,,0,0,0,,.  Parfois, il faut\Nleur dire : « On avait vraiment besoin de vous.
+Dialogue: 0,0:26:00.00,0:26:11.36,Default,,0,0,0,,J'appelle mon avocat. »\NNotre… euh… comment s'appelle-t-elle déjà ?
 Dialogue: 0,0:26:11.36,0:26:16.00,Default,,0,0,0,,Notre perroquet à la maison,\Nelle lui apprend : « J'appelle mon
 Dialogue: 0,0:26:16.00,0:26:22.55,Default,,0,0,0,,avocat. » Elle est hilarante. «\NAppelle mon avocat. Appelle mon avocat. Appelle mon
-Dialogue: 0,0:26:22.55,0:26:31.27,Default,,0,0,0,,avocat. »\Ndevient comique. Ils
-Dialogue: 0,0:26:31.27,0:26:34.15,Default,,0,0,0,,arrivent toujours à jacasser à propos de\Nceci et de cela, et en
-Dialogue: 0,0:26:34.15,0:26:39.44,Default,,0,0,0,,fond sonore, l'oiseau qui dit « J'appelle ton\Navocat, appelle ton avocat ».
-Dialogue: 0,0:26:39.44,0:26:55.36,Default,,0,0,0,,C'est tout simplement comique.\Nimportant.
-Dialogue: 0,0:26:55.36,0:27:04.40,Default,,0,0,0,,passe ?\NVous me parlez ?
+Dialogue: 0,0:26:22.55,0:26:29.03,Default,,0,0,0,,avocat. »\NDu coup, peu importe les plaintes, ça
+Dialogue: 0,0:26:29.03,0:26:32.79,Default,,0,0,0,,devient comique. Ils\Narrivent toujours à jacasser à propos de
+Dialogue: 0,0:26:32.79,0:26:36.55,Default,,0,0,0,,ceci et de cela, et en\Nfond sonore, l'oiseau qui dit « J'appelle ton
+Dialogue: 0,0:26:36.55,0:26:43.00,Default,,0,0,0,,avocat, appelle ton avocat ».\NC'est tout simplement comique.
+Dialogue: 0,0:26:45.12,0:26:50.03,Default,,0,0,0,,Un bon sens de l'humour, c'est vraiment\Nimportant.
+Dialogue: 0,0:26:53.76,0:26:58.08,Default,,0,0,0,,C'est tout ? C'est tout ? Qu'est-ce qui se\Npasse ?
+Dialogue: 0,0:26:58.08,0:27:04.40,Default,,0,0,0,,Vous me parlez ?\NOui. C'est votre réponse à ma
 Dialogue: 0,0:27:04.40,0:27:09.84,Default,,0,0,0,,question sur comment être dans mon cœur ?\NParfois, on ne peut pas toujours être dans
 Dialogue: 0,0:27:09.84,0:27:12.08,Default,,0,0,0,,son cœur.\NOui.
 Dialogue: 0,0:27:12.08,0:27:16.55,Default,,0,0,0,,Eh bien, on fait de son mieux et le\Nreste dépend de Dieu. Voyez-vous, les gens
 Dialogue: 0,0:27:16.55,0:27:19.36,Default,,0,0,0,,disent toujours à Dieu comment faire les\Nchoses. Je veux Dieu. Je veux l'
 Dialogue: 0,0:27:19.36,0:27:22.00,Default,,0,0,0,,illumination. Dieu, je veux être du\Ncœur. Dieu, je veux être du
 Dialogue: 0,0:27:22.00,0:27:27.67,Default,,0,0,0,,plexus solaire. Dieu, je veux…  Que cela vienne de ma\Npoitrine, de mes bras, de mes coudes.
-Dialogue: 0,0:27:27.67,0:27:39.03,Default,,0,0,0,,Pauvre Dieu. Très bien\NMerci. D'accord.
-Dialogue: 0,0:27:39.03,0:27:44.08,Default,,0,0,0,,Euh, on va\Nfaire encore cinq
-Dialogue: 0,0:27:44.08,0:27:47.44,Default,,0,0,0,,minutes, puis on fera une petite\Npause pour que tout le monde puisse se détendre, et
-Dialogue: 0,0:27:47.44,0:27:50.32,Default,,0,0,0,,on revient tout de suite.\NAh bon ?
-Dialogue: 0,0:27:50.32,0:28:12.15,Default,,0,0,0,,Vous ne plaisantez pas ? Non. Non. D'accord. D'accord\Nje voulais juste remercier Dieu et vous d'avoir
-Dialogue: 0,0:28:12.15,0:28:19.91,Default,,0,0,0,,transformé ma vie, et\Nma question concerne
-Dialogue: 0,0:28:19.91,0:28:26.15,Default,,0,0,0,,le chemin que vous avez tracé, rendu si\Nclair et si lumineux, qu'il est possible de le
-Dialogue: 0,0:28:26.15,0:28:31.12,Default,,0,0,0,,suivre avec joie. Pourtant, d'\Nautres personnes qui ont suivi ce
-Dialogue: 0,0:28:31.12,0:28:38.72,Default,,0,0,0,,chemin sont tombées dans le piège de l'ego ou d'\Nautres pièges et ont
-Dialogue: 0,0:28:38.72,0:28:44.08,Default,,0,0,0,,dévié. Tout le monde y est passé, sauf\NJésus-Christ.
-Dialogue: 0,0:28:44.08,0:28:48.72,Default,,0,0,0,,Alors, y a-t-il\Nquelque chose, au-delà du
-Dialogue: 0,0:28:48.72,0:28:54.00,Default,,0,0,0,,service désintéressé envers les autres, qui puisse nous aider à nous y\Npréparer ?
-Dialogue: 0,0:28:54.00,0:28:59.12,Default,,0,0,0,,Oh, votre intention,\Nvotre routine quotidienne, ce que vous lisez, à qui
-Dialogue: 0,0:28:59.12,0:29:05.76,Default,,0,0,0,,vous priez, tout cela se résume, vous savez,\Nà la fin de la journée.  À la
-Dialogue: 0,0:29:05.76,0:29:11.36,Default,,0,0,0,,fermeture du marché, vous savez, le Dao a\Ndit ceci et cela, votre Dao spirituel pour
-Dialogue: 0,0:29:11.36,0:29:21.03,Default,,0,0,0,,la journée.\NNon, tout s'additionne. Tout s'additionne et se stabilise
+Dialogue: 0,0:27:27.67,0:27:37.27,Default,,0,0,0,,Pauvre Dieu. Très bien\N.
+Dialogue: 0,0:27:37.27,0:27:42.32,Default,,0,0,0,,Merci. D'accord.\NEuh, on va
+Dialogue: 0,0:27:42.32,0:27:45.44,Default,,0,0,0,,faire encore cinq\Nminutes, puis on fera une petite
+Dialogue: 0,0:27:45.44,0:27:48.40,Default,,0,0,0,,pause pour que tout le monde puisse se détendre, et\Non revient tout de suite.
+Dialogue: 0,0:27:48.40,0:27:54.39,Default,,0,0,0,,Ah bon ?\NVous ne plaisantez pas ? Non. Non. D'accord. D'accord
+Dialogue: 0,0:27:54.39,0:28:09.60,Default,,0,0,0,,.\NBonjour,
+Dialogue: 0,0:28:09.60,0:28:15.20,Default,,0,0,0,,je voulais juste remercier Dieu et vous d'avoir\Ntransformé ma vie, et
+Dialogue: 0,0:28:15.20,0:28:22.96,Default,,0,0,0,,ma question concerne\Nle chemin que vous avez tracé, rendu si
+Dialogue: 0,0:28:22.96,0:28:28.32,Default,,0,0,0,,clair et si lumineux, qu'il est possible de le\Nsuivre avec joie. Pourtant, d'
+Dialogue: 0,0:28:28.32,0:28:36.39,Default,,0,0,0,,autres personnes qui ont suivi ce\Nchemin sont tombées dans le piège de l'ego ou d'
+Dialogue: 0,0:28:36.39,0:28:41.27,Default,,0,0,0,,autres pièges et ont\Ndévié. Tout le monde y est passé, sauf
+Dialogue: 0,0:28:41.27,0:28:46.39,Default,,0,0,0,,Jésus-Christ.\NAlors, y a-t-il
+Dialogue: 0,0:28:46.39,0:28:50.96,Default,,0,0,0,,quelque chose, au-delà du\Nservice désintéressé envers les autres, qui puisse nous aider à nous y
+Dialogue: 0,0:28:50.96,0:28:56.32,Default,,0,0,0,,préparer ?\NOh, votre intention,
+Dialogue: 0,0:28:56.32,0:29:02.64,Default,,0,0,0,,votre routine quotidienne, ce que vous lisez, à qui\Nvous priez, tout cela se résume, vous savez,
+Dialogue: 0,0:29:02.64,0:29:07.91,Default,,0,0,0,,à la fin de la journée.  À la\Nfermeture du marché, vous savez, le Dao a
+Dialogue: 0,0:29:07.91,0:29:14.52,Default,,0,0,0,,dit ceci et cela, votre Dao spirituel pour\Nla journée.
+Dialogue: 0,0:29:18.08,0:29:21.03,Default,,0,0,0,,Merci.\NNon, tout s'additionne. Tout s'additionne et se stabilise
 Dialogue: 0,0:29:21.03,0:29:25.84,Default,,0,0,0,,. Il y a des\Njours avec et des jours sans, des jours
 Dialogue: 0,0:29:25.84,0:29:29.20,Default,,0,0,0,,où vous avez l'impression de faire de grands progrès\Net d'autres où vous avez l'impression d'avoir
-Dialogue: 0,0:29:29.20,0:29:41.27,Default,,0,0,0,,régressé.\NOu mauvais.
-Dialogue: 0,0:29:41.27,0:30:26.48,Default,,0,0,0,,Oui. Oui, ça arrive.\NBonjour.
-Dialogue: 0,0:30:26.48,0:30:31.03,Default,,0,0,0,,Euh, je n'ai pas de question, mais je\Nvoulais juste vous dire namaste et
-Dialogue: 0,0:30:31.03,0:30:34.64,Default,,0,0,0,,namaste.\NMerci beaucoup.
-Dialogue: 0,0:30:34.64,0:30:54.15,Default,,0,0,0,,J'aimerais une photo.\NMerci.
+Dialogue: 0,0:29:29.20,0:29:34.55,Default,,0,0,0,,régressé.\NC'est vrai.
+Dialogue: 0,0:29:34.55,0:29:41.27,Default,,0,0,0,,Ou mauvais.\NVous avez déjà eu l'impression d'être mauvais ?
+Dialogue: 0,0:29:41.27,0:29:56.76,Default,,0,0,0,,Oui. Oui, ça arrive.\ND'accord. Donc, l'enfant en vous est toujours actif, hein ? Qui est mauvais ? Les enfants sont mauvais, n'est-ce pas ? C'est vrai. Oui. Très bien. Merci. Oui.
+Dialogue: 0,0:30:03.91,0:30:12.67,Default,,0,0,0,,Hum hum. C'est\Nsuper.
+Dialogue: 0,0:30:16.15,0:30:22.52,Default,,0,0,0,,C'est juste devenu invisible. Je ne sais pas. C'était\NBonjour.
+Dialogue: 0,0:30:23.67,0:30:28.32,Default,,0,0,0,,Bonjour Dr Hawkins et Susan.\NEuh, je n'ai pas de question, mais je
+Dialogue: 0,0:30:28.32,0:30:32.79,Default,,0,0,0,,voulais juste vous dire namaste et\Nnamaste.
+Dialogue: 0,0:30:32.79,0:30:35.84,Default,,0,0,0,,Merci beaucoup.\NJ'aimerais une photo.
+Dialogue: 0,0:30:35.84,0:30:46.36,Default,,0,0,0,,Merci.\NHum hum.
+Dialogue: 0,0:30:50.15,0:30:54.15,Default,,0,0,0,,Boum.\NMerci.
 Dialogue: 0,0:30:54.15,0:30:58.64,Default,,0,0,0,,D'accord, nous allons faire une petite\Npause et nous reviendrons.  Dans environ 15
-Dialogue: 0,0:30:58.64,0:31:01.60,Default,,0,0,0,,minutes, alors.\N12 minutes et demie.
-Dialogue: 0,0:31:01.60,0:31:24.00,Default,,0,0,0,,D'accord. Que\NDieu vous bénisse tous. Amen. Que Dieu vous bénisse
-Dialogue: 0,0:31:24.00,0:31:39.60,Default,,0,0,0,,tous. Au nom du Seigneur. Amen. Vous vous\NIls utilisaient un crochet. Ils
-Dialogue: 0,0:31:39.60,0:31:48.55,Default,,0,0,0,,vous accrochaient et vous tiraient de la scène.\NBonjour professeur. Bonjour Susan.
+Dialogue: 0,0:30:58.64,0:31:00.55,Default,,0,0,0,,minutes, alors.\N12 minutes et demie.
+Dialogue: 0,0:31:00.55,0:31:04.60,Default,,0,0,0,,12 minutes et demie.\ND'accord. Que
+Dialogue: 0,0:31:17.60,0:31:24.00,Default,,0,0,0,,Dieu vous bénisse. Que Dieu vous bénisse tous. Que\NDieu vous bénisse tous. Amen. Que Dieu vous bénisse
+Dialogue: 0,0:31:24.00,0:31:38.08,Default,,0,0,0,,tous. Au nom du Seigneur. Amen. Vous vous\Nsouvenez de l'émission amateur de Major Bose ?
+Dialogue: 0,0:31:38.08,0:31:43.79,Default,,0,0,0,,Ils utilisaient un crochet. Ils\Nvous accrochaient et vous tiraient de la scène.
+Dialogue: 0,0:31:44.08,0:31:48.55,Default,,0,0,0,,Oh mon Dieu.\NBonjour professeur. Bonjour Susan.
 Dialogue: 0,0:31:48.55,0:31:53.51,Default,,0,0,0,,Ma question est très simple. Euh, c'est\Nquand une étudiante, une étudiante spirituelle, traverse des
 Dialogue: 0,0:31:53.51,0:31:56.39,Default,,0,0,0,,transitions.\NJe n'entends pas ce qu'elle dit. Vous
 Dialogue: 0,0:31:56.39,0:32:01.76,Default,,0,0,0,,devez parler plus lentement.\ND'accord. Quand une étudiante spirituelle traverse des
@@ -305,30 +353,34 @@ Dialogue: 0,0:32:05.20,0:32:07.44,Default,,0,0,0,,Oui.\NOui. Elle traverse des t
 Dialogue: 0,0:32:07.44,0:32:14.55,Default,,0,0,0,,D'accord. Euh, et puis quand on accorde une grande importance à certaines\Nchoses, euh, ça rend
 Dialogue: 0,0:32:14.55,0:32:20.79,Default,,0,0,0,,mes proches nerveux, comme\Nelle le dit,
 Dialogue: 0,0:32:20.79,0:32:26.55,Default,,0,0,0,,euh, sa famille est un peu nerveuse,\Nvous savez, à cause d'elle,
-Dialogue: 0,0:32:26.55,0:32:28.64,Default,,0,0,0,,elle traverse des changements.\NOui.
-Dialogue: 0,0:32:28.64,0:32:31.51,Default,,0,0,0,,Oh oui. D'accord.\NOui. Et je me demandais juste s'il existe un
-Dialogue: 0,0:32:31.51,0:32:36.79,Default,,0,0,0,,moyen de communication pour\Nles réconforter, pour qu'ils  Ne t'inquiète pas trop, tu as peur de passer pour
-Dialogue: 0,0:32:36.79,0:32:41.03,Default,,0,0,0,,une folle\N.
-Dialogue: 0,0:32:41.03,0:32:45.60,Default,,0,0,0,,Je crois qu'ils s'inquiètent un peu de ses\Nexpériences spirituelles.
-Dialogue: 0,0:32:45.60,0:32:53.12,Default,,0,0,0,,Alors,\Ntiens-toi bien.
+Dialogue: 0,0:32:26.55,0:32:28.08,Default,,0,0,0,,elle traverse des changements.\NOui.
+Dialogue: 0,0:32:28.08,0:32:29.60,Default,,0,0,0,,Oui.\NOh oui. D'accord.
+Dialogue: 0,0:32:29.60,0:32:34.32,Default,,0,0,0,,Oui. Et je me demandais juste s'il existe un\Nmoyen de communication pour
+Dialogue: 0,0:32:34.32,0:32:38.72,Default,,0,0,0,,les réconforter, pour qu'ils  Ne t'inquiète pas trop, tu as peur de passer pour\Nune folle
+Dialogue: 0,0:32:38.72,0:32:43.12,Default,,0,0,0,,.\NJe crois qu'ils s'inquiètent un peu de ses
+Dialogue: 0,0:32:43.12,0:32:45.91,Default,,0,0,0,,expériences spirituelles.\NAlors,
+Dialogue: 0,0:32:45.91,0:32:53.12,Default,,0,0,0,,tiens-toi bien.\NSi tu restes tranquillement
 Dialogue: 0,0:32:53.12,0:32:57.36,Default,,0,0,0,,en état de méditation, il n'y a aucune raison de\Npaniquer pour eux, n'est-ce pas ?
 Dialogue: 0,0:32:57.36,0:32:59.91,Default,,0,0,0,,Non.\ND'accord. Alors, qu'est-ce qui les inquiète ? Que
 Dialogue: 0,0:32:59.91,0:33:05.36,Default,,0,0,0,,tu sois sur la tête ou quoi ?\NJ'aimerais bien ! Euh, je me demandais juste
 Dialogue: 0,0:33:05.36,0:33:12.48,Default,,0,0,0,,parce que quand on est prêt à quitter un\Nemploi bien rémunéré, ils deviennent vraiment nerveux.
 Dialogue: 0,0:33:12.48,0:33:14.15,Default,,0,0,0,,Quoi ?\NQuand on est prêt à quitter un
-Dialogue: 0,0:33:14.15,0:33:27.84,Default,,0,0,0,,emploi bien rémunéré, ils deviennent vraiment nerveux.\NC'est ton argent !
-Dialogue: 0,0:33:27.84,0:33:33.44,Default,,0,0,0,,Alors tu leur dis que tu dois choisir\Nentre l'argent et Dieu.
-Dialogue: 0,0:33:33.44,0:33:36.64,Default,,0,0,0,,Et s'ils ne comprennent pas Dieu ?\NHein ?
-Dialogue: 0,0:33:36.64,0:33:40.08,Default,,0,0,0,,Et s'ils ne comprennent pas Dieu ?\NC'est leur problème.
-Dialogue: 0,0:33:40.08,0:33:56.32,Default,,0,0,0,,D'accord, compris.\Ntoutes les cultures.
+Dialogue: 0,0:33:14.15,0:33:25.44,Default,,0,0,0,,emploi bien rémunéré, ils deviennent vraiment nerveux.\NC'est ton argent ! Hein ?
+Dialogue: 0,0:33:25.44,0:33:30.08,Default,,0,0,0,,C'est ton argent !\NAlors tu leur dis que tu dois choisir
+Dialogue: 0,0:33:30.08,0:33:36.08,Default,,0,0,0,,entre l'argent et Dieu.\NEt s'ils ne comprennent pas Dieu ?
+Dialogue: 0,0:33:36.08,0:33:38.79,Default,,0,0,0,,Hein ?\NEt s'ils ne comprennent pas Dieu ?
+Dialogue: 0,0:33:38.79,0:33:44.27,Default,,0,0,0,,C'est leur problème.\ND'accord, compris.
+Dialogue: 0,0:33:50.88,0:33:56.32,Default,,0,0,0,,Tu sais, la spiritualité est un phénomène présent dans\Ntoutes les cultures.
 Dialogue: 0,0:33:56.32,0:34:00.79,Default,,0,0,0,,Ils ne vivent pas au\Nmilieu du désert, coupés du monde, si
 Dialogue: 0,0:34:00.79,0:34:03.44,Default,,0,0,0,,?\NNon.
 Dialogue: 0,0:34:03.44,0:34:08.56,Default,,0,0,0,,Ils doivent donc connaître la spiritualité.  Cela\Nattire un certain pourcentage de
 Dialogue: 0,0:34:08.56,0:34:13.52,Default,,0,0,0,,personnes\Net elles devraient faire preuve de tolérance.
 Dialogue: 0,0:34:13.52,0:34:16.15,Default,,0,0,0,,Ce sont vos parents, n'est-ce pas ?\NOui.
-Dialogue: 0,0:34:16.15,0:34:29.82,Default,,0,0,0,,Donc, s'ils n'aiment pas ce qui se passe,\Nvous dites simplement : « Eh bien, vous m'avez élevé. » D'
-Dialogue: 0,0:34:29.82,0:34:39.11,Default,,0,0,0,,Si ma mère me pose la question, je dirai que mon professeur m'a dit qu'ils m'avaient élevé\NOui, ils m'ont élevé, n'est-ce pas ? D'accord.
-Dialogue: 0,0:34:39.11,0:34:54.96,Default,,0,0,0,,Merci beaucoup.\NBonjour docteur. J'ai beaucoup planifié
+Dialogue: 0,0:34:16.15,0:34:22.04,Default,,0,0,0,,Donc, s'ils n'aiment pas ce qui se passe,\Nvous dites simplement : « Eh bien, vous m'avez élevé. » D'
+Dialogue: 0,0:34:24.24,0:34:33.00,Default,,0,0,0,,accord.\NSi ma mère me pose la question, je dirai que mon professeur m'a dit qu'ils m'avaient élevé
+Dialogue: 0,0:34:35.28,0:34:39.11,Default,,0,0,0,,.\NOui, ils m'ont élevé, n'est-ce pas ? D'accord.
+Dialogue: 0,0:34:39.11,0:34:45.96,Default,,0,0,0,,Merci beaucoup.\NMerci beaucoup.
+Dialogue: 0,0:34:52.48,0:34:54.96,Default,,0,0,0,,Oui.\NBonjour docteur. J'ai beaucoup planifié
 Dialogue: 0,0:34:54.96,0:34:58.16,Default,,0,0,0,,depuis ma dernière visite\Npour que cette expérience soit
 Dialogue: 0,0:34:58.16,0:35:01.04,Default,,0,0,0,,spontanée.\NEuh,
 Dialogue: 0,0:35:01.04,0:35:06.16,Default,,0,0,0,,que dit-il ?\NAbsolument. C'était juste…
@@ -336,26 +388,31 @@ Dialogue: 0,0:35:06.16,0:35:10.56,Default,,0,0,0,,et… et à cause de cela, on 
 Dialogue: 0,0:35:10.56,0:35:14.00,Default,,0,0,0,,vous poser. Et j'ai continué à\Nvouloir simplement être en votre présence et…
 Dialogue: 0,0:35:14.00,0:35:19.44,Default,,0,0,0,,être spontané à propos de…\Nvous savez… ce que c'était. Mais… je
 Dialogue: 0,0:35:19.44,0:35:25.44,Default,,0,0,0,,suppose que ma question est… êtes-\Nvous le maître spirituel idéal pour moi ?
-Dialogue: 0,0:35:25.44,0:35:32.64,Default,,0,0,0,,Euh…\Nsavoir.
-Dialogue: 0,0:35:32.64,0:35:36.72,Default,,0,0,0,,J'ai l'impression que c'est vrai.\NEh bien, alors…  C'est vrai.
-Dialogue: 0,0:35:36.72,0:35:40.48,Default,,0,0,0,,Euh, allez-vous donner des\Nconférences de l'autre côté ? Et si oui,
-Dialogue: 0,0:35:40.48,0:35:50.80,Default,,0,0,0,,puis-je m'inscrire ?\NEh bien, je n'y suis pas retourné depuis un
+Dialogue: 0,0:35:25.44,0:35:31.59,Default,,0,0,0,,Euh…\Nje ne sais pas. Vous savez, vous êtes le seul à le
+Dialogue: 0,0:35:31.59,0:35:34.24,Default,,0,0,0,,savoir.\NJ'ai l'impression que c'est vrai.
+Dialogue: 0,0:35:34.24,0:35:38.72,Default,,0,0,0,,Eh bien, alors…  C'est vrai.\NEuh, allez-vous donner des
+Dialogue: 0,0:35:38.72,0:35:44.04,Default,,0,0,0,,conférences de l'autre côté ? Et si oui,\Npuis-je m'inscrire ?
+Dialogue: 0,0:35:46.96,0:35:50.80,Default,,0,0,0,,Oh.\NEh bien, je n'y suis pas retourné depuis un
 Dialogue: 0,0:35:50.80,0:35:57.11,Default,,0,0,0,,moment, donc je ne sais pas. Il faudra\Nvérifier la météo. Des
 Dialogue: 0,0:35:57.11,0:36:00.88,Default,,0,0,0,,conditions météorologiques célestes.\NEt puis-je vous serrer la main et recevoir
 Dialogue: 0,0:36:00.88,0:36:06.16,Default,,0,0,0,,votre bénédiction ?\NAlors, que savait-il ?
 Dialogue: 0,0:36:06.16,0:36:09.20,Default,,0,0,0,,Il veut vous serrer la main et vous demander\Nvotre bénédiction.
 Dialogue: 0,0:36:09.20,0:36:14.48,Default,,0,0,0,,D'accord, c'est parfait. C'est très bien. C'est\Nsimple. Oui. Tant que vous restez
-Dialogue: 0,0:36:14.48,0:36:26.88,Default,,0,0,0,,simple. Restez simple. Restez simple.\NDoucement. Et restez simple.
-Dialogue: 0,0:36:26.88,0:36:31.28,Default,,0,0,0,,Vivez un jour à la fois.\NOui. Euh, je voudrais vous remercier pour
-Dialogue: 0,0:36:31.28,0:36:36.64,Default,,0,0,0,,les enseignements et l'impact qu'ils ont eu sur\Nma vie. Et j'aimerais vous
-Dialogue: 0,0:36:36.64,0:36:56.00,Default,,0,0,0,,serrer la main.\NOui, bien sûr.
-Dialogue: 0,0:36:56.00,0:37:06.00,Default,,0,0,0,,bénédiction ? Que\NDieu vous bénisse. Y a-t-il encore du
-Dialogue: 0,0:37:06.00,0:37:12.80,Default,,0,0,0,,quelque part ?\N. Je voulais juste vous remercier et vous serrer la main.  Je vous serre la
+Dialogue: 0,0:36:14.48,0:36:24.52,Default,,0,0,0,,simple. Restez simple. Restez simple.\NDoucement. Et restez simple.
+Dialogue: 0,0:36:24.88,0:36:28.32,Default,,0,0,0,,Oui.\NVivez un jour à la fois.
+Dialogue: 0,0:36:28.32,0:36:33.76,Default,,0,0,0,,Oui. Euh, je voudrais vous remercier pour\Nles enseignements et l'impact qu'ils ont eu sur
+Dialogue: 0,0:36:33.76,0:36:39.59,Default,,0,0,0,,ma vie. Et j'aimerais vous\Nserrer la main.
+Dialogue: 0,0:36:39.59,0:36:56.00,Default,,0,0,0,,Oui, bien sûr.\NBonjour. Puis-je vous serrer la main et recevoir votre
+Dialogue: 0,0:36:56.00,0:37:00.44,Default,,0,0,0,,bénédiction ? Que\NDieu vous bénisse. Y a-t-il encore du
+Dialogue: 0,0:37:04.00,0:37:09.00,Default,,0,0,0,,café\Nquelque part ?
+Dialogue: 0,0:37:09.11,0:37:12.80,Default,,0,0,0,,Bonjour. Bonjour\N. Je voulais juste vous remercier et vous serrer la main.  Je vous serre la
 Dialogue: 0,0:37:12.80,0:37:16.72,Default,,0,0,0,,main pour vous remercier\Nde vos bénédictions et que
 Dialogue: 0,0:37:16.72,0:37:20.64,Default,,0,0,0,,Dieu vous bénisse.\NMerci pour vos enseignements. C'est
 Dialogue: 0,0:37:20.64,0:37:23.28,Default,,0,0,0,,la fin du café ?\NNon. D'accord
-Dialogue: 0,0:37:23.28,0:37:32.80,Default,,0,0,0,,.\Npour votre amour et votre énergie et vous serrer la
-Dialogue: 0,0:37:32.80,0:37:58.16,Default,,0,0,0,,main pour une bénédiction. Que\NDieu vous bénisse.
+Dialogue: 0,0:37:23.28,0:37:30.88,Default,,0,0,0,,.\NBonjour. Je voulais aussi vous remercier
+Dialogue: 0,0:37:30.88,0:37:35.28,Default,,0,0,0,,pour votre amour et votre énergie et vous serrer la\Nmain pour une bénédiction. Que
+Dialogue: 0,0:37:35.28,0:37:43.40,Default,,0,0,0,,Dieu vous bénisse.\NEuh-euh.
+Dialogue: 0,0:37:51.28,0:37:58.16,Default,,0,0,0,,Oui. Bonjour. Bonjour. Est-ce que je suis bien comme\Nça ?
 Dialogue: 0,0:37:58.16,0:38:01.52,Default,,0,0,0,,Oui.\ND'accord, bien. Euh, ravi de vous voir tous les deux.
 Dialogue: 0,0:38:01.52,0:38:06.72,Default,,0,0,0,,Euh, je voulais vous remercier de m'avoir donné\Nvotre bénédiction il y a quelques années et de m'avoir
 Dialogue: 0,0:38:06.72,0:38:11.59,Default,,0,0,0,,permis de vous citer lors de la\Ncréation de mon euh site web, la
@@ -369,7 +426,8 @@ Dialogue: 0,0:38:37.68,0:38:40.96,Default,,0,0,0,,Ligue anti-diffamation divine.
 Dialogue: 0,0:38:40.96,0:38:44.72,Default,,0,0,0,,Oui.  Merci beaucoup.  Euh,\Ndéfendez le bon nom de Dieu.
 Dialogue: 0,0:38:44.72,0:38:46.32,Default,,0,0,0,,Oui.  Tout à fait exact.\NBien pour vous.
 Dialogue: 0,0:38:46.32,0:38:52.96,Default,,0,0,0,,Merci beaucoup.  Euh, j'avais une\Nquestion à propos du mariage.
-Dialogue: 0,0:38:52.96,0:38:56.48,Default,,0,0,0,,À propos de quoi?\NMariage.
+Dialogue: 0,0:38:52.96,0:38:54.40,Default,,0,0,0,,À propos de quoi?\NMariage.
+Dialogue: 0,0:38:54.40,0:38:56.48,Default,,0,0,0,,Mariage.\NMariage.
 Dialogue: 0,0:38:56.48,0:38:59.35,Default,,0,0,0,,Oh,\Nje suis curieux.  Euh, je n'ai jamais été
 Dialogue: 0,0:38:59.35,0:39:04.07,Default,,0,0,0,,marié.  Et me voilà à 61 ans, et j'y ai\Neffectivement réfléchi un peu
 Dialogue: 0,0:39:04.07,0:39:05.76,Default,,0,0,0,,.\NIl n'a jamais été quoi ?
@@ -377,11 +435,13 @@ Dialogue: 0,0:39:05.76,0:39:09.28,Default,,0,0,0,,Il n'a jamais été marié.  I
 Dialogue: 0,0:39:09.28,0:39:14.88,Default,,0,0,0,,Oh ouais.\NEt je suis curieux de connaître votre avis sur ce qui
 Dialogue: 0,0:39:14.88,0:39:20.96,Default,,0,0,0,,pourrait constituer un\Nsyndicat véritablement idéal, si vous voulez, ou
 Dialogue: 0,0:39:20.96,0:39:28.16,Default,,0,0,0,,en tout cas un syndicat fonctionnel.  Et si vous\Naviez des mots à suggérer comme
-Dialogue: 0,0:39:28.16,0:39:33.20,Default,,0,0,0,,vœu que\Ndeux personnes souhaitent être ensemble…
-Dialogue: 0,0:39:33.20,0:39:44.24,Default,,0,0,0,,.\NDeux personnes veulent être ensemble,
-Dialogue: 0,0:39:44.24,0:39:48.48,Default,,0,0,0,,Mhm.\NOuais.  Parce que vous aimez être ensemble
-Dialogue: 0,0:39:48.48,0:39:49.83,Default,,0,0,0,,.\NOuais.
-Dialogue: 0,0:39:49.83,0:39:57.92,Default,,0,0,0,,Voir?  Et tu l'aimes.\NOuais.   Le
+Dialogue: 0,0:39:28.16,0:39:32.56,Default,,0,0,0,,vœu que\Ndeux personnes souhaitent être ensemble…
+Dialogue: 0,0:39:32.56,0:39:36.16,Default,,0,0,0,,Mhm.   C'est tout ce qu'il faut\N.
+Dialogue: 0,0:39:36.16,0:39:44.24,Default,,0,0,0,,Deux personnes veulent être ensemble,\Net par conséquent, cela doit être significatif.
+Dialogue: 0,0:39:44.24,0:39:45.59,Default,,0,0,0,,Mhm.\NMhm.
+Dialogue: 0,0:39:45.59,0:39:48.88,Default,,0,0,0,,Ouais.  Parce que vous aimez être ensemble\N.
+Dialogue: 0,0:39:48.88,0:39:52.72,Default,,0,0,0,,Ouais.\NVoir?  Et tu l'aimes.
+Dialogue: 0,0:39:52.72,0:39:57.92,Default,,0,0,0,,Ouais.   Le\Nplus souvent.   Le
 Dialogue: 0,0:39:57.92,0:40:02.48,Default,,0,0,0,,plus souvent.   C'est\Ngénéralement comme ça.  La plupart du
 Dialogue: 0,0:40:02.48,0:40:06.24,Default,,0,0,0,,temps.\NEt au bout d'un moment, c'est tout le temps.
 Dialogue: 0,0:40:06.24,0:40:11.59,Default,,0,0,0,,Ouais.  Franchement, oui.\NEuh, je crois que c'est tout.  Vous savez, j'avais encore quelques
@@ -392,23 +452,30 @@ Dialogue: 0,0:40:25.04,0:40:28.48,Default,,0,0,0,,vraiment hâte, une fois de l'
 Dialogue: 0,0:40:28.48,0:40:31.68,Default,,0,0,0,,parler à\NSocrate et à tous vos vieux copains et d'être en leur compagnie.
 Dialogue: 0,0:40:31.68,0:40:34.88,Default,,0,0,0,,Oh oui.\NEt je me demande si, une fois de l'
 Dialogue: 0,0:40:34.88,0:40:37.28,Default,,0,0,0,,autre côté, je pourrai un peu sympathiser avec\Ntoi.
-Dialogue: 0,0:40:37.28,0:40:42.96,Default,,0,0,0,,Oh, bien sûr.\NHé.
-Dialogue: 0,0:40:42.96,0:40:56.80,Default,,0,0,0,,Oh, vous pariez.\NMerci.
+Dialogue: 0,0:40:37.28,0:40:41.16,Default,,0,0,0,,Oh, bien sûr.\NHé.
+Dialogue: 0,0:40:41.28,0:40:43.92,Default,,0,0,0,,Salut, on peut avoir une photo, s'il vous plaît ?\NOh, vous pariez.
+Dialogue: 0,0:40:43.92,0:40:56.80,Default,,0,0,0,,Merci.\NOui, c'est son poulet.
 Dialogue: 0,0:40:56.80,0:41:01.52,Default,,0,0,0,,Socrate était petit et laid, et ça m'a\Ntoujours fait plaisir.
-Dialogue: 0,0:41:01.52,0:41:09.20,Default,,0,0,0,,D'accord, assurez-vous qu'il sourit.\NPetit et laid.
-Dialogue: 0,0:41:09.20,0:41:13.52,Default,,0,0,0,,Oui, il était petit, laid et pas beau du tout\N.
-Dialogue: 0,0:41:13.52,0:41:19.20,Default,,0,0,0,,Socrate.\NSalut.  Bonjour,
-Dialogue: 0,0:41:19.20,0:41:22.88,Default,,0,0,0,,docteur.\NJe me demandais si vous, moi et toutes
-Dialogue: 0,0:41:22.88,0:41:28.00,Default,,0,0,0,,ces personnes ici présentes pouvions dire M ensemble.\NEt
-Dialogue: 0,0:41:28.00,0:41:31.35,Default,,0,0,0,,faire le M\Nensemble ?
-Dialogue: 0,0:41:31.35,0:42:17.35,Default,,0,0,0,,Quoi?  Tu veux faire le M commencé ?\Ntiens à vous remercier pour toute votre
-Dialogue: 0,0:42:17.35,0:42:23.11,Default,,0,0,0,,sagesse et pour la force puissante que\Nvous représentez dans nos vies.  Et ma
-Dialogue: 0,0:42:23.11,0:42:28.31,Default,,0,0,0,,question est : pourriez-vous calibrer la\Nphilosophie chiropratique ?
-Dialogue: 0,0:42:28.31,0:42:40.96,Default,,0,0,0,,Calibrer la philosophie chiropratique.   Ça n'existe pas, alors quoi\NOui.   La
-Dialogue: 0,0:42:40.96,0:42:45.83,Default,,0,0,0,,Ouais.  Le fondateur de la\Nchiropratique a écrit de nombreux livres et,
-Dialogue: 0,0:42:45.83,0:42:54.56,Default,,0,0,0,,dans l'ordre de\Nla
-Dialogue: 0,0:42:54.56,0:43:15.10,Default,,0,0,0,,.   La\NParce que ce qu'on nous enseigne à l'école, vous savez, à l'école de
-Dialogue: 0,0:43:15.10,0:43:26.56,Default,,0,0,0,,chiropratique,\NOh, hein ? Euh, c'est qu'il y a une
+Dialogue: 0,0:41:01.52,0:41:08.16,Default,,0,0,0,,D'accord, assurez-vous qu'il sourit.\NMerci.
+Dialogue: 0,0:41:08.16,0:41:11.76,Default,,0,0,0,,Petit et laid.\NOui, il était petit, laid et pas beau du tout
+Dialogue: 0,0:41:11.76,0:41:16.24,Default,,0,0,0,,.\NSocrate.
+Dialogue: 0,0:41:16.24,0:41:20.72,Default,,0,0,0,,Salut.  Bonjour,\Ndocteur.
+Dialogue: 0,0:41:20.72,0:41:26.24,Default,,0,0,0,,Je me demandais si vous, moi et toutes\Nces personnes ici présentes pouvions dire M ensemble.
+Dialogue: 0,0:41:26.24,0:41:30.64,Default,,0,0,0,,Et\Nfaire le M
+Dialogue: 0,0:41:30.64,0:41:35.64,Default,,0,0,0,,ensemble ?\NQuoi?  Tu veux faire le M commencé ?
+Dialogue: 0,0:41:36.96,0:42:01.64,Default,,0,0,0,,Oh.\NHé, hé, hé, hé.
+Dialogue: 0,0:42:03.68,0:42:15.59,Default,,0,0,0,,Merci.\NBonjour, Dr Hawkins.  Bonjour, Mme Hawkins.  Je
+Dialogue: 0,0:42:15.59,0:42:19.68,Default,,0,0,0,,tiens à vous remercier pour toute votre\Nsagesse et pour la force puissante que
+Dialogue: 0,0:42:19.68,0:42:25.52,Default,,0,0,0,,vous représentez dans nos vies.  Et ma\Nquestion est : pourriez-vous calibrer la
+Dialogue: 0,0:42:25.52,0:42:33.68,Default,,0,0,0,,philosophie chiropratique ?\NCalibrer la philosophie chiropratique.   Ça n'existe pas, alors quoi
+Dialogue: 0,0:42:35.44,0:42:40.07,Default,,0,0,0,,?\NOui.   La
+Dialogue: 0,0:42:40.07,0:42:42.48,Default,,0,0,0,,philosophie chiropratique n'existe pas.\NOuais.  Le fondateur de la
+Dialogue: 0,0:42:42.48,0:42:46.88,Default,,0,0,0,,chiropratique a écrit de nombreux livres et,\Ndans l'ordre de
+Dialogue: 0,0:42:46.88,0:42:54.56,Default,,0,0,0,,la\Nconnaissance du chi, il a écrit plusieurs livres à ce sujet
+Dialogue: 0,0:42:54.56,0:43:02.52,Default,,0,0,0,,.   La\Nphilosophie chiropratique n'existe pas.
+Dialogue: 0,0:43:02.64,0:43:11.35,Default,,0,0,0,,Euh, puis-je vous poser une question ?\NParce que ce qu'on nous enseigne à l'école, vous savez, à l'école de
+Dialogue: 0,0:43:13.83,0:43:17.83,Default,,0,0,0,,chiropratique,\Noui, ça existe.
+Dialogue: 0,0:43:17.83,0:43:26.56,Default,,0,0,0,,Oh, hein ? Euh, c'est qu'il y a une\Nintelligence innée dans notre corps ?
 Dialogue: 0,0:43:26.56,0:43:29.83,Default,,0,0,0,,Oui,\Nqui fait partie de l'intelligence universelle.
 Dialogue: 0,0:43:29.83,0:43:33.59,Default,,0,0,0,,Oh oui,\Nqui est Dieu. Et grâce au pouvoir d'un
 Dialogue: 0,0:43:33.59,0:43:38.56,Default,,0,0,0,,ajustement, on peut connecter l'\Ninné à l'universel, ou les rapprocher
@@ -417,45 +484,52 @@ Dialogue: 0,0:43:41.52,0:43:45.04,Default,,0,0,0,,Connecter quoi ?\NIntelligence
 Dialogue: 0,0:43:45.04,0:43:46.48,Default,,0,0,0,,intelligence universelle.\NIntelligence.
 Dialogue: 0,0:43:46.48,0:43:47.76,Default,,0,0,0,,Ouais.\NÀ l'
 Dialogue: 0,0:43:47.76,0:43:50.96,Default,,0,0,0,,intelligence universelle.\NIntelligence universelle.
-Dialogue: 0,0:43:50.96,0:44:05.44,Default,,0,0,0,,Ouais.\Nvous ?
-Dialogue: 0,0:44:05.44,0:44:20.07,Default,,0,0,0,,Quoi?\NC'est une photographie.
-Dialogue: 0,0:44:20.07,0:44:23.35,Default,,0,0,0,,inspirant.\NIl y a un excellent chiropracteur ; je préfère largement un
-Dialogue: 0,0:44:23.35,0:44:37.83,Default,,0,0,0,,excellent chiropracteur à un mauvais médecin.\Nreçois certains traitements.
+Dialogue: 0,0:43:50.96,0:43:59.07,Default,,0,0,0,,Ouais.\NC'est donc résister.
+Dialogue: 0,0:44:00.48,0:44:05.44,Default,,0,0,0,,Merci.  Puis-je prendre une photo avec\Nvous ?
+Dialogue: 0,0:44:05.44,0:44:10.44,Default,,0,0,0,,Quoi?\NC'est une photographie.
+Dialogue: 0,0:44:16.80,0:44:21.76,Default,,0,0,0,,Toutes les formes de guérison sont oui.\Ninspirant.
+Dialogue: 0,0:44:21.76,0:44:28.35,Default,,0,0,0,,Il y a un excellent chiropracteur ; je préfère largement un\Nexcellent chiropracteur à un mauvais médecin.
+Dialogue: 0,0:44:33.52,0:44:37.83,Default,,0,0,0,,Et quels types de traitements vais-je recevoir ?  Je\Nreçois certains traitements.
 Dialogue: 0,0:44:37.83,0:44:42.31,Default,,0,0,0,,Qu'est-ce que c'est ?  Ce sont des exercices\Nde kinésiologie, n'est-ce pas ?  Ce sont eux, alors je me
 Dialogue: 0,0:44:42.31,0:44:46.80,Default,,0,0,0,,tourne vers les traitements de kinésiologie.\NSinon, je boiterais de partout.
 Dialogue: 0,0:44:46.80,0:44:51.92,Default,,0,0,0,,Boitant avec une canne.  Et maintenant, je marche\Nplutôt droit.
 Dialogue: 0,0:44:51.92,0:44:57.76,Default,,0,0,0,,Oui.  Votre question.\NOui.  Ma question porte sur le déjà-vu.  Est-ce
-Dialogue: 0,0:44:57.76,0:45:10.96,Default,,0,0,0,,l'expérience que j'ai vécue ?  Sont-ce de simples\Nréelles ?  Je suis un peu perdu(e) quand vous
-Dialogue: 0,0:45:10.96,0:45:17.11,Default,,0,0,0,,parlez du futur et que vous dites qu'on ne peut pas le\Nprédire.
-Dialogue: 0,0:45:17.11,0:45:20.31,Default,,0,0,0,,Quelle est la question ?\NA-t-il posé une question sur le déjà-vu ?
-Dialogue: 0,0:45:20.31,0:45:22.96,Default,,0,0,0,,Déjà vu.\NQu'en pensez-vous ?
-Dialogue: 0,0:45:22.96,0:45:28.40,Default,,0,0,0,,Ouais.  Si j'ai eu une impression de déjà-vu,\Nvous voulez savoir si les déjà-vus sont
-Dialogue: 0,0:45:28.40,0:45:33.76,Default,,0,0,0,,réels ou non ?\NEh bien, le déjà-vu est une expérience bien réelle.  Oui.
-Dialogue: 0,0:45:33.76,0:45:39.59,Default,,0,0,0,,Et je pense que cela est dû à une activation dualiste\Ndes neurones.
-Dialogue: 0,0:45:39.59,0:45:46.80,Default,,0,0,0,,Généralement, lorsqu'une expérience se produit, elle se produit\Nuniquement lorsque la voie neuronale est activée
-Dialogue: 0,0:45:46.80,0:45:53.52,Default,,0,0,0,,et qu'une voie alternative est inhibée.\NIl ne répond donc pas.  Si cela ne parvient pas à l'atténuer
-Dialogue: 0,0:45:53.52,0:45:58.24,Default,,0,0,0,,, alors vous recevez la\Nmême information, mais par deux
-Dialogue: 0,0:45:58.24,0:46:10.00,Default,,0,0,0,,voies neuronales différentes.\NC'est exact.  Résister.
+Dialogue: 0,0:44:57.76,0:45:07.59,Default,,0,0,0,,l'expérience que j'ai vécue ?  Sont-ce de simples\Nillusions créées par mon ego ou sont-elles bien
+Dialogue: 0,0:45:07.59,0:45:13.92,Default,,0,0,0,,réelles ?  Je suis un peu perdu(e) quand vous\Nparlez du futur et que vous dites qu'on ne peut pas le
+Dialogue: 0,0:45:13.92,0:45:18.88,Default,,0,0,0,,prédire.\NQuelle est la question ?
+Dialogue: 0,0:45:18.88,0:45:21.04,Default,,0,0,0,,A-t-il posé une question sur le déjà-vu ?\NDéjà vu.
+Dialogue: 0,0:45:21.04,0:45:26.56,Default,,0,0,0,,Qu'en pensez-vous ?\NOuais.  Si j'ai eu une impression de déjà-vu,
+Dialogue: 0,0:45:26.56,0:45:30.56,Default,,0,0,0,,vous voulez savoir si les déjà-vus sont\Nréels ou non ?
+Dialogue: 0,0:45:30.56,0:45:36.40,Default,,0,0,0,,Eh bien, le déjà-vu est une expérience bien réelle.  Oui.\NEt je pense que cela est dû à une activation dualiste
+Dialogue: 0,0:45:36.40,0:45:42.24,Default,,0,0,0,,des neurones.\NGénéralement, lorsqu'une expérience se produit, elle se produit
+Dialogue: 0,0:45:42.24,0:45:50.56,Default,,0,0,0,,uniquement lorsque la voie neuronale est activée\Net qu'une voie alternative est inhibée.
+Dialogue: 0,0:45:50.56,0:45:56.16,Default,,0,0,0,,Il ne répond donc pas.  Si cela ne parvient pas à l'atténuer\N, alors vous recevez la
+Dialogue: 0,0:45:56.16,0:46:01.28,Default,,0,0,0,,même information, mais par deux\Nvoies neuronales différentes.
+Dialogue: 0,0:46:01.28,0:46:10.00,Default,,0,0,0,,C'est exact.  Résister.\NEt cela a tendance à se produire de manière épisodique.   D'accord
 Dialogue: 0,0:46:10.00,0:46:17.92,Default,,0,0,0,,.  Cela n'a donc rien à voir avec le fait que je\Npense comme si j'avais
-Dialogue: 0,0:46:17.92,0:46:30.40,Default,,0,0,0,,rêvé du futur et que celui-ci s'était réalisé\Npuis cela se produit dans la réalité,
+Dialogue: 0,0:46:17.92,0:46:25.80,Default,,0,0,0,,rêvé du futur et que celui-ci s'était réalisé\N.  C'est juste que
+Dialogue: 0,0:46:26.07,0:46:30.40,Default,,0,0,0,,son impression de déjà-vu se manifeste sous forme de rêves à ce sujet,\Npuis cela se produit dans la réalité,
 Dialogue: 0,0:46:30.40,0:46:33.76,Default,,0,0,0,,vous savez, comme une\Nconversation qui se répète ou quelque chose comme ça.
 Dialogue: 0,0:46:33.76,0:46:36.40,Default,,0,0,0,,Ah oui, il l'a déjà fait et il le\Nreconnaît pendant
 Dialogue: 0,0:46:36.40,0:46:42.40,Default,,0,0,0,,une seconde, tout au plus.\NOui, comme l'a dit Yogi Barra, c'est un éternel recommencement
-Dialogue: 0,0:46:42.40,0:46:51.04,Default,,0,0,0,,.   D'accord\NC'est un phénomène intéressant
-Dialogue: 0,0:46:51.04,0:46:55.04,Default,,0,0,0,,que j'ai moi-même étudié un peu\Nrécemment\h:
-Dialogue: 0,0:46:55.04,0:46:59.52,Default,,0,0,0,,les messages\Ntransitent par deux circuits différents,
-Dialogue: 0,0:46:59.52,0:47:04.88,Default,,0,0,0,,et normalement l'un des circuits est censé\Ns'amortir, mais pour une raison que je n'ai
-Dialogue: 0,0:47:04.88,0:47:09.92,Default,,0,0,0,,pas eu l'occasion de vérifier, et qui n'est\Nprobablement pas importante de toute façon.  Il
-Dialogue: 0,0:47:09.92,0:47:16.07,Default,,0,0,0,,rend compte de manière dualiste à partir de deux\Nscènes temporelles de fond différentes.  Oui.
-Dialogue: 0,0:47:16.07,0:47:22.16,Default,,0,0,0,,Mhm.  des scènes apparemment différentes.  Ouais.   Il n'y a\Npas lieu de s'inquiéter.   D'accord
-Dialogue: 0,0:47:22.16,0:47:26.16,Default,,0,0,0,,.  Puis-je embrasser vos pieds ?\NOuais.
-Dialogue: 0,0:47:26.16,0:47:28.31,Default,,0,0,0,,Il veut te toucher les pieds.\NOui.
-Dialogue: 0,0:47:28.31,0:47:47.59,Default,,0,0,0,,Embrassez vos pieds.  D'accord.\Net il a tendance à apparaître et à disparaître spontanément, sans
-Dialogue: 0,0:47:47.59,0:47:51.92,Default,,0,0,0,,peut-être que je n'ai pas passé assez de temps à l'examiner\N.  C'est sans doute parce que sa
-Dialogue: 0,0:47:51.92,0:48:09.44,Default,,0,0,0,,valeur est limitée.\Nrestaurants.
+Dialogue: 0,0:46:42.40,0:46:48.07,Default,,0,0,0,,.   D'accord\N.
+Dialogue: 0,0:46:48.07,0:46:53.44,Default,,0,0,0,,C'est un phénomène intéressant\Nque j'ai moi-même étudié un peu
+Dialogue: 0,0:46:53.44,0:46:57.44,Default,,0,0,0,,récemment :\Nles messages
+Dialogue: 0,0:46:57.44,0:47:01.68,Default,,0,0,0,,transitent par deux circuits différents,\Net normalement l'un des circuits est censé
+Dialogue: 0,0:47:01.68,0:47:06.40,Default,,0,0,0,,s'amortir, mais pour une raison que je n'ai\Npas eu l'occasion de vérifier, et qui n'est
+Dialogue: 0,0:47:06.40,0:47:13.83,Default,,0,0,0,,probablement pas importante de toute façon.  Il\Nrend compte de manière dualiste à partir de deux
+Dialogue: 0,0:47:13.83,0:47:19.92,Default,,0,0,0,,scènes temporelles de fond différentes.  Oui.\NMhm.  des scènes apparemment différentes.  Ouais.   Il n'y a
+Dialogue: 0,0:47:19.92,0:47:25.20,Default,,0,0,0,,pas lieu de s'inquiéter.   D'accord\N.  Puis-je embrasser vos pieds ?
+Dialogue: 0,0:47:25.20,0:47:27.68,Default,,0,0,0,,Ouais.\NIl veut te toucher les pieds.
+Dialogue: 0,0:47:27.68,0:47:33.16,Default,,0,0,0,,Oui.\NEmbrassez vos pieds.  D'accord.
+Dialogue: 0,0:47:33.92,0:47:44.72,Default,,0,0,0,,Ouais.  Le déjà-vu est très intéressant\Net il a tendance à apparaître et à disparaître spontanément, sans
+Dialogue: 0,0:47:44.72,0:47:49.44,Default,,0,0,0,,raison particulière.  Euh,\Npeut-être que je n'ai pas passé assez de temps à l'examiner
+Dialogue: 0,0:47:49.44,0:47:55.96,Default,,0,0,0,,.  C'est sans doute parce que sa\Nvaleur est limitée.
+Dialogue: 0,0:48:04.72,0:48:09.44,Default,,0,0,0,,J'ai eu une impression de déjà-vu, et cela ne s'est produit que dans les\Nrestaurants.
 Dialogue: 0,0:48:09.44,0:48:12.88,Default,,0,0,0,,Chaque fois que j'allais au restaurant, j'avais l'impression d'y être\Ndéjà venu
 Dialogue: 0,0:48:12.88,0:48:16.80,Default,,0,0,0,,et que la même chose allait se reproduire.\NLa même serveuse appelait, venait et
-Dialogue: 0,0:48:16.80,0:48:32.48,Default,,0,0,0,,disait la même chose.   Si\Noù l'on cesse de chercher la
+Dialogue: 0,0:48:16.80,0:48:25.04,Default,,0,0,0,,disait la même chose.   Si\Nj'ai bien compris, il arrive un moment
+Dialogue: 0,0:48:25.04,0:48:32.48,Default,,0,0,0,,où l'on cesse de chercher la\Nvérité spirituelle à l'extérieur de soi-même et où l'on s'adresse au champ, qui est censé nous répondre
 Dialogue: 0,0:48:32.48,0:48:38.40,Default,,0,0,0,,.\NOui.  Euh, ce que je me demande, c'est
 Dialogue: 0,0:48:38.40,0:48:46.07,Default,,0,0,0,,si mon intention est de trouver la vérité et\Nde me rapprocher de Dieu, mais je
 Dialogue: 0,0:48:46.07,0:48:50.55,Default,,0,0,0,,crains d'être\Nvraiment naïve et de me
@@ -464,32 +538,37 @@ Dialogue: 0,0:48:55.20,0:49:00.48,Default,,0,0,0,,égarer par quoi ?  par euh, c
 Dialogue: 0,0:49:00.48,0:49:03.04,Default,,0,0,0,,de tour de passe-passe,\Nle cirque astral
 Dialogue: 0,0:49:03.04,0:49:07.76,Default,,0,0,0,,ou une sorte de tour de passe-passe, je ne\Ncomprendrai pas et je serai... eh bien,
 Dialogue: 0,0:49:07.76,0:49:13.35,Default,,0,0,0,,la façon d'éviter le cirque astral\Nest d'éviter tout ce qui est autre
-Dialogue: 0,0:49:13.35,0:49:26.31,Default,,0,0,0,,que vous,\Nmoment, donc l'altérité indique
-Dialogue: 0,0:49:26.31,0:49:33.11,Default,,0,0,0,,euh, une séparation ou une autre\Nentité spirituelle.
-Dialogue: 0,0:49:33.11,0:49:38.40,Default,,0,0,0,,Il n'y a que la réalité de soi-même.\NOuais.
-Dialogue: 0,0:49:38.40,0:50:04.48,Default,,0,0,0,,Oui Monsieur.  Merci.  Vous me\NOuais.  Quoi?  Oui en effet.
+Dialogue: 0,0:49:13.35,0:49:21.76,Default,,0,0,0,,que vous,\Nautrement dit, il n'y a que vous-même à tout
+Dialogue: 0,0:49:21.76,0:49:30.88,Default,,0,0,0,,moment, donc l'altérité indique\Neuh, une séparation ou une autre
+Dialogue: 0,0:49:30.88,0:49:37.52,Default,,0,0,0,,entité spirituelle.\NIl n'y a que la réalité de soi-même.
+Dialogue: 0,0:49:37.52,0:49:43.07,Default,,0,0,0,,Ouais.\NOui Monsieur.  Merci.  Vous me
+Dialogue: 0,0:49:44.64,0:49:51.07,Default,,0,0,0,,serrez la main, monsieur.\NOuais.  Quoi?  Oui en effet.
+Dialogue: 0,0:49:56.96,0:50:04.48,Default,,0,0,0,,Je t'ai apporté un pointeur laser.\NC'est un pointeur laser.  Alors, nous allons le
 Dialogue: 0,0:50:04.48,0:50:07.35,Default,,0,0,0,,mettre dans votre\NOh, merci.
 Dialogue: 0,0:50:07.35,0:50:12.48,Default,,0,0,0,,Ma question porte donc sur la guérison et le\Nrétablissement.  Vous avez parlé de la façon de guérir
 Dialogue: 0,0:50:12.48,0:50:17.35,Default,,0,0,0,,la vue et je voulais en savoir plus sur\Nce qui est nécessaire, car dans le livre, vous
 Dialogue: 0,0:50:17.35,0:50:21.68,Default,,0,0,0,,dites que je suis un être infini et que je ne suis pas soumis\Nà l'obligation de dire
 Dialogue: 0,0:50:21.68,0:50:23.68,Default,,0,0,0,,oui\Npour la vue.
 Dialogue: 0,0:50:23.68,0:50:26.55,Default,,0,0,0,,Quelle est cette question ?\NEuh, alors que me
-Dialogue: 0,0:50:26.55,0:50:36.39,Default,,0,0,0,,recommanderiez-vous ?\NQue me recommanderiez-vous ?  Que puis-
-Dialogue: 0,0:50:36.39,0:50:41.20,Default,,0,0,0,,je recommander\Ndis que tu es un être infini.
-Dialogue: 0,0:50:41.20,0:50:44.88,Default,,0,0,0,,Oui.\NIl veut donc savoir ce que vous avez fait pour
-Dialogue: 0,0:50:44.88,0:50:49.83,Default,,0,0,0,,votre vue à l'époque.\NAh, vous venez de confirmer que votre
-Dialogue: 0,0:50:49.83,0:50:54.40,Default,,0,0,0,,réalité est la perfection\Net que vous ne voyez que ce que vous avez besoin de
-Dialogue: 0,0:50:54.40,0:50:58.72,Default,,0,0,0,,voir, quand vous avez besoin de le voir.  Il n'est donc\Npas nécessaire de tout voir tout le
-Dialogue: 0,0:50:58.72,0:51:03.44,Default,,0,0,0,,temps.  Vous n'avez besoin de voir que ce que\Nvous devez voir, quand vous en avez besoin
-Dialogue: 0,0:51:03.44,0:51:06.55,Default,,0,0,0,,.\NVous n'avez pas besoin de savoir où se trouve le
-Dialogue: 0,0:51:06.55,0:51:12.00,Default,,0,0,0,,bord de la falaise à moins de vous en approcher.\NMaintenant, si vous vous demandez : Où allons-nous après la
-Dialogue: 0,0:51:12.00,0:51:18.40,Default,,0,0,0,,chute de la falaise ?\NOù se trouve-t-il en Arizona ?
-Dialogue: 0,0:51:18.40,0:51:21.68,Default,,0,0,0,,Grand Canyon.   Le\NGrand Canyon, n'est-ce pas ?
-Dialogue: 0,0:51:21.68,0:51:40.80,Default,,0,0,0,,Vous devez savoir où se situe la limite.\Nle site du Grand Canyon
-Dialogue: 0,0:51:40.80,0:51:45.52,Default,,0,0,0,,.  Il a été rapporté, je crois, voyons voir,\Neuh, qu'environ neuf
-Dialogue: 0,0:51:45.52,0:51:53.28,Default,,0,0,0,,personnes par an tombaient du Grand Canyon. C'est bien ça ? Oui, environ neuf\Npersonnes par an tombaient du
-Dialogue: 0,0:51:53.28,0:52:02.00,Default,,0,0,0,,parlait toujours. Neuf\Nmais le chiffre est resté progressivement autour de
-Dialogue: 0,0:52:02.00,0:52:12.07,Default,,0,0,0,,neuf personnes, de manière assez constante.\NMaintenant, j'ai remarqué que le journal ne rapporte plus de
+Dialogue: 0,0:50:26.55,0:50:33.07,Default,,0,0,0,,recommanderiez-vous ?\NQue me recommanderiez-vous ?  Que puis-
+Dialogue: 0,0:50:35.04,0:50:38.88,Default,,0,0,0,,je recommander\Npour améliorer la vue ?  Tu sais, tu
+Dialogue: 0,0:50:38.88,0:50:42.80,Default,,0,0,0,,dis que tu es un être infini.\NOui.
+Dialogue: 0,0:50:42.80,0:50:46.55,Default,,0,0,0,,Il veut donc savoir ce que vous avez fait pour\Nvotre vue à l'époque.
+Dialogue: 0,0:50:46.55,0:50:52.40,Default,,0,0,0,,Ah, vous venez de confirmer que votre\Nréalité est la perfection
+Dialogue: 0,0:50:52.40,0:50:56.88,Default,,0,0,0,,et que vous ne voyez que ce que vous avez besoin de\Nvoir, quand vous avez besoin de le voir.  Il n'est donc
+Dialogue: 0,0:50:56.88,0:51:01.59,Default,,0,0,0,,pas nécessaire de tout voir tout le\Ntemps.  Vous n'avez besoin de voir que ce que
+Dialogue: 0,0:51:01.59,0:51:04.88,Default,,0,0,0,,vous devez voir, quand vous en avez besoin\N.
+Dialogue: 0,0:51:04.88,0:51:08.07,Default,,0,0,0,,Vous n'avez pas besoin de savoir où se trouve le\Nbord de la falaise à moins de vous en approcher.
+Dialogue: 0,0:51:08.07,0:51:15.76,Default,,0,0,0,,Maintenant, si vous vous demandez : Où allons-nous après la\Nchute de la falaise ?
+Dialogue: 0,0:51:15.76,0:51:19.04,Default,,0,0,0,,Où se trouve-t-il en Arizona ?\NGrand Canyon.   Le
+Dialogue: 0,0:51:19.04,0:51:26.35,Default,,0,0,0,,Grand Canyon, n'est-ce pas ?\NVous devez savoir où se situe la limite.
+Dialogue: 0,0:51:28.40,0:51:38.07,Default,,0,0,0,,Alors, ne tentez pas votre première expérience.\NOn remarque depuis de nombreuses années qu'environ neuf personnes par an visitent
+Dialogue: 0,0:51:38.07,0:51:42.96,Default,,0,0,0,,le site du Grand Canyon\N.  Il a été rapporté, je crois, voyons voir,
+Dialogue: 0,0:51:42.96,0:51:47.92,Default,,0,0,0,,euh, qu'environ neuf\Npersonnes par an tombaient du Grand Canyon. C'est bien ça ? Oui, environ neuf
+Dialogue: 0,0:51:47.92,0:51:53.28,Default,,0,0,0,,personnes par an tombaient du\NGrand Canyon pendant des années, et le journal en
+Dialogue: 0,0:51:53.28,0:51:59.83,Default,,0,0,0,,parlait toujours. Neuf\Npersonnes étaient tombées l'année suivante, huit, dix l'année d'après,
+Dialogue: 0,0:51:59.83,0:52:05.35,Default,,0,0,0,,mais le chiffre est resté progressivement autour de\Nneuf personnes, de manière assez constante.
+Dialogue: 0,0:52:05.35,0:52:12.07,Default,,0,0,0,,Maintenant, j'ai remarqué que le journal ne rapporte plus de\Nchutes
 Dialogue: 0,0:52:12.07,0:52:18.64,Default,,0,0,0,,du Grand Canyon depuis plus de cinq ans\N.
 Dialogue: 0,0:52:18.64,0:52:27.68,Default,,0,0,0,,Plus de quatre ans, plus de cinq ans.   D'accord\N.  Plus de cinq ans, plus de six ans.   Il y a
 Dialogue: 0,0:52:27.68,0:52:32.07,Default,,0,0,0,,environ 5 ans, ils ont cessé de\Npublier le nombre de personnes tombées du
@@ -497,64 +576,74 @@ Dialogue: 0,0:52:32.07,0:52:38.00,Default,,0,0,0,,Grand Canyon,\Ncar ils avaient
 Dialogue: 0,0:52:38.00,0:52:43.20,Default,,0,0,0,,réalité de\Nsuicide.  Ce sont vraiment des gens qui n'ont pas
 Dialogue: 0,0:52:43.20,0:52:48.64,Default,,0,0,0,,glissé et chuté.\NC'était leur façon de se suicider
 Dialogue: 0,0:52:48.64,0:52:53.59,Default,,0,0,0,,sans être blâmés pour leurs tendances suicidaires,\Nni pour leur présence spirituelle, légale,
-Dialogue: 0,0:52:53.59,0:52:57.68,Default,,0,0,0,,financière ou autre.\NOuais.
-Dialogue: 0,0:52:57.68,0:52:59.83,Default,,0,0,0,,Vous aussi,\Nje trouve ça très intéressant qu'ils
-Dialogue: 0,0:52:59.83,0:53:05.28,Default,,0,0,0,,ne le signalent plus.\NAlors, recommandez-vous de marcher sans
-Dialogue: 0,0:53:05.28,0:53:08.55,Default,,0,0,0,,lunettes ?\NSi j'ai bien compris,
-Dialogue: 0,0:53:08.55,0:53:30.88,Default,,0,0,0,,pas aux alentours du Grand Canyon.\NOui.
-Dialogue: 0,0:53:30.88,0:53:43.44,Default,,0,0,0,,pas dû écrire.\NLa peur aurait donc maintenu la plupart des gens dans
+Dialogue: 0,0:52:53.59,0:52:58.24,Default,,0,0,0,,financière ou autre.\NOuais.   Vous aussi ?
+Dialogue: 0,0:52:58.24,0:53:03.28,Default,,0,0,0,,Je trouve très intéressant qu'ils\Nne le signalent plus, vous savez.
+Dialogue: 0,0:53:03.28,0:53:07.20,Default,,0,0,0,,Alors, recommandez-vous de marcher sans\Nlunettes ?
+Dialogue: 0,0:53:07.20,0:53:10.16,Default,,0,0,0,,Si j'ai bien compris,\Npas aux alentours du Grand Canyon.
+Dialogue: 0,0:53:10.16,0:53:23.80,Default,,0,0,0,,Oui.\NPuis-je vous serrer la main ?
+Dialogue: 0,0:53:28.48,0:53:34.59,Default,,0,0,0,,J'ai fait beaucoup de choses que je n'aurais probablement\Npas dû écrire.
+Dialogue: 0,0:53:36.96,0:53:43.44,Default,,0,0,0,,La raison est que j'ai perdu ma peur de la peur.\NLa peur aurait donc maintenu la plupart des gens dans
 Dialogue: 0,0:53:43.44,0:53:50.48,Default,,0,0,0,,certaines limites, mais j'ai perdu la peur et\Nj'ai perdu ma peur de la peur.  Alors même si j'avais
 Dialogue: 0,0:53:50.48,0:53:55.83,Default,,0,0,0,,peur, je l'aurais fait quand même.\NOui, vous franchissez la dernière porte.
-Dialogue: 0,0:53:55.83,0:54:04.55,Default,,0,0,0,,C'était plus que de la peur.  C'était comme la\Nterreur.  Mais que tu le fasses quand même.
-Dialogue: 0,0:54:04.55,0:54:09.92,Default,,0,0,0,,approcher la limite, vous savez, la\Nlimite de l'expérience, le Grand
-Dialogue: 0,0:54:09.92,0:54:14.07,Default,,0,0,0,,Canyon étant le seul symbole du fait d'être proche de\Nla limite de ce que l'on est capable de
-Dialogue: 0,0:54:14.07,0:54:19.59,Default,,0,0,0,,tolérer.  Ouais.\NBonjour Dr Hawkins.  Je tiens tout d'abord à vous
-Dialogue: 0,0:54:19.59,0:54:23.92,Default,,0,0,0,,exprimer ma gratitude d'être en\Nvotre présence aujourd'hui.
-Dialogue: 0,0:54:23.92,0:54:29.76,Default,,0,0,0,,Euh, ma question est : si nous avons la permission,\Nà quel niveau de la carte de la
-Dialogue: 0,0:54:29.76,0:54:37.20,Default,,0,0,0,,conscience le café se calibre-t-il ? Il ne se\Ncalibre pas au niveau de la
-Dialogue: 0,0:54:37.20,0:54:44.48,Default,,0,0,0,,conscience où l'on parle de\Ncafé, de café, de café,
+Dialogue: 0,0:53:55.83,0:54:01.72,Default,,0,0,0,,C'était plus que de la peur.  C'était\Nterrifiant.  Mais que tu le fasses quand même.
+Dialogue: 0,0:54:02.48,0:54:07.52,Default,,0,0,0,,La peur empêche donc la plupart des gens d'\Napprocher la limite, vous savez, la
+Dialogue: 0,0:54:07.52,0:54:12.40,Default,,0,0,0,,limite de l'expérience, le Grand\NCanyon étant le seul symbole du fait d'être proche de
+Dialogue: 0,0:54:12.40,0:54:16.48,Default,,0,0,0,,la limite de ce que l'on est capable de\Ntolérer.  Ouais.
+Dialogue: 0,0:54:16.48,0:54:22.00,Default,,0,0,0,,Bonjour Dr Hawkins.  Je tiens tout d'abord à vous\Nexprimer ma gratitude d'être en
+Dialogue: 0,0:54:22.00,0:54:27.76,Default,,0,0,0,,votre présence aujourd'hui.\NEuh, ma question est : si nous avons la permission,
+Dialogue: 0,0:54:27.76,0:54:35.44,Default,,0,0,0,,à quel niveau de la carte de la\Nconscience le café se calibre-t-il ? Il ne se
+Dialogue: 0,0:54:35.44,0:54:39.11,Default,,0,0,0,,calibre pas au niveau de la\Nconscience où l'on parle de
+Dialogue: 0,0:54:39.11,0:54:44.48,Default,,0,0,0,,café, de café, de café,\Noh café, oh,
 Dialogue: 0,0:54:44.48,0:54:49.11,Default,,0,0,0,,jamais calibré,\Njuste une boisson, hein ?
 Dialogue: 0,0:54:49.11,0:54:52.64,Default,,0,0,0,,Avons-nous la permission de\Ncalibrer le café ?
-Dialogue: 0,0:54:52.64,0:54:57.35,Default,,0,0,0,,Il faut savoir à quel niveau le café se calibre.\Ncalibré ?
-Dialogue: 0,0:54:57.35,0:55:01.59,Default,,0,0,0,,Eh bien, il semblerait que le thé vert ait un pH d'environ\N300.
-Dialogue: 0,0:55:01.59,0:55:14.64,Default,,0,0,0,,Que dit-il ?\NQuelle est votre question ?
+Dialogue: 0,0:54:52.64,0:54:56.24,Default,,0,0,0,,Il faut savoir à quel niveau le café se calibre.\NPourquoi voulez-vous savoir à quelle température le café est
+Dialogue: 0,0:54:56.24,0:54:59.83,Default,,0,0,0,,calibré ?\NEh bien, il semblerait que le thé vert ait un pH d'environ
+Dialogue: 0,0:54:59.83,0:55:05.07,Default,,0,0,0,,300.\NQue dit-il ?
+Dialogue: 0,0:55:10.96,0:55:14.64,Default,,0,0,0,,Je suis désolé.\NQuelle est votre question ?
 Dialogue: 0,0:55:14.64,0:55:21.11,Default,,0,0,0,,Ma question est donc la suivante : je suis curieux de savoir à\Nquel niveau le café se calibre.   Le
 Dialogue: 0,0:55:21.11,0:55:24.07,Default,,0,0,0,,café\Nen tant que boisson.
 Dialogue: 0,0:55:24.07,0:55:28.55,Default,,0,0,0,,Euh,\Npourquoi voulez-vous savoir ça ?   Il existe
-Dialogue: 0,0:55:28.55,0:55:33.68,Default,,0,0,0,,tellement de croyances\Nconcernant la santé et le café\h; certains
+Dialogue: 0,0:55:28.55,0:55:33.68,Default,,0,0,0,,tellement de croyances\Nconcernant la santé et le café ; certains
 Dialogue: 0,0:55:33.68,0:55:37.28,Default,,0,0,0,,disent que c’est mauvais pour la santé, d’autres\Ndisent que c’est bon,
-Dialogue: 0,0:55:37.28,0:55:39.92,Default,,0,0,0,,et j’étais assez curieux de savoir si c’était la\Nmême chose\h: le café est bon
+Dialogue: 0,0:55:37.28,0:55:39.92,Default,,0,0,0,,et j’étais assez curieux de savoir si c’était la\Nmême chose : le café est bon
 Dialogue: 0,0:55:39.92,0:55:44.07,Default,,0,0,0,,pour certaines personnes, mais pas pour tout le monde.\NOuais.  Cela n'a donc rien à voir avec le
-Dialogue: 0,0:55:44.07,0:55:51.04,Default,,0,0,0,,dosage du café, mais plutôt avec la\Ntolérance de chaque personne et sa tolérance
-Dialogue: 0,0:55:51.04,0:55:53.44,Default,,0,0,0,,Ce serait donc impossible.\NC'est une autre question.
-Dialogue: 0,0:55:53.44,0:55:56.88,Default,,0,0,0,,Ouais.   Il serait donc probablement\Ndifficile
-Dialogue: 0,0:55:56.88,0:55:58.64,Default,,0,0,0,,de calibrer cela.\NOuais.
-Dialogue: 0,0:55:58.64,0:56:02.24,Default,,0,0,0,,Car si vous vous demandiez si le\Ncafé est bon pour la santé, nous pourrions
-Dialogue: 0,0:56:02.24,0:56:07.20,Default,,0,0,0,,calibrer cela.  Mais si vous disiez\Ncalibrer juste le café.  Certes, le
-Dialogue: 0,0:56:07.20,0:56:14.40,Default,,0,0,0,,café se calibre probablement à un certain\Nniveau, mais ce niveau ne correspond pas nécessairement à celui des
-Dialogue: 0,0:56:14.40,0:56:20.16,Default,,0,0,0,,café calibre.\NPosez la question.  Nous avons d'abord obtenu l'autorisation.
-Dialogue: 0,0:56:20.16,0:56:25.04,Default,,0,0,0,,Son calibrage est à peu près identique à celui\Ndes légumes résistants.  Calibrage au-dessus de
-Dialogue: 0,0:56:25.04,0:56:31.28,Default,,0,0,0,,200, 205,\N202, 203.
-Dialogue: 0,0:56:31.28,0:56:37.76,Default,,0,0,0,,C'est un peu au-dessus de 200. Ouais.\NMerci.  Et euh, si je peux me permettre, je vous serre la
-Dialogue: 0,0:56:37.76,0:56:56.88,Default,,0,0,0,,main et reçois votre bénédiction.\NOui.  Bon,
-Dialogue: 0,0:56:56.88,0:57:01.52,Default,,0,0,0,,.  Quelqu'un a oublié ça à la\Nlibrairie.  Nous n'avons pas de nom pour
-Dialogue: 0,0:57:01.52,0:57:03.44,Default,,0,0,0,,cela.\NQu'est-ce que c'est?
-Dialogue: 0,0:57:03.44,0:57:08.24,Default,,0,0,0,,Euh, ils ont acheté plein de trucs,\Ncomme quoi ?
-Dialogue: 0,0:57:08.24,0:57:11.44,Default,,0,0,0,,Comme\Nles DVD.
-Dialogue: 0,0:57:11.44,0:57:24.64,Default,,0,0,0,,Février assis disait.  Euh, nous avons des CD, des\Ndes DVD.  Quelqu'un a dû oublier
-Dialogue: 0,0:57:24.64,0:57:31.76,Default,,0,0,0,,quelque chose à la librairie, alors n'hésitez pas à le signaler.\NVoilà.
-Dialogue: 0,0:57:31.76,0:57:43.20,Default,,0,0,0,,caritative.\Npour ça.  Je n'ai pas de nom dessus.   D'accord
-Dialogue: 0,0:57:43.20,0:57:54.40,Default,,0,0,0,,.\NJe ne parle pas anglais.
+Dialogue: 0,0:55:44.07,0:55:50.16,Default,,0,0,0,,dosage du café, mais plutôt avec la\Ntolérance de chaque personne et sa tolérance
+Dialogue: 0,0:55:50.16,0:55:52.31,Default,,0,0,0,,.  Droite.  Ouais.\NCe serait donc impossible.
+Dialogue: 0,0:55:52.31,0:55:54.40,Default,,0,0,0,,C'est une autre question.\NOuais.   Il serait donc probablement
+Dialogue: 0,0:55:54.40,0:55:58.00,Default,,0,0,0,,difficile\Nde calibrer cela.
+Dialogue: 0,0:55:58.00,0:56:00.64,Default,,0,0,0,,Ouais.\NCar si vous vous demandez si le
+Dialogue: 0,0:56:00.64,0:56:04.55,Default,,0,0,0,,café est bon pour la santé, nous pourrions\Ncalibrer cela.  Mais si vous disiez
+Dialogue: 0,0:56:04.55,0:56:09.35,Default,,0,0,0,,calibrer juste le café.  Certes, le\Ncafé se calibre probablement à un certain
+Dialogue: 0,0:56:09.35,0:56:14.40,Default,,0,0,0,,niveau, mais ce niveau ne correspond pas nécessairement à celui des\Nlégumes.   Le
+Dialogue: 0,0:56:14.40,0:56:17.76,Default,,0,0,0,,café calibre.\NPosez la question.  Nous avons d'abord obtenu l'autorisation.
+Dialogue: 0,0:56:17.76,0:56:22.07,Default,,0,0,0,,Nous avons la permission de poser des questions sur le café.\NSon calibrage est à peu près identique à celui
+Dialogue: 0,0:56:22.07,0:56:28.40,Default,,0,0,0,,des légumes résistants.  Calibrage au-dessus de\N200, 205,
+Dialogue: 0,0:56:28.40,0:56:33.92,Default,,0,0,0,,202, 203.\NC'est un peu au-dessus de 200. Ouais.
+Dialogue: 0,0:56:33.92,0:56:40.00,Default,,0,0,0,,Merci.  Et euh, si je peux me permettre, je vous serre la\Nmain et reçois votre bénédiction.
+Dialogue: 0,0:56:40.00,0:56:47.72,Default,,0,0,0,,Oui.  Bon,\Noù est mon café ?
+Dialogue: 0,0:56:52.24,0:56:59.20,Default,,0,0,0,,Qu'est-ce que c'est encore ?  Quelqu'un a oublié ça.   D'accord\N.  Quelqu'un a oublié ça à la
+Dialogue: 0,0:56:59.20,0:57:02.31,Default,,0,0,0,,librairie.  Nous n'avons pas de nom pour\Ncela.
+Dialogue: 0,0:57:02.31,0:57:06.72,Default,,0,0,0,,Qu'est-ce que c'est?\NEuh, ils ont acheté plein de trucs,
+Dialogue: 0,0:57:06.72,0:57:10.72,Default,,0,0,0,,comme quoi ?\NComme
+Dialogue: 0,0:57:10.72,0:57:18.83,Default,,0,0,0,,les DVD.\NFévrier assis disait.  Euh, nous avons des CD, des
+Dialogue: 0,0:57:18.96,0:57:24.64,Default,,0,0,0,,CD audio DV,\Ndes DVD.  Quelqu'un a dû oublier
+Dialogue: 0,0:57:24.64,0:57:30.28,Default,,0,0,0,,quelque chose à la librairie, alors n'hésitez pas à le signaler.\NVoilà.
+Dialogue: 0,0:57:30.64,0:57:34.76,Default,,0,0,0,,Sinon, je le donnerai à une association\Ncaritative.
+Dialogue: 0,0:57:36.07,0:57:43.20,Default,,0,0,0,,Quelqu'un reconnaît-il ceci ?  Quelqu'un a payé\Npour ça.  Je n'ai pas de nom dessus.   D'accord
+Dialogue: 0,0:57:43.20,0:57:49.68,Default,,0,0,0,,.\NOuais.  Bonjour.
+Dialogue: 0,0:57:49.68,0:57:54.40,Default,,0,0,0,,Je ne parle pas anglais.\NDésolé.
 Dialogue: 0,0:57:54.40,0:58:03.28,Default,,0,0,0,,C'est exact.  Vous êtes parti(e) ?\NJe ne parle pas anglais.  Très content.   D'accord
 Dialogue: 0,0:58:03.28,0:58:06.48,Default,,0,0,0,,.  Il est heureux de vous avoir rencontré.\NOui.
 Dialogue: 0,0:58:06.48,0:58:10.48,Default,,0,0,0,,Et il ne parle pas anglais.  et il\Nveut vous serrer la main, prendre une
 Dialogue: 0,0:58:10.48,0:58:15.04,Default,,0,0,0,,photo et recevoir votre bénédiction.   D'accord\N.
 Dialogue: 0,0:58:15.04,0:58:17.52,Default,,0,0,0,,Oui.\NMerci.
 Dialogue: 0,0:58:17.52,0:58:19.76,Default,,0,0,0,,Oui.\NVous voulez bien me signer ça ?
-Dialogue: 0,0:58:19.76,0:58:39.28,Default,,0,0,0,,Vous pariez.  Avec plaisir.  Oui.  Oui.   Que\NEt voici son livre.  Voici votre livre.
+Dialogue: 0,0:58:19.76,0:58:31.48,Default,,0,0,0,,Vous pariez.  Avec plaisir.  Oui.  Oui.   Que\NDieu te bénisse.   Que
+Dialogue: 0,0:58:32.55,0:58:39.28,Default,,0,0,0,,Dieu te bénisse.  Merci beaucoup.\NEt voici son livre.  Voici votre livre.
 Dialogue: 0,0:58:39.28,0:58:44.00,Default,,0,0,0,,Oui.\NAh, je vois.  C'est en coréen.  Oui.
 Dialogue: 0,0:58:44.00,0:58:47.20,Default,,0,0,0,,C'est un beau livre.  Ouais.  Je veux dire, c'est un ouvrage\Nbien publié.   Souriez
-Dialogue: 0,0:58:47.20,0:59:04.48,Default,,0,0,0,,.\Npour ça.  Merci beaucoup.
+Dialogue: 0,0:58:47.20,0:58:57.48,Default,,0,0,0,,.\NSourire.  Cela engendre des frais supplémentaires.   Voilà
+Dialogue: 0,0:59:00.48,0:59:04.48,Default,,0,0,0,,.\Npour ça.  Merci beaucoup.
 Dialogue: 0,0:59:04.48,0:59:08.31,Default,,0,0,0,,Merci.\NMerci de me l'avoir demandé.
 Dialogue: 0,0:59:08.31,0:59:10.16,Default,,0,0,0,,Si mignon.\NOuais.
 Dialogue: 0,0:59:10.16,0:59:13.83,Default,,0,0,0,,Salut, Dr Hawkins.\NBonjour, Hawkins.
@@ -565,125 +654,143 @@ Dialogue: 0,0:59:30.64,0:59:36.64,Default,,0,0,0,,hasard, dans une librairie.  J
 Dialogue: 0,0:59:36.64,0:59:41.35,Default,,0,0,0,,mais bref, j'ai fini par prendre\Nle livre et depuis, j'ai lu
 Dialogue: 0,0:59:41.35,0:59:44.88,Default,,0,0,0,,tout ce que vous avez publié chez\NVeraritoss
 Dialogue: 0,0:59:44.88,0:59:50.64,Default,,0,0,0,,et il y a des moments où je\Nrepense à quel point j'ai failli ne même pas y
-Dialogue: 0,0:59:50.64,0:59:58.55,Default,,0,0,0,,toucher.\NÇa me fait peur.
-Dialogue: 0,0:59:58.55,1:00:08.88,Default,,0,0,0,,J'ai un peu peur moi aussi.  J'ai moi-même un\Npeu peur que vous ayez fait ça.
+Dialogue: 0,0:59:50.64,0:59:55.96,Default,,0,0,0,,toucher.\NÇa me fait peur.
+Dialogue: 0,0:59:56.31,0:59:59.92,Default,,0,0,0,,Oui.\NJ'ai un peu peur moi aussi.  J'ai moi-même un
+Dialogue: 0,0:59:59.92,1:00:08.88,Default,,0,0,0,,peu peur que vous ayez fait ça.\NMais euh, je voulais juste faire cette remarque,
 Dialogue: 0,1:00:08.88,1:00:12.48,Default,,0,0,0,,fiston.  Euh, voyez-vous, j'apprécie, euh, je veux vous\Nserrer la main et recevoir votre bénédiction
 Dialogue: 0,1:00:12.48,1:00:13.28,Default,,0,0,0,,et\Noui,
 Dialogue: 0,1:00:13.28,1:00:15.68,Default,,0,0,0,,prendre une photo si possible.\NMerci beaucoup.  Oui.
 Dialogue: 0,1:00:15.68,1:00:20.16,Default,,0,0,0,,Oh, allez !\NJe dois d'abord lire moi-même Power Versets
-Dialogue: 0,1:00:20.16,1:00:28.64,Default,,0,0,0,,.  J'ai complètement oublié ce que j'ai bien pu\Ndire dans ce livre.
-Dialogue: 0,1:00:28.64,1:00:34.79,Default,,0,0,0,,ou du moins dans la plupart des grandes langues,\Nempilés dans mon bureau.
-Dialogue: 0,1:00:34.79,1:00:40.55,Default,,0,0,0,,J'ai complètement oublié ce que j'ai dit là-dedans.\NMerci, Dr Hawkins.
-Dialogue: 0,1:00:40.55,1:00:44.96,Default,,0,0,0,,Ouais, pari tenu.\NOh, attendez, attendez, attendez.
-Dialogue: 0,1:00:44.96,1:00:49.68,Default,,0,0,0,,Bonjour, Dr Hawkins.   Je voudrais\Nexprimer ma
-Dialogue: 0,1:00:49.68,1:00:55.44,Default,,0,0,0,,gratitude pour m'avoir aidé à retrouver\Nle chemin de Dieu.
-Dialogue: 0,1:00:55.44,1:01:00.48,Default,,0,0,0,,Oui.\NMerci.
+Dialogue: 0,1:00:20.16,1:00:25.79,Default,,0,0,0,,.  J'ai complètement oublié ce que j'ai bien pu\Ndire dans ce livre.
+Dialogue: 0,1:00:26.55,1:00:32.00,Default,,0,0,0,,J'en ai des exemplaires dans toutes les langues du monde,\Nou du moins dans la plupart des grandes langues,
+Dialogue: 0,1:00:32.00,1:00:39.68,Default,,0,0,0,,empilés dans mon bureau.\NJ'ai complètement oublié ce que j'ai dit là-dedans.
+Dialogue: 0,1:00:39.68,1:00:41.59,Default,,0,0,0,,Merci, Dr Hawkins.\NOuais, pari tenu.
+Dialogue: 0,1:00:41.59,1:00:47.20,Default,,0,0,0,,Oh, attendez, attendez, attendez.\NBonjour, Dr Hawkins.   Je voudrais
+Dialogue: 0,1:00:47.20,1:00:52.16,Default,,0,0,0,,exprimer ma\Ngratitude pour m'avoir aidé à retrouver
+Dialogue: 0,1:00:52.16,1:00:56.72,Default,,0,0,0,,le chemin de Dieu.\NOui.
+Dialogue: 0,1:00:56.72,1:01:00.48,Default,,0,0,0,,Merci.\NMerci.
 Dialogue: 0,1:01:00.48,1:01:04.40,Default,,0,0,0,,Puis-je vous serrer la main ?\NOui.   Que
-Dialogue: 0,1:01:04.40,1:01:16.00,Default,,0,0,0,,Dieu bénisse.   Que\NDieu te bénisse.  Amen.
-Dialogue: 0,1:01:16.00,1:01:19.44,Default,,0,0,0,,Au moins,\Nregardez-les.
-Dialogue: 0,1:01:19.44,1:01:21.92,Default,,0,0,0,,Je pense que je vais le signer à nouveau car il ne\Ncolle pas très bien.
-Dialogue: 0,1:01:21.92,1:01:23.59,Default,,0,0,0,,Es-tu sûr?\NOuais.
-Dialogue: 0,1:01:23.59,1:01:30.64,Default,,0,0,0,,Il n'adhère pas très bien à l'avant.   D'accord\N.  Ma question porte sur la
-Dialogue: 0,1:01:30.64,1:01:36.64,Default,,0,0,0,,co-création.  Euh, en ce qui concerne\Nmon niveau de
-Dialogue: 0,1:01:36.64,1:01:41.59,Default,,0,0,0,,développement\Nspirituel, je croyais que nous
-Dialogue: 0,1:01:41.59,1:01:45.83,Default,,0,0,0,,co-créons avec Dieu, et\Nvous avez dit que nous ne le faisons pas
-Dialogue: 0,1:01:45.83,1:01:49.52,Default,,0,0,0,,.\NVous dites que nous ne co-créons pas avec Dieu.
-Dialogue: 0,1:01:49.52,1:01:52.16,Default,,0,0,0,,Ah oui, c'est une forme d'auto-satisfaisante.\NOuais.   Eh bien,
-Dialogue: 0,1:01:52.16,1:01:57.11,Default,,0,0,0,,je me demandais simplement, à\Ncause du processus pathologique, ce que
-Dialogue: 0,1:01:57.11,1:01:59.83,Default,,0,0,0,,nous gardons à l'esprit a tendance à se\Nmanifester chez l'homme.
-Dialogue: 0,1:01:59.83,1:02:04.00,Default,,0,0,0,,Oui, c'est vrai.  et euh, c'est certain\Nque c'est négatif.
-Dialogue: 0,1:02:04.00,1:02:07.76,Default,,0,0,0,,Ouais.\NAinsi, les pensées négatives que vous entretenez ont
-Dialogue: 0,1:02:07.76,1:02:11.76,Default,,0,0,0,,tendance à se manifester.\NSi vous pensez être allergique à
-Dialogue: 0,1:02:11.76,1:02:15.83,Default,,0,0,0,,quelque chose, alors vous le deviendrez\N.
-Dialogue: 0,1:02:15.83,1:02:20.31,Default,,0,0,0,,Et si on hypnotise la personne et qu'on lui dit qu'elle est\Nallergique aux roses, son
-Dialogue: 0,1:02:20.31,1:02:24.96,Default,,0,0,0,,nez coulera lorsqu'elle sera près des roses.\NMais si on leur dit qu'ils ne sont pas
-Dialogue: 0,1:02:24.96,1:02:31.76,Default,,0,0,0,,allergiques aux roses, ils n'auront pas\Ncette réaction en présence de roses.   Les
-Dialogue: 0,1:02:31.76,1:02:38.48,Default,,0,0,0,,systèmes de suggestion et de croyances\Nsont donc puissants, mais seulement jusqu'à un certain
-Dialogue: 0,1:02:38.48,1:02:42.79,Default,,0,0,0,,point.\NIls ne sont pas infiniment puissants.  Ils ne
-Dialogue: 0,1:02:42.79,1:02:46.88,Default,,0,0,0,,sont donc pas, vous savez, comme la puissance de Dieu\Nen eux.
-Dialogue: 0,1:02:46.88,1:02:53.20,Default,,0,0,0,,On peut même déterminer à\Nquel niveau un système de croyances ne parvient pas à se
-Dialogue: 0,1:02:53.20,1:02:59.20,Default,,0,0,0,,concrétiser dans le\Ncorps physique.  Euh, oui.
-Dialogue: 0,1:02:59.20,1:03:03.20,Default,,0,0,0,,En général, si vous pensez avoir\Ndes allergies, vous avez des allergies.
-Dialogue: 0,1:03:03.20,1:03:07.28,Default,,0,0,0,,Et si vous pensez être\Nimmunisé contre les allergies, alors
-Dialogue: 0,1:03:07.28,1:03:13.76,Default,,0,0,0,,vous l'êtes généralement.  Mais\Nce n'est pas une règle absolue.
-Dialogue: 0,1:03:13.76,1:03:20.88,Default,,0,0,0,,C'est probable.  Les options dont\Nnous disposons n'affectent pas la
-Dialogue: 0,1:03:20.88,1:03:26.55,Default,,0,0,0,,création, que vous\Nécriviez ces livres ou fassiez
-Dialogue: 0,1:03:26.55,1:03:31.11,Default,,0,0,0,,autre chose dans la vie. Ce sont les\Noptions...
-Dialogue: 0,1:03:31.11,1:03:34.64,Default,,0,0,0,,Je ne sais pas ce qu'il demande, une\Npartie de la création, une partie de la co-création. Eh
-Dialogue: 0,1:03:34.64,1:03:38.79,Default,,0,0,0,,bien, il en est à la\Nco-création avec Dieu, c'est une
-Dialogue: 0,1:03:38.79,1:03:44.55,Default,,0,0,0,,idée un peu naïve, typique du New Age. D'accord\N.
-Dialogue: 0,1:03:44.55,1:03:57.76,Default,,0,0,0,,Dieu ne dit pas : « Je vous invite à venir\Nco-créer avec moi.
+Dialogue: 0,1:01:04.40,1:01:11.79,Default,,0,0,0,,Dieu bénisse.   Que\NDieu te bénisse.  Amen.
+Dialogue: 0,1:01:15.04,1:01:18.07,Default,,0,0,0,,Salut.\NAu moins,
+Dialogue: 0,1:01:18.07,1:01:20.96,Default,,0,0,0,,regardez-les.\NJe pense que je vais le signer à nouveau car il ne
+Dialogue: 0,1:01:20.96,1:01:22.72,Default,,0,0,0,,colle pas très bien.\NEs-tu sûr?
+Dialogue: 0,1:01:22.72,1:01:26.79,Default,,0,0,0,,Ouais.\NIl n'adhère pas très bien à l'avant.   D'accord
+Dialogue: 0,1:01:26.79,1:01:33.20,Default,,0,0,0,,.  Ma question porte sur la\Nco-création.  Euh, en ce qui concerne
+Dialogue: 0,1:01:33.20,1:01:38.31,Default,,0,0,0,,mon niveau de\Ndéveloppement
+Dialogue: 0,1:01:38.31,1:01:43.59,Default,,0,0,0,,spirituel, je croyais que nous\Nco-créons avec Dieu, et
+Dialogue: 0,1:01:43.59,1:01:47.28,Default,,0,0,0,,vous avez dit que nous ne le faisons pas\N.
+Dialogue: 0,1:01:47.28,1:01:51.35,Default,,0,0,0,,Vous dites que nous ne co-créons pas avec Dieu.\NAh oui, c'est une forme d'auto-satisfaisante.
+Dialogue: 0,1:01:51.35,1:01:54.55,Default,,0,0,0,,Ouais.   Eh bien,\Nje me demandais simplement, à
+Dialogue: 0,1:01:54.55,1:01:59.28,Default,,0,0,0,,cause du processus pathologique, ce que\Nnous gardons à l'esprit a tendance à se
+Dialogue: 0,1:01:59.28,1:02:02.48,Default,,0,0,0,,manifester chez l'homme.\NOui, c'est vrai.  et euh, c'est certain
+Dialogue: 0,1:02:02.48,1:02:04.72,Default,,0,0,0,,que c'est négatif.\NOuais.
+Dialogue: 0,1:02:04.72,1:02:10.00,Default,,0,0,0,,Ainsi, les pensées négatives que vous entretenez ont\Ntendance à se manifester.
+Dialogue: 0,1:02:10.00,1:02:14.07,Default,,0,0,0,,Si vous pensez être allergique à\Nquelque chose, alors vous le deviendrez
+Dialogue: 0,1:02:14.07,1:02:18.48,Default,,0,0,0,,.\NEt si on hypnotise la personne et qu'on lui dit qu'elle est
+Dialogue: 0,1:02:18.48,1:02:23.44,Default,,0,0,0,,allergique aux roses, son\Nnez coulera lorsqu'elle sera près des roses.
+Dialogue: 0,1:02:23.44,1:02:28.07,Default,,0,0,0,,Mais si on leur dit qu'ils ne sont pas\Nallergiques aux roses, ils n'auront pas
+Dialogue: 0,1:02:28.07,1:02:35.92,Default,,0,0,0,,cette réaction en présence de roses.   Les\Nsystèmes de suggestion et de croyances
+Dialogue: 0,1:02:35.92,1:02:40.07,Default,,0,0,0,,sont donc puissants, mais seulement jusqu'à un certain\Npoint.
+Dialogue: 0,1:02:40.07,1:02:44.96,Default,,0,0,0,,Ils ne sont pas infiniment puissants.  Ils ne\Nsont donc pas, vous savez, comme la puissance de Dieu
+Dialogue: 0,1:02:44.96,1:02:49.59,Default,,0,0,0,,en eux.\NOn peut même déterminer à
+Dialogue: 0,1:02:49.59,1:02:56.07,Default,,0,0,0,,quel niveau un système de croyances ne parvient pas à se\Nconcrétiser dans le
+Dialogue: 0,1:02:56.07,1:03:00.55,Default,,0,0,0,,corps physique.  Euh, oui.\NEn général, si vous pensez avoir
+Dialogue: 0,1:03:00.55,1:03:05.20,Default,,0,0,0,,des allergies, vous avez des allergies.\NEt si vous pensez être
+Dialogue: 0,1:03:05.20,1:03:11.11,Default,,0,0,0,,immunisé contre les allergies, alors\Nvous l'êtes généralement.  Mais
+Dialogue: 0,1:03:11.11,1:03:16.07,Default,,0,0,0,,ce n'est pas une règle absolue.\NC'est probable.  Les options dont
+Dialogue: 0,1:03:16.07,1:03:23.52,Default,,0,0,0,,nous disposons n'affectent pas la\Ncréation, que vous créiez,
+Dialogue: 0,1:03:23.52,1:03:29.28,Default,,0,0,0,,écriviez ces livres ou fassiez\Nautre chose dans la vie. Ce sont les
+Dialogue: 0,1:03:29.28,1:03:32.31,Default,,0,0,0,,options...\NJe ne sais pas ce qu'il demande, une
+Dialogue: 0,1:03:32.31,1:03:36.24,Default,,0,0,0,,partie de la création, une partie de la co-création. Eh\Nbien, il en est à la
+Dialogue: 0,1:03:36.24,1:03:43.20,Default,,0,0,0,,co-création avec Dieu, c'est une\Nidée un peu naïve, typique du New Age. D'accord
+Dialogue: 0,1:03:43.20,1:03:47.28,Default,,0,0,0,,.\NDieu ne dit pas : « Je vous invite à venir
+Dialogue: 0,1:03:47.28,1:03:57.76,Default,,0,0,0,,co-créer avec moi.\NMerci.
 Dialogue: 0,1:03:57.76,1:04:04.24,Default,,0,0,0,,C'est grâce à la puissance divine qui est\Nen vous que toute action a lieu
 Dialogue: 0,1:04:04.24,1:04:10.72,Default,,0,0,0,,. »  On pourrait donc dire que Dieu\Nparticipe à chaque instant, à
 Dialogue: 0,1:04:10.72,1:04:14.72,Default,,0,0,0,,tout ce que vous faites, à chaque instant,\Ncar sans la divinité, vous n'auriez pas d'
 Dialogue: 0,1:04:14.72,1:04:20.31,Default,,0,0,0,,existence.\NC'est la divinité intérieure.  Merci.
-Dialogue: 0,1:04:20.31,1:04:29.52,Default,,0,0,0,,C'est là que les choses sérieuses commencent.  Vous\Nsavez ce que je veux dire?
-Dialogue: 0,1:04:29.52,1:04:31.59,Default,,0,0,0,,Voulez-vous prendre une photo ?\NOh, une image.  Oui.
-Dialogue: 0,1:04:31.59,1:04:41.76,Default,,0,0,0,,J'aime ça.  Les êtres humains individuels, là où\Nles choses se concrétisent.
-Dialogue: 0,1:04:41.76,1:04:59.35,Default,,0,0,0,,d'autres à 35 km/h.\NVous pariez.
-Dialogue: 0,1:04:59.35,1:05:06.48,Default,,0,0,0,,l'arrêt brutal à la fin qui est fatal\N.
-Dialogue: 0,1:05:06.48,1:05:11.59,Default,,0,0,0,,Euh, paix et bénédictions à vous, Dr\NHawkins.  Euh,
-Dialogue: 0,1:05:11.59,1:05:16.16,Default,,0,0,0,,j'avais plein de questions à vous poser,\Nmais je vais juste dire, euh, laissez-moi vous
-Dialogue: 0,1:05:16.16,1:05:28.00,Default,,0,0,0,,serrer la main et prendre une photo.\NMerci.  D'accord.   Que
-Dialogue: 0,1:05:28.00,1:05:50.64,Default,,0,0,0,,Dieu te bénisse, mon frère.\NMerci, monsieur.
-Dialogue: 0,1:05:50.64,1:05:51.68,Default,,0,0,0,,Merci.\NOui.
-Dialogue: 0,1:05:51.68,1:05:59.20,Default,,0,0,0,,Gloire à Dieu au plus haut des cieux.\NMerci.
-Dialogue: 0,1:05:59.20,1:06:25.68,Default,,0,0,0,,plaisir.\NOui, voilà
+Dialogue: 0,1:04:20.31,1:04:25.88,Default,,0,0,0,,C'est là que les choses sérieuses commencent.  Vous\Nsavez ce que je veux dire?
+Dialogue: 0,1:04:28.24,1:04:30.48,Default,,0,0,0,,Merci.\NVoulez-vous prendre une photo ?
+Dialogue: 0,1:04:30.48,1:04:34.64,Default,,0,0,0,,Oh, une image.  Oui.\NJ'aime ça.  Les êtres humains individuels, là où
+Dialogue: 0,1:04:34.64,1:04:41.76,Default,,0,0,0,,les choses se concrétisent.\NCertains d'entre nous roulent à 130 km/h et
+Dialogue: 0,1:04:41.76,1:04:52.64,Default,,0,0,0,,d'autres à 35 km/h.\NMerci.
+Dialogue: 0,1:04:52.64,1:04:59.35,Default,,0,0,0,,Vous pariez.\NComme on dit, ce n'est pas la chute qui est terrible, c'est
+Dialogue: 0,1:04:59.35,1:05:03.68,Default,,0,0,0,,l'arrêt brutal à la fin qui est fatal\N.
+Dialogue: 0,1:05:05.44,1:05:08.72,Default,,0,0,0,,Salut.\NEuh, paix et bénédictions à vous, Dr
+Dialogue: 0,1:05:08.72,1:05:13.76,Default,,0,0,0,,Hawkins.  Euh,\Nj'avais plein de questions à vous poser,
+Dialogue: 0,1:05:13.76,1:05:18.72,Default,,0,0,0,,mais je vais juste dire, euh, laissez-moi vous\Nserrer la main et prendre une photo.
+Dialogue: 0,1:05:18.72,1:05:28.00,Default,,0,0,0,,Merci.  D'accord.   Que\NDieu te bénisse.  Que Dieu te bénisse.   Que
+Dialogue: 0,1:05:28.00,1:05:33.03,Default,,0,0,0,,Dieu te bénisse, mon frère.\NSuper.
+Dialogue: 0,1:05:33.03,1:05:41.31,Default,,0,0,0,,Merci, monsieur.\NC'est un arrière latéral.  Je suis le quarterback.   Je vous
+Dialogue: 0,1:05:48.07,1:05:51.20,Default,,0,0,0,,dis simplement bonjour et merci.\NMerci.
+Dialogue: 0,1:05:51.20,1:05:53.20,Default,,0,0,0,,Oui.\NGloire à Dieu au plus haut des cieux.
+Dialogue: 0,1:05:53.20,1:05:59.20,Default,,0,0,0,,Merci.\NOuais.   Avec
+Dialogue: 0,1:05:59.20,1:06:04.28,Default,,0,0,0,,plaisir.\NOui, voilà
+Dialogue: 0,1:06:05.76,1:06:25.68,Default,,0,0,0,,.  Merci.\NBonjour, Dr Hawkins.  Salut Susan.  Nous
 Dialogue: 0,1:06:25.68,1:06:30.00,Default,,0,0,0,,demandons simplement une bénédiction en tant que\Ncouple spirituel.  Et c'est la première fois que ma femme vient ici.
 Dialogue: 0,1:06:30.00,1:06:35.52,Default,,0,0,0,,Elle te demande de lui tenir la main.\NQuoi?
 Dialogue: 0,1:06:35.52,1:06:42.40,Default,,0,0,0,,Elle a dû te tenir la main.   D'accord\N, ma chérie.  Oui.  Ravi de faire votre connaissance.   Que
-Dialogue: 0,1:06:42.40,1:06:58.96,Default,,0,0,0,,Dieu bénisse.\NMerci beaucoup.
-Dialogue: 0,1:06:58.96,1:07:01.52,Default,,0,0,0,,.  Clignement d'œil.\ND'où venez-vous?
-Dialogue: 0,1:07:01.52,1:07:03.76,Default,,0,0,0,,D'Allemagne.\ND'Allemagne.  Ouais.
-Dialogue: 0,1:07:03.76,1:07:05.52,Default,,0,0,0,,Hors d'Allemagne.\NOuais.
-Dialogue: 0,1:07:05.52,1:07:09.68,Default,,0,0,0,,Il dit «\NOui ».  Où?
-Dialogue: 0,1:07:09.68,1:07:11.83,Default,,0,0,0,,Où?\NFrancfort.
-Dialogue: 0,1:07:11.83,1:07:17.59,Default,,0,0,0,,Oh, Frank.  Ouais.\NJ'ai étudié l'allemand pendant 12 ans à l'école.
-Dialogue: 0,1:07:17.59,1:07:23.03,Default,,0,0,0,,Au bout d'un certain temps, je parlais assez couramment.\NEt j'habitais à Milwaukee, tout près de la périphérie de
-Dialogue: 0,1:07:23.03,1:07:27.52,Default,,0,0,0,,Milwaukee.  Beaucoup d'Allemands.\NVous pourriez donc parler allemand une bonne partie du
-Dialogue: 0,1:07:27.52,1:07:31.76,Default,,0,0,0,,temps.  La plupart des épiceries et\Ntout le monde parlait allemand.  Puis j'ai déménagé
-Dialogue: 0,1:07:31.76,1:07:37.68,Default,,0,0,0,,et personne ne parle\Nallemand.  Alors maintenant, à force d'être délaissé, l'allemand…
-Dialogue: 0,1:07:37.68,1:08:02.40,Default,,0,0,0,,voyons voir… il\NOuais.  Rouillé.  Ouais.
-Dialogue: 0,1:08:02.40,1:08:12.31,Default,,0,0,0,,Salut.\Nrecevoir votre bénédiction, vous remercier
-Dialogue: 0,1:08:12.31,1:08:43.44,Default,,0,0,0,,et vous serrer la main.\NOui, je passerai par ici.
-Dialogue: 0,1:08:43.44,1:08:47.60,Default,,0,0,0,,Salut, Dr Hawkins.  Je voudrais simplement\Nvous remercier pour tout et vous
-Dialogue: 0,1:08:47.60,1:08:50.23,Default,,0,0,0,,serrer la main pour recevoir votre\Nbénédiction.
-Dialogue: 0,1:08:50.23,1:08:56.48,Default,,0,0,0,,Oui en effet.\NEuh, oui.  Merci de me l'avoir demandé et que Dieu
-Dialogue: 0,1:08:56.48,1:09:12.48,Default,,0,0,0,,vous bénisse.\NAmen.
-Dialogue: 0,1:09:12.48,1:09:19.44,Default,,0,0,0,,Chaise courte.  Ouais.\NSalut.
-Dialogue: 0,1:09:19.44,1:09:27.75,Default,,0,0,0,,Euh,\Noui.  J'aime simplement vous serrer la main.
-Dialogue: 0,1:09:27.75,1:09:33.12,Default,,0,0,0,,Euh, non.  Je n'arrivais à rien trouver.\NOuais.  Oh, ça me va.   C'est très
+Dialogue: 0,1:06:42.40,1:06:47.48,Default,,0,0,0,,Dieu bénisse.\NMerci beaucoup.
+Dialogue: 0,1:06:56.79,1:07:00.64,Default,,0,0,0,,Oh, on va faire un clignotement.   D'accord\N.  Clignement d'œil.
+Dialogue: 0,1:07:00.64,1:07:02.24,Default,,0,0,0,,D'où venez-vous?\ND'Allemagne.
+Dialogue: 0,1:07:02.24,1:07:04.79,Default,,0,0,0,,D'Allemagne.  Ouais.\NHors d'Allemagne.
+Dialogue: 0,1:07:04.79,1:07:07.11,Default,,0,0,0,,Ouais.\NIl dit «
+Dialogue: 0,1:07:07.11,1:07:10.96,Default,,0,0,0,,Oui ».  Où?\NOù?
+Dialogue: 0,1:07:10.96,1:07:14.48,Default,,0,0,0,,Francfort.\NOh, Frank.  Ouais.
+Dialogue: 0,1:07:14.48,1:07:20.96,Default,,0,0,0,,J'ai étudié l'allemand pendant 12 ans à l'école.\NAu bout d'un certain temps, je parlais assez couramment.
+Dialogue: 0,1:07:20.96,1:07:25.83,Default,,0,0,0,,Et j'habitais à Milwaukee, tout près de la périphérie de\NMilwaukee.  Beaucoup d'Allemands.
+Dialogue: 0,1:07:25.83,1:07:29.52,Default,,0,0,0,,Vous pourriez donc parler allemand une bonne partie du\Ntemps.  La plupart des épiceries et
+Dialogue: 0,1:07:29.52,1:07:34.48,Default,,0,0,0,,tout le monde parlait allemand.  Puis j'ai déménagé\Net personne ne parle
+Dialogue: 0,1:07:34.48,1:07:41.03,Default,,0,0,0,,allemand.  Alors maintenant, à force d'être délaissé, l'allemand…\Nvoyons voir… il
+Dialogue: 0,1:07:41.03,1:07:45.20,Default,,0,0,0,,devient un peu rouillé.\NOuais.  Rouillé.  Ouais.
+Dialogue: 0,1:07:48.16,1:08:02.40,Default,,0,0,0,,Dieu merci.\NOui.
+Dialogue: 0,1:08:02.40,1:08:09.28,Default,,0,0,0,,Salut.\NJe n'ai pas de question.  Je souhaite simplement
+Dialogue: 0,1:08:09.28,1:08:13.92,Default,,0,0,0,,recevoir votre bénédiction, vous remercier\Net vous serrer la main.
+Dialogue: 0,1:08:13.92,1:08:24.75,Default,,0,0,0,,Oui, je passerai par ici.\NAh, que Dieu vous bénisse.   Que
+Dialogue: 0,1:08:24.79,1:08:37.79,Default,,0,0,0,,Dieu te bénisse.  Amen.\NC'est ça.  D'accord.
+Dialogue: 0,1:08:42.79,1:08:45.75,Default,,0,0,0,,Bonjour.\NSalut, Dr Hawkins.  Je voudrais simplement
+Dialogue: 0,1:08:45.75,1:08:49.27,Default,,0,0,0,,vous remercier pour tout et vous\Nserrer la main pour recevoir votre
+Dialogue: 0,1:08:49.27,1:08:52.88,Default,,0,0,0,,bénédiction.\NOui en effet.
+Dialogue: 0,1:08:52.88,1:08:57.75,Default,,0,0,0,,Euh, oui.  Merci de me l'avoir demandé et que Dieu\Nvous bénisse.
+Dialogue: 0,1:08:57.75,1:09:12.48,Default,,0,0,0,,Amen.\NJe sais que c'est une chaise courte.
+Dialogue: 0,1:09:12.48,1:09:17.23,Default,,0,0,0,,Chaise courte.  Ouais.\NSalut.
+Dialogue: 0,1:09:17.27,1:09:21.27,Default,,0,0,0,,Bonjour.\NEuh,
+Dialogue: 0,1:09:21.27,1:09:29.67,Default,,0,0,0,,oui.  J'aime simplement vous serrer la main.\NEuh, non.  Je n'arrivais à rien trouver.
+Dialogue: 0,1:09:29.67,1:09:33.12,Default,,0,0,0,,Tu voulais me secouer la tête ?\NOuais.  Oh, ça me va.   C'est très
 Dialogue: 0,1:09:33.12,1:09:37.60,Default,,0,0,0,,bien.  Merci.\NMerci d'être venu me rencontrer.
-Dialogue: 0,1:09:37.60,1:10:02.56,Default,,0,0,0,,Merci.\NJe vais très bien en fait.
-Dialogue: 0,1:10:02.56,1:10:04.08,Default,,0,0,0,,Ouais.  Ouais.\NJe voulais dire que
-Dialogue: 0,1:10:04.08,1:10:07.60,Default,,0,0,0,,je ne me souviens plus de la question.\NOh d'accord.  Ouais.  Je vais arrêter d'être Monsieur Tête-
-Dialogue: 0,1:10:07.60,1:10:10.88,Default,,0,0,0,,à-Bosse.\NMerci beaucoup pour votre travail.
-Dialogue: 0,1:10:10.88,1:10:14.23,Default,,0,0,0,,Euh, ça m'a sorti de très nombreux\Nmoments sombres de ma vie.
-Dialogue: 0,1:10:14.23,1:10:15.19,Default,,0,0,0,,Oui.\NOuais.
-Dialogue: 0,1:10:15.19,1:10:23.52,Default,,0,0,0,,C'est une bonne nouvelle.\NOuais.  Et j'ai une question.  Euh…
+Dialogue: 0,1:09:37.60,1:09:48.12,Default,,0,0,0,,Merci.\NMonsieur Bobblehead,
+Dialogue: 0,1:09:55.36,1:10:01.36,Default,,0,0,0,,je voulais vous demander\Ncomment vous allez aujourd'hui ?
+Dialogue: 0,1:10:01.36,1:10:03.44,Default,,0,0,0,,Je vais très bien en fait.\NOuais.  Ouais.
+Dialogue: 0,1:10:03.44,1:10:05.52,Default,,0,0,0,,Je voulais dire que\Nje ne me souviens plus de la question.
+Dialogue: 0,1:10:05.52,1:10:08.48,Default,,0,0,0,,Oh d'accord.  Ouais.  Je vais arrêter d'être Monsieur Tête-\Nà-Bosse.
+Dialogue: 0,1:10:08.48,1:10:13.28,Default,,0,0,0,,Merci beaucoup pour votre travail.\NEuh, ça m'a sorti de très nombreux
+Dialogue: 0,1:10:13.28,1:10:14.64,Default,,0,0,0,,moments sombres de ma vie.\NOui.
+Dialogue: 0,1:10:14.64,1:10:16.15,Default,,0,0,0,,Ouais.\NC'est une bonne nouvelle.
+Dialogue: 0,1:10:16.15,1:10:23.52,Default,,0,0,0,,Ouais.  Et j'ai une question.  Euh…\NDepuis mon enfance, j'ai des
 Dialogue: 0,1:10:23.52,1:10:27.60,Default,,0,0,0,,terreurs nocturnes.\NJe me réveillerai au milieu de la nuit.
 Dialogue: 0,1:10:27.60,1:10:33.60,Default,,0,0,0,,Oui.  dans une terreur aveugle qui n'a pas\Net peu importe ce qui se passe
 Dialogue: 0,1:10:33.60,1:10:36.71,Default,,0,0,0,,dans mon cerveau.  Il peut y avoir des pensées, ou non\N.
 Dialogue: 0,1:10:36.71,1:10:39.28,Default,,0,0,0,,Ouais.\NEuh, mais c'est tout simplement une terreur absolue et délirante.
 Dialogue: 0,1:10:39.28,1:10:42.88,Default,,0,0,0,,Et on a l'\Nimpression qu'il y a
 Dialogue: 0,1:10:42.88,1:10:47.44,Default,,0,0,0,,quelque chose de l'autre côté de\Nça.  Il y a quelque chose de l'autre
-Dialogue: 0,1:10:47.44,1:10:52.64,Default,,0,0,0,,côté.  Et j'ai lu tous vos livres, ou\Npresque tous vos livres.  Et l'histoire
+Dialogue: 0,1:10:47.44,1:10:52.64,Default,,0,0,0,,côté.  Et j'ai lu tous vos livres, ou\Npresque tous.  Et l'histoire
 Dialogue: 0,1:10:52.64,1:10:56.71,Default,,0,0,0,,que vous racontez vers la fin, où vous dites\Nqu'à un certain moment survient une terreur
-Dialogue: 0,1:10:56.71,1:11:05.36,Default,,0,0,0,,où l'ego, euh, essaie en gros de tout faire pour ne pas exister\Nplus exister.
-Dialogue: 0,1:11:05.36,1:11:10.96,Default,,0,0,0,,Ouais.  Ouais.  La peur de la mort.  Oui.\NOuais.  Euh,
-Dialogue: 0,1:11:10.96,1:11:16.48,Default,,0,0,0,,ma question est de savoir s'il y a des\Nerreurs que je peux commettre durant cette
-Dialogue: 0,1:11:16.48,1:11:19.04,Default,,0,0,0,,expérience ?\NQuelle étape ?
-Dialogue: 0,1:11:19.04,1:11:23.04,Default,,0,0,0,,Erreur.  faux pas.  Y a-t-il\Nune erreur ?  Y a-t-il un
-Dialogue: 0,1:11:23.04,1:11:29.36,Default,,0,0,0,,risque d'erreur de ma part lorsque\Ncet événement se produit ?
-Dialogue: 0,1:11:29.36,1:11:34.15,Default,,0,0,0,,Non, pas nécessairement.  Non.\NVous savez, et n'oubliez pas que beaucoup de
-Dialogue: 0,1:11:34.15,1:11:39.52,Default,,0,0,0,,choses sont simplement le résultat de la\Nphysiologie cérébrale.  Rien de personnel là-dedans.
-Dialogue: 0,1:11:39.52,1:11:41.92,Default,,0,0,0,,Mhm.\NVous savez, vous et tout le monde faites des
-Dialogue: 0,1:11:41.92,1:11:45.12,Default,,0,0,0,,cauchemars.  Donc, ce n'est ni moi, ni\Ntoi.
-Dialogue: 0,1:11:45.12,1:11:49.67,Default,,0,0,0,,C'est la condition humaine.  Oui.\NMhm.  qu'il y a de l'énergie refoulée
-Dialogue: 0,1:11:49.67,1:11:53.19,Default,,0,0,0,,pendant la journée et qu'elle se libère la\Nnuit.
-Dialogue: 0,1:11:53.19,1:11:59.84,Default,,0,0,0,,C'est la nature humaine, vous savez.   D'accord\N.
-Dialogue: 0,1:11:59.84,1:12:01.60,Default,,0,0,0,,Merci.  Puis-je venir vous serrer la\Nmain ?
-Dialogue: 0,1:12:01.60,1:12:07.84,Default,,0,0,0,,Oui.\N.
+Dialogue: 0,1:10:56.71,1:11:04.64,Default,,0,0,0,,où l'ego, euh, essaie en gros de tout faire pour ne pas exister\Nparce qu'il a peur de ne
+Dialogue: 0,1:11:04.64,1:11:07.28,Default,,0,0,0,,plus exister.\NOuais.  Ouais.  La peur de la mort.  Oui.
+Dialogue: 0,1:11:07.28,1:11:14.32,Default,,0,0,0,,Ouais.  Euh,\Nma question est de savoir s'il y a des
+Dialogue: 0,1:11:14.32,1:11:18.00,Default,,0,0,0,,erreurs que je peux commettre durant cette\Nexpérience ?
+Dialogue: 0,1:11:18.00,1:11:21.44,Default,,0,0,0,,Quelle étape ?\NErreur.  faux pas.  Y a-t-il
+Dialogue: 0,1:11:21.44,1:11:26.32,Default,,0,0,0,,une erreur ?  Y a-t-il un\Nrisque d'erreur de ma part lorsque
+Dialogue: 0,1:11:26.32,1:11:32.64,Default,,0,0,0,,cet événement se produit ?\NNon, pas nécessairement.  Non.
+Dialogue: 0,1:11:32.64,1:11:36.96,Default,,0,0,0,,Vous savez, et n'oubliez pas que beaucoup de\Nchoses sont simplement le résultat de la
+Dialogue: 0,1:11:36.96,1:11:40.40,Default,,0,0,0,,physiologie cérébrale.  Rien de personnel là-dedans.\NMhm.
+Dialogue: 0,1:11:40.40,1:11:44.15,Default,,0,0,0,,Vous savez, vous et tout le monde faites des\Ncauchemars.  Donc, ce n'est ni moi, ni
+Dialogue: 0,1:11:44.15,1:11:47.12,Default,,0,0,0,,toi.\NC'est la condition humaine.  Oui.
+Dialogue: 0,1:11:47.12,1:11:51.67,Default,,0,0,0,,Mhm.  qu'il y a de l'énergie refoulée\Npendant la journée et qu'elle se libère la
+Dialogue: 0,1:11:51.67,1:11:58.80,Default,,0,0,0,,nuit.\NC'est la nature humaine, vous savez.   D'accord
+Dialogue: 0,1:11:58.80,1:12:01.19,Default,,0,0,0,,.\NMerci.  Puis-je venir vous serrer la
+Dialogue: 0,1:12:01.19,1:12:04.60,Default,,0,0,0,,main ?\NOui.
+Dialogue: 0,1:12:05.36,1:12:07.84,Default,,0,0,0,,Vous savez, on pourrait répondre à beaucoup de ces questions\N.
 Dialogue: 0,1:12:07.84,1:12:12.40,Default,,0,0,0,,Merci beaucoup.\NVous pariez.  Euh, si vous voulez bien prendre le temps
 Dialogue: 0,1:12:12.40,1:12:16.88,Default,,0,0,0,,et la peine de faire des recherches à leur sujet.  Tant\Nde questions que les gens
 Dialogue: 0,1:12:16.88,1:12:22.56,Default,,0,0,0,,soulèvent et auxquelles je ne peux pas vous donner de réponse immédiate,\Nvous savez, Susan, je peux trouver la réponse en cinq ou dix minutes,
@@ -695,18 +802,19 @@ Dialogue: 0,1:12:40.08,1:12:41.67,Default,,0,0,0,,Oh 14.\NOui.
 Dialogue: 0,1:12:41.67,1:12:44.96,Default,,0,0,0,,Oui.  D'où viens-tu, mon amour ?\NCaroline du Sud.
 Dialogue: 0,1:12:44.96,1:12:48.96,Default,,0,0,0,,Oh,\Nnous regardions un de vos DVD et euh,
 Dialogue: 0,1:12:48.96,1:12:53.60,Default,,0,0,0,,elle y danse la danse classique indienne et\Nvous, vous dansiez la danse de Shiva.
-Dialogue: 0,1:12:53.60,1:13:03.52,Default,,0,0,0,,Elle a donc beaucoup apprécié cela.\NOh, la danse de Shiva !  Oui, j'avais
-Dialogue: 0,1:13:03.52,1:13:10.48,Default,,0,0,0,,, j'ai eu une vision très forte du Christ,\Nune vision du Christ dans une
-Dialogue: 0,1:13:10.48,1:13:15.84,Default,,0,0,0,,lumière jaune rayonnante.  Et il va sans dire que la vie n'a plus jamais\Nété la même depuis.  Mais
-Dialogue: 0,1:13:15.84,1:13:17.67,Default,,0,0,0,,euh…\Nelle a eu une vision du Christ.
-Dialogue: 0,1:13:17.67,1:13:21.52,Default,,0,0,0,,La vision était parfaite et la lumière extrêmement vive\N.
-Dialogue: 0,1:13:21.52,1:13:24.40,Default,,0,0,0,,Oui.  Oui.\NUne vision du Christ dans une lumière jaune éclatante, empreinte d'un
-Dialogue: 0,1:13:24.40,1:13:27.67,Default,,0,0,0,,amour absolu.\NExtrêmement affectueux.
-Dialogue: 0,1:13:27.67,1:13:30.96,Default,,0,0,0,,Oui.\NEt euh, je m'attendais à voir quelqu'un
-Dialogue: 0,1:13:30.96,1:13:36.88,Default,,0,0,0,,tenant une flûte.  Voilà donc ma\Nperception.  Euh…
-Dialogue: 0,1:13:36.88,1:13:41.12,Default,,0,0,0,,je m’attendais à voir Dieu tenant une\Nflûte.  Ça a donc été un peu un
-Dialogue: 0,1:13:41.12,1:13:46.64,Default,,0,0,0,,choc pour moi.  Beaucoup de choses ont\Nchangé au cours de la dernière année.  Le
-Dialogue: 0,1:13:46.64,1:13:57.84,Default,,0,0,0,,dernier en date était euh, pendant Pâques.  Je ne savais pas vraiment ce que\NEt j'avais ce désir irrésistible d'
+Dialogue: 0,1:12:53.60,1:13:00.32,Default,,0,0,0,,Elle a donc beaucoup apprécié cela.\NOh, la danse de Shiva !  Oui, j'avais
+Dialogue: 0,1:13:00.32,1:13:08.23,Default,,0,0,0,,une question.  Il y a environ un an\N, j'ai eu une vision très forte du Christ,
+Dialogue: 0,1:13:08.23,1:13:13.92,Default,,0,0,0,,une vision du Christ dans une\Nlumière jaune rayonnante.  Et il va sans dire que la vie n'a plus jamais
+Dialogue: 0,1:13:13.92,1:13:16.48,Default,,0,0,0,,été la même depuis.  Mais\Neuh…
+Dialogue: 0,1:13:16.48,1:13:21.04,Default,,0,0,0,,elle a eu une vision du Christ.\NLa vision était parfaite et la lumière extrêmement vive
+Dialogue: 0,1:13:21.04,1:13:22.23,Default,,0,0,0,,.\NOui.  Oui.
+Dialogue: 0,1:13:22.23,1:13:26.48,Default,,0,0,0,,Une vision du Christ dans une lumière jaune éclatante, empreinte d'un\Namour absolu.
+Dialogue: 0,1:13:26.48,1:13:28.23,Default,,0,0,0,,Extrêmement affectueux.\NOui.
+Dialogue: 0,1:13:28.23,1:13:33.19,Default,,0,0,0,,Et euh, je m'attendais à voir quelqu'un\Ntenant une flûte.  Voilà donc ma
+Dialogue: 0,1:13:33.19,1:13:38.80,Default,,0,0,0,,perception.  Euh…\Nje m’attendais à voir Dieu tenant une
+Dialogue: 0,1:13:38.80,1:13:44.08,Default,,0,0,0,,flûte.  Ça a donc été un peu un\Nchoc pour moi.  Beaucoup de choses ont
+Dialogue: 0,1:13:44.08,1:13:52.23,Default,,0,0,0,,changé au cours de la dernière année.  Le\Ndernier en date était euh, pendant Pâques.  Je ne savais pas vraiment ce que
+Dialogue: 0,1:13:52.23,1:13:57.84,Default,,0,0,0,,signifiait le Vendredi saint et Pâques.\NEt j'avais ce désir irrésistible d'
 Dialogue: 0,1:13:57.84,1:14:04.80,Default,,0,0,0,,assister à la messe catholique à Pâques.\NFaire quoi ?
 Dialogue: 0,1:14:04.80,1:14:08.40,Default,,0,0,0,,Assister à la messe catholique.\NOui.  D'accord.  Donc, je ne suis pas du
 Dialogue: 0,1:14:08.40,1:14:11.04,Default,,0,0,0,,tout catholique.\NOuais.   Alors,
@@ -714,36 +822,40 @@ Dialogue: 0,1:14:11.04,1:14:15.92,Default,,0,0,0,,j'ai remis cela entre les main
 Dialogue: 0,1:14:15.92,1:14:18.48,Default,,0,0,0,,désir irrésistible d'assister à une messe. »\NOui.
 Dialogue: 0,1:14:18.48,1:14:22.48,Default,,0,0,0,,Et que signifie le\NVendredi saint et que signifie
 Dialogue: 0,1:14:22.48,1:14:24.64,Default,,0,0,0,,Pâques ?\NQu'est-ce que c'est que ça ? Quelle
-Dialogue: 0,1:14:24.64,1:14:27.84,Default,,0,0,0,,est la signification ?\NQuelle est la signification du Vendredi saint\h?
+Dialogue: 0,1:14:24.64,1:14:27.84,Default,,0,0,0,,est la signification ?\NQuelle est la signification du Vendredi saint ?
 Dialogue: 0,1:14:27.84,1:14:32.71,Default,,0,0,0,,Et quelle est la signification de Pâques ?   Mais on ne\Nvous a pas expliqué ça à l'
 Dialogue: 0,1:14:32.71,1:14:35.67,Default,,0,0,0,,église ?\NEuh, j'ai été élevée dans la religion hindoue, donc tout cela était
 Dialogue: 0,1:14:35.67,1:14:39.67,Default,,0,0,0,,nouveau pour moi.  Elle a été élevée dans la religion\Nhindoue et tout à coup, elle a cette
-Dialogue: 0,1:14:39.67,1:14:48.96,Default,,0,0,0,,idée irrésistible de se\NEt je l'ai rendu public afin que l'on découvre
-Dialogue: 0,1:14:48.96,1:14:56.64,Default,,0,0,0,,pourquoi cela se produit.  Et cette nuit-là, euh,\Nau début, j'ai compris que c'était comme
-Dialogue: 0,1:14:56.64,1:15:05.19,Default,,0,0,0,,une intuition, comme si je devais simplement ne pas\Nassister à la messe du dimanche pour pouvoir m'occuper de
-Dialogue: 0,1:15:05.19,1:15:10.40,Default,,0,0,0,,l'autel.  C'était le\Npremier message.  Et le deuxième message,
-Dialogue: 0,1:15:10.40,1:15:20.08,Default,,0,0,0,,euh,\Nil était peut-être 3 heures du matin
+Dialogue: 0,1:14:39.67,1:14:45.92,Default,,0,0,0,,idée irrésistible de se\Nrenseigner sur le christianisme.  Oh ouais.
+Dialogue: 0,1:14:45.92,1:14:54.40,Default,,0,0,0,,Et je l'ai rendu public afin que l'on découvre\Npourquoi cela se produit.  Et cette nuit-là, euh,
+Dialogue: 0,1:14:54.40,1:15:00.48,Default,,0,0,0,,au début, j'ai compris que c'était comme\Nune intuition, comme si je devais simplement ne pas
+Dialogue: 0,1:15:00.48,1:15:07.52,Default,,0,0,0,,assister à la messe du dimanche pour pouvoir m'occuper de\Nl'autel.  C'était le
+Dialogue: 0,1:15:07.52,1:15:13.40,Default,,0,0,0,,premier message.  Et le deuxième message,\Neuh,
+Dialogue: 0,1:15:15.60,1:15:20.08,Default,,0,0,0,,c'était,\Nil était peut-être 3 heures du matin
 Dialogue: 0,1:15:20.08,1:15:25.76,Default,,0,0,0,,et j'étais submergée par un\Nnombre incroyable de clous qui n'arrêtaient pas de me
 Dialogue: 0,1:15:25.76,1:15:29.28,Default,,0,0,0,,frapper.\NEt c'était… des
 Dialogue: 0,1:15:29.28,1:15:32.56,Default,,0,0,0,,ongles qui n'arrêtaient pas de me frapper, des\Nongles qui n'arrêtaient pas de me frapper.  Et c'était comme si,
 Dialogue: 0,1:15:32.56,1:15:38.32,Default,,0,0,0,,chaque fois que j'utilisais\Nmes yeux, mes oreilles ou quoi que ce soit d'autre
-Dialogue: 0,1:15:38.32,1:15:49.19,Default,,0,0,0,,pour interagir avec mon corps, je recevais des coups\Nde clous.  Et donc, pour moi, tout ce qui touchait à
-Dialogue: 0,1:15:49.19,1:15:54.23,Default,,0,0,0,,souffrance.  Et c'était une\Nconscience qui disait : « Ne regardez pas par ici,
-Dialogue: 0,1:15:54.23,1:16:03.04,Default,,0,0,0,,regardez plutôt par là. »  Et euh, quand j'ai regardé là-bas\N, je m'attendais à revoir cette
-Dialogue: 0,1:16:03.04,1:16:10.56,Default,,0,0,0,,C'était juste cette\NUn rayonnement.
-Dialogue: 0,1:16:10.56,1:16:12.88,Default,,0,0,0,,Ouais.\NAlors, quelle est la question ?  Quelle est la
-Dialogue: 0,1:16:12.88,1:16:18.23,Default,,0,0,0,,question ?   Je ne comprends tout simplement pas\NCela n'a-t-il aucun sens ?
+Dialogue: 0,1:15:38.32,1:15:46.67,Default,,0,0,0,,pour interagir avec mon corps, je recevais des coups\Nde clous.  Et donc, pour moi, tout ce qui touchait à
+Dialogue: 0,1:15:47.52,1:15:52.23,Default,,0,0,0,,ce corps était source de\Nsouffrance.  Et c'était une
+Dialogue: 0,1:15:52.23,1:15:57.52,Default,,0,0,0,,conscience qui disait : « Ne regardez pas par ici,\Nregardez plutôt par là. »  Et euh, quand j'ai regardé là-bas
+Dialogue: 0,1:15:57.52,1:16:03.04,Default,,0,0,0,,, je m'attendais à revoir cette\Nlumière radieuse du Christ, et je ne l'ai pas vue.
+Dialogue: 0,1:16:03.04,1:16:09.44,Default,,0,0,0,,C'était juste cette\Nlueur blanche.
+Dialogue: 0,1:16:09.44,1:16:11.19,Default,,0,0,0,,Un rayonnement.\NOuais.
+Dialogue: 0,1:16:11.19,1:16:14.88,Default,,0,0,0,,Alors, quelle est la question ?  Quelle est la\Nquestion ?   Je ne comprends tout simplement pas
+Dialogue: 0,1:16:14.88,1:16:18.23,Default,,0,0,0,,le sens.\NCela n'a-t-il aucun sens ?
 Dialogue: 0,1:16:18.23,1:16:22.08,Default,,0,0,0,,Aucun sens.\NNon. Que représente le ciel ?  Que
 Dialogue: 0,1:16:22.08,1:16:25.84,Default,,0,0,0,,représente le ciel ?\NCe que je crois que cela signifie ne
 Dialogue: 0,1:16:25.84,1:16:28.88,Default,,0,0,0,,signifie rien.  C'est tout simplement ainsi.   C'est ainsi\N.
-Dialogue: 0,1:16:28.88,1:16:36.96,Default,,0,0,0,,Que signifie ce tableau\h?   Ça ne veut\Nrien dire.  C'est tout simplement ainsi.  Donc, en parlant de
+Dialogue: 0,1:16:28.88,1:16:36.96,Default,,0,0,0,,Que signifie ce tableau ?   Ça ne veut\Nrien dire.  C'est tout simplement ainsi.  Donc, en parlant de
 Dialogue: 0,1:16:36.96,1:16:41.28,Default,,0,0,0,,sens, vous essayez d'y ajouter une\Ndimension intellectuelle.  Qu'est-ce que ça veut
 Dialogue: 0,1:16:41.28,1:16:45.67,Default,,0,0,0,,dire?\NCe sentiment de lumière, de présence
 Dialogue: 0,1:16:45.67,1:16:51.28,Default,,0,0,0,,divine et de joie intérieure intense,\Nvous le savez, s'est produit tout au long de l'
 Dialogue: 0,1:16:51.28,1:16:56.56,Default,,0,0,0,,histoire de l'humanité chez diverses\Npersonnes et dans diverses circonstances.
 Dialogue: 0,1:16:56.56,1:17:04.40,Default,,0,0,0,,Il semble que l'homme soit, vous savez,\Nvulnérable à l'énergie spirituelle et,
-Dialogue: 0,1:17:04.40,1:17:12.48,Default,,0,0,0,,lorsqu'elle se manifeste, cela peut très souvent se traduire par\Nune expérience très similaire à celle d'une personne
-Dialogue: 0,1:17:12.48,1:17:22.64,Default,,0,0,0,,le désert il y a 2 000 ans, ou à celle de Bill\NWilson, le fondateur des AA, qui, seul dans une pièce,
+Dialogue: 0,1:17:04.40,1:17:10.56,Default,,0,0,0,,lorsqu'elle se manifeste, cela peut très souvent se traduire par\Nune expérience très similaire à celle d'une personne
+Dialogue: 0,1:17:10.56,1:17:16.08,Default,,0,0,0,,marchant dans\Nle désert il y a 2 000 ans, ou à celle de Bill
+Dialogue: 0,1:17:16.08,1:17:22.64,Default,,0,0,0,,Wilson, le fondateur des AA, qui, seul dans une pièce,\Ndisait : « À moins de croire en Dieu, vous
 Dialogue: 0,1:17:22.64,1:17:27.19,Default,,0,0,0,,mourrez sûrement de cette maladie. » Et lui, a-t-il répondu : « Eh bien, je\Nsuis athée. » Il s'est donc
 Dialogue: 0,1:17:27.19,1:17:33.04,Default,,0,0,0,,préparé à mourir, je suppose.  Et\Nsoudain, la pièce s'illumina
 Dialogue: 0,1:17:33.04,1:17:37.84,Default,,0,0,0,,et la connaissance apparut.\NAh, c'est donc le Dieu des Écritures
@@ -753,57 +865,59 @@ Dialogue: 0,1:17:48.08,1:17:54.23,Default,,0,0,0,,la pièce s'illumina d'une pr�
 Dialogue: 0,1:17:54.23,1:17:59.52,Default,,0,0,0,,manière différente.  Pour certaines personnes, cela peut venir\Nintellectuellement ; vous savez, elles lisent un livre
 Dialogue: 0,1:17:59.52,1:18:04.56,Default,,0,0,0,,et soudain, elles sont inspirées par le\Nlivre et par la vérité qu'il renferme.  Ainsi,
 Dialogue: 0,1:18:04.56,1:18:10.48,Default,,0,0,0,,cela arrive à chacun d'entre nous en son\Ntemps et à sa manière.  Vous voyez, les
-Dialogue: 0,1:18:10.48,1:18:19.92,Default,,0,0,0,,propensions karmiques sont tellement complexes, des\Nénergies variables issues de vies différentes, qu'on ne peut pas
-Dialogue: 0,1:18:19.92,1:18:23.84,Default,,0,0,0,,analyser et dire : « Eh bien, c'était cette\Npensée dans cette vie-ci, en
-Dialogue: 0,1:18:23.84,1:18:27.92,Default,,0,0,0,,1620. »\NVous voyez ce que je veux dire ?  C'est une
-Dialogue: 0,1:18:27.92,1:18:34.56,Default,,0,0,0,,énergie collective et elle n'est pas vraiment\Nlinéaire.  Ce n'est pas linéaire.  Vous ne pouvez pas
-Dialogue: 0,1:18:34.56,1:18:39.76,Default,,0,0,0,,déterminer ses coordonnées exactes, vous savez, 80 degrés de longitude\Net de latitude ou quelque chose comme ça.  Tu
-Dialogue: 0,1:18:39.76,1:18:44.80,Default,,0,0,0,,vois?  Ouais.\NC'est plus diffus et spontané.   Y avait-il de l'
-Dialogue: 0,1:18:44.80,1:18:47.92,Default,,0,0,0,,énergie derrière cette lumière que\Nvous avez vue ?  Était-ce
-Dialogue: 0,1:18:47.92,1:18:52.23,Default,,0,0,0,,la lumière blanche ou la lumière jaune ?\NAvez-vous déjà ressenti cette lumière ?  Y avait-il
-Dialogue: 0,1:18:52.23,1:18:55.19,Default,,0,0,0,,une énergie derrière cela ?\NOui.
-Dialogue: 0,1:18:55.19,1:18:56.71,Default,,0,0,0,,Un bon.\NOui.  Oui.
-Dialogue: 0,1:18:56.71,1:19:03.52,Default,,0,0,0,,Ouais.\NQu'en avez-vous fait ?
-Dialogue: 0,1:19:03.52,1:19:06.56,Default,,0,0,0,,question, alors je voulais juste poser celle-ci.\NMais il y a eu d'autres choses
-Dialogue: 0,1:19:06.56,1:19:14.40,Default,,0,0,0,,depuis.\Nsais pas.  J'étais assis là et tout d'un
-Dialogue: 0,1:19:14.40,1:19:18.23,Default,,0,0,0,,coup, il y avait comme une\Nvibration qui se propageait,
-Dialogue: 0,1:19:18.23,1:19:23.28,Default,,0,0,0,,ou bien j'étais au Grand Canyon\Net j'ai failli me fouler la cheville parce que je ne
-Dialogue: 0,1:19:23.28,1:19:27.84,Default,,0,0,0,,sais pas.  C'était comme si j'allais y aller,\Npuis le corps arrivait et
-Dialogue: 0,1:19:27.84,1:19:33.12,Default,,0,0,0,,cette condalini montait et descendait, comme du\Nfeu.  Ce n'est que du feu.
-Dialogue: 0,1:19:33.12,1:19:36.64,Default,,0,0,0,,Et donc j'ai acheté le livre de Kopi Krishna,\Nmais je ne le vis pas de cette façon.
-Dialogue: 0,1:19:36.64,1:19:39.60,Default,,0,0,0,,Non. Euh, vous allez devoir continuer comme\Nça pendant un certain temps, car cela va
-Dialogue: 0,1:19:39.60,1:19:43.28,Default,,0,0,0,,vous mener quelque part.\NJe ne sais pas trop ce que vous êtes censé
-Dialogue: 0,1:19:43.28,1:19:46.88,Default,,0,0,0,,faire avec ça, mais vous allez probablement devoir faire avec pendant un certain\Ntemps.
-Dialogue: 0,1:19:46.88,1:19:52.00,Default,,0,0,0,,Eh bien, il faut le faire, vous savez, avec la\Nprière.  Vous demandez la compréhension par la prière
-Dialogue: 0,1:19:52.00,1:19:55.44,Default,,0,0,0,,.\NEt c'est tout ce que vous avez à faire.  Vous demandez à
-Dialogue: 0,1:19:55.44,1:20:00.15,Default,,0,0,0,,Dieu de comprendre\Ncette expérience et cela vous incitera à agir
-Dialogue: 0,1:20:00.15,1:20:03.44,Default,,0,0,0,,.\NEuh, oui.
-Dialogue: 0,1:20:03.44,1:20:07.28,Default,,0,0,0,,Pouvez-vous répéter cela ?  Je suis sûre que nous sommes\Ntoujours en sécurité.
-Dialogue: 0,1:20:07.28,1:20:14.23,Default,,0,0,0,,Elle veut savoir qu'elle est toujours en sécurité\Ncar il ne s'agit pas seulement d'une
-Dialogue: 0,1:20:14.23,1:20:18.40,Default,,0,0,0,,expérience énergétique sacrée, mais aussi d'une expérience\Neffrayante avec les clous qui la menacent
-Dialogue: 0,1:20:18.40,1:20:22.08,Default,,0,0,0,,.\NS'agit-il donc des clous arrachés des
-Dialogue: 0,1:20:22.08,1:20:27.04,Default,,0,0,0,,mains et des pieds de Jésus-Christ ?\NVoilà ma question.  Ouais.
-Dialogue: 0,1:20:27.04,1:20:31.84,Default,,0,0,0,,Ouais.  Je dirais que c'est la\Nlibération par le christianisme qui arrache les
-Dialogue: 0,1:20:31.84,1:20:37.44,Default,,0,0,0,,clous qui vous clouent à la croix.\NOui.  Je regardais une de vos
-Dialogue: 0,1:20:37.44,1:20:42.64,Default,,0,0,0,,conférences de 2002 et là, je crois que vous avez\Ndit à peu près ça –
-Dialogue: 0,1:20:42.64,1:20:48.56,Default,,0,0,0,,je ne retrouve même plus le passage – mais euh, vous disiez que\Nla conscience de l'
-Dialogue: 0,1:20:48.56,1:20:53.92,Default,,0,0,0,,humanité, la souffrance que nous avons endurée, était\Ndue à ces croyances dans le corps,
-Dialogue: 0,1:20:53.92,1:20:59.04,Default,,0,0,0,,et c'est ce que j'en ai retenu.\NOui, c'est bien la question.  Je ne
-Dialogue: 0,1:20:59.04,1:21:01.76,Default,,0,0,0,,comprends toujours pas quelle est la question.\NJ'ai déjà répondu à votre
-Dialogue: 0,1:21:01.76,1:21:04.56,Default,,0,0,0,,question.\NElle a répondu à la question,
-Dialogue: 0,1:21:04.56,1:21:05.76,Default,,0,0,0,,elle a juste\Nrépondu.
-Dialogue: 0,1:21:05.76,1:21:09.92,Default,,0,0,0,,C'était à la fois effrayant et déroutant.\NOh, toute cette
-Dialogue: 0,1:21:09.92,1:21:13.84,Default,,0,0,0,,expérience...  Donc, elle ne l'est pas, vous savez,\Nmais vous avez répondu.
-Dialogue: 0,1:21:13.84,1:21:18.40,Default,,0,0,0,,Non, je voulais juste que tu dises que toute\Npeur est une illusion, que je peux toujours le
-Dialogue: 0,1:21:18.40,1:21:21.60,Default,,0,0,0,,répéter en toute sécurité.\NJe n'ai pas compris ce que vous avez dit.
-Dialogue: 0,1:21:21.60,1:21:25.36,Default,,0,0,0,,Elle veut vous entendre dire que toute peur n'est\Nqu'une illusion et qu'elle
-Dialogue: 0,1:21:25.36,1:21:30.40,Default,,0,0,0,,Oh.  Oh, la peur.  Ouais.  Eh bien, la peur est elle-même\Nune émotion.
-Dialogue: 0,1:21:30.40,1:21:37.36,Default,,0,0,0,,Mais la peur elle-même naît d'\Nune illusion.  Ouais.  Vous connaissez l'
-Dialogue: 0,1:21:37.36,1:21:40.71,Default,,0,0,0,,illusion selon laquelle on peut mourir.  Eh bien, on ne peut pas\Navoir, on ne peut pas mourir.  Ce n'est pas
-Dialogue: 0,1:21:40.71,1:21:45.28,Default,,0,0,0,,possible.  Vous savez ce que je veux dire?  Vous pouvez\Nseulement vous déplacer de ce corps vers un autre endroit, mais
-Dialogue: 0,1:21:45.28,1:21:49.44,Default,,0,0,0,,vous ne pouvez pas réellement mourir.\NOuais.
-Dialogue: 0,1:21:49.44,1:21:53.28,Default,,0,0,0,,Nous souhaitions prendre une photo de groupe et avoir\Nvotre bénédiction.
-Dialogue: 0,1:21:53.28,1:22:02.96,Default,,0,0,0,,Ils veulent une photo de groupe et une bénédiction.   D'accord\N.
+Dialogue: 0,1:18:10.48,1:18:17.92,Default,,0,0,0,,propensions karmiques sont tellement complexes, des\Nénergies variables issues de vies différentes, qu'on ne peut pas
+Dialogue: 0,1:18:17.92,1:18:21.92,Default,,0,0,0,,vraiment revenir en arrière, les\Nanalyser et dire : « Eh bien, c'était cette
+Dialogue: 0,1:18:21.92,1:18:25.36,Default,,0,0,0,,pensée dans cette vie-ci, en\N1620. »
+Dialogue: 0,1:18:25.36,1:18:32.32,Default,,0,0,0,,Vous voyez ce que je veux dire ?  C'est une\Nénergie collective et elle n'est pas vraiment
+Dialogue: 0,1:18:32.32,1:18:37.60,Default,,0,0,0,,linéaire.  Ce n'est pas linéaire.  Vous ne pouvez pas\Ndéterminer ses coordonnées exactes, vous savez, 80 degrés de longitude
+Dialogue: 0,1:18:37.60,1:18:42.23,Default,,0,0,0,,et de latitude ou quelque chose comme ça.  Tu\Nvois?  Ouais.
+Dialogue: 0,1:18:42.23,1:18:47.36,Default,,0,0,0,,C'est plus diffus et spontané.   Y avait-il de l'\Nénergie derrière cette lumière que
+Dialogue: 0,1:18:47.36,1:18:49.60,Default,,0,0,0,,vous avez vue ?  Était-ce\Nla lumière blanche ou la lumière jaune ?
+Dialogue: 0,1:18:49.60,1:18:54.40,Default,,0,0,0,,Avez-vous ressenti une certaine lumière ?  Y avait-il\Nune énergie derrière cela ?
+Dialogue: 0,1:18:54.40,1:18:56.08,Default,,0,0,0,,Oui.\NUn bon.
+Dialogue: 0,1:18:56.08,1:18:57.84,Default,,0,0,0,,Oui.  Oui.\NOuais.
+Dialogue: 0,1:18:57.84,1:19:03.52,Default,,0,0,0,,Qu'en avez-vous fait ?\NJe n'avais droit qu'à une seule
+Dialogue: 0,1:19:03.52,1:19:06.56,Default,,0,0,0,,question, alors je voulais juste poser celle-ci.\NMais il y en a eu d'autres
+Dialogue: 0,1:19:06.56,1:19:13.04,Default,,0,0,0,,depuis.\NIl y a eu d'autres sortes d'éclatements, mais je ne
+Dialogue: 0,1:19:13.04,1:19:16.32,Default,,0,0,0,,sais pas.  J'étais assis là et tout d'un\Ncoup, il y avait comme une
+Dialogue: 0,1:19:16.32,1:19:20.56,Default,,0,0,0,,vibration qui se propageait,\Nou bien j'étais au Grand Canyon
+Dialogue: 0,1:19:20.56,1:19:25.92,Default,,0,0,0,,et j'ai failli me fouler la cheville parce que je ne\Nsais pas.  C'était comme si j'allais y aller,
+Dialogue: 0,1:19:25.92,1:19:30.23,Default,,0,0,0,,puis le corps est arrivé et\Ncette condalini montait et descendait, comme du
+Dialogue: 0,1:19:30.23,1:19:34.88,Default,,0,0,0,,feu.  Ce n'est que du feu.\NEt donc j'ai acheté le livre de Kopi Krishna,
+Dialogue: 0,1:19:34.88,1:19:38.23,Default,,0,0,0,,mais je ne le vis pas de cette façon.\NNon. Euh, vous allez devoir continuer comme
+Dialogue: 0,1:19:38.23,1:19:41.44,Default,,0,0,0,,ça pendant un certain temps, car cela va\Nvous mener quelque part.
+Dialogue: 0,1:19:41.44,1:19:45.28,Default,,0,0,0,,Je ne sais pas trop ce que vous êtes censé\Nfaire avec ça, mais vous allez probablement devoir faire avec pendant un certain
+Dialogue: 0,1:19:45.28,1:19:49.12,Default,,0,0,0,,temps.\NEh bien, il faut le faire, vous savez, avec la
+Dialogue: 0,1:19:49.12,1:19:53.67,Default,,0,0,0,,prière.  Vous demandez la compréhension par la prière\N.
+Dialogue: 0,1:19:53.67,1:19:57.28,Default,,0,0,0,,Et c'est tout ce que vous avez à faire.  Vous demandez à\NDieu de comprendre
+Dialogue: 0,1:19:57.28,1:20:02.15,Default,,0,0,0,,cette expérience et cela vous incitera à agir\N.
+Dialogue: 0,1:20:02.15,1:20:05.52,Default,,0,0,0,,Euh, oui.\NPouvez-vous répéter cela ?  Je suis sûre que nous sommes
+Dialogue: 0,1:20:05.52,1:20:09.84,Default,,0,0,0,,toujours en sécurité.\NElle veut savoir qu'elle est toujours en sécurité
+Dialogue: 0,1:20:09.84,1:20:16.40,Default,,0,0,0,,car il ne s'agit pas seulement d'une\Nexpérience énergétique sacrée, mais aussi d'une expérience
+Dialogue: 0,1:20:16.40,1:20:19.92,Default,,0,0,0,,effrayante avec les clous qui la menacent\N.
+Dialogue: 0,1:20:19.92,1:20:24.80,Default,,0,0,0,,S'agit-il donc des clous arrachés des\Nmains et des pieds de Jésus-Christ ?
+Dialogue: 0,1:20:24.80,1:20:29.12,Default,,0,0,0,,Voilà ma question.  Ouais.\NOuais.  Je dirais que c'est la
+Dialogue: 0,1:20:29.12,1:20:34.64,Default,,0,0,0,,libération par le christianisme qui arrache les\Nclous qui vous clouent à la croix.
+Dialogue: 0,1:20:34.64,1:20:39.60,Default,,0,0,0,,Oui.  Je regardais une de vos\Nconférences de 2002 et là, je crois que vous avez
+Dialogue: 0,1:20:39.60,1:20:46.40,Default,,0,0,0,,dit à peu près ça –\Nje ne retrouve même plus le passage – mais euh, vous disiez que c'était
+Dialogue: 0,1:20:46.40,1:20:51.36,Default,,0,0,0,,comme si la conscience de l'\Nhumanité, la souffrance que nous avons endurée, était
+Dialogue: 0,1:20:51.36,1:20:57.36,Default,,0,0,0,,due à ces croyances dans le corps,\Net c'est ce que j'en ai retenu.
+Dialogue: 0,1:20:57.36,1:21:00.15,Default,,0,0,0,,Oui, c'est bien la question.  Je ne\Ncomprends toujours pas quelle est la question.
+Dialogue: 0,1:21:00.15,1:21:02.32,Default,,0,0,0,,J'ai déjà répondu à votre\Nquestion.
+Dialogue: 0,1:21:02.32,1:21:05.04,Default,,0,0,0,,Elle a répondu à la question,\Nelle a juste
+Dialogue: 0,1:21:05.04,1:21:08.08,Default,,0,0,0,,répondu.\NC'était à la fois effrayant et déroutant.
+Dialogue: 0,1:21:08.08,1:21:12.40,Default,,0,0,0,,Oh, toute cette\Nexpérience...  Donc, elle ne l'est pas, vous savez,
+Dialogue: 0,1:21:12.40,1:21:15.28,Default,,0,0,0,,mais vous avez répondu.\NNon, je voulais juste que tu dises que toute
+Dialogue: 0,1:21:15.28,1:21:20.56,Default,,0,0,0,,peur est une illusion, que je peux toujours le\Nrépéter en toute sécurité.
+Dialogue: 0,1:21:20.56,1:21:23.76,Default,,0,0,0,,Je n'ai pas compris ce que vous avez dit.\NElle veut vous entendre dire que toute peur n'est
+Dialogue: 0,1:21:23.76,1:21:28.64,Default,,0,0,0,,qu'une illusion et qu'elle\NOh.  Oh, la peur.  Ouais.  Eh bien, la peur est elle-même
+Dialogue: 0,1:21:28.64,1:21:33.67,Default,,0,0,0,,une émotion.\NMais la peur elle-même naît d'
+Dialogue: 0,1:21:33.67,1:21:38.96,Default,,0,0,0,,une illusion.  Ouais.  Vous connaissez l'\Nillusion selon laquelle on peut mourir.  Eh bien, on ne peut pas
+Dialogue: 0,1:21:38.96,1:21:42.15,Default,,0,0,0,,avoir, on ne peut pas mourir.  Ce n'est pas\Npossible.  Vous savez ce que je veux dire?  Vous pouvez
+Dialogue: 0,1:21:42.15,1:21:47.67,Default,,0,0,0,,seulement vous déplacer de ce corps vers un autre endroit, mais\Nvous ne pouvez pas réellement mourir.
+Dialogue: 0,1:21:47.67,1:21:51.12,Default,,0,0,0,,Ouais.\NNous souhaitions prendre une photo de groupe et avoir
+Dialogue: 0,1:21:51.12,1:21:55.12,Default,,0,0,0,,votre bénédiction.\NIls veulent une photo de groupe et une bénédiction.   D'accord
+Dialogue: 0,1:21:55.12,1:22:02.96,Default,,0,0,0,,.\NBon, qui avons-nous ici ?
 Dialogue: 0,1:22:02.96,1:22:05.84,Default,,0,0,0,,Oh, une\Nbonne expérience.
 Dialogue: 0,1:22:05.84,1:22:10.88,Default,,0,0,0,,Oui.  Euh, oui.\NVoilà tous ces petits choux !
 Dialogue: 0,1:22:10.88,1:22:13.12,Default,,0,0,0,,Peut-être pour le comprendre.  C'est très\Npuissant.
@@ -817,19 +931,20 @@ Dialogue: 0,1:22:38.96,1:22:44.15,Default,,0,0,0,,Collection complète.\NJ'ai eu
 Dialogue: 0,1:22:44.15,1:22:45.28,Default,,0,0,0,,Boom.\NMerci.
 Dialogue: 0,1:22:45.28,1:22:49.04,Default,,0,0,0,,Oui.\NMerci.  Merci.
 Dialogue: 0,1:22:49.04,1:22:53.19,Default,,0,0,0,,Merci.\NOh, je vous adore !  Merci.  Salut,
-Dialogue: 0,1:22:53.19,1:23:03.36,Default,,0,0,0,,mon amour.\NBonjour,
-Dialogue: 0,1:23:03.36,1:23:10.00,Default,,0,0,0,,nos questions aujourd'hui, Dr Cings.\NEuh, ma question concerne un
-Dialogue: 0,1:23:10.00,1:23:16.40,Default,,0,0,0,,maître spirituel.  Euh, je songe à\Ndevenir disciple, en quelque sorte.  Et
-Dialogue: 0,1:23:16.40,1:23:19.36,Default,,0,0,0,,un disciple d'un\Nmaître spirituel.
-Dialogue: 0,1:23:19.36,1:23:23.19,Default,,0,0,0,,Oui.  Quelqu'un aux États-Unis ou\Nailleurs ?  Euh, il est actuellement aux États-Unis
-Dialogue: 0,1:23:23.19,1:23:26.15,Default,,0,0,0,,.  Euh,\Nje crois que j'ai beaucoup à apprendre
-Dialogue: 0,1:23:26.15,1:23:28.08,Default,,0,0,0,,de cette personne.\NEuh, oui.
-Dialogue: 0,1:23:28.08,1:23:31.04,Default,,0,0,0,,Chaque fois que je fais de la kinésiologie, le\Ntest est positif, mais c'est peut-être simplement dû à l'
-Dialogue: 0,1:23:31.04,1:23:33.67,Default,,0,0,0,,amour que j'ai pour cette personne.\NOh, bien sûr.
-Dialogue: 0,1:23:33.67,1:23:38.00,Default,,0,0,0,,Je vous demanderais simplement de bien vouloir\Nvérifier pour moi auprès d'un kinésiologue.
-Dialogue: 0,1:23:38.00,1:23:41.19,Default,,0,0,0,,Devrait-il suivre ce professeur ?\NVoyons.  Nous avons la permission de poser
-Dialogue: 0,1:23:41.19,1:23:46.71,Default,,0,0,0,,cette question.  Ce serait un bon professeur\Npour lui.  Soyez un bon professeur.
-Dialogue: 0,1:23:46.71,1:23:54.08,Default,,0,0,0,,Ouais.\NMerci.  C'est ça.  Et votre bénédiction.
+Dialogue: 0,1:22:53.19,1:22:57.63,Default,,0,0,0,,mon amour.\NBonjour,
+Dialogue: 0,1:23:00.80,1:23:06.71,Default,,0,0,0,,bon après-midi.  Euh, merci d'avoir répondu à\Nnos questions aujourd'hui, Dr Cings.
+Dialogue: 0,1:23:06.71,1:23:12.96,Default,,0,0,0,,Euh, ma question concerne un\Nmaître spirituel.  Euh, je songe à
+Dialogue: 0,1:23:12.96,1:23:18.40,Default,,0,0,0,,devenir disciple, en quelque sorte.  Et\Nun disciple d'un
+Dialogue: 0,1:23:18.40,1:23:21.12,Default,,0,0,0,,maître spirituel.\NOui.  Quelqu'un aux États-Unis ou
+Dialogue: 0,1:23:21.12,1:23:24.63,Default,,0,0,0,,ailleurs ?  Euh, il est actuellement aux États-Unis\N.  Euh,
+Dialogue: 0,1:23:24.63,1:23:27.28,Default,,0,0,0,,je crois que j'ai beaucoup à apprendre\Nde cette personne.
+Dialogue: 0,1:23:27.28,1:23:29.52,Default,,0,0,0,,Euh, oui.\NChaque fois que je fais de la kinésiologie, le
+Dialogue: 0,1:23:29.52,1:23:32.71,Default,,0,0,0,,test est positif, mais c'est peut-être simplement dû à l'\Namour que j'ai pour cette personne.
+Dialogue: 0,1:23:32.71,1:23:35.84,Default,,0,0,0,,Oh, bien sûr.\NJe vous demanderais simplement de bien vouloir
+Dialogue: 0,1:23:35.84,1:23:39.67,Default,,0,0,0,,vérifier pour moi auprès d'un kinésiologue.\NDevrait-il suivre ce professeur ?
+Dialogue: 0,1:23:39.67,1:23:44.15,Default,,0,0,0,,Voyons.  Nous avons la permission de poser des questions à ce sujet.\NCe serait un bon professeur
+Dialogue: 0,1:23:44.15,1:23:47.12,Default,,0,0,0,,pour lui.  Soyez un bon professeur.\NOuais.
+Dialogue: 0,1:23:47.12,1:23:54.08,Default,,0,0,0,,Merci.  C'est ça.  Et votre bénédiction.\NBonjour Dr Hawkins.
 Dialogue: 0,1:23:54.08,1:23:57.52,Default,,0,0,0,,Bonjour.\NMerci encore pour votre présence, pour
 Dialogue: 0,1:23:57.52,1:24:03.12,Default,,0,0,0,,vos enseignements et pour votre inspiration.  Je suis tellement\Nreconnaissant d'être ici grâce à vos
 Dialogue: 0,1:24:03.12,1:24:09.28,Default,,0,0,0,,conseils.  Mon fiancé et Norman viennent d'être\Nacceptés au Yavapai College.
@@ -844,9 +959,10 @@ Dialogue: 0,1:24:29.67,1:24:36.40,Default,,0,0,0,,mon fiancé et moi, nous étio
 Dialogue: 0,1:24:36.40,1:24:41.28,Default,,0,0,0,,une bénédiction pour\Neux.
 Dialogue: 0,1:24:41.28,1:24:43.52,Default,,0,0,0,,D'accord.\NEt nos voyages.
 Dialogue: 0,1:24:43.52,1:24:45.52,Default,,0,0,0,,Oui.\NMerci.
-Dialogue: 0,1:24:45.52,1:25:01.84,Default,,0,0,0,,Oui en effet.\NMerci.  Merci,
+Dialogue: 0,1:24:45.52,1:24:50.84,Default,,0,0,0,,Oui en effet.\NMerci.  Merci,
+Dialogue: 0,1:24:53.12,1:25:01.84,Default,,0,0,0,,Dave.\NBon, euh, à cause du temps
 Dialogue: 0,1:25:01.84,1:25:11.28,Default,,0,0,0,,imparti, nous allons devoir clore\Nle cours maintenant.  Et euh, je tiens à
-Dialogue: 0,1:25:11.28,1:25:16.48,Default,,0,0,0,,remercier tous ceux qui sont venus d'horizons si divers\N.  Je suis désolé que nous n'ayons pas pu répondre à
+Dialogue: 0,1:25:11.28,1:25:16.48,Default,,0,0,0,,remercier tous ceux qui sont venus d'horizons si divers\N.  Nous sommes désolés de ne pas avoir pu répondre à
 Dialogue: 0,1:25:16.48,1:25:22.15,Default,,0,0,0,,toutes vos questions.  Nous avons terminé le\Ncours un peu plus tôt pour
 Dialogue: 0,1:25:22.15,1:25:27.36,Default,,0,0,0,,essayer de faire entrer tout le monde. Et euh,\Ndocteur, vouliez-vous prendre la parole ?
 Dialogue: 0,1:25:27.36,1:25:30.08,Default,,0,0,0,,Et quoi ?\NEt c'est à vous de décider.  Alors,
@@ -857,63 +973,78 @@ Dialogue: 0,1:25:44.88,1:25:52.56,Default,,0,0,0,,Oh, je te rends grâce, Seigne
 Dialogue: 0,1:25:52.56,1:26:01.36,Default,,0,0,0,,présentes, dont la simple présence réunie est\Nsi réconfortante.
 Dialogue: 0,1:26:01.36,1:26:06.71,Default,,0,0,0,,Je suis très reconnaissant que vous ayez\Nchoisi de venir et d'être avec moi aujourd'hui.
 Dialogue: 0,1:26:06.71,1:26:12.00,Default,,0,0,0,,Je suis profondément honoré et je vous bénis tous au\Nnom du Seigneur, le Père, le
-Dialogue: 0,1:26:12.00,1:26:22.40,Default,,0,0,0,,Fils et le Saint-Esprit, et de tout ce qui\Nest très saint.  Amen.
-Dialogue: 0,1:26:22.40,1:26:33.76,Default,,0,0,0,,Mais\Nconnaissez la musique.  Ouais.  Et
+Dialogue: 0,1:26:12.00,1:26:18.76,Default,,0,0,0,,Fils et le Saint-Esprit, et de tout ce qui\Nest très saint.  Amen.
+Dialogue: 0,1:26:19.67,1:26:25.40,Default,,0,0,0,,Je suis très reconnaissant.\NMais
+Dialogue: 0,1:26:27.36,1:26:33.76,Default,,0,0,0,,vous alliez essayer de le faire là où vous\Nconnaissez la musique.  Ouais.  Et
 Dialogue: 0,1:26:33.76,1:26:36.88,Default,,0,0,0,,veuillez vous rendre au bord de la scène.  Nous\Nallons faire quoi ?
 Dialogue: 0,1:26:36.88,1:26:41.52,Default,,0,0,0,,Allez, on va aller devant\N.
-Dialogue: 0,1:26:41.52,1:27:03.44,Default,,0,0,0,,Oh, vous devez me dire où aller.\NEuh,
+Dialogue: 0,1:26:41.52,1:26:49.00,Default,,0,0,0,,Oh, vous devez me dire où aller.\NEuh,
+Dialogue: 0,1:26:52.00,1:27:03.44,Default,,0,0,0,,vous n'êtes pas\Nici.  Nous allons monter ici pour que
 Dialogue: 0,1:27:03.44,1:27:05.84,Default,,0,0,0,,tout le monde puisse prendre des photos s'il le\Nsouhaite.
 Dialogue: 0,1:27:05.84,1:27:08.23,Default,,0,0,0,,Oh.  Oh.\NEt tu vas bénir tout le monde.
-Dialogue: 0,1:27:08.23,1:27:35.76,Default,,0,0,0,,Oh, que Dieu vous bénisse tous.  Waouh.\NInternet.  Tu ferais mieux de bien te comporter.
+Dialogue: 0,1:27:08.23,1:27:25.12,Default,,0,0,0,,Oh, que Dieu vous bénisse tous.  Waouh.\NCes photos circulent maintenant sur
+Dialogue: 0,1:27:25.12,1:27:35.76,Default,,0,0,0,,Internet.  Tu ferais mieux de bien te comporter.\NEh bien, nous sommes tous
 Dialogue: 0,1:27:35.76,1:27:39.76,Default,,0,0,0,,bénis par Saint Bobblehead.   Figurine à tête\Nbranlante de Saint.
 Dialogue: 0,1:27:39.76,1:27:43.44,Default,,0,0,0,,Merci.\NMerci, docteur.   D'accord
 Dialogue: 0,1:27:43.44,1:27:45.44,Default,,0,0,0,,.  Oui.\NMerci.
-Dialogue: 0,1:27:45.44,1:28:02.15,Default,,0,0,0,,Oui, je comprends ce que vous voulez dire.\NDieu bénisse.   Que
+Dialogue: 0,1:27:45.44,1:27:50.88,Default,,0,0,0,,Oui, je comprends ce que vous voulez dire.\NOui.   Que
+Dialogue: 0,1:27:50.88,1:27:56.23,Default,,0,0,0,,Dieu bénisse.   Que\NDieu bénisse.   Que
+Dialogue: 0,1:27:56.23,1:28:02.15,Default,,0,0,0,,Dieu bénisse.   Que\NDieu bénisse.   Que
 Dialogue: 0,1:28:02.15,1:28:04.80,Default,,0,0,0,,Dieu bénisse.   Que\NDieu bénisse.
-Dialogue: 0,1:28:04.80,1:28:15.92,Default,,0,0,0,,Regardez toutes ces belles personnes.\NRegardez comme elles sont belles.
-Dialogue: 0,1:28:15.92,1:28:22.63,Default,,0,0,0,,La divinité intérieure rayonne.\NL'amour que vous ressentez est donc un amour agapè.
-Dialogue: 0,1:28:22.63,1:28:28.56,Default,,0,0,0,,C'est un\Namour impersonnel et inconditionnel.
-Dialogue: 0,1:28:28.56,1:28:41.36,Default,,0,0,0,,rayonne du cœur de l'homme.\Nsavez-vous que les arbres se rendent compte de notre passage
+Dialogue: 0,1:28:04.80,1:28:12.04,Default,,0,0,0,,Regardez toutes ces belles personnes.\NRegardez comme elles sont belles.
+Dialogue: 0,1:28:12.40,1:28:20.32,Default,,0,0,0,,Merci beaucoup.\NLa divinité intérieure rayonne.
+Dialogue: 0,1:28:20.32,1:28:24.96,Default,,0,0,0,,L'amour que vous ressentez est donc un amour agapè.\NC'est un
+Dialogue: 0,1:28:24.96,1:28:33.71,Default,,0,0,0,,amour impersonnel et inconditionnel.\Nrayonne du cœur de l'homme.
+Dialogue: 0,1:28:35.28,1:28:41.36,Default,,0,0,0,,Lorsque nous nous promenons dans les bois,\Nsavez-vous que les arbres se rendent compte de notre passage
 Dialogue: 0,1:28:41.36,1:28:46.96,Default,,0,0,0,,?\NOù est-elle ?
 Dialogue: 0,1:28:46.96,1:28:54.08,Default,,0,0,0,,Oh, j'ai besoin de la maîtresse de maison.\NVenez ici immédiatement, s'il vous plaît.
-Dialogue: 0,1:28:54.08,1:29:05.12,Default,,0,0,0,,Ou bien.\N, je veux démontrer l'universalité
-Dialogue: 0,1:29:05.12,1:29:11.84,Default,,0,0,0,,de la conscience divine.\ND'accord, je veux poser cette question.  Euh,
-Dialogue: 0,1:29:11.84,1:29:19.52,Default,,0,0,0,,quand vous marchez dans les bois,\Nles arbres le savent et sont conscients de
-Dialogue: 0,1:29:19.52,1:29:31.36,Default,,0,0,0,,votre passage.  Résister.\NUn arbre est sourd, muet et aveugle.  Comment le
-Dialogue: 0,1:29:31.36,1:29:44.23,Default,,0,0,0,,sait-\Non ?  L'arbre sait que vous êtes là.
-Dialogue: 0,1:29:44.23,1:29:48.08,Default,,0,0,0,,Une fois, alors que j'étais dans un\Nétat second, en marchant dans les
-Dialogue: 0,1:29:48.08,1:30:02.80,Default,,0,0,0,,bois, j'ai eu l'impression que les arbres s'agenouillaient presque.\NJ'ai dit : « Oh mon Dieu ! »
+Dialogue: 0,1:28:54.08,1:29:01.44,Default,,0,0,0,,Ou bien.\ND'accord, elle est distraite par des choses.   Eh bien
+Dialogue: 0,1:29:01.44,1:29:08.48,Default,,0,0,0,,, je veux démontrer l'universalité\Nde la conscience divine.
+Dialogue: 0,1:29:08.48,1:29:14.96,Default,,0,0,0,,D'accord, je veux poser cette question.  Euh,\Nquand vous marchez dans les bois,
+Dialogue: 0,1:29:14.96,1:29:24.44,Default,,0,0,0,,les arbres le savent et sont conscients de\Nvotre passage.  Résister.
+Dialogue: 0,1:29:24.71,1:29:31.36,Default,,0,0,0,,Comment est-ce possible ?\NUn arbre est sourd, muet et aveugle.  Comment le
+Dialogue: 0,1:29:31.36,1:29:40.44,Default,,0,0,0,,sait-\Non ?  L'arbre sait que vous êtes là.
+Dialogue: 0,1:29:40.96,1:29:46.48,Default,,0,0,0,,Incroyable, n'est-ce pas ?\NUne fois, alors que j'étais dans un
+Dialogue: 0,1:29:46.48,1:29:52.48,Default,,0,0,0,,état second, en marchant dans les\Nbois, j'ai eu l'impression que les arbres s'agenouillaient presque.
+Dialogue: 0,1:29:52.48,1:30:02.80,Default,,0,0,0,,J'ai dit : « Oh mon Dieu ! »\NPuis j'ai réalisé
 Dialogue: 0,1:30:02.80,1:30:08.15,Default,,0,0,0,,que j'étais consciente de la divinité de la\Nvie au sein de l'arbre.
 Dialogue: 0,1:30:08.15,1:30:13.76,Default,,0,0,0,,L'arbre reconnaissait simplement\Nma conscience de sa propre divinité.
 Dialogue: 0,1:30:13.76,1:30:21.04,Default,,0,0,0,,L'essence de la vie est la divinité.\NAinsi, la vie, telle qu'elle s'exprime à travers un arbre, telle qu'elle est
-Dialogue: 0,1:30:21.04,1:30:34.63,Default,,0,0,0,,humaine, est simplement la vie.\NMême un petit moustique est vivant. La
-Dialogue: 0,1:30:34.63,1:30:40.23,Default,,0,0,0,,et, inconsciemment, sans\Nrien dire, reconnaît qu'elle est un
-Dialogue: 0,1:30:40.23,1:30:44.32,Default,,0,0,0,,reflet de la divinité.\NSachez donc que lorsque vous vous promenez dans les
-Dialogue: 0,1:30:44.32,1:30:50.48,Default,,0,0,0,,bois, tous les arbres savent qui vous\Nêtes vraiment.
-Dialogue: 0,1:30:50.48,1:30:55.36,Default,,0,0,0,,C'est un fait. Cela\Namplifie en quelque sorte
-Dialogue: 0,1:30:55.36,1:31:02.40,Default,,0,0,0,,la signification de votre propre existence,\Ncar où que vous alliez, vous rayonnez de
-Dialogue: 0,1:31:02.40,1:31:09.12,Default,,0,0,0,,cette lumière. J'habitais à New\NYork, dans l'Upper East Side, et j'avais
-Dialogue: 0,1:31:09.12,1:31:13.60,Default,,0,0,0,,un trajet précis à suivre chaque jour. J'étais\Ndans un état second à cette époque,
-Dialogue: 0,1:31:13.60,1:31:17.76,Default,,0,0,0,,et lorsque je marchais dans la rue, les arbres endormis au bout de\Nla route commençaient à
-Dialogue: 0,1:31:17.76,1:31:22.56,Default,,0,0,0,,rayonner, et partout où j'allais, les gens\Nrayonnaient. Même en entrant dans une
-Dialogue: 0,1:31:22.56,1:31:27.44,Default,,0,0,0,,quincaillerie, tout brillait\N. C'est parce que lorsque vous êtes dans un
-Dialogue: 0,1:31:27.44,1:31:32.32,Default,,0,0,0,,état second…  En gros, il s'agit de rayonner cette\Nénergie, et les gens ressentent une
-Dialogue: 0,1:31:32.32,1:31:36.56,Default,,0,0,0,,joie immense quand vous vous approchez d'eux, comme le\Nportier. Vous le regardez, il prend un plaisir évident à
-Dialogue: 0,1:31:36.56,1:31:41.67,Default,,0,0,0,,vous ouvrir la porte. Il ne\Nsait pas pourquoi. Tout cela
-Dialogue: 0,1:31:41.67,1:31:45.28,Default,,0,0,0,,dépasse l'entendement.\NC'est ce champ énergétique dont nous
-Dialogue: 0,1:31:45.28,1:31:53.36,Default,,0,0,0,,parlions aujourd'hui. Ce champ énergétique\Nélève les consciences et rayonne. Alors, les
-Dialogue: 0,1:31:53.36,1:32:05.12,Default,,0,0,0,,gens se demandent\h: «\hQue puis-je faire pour aider le\Nmonde\h?\h» Et je réponds\h: «\hSoyez simplement vous-même.\h»   Être soi-même, c'est ce qui
+Dialogue: 0,1:30:21.04,1:30:29.00,Default,,0,0,0,,humaine, est simplement la vie.\NMême un petit moustique est vivant. La
+Dialogue: 0,1:30:31.44,1:30:37.12,Default,,0,0,0,,vie reconnaît donc la vie\Net, inconsciemment, sans
+Dialogue: 0,1:30:37.12,1:30:42.56,Default,,0,0,0,,rien dire, reconnaît qu'elle est un\Nreflet de la divinité.
+Dialogue: 0,1:30:42.56,1:30:48.00,Default,,0,0,0,,Sachez donc que lorsque vous vous promenez dans les\Nbois, tous les arbres savent qui vous
+Dialogue: 0,1:30:48.00,1:30:53.52,Default,,0,0,0,,êtes vraiment.\NC'est un fait. Cela
+Dialogue: 0,1:30:53.52,1:30:58.63,Default,,0,0,0,,amplifie en quelque sorte\Nla signification de votre propre existence,
+Dialogue: 0,1:30:58.63,1:31:05.52,Default,,0,0,0,,car où que vous alliez, vous rayonnez de\Ncette lumière. J'habitais à New
+Dialogue: 0,1:31:05.52,1:31:10.96,Default,,0,0,0,,York, dans l'Upper East Side, et j'avais\Nun trajet précis à suivre chaque jour. J'étais
+Dialogue: 0,1:31:10.96,1:31:15.52,Default,,0,0,0,,dans un état second à cette époque,\Net lorsque je marchais dans la rue, les arbres endormis au bout de
+Dialogue: 0,1:31:15.52,1:31:20.71,Default,,0,0,0,,la route commençaient à\Nrayonner, et partout où j'allais, les gens
+Dialogue: 0,1:31:20.71,1:31:24.88,Default,,0,0,0,,rayonnaient. Même en entrant dans une\Nquincaillerie, tout brillait
+Dialogue: 0,1:31:24.88,1:31:30.23,Default,,0,0,0,,. C'est parce que lorsque vous êtes dans un\Nétat second…  En gros, il s'agit de rayonner cette
+Dialogue: 0,1:31:30.23,1:31:34.71,Default,,0,0,0,,énergie, et les gens ressentent une\Njoie immense quand vous vous approchez d'eux, comme le
+Dialogue: 0,1:31:34.71,1:31:39.19,Default,,0,0,0,,portier. Vous le regardez, il prend\Nplaisir à vous ouvrir la porte. Il ne
+Dialogue: 0,1:31:39.19,1:31:43.60,Default,,0,0,0,,sait pas pourquoi. Tout cela\Ndépasse l'entendement.
+Dialogue: 0,1:31:43.60,1:31:48.40,Default,,0,0,0,,C'est ce champ énergétique dont nous\Nparlions aujourd'hui. Ce champ énergétique
+Dialogue: 0,1:31:48.40,1:31:55.67,Default,,0,0,0,,élève et rayonne. Alors\Nles gens se demandent : « Que puis-je faire pour aider le
+Dialogue: 0,1:31:55.67,1:32:05.12,Default,,0,0,0,,monde ? » Et je réponds : « Soyez simplement vous-même. »   Être soi-même, c'est ce qui\Nélève le monde, bon sang !
 Dialogue: 0,1:32:05.12,1:32:08.63,Default,,0,0,0,,Sans vous tous ici, le\Nmonde s'effondrerait dans l'
-Dialogue: 0,1:32:08.63,1:32:16.56,Default,,0,0,0,,océan, n'est-ce pas ?\NSalutations et amour d'Australie.
-Dialogue: 0,1:32:16.56,1:32:18.08,Default,,0,0,0,,Que dit-il ?\ND'Australie.
-Dialogue: 0,1:32:18.08,1:32:21.92,Default,,0,0,0,,Il a dit : « Salutations et amour d'\NAustralie. » Oh, d'Australie. Oh, que Dieu
-Dialogue: 0,1:32:21.92,1:32:24.08,Default,,0,0,0,,nous bénisse.\NNous vous aimons. Que
-Dialogue: 0,1:32:24.08,1:32:27.84,Default,,0,0,0,,Dieu vous bénisse tous d'Australie.\NC'est un long voyage.
-Dialogue: 0,1:32:27.84,1:32:32.08,Default,,0,0,0,,Je n'ai jamais eu l'occasion d'aller en\NAustralie.
-Dialogue: 0,1:32:32.08,1:32:36.63,Default,,0,0,0,,J'adorerais y aller juste pour voir les\Nkangourous. Rien d'autre.
-Dialogue: 0,1:32:36.63,1:32:46.32,Default,,0,0,0,,J'ai passé un excellent séjour\Nen Australie.
-Dialogue: 0,1:32:46.32,1:33:04.88,Default,,0,0,0,,temps de partir.\ND'accord. C'est l'heure. Merci encore infiniment. Je suis vraiment béni
-Dialogue: 0,1:33:04.88,1:33:10.56,Default,,0,0,0,,béni par votre présence. Je suis\Nprofondément béni par votre présence. Je
-Dialogue: 0,1:33:10.56,1:33:21.36,Default,,0,0,0,,vous remercie maintenant et pour toujours, car nous serons ensemble pour\Ntoujours pendant de nombreux éons.
-Dialogue: 0,1:33:21.36,1:33:52.32,Default,,0,0,0,,vous bénisse.\ND'accord, tenez. J'ai un stylo ici.
-Dialogue: 0,1:33:52.32,1:34:05.40,Default,,0,0,0,,Alléluia.\NAlléluia. Alléluia
+Dialogue: 0,1:32:08.63,1:32:13.60,Default,,0,0,0,,océan, n'est-ce pas ?\NTrès bien.
+Dialogue: 0,1:32:13.60,1:32:17.28,Default,,0,0,0,,Salutations et amour d'Australie.\NQue dit-il ?
+Dialogue: 0,1:32:17.28,1:32:19.36,Default,,0,0,0,,D'Australie.\NIl a dit : « Salutations et amour d'
+Dialogue: 0,1:32:19.36,1:32:22.88,Default,,0,0,0,,Australie. » Oh, d'Australie. Oh, que Dieu\Nnous bénisse.
+Dialogue: 0,1:32:22.88,1:32:26.80,Default,,0,0,0,,Nous vous aimons. Que\NDieu vous bénisse tous d'Australie.
+Dialogue: 0,1:32:26.80,1:32:29.60,Default,,0,0,0,,C'est un long voyage.\NJe n'ai jamais eu l'occasion d'aller en
+Dialogue: 0,1:32:29.60,1:32:33.84,Default,,0,0,0,,Australie.\NJ'adorerais y aller juste pour voir les
+Dialogue: 0,1:32:33.84,1:32:40.15,Default,,0,0,0,,kangourous. Rien d'autre.\NJ'ai passé un excellent séjour
+Dialogue: 0,1:32:40.15,1:32:46.32,Default,,0,0,0,,en Australie.\ND'accord. Que faisons-nous maintenant ? Il est
+Dialogue: 0,1:32:46.32,1:32:52.32,Default,,0,0,0,,temps de partir.\ND'accord. C'est l'heure. Merci encore infiniment. Je suis vraiment béni
+Dialogue: 0,1:33:01.44,1:33:07.28,Default,,0,0,0,,. Je suis vraiment\Nbéni par votre présence. Je suis
+Dialogue: 0,1:33:07.28,1:33:13.36,Default,,0,0,0,,profondément béni par votre présence. Je\Nvous remercie maintenant et pour toujours, car nous serons ensemble pour
+Dialogue: 0,1:33:13.36,1:33:21.36,Default,,0,0,0,,toujours pendant de nombreux éons.\NMerci encore. Que Dieu
+Dialogue: 0,1:33:21.36,1:33:41.36,Default,,0,0,0,,vous bénisse.\NOh, j'en ai probablement oublié un.
+Dialogue: 0,1:33:41.36,1:33:52.32,Default,,0,0,0,,D'accord, tenez. J'ai un stylo ici.\NAlléluia.
+Dialogue: 0,1:33:52.32,1:34:00.40,Default,,0,0,0,,Alléluia.\NAlléluia.
+Dialogue: 0,1:34:00.40,1:34:09.32,Default,,0,0,0,,Alléluia. Alléluia\N. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia. Alléluia.
+Dialogue: 0,1:35:38.80,1:35:56.52,Default,,0,0,0,,Glorieux. Alléluia\N.
+Dialogue: 0,1:36:05.19,1:36:08.19,Default,,0,0,0,,Alléluia.
