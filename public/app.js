@@ -465,6 +465,11 @@ document.getElementById("autoplay-cb").addEventListener("change", async () => {
     await api("/api/autoplay", { method: "POST" });
   } catch {}
 });
+document.getElementById("loop-cb").addEventListener("change", async () => {
+  try {
+    await api("/api/loop", { method: "POST" });
+  } catch {}
+});
 
 // Audio sync
 const delayValue = document.getElementById("delay-value");
@@ -767,6 +772,9 @@ function updateStatusUI(data) {
 
   if (data.autoplay !== undefined) {
     document.getElementById("autoplay-cb").checked = data.autoplay;
+  }
+  if (data.loop !== undefined) {
+    document.getElementById("loop-cb").checked = data.loop;
   }
 
   // Update document title

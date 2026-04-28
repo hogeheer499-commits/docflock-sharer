@@ -242,6 +242,12 @@ async def api_autoplay():
     return {"autoplay": player.autoplay}
 
 
+@app.post("/api/loop")
+async def api_loop():
+    player.loop = not player.loop
+    return {"loop": player.loop}
+
+
 @app.post("/api/next")
 async def api_next():
     if not player.status.video_id:

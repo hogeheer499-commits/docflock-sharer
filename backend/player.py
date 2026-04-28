@@ -502,6 +502,7 @@ class Player:
         self._target_position: float | None = None
         self.audio_delay_ms: int = -60  # Default: -60ms compensates for FFmpeg→v4l2 pipeline latency
         self.autoplay: bool = True
+        self.loop: bool = False
         self.queue: list[dict] = []  # Temporary session queue: [{"video_id": ..., "languages": [...], "title": ...}]
 
     async def _kill_orphaned_ffmpeg(self):
@@ -707,6 +708,11 @@ class Player:
 
             # FFmpeg exited — play next from queue, autoplay, or stop
             if self.status.state in (State.PLAYING, State.LOADING):
+                if self.loop and self.status.video_id:
+                    asyncio.get_event_loop().create_task(
+                        self._autoplay_next(self.status.video_id, self.status.languages)
+                    )
+                    return
                 # Queue takes priority over regular autoplay
                 if self.queue:
                     next_item = self.queue.pop(0)
@@ -800,6 +806,7 @@ class Player:
     def get_status(self) -> dict:
         d = self.status.to_dict()
         d["autoplay"] = self.autoplay
+        d["loop"] = self.loop
         d["queue"] = self.queue
         # Include available languages for the current video
         if self.status.video_id:
