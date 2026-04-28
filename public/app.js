@@ -771,11 +771,11 @@ function updateStatusUI(data) {
 
   // Update document title
   if (data.state === "playing" && data.title) {
-    document.title = "\u25B6 " + data.title + " \u2014 Doc Flock Remote";
+    document.title = "\u25B6 " + data.title + " \u2014 Doc Remote";
   } else if (data.state === "paused" && data.title) {
-    document.title = "\u23F8 " + data.title + " \u2014 Doc Flock Remote";
+    document.title = "\u23F8 " + data.title + " \u2014 Doc Remote";
   } else {
-    document.title = "Doc Flock Remote";
+    document.title = "Doc Remote";
   }
 
   // Live subtitle chips (instant apply)
