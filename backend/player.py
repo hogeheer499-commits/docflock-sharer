@@ -1,8 +1,11 @@
 import asyncio
+import importlib.util
 import logging
 import os
 import re
+import shutil
 import signal
+import sys
 from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
@@ -262,20 +265,57 @@ def get_prev_video(video_id: str) -> dict | None:
 CACHE_DIR = VIDEOS_DIR / "youtube-cache"
 
 
+def _youtube_env() -> dict[str, str]:
+    """Environment for YouTube tooling when launched from systemd."""
+    user_bin = Path.home() / ".local" / "bin"
+    deno_path = Path.home() / ".deno" / "bin"
+    path_parts = [str(user_bin), str(deno_path), os.environ.get("PATH", "")]
+    return {**os.environ, "PATH": ":".join(part for part in path_parts if part)}
+
+
+def _yt_dlp_command(env: dict[str, str]) -> list[str]:
+    configured = os.getenv("DOCFLOCK_YT_DLP")
+    if configured:
+        return [configured]
+
+    yt_dlp_bin = shutil.which("yt-dlp", path=env["PATH"])
+    if yt_dlp_bin:
+        return [yt_dlp_bin]
+
+    if importlib.util.find_spec("yt_dlp") is not None:
+        return [sys.executable, "-m", "yt_dlp"]
+
+    raise RuntimeError(
+        "yt-dlp is niet gevonden. Installeer de backend dependencies opnieuw: "
+        "backend/.venv/bin/pip install -r backend/requirements.txt"
+    )
+
+
+async def _run_yt_dlp(*args: str, stdout=asyncio.subprocess.DEVNULL) -> bytes:
+    env = _youtube_env()
+    cmd = _yt_dlp_command(env)
+    proc = await asyncio.create_subprocess_exec(
+        *cmd, "--remote-components", "ejs:github", *args,
+        stdout=stdout,
+        stderr=asyncio.subprocess.PIPE,
+        env=env,
+    )
+    stdout_data, stderr_data = await proc.communicate()
+    if proc.returncode != 0:
+        stderr_text = stderr_data.decode(errors="replace").strip()
+        if len(stderr_text) > 500:
+            stderr_text = stderr_text[-500:]
+        raise RuntimeError(stderr_text or f"yt-dlp failed with exit code {proc.returncode}")
+    return stdout_data or b""
+
+
 async def get_playlist_info(url: str) -> list[dict]:
     """Get list of video IDs and titles from a YouTube playlist."""
-    deno_path = Path.home() / ".deno" / "bin"
-    env = {**os.environ, "PATH": f"{deno_path}:{os.environ.get('PATH', '')}"}
-
-    proc = await asyncio.create_subprocess_exec(
-        "yt-dlp", "--remote-components", "ejs:github",
+    stdout = await _run_yt_dlp(
         "--flat-playlist", "--print", "%(id)s\t%(title)s",
         url,
         stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.DEVNULL,
-        env=env,
     )
-    stdout, _ = await proc.communicate()
     items = []
     for line in stdout.decode().strip().split("\n"):
         if "\t" in line:
@@ -286,12 +326,13 @@ async def get_playlist_info(url: str) -> list[dict]:
 
 async def download_youtube(url: str) -> dict | None:
     """Download a YouTube video to cache. Returns video dict or None."""
-    CACHE_DIR.mkdir(exist_ok=True)
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
     # Extract video ID
     import urllib.parse
     parsed = urllib.parse.urlparse(url)
-    if "youtu.be" in parsed.hostname:
+    hostname = parsed.hostname or ""
+    if "youtu.be" in hostname:
         vid_id = parsed.path.strip("/")
     else:
         vid_id = urllib.parse.parse_qs(parsed.query).get("v", [""])[0]
@@ -322,25 +363,15 @@ async def download_youtube(url: str) -> dict | None:
     folder.mkdir(exist_ok=True)
     (folder / "subs").mkdir(exist_ok=True)
 
-    # Download video
-    deno_path = Path.home() / ".deno" / "bin"
-    env = {**os.environ, "PATH": f"{deno_path}:{os.environ.get('PATH', '')}"}
-
-    # Download video and get title in one call
     # Download video + print title in one call
-    proc = await asyncio.create_subprocess_exec(
-        "yt-dlp", "--remote-components", "ejs:github",
+    await _run_yt_dlp(
         "-f", "bestvideo[height<=720]+bestaudio/best[height<=720]",
         "--merge-output-format", "mp4",
         "--no-playlist",
         "-o", str(video_file),
         "--print-to-file", "%(title)s", str(folder / "title.txt"),
         url,
-        stdout=asyncio.subprocess.DEVNULL,
-        stderr=asyncio.subprocess.DEVNULL,
-        env=env,
     )
-    await proc.communicate()
 
     title_file = folder / "title.txt"
     title = title_file.read_text().strip() if title_file.exists() else vid_id
@@ -352,22 +383,17 @@ async def download_youtube(url: str) -> dict | None:
     # Download subtitles in background (don't block playback)
     async def _download_subs():
         try:
-            sub_proc = await asyncio.create_subprocess_exec(
-                "yt-dlp", "--remote-components", "ejs:github",
+            await _run_yt_dlp(
                 "--write-auto-sub", "--sub-lang", "en",
                 "--sub-format", "json3", "--skip-download",
                 "-o", str(folder / "sub"),
                 url,
-                stdout=asyncio.subprocess.DEVNULL,
-                stderr=asyncio.subprocess.DEVNULL,
-                env=env,
             )
-            await sub_proc.communicate()
             json3_file = folder / "sub.en.json3"
             if json3_file.exists():
                 converter = Path(__file__).parent.parent / "scripts" / "json3_to_ass.py"
                 conv_proc = await asyncio.create_subprocess_exec(
-                    "python3", str(converter), "--style", "plain",
+                    sys.executable, str(converter), "--style", "plain",
                     str(json3_file), str(folder / "subs" / "en.ass"),
                     stdout=asyncio.subprocess.DEVNULL,
                     stderr=asyncio.subprocess.DEVNULL,

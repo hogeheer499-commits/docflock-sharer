@@ -17,8 +17,8 @@ apt-get install -y -qq ffmpeg v4l2loopback-dkms pulseaudio python3-pip python3-v
 
 # --- yt-dlp ---
 echo "[2/6] yt-dlp installeren..."
-sudo -u "$ACTUAL_USER" pip3 install --user --break-system-packages yt-dlp 2>/dev/null || \
-  pip3 install --break-system-packages yt-dlp
+sudo -u "$ACTUAL_USER" pip3 install --user --break-system-packages -U yt-dlp 2>/dev/null || \
+  pip3 install --break-system-packages -U yt-dlp
 
 # --- v4l2loopback ---
 echo "[3/6] v4l2loopback configureren..."
@@ -83,6 +83,7 @@ Environment=PULSE_SINK=virtual_speaker
 Environment=DOCFLOCK_HOST=127.0.0.1
 Environment=DOCFLOCK_PORT=8910
 Environment=DOCFLOCK_VIDEOS_DIR=$VIDEOS_DIR
+Environment=PATH=/home/$ACTUAL_USER/.local/bin:/home/$ACTUAL_USER/.deno/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 [Install]
 WantedBy=multi-user.target
