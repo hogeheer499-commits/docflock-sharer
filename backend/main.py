@@ -239,12 +239,16 @@ async def api_get_delay():
 @app.post("/api/autoplay")
 async def api_autoplay():
     player.autoplay = not player.autoplay
+    if player.autoplay:
+        player.loop = False
     return {"autoplay": player.autoplay}
 
 
 @app.post("/api/loop")
 async def api_loop():
     player.loop = not player.loop
+    if player.loop:
+        player.autoplay = False
     return {"loop": player.loop}
 
 
@@ -325,12 +329,14 @@ _zoom_mic_muted = False
 _zoom_cam_off = False
 
 async def _xdotool_zoom_key(key: str):
-    """Send a key to the Zoom Meeting window via xdotool."""
+    """Focus the Zoom meeting, dismiss overlays, then send a Zoom shortcut."""
     import os
     env = os.environ.copy()
     env["DISPLAY"] = ":1"
-    # Find a Zoom window that accepts keyboard shortcuts
-    for name in ["Zoom Meeting", "Zoom Workplace"]:
+
+    # Prefer the actual meeting window; fall back to Zoom Workplace.
+    window_ids: list[str] = []
+    for name in ["Zoom Meeting", "zoom Meeting", "Zoom Workplace"]:
         find = await asyncio.create_subprocess_exec(
             "xdotool", "search", "--name", name,
             stdout=asyncio.subprocess.PIPE,
@@ -344,9 +350,32 @@ async def _xdotool_zoom_key(key: str):
     if not window_ids:
         raise HTTPException(503, "Zoom window not found")
     wid = window_ids[0]
-    proc = await asyncio.create_subprocess_exec(
-        "xdotool", "key", "--window", wid, key,
+
+    activate = await asyncio.create_subprocess_exec(
+        "xdotool", "windowactivate", "--sync", wid,
         env=env,
+        stdout=asyncio.subprocess.DEVNULL,
+        stderr=asyncio.subprocess.DEVNULL,
+    )
+    await activate.wait()
+
+    # Close transient Zoom dialogs/popovers that steal shortcuts.
+    for _ in range(2):
+        esc = await asyncio.create_subprocess_exec(
+            "xdotool", "key", "Escape",
+            env=env,
+            stdout=asyncio.subprocess.DEVNULL,
+            stderr=asyncio.subprocess.DEVNULL,
+        )
+        await esc.wait()
+        await asyncio.sleep(0.1)
+
+    await asyncio.sleep(0.15)
+    proc = await asyncio.create_subprocess_exec(
+        "xdotool", "key", key,
+        env=env,
+        stdout=asyncio.subprocess.DEVNULL,
+        stderr=asyncio.subprocess.DEVNULL,
     )
     await proc.wait()
 

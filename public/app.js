@@ -463,11 +463,13 @@ document.getElementById("next-btn").addEventListener("click", async () => {
 document.getElementById("autoplay-cb").addEventListener("change", async () => {
   try {
     await api("/api/autoplay", { method: "POST" });
+    fetchStatus();
   } catch {}
 });
 document.getElementById("loop-cb").addEventListener("change", async () => {
   try {
     await api("/api/loop", { method: "POST" });
+    fetchStatus();
   } catch {}
 });
 

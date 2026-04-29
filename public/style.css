@@ -382,8 +382,7 @@ body {
 .bottom-controls {
   display: flex;
   align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
+  gap: 18px;
 }
 
 .autoplay-toggle {
@@ -393,16 +392,18 @@ body {
   font-size: 13px;
   color: var(--text-secondary);
   cursor: pointer;
-  flex: 1 1 140px;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .autoplay-toggle input { accent-color: var(--accent); }
 
 .loop-toggle {
-  flex: 0 1 90px;
+  margin-left: 0;
 }
 
 .btn-stop {
+  margin-left: auto;
   min-height: 44px;
   padding: 10px 16px;
   border: 1px solid var(--border);
