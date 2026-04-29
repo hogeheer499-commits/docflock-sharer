@@ -329,14 +329,12 @@ _zoom_mic_muted = False
 _zoom_cam_off = False
 
 async def _xdotool_zoom_key(key: str):
-    """Focus the Zoom meeting, dismiss overlays, then send a Zoom shortcut."""
+    """Send a key to the Zoom Meeting window via xdotool."""
     import os
     env = os.environ.copy()
     env["DISPLAY"] = ":1"
-
-    # Prefer the actual meeting window; fall back to Zoom Workplace.
-    window_ids: list[str] = []
-    for name in ["Zoom Meeting", "zoom Meeting", "Zoom Workplace"]:
+    # Find a Zoom window that accepts keyboard shortcuts
+    for name in ["Zoom Meeting", "Zoom Workplace"]:
         find = await asyncio.create_subprocess_exec(
             "xdotool", "search", "--name", name,
             stdout=asyncio.subprocess.PIPE,
@@ -350,7 +348,35 @@ async def _xdotool_zoom_key(key: str):
     if not window_ids:
         raise HTTPException(503, "Zoom window not found")
     wid = window_ids[0]
+    proc = await asyncio.create_subprocess_exec(
+        "xdotool", "key", "--window", wid, key,
+        env=env,
+    )
+    await proc.wait()
 
+
+async def _dismiss_zoom_transcription_notice():
+    """Dismiss Zoom's transcription notice after joining, if it appears."""
+    import os
+    env = os.environ.copy()
+    env["DISPLAY"] = ":1"
+
+    await asyncio.sleep(8)
+    for name in ["Zoom Meeting", "Zoom Workplace"]:
+        find = await asyncio.create_subprocess_exec(
+            "xdotool", "search", "--name", name,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+            env=env,
+        )
+        stdout, _ = await find.communicate()
+        window_ids = [w for w in stdout.decode().strip().split("\n") if w]
+        if window_ids:
+            break
+    else:
+        return
+
+    wid = window_ids[0]
     activate = await asyncio.create_subprocess_exec(
         "xdotool", "windowactivate", "--sync", wid,
         env=env,
@@ -359,20 +385,8 @@ async def _xdotool_zoom_key(key: str):
     )
     await activate.wait()
 
-    # Close transient Zoom dialogs/popovers that steal shortcuts.
-    for _ in range(2):
-        esc = await asyncio.create_subprocess_exec(
-            "xdotool", "key", "Escape",
-            env=env,
-            stdout=asyncio.subprocess.DEVNULL,
-            stderr=asyncio.subprocess.DEVNULL,
-        )
-        await esc.wait()
-        await asyncio.sleep(0.1)
-
-    await asyncio.sleep(0.15)
     proc = await asyncio.create_subprocess_exec(
-        "xdotool", "key", key,
+        "xdotool", "key", "Return",
         env=env,
         stdout=asyncio.subprocess.DEVNULL,
         stderr=asyncio.subprocess.DEVNULL,
@@ -407,6 +421,7 @@ async def api_zoom_join():
         env=env,
     )
     await proc.wait()
+    asyncio.create_task(_dismiss_zoom_transcription_notice())
     return {"joined": True, "meeting_id": ZOOM_MEETING_ID}
 
 
