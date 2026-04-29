@@ -500,7 +500,7 @@ class Player:
         self._progress_task: asyncio.Task | None = None
         self._seek_offset: float = 0
         self._target_position: float | None = None
-        self.audio_delay_ms: int = -60  # Default: -60ms compensates for FFmpeg→v4l2 pipeline latency
+        self.audio_delay_ms: int = 0
         self.autoplay: bool = True
         self.loop: bool = False
         self.queue: list[dict] = []  # Temporary session queue: [{"video_id": ..., "languages": [...], "title": ...}]
