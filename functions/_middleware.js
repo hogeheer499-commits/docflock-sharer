@@ -3,6 +3,12 @@ export async function onRequest(context) {
   const { request, env, next } = context;
   const url = new URL(request.url);
 
+  // Redirect old domain to new domain
+  if (url.hostname === "docfamily.hogeheer499.nl") {
+    url.hostname = "docremote.hogeheer499.nl";
+    return Response.redirect(url.toString(), 301);
+  }
+
   // Skip auth check for the auth endpoint itself and for static files
   if (url.pathname === "/api/auth" || !url.pathname.startsWith("/api/")) {
     return next();
