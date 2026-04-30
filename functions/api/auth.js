@@ -19,7 +19,7 @@ export async function onRequestPost(context) {
       return Response.json({ error: "Invalid PIN" }, { status: 401 });
     }
 
-    const expiry = Date.now() + 24 * 60 * 60 * 1000;
+    const expiry = Date.now() + 30 * 24 * 60 * 60 * 1000;
     const randomBytes = new Uint8Array(32);
     crypto.getRandomValues(randomBytes);
     const tokenData = Array.from(randomBytes)
