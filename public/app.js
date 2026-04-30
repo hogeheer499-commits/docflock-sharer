@@ -1029,54 +1029,6 @@ zoomCamBtn.addEventListener("click", async () => {
   } catch {}
 });
 
-// === Eric-proof: graceful End Meeting ===
-const endZoomBtn = document.getElementById("end-zoom-btn");
-endZoomBtn.addEventListener("click", async () => {
-  if (!confirm(
-    "END the Zoom meeting for everyone?\n\n" +
-    "This sends Alt+Q → 'End Meeting for All' to Zoom on the Beelink. " +
-    "Only use this if Hoge Heer accidentally became host and the meeting " +
-    "wasn't ended after everyone left."
-  )) return;
-  if (!confirm(
-    "Are you REALLY sure?\n\n" +
-    "All remaining participants will be disconnected."
-  )) return;
-
-  endZoomBtn.disabled = true;
-  const original = endZoomBtn.textContent;
-  let countdown = 15;
-  const render = () => {
-    endZoomBtn.textContent = `Ending meeting... ${countdown}s`;
-  };
-  render();
-  const tick = setInterval(() => {
-    countdown -= 1;
-    if (countdown <= 0) {
-      endZoomBtn.textContent = "Ending meeting...";
-      clearInterval(tick);
-    } else {
-      render();
-    }
-  }, 1000);
-
-  try {
-    await api("/api/zoom/end-meeting", { method: "POST" });
-    clearInterval(tick);
-    endZoomBtn.textContent = "End command sent";
-    showToast("Zoom end-meeting command sent");
-    setTimeout(() => {
-      endZoomBtn.textContent = original;
-      endZoomBtn.disabled = false;
-    }, 4000);
-  } catch (err) {
-    clearInterval(tick);
-    endZoomBtn.textContent = original;
-    endZoomBtn.disabled = false;
-    showToast("Failed to end meeting");
-  }
-});
-
 // === Init ===
 if (getToken()) {
   showApp();

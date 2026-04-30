@@ -956,50 +956,6 @@ body {
 
 .logout-btn:hover { background: var(--surface-elevated); color: var(--text); }
 
-/* === Eric-proof (emergency End Meeting) === */
-.eric-proof-section {
-  display: block;
-  max-width: 520px;
-  margin: 20px auto 0;
-  padding: 0 16px;
-}
-
-.eric-proof-section summary {
-  font-size: 32px;
-  font-weight: 800;
-  color: var(--text);
-  cursor: pointer;
-  user-select: none;
-  padding: 8px 0;
-  text-align: center;
-  list-style: none;
-  line-height: 1.1;
-}
-
-.eric-proof-section summary::-webkit-details-marker { display: none; }
-.eric-proof-section summary::before { content: "▸ "; font-size: 22px; }
-.eric-proof-section[open] summary::before { content: "▾ "; }
-.eric-proof-section summary:hover { color: var(--primary); }
-.eric-proof-section[open] summary { margin-bottom: 12px; }
-
-.btn-end-zoom {
-  display: block;
-  width: 100%;
-  margin-top: 8px;
-  padding: 12px 16px;
-  background: var(--danger);
-  color: #fff;
-  border: 1px solid var(--danger);
-  border-radius: 8px;
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: filter 0.15s, opacity 0.15s;
-}
-
-.btn-end-zoom:hover { filter: brightness(1.1); }
-.btn-end-zoom:disabled { opacity: 0.6; cursor: not-allowed; }
-
 /* === Shortcuts hint === */
 .shortcuts-hint {
   text-align: center;
