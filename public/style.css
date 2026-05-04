@@ -135,8 +135,9 @@ body {
 /* === Zoom Controls === */
 .zoom-controls {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .zoom-btn {
@@ -173,11 +174,50 @@ body {
 
 .zoom-btn.zoom-toggle:hover { background: #374151; }
 
-.zoom-btn.zoom-toggle.flash {
+.zoom-btn.zoom-leave {
+  background: #B91C1C;
+  border: 1px solid #B91C1C;
+  color: #fff;
+}
+
+.zoom-btn.zoom-leave:hover { background: #991B1B; }
+
+.zoom-btn.zoom-toggle.flash,
+.zoom-btn.zoom-leave.flash {
   background: #f59e0b;
   color: #fff;
   border-color: #f59e0b;
   transition: none;
+}
+
+.zoom-btn:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.zoom-join-status {
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  border-radius: var(--radius);
+  background: rgba(37, 99, 235, 0.08);
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.zoom-join-status.ok {
+  border-color: rgba(4, 120, 87, 0.28);
+  background: rgba(4, 120, 87, 0.08);
+  color: #047857;
+}
+
+.zoom-join-status.error {
+  border-color: rgba(185, 28, 28, 0.28);
+  background: rgba(185, 28, 28, 0.08);
+  color: #b91c1c;
 }
 
 /* === Cards === */
@@ -840,6 +880,72 @@ body {
 @keyframes toast-out {
   from { opacity: 1; }
   to { opacity: 0; transform: translateY(-8px); }
+}
+
+/* === Modals === */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(15, 23, 42, 0.62);
+}
+
+.modal-box {
+  width: min(440px, 100%);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+  padding: 18px;
+}
+
+.modal-box h2 {
+  margin: 0 0 14px;
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.modal-label {
+  display: block;
+  margin: 12px 0 6px;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.modal-input,
+.modal-textarea {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-elevated);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  padding: 10px 12px;
+}
+
+.modal-textarea {
+  min-height: 76px;
+  resize: vertical;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.modal-actions .btn-primary,
+.modal-actions .btn-dismiss {
+  min-width: 96px;
 }
 
 /* === Keyboard Shortcuts Overlay === */

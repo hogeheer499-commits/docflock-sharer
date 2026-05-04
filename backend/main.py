@@ -2,7 +2,8 @@ import asyncio
 from contextlib import asynccontextmanager
 from typing import Any
 from pathlib import Path
-from fastapi import FastAPI, HTTPException
+from urllib.parse import parse_qs, urlparse
+from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response
 from fastapi.staticfiles import StaticFiles
@@ -10,6 +11,7 @@ from pydantic import BaseModel
 
 from config import HOST, PORT, ZOOM_MEETING_ID, ZOOM_PASSCODE
 from player import player, scan_videos, scan_clips, scan_music, scan_youtube_cache, get_video, get_next_video, get_prev_video, download_youtube, get_playlist_info
+from zoom_control import AutoZoomController
 
 PUBLIC_DIR = Path(__file__).parent.parent / "public"
 
@@ -30,6 +32,19 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.middleware("http")
+async def no_cache_frontend_assets(request, call_next):
+    response = await call_next(request)
+    if request.url.path in {"/", "/index.html", "/app.js", "/style.css"}:
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        response.headers["Pragma"] = "no-cache"
+        response.headers["Expires"] = "0"
+    return response
+
+
+zoom_controller = AutoZoomController()
 
 
 class PlayRequest(BaseModel):
@@ -56,6 +71,11 @@ class SkipRequest(BaseModel):
 
 class DelayRequest(BaseModel):
     ms: int
+
+
+class ZoomJoinRequest(BaseModel):
+    name: str | None = None
+    url: str | None = None
 
 
 @app.get("/api/videos")
@@ -325,34 +345,79 @@ async def api_status():
 
 # --- Zoom controls ---
 
-_zoom_mic_muted = False
-_zoom_cam_off = False
-
-async def _xdotool_zoom_key(key: str):
-    """Send a key to the Zoom Meeting window via xdotool."""
+def _check_zoom_bridge_token(token: str | None):
     import os
-    env = os.environ.copy()
-    env["DISPLAY"] = ":1"
-    # Find a Zoom window that accepts keyboard shortcuts
-    for name in ["Zoom Meeting", "Zoom Workplace"]:
-        find = await asyncio.create_subprocess_exec(
-            "xdotool", "search", "--name", name,
-            stdout=asyncio.subprocess.PIPE,
-            stderr=asyncio.subprocess.PIPE,
-            env=env,
-        )
-        stdout, _ = await find.communicate()
-        window_ids = [w for w in stdout.decode().strip().split("\n") if w]
-        if window_ids:
-            break
-    if not window_ids:
-        raise HTTPException(503, "Zoom window not found")
-    wid = window_ids[0]
-    proc = await asyncio.create_subprocess_exec(
-        "xdotool", "key", "--window", wid, key,
-        env=env,
-    )
-    await proc.wait()
+    expected = os.getenv("ZOOM_BRIDGE_TOKEN")
+    if expected and token != expected:
+        raise HTTPException(401, "Invalid Zoom bridge token")
+
+
+@app.get("/api/zoom/state")
+async def api_zoom_state():
+    return zoom_controller.get_state()
+
+
+@app.post("/api/zoom/audio/on")
+async def api_zoom_audio_on():
+    return await zoom_controller.set_audio(True)
+
+
+@app.post("/api/zoom/audio/off")
+async def api_zoom_audio_off():
+    return await zoom_controller.set_audio(False)
+
+
+@app.post("/api/zoom/video/on")
+async def api_zoom_video_on():
+    return await zoom_controller.set_video(True)
+
+
+@app.post("/api/zoom/video/off")
+async def api_zoom_video_off():
+    return await zoom_controller.set_video(False)
+
+
+@app.post("/api/zoom/recover")
+async def api_zoom_recover():
+    return await zoom_controller.recover()
+
+
+@app.post("/api/zoom/leave")
+async def api_zoom_leave():
+    player_paused = await _pause_player_if_playing()
+    result = await zoom_controller.leave()
+    if isinstance(result, dict):
+        result["player_paused"] = player_paused
+    return result
+
+
+@app.get("/api/zoom/commands/{command_id}")
+async def api_zoom_command(command_id: str):
+    return await zoom_controller.command_status(command_id)
+
+
+@app.post("/api/zoom/bridge/register")
+async def api_zoom_bridge_register(payload: dict[str, Any], x_docremote_bridge_token: str | None = Header(default=None)):
+    _check_zoom_bridge_token(x_docremote_bridge_token)
+    return await zoom_controller.bridge.register(payload)
+
+
+@app.get("/api/zoom/bridge/poll")
+async def api_zoom_bridge_poll(client_id: str, x_docremote_bridge_token: str | None = Header(default=None)):
+    _check_zoom_bridge_token(x_docremote_bridge_token)
+    return await zoom_controller.bridge.poll(client_id)
+
+
+@app.post("/api/zoom/bridge/result")
+async def api_zoom_bridge_result(payload: dict[str, Any], x_docremote_bridge_token: str | None = Header(default=None)):
+    _check_zoom_bridge_token(x_docremote_bridge_token)
+    return await zoom_controller.bridge.submit_result(payload)
+
+
+@app.post("/api/zoom/bridge/state")
+async def api_zoom_bridge_state(payload: dict[str, Any], x_docremote_bridge_token: str | None = Header(default=None)):
+    _check_zoom_bridge_token(x_docremote_bridge_token)
+    return await zoom_controller.bridge.update_state(payload)
 
 
 async def _dismiss_zoom_transcription_notice():
@@ -385,8 +450,30 @@ async def _dismiss_zoom_transcription_notice():
     )
     await activate.wait()
 
+    geometry = await asyncio.create_subprocess_exec(
+        "xdotool", "getwindowgeometry", "--shell", wid,
+        env=env,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.DEVNULL,
+    )
+    stdout, _ = await geometry.communicate()
+    values = {}
+    for line in stdout.decode().splitlines():
+        if "=" in line:
+            key, value = line.split("=", 1)
+            try:
+                values[key] = int(value)
+            except ValueError:
+                pass
+
+    if not {"X", "Y", "WIDTH", "HEIGHT"}.issubset(values):
+        return
+
+    # The transcription notice is centered; the OK button sits to the right.
+    click_x = values["X"] + int(values["WIDTH"] * 0.72)
+    click_y = values["Y"] + int(values["HEIGHT"] * 0.54)
     proc = await asyncio.create_subprocess_exec(
-        "xdotool", "key", "Return",
+        "xdotool", "mousemove", str(click_x), str(click_y), "click", "1",
         env=env,
         stdout=asyncio.subprocess.DEVNULL,
         stderr=asyncio.subprocess.DEVNULL,
@@ -396,38 +483,119 @@ async def _dismiss_zoom_transcription_notice():
 
 @app.post("/api/zoom/mute")
 async def api_zoom_mute():
-    global _zoom_mic_muted
-    await _xdotool_zoom_key("alt+a")
-    _zoom_mic_muted = not _zoom_mic_muted
-    return {"mic_muted": _zoom_mic_muted}
+    return await zoom_controller.legacy_toggle_audio()
 
 
 @app.post("/api/zoom/video")
 async def api_zoom_video():
-    global _zoom_cam_off
-    await _xdotool_zoom_key("alt+v")
-    _zoom_cam_off = not _zoom_cam_off
-    return {"cam_off": _zoom_cam_off}
+    return await zoom_controller.legacy_toggle_video()
+
+
+async def _pause_player_if_playing() -> bool:
+    if player.status.state.value != "playing":
+        return False
+    await player.pause()
+    return player.status.state.value == "paused"
+
+
+async def _recover_zoom_media_after_join(delay_sec: float = 8.0) -> None:
+    await asyncio.sleep(delay_sec)
+    try:
+        await zoom_controller.recover()
+    except Exception as exc:
+        print(f"[zoom] recover after join failed: {exc}")
+
+
+def _zoom_join_url_from_input(raw_url: str | None) -> tuple[str, str]:
+    if not raw_url:
+        return f"zoommtg://us02web.zoom.us/join?action=join&confno={ZOOM_MEETING_ID}&pwd={ZOOM_PASSCODE}", ZOOM_MEETING_ID
+
+    raw_url = raw_url.strip()
+    parsed = urlparse(raw_url)
+    if parsed.scheme == "zoommtg":
+        query = parse_qs(parsed.query)
+        meeting_id = (query.get("confno") or ["custom"])[0]
+        return raw_url, meeting_id
+
+    if parsed.scheme not in {"http", "https"}:
+        raise HTTPException(400, "Unsupported Zoom URL")
+
+    path_parts = [part for part in parsed.path.split("/") if part]
+    meeting_id = ""
+    if "j" in path_parts:
+        idx = path_parts.index("j")
+        if idx + 1 < len(path_parts):
+            meeting_id = path_parts[idx + 1]
+    if not meeting_id:
+        raise HTTPException(400, "Zoom meeting ID not found in URL")
+
+    pwd = (parse_qs(parsed.query).get("pwd") or [""])[0]
+    host = parsed.netloc or "us02web.zoom.us"
+    join_url = f"zoommtg://{host}/join?action=join&confno={meeting_id}"
+    if pwd:
+        join_url += f"&pwd={pwd}"
+    return join_url, meeting_id
 
 
 @app.post("/api/zoom/join")
-async def api_zoom_join():
-    import os
+async def api_zoom_join(payload: ZoomJoinRequest | None = None):
+    import os, shutil
     env = os.environ.copy()
     env["DISPLAY"] = ":1"
-    url = f"zoommtg://us02web.zoom.us/join?action=join&confno={ZOOM_MEETING_ID}&pwd={ZOOM_PASSCODE}"
+    player_paused = await _pause_player_if_playing()
+
+    # Start Zoom if not already running
+    check = await asyncio.create_subprocess_exec(
+        "pgrep", "-x", "zoom",
+        stdout=asyncio.subprocess.DEVNULL,
+    )
+    await check.wait()
+    if check.returncode != 0:
+        zoom_bin = shutil.which("zoom") or "/usr/bin/zoom"
+        await asyncio.create_subprocess_exec(
+            zoom_bin,
+            env=env,
+            stdout=asyncio.subprocess.DEVNULL,
+            stderr=asyncio.subprocess.DEVNULL,
+        )
+        for _ in range(30):
+            await asyncio.sleep(1)
+            probe = await asyncio.create_subprocess_exec(
+                "pgrep", "-x", "zoom",
+                stdout=asyncio.subprocess.DEVNULL,
+            )
+            await probe.wait()
+            if probe.returncode == 0:
+                break
+        await asyncio.sleep(3)
+
+    url, meeting_id = _zoom_join_url_from_input(payload.url if payload else None)
     proc = await asyncio.create_subprocess_exec(
         "xdg-open", url,
         env=env,
     )
     await proc.wait()
     asyncio.create_task(_dismiss_zoom_transcription_notice())
-    return {"joined": True, "meeting_id": ZOOM_MEETING_ID}
+    asyncio.create_task(_recover_zoom_media_after_join())
+    return {
+        "joined": True,
+        "meeting_id": meeting_id,
+        "name": payload.name if payload else None,
+        "player_paused": player_paused,
+        "zoom_media_recover_scheduled": True,
+    }
 
 
 @app.get("/api/zoom/status")
 async def api_zoom_status():
-    return {"mic_muted": _zoom_mic_muted, "cam_off": _zoom_cam_off}
+    state = zoom_controller.get_state()
+    return {
+        "mic_muted": None if state["audio_on"] is None else not state["audio_on"],
+        "cam_off": None if state["video_on"] is None else not state["video_on"],
+        "deprecated": True,
+        "replacement": "/api/zoom/state",
+        "state": state,
+    }
 
 @app.get("/api/preview")
 async def api_preview():

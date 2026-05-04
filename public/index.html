@@ -46,7 +46,12 @@
           <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg>
           <span>Video On/Off</span>
         </button>
+        <button id="zoom-leave-btn" class="zoom-btn zoom-leave" title="Leave Zoom group">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M10 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h5v-2H5V5h5V3z"/><path d="M17 7l-1.41 1.41L18.17 11H9v2h9.17l-2.58 2.59L17 17l5-5-5-5z"/></svg>
+          <span>Leave Zoom</span>
+        </button>
       </div>
+      <div id="zoom-join-status" class="zoom-join-status hidden">Joining the Zoom group... ~10 seconds</div>
 
       <!-- Resume prompt -->
       <div id="resume-prompt" class="resume-prompt hidden">
@@ -212,6 +217,21 @@
 
   <!-- Toast container -->
   <div id="toast-container" class="toast-container"></div>
+
+  <!-- Zoom join dialog -->
+  <div id="zoom-join-dialog" class="modal-overlay hidden">
+    <div class="modal-box zoom-join-box" role="dialog" aria-modal="true" aria-labelledby="zoom-join-title">
+      <h2 id="zoom-join-title">Join Zoom</h2>
+      <label class="modal-label" for="zoom-meeting-name">Meeting name</label>
+      <input id="zoom-meeting-name" class="modal-input" type="text" autocomplete="off">
+      <label class="modal-label" for="zoom-meeting-url">Zoom link</label>
+      <textarea id="zoom-meeting-url" class="modal-textarea" rows="3" autocomplete="off"></textarea>
+      <div class="modal-actions">
+        <button id="zoom-join-cancel" class="btn-dismiss">Cancel</button>
+        <button id="zoom-join-confirm" class="btn-primary">Join</button>
+      </div>
+    </div>
+  </div>
 
   <!-- Keyboard shortcuts overlay -->
   <div id="shortcuts-overlay" class="shortcuts-overlay hidden">

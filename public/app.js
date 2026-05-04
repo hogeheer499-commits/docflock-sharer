@@ -1,6 +1,10 @@
 // === Auth ===
 const TOKEN_KEY = "docflock_token";
 const EXPIRY_KEY = "docflock_expiry";
+const DEFAULT_ZOOM_NAME = "Doc Flock";
+const DEFAULT_ZOOM_URL = "https://us02web.zoom.us/j/84886374828?pwd=MkhPSVl3Wjg3cUZJbjlSVTNkM2FjQT09";
+const ZOOM_MEETING_NAME_KEY = "docflock_zoom_meeting_name";
+const ZOOM_MEETING_URL_KEY = "docflock_zoom_meeting_url";
 let statusInterval = null;
 let videosCache = [];
 
@@ -992,22 +996,99 @@ async function downloadPlaylist() {
 const zoomJoinBtn = document.getElementById("zoom-join-btn");
 const zoomMicBtn = document.getElementById("zoom-mic-btn");
 const zoomCamBtn = document.getElementById("zoom-cam-btn");
+const zoomLeaveBtn = document.getElementById("zoom-leave-btn");
+const zoomJoinStatus = document.getElementById("zoom-join-status");
+const zoomJoinDialog = document.getElementById("zoom-join-dialog");
+const zoomMeetingNameInput = document.getElementById("zoom-meeting-name");
+const zoomMeetingUrlInput = document.getElementById("zoom-meeting-url");
+const zoomJoinCancel = document.getElementById("zoom-join-cancel");
+const zoomJoinConfirm = document.getElementById("zoom-join-confirm");
+let zoomJoinStatusTimer = null;
 
-zoomJoinBtn.addEventListener("click", async () => {
+function openZoomJoinDialog() {
+  zoomMeetingNameInput.value = localStorage.getItem(ZOOM_MEETING_NAME_KEY) || DEFAULT_ZOOM_NAME;
+  zoomMeetingUrlInput.value = localStorage.getItem(ZOOM_MEETING_URL_KEY) || DEFAULT_ZOOM_URL;
+  zoomJoinDialog.classList.remove("hidden");
+  setTimeout(() => zoomMeetingUrlInput.focus(), 0);
+}
+
+function closeZoomJoinDialog() {
+  zoomJoinDialog.classList.add("hidden");
+}
+
+function showZoomJoinStatus() {
+  if (zoomJoinStatusTimer) clearTimeout(zoomJoinStatusTimer);
+  zoomJoinStatus.textContent = "Joining the Zoom group... ~10 seconds";
+  zoomJoinStatus.classList.remove("ok");
+  zoomJoinStatus.classList.remove("error");
+  zoomJoinStatus.classList.remove("hidden");
+}
+
+function hideZoomJoinStatus(delayMs = 0) {
+  if (zoomJoinStatusTimer) clearTimeout(zoomJoinStatusTimer);
+  zoomJoinStatusTimer = setTimeout(() => zoomJoinStatus.classList.add("hidden"), delayMs);
+}
+
+function showZoomJoinedStatus(name) {
+  if (zoomJoinStatusTimer) clearTimeout(zoomJoinStatusTimer);
+  zoomJoinStatus.textContent = `Joined Zoom: ${name}`;
+  zoomJoinStatus.classList.add("ok");
+  zoomJoinStatus.classList.remove("error");
+  zoomJoinStatus.classList.remove("hidden");
+  hideZoomJoinStatus(5000);
+}
+
+function showZoomJoinError(message) {
+  if (zoomJoinStatusTimer) clearTimeout(zoomJoinStatusTimer);
+  zoomJoinStatus.textContent = `Zoom join failed: ${message}`;
+  zoomJoinStatus.classList.remove("ok");
+  zoomJoinStatus.classList.add("error");
+  zoomJoinStatus.classList.remove("hidden");
+}
+
+async function joinZoomFromDialog() {
+  const name = zoomMeetingNameInput.value.trim() || DEFAULT_ZOOM_NAME;
+  const url = zoomMeetingUrlInput.value.trim();
+  if (!url) {
+    showToast("Zoom link is empty");
+    zoomMeetingUrlInput.focus();
+    return;
+  }
+  localStorage.setItem(ZOOM_MEETING_NAME_KEY, name);
+  localStorage.setItem(ZOOM_MEETING_URL_KEY, url);
+  closeZoomJoinDialog();
   zoomJoinBtn.disabled = true;
   zoomJoinBtn.querySelector("span").textContent = "Joining...";
+  showZoomJoinStatus();
   try {
-    await api("/api/zoom/join", { method: "POST" });
-    zoomJoinBtn.querySelector("span").textContent = "Joined!";
-    showToast("Joining Zoom meeting...");
+    await api("/api/zoom/join", {
+      method: "POST",
+      body: JSON.stringify({ name, url }),
+    });
+    setTimeout(() => showZoomJoinedStatus(name), 10000);
     setTimeout(() => {
       zoomJoinBtn.querySelector("span").textContent = "Join Zoom";
       zoomJoinBtn.disabled = false;
-    }, 3000);
-  } catch {
+    }, 15000);
+  } catch (e) {
+    showToast(`Zoom: ${e.message}`);
+    showZoomJoinError(e.message);
     zoomJoinBtn.querySelector("span").textContent = "Join Zoom";
     zoomJoinBtn.disabled = false;
   }
+}
+
+zoomJoinBtn.addEventListener("click", openZoomJoinDialog);
+zoomJoinCancel.addEventListener("click", closeZoomJoinDialog);
+zoomJoinConfirm.addEventListener("click", joinZoomFromDialog);
+zoomJoinDialog.addEventListener("click", (e) => {
+  if (e.target === zoomJoinDialog) closeZoomJoinDialog();
+});
+zoomMeetingUrlInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) joinZoomFromDialog();
+});
+zoomMeetingNameInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") zoomMeetingUrlInput.focus();
 });
 
 function flashBtn(btn) {
@@ -1015,18 +1096,51 @@ function flashBtn(btn) {
   setTimeout(() => btn.classList.remove("flash"), 300);
 }
 
-zoomMicBtn.addEventListener("click", async () => {
-  flashBtn(zoomMicBtn);
+async function pollZoomCommand(commandId) {
+  if (!commandId) return;
+  const started = Date.now();
+  while (Date.now() - started < 15000) {
+    await new Promise((resolve) => setTimeout(resolve, 800));
+    const resp = await api(`/api/zoom/commands/${commandId}`);
+    const data = await resp.json();
+    if (["done", "failed", "timeout"].includes(data.status)) return data;
+  }
+}
+
+async function runZoomAction(path, btn) {
+  flashBtn(btn);
+  const label = btn.querySelector("span");
+  const originalText = label ? label.textContent : "";
+  btn.disabled = true;
+  if (label) label.textContent = "Working...";
   try {
-    await api("/api/zoom/mute", { method: "POST" });
-  } catch {}
+    const resp = await api(path, { method: "POST" });
+    const data = await resp.json();
+    const command = data.command_id ? await pollZoomCommand(data.command_id) : null;
+    if (command && command.status !== "done") {
+      showToast(`Zoom: ${command.error || command.status}`);
+    }
+    if (!data.ok && data.error) showToast(`Zoom: ${data.error}`);
+  } catch (e) {
+    showToast(`Zoom: ${e.message}`);
+  } finally {
+    if (label) label.textContent = originalText;
+    btn.disabled = false;
+  }
+}
+
+zoomMicBtn.addEventListener("click", async () => {
+  await runZoomAction("/api/zoom/mute", zoomMicBtn);
 });
 
 zoomCamBtn.addEventListener("click", async () => {
-  flashBtn(zoomCamBtn);
-  try {
-    await api("/api/zoom/video", { method: "POST" });
-  } catch {}
+  await runZoomAction("/api/zoom/video", zoomCamBtn);
+});
+
+zoomLeaveBtn.addEventListener("click", async () => {
+  const confirmed = window.confirm("Leave the Zoom group on the Beelink?");
+  if (!confirmed) return;
+  await runZoomAction("/api/zoom/leave", zoomLeaveBtn);
 });
 
 // === Init ===
