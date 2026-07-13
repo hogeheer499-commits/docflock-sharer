@@ -9,8 +9,10 @@ const pin = process.env.DOCREMOTE_PIN || "";
 const mockApi = process.env.CAPTURE_MOCK === "1";
 const selectFirst = process.env.CAPTURE_SELECT_FIRST === "1";
 const runAssertions = process.env.CAPTURE_ASSERT === "1";
+const captureResume = process.env.CAPTURE_RESUME === "1";
 const width = Number(process.env.CAPTURE_WIDTH || 1488);
 const height = Number(process.env.CAPTURE_HEIGHT || 1056);
+const deviceScaleFactor = Number(process.env.CAPTURE_DSF || 1);
 const chromePath = process.env.CHROME_PATH || "/usr/bin/google-chrome";
 const port = Number(process.env.CHROME_DEBUG_PORT || 9224);
 
@@ -90,6 +92,15 @@ try {
           })));
           localStorage.setItem('docflock_token', 'visual-qa-token');
           localStorage.setItem('docflock_expiry', String(Date.now() + 86400000));
+          if (${captureResume}) {
+            localStorage.setItem('docflock_resume', JSON.stringify({
+              video_id: 'lecture-resume',
+              title: 'Perception and Illusion - 2 of 3 (May 2002)',
+              current_time: 197,
+              languages: ['en'],
+              saved_at: Date.now()
+            }));
+          }
           const nativeFetch = window.fetch.bind(window);
           window.fetch = async (input, init) => {
             const url = typeof input === 'string' ? input : input.url;
@@ -120,7 +131,7 @@ try {
   await command("Emulation.setDeviceMetricsOverride", {
     width,
     height,
-    deviceScaleFactor: 1,
+    deviceScaleFactor,
     mobile: width < 700,
   });
   await command("Page.navigate", { url: targetUrl });

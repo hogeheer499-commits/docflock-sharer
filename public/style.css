@@ -1838,3 +1838,137 @@ summary:focus-visible {
   .zoom-panel { min-height: 418px; }
   .browse-card { min-height: calc(100dvh - 122px); }
 }
+
+/* Compact desktop for 1080p displays with browser chrome or OS scaling. */
+@media (min-width: 700px) and (max-height: 820px) {
+  .top-bar {
+    min-height: 62px;
+    padding-inline: 22px;
+  }
+
+  .app-title { font-size: 22px; }
+  .connection-status { font-size: 14px; }
+  .btn-refresh,
+  .btn-settings { height: 40px; }
+
+  .app-layout {
+    width: min(1280px, calc(100% - 28px));
+    max-width: 1280px;
+    min-height: calc(100dvh - 62px);
+    margin: 0 auto;
+    padding: 0 0 18px;
+    grid-template-columns: 330px minmax(0, 1fr);
+    gap: 9px 12px;
+  }
+
+  .zoom-panel {
+    min-height: 326px;
+    padding: 18px;
+  }
+
+  .panel-heading {
+    margin-bottom: 16px;
+    font-size: 17px;
+  }
+
+  .zoom-controls { gap: 10px; }
+
+  .zoom-btn {
+    min-height: 56px;
+    font-size: 13px;
+  }
+
+  .zoom-btn.zoom-toggle {
+    min-height: 102px;
+    gap: 7px;
+  }
+
+  .zoom-btn.zoom-toggle span {
+    max-width: 48px;
+    line-height: 1.35;
+  }
+
+  .zoom-btn i { font-size: 25px; }
+  .zoom-btn img { width: 28px; height: 28px; }
+
+  .zoom-leave-timer {
+    min-height: 142px;
+    padding: 17px 18px;
+    gap: 13px;
+  }
+
+  .zoom-leave-timer-copy strong { font-size: 15px; }
+  .zoom-leave-timer-copy span { font-size: 12px; }
+  .zoom-leave-timer-copy > i { font-size: 20px; }
+  .zoom-leave-timer-actions input { min-height: 42px; font-size: 14px; }
+  .zoom-leave-timer-actions button {
+    min-width: 96px;
+    min-height: 42px;
+    font-size: 14px;
+  }
+
+  .queue-card {
+    min-height: 180px;
+    padding: 18px;
+  }
+
+  .right-stack {
+    height: calc(100dvh - 122px);
+    gap: 9px;
+  }
+
+  .resume-prompt {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 14px;
+  }
+
+  .resume-prompt span {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .resume-actions { min-width: 290px; }
+  .resume-actions .btn-primary,
+  .resume-actions .btn-dismiss { min-height: 42px; padding-block: 8px; }
+
+  .browse-card { padding: 20px 22px 15px; }
+  .browse-heading { margin-bottom: 10px; font-size: 25px; }
+
+  .tab-bar {
+    flex-basis: 46px;
+    margin-bottom: 14px;
+  }
+
+  .tab-btn {
+    min-height: 46px;
+    padding: 8px 14px;
+    gap: 8px;
+    font-size: 14px;
+  }
+
+  .tab-btn i { font-size: 18px; }
+  .tab-btn .tab-count { font-size: 12px; }
+
+  .search-field { margin-bottom: 12px; }
+  .search-field .list-search { min-height: 42px; font-size: 14px; }
+  .search-field > i { font-size: 16px; }
+
+  .item-list { min-height: 140px; }
+  .item-list-group { min-height: 38px; padding: 9px 16px; font-size: 13px; }
+  .item-list-row { min-height: 46px; padding: 10px 16px; font-size: 14px; }
+
+  .lang-group { min-height: 58px; margin-top: 14px; }
+  .lang-group label { margin-bottom: 8px; font-size: 14px; }
+  .lang-option { min-width: 58px; padding: 8px 14px; }
+
+  .play-row { margin-top: 12px; }
+  .play-row .btn-primary,
+  .play-row .btn-queue { min-height: 54px; font-size: 14px; }
+
+  .status-card { padding: 18px; }
+}

@@ -1,12 +1,15 @@
 # Design QA — Doc Remote responsive redesign
 
 - Source visual truth: `/home/bram/.codex/attachments/894d8014-6418-47bf-9ca2-ffb030a5cdb1/codex-clipboard-ca89de50-8241-4146-b578-7bb7a1568187.png`
+- Compact-desktop problem reference: `/home/bram/.codex/attachments/858b47c9-c78b-4956-83b3-934821226d55/codex-clipboard-a810c08e-0f4a-420f-9b51-5aa2a5c32e63.png`
 - Implementation: `https://design-refresh.docflock-sharer.pages.dev/`
 - Desktop implementation screenshot: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/final-desktop.png`
+- Compact desktop implementation screenshot: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/user-compact-final.png`
 - Mobile implementation screenshot: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/final-mobile.png`
-- Viewport: desktop source normalized to 1487 × 1056 and implementation captured at 1488 × 1056; mobile captured at 390 × 844.
+- Viewport: original desktop source normalized to 1487 × 1056 and implementation captured at 1488 × 1056; compact desktop captured at 1536 × 696 CSS pixels with device scale factor 1.25 (1920 × 870 output); mobile captured at 390 × 844.
 - State: authenticated; Zoom controls ready; no auto-exit timer; first lecture selected with EN/NL/PL subtitles; one queued lecture in the desktop comparison.
 - Full-view comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/reference-vs-preview-final.png`
+- Compact before/after comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/user-before-vs-compact-final.png`
 - Focused region comparison: a separate crop was not needed because the original-resolution combined comparison kept header, controls, list rows, subtitle chips, and action labels legible. Mobile was reviewed separately at original resolution.
 
 ## Findings
@@ -14,7 +17,7 @@
 No actionable P0, P1, or P2 differences remain.
 
 - Fonts and typography: system sans-serif family, weights, hierarchy, wrapping, and compact UI labels track the source closely. The selected lecture uses a slightly stronger weight to preserve clear state feedback.
-- Spacing and layout rhythm: header height, 432 px left rail, 14 px column gap, card bounds, control sizing, list density, and bottom action alignment match the source proportions. Mobile uses a compact single-column flow with no dead grid rows.
+- Spacing and layout rhythm: regular desktop keeps the original source proportions; short/scaled desktop now uses a centered 1280 px workspace, 330 px control rail, lower controls, compact resume row, and fully visible primary actions. Mobile uses a compact single-column flow with no dead grid rows.
 - Colors and visual tokens: warm neutral canvas, white cards, blue primary state, dark slate toggles, red destructive action, green connection status, and low-contrast borders map consistently to the source.
 - Image quality and asset fidelity: the existing Zoom logo remains a sharp source asset; interface icons use Bootstrap Icons 1.13.1 rather than handcrafted SVG or CSS drawings.
 - Copy and content: all app-specific labels and counts are preserved. “Add to queue” is expanded from the older “+ Queue” label to match the supplied source and improve clarity.
@@ -41,6 +44,12 @@ No actionable P0, P1, or P2 differences remain.
 - Fix: wired the header state and Sound/Video labels to `/api/zoom/state`; the header now shows neutral “Zoom ready” while disconnected and green “Zoom connected” only when the bridge is actually connected.
 - Post-fix evidence: the authenticated live-state API check and the final production captures at the implementation screenshot paths above.
 
+### Iteration 4
+
+- [P2] At the user's 1920 × 1080 Windows display with browser chrome and OS scaling, the wide desktop variant occupied nearly the full physical width and its oversized fixed controls pushed primary actions below the comfortable viewport.
+- Fix: added a short-desktop responsive mode at `max-height: 820px`, capped the workspace at 1280 CSS pixels, reduced the control rail to 330 px, lowered controls and card padding, converted Resume into a single row, and constrained the media workspace so Play and Add to queue remain visible.
+- Post-fix evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/user-before-vs-compact-final.png`; mobile regression evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/compact-mobile-final.png`.
+
 ## Primary interactions tested
 
 - Join Zoom dialog opens and cancels.
@@ -60,6 +69,7 @@ No actionable P0, P1, or P2 differences remain.
 - [x] Match the supplied wide-screen composition.
 - [x] Preserve existing element IDs and backend actions.
 - [x] Keep mobile controls fast and touch-friendly.
+- [x] Fit the main controls and actions comfortably within a scaled 1080p browser viewport.
 - [x] Verify key interaction states on the deployed preview.
 - [x] Confirm no actionable P0/P1/P2 visual differences remain.
 
