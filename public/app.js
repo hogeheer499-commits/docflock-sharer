@@ -152,18 +152,29 @@ function renderList(listId, items, opts = {}) {
       currentSeries = item.series;
       const header = document.createElement("div");
       header.className = "item-list-group";
-      header.textContent = currentSeries;
+      const title = document.createElement("span");
+      title.textContent = currentSeries;
+      const chevron = document.createElement("i");
+      chevron.className = "bi bi-chevron-up";
+      chevron.setAttribute("aria-hidden", "true");
+      header.appendChild(title);
+      header.appendChild(chevron);
       list.appendChild(header);
     }
     const row = document.createElement("div");
     row.className = "item-list-row";
     row.dataset.id = item.id;
     row.dataset.search = (item.title + " " + (item.series || "")).toLowerCase();
-    if (opts.showLangs && item.languages) {
-      row.textContent = item.title + " [" + item.languages.map((l) => l.toUpperCase()).join(", ") + "]";
-    } else {
-      row.textContent = item.title;
-    }
+    const label = document.createElement("span");
+    label.className = "item-row-label";
+    label.textContent = opts.showLangs && item.languages
+      ? item.title + " [" + item.languages.map((l) => l.toUpperCase()).join(", ") + "]"
+      : item.title;
+    const indicator = document.createElement("i");
+    indicator.className = "item-selected-indicator bi bi-check-lg";
+    indicator.setAttribute("aria-hidden", "true");
+    row.appendChild(label);
+    row.appendChild(indicator);
     if (item.id === selectedId) row.classList.add("selected");
     row.addEventListener("click", () => selectItem(item.id));
     list.appendChild(row);
@@ -434,14 +445,17 @@ function updateQueueUI(queue) {
   queueList.innerHTML = "";
   queue.forEach((item, i) => {
     const li = document.createElement("li");
-    const pos = document.createElement("span");
-    pos.className = "queue-pos";
-    pos.textContent = i + 1;
+    const pos = document.createElement("i");
+    pos.className = "queue-pos bi bi-list";
+    pos.setAttribute("aria-hidden", "true");
     const span = document.createElement("span");
     span.textContent = item.title;
     const btn = document.createElement("button");
     btn.className = "queue-remove";
-    btn.textContent = "\u00d7";
+    const removeIcon = document.createElement("i");
+    removeIcon.className = "bi bi-x-lg";
+    removeIcon.setAttribute("aria-hidden", "true");
+    btn.appendChild(removeIcon);
     btn.title = "Remove";
     btn.addEventListener("click", () => removeFromQueue(item.video_id));
     li.appendChild(pos);
@@ -930,6 +944,10 @@ document.addEventListener("keydown", (e) => {
 // === Refresh ===
 document.getElementById("refresh-btn").addEventListener("click", () => {
   location.reload(true);
+});
+
+document.getElementById("header-settings-btn").addEventListener("click", () => {
+  shortcutsOverlay.classList.remove("hidden");
 });
 
 // === Logout ===
