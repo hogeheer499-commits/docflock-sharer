@@ -5,6 +5,7 @@ const DEFAULT_ZOOM_NAME = "Doc Flock";
 const DEFAULT_ZOOM_URL = "https://us02web.zoom.us/j/84886374828?pwd=MkhPSVl3Wjg3cUZJbjlSVTNkM2FjQT09";
 const ZOOM_MEETING_NAME_KEY = "docflock_zoom_meeting_name";
 const ZOOM_MEETING_URL_KEY = "docflock_zoom_meeting_url";
+const ZOOM_LEAVE_TIMER_KEY = "docflock_zoom_leave_timer";
 let statusInterval = null;
 let videosCache = [];
 
@@ -50,6 +51,7 @@ function showLogin() {
   loginScreen.classList.remove("hidden");
   appScreen.classList.add("hidden");
   stopPolling();
+  stopZoomLeaveTimerClock();
 }
 
 function showApp() {
@@ -59,6 +61,7 @@ function showApp() {
   loadDelay();
   pollStatus();
   showResumePrompt();
+  startZoomLeaveTimerClock();
 }
 
 async function loadDelay() {
@@ -1003,7 +1006,14 @@ const zoomMeetingNameInput = document.getElementById("zoom-meeting-name");
 const zoomMeetingUrlInput = document.getElementById("zoom-meeting-url");
 const zoomJoinCancel = document.getElementById("zoom-join-cancel");
 const zoomJoinConfirm = document.getElementById("zoom-join-confirm");
+const zoomLeaveTimer = document.getElementById("zoom-leave-timer");
+const zoomLeaveTimerStatus = document.getElementById("zoom-leave-timer-status");
+const zoomLeaveTimerMinutes = document.getElementById("zoom-leave-timer-minutes");
+const zoomLeaveTimerStart = document.getElementById("zoom-leave-timer-start");
+const zoomLeaveTimerCancel = document.getElementById("zoom-leave-timer-cancel");
 let zoomJoinStatusTimer = null;
+let zoomLeaveTimerClock = null;
+let zoomLeaveTimerRunning = false;
 
 function openZoomJoinDialog() {
   zoomMeetingNameInput.value = localStorage.getItem(ZOOM_MEETING_NAME_KEY) || DEFAULT_ZOOM_NAME;
@@ -1119,10 +1129,16 @@ async function runZoomAction(path, btn) {
     const command = data.command_id ? await pollZoomCommand(data.command_id) : null;
     if (command && command.status !== "done") {
       showToast(`Zoom: ${command.error || command.status}`);
+      return false;
     }
-    if (!data.ok && data.error) showToast(`Zoom: ${data.error}`);
+    if (!data.ok && data.error) {
+      showToast(`Zoom: ${data.error}`);
+      return false;
+    }
+    return true;
   } catch (e) {
     showToast(`Zoom: ${e.message}`);
+    return false;
   } finally {
     if (label) label.textContent = originalText;
     btn.disabled = false;
@@ -1141,6 +1157,149 @@ zoomLeaveBtn.addEventListener("click", async () => {
   const confirmed = window.confirm("Leave the Zoom group on the Beelink?");
   if (!confirmed) return;
   await runZoomAction("/api/zoom/leave", zoomLeaveBtn);
+});
+
+function readZoomLeaveTimer() {
+  try {
+    return JSON.parse(localStorage.getItem(ZOOM_LEAVE_TIMER_KEY)) || null;
+  } catch {
+    localStorage.removeItem(ZOOM_LEAVE_TIMER_KEY);
+    return null;
+  }
+}
+
+function writeZoomLeaveTimer(timer) {
+  localStorage.setItem(ZOOM_LEAVE_TIMER_KEY, JSON.stringify(timer));
+}
+
+function formatZoomLeaveCountdown(milliseconds) {
+  const totalSeconds = Math.max(0, Math.ceil(milliseconds / 1000));
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  if (hours > 0) {
+    return `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+  }
+  return `${minutes}:${String(seconds).padStart(2, "0")}`;
+}
+
+function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
+  zoomLeaveTimer.classList.remove("active", "completed", "failed");
+  if (!timer) {
+    zoomLeaveTimerStatus.textContent = "No timer set";
+    zoomLeaveTimerMinutes.disabled = false;
+    zoomLeaveTimerStart.classList.remove("hidden");
+    zoomLeaveTimerCancel.classList.add("hidden");
+    return;
+  }
+
+  if (timer.status === "scheduled") {
+    zoomLeaveTimer.classList.add("active");
+    zoomLeaveTimerStatus.textContent = `Leaves Zoom in ${formatZoomLeaveCountdown(timer.deadline - Date.now())}`;
+    zoomLeaveTimerMinutes.value = timer.minutes;
+    zoomLeaveTimerMinutes.disabled = true;
+    zoomLeaveTimerStart.classList.add("hidden");
+    zoomLeaveTimerCancel.classList.remove("hidden");
+    return;
+  }
+
+  if (timer.status === "firing") {
+    zoomLeaveTimer.classList.add("active");
+    zoomLeaveTimerStatus.textContent = "Leaving Zoom now...";
+    zoomLeaveTimerMinutes.disabled = true;
+    zoomLeaveTimerStart.classList.add("hidden");
+    zoomLeaveTimerCancel.classList.add("hidden");
+    return;
+  }
+
+  const completedAt = new Date(timer.completedAt || Date.now()).toLocaleTimeString([], {
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+  const completed = timer.status === "completed";
+  zoomLeaveTimer.classList.add(completed ? "completed" : "failed");
+  zoomLeaveTimerStatus.textContent = completed
+    ? `Left Zoom automatically at ${completedAt}`
+    : `Could not leave Zoom at ${completedAt}`;
+  zoomLeaveTimerMinutes.disabled = false;
+  zoomLeaveTimerStart.classList.remove("hidden");
+  zoomLeaveTimerCancel.classList.add("hidden");
+}
+
+async function fireZoomLeaveTimer(timer) {
+  if (zoomLeaveTimerRunning) return;
+  const current = readZoomLeaveTimer();
+  if (!current || current.id !== timer.id || current.status !== "scheduled") return;
+
+  zoomLeaveTimerRunning = true;
+  writeZoomLeaveTimer({ ...current, status: "firing" });
+  zoomLeaveTimerStatus.textContent = "Leaving Zoom now...";
+  try {
+    const ok = await runZoomAction("/api/zoom/leave", zoomLeaveBtn);
+    const finished = {
+      ...current,
+      status: ok ? "completed" : "failed",
+      completedAt: Date.now(),
+    };
+    writeZoomLeaveTimer(finished);
+    renderZoomLeaveTimer(finished);
+  } finally {
+    zoomLeaveTimerRunning = false;
+  }
+}
+
+function tickZoomLeaveTimer() {
+  const timer = readZoomLeaveTimer();
+  if (!timer) {
+    renderZoomLeaveTimer(null);
+    return;
+  }
+  if (timer.status === "scheduled" && Date.now() >= timer.deadline) {
+    fireZoomLeaveTimer(timer);
+    return;
+  }
+  renderZoomLeaveTimer(timer);
+}
+
+function startZoomLeaveTimerClock() {
+  stopZoomLeaveTimerClock();
+  tickZoomLeaveTimer();
+  zoomLeaveTimerClock = setInterval(tickZoomLeaveTimer, 1000);
+}
+
+function stopZoomLeaveTimerClock() {
+  if (zoomLeaveTimerClock) {
+    clearInterval(zoomLeaveTimerClock);
+    zoomLeaveTimerClock = null;
+  }
+}
+
+zoomLeaveTimerStart.addEventListener("click", () => {
+  const minutes = Number(zoomLeaveTimerMinutes.value);
+  if (!Number.isInteger(minutes) || minutes < 1 || minutes > 720) {
+    showToast("Choose a timer between 1 and 720 minutes");
+    zoomLeaveTimerMinutes.focus();
+    return;
+  }
+  const timer = {
+    id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+    minutes,
+    deadline: Date.now() + minutes * 60 * 1000,
+    status: "scheduled",
+  };
+  writeZoomLeaveTimer(timer);
+  renderZoomLeaveTimer(timer);
+  showToast(`Zoom will leave automatically in ${minutes} minute${minutes === 1 ? "" : "s"}`);
+});
+
+zoomLeaveTimerCancel.addEventListener("click", () => {
+  localStorage.removeItem(ZOOM_LEAVE_TIMER_KEY);
+  renderZoomLeaveTimer(null);
+  showToast("Auto-leave timer cancelled");
+});
+
+window.addEventListener("storage", (event) => {
+  if (event.key === ZOOM_LEAVE_TIMER_KEY) tickZoomLeaveTimer();
 });
 
 // === Init ===

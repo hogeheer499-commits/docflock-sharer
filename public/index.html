@@ -52,6 +52,22 @@
         </button>
       </div>
       <div id="zoom-join-status" class="zoom-join-status hidden">Joining the Zoom group... ~10 seconds</div>
+      <div id="zoom-leave-timer" class="zoom-leave-timer" aria-live="polite">
+        <div class="zoom-leave-timer-copy">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M15 1H9v2h6V1zm-1 13h-4v-4h4v4zm3.03-4.03.97-.97-1.41-1.41-.97.97A6.96 6.96 0 0 0 13 7.08V5h-2v2.08A7 7 0 1 0 17.03 9.97zM12 19a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg>
+          <div>
+            <strong>Auto-leave timer</strong>
+            <span id="zoom-leave-timer-status">No timer set</span>
+          </div>
+        </div>
+        <div class="zoom-leave-timer-actions">
+          <label class="sr-only" for="zoom-leave-timer-minutes">Minutes until leaving Zoom</label>
+          <input id="zoom-leave-timer-minutes" type="number" min="1" max="720" value="60" inputmode="numeric">
+          <span class="zoom-leave-timer-unit">min</span>
+          <button id="zoom-leave-timer-start" type="button">Start</button>
+          <button id="zoom-leave-timer-cancel" class="hidden" type="button">Cancel</button>
+        </div>
+      </div>
 
       <!-- Resume prompt -->
       <div id="resume-prompt" class="resume-prompt hidden">
