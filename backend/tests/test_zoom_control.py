@@ -86,16 +86,16 @@ def test_command_queue_creates_command_id(client):
     assert polled["command"]["value"] is True
 
 
-def test_leave_command_queues_for_bridge(client, monkeypatch):
+def test_end_command_queues_for_bridge(client, monkeypatch):
     monkeypatch.setenv("ZOOM_CONTROL_MODE", "bridge")
     client.post("/api/zoom/bridge/register", json={"client_id": "client-1", "role": "host"})
-    data = client.post("/api/zoom/leave").json()
+    data = client.post("/api/zoom/end").json()
     assert data["ok"] is True
     assert data["pending"] is True
     assert data["command_id"]
     polled = client.get("/api/zoom/bridge/poll?client_id=client-1").json()
     assert polled["command"]["id"] == data["command_id"]
-    assert polled["command"]["type"] == "leave"
+    assert polled["command"]["type"] == "end_meeting_for_all"
     assert polled["command"]["value"] is None
 
 
@@ -151,15 +151,39 @@ def test_xdotool_fallback_never_reports_real_state(monkeypatch):
     assert state["warning"] == "Used xdotool fallback; real Zoom state is unknown."
 
 
-def test_leave_uses_local_zoom_shortcut(monkeypatch):
+def test_end_meeting_uses_explicit_accessibility_action(monkeypatch):
+    monkeypatch.setenv("ZOOM_CONTROL_MODE", "xdotool")
     controller = AutoZoomController()
-    sent = []
 
-    async def fake_send_key_sequence(keys, delay_sec=0.0):
-        sent.append((keys, delay_sec))
+    async def fake_end_helper():
+        return {"ok": True, "action": "end_meeting_for_all", "confirmed": True}
 
-    controller.xdotool.send_key_sequence = fake_send_key_sequence
-    result = asyncio.run(controller.leave())
+    controller.xdotool.run_end_meeting_for_all_helper = fake_end_helper
+    result = asyncio.run(controller.end_meeting_for_all())
     assert result["ok"] is True
-    assert sent == [(["alt+q", "Return"], 0.5)]
+    assert result["action"] == "end_meeting_for_all"
+    assert result["confirmed"] is True
     assert result["state"]["bridge_connected"] is False
+
+
+def test_end_meeting_refuses_when_host_control_is_missing(monkeypatch):
+    monkeypatch.setenv("ZOOM_CONTROL_MODE", "xdotool")
+    controller = AutoZoomController()
+
+    async def fake_end_helper():
+        return {"ok": False, "error": "host_end_control_not_found"}
+
+    controller.xdotool.run_end_meeting_for_all_helper = fake_end_helper
+    result = asyncio.run(controller.end_meeting_for_all())
+    assert result["ok"] is False
+    assert result["error"] == "host_end_control_not_found"
+
+
+def test_legacy_leave_endpoint_also_ends_for_all(client, monkeypatch):
+    async def fake_end():
+        return {"ok": True, "action": "end_meeting_for_all"}
+
+    main.zoom_controller.end_meeting_for_all = fake_end
+    data = client.post("/api/zoom/leave").json()
+    assert data["ok"] is True
+    assert data["action"] == "end_meeting_for_all"

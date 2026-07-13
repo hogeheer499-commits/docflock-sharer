@@ -1,9 +1,11 @@
 import asyncio
+import json
 import logging
 import os
 import uuid
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
 
 
@@ -258,16 +260,65 @@ class XdotoolZoomController:
         ok = bool(audio.get("ok") and video.get("ok"))
         return {"ok": ok, "state": self.state.as_dict(), "warning": FALLBACK_WARNING}
 
-    async def leave(self) -> dict[str, Any]:
-        await self.send_key_sequence(["alt+q", "Return"], delay_sec=0.5)
+    async def end_meeting_for_all(self) -> dict[str, Any]:
+        helper_result = await self.run_end_meeting_for_all_helper()
+        if not helper_result.get("ok"):
+            error = str(helper_result.get("error") or "end_meeting_for_all_failed")
+            self.state.last_error = error
+            self.state.warning = error
+            return {"ok": False, "error": error, "state": self.state.as_dict()}
+
         self.state.bridge_connected = False
         self.state.audio_on = None
         self.state.video_on = None
         self.state.can_read_state = False
         self.state.source = "unknown"
         self.state.last_update = utc_now()
-        self.state.warning = FALLBACK_WARNING
-        return {"ok": True, "state": self.state.as_dict(), "warning": FALLBACK_WARNING}
+        self.state.last_error = None
+        self.state.warning = None
+        return {
+            "ok": True,
+            "action": "end_meeting_for_all",
+            "confirmed": bool(helper_result.get("confirmed")),
+            "state": self.state.as_dict(),
+        }
+
+    async def leave(self) -> dict[str, Any]:
+        return await self.end_meeting_for_all()
+
+    async def run_end_meeting_for_all_helper(self) -> dict[str, Any]:
+        helper = Path(__file__).with_name("zoom_accessibility.py")
+        env = os.environ.copy()
+        env["DISPLAY"] = self.display
+        runtime_dir = env.setdefault("XDG_RUNTIME_DIR", f"/run/user/{os.getuid()}")
+        env.setdefault("DBUS_SESSION_BUS_ADDRESS", f"unix:path={runtime_dir}/bus")
+
+        proc = await asyncio.create_subprocess_exec(
+            "/usr/bin/python3",
+            str(helper),
+            "end-meeting-for-all",
+            env=env,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+        )
+        try:
+            stdout, stderr = await asyncio.wait_for(proc.communicate(), timeout=16)
+        except TimeoutError:
+            proc.kill()
+            await proc.wait()
+            return {"ok": False, "error": "zoom_accessibility_timeout"}
+
+        output = stdout.decode(errors="replace").strip().splitlines()
+        if output:
+            try:
+                payload = json.loads(output[-1])
+                if isinstance(payload, dict):
+                    return payload
+            except json.JSONDecodeError:
+                pass
+        detail = stderr.decode(errors="replace").strip()
+        logger.error("Zoom accessibility helper failed: %s", detail or "invalid helper output")
+        return {"ok": False, "error": "zoom_accessibility_failed"}
 
     async def _set_media(self, media: str, on: bool, key: str, force: bool) -> dict[str, Any]:
         cached_attr = "audio_on" if media == "audio" else "video_on"
@@ -374,7 +425,7 @@ class AutoZoomController:
         self.state.desired_video_on = True
         return await self._command("recover", None)
 
-    async def leave(self) -> dict[str, Any]:
+    async def end_meeting_for_all(self) -> dict[str, Any]:
         mode = os.getenv("ZOOM_CONTROL_MODE", "auto")
         self.state.mode = mode
         if mode == "disabled":
@@ -382,17 +433,21 @@ class AutoZoomController:
             return {"ok": False, "error": "zoom_control_disabled", "state": self.state.as_dict()}
         if mode in {"auto", "xdotool"}:
             try:
-                return await self.xdotool.leave()
+                return await self.xdotool.end_meeting_for_all()
             except Exception as exc:
                 self.state.last_error = str(exc)
                 self.state.warning = FALLBACK_WARNING
                 if mode == "xdotool":
                     return {"ok": False, "error": "xdotool_fallback_failed", "state": self.state.as_dict()}
         if mode in {"auto", "bridge"} and self.bridge.connected():
-            return await self.bridge.enqueue("leave", None)
+            return await self.bridge.enqueue("end_meeting_for_all", None)
         if mode == "bridge":
             return {"ok": False, "error": "zoom_bridge_not_connected", "state": self.state.as_dict()}
         return {"ok": False, "error": "zoom_window_not_found", "state": self.state.as_dict()}
+
+    async def leave(self) -> dict[str, Any]:
+        """Compatibility alias; leaving now always means ending the host's meeting."""
+        return await self.end_meeting_for_all()
 
 
     async def legacy_toggle_audio(self) -> dict[str, Any]:
@@ -437,8 +492,8 @@ class AutoZoomController:
                     return await self.xdotool.set_video(bool(value))
                 if command_type == "recover":
                     return await self.xdotool.recover()
-                if command_type == "leave":
-                    return await self.xdotool.leave()
+                if command_type in {"leave", "end_meeting_for_all"}:
+                    return await self.xdotool.end_meeting_for_all()
             except Exception as exc:
                 self.state.last_error = str(exc)
                 self.state.warning = FALLBACK_WARNING

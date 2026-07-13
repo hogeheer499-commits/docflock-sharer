@@ -382,13 +382,25 @@ async def api_zoom_recover():
     return await zoom_controller.recover()
 
 
-@app.post("/api/zoom/leave")
-async def api_zoom_leave():
-    player_paused = await _pause_player_if_playing()
-    result = await zoom_controller.leave()
+async def _end_zoom_meeting_for_all():
+    result = await zoom_controller.end_meeting_for_all()
+    player_paused = False
+    if isinstance(result, dict) and result.get("ok"):
+        player_paused = await _pause_player_if_playing()
     if isinstance(result, dict):
         result["player_paused"] = player_paused
     return result
+
+
+@app.post("/api/zoom/end")
+async def api_zoom_end():
+    return await _end_zoom_meeting_for_all()
+
+
+@app.post("/api/zoom/leave")
+async def api_zoom_leave():
+    """Compatibility endpoint: explicitly ends the host's meeting for everyone."""
+    return await _end_zoom_meeting_for_all()
 
 
 @app.get("/api/zoom/commands/{command_id}")
@@ -542,6 +554,8 @@ async def api_zoom_join(payload: ZoomJoinRequest | None = None):
     import os, shutil
     env = os.environ.copy()
     env["DISPLAY"] = ":1"
+    env["QT_LINUX_ACCESSIBILITY_ALWAYS_ON"] = "1"
+    env["QT_ACCESSIBILITY"] = "1"
     player_paused = await _pause_player_if_playing()
 
     # Start Zoom if not already running
