@@ -262,8 +262,15 @@ class XdotoolZoomController:
 
     async def end_meeting_for_all(self) -> dict[str, Any]:
         helper_result = await self.run_end_meeting_for_all_helper()
+        return self._zoom_exit_result(helper_result)
+
+    async def exit_meeting(self) -> dict[str, Any]:
+        helper_result = await self.run_accessibility_helper("exit-meeting")
+        return self._zoom_exit_result(helper_result)
+
+    def _zoom_exit_result(self, helper_result: dict[str, Any]) -> dict[str, Any]:
         if not helper_result.get("ok"):
-            error = str(helper_result.get("error") or "end_meeting_for_all_failed")
+            error = str(helper_result.get("error") or "zoom_meeting_exit_failed")
             self.state.last_error = error
             self.state.warning = error
             return {"ok": False, "error": error, "state": self.state.as_dict()}
@@ -278,15 +285,18 @@ class XdotoolZoomController:
         self.state.warning = None
         return {
             "ok": True,
-            "action": "end_meeting_for_all",
+            "action": str(helper_result.get("action") or "zoom_meeting_exit"),
             "confirmed": bool(helper_result.get("confirmed")),
             "state": self.state.as_dict(),
         }
 
     async def leave(self) -> dict[str, Any]:
-        return await self.end_meeting_for_all()
+        return await self.exit_meeting()
 
     async def run_end_meeting_for_all_helper(self) -> dict[str, Any]:
+        return await self.run_accessibility_helper("end-meeting-for-all")
+
+    async def run_accessibility_helper(self, action: str) -> dict[str, Any]:
         helper = Path(__file__).with_name("zoom_accessibility.py")
         env = os.environ.copy()
         env["DISPLAY"] = self.display
@@ -296,7 +306,7 @@ class XdotoolZoomController:
         proc = await asyncio.create_subprocess_exec(
             "/usr/bin/python3",
             str(helper),
-            "end-meeting-for-all",
+            action,
             env=env,
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE,
@@ -426,6 +436,12 @@ class AutoZoomController:
         return await self._command("recover", None)
 
     async def end_meeting_for_all(self) -> dict[str, Any]:
+        return await self._exit_meeting("end_meeting_for_all")
+
+    async def exit_meeting(self) -> dict[str, Any]:
+        return await self._exit_meeting("exit_meeting")
+
+    async def _exit_meeting(self, command_type: str) -> dict[str, Any]:
         mode = os.getenv("ZOOM_CONTROL_MODE", "auto")
         self.state.mode = mode
         if mode == "disabled":
@@ -433,6 +449,8 @@ class AutoZoomController:
             return {"ok": False, "error": "zoom_control_disabled", "state": self.state.as_dict()}
         if mode in {"auto", "xdotool"}:
             try:
+                if command_type == "exit_meeting":
+                    return await self.xdotool.exit_meeting()
                 return await self.xdotool.end_meeting_for_all()
             except Exception as exc:
                 self.state.last_error = str(exc)
@@ -440,14 +458,14 @@ class AutoZoomController:
                 if mode == "xdotool":
                     return {"ok": False, "error": "xdotool_fallback_failed", "state": self.state.as_dict()}
         if mode in {"auto", "bridge"} and self.bridge.connected():
-            return await self.bridge.enqueue("end_meeting_for_all", None)
+            return await self.bridge.enqueue(command_type, None)
         if mode == "bridge":
             return {"ok": False, "error": "zoom_bridge_not_connected", "state": self.state.as_dict()}
         return {"ok": False, "error": "zoom_window_not_found", "state": self.state.as_dict()}
 
     async def leave(self) -> dict[str, Any]:
-        """Compatibility alias; leaving now always means ending the host's meeting."""
-        return await self.end_meeting_for_all()
+        """Compatibility alias for role-aware end-or-leave behavior."""
+        return await self.exit_meeting()
 
 
     async def legacy_toggle_audio(self) -> dict[str, Any]:
@@ -492,7 +510,9 @@ class AutoZoomController:
                     return await self.xdotool.set_video(bool(value))
                 if command_type == "recover":
                     return await self.xdotool.recover()
-                if command_type in {"leave", "end_meeting_for_all"}:
+                if command_type in {"leave", "exit_meeting"}:
+                    return await self.xdotool.exit_meeting()
+                if command_type == "end_meeting_for_all":
                     return await self.xdotool.end_meeting_for_all()
             except Exception as exc:
                 self.state.last_error = str(exc)

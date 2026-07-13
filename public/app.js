@@ -1154,10 +1154,12 @@ zoomCamBtn.addEventListener("click", async () => {
 });
 
 zoomLeaveBtn.addEventListener("click", async () => {
-  const confirmed = window.confirm("End the Zoom meeting for everyone? This cannot be undone.");
+  const confirmed = window.confirm(
+    "Exit Zoom? If Hoge Heer is host, the meeting ends for everyone. Otherwise Hoge Heer leaves the meeting."
+  );
   if (!confirmed) return;
-  const ok = await runZoomAction("/api/zoom/end", zoomLeaveBtn);
-  if (ok) showToast("Zoom meeting ended for everyone");
+  const ok = await runZoomAction("/api/zoom/exit", zoomLeaveBtn);
+  if (ok) showToast("Zoom meeting ended or left successfully");
 });
 
 function readZoomLeaveTimer() {
@@ -1196,7 +1198,7 @@ function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
 
   if (timer.status === "scheduled") {
     zoomLeaveTimer.classList.add("active");
-    zoomLeaveTimerStatus.textContent = `Ends meeting in ${formatZoomLeaveCountdown(timer.deadline - Date.now())}`;
+    zoomLeaveTimerStatus.textContent = `Exits Zoom in ${formatZoomLeaveCountdown(timer.deadline - Date.now())}`;
     zoomLeaveTimerMinutes.value = timer.minutes;
     zoomLeaveTimerMinutes.disabled = true;
     zoomLeaveTimerStart.classList.add("hidden");
@@ -1206,7 +1208,7 @@ function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
 
   if (timer.status === "firing") {
     zoomLeaveTimer.classList.add("active");
-    zoomLeaveTimerStatus.textContent = "Ending Zoom meeting now...";
+    zoomLeaveTimerStatus.textContent = "Exiting Zoom now...";
     zoomLeaveTimerMinutes.disabled = true;
     zoomLeaveTimerStart.classList.add("hidden");
     zoomLeaveTimerCancel.classList.add("hidden");
@@ -1220,8 +1222,8 @@ function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
   const completed = timer.status === "completed";
   zoomLeaveTimer.classList.add(completed ? "completed" : "failed");
   zoomLeaveTimerStatus.textContent = completed
-    ? `Ended Zoom meeting automatically at ${completedAt}`
-    : `Could not end Zoom meeting at ${completedAt}`;
+    ? `Exited Zoom automatically at ${completedAt}`
+    : `Could not exit Zoom at ${completedAt}`;
   zoomLeaveTimerMinutes.disabled = false;
   zoomLeaveTimerStart.classList.remove("hidden");
   zoomLeaveTimerCancel.classList.add("hidden");
@@ -1234,9 +1236,9 @@ async function fireZoomLeaveTimer(timer) {
 
   zoomLeaveTimerRunning = true;
   writeZoomLeaveTimer({ ...current, status: "firing" });
-  zoomLeaveTimerStatus.textContent = "Ending Zoom meeting now...";
+  zoomLeaveTimerStatus.textContent = "Exiting Zoom now...";
   try {
-    const ok = await runZoomAction("/api/zoom/end", zoomLeaveBtn);
+    const ok = await runZoomAction("/api/zoom/exit", zoomLeaveBtn);
     const finished = {
       ...current,
       status: ok ? "completed" : "failed",
@@ -1290,13 +1292,13 @@ zoomLeaveTimerStart.addEventListener("click", () => {
   };
   writeZoomLeaveTimer(timer);
   renderZoomLeaveTimer(timer);
-  showToast(`Zoom meeting will end automatically in ${minutes} minute${minutes === 1 ? "" : "s"}`);
+  showToast(`Zoom will exit automatically in ${minutes} minute${minutes === 1 ? "" : "s"}`);
 });
 
 zoomLeaveTimerCancel.addEventListener("click", () => {
   localStorage.removeItem(ZOOM_LEAVE_TIMER_KEY);
   renderZoomLeaveTimer(null);
-  showToast("Auto-end timer cancelled");
+  showToast("Auto-exit timer cancelled");
 });
 
 window.addEventListener("storage", (event) => {

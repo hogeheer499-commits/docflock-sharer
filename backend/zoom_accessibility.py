@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Activate Zoom's explicit host-only "End Meeting for All" control."""
+"""Safely end a hosted Zoom meeting or leave it as a participant."""
 
 from __future__ import annotations
 
@@ -18,6 +18,8 @@ from gi.repository import Atspi  # noqa: E402
 
 HOST_END_LABELS = {"end"}
 END_FOR_ALL_LABELS = {"end meeting for all"}
+PARTICIPANT_LEAVE_LABELS = {"leave"}
+LEAVE_MEETING_LABELS = {"leave meeting"}
 MAX_ACCESSIBLES = 10_000
 
 
@@ -139,11 +141,20 @@ def result(ok: bool, **payload) -> int:
     return 0 if ok else 1
 
 
-def end_meeting_for_all() -> int:
+def wait_until_control_disappears(labels: set[str], timeout: float) -> bool:
+    deadline = time.monotonic() + timeout
+    while time.monotonic() < deadline:
+        if find_control(labels, require_showing=False) is None:
+            return True
+        time.sleep(0.25)
+    return False
+
+
+def end_meeting_for_all(host_end=None) -> int:
     if zoom_application() is None:
         return result(False, error="zoom_accessibility_unavailable")
 
-    host_end = wait_for_control(HOST_END_LABELS, 1.5, require_showing=False)
+    host_end = host_end or wait_for_control(HOST_END_LABELS, 1.5, require_showing=False)
     if host_end is None:
         return result(False, error="host_end_control_not_found")
     if not press(host_end):
@@ -157,18 +168,58 @@ def end_meeting_for_all() -> int:
         dismiss_open_zoom_menu()
         return result(False, error="end_meeting_for_all_control_failed")
 
-    deadline = time.monotonic() + 8.0
-    while time.monotonic() < deadline:
-        if find_control(HOST_END_LABELS, require_showing=False) is None:
-            return result(True, action="end_meeting_for_all", confirmed=True)
-        time.sleep(0.25)
-    return result(True, action="end_meeting_for_all", confirmed=False)
+    confirmed = wait_until_control_disappears(HOST_END_LABELS, 8.0)
+    return result(True, action="end_meeting_for_all", confirmed=confirmed)
+
+
+def leave_meeting(participant_leave=None) -> int:
+    if zoom_application() is None:
+        return result(False, error="zoom_accessibility_unavailable")
+
+    participant_leave = participant_leave or wait_for_control(
+        PARTICIPANT_LEAVE_LABELS, 1.5, require_showing=False
+    )
+    if participant_leave is None:
+        return result(False, error="participant_leave_control_not_found")
+    if not press(participant_leave):
+        return result(False, error="participant_leave_control_failed")
+
+    leave_confirmation = wait_for_control(LEAVE_MEETING_LABELS, 4.0, require_showing=True)
+    if leave_confirmation is None:
+        dismiss_open_zoom_menu()
+        return result(False, error="leave_meeting_confirmation_not_found")
+    if not press(leave_confirmation):
+        dismiss_open_zoom_menu()
+        return result(False, error="leave_meeting_confirmation_failed")
+
+    confirmed = wait_until_control_disappears(PARTICIPANT_LEAVE_LABELS, 8.0)
+    return result(True, action="leave_meeting", confirmed=confirmed)
+
+
+def exit_meeting() -> int:
+    if zoom_application() is None:
+        return result(False, error="zoom_accessibility_unavailable")
+
+    host_end = wait_for_control(HOST_END_LABELS, 1.5, require_showing=False)
+    if host_end is not None:
+        return end_meeting_for_all(host_end)
+
+    participant_leave = wait_for_control(
+        PARTICIPANT_LEAVE_LABELS, 1.5, require_showing=False
+    )
+    if participant_leave is not None:
+        return leave_meeting(participant_leave)
+    return result(False, error="zoom_meeting_exit_control_not_found")
 
 
 def main() -> int:
-    if sys.argv[1:] != ["end-meeting-for-all"]:
-        return result(False, error="unsupported_action")
-    return end_meeting_for_all()
+    if sys.argv[1:] == ["end-meeting-for-all"]:
+        return end_meeting_for_all()
+    if sys.argv[1:] == ["leave-meeting"]:
+        return leave_meeting()
+    if sys.argv[1:] == ["exit-meeting"]:
+        return exit_meeting()
+    return result(False, error="unsupported_action")
 
 
 if __name__ == "__main__":

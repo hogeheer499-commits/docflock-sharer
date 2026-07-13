@@ -99,6 +99,16 @@ def test_end_command_queues_for_bridge(client, monkeypatch):
     assert polled["command"]["value"] is None
 
 
+def test_exit_command_queues_role_aware_action_for_bridge(client, monkeypatch):
+    monkeypatch.setenv("ZOOM_CONTROL_MODE", "bridge")
+    client.post("/api/zoom/bridge/register", json={"client_id": "client-1", "role": "participant"})
+    data = client.post("/api/zoom/exit").json()
+    assert data["ok"] is True
+    polled = client.get("/api/zoom/bridge/poll?client_id=client-1").json()
+    assert polled["command"]["type"] == "exit_meeting"
+    assert polled["command"]["value"] is None
+
+
 def test_bridge_result_marks_command_done(client):
     client.post("/api/zoom/bridge/register", json={"client_id": "client-1", "role": "host"})
     created = client.post("/api/zoom/recover").json()
@@ -179,11 +189,26 @@ def test_end_meeting_refuses_when_host_control_is_missing(monkeypatch):
     assert result["error"] == "host_end_control_not_found"
 
 
-def test_legacy_leave_endpoint_also_ends_for_all(client, monkeypatch):
-    async def fake_end():
-        return {"ok": True, "action": "end_meeting_for_all"}
+def test_exit_meeting_can_leave_as_participant(monkeypatch):
+    monkeypatch.setenv("ZOOM_CONTROL_MODE", "xdotool")
+    controller = AutoZoomController()
 
-    main.zoom_controller.end_meeting_for_all = fake_end
+    async def fake_accessibility_helper(action):
+        assert action == "exit-meeting"
+        return {"ok": True, "action": "leave_meeting", "confirmed": True}
+
+    controller.xdotool.run_accessibility_helper = fake_accessibility_helper
+    result = asyncio.run(controller.exit_meeting())
+    assert result["ok"] is True
+    assert result["action"] == "leave_meeting"
+    assert result["confirmed"] is True
+
+
+def test_legacy_leave_endpoint_uses_role_aware_exit(client, monkeypatch):
+    async def fake_exit():
+        return {"ok": True, "action": "leave_meeting"}
+
+    main.zoom_controller.exit_meeting = fake_exit
     data = client.post("/api/zoom/leave").json()
     assert data["ok"] is True
-    assert data["action"] == "end_meeting_for_all"
+    assert data["action"] == "leave_meeting"

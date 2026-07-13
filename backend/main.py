@@ -392,15 +392,30 @@ async def _end_zoom_meeting_for_all():
     return result
 
 
+async def _exit_zoom_meeting():
+    result = await zoom_controller.exit_meeting()
+    player_paused = False
+    if isinstance(result, dict) and result.get("ok"):
+        player_paused = await _pause_player_if_playing()
+    if isinstance(result, dict):
+        result["player_paused"] = player_paused
+    return result
+
+
 @app.post("/api/zoom/end")
 async def api_zoom_end():
     return await _end_zoom_meeting_for_all()
 
 
+@app.post("/api/zoom/exit")
+async def api_zoom_exit():
+    return await _exit_zoom_meeting()
+
+
 @app.post("/api/zoom/leave")
 async def api_zoom_leave():
-    """Compatibility endpoint: explicitly ends the host's meeting for everyone."""
-    return await _end_zoom_meeting_for_all()
+    """Compatibility endpoint: end as host, otherwise leave as participant."""
+    return await _exit_zoom_meeting()
 
 
 @app.get("/api/zoom/commands/{command_id}")
