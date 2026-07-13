@@ -17,7 +17,20 @@ export default {
       return proxyApi(request, env, url);
     }
 
-    return env.ASSETS.fetch(request);
+    const response = await env.ASSETS.fetch(request);
+    const headers = new Headers(response.headers);
+    if (url.pathname === "/" || url.pathname.endsWith(".html")) {
+      headers.set("Cache-Control", "no-cache, max-age=0, must-revalidate");
+    } else if (url.pathname.startsWith("/assets/")) {
+      headers.set("Cache-Control", "public, max-age=31536000, immutable");
+    } else {
+      headers.set("Cache-Control", "public, max-age=0, must-revalidate");
+    }
+    return new Response(response.body, {
+      status: response.status,
+      statusText: response.statusText,
+      headers,
+    });
   },
 };
 

@@ -1,80 +1,68 @@
-# Design QA — Doc Remote responsive redesign
+# Design QA — Doc Remote accessibility and responsive follow-up
 
-- Source visual truth: `/home/bram/.codex/attachments/894d8014-6418-47bf-9ca2-ffb030a5cdb1/codex-clipboard-ca89de50-8241-4146-b578-7bb7a1568187.png`
-- Compact-desktop problem reference: `/home/bram/.codex/attachments/858b47c9-c78b-4956-83b3-934821226d55/codex-clipboard-a810c08e-0f4a-420f-9b51-5aa2a5c32e63.png`
-- Implementation: `https://design-refresh.docflock-sharer.pages.dev/`
-- Desktop implementation screenshot: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/final-desktop.png`
-- Compact desktop implementation screenshot: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/user-compact-final.png`
-- Mobile implementation screenshot: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/final-mobile.png`
-- Viewport: original desktop source normalized to 1487 × 1056 and implementation captured at 1488 × 1056; compact desktop captured at 1536 × 696 CSS pixels with device scale factor 1.25 (1920 × 870 output); mobile captured at 390 × 844.
-- State: authenticated; Zoom controls ready; no auto-exit timer; first lecture selected with EN/NL/PL subtitles; one queued lecture in the desktop comparison.
-- Full-view comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/reference-vs-preview-final.png`
-- Compact before/after comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/user-before-vs-compact-final.png`
-- Focused region comparison: a separate crop was not needed because the original-resolution combined comparison kept header, controls, list rows, subtitle chips, and action labels legible. Mobile was reviewed separately at original resolution.
+- Source visual truth: `/home/bram/.codex/attachments/858b47c9-c78b-4956-83b3-934821226d55/codex-clipboard-a810c08e-0f4a-420f-9b51-5aa2a5c32e63.png`, `/home/bram/.codex/attachments/c803a1ce-f746-444e-a6c6-112ef3d02a5d/codex-clipboard-c13c4d67-897e-4bce-b846-03db228ac866.png`, and the delegated audit specification dated 2026-07-14.
+- Implementation screenshots: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/responsive-2560.png`, `responsive-1440.png`, `responsive-1024.png`, `responsive-768.png`, `responsive-390.png`, `responsive-320.png`, and `responsive-844x390.png` in the same directory.
+- Viewports: 2560 × 1080, 1440 × 900, 1024 × 900, 768 × 900, 390 × 844, 320 × 720, and 844 × 390.
+- State: authenticated mock data; Zoom connected; no timer; first lecture selected; no real Zoom, timer-exit, playback, or queue API action fired.
+- Full-view comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/qa-wide-before-after.png`.
+- Focused mobile comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/qa-mobile-before-after.png`.
+- Additional state evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/state-empty-1440.png` and `state-shortcuts-1440.png`.
+- Automated browser results: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/responsive-results.json`.
 
 ## Findings
 
-No actionable P0, P1, or P2 differences remain.
+No actionable P0, P1, or P2 findings remain.
 
-- Fonts and typography: system sans-serif family, weights, hierarchy, wrapping, and compact UI labels track the source closely. The selected lecture uses a slightly stronger weight to preserve clear state feedback.
-- Spacing and layout rhythm: regular desktop keeps the original source proportions; short/scaled desktop now uses a centered 1280 px workspace, 330 px control rail, lower controls, compact resume row, and fully visible primary actions. Mobile uses a compact single-column flow with no dead grid rows.
-- Colors and visual tokens: warm neutral canvas, white cards, blue primary state, dark slate toggles, red destructive action, green connection status, and low-contrast borders map consistently to the source.
-- Image quality and asset fidelity: the existing Zoom logo remains a sharp source asset; interface icons use Bootstrap Icons 1.13.1 rather than handcrafted SVG or CSS drawings.
-- Copy and content: all app-specific labels and counts are preserved. “Add to queue” is expanded from the older “+ Queue” label to match the supplied source and improve clarity.
-- Accessibility and affordance: keyboard focus rings are visible, touch controls are at least 40 px high, selected rows have both color and a check icon, and the settings button opens the existing keyboard-shortcut panel.
+- Fonts and typography: the existing system sans-serif stack and weight hierarchy are preserved. Compact controls remain legible at 320 px; selection and empty-state copy truncate or wrap intentionally without clipping.
+- Spacing and layout rhythm: ultrawide content is centered at a 1560 px maximum. The two-column workspace remains at 1024 px and stacks below 960 px. At 390/320 px Zoom actions use a balanced 2 × 2 grid; at 844 × 390 they compress into one horizontal row so the timer and media area remain visible.
+- Colors and visual tokens: the established warm neutral canvas, white surfaces, blue primary state, slate toggles, red exit action, and green Zoom readiness state are unchanged. Focus-visible rings use the existing blue accent.
+- Image quality and asset fidelity: the supplied Zoom logo remains the source raster asset and Bootstrap Icons remain the product icon system; no replacement CSS art, handcrafted SVG, or placeholder image was introduced.
+- Copy and content: selection is now explicit as `Selected: <title> · <category>`. Empty search shows the requested Dutch no-results message and `Zoekopdracht wissen`. Timer history is separated as `Last auto-exit: <time>` from the current `No timer set` state.
+- Accessibility and affordance: media rows are native buttons with selected state; language inputs use a visually-hidden focusable pattern; tabs expose tablist/tab/tabpanel semantics with arrow, Home, and End navigation; the shortcuts dialog moves and traps focus, blocks background scroll, closes with Escape, and restores focus.
+- Performance: only the active media list is rendered. Switching category removes inactive rows from the DOM, and active rows use `content-visibility: auto`.
+- Responsive behavior: every required viewport has no page-wide horizontal scroll. At 320 px the small tab overflow is paired with scroll snapping and a visible `Scroll for more` hint.
 
 ## Comparison history
 
 ### Iteration 1
 
-- [P2] The desktop lecture list expanded with all content, pushing subtitles and primary actions below the intended fold.
-- [P2] Hidden grid areas left excess vertical space between the timer and browser on mobile.
-- Fixes: constrained the desktop workspace to the viewport, made the lecture list independently scrollable, and changed the mobile layout to a compact flex flow.
-- Post-fix evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/reference-vs-preview-3.png` and `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/preview-mobile-3.png`.
+- [P1] The first implementation let the new selection summary shrink to a thin, clipped strip at desktop heights.
+- [P1] The first no-results state still occupied the full media-list height, leaving a large empty panel.
+- Fixes: made the selection summary non-shrinking with a fixed minimum height; changed the empty list, panel, and browse card to content-sized empty-state layout.
+- Post-fix evidence: `responsive-1440.png` and `state-empty-1440.png` at the paths above.
 
 ### Iteration 2
 
-- [P2] The desktop queue card stopped above the source card baseline because the legacy footer occupied the final grid row.
-- Fix: moved Log out into the settings/shortcuts panel, hid the redundant desktop footer, and allowed the queue card to fill the remaining left-rail height.
-- Post-fix evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/final-desktop.png`.
-
-### Iteration 3
-
-- [P2] The first live production check exposed a static green “Zoom connected” label while the backend reported that the Zoom bridge was disconnected.
-- Fix: wired the header state and Sound/Video labels to `/api/zoom/state`; the header now shows neutral “Zoom ready” while disconnected and green “Zoom connected” only when the bridge is actually connected.
-- Post-fix evidence: the authenticated live-state API check and the final production captures at the implementation screenshot paths above.
-
-### Iteration 4
-
-- [P2] At the user's 1920 × 1080 Windows display with browser chrome and OS scaling, the wide desktop variant occupied nearly the full physical width and its oversized fixed controls pushed primary actions below the comfortable viewport.
-- Fix: added a short-desktop responsive mode at `max-height: 820px`, capped the workspace at 1280 CSS pixels, reduced the control rail to 330 px, lowered controls and card padding, converted Resume into a single row, and constrained the media workspace so Play and Add to queue remain visible.
-- Post-fix evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/user-before-vs-compact-final.png`; mobile regression evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/compact-mobile-final.png`.
+- [P2] At 320 px the earlier media-query order hid the explicit Zoom label and kept wider tab minimums than intended.
+- Fixes: moved the 320 px override after the 420 px rule, retained a compact visible `Zoom connected` label, reduced tab minimums, and retained the scroll hint for the remaining 10 px tab overflow.
+- Post-fix evidence: `responsive-320.png` and the browser metrics in `responsive-results.json`.
 
 ## Primary interactions tested
 
-- Join Zoom dialog opens and cancels.
-- Header settings opens the keyboard-shortcut panel.
-- Media tabs switch panels.
-- Lecture search filters to the expected rows.
-- Lecture selection enables Play, Add to queue, and subtitle choices.
-- Auto-exit timer starts and cancels locally.
-- Existing Zoom End / Leave action was intentionally not fired during visual QA.
+- Native media-row focus and selected state.
+- Language-pill keyboard focus.
+- Tab click switching plus Left/Right/Home/End keyboard navigation.
+- Selection persistence and explicit category copy after switching tabs.
+- Empty-search message and clear-search control.
+- Shortcuts dialog semantics, focus entry, focus trap, Escape close, scroll lock, and focus restoration.
+- Timer history/current-state separation using local state only.
+- Inactive media lists removed from the DOM.
+- Tab discoverability and page horizontal-overflow checks at all seven viewports.
+- Browser console errors checked at all seven viewports; none found.
 
-## Open Questions
+## Implementation checklist
 
-- None blocking. The source's connected state is preserved when the bridge is live; a neutral ready state now covers the disconnected case.
+- [x] Maximum 1560 px centered ultrawide layout.
+- [x] Two columns at 1024 px; stacked layout at 768 px and below.
+- [x] Compact portrait and landscape Zoom controls.
+- [x] Accessible rows, language pills, tabs, and shortcuts dialog.
+- [x] Explicit persisted selection and compact no-results state.
+- [x] Active-panel-only DOM rendering.
+- [x] Hashed first-party CSS/JS asset references and cache-policy verification.
+- [x] No real Zoom, playback, queue, or exit actions during QA.
 
-## Implementation Checklist
+## Follow-up polish
 
-- [x] Match the supplied wide-screen composition.
-- [x] Preserve existing element IDs and backend actions.
-- [x] Keep mobile controls fast and touch-friendly.
-- [x] Fit the main controls and actions comfortably within a scaled 1080p browser viewport.
-- [x] Verify key interaction states on the deployed preview.
-- [x] Confirm no actionable P0/P1/P2 visual differences remain.
-
-## Follow-up Polish
-
-- [P3] The Clear button remains visible in the queue header for faster queue management, although it is less prominent in the supplied mockup.
+- None required for this acceptance pass.
 
 final result: passed

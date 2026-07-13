@@ -15,6 +15,10 @@ const height = Number(process.env.CAPTURE_HEIGHT || 1056);
 const deviceScaleFactor = Number(process.env.CAPTURE_DSF || 1);
 const chromePath = process.env.CHROME_PATH || "/usr/bin/google-chrome";
 const port = Number(process.env.CHROME_DEBUG_PORT || 9224);
+const debug = process.env.CAPTURE_DEBUG === "1";
+const debugLog = (message) => {
+  if (debug) process.stderr.write(`[capture] ${message}\n`);
+};
 
 if (!targetUrl) throw new Error("CAPTURE_URL is required");
 
@@ -43,11 +47,13 @@ async function getDebuggerUrl() {
   throw new Error("Chrome debugging endpoint did not become ready");
 }
 
+debugLog("waiting for debugger");
 const socket = new WebSocket(await getDebuggerUrl());
 await new Promise((resolveOpen, rejectOpen) => {
   socket.addEventListener("open", resolveOpen, { once: true });
   socket.addEventListener("error", rejectOpen, { once: true });
 });
+debugLog("debugger connected");
 
 let nextId = 1;
 const pending = new Map();
@@ -72,6 +78,7 @@ function command(method, params = {}) {
 try {
   await command("Page.enable");
   await command("Runtime.enable");
+  debugLog("page and runtime enabled");
   if (mockApi) {
     await command("Page.addScriptToEvaluateOnNewDocument", {
       source: `
@@ -134,7 +141,9 @@ try {
     deviceScaleFactor,
     mobile: width < 700,
   });
+  debugLog("device metrics set");
   await command("Page.navigate", { url: targetUrl });
+  debugLog("page navigated");
   await delay(1800);
 
   if (pin && !mockApi) {
@@ -174,9 +183,11 @@ try {
       `,
     });
     await delay(400);
+    debugLog("first item selected");
   }
 
   if (runAssertions) {
+    debugLog("running assertions");
     const assertionResult = await command("Runtime.evaluate", {
       expression: `
         (() => {
@@ -188,32 +199,75 @@ try {
           result.joinDialogCloses = joinDialog.classList.contains('hidden');
 
           const shortcuts = document.getElementById('shortcuts-overlay');
-          document.getElementById('header-settings-btn').click();
+          const settingsButton = document.getElementById('header-settings-btn');
+          settingsButton.focus();
+          settingsButton.click();
           result.settingsOpens = !shortcuts.classList.contains('hidden');
+          result.shortcutsDialogSemantics =
+            shortcuts.getAttribute('role') === 'dialog' &&
+            shortcuts.getAttribute('aria-modal') === 'true' &&
+            shortcuts.hasAttribute('aria-labelledby');
+          result.shortcutsMovesFocus = document.activeElement.id === 'shortcuts-close';
+          result.shortcutsLocksScroll = document.body.classList.contains('modal-open');
           document.getElementById('shortcuts-close').click();
+          result.shortcutsRestoresFocus = document.activeElement === settingsButton;
 
-          document.querySelector('[data-tab="clips"]').click();
+          const lectureTab = document.querySelector('[data-tab="all"]');
+          const clipsTab = document.querySelector('[data-tab="clips"]');
+          clipsTab.click();
           result.tabsSwitch = document.getElementById('tab-clips').classList.contains('active');
-          document.querySelector('[data-tab="all"]').click();
+          result.tabSemantics =
+            document.querySelector('.tab-bar').getAttribute('role') === 'tablist' &&
+            clipsTab.getAttribute('role') === 'tab' &&
+            clipsTab.getAttribute('aria-selected') === 'true' &&
+            clipsTab.getAttribute('aria-controls') === 'tab-clips';
+          clipsTab.dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowLeft', bubbles: true }));
+          result.tabArrowNavigation = lectureTab.getAttribute('aria-selected') === 'true';
 
           const search = document.getElementById('search-all');
           search.value = 'Radical Subjectivity';
           search.dispatchEvent(new Event('input', { bubbles: true }));
           result.searchFilters = [...document.querySelectorAll('#list-all .item-list-row')]
-            .filter((row) => row.style.display !== 'none').length === 3;
+            .filter((row) => !row.hidden).length === 3;
+          search.value = 'zzzz-no-result';
+          search.dispatchEvent(new Event('input', { bubbles: true }));
+          const emptyState = document.querySelector('#list-all .item-search-empty:not([hidden])');
+          result.emptySearchState =
+            emptyState?.textContent.includes('Geen lezingen gevonden') &&
+            emptyState?.querySelector('.item-search-clear')?.textContent === 'Zoekopdracht wissen';
+          emptyState?.querySelector('.item-search-clear')?.click();
+          result.clearSearchWorks = search.value === '';
           search.value = '';
           search.dispatchEvent(new Event('input', { bubbles: true }));
 
-          document.querySelector('#list-all .item-list-row').click();
+          const firstRow = document.querySelector('#list-all .item-list-row');
+          firstRow.click();
           result.selectionEnablesActions =
             !document.getElementById('play-btn').disabled &&
             !document.getElementById('queue-btn').disabled &&
             !document.getElementById('lang-group').classList.contains('hidden');
+          result.rowsAreButtons = firstRow.tagName === 'BUTTON' && firstRow.getAttribute('aria-pressed') === 'true';
+          firstRow.focus();
+          result.rowsKeyboardFocusable = document.activeElement === firstRow;
+          const firstLanguage = document.querySelector('#lang-checkboxes input');
+          firstLanguage.focus();
+          result.languagePillsFocusable = document.activeElement === firstLanguage;
+
+          clipsTab.click();
+          result.selectionPersistsExplicitly =
+            document.getElementById('selection-summary').textContent.includes('Lecture') &&
+            !document.getElementById('selection-summary').classList.contains('hidden');
+          result.onlyActiveListRendered =
+            document.querySelectorAll('#list-all .item-list-row').length === 0 &&
+            document.querySelectorAll('#list-clips .item-list-row').length === 41 &&
+            document.querySelectorAll('#list-music .item-list-row, #list-youtube .item-list-row').length === 0;
+          lectureTab.click();
 
           document.getElementById('zoom-leave-timer-start').click();
           result.timerStarts = document.getElementById('zoom-leave-timer').classList.contains('active');
           document.getElementById('zoom-leave-timer-cancel').click();
           result.timerCancels = !document.getElementById('zoom-leave-timer').classList.contains('active');
+          result.noPageHorizontalScroll = document.documentElement.scrollWidth <= document.documentElement.clientWidth;
 
           return result;
         })()
@@ -221,8 +275,10 @@ try {
       returnByValue: true,
     });
     process.stdout.write(`${JSON.stringify(assertionResult.result.value)}\n`);
+    debugLog("assertions complete");
   }
 
+  debugLog("capturing screenshot");
   const screenshot = await command("Page.captureScreenshot", {
     format: "png",
     captureBeyondViewport: false,
@@ -231,6 +287,7 @@ try {
   await mkdir(dirname(outputPath), { recursive: true });
   await writeFile(outputPath, Buffer.from(screenshot.data, "base64"));
   process.stdout.write(`${outputPath}\n`);
+  debugLog("screenshot written");
 } finally {
   socket.close();
   chrome.kill("SIGTERM");

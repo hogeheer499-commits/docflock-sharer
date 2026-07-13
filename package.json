@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "wrangler pages dev public",
-    "deploy": "wrangler pages deploy public"
+    "build": "node scripts/build-static.mjs",
+    "check": "node --check public/app.js && node --check public/_worker.js && node scripts/check-static.mjs",
+    "dev": "npm run build && wrangler pages dev public",
+    "deploy": "npm run build && wrangler pages deploy public"
   },
   "devDependencies": {
-    "wrangler": "^3"
+    "wrangler": "^4.0.0"
   }
 }
