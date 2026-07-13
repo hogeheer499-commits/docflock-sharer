@@ -6,7 +6,7 @@
 - Mobile implementation screenshot: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/final-mobile.png`
 - Viewport: desktop source normalized to 1487 × 1056 and implementation captured at 1488 × 1056; mobile captured at 390 × 844.
 - State: authenticated; Zoom controls ready; no auto-exit timer; first lecture selected with EN/NL/PL subtitles; one queued lecture in the desktop comparison.
-- Full-view comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/reference-vs-preview-3.png`
+- Full-view comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/reference-vs-preview-final.png`
 - Focused region comparison: a separate crop was not needed because the original-resolution combined comparison kept header, controls, list rows, subtitle chips, and action labels legible. Mobile was reviewed separately at original resolution.
 
 ## Findings
@@ -35,6 +35,12 @@ No actionable P0, P1, or P2 differences remain.
 - Fix: moved Log out into the settings/shortcuts panel, hid the redundant desktop footer, and allowed the queue card to fill the remaining left-rail height.
 - Post-fix evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/final-desktop.png`.
 
+### Iteration 3
+
+- [P2] The first live production check exposed a static green “Zoom connected” label while the backend reported that the Zoom bridge was disconnected.
+- Fix: wired the header state and Sound/Video labels to `/api/zoom/state`; the header now shows neutral “Zoom ready” while disconnected and green “Zoom connected” only when the bridge is actually connected.
+- Post-fix evidence: the authenticated live-state API check and the final production captures at the implementation screenshot paths above.
+
 ## Primary interactions tested
 
 - Join Zoom dialog opens and cancels.
@@ -47,7 +53,7 @@ No actionable P0, P1, or P2 differences remain.
 
 ## Open Questions
 
-- None blocking. The source does not specify a live offline/error connection state; existing backend-offline handling remains unchanged.
+- None blocking. The source's connected state is preserved when the bridge is live; a neutral ready state now covers the disconnected case.
 
 ## Implementation Checklist
 

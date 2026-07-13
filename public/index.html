@@ -30,7 +30,10 @@
       <header class="top-bar">
         <div class="top-brand">
           <h1 class="app-title">Doc Remote</h1>
-          <span class="connection-status"><span class="connection-dot"></span>Zoom connected</span>
+          <span id="zoom-connection-status" class="connection-status disconnected">
+            <span class="connection-dot"></span>
+            <span id="zoom-connection-text">Zoom ready</span>
+          </span>
         </div>
         <div class="top-actions">
           <button id="refresh-btn" class="btn-refresh" title="Refresh">

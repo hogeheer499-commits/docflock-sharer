@@ -1290,6 +1290,12 @@ summary:focus-visible {
   box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.1);
 }
 
+.connection-status.disconnected { color: var(--text-secondary); }
+.connection-status.disconnected .connection-dot {
+  background: #9b9b96;
+  box-shadow: 0 0 0 3px rgba(116, 116, 116, 0.08);
+}
+
 .btn-refresh,
 .btn-settings {
   min-width: 44px;

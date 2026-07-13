@@ -605,8 +605,32 @@ async function skip(offset) {
 function pollStatus() {
   stopPolling();
   fetchStatus();
-  statusInterval = setInterval(fetchStatus, 3000);
+  fetchZoomState();
+  statusInterval = setInterval(() => {
+    fetchStatus();
+    fetchZoomState();
+  }, 3000);
   startLocalTimer();
+}
+
+async function fetchZoomState() {
+  const connectionStatus = document.getElementById("zoom-connection-status");
+  const connectionText = document.getElementById("zoom-connection-text");
+  try {
+    const resp = await api("/api/zoom/state");
+    const state = await resp.json();
+    const connected = Boolean(state.bridge_connected);
+    connectionStatus.classList.toggle("disconnected", !connected);
+    connectionText.textContent = connected ? "Zoom connected" : "Zoom ready";
+
+    if (state.can_read_state) {
+      document.querySelector("#zoom-mic-btn span").textContent = state.audio_on ? "Sound On" : "Sound Off";
+      document.querySelector("#zoom-cam-btn span").textContent = state.video_on ? "Video On" : "Video Off";
+    }
+  } catch {
+    connectionStatus.classList.add("disconnected");
+    connectionText.textContent = "Zoom unavailable";
+  }
 }
 
 let localTimer = null;

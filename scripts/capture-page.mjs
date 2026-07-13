@@ -101,6 +101,12 @@ try {
             else if (url === '/api/youtube') data = Array.from({ length: 27 }, (_, index) => ({ id: 'youtube-' + index, title: 'YouTube ' + (index + 1), languages: [] }));
             else if (url === '/api/videos/multilang') data = [];
             else if (url === '/api/delay') data = { audio_delay_ms: 0 };
+            else if (url === '/api/zoom/state') data = {
+              bridge_connected: true,
+              can_read_state: true,
+              audio_on: true,
+              video_on: true
+            };
             else if (url === '/api/status') data = {
               state: 'stopped',
               queue: [{ video_id: 'lecture-1', title: "Causality: The Ego's Foundation — 1 of 3 (Jan 2002)" }]
