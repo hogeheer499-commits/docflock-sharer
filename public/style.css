@@ -2585,8 +2585,8 @@ summary:focus-visible {
     grid-area: workspace;
     width: 100%;
     max-width: 820px;
-    height: calc(100dvh - 104px);
-    min-height: 640px;
+    height: max(820px, calc(100dvh - 104px));
+    min-height: 820px;
     gap: 0;
   }
 
@@ -2649,7 +2649,7 @@ summary:focus-visible {
     width: 100%;
     max-width: 820px;
     height: 100%;
-    min-height: 640px;
+    min-height: 820px;
     padding: 24px 24px 18px;
   }
 

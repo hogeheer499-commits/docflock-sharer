@@ -172,9 +172,8 @@ const playRow = document.querySelector(".play-row");
 const leftStack = document.querySelector(".left-stack");
 const statusCard = document.getElementById("status-card");
 if (leftStack && statusCard) leftStack.prepend(statusCard);
-const mobileSmartScrollMedia = window.matchMedia("(max-width: 720px)");
 const reducedMotionMedia = window.matchMedia("(prefers-reduced-motion: reduce)");
-let mobilePlayerScrollRequestedAt = 0;
+let playerScrollRequestedAt = 0;
 
 const mediaTabs = {
   all: { listId: "list-all", searchId: "search-all", label: "lezingen", category: "Lecture", lecturePicker: true },
@@ -640,18 +639,18 @@ function getSelectedMedia() {
   return null;
 }
 
-function mobileElementRangeIsVisible(startElement, endElement = startElement) {
+function elementRangeIsVisible(startElement, endElement = startElement) {
   const viewportPadding = 16;
   const startRect = startElement.getBoundingClientRect();
   const endRect = endElement.getBoundingClientRect();
   return startRect.top >= viewportPadding && endRect.bottom <= window.innerHeight - viewportPadding;
 }
 
-function scrollMobileRangeIntoView(startElement, endElement = startElement) {
-  if (!mobileSmartScrollMedia.matches || !startElement) return;
+function scrollRangeIntoViewIfNeeded(startElement, endElement = startElement, visibilityTarget = endElement) {
+  if (!startElement || !visibilityTarget) return;
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
-      if (!mobileSmartScrollMedia.matches || mobileElementRangeIsVisible(startElement, endElement)) return;
+      if (elementRangeIsVisible(visibilityTarget)) return;
       startElement.scrollIntoView({
         behavior: reducedMotionMedia.matches ? "auto" : "smooth",
         block: "start",
@@ -660,20 +659,19 @@ function scrollMobileRangeIntoView(startElement, endElement = startElement) {
   });
 }
 
-function requestMobilePlayerScroll() {
-  if (!mobileSmartScrollMedia.matches) return;
-  mobilePlayerScrollRequestedAt = Date.now();
+function requestPlayerScroll() {
+  playerScrollRequestedAt = Date.now();
 }
 
-function scrollToMobilePlayerWhenReady(card, state) {
-  if (!mobilePlayerScrollRequestedAt) return;
-  if (Date.now() - mobilePlayerScrollRequestedAt > 15000) {
-    mobilePlayerScrollRequestedAt = 0;
+function scrollToPlayerWhenReady(card, state) {
+  if (!playerScrollRequestedAt) return;
+  if (Date.now() - playerScrollRequestedAt > 15000) {
+    playerScrollRequestedAt = 0;
     return;
   }
-  if (!mobileSmartScrollMedia.matches || !["loading", "playing", "paused"].includes(state)) return;
-  mobilePlayerScrollRequestedAt = 0;
-  scrollMobileRangeIntoView(card);
+  if (!["loading", "playing", "paused"].includes(state)) return;
+  playerScrollRequestedAt = 0;
+  scrollRangeIntoViewIfNeeded(card);
 }
 
 function selectItem(id) {
@@ -688,7 +686,7 @@ function selectItem(id) {
     }
   });
   onSelectionChange();
-  scrollMobileRangeIntoView(selectionSummary, playRow);
+  scrollRangeIntoViewIfNeeded(selectionSummary, playRow, playRow);
 }
 
 function getSelectedId() {
@@ -1162,7 +1160,7 @@ async function playVideo() {
       showError(data.error || "Playback failed");
       return;
     }
-    requestMobilePlayerScroll();
+    requestPlayerScroll();
     pollStatus();
     showToast("Now playing: " + (data.title || ""));
   } catch (e) {
@@ -1487,7 +1485,7 @@ function updateStatusUI(data) {
   if (data.queue !== undefined) updateQueueUI(data.queue);
 
   saveResumeState(data);
-  scrollToMobilePlayerWhenReady(card, data.state);
+  scrollToPlayerWhenReady(card, data.state);
 }
 
 function formatTime(seconds) {

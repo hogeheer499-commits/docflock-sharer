@@ -9,9 +9,9 @@ const targetUrl = process.env.QA_URL || "http://127.0.0.1:8788";
 const outputDir = resolve(process.env.QA_OUTPUT_DIR || "qa-screenshots");
 const chromePath = process.env.CHROME_PATH;
 const viewports = [
-  ["2560", 2560, 1080],
+  ["2560", 2560, 1440],
   ["1440", 1440, 900],
-  ["1024", 1024, 900],
+  ["1024", 1024, 768],
   ["768", 768, 900],
   ["390", 390, 844],
   ["320", 320, 720],
@@ -81,6 +81,7 @@ try {
       }));
       window.__zoomJoined = true;
       window.__apiCalls = [];
+      window.__mockPlaybackState = { state: "stopped", queue: [] };
       const nativeFetch = window.fetch.bind(window);
       window.fetch = async (input, init) => {
         const url = typeof input === "string" ? input : input.url;
@@ -93,7 +94,20 @@ try {
         else if (url === "/api/youtube") data = Array.from({ length: 27 }, (_, index) => ({ id: `youtube-${index}`, title: `YouTube ${index + 1}`, languages: [] }));
         else if (url === "/api/delay") data = { audio_delay_ms: 0 };
         else if (url === "/api/zoom/state") data = { in_meeting: window.__zoomJoined, bridge_connected: false, can_read_state: false, audio_on: true, video_on: true, screen_name: "Hoge Heer" };
-        else if (url === "/api/status") data = { state: "stopped", queue: [] };
+        else if (url === "/api/play") {
+          window.__mockPlaybackState = {
+            state: "playing",
+            title: "Causality: The Ego's Foundation - 1 of 3 (Jan 2002)",
+            video_id: "2002-01-1",
+            current_time: 1,
+            duration: 3600,
+            languages: ["en"],
+            available_languages: ["en", "nl", "pl"],
+            queue: [],
+          };
+          data = { title: window.__mockPlaybackState.title };
+        }
+        else if (url === "/api/status") data = window.__mockPlaybackState;
         return new Response(JSON.stringify(data), { status: 200, headers: { "Content-Type": "application/json" } });
       };
     });
@@ -103,9 +117,10 @@ try {
     if (name === "1440" || name === "390") {
       await page.screenshot({ path: resolve(outputDir, `picker-initial-${name}.png`), fullPage: false });
     }
-    const assertions = await page.evaluate(async (isSmartScrollViewport) => {
+    const assertions = await page.evaluate(async () => {
       const result = {};
       window.__smartScrollTargets = [];
+      window.__originalScrollIntoView = Element.prototype.scrollIntoView;
       Element.prototype.scrollIntoView = function scrollIntoView(options) {
         window.__smartScrollTargets.push({ id: this.id, options });
       };
@@ -130,9 +145,19 @@ try {
       const firstRow = document.querySelector("#list-all .lecture-part-row");
       firstRow.click();
       await new Promise((resolveWait) => setTimeout(resolveWait, 50));
-      result.selectionSmartScroll = isSmartScrollViewport
-        ? window.__smartScrollTargets.some((call) => call.id === "selection-summary" && call.options.block === "start")
-        : window.__smartScrollTargets.length === 0;
+      const playRow = document.querySelector(".play-row");
+      const playRectAfterSelection = playRow.getBoundingClientRect();
+      const playWasVisible = playRectAfterSelection.top >= 16 && playRectAfterSelection.bottom <= window.innerHeight - 16;
+      const selectionScrollCall = window.__smartScrollTargets.some((call) => call.id === "selection-summary" && call.options.block === "start");
+      result.selectionSmartScroll = playWasVisible ? !selectionScrollCall : selectionScrollCall;
+
+      window.__smartScrollTargets = [];
+      const originalPlayRect = playRow.getBoundingClientRect.bind(playRow);
+      playRow.getBoundingClientRect = () => ({ ...originalPlayRect(), top: 100, bottom: 154 });
+      selectItem(firstRow.dataset.id);
+      await new Promise((resolveWait) => setTimeout(resolveWait, 50));
+      playRow.getBoundingClientRect = originalPlayRect;
+      result.visiblePlayDoesNotScroll = window.__smartScrollTargets.length === 0;
       result.rowsAreButtons = firstRow.tagName === "BUTTON" && firstRow.getAttribute("aria-pressed") === "true";
       firstRow.focus();
       result.rowsKeyboardFocusable = document.activeElement === firstRow;
@@ -291,23 +316,39 @@ try {
       document.getElementById("toast-container").replaceChildren();
 
       window.__smartScrollTargets = [];
+      updateStatusUI({ state: "playing", title: "Smart scroll QA", current_time: 1, duration: 60, languages: ["en"], queue: [] });
       window.scrollTo(0, document.documentElement.scrollHeight);
-      requestMobilePlayerScroll();
+      const playerBeforeRequest = document.getElementById("status-card").getBoundingClientRect();
+      const playerWasVisibleAtBottom = playerBeforeRequest.top >= 16 && playerBeforeRequest.bottom <= window.innerHeight - 16;
+      requestPlayerScroll();
       updateStatusUI({ state: "playing", title: "Smart scroll QA", current_time: 1, duration: 60, languages: ["en"], queue: [] });
       await new Promise((resolveWait) => setTimeout(resolveWait, 50));
-      result.playerSmartScroll = isSmartScrollViewport
-        ? window.__smartScrollTargets.some((call) => call.id === "status-card" && call.options.block === "start")
-        : window.__smartScrollTargets.length === 0;
+      const playerScrollCall = window.__smartScrollTargets.some((call) => call.id === "status-card" && call.options.block === "start");
+      result.playerSmartScroll = playerWasVisibleAtBottom ? !playerScrollCall : playerScrollCall;
+
+      const statusCard = document.getElementById("status-card");
+      const statusRectBeforeReveal = statusCard.getBoundingClientRect();
+      window.scrollBy(0, statusRectBeforeReveal.top - 16);
+      await new Promise((resolveWait) => setTimeout(resolveWait, 50));
+      window.__smartScrollTargets = [];
+      const visibleStatusRect = statusCard.getBoundingClientRect();
+      const playerIsVisibleNow = visibleStatusRect.top >= 16 && visibleStatusRect.bottom <= window.innerHeight - 16;
+      requestPlayerScroll();
+      updateStatusUI({ state: "playing", title: "Smart scroll QA", current_time: 2, duration: 60, languages: ["en"], queue: [] });
+      await new Promise((resolveWait) => setTimeout(resolveWait, 50));
+      result.visiblePlayerDoesNotScroll = playerIsVisibleNow && window.__smartScrollTargets.length === 0;
       const playerRect = document.getElementById("status-card").getBoundingClientRect();
       const zoomRect = document.querySelector(".zoom-panel").getBoundingClientRect();
       const timerRect = document.getElementById("zoom-leave-timer").getBoundingClientRect();
       const browseRect = document.querySelector(".browse-card").getBoundingClientRect();
+      const lectureBrowserRect = document.querySelector(".lecture-browser-layout").getBoundingClientRect();
       result.desktopPlayerAndLibraryLayout = window.innerWidth < 960 || (
         document.getElementById("status-card").parentElement.classList.contains("left-stack")
         && playerRect.top < zoomRect.top
         && Math.abs(playerRect.left - zoomRect.left) <= 1
         && browseRect.width <= 822
       );
+      result.desktopLibraryHasUsefulHeight = window.innerWidth < 960 || lectureBrowserRect.height >= 280;
       result.mobileStackingPreserved = window.innerWidth >= 960 || (
         zoomRect.top < timerRect.top
         && timerRect.top < playerRect.top
@@ -326,8 +367,9 @@ try {
       result.tabClientWidth = tabBar.clientWidth;
       result.tabScrollWidth = tabBar.scrollWidth;
       result.domRows = document.querySelectorAll(".item-list-row, .lecture-part-row, .lecture-result-row").length;
+      Element.prototype.scrollIntoView = window.__originalScrollIntoView;
       return result;
-    }, width <= 720);
+    });
 
     if (["1440", "1024", "390"].includes(name)) {
       await page.evaluate(() => {
@@ -348,6 +390,32 @@ try {
       await delay(100);
       await page.screenshot({ path: resolve(outputDir, `state-playing-${name}.png`), fullPage: false });
       await page.evaluate(() => {
+        updateStatusUI({ state: "stopped" });
+        window.scrollTo(0, 0);
+      });
+    }
+
+    if (name === "1024") {
+      await page.evaluate(() => {
+        updateStatusUI({ state: "stopped" });
+        window.scrollTo(0, 0);
+        selectItem("2002-01-1");
+      });
+      await delay(800);
+      assertions.laptopSelectionShowsActions = await page.evaluate(() => {
+        const rect = document.querySelector(".play-row").getBoundingClientRect();
+        return rect.top >= 16 && rect.bottom <= window.innerHeight - 16;
+      });
+      await page.screenshot({ path: resolve(outputDir, "state-selection-actions-1024.png"), fullPage: false });
+      await page.click("#play-btn");
+      await delay(800);
+      assertions.laptopPlayShowsPlayer = await page.evaluate(() => {
+        const rect = document.getElementById("status-card").getBoundingClientRect();
+        return rect.top >= 0 && rect.bottom <= window.innerHeight - 16;
+      });
+      await page.screenshot({ path: resolve(outputDir, "state-playing-auto-scroll-1024.png"), fullPage: false });
+      await page.evaluate(() => {
+        stopPolling();
         updateStatusUI({ state: "stopped" });
         window.scrollTo(0, 0);
       });
