@@ -101,8 +101,12 @@ try {
     if (name === "1440" || name === "390") {
       await page.screenshot({ path: resolve(outputDir, `picker-initial-${name}.png`), fullPage: false });
     }
-    const assertions = await page.evaluate(async () => {
+    const assertions = await page.evaluate(async (isSmartScrollViewport) => {
       const result = {};
+      window.__smartScrollTargets = [];
+      Element.prototype.scrollIntoView = function scrollIntoView(options) {
+        window.__smartScrollTargets.push({ id: this.id, options });
+      };
       const topActions = document.querySelector(".top-actions").getBoundingClientRect();
       result.headerActionsInsideViewport = topActions.right <= window.innerWidth;
       result.zoomJoinedStatus = document.getElementById("zoom-connection-text").textContent === "Hoge Heer is ready";
@@ -123,6 +127,10 @@ try {
       document.querySelector(".lecture-series-trigger").click();
       const firstRow = document.querySelector("#list-all .lecture-part-row");
       firstRow.click();
+      await new Promise((resolveWait) => setTimeout(resolveWait, 50));
+      result.selectionSmartScroll = isSmartScrollViewport
+        ? window.__smartScrollTargets.some((call) => call.id === "selection-summary" && call.options.block === "start")
+        : window.__smartScrollTargets.length === 0;
       result.rowsAreButtons = firstRow.tagName === "BUTTON" && firstRow.getAttribute("aria-pressed") === "true";
       firstRow.focus();
       result.rowsKeyboardFocusable = document.activeElement === firstRow;
@@ -231,6 +239,17 @@ try {
       localStorage.removeItem("docflock_zoom_leave_timer");
       renderZoomLeaveTimer(null);
 
+      window.__smartScrollTargets = [];
+      window.scrollTo(0, document.documentElement.scrollHeight);
+      requestMobilePlayerScroll();
+      updateStatusUI({ state: "playing", title: "Smart scroll QA", current_time: 1, duration: 60, languages: ["en"], queue: [] });
+      await new Promise((resolveWait) => setTimeout(resolveWait, 50));
+      result.playerSmartScroll = isSmartScrollViewport
+        ? window.__smartScrollTargets.some((call) => call.id === "status-card" && call.options.block === "start")
+        : window.__smartScrollTargets.length === 0;
+      updateStatusUI({ state: "stopped" });
+      window.scrollTo(0, 0);
+
       const tabBar = document.querySelector(".tab-bar");
       const tabHint = document.querySelector(".tab-scroll-hint");
       const tabsFit = tabBar.scrollWidth <= tabBar.clientWidth + 2;
@@ -242,7 +261,7 @@ try {
       result.tabScrollWidth = tabBar.scrollWidth;
       result.domRows = document.querySelectorAll(".item-list-row, .lecture-part-row, .lecture-result-row").length;
       return result;
-    });
+    }, width <= 720);
 
     if (name === "1440") {
       await page.evaluate(() => {

@@ -2511,6 +2511,9 @@ summary:focus-visible {
 }
 
 @media (max-width: 720px) {
+  .selection-summary,
+  .status-card { scroll-margin-top: 16px; }
+
   .lecture-browser-layout { min-height: 0; display: block; overflow: visible; }
   .lecture-year-nav {
     padding: 11px 0;
