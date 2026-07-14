@@ -45,10 +45,21 @@ try {
         { id: "2002-02-2", sort_key: "2002-02-2", title: "Radical Subjectivity: The ‘I’ of Self - 2 of 3 (Feb 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
         { id: "2002-02-3", sort_key: "2002-02-3", title: "Radical Subjectivity: The ‘I’ of Self - 3 of 3 (Feb 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
       ];
+      const namedCollections = [
+        { id: "2013-01-1", sort_key: "2013-01-1", title: "Vol I: Power vs. Force - Muscle Testing - 1 of 2", series: "Volume Series", languages: ["en"] },
+        { id: "2013-01-2", sort_key: "2013-01-2", title: "Vol I: Power vs. Force - Muscle Testing - 2 of 2", series: "Volume Series", languages: ["en"] },
+        { id: "2014-13-1", sort_key: "2014-13-1", title: "Stress", series: "Archival Office Visit Series", languages: ["en"] },
+        { id: "2015-11-1", sort_key: "2015-11-1", title: "A Map of Consciousness", series: "On The Road Talks", languages: ["en"] },
+        { id: "2015-05-1", sort_key: "2015-05-1", title: "Progressive Levels of Consciousness", series: "On The Road Talks", languages: ["en"] },
+        { id: "2015-01-1", sort_key: "2015-01-1", title: "How to Live Your Life Like A Prayer (2012)", series: "On The Road Talks", languages: ["en"] },
+        { id: "2012-02-1", sort_key: "2012-02-1", title: "Q&A Session (Jul 2011) (Jul 2012)", series: "2012: Supporting Programs", languages: ["en"] },
+        { id: "2003-20-1", sort_key: "2003-20-1", title: "Verification of Spiritual Realities - 1 of 3 (Sep 2003)", series: "2003: Verification Series (2003)", languages: ["en"] },
+        { id: "2004-00-1", sort_key: "2004-00-1", title: "Love is a Way of Being - 1 of 3 (Jan 2004)", series: "2004: Transcending the Mind", languages: ["en"] },
+      ];
       const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      const videos = featured.concat(Array.from({ length: 245 }, (_, index) => {
+      const videos = featured.concat(namedCollections, Array.from({ length: 236 }, (_, index) => {
         const groupIndex = Math.floor(index / 3);
-        const year = 2003 + (groupIndex % 13);
+        const year = 2003 + (groupIndex % 9);
         const month = (groupIndex % 12) + 1;
         const part = (index % 3) + 1;
         return {
@@ -117,8 +128,14 @@ try {
       result.lectureHierarchy = document.querySelectorAll(".lecture-year-list button").length > 1
         && document.querySelector(".lecture-content-heading h2").textContent.startsWith("2002:")
         && document.querySelector(".lecture-series-trigger").getAttribute("aria-expanded") === "true";
-      result.yearButtonsHaveNoCounts = [...document.querySelectorAll(".lecture-year-list button")]
-        .every((button) => /^(?:\d{4}|Other)$/.test(button.textContent.trim()));
+      const archiveLabels = [...document.querySelectorAll(".lecture-year-list button")]
+        .map((button) => button.textContent.trim());
+      result.yearButtonsHaveNoCounts = archiveLabels
+        .every((label) => /^(?:\d{4}|Volume|Office|Road|Discussion|Satsang|Other)$/.test(label));
+      result.namedCollectionsPresent = ["Volume", "Office", "Road", "Discussion", "Satsang"]
+        .every((label) => archiveLabels.includes(label));
+      result.syntheticArchiveYearsRemoved = ["2012", "2013", "2014", "2015"]
+        .every((label) => !archiveLabels.includes(label));
       const nextYear = document.querySelectorAll(".lecture-year-list button")[1];
       nextYear.click();
       result.yearChangeStartsCollapsed = document.querySelectorAll(".lecture-part-row").length === 0
@@ -128,6 +145,23 @@ try {
       firstSeries.click();
       result.seriesExpandsOnDemand = document.querySelectorAll(".lecture-part-row").length > 0
         && document.querySelector(".lecture-series-trigger").getAttribute("aria-expanded") === "true";
+      const officeButton = [...document.querySelectorAll(".lecture-year-list button")]
+        .find((button) => button.textContent.trim() === "Office");
+      officeButton.click();
+      result.officeCollectionNamedCorrectly = document.querySelector(".lecture-content-heading h2").textContent === "Archival Office Visit Series"
+        && document.querySelector(".lecture-breadcrumb strong").textContent === "Office"
+        && !document.getElementById("list-all").textContent.includes("2014");
+      const roadButton = [...document.querySelectorAll(".lecture-year-list button")]
+        .find((button) => button.textContent.trim() === "Road");
+      roadButton.click();
+      result.roadCollectionHidesUnverifiedYears = document.querySelectorAll(".lecture-series-copy > span").length === 0
+        && !document.getElementById("list-all").textContent.match(/\b(?:2003|2004|2012|2015)\b/);
+      const volumeButton = [...document.querySelectorAll(".lecture-year-list button")]
+        .find((button) => button.textContent.trim() === "Volume");
+      volumeButton.click();
+      document.querySelector(".lecture-series-trigger").click();
+      result.collectionPartsGrouped = document.querySelector(".lecture-series-trigger strong").textContent.startsWith("Vol I:")
+        && document.querySelectorAll(".lecture-part-row").length === 2;
 
       const settingsButton = document.getElementById("header-settings-btn");
       const shortcuts = document.getElementById("shortcuts-overlay");

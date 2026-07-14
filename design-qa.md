@@ -7,6 +7,7 @@
 - Full-view comparison evidence: `/home/bram/.codex/visualizations/2026/07/14/docremote-lecture-picker-production/comparison-1440.png`.
 - Focused mobile comparison evidence: `/home/bram/.codex/visualizations/2026/07/14/docremote-lecture-picker-production/comparison-390.png`.
 - Automated browser results: `/home/bram/.codex/visualizations/2026/07/14/docremote-lecture-picker-production/responsive-results.json`.
+- Named-collection evidence: `/home/bram/.codex/visualizations/2026/07/14/docremote-named-collections-final/`, verified against the official Veritas Streaming Library category structure.
 
 ## Findings
 
@@ -31,12 +32,22 @@ No actionable P0, P1, or P2 findings remain.
 ### Responsive polish
 
 - [P2] Per-year counts made compact year pills visually noisy in the reviewed mobile state.
-- Fix: removed counts from every year button, retained the useful total in the selected-year summary, and centered the mobile year labels.
+- Fix: removed counts from every year button, centered the mobile year labels, and later removed the redundant archive-heading totals as well.
 - Post-fix evidence: `picker-initial-390.png` and all seven responsive captures.
+
+### Official catalog normalization
+
+- The numeric `2012`–`2015` buckets were technical library identifiers rather than trustworthy collection years.
+- Fix: retained the true 2002–2011 lecture years and regrouped later/special material as `Volume`, `Office`, `Road`, `Discussion`, and `Satsang` using the official Veritas catalog structure.
+- Mobile now shows separate horizontally scrollable rows for years and named collections, so the collections remain discoverable without replacing the year navigation.
+- Removed the redundant lecture/series count line beneath every normal archive heading. Search-result counts remain because they communicate query feedback.
+- Multipart titles without a date, including Volume and Spiritual Will entries, are now grouped into one expandable lecture instead of separate cards per part.
 
 ## Primary interactions tested
 
 - Changing years resets global search and keeps every topic collapsed until the user opens one.
+- Changing between true years and named collections; synthetic 2012–2015 navigation labels are absent.
+- Official Office, Road, Discussion, Satsang, and Volume classification, including mixed legacy metadata such as `A Map of Consciousness` and the dated discussion titles.
 - Expanding the first or any other topic on demand after a year change.
 - Expanding/collapsing a topic and collapsing all topics.
 - Selecting a part with keyboard-focusable native buttons; selection still enables the existing subtitle, Play and Queue controls.

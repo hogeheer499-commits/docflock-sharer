@@ -195,79 +195,145 @@ const lectureMonthNames = {
   dec: "December",
 };
 
+const lectureCollectionDefinitions = {
+  volume: { key: "collection-volume", label: "Volume", title: "Volume Series", order: 100 },
+  office: { key: "collection-office", label: "Office", title: "Archival Office Visit Series", order: 101 },
+  road: { key: "collection-road", label: "Road", title: "On the Road – Talk Series", order: 102 },
+  discussion: { key: "collection-discussion", label: "Discussion", title: "Discussion Series with Dr. Hawkins & Wife Susan", order: 103 },
+  satsang: { key: "collection-satsang", label: "Satsang", title: "Satsang Questions & Answers", order: 104 },
+};
+
+const lectureCollectionByTitle = new Map([
+  ["a map of consciousness", "office"],
+  ["become that which you are", "road"],
+  ["love is a way of being", "road"],
+  ["the presence of spiritual awareness", "road"],
+  ["verification of spiritual realities", "road"],
+  ["progressive levels of consciousness", "road"],
+  ["spiritual will", "road"],
+  ["permanent inner peace", "discussion"],
+  ["what is real success", "discussion"],
+  ["how to live your life like a prayer", "discussion"],
+  ["what you are changes the world", "discussion"],
+  ["improving your relationships", "discussion"],
+  ["how to see the reality of life", "discussion"],
+  ["what is meant by spiritual", "discussion"],
+  ["the importance of family", "discussion"],
+  ["q&a session", "satsang"],
+]);
+
 function expandLectureDate(value) {
   const match = String(value || "").trim().match(/^([A-Za-z]{3})\s+(\d{4})$/);
   if (!match) return String(value || "").trim();
   return `${lectureMonthNames[match[1].toLowerCase()] || match[1]} ${match[2]}`;
 }
 
+function stripTrailingLectureDates(value) {
+  let title = String(value || "").trim();
+  const trailingDate = /\s+\((?:[A-Za-z]{3}\s+)?\d{4}\)\s*$/i;
+  while (trailingDate.test(title)) title = title.replace(trailingDate, "").trim();
+  return title;
+}
+
+function normalizeLectureCollectionTitle(value) {
+  return stripTrailingLectureDates(value)
+    .replace(/[’‘]/g, "'")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function resolveLectureCollection(seriesTitle, seriesName) {
+  const titleKey = normalizeLectureCollectionTitle(seriesTitle);
+  const titleCollection = lectureCollectionByTitle.get(titleKey);
+  if (titleCollection) return lectureCollectionDefinitions[titleCollection];
+
+  const normalizedSeries = String(seriesName || "").toLowerCase();
+  if (normalizedSeries.includes("volume series")) return lectureCollectionDefinitions.volume;
+  if (normalizedSeries.includes("archival office")) return lectureCollectionDefinitions.office;
+  if (normalizedSeries.includes("discussion series")) return lectureCollectionDefinitions.discussion;
+  if (normalizedSeries.includes("satsang")) return lectureCollectionDefinitions.satsang;
+  if (normalizedSeries.includes("on the road") || normalizedSeries.includes("verification series")) {
+    return lectureCollectionDefinitions.road;
+  }
+  return null;
+}
+
 function parseLectureMetadata(item) {
   const title = String(item.title || "Untitled lecture").trim();
-  const titleMatch = title.match(/^(.*?)\s+(?:—|–|-)\s+(\d+)\s+of\s+(\d+)\s+\(([^)]+)\)\s*$/i);
+  const titleMatch = title.match(/^(.*?)\s+(?:—|–|-)\s+(\d+)\s+of\s+(\d+)(?:\s+\(([^)]+)\))?\s*$/i);
   const idValue = String(item.sort_key || item.id || "");
   const idYear = idValue.match(/^(\d{4})/i)?.[1];
   const seriesYear = String(item.series || "").match(/^(\d{4})/)?.[1];
-  const dateYear = titleMatch?.[4]?.match(/(\d{4})/)?.[1];
+  const titleDates = [...title.matchAll(/\(((?:[A-Za-z]{3}\s+)?\d{4})\)/gi)].map((match) => match[1]);
+  const verifiedDate = titleMatch?.[4] || titleDates[0] || "";
+  const dateYear = verifiedDate.match(/(\d{4})/)?.[1];
   const year = idYear || seriesYear || dateYear || "Other";
   const fallbackPart = Number(idValue.match(/-(\d+)$/)?.[1] || 1);
-  const seriesTitle = titleMatch?.[1]?.trim() || title;
+  const seriesTitle = stripTrailingLectureDates(titleMatch?.[1]?.trim() || title);
   const partNumber = Number(titleMatch?.[2] || fallbackPart || 1);
   const partTotal = Number(titleMatch?.[3] || Math.max(partNumber, 1));
-  const dateLabel = expandLectureDate(titleMatch?.[4] || (year === "Other" ? "Archive" : year));
+  const collection = resolveLectureCollection(seriesTitle, item.series);
+  const collectionKeepsVerifiedDates = collection?.key === "collection-discussion" || collection?.key === "collection-satsang";
+  const dateLabel = expandLectureDate(collection
+    ? (collectionKeepsVerifiedDates ? verifiedDate : "")
+    : verifiedDate || (year === "Other" ? "Archive" : year));
   return {
     item,
     year,
+    archiveKey: collection?.key || year,
+    archiveLabel: collection?.label || year,
+    archiveTitle: collection?.title || item.series || (year === "Other" ? "Lecture archive" : `${year}: Lecture archive`),
+    archiveOrder: collection ? 10000 + collection.order : Number(year) || 9999,
     seriesTitle,
     partNumber,
     partTotal,
     partLabel: `Part ${partNumber} of ${partTotal}`,
     dateLabel,
-    searchText: `${title} ${item.series || ""} ${year} ${seriesTitle} ${dateLabel}`.toLowerCase(),
+    searchText: `${title} ${item.series || ""} ${year} ${collection?.label || ""} ${collection?.title || ""} ${seriesTitle} ${dateLabel}`.toLowerCase(),
   };
 }
 
 function buildLectureArchive(items) {
-  const years = new Map();
+  const sections = new Map();
   items.forEach((item) => {
     const meta = parseLectureMetadata(item);
-    if (!years.has(meta.year)) {
-      years.set(meta.year, {
-        year: meta.year,
-        collectionTitle: item.series || (meta.year === "Other" ? "Lecture archive" : `${meta.year}: Lecture archive`),
+    if (!sections.has(meta.archiveKey)) {
+      sections.set(meta.archiveKey, {
+        year: meta.archiveKey,
+        label: meta.archiveLabel,
+        sortOrder: meta.archiveOrder,
+        collectionTitle: meta.archiveTitle,
         count: 0,
         groups: [],
         groupMap: new Map(),
       });
     }
-    const yearEntry = years.get(meta.year);
-    yearEntry.count += 1;
+    const sectionEntry = sections.get(meta.archiveKey);
+    sectionEntry.count += 1;
     const groupKey = `${meta.seriesTitle}\u0000${meta.dateLabel}`;
-    if (!yearEntry.groupMap.has(groupKey)) {
+    if (!sectionEntry.groupMap.has(groupKey)) {
       const group = {
-        id: `lecture-series-${meta.year}-${yearEntry.groups.length + 1}`,
+        id: `lecture-series-${meta.archiveKey}-${sectionEntry.groups.length + 1}`,
         title: meta.seriesTitle,
         dateLabel: meta.dateLabel,
         parts: [],
       };
-      yearEntry.groupMap.set(groupKey, group);
-      yearEntry.groups.push(group);
+      sectionEntry.groupMap.set(groupKey, group);
+      sectionEntry.groups.push(group);
     }
-    yearEntry.groupMap.get(groupKey).parts.push(meta);
+    sectionEntry.groupMap.get(groupKey).parts.push(meta);
   });
 
-  return [...years.values()]
+  return [...sections.values()]
     .map((entry) => {
       entry.groups.forEach((group) => group.parts.sort((a, b) => a.partNumber - b.partNumber));
       delete entry.groupMap;
       return entry;
     })
     .sort((a, b) => {
-      const aYear = Number(a.year);
-      const bYear = Number(b.year);
-      if (Number.isFinite(aYear) && Number.isFinite(bYear)) return aYear - bYear;
-      if (Number.isFinite(aYear)) return -1;
-      if (Number.isFinite(bYear)) return 1;
-      return String(a.year).localeCompare(String(b.year));
+      if (a.sortOrder !== b.sortOrder) return a.sortOrder - b.sortOrder;
+      return String(a.label).localeCompare(String(b.label));
     });
 }
 
@@ -306,10 +372,12 @@ function createLectureContentHeading({ title, description, year = "", searchable
   }
   const h2 = document.createElement("h2");
   h2.textContent = title;
-  const meta = document.createElement("p");
-  meta.textContent = description;
   copy.appendChild(h2);
-  copy.appendChild(meta);
+  if (description) {
+    const meta = document.createElement("p");
+    meta.textContent = description;
+    copy.appendChild(meta);
+  }
   heading.appendChild(copy);
   return heading;
 }
@@ -346,13 +414,13 @@ function createLectureResultRow(meta) {
   row.dataset.defaultIcon = "bi-chevron-right";
   const year = document.createElement("span");
   year.className = "lecture-result-year";
-  year.textContent = meta.year;
+  year.textContent = meta.archiveLabel;
   const copy = document.createElement("span");
   copy.className = "lecture-result-copy";
   const title = document.createElement("strong");
   title.textContent = meta.seriesTitle;
   const detail = document.createElement("span");
-  detail.textContent = `${meta.partLabel} · ${meta.dateLabel}`;
+  detail.textContent = [meta.partLabel, meta.dateLabel].filter(Boolean).join(" · ");
   copy.appendChild(title);
   copy.appendChild(detail);
   const mark = createBootstrapIcon("bi-chevron-right", "lecture-result-mark");
@@ -381,7 +449,7 @@ function createLectureSeriesCard(group) {
   const date = document.createElement("span");
   date.textContent = group.dateLabel;
   copy.appendChild(title);
-  copy.appendChild(date);
+  if (group.dateLabel) copy.appendChild(date);
 
   const meta = document.createElement("span");
   meta.className = "lecture-series-meta";
@@ -456,23 +524,38 @@ function renderLecturePicker() {
     openLectureSeriesId = lectureArchive[0].groups[0]?.id || "";
   }
 
-  lectureArchive.forEach((entry) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = entry.year;
-    const active = entry.year === selectedLectureYear && !normalizedQuery;
-    button.classList.toggle("active", active);
-    if (active) button.setAttribute("aria-current", "page");
-    button.addEventListener("click", () => {
-      selectedLectureYear = entry.year;
-      openLectureSeriesId = "";
-      lectureSearchQuery = "";
-      const input = document.getElementById("search-all");
-      if (input) input.value = "";
-      renderLecturePicker();
+  const appendNavigationGroup = (label, entries) => {
+    if (entries.length === 0) return;
+    const group = document.createElement("div");
+    group.className = "lecture-nav-group";
+    const heading = document.createElement("div");
+    heading.className = "lecture-year-heading";
+    heading.textContent = label;
+    const buttons = document.createElement("div");
+    buttons.className = "lecture-nav-buttons";
+    entries.forEach((entry) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = entry.label;
+      const active = entry.year === selectedLectureYear && !normalizedQuery;
+      button.classList.toggle("active", active);
+      if (active) button.setAttribute("aria-current", "page");
+      button.addEventListener("click", () => {
+        selectedLectureYear = entry.year;
+        openLectureSeriesId = "";
+        lectureSearchQuery = "";
+        const input = document.getElementById("search-all");
+        if (input) input.value = "";
+        renderLecturePicker();
+      });
+      buttons.appendChild(button);
     });
-    yearList.appendChild(button);
-  });
+    group.appendChild(heading);
+    group.appendChild(buttons);
+    yearList.appendChild(group);
+  };
+  appendNavigationGroup("Years", lectureArchive.filter((entry) => /^\d{4}$/.test(entry.year)));
+  appendNavigationGroup("Collections", lectureArchive.filter((entry) => !/^\d{4}$/.test(entry.year)));
 
   if (normalizedQuery) {
     const results = lectureArchive.flatMap((entry) => entry.groups.flatMap((group) => group.parts))
@@ -510,8 +593,8 @@ function renderLecturePicker() {
   const currentYear = lectureArchive.find((entry) => entry.year === selectedLectureYear) || lectureArchive[0];
   const heading = createLectureContentHeading({
     title: currentYear.collectionTitle,
-    description: `${currentYear.count} lectures in ${currentYear.groups.length} series`,
-    year: currentYear.year,
+    description: "",
+    year: currentYear.label,
   });
   const collapse = document.createElement("button");
   collapse.type = "button";
