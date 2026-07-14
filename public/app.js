@@ -559,7 +559,7 @@ function renderLecturePicker() {
     group.appendChild(buttons);
     yearList.appendChild(group);
   };
-  appendNavigationGroup("Years", lectureArchive.filter((entry) => /^\d{4}$/.test(entry.year)));
+  appendNavigationGroup("Lecture series", lectureArchive.filter((entry) => /^\d{4}$/.test(entry.year)));
   appendNavigationGroup("Collections", lectureArchive.filter((entry) => !/^\d{4}$/.test(entry.year)));
 
   if (normalizedQuery) {

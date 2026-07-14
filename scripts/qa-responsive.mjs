@@ -142,6 +142,7 @@ try {
         && document.querySelector(".lecture-series-trigger").getAttribute("aria-expanded") === "true";
       const archiveLabels = [...document.querySelectorAll(".lecture-year-list button")]
         .map((button) => button.textContent.trim());
+      result.lectureSeriesLabel = document.querySelector(".lecture-nav-group .lecture-year-heading").textContent === "Lecture series";
       result.yearButtonsHaveNoCounts = archiveLabels
         .every((label) => /^(?:\d{4}|Volume|Office|Road|Discussion|Satsang|Other)$/.test(label));
       result.namedCollectionsPresent = ["Volume", "Office", "Road", "Discussion", "Satsang"]
