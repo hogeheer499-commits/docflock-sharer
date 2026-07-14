@@ -2662,29 +2662,29 @@ summary:focus-visible {
 
   .left-stack .zoom-panel {
     min-height: 0;
-    padding: 20px;
+    padding: 16px;
   }
 
   .left-stack .panel-heading {
-    margin-bottom: 18px;
-    font-size: 19px;
+    margin-bottom: 13px;
+    font-size: 17px;
   }
 
-  .left-stack .zoom-controls { gap: 11px 10px; }
+  .left-stack .zoom-controls { gap: 8px; }
   .left-stack .zoom-btn {
-    min-height: 66px;
-    font-size: 14px;
+    min-height: 52px;
+    font-size: 13px;
   }
   .left-stack .zoom-btn.zoom-toggle {
-    min-height: 92px;
-    gap: 7px;
+    min-height: 68px;
+    gap: 4px;
   }
   .left-stack .zoom-btn.zoom-toggle span {
-    max-width: 62px;
-    line-height: 1.35;
+    max-width: none;
+    line-height: 1.2;
   }
-  .left-stack .zoom-btn i { font-size: 27px; }
-  .left-stack .zoom-btn img { width: 30px; height: 30px; }
+  .left-stack .zoom-btn i { font-size: 22px; }
+  .left-stack .zoom-btn img { width: 24px; height: 24px; }
 
   .left-stack .zoom-leave-timer {
     min-height: 0;

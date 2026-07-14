@@ -386,27 +386,31 @@ try {
       document.getElementById("toast-container").replaceChildren();
 
       window.__smartScrollTargets = [];
+      const nativeScrollTo = window.scrollTo.bind(window);
+      window.__playerTopScrollCalls = [];
+      window.scrollTo = (...args) => {
+        const top = typeof args[0] === "object" ? Number(args[0].top || 0) : Number(args[1] || 0);
+        if (top === 0) window.__playerTopScrollCalls.push(args[0]);
+        nativeScrollTo(...args);
+      };
       updateStatusUI({ state: "playing", title: "Smart scroll QA", current_time: 1, duration: 60, languages: ["en"], queue: [] });
       window.scrollTo(0, document.documentElement.scrollHeight);
-      const playerBeforeRequest = document.getElementById("status-card").getBoundingClientRect();
-      const playerWasVisibleAtBottom = playerBeforeRequest.top >= 16 && playerBeforeRequest.bottom <= window.innerHeight - 16;
+      window.__playerTopScrollCalls = [];
       requestPlayerScroll();
       updateStatusUI({ state: "playing", title: "Smart scroll QA", current_time: 1, duration: 60, languages: ["en"], queue: [] });
       await new Promise((resolveWait) => setTimeout(resolveWait, 50));
-      const playerScrollCall = window.__smartScrollTargets.some((call) => call.id === "status-card" && call.options.block === "start");
-      result.playerSmartScroll = playerWasVisibleAtBottom ? !playerScrollCall : playerScrollCall;
+      result.playScrollsToPageTop = window.__playerTopScrollCalls.length === 1;
 
       const statusCard = document.getElementById("status-card");
       const statusRectBeforeReveal = statusCard.getBoundingClientRect();
       window.scrollBy(0, statusRectBeforeReveal.top - 16);
       await new Promise((resolveWait) => setTimeout(resolveWait, 50));
-      window.__smartScrollTargets = [];
-      const visibleStatusRect = statusCard.getBoundingClientRect();
-      const playerIsVisibleNow = visibleStatusRect.top >= 16 && visibleStatusRect.bottom <= window.innerHeight - 16;
+      window.__playerTopScrollCalls = [];
       requestPlayerScroll();
       updateStatusUI({ state: "playing", title: "Smart scroll QA", current_time: 2, duration: 60, languages: ["en"], queue: [] });
       await new Promise((resolveWait) => setTimeout(resolveWait, 50));
-      result.visiblePlayerDoesNotScroll = !playerIsVisibleNow || window.__smartScrollTargets.length === 0;
+      result.playAlwaysScrollsToPageTop = window.__playerTopScrollCalls.length === 1;
+      window.scrollTo = nativeScrollTo;
       const playerRect = document.getElementById("status-card").getBoundingClientRect();
       const zoomRect = document.querySelector(".zoom-panel").getBoundingClientRect();
       const timerRect = document.getElementById("zoom-leave-timer").getBoundingClientRect();
@@ -420,6 +424,9 @@ try {
         && Math.abs(playerRect.left - zoomRect.left) <= 1
         && browseRect.width <= 822
       );
+      result.desktopZoomControlsAreCompact = window.innerWidth < 960 || zoomRect.height <= 260;
+      result.mobileZoomButtonsRetainTouchSize = window.innerWidth >= 960
+        || document.getElementById("zoom-join-btn").getBoundingClientRect().height >= 52;
       result.desktopLibraryHasUsefulHeight = window.innerWidth < 960 || lectureBrowserRect.height >= 280;
       result.topBarAlignedWithMainContent = window.innerWidth < 960 || (
         Math.abs(topBarRect.left - appLayoutRect.left) <= 1

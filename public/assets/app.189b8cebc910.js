@@ -672,7 +672,10 @@ function scrollToPlayerWhenReady(card, state) {
   }
   if (!["loading", "playing", "paused"].includes(state)) return;
   playerScrollRequestedAt = 0;
-  scrollRangeIntoViewIfNeeded(card);
+  window.scrollTo({
+    top: 0,
+    behavior: reducedMotionMedia.matches ? "auto" : "smooth",
+  });
 }
 
 function selectItem(id) {
