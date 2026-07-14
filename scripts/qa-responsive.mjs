@@ -10,6 +10,7 @@ const outputDir = resolve(process.env.QA_OUTPUT_DIR || "qa-screenshots");
 const chromePath = process.env.CHROME_PATH;
 const viewports = [
   ["2560", 2560, 1440],
+  ["1578", 1578, 904],
   ["1440", 1440, 900],
   ["1024", 1024, 768],
   ["768", 768, 900],
@@ -294,8 +295,10 @@ try {
       await new Promise((resolveWait) => setTimeout(resolveWait, 80));
       const manualStopCall = window.__apiCalls.findIndex((call) => call.url === "/api/stop" && call.method === "POST");
       const manualExitCall = window.__apiCalls.findIndex((call) => call.url === "/api/zoom/exit" && call.method === "POST");
+      const manualPauseCall = window.__apiCalls.findIndex((call) => call.url === "/api/pause");
       result.manualLeaveStopsPlaybackFirst = manualStopCall >= 0
         && manualExitCall > manualStopCall
+        && manualPauseCall === -1
         && document.getElementById("status-card").classList.contains("hidden");
 
       window.__apiCalls = [];
@@ -309,7 +312,10 @@ try {
       await fireZoomLeaveTimer(timerExit);
       const timerStopCall = window.__apiCalls.findIndex((call) => call.url === "/api/stop" && call.method === "POST");
       const timerExitCall = window.__apiCalls.findIndex((call) => call.url === "/api/zoom/exit" && call.method === "POST");
-      result.timerLeaveStopsPlaybackFirst = timerStopCall >= 0 && timerExitCall > timerStopCall;
+      const timerPauseCall = window.__apiCalls.findIndex((call) => call.url === "/api/pause");
+      result.timerLeaveStopsPlaybackFirst = timerStopCall >= 0
+        && timerExitCall > timerStopCall
+        && timerPauseCall === -1;
       localStorage.removeItem("docflock_zoom_leave_timer");
       renderZoomLeaveTimer(null);
       document.getElementById("zoom-leave-btn").classList.remove("flash");
@@ -342,6 +348,8 @@ try {
       const timerRect = document.getElementById("zoom-leave-timer").getBoundingClientRect();
       const browseRect = document.querySelector(".browse-card").getBoundingClientRect();
       const lectureBrowserRect = document.querySelector(".lecture-browser-layout").getBoundingClientRect();
+      const topBarRect = document.querySelector(".top-bar").getBoundingClientRect();
+      const appLayoutRect = document.querySelector(".app-layout").getBoundingClientRect();
       result.desktopPlayerAndLibraryLayout = window.innerWidth < 960 || (
         document.getElementById("status-card").parentElement.classList.contains("left-stack")
         && playerRect.top < zoomRect.top
@@ -349,6 +357,10 @@ try {
         && browseRect.width <= 822
       );
       result.desktopLibraryHasUsefulHeight = window.innerWidth < 960 || lectureBrowserRect.height >= 280;
+      result.topBarAlignedWithMainContent = window.innerWidth < 960 || (
+        Math.abs(topBarRect.left - appLayoutRect.left) <= 1
+        && Math.abs(topBarRect.right - appLayoutRect.right) <= 1
+      );
       result.mobileStackingPreserved = window.innerWidth >= 960 || (
         zoomRect.top < timerRect.top
         && timerRect.top < playerRect.top
@@ -371,7 +383,7 @@ try {
       return result;
     });
 
-    if (["1440", "1024", "390"].includes(name)) {
+    if (["1578", "1440", "1024", "390"].includes(name)) {
       await page.evaluate(() => {
         updateStatusUI({
           state: "playing",

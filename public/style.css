@@ -2564,6 +2564,12 @@ summary:focus-visible {
 }
 
 @media (min-width: 960px) {
+  .top-bar {
+    width: min(1232px, calc(100% - 36px));
+    max-width: 1232px;
+    margin-inline: auto;
+  }
+
   .app-layout {
     width: min(1232px, calc(100% - 36px));
     max-width: 1232px;
