@@ -138,6 +138,12 @@ try {
     }
     const assertions = await page.evaluate(async () => {
       const result = {};
+      const timerCard = document.getElementById("zoom-leave-timer");
+      result.timerHiddenWithoutPlayback = timerCard.hidden;
+      updateStatusUI({ state: "paused", title: "Timer visibility QA", video_id: "timer-visibility-qa", queue: [] });
+      result.timerVisibleWhilePlayerPaused = !timerCard.hidden;
+      updateStatusUI({ state: "stopped" });
+      result.timerHidesWhenPlayerStops = timerCard.hidden;
       window.__smartScrollTargets = [];
       window.__originalScrollIntoView = Element.prototype.scrollIntoView;
       Element.prototype.scrollIntoView = function scrollIntoView(options) {

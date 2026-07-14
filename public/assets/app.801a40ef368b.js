@@ -1383,6 +1383,7 @@ function showResumePrompt() {
 
 function updateStatusUI(data) {
   lastStatus = data;
+  zoomLeaveTimer.hidden = !["loading", "playing", "paused"].includes(data?.state);
   updateZoomLeaveAfterVideoControl(readZoomLeaveTimer(), data);
   const card = document.getElementById("status-card");
   const titleEl = document.getElementById("status-title");
