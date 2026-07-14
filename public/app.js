@@ -1711,7 +1711,6 @@ const zoomJoinCancel = document.getElementById("zoom-join-cancel");
 const zoomJoinConfirm = document.getElementById("zoom-join-confirm");
 const zoomLeaveTimer = document.getElementById("zoom-leave-timer");
 const zoomLeaveTimerStatus = document.getElementById("zoom-leave-timer-status");
-const zoomLeaveTimerHistory = document.getElementById("zoom-leave-timer-history");
 const zoomLeaveTimerMinutes = document.getElementById("zoom-leave-timer-minutes");
 const zoomLeaveTimerStart = document.getElementById("zoom-leave-timer-start");
 const zoomLeaveTimerCancel = document.getElementById("zoom-leave-timer-cancel");
@@ -1831,7 +1830,7 @@ async function pollZoomCommand(commandId) {
   }
 }
 
-async function runZoomAction(path, btn) {
+async function runZoomAction(path, btn, { reportErrors = true } = {}) {
   flashBtn(btn);
   const label = btn.querySelector("span");
   const originalText = label ? label.textContent : "";
@@ -1842,16 +1841,16 @@ async function runZoomAction(path, btn) {
     const data = await resp.json();
     const command = data.command_id ? await pollZoomCommand(data.command_id) : null;
     if (command && command.status !== "done") {
-      showToast(`Zoom: ${command.error || command.status}`);
+      if (reportErrors) showToast(`Zoom: ${command.error || command.status}`);
       return false;
     }
     if (!data.ok && data.error) {
-      showToast(`Zoom: ${data.error}`);
+      if (reportErrors) showToast(`Zoom: ${data.error}`);
       return false;
     }
     return true;
   } catch (e) {
-    showToast(`Zoom: ${e.name === "AbortError" ? "request timed out" : e.message}`);
+    if (reportErrors) showToast(`Zoom: ${e.name === "AbortError" ? "request timed out" : e.message}`);
     return false;
   } finally {
     if (label) label.textContent = originalText;
@@ -1929,11 +1928,10 @@ function formatZoomLeaveCountdown(milliseconds) {
 }
 
 function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
-  zoomLeaveTimer.classList.remove("active", "completed", "failed");
-  zoomLeaveTimerHistory.classList.add("hidden");
-  zoomLeaveTimerHistory.textContent = "";
+  zoomLeaveTimer.classList.remove("active");
+  zoomLeaveTimerStatus.classList.add("hidden");
+  zoomLeaveTimerStatus.textContent = "";
   if (!timer) {
-    zoomLeaveTimerStatus.textContent = "No timer set";
     zoomLeaveTimerMinutes.disabled = false;
     zoomLeaveTimerStart.classList.remove("hidden");
     zoomLeaveTimerCancel.classList.add("hidden");
@@ -1943,6 +1941,7 @@ function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
   if (timer.status === "scheduled") {
     zoomLeaveTimer.classList.add("active");
     zoomLeaveTimerStatus.textContent = `Exits Zoom in ${formatZoomLeaveCountdown(timer.deadline - Date.now())}`;
+    zoomLeaveTimerStatus.classList.remove("hidden");
     zoomLeaveTimerMinutes.value = timer.minutes;
     zoomLeaveTimerMinutes.disabled = true;
     zoomLeaveTimerStart.classList.add("hidden");
@@ -1953,23 +1952,13 @@ function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
   if (timer.status === "firing") {
     zoomLeaveTimer.classList.add("active");
     zoomLeaveTimerStatus.textContent = "Exiting Zoom now...";
+    zoomLeaveTimerStatus.classList.remove("hidden");
     zoomLeaveTimerMinutes.disabled = true;
     zoomLeaveTimerStart.classList.add("hidden");
     zoomLeaveTimerCancel.classList.add("hidden");
     return;
   }
 
-  const completedAt = new Date(timer.completedAt || Date.now()).toLocaleTimeString([], {
-    hour: "2-digit",
-    minute: "2-digit",
-  });
-  const completed = timer.status === "completed";
-  zoomLeaveTimer.classList.add(completed ? "completed" : "failed");
-  zoomLeaveTimerStatus.textContent = "No timer set";
-  zoomLeaveTimerHistory.textContent = completed
-    ? `Last auto-exit: ${completedAt}`
-    : `Last auto-exit failed: ${completedAt}`;
-  zoomLeaveTimerHistory.classList.remove("hidden");
   zoomLeaveTimerMinutes.disabled = false;
   zoomLeaveTimerStart.classList.remove("hidden");
   zoomLeaveTimerCancel.classList.add("hidden");
@@ -1985,7 +1974,7 @@ async function fireZoomLeaveTimer(timer) {
   writeZoomLeaveTimer(firing);
   renderZoomLeaveTimer(firing);
   try {
-    const ok = await runZoomAction("/api/zoom/exit", zoomLeaveBtn);
+    const ok = await runZoomAction("/api/zoom/exit", zoomLeaveBtn, { reportErrors: false });
     const latest = readZoomLeaveTimer();
     if (latest?.id === current.id && latest.status === "firing") {
       finishZoomLeaveTimer(latest, ok ? "completed" : "failed");

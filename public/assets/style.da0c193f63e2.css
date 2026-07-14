@@ -255,18 +255,6 @@ body.modal-open { overflow: hidden; }
   color: #1d4ed8;
 }
 
-.zoom-leave-timer.completed {
-  border-color: rgba(4, 120, 87, 0.28);
-  background: rgba(4, 120, 87, 0.06);
-  color: #047857;
-}
-
-.zoom-leave-timer.failed {
-  border-color: rgba(185, 28, 28, 0.28);
-  background: rgba(185, 28, 28, 0.06);
-  color: #b91c1c;
-}
-
 .zoom-leave-timer-copy {
   display: flex;
   align-items: center;
@@ -1473,13 +1461,6 @@ summary:focus-visible {
 .zoom-leave-timer-copy > i { margin-top: 1px; font-size: 22px; color: #656565; }
 .zoom-leave-timer-copy strong { font-size: 15px; }
 .zoom-leave-timer-copy span { margin-top: 4px; font-size: 13px; }
-.zoom-leave-timer-copy .zoom-leave-timer-history {
-  margin-top: 3px;
-  color: var(--text-secondary);
-  font-size: 12px;
-  font-weight: 500;
-}
-
 .zoom-leave-timer-actions {
   width: 100%;
   gap: 8px;

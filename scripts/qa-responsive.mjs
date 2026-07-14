@@ -213,15 +213,18 @@ try {
 
       localStorage.setItem("docflock_zoom_leave_timer", JSON.stringify({ status: "completed", completedAt: Date.now() }));
       renderZoomLeaveTimer();
-      result.timerHistorySeparated = document.getElementById("zoom-leave-timer-status").textContent === "No timer set" && document.getElementById("zoom-leave-timer-history").textContent.startsWith("Last auto-exit:");
+      result.finishedTimerIsSilent = document.getElementById("zoom-leave-timer-status").classList.contains("hidden")
+        && document.getElementById("zoom-leave-timer-status").textContent === ""
+        && !document.getElementById("zoom-leave-timer").classList.contains("completed")
+        && !document.getElementById("zoom-leave-timer").classList.contains("failed");
       localStorage.setItem("docflock_zoom_leave_timer", JSON.stringify({
         id: "stale-firing",
         status: "firing",
         deadline: Date.now() - 61000,
       }));
       tickZoomLeaveTimer();
-      result.staleFiringTimerRecovers = document.getElementById("zoom-leave-timer-status").textContent === "No timer set"
-        && document.getElementById("zoom-leave-timer-history").textContent.startsWith("Last auto-exit failed:")
+      result.staleFiringTimerRecoversSilently = document.getElementById("zoom-leave-timer-status").classList.contains("hidden")
+        && document.getElementById("zoom-leave-timer-status").textContent === ""
         && !document.getElementById("zoom-leave-timer-minutes").disabled
         && !document.getElementById("zoom-leave-timer-start").classList.contains("hidden");
       localStorage.setItem("docflock_zoom_leave_timer", JSON.stringify({
@@ -231,13 +234,30 @@ try {
       }));
       window.__zoomJoined = false;
       await fetchZoomState();
-      result.firingTimerReconcilesWithZoomState = readZoomLeaveTimer().status === "completed"
-        && document.getElementById("zoom-leave-timer-status").textContent === "No timer set"
-        && document.getElementById("zoom-leave-timer-history").textContent.startsWith("Last auto-exit:");
+      result.firingTimerReconcilesSilently = readZoomLeaveTimer().status === "completed"
+        && document.getElementById("zoom-leave-timer-status").classList.contains("hidden")
+        && document.getElementById("zoom-leave-timer-status").textContent === "";
       window.__zoomJoined = true;
       await fetchZoomState();
       localStorage.removeItem("docflock_zoom_leave_timer");
       renderZoomLeaveTimer(null);
+
+      const mockedFetch = window.fetch;
+      const toastCountBeforeSilentFailure = document.querySelectorAll("#toast-container .toast").length;
+      window.fetch = async (input, init) => {
+        const url = typeof input === "string" ? input : input.url;
+        if (url === "/api/zoom/exit") {
+          return new Response(JSON.stringify({ error: "QA timer failure" }), {
+            status: 500,
+            headers: { "Content-Type": "application/json" },
+          });
+        }
+        return mockedFetch(input, init);
+      };
+      const silentFailureResult = await runZoomAction("/api/zoom/exit", document.getElementById("zoom-leave-btn"), { reportErrors: false });
+      result.automaticTimerFailureHasNoToast = silentFailureResult === false
+        && document.querySelectorAll("#toast-container .toast").length === toastCountBeforeSilentFailure;
+      window.fetch = mockedFetch;
 
       window.__smartScrollTargets = [];
       window.scrollTo(0, document.documentElement.scrollHeight);
