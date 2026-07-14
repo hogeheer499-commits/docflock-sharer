@@ -97,7 +97,7 @@ try {
     });
 
     await page.goto(targetUrl, { waitUntil: "domcontentloaded", timeout: 15000 });
-    await page.waitForSelector("#list-all .lecture-part-row", { timeout: 10000 });
+    await page.waitForSelector("#list-all .lecture-series-trigger", { timeout: 10000 });
     if (name === "1440" || name === "390") {
       await page.screenshot({ path: resolve(outputDir, `picker-initial-${name}.png`), fullPage: false });
     }
@@ -117,6 +117,10 @@ try {
         && !resumePrompt.classList.contains("hidden")
         && resumePrompt.getBoundingClientRect().top >= document.querySelector(".browse-heading").getBoundingClientRect().bottom
         && resumePrompt.getBoundingClientRect().bottom <= document.querySelector(".tab-strip-wrap").getBoundingClientRect().top + 1;
+      result.initialArchiveCollapsed = document.querySelectorAll(".lecture-part-row").length === 0
+        && [...document.querySelectorAll(".lecture-series-trigger")]
+          .every((trigger) => trigger.getAttribute("aria-expanded") === "false");
+      document.querySelector(".lecture-series-trigger").click();
       const firstRow = document.querySelector("#list-all .lecture-part-row");
       firstRow.click();
       result.rowsAreButtons = firstRow.tagName === "BUTTON" && firstRow.getAttribute("aria-pressed") === "true";

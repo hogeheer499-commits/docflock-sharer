@@ -521,7 +521,7 @@ function renderLecturePicker() {
 
   if (!lectureArchive.some((entry) => entry.year === selectedLectureYear)) {
     selectedLectureYear = lectureArchive[0].year;
-    openLectureSeriesId = lectureArchive[0].groups[0]?.id || "";
+    openLectureSeriesId = "";
   }
 
   const appendNavigationGroup = (label, entries) => {
@@ -805,7 +805,7 @@ async function loadVideos() {
   lectureArchive = buildLectureArchive(videosCache);
   if (!lectureArchive.some((entry) => entry.year === selectedLectureYear)) {
     selectedLectureYear = lectureArchive[0]?.year || "";
-    openLectureSeriesId = lectureArchive[0]?.groups[0]?.id || "";
+    openLectureSeriesId = "";
   }
   renderActiveTab();
   onSelectionChange();

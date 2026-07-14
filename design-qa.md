@@ -3,7 +3,7 @@
 - Source visual truth: the approved isolated picker at `/home/bram/projects-t3code/Taken/docremote-lecture-picker-mockup`, captured as `/home/bram/.codex/visualizations/2026/07/14/docremote-lecture-picker-production/source-mockup-1440.png` and `source-mockup-390.png`.
 - Implementation screenshots: `/home/bram/.codex/visualizations/2026/07/14/docremote-lecture-picker-production/picker-initial-1440.png`, `picker-initial-390.png`, `real-data-1440.png`, `real-data-390.png`, plus `responsive-2560.png`, `responsive-1440.png`, `responsive-1024.png`, `responsive-768.png`, `responsive-390.png`, `responsive-320.png`, and `responsive-844x390.png` in the same directory.
 - Viewports: 2560 × 1080, 1440 × 900, 1024 × 900, 768 × 900, 390 × 844, 320 × 720, and 844 × 390.
-- State: authenticated mocked production data; 2002 selected; the first topic expanded; no lecture selected in the comparison captures.
+- State: authenticated mocked production data; 2002 selected; all topics collapsed; no lecture selected in the comparison captures.
 - Full-view comparison evidence: `/home/bram/.codex/visualizations/2026/07/14/docremote-lecture-picker-production/comparison-1440.png`.
 - Focused mobile comparison evidence: `/home/bram/.codex/visualizations/2026/07/14/docremote-lecture-picker-production/comparison-390.png`.
 - Automated browser results: `/home/bram/.codex/visualizations/2026/07/14/docremote-lecture-picker-production/responsive-results.json`.
@@ -45,6 +45,7 @@ No actionable P0, P1, or P2 findings remain.
 
 ## Primary interactions tested
 
+- Initial library load keeps every lecture collapsed, including 2002 Causality.
 - Changing years resets global search and keeps every topic collapsed until the user opens one.
 - Changing between true years and named collections; synthetic 2012–2015 navigation labels are absent.
 - Official Office, Road, Discussion, Satsang, and Volume classification, including mixed legacy metadata such as `A Map of Consciousness` and the dated discussion titles.
