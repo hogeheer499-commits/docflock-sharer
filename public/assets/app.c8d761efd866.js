@@ -169,11 +169,369 @@ const playBtn = document.getElementById("play-btn");
 const selectionSummary = document.getElementById("selection-summary");
 
 const mediaTabs = {
-  all: { listId: "list-all", searchId: "search-all", label: "lezingen", category: "Lecture", grouped: true },
+  all: { listId: "list-all", searchId: "search-all", label: "lezingen", category: "Lecture", lecturePicker: true },
   clips: { listId: "list-clips", searchId: "search-clips", label: "clips", category: "Clip" },
   music: { listId: "list-music", searchId: "search-music", label: "muziek", category: "Music" },
   youtube: { listId: "list-youtube", searchId: "search-youtube", label: "YouTube-items", category: "YouTube" },
 };
+
+let lectureArchive = [];
+let selectedLectureYear = "";
+let openLectureSeriesId = "";
+let lectureSearchQuery = "";
+
+const lectureMonthNames = {
+  jan: "January",
+  feb: "February",
+  mar: "March",
+  apr: "April",
+  may: "May",
+  jun: "June",
+  jul: "July",
+  aug: "August",
+  sep: "September",
+  oct: "October",
+  nov: "November",
+  dec: "December",
+};
+
+function expandLectureDate(value) {
+  const match = String(value || "").trim().match(/^([A-Za-z]{3})\s+(\d{4})$/);
+  if (!match) return String(value || "").trim();
+  return `${lectureMonthNames[match[1].toLowerCase()] || match[1]} ${match[2]}`;
+}
+
+function parseLectureMetadata(item) {
+  const title = String(item.title || "Untitled lecture").trim();
+  const titleMatch = title.match(/^(.*?)\s+(?:—|–|-)\s+(\d+)\s+of\s+(\d+)\s+\(([^)]+)\)\s*$/i);
+  const idValue = String(item.sort_key || item.id || "");
+  const idYear = idValue.match(/^(\d{4})/i)?.[1];
+  const seriesYear = String(item.series || "").match(/^(\d{4})/)?.[1];
+  const dateYear = titleMatch?.[4]?.match(/(\d{4})/)?.[1];
+  const year = idYear || seriesYear || dateYear || "Other";
+  const fallbackPart = Number(idValue.match(/-(\d+)$/)?.[1] || 1);
+  const seriesTitle = titleMatch?.[1]?.trim() || title;
+  const partNumber = Number(titleMatch?.[2] || fallbackPart || 1);
+  const partTotal = Number(titleMatch?.[3] || Math.max(partNumber, 1));
+  const dateLabel = expandLectureDate(titleMatch?.[4] || (year === "Other" ? "Archive" : year));
+  return {
+    item,
+    year,
+    seriesTitle,
+    partNumber,
+    partTotal,
+    partLabel: `Part ${partNumber} of ${partTotal}`,
+    dateLabel,
+    searchText: `${title} ${item.series || ""} ${year} ${seriesTitle} ${dateLabel}`.toLowerCase(),
+  };
+}
+
+function buildLectureArchive(items) {
+  const years = new Map();
+  items.forEach((item) => {
+    const meta = parseLectureMetadata(item);
+    if (!years.has(meta.year)) {
+      years.set(meta.year, {
+        year: meta.year,
+        collectionTitle: item.series || (meta.year === "Other" ? "Lecture archive" : `${meta.year}: Lecture archive`),
+        count: 0,
+        groups: [],
+        groupMap: new Map(),
+      });
+    }
+    const yearEntry = years.get(meta.year);
+    yearEntry.count += 1;
+    const groupKey = `${meta.seriesTitle}\u0000${meta.dateLabel}`;
+    if (!yearEntry.groupMap.has(groupKey)) {
+      const group = {
+        id: `lecture-series-${meta.year}-${yearEntry.groups.length + 1}`,
+        title: meta.seriesTitle,
+        dateLabel: meta.dateLabel,
+        parts: [],
+      };
+      yearEntry.groupMap.set(groupKey, group);
+      yearEntry.groups.push(group);
+    }
+    yearEntry.groupMap.get(groupKey).parts.push(meta);
+  });
+
+  return [...years.values()]
+    .map((entry) => {
+      entry.groups.forEach((group) => group.parts.sort((a, b) => a.partNumber - b.partNumber));
+      delete entry.groupMap;
+      return entry;
+    })
+    .sort((a, b) => {
+      const aYear = Number(a.year);
+      const bYear = Number(b.year);
+      if (Number.isFinite(aYear) && Number.isFinite(bYear)) return aYear - bYear;
+      if (Number.isFinite(aYear)) return -1;
+      if (Number.isFinite(bYear)) return 1;
+      return String(a.year).localeCompare(String(b.year));
+    });
+}
+
+function createBootstrapIcon(iconName, className = "") {
+  const icon = document.createElement("i");
+  icon.className = `${className} bi ${iconName}`.trim();
+  icon.setAttribute("aria-hidden", "true");
+  return icon;
+}
+
+function setLectureRowState(row, selected) {
+  row.classList.toggle("is-selected", selected);
+  row.setAttribute("aria-pressed", String(selected));
+  const indicator = row.querySelector(".lecture-selection-mark, .lecture-result-mark");
+  if (indicator) {
+    indicator.classList.remove("bi-check-lg", "bi-play-fill", "bi-chevron-right");
+    indicator.classList.add(selected ? "bi-check-lg" : row.dataset.defaultIcon || "bi-play-fill");
+  }
+}
+
+function createLectureContentHeading({ title, description, year = "", searchable = false }) {
+  const heading = document.createElement("div");
+  heading.className = "lecture-content-heading";
+  const copy = document.createElement("div");
+  if (!searchable) {
+    const breadcrumb = document.createElement("div");
+    breadcrumb.className = "lecture-breadcrumb";
+    const root = document.createElement("span");
+    root.textContent = "Lectures";
+    breadcrumb.appendChild(root);
+    breadcrumb.appendChild(createBootstrapIcon("bi-chevron-right"));
+    const current = document.createElement("strong");
+    current.textContent = year;
+    breadcrumb.appendChild(current);
+    copy.appendChild(breadcrumb);
+  }
+  const h2 = document.createElement("h2");
+  h2.textContent = title;
+  const meta = document.createElement("p");
+  meta.textContent = description;
+  copy.appendChild(h2);
+  copy.appendChild(meta);
+  heading.appendChild(copy);
+  return heading;
+}
+
+function clearLectureSearch({ focus = false } = {}) {
+  const input = document.getElementById("search-all");
+  lectureSearchQuery = "";
+  if (input) input.value = "";
+  renderLecturePicker();
+  if (focus) input?.focus();
+}
+
+function setupLectureSearch() {
+  const input = document.getElementById("search-all");
+  const clear = document.getElementById("lecture-search-clear");
+  if (input && input.dataset.lectureSearchReady !== "true") {
+    input.dataset.lectureSearchReady = "true";
+    input.addEventListener("input", () => {
+      lectureSearchQuery = input.value;
+      if (activeTab === "all") renderLecturePicker();
+    });
+  }
+  if (clear && clear.dataset.lectureSearchReady !== "true") {
+    clear.dataset.lectureSearchReady = "true";
+    clear.addEventListener("click", () => clearLectureSearch({ focus: true }));
+  }
+}
+
+function createLectureResultRow(meta) {
+  const row = document.createElement("button");
+  row.type = "button";
+  row.className = "lecture-result-row";
+  row.dataset.id = meta.item.id;
+  row.dataset.defaultIcon = "bi-chevron-right";
+  const year = document.createElement("span");
+  year.className = "lecture-result-year";
+  year.textContent = meta.year;
+  const copy = document.createElement("span");
+  copy.className = "lecture-result-copy";
+  const title = document.createElement("strong");
+  title.textContent = meta.seriesTitle;
+  const detail = document.createElement("span");
+  detail.textContent = `${meta.partLabel} · ${meta.dateLabel}`;
+  copy.appendChild(title);
+  copy.appendChild(detail);
+  const mark = createBootstrapIcon("bi-chevron-right", "lecture-result-mark");
+  row.appendChild(year);
+  row.appendChild(copy);
+  row.appendChild(mark);
+  setLectureRowState(row, meta.item.id === selectedId);
+  row.addEventListener("click", () => selectItem(meta.item.id));
+  return row;
+}
+
+function createLectureSeriesCard(group) {
+  const card = document.createElement("article");
+  const open = group.id === openLectureSeriesId;
+  card.className = `lecture-series-card${open ? " is-open" : ""}`;
+  const trigger = document.createElement("button");
+  trigger.type = "button";
+  trigger.className = "lecture-series-trigger";
+  trigger.setAttribute("aria-expanded", String(open));
+  trigger.setAttribute("aria-controls", `parts-${group.id}`);
+
+  const copy = document.createElement("span");
+  copy.className = "lecture-series-copy";
+  const title = document.createElement("strong");
+  title.textContent = group.title;
+  const date = document.createElement("span");
+  date.textContent = group.dateLabel;
+  copy.appendChild(title);
+  copy.appendChild(date);
+
+  const meta = document.createElement("span");
+  meta.className = "lecture-series-meta";
+  const count = document.createElement("span");
+  count.textContent = `${group.parts.length} ${group.parts.length === 1 ? "part" : "parts"}`;
+  meta.appendChild(count);
+  meta.appendChild(createBootstrapIcon(open ? "bi-chevron-up" : "bi-chevron-down"));
+  trigger.appendChild(copy);
+  trigger.appendChild(meta);
+  trigger.addEventListener("click", () => {
+    openLectureSeriesId = open ? "" : group.id;
+    renderLecturePicker();
+  });
+  card.appendChild(trigger);
+
+  if (open) {
+    const parts = document.createElement("div");
+    parts.className = "lecture-part-list";
+    parts.id = `parts-${group.id}`;
+    group.parts.forEach((part) => {
+      const row = document.createElement("button");
+      row.type = "button";
+      row.className = "lecture-part-row";
+      row.dataset.id = part.item.id;
+      row.dataset.defaultIcon = "bi-play-fill";
+      row.title = part.item.title;
+      const number = document.createElement("span");
+      number.className = "lecture-part-number";
+      number.textContent = String(part.partNumber);
+      const rowCopy = document.createElement("span");
+      rowCopy.className = "lecture-part-copy";
+      const partTitle = document.createElement("strong");
+      partTitle.textContent = part.partLabel;
+      const topic = document.createElement("span");
+      topic.textContent = group.title;
+      rowCopy.appendChild(partTitle);
+      rowCopy.appendChild(topic);
+      const mark = createBootstrapIcon("bi-play-fill", "lecture-selection-mark");
+      row.appendChild(number);
+      row.appendChild(rowCopy);
+      row.appendChild(mark);
+      setLectureRowState(row, part.item.id === selectedId);
+      row.addEventListener("click", () => selectItem(part.item.id));
+      parts.appendChild(row);
+    });
+    card.appendChild(parts);
+  }
+  return card;
+}
+
+function renderLecturePicker() {
+  const yearList = document.getElementById("lecture-year-list");
+  const browser = document.getElementById("list-all");
+  const clear = document.getElementById("lecture-search-clear");
+  if (!yearList || !browser) return;
+  yearList.replaceChildren();
+  browser.replaceChildren();
+
+  const normalizedQuery = lectureSearchQuery.trim().toLowerCase();
+  clear?.classList.toggle("hidden", !normalizedQuery);
+
+  if (lectureArchive.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "lecture-empty-state";
+    empty.textContent = "No lectures available";
+    browser.appendChild(empty);
+    return;
+  }
+
+  if (!lectureArchive.some((entry) => entry.year === selectedLectureYear)) {
+    selectedLectureYear = lectureArchive[0].year;
+    openLectureSeriesId = lectureArchive[0].groups[0]?.id || "";
+  }
+
+  lectureArchive.forEach((entry) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = entry.year;
+    const active = entry.year === selectedLectureYear && !normalizedQuery;
+    button.classList.toggle("active", active);
+    if (active) button.setAttribute("aria-current", "page");
+    button.addEventListener("click", () => {
+      selectedLectureYear = entry.year;
+      openLectureSeriesId = entry.groups[0]?.id || "";
+      lectureSearchQuery = "";
+      const input = document.getElementById("search-all");
+      if (input) input.value = "";
+      renderLecturePicker();
+    });
+    yearList.appendChild(button);
+  });
+
+  if (normalizedQuery) {
+    const results = lectureArchive.flatMap((entry) => entry.groups.flatMap((group) => group.parts))
+      .filter((meta) => meta.searchText.includes(normalizedQuery));
+    browser.appendChild(createLectureContentHeading({
+      title: "Search results",
+      description: `${results.length} ${results.length === 1 ? "lecture" : "lectures"} for “${lectureSearchQuery.trim()}”`,
+      searchable: true,
+    }));
+    if (results.length > 0) {
+      const list = document.createElement("div");
+      list.className = "lecture-result-list";
+      results.forEach((meta) => list.appendChild(createLectureResultRow(meta)));
+      browser.appendChild(list);
+    } else {
+      const empty = document.createElement("div");
+      empty.className = "lecture-empty-state";
+      empty.appendChild(createBootstrapIcon("bi-search"));
+      const title = document.createElement("strong");
+      title.textContent = "No lectures found";
+      const detail = document.createElement("span");
+      detail.textContent = "Try a title, topic, or year such as “2002”.";
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = "Clear search";
+      button.addEventListener("click", () => clearLectureSearch({ focus: true }));
+      empty.appendChild(title);
+      empty.appendChild(detail);
+      empty.appendChild(button);
+      browser.appendChild(empty);
+    }
+    return;
+  }
+
+  const currentYear = lectureArchive.find((entry) => entry.year === selectedLectureYear) || lectureArchive[0];
+  const heading = createLectureContentHeading({
+    title: currentYear.collectionTitle,
+    description: `${currentYear.count} lectures in ${currentYear.groups.length} series`,
+    year: currentYear.year,
+  });
+  const collapse = document.createElement("button");
+  collapse.type = "button";
+  collapse.className = "lecture-collapse-all";
+  collapse.appendChild(createBootstrapIcon("bi-arrows-collapse"));
+  const collapseLabel = document.createElement("span");
+  collapseLabel.textContent = "Collapse";
+  collapse.appendChild(collapseLabel);
+  collapse.addEventListener("click", () => {
+    openLectureSeriesId = "";
+    renderLecturePicker();
+  });
+  heading.appendChild(collapse);
+  browser.appendChild(heading);
+
+  const seriesList = document.createElement("div");
+  seriesList.className = "lecture-series-list";
+  currentYear.groups.forEach((group) => seriesList.appendChild(createLectureSeriesCard(group)));
+  browser.appendChild(seriesList);
+}
 
 function getTabItems(tabName) {
   if (tabName === "all") return videosCache;
@@ -193,10 +551,14 @@ function getSelectedMedia() {
 
 function selectItem(id) {
   selectedId = id;
-  document.querySelectorAll(".item-list-row").forEach((row) => {
+  document.querySelectorAll(".item-list-row, .lecture-part-row, .lecture-result-row").forEach((row) => {
     const selected = row.dataset.id === id;
-    row.classList.toggle("selected", selected);
-    row.setAttribute("aria-pressed", String(selected));
+    if (row.classList.contains("item-list-row")) {
+      row.classList.toggle("selected", selected);
+      row.setAttribute("aria-pressed", String(selected));
+    } else {
+      setLectureRowState(row, selected);
+    }
   });
   onSelectionChange();
 }
@@ -324,6 +686,12 @@ function renderActiveTab() {
       if (list) list.replaceChildren();
     }
   });
+  if (config.lecturePicker) {
+    setupLectureSearch();
+    renderLecturePicker();
+    return;
+  }
+  document.getElementById("lecture-year-list")?.replaceChildren();
   renderList(config.listId, getTabItems(activeTab), { grouped: config.grouped });
   setupSearch(config.searchId, config.listId, config.label);
   applySearchFilter(config.searchId, config.listId, config.label);
@@ -351,6 +719,11 @@ async function loadVideos() {
     if (tabName === "youtube") ytCache = items;
     updateTabCount(tabName, items.length);
   });
+  lectureArchive = buildLectureArchive(videosCache);
+  if (!lectureArchive.some((entry) => entry.year === selectedLectureYear)) {
+    selectedLectureYear = lectureArchive[0]?.year || "";
+    openLectureSeriesId = lectureArchive[0]?.groups[0]?.id || "";
+  }
   renderActiveTab();
   onSelectionChange();
   requestAnimationFrame(updateTabOverflowHint);

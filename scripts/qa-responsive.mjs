@@ -38,19 +38,27 @@ try {
     await page.setViewport({ width, height, deviceScaleFactor: 1 });
     await page.evaluateOnNewDocument(() => {
       const featured = [
-        { id: "lecture-1", title: "Causality: The Ego's Foundation — 1 of 3 (Jan 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
-        { id: "lecture-2", title: "Causality: The Ego's Foundation — 2 of 3 (Jan 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
-        { id: "lecture-3", title: "Causality: The Ego's Foundation — 3 of 3 (Jan 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
-        { id: "lecture-4", title: "Radical Subjectivity: The ‘I’ of Self — 1 of 3 (Feb 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
-        { id: "lecture-5", title: "Radical Subjectivity: The ‘I’ of Self — 2 of 3 (Feb 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
-        { id: "lecture-6", title: "Radical Subjectivity: The ‘I’ of Self — 3 of 3 (Feb 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
+        { id: "2002-01-1", sort_key: "2002-01-1", title: "Causality: The Ego's Foundation - 1 of 3 (Jan 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
+        { id: "2002-01-2", sort_key: "2002-01-2", title: "Causality: The Ego's Foundation - 2 of 3 (Jan 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
+        { id: "2002-01-3", sort_key: "2002-01-3", title: "Causality: The Ego's Foundation - 3 of 3 (Jan 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
+        { id: "2002-02-1", sort_key: "2002-02-1", title: "Radical Subjectivity: The ‘I’ of Self - 1 of 3 (Feb 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
+        { id: "2002-02-2", sort_key: "2002-02-2", title: "Radical Subjectivity: The ‘I’ of Self - 2 of 3 (Feb 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
+        { id: "2002-02-3", sort_key: "2002-02-3", title: "Radical Subjectivity: The ‘I’ of Self - 3 of 3 (Feb 2002)", series: "2002: The Way to God", languages: ["en", "nl", "pl"] },
       ];
-      const videos = featured.concat(Array.from({ length: 245 }, (_, index) => ({
-        id: `lecture-extra-${index}`,
-        title: `Lecture ${index + 7}`,
-        series: "Archive",
-        languages: ["en"],
-      })));
+      const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      const videos = featured.concat(Array.from({ length: 245 }, (_, index) => {
+        const groupIndex = Math.floor(index / 3);
+        const year = 2003 + (groupIndex % 13);
+        const month = (groupIndex % 12) + 1;
+        const part = (index % 3) + 1;
+        return {
+          id: `${year}-${String(month).padStart(2, "0")}-${groupIndex + 1}-${part}`,
+          sort_key: `${year}-${String(month).padStart(2, "0")}-${groupIndex + 1}-${part}`,
+          title: `Archive Topic ${groupIndex + 1} - ${part} of 3 (${monthNames[month - 1]} ${year})`,
+          series: `${year}: Lecture Archive`,
+          languages: ["en"],
+        };
+      }));
       localStorage.setItem("docflock_token", "visual-qa-token");
       localStorage.setItem("docflock_expiry", String(Date.now() + 86400000));
       localStorage.setItem("docflock_resume", JSON.stringify({
@@ -78,7 +86,10 @@ try {
     });
 
     await page.goto(targetUrl, { waitUntil: "domcontentloaded", timeout: 15000 });
-    await page.waitForSelector("#list-all .item-list-row", { timeout: 10000 });
+    await page.waitForSelector("#list-all .lecture-part-row", { timeout: 10000 });
+    if (name === "1440" || name === "390") {
+      await page.screenshot({ path: resolve(outputDir, `picker-initial-${name}.png`), fullPage: false });
+    }
     const assertions = await page.evaluate(async () => {
       const result = {};
       const topActions = document.querySelector(".top-actions").getBoundingClientRect();
@@ -95,7 +106,7 @@ try {
         && !resumePrompt.classList.contains("hidden")
         && resumePrompt.getBoundingClientRect().top >= document.querySelector(".browse-heading").getBoundingClientRect().bottom
         && resumePrompt.getBoundingClientRect().bottom <= document.querySelector(".tab-strip-wrap").getBoundingClientRect().top + 1;
-      const firstRow = document.querySelector("#list-all .item-list-row");
+      const firstRow = document.querySelector("#list-all .lecture-part-row");
       firstRow.click();
       result.rowsAreButtons = firstRow.tagName === "BUTTON" && firstRow.getAttribute("aria-pressed") === "true";
       firstRow.focus();
@@ -103,6 +114,11 @@ try {
       const firstLanguage = document.querySelector("#lang-checkboxes input");
       firstLanguage.focus();
       result.languagePillsFocusable = document.activeElement === firstLanguage;
+      result.lectureHierarchy = document.querySelectorAll(".lecture-year-list button").length > 1
+        && document.querySelector(".lecture-content-heading h2").textContent.startsWith("2002:")
+        && document.querySelector(".lecture-series-trigger").getAttribute("aria-expanded") === "true";
+      result.yearButtonsHaveNoCounts = [...document.querySelectorAll(".lecture-year-list button")]
+        .every((button) => /^(?:\d{4}|Other)$/.test(button.textContent.trim()));
 
       const settingsButton = document.getElementById("header-settings-btn");
       const shortcuts = document.getElementById("shortcuts-overlay");
@@ -129,15 +145,15 @@ try {
       const search = document.getElementById("search-all");
       search.value = "zzzz-no-result";
       search.dispatchEvent(new Event("input", { bubbles: true }));
-      const empty = document.querySelector("#list-all .item-search-empty:not([hidden])");
-      result.emptySearchState = empty?.textContent.includes("Geen lezingen gevonden") && Boolean(empty?.querySelector(".item-search-clear"));
-      empty?.querySelector(".item-search-clear")?.click();
+      const empty = document.querySelector("#list-all .lecture-empty-state");
+      result.emptySearchState = empty?.textContent.includes("No lectures found") && Boolean(empty?.querySelector("button"));
+      empty?.querySelector("button")?.click();
       result.clearSearchWorks = search.value === "";
 
       firstRow.click();
       clipsTab.click();
       result.selectionPersistsExplicitly = document.getElementById("selection-summary").textContent.includes("Lecture");
-      result.onlyActiveListRendered = document.querySelectorAll("#list-all .item-list-row").length === 0 && document.querySelectorAll("#list-clips .item-list-row").length === 41 && document.querySelectorAll("#list-music .item-list-row, #list-youtube .item-list-row").length === 0;
+      result.onlyActiveListRendered = document.querySelectorAll("#list-all .lecture-part-row, #list-all .lecture-result-row").length === 0 && document.querySelectorAll("#list-clips .item-list-row").length === 41 && document.querySelectorAll("#list-music .item-list-row, #list-youtube .item-list-row").length === 0;
       lectureTab.click();
 
       localStorage.setItem("docflock_zoom_leave_timer", JSON.stringify({ status: "completed", completedAt: Date.now() }));
@@ -155,7 +171,7 @@ try {
       result.containerWidth = Math.round(document.querySelector(".container").getBoundingClientRect().width);
       result.tabClientWidth = tabBar.clientWidth;
       result.tabScrollWidth = tabBar.scrollWidth;
-      result.domRows = document.querySelectorAll(".item-list-row").length;
+      result.domRows = document.querySelectorAll(".item-list-row, .lecture-part-row, .lecture-result-row").length;
       return result;
     });
 
@@ -167,7 +183,7 @@ try {
       });
       await delay(150);
       await page.screenshot({ path: resolve(outputDir, "state-empty-1440.png"), fullPage: false });
-      await page.evaluate(() => document.querySelector(".item-search-clear")?.click());
+      await page.evaluate(() => document.querySelector(".lecture-empty-state button")?.click());
       await page.evaluate(() => document.getElementById("header-settings-btn").click());
       await delay(100);
       await page.screenshot({ path: resolve(outputDir, "state-shortcuts-1440.png"), fullPage: false });
