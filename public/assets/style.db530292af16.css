@@ -2512,7 +2512,7 @@ summary:focus-visible {
 
 @media (max-width: 720px) {
   .selection-summary,
-  .status-card { scroll-margin-top: 16px; }
+  .status-card { scroll-margin-top: max(16px, env(safe-area-inset-top)); }
 
   .lecture-browser-layout { min-height: 0; display: block; overflow: visible; }
   .lecture-year-nav {

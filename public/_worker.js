@@ -22,7 +22,12 @@ export default {
     if (url.pathname === "/" || url.pathname.endsWith(".html")) {
       headers.set("Cache-Control", "no-cache, max-age=0, must-revalidate");
     } else if (url.pathname.startsWith("/assets/")) {
-      headers.set("Cache-Control", "public, max-age=31536000, immutable");
+      const contentType = headers.get("Content-Type") || "";
+      const isAssetResponse = response.ok && !contentType.includes("text/html");
+      headers.set(
+        "Cache-Control",
+        isAssetResponse ? "public, max-age=31536000, immutable" : "no-store"
+      );
     } else {
       headers.set("Cache-Control", "public, max-age=0, must-revalidate");
     }
