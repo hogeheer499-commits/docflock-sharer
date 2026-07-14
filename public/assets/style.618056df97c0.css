@@ -325,10 +325,55 @@ body.modal-open { overflow: hidden; }
   color: var(--text-secondary);
 }
 
+.zoom-leave-timer-divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  color: var(--text-secondary);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.zoom-leave-timer-divider::before,
+.zoom-leave-timer-divider::after {
+  height: 1px;
+  flex: 1;
+  background: var(--border);
+  content: "";
+}
+
+.zoom-leave-after-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 42px;
+  gap: 9px;
+  padding: 9px 12px;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  background: transparent;
+  color: #1d4ed8;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  cursor: pointer;
+}
+
+.zoom-leave-after-video:hover:not(:disabled) { background: rgba(37, 99, 235, 0.06); }
+.zoom-leave-after-video:focus-visible { outline: 3px solid rgba(37, 99, 235, 0.28); outline-offset: 2px; }
+.zoom-leave-after-video.armed { background: rgba(37, 99, 235, 0.09); }
+.zoom-leave-after-video i { flex: 0 0 auto; font-size: 17px; }
+.zoom-leave-after-video:disabled { opacity: 0.48; cursor: not-allowed; }
+
 .zoom-leave-timer-actions input:disabled,
 .zoom-leave-timer-actions button:disabled {
   opacity: 0.6;
-  cursor: wait;
+  cursor: not-allowed;
 }
 
 @media (max-width: 520px) {
@@ -1454,7 +1499,7 @@ summary:focus-visible {
   padding: 18px;
   flex-direction: column;
   align-items: stretch;
-  gap: 18px;
+  gap: 14px;
 }
 
 .zoom-leave-timer-copy { align-items: flex-start; }
@@ -1480,6 +1525,12 @@ summary:focus-visible {
   min-height: 46px;
   padding: 10px 16px;
   font-size: 14px;
+}
+
+.zoom-leave-after-video {
+  min-height: 46px;
+  padding: 10px 14px;
+  font-size: 13px;
 }
 
 .status-card,
@@ -1798,9 +1849,10 @@ summary:focus-visible {
   .zoom-leave-timer {
     min-height: 62px;
     padding: 10px 12px;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
-    gap: 12px;
+    gap: 8px 12px;
   }
   .zoom-leave-timer-copy { flex: 1 1 auto; }
   .zoom-leave-timer-copy > i { font-size: 19px; }
@@ -1809,6 +1861,8 @@ summary:focus-visible {
   .zoom-leave-timer-actions { width: auto; flex: 0 0 auto; }
   .zoom-leave-timer-actions input { width: 74px; min-height: 40px; flex: 0 0 auto; }
   .zoom-leave-timer-actions button { min-width: 76px; min-height: 40px; padding: 8px 12px; }
+  .zoom-leave-timer-divider { grid-column: 1 / -1; }
+  .zoom-leave-after-video { grid-column: 1 / -1; min-height: 40px; }
   .browse-card { padding-block: 14px; }
 }
 
@@ -2635,7 +2689,7 @@ summary:focus-visible {
   .left-stack .zoom-leave-timer {
     min-height: 0;
     padding: 20px;
-    gap: 16px;
+    gap: 13px;
   }
   .left-stack .zoom-leave-timer-copy strong { font-size: 17px; }
   .left-stack .zoom-leave-timer-copy > i { font-size: 22px; }
@@ -2645,6 +2699,7 @@ summary:focus-visible {
     min-height: 46px;
     font-size: 15px;
   }
+  .left-stack .zoom-leave-after-video { min-height: 46px; font-size: 14px; }
 
   .left-stack .queue-card {
     min-height: 0;
@@ -2681,4 +2736,14 @@ summary:focus-visible {
   .right-stack .play-row .btn-queue { min-height: 58px; font-size: 15px; }
 
   .app-footer { grid-area: footer; }
+}
+
+/* Laptop: prioritize a generous browsing canvas; smart scroll reveals the actions on selection. */
+@media (min-width: 960px) and (max-width: 1279px) {
+  .right-stack {
+    height: max(980px, calc(100dvh - 104px));
+    min-height: 980px;
+  }
+
+  .right-stack .browse-card { min-height: 980px; }
 }

@@ -575,6 +575,7 @@ class Player:
         self.autoplay: bool = True
         self.loop: bool = False
         self.queue: list[dict] = []  # Temporary session queue: [{"video_id": ..., "languages": [...], "title": ...}]
+        self.on_natural_end = None
 
     async def _kill_orphaned_ffmpeg(self):
         """Kill any leftover ffmpeg processes writing to our v4l2 device."""
@@ -804,6 +805,15 @@ class Player:
 
             # FFmpeg exited — play next from queue, autoplay, or stop
             if self.status.state in (State.PLAYING, State.LOADING):
+                completed_video_id = self.status.video_id
+                if self.on_natural_end and completed_video_id:
+                    try:
+                        if await self.on_natural_end(completed_video_id):
+                            self.status.state = State.STOPPED
+                            asyncio.get_event_loop().create_task(self.start_idle_screen())
+                            return
+                    except Exception:
+                        log.exception("Natural-end handler failed for %s", completed_video_id)
                 if self.loop and self.status.video_id:
                     asyncio.get_event_loop().create_task(
                         self._autoplay_next(self.status.video_id, self.status.languages)

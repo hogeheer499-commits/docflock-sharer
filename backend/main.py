@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os
+import time
 from contextlib import asynccontextmanager
 from typing import Any
 from pathlib import Path
@@ -20,8 +21,10 @@ PUBLIC_DIR = Path(__file__).parent.parent / "public"
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    player.on_natural_end = _handle_player_natural_end
     await player.start_idle_screen()
     yield
+    player.on_natural_end = None
     await player._stop_idle()
     await player.stop()
 
@@ -47,6 +50,69 @@ async def no_cache_frontend_assets(request, call_next):
 
 
 zoom_controller = AutoZoomController()
+zoom_exit_after_video = {
+    "status": "idle",
+    "video_id": None,
+    "video_title": None,
+    "armed_at": None,
+    "completed_at": None,
+    "error": None,
+}
+
+
+def _set_zoom_exit_after_video(status: str, **updates) -> dict[str, Any]:
+    zoom_exit_after_video.update({"status": status, **updates})
+    return dict(zoom_exit_after_video)
+
+
+def _cancel_zoom_exit_after_video() -> dict[str, Any]:
+    return _set_zoom_exit_after_video(
+        "idle",
+        video_id=None,
+        video_title=None,
+        armed_at=None,
+        completed_at=None,
+        error=None,
+    )
+
+
+async def _complete_zoom_exit_after_video(video_id: str) -> None:
+    try:
+        result = await _exit_zoom_meeting()
+        command_id = result.get("command_id") if isinstance(result, dict) else None
+        if command_id:
+            terminal_command = None
+            for _ in range(20):
+                await asyncio.sleep(0.8)
+                command = await zoom_controller.command_status(command_id)
+                if command.get("status") in {"done", "failed", "timeout"}:
+                    terminal_command = command
+                    break
+            result = terminal_command or {
+                "ok": False,
+                "status": "timeout",
+                "error": "zoom_command_timeout",
+            }
+        succeeded = isinstance(result, dict) and (
+            result.get("ok") is True
+            and result.get("status") not in {"failed", "timeout"}
+        )
+        result_error = result.get("error", "zoom_exit_failed") if isinstance(result, dict) else "zoom_exit_failed"
+        _set_zoom_exit_after_video(
+            "completed" if succeeded else "failed",
+            completed_at=time.time(),
+            error=None if succeeded else result_error,
+        )
+    except Exception as exc:
+        _set_zoom_exit_after_video("failed", completed_at=time.time(), error=str(exc))
+
+
+async def _handle_player_natural_end(video_id: str) -> bool:
+    if zoom_exit_after_video.get("status") != "armed" or zoom_exit_after_video.get("video_id") != video_id:
+        return False
+    _set_zoom_exit_after_video("firing", completed_at=None, error=None)
+    asyncio.create_task(_complete_zoom_exit_after_video(video_id))
+    return True
 
 
 class PlayRequest(BaseModel):
@@ -78,6 +144,11 @@ class DelayRequest(BaseModel):
 class ZoomJoinRequest(BaseModel):
     name: str | None = None
     url: str | None = None
+
+
+class ZoomExitAfterVideoRequest(BaseModel):
+    video_id: str
+    video_title: str | None = None
 
 
 @app.get("/api/videos")
@@ -212,6 +283,8 @@ async def api_playlist_url_status():
 async def api_play(req: PlayRequest):
     if not req.video_id:
         raise HTTPException(400, "video_id is vereist")
+    if zoom_exit_after_video.get("status") == "armed" and zoom_exit_after_video.get("video_id") != req.video_id:
+        _cancel_zoom_exit_after_video()
     await player.play(req.video_id, req.languages)
     if player.status.error:
         raise HTTPException(500, player.status.error)
@@ -298,6 +371,7 @@ async def api_prev():
 
 @app.post("/api/stop")
 async def api_stop():
+    _cancel_zoom_exit_after_video()
     await player.stop()
     await player.start_idle_screen()
     return {"status": "stopped"}
@@ -342,7 +416,27 @@ async def api_queue_clear():
 
 @app.get("/api/status")
 async def api_status():
-    return player.get_status()
+    return {**player.get_status(), "zoom_exit_after_video": dict(zoom_exit_after_video)}
+
+
+@app.post("/api/zoom/exit-after-video")
+async def api_zoom_exit_after_video(req: ZoomExitAfterVideoRequest):
+    status = player.get_status()
+    if status.get("video_id") != req.video_id or status.get("state") not in {"playing", "paused", "loading"}:
+        raise HTTPException(409, "The selected video is no longer playing")
+    return _set_zoom_exit_after_video(
+        "armed",
+        video_id=req.video_id,
+        video_title=req.video_title or status.get("title") or "current video",
+        armed_at=time.time(),
+        completed_at=None,
+        error=None,
+    )
+
+
+@app.delete("/api/zoom/exit-after-video")
+async def api_cancel_zoom_exit_after_video():
+    return _cancel_zoom_exit_after_video()
 
 
 # --- Zoom controls ---

@@ -13,7 +13,9 @@ def reset_zoom(monkeypatch):
     monkeypatch.setenv("ZOOM_XDOTOOL_FALLBACK", "false")
     monkeypatch.delenv("ZOOM_BRIDGE_TOKEN", raising=False)
     main.zoom_controller = AutoZoomController()
+    main._cancel_zoom_exit_after_video()
     yield
+    main._cancel_zoom_exit_after_video()
 
 
 @pytest.fixture
@@ -107,6 +109,81 @@ def test_exit_command_queues_role_aware_action_for_bridge(client, monkeypatch):
     polled = client.get("/api/zoom/bridge/poll?client_id=client-1").json()
     assert polled["command"]["type"] == "exit_meeting"
     assert polled["command"]["value"] is None
+
+
+def test_exit_after_video_can_be_armed_and_cancelled(client, monkeypatch):
+    monkeypatch.setattr(main.player, "get_status", lambda: {
+        "state": "playing",
+        "video_id": "lecture-1",
+        "title": "Lecture one",
+    })
+    armed = client.post("/api/zoom/exit-after-video", json={
+        "video_id": "lecture-1",
+        "video_title": "Lecture one",
+    }).json()
+    assert armed["status"] == "armed"
+    assert armed["video_id"] == "lecture-1"
+
+    cancelled = client.delete("/api/zoom/exit-after-video").json()
+    assert cancelled["status"] == "idle"
+    assert cancelled["video_id"] is None
+
+
+def test_exit_after_video_rejects_a_different_video(client, monkeypatch):
+    monkeypatch.setattr(main.player, "get_status", lambda: {
+        "state": "playing",
+        "video_id": "lecture-1",
+        "title": "Lecture one",
+    })
+    response = client.post("/api/zoom/exit-after-video", json={"video_id": "lecture-2"})
+    assert response.status_code == 409
+
+
+def test_natural_end_claims_the_armed_video(monkeypatch):
+    main._set_zoom_exit_after_video("armed", video_id="lecture-1", video_title="Lecture one")
+    scheduled = []
+
+    def fake_create_task(coroutine):
+        scheduled.append(coroutine)
+        return object()
+
+    monkeypatch.setattr(main.asyncio, "create_task", fake_create_task)
+    handled = asyncio.run(main._handle_player_natural_end("lecture-1"))
+    assert handled is True
+    assert main.zoom_exit_after_video["status"] == "firing"
+    assert len(scheduled) == 1
+    scheduled[0].close()
+
+
+def test_completed_video_uses_role_aware_zoom_exit(monkeypatch):
+    async def fake_exit():
+        return {"ok": True, "action": "leave_meeting"}
+
+    monkeypatch.setattr(main, "_exit_zoom_meeting", fake_exit)
+    main._set_zoom_exit_after_video("firing", video_id="lecture-1", video_title="Lecture one")
+    asyncio.run(main._complete_zoom_exit_after_video("lecture-1"))
+    assert main.zoom_exit_after_video["status"] == "completed"
+    assert main.zoom_exit_after_video["error"] is None
+
+
+def test_completed_video_marks_a_stalled_bridge_command_as_failed(monkeypatch):
+    async def fake_exit():
+        return {"ok": True, "status": "pending", "command_id": "cmd-1"}
+
+    async def fake_command_status(command_id):
+        assert command_id == "cmd-1"
+        return {"ok": True, "status": "pending"}
+
+    async def fake_sleep(_seconds):
+        return None
+
+    monkeypatch.setattr(main, "_exit_zoom_meeting", fake_exit)
+    monkeypatch.setattr(main.zoom_controller, "command_status", fake_command_status)
+    monkeypatch.setattr(main.asyncio, "sleep", fake_sleep)
+    main._set_zoom_exit_after_video("firing", video_id="lecture-1", video_title="Lecture one")
+    asyncio.run(main._complete_zoom_exit_after_video("lecture-1"))
+    assert main.zoom_exit_after_video["status"] == "failed"
+    assert main.zoom_exit_after_video["error"] == "zoom_command_timeout"
 
 
 def test_bridge_result_marks_command_done(client):

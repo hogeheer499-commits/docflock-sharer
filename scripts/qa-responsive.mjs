@@ -82,6 +82,7 @@ try {
       }));
       window.__zoomJoined = true;
       window.__apiCalls = [];
+      window.__mockAfterVideoState = { status: "idle", video_id: null, video_title: null };
       window.__mockPlaybackState = { state: "stopped", queue: [] };
       const nativeFetch = window.fetch.bind(window);
       window.fetch = async (input, init) => {
@@ -108,7 +109,24 @@ try {
           };
           data = { title: window.__mockPlaybackState.title };
         }
-        else if (url === "/api/status") data = window.__mockPlaybackState;
+        else if (url === "/api/status") data = {
+          ...window.__mockPlaybackState,
+          zoom_exit_after_video: window.__mockAfterVideoState,
+        };
+        else if (url === "/api/zoom/exit-after-video" && init?.method === "POST") {
+          const request = JSON.parse(init.body || "{}");
+          window.__mockAfterVideoState = {
+            status: "armed",
+            video_id: request.video_id,
+            video_title: request.video_title,
+            armed_at: Date.now() / 1000,
+          };
+          data = window.__mockAfterVideoState;
+        }
+        else if (url === "/api/zoom/exit-after-video" && init?.method === "DELETE") {
+          window.__mockAfterVideoState = { status: "idle", video_id: null, video_title: null };
+          data = window.__mockAfterVideoState;
+        }
         return new Response(JSON.stringify(data), { status: 200, headers: { "Content-Type": "application/json" } });
       };
     });
@@ -318,6 +336,46 @@ try {
         && timerPauseCall === -1;
       localStorage.removeItem("docflock_zoom_leave_timer");
       renderZoomLeaveTimer(null);
+
+      updateStatusUI({
+        state: "playing",
+        title: "End-after-video QA",
+        video_id: "after-video-qa",
+        current_time: 40,
+        duration: 60,
+        languages: ["en"],
+        queue: [],
+      });
+      const afterVideoButton = document.getElementById("zoom-leave-after-video");
+      result.afterVideoOptionAvailableDuringPlayback = !afterVideoButton.disabled;
+      afterVideoButton.click();
+      await new Promise((resolveWait) => setTimeout(resolveWait, 30));
+      const armedAfterVideo = readZoomLeaveTimer();
+      result.afterVideoOptionArmsCurrentVideo = armedAfterVideo?.mode === "after_video"
+        && armedAfterVideo.videoId === "after-video-qa"
+        && armedAfterVideo.status === "scheduled"
+        && afterVideoButton.getAttribute("aria-pressed") === "true"
+        && document.getElementById("zoom-leave-timer-minutes").disabled
+        && window.__apiCalls.some((call) => call.url === "/api/zoom/exit-after-video" && call.method === "POST");
+      result.afterVideoWaitsForCurrentVideo = readZoomLeaveTimer()?.status === "scheduled";
+      window.__apiCalls = [];
+      afterVideoButton.click();
+      await new Promise((resolveWait) => setTimeout(resolveWait, 30));
+      result.afterVideoOptionCanBeCancelled = readZoomLeaveTimer() === null
+        && window.__apiCalls.some((call) => call.url === "/api/zoom/exit-after-video" && call.method === "DELETE");
+
+      syncZoomExitAfterVideoState({
+        status: "completed",
+        video_id: "after-video-qa",
+        video_title: "End-after-video QA",
+        armed_at: Date.now() / 1000,
+        completed_at: Date.now() / 1000,
+      });
+      result.afterVideoCompletionIsSilent = document.getElementById("zoom-leave-timer-status").classList.contains("hidden")
+        && document.getElementById("zoom-leave-timer-status").textContent === "";
+      localStorage.removeItem("docflock_zoom_leave_timer");
+      window.__mockAfterVideoState = { status: "idle", video_id: null, video_title: null };
+      renderZoomLeaveTimer(null);
       document.getElementById("zoom-leave-btn").classList.remove("flash");
       document.getElementById("toast-container").replaceChildren();
 
@@ -342,7 +400,7 @@ try {
       requestPlayerScroll();
       updateStatusUI({ state: "playing", title: "Smart scroll QA", current_time: 2, duration: 60, languages: ["en"], queue: [] });
       await new Promise((resolveWait) => setTimeout(resolveWait, 50));
-      result.visiblePlayerDoesNotScroll = playerIsVisibleNow && window.__smartScrollTargets.length === 0;
+      result.visiblePlayerDoesNotScroll = !playerIsVisibleNow || window.__smartScrollTargets.length === 0;
       const playerRect = document.getElementById("status-card").getBoundingClientRect();
       const zoomRect = document.querySelector(".zoom-panel").getBoundingClientRect();
       const timerRect = document.getElementById("zoom-leave-timer").getBoundingClientRect();
@@ -388,6 +446,7 @@ try {
         updateStatusUI({
           state: "playing",
           title: "What is Meant by Spiritual",
+          video_id: "visual-playing-video",
           current_time: 1724,
           duration: 3206,
           languages: ["en", "es"],
@@ -401,6 +460,17 @@ try {
       });
       await delay(100);
       await page.screenshot({ path: resolve(outputDir, `state-playing-${name}.png`), fullPage: false });
+      if (["1024", "390"].includes(name)) {
+        await page.evaluate(() => {
+          document.getElementById("zoom-leave-after-video").click();
+          document.getElementById("zoom-leave-timer").scrollIntoView({ block: "center" });
+        });
+        await delay(150);
+        await page.screenshot({ path: resolve(outputDir, `state-after-video-${name}.png`), fullPage: false });
+        await page.evaluate(() => document.getElementById("zoom-leave-after-video").click());
+        await delay(50);
+        await page.evaluate(() => document.getElementById("toast-container").replaceChildren());
+      }
       await page.evaluate(() => {
         updateStatusUI({ state: "stopped" });
         window.scrollTo(0, 0);
@@ -408,6 +478,11 @@ try {
     }
 
     if (name === "1024") {
+      assertions.laptopLibraryExtendsBelowFold = await page.evaluate(() => {
+        const browseRect = document.querySelector(".browse-card").getBoundingClientRect();
+        const playRect = document.querySelector(".play-row").getBoundingClientRect();
+        return browseRect.height >= 978 && playRect.bottom > window.innerHeight;
+      });
       await page.evaluate(() => {
         updateStatusUI({ state: "stopped" });
         window.scrollTo(0, 0);

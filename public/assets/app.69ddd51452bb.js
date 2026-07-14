@@ -6,6 +6,7 @@ const DEFAULT_ZOOM_URL = "https://us02web.zoom.us/j/84886374828?pwd=MkhPSVl3Wjg3
 const ZOOM_MEETING_NAME_KEY = "docflock_zoom_meeting_name";
 const ZOOM_MEETING_URL_KEY = "docflock_zoom_meeting_url";
 const ZOOM_LEAVE_TIMER_KEY = "docflock_zoom_leave_timer";
+const ZOOM_LEAVE_AFTER_VIDEO_MODE = "after_video";
 const ZOOM_LEAVE_TIMER_STALE_MS = 60 * 1000;
 let statusInterval = null;
 let videosCache = [];
@@ -1283,6 +1284,7 @@ async function fetchStatus() {
   try {
     const resp = await api("/api/status");
     const data = await resp.json();
+    if (data.zoom_exit_after_video) syncZoomExitAfterVideoState(data.zoom_exit_after_video);
     lastStatus = data;
     updateStatusUI(data);
     failCount = 0;
@@ -1380,6 +1382,8 @@ function showResumePrompt() {
 }
 
 function updateStatusUI(data) {
+  lastStatus = data;
+  updateZoomLeaveAfterVideoControl(readZoomLeaveTimer(), data);
   const card = document.getElementById("status-card");
   const titleEl = document.getElementById("status-title");
   const stateEl = document.getElementById("status-state");
@@ -1715,6 +1719,8 @@ const zoomLeaveTimerStatus = document.getElementById("zoom-leave-timer-status");
 const zoomLeaveTimerMinutes = document.getElementById("zoom-leave-timer-minutes");
 const zoomLeaveTimerStart = document.getElementById("zoom-leave-timer-start");
 const zoomLeaveTimerCancel = document.getElementById("zoom-leave-timer-cancel");
+const zoomLeaveAfterVideo = document.getElementById("zoom-leave-after-video");
+const zoomLeaveAfterVideoLabel = document.getElementById("zoom-leave-after-video-label");
 let zoomJoinStatusTimer = null;
 let zoomLeaveTimerClock = null;
 let zoomLeaveTimerRunning = false;
@@ -1918,6 +1924,7 @@ function zoomLeaveTimerFiredAt(timer) {
 function reconcileZoomLeaveTimerWithState(joined, presenceKnown) {
   const timer = readZoomLeaveTimer();
   if (!timer || timer.status !== "firing") return;
+  if (zoomLeaveTimerMode(timer) === ZOOM_LEAVE_AFTER_VIDEO_MODE) return;
   if (presenceKnown && !joined) {
     finishZoomLeaveTimer(timer, "completed");
     return;
@@ -1939,10 +1946,62 @@ function formatZoomLeaveCountdown(milliseconds) {
   return `${minutes}:${String(seconds).padStart(2, "0")}`;
 }
 
+function zoomLeaveTimerMode(timer) {
+  return timer?.mode || "countdown";
+}
+
+function hasCurrentVideo(status = lastStatus) {
+  return Boolean(
+    status?.video_id
+    && ["playing", "paused", "loading"].includes(status.state)
+  );
+}
+
+function updateZoomLeaveAfterVideoControl(timer = readZoomLeaveTimer(), status = lastStatus) {
+  const timerActive = timer && ["scheduled", "firing"].includes(timer.status);
+  const afterVideoActive = timerActive && zoomLeaveTimerMode(timer) === ZOOM_LEAVE_AFTER_VIDEO_MODE;
+  const waitingForVideo = afterVideoActive && timer.status === "scheduled";
+
+  zoomLeaveAfterVideo.classList.toggle("armed", waitingForVideo);
+  zoomLeaveAfterVideo.setAttribute("aria-pressed", waitingForVideo ? "true" : "false");
+  zoomLeaveAfterVideoLabel.textContent = waitingForVideo
+    ? "Cancel end-after-video"
+    : timer?.status === "firing" && afterVideoActive
+      ? "Ending / leaving Zoom…"
+      : "End / leave when this video finishes";
+  zoomLeaveAfterVideo.disabled = timer?.status === "firing"
+    || (timerActive && !afterVideoActive)
+    || (!waitingForVideo && !hasCurrentVideo(status));
+}
+
+function syncZoomExitAfterVideoState(serverState) {
+  const current = readZoomLeaveTimer();
+  const currentIsAfterVideo = zoomLeaveTimerMode(current) === ZOOM_LEAVE_AFTER_VIDEO_MODE;
+  if (!serverState || serverState.status === "idle") {
+    if (currentIsAfterVideo) localStorage.removeItem(ZOOM_LEAVE_TIMER_KEY);
+    return;
+  }
+
+  const status = serverState.status === "armed" ? "scheduled" : serverState.status;
+  const timer = {
+    id: `backend-${serverState.video_id || "video"}-${serverState.armed_at || 0}`,
+    mode: ZOOM_LEAVE_AFTER_VIDEO_MODE,
+    status,
+    videoId: serverState.video_id,
+    videoTitle: serverState.video_title || "current video",
+    armedAt: Number(serverState.armed_at || 0) * 1000,
+    completedAt: Number(serverState.completed_at || 0) * 1000 || undefined,
+  };
+  writeZoomLeaveTimer(timer);
+  renderZoomLeaveTimer(timer);
+}
+
 function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
   zoomLeaveTimer.classList.remove("active");
   zoomLeaveTimerStatus.classList.add("hidden");
   zoomLeaveTimerStatus.textContent = "";
+  zoomLeaveTimerStart.disabled = false;
+  updateZoomLeaveAfterVideoControl(timer);
   if (!timer) {
     zoomLeaveTimerMinutes.disabled = false;
     zoomLeaveTimerStart.classList.remove("hidden");
@@ -1952,6 +2011,15 @@ function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
 
   if (timer.status === "scheduled") {
     zoomLeaveTimer.classList.add("active");
+    if (zoomLeaveTimerMode(timer) === ZOOM_LEAVE_AFTER_VIDEO_MODE) {
+      zoomLeaveTimerStatus.textContent = `Ends / leaves after “${timer.videoTitle || "current video"}”`;
+      zoomLeaveTimerStatus.classList.remove("hidden");
+      zoomLeaveTimerMinutes.disabled = true;
+      zoomLeaveTimerStart.disabled = true;
+      zoomLeaveTimerStart.classList.remove("hidden");
+      zoomLeaveTimerCancel.classList.add("hidden");
+      return;
+    }
     zoomLeaveTimerStatus.textContent = `Exits Zoom in ${formatZoomLeaveCountdown(timer.deadline - Date.now())}`;
     zoomLeaveTimerStatus.classList.remove("hidden");
     zoomLeaveTimerMinutes.value = timer.minutes;
@@ -1968,6 +2036,7 @@ function renderZoomLeaveTimer(timer = readZoomLeaveTimer()) {
     zoomLeaveTimerMinutes.disabled = true;
     zoomLeaveTimerStart.classList.add("hidden");
     zoomLeaveTimerCancel.classList.add("hidden");
+    updateZoomLeaveAfterVideoControl(timer);
     return;
   }
 
@@ -2003,7 +2072,9 @@ function tickZoomLeaveTimer() {
     renderZoomLeaveTimer(null);
     return;
   }
-  if (timer.status === "scheduled" && Date.now() >= timer.deadline) {
+  if (timer.status === "scheduled"
+      && zoomLeaveTimerMode(timer) !== ZOOM_LEAVE_AFTER_VIDEO_MODE
+      && Date.now() >= timer.deadline) {
     fireZoomLeaveTimer(timer);
     return;
   }
@@ -2039,6 +2110,7 @@ zoomLeaveTimerStart.addEventListener("click", () => {
   }
   const timer = {
     id: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+    mode: "countdown",
     minutes,
     deadline: Date.now() + minutes * 60 * 1000,
     status: "scheduled",
@@ -2052,6 +2124,47 @@ zoomLeaveTimerCancel.addEventListener("click", () => {
   localStorage.removeItem(ZOOM_LEAVE_TIMER_KEY);
   renderZoomLeaveTimer(null);
   showToast("Auto-exit timer cancelled");
+});
+
+zoomLeaveAfterVideo.addEventListener("click", async () => {
+  const current = readZoomLeaveTimer();
+  if (current?.status === "scheduled" && zoomLeaveTimerMode(current) === ZOOM_LEAVE_AFTER_VIDEO_MODE) {
+    zoomLeaveAfterVideo.disabled = true;
+    try {
+      const resp = await api("/api/zoom/exit-after-video", { method: "DELETE" });
+      if (!resp.ok) throw new Error("Could not cancel end-after-video");
+      localStorage.removeItem(ZOOM_LEAVE_TIMER_KEY);
+      renderZoomLeaveTimer(null);
+      showToast("End-after-video cancelled");
+    } catch (error) {
+      renderZoomLeaveTimer(current);
+      showToast(error.message);
+    }
+    return;
+  }
+
+  if (!hasCurrentVideo()) {
+    showToast("Start a video first");
+    return;
+  }
+
+  zoomLeaveAfterVideo.disabled = true;
+  try {
+    const resp = await api("/api/zoom/exit-after-video", {
+      method: "POST",
+      body: JSON.stringify({
+        video_id: lastStatus.video_id,
+        video_title: lastStatus.title || "current video",
+      }),
+    });
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.detail || data.error || "Could not set end-after-video");
+    syncZoomExitAfterVideoState(data);
+    showToast("Zoom will end or leave when this video finishes");
+  } catch (error) {
+    renderZoomLeaveTimer(null);
+    showToast(error.message);
+  }
 });
 
 window.addEventListener("storage", (event) => {
