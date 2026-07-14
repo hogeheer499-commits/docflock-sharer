@@ -36,7 +36,8 @@ No actionable P0, P1, or P2 findings remain.
 
 ## Primary interactions tested
 
-- Changing years resets global search and opens the first topic for that year.
+- Changing years resets global search and keeps every topic collapsed until the user opens one.
+- Expanding the first or any other topic on demand after a year change.
 - Expanding/collapsing a topic and collapsing all topics.
 - Selecting a part with keyboard-focusable native buttons; selection still enables the existing subtitle, Play and Queue controls.
 - Global lecture search across title, topic, date and year; compact empty state and clear-search action.

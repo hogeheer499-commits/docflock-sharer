@@ -119,6 +119,15 @@ try {
         && document.querySelector(".lecture-series-trigger").getAttribute("aria-expanded") === "true";
       result.yearButtonsHaveNoCounts = [...document.querySelectorAll(".lecture-year-list button")]
         .every((button) => /^(?:\d{4}|Other)$/.test(button.textContent.trim()));
+      const nextYear = document.querySelectorAll(".lecture-year-list button")[1];
+      nextYear.click();
+      result.yearChangeStartsCollapsed = document.querySelectorAll(".lecture-part-row").length === 0
+        && [...document.querySelectorAll(".lecture-series-trigger")]
+          .every((trigger) => trigger.getAttribute("aria-expanded") === "false");
+      const firstSeries = document.querySelector(".lecture-series-trigger");
+      firstSeries.click();
+      result.seriesExpandsOnDemand = document.querySelectorAll(".lecture-part-row").length > 0
+        && document.querySelector(".lecture-series-trigger").getAttribute("aria-expanded") === "true";
 
       const settingsButton = document.getElementById("header-settings-btn");
       const shortcuts = document.getElementById("shortcuts-overlay");

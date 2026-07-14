@@ -465,7 +465,7 @@ function renderLecturePicker() {
     if (active) button.setAttribute("aria-current", "page");
     button.addEventListener("click", () => {
       selectedLectureYear = entry.year;
-      openLectureSeriesId = entry.groups[0]?.id || "";
+      openLectureSeriesId = "";
       lectureSearchQuery = "";
       const input = document.getElementById("search-all");
       if (input) input.value = "";
