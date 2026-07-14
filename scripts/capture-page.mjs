@@ -120,6 +120,7 @@ try {
             else if (url === '/api/videos/multilang') data = [];
             else if (url === '/api/delay') data = { audio_delay_ms: 0 };
             else if (url === '/api/zoom/state') data = {
+              in_meeting: true,
               bridge_connected: true,
               can_read_state: true,
               audio_on: true,

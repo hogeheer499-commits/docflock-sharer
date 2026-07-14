@@ -728,17 +728,20 @@ async function fetchZoomState() {
   try {
     const resp = await api("/api/zoom/state");
     const state = await resp.json();
-    const connected = Boolean(state.bridge_connected);
-    connectionStatus.classList.remove("disconnected", "unavailable");
-    connectionStatus.classList.add("ready");
-    connectionText.textContent = connected ? "Zoom connected" : "Zoom ready";
+    const joined = state.in_meeting === true || Boolean(state.bridge_connected && state.can_read_state);
+    const presenceKnown = typeof state.in_meeting === "boolean" || Boolean(state.bridge_connected && state.can_read_state);
+    connectionStatus.classList.remove("ready", "waiting", "unavailable");
+    connectionStatus.classList.add(joined ? "ready" : "waiting");
+    connectionText.textContent = joined
+      ? "Hoge Heer is ready"
+      : presenceKnown ? "Not in Zoom yet" : "Checking Zoom…";
 
-    if (state.can_read_state) {
+    if (joined && state.can_read_state) {
       document.querySelector("#zoom-mic-btn span").textContent = state.audio_on ? "Sound On" : "Sound Off";
       document.querySelector("#zoom-cam-btn span").textContent = state.video_on ? "Video On" : "Video Off";
     }
   } catch {
-    connectionStatus.classList.remove("ready");
+    connectionStatus.classList.remove("ready", "waiting");
     connectionStatus.classList.add("unavailable");
     connectionText.textContent = "Zoom unavailable";
   }

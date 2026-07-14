@@ -1,4 +1,6 @@
 import asyncio
+import json
+import os
 from contextlib import asynccontextmanager
 from typing import Any
 from pathlib import Path
@@ -354,7 +356,34 @@ def _check_zoom_bridge_token(token: str | None):
 
 @app.get("/api/zoom/state")
 async def api_zoom_state():
-    return zoom_controller.get_state()
+    state = zoom_controller.get_state()
+    if state.get("bridge_connected") and state.get("can_read_state"):
+        return {**state, "in_meeting": True}
+
+    helper = Path(__file__).with_name("zoom_accessibility.py")
+    env = os.environ.copy()
+    env["DISPLAY"] = os.getenv("ZOOM_DISPLAY", ":1")
+    try:
+        proc = await asyncio.create_subprocess_exec(
+            "/usr/bin/python3",
+            str(helper),
+            "status",
+            env=env,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.DEVNULL,
+        )
+        stdout, _ = await asyncio.wait_for(proc.communicate(), timeout=2.5)
+        payload = json.loads(stdout.decode(errors="replace").strip().splitlines()[-1])
+        return {
+            **state,
+            "in_meeting": bool(payload.get("in_meeting")),
+            "role": payload.get("role") or state.get("role"),
+        }
+    except (asyncio.TimeoutError, IndexError, json.JSONDecodeError, OSError):
+        if "proc" in locals() and proc.returncode is None:
+            proc.kill()
+            await proc.wait()
+        return {**state, "in_meeting": False}
 
 
 @app.post("/api/zoom/audio/on")

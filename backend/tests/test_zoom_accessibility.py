@@ -1,3 +1,5 @@
+import json
+
 import zoom_accessibility as accessibility
 
 
@@ -48,3 +50,28 @@ def test_exit_leaves_when_host_end_is_absent(monkeypatch):
 
     assert accessibility.exit_meeting() == 0
     assert calls == [("leave", leave_control)]
+
+
+def test_meeting_status_reports_participant_without_activating_control(monkeypatch, capsys):
+    leave_control = object()
+    monkeypatch.setattr(accessibility, "zoom_application", lambda: object())
+    monkeypatch.setattr(
+        accessibility,
+        "find_control",
+        lambda labels, require_showing: leave_control
+        if labels == accessibility.PARTICIPANT_LEAVE_LABELS
+        else None,
+    )
+
+    assert accessibility.meeting_status() == 0
+    payload = json.loads(capsys.readouterr().out)
+    assert payload == {"ok": True, "in_meeting": True, "role": "participant"}
+
+
+def test_meeting_status_reports_not_joined_when_controls_are_absent(monkeypatch, capsys):
+    monkeypatch.setattr(accessibility, "zoom_application", lambda: object())
+    monkeypatch.setattr(accessibility, "find_control", lambda labels, require_showing: None)
+
+    assert accessibility.meeting_status() == 0
+    payload = json.loads(capsys.readouterr().out)
+    assert payload == {"ok": True, "in_meeting": False, "role": "unknown"}

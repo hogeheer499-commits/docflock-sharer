@@ -535,6 +535,31 @@ class Player:
         if not Path(V4L2_DEVICE).exists():
             return
         await self._kill_orphaned_ffmpeg()
+
+        placeholder_path = Path(__file__).parent / "idle_placeholder.png"
+        if placeholder_path.exists():
+            self._idle_proc = await asyncio.create_subprocess_exec(
+                "ffmpeg", "-y",
+                "-loop", "1",
+                "-framerate", "1",
+                "-i", str(placeholder_path),
+                "-vf",
+                "scale=1280:720:force_original_aspect_ratio=increase,"
+                "crop=1280:720,"
+                "drawtext=text='Ready to play':"
+                "fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:"
+                "fontsize=42:fontcolor=white:x=(w-text_w)/2:y=(h-text_h)/2:"
+                "box=1:boxcolor=black@0.38:boxborderw=14:"
+                "shadowcolor=black@0.75:shadowx=2:shadowy=2,format=yuv420p",
+                "-f", "v4l2", "-video_size", "1280x720",
+                "-pix_fmt", "yuv420p",
+                V4L2_DEVICE,
+                stdout=asyncio.subprocess.DEVNULL,
+                stderr=asyncio.subprocess.DEVNULL,
+            )
+            log.info("Idle placeholder image started on %s", V4L2_DEVICE)
+            return
+
         emoji_path = str(Path(__file__).parent / "emoji_rofl.png")
         self._idle_proc = await asyncio.create_subprocess_exec(
             "ffmpeg", "-y",

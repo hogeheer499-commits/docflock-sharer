@@ -53,6 +53,14 @@ try {
       })));
       localStorage.setItem("docflock_token", "visual-qa-token");
       localStorage.setItem("docflock_expiry", String(Date.now() + 86400000));
+      localStorage.setItem("docflock_resume", JSON.stringify({
+        video_id: "lecture-resume",
+        title: "Perception and Illusion - 2 of 3 (May 2002)",
+        current_time: 197,
+        languages: ["en"],
+        saved_at: Date.now(),
+      }));
+      window.__zoomJoined = true;
       const nativeFetch = window.fetch.bind(window);
       window.fetch = async (input, init) => {
         const url = typeof input === "string" ? input : input.url;
@@ -63,7 +71,7 @@ try {
         else if (url === "/api/music") data = Array.from({ length: 21 }, (_, index) => ({ id: `music-${index}`, title: `Music ${index + 1}`, languages: [] }));
         else if (url === "/api/youtube") data = Array.from({ length: 27 }, (_, index) => ({ id: `youtube-${index}`, title: `YouTube ${index + 1}`, languages: [] }));
         else if (url === "/api/delay") data = { audio_delay_ms: 0 };
-        else if (url === "/api/zoom/state") data = { bridge_connected: true, can_read_state: true, audio_on: true, video_on: true };
+        else if (url === "/api/zoom/state") data = { in_meeting: window.__zoomJoined, bridge_connected: false, can_read_state: false, audio_on: true, video_on: true, screen_name: "Hoge Heer" };
         else if (url === "/api/status") data = { state: "stopped", queue: [] };
         return new Response(JSON.stringify(data), { status: 200, headers: { "Content-Type": "application/json" } });
       };
@@ -71,8 +79,22 @@ try {
 
     await page.goto(targetUrl, { waitUntil: "domcontentloaded", timeout: 15000 });
     await page.waitForSelector("#list-all .item-list-row", { timeout: 10000 });
-    const assertions = await page.evaluate(() => {
+    const assertions = await page.evaluate(async () => {
       const result = {};
+      const topActions = document.querySelector(".top-actions").getBoundingClientRect();
+      result.headerActionsInsideViewport = topActions.right <= window.innerWidth;
+      result.zoomJoinedStatus = document.getElementById("zoom-connection-text").textContent === "Hoge Heer is ready";
+      window.__zoomJoined = false;
+      await fetchZoomState();
+      result.zoomWaitingStatus = document.getElementById("zoom-connection-text").textContent === "Not in Zoom yet"
+        && document.getElementById("zoom-connection-status").classList.contains("waiting");
+      window.__zoomJoined = true;
+      await fetchZoomState();
+      const resumePrompt = document.getElementById("resume-prompt");
+      result.resumeIsSubtleAndInsideBrowse = resumePrompt.parentElement.classList.contains("browse-card")
+        && !resumePrompt.classList.contains("hidden")
+        && resumePrompt.getBoundingClientRect().top >= document.querySelector(".browse-heading").getBoundingClientRect().bottom
+        && resumePrompt.getBoundingClientRect().bottom <= document.querySelector(".tab-strip-wrap").getBoundingClientRect().top + 1;
       const firstRow = document.querySelector("#list-all .item-list-row");
       firstRow.click();
       result.rowsAreButtons = firstRow.tagName === "BUTTON" && firstRow.getAttribute("aria-pressed") === "true";

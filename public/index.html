@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="/assets/style.77051b72e811.css">
+  <link rel="stylesheet" href="/assets/style.f4630351e853.css">
 </head>
 <body>
   <!-- Login -->
@@ -30,9 +30,9 @@
       <header class="top-bar">
         <div class="top-brand">
           <h1 class="app-title">Doc Remote</h1>
-          <span id="zoom-connection-status" class="connection-status ready" role="status" aria-live="polite">
+          <span id="zoom-connection-status" class="connection-status waiting" role="status" aria-live="polite">
             <span class="connection-dot"></span>
-            <span id="zoom-connection-text">Zoom ready</span>
+            <span id="zoom-connection-text">Checking Zoom…</span>
           </span>
         </div>
         <div class="top-actions">
@@ -102,15 +102,6 @@
       </div>
 
       <div class="right-stack">
-      <!-- Resume prompt -->
-      <div id="resume-prompt" class="resume-prompt hidden">
-        <span id="resume-text"></span>
-        <div class="resume-actions">
-          <button id="resume-btn" class="btn-primary">Resume</button>
-          <button id="resume-dismiss" class="btn-dismiss">Dismiss</button>
-        </div>
-      </div>
-
       <!-- Now Playing -->
       <div id="status-card" class="status-card hidden">
         <div class="status-title" id="status-title"></div>
@@ -194,6 +185,17 @@
       <!-- Browse & Play -->
       <div class="browse-card">
         <h2 class="browse-heading">Choose &amp; Play</h2>
+        <!-- Resume prompt -->
+        <div id="resume-prompt" class="resume-prompt hidden">
+          <div class="resume-copy">
+            <i class="bi bi-clock-history" aria-hidden="true"></i>
+            <span id="resume-text"></span>
+          </div>
+          <div class="resume-actions">
+            <button id="resume-btn" class="btn-primary">Resume</button>
+            <button id="resume-dismiss" class="btn-dismiss">Dismiss</button>
+          </div>
+        </div>
         <div class="tab-strip-wrap">
           <div class="tab-bar" role="tablist" aria-label="Media categories">
             <button id="tab-button-all" class="tab-btn active" type="button" role="tab" aria-selected="true" aria-controls="tab-all" data-tab="all"><i class="bi bi-book-half" aria-hidden="true"></i><span>Lectures</span></button>
@@ -299,6 +301,6 @@
     </div>
   </div>
 
-  <script src="/assets/app.25fe13a41293.js"></script>
+  <script src="/assets/app.e7aa039f54fe.js"></script>
 </body>
 </html>

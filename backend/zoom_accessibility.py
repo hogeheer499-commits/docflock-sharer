@@ -212,6 +212,18 @@ def exit_meeting() -> int:
     return result(False, error="zoom_meeting_exit_control_not_found")
 
 
+def meeting_status() -> int:
+    """Report meeting presence without focusing Zoom or activating controls."""
+    if zoom_application() is None:
+        return result(True, in_meeting=False, role="unknown")
+
+    if find_control(HOST_END_LABELS, require_showing=False) is not None:
+        return result(True, in_meeting=True, role="host")
+    if find_control(PARTICIPANT_LEAVE_LABELS, require_showing=False) is not None:
+        return result(True, in_meeting=True, role="participant")
+    return result(True, in_meeting=False, role="unknown")
+
+
 def main() -> int:
     if sys.argv[1:] == ["end-meeting-for-all"]:
         return end_meeting_for_all()
@@ -219,6 +231,8 @@ def main() -> int:
         return leave_meeting()
     if sys.argv[1:] == ["exit-meeting"]:
         return exit_meeting()
+    if sys.argv[1:] == ["status"]:
+        return meeting_status()
     return result(False, error="unsupported_action")
 
 

@@ -1,68 +1,62 @@
-# Design QA — Doc Remote accessibility and responsive follow-up
+# Design QA — Doc Remote refinement pass
 
-- Source visual truth: `/home/bram/.codex/attachments/858b47c9-c78b-4956-83b3-934821226d55/codex-clipboard-a810c08e-0f4a-420f-9b51-5aa2a5c32e63.png`, `/home/bram/.codex/attachments/c803a1ce-f746-444e-a6c6-112ef3d02a5d/codex-clipboard-c13c4d67-897e-4bce-b846-03db228ac866.png`, and the delegated audit specification dated 2026-07-14.
+- Source visual truth: `/home/bram/.codex/attachments/e9673e2d-bbbe-4c02-b9d0-5d827dd35f3b/codex-clipboard-1154a090-fd5a-4786-b995-aacd7542673e.png`, `/home/bram/.codex/attachments/4d6610d6-ca22-4196-bcb9-a7df218c3a19/codex-clipboard-a55129b7-f0a0-4839-95bf-bbd74e45f57a.png`, and `/home/bram/.codex/attachments/05504c41-959c-43a0-bee2-1284c088ea27/codex-clipboard-d440051f-90b1-4378-93eb-740ea4e53041.png`.
 - Implementation screenshots: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/responsive-2560.png`, `responsive-1440.png`, `responsive-1024.png`, `responsive-768.png`, `responsive-390.png`, `responsive-320.png`, and `responsive-844x390.png` in the same directory.
 - Viewports: 2560 × 1080, 1440 × 900, 1024 × 900, 768 × 900, 390 × 844, 320 × 720, and 844 × 390.
-- State: authenticated mock data; Zoom connected; no timer; first lecture selected; no real Zoom, timer-exit, playback, or queue API action fired.
-- Full-view comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/qa-wide-before-after.png`.
-- Focused mobile comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/qa-mobile-before-after.png`.
-- Additional state evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/state-empty-1440.png` and `state-shortcuts-1440.png`.
+- State: authenticated mock data; both joined and not-joined Zoom status tested; resume state visible; first lecture selected; no real Zoom, timer-exit, playback, or queue action fired during frontend QA.
+- Full-view comparison evidence: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/refinements-source-vs-local.png`.
+- Focused standby-image evidence: `/tmp/docremote-idle-ready-preview.png`.
 - Automated browser results: `/home/bram/.codex/visualizations/2026/07/13/019f5c8c-a200-75f0-86b7-592bd2df4d81/responsive-results.json`.
 
 ## Findings
 
 No actionable P0, P1, or P2 findings remain.
 
-- Fonts and typography: the existing system sans-serif stack and weight hierarchy are preserved. Compact controls remain legible at 320 px; selection and empty-state copy truncate or wrap intentionally without clipping.
-- Spacing and layout rhythm: ultrawide content is centered at a 1560 px maximum. The two-column workspace remains at 1024 px and stacks below 960 px. At 390/320 px Zoom actions use a balanced 2 × 2 grid; at 844 × 390 they compress into one horizontal row so the timer and media area remain visible.
-- Colors and visual tokens: the established warm neutral canvas, white surfaces, blue primary state, slate toggles, red exit action, and green Zoom readiness state are unchanged. Focus-visible rings use the existing blue accent.
-- Image quality and asset fidelity: the supplied Zoom logo remains the source raster asset and Bootstrap Icons remain the product icon system; no replacement CSS art, handcrafted SVG, or placeholder image was introduced.
-- Copy and content: selection is now explicit as `Selected: <title> · <category>`. Empty search shows the requested Dutch no-results message and `Zoekopdracht wissen`. Timer history is separated as `Last auto-exit: <time>` from the current `No timer set` state.
-- Accessibility and affordance: media rows are native buttons with selected state; language inputs use a visually-hidden focusable pattern; tabs expose tablist/tab/tabpanel semantics with arrow, Home, and End navigation; the shortcuts dialog moves and traps focus, blocks background scroll, closes with Escape, and restores focus.
-- Performance: only the active media list is rendered. Switching category removes inactive rows from the DOM, and active rows use `content-visibility: auto`.
-- Responsive behavior: every required viewport has no page-wide horizontal scroll. At 320 px the small tab overflow is paired with scroll snapping and a visible `Scroll for more` hint.
+- Fonts and typography: the established system sans-serif hierarchy is preserved. The resume copy uses the existing small secondary-text scale; `Ready to play` uses DejaVu Sans Bold at 42 px in the 1280 × 720 standby feed.
+- Spacing and layout rhythm: Refresh and settings now retain right-side breathing room and stay within the viewport. The resume row sits immediately below `Choose & Play`, before the tabs, and consumes substantially less vertical space than the previous full-width prompt.
+- Colors and visual tokens: the not-joined Zoom state uses neutral slate; the confirmed joined state uses the existing success green. The resume row uses the existing elevated neutral and accent-muted tokens.
+- Image quality and asset fidelity: the supplied idle image is preserved and cropped through the existing 1280 × 720 virtual-camera pipeline. A centered white label with a restrained translucent black backing is added by FFmpeg; the source image itself is not recompressed or replaced.
+- Copy and content: neutral Zoom copy is `Not in Zoom yet`; confirmed meeting presence is `Hoge Heer is ready`; the standby feed says `Ready to play`.
+- Responsive behavior: all seven required viewports keep header actions inside the viewport, show the compact resume row inside the browse card, and avoid page-wide horizontal scrolling.
+- Accessibility: Zoom status remains a polite live region. Existing row, tab, language-pill, and dialog keyboard behavior remains intact.
 
 ## Comparison history
 
 ### Iteration 1
 
-- [P1] The first implementation let the new selection summary shrink to a thin, clipped strip at desktop heights.
-- [P1] The first no-results state still occupied the full media-list height, leaving a large empty panel.
-- Fixes: made the selection summary non-shrinking with a fixed minimum height; changed the empty list, panel, and browse card to content-sized empty-state layout.
-- Post-fix evidence: `responsive-1440.png` and `state-empty-1440.png` at the paths above.
+- [P1] Refresh appeared visually cramped against the header edge in the supplied production capture.
+- [P1] The previous resume banner competed with the primary media card and consumed a full row.
+- [P1] `Zoom ready` implied meeting presence even when the backend could not confirm that Hoge Heer had joined.
+- Fixes: added safe right padding and non-shrinking header actions; moved resume beneath the browse title and restyled it as a compact secondary row; added read-only meeting-presence detection and explicit waiting/ready states.
+- Post-fix evidence: `refinements-source-vs-local.png` and the seven responsive captures above.
 
 ### Iteration 2
 
-- [P2] At 320 px the earlier media-query order hid the explicit Zoom label and kept wider tab minimums than intended.
-- Fixes: moved the 320 px override after the 420 px rule, retained a compact visible `Zoom connected` label, reduced tab minimums, and retained the scroll hint for the remaining 10 px tab overflow.
-- Post-fix evidence: `responsive-320.png` and the browser metrics in `responsive-results.json`.
+- [P2] The first standby-label preview at 54 px was too dominant and obscured too much of the image.
+- Fix: reduced the label to 42 px and tightened its translucent backing while retaining exact centering and contrast.
+- Post-fix evidence: `/tmp/docremote-idle-ready-preview.png`.
 
 ## Primary interactions tested
 
-- Native media-row focus and selected state.
-- Language-pill keyboard focus.
-- Tab click switching plus Left/Right/Home/End keyboard navigation.
-- Selection persistence and explicit category copy after switching tabs.
-- Empty-search message and clear-search control.
-- Shortcuts dialog semantics, focus entry, focus trap, Escape close, scroll lock, and focus restoration.
-- Timer history/current-state separation using local state only.
-- Inactive media lists removed from the DOM.
-- Tab discoverability and page horizontal-overflow checks at all seven viewports.
+- Header action bounds at all seven viewports.
+- Joined status (`Hoge Heer is ready`) and neutral waiting status (`Not in Zoom yet`).
+- Resume placement, visibility, and compact styling at all seven viewports.
+- Existing media-row, language-pill, tab, empty-state, selection, modal, timer-history, active-DOM, and overflow assertions.
 - Browser console errors checked at all seven viewports; none found.
+- Read-only Zoom accessibility status helper checked against the current Beelink meeting window without focusing Zoom or activating a control.
+- Standby FFmpeg filter rendered to a 1280 × 720 preview without touching playback.
 
 ## Implementation checklist
 
-- [x] Maximum 1560 px centered ultrawide layout.
-- [x] Two columns at 1024 px; stacked layout at 768 px and below.
-- [x] Compact portrait and landscape Zoom controls.
-- [x] Accessible rows, language pills, tabs, and shortcuts dialog.
-- [x] Explicit persisted selection and compact no-results state.
-- [x] Active-panel-only DOM rendering.
-- [x] Hashed first-party CSS/JS asset references and cache-policy verification.
-- [x] No real Zoom, playback, queue, or exit actions during QA.
+- [x] Header controls no longer clip or crowd the right edge.
+- [x] Resume information moved below `Choose & Play` and made less invasive.
+- [x] Zoom status distinguishes not joined from confirmed meeting presence.
+- [x] `Ready to play` centered on the standby feed.
+- [x] All existing responsive and accessibility checks pass.
+- [x] No real Zoom leave, join, playback, queue, or timer-exit action fired during QA.
 
 ## Follow-up polish
 
-- None required for this acceptance pass.
+- The separate lecture-picker exploration is intentionally excluded from this production pass and is being developed as an isolated HTML mockup for approval.
 
 final result: passed
