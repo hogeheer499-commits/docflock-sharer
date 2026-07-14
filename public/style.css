@@ -2544,3 +2544,135 @@ summary:focus-visible {
   .lecture-browser-layout { flex: 1 1 auto; min-height: 0; }
   .lecture-series-browser { overflow-y: auto; }
 }
+
+/* === Approved desktop layout: compact player/Zoom rail + narrower library === */
+.left-stack {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 959px) {
+  .left-stack { order: 1; }
+  .left-stack .zoom-panel { order: 1; }
+  .left-stack .zoom-leave-timer { order: 2; }
+  .left-stack .status-card { order: 3; }
+  .left-stack .queue-card { order: 4; }
+  .right-stack { order: 2; }
+  .app-footer { order: 3; }
+}
+
+@media (min-width: 960px) {
+  .app-layout {
+    width: min(1232px, calc(100% - 36px));
+    max-width: 1232px;
+    min-height: calc(100dvh - 82px);
+    margin: 0 auto;
+    padding: 10px 0 36px;
+    grid-template-columns: minmax(330px, 390px) minmax(0, 820px);
+    grid-template-rows: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "left workspace"
+      "footer workspace";
+    justify-content: center;
+    align-items: start;
+    gap: 12px 22px;
+  }
+
+  .left-stack { grid-area: left; gap: 12px; }
+  .right-stack {
+    grid-area: workspace;
+    width: 100%;
+    max-width: 820px;
+    height: calc(100dvh - 104px);
+    min-height: 640px;
+    gap: 0;
+  }
+
+  .left-stack .status-card,
+  .left-stack .zoom-panel,
+  .left-stack .zoom-leave-timer,
+  .left-stack .queue-card { width: 100%; }
+
+  .left-stack .status-card {
+    flex: 0 0 auto;
+    padding: 20px;
+  }
+
+  .left-stack .zoom-panel {
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .left-stack .panel-heading {
+    margin-bottom: 18px;
+    font-size: 19px;
+  }
+
+  .left-stack .zoom-controls { gap: 11px 10px; }
+  .left-stack .zoom-btn {
+    min-height: 66px;
+    font-size: 14px;
+  }
+  .left-stack .zoom-btn.zoom-toggle {
+    min-height: 92px;
+    gap: 7px;
+  }
+  .left-stack .zoom-btn.zoom-toggle span {
+    max-width: 62px;
+    line-height: 1.35;
+  }
+  .left-stack .zoom-btn i { font-size: 27px; }
+  .left-stack .zoom-btn img { width: 30px; height: 30px; }
+
+  .left-stack .zoom-leave-timer {
+    min-height: 0;
+    padding: 20px;
+    gap: 16px;
+  }
+  .left-stack .zoom-leave-timer-copy strong { font-size: 17px; }
+  .left-stack .zoom-leave-timer-copy > i { font-size: 22px; }
+  .left-stack .zoom-leave-timer-actions input { min-height: 46px; font-size: 15px; }
+  .left-stack .zoom-leave-timer-actions button {
+    min-width: 98px;
+    min-height: 46px;
+    font-size: 15px;
+  }
+
+  .left-stack .queue-card {
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .right-stack .browse-card {
+    width: 100%;
+    max-width: 820px;
+    height: 100%;
+    min-height: 640px;
+    padding: 24px 24px 18px;
+  }
+
+  .right-stack .browse-heading {
+    margin-bottom: 14px;
+    font-size: 28px;
+  }
+
+  .right-stack .tab-bar {
+    flex-basis: 52px;
+    margin-bottom: 18px;
+  }
+  .right-stack .tab-btn {
+    min-height: 52px;
+    padding: 9px 14px;
+    gap: 8px;
+    font-size: 15px;
+  }
+  .right-stack .tab-btn i { font-size: 19px; }
+  .right-stack .search-field { margin-bottom: 14px; }
+  .right-stack .search-field .list-search { min-height: 46px; font-size: 15px; }
+  .right-stack .play-row .btn-primary,
+  .right-stack .play-row .btn-queue { min-height: 58px; font-size: 15px; }
+
+  .app-footer { grid-area: footer; }
+}

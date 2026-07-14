@@ -53,6 +53,80 @@ _STYLE_MAP = {
 }
 
 
+# The source library stores several catalog collections in synthetic year buckets.
+# Those years are useful for stable file IDs and sorting, but are not part of the
+# lecture title shown to the user (or burned into the Zoom video).
+_NAMED_COLLECTIONS = {
+    "volume": "Volume Series",
+    "office": "Archival Office Visit Series",
+    "road": "On the Road – Talk Series",
+    "discussion": "Discussion Series with Dr. Hawkins & Wife Susan",
+    "satsang": "Satsang Questions & Answers",
+}
+
+_COLLECTION_BY_LECTURE_TITLE = {
+    "a map of consciousness": "office",
+    "become that which you are": "road",
+    "love is a way of being": "road",
+    "the presence of spiritual awareness": "road",
+    "verification of spiritual realities": "road",
+    "progressive levels of consciousness": "road",
+    "spiritual will": "road",
+    "permanent inner peace": "discussion",
+    "what is real success": "discussion",
+    "how to live your life like a prayer": "discussion",
+    "what you are changes the world": "discussion",
+    "improving your relationships": "discussion",
+    "how to see the reality of life": "discussion",
+    "what is meant by spiritual": "discussion",
+    "the importance of family": "discussion",
+    "q&a session": "satsang",
+}
+
+
+def _collection_title_key(value: str) -> str:
+    """Normalize a catalog title while preserving its original display copy."""
+    title = str(value or "").strip()
+    trailing_date = re.compile(r"\s+\((?:[A-Za-z]{3}\s+)?\d{4}\)\s*$", re.IGNORECASE)
+    while trailing_date.search(title):
+        title = trailing_date.sub("", title).strip()
+    return re.sub(r"\s+", " ", title.replace("’", "'").replace("‘", "'")).lower()
+
+
+def _named_collection_for_lecture(title: str, series_name: str) -> str | None:
+    """Return the public collection name for non-annual catalog material."""
+    collection_key = _COLLECTION_BY_LECTURE_TITLE.get(_collection_title_key(title))
+    if collection_key:
+        return _NAMED_COLLECTIONS[collection_key]
+
+    normalized_series = re.sub(r"\s+", " ", str(series_name or "").strip()).lower()
+    if "volume series" in normalized_series:
+        return _NAMED_COLLECTIONS["volume"]
+    if "archival office" in normalized_series:
+        return _NAMED_COLLECTIONS["office"]
+    if "discussion series" in normalized_series:
+        return _NAMED_COLLECTIONS["discussion"]
+    if "satsang" in normalized_series:
+        return _NAMED_COLLECTIONS["satsang"]
+    if "on the road" in normalized_series or "verification series" in normalized_series:
+        return _NAMED_COLLECTIONS["road"]
+    return None
+
+
+def _lecture_display_title(meta: dict, part_num: str) -> str:
+    """Build one API/playback title without synthetic collection years."""
+    parts = meta.get("parts", 1)
+    if meta.get("named_collection"):
+        if parts > 1:
+            return f"{meta['title']} - {part_num} of {parts}"
+        return meta["title"]
+
+    date_str = f"{meta['month']} {meta['year']}" if meta.get("month") else str(meta["year"])
+    if parts > 1:
+        return f"{meta['title']} - {part_num} of {parts} ({date_str})"
+    return f"{meta['title']} ({date_str})"
+
+
 def _load_library() -> dict:
     """Load library.json for lecture metadata."""
     lib_file = VIDEOS_DIR / "library.json"
@@ -65,13 +139,15 @@ def _load_library() -> dict:
     for series in data.get("series", []):
         for lec in series.get("lectures", []):
             key = f"{series['year']}-{lec['num']:02d}"
+            named_collection = _named_collection_for_lecture(lec["title"], series["name"])
             lookup[key] = {
                 "title": lec["title"],
-                "series": f"{series['year']}: {series['name']}",
+                "series": named_collection or f"{series['year']}: {series['name']}",
                 "year": series["year"],
                 "month": lec.get("month", ""),
                 "num": lec["num"],
                 "parts": lec.get("parts", 3),
+                "named_collection": named_collection,
             }
     return lookup
 
@@ -116,12 +192,7 @@ def scan_videos() -> list[dict]:
 
         meta = library.get(lecture_key)
         if meta:
-            date_str = f"{meta['month']} {meta['year']}" if meta.get("month") else str(meta["year"])
-            parts = meta.get("parts", 1)
-            if parts > 1:
-                title = f"{meta['title']} - {part_num} of {parts} ({date_str})"
-            else:
-                title = f"{meta['title']} ({date_str})"
+            title = _lecture_display_title(meta, part_num)
             sort_key = f"{meta['year']}-{meta['num']:02d}-{part_num}"
         else:
             title = entry.name.replace("-", " ").replace("_", " ").title()

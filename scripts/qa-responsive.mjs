@@ -80,10 +80,12 @@ try {
         saved_at: Date.now(),
       }));
       window.__zoomJoined = true;
+      window.__apiCalls = [];
       const nativeFetch = window.fetch.bind(window);
       window.fetch = async (input, init) => {
         const url = typeof input === "string" ? input : input.url;
         if (!url.startsWith("/api/")) return nativeFetch(input, init);
+        window.__apiCalls.push({ url, method: init?.method || "GET" });
         let data = {};
         if (url === "/api/videos") data = videos;
         else if (url === "/api/clips") data = Array.from({ length: 41 }, (_, index) => ({ id: `clip-${index}`, title: `Clip ${index + 1}`, languages: [] }));
@@ -260,6 +262,34 @@ try {
         && document.querySelectorAll("#toast-container .toast").length === toastCountBeforeSilentFailure;
       window.fetch = mockedFetch;
 
+      window.__apiCalls = [];
+      window.confirm = () => true;
+      updateStatusUI({ state: "playing", title: "Leave flow QA", current_time: 12, duration: 60, languages: ["en"], queue: [] });
+      document.getElementById("zoom-leave-btn").click();
+      await new Promise((resolveWait) => setTimeout(resolveWait, 80));
+      const manualStopCall = window.__apiCalls.findIndex((call) => call.url === "/api/stop" && call.method === "POST");
+      const manualExitCall = window.__apiCalls.findIndex((call) => call.url === "/api/zoom/exit" && call.method === "POST");
+      result.manualLeaveStopsPlaybackFirst = manualStopCall >= 0
+        && manualExitCall > manualStopCall
+        && document.getElementById("status-card").classList.contains("hidden");
+
+      window.__apiCalls = [];
+      const timerExit = {
+        id: "timer-stop-flow",
+        status: "scheduled",
+        minutes: 1,
+        deadline: Date.now() - 1,
+      };
+      writeZoomLeaveTimer(timerExit);
+      await fireZoomLeaveTimer(timerExit);
+      const timerStopCall = window.__apiCalls.findIndex((call) => call.url === "/api/stop" && call.method === "POST");
+      const timerExitCall = window.__apiCalls.findIndex((call) => call.url === "/api/zoom/exit" && call.method === "POST");
+      result.timerLeaveStopsPlaybackFirst = timerStopCall >= 0 && timerExitCall > timerStopCall;
+      localStorage.removeItem("docflock_zoom_leave_timer");
+      renderZoomLeaveTimer(null);
+      document.getElementById("zoom-leave-btn").classList.remove("flash");
+      document.getElementById("toast-container").replaceChildren();
+
       window.__smartScrollTargets = [];
       window.scrollTo(0, document.documentElement.scrollHeight);
       requestMobilePlayerScroll();
@@ -268,6 +298,21 @@ try {
       result.playerSmartScroll = isSmartScrollViewport
         ? window.__smartScrollTargets.some((call) => call.id === "status-card" && call.options.block === "start")
         : window.__smartScrollTargets.length === 0;
+      const playerRect = document.getElementById("status-card").getBoundingClientRect();
+      const zoomRect = document.querySelector(".zoom-panel").getBoundingClientRect();
+      const timerRect = document.getElementById("zoom-leave-timer").getBoundingClientRect();
+      const browseRect = document.querySelector(".browse-card").getBoundingClientRect();
+      result.desktopPlayerAndLibraryLayout = window.innerWidth < 960 || (
+        document.getElementById("status-card").parentElement.classList.contains("left-stack")
+        && playerRect.top < zoomRect.top
+        && Math.abs(playerRect.left - zoomRect.left) <= 1
+        && browseRect.width <= 822
+      );
+      result.mobileStackingPreserved = window.innerWidth >= 960 || (
+        zoomRect.top < timerRect.top
+        && timerRect.top < playerRect.top
+        && playerRect.top < browseRect.top
+      );
       updateStatusUI({ state: "stopped" });
       window.scrollTo(0, 0);
 
@@ -283,6 +328,30 @@ try {
       result.domRows = document.querySelectorAll(".item-list-row, .lecture-part-row, .lecture-result-row").length;
       return result;
     }, width <= 720);
+
+    if (["1440", "1024", "390"].includes(name)) {
+      await page.evaluate(() => {
+        updateStatusUI({
+          state: "playing",
+          title: "What is Meant by Spiritual",
+          current_time: 1724,
+          duration: 3206,
+          languages: ["en", "es"],
+          queue: [],
+        });
+        if (window.innerWidth < 960) {
+          document.getElementById("status-card").scrollIntoView({ block: "start" });
+        } else {
+          window.scrollTo(0, 0);
+        }
+      });
+      await delay(100);
+      await page.screenshot({ path: resolve(outputDir, `state-playing-${name}.png`), fullPage: false });
+      await page.evaluate(() => {
+        updateStatusUI({ state: "stopped" });
+        window.scrollTo(0, 0);
+      });
+    }
 
     if (name === "1440") {
       await page.evaluate(() => {

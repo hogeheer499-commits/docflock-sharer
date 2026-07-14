@@ -169,6 +169,9 @@ const langCheckboxes = document.getElementById("lang-checkboxes");
 const playBtn = document.getElementById("play-btn");
 const selectionSummary = document.getElementById("selection-summary");
 const playRow = document.querySelector(".play-row");
+const leftStack = document.querySelector(".left-stack");
+const statusCard = document.getElementById("status-card");
+if (leftStack && statusCard) leftStack.prepend(statusCard);
 const mobileSmartScrollMedia = window.matchMedia("(max-width: 720px)");
 const reducedMotionMedia = window.matchMedia("(prefers-reduced-motion: reduce)");
 let mobilePlayerScrollRequestedAt = 0;
@@ -1871,9 +1874,20 @@ zoomLeaveBtn.addEventListener("click", async () => {
     "Exit Zoom? If Hoge Heer is host, the meeting ends for everyone. Otherwise Hoge Heer leaves the meeting."
   );
   if (!confirmed) return;
+  await stopPlaybackForZoomExit();
   const ok = await runZoomAction("/api/zoom/exit", zoomLeaveBtn);
   if (ok) showToast("Zoom meeting ended or left successfully");
 });
+
+async function stopPlaybackForZoomExit() {
+  try {
+    const resp = await zoomApiWithTimeout("/api/stop", { method: "POST" }, 5000);
+    if (resp.ok) {
+      lastStatus = { state: "stopped" };
+      updateStatusUI(lastStatus);
+    }
+  } catch {}
+}
 
 function readZoomLeaveTimer() {
   try {
@@ -1974,6 +1988,7 @@ async function fireZoomLeaveTimer(timer) {
   writeZoomLeaveTimer(firing);
   renderZoomLeaveTimer(firing);
   try {
+    await stopPlaybackForZoomExit();
     const ok = await runZoomAction("/api/zoom/exit", zoomLeaveBtn, { reportErrors: false });
     const latest = readZoomLeaveTimer();
     if (latest?.id === current.id && latest.status === "firing") {
