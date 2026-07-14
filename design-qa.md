@@ -55,8 +55,9 @@ No actionable P0, P1, or P2 findings remain.
 - Global lecture search across title, topic, date and year; compact empty state and clear-search action.
 - Read-only real-data render: all 251 live lectures grouped into 14 years; 2002 renders as 36 lectures in 12 series with only the open series' three part rows in the DOM.
 - Selection persistence when switching to Clips and back.
-- Only the active category renders media rows; initial lecture DOM contains only the open topic's three rows in the test state.
+- Only the active category renders media rows; the collapsed initial lecture DOM contains no part rows until a topic is opened.
 - Existing tab keyboard navigation, language pills, shortcuts dialog focus trap, timer history, Zoom status copy and header bounds.
+- Auto-exit recovery: a stale `Exiting Zoom now...` state unlocks as failed, while a firing timer reconciles as completed when Zoom reports that Hoge Heer has left.
 - Browser console errors checked at all seven viewports; none found.
 - No real Zoom, timer-exit, playback or queue action fired during QA.
 

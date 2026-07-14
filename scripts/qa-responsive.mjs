@@ -206,6 +206,28 @@ try {
       localStorage.setItem("docflock_zoom_leave_timer", JSON.stringify({ status: "completed", completedAt: Date.now() }));
       renderZoomLeaveTimer();
       result.timerHistorySeparated = document.getElementById("zoom-leave-timer-status").textContent === "No timer set" && document.getElementById("zoom-leave-timer-history").textContent.startsWith("Last auto-exit:");
+      localStorage.setItem("docflock_zoom_leave_timer", JSON.stringify({
+        id: "stale-firing",
+        status: "firing",
+        deadline: Date.now() - 61000,
+      }));
+      tickZoomLeaveTimer();
+      result.staleFiringTimerRecovers = document.getElementById("zoom-leave-timer-status").textContent === "No timer set"
+        && document.getElementById("zoom-leave-timer-history").textContent.startsWith("Last auto-exit failed:")
+        && !document.getElementById("zoom-leave-timer-minutes").disabled
+        && !document.getElementById("zoom-leave-timer-start").classList.contains("hidden");
+      localStorage.setItem("docflock_zoom_leave_timer", JSON.stringify({
+        id: "finished-while-away",
+        status: "firing",
+        firedAt: Date.now(),
+      }));
+      window.__zoomJoined = false;
+      await fetchZoomState();
+      result.firingTimerReconcilesWithZoomState = readZoomLeaveTimer().status === "completed"
+        && document.getElementById("zoom-leave-timer-status").textContent === "No timer set"
+        && document.getElementById("zoom-leave-timer-history").textContent.startsWith("Last auto-exit:");
+      window.__zoomJoined = true;
+      await fetchZoomState();
       localStorage.removeItem("docflock_zoom_leave_timer");
       renderZoomLeaveTimer(null);
 
